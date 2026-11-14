@@ -1,3 +1,4 @@
 fastapi>=0.115,<1
 uvicorn[standard]>=0.34,<1
 httpx>=0.28,<1
+# Local-demo persistence uses Python's standard-library sqlite3; no payment SDK is used.

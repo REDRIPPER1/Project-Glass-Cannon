@@ -1,0 +1,134 @@
+"""Dependency-free endpoint-function coverage for the optional local-demo API.
+
+FastAPI's TestClient coverage lives in test_platform.py and runs whenever the
+requirements are installed. This suite keeps the local contract executable in
+minimal authoring environments too.
+"""
+
+from __future__ import annotations
+
+import importlib
+import sys
+from types import ModuleType
+import unittest
+from unittest.mock import patch
+
+from backend.catalog import load_catalogs
+from backend.store import DemoStore
+
+
+def _load_main_with_fastapi_stub():
+    if "backend.main" in sys.modules:
+        return sys.modules["backend.main"]
+    fastapi = ModuleType("fastapi")
+
+    class HTTPException(Exception):
+        def __init__(self, status_code, detail):
+            self.status_code = status_code
+            self.detail = detail
+            super().__init__(str(detail))
+
+    class FastAPI:
+        def __init__(self, *args, **kwargs):
+            pass
+
+        def add_middleware(self, *args, **kwargs):
+            pass
+
+        @staticmethod
+        def _route(*args, **kwargs):
+            return lambda function: function
+
+        get = _route
+        post = _route
+        put = _route
+        patch = _route
+        delete = _route
+
+    cors = ModuleType("fastapi.middleware.cors")
+    cors.CORSMiddleware = object
+    sys.modules["fastapi"] = fastapi
+    sys.modules["fastapi.middleware"] = ModuleType("fastapi.middleware")
+    sys.modules["fastapi.middleware.cors"] = cors
+    fastapi.FastAPI = FastAPI
+    fastapi.HTTPException = HTTPException
+    return importlib.import_module("backend.main")
+
+
+class EndpointContractTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.main = _load_main_with_fastapi_stub()
+
+    def setUp(self):
+        self.store = DemoStore(load_catalogs())
+        self.store_patch = patch.object(self.main, "platform_store", self.store)
+        self.store_patch.start()
+        self.profile = self.main.create_profile({"displayName": "Contract Reader"})
+        self.profile_id = self.profile["id"]
+
+    def tearDown(self):
+        self.store_patch.stop()
+
+    def _error_code(self, action):
+        with self.assertRaises(self.main.HTTPException) as error:
+            action()
+        return error.exception.detail["code"]
+
+    def test_profile_pet_accessory_wishlist_and_catalog_contracts(self):
+        self.assertEqual(self.main.get_profile(self.profile_id)["id"], self.profile_id)
+        self.assertEqual(self.main.update_profile(self.profile_id, {"preferences": {"theme": "sky"}})["preferences"]["theme"], "sky")
+        self.assertEqual(self.main.rename_pet(self.profile_id, "moss-mouse", {"name": "Mossy"})["name"], "Mossy")
+        self.assertEqual(self.main.select_active_pet(self.profile_id, "page-finch")["activePetId"], "page-finch")
+        self.assertEqual(self.main.add_wishlist_item(self.profile_id, "book", "wizard-of-oz")["wishlist"][0]["catalogId"], "wizard-of-oz")
+        self.assertEqual(self.main.remove_wishlist_item(self.profile_id, "book", "wizard-of-oz")["wishlist"], [])
+        self.assertEqual(len(self.main.list_pets()), 9)
+        self.assertEqual(self.main.get_pet("moss-mouse")["rightsStatus"], "original")
+        self.assertEqual(len(self.main.list_accessories()), 4)
+        self.assertEqual(len(self.main.list_eggs()), 2)
+        self.assertEqual(self.main.list_events()[0]["petId"], "seasonal-phoenix")
+        self.assertEqual(self._error_code(lambda: self.main.get_pet("missing")), "invalid_catalog_id")
+
+    def test_progress_rewards_shop_and_egg_contracts(self):
+        self.assertEqual(self.main.award_xp(self.profile_id, {"amount": 100, "source": "quest-complete"})["level"], 2)
+        self.assertEqual(self.main.get_progress(self.profile_id)["xp"], 100)
+        self.assertTrue(self.main.list_badges())
+        self.assertTrue(self.main.list_achievements())
+        reward = self.main.list_rewards(self.profile_id)[0]
+        self.assertEqual(self.main.claim_reward(self.profile_id, reward["id"])["claimStatus"], "claimed")
+        self.assertEqual(self._error_code(lambda: self.main.claim_reward(self.profile_id, reward["id"])), "duplicate_claim")
+        self.assertTrue(self.main.list_shop_items())
+        scarf = self.main.purchase_item(self.profile_id, {"shopItemId": "shop-oak-leaf-scarf"})
+        self.assertTrue(scarf["mocked"])
+        self.assertIn("neck", self.main.equip_accessory(self.profile_id, "oak-leaf-scarf")["equippedAccessories"])
+        self.main.unequip_accessory(self.profile_id, "neck")
+        self.assertTrue(self.main.reverse_purchase(self.profile_id, scarf["id"])["reversed"])
+        self.main.purchase_item(self.profile_id, {"shopItemId": "shop-storybook-egg"})
+        self.assertTrue(self.main.open_egg(self.profile_id, "storybook-egg", {"deterministicDemo": True})["deterministicDemo"])
+        self.assertEqual(self._error_code(lambda: self.main.purchase_item(self.profile_id, {"shopItemId": "missing"})), "invalid_catalog_id")
+
+    def test_books_entitlements_passes_ads_and_analytics_contracts(self):
+        self.assertTrue(self.main.list_books())
+        self.assertEqual(self.main.get_book("wizard-of-oz")["rightsStatus"], "verified")
+        self.assertTrue(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")["allowed"])
+        self.assertFalse(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
+        self.assertTrue(self.main.check_vocabulary_access(self.profile_id, "wizard-of-oz")["allowed"])
+        self.assertTrue(self.main.check_quiz_access(self.profile_id, "wizard-of-oz", "basic")["allowed"])
+        self.assertEqual(self.main.get_subscription(self.profile_id)["plan"], "free")
+        self.assertEqual(self.main.set_demo_entitlement(self.profile_id, {"plan": "premium", "demoEntitlement": True})["plan"], "premium")
+        self.assertTrue(self.main.check_quiz_access(self.profile_id, "wizard-of-oz", "advanced")["allowed"])
+        self.assertFalse(self.main.get_ad_placement(self.profile_id, "after-quest")["eligible"])
+        with patch("backend.store.is_expired", return_value=False):
+            passes = self.main.list_battle_passes(self.profile_id)
+            self.assertTrue(passes)
+            self.main.add_battle_pass_progress(self.profile_id, "2026-11-basic", {"amount": 100, "source": "quest-complete"})
+            claimed = self.main.claim_battle_pass_reward(self.profile_id, "2026-11-basic", "basic-rare-moon-pin")
+            self.assertEqual(claimed["reward"]["rarity"], "Rare")
+            self.assertEqual(self.main.get_battle_pass(self.profile_id, "2026-11-basic")["plan"], "basic")
+        event = self.main.record_analytics(self.profile_id, {"eventType": "return_used", "properties": {"screen": "home"}})
+        self.assertEqual(event["eventType"], "return_used")
+        self.assertEqual(self._error_code(lambda: self.main.record_analytics(self.profile_id, {"eventType": "return_used", "properties": {"name": "not allowed"}})), "unsafe_analytics_properties")
+
+
+if __name__ == "__main__":
+    unittest.main()

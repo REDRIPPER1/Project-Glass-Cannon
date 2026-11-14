@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections.abc import Mapping
+from copy import deepcopy
 from functools import lru_cache
 import json
 from pathlib import Path
@@ -8,6 +9,9 @@ import re
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+
+from .catalog import CatalogError, load_catalogs
+from .store import DemoStore, PlatformError, create_store
 
 app = FastAPI(
     title="ReadQuest API",
@@ -18,6 +22,8 @@ app = FastAPI(
 )
 
 QUEST_DIRECTORY = Path(__file__).resolve().parent / "data"
+CATALOGS = load_catalogs()
+platform_store: DemoStore = create_store(CATALOGS)
 WORD_PATTERN = re.compile(r"[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)?")
 
 REQUIRED_QUEST_FIELDS = frozenset(
@@ -406,3 +412,218 @@ def get_quest(quest_id: str):
             },
         )
     return quest
+
+
+# The APIs below are optional local-demo services. The browser remains able to
+# run the reviewed reading quests from bundled JSON with this service stopped.
+def _platform(action):
+    try:
+        return action()
+    except PlatformError as error:
+        raise HTTPException(
+            status_code=error.status_code,
+            detail={"code": error.code, "message": str(error)},
+        ) from error
+    except CatalogError as error:
+        raise HTTPException(
+            status_code=503,
+            detail={"code": "catalog_unavailable", "message": "Reviewed demo catalogs are unavailable."},
+        ) from error
+
+
+@app.post("/api/profiles", status_code=201, summary="Create an anonymous local-demo profile")
+def create_profile(payload: dict[str, object] | None = None):
+    payload = payload or {}
+    return _platform(
+        lambda: platform_store.create_profile(
+            payload.get("displayName") if isinstance(payload.get("displayName"), str) else None,
+            payload.get("demoPlan", "free") if isinstance(payload.get("demoPlan", "free"), str) else "",
+        )
+    )
+
+
+@app.get("/api/profiles/{profile_id}", summary="Retrieve an anonymous profile")
+def get_profile(profile_id: str):
+    return _platform(lambda: platform_store.get_profile(profile_id))
+
+
+@app.patch("/api/profiles/{profile_id}", summary="Update safe local profile preferences")
+def update_profile(profile_id: str, payload: dict[str, object]):
+    return _platform(lambda: platform_store.update_profile(profile_id, dict(payload)))
+
+
+@app.patch("/api/profiles/{profile_id}/pets/{pet_id}/name", summary="Set an owned pet nickname")
+def rename_pet(profile_id: str, pet_id: str, payload: dict[str, object]):
+    name = payload.get("name")
+    return _platform(lambda: platform_store.rename_pet(profile_id, pet_id, name if isinstance(name, str) else ""))
+
+
+@app.put("/api/profiles/{profile_id}/active-pet/{pet_id}", summary="Select an owned active pet")
+def select_active_pet(profile_id: str, pet_id: str):
+    return _platform(lambda: platform_store.set_active_pet(profile_id, pet_id))
+
+
+@app.put("/api/profiles/{profile_id}/accessories/{accessory_id}", summary="Equip a compatible owned accessory")
+def equip_accessory(profile_id: str, accessory_id: str):
+    return _platform(lambda: platform_store.equip_accessory(profile_id, accessory_id))
+
+
+@app.delete("/api/profiles/{profile_id}/accessories/{category}", summary="Unequip an accessory category")
+def unequip_accessory(profile_id: str, category: str):
+    return _platform(lambda: platform_store.unequip_accessory(profile_id, category))
+
+
+@app.put("/api/profiles/{profile_id}/wishlist/{item_type}/{catalog_id}", summary="Add an item to a wishlist")
+def add_wishlist_item(profile_id: str, item_type: str, catalog_id: str):
+    return _platform(lambda: platform_store.change_wishlist(profile_id, item_type, catalog_id, True))
+
+
+@app.delete("/api/profiles/{profile_id}/wishlist/{item_type}/{catalog_id}", summary="Remove an item from a wishlist")
+def remove_wishlist_item(profile_id: str, item_type: str, catalog_id: str):
+    return _platform(lambda: platform_store.change_wishlist(profile_id, item_type, catalog_id, False))
+
+
+@app.get("/api/catalog/pets", summary="List companion catalog")
+def list_pets():
+    return deepcopy(CATALOGS["pets"])
+
+
+@app.get("/api/catalog/pets/{pet_id}", summary="Get companion details and rights metadata")
+def get_pet(pet_id: str):
+    return _platform(lambda: platform_store._catalog_item(platform_store.pets, pet_id, "pet"))
+
+
+@app.get("/api/catalog/accessories", summary="List accessory catalog")
+def list_accessories():
+    return deepcopy(CATALOGS["accessories"])
+
+
+@app.get("/api/catalog/eggs", summary="List egg catalog and explicit odds")
+def list_eggs():
+    return deepcopy(CATALOGS["eggs"])
+
+
+@app.get("/api/catalog/events", summary="List event-only catalog availability")
+def list_events():
+    return deepcopy(CATALOGS["events"])
+
+
+@app.post("/api/profiles/{profile_id}/xp", summary="Record a bounded quest or demo XP award")
+def award_xp(profile_id: str, payload: dict[str, object]):
+    return _platform(lambda: platform_store.add_xp(profile_id, payload.get("amount"), payload.get("source")))
+
+
+@app.get("/api/profiles/{profile_id}/progress", summary="Get levels, badges, achievements, and map nodes")
+def get_progress(profile_id: str):
+    return _platform(lambda: platform_store.progress(profile_id))
+
+
+@app.get("/api/catalog/badges", summary="List badge definitions")
+def list_badges():
+    return deepcopy(CATALOGS["badges"])
+
+
+@app.get("/api/catalog/achievements", summary="List achievement definitions")
+def list_achievements():
+    return deepcopy(CATALOGS["achievements"])
+
+
+@app.get("/api/profiles/{profile_id}/rewards", summary="List issued reward instances")
+def list_rewards(profile_id: str):
+    return _platform(lambda: platform_store.rewards_for_profile(profile_id))
+
+
+@app.post("/api/profiles/{profile_id}/rewards/{reward_instance_id}/claim", summary="Claim an issued reward once")
+def claim_reward(profile_id: str, reward_instance_id: str):
+    return _platform(lambda: platform_store.claim_reward(profile_id, reward_instance_id))
+
+
+@app.get("/api/catalog/shop", summary="List local mock shop items")
+def list_shop_items():
+    return deepcopy(CATALOGS["shopItems"])
+
+
+@app.post("/api/profiles/{profile_id}/purchases", summary="Make a reversible local-demo purchase")
+def purchase_item(profile_id: str, payload: dict[str, object]):
+    shop_item_id = payload.get("shopItemId")
+    return _platform(lambda: platform_store.purchase(profile_id, shop_item_id if isinstance(shop_item_id, str) else ""))
+
+
+@app.post("/api/profiles/{profile_id}/purchases/{purchase_id}/reverse", summary="Reverse an unused mock purchase")
+def reverse_purchase(profile_id: str, purchase_id: str):
+    return _platform(lambda: platform_store.reverse_purchase(profile_id, purchase_id))
+
+
+@app.post("/api/profiles/{profile_id}/eggs/{egg_id}/open", summary="Open a purchased egg with validated demo odds")
+def open_egg(profile_id: str, egg_id: str, payload: dict[str, object] | None = None):
+    payload = payload or {}
+    deterministic = payload.get("deterministicDemo", True)
+    return _platform(lambda: platform_store.open_egg(profile_id, egg_id, deterministic is not False))
+
+
+@app.get("/api/catalog/books", summary="List book metadata and access tiers")
+def list_books():
+    return deepcopy(CATALOGS["books"])
+
+
+@app.get("/api/catalog/books/{book_id}", summary="Get book rights and chapter metadata")
+def get_book(book_id: str):
+    return _platform(lambda: platform_store._catalog_item(platform_store.books, book_id, "book"))
+
+
+@app.get("/api/profiles/{profile_id}/books/{book_id}/chapters/{chapter_id}/access", summary="Check chapter access")
+def check_chapter_access(profile_id: str, book_id: str, chapter_id: str):
+    return _platform(lambda: platform_store.book_access(profile_id, book_id, chapter_id, "chapter"))
+
+
+@app.get("/api/profiles/{profile_id}/books/{book_id}/vocabulary/access", summary="Check vocabulary access")
+def check_vocabulary_access(profile_id: str, book_id: str):
+    return _platform(lambda: platform_store.book_access(profile_id, book_id, None, "vocabulary"))
+
+
+@app.get("/api/profiles/{profile_id}/books/{book_id}/quizzes/{difficulty}/access", summary="Check quiz-difficulty access")
+def check_quiz_access(profile_id: str, book_id: str, difficulty: str):
+    return _platform(lambda: platform_store.book_access(profile_id, book_id, difficulty, "quiz"))
+
+
+@app.get("/api/profiles/{profile_id}/subscription", summary="Get Free, Basic, or Premium demo entitlement")
+def get_subscription(profile_id: str):
+    return _platform(lambda: platform_store.subscription(profile_id))
+
+
+@app.post("/api/profiles/{profile_id}/subscription/demo", summary="Set an explicit local demo entitlement")
+def set_demo_entitlement(profile_id: str, payload: dict[str, object]):
+    plan = payload.get("plan")
+    return _platform(lambda: platform_store.set_demo_entitlement(profile_id, plan if isinstance(plan, str) else "", payload.get("demoEntitlement") is True))
+
+
+@app.get("/api/profiles/{profile_id}/battle-passes", summary="List Basic and Premium monthly passes")
+def list_battle_passes(profile_id: str):
+    return _platform(lambda: [platform_store.battle_pass(profile_id, item["id"]) for item in CATALOGS["battlePasses"]])
+
+
+@app.get("/api/profiles/{profile_id}/battle-passes/{pass_id}", summary="Get pass progress and claim state")
+def get_battle_pass(profile_id: str, pass_id: str):
+    return _platform(lambda: platform_store.battle_pass(profile_id, pass_id))
+
+
+@app.post("/api/profiles/{profile_id}/battle-passes/{pass_id}/progress", summary="Add validated quest progress")
+def add_battle_pass_progress(profile_id: str, pass_id: str, payload: dict[str, object]):
+    return _platform(lambda: platform_store.add_battle_pass_progress(profile_id, pass_id, payload.get("amount"), payload.get("source")))
+
+
+@app.post("/api/profiles/{profile_id}/battle-passes/{pass_id}/rewards/{reward_id}/claim", summary="Claim an unlocked pass reward once")
+def claim_battle_pass_reward(profile_id: str, pass_id: str, reward_id: str):
+    return _platform(lambda: platform_store.claim_battle_pass_reward(profile_id, pass_id, reward_id))
+
+
+@app.get("/api/profiles/{profile_id}/ads/{placement_id}", summary="Get a non-targeted safe promotional placement")
+def get_ad_placement(profile_id: str, placement_id: str):
+    return _platform(lambda: platform_store.ad_placement(profile_id, placement_id))
+
+
+@app.post("/api/profiles/{profile_id}/analytics", status_code=201, summary="Record an approved anonymous product event")
+def record_analytics(profile_id: str, payload: dict[str, object]):
+    event_type = payload.get("eventType")
+    properties = payload.get("properties", {})
+    return _platform(lambda: platform_store.record_event(profile_id, event_type if isinstance(event_type, str) else "", properties if isinstance(properties, dict) else {}))
