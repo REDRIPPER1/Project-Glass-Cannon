@@ -72,9 +72,10 @@ export function rightsStatus(quest) {
   const source = quest.source;
   if (!source) return { ready: false, message: 'The quest needs source and rights metadata.' };
 
+  // Original passages may carry bookTitle as their own title metadata. Only
+  // treat an explicitly excerpt-typed source as requiring book-rights fields.
   const isBookExcerpt = source.sourceType === 'book-excerpt'
-    || source.sourceType === 'public-domain-book-excerpt'
-    || Boolean(source.bookTitle);
+    || source.sourceType === 'public-domain-book-excerpt';
   if (isBookExcerpt) {
     const fields = ['bookTitle', 'edition', 'chapter', 'sourceUrl', 'publicDomainBasis', 'license', 'requiredAttribution', 'territory'];
     const missing = fields.filter((field) => !source[field]);
