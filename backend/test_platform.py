@@ -39,6 +39,7 @@ class CatalogAndStoreTests(unittest.TestCase):
     def test_profile_mutations_validate_ownership_compatibility_and_wishlist(self):
         renamed = self.store.rename_pet(self.profile_id, "moss-mouse", "Mossy")
         self.assertEqual(renamed["name"], "Mossy")
+        self.assertEqual(self.store.get_profile(self.profile_id)["petNames"]["moss-mouse"], "Mossy")
         with self.assertRaisesRegex(PlatformError, "must be owned"):
             self.store.set_active_pet(self.profile_id, "comet-bat")
         self.store.purchase(self.profile_id, "shop-reading-lamp-cap")
@@ -121,6 +122,7 @@ class PlatformApiTests(unittest.TestCase):
         self.assertEqual(self.client.get("/api/catalog/pets/moss-mouse").json()["rightsStatus"], "original")
         self.assertEqual(self.client.patch(f"/api/profiles/{self.profile_id}", json={"preferences": {"theme": "sky"}}).status_code, 200)
         self.assertEqual(self.client.patch(f"/api/profiles/{self.profile_id}/pets/moss-mouse/name", json={"name": "Maple"}).status_code, 200)
+        self.assertEqual(self.client.get(f"/api/profiles/{self.profile_id}/currencies").status_code, 200)
         self.assertEqual(self.client.put(f"/api/profiles/{self.profile_id}/wishlist/book/wizard-of-oz").status_code, 200)
         self.assertEqual(self.client.delete(f"/api/profiles/{self.profile_id}/wishlist/book/wizard-of-oz").status_code, 200)
 
