@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "wizard-cyclone-inference",
+  "title": "A House in the Wind",
+  "topic": "Classic fantasy",
+  "difficulty": "Grades 4–8",
+  "estimatedMinutes": 4,
+  "targetSkill": {
+    "id": "making-inferences-from-details",
+    "label": "Making inferences from details"
+  },
+  "skillTags": [
+    "inference",
+    "text evidence"
+  ],
+  "workedExample": {
+    "prompt": "What can you infer from Aunt Em climbing into the small, dark hole?",
+    "answer": "She believes the storm is dangerous and wants to get to safety.",
+    "reasoning": "Aunt Em is described as badly frightened and climbs into the cyclone cellar. Those details show that she thinks the storm could hurt them.",
+    "evidenceSentenceId": "s2"
+  },
+  "source": {
+    "bookTitle": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "chapter": "Chapter I: The Cyclone",
+    "originalPublication": "George M. Hill Co., 1900",
+    "sourceUrl": "https://www.loc.gov/item/03032405/",
+    "rightsStatus": "Public domain in the United States",
+    "publicDomainBasis": "The Library of Congress identifies its 1900 Children's Book Selections, including this edition, as public domain and free to use and reuse.",
+    "license": "Public-domain text; no copyright license is required to reuse the underlying 1900 book in the United States.",
+    "requiredAttribution": "No legal attribution is required for this U.S. public-domain text. ReadQuest should display: L. Frank Baum, The Wonderful Wizard of Oz (1900), Chapter I: The Cyclone. Source: Library of Congress.",
+    "territoryNote": "This rights determination is for use in the United States. Verify local law before reuse outside the United States."
+  },
+  "passage": {
+    "wordCount": 241,
+    "sentences": [
+      {
+        "id": "s1",
+        "paragraphId": "p1",
+        "text": "Toto jumped out of Dorothy’s arms and hid under the bed, and the girl started to get him."
+      },
+      {
+        "id": "s2",
+        "paragraphId": "p1",
+        "text": "Aunt Em, badly frightened, threw open the trap door in the floor and climbed down the ladder into the small, dark hole."
+      },
+      {
+        "id": "s3",
+        "paragraphId": "p1",
+        "text": "Dorothy caught Toto at last and started to follow her aunt."
+      },
+      {
+        "id": "s4",
+        "paragraphId": "p1",
+        "text": "When she was halfway across the room there came a great shriek from the wind, and the house shook so hard that she lost her footing and sat down suddenly upon the floor."
+      },
+      {
+        "id": "s5",
+        "paragraphId": "p2",
+        "text": "Then a strange thing happened."
+      },
+      {
+        "id": "s6",
+        "paragraphId": "p2",
+        "text": "The house whirled around two or three times and rose slowly through the air."
+      },
+      {
+        "id": "s7",
+        "paragraphId": "p2",
+        "text": "Dorothy felt as if she were going up in a balloon."
+      },
+      {
+        "id": "s8",
+        "paragraphId": "p3",
+        "text": "The north and south winds met where the house stood, and made it the exact center of the cyclone."
+      },
+      {
+        "id": "s9",
+        "paragraphId": "p3",
+        "text": "In the middle of a cyclone the air is generally still, but the great pressure of the wind on every side of the house raised it up higher and higher, until it was at the very top of the cyclone; and there it remained and was carried miles and miles away as easily as you could carry a feather."
+      },
+      {
+        "id": "s10",
+        "paragraphId": "p4",
+        "text": "It was very dark, and the wind howled horribly around her, but Dorothy found she was riding quite easily."
+      },
+      {
+        "id": "s11",
+        "paragraphId": "p4",
+        "text": "After the first few whirls around, and one other time when the house tipped badly, she felt as if she were being rocked gently, like a baby in a cradle."
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "p1",
+        "sentenceIds": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "id": "p2",
+        "sentenceIds": [
+          "s5",
+          "s6",
+          "s7"
+        ]
+      },
+      {
+        "id": "p3",
+        "sentenceIds": [
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "id": "p4",
+        "sentenceIds": [
+          "s10",
+          "s11"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1-reach-shelter",
+      "type": "multiple-choice",
+      "targetSkill": "making-inferences-from-details",
+      "prompt": "Why does Dorothy fail to reach the cyclone cellar before the house lifts into the air?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She goes after Toto, and the shaking knocks her down."
+        },
+        {
+          "id": "b",
+          "text": "Aunt Em locks the cellar door before Dorothy gets there."
+        },
+        {
+          "id": "c",
+          "text": "She decides the storm is not dangerous."
+        },
+        {
+          "id": "d",
+          "text": "Uncle Henry tells her to stay in the house."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Dorothy first stops to rescue Toto. As she starts toward Aunt Em, the wind shakes the house so hard that she loses her footing. Together, those details explain why she is still inside.",
+      "evidenceOptions": [
+        {
+          "sentenceId": "s1",
+          "text": "Toto jumped out of Dorothy’s arms and hid under the bed, and the girl started to get him."
+        },
+        {
+          "sentenceId": "s4",
+          "text": "When she was halfway across the room there came a great shriek from the wind, and the house shook so hard that she lost her footing and sat down suddenly upon the floor."
+        },
+        {
+          "sentenceId": "s6",
+          "text": "The house whirled around two or three times and rose slowly through the air."
+        },
+        {
+          "sentenceId": "s11",
+          "text": "After the first few whirls around, and one other time when the house tipped badly, she felt as if she were being rocked gently, like a baby in a cradle."
+        }
+      ],
+      "correctEvidenceSentenceId": "s4",
+      "storyConsequence": "You follow Toto’s pawprints to the storm-shelter map.",
+      "followUpSuggestion": "Look for a character’s action and the result that follows it."
+    },
+    {
+      "id": "q2-journey",
+      "type": "multiple-choice",
+      "targetSkill": "making-inferences-from-details",
+      "prompt": "What can you infer about where Dorothy will end up after the cyclone?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She may land far from her home."
+        },
+        {
+          "id": "b",
+          "text": "She will land in the same room where Aunt Em is hiding."
+        },
+        {
+          "id": "c",
+          "text": "She will be carried only as far as the horse sheds."
+        },
+        {
+          "id": "d",
+          "text": "She will return to the doorway right away."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The wind carries the house miles and miles away. That detail lets the reader infer that Dorothy may arrive far from home.",
+      "evidenceOptions": [
+        {
+          "sentenceId": "s2",
+          "text": "Aunt Em, badly frightened, threw open the trap door in the floor and climbed down the ladder into the small, dark hole."
+        },
+        {
+          "sentenceId": "s7",
+          "text": "Dorothy felt as if she were going up in a balloon."
+        },
+        {
+          "sentenceId": "s9",
+          "text": "In the middle of a cyclone the air is generally still, but the great pressure of the wind on every side of the house raised it up higher and higher, until it was at the very top of the cyclone; and there it remained and was carried miles and miles away as easily as you could carry a feather."
+        },
+        {
+          "sentenceId": "s10",
+          "text": "It was very dark, and the wind howled horribly around her, but Dorothy found she was riding quite easily."
+        }
+      ],
+      "correctEvidenceSentenceId": "s9",
+      "storyConsequence": "You mark a distant landing point on the quest map.",
+      "followUpSuggestion": "Use a stated detail to predict what may happen next."
+    },
+    {
+      "id": "q3-dorothy-feeling",
+      "type": "multiple-choice",
+      "targetSkill": "making-inferences-from-details",
+      "prompt": "How is Dorothy most likely feeling near the end of the excerpt?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Calmer than she was when the house first shook."
+        },
+        {
+          "id": "b",
+          "text": "Certain that the storm has ended."
+        },
+        {
+          "id": "c",
+          "text": "Angry with Aunt Em for entering the cellar."
+        },
+        {
+          "id": "d",
+          "text": "Excited to fly the house like a balloon."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The house is still moving, but Dorothy says it feels like she is being rocked gently. That comparison suggests she has become calmer even though the storm continues.",
+      "evidenceOptions": [
+        {
+          "sentenceId": "s4",
+          "text": "When she was halfway across the room there came a great shriek from the wind, and the house shook so hard that she lost her footing and sat down suddenly upon the floor."
+        },
+        {
+          "sentenceId": "s6",
+          "text": "The house whirled around two or three times and rose slowly through the air."
+        },
+        {
+          "sentenceId": "s10",
+          "text": "It was very dark, and the wind howled horribly around her, but Dorothy found she was riding quite easily."
+        },
+        {
+          "sentenceId": "s11",
+          "text": "After the first few whirls around, and one other time when the house tipped badly, she felt as if she were being rocked gently, like a baby in a cradle."
+        }
+      ],
+      "correctEvidenceSentenceId": "s11",
+      "storyConsequence": "The house steadies, opening the next path in the quest.",
+      "followUpSuggestion": "Notice comparisons that reveal how a character feels."
+    }
+  ]
+}
