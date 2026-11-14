@@ -4,126 +4,82 @@
   "title": "A House in the Wind",
   "topic": "Classic fantasy",
   "difficulty": "Grades 4–8",
-  "estimatedMinutes": 4,
-  "targetSkill": {
-    "id": "making-inferences-from-details",
-    "label": "Making inferences from details"
-  },
+  "readingTimeMinutes": 4,
+  "passageWordCount": 241,
   "skillTags": [
     "inference",
     "text evidence"
   ],
   "workedExample": {
-    "prompt": "What can you infer from Aunt Em climbing into the small, dark hole?",
+    "title": "Use a clue to infer",
+    "notice": "First think about what a detail suggests. Then find the sentence that proves it.",
+    "think": "Aunt Em is badly frightened and climbs into the cyclone cellar.",
+    "prove": "That action suggests she believes the storm is dangerous and wants to get to safety.",
     "answer": "She believes the storm is dangerous and wants to get to safety.",
-    "reasoning": "Aunt Em is described as badly frightened and climbs into the cyclone cellar. Those details show that she thinks the storm could hurt them.",
-    "evidenceSentenceId": "s2"
+    "evidence": "s2"
   },
   "source": {
+    "sourceType": "public-domain-book-excerpt",
+    "rightsStatus": "verified",
+    "label": "Public-domain U.S. text · 1900",
     "bookTitle": "The Wonderful Wizard of Oz",
     "author": "L. Frank Baum",
+    "edition": "First edition, Geo. M. Hill Co., 1900",
     "chapter": "Chapter I: The Cyclone",
     "originalPublication": "George M. Hill Co., 1900",
     "sourceUrl": "https://www.loc.gov/item/03032405/",
-    "rightsStatus": "Public domain in the United States",
     "publicDomainBasis": "The Library of Congress identifies its 1900 Children's Book Selections, including this edition, as public domain and free to use and reuse.",
     "license": "Public-domain text; no copyright license is required to reuse the underlying 1900 book in the United States.",
     "requiredAttribution": "No legal attribution is required for this U.S. public-domain text. ReadQuest should display: L. Frank Baum, The Wonderful Wizard of Oz (1900), Chapter I: The Cyclone. Source: Library of Congress.",
+    "territory": "US",
     "territoryNote": "This rights determination is for use in the United States. Verify local law before reuse outside the United States."
   },
-  "passage": {
-    "wordCount": 241,
-    "sentences": [
+  "passage": [
       {
         "id": "s1",
-        "paragraphId": "p1",
         "text": "Toto jumped out of Dorothy’s arms and hid under the bed, and the girl started to get him."
       },
       {
         "id": "s2",
-        "paragraphId": "p1",
         "text": "Aunt Em, badly frightened, threw open the trap door in the floor and climbed down the ladder into the small, dark hole."
       },
       {
         "id": "s3",
-        "paragraphId": "p1",
         "text": "Dorothy caught Toto at last and started to follow her aunt."
       },
       {
         "id": "s4",
-        "paragraphId": "p1",
         "text": "When she was halfway across the room there came a great shriek from the wind, and the house shook so hard that she lost her footing and sat down suddenly upon the floor."
       },
       {
         "id": "s5",
-        "paragraphId": "p2",
         "text": "Then a strange thing happened."
       },
       {
         "id": "s6",
-        "paragraphId": "p2",
         "text": "The house whirled around two or three times and rose slowly through the air."
       },
       {
         "id": "s7",
-        "paragraphId": "p2",
         "text": "Dorothy felt as if she were going up in a balloon."
       },
       {
         "id": "s8",
-        "paragraphId": "p3",
         "text": "The north and south winds met where the house stood, and made it the exact center of the cyclone."
       },
       {
         "id": "s9",
-        "paragraphId": "p3",
         "text": "In the middle of a cyclone the air is generally still, but the great pressure of the wind on every side of the house raised it up higher and higher, until it was at the very top of the cyclone; and there it remained and was carried miles and miles away as easily as you could carry a feather."
       },
       {
         "id": "s10",
-        "paragraphId": "p4",
         "text": "It was very dark, and the wind howled horribly around her, but Dorothy found she was riding quite easily."
       },
       {
         "id": "s11",
-        "paragraphId": "p4",
         "text": "After the first few whirls around, and one other time when the house tipped badly, she felt as if she were being rocked gently, like a baby in a cradle."
       }
     ],
-    "paragraphs": [
-      {
-        "id": "p1",
-        "sentenceIds": [
-          "s1",
-          "s2",
-          "s3",
-          "s4"
-        ]
-      },
-      {
-        "id": "p2",
-        "sentenceIds": [
-          "s5",
-          "s6",
-          "s7"
-        ]
-      },
-      {
-        "id": "p3",
-        "sentenceIds": [
-          "s8",
-          "s9"
-        ]
-      },
-      {
-        "id": "p4",
-        "sentenceIds": [
-          "s10",
-          "s11"
-        ]
-      }
-    ]
-  },
   "questions": [
     {
       "id": "q1-reach-shelter",
@@ -169,7 +125,12 @@
         }
       ],
       "correctEvidenceSentenceId": "s4",
-      "storyConsequence": "You follow Toto’s pawprints to the storm-shelter map.",
+      "storyConsequence": {
+        "strongTitle": "Toto’s trail appears",
+        "strongMessage": "You connected Dorothy’s action to the storm’s result.",
+        "practiceTitle": "Follow the storm clues",
+        "practiceMessage": "Try another detail to see what happened next."
+      },
       "followUpSuggestion": "Look for a character’s action and the result that follows it."
     },
     {
@@ -216,7 +177,12 @@
         }
       ],
       "correctEvidenceSentenceId": "s9",
-      "storyConsequence": "You mark a distant landing point on the quest map.",
+      "storyConsequence": {
+        "strongTitle": "A distant route opens",
+        "strongMessage": "You used a detail to infer where Dorothy may go.",
+        "practiceTitle": "Mark the map",
+        "practiceMessage": "Use another clue to predict the journey."
+      },
       "followUpSuggestion": "Use a stated detail to predict what may happen next."
     },
     {
@@ -263,7 +229,12 @@
         }
       ],
       "correctEvidenceSentenceId": "s11",
-      "storyConsequence": "The house steadies, opening the next path in the quest.",
+      "storyConsequence": {
+        "strongTitle": "The house steadies",
+        "strongMessage": "You noticed a detail that reveals Dorothy’s feelings.",
+        "practiceTitle": "Read the feeling clue",
+        "practiceMessage": "Look for another comparison that reveals a feeling."
+      },
       "followUpSuggestion": "Notice comparisons that reveal how a character feels."
     }
   ]

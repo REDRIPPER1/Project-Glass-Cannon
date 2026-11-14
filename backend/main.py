@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="ReadQuest API")
 
-QUEST_DIRECTORY = Path(__file__).resolve().parents[1] / "content" / "quests"
+QUEST_DIRECTORY = Path(__file__).resolve().parent / "data"
 
 app.add_middleware(
     CORSMiddleware,
@@ -25,14 +25,57 @@ def health_check():
 
 def _validate_quest(quest: dict) -> None:
     """Fail fast if bundled content cannot support the learner evidence flow."""
-    required_fields = {"id", "title", "source", "passage", "questions"}
+    required_fields = {
+        "id",
+        "title",
+        "topic",
+        "difficulty",
+        "readingTimeMinutes",
+        "skillTags",
+        "source",
+        "passage",
+        "workedExample",
+        "questions",
+    }
     missing_fields = required_fields.difference(quest)
     if missing_fields:
         raise ValueError(f"Quest is missing required fields: {sorted(missing_fields)}")
 
-    sentences = quest["passage"].get("sentences", [])
+    source = quest["source"]
+    required_source_fields = {
+        "sourceType",
+        "rightsStatus",
+        "license",
+        "requiredAttribution",
+        "label",
+    }
+    missing_source_fields = required_source_fields.difference(source)
+    if missing_source_fields:
+        raise ValueError(
+            f"Quest source is missing required fields: {sorted(missing_source_fields)}"
+        )
+    if source["sourceType"] == "public-domain-book-excerpt":
+        required_book_fields = {
+            "bookTitle",
+            "author",
+            "edition",
+            "chapter",
+            "sourceUrl",
+            "publicDomainBasis",
+            "territory",
+        }
+        missing_book_fields = required_book_fields.difference(source)
+        if missing_book_fields or source["rightsStatus"] != "verified":
+            raise ValueError("Public-domain book excerpts require verified source metadata")
+
+    sentences = quest["passage"]
+    if not isinstance(sentences, list):
+        raise ValueError("Quest passage must be a list of sentences")
     sentence_ids = {sentence.get("id") for sentence in sentences}
-    if not sentences or None in sentence_ids:
+    sentence_text_by_id = {sentence.get("id"): sentence.get("text") for sentence in sentences}
+    if not sentences or None in sentence_ids or any(
+        not sentence.get("text") for sentence in sentences
+    ):
         raise ValueError("Quest passage must have uniquely identified sentences")
     if len(sentence_ids) != len(sentences):
         raise ValueError("Quest passage sentence IDs must be unique")
@@ -40,9 +83,8 @@ def _validate_quest(quest: dict) -> None:
     for question in quest["questions"]:
         choices = {choice.get("id") for choice in question.get("choices", [])}
         correct_choice = question.get("correctChoiceId")
-        evidence_ids = {
-            evidence.get("sentenceId") for evidence in question.get("evidenceOptions", [])
-        }
+        evidence_options = question.get("evidenceOptions", [])
+        evidence_ids = {evidence.get("sentenceId") for evidence in evidence_options}
         correct_evidence = question.get("correctEvidenceSentenceId")
 
         if correct_choice not in choices:
@@ -52,6 +94,13 @@ def _validate_quest(quest: dict) -> None:
         if correct_evidence not in evidence_ids:
             raise ValueError(
                 f"Question {question.get('id')} does not offer its correct evidence sentence"
+            )
+        if any(
+            evidence.get("text") != sentence_text_by_id.get(evidence.get("sentenceId"))
+            for evidence in evidence_options
+        ):
+            raise ValueError(
+                f"Question {question.get('id')} has evidence text that does not match the passage"
             )
 
 
@@ -92,8 +141,7 @@ def list_quests():
                 "title",
                 "topic",
                 "difficulty",
-                "estimatedMinutes",
-                "targetSkill",
+                "readingTimeMinutes",
                 "skillTags",
             )
         }

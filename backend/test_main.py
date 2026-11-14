@@ -15,12 +15,18 @@ class QuestContentTests(unittest.TestCase):
         self.assertEqual(health_check()["status"], "ok")
 
     def test_seed_quest_has_three_inference_questions(self):
-        self.assertEqual(self.quest["targetSkill"]["id"], "making-inferences-from-details")
+        self.assertEqual(self.quest["questions"][0]["targetSkill"], "making-inferences-from-details")
         self.assertEqual(len(self.quest["questions"]), 3)
-        self.assertEqual(self.quest["passage"]["wordCount"], 241)
+        self.assertEqual(self.quest["passageWordCount"], 241)
+        self.assertEqual(self.quest["source"]["sourceType"], "public-domain-book-excerpt")
+        self.assertEqual(self.quest["source"]["rightsStatus"], "verified")
+        self.assertEqual(self.quest["source"]["territory"], "US")
 
     def test_every_correct_evidence_reference_exists_and_is_offered(self):
-        sentence_ids = {sentence["id"] for sentence in self.quest["passage"]["sentences"]}
+        sentence_text_by_id = {
+            sentence["id"]: sentence["text"] for sentence in self.quest["passage"]
+        }
+        sentence_ids = set(sentence_text_by_id)
         for question in self.quest["questions"]:
             choice_ids = {choice["id"] for choice in question["choices"]}
             evidence_ids = {
@@ -29,6 +35,10 @@ class QuestContentTests(unittest.TestCase):
             self.assertIn(question["correctChoiceId"], choice_ids)
             self.assertIn(question["correctEvidenceSentenceId"], sentence_ids)
             self.assertIn(question["correctEvidenceSentenceId"], evidence_ids)
+            for evidence in question["evidenceOptions"]:
+                self.assertEqual(
+                    evidence["text"], sentence_text_by_id[evidence["sentenceId"]]
+                )
 
     def test_list_endpoint_returns_a_compact_card(self):
         cards = list_quests()
