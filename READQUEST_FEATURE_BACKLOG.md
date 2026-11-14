@@ -1,227 +1,292 @@
 # ReadQuest Feature Backlog
 
-This is the implementation-ready source of truth for the hackathon. The goal is a polished, judge-friendly demo—not a full learning platform.
+Use this as the app's living feature list. Status: `[ ]` planned · `[-]` in progress · `[x]` complete · `[~]` paused.
 
-## Product promise
+## Product basics
+- [x] MVP — Product promise: help readers understand what they read through short quests and feedback.
+- [x] MVP — Target users: learners from post-kindergarten through high school (roughly grades 1–12, ages 6–18) seeking focused reading practice.
+- [ ] MVP — Launch goal: demonstrate one complete quest in under three minutes.
 
-ReadQuest is a story-driven comprehension game for grades 4–8 learners who need practice making inferences and supporting answers with text evidence. Learners advance the quest through careful reading and reasoning; tutors get a quick view of the skill practiced, answer, chosen evidence, and next practice.
+## Home screen
+- [ ] MVP — Show the next recommended quest.
+- [ ] MVP — Show cards with topic, difficulty, skills, and reading time.
+- [ ] V2 — Add search, topic filters, and a continue-reading section.
 
-## Demo definition of done
+## Learning and reading
+- [ ] MVP — Display original passages with clear typography and reading progress.
+- [ ] MVP — Add 3–5 short passages across mystery, science, technology, and real-world topics.
+- [ ] V2 — Add Gutendex public-domain books with source and rights labels.
 
-From a fresh browser, a judge can:
+## Questions and feedback
+- [ ] MVP — Add four multiple-choice questions per passage.
+- [ ] MVP — Cover main idea, inference, vocabulary, evidence, and author purpose.
+- [ ] MVP — Explain each answer using evidence from the passage.
+- [ ] V2 — Add short-answer questions with rubric-based feedback.
 
-1. See what ReadQuest does and choose a recommended quest.
-2. Read a focused 200–250 word passage with progress and clear typography.
-3. See a brief worked example of the target skill, then answer three questions that practice that same skill without seeing answers early.
-4. Receive explanations grounded in the passage and feedback on the evidence chosen.
-5. Earn XP and see a completion screen.
-6. Open the dashboard and understand progress, skill strengths, and the next recommendation.
-7. Open a one-learner session summary showing the skill practiced, answer, chosen evidence, and one suggested next practice. Use a local demo profile with no real child identifiers.
-8. Reset demo progress and repeat the flow.
+## Learning path
+- [ ] MVP — Recommend an unfinished quest or under-practiced skill.
+- [ ] V2 — Add beginner, growing, and challenge paths.
+- [ ] Later — Add adaptive difficulty based on recent answers.
 
-## Scope levels
+## User profile
 
-- **P0 — Demo blocker:** required for the complete 2–3 minute flow.
-- **P1 — Polish:** makes the demo feel intentional and reliable.
-- **P2 — Post-demo:** valuable, but must not delay the demo.
+- [ ] Customize profile pic from a set of photos
+- [ ] Customize color banner
+- [ ] Add what genre of books you’re interested in so the assignments give more reading texts to adhere to your interests
 
-## Two-day hackathon cut line
+## Friends and social features
 
-**Must ship:** one complete local quest, one visible story consequence tied to an evidence choice, accurate feedback, a simple character/reward response, and the anonymous tutor summary. Make the whole flow repeatable for a judge.
+- [ ] Invite friend
+- [ ]Friend leaderboard
+- [ ] Friend streak
+- [ ] Friend battle
 
-**Add only if the core flow is stable:** a second passage, extra animation, optional sound, or a small skill-progress view.
+## Notifications and reminders
 
-**After the event:** user accounts, a broad content library, AI coaching, multiplayer/social features, complex school reporting, subscriptions, and integration work. Avoid features that cannot be shown working in the final demo.
+- [ ]Your streak is about to end
+- [ ] You lost your spot on the leaderboard
+- [ ] Your friend wants to battle, log in to battle them
 
-## Judge-readiness priorities
+## Subscription plans
 
-- **Make the learning action advance the game:** each correct comprehension move changes the story, opens a path, or earns a meaningful collectible. Use narrative, character reactions, and progress to make learners want another quest. Keep the skill objective visible and the feedback accurate; decorative XP alone does not differentiate ReadQuest.
-- **Capture reasoning, not just the answer:** for each of the three demo questions, ask the learner to choose the supporting sentence before revealing the correct evidence. The tutor summary should show the answers, evidence choices, target skill, and a next practice. A highlight animation alone shows the answer key, not what the learner understood.
-- **Target audience:** long-term, children from early readers through junior high. First segment: grades 4–8 readers needing supplemental comprehension practice; tutors and small reading practices are the first payer to test, with teachers/interventionists as instructional pilot partners. Parents are gatekeepers and a later payer hypothesis.
-- **Name the buyer:** use a teacher/interventionist as the instructional pilot partner; test independent tutors or small tutoring practices as the first payer. Test parent subscriptions and school-wide purchasing later. Keep prices and willingness to pay as hypotheses until interviews support them.
-- **Compete with existing literacy games:** Prodigy English, Reading Eggspress, and ReadTheory already combine reading/language content with adaptive or gamified progress; CommonLit offers extensive free text-based instruction. Test a distinct short quest for inference and evidence that records the learner’s chosen sentence and turns it into an actionable tutor summary. Treat this as a hypothesis until side-by-side tests.
-- **Validate the game loop:** track whether learners finish a quest, choose another, and return the following week. Compare with a simple practice version when possible. Keep game metrics separate from comprehension and evidence-use measures.
-- **Treat child privacy as a launch requirement:** minimize student identifiers and data retention; no ads or secondary use. Review COPPA/FERPA and district approval needs with qualified guidance before collecting real student data.
-- **Measure what the demo can support:** track quest completion, use of evidence reveals, and return intent. Do not claim reading improvement without a study.
-- **Keep the visual hook focused:** one memorable guide character, strong quest-card art, and restrained motion are enough for the demo. Sound effects come after the full quest works.
+### Free plan
 
-## P0 — Build in this order
+- [ ] Access to demo chapters of a book
+- [ ] Basic vocabulary
+- [ ] Basic reading & comprehension quizzes
+- [ ] Appropriate ads & ads directed to buying the premium plan
 
-### 1. Minimal app shell and content
+### Premium plan
 
-- [ ] Keep the React/Vite shell and add working Home, Reading, Question, Feedback, Completion, and Dashboard views.
-- [ ] Put quest content in one reviewable data module with source, rights, skill tags, explanations, and evidence references.
-- [ ] Finish one original 200–250 word quest focused on one skill before expanding the library; add two more after the first flow works.
-- [ ] Keep bundled quest data as a reliable fallback so the demo works when the API is unavailable.
+- [ ] Full access to a variety of books
+- [ ] More access to vocabulary words
+- [ ] Advanced reading & comprehension
+- [ ] No ads
 
-### 2. Complete one working quest
+### School or classroom plan
 
-- [ ] Home presents a recommended quest with topic, difficulty, skills, and reading time.
-- [ ] The reading view presents the passage clearly with reading progress and a “Start questions” action.
-- [ ] Show one question at a time with answer choices and question progress.
-- [ ] Support three focused multiple-choice questions, answer submission, score, XP, and a next action.
-- [ ] Teach one short routine before practice: model a question, think aloud about the likely answer, find the sentence that proves it, then let the learner try. Keep the worked example brief and skippable.
-- [ ] For each of the three target-skill questions, capture the learner’s chosen supporting sentence before showing the correct evidence; explain why it supports or fails to support the answer.
-- [ ] Show correct/incorrect feedback only after submission, then show completion and a next-quest action.
-- [ ] Persist the minimum useful progress locally and make reset work.
+- [ ] School sponsored discount
+- [ ] Teachers can implement their learning plan
+- [ ] Teachers can create a classroom plan in order to view students progress & grade accordingly
 
-### 3. Make the learning visible
+## Accessibility
 
-- [ ] After submission, show a short explanation and a “Show passage evidence” action.
-- [ ] On activation, scroll to and highlight the exact supporting sentence in the passage.
-- [ ] Give each question an evidence reference so explanations are reviewable and not generic.
-- [ ] Keep the evidence hidden until the learner has submitted an answer.
-- [ ] Keep the learner’s evidence choice so it can appear in a local-only tutor session summary; describe it as a practice signal, not mastery or diagnosis.
+- [ ] Different colors for people who are colorblind
+- [ ] Text to speech for people who are blind or dyslexic
+- [ ] Larger text for those with poor 
 
-### 4. Give it a distinctive visual identity
+## XP, levels, and rewards
 
-- [ ] Establish a friendly illustrated world with a small guide character who reacts to progress and feedback.
-- [ ] Create one cohesive visual system with topic colors, simple icons, strong typography, and clear spacing.
-- [ ] Add interactive quest cards with hover, focus, selected, and completed states.
-- [ ] Add restrained motion for navigation, evidence reveal, answer feedback, and completion.
-- [ ] Use CSS and a small original SVG guide illustration so visuals stay quick to build and load.
-- [ ] Make evidence-based reasoning advance the story; the learner’s comprehension action must change a scene, unlock a route, or earn a story-linked item.
-- [ ] Make the game loop legible: choose quest → read → reason → choose evidence → see consequence → get feedback → want another quest.
-- [ ] Reward effort, completion, and careful reasoning; never give a speed bonus or make streak loss feel punitive.
+- [ ] Every 10 levels free 3-day trial of premium plan & if you already have the Premium Plan you receive a free Separate Pay book (will be removed from library once the LitLearn Subscription is over)
+- [ ] Coins earned from completing lessons used to buy more chapters of a book
+- [ ]
 
-### 5. Make the judging story credible
+## Badges and achievements
 
-- [ ] Write a one-sentence problem statement for the chosen learner and a one-sentence explanation of why evidence-based feedback helps.
-- [ ] Have up to three quick conversations with a tutor, teacher/interventionist, and parent or learner if reachable; record exact feedback and label it as directional, not proof of market size.
-- [ ] Name the learner, likely buyer, and a simple first business-model hypothesis; label assumptions as assumptions.
-- [ ] Compare against free classroom reading practice and paid teacher tools; test whether the learner evidence-choice record and tutor summary solve an unmet workflow.
-- [ ] Compare against game-based literacy products, especially Prodigy English, Reading Eggspress, and ReadTheory; identify exact overlap and the intended gap.
-- [ ] Explain why gamification matters: it is the return-motivation engine; the learning action remains inference and evidence-based reasoning.
-- [ ] Prepare one simple model with an illustrative tutor-account price, capacity, 100-account scenario, revenue formula, and main costs; label every unvalidated number as an assumption.
-- [ ] Name a realistic first route to reach pilot educators or classrooms.
-- [ ] Choose a measurable pilot signal: quest completion, evidence-reveal use, and learner/educator willingness to return.
-- [ ] Prepare a concise pitch covering problem, demo, differentiation, buyer/model hypothesis, impact measure, and next validation step.
-- [ ] Ask two or three tutors/interventionists for a scheduled post-event demo or pilot; do not describe interest as a sale.
+- [ ] Perfect score on a lesson
+- [ ] Achieve first place on the leaderboard
+- [ ]
 
-### Content quality rules
+## Leaderboards and challenges
 
-- [ ] Every quest has: `id`, title, topic, difficulty, reading time, passage, skill tags, source, rights, and questions.
-- [ ] Every question has: `id`, `type`, prompt, choices, correct answer, skill, explanation, and evidence reference.
-- [ ] Use original or verified public-domain content only; never add modern copyrighted excerpts.
-- [ ] Before adding a book excerpt, verify the exact book and edition's reuse rights.
-- [ ] Record the excerpt's source, chapter, rights status, license, and required attribution in quest data.
-- [ ] If reuse rights are unclear, do not include the excerpt.
+- [ ] Achieve a 7 day streak
+- [ ] Review 5 lessons
+- [ ] Complete one new lesson
+- [ ] Have a perfect score on a finisher quiz
+## Learning path
 
-### Progress and motivation
+- [ ] Parts of speech/Punctuation
+- [ ] Sentence composition/Paragraph structure
+- [ ] Identify main points & the message
+    ## Product basics
 
-- [ ] Store progress in local storage with a versioned key.
-- [ ] Award XP for answers plus a completion bonus; do not reward speed.
-- [ ] Track completed quests, XP, and level; keep streak tracking as a stretch item.
-- [ ] Add one earned badge for finishing the first quest; add more only if time remains.
-- [ ] Dashboard shows XP, level progress, completed quests, the first badge, and skill strengths; add streaks only if time remains.
-- [ ] Recommend an unfinished quest or the least-practiced skill.
-- [ ] Show a tutor session summary with the skill practiced, learner answer, chosen evidence, and one follow-up suggestion; keep the demo anonymous.
-- [ ] Record repeat-use signals separately from skill practice: quest completion, next-quest selection, week-to-week return, and evidence-choice accuracy.
-- [ ] Add “Reset demo progress” with confirmation.
+- [ ] Product promise: Increase literacy across learners from post-kindergarten through high school.
+- [ ] Target users: Learners in grades 1–12 (roughly ages 6–18), with age-appropriate content and reading levels.
+- [ ] Primary user action: Help learners across grade levels read and comprehend texts.
+- [ ] MVP launch goal: 
 
-### Accessibility and reliability
+## Home screen
 
-- [ ] Keyboard-accessible controls and visible focus states.
-- [ ] Semantic headings, labels, and button text; readable contrast.
-- [ ] Responsive layout for phone and desktop.
-- [ ] Friendly fallback if the API is unavailable.
-- [ ] Every animation has a reduced-motion alternative and never blocks reading or answering.
-- [ ] Sound is never required to understand status, feedback, or navigation.
+- [ ] Progress -> Review
+- [ ] Leaderboard
+- [ ] Settings -> Subscription -> Profile
 
-## P1 — Add only after P0 works
+## Daily goals and streaks
+- [ ] MVP — Track completed quests locally.
+- [ ] MVP — Show a daily-reading streak and completion bonus.
+- [ ] V2 — Let users choose a daily goal of one, two, or three quests.
 
-- [ ] First-visit onboarding: “Read → Answer → Understand → Grow.”
-- [ ] Resume an unfinished quest from the home screen.
-- [ ] Review all submitted answers after completion, including passage evidence.
-- [ ] Search and filter quests by topic, skill, and difficulty.
-- [ ] Bookmark a quest.
-- [ ] Daily goal with a small progress indicator.
-- [ ] “This question seems confusing” feedback action (local-only for the demo).
-- [ ] Reduced-motion preference and text-size control.
-- [ ] Offline-friendly cached quest list and clear network error copy.
-- [ ] Judge/demo mode with seeded progress, a visible reset, and deterministic content.
-- [ ] Character expressions or short messages that reflect reading progress, accuracy, and streaks.
-- [ ] A short story arc in which the next quest depends on the learner’s evidence-based decision, with a clear restart path.
-- [ ] Interactive skill map showing progress across main idea, inference, vocabulary, and evidence.
-- [ ] Unlockable character accessories or scene details tied to badges.
-- [ ] A quest completion celebration with a subtle confetti or particle effect and a skip option.
-- [ ] Optional, muted-by-default sound effects for one or two key moments, with a visible sound toggle and saved preference.
-- [ ] Use original or properly licensed audio; keep the full experience understandable without sound.
+## Product basics
 
-## P2 — Post-hackathon roadmap
+- [ ] Product promise: Increase literacy across learners from post-kindergarten through high school.
+- [ ] Target users: Learners in grades 1–12 (roughly ages 6–18), with age-appropriate content and reading levels.
+- [ ] Primary user action: Help learners across grade levels read and comprehend texts.
+- [ ] MVP launch goal: 
 
-- [ ] Gutendex discovery with title/author/language/topic search, source links, rights labels, timeout handling, and server-side caching.
-- [ ] Short-answer questions with rubric-based feedback.
-- [ ] AI reading coach that explains reasoning after submission; keep keys server-side and provide a non-AI fallback.
-- [ ] SQLite persistence, authentication, and cloud-synced progress.
-- [ ] Adaptive difficulty and personalized reading plans.
-- [ ] Teacher/classroom assignments and privacy-safe reports.
-- [ ] Accessibility preferences: dyslexia-friendly font, reduced motion, and larger text.
-- [ ] GitHub Actions, automated tests, deployment, analytics, and monitoring.
-- [ ] Private reading circles or social challenges with privacy controls.
-- [ ] A family subscription experiment only after repeat engagement is demonstrated and parent willingness to pay is observed.
-- [ ] Multi-tutor practice accounts and school/after-school program licenses after the single-tutor workflow renews.
-- [ ] Expand the character system into a customizable reading companion with multiple guides.
-- [ ] Rich illustrated quest worlds, collectible story fragments, and seasonal visual themes.
-- [ ] Music or adaptive ambient audio with a full settings panel and licensed audio library.
+## Starting of the app
+-Catagories of reading
+-Learning curve/range test
+-Age/Grade info
+-Username
+-Add logins aswell
+-Add custom character instead of irl photo
 
-## Technical contracts
+## Home screen
 
-- **Frontend:** React + Vite in `src/`; owns presentation, view state, local progress, and accessibility.
-- **Backend:** FastAPI in `backend/`; the current API only has a health check. Add quest endpoints only if they improve the completed demo; never make the demo depend on a fragile network call.
-- **Data:** Keep seed content in one clearly named module/file so questions can be reviewed without searching components.
-- **Progress:** Use one versioned local-storage schema and one helper module; components must not write ad hoc keys.
-- **API:** Keep endpoints small and documented. Current health endpoint: `GET /api/health`.
+- [ ] Progress -> Review
+- [ ] Leaderboard
+- [ ] Settings -> Subscription -> Profile
 
-## Suggested work split
+## profile
+-Achivement
+-Wishlist
+-Lvl
+-Xp/gold
+-friendlist
+-and more
+## shop
+- Accessories
+-Customization
+-Limited book purchase
+-Coin purchase
+-Gift someone a book from wishlist
+-Wishlist page purchase (get 5 of them to get one book from your wishlist)
+## XP, levels, and rewards
+- [ ] MVP — Award XP for correct answers and completing a quest.
+- [ ] MVP — Show a level and progress bar on the dashboard.
+- [ ] V2 — Add weekly XP goals and level-up celebrations.
 
-### You — product integration and frontend
+## Badges and achievements
+- [ ] MVP — Add First Quest, Evidence Expert, and Vocabulary Explorer badges.
+- [ ] V2 — Add Three-Day Streak and Curious Reader badges.
+- [ ] Later — Add skill-specific achievement milestones.
 
-- Own `src/`, `index.html`, and the visual/demo experience.
-- Build Home, Quest, Completion, Dashboard, navigation, responsive styling, accessibility, and local progress.
-- Keep the main demo flow working against seed data even if the backend is unavailable.
-- Prepare the judge demo script and final polish.
-- Own the visual system, character states, motion, sound toggle, and interactive feedback states.
-- Build the learner evidence-choice interaction and anonymous tutor session summary from the agreed question contract.
+## Library and content discovery
+- [ ] MVP — Seed the app with original demo passages.
+- [ ] V2 — Add Gutendex search by title, author, language, and topic.
+- [ ] V2 — Cache book metadata and display Project Gutenberg links.
 
-### Your partner — content and backend
+## AI reading coach
+- [ ] V2 — Add an Explain this answer action after submission.
+- [ ] V2 — Send only needed passage, question, and selected answer context.
+- [ ] V2 — Provide a built-in fallback when AI is unavailable.
 
-- Own `backend/`, `requirements.txt`, and the content/data module agreed with you before editing.
-- Build the quest/question response shape, seed all three passages and question explanations, and add backend validation.
-- Add useful API error responses and tests for health, quest retrieval, and invalid IDs.
-- Investigate Gutendex only after the P0 flow is stable; do not let it block the demo.
-- Supply reviewed correct-evidence references and sample wrong evidence choices for the demo question; do not claim one response diagnoses a reading difficulty.
+## Accessibility
+- [ ] MVP — Keyboard navigation and visible focus states.
+- [ ] MVP — Readable contrast, semantic labels, and responsive layouts.
+- [ ] V2 — Dyslexia-friendly font, reduced motion, and text-size controls.
 
-### Shared integration rules
+## Content management
+- [ ] MVP — Track title, topic, difficulty, skills, source, and content rights.
+- [ ] V2 — Add a content import script for Gutendex metadata.
+- [ ] V2 — Add editorial review before imported content becomes a quest.
+- [ ] V2 — Organize passages by grade band and reading level across elementary, middle, and high school.
+- [ ] V2 — Adjust vocabulary support and question complexity to the learner's selected reading level.
 
-- Agree on the quest JSON contract before both people build against it.
-- Work in separate branches and avoid editing the same files.
-- Integrate in small commits; run the complete flow after each merge.
-- If a backend contract changes, post the change and a sample response before the other person adapts their code.
+## Privacy, safety, and legal
+- [ ] MVP — Use original or verified public-domain content for the demo.
+- [ ] MVP — Keep API keys server-side and never expose them in the browser.
+- [ ] V2 — Add data deletion and local-progress reset controls.
 
-## Acceptance checklist before demo
+## Technical foundation
+- [x] MVP — Frontend: React + Vite.
+- [x] MVP — Backend: Python FastAPI.
+- [ ] MVP — Database: local storage first; SQLite when persistence is needed.
+- [ ] V2 — Authentication: optional account login after the demo.
+- [ ] V2 — Hosting: deploy frontend and API to stable shareable URLs.
+- [ ] V2 — Analytics: privacy-conscious quest completion and error events.
+- [ ] V2 — AI provider: server-side integration with graceful fallback.
 
-- [ ] A new user can complete one quest in under three minutes.
-- [ ] No answer or explanation is visible before submission.
-- [ ] The “Show passage evidence” action highlights the correct source text for every demo question.
-- [ ] The tutor summary shows the learner’s answer and chosen evidence without implying mastery or diagnosis.
-- [ ] Refreshing preserves progress; reset clears it.
-- [ ] Empty, loading, API failure, and no-badges states look intentional.
-- [ ] Keyboard-only navigation works through the full quest.
-- [ ] Mobile layout is usable at a narrow width.
-- [ ] Content rights/source metadata is present for every passage.
-- [ ] The app can be demoed with the backend stopped.
-- [ ] The main interactions feel responsive on a normal laptop and phone.
-- [ ] Character, motion, and sound improve feedback without distracting from reading.
-- [ ] Sound starts muted or requires a clear user action before playback.
-- [ ] Reduced-motion mode, keyboard navigation, and no-sound mode preserve the full experience.
-- [ ] The demo names one specific learner, one clear problem, and one reason ReadQuest helps.
-- [ ] The pitch labels customer and pricing assumptions as hypotheses unless validated.
-- [ ] The team can state one measurable next experiment for learning impact and buyer interest.
+## Priorities
+### Must have for the hackathon
+- [ ] Build the library → read → answer → feedback flow.
+- [ ] Seed three original passages with complete questions.
+- [ ] Add XP, streak, dashboard, error states, and responsive polish.
 
-## Decisions to make once, then stop revisiting
+### Nice to have after the demo
+- [ ] Add Gutendex discovery and public-domain source links.
+- [ ] Add tests, GitHub Actions, and deployment.
+- [ ] Add accessibility preferences and bookmarks.
 
-- **Intended audience:** children from early reading ages through junior high. **First pilot segment:** choose one grade band with teachers, parents, or learners before writing age-specific content at scale.
-- **First dashboard skills:** main idea, inference, vocabulary, and evidence.
-- **Deployment:** choose the simplest stable frontend/API host available to the team.
-- **Content strategy:** original passages for the hackathon; Gutendex is discovery-only until rights and UX are verified.
+### Future ideas
+- [ ] AI reading coach and adaptive learning paths.
+- [ ] Teacher/classroom plans and privacy-safe reports.
+- [ ] Optional social challenges and private reading circles.
+
+## Decisions to make
+- [ ] Choose the first deployment target for the React frontend and FastAPI API.
+- [ ] Decide whether Gutendex content is metadata-only or imported into curated quests.
+- [ ] Decide which accessibility preferences belong in the MVP demo.
+
+## Open questions
+- Which grade bands should the first demo support first?
+- Which three skills should the dashboard emphasize first?
+- Who will own content review and question quality checks?
+
+## Gamification expansion
+
+### Phase 2 frontend game loop
+- [ ] MVP — Add a three-slot clue trail to each quest; a supported answer lights a clue and a missed answer adds a “practice clue” after feedback.
+- [ ] MVP — Show an illustrated quest map with available, in-progress, and completed locations, plus a clear next stop.
+- [ ] MVP — Add a short end-of-quest debrief tying the learner’s answer and evidence choices to the story outcome and next quest.
+- [ ] MVP — Give the guide character reading, thinking, success, retry, level-up, and celebration reactions with short, encouraging messages.
+- [ ] MVP — Let earned badges unlock cosmetic guide accessories or scene details; state the unlock criteria and avoid purchasable advantages.
+- [ ] V2 — Add a collection journal for badges, story fragments, discovered locations, and optional next rewards.
+- [ ] V2 — Let the learner choose between two next quests; keep both paths replayable and avoid locking learning content behind a choice.
+- [ ] V2 — Add optional bonus objectives that reinforce close reading, such as reviewing a missed question or finding another supporting detail.
+- [ ] V2 — Add a session-only evidence streak that celebrates supported reasoning and resets without loss or shame.
+- [ ] V2 — Add a quest replay objective that changes the reflection goal without repeatedly granting the same completion reward.
+- [ ] V2 — Offer optional daily or weekly goals with flexible targets, dismissal, and no lost-progress messaging.
+- [ ] V2 — Add a short, skippable completion celebration with reduced-motion behavior and a static equivalent.
+- [ ] V2 — Add an optional sound toggle, saved locally and muted by default, with visual equivalents for every sound cue.
+- [ ] Later — Add cooperative group milestones where participants contribute to a shared goal without individual rankings.
+- [ ] Later — Add branching story scenes with equally complete routes and no permanent penalty for an incorrect response.
+- [ ] Later — Add seasonal themes and collectible story fragments that remain available after the event.
+- [ ] Later — Add an optional personal reading space where earned cosmetics can be displayed.
+
+### Game design checks
+- [ ] Tie every reward to reading, reasoning, evidence selection, reflection, or quest completion; avoid rewards that only increase taps or time-on-screen.
+- [ ] Explain XP, badge, streak, and unlock rules before or when they are earned.
+- [ ] Keep engagement measures (starts, completions, returns, goal choices) separate from learning measures (answer accuracy and evidence selection).
+- [ ] Do not use paid power-ups, loot boxes, speed bonuses, public child leaderboards, countdown pressure, or streak-loss penalties.
+- [ ] Let learners skip celebrations, replay completed quests, change goals, and hide optional game signals.
+
+### Quest progression
+- [ ] MVP — Show a clear quest path with locked, available, and completed reading quests.
+- [ ] MVP — Give each quest a mastery rating based on correct answers and evidence use, not speed.
+- [ ] V2 — Add optional bonus objectives, such as finding a quote that supports an answer.
+- [ ] V2 — Add multi-part story arcs where finishing a quest unlocks the next chapter.
+- [ ] Later — Run themed, time-limited reading events with original passages and non-exclusive rewards.
+
+### XP, levels, and goals
+- [ ] MVP — Award XP for finishing a quest, answering carefully, and reviewing a missed skill; do not reward repeated submissions of the same answers.
+- [ ] MVP — Show what actions earn XP and how much progress remains to the next level.
+- [ ] V2 — Add personal daily and weekly goals with selectable difficulty and progress indicators.
+- [ ] V2 — Celebrate level-ups with a brief, skippable animation and a useful summary of skills practiced.
+- [ ] V2 — Let learners pause or revise goals without losing progress or being shamed for missed days.
+
+### Streaks and healthy habits
+- [ ] MVP — Count a streak from at least one completed reading activity on separate calendar days.
+- [ ] V2 — Offer an optional reminder schedule and quiet hours; keep reminders off until the learner enables them.
+- [ ] V2 — Add earned rest days or streak protection so a missed day does not erase long-term progress.
+- [ ] V2 — Show reading consistency over time as an encouraging summary, not a penalty or countdown.
+
+### Achievements and collectibles
+- [ ] MVP — Add milestone badges for completing quests, practicing a skill, and improving after feedback.
+- [ ] V2 — Add badge sets with visible criteria and progress toward each achievement.
+- [ ] V2 — Let learners collect book-themed items and avatar accessories earned through reading milestones.
+- [ ] V2 — Add an optional profile showcase for selected badges and completed story arcs.
+- [ ] Later — Add seasonal collections that remain cosmetic and do not lock reading content behind purchases.
+
+### Challenges and social play
+- [ ] V2 — Add opt-in asynchronous friend challenges based on reading a passage and answering its questions.
+- [ ] V2 — Score challenges on accuracy and evidence-based answers, with ties allowed; do not reward speed.
+- [ ] V2 — Let learners share a challenge link only with approved friends and choose whether their results are visible.
+- [ ] V2 — Make leaderboards private by default, limited to invited groups, and disable them for accounts without the required consent.
+- [ ] Later — Add cooperative group goals where friends contribute completed quests toward a shared milestone.
+
+### Fairness and learner controls
+- [ ] MVP — Keep core passages, feedback, and learning progress available without purchases or leaderboard participation.
+- [ ] MVP — Explain scoring and reward rules before a learner starts a quest or challenge.
+- [ ] V2 — Provide controls to hide XP, streaks, badges, and competitive features independently.
+- [ ] V2 — Avoid public display of children's real names, exact ages, or reading activity.

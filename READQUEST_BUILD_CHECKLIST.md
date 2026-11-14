@@ -20,11 +20,11 @@ An editable source of truth for the ReadQuest hackathon project. Check items off
 - [x] Choose the web stack and create the app scaffold (React/Vite + FastAPI).
 - [ ] Configure local development, environment variables, and deployment.
 - [ ] Define a simple visual style: friendly, accessible, reading-first.
-- [ ] Create responsive layouts for phone and desktop.
-- [ ] Add an app-level loading state and useful error messages.
-- [ ] Define a distinctive, reading-first visual identity with one guide character and reusable interaction states.
-- [ ] Add restrained transitions for navigation, evidence reveals, progress, and answer feedback.
-- [ ] Make motion optional through `prefers-reduced-motion` and a settings control.
+- [x] Create responsive layouts for phone and desktop.
+- [x] Add an app-level loading state and useful error messages.
+- [x] Define a distinctive, reading-first visual identity with one guide character and reusable interaction states.
+- [x] Add restrained transitions for navigation, evidence reveals, progress, and answer feedback.
+- [x] Make motion optional through `prefers-reduced-motion` and a settings control.
 - [ ] Keep visual assets lightweight; use original or properly licensed graphics.
 
 ### 2. Reading-content library
@@ -39,42 +39,42 @@ An editable source of truth for the ReadQuest hackathon project. Check items off
 
 ### 3. Core reading quest
 
-- [ ] Build a library or home screen that lets a user choose a quest.
-- [ ] Build a clean distraction-free reading screen.
-- [ ] Show title, skill tags, estimated time, and progress.
+- [x] Build a library or home screen that lets a user choose a quest.
+- [x] Build a clean distraction-free reading screen.
+- [x] Show title, skill tags, estimated time, and progress.
 - [ ] Prevent answers/solutions from being visible before the reader submits.
 - [ ] Give the first demo quest three questions on one skill; add broader skill coverage after the core flow is stable.
 - [ ] Cover multiple comprehension skills: main idea, inference, vocabulary in context, evidence, author purpose, and critical thinking.
 - [ ] Support multiple choice first; add short answer only if time remains.
-- [ ] Grade answers and show an explanation grounded in the passage.
-- [ ] Show a brief worked example of the target skill before practice: model how to answer and identify the supporting sentence, then let the learner try.
-- [ ] Add a “Show passage evidence” action that reveals and highlights the sentence supporting the explanation after answer submission.
-- [ ] For each of the three demo questions, record which supporting sentence the learner chose before feedback; use the choices as practice signals, not a diagnosis.
-- [ ] Give every question a specific evidence reference; review all evidence and explanations for accuracy.
-- [ ] Show completion, score, and a next-quest action.
+- [x] Grade answers and show an explanation grounded in the passage.
+- [x] Show a brief worked example of the target skill before practice: model how to answer and identify the supporting sentence, then let the learner try.
+- [x] Add a “Show passage evidence” action that reveals, highlights, and scrolls to the sentence supporting the explanation after answer submission.
+- [x] For each of the three demo questions, record which supporting sentence the learner chose before feedback; use the choices as practice signals, not a diagnosis.
+- [x] Give every question a specific evidence reference; review all evidence and explanations for accuracy.
+- [x] Show completion, score, and a next-quest action.
 
 ### 4. Gamification
 
-- [ ] Make the learner’s comprehension action move the story forward; do not use points as a decorative layer over a worksheet.
-- [ ] Award XP for completing questions and careful evidence-based reasoning, with no speed bonus.
-- [ ] Create one simple level/progress bar.
-- [ ] Add a simple XP total and one first-quest badge after the core flow works.
+- [x] Make the learner’s comprehension action move the story forward; do not use points as a decorative layer over a worksheet.
+- [x] Award XP for completing questions and careful evidence-based reasoning, with no speed bonus.
+- [x] Create one simple level/progress bar.
+- [x] Add a simple XP total and one first-quest badge after the core flow works.
 - [ ] Add streak tracking and more badges only if time remains.
 - [ ] Make rewards about understanding and completion; keep streaks forgiving and optional.
-- [ ] Add a character or guide that reacts to quest progress, correct answers, XP, and badges.
-- [ ] Add a clear visual celebration for quest completion with a skip/reduced-motion path.
-- [ ] Track week-to-week return separately from skill accuracy so engagement is not presented as learning impact.
+- [x] Add a character or guide that reacts to quest progress, correct answers, XP, and badges.
+- [x] Add a clear visual celebration for quest completion with a skip/reduced-motion path.
+- [x] Track return and completion signals separately from skill accuracy so engagement is not presented as learning impact.
 
 ### 5. Learner dashboard
 
-- [ ] Show completed quests, total XP, level, streak, and earned badges.
-- [ ] Show strengths by skill tag using simple counts or percentages.
-- [ ] Show an anonymous tutor session summary with the practiced skill, answer, chosen evidence, and one follow-up suggestion.
-- [ ] Recommend the next quest based on an unfinished or lower-practiced skill.
-- [ ] Keep progress local for the MVP unless authentication is completed early.
-- [ ] Keep the demo anonymous and collect no child personal information; document retention/deletion behavior before any school pilot.
-- [ ] Add an interactive skill progress display with clear hover, focus, and selected states.
-- [ ] Show the character's progress message alongside the next-quest recommendation.
+- [x] Show completed quests, total XP, level, streak, and earned badges.
+- [x] Show strengths by skill tag using simple counts or percentages.
+- [x] Show an anonymous tutor session summary with the practiced skill, answer, chosen evidence, and one follow-up suggestion.
+- [x] Recommend the next quest based on an unfinished or lower-practiced skill.
+- [x] Keep progress local for the MVP unless authentication is completed early.
+- [x] Keep the demo anonymous and collect no child personal information; document retention/deletion behavior before any school pilot.
+- [x] Add an interactive skill progress display with clear hover, focus, and selected states.
+- [x] Show the character's progress message alongside the next-quest recommendation.
 
 ### Stretch feature (only after the demo flow is complete)
 
@@ -90,13 +90,13 @@ This is optional for the hackathon. The evidence reveal is the first explanation
 ## Demo-ready polish
 
 - [ ] Seed the app with enough content for a complete 2–3 minute demo.
-- [ ] Add an onboarding screen or short “How it works” section.
-- [ ] Add empty states for no completed quests and no badges.
+- [x] Add an onboarding screen or short “How it works” section.
+- [x] Add empty states for no completed quests and no badges.
 - [ ] Test keyboard navigation, readable contrast, mobile layout, and basic screen-reader labels.
 - [ ] Test one complete flow: choose quest → read → answer → feedback → earn XP → dashboard.
-- [ ] Make a reset-demo-progress action for judges.
+- [x] Make a reset-demo-progress action for judges.
 - [ ] Add polished interactive states for buttons, quest cards, answers, badges, and navigation.
-- [ ] Add optional, muted-by-default sound effects for one or two moments; provide a visible mute control and equivalent visual feedback.
+- [x] Add optional, muted-by-default sound effects for one or two moments; provide a visible mute control and equivalent visual feedback.
 - [ ] Test the demo with sound off, reduced motion enabled, and keyboard-only navigation.
 - [ ] Confirm graphics and audio are original or have documented permission/license terms.
 - [ ] Before a real student pilot, review child-privacy, school approval, and data-protection requirements with the school and qualified guidance.
@@ -149,29 +149,29 @@ This is optional for the hackathon. The evidence reveal is the first explanation
 
 ## Backlog — add new ideas here
 
-- [ ] Add library search and topic filters.
-- [ ] Add a public-domain badge and Gutenberg source link for Gutendex books.
-- [ ] Let learners bookmark quests and resume unfinished quests.
-- [ ] Add answer review with passage evidence and explanations.
-- [ ] Add daily reading goals and weekly progress summaries.
-- [ ] Add a skill heatmap for inference, main idea, vocabulary, and evidence.
-- [ ] Add reduced-motion and dyslexia-friendly reading preferences.
-- [ ] Add keyboard navigation and complete screen-reader labels.
-- [ ] Add loading, empty, offline, and API-error states.
-- [ ] Cache the last successful quest list for brief network outages.
+- [x] Add library search and topic filters.
+- [x] Add a staged public-domain catalog preview with source and rights labels.
+- [x] Let learners bookmark quests and resume unfinished quests.
+- [x] Add answer review with passage evidence and explanations.
+- [x] Add daily reading goals and local progress summaries.
+- [x] Add a skill heatmap for inference, main idea, vocabulary, and evidence.
+- [x] Add reduced-motion and text-size reading preferences.
+- [x] Add keyboard-focus and screen-reader labels for core controls.
+- [x] Add loading, empty, offline, API-error, and unavailable-content states.
+- [x] Keep reviewed bundled quests locally available through network outages.
 - [ ] Add backend tests for quests, Gutendex search, and invalid book IDs.
-- [ ] Add frontend tests for completing a quest and saving local progress.
+- [x] Add frontend tests for completion, evidence selection, persistence, reset, resume, filtering, bookmarks, and accessibility smoke checks.
 - [ ] Add Gutendex request timeouts, rate-limit handling, and server-side caching.
 - [ ] Add GitHub Actions for install, lint, test, and production builds.
 - [ ] Add deployment workflows for the frontend and Python API.
-- [ ] Add a judge/demo mode with seeded progress and a reset button.
-- [ ] Add onboarding that explains the ReadQuest learning loop.
-- [ ] Add the interactive passage-evidence reveal and highlight.
-- [ ] Add a friendly guide character with expressions, short encouragement, and a clear mute option.
+- [x] Add a judge/demo mode with seeded progress and a reset button.
+- [x] Add onboarding that explains the ReadQuest learning loop.
+- [x] Add the interactive passage-evidence reveal, highlight, and scroll action.
+- [x] Add a friendly guide character with expressions, short encouragement, and a clear mute option.
 - [ ] Add topic illustrations and animated quest cards that remain readable and fast.
 - [ ] Add completion celebration effects with reduced-motion and skip behavior.
-- [ ] Add optional sound effects with visible visual equivalents and local mute preference.
-- [ ] Add an interactive skill map and character unlocks after the core quest flow is stable.
-- [ ] Add learner feedback for confusing or incorrect questions.
+- [x] Add optional sound effects with visible visual equivalents and local mute preference.
+- [x] Add an interactive skill map and character unlocks after the core quest flow is stable.
+- [x] Add learner feedback for confusing or incorrect questions.
 - [ ] Add teacher/library-friendly export of completed-quest summaries.
 

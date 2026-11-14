@@ -9,60 +9,71 @@ import {
   sentencesFor,
 } from './utils/questContract';
 import {
+  BADGES,
+  beginQuest,
+  completeOnboarding,
+  completeQuest,
+  createJudgeProgress,
   levelForXp,
   loadProgress,
+  markEvidenceReveal,
   recordResponse,
+  recordReturnVisit,
   resetProgress,
   responseFor,
   responsesForQuest,
   saveProgress,
+  setActiveSession,
+  setDailyGoalTarget,
+  setProgressSettings,
+  toggleBookmark,
+  toggleConfusingQuestion,
   xpIntoLevel,
 } from './utils/progress';
+import {
+  coachFallback,
+  dailyGoalStatus,
+  discoveryMatches,
+  filterQuests,
+  humanSkill,
+  isQuestComplete,
+  questionSkill,
+  recommendQuest,
+  skillSummary,
+  storyArc,
+} from './utils/experience';
 
-const SCREENS = ['home', 'example', 'reading', 'question', 'feedback', 'consequence', 'complete', 'dashboard'];
-const GUIDE_COPY = {
-  home: 'Choose a quest, then look for the line that proves your idea.',
-  example: 'First, watch the routine. Then you will try it yourself.',
-  reading: 'Take your time. There is no speed bonus.',
-  question: 'Choose an answer, then the sentence that best supports it.',
-  feedback: 'Strong readers check their idea against the passage.',
-  consequence: 'Your evidence choice changes what the guide notices next.',
-  complete: 'You finished a full evidence quest!',
-  dashboard: 'This summary is a practice signal, not a diagnosis.',
+const CLOUD_FEATURES_ENABLED = false;
+const QUEST_SCREENS = new Set(['example', 'reading', 'question', 'feedback', 'consequence']);
+const BADGE_COPY = {
+  [BADGES.FIRST_QUEST]: 'Evidence Explorer',
+  [BADGES.EVIDENCE_EXPLORER]: 'Strong Clue Finder',
+  [BADGES.QUEST_CARTOGRAPHER]: 'Quest Cartographer',
+  [BADGES.COMEBACK_READER]: 'Comeback Reader',
 };
 
-function Guide({ mood = 'calm', message }) {
+function Guide({ mood = 'calm', message, accessory = 'compass' }) {
+  const face = mood === 'happy' ? 'M38 58c7 8 17 8 24 0' : mood === 'thoughtful' ? 'M39 63c7-3 15-3 22 0' : 'M38 61c7 6 17 6 24 0';
   return (
     <aside className={`guide-card guide-${mood}`} aria-label="Quest guide">
       <svg className="guide-mark" viewBox="0 0 100 100" aria-hidden="true">
         <path d="M50 7 61 33l27 3-21 18 6 28-23-14-23 14 6-28L12 36l27-3z" />
         <circle cx="39" cy="47" r="4" /><circle cx="61" cy="47" r="4" />
-        <path d="M38 61c7 6 17 6 24 0" fill="none" />
+        <path d={face} fill="none" />
+        {accessory === 'trail-ribbon' && <path className="guide-accessory" d="M22 22c13 8 42 8 56 0l-5 14c-13 6-33 6-46 0z" />}
+        {accessory === 'map-pin' && <circle className="guide-accessory" cx="74" cy="25" r="8" />}
       </svg>
       <p>{message}</p>
     </aside>
   );
 }
 
-function ProgressDots({ current, total }) {
-  return (
-    <div className="question-progress" aria-label={`Question ${current} of ${total}`}>
-      <span>Question {current} of {total}</span>
-      <div className="dot-row" aria-hidden="true">
-        {Array.from({ length: total }, (_, index) => <i key={index} className={index < current ? 'is-current' : ''} />)}
-      </div>
-    </div>
-  );
-}
-
 function SourceNotice({ source }) {
   if (!source) return null;
-  const sourceName = source.bookTitle
-    ? `${source.bookTitle}, ${source.edition}, ${source.chapter}`
-    : source.label || 'Original ReadQuest passage';
+  const sourceName = source.bookTitle ? `${source.bookTitle}, ${source.edition}, ${source.chapter}` : source.label || 'Original ReadQuest passage';
   return (
     <details className="source-notice">
-      <summary>Source &amp; reuse rights</summary>
+      <summary>Source, rights &amp; attribution</summary>
       <dl>
         <div><dt>Source</dt><dd>{sourceName}</dd></div>
         <div><dt>Rights</dt><dd>{source.rightsStatus}</dd></div>
@@ -73,207 +84,283 @@ function SourceNotice({ source }) {
   );
 }
 
-function EmptyQuest({ status }) {
-  return (
-    <section className="content-gate" aria-labelledby="content-gate-title">
-      <span className="lock-mark" aria-hidden="true">✓</span>
-      <p className="eyebrow">Content safety check</p><h2 id="content-gate-title">A reviewed quest belongs here.</h2>
-      <p>{status.message}</p>
-      <p className="quiet">ReadQuest only renders a local passage after its source, rights, attribution, sentence IDs, and question evidence are supplied together.</p>
-      <div className="contract-list" aria-label="Expected bundled quest contract"><span>Original / verified rights</span><span>3 questions</span><span>Sentence-level evidence</span><span>Attribution recorded</span></div>
-    </section>
-  );
-}
-
-function AppHeader({ progress, onDashboard, onHome }) {
+function AppHeader({ progress, onNavigate }) {
   return (
     <header className="app-header">
-      <button className="brand" type="button" onClick={onHome} aria-label="ReadQuest home"><span className="brand-spark" aria-hidden="true">✦</span><span>ReadQuest</span></button>
-      <div className="header-actions"><span className="xp-pill" aria-label={`${progress.xp} experience points`}>✦ {progress.xp} XP</span><button className="text-button" type="button" onClick={onDashboard}>Tutor view</button></div>
+      <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="ReadQuest home"><span className="brand-spark" aria-hidden="true">✦</span><span>ReadQuest</span></button>
+      <nav className="header-actions" aria-label="App navigation">
+        {!progress.settings.hideGameSignals && <span className="xp-pill" aria-label={`${progress.xp} experience points`}>✦ {progress.xp} XP</span>}
+        <button className="text-button" type="button" onClick={() => onNavigate('explore')}>Explore</button>
+        <button className="text-button" type="button" onClick={() => onNavigate('dashboard')}>Progress</button>
+        <button className="text-button" type="button" onClick={() => onNavigate('settings')}>Settings</button>
+      </nav>
     </header>
   );
 }
 
-function QuestCard({ quest, complete, selected, recommended, onStart }) {
+function QuestMap({ arc, activeQuestId }) {
   return (
-    <article className={`library-quest ${selected ? 'is-selected' : ''} ${complete ? 'is-complete' : ''}`}>
-      <div className="library-quest-heading"><span>{recommended ? 'Recommended' : complete ? 'Completed' : 'Available quest'}</span>{complete && <b aria-label="Completed">✓</b>}</div>
+    <section className="quest-map" aria-labelledby="quest-map-title">
+      <div><p className="eyebrow">Story arc</p><h2 id="quest-map-title">The clue trail</h2></div>
+      <ol>
+        {arc.map(({ quest, state }, index) => <li key={quest.id} className={`map-stop is-${state} ${quest.id === activeQuestId ? 'is-active' : ''}`}><span aria-hidden="true">{state === 'complete' ? '✓' : index + 1}</span><p>{quest.title}</p><small>{state === 'complete' ? 'Story fragment found' : state === 'current' ? 'In progress' : state === 'locked' ? 'Opens as the trail grows' : 'Ready to explore'}</small></li>)}
+      </ol>
+    </section>
+  );
+}
+
+function QuestCard({ quest, complete, bookmarked, recommended, progress, onStart, onBookmark }) {
+  const completion = questCompletionLabel(quest, progress);
+  return (
+    <article className={`library-quest ${complete ? 'is-complete' : ''} ${recommended ? 'is-recommended' : ''}`}>
+      <div className="library-quest-heading"><span>{recommended ? 'Recommended route' : complete ? 'Completed route' : 'Available quest'}</span><button className="icon-button" type="button" aria-label={`${bookmarked ? 'Remove' : 'Add'} ${quest.title} ${bookmarked ? 'from' : 'to'} bookmarks`} aria-pressed={bookmarked} onClick={() => onBookmark(quest.id)}>{bookmarked ? '★' : '☆'}</button></div>
       <h3>{quest.title}</h3><p>{quest.topic} · {quest.difficulty}</p>
-      <div className="tag-row">{quest.skillTags.map((tag) => <span key={tag}>{tag}</span>)}</div>
-      <div className="library-quest-footer"><small>◷ {quest.readingTimeMinutes} min · 3 questions</small><button type="button" className="library-start" onClick={() => onStart(quest)}>{complete ? 'Practice again' : selected ? 'Continue' : 'Choose quest'} <span aria-hidden="true">→</span></button></div>
+      <div className="tag-row">{quest.skillTags.map((tag) => <span key={tag}>{humanSkill(tag)}</span>)}</div>
+      <p className="card-progress">{complete ? 'Story fragment collected' : completion.answered ? `${completion.answered} of ${completion.total} clues explored` : 'Three evidence clues to find'}</p>
+      <div className="library-quest-footer"><small>◷ {quest.readingTimeMinutes} min</small><button type="button" className="library-start" onClick={() => onStart(quest)}>{complete ? 'Replay quest' : completion.answered ? 'Resume quest' : 'Start quest'} <span aria-hidden="true">→</span></button></div>
+      <SourceNotice source={quest.source} />
     </article>
   );
 }
 
-function questionSkill(question, quest) {
-  return question.skill || question.targetSkill || quest.skillTags[0] || 'reading evidence';
+function questCompletionLabel(quest, progress) {
+  const answered = quest.questions.filter((question) => responseFor(progress, quest.id, question.id)).length;
+  return { answered, total: quest.questions.length };
 }
 
-function humanSkill(skill) {
-  return String(skill).replaceAll('-', ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());
+function Onboarding({ onContinue }) {
+  return (
+    <section className="onboarding-view narrow-view" aria-labelledby="onboarding-title">
+      <p className="eyebrow">Welcome, explorer</p><h1 id="onboarding-title">Read → Answer → Understand → Grow</h1>
+      <p className="lede">Each short quest asks you to make an idea, find the sentence that supports it, and see what the clue changes in the story.</p>
+      <div className="routine-grid onboarding-steps"><article><span>1</span><h2>Read</h2><p>Look for what the passage is telling you.</p></article><article><span>2</span><h2>Answer</h2><p>Choose your best idea and a sentence that proves it.</p></article><article><span>3</span><h2>Grow</h2><p>Use feedback to collect a clue and try another route.</p></article></div>
+      <button className="primary-button" type="button" onClick={onContinue}>Choose my first quest <span aria-hidden="true">→</span></button>
+      <p className="quiet">This anonymous demo keeps its progress only in this browser. It does not ask for a name, email, or school account.</p>
+    </section>
+  );
 }
 
-function skillSummary(quests, progress) {
-  const summary = new Map();
-  quests.forEach((quest) => {
-    quest.questions.forEach((question) => {
-      const key = questionSkill(question, quest);
-      if (!summary.has(key)) summary.set(key, { key, attempts: 0, correct: 0, evidenceCorrect: 0 });
-      const response = responseFor(progress, quest.id, question.id);
-      if (response) {
-        const item = summary.get(key);
-        item.attempts += 1;
-        item.correct += Number(Boolean(response.answerCorrect));
-        item.evidenceCorrect += Number(Boolean(response.evidenceCorrect));
-      }
-    });
-  });
-  return [...summary.values()].sort((left, right) => right.attempts - left.attempts || left.key.localeCompare(right.key));
+function ControlsPanel({ progress, onUpdate, onJudge, onReset }) {
+  const soundOn = progress.settings.soundEnabled;
+  return (
+    <section className="settings-view narrow-view" aria-labelledby="settings-title">
+      <p className="eyebrow">Local demo controls</p><h1 id="settings-title">Make the quest yours</h1>
+      <div className="settings-grid">
+        <section><h2>Reading comfort</h2><label htmlFor="text-size">Text size</label><select id="text-size" value={progress.settings.textSize} onChange={(event) => onUpdate({ textSize: event.target.value })}><option value="regular">Regular</option><option value="large">Large</option><option value="extra-large">Extra large</option></select><label className="toggle-row"><input type="checkbox" checked={progress.settings.reduceMotion} onChange={(event) => onUpdate({ reduceMotion: event.target.checked })} /><span>Reduce animation</span></label></section>
+        <section className="sound-settings"><h2>Feedback</h2><label className="toggle-row sound-switch"><input type="checkbox" checked={soundOn} onChange={(event) => onUpdate({ soundEnabled: event.target.checked })} /><span>Sound cues</span></label><p className="setting-description">Short, optional tones for feedback and completion.</p><fieldset disabled={!soundOn}><legend>Sound options</legend><label htmlFor="sound-volume">Volume</label><select id="sound-volume" value={progress.settings.soundVolume} onChange={(event) => onUpdate({ soundVolume: event.target.value })}><option value="soft">Soft</option><option value="standard">Standard</option></select><label className="toggle-row"><input type="checkbox" checked={progress.settings.soundFeedback} onChange={(event) => onUpdate({ soundFeedback: event.target.checked })} /><span>Answer and evidence feedback</span></label><label className="toggle-row"><input type="checkbox" checked={progress.settings.soundCompletion} onChange={(event) => onUpdate({ soundCompletion: event.target.checked })} /><span>Quest completion</span></label><button className="secondary-button sound-preview" type="button" onClick={() => playCue('success', progress.settings)}>Play a sample</button></fieldset><label className="toggle-row"><input type="checkbox" checked={progress.settings.hideGameSignals} onChange={(event) => onUpdate({ hideGameSignals: event.target.checked })} /><span>Hide XP and streaks</span></label><p className="quiet">Visual feedback always appears whether sound is on or off.</p></section>
+        <section><h2>Theme</h2><div className="theme-buttons">{['twilight', 'garden', 'sky'].map((theme) => <button key={theme} type="button" className={progress.settings.theme === theme ? 'is-selected' : ''} onClick={() => onUpdate({ theme })}>{humanSkill(theme)}</button>)}</div><p className="quiet">Themes and companion accessories are stored locally.</p></section>
+        <section><h2>Judge mode</h2><p>Load a deterministic local snapshot with one completed quest, sample XP, and badges.</p><button className="secondary-button" type="button" onClick={onJudge}>Load demo snapshot</button><button className="text-button danger-button" type="button" onClick={onReset}>Reset all local progress</button></section>
+      </div>
+      <section className="privacy-note"><h2>Privacy notice</h2><p>ReadQuest’s browser demo has no account connection, analytics upload, ads, or real learner identifiers. Cloud features remain staged until an approved backend and privacy model are available.</p></section>
+    </section>
+  );
 }
 
-function recommendQuest(quests, progress, skills) {
-  const unfinished = quests.find((quest) => !progress.completedQuestIds.includes(quest.id));
-  if (unfinished) return { quest: unfinished, reason: 'An unfinished quest is ready for you.' };
-  const leastPracticed = [...skills].sort((left, right) => left.attempts - right.attempts || left.key.localeCompare(right.key))[0];
-  const match = leastPracticed && quests.find((quest) => quest.questions.some((question) => questionSkill(question, quest) === leastPracticed.key));
-  return { quest: match || quests[0], reason: leastPracticed ? `Practice ${humanSkill(leastPracticed.key)} again.` : 'Choose a quest to begin.' };
+function ReviewScreen({ quest, progress, onBack }) {
+  const [selectedId, setSelectedId] = useState(quest.questions[0]?.id);
+  const question = quest.questions.find((item) => item.id === selectedId) ?? quest.questions[0];
+  const response = responseFor(progress, quest.id, question.id);
+  return (
+    <section className="review-view narrow-view" aria-labelledby="review-title">
+      <p className="eyebrow">Completed quest review</p><h1 id="review-title">Follow the evidence trail again</h1>
+      <div className="review-tabs" role="tablist" aria-label="Question review">
+        {quest.questions.map((item, index) => <button key={item.id} type="button" role="tab" aria-selected={selectedId === item.id} onClick={() => setSelectedId(item.id)}>Question {index + 1}</button>)}
+      </div>
+      <section className="review-card"><h2>{question.prompt}</h2><p><strong>Your answer:</strong> {response ? choiceById(question, response.answerId)?.text : 'Not recorded'}</p><p><strong>Your evidence:</strong> {response ? sentenceById(quest, response.evidenceId)?.text : 'Not recorded'}</p><div className="explanation"><strong>Why this clue fits:</strong> {question.explanation}</div><article className="evidence-passage" aria-label="Passage evidence review">{sentencesFor(quest).map((sentence) => <p key={sentence.id} className={sentence.id === question.correctEvidenceSentenceId ? 'is-evidence' : ''}>{sentence.id === question.correctEvidenceSentenceId ? <mark>{sentence.text}</mark> : sentence.text}</p>)}</article></section>
+      <button className="secondary-button" type="button" onClick={onBack}>Back to progress</button>
+    </section>
+  );
+}
+
+function FeatureLab({ progress, quests, onStatus, onSetting }) {
+  const [tab, setTab] = useState('discovery');
+  const [search, setSearch] = useState('');
+  const [coachNote, setCoachNote] = useState('');
+  const [shortAnswer, setShortAnswer] = useState('');
+  const [shortFeedback, setShortFeedback] = useState('');
+  const results = discoveryMatches(search);
+  const recent = progress.responses.at(-1);
+  const recentQuest = recent && questById(quests, recent.questId);
+  const recentQuestion = recentQuest?.questions.find((question) => question.id === recent.questionId);
+  const tabs = [['discovery', 'Discovery'], ['coach', 'Coach'], ['path', 'Reading plan'], ['tutor', 'Tutor'], ['circle', 'Circle'], ['plans', 'Plans'], ['world', 'World'], ['analytics', 'Signals'], ['account', 'Privacy']];
+  return (
+    <section className="feature-view" aria-labelledby="feature-title">
+      <div className="feature-heading"><div><p className="eyebrow">Staged frontend workspace</p><h1 id="feature-title">Explore what comes next</h1><p>These views work with local demo data. Features that need accounts, classroom rosters, catalog search, or cloud sync stay behind a visible staging flag.</p></div><span className="stage-flag">{CLOUD_FEATURES_ENABLED ? 'Cloud connected' : 'Local preview mode'}</span></div>
+      <div className="feature-tabs" role="tablist" aria-label="Explore features">{tabs.map(([id, label]) => <button type="button" key={id} role="tab" aria-selected={tab === id} onClick={() => setTab(id)}>{label}</button>)}</div>
+      {tab === 'discovery' && <section className="feature-card"><h2>Public-domain discovery</h2><p>Search title, author, language, or topic. The results below are local metadata previews until the optional Gutendex service is connected.</p><label className="search-label" htmlFor="discovery-search">Search preview catalog</label><div className="search-row"><input id="discovery-search" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Try mystery, science, or English" /><button className="secondary-button" type="button" onClick={() => onStatus('Catalog search saved locally; live Gutendex lookup is staged.')}>Search</button></div><div className="preview-grid">{results.map((item) => <article key={item.id}><h3>{item.title}</h3><p>{item.author} · {item.language}</p><p>{item.topic}</p><small>{item.rights} · {item.source}</small><button className="text-button" type="button" onClick={() => onStatus(`${item.title} is a catalog preview. Reviewed quest data remains local.`)}>View source details</button></article>)}</div></section>}
+      {tab === 'coach' && <section className="feature-card"><h2>Reading coach</h2><p>The local fallback explains the same reviewed evidence shown in a quest. AI connection is staged and no text leaves the browser.</p><button className="primary-button" type="button" onClick={() => setCoachNote(coachFallback(recentQuestion, recent))}>Explain my latest reasoning</button>{coachNote && <div className="coach-response" aria-live="polite">{coachNote}</div>}<hr /><h3>Short-answer practice preview</h3><label htmlFor="short-answer">Write one sentence that connects an idea to a clue</label><textarea id="short-answer" value={shortAnswer} onChange={(event) => setShortAnswer(event.target.value)} placeholder="My idea is... The text shows this when..." /><button className="secondary-button" type="button" onClick={() => setShortFeedback(shortAnswer.trim().length > 20 ? 'Good start: you gave the coach enough detail to check for both an idea and a clue. A reviewed rubric service is staged for fuller feedback.' : 'Try adding both your idea and a sentence or detail from the passage.')}>Check local rubric</button>{shortFeedback && <p className="coach-response" aria-live="polite">{shortFeedback}</p>}</section>}
+      {tab === 'path' && <section className="feature-card"><h2>Adaptive reading plan</h2><p>The local plan uses only this browser’s practice record. It makes a transparent recommendation and never locks a learner into a level or route.</p><div className="analytics-grid"><article><h3>Suggested next skill</h3><p>{skillSummary(quests, progress).sort((left, right) => left.attempts - right.attempts)[0] ? humanSkill(skillSummary(quests, progress).sort((left, right) => left.attempts - right.attempts)[0].key) : 'Choose a skill to practice'}</p><button className="secondary-button" type="button" onClick={() => onStatus('The local plan recommends an unfinished quest. Adaptive difficulty rules are staged for reviewed content and backend support.')}>Use local recommendation</button></article><article><h3>Plan controls</h3><p>Challenge, growing, and beginner paths will remain optional choices when adaptive difficulty is connected.</p><button className="secondary-button" type="button" onClick={() => onStatus('Reading-plan preferences are local preview controls; no learner profile is created.')}>Preview path choices</button></article></div></section>}
+      {tab === 'tutor' && <section className="feature-card"><h2>Tutor workspace</h2><p>Assignments, learner groups, and synced reports need an approved backend. This local preview keeps the anonymous evidence record visible.</p><div className="stat-grid compact-stats"><article><span>Completed</span><strong>{progress.completedQuestIds.length}</strong><small>Local quests</small></article><article><span>Evidence reveals</span><strong>{progress.signals.evidenceReveals}</strong><small>Learning support used</small></article><article><span>Questions flagged</span><strong>{progress.confusingQuestionIds.length}</strong><small>For content review</small></article></div><button className="secondary-button" type="button" onClick={() => onStatus('A local assignment draft is ready to preview. Sync and classroom rosters remain staged.')}>Create local assignment draft</button></section>}
+      {tab === 'circle' && <section className="feature-card"><h2>Private reading circles</h2><p>Reading circles and social challenges are designed as opt-in, adult-managed features. The local preview does not create accounts, send invitations, or expose learner activity.</p><label className="toggle-row"><input type="checkbox" checked={progress.settings.hideGameSignals} onChange={(event) => onSetting({ hideGameSignals: event.target.checked })} /><span>Hide competitive game signals</span></label><button className="secondary-button" type="button" onClick={() => onStatus('Circle setup is staged until consent, moderation, and privacy controls are connected.')}>Preview circle privacy rules</button></section>}
+      {tab === 'plans' && <section className="feature-card"><h2>Plans and practice accounts</h2><div className="preview-grid"><article><h3>Explorer</h3><p>Local quests, evidence feedback, and personal progress.</p><button className="secondary-button" type="button" onClick={() => onStatus('Explorer is active in this browser demo.')}>Current local plan</button></article><article><h3>Tutor practice</h3><p>Assignments, evidence summaries, and up to 40 active learners.</p><button className="secondary-button" type="button" onClick={() => onStatus('Tutor billing and multi-account access require a server integration.')}>Preview tutor plan</button></article><article><h3>Program</h3><p>Shared reporting and privacy-reviewed learner groups.</p><button className="secondary-button" type="button" onClick={() => onStatus('Program subscriptions are staged pending privacy and roster support.')}>Preview program plan</button></article></div></section>}
+      {tab === 'world' && <section className="feature-card"><h2>Companion &amp; quest world</h2><p>Choose a local season and companion detail. These cosmetic choices do not affect reading content or scores.</p><div className="theme-buttons">{['twilight', 'garden', 'sky'].map((theme) => <button key={theme} type="button" className={progress.settings.theme === theme ? 'is-selected' : ''} onClick={() => onSetting({ theme })}>{humanSkill(theme)}</button>)}</div><label className="toggle-row"><input type="checkbox" checked={progress.settings.soundEnabled} onChange={(event) => onSetting({ soundEnabled: event.target.checked })} /><span>Enable optional sound cues</span></label><p className="quiet">Choose volume and cue types in Settings. Music and ambient audio remain staged until licensed audio is available.</p></section>}
+      {tab === 'analytics' && <section className="feature-card"><h2>Engagement and learning signals</h2><p>These local numbers are separated so activity is never presented as proof of learning.</p><div className="analytics-grid"><article><h3>Engagement</h3><p>Quest starts: {progress.signals.questStarts}</p><p>Completions: {progress.signals.completedQuestCount}</p><p>Next-quest choices: {progress.signals.nextQuestSelections}</p></article><article><h3>Learning practice</h3><p>Responses recorded: {progress.responses.length}</p><p>Evidence reveals: {progress.signals.evidenceReveals}</p><p>Questions flagged: {progress.confusingQuestionIds.length}</p></article></div></section>}
+      {tab === 'account' && <section className="feature-card"><h2>Account &amp; privacy settings</h2><p>This demo uses an anonymous local profile. Authentication, synced progress, data deletion requests, and learner settings require an approved backend and privacy review.</p><button className="secondary-button" type="button" onClick={() => onStatus('Account connection is intentionally unavailable in the anonymous demo.')}>Preview account connection</button><button className="text-button" type="button" onClick={() => onStatus('Local progress can be deleted from Settings with Reset all local progress.')}>How local data works</button></section>}
+    </section>
+  );
 }
 
 export default function App() {
   const [progress, setProgress] = useState(loadProgress);
-  const [apiStatus, setApiStatus] = useState('Checking API');
-  const [screen, setScreen] = useState(() => loadProgress().activeSession?.screen || 'home');
+  const [screen, setScreen] = useState(() => loadProgress().onboardingComplete ? loadProgress().activeSession?.screen || 'home' : 'onboarding');
   const [questionIndex, setQuestionIndex] = useState(() => loadProgress().activeSession?.questionIndex || 0);
   const [draft, setDraft] = useState({ answerId: '', evidenceId: '' });
   const [revealed, setRevealed] = useState(false);
+  const [filters, setFilters] = useState({ search: '', topic: '', skill: '', difficulty: '', bookmarkOnly: false });
+  const [apiState, setApiState] = useState({ kind: 'checking', label: 'Checking optional service…' });
+  const [notice, setNotice] = useState('');
+  const [showCelebration, setShowCelebration] = useState(true);
   const mainRef = useRef(null);
+  const countedVisit = useRef(false);
 
   const quests = useMemo(() => reviewedQuests(BUNDLED_QUESTS), []);
+  const unavailableCount = BUNDLED_QUESTS.length - quests.length;
   const skills = useMemo(() => skillSummary(quests, progress), [quests, progress]);
   const recommendation = useMemo(() => recommendQuest(quests, progress, skills), [quests, progress, skills]);
-  const activeQuestId = progress.activeSession?.questId ?? progress.selectedQuestId;
+  const activeQuestId = progress.activeSession?.questId ?? progress.selectedQuestId ?? recommendation.quest?.id;
   const quest = questById(quests, activeQuestId) || recommendation.quest || null;
   const content = rightsStatus(quest);
   const questions = quest?.questions ?? [];
   const activeQuestion = questions[questionIndex];
   const activeResponse = activeQuestion ? responseFor(progress, quest?.id, activeQuestion.id) : null;
   const questResponses = quest ? responsesForQuest(progress, quest.id) : [];
+  const filteredQuests = useMemo(() => filterQuests(quests, { ...filters, bookmarked: filters.bookmarkOnly ? progress.bookmarkedQuestIds : null }), [quests, filters, progress.bookmarkedQuestIds]);
+  const dailyGoal = dailyGoalStatus(progress);
+  const arc = storyArc(quests, progress);
 
   useEffect(() => {
-    fetch('/api/health').then((response) => (response.ok ? response.json() : Promise.reject()))
-      .then((data) => setApiStatus(data.status || 'Available')).catch(() => setApiStatus('Offline demo mode'));
+    const controller = new AbortController();
+    fetch('/api/health', { signal: controller.signal })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error('Unavailable')))
+      .then((data) => setApiState({ kind: 'ready', label: data.status || 'Optional API available' }))
+      .catch((error) => { if (error.name !== 'AbortError') setApiState({ kind: 'offline', label: 'Offline demo mode — reviewed local quests are ready.' }); });
+    return () => controller.abort();
   }, []);
   useEffect(() => { saveProgress(progress); }, [progress]);
-  useEffect(() => { if (!SCREENS.includes(screen)) setScreen('home'); mainRef.current?.focus(); }, [screen]);
+  useEffect(() => { document.documentElement.dataset.textSize = progress.settings.textSize; document.documentElement.dataset.theme = progress.settings.theme; document.documentElement.classList.toggle('reduce-motion', progress.settings.reduceMotion); }, [progress.settings]);
+  useEffect(() => { mainRef.current?.focus(); }, [screen]);
+  useEffect(() => { if (!countedVisit.current) { countedVisit.current = true; setProgress((current) => recordReturnVisit(current)); } }, []);
+  useEffect(() => {
+    if (!revealed || !activeQuestion) return undefined;
+    const timer = window.setTimeout(() => document.getElementById(`evidence-${activeQuestion.correctEvidenceSentenceId}`)?.scrollIntoView({ behavior: progress.settings.reduceMotion ? 'auto' : 'smooth', block: 'center' }), 30);
+    return () => window.clearTimeout(timer);
+  }, [revealed, activeQuestion?.correctEvidenceSentenceId, progress.settings.reduceMotion]);
 
-  function moveTo(nextScreen, nextQuestionIndex = questionIndex, questId = quest?.id) {
-    setScreen(nextScreen); setQuestionIndex(nextQuestionIndex); setRevealed(false);
-    setProgress((previous) => ({
-      ...previous,
-      selectedQuestId: questId ?? previous.selectedQuestId,
-      activeSession: ['home', 'complete', 'dashboard'].includes(nextScreen) || !questId
-        ? null : { questId, screen: nextScreen, questionIndex: nextQuestionIndex },
-    }));
+  function navigate(nextScreen, options = {}) {
+    const nextQuestId = options.questId ?? quest?.id ?? null;
+    const nextIndex = options.questionIndex ?? questionIndex;
+    setScreen(nextScreen); setQuestionIndex(nextIndex); setRevealed(false); setNotice('');
+    if (QUEST_SCREENS.has(nextScreen) && nextQuestId) setProgress((current) => setActiveSession(current, { questId: nextQuestId, screen: nextScreen, questionIndex: nextIndex }));
   }
 
   function launchQuest(nextQuest) {
-    if (!rightsStatus(nextQuest).ready) return;
-    setDraft({ answerId: '', evidenceId: '' }); setScreen('example'); setQuestionIndex(0); setRevealed(false);
-    setProgress((previous) => ({
-      ...previous,
-      selectedQuestId: nextQuest.id,
-      activeSession: { questId: nextQuest.id, screen: 'example', questionIndex: 0 },
-      signals: { ...previous.signals, nextQuestSelections: previous.signals.nextQuestSelections + 1 },
-    }));
+    if (!rightsStatus(nextQuest).ready) { setNotice('This quest is waiting for reviewed content metadata.'); return; }
+    const existing = progress.activeSession?.questId === nextQuest.id ? progress.activeSession : null;
+    if (existing) { navigate(existing.screen, { questId: nextQuest.id, questionIndex: existing.questionIndex }); return; }
+    setDraft({ answerId: '', evidenceId: '' }); setQuestionIndex(0); setRevealed(false); setScreen('example');
+    setProgress((current) => beginQuest(current, nextQuest.id));
   }
 
   function beginQuestion(index) {
     const existing = responseFor(progress, quest.id, questions[index].id);
     setDraft({ answerId: existing?.answerId || '', evidenceId: existing?.evidenceId || '' });
-    moveTo('question', index);
+    navigate('question', { questionIndex: index });
   }
 
   function submitResponse() {
     if (!draft.answerId || !draft.evidenceId || !activeQuestion) return;
-    const submitted = {
-      questId: quest.id, questionId: activeQuestion.id, answerId: draft.answerId, evidenceId: draft.evidenceId,
-      answerCorrect: draft.answerId === activeQuestion.correctChoiceId,
-      evidenceCorrect: draft.evidenceId === activeQuestion.correctEvidenceSentenceId,
-      submittedAt: new Date().toISOString(),
-    };
-    setProgress((previous) => recordResponse(previous, submitted));
-    moveTo('feedback', questionIndex);
+    const response = { questId: quest.id, questionId: activeQuestion.id, answerId: draft.answerId, evidenceId: draft.evidenceId, answerCorrect: draft.answerId === activeQuestion.correctChoiceId, evidenceCorrect: draft.evidenceId === activeQuestion.correctEvidenceSentenceId, submittedAt: new Date().toISOString() };
+    setProgress((current) => setActiveSession(recordResponse(current, response), { questId: quest.id, screen: 'feedback', questionIndex }));
+    if (progress.settings.soundEnabled && progress.settings.soundFeedback) playCue(response.evidenceCorrect ? 'success' : 'retry', progress.settings);
+    setScreen('feedback'); setRevealed(false);
   }
 
   function revealEvidence() {
     setRevealed(true);
-    setProgress((previous) => ({ ...previous, signals: { ...previous.signals, evidenceReveals: previous.signals.evidenceReveals + 1 } }));
+    setProgress((current) => markEvidenceReveal(current));
+    if (progress.settings.soundEnabled && progress.settings.soundFeedback) playCue('reveal', progress.settings);
   }
 
   function finishQuest() {
-    const alreadyCompleted = progress.completedQuestIds.includes(quest.id);
-    const earnedXp = alreadyCompleted ? 0 : 80 + questResponses.filter((item) => item.evidenceCorrect).length * 10;
-    setProgress((previous) => ({
-      ...previous,
-      xp: previous.xp + earnedXp,
-      lastCompletionXp: earnedXp,
-      lastCompletedQuestId: quest.id,
-      completedQuestIds: alreadyCompleted ? previous.completedQuestIds : [...previous.completedQuestIds, quest.id],
-      badgeIds: previous.badgeIds.includes('first-evidence-quest') ? previous.badgeIds : [...previous.badgeIds, 'first-evidence-quest'],
-      activeSession: null,
-      signals: { ...previous.signals, completedQuestCount: alreadyCompleted ? previous.signals.completedQuestCount : previous.signals.completedQuestCount + 1 },
-    }));
-    setScreen('complete');
+    const correctAnswers = questResponses.filter((response) => response.answerCorrect).length;
+    const correctEvidence = questResponses.filter((response) => response.evidenceCorrect).length;
+    setProgress((current) => completeQuest(current, quest.id, { correctAnswers, correctEvidence, questionCount: questions.length }));
+    if (progress.settings.soundEnabled && progress.settings.soundCompletion) playCue('completion', progress.settings);
+    setShowCelebration(true); setScreen('complete'); setRevealed(false);
   }
 
-  function handleReset() {
-    if (window.confirm('Reset this browser’s anonymous ReadQuest demo progress?')) {
-      setProgress(resetProgress()); setDraft({ answerId: '', evidenceId: '' }); setScreen('home'); setQuestionIndex(0); setRevealed(false);
+  function updateSettings(settings) { setProgress((current) => setProgressSettings(current, settings)); }
+  function resetDemo() {
+    if (window.confirm('Reset this browser’s anonymous ReadQuest progress, settings, and local demo data?')) {
+      setProgress(resetProgress()); setScreen('onboarding'); setQuestionIndex(0); setDraft({ answerId: '', evidenceId: '' }); setRevealed(false); setNotice('');
     }
   }
+  function loadJudgeDemo() {
+    if (window.confirm('Load the deterministic judge snapshot? It replaces current local progress.')) { setProgress(createJudgeProgress(quests)); setScreen('home'); setQuestionIndex(0); setNotice('Judge snapshot loaded.'); }
+  }
+  function finishOnboarding() { setProgress((current) => completeOnboarding(current)); setScreen('home'); }
+  function addStatus(message) { setNotice(message); }
+  function markAccessory(accessory) { setProgress((current) => ({ ...current, activeAccessoryId: accessory })); }
 
-  const completedQuestions = questResponses.length;
   const correctAnswers = questResponses.filter((response) => response.answerCorrect).length;
   const correctEvidence = questResponses.filter((response) => response.evidenceCorrect).length;
-  const questCompleted = quest ? progress.completedQuestIds.includes(quest.id) : false;
 
   return (
     <div className="app-shell">
-      <AppHeader progress={progress} onHome={() => moveTo('home', 0)} onDashboard={() => moveTo('dashboard', questionIndex)} />
+      <AppHeader progress={progress} onNavigate={navigate} />
       <main className="main-stage" ref={mainRef} tabIndex="-1">
-        {screen === 'home' && (
-          <section className="home-view" aria-labelledby="home-title">
-            <div className="home-copy">
-              <p className="eyebrow">One short quest. One useful clue.</p><h1 id="home-title">Turn “I think” into “Here’s the proof.”</h1>
-              <p className="lede">ReadQuest gives grades 4–8 learners short story quests where choosing evidence—not speed—moves the moment forward.</p>
-              <div className="how-it-works" aria-label="How ReadQuest works"><span>1. Read</span><span>2. Reason</span><span>3. Choose evidence</span><span>4. See what changes</span></div>
-              <div className="button-row"><button className="primary-button" type="button" onClick={() => launchQuest(recommendation.quest)} disabled={!content.ready}>Start recommended quest <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => moveTo('dashboard')}>View practice summary</button></div>
-              <p className="api-note"><span className="status-dot" /> {apiStatus}. Reviewed quests are bundled for offline play.</p>
-            </div>
-            <div className="quest-preview">
-              <div className="quest-world" aria-hidden="true"><span>✦</span><span>⌁</span><span>✧</span></div>
-              {content.ready ? <><p className="card-label">Recommended quest</p><h2>{recommendation.quest.title}</h2><p>{recommendation.quest.topic} · {recommendation.quest.difficulty}</p><div className="tag-row">{recommendation.quest.skillTags.map((tag) => <span key={tag}>{tag}</span>)}</div><p className="time-label">◷ About {recommendation.quest.readingTimeMinutes} minutes · 3 evidence choices</p><p className="recommendation-reason">{recommendation.reason}</p><SourceNotice source={recommendation.quest.source} /></> : <EmptyQuest status={content} />}
-            </div>
-            {quests.length > 0 && <section className="quest-library" aria-labelledby="library-title"><div className="library-heading"><div><p className="eyebrow">Choose your quest</p><h2 id="library-title">Available reviewed quests</h2></div><p>{quests.length} local {quests.length === 1 ? 'quest' : 'quests'} · no account required</p></div><div className="library-grid">{quests.map((item) => <QuestCard key={item.id} quest={item} selected={item.id === quest?.id} complete={progress.completedQuestIds.includes(item.id)} recommended={item.id === recommendation.quest?.id} onStart={launchQuest} />)}</div></section>}
-            <Guide message={GUIDE_COPY.home} />
-          </section>
-        )}
-
-        {screen === 'example' && content.ready && <section className="lesson-view narrow-view" aria-labelledby="example-title"><p className="eyebrow">{quest.title} · worked example</p><h1 id="example-title">{quest.workedExample.title || 'Try the evidence routine'}</h1><div className="routine-grid"><article><span>1</span><h2>Notice</h2><p>{quest.workedExample.notice}</p></article><article><span>2</span><h2>Think</h2><p>{quest.workedExample.think}</p></article><article><span>3</span><h2>Prove</h2><p>{quest.workedExample.prove}</p></article></div><div className="example-callout"><strong>Example answer:</strong> {quest.workedExample.answer}<br /><strong>Evidence:</strong> {quest.workedExample.evidence}</div><div className="button-row"><button className="primary-button" type="button" onClick={() => moveTo('reading')}>Read the passage <span aria-hidden="true">→</span></button><button className="text-button" type="button" onClick={() => moveTo('reading')}>Skip example</button></div><Guide message={GUIDE_COPY.example} /></section>}
-
-        {screen === 'reading' && content.ready && <section className="reading-view" aria-labelledby="reading-title"><div className="reading-heading"><div><p className="eyebrow">{quest.skillTags.join(' + ')}</p><h1 id="reading-title">{quest.title}</h1><p>{quest.topic} · about {quest.readingTimeMinutes} minutes</p></div><div className="reading-meter" aria-label="Reading step complete"><span>Reading</span><strong>1 / 2</strong><i><b /></i></div></div><article className="passage-card" aria-label={`${quest.title} passage`}>{sentencesFor(quest).map((sentence) => <p key={sentence.id} id={`sentence-${sentence.id}`}>{sentence.text}</p>)}</article><div className="reading-footer"><p>When you are ready, answer one question at a time and choose the sentence that supports your idea.</p><button className="primary-button" type="button" onClick={() => beginQuestion(0)}>Start questions <span aria-hidden="true">→</span></button></div><Guide message={GUIDE_COPY.reading} /></section>}
-
-        {screen === 'question' && content.ready && activeQuestion && <section className="question-view narrow-view" aria-labelledby="question-title"><ProgressDots current={questionIndex + 1} total={questions.length} /><p className="eyebrow">{quest.title} · skill: {humanSkill(questionSkill(activeQuestion, quest))}</p><h1 id="question-title">{activeQuestion.prompt}</h1><fieldset className="choice-fieldset"><legend>1. Choose your answer</legend>{activeQuestion.choices.map((choice) => <label className={`choice-card ${draft.answerId === choice.id ? 'selected' : ''}`} key={choice.id}><input type="radio" name="answer" value={choice.id} checked={draft.answerId === choice.id} onChange={() => setDraft((current) => ({ ...current, answerId: choice.id }))} /><span>{choice.text}</span></label>)}</fieldset><fieldset className="choice-fieldset evidence-fieldset"><legend>2. Choose the sentence that best supports your answer</legend><p className="field-help">This is your practice choice. Feedback appears only after you submit.</p>{activeQuestion.evidenceSentenceIds.map((sentenceId) => { const sentence = sentenceById(quest, sentenceId); return sentence ? <label className={`choice-card evidence-choice ${draft.evidenceId === sentenceId ? 'selected' : ''}`} key={sentenceId}><input type="radio" name="evidence" value={sentenceId} checked={draft.evidenceId === sentenceId} onChange={() => setDraft((current) => ({ ...current, evidenceId: sentenceId }))} /><span>{sentence.text}</span></label> : null; })}</fieldset><button className="primary-button" type="button" onClick={submitResponse} disabled={!draft.answerId || !draft.evidenceId}>Submit answer &amp; evidence <span aria-hidden="true">→</span></button><Guide message={GUIDE_COPY.question} /></section>}
-
-        {screen === 'feedback' && content.ready && activeQuestion && activeResponse && <section className="feedback-view narrow-view" aria-labelledby="feedback-title"><p className="eyebrow">{quest.title} · your feedback</p><h1 id="feedback-title">{activeResponse.answerCorrect && activeResponse.evidenceCorrect ? 'That idea is well supported.' : 'Let’s check the proof together.'}</h1><div className="feedback-grid"><article><span className={activeResponse.answerCorrect ? 'result-good' : 'result-note'}>{activeResponse.answerCorrect ? '✓' : '↗'}</span><h2>Your answer</h2><p>{choiceById(activeQuestion, activeResponse.answerId)?.text}</p></article><article><span className={activeResponse.evidenceCorrect ? 'result-good' : 'result-note'}>{activeResponse.evidenceCorrect ? '✓' : '↗'}</span><h2>Your evidence</h2><p>{sentenceById(quest, activeResponse.evidenceId)?.text}</p></article></div><div className="explanation"><strong>Why:</strong> {activeQuestion.explanation}</div>{!revealed ? <button className="secondary-button" type="button" onClick={revealEvidence}>Show passage evidence</button> : <div className="evidence-reveal" aria-live="polite"><p className="eyebrow">Passage evidence</p><p>The highlighted sentence is the strongest support for the answer.</p><article className="evidence-passage" aria-label="Passage with supporting evidence highlighted">{sentencesFor(quest).map((sentence) => <p key={sentence.id} id={`sentence-${sentence.id}`} className={sentence.id === activeQuestion.correctEvidenceSentenceId ? 'is-evidence' : ''}>{sentence.id === activeQuestion.correctEvidenceSentenceId ? <mark>{sentence.text}</mark> : sentence.text}</p>)}</article></div>}<div className="button-row"><button className="primary-button" type="button" onClick={() => moveTo('consequence')}>See what your clue changes <span aria-hidden="true">→</span></button></div><Guide mood={activeResponse.evidenceCorrect ? 'happy' : 'thoughtful'} message={GUIDE_COPY.feedback} /></section>}
-
-        {screen === 'consequence' && content.ready && activeQuestion && activeResponse && <section className="consequence-view narrow-view" aria-labelledby="consequence-title"><div className={`consequence-scene ${activeResponse.evidenceCorrect ? 'scene-unlocked' : 'scene-mapped'}`} aria-hidden="true"><span>✦</span><span>⌁</span><span>◒</span></div><p className="eyebrow">{quest.title} · story consequence</p><h1 id="consequence-title">{activeResponse.evidenceCorrect ? activeQuestion.storyConsequence.strongTitle : activeQuestion.storyConsequence.practiceTitle}</h1><p className="consequence-copy">{activeResponse.evidenceCorrect ? activeQuestion.storyConsequence.strongMessage : activeQuestion.storyConsequence.practiceMessage}</p><p className="consequence-note">{activeResponse.evidenceCorrect ? 'The strong clue unlocks the clearest route.' : 'The guide adds the correct clue to your map for next time.'}</p>{questionIndex < questions.length - 1 ? <button className="primary-button" type="button" onClick={() => beginQuestion(questionIndex + 1)}>Next question <span aria-hidden="true">→</span></button> : <button className="primary-button" type="button" onClick={finishQuest}>Finish quest <span aria-hidden="true">→</span></button>}<Guide mood={activeResponse.evidenceCorrect ? 'happy' : 'thoughtful'} message={GUIDE_COPY.consequence} /></section>}
-
-        {screen === 'complete' && content.ready && <section className="complete-view narrow-view" aria-labelledby="complete-title"><div className="completion-star" aria-hidden="true">✦</div><p className="eyebrow">{quest.title} · quest complete</p><h1 id="complete-title">You followed the evidence trail.</h1><p className="completion-score">{correctAnswers} of {questions.length} answers matched the passage · {correctEvidence} of {questions.length} evidence choices were on target.</p><div className="reward-card"><span>+ {progress.lastCompletedQuestId === quest.id ? progress.lastCompletionXp : 0} XP</span><strong>Evidence Explorer badge earned</strong></div><div className="button-row"><button className="primary-button" type="button" onClick={() => moveTo('dashboard')}>View your practice summary <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => moveTo('home', 0)}>Choose another quest</button></div><Guide mood="happy" message={GUIDE_COPY.complete} /></section>}
-
-        {screen === 'dashboard' && <section className="dashboard-view" aria-labelledby="dashboard-title"><div className="dashboard-heading"><div><p className="eyebrow">Anonymous learner · local demo</p><h1 id="dashboard-title">Practice summary</h1><p>This view records one session’s choices to help guide a next practice—never a diagnosis or measure of mastery.</p></div><button className="secondary-button" type="button" onClick={handleReset}>Reset demo progress</button></div><div className="stat-grid"><article><span>XP</span><strong>{progress.xp}</strong><small>Level {levelForXp(progress.xp)} · {xpIntoLevel(progress.xp)}/100 to next</small></article><article><span>Quests completed</span><strong>{progress.completedQuestIds.length}</strong><small>Across {quests.length} reviewed local quests</small></article><article><span>Evidence choices</span><strong>{correctEvidence}/{questions.length || 3}</strong><small>For {quest?.title || 'the selected quest'}</small></article><article><span>Badge</span><strong>{progress.badgeIds.includes('first-evidence-quest') ? '✦' : '—'}</strong><small>{progress.badgeIds.includes('first-evidence-quest') ? 'Evidence Explorer' : 'Finish a quest to earn it'}</small></article></div><section className="skill-strengths" aria-labelledby="skill-strengths-title"><div><p className="eyebrow">Skill strengths</p><h2 id="skill-strengths-title">What this practice has covered</h2></div><div className="strength-grid">{skills.map((skill) => <article key={skill.key}><strong>{humanSkill(skill.key)}</strong><span>{skill.attempts ? `${skill.evidenceCorrect}/${skill.attempts} evidence choices on target` : 'Not practiced yet'}</span><i aria-label={`${skill.attempts ? Math.round((skill.evidenceCorrect / skill.attempts) * 100) : 0}% evidence choices on target`}><b style={{ width: `${skill.attempts ? (skill.evidenceCorrect / skill.attempts) * 100 : 0}%` }} /></i></article>)}</div></section>{content.ready && completedQuestions > 0 ? <section className="tutor-summary" aria-labelledby="tutor-summary-title"><div><p className="eyebrow">Tutor session summary</p><h2 id="tutor-summary-title">{quest.title}</h2><p>{quest.skillTags.join(' · ')} · {completedQuestions} responses recorded</p></div><div className="summary-rows">{questions.map((question, index) => { const response = responseFor(progress, quest.id, question.id); return <article key={question.id}><strong>Question {index + 1}</strong><p><span>Learner answer</span>{response ? choiceById(question, response.answerId)?.text : 'Not answered yet'}</p><p><span>Chosen evidence</span>{response ? sentenceById(quest, response.evidenceId)?.text : 'Not chosen yet'}</p><p><span>Suggested next practice</span>{question.followUpSuggestion}</p></article>; })}</div></section> : <section className="empty-summary"><h2>No practice recorded for this quest yet</h2><p>Choose {quest?.title || 'a reviewed quest'} to show anonymous answers, evidence choices, and a focused next practice.</p></section>}<section className="next-step"><div><p className="eyebrow">Next recommendation</p><h2>{recommendation.quest ? recommendation.quest.title : 'Add the reviewed local quest data.'}</h2><p>{recommendation.reason}</p></div><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>Start quest <span aria-hidden="true">→</span></button></section><Guide message={GUIDE_COPY.dashboard} /></section>}
+        {notice && <div className="app-notice" role="status"><span>{notice}</span><button type="button" aria-label="Dismiss message" onClick={() => setNotice('')}>×</button></div>}
+        {screen === 'onboarding' && <Onboarding onContinue={finishOnboarding} />}
+        {screen === 'home' && <section className="home-view" aria-labelledby="home-title">
+          <div className="home-copy"><p className="eyebrow">One short quest. One useful clue.</p><h1 id="home-title">Turn “I think” into “Here’s the proof.”</h1><p className="lede">ReadQuest turns reading evidence into a story trail for grades 4–8 learners. Careful reasoning—not speed—changes the quest.</p><div className="how-it-works" aria-label="How ReadQuest works"><span>1. Read</span><span>2. Reason</span><span>3. Choose evidence</span><span>4. See what changes</span></div><div className="button-row"><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume your quest' : 'Start recommended quest'} <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View practice summary</button></div><p className={`api-note is-${apiState.kind}`}><span className="status-dot" /> {apiState.label}</p></div>
+          <div className="quest-preview"><div className="quest-world" aria-hidden="true"><span>✦</span><span>⌁</span><span>✧</span></div>{recommendation.quest ? <><p className="card-label">{recommendation.kind === 'resume' ? 'Continue your route' : 'Recommended quest'}</p><h2>{recommendation.quest.title}</h2><p>{recommendation.quest.topic} · {recommendation.quest.difficulty}</p><div className="tag-row">{recommendation.quest.skillTags.map((tag) => <span key={tag}>{humanSkill(tag)}</span>)}</div><p className="time-label">◷ About {recommendation.quest.readingTimeMinutes} minutes · 3 evidence choices</p><p className="recommendation-reason">{recommendation.reason}</p><SourceNotice source={recommendation.quest.source} /></> : <section className="content-gate"><h2>Reviewed quests are loading.</h2><p>Local quest content will appear here once it passes its source and evidence checks.</p></section>}</div>
+          <QuestMap arc={arc} activeQuestId={quest?.id} />
+          <section className="library-controls" aria-labelledby="library-title"><div><p className="eyebrow">Choose your quest</p><h2 id="library-title">The local quest library</h2></div><label className="search-label" htmlFor="quest-search">Search quests<input id="quest-search" value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} placeholder="Title, topic, or skill" /></label><label>Topic<select value={filters.topic} onChange={(event) => setFilters((current) => ({ ...current, topic: event.target.value }))}><option value="">All topics</option>{[...new Set(quests.map((item) => item.topic))].map((topic) => <option key={topic}>{topic}</option>)}</select></label><label>Skill<select value={filters.skill} onChange={(event) => setFilters((current) => ({ ...current, skill: event.target.value }))}><option value="">All skills</option>{[...new Set(quests.flatMap((item) => item.skillTags))].map((skill) => <option key={skill}>{humanSkill(skill)}</option>)}</select></label><label>Difficulty<select value={filters.difficulty} onChange={(event) => setFilters((current) => ({ ...current, difficulty: event.target.value }))}><option value="">All levels</option>{[...new Set(quests.map((item) => item.difficulty))].map((difficulty) => <option key={difficulty}>{difficulty}</option>)}</select></label><label className="toggle-row"><input type="checkbox" checked={filters.bookmarkOnly} onChange={(event) => setFilters((current) => ({ ...current, bookmarkOnly: event.target.checked }))} /><span>Bookmarks only</span></label></section>
+          {progress.activeSession && <section className="resume-banner"><div><strong>Resume where you left off</strong><p>{questById(quests, progress.activeSession.questId)?.title || 'Your local quest'} · question {progress.activeSession.questionIndex + 1}</p></div><button className="secondary-button" type="button" onClick={() => navigate(progress.activeSession.screen, { questId: progress.activeSession.questId, questionIndex: progress.activeSession.questionIndex })}>Resume</button></section>}
+          {filteredQuests.length ? <div className="library-grid">{filteredQuests.map((item) => <QuestCard key={item.id} quest={item} complete={isQuestComplete(progress, item.id)} bookmarked={progress.bookmarkedQuestIds.includes(item.id)} recommended={recommendation.quest?.id === item.id} progress={progress} onStart={launchQuest} onBookmark={(id) => setProgress((current) => toggleBookmark(current, id))} />)}</div> : <section className="empty-summary"><h2>No quests match those filters</h2><p>Clear a filter or bookmark a quest to bring it back into your library.</p><button className="secondary-button" type="button" onClick={() => setFilters({ search: '', topic: '', skill: '', difficulty: '', bookmarkOnly: false })}>Clear filters</button></section>}
+          {unavailableCount > 0 && <section className="content-gate"><h2>{unavailableCount} quest{unavailableCount === 1 ? '' : 's'} unavailable</h2><p>They are hidden until source, rights, and sentence-evidence metadata are reviewed.</p></section>}
+          <Guide accessory={progress.activeAccessoryId} message="Choose a quest, then look for the line that proves your idea." />
+        </section>}
+        {screen === 'example' && content.ready && <section className="lesson-view narrow-view" aria-labelledby="example-title"><p className="eyebrow">{quest.title} · worked example</p><h1 id="example-title">{quest.workedExample.title || 'Try the evidence routine'}</h1><div className="routine-grid"><article><span>1</span><h2>Notice</h2><p>{quest.workedExample.notice}</p></article><article><span>2</span><h2>Think</h2><p>{quest.workedExample.think}</p></article><article><span>3</span><h2>Prove</h2><p>{quest.workedExample.prove}</p></article></div><div className="example-callout"><strong>Example answer:</strong> {quest.workedExample.answer}<br /><strong>Evidence:</strong> {quest.workedExample.evidence}</div><div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('reading')}>Read the passage <span aria-hidden="true">→</span></button><button className="text-button" type="button" onClick={() => navigate('reading')}>Skip example</button></div><Guide accessory={progress.activeAccessoryId} message="First, watch the routine. Then you will try it yourself." /></section>}
+        {screen === 'reading' && content.ready && <section className="reading-view" aria-labelledby="reading-title"><div className="reading-heading"><div><p className="eyebrow">{quest.skillTags.map(humanSkill).join(' + ')}</p><h1 id="reading-title">{quest.title}</h1><p>{quest.topic} · about {quest.readingTimeMinutes} minutes</p></div><div className="reading-meter" aria-label="Reading step complete"><span>Reading</span><strong>1 / 2</strong><i><b /></i></div></div><article className="passage-card" aria-label={`${quest.title} passage`}>{sentencesFor(quest).map((sentence) => <p key={sentence.id} id={`passage-${sentence.id}`}>{sentence.text}</p>)}</article><div className="reading-footer"><p>When you are ready, answer one question at a time and choose the sentence that supports your idea.</p><button className="primary-button" type="button" onClick={() => beginQuestion(0)}>Start questions <span aria-hidden="true">→</span></button></div><Guide accessory={progress.activeAccessoryId} mood="thoughtful" message="There is no speed bonus. Take the time you need to find the strongest clue." /></section>}
+        {screen === 'question' && content.ready && activeQuestion && <section className="question-view narrow-view" aria-labelledby="question-title"><div className="question-progress" aria-label={`Question ${questionIndex + 1} of ${questions.length}`}><span>Question {questionIndex + 1} of {questions.length}</span><div className="clue-trail" aria-label={`${questionIndex} of ${questions.length} evidence clues collected`}>{questions.map((question, index) => { const response = responseFor(progress, quest.id, question.id); return <i key={question.id} className={index === questionIndex ? 'is-current' : response?.evidenceCorrect ? 'is-strong' : response ? 'is-practice' : ''}>{response ? response.evidenceCorrect ? '✦' : '•' : index + 1}</i>; })}</div></div><p className="eyebrow">{quest.title} · skill: {humanSkill(questionSkill(activeQuestion, quest))}</p><h1 id="question-title">{activeQuestion.prompt}</h1><fieldset className="choice-fieldset"><legend>1. Choose your answer</legend>{activeQuestion.choices.map((choice) => <label className={`choice-card ${draft.answerId === choice.id ? 'selected' : ''}`} key={choice.id}><input type="radio" name="answer" value={choice.id} checked={draft.answerId === choice.id} onChange={() => setDraft((current) => ({ ...current, answerId: choice.id }))} /><span>{choice.text}</span></label>)}</fieldset><fieldset className="choice-fieldset evidence-fieldset"><legend>2. Choose the sentence that best supports your answer</legend><p className="field-help">Your evidence is saved before feedback appears.</p>{activeQuestion.evidenceSentenceIds.map((sentenceId) => { const sentence = sentenceById(quest, sentenceId); return sentence ? <label className={`choice-card evidence-choice ${draft.evidenceId === sentenceId ? 'selected' : ''}`} key={sentenceId}><input type="radio" name="evidence" value={sentenceId} checked={draft.evidenceId === sentenceId} onChange={() => setDraft((current) => ({ ...current, evidenceId: sentenceId }))} /><span>{sentence.text}</span></label> : null; })}</fieldset><button className="primary-button" type="button" onClick={submitResponse} disabled={!draft.answerId || !draft.evidenceId}>Submit answer &amp; evidence <span aria-hidden="true">→</span></button><Guide accessory={progress.activeAccessoryId} message="Choose an answer, then the sentence that best supports it." /></section>}
+        {screen === 'feedback' && content.ready && activeQuestion && activeResponse && <section className="feedback-view narrow-view" aria-labelledby="feedback-title"><p className="eyebrow">{quest.title} · your feedback</p><h1 id="feedback-title">{activeResponse.answerCorrect && activeResponse.evidenceCorrect ? 'That idea is well supported.' : 'Let’s check the proof together.'}</h1><div className="feedback-grid"><article><span className={activeResponse.answerCorrect ? 'result-good' : 'result-note'}>{activeResponse.answerCorrect ? '✓' : '↗'}</span><h2>Your answer</h2><p>{choiceById(activeQuestion, activeResponse.answerId)?.text}</p></article><article><span className={activeResponse.evidenceCorrect ? 'result-good' : 'result-note'}>{activeResponse.evidenceCorrect ? '✓' : '↗'}</span><h2>Your evidence</h2><p>{sentenceById(quest, activeResponse.evidenceId)?.text}</p></article></div><div className="explanation"><strong>Why:</strong> {activeQuestion.explanation}</div><button className="text-button" type="button" aria-pressed={progress.confusingQuestionIds.includes(activeQuestion.id)} onClick={() => setProgress((current) => toggleConfusingQuestion(current, activeQuestion.id))}>{progress.confusingQuestionIds.includes(activeQuestion.id) ? 'Marked for local review' : 'This question seems confusing'}</button>{!revealed ? <button className="secondary-button" type="button" onClick={revealEvidence}>Show passage evidence</button> : <div className="evidence-reveal" aria-live="polite"><p className="eyebrow">Passage evidence</p><p>The highlighted sentence is the strongest support for the answer.</p><article className="evidence-passage" aria-label="Passage with supporting evidence highlighted">{sentencesFor(quest).map((sentence) => <p key={sentence.id} id={`evidence-${sentence.id}`} className={sentence.id === activeQuestion.correctEvidenceSentenceId ? 'is-evidence' : ''}>{sentence.id === activeQuestion.correctEvidenceSentenceId ? <mark>{sentence.text}</mark> : sentence.text}</p>)}</article></div>}<div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('consequence')}>See what your clue changes <span aria-hidden="true">→</span></button></div><Guide accessory={progress.activeAccessoryId} mood={activeResponse.evidenceCorrect ? 'happy' : 'thoughtful'} message={activeResponse.evidenceCorrect ? 'That clue lights a stronger route on your map.' : 'A practice clue still helps the guide map the next route.'} /></section>}
+        {screen === 'consequence' && content.ready && activeQuestion && activeResponse && <section className="consequence-view narrow-view" aria-labelledby="consequence-title"><div className={`consequence-scene ${activeResponse.evidenceCorrect ? 'scene-unlocked' : 'scene-mapped'}`} aria-hidden="true"><span>✦</span><span>⌁</span><span>◌</span></div><p className="eyebrow">{quest.title} · story consequence</p><h1 id="consequence-title">{activeResponse.evidenceCorrect ? activeQuestion.storyConsequence.strongTitle : activeQuestion.storyConsequence.practiceTitle}</h1><p className="consequence-copy">{activeResponse.evidenceCorrect ? activeQuestion.storyConsequence.strongMessage : activeQuestion.storyConsequence.practiceMessage}</p><p className="consequence-note">{activeResponse.evidenceCorrect ? 'Evidence Shard collected: the clearest route is now lit.' : 'Practice clue added: the guide marked the evidence for your next try.'}</p>{questionIndex < questions.length - 1 ? <button className="primary-button" type="button" onClick={() => beginQuestion(questionIndex + 1)}>Next question <span aria-hidden="true">→</span></button> : <button className="primary-button" type="button" onClick={finishQuest}>Finish quest <span aria-hidden="true">→</span></button>}<Guide accessory={progress.activeAccessoryId} mood={activeResponse.evidenceCorrect ? 'happy' : 'thoughtful'} message="Your evidence choice changed the story scene. Keep following the trail." /></section>}
+        {screen === 'complete' && content.ready && <section className="complete-view narrow-view" aria-labelledby="complete-title">{showCelebration && <button className="skip-celebration" type="button" onClick={() => setShowCelebration(false)}>Skip celebration</button>}<div className={`completion-star ${showCelebration ? 'is-celebrating' : ''}`} aria-hidden="true">✦</div><p className="eyebrow">{quest.title} · quest complete</p><h1 id="complete-title">You followed the evidence trail.</h1><p className="completion-score">{correctAnswers} of {questions.length} answers matched the passage · {correctEvidence} of {questions.length} evidence choices were on target.</p><div className="reward-card"><span>+ {progress.lastCompletedQuestId === quest.id ? progress.lastCompletionXp : 0} XP</span><strong>Story fragment collected · {progress.badgeIds.includes(BADGES.EVIDENCE_EXPLORER) ? 'Strong Clue Finder badge earned' : 'Evidence Explorer badge earned'}</strong></div><div className="quest-debrief"><h2>Quest debrief</h2><p>You practiced {quest.skillTags.map(humanSkill).join(', ')}. Your next route can build on this clue trail or explore another skill.</p></div><div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('review')}>Review your evidence <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View progress</button><button className="text-button" type="button" onClick={() => navigate('home')}>Choose another quest</button></div><Guide accessory={progress.activeAccessoryId} mood="happy" message="A new story fragment is in your journal. Your next quest is ready whenever you are." /></section>}
+        {screen === 'review' && content.ready && <ReviewScreen quest={quest} progress={progress} onBack={() => navigate('dashboard')} />}
+        {screen === 'dashboard' && <section className="dashboard-view" aria-labelledby="dashboard-title"><div className="dashboard-heading"><div><p className="eyebrow">Anonymous learner · local demo</p><h1 id="dashboard-title">Practice &amp; progress</h1><p>This view records practice signals to guide a next step. It is not a diagnosis or a measure of mastery.</p></div><button className="secondary-button" type="button" onClick={resetDemo}>Reset demo progress</button></div><div className="stat-grid"><article><span>XP</span><strong>{progress.xp}</strong><small>Level {levelForXp(progress.xp)} · {xpIntoLevel(progress.xp)}/100 to next</small></article><article><span>Quest trail</span><strong>{progress.completedQuestIds.length}/{quests.length}</strong><small>{progress.storyFragmentIds.length} story fragments</small></article><article><span>Daily goal</span><strong>{dailyGoal.completed}/{dailyGoal.target}</strong><small>{dailyGoal.complete ? 'Goal complete' : 'One quest moves it forward'}</small></article><article><span>Streak</span><strong>{progress.streak.current}</strong><small>Days with a completed activity</small></article></div><section className="daily-goal"><div><p className="eyebrow">Flexible daily goal</p><h2>{dailyGoal.complete ? 'Today’s goal is complete' : 'Set a gentle reading goal'}</h2><p>{dailyGoal.completed} of {dailyGoal.target} completed today. Missing a day never removes earned progress.</p></div><div><label htmlFor="daily-target">Quest target</label><select id="daily-target" value={dailyGoal.target} onChange={(event) => setProgress((current) => setDailyGoalTarget(current, event.target.value))}><option value="1">1 quest</option><option value="2">2 quests</option><option value="3">3 quests</option></select></div></section><section className="skill-strengths" aria-labelledby="skill-strengths-title"><div><p className="eyebrow">Skill map</p><h2 id="skill-strengths-title">What this practice has covered</h2></div><div className="strength-grid">{skills.map((skill) => { const percent = skill.attempts ? Math.round((skill.evidenceCorrect / skill.attempts) * 100) : 0; return <article key={skill.key} tabIndex="0"><strong>{humanSkill(skill.key)}</strong><span>{skill.attempts ? `${skill.evidenceCorrect}/${skill.attempts} evidence choices on target` : 'Not practiced yet'}</span><i aria-label={`${percent}% evidence choices on target`}><b style={{ width: `${percent}%` }} /></i></article>; })}</div></section><section className="collection-panel"><div><p className="eyebrow">Collection journal</p><h2>Badges, fragments &amp; companion details</h2></div>{progress.badgeIds.length ? <div className="collection-list">{progress.badgeIds.map((badge) => <span key={badge}>✦ {BADGE_COPY[badge] || badge}</span>)}{progress.storyFragmentIds.map((fragment) => <span key={fragment}>▣ {fragment.replace('fragment-', '').replaceAll('-', ' ')}</span>)}</div> : <div className="empty-badges"><strong>No badges yet</strong><p>Finish a quest to add your first Evidence Explorer badge and story fragment.</p></div>}<div className="accessory-picker"><span>Guide accessory</span>{['compass', ...progress.unlockedAccessoryIds].map((accessory) => <button key={accessory} type="button" className={progress.activeAccessoryId === accessory ? 'is-selected' : ''} onClick={() => markAccessory(accessory)}>{humanSkill(accessory)}</button>)}</div></section>{quest && questResponses.length > 0 ? <section className="tutor-summary" aria-labelledby="tutor-summary-title"><div><p className="eyebrow">Tutor session summary</p><h2 id="tutor-summary-title">{quest.title}</h2><p>{quest.skillTags.map(humanSkill).join(' · ')} · {questResponses.length} responses recorded</p></div><div className="summary-rows">{questions.map((question, index) => { const response = responseFor(progress, quest.id, question.id); return <article key={question.id}><strong>Question {index + 1}</strong><p><span>Learner answer</span>{response ? choiceById(question, response.answerId)?.text : 'Not answered yet'}</p><p><span>Chosen evidence</span>{response ? sentenceById(quest, response.evidenceId)?.text : 'Not chosen yet'}</p><p><span>Suggested next practice</span>{question.followUpSuggestion}</p></article>; })}</div><button className="secondary-button" type="button" onClick={() => navigate('review')}>Review answer details</button></section> : <section className="empty-summary"><h2>No practice recorded for this quest yet</h2><p>Choose a reviewed quest to record anonymous answers, evidence choices, and a focused next practice.</p></section>}<section className="next-step"><div><p className="eyebrow">Next recommendation</p><h2>{recommendation.quest?.title || 'A reviewed local quest'}</h2><p>{recommendation.reason}</p></div><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume quest' : 'Start quest'} <span aria-hidden="true">→</span></button></section><Guide accessory={progress.activeAccessoryId} message="Your next quest is chosen from unfinished routes and skills you have practiced least." /></section>}
+        {screen === 'settings' && <ControlsPanel progress={progress} onUpdate={updateSettings} onJudge={loadJudgeDemo} onReset={resetDemo} />}
+        {screen === 'explore' && <FeatureLab progress={progress} quests={quests} onStatus={addStatus} onSetting={updateSettings} />}
       </main>
-      <footer className="app-footer">No accounts. No child identifiers. Progress stays in this browser.</footer>
+      <footer className="app-footer">Offline-first demo · Anonymous local progress · Source and rights details stay with every reviewed quest</footer>
     </div>
   );
+}
+
+function playCue(kind = 'success', settings = {}) {
+  try {
+    const Context = window.AudioContext || window.webkitAudioContext;
+    if (!Context) return;
+    const context = new Context();
+    const gain = context.createGain();
+    const now = context.currentTime;
+    const volume = settings.soundVolume === 'standard' ? 0.055 : 0.028;
+    const tones = { success: [523.25, 659.25], retry: [294.33], reveal: [440], completion: [523.25, 659.25, 783.99] }[kind] || [440];
+    gain.gain.setValueAtTime(0.0001, now);
+    tones.forEach((frequency, index) => {
+      const oscillator = context.createOscillator();
+      const start = now + index * 0.09;
+      const end = start + 0.16;
+      oscillator.type = kind === 'retry' ? 'triangle' : 'sine';
+      oscillator.frequency.setValueAtTime(frequency, start);
+      oscillator.connect(gain);
+      oscillator.start(start);
+      oscillator.stop(end);
+    });
+    const duration = Math.max(tones.length * 0.09 + 0.16, 0.18);
+    gain.gain.exponentialRampToValueAtTime(volume, now + 0.012);
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
+    gain.connect(context.destination);
+    window.setTimeout(() => context.close?.(), Math.ceil((duration + 0.1) * 1000));
+  } catch { /* Audio is optional. */ }
 }
