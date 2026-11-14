@@ -1,5 +1,6 @@
-export const PROGRESS_STORAGE_KEY = 'readquest.progress.v2';
-export const LEGACY_PROGRESS_STORAGE_KEY = 'readquest.progress.v1';
+export const PROGRESS_STORAGE_KEY = 'litlearn.progress.v3';
+// Preserve anonymous progress from the earlier product names during the LitLearn migration.
+export const LEGACY_PROGRESS_STORAGE_KEYS = ['litlab.progress.v2', 'readquest.progress.v2', 'readquest.progress.v1'];
 export const PROGRESS_VERSION = 2;
 
 export const BADGES = {
@@ -113,14 +114,14 @@ export function loadProgress() {
       const parsed = JSON.parse(current);
       if (isProgress(parsed)) return mergeProgress(parsed);
     }
-    const legacy = storage.getItem(LEGACY_PROGRESS_STORAGE_KEY);
-    if (legacy) {
+    for (const key of LEGACY_PROGRESS_STORAGE_KEYS) {
+      const legacy = storage.getItem(key);
+      if (!legacy) continue;
       const parsed = JSON.parse(legacy);
-      if (isProgress(parsed)) {
-        const migrated = mergeProgress(parsed);
-        storage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(migrated));
-        return migrated;
-      }
+      if (!isProgress(parsed)) continue;
+      const migrated = mergeProgress(parsed);
+      storage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(migrated));
+      return migrated;
     }
   } catch {
     // The demo stays usable when browser storage is blocked or malformed.
@@ -135,7 +136,7 @@ export function saveProgress(progress) {
 export function resetProgress() {
   try {
     getStorage()?.removeItem(PROGRESS_STORAGE_KEY);
-    getStorage()?.removeItem(LEGACY_PROGRESS_STORAGE_KEY);
+    LEGACY_PROGRESS_STORAGE_KEYS.forEach((key) => getStorage()?.removeItem(key));
   } catch { /* in-memory demo */ }
   return createEmptyProgress();
 }

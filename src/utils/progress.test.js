@@ -2,6 +2,8 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import {
   BADGES,
+  LEGACY_PROGRESS_STORAGE_KEYS,
+  PROGRESS_STORAGE_KEY,
   beginQuest,
   completeQuest,
   createEmptyProgress,
@@ -52,6 +54,16 @@ test('persists, resumes, bookmarks, and resets the versioned local progress sche
   const cleared = resetProgress();
   assert.equal(cleared.responses.length, 0);
   assert.equal(loadProgress().bookmarkedQuestIds.length, 0);
+});
+
+test('migrates anonymous progress from an earlier product-name storage key', () => {
+  const values = installStorage();
+  const legacy = { ...createEmptyProgress(), xp: 125, completedQuestIds: ['quest-1'] };
+  values.set(LEGACY_PROGRESS_STORAGE_KEYS[0], JSON.stringify(legacy));
+  const loaded = loadProgress();
+  assert.equal(loaded.xp, 125);
+  assert.deepEqual(loaded.completedQuestIds, ['quest-1']);
+  assert.ok(values.has(PROGRESS_STORAGE_KEY));
 });
 
 test('keeps optional sound preferences in local progress', () => {

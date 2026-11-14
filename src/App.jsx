@@ -182,7 +182,7 @@ function AppHeader({ progress, screen, onNavigate }) {
         {!progress.settings.hideGameSignals && <section className="rail-xp" aria-label={`Level ${levelForXp(progress.xp)}, ${progress.xp} experience points`}><span>Level {levelForXp(progress.xp)}</span><strong>{progress.xp} XP</strong><i><b style={{ width: `${xpIntoLevel(progress.xp)}%` }} /></i><small>{xpIntoLevel(progress.xp)} / 100 to level {levelForXp(progress.xp) + 1}</small></section>}
       </aside>
       <header className="app-header">
-        <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLearn home"><BrandMark /><span>LitLearn</span></button>
+      <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLearn home"><BrandMark /><span>LitLearn</span></button>
         <nav className="header-actions" aria-label="App navigation">
           {!progress.settings.hideGameSignals && <span className="xp-pill" aria-label={`${progress.xp} experience points`}>✦ {progress.xp} XP</span>}
           <button className="text-button" type="button" onClick={() => onNavigate('explore')}>Explore</button>
