@@ -1,0 +1,43 @@
+Judging Rubric
+A panel of judges scores each team across five weighted categories. Every category is scored on a 1–5 scale, and the weighted totals determine the winners.
+
+Categories
+1. Technical Execution and Functionality
+30%
+Does the product actually work? Judges look at how well the build runs end-to-end, the quality of the implementation, and how much of the proposed solution was delivered during the weekend.
+
+2. Problem Clarity and Solution Fit
+20%
+Is the problem clearly defined and worth solving? Judges evaluate how well the team understands the target user and how directly the solution addresses the stated problem.
+
+3. Market Viability and Financial Logic
+20%
+Could this become a real business? Judges consider the size of the opportunity, who would pay, and whether the basic financial model (pricing, costs, revenue) makes sense.
+
+4. Impact and Growth Potential
+20%
+How big could this get? Judges weigh the potential impact on users or industry, and how realistically the team could grow the product beyond the hackathon.
+
+5. Presentation and Professionalism
+10%
+Can the team tell the story well? Judges score the clarity of the demo, the quality of the pitch, and how confidently the team communicates their vision.
+
+Scoring Scale
+Each category is scored on a scale of 1–5:
+
+5
+Exceptional
+Outstanding work that clearly stands out
+4
+Strong
+Above average with clear strengths
+3
+Solid
+Meets expectations across the board
+2
+Limited
+Some effort but notable gaps
+1
+Minimal
+Little evidence in this area
+How judging works: Each judge scores every team 1–5 in each category. Scores are weighted by category percentage and combined across the panel. Winners are announced Sunday evening at closing.
