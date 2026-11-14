@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "id": "fix-it-fair-vocabulary",
+  "title": "The Fix-It Fair",
+  "topic": "Repair and engineering",
+  "difficulty": "Grades 4–8",
+  "readingTimeMinutes": 4,
+  "passageWordCount": 203,
+  "skillTags": [
+    "vocabulary in context",
+    "text evidence"
+  ],
+  "workedExample": {
+    "title": "Use nearby clues",
+    "notice": "A word's meaning is often explained by the actions and details around it.",
+    "think": "The lamp has a loose switch, so the switch is not firmly attached.",
+    "prove": "The sentence names a problem with the lamp, which helps explain the word.",
+    "answer": "Loose means not firmly attached.",
+    "evidence": "s2"
+  },
+  "source": {
+    "sourceType": "original",
+    "rightsStatus": "original",
+    "label": "Original ReadQuest passage · 2026",
+    "bookTitle": "The Fix-It Fair",
+    "author": "ReadQuest team",
+    "edition": "ReadQuest original passage, version 1.0 (2026)",
+    "chapter": "Standalone quest passage (not a book excerpt)",
+    "originalPublication": "ReadQuest, 2026",
+    "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+    "publicDomainBasis": "Not applicable: this is team-written original content.",
+    "license": "Original ReadQuest content bundled for use in Project Glass Cannon; no third-party text license applies.",
+    "requiredAttribution": "ReadQuest original passage: The Fix-It Fair (2026).",
+    "territory": "Global",
+    "territoryNote": "Original team content intended for worldwide use in this project."
+  },
+  "passage": [
+    {
+      "id": "s1",
+      "text": "On Saturday, Malik visited the Fix-It Fair at the community center with his grandfather."
+    },
+    {
+      "id": "s2",
+      "text": "Tables held a lamp with a loose switch, a backpack with a torn strap, and a bicycle light that would not turn on."
+    },
+    {
+      "id": "s3",
+      "text": "Mr. Ortiz told the volunteers that they would salvage any parts that still worked."
+    },
+    {
+      "id": "s4",
+      "text": "Malik first thought salvage meant throwing things away."
+    },
+    {
+      "id": "s5",
+      "text": "Then he watched a volunteer save the light's clear cover and tiny screws for another repair."
+    },
+    {
+      "id": "s6",
+      "text": "Malik chose the backpack."
+    },
+    {
+      "id": "s7",
+      "text": "He measured the torn strap before cutting a patch."
+    },
+    {
+      "id": "s8",
+      "text": "Mr. Ortiz reminded him to be precise: a patch that was even a little crooked could pull the strap out of shape."
+    },
+    {
+      "id": "s9",
+      "text": "Malik marked the fabric twice, then stitched slowly along the line."
+    },
+    {
+      "id": "s10",
+      "text": "Next, he used a sturdy clip from a broken key ring to hold the loose end in place."
+    },
+    {
+      "id": "s11",
+      "text": "The clip did not bend when he tugged it, so he knew it was strong enough for daily use."
+    },
+    {
+      "id": "s12",
+      "text": "At the end of the fair, Malik carried the backpack to its owner."
+    },
+    {
+      "id": "s13",
+      "text": "He had not made it look brand-new, but it was useful again."
+    },
+    {
+      "id": "s14",
+      "text": "He also understood why the volunteers kept a tray of saved parts: careful repairs can give ordinary objects another job."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1-salvage",
+      "type": "multiple-choice",
+      "targetSkill": "vocabulary-in-context",
+      "prompt": "What does salvage most likely mean as Mr. Ortiz uses it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "to save useful parts for another purpose"
+        },
+        {
+          "id": "b",
+          "text": "to throw away every broken object"
+        },
+        {
+          "id": "c",
+          "text": "to make an object look brand-new"
+        },
+        {
+          "id": "d",
+          "text": "to borrow tools from a neighbor"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "After Malik hears the word salvage, he sees a volunteer save a clear cover and screws for another repair. That action shows that salvage means keeping useful parts.",
+      "evidenceOptions": [
+        {
+          "sentenceId": "s3",
+          "text": "Mr. Ortiz told the volunteers that they would salvage any parts that still worked."
+        },
+        {
+          "sentenceId": "s4",
+          "text": "Malik first thought salvage meant throwing things away."
+        },
+        {
+          "sentenceId": "s5",
+          "text": "Then he watched a volunteer save the light's clear cover and tiny screws for another repair."
+        },
+        {
+          "sentenceId": "s13",
+          "text": "He had not made it look brand-new, but it was useful again."
+        }
+      ],
+      "correctEvidenceSentenceId": "s5",
+      "storyConsequence": {
+        "strongTitle": "Parts tray found",
+        "strongMessage": "You used a nearby action to unlock the word's meaning.",
+        "practiceTitle": "Save the clue",
+        "practiceMessage": "Look for an example that shows what an unfamiliar word means."
+      },
+      "followUpSuggestion": "When a word is unfamiliar, look for the action that happens right after it."
+    },
+    {
+      "id": "q2-precise",
+      "type": "multiple-choice",
+      "targetSkill": "vocabulary-in-context",
+      "prompt": "What does precise mean in the directions for the backpack patch?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "careful and exact"
+        },
+        {
+          "id": "b",
+          "text": "fast and noisy"
+        },
+        {
+          "id": "c",
+          "text": "soft and flexible"
+        },
+        {
+          "id": "d",
+          "text": "old and worn out"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Mr. Ortiz warns that even a slightly crooked patch can pull the strap out of shape. That clue shows precise means doing the measurement and placement exactly.",
+      "evidenceOptions": [
+        {
+          "sentenceId": "s7",
+          "text": "He measured the torn strap before cutting a patch."
+        },
+        {
+          "sentenceId": "s8",
+          "text": "Mr. Ortiz reminded him to be precise: a patch that was even a little crooked could pull the strap out of shape."
+        },
+        {
+          "sentenceId": "s10",
+          "text": "Next, he used a sturdy clip from a broken key ring to hold the loose end in place."
+        },
+        {
+          "sentenceId": "s12",
+          "text": "At the end of the fair, Malik carried the backpack to its owner."
+        }
+      ],
+      "correctEvidenceSentenceId": "s8",
+      "storyConsequence": {
+        "strongTitle": "Repair line shines",
+        "strongMessage": "You found the clue that makes the direction clear.",
+        "practiceTitle": "Measure the meaning",
+        "practiceMessage": "Use a nearby description to test a word's meaning."
+      },
+      "followUpSuggestion": "Notice examples that explain why a character must act carefully."
+    },
+    {
+      "id": "q3-sturdy",
+      "type": "multiple-choice",
+      "targetSkill": "vocabulary-in-context",
+      "prompt": "What does sturdy most likely mean when it describes the clip?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "strong and not easily bent"
+        },
+        {
+          "id": "b",
+          "text": "bright enough to glow in the dark"
+        },
+        {
+          "id": "c",
+          "text": "small enough to disappear"
+        },
+        {
+          "id": "d",
+          "text": "smooth enough to write on"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The passage says the clip does not bend when Malik tugs it and is strong enough for daily use. Those clues show that sturdy means strong and durable.",
+      "evidenceOptions": [
+        {
+          "sentenceId": "s9",
+          "text": "Malik marked the fabric twice, then stitched slowly along the line."
+        },
+        {
+          "sentenceId": "s10",
+          "text": "Next, he used a sturdy clip from a broken key ring to hold the loose end in place."
+        },
+        {
+          "sentenceId": "s11",
+          "text": "The clip did not bend when he tugged it, so he knew it was strong enough for daily use."
+        },
+        {
+          "sentenceId": "s14",
+          "text": "He also understood why the volunteers kept a tray of saved parts: careful repairs can give ordinary objects another job."
+        }
+      ],
+      "correctEvidenceSentenceId": "s11",
+      "storyConsequence": {
+        "strongTitle": "Sturdy clasp earned",
+        "strongMessage": "You used a result to understand the word that described it.",
+        "practiceTitle": "Test the word",
+        "practiceMessage": "Look for what happens to an object to learn what its description means."
+      },
+      "followUpSuggestion": "Use what an object does or withstands to infer the meaning of a describing word."
+    }
+  ]
+}
