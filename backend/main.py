@@ -1,13 +1,86 @@
+from __future__ import annotations
+
+from collections.abc import Mapping
 from functools import lru_cache
 import json
 from pathlib import Path
+import re
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="ReadQuest API")
+app = FastAPI(
+    title="ReadQuest API",
+    description=(
+        "Optional API for reviewed ReadQuest content. The React app bundles the same "
+        "JSON files and must remain usable when this service is unavailable."
+    ),
+)
 
 QUEST_DIRECTORY = Path(__file__).resolve().parent / "data"
+WORD_PATTERN = re.compile(r"[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)?")
+
+REQUIRED_QUEST_FIELDS = frozenset(
+    {
+        "id",
+        "title",
+        "topic",
+        "difficulty",
+        "readingTimeMinutes",
+        "passageWordCount",
+        "skillTags",
+        "source",
+        "passage",
+        "workedExample",
+        "questions",
+    }
+)
+REQUIRED_SOURCE_FIELDS = frozenset(
+    {
+        "sourceType",
+        "rightsStatus",
+        "license",
+        "requiredAttribution",
+        "label",
+        "territory",
+    }
+)
+REQUIRED_BOOK_SOURCE_FIELDS = frozenset(
+    {
+        "bookTitle",
+        "author",
+        "edition",
+        "chapter",
+        "sourceUrl",
+        "publicDomainBasis",
+    }
+)
+REQUIRED_WORKED_EXAMPLE_FIELDS = frozenset(
+    {"title", "notice", "think", "prove", "answer", "evidence"}
+)
+REQUIRED_QUESTION_FIELDS = frozenset(
+    {
+        "id",
+        "type",
+        "targetSkill",
+        "prompt",
+        "choices",
+        "correctChoiceId",
+        "explanation",
+        "evidenceOptions",
+        "correctEvidenceSentenceId",
+        "storyConsequence",
+        "followUpSuggestion",
+    }
+)
+REQUIRED_CONSEQUENCE_FIELDS = frozenset(
+    {"strongTitle", "strongMessage", "practiceTitle", "practiceMessage"}
+)
+
+
+class QuestValidationError(ValueError):
+    """Raised when a reviewed quest cannot safely enter the API or bundled library."""
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -18,141 +91,318 @@ app.add_middleware(
 )
 
 
-@app.get("/api/health")
+@app.get("/api/health", summary="Check API availability")
 def health_check():
     return {"status": "ok", "service": "ReadQuest API"}
 
 
-def _validate_quest(quest: dict) -> None:
-    """Fail fast if bundled content cannot support the learner evidence flow."""
-    required_fields = {
-        "id",
-        "title",
-        "topic",
-        "difficulty",
-        "readingTimeMinutes",
-        "skillTags",
-        "source",
-        "passage",
-        "workedExample",
-        "questions",
-    }
-    missing_fields = required_fields.difference(quest)
+def _require_mapping(value: object, context: str) -> Mapping[str, object]:
+    if not isinstance(value, Mapping):
+        raise QuestValidationError(f"{context} must be an object")
+    return value
+
+
+def _require_fields(
+    value: Mapping[str, object], required_fields: frozenset[str], context: str
+) -> None:
+    missing_fields = sorted(required_fields.difference(value))
     if missing_fields:
-        raise ValueError(f"Quest is missing required fields: {sorted(missing_fields)}")
+        raise QuestValidationError(f"{context} is missing required fields: {missing_fields}")
 
-    source = quest["source"]
-    required_source_fields = {
-        "sourceType",
-        "rightsStatus",
-        "license",
-        "requiredAttribution",
-        "label",
-    }
-    missing_source_fields = required_source_fields.difference(source)
-    if missing_source_fields:
-        raise ValueError(
-            f"Quest source is missing required fields: {sorted(missing_source_fields)}"
+
+def _require_nonempty_string(value: object, context: str) -> str:
+    if not isinstance(value, str) or not value.strip():
+        raise QuestValidationError(f"{context} must be a non-empty string")
+    return value
+
+
+def _count_words(sentences: list[Mapping[str, object]]) -> int:
+    return sum(
+        len(WORD_PATTERN.findall(_require_nonempty_string(sentence.get("text"), "passage text")))
+        for sentence in sentences
+    )
+
+
+def _validate_source(source_value: object, quest_id: str) -> Mapping[str, object]:
+    source = _require_mapping(source_value, f"Quest {quest_id} source")
+    _require_fields(source, REQUIRED_SOURCE_FIELDS, f"Quest {quest_id} source")
+    for field in REQUIRED_SOURCE_FIELDS:
+        _require_nonempty_string(source.get(field), f"Quest {quest_id} source.{field}")
+
+    source_type = source["sourceType"]
+    if source_type == "public-domain-book-excerpt":
+        _require_fields(source, REQUIRED_BOOK_SOURCE_FIELDS, f"Quest {quest_id} source")
+        for field in REQUIRED_BOOK_SOURCE_FIELDS:
+            _require_nonempty_string(source.get(field), f"Quest {quest_id} source.{field}")
+        if source["rightsStatus"] != "verified":
+            raise QuestValidationError(
+                f"Quest {quest_id} public-domain book excerpt must have rightsStatus 'verified'"
+            )
+    elif source_type == "original" and source["rightsStatus"] != "original":
+        raise QuestValidationError(
+            f"Quest {quest_id} original content must have rightsStatus 'original'"
         )
-    if source["sourceType"] == "public-domain-book-excerpt":
-        required_book_fields = {
-            "bookTitle",
-            "author",
-            "edition",
-            "chapter",
-            "sourceUrl",
-            "publicDomainBasis",
-            "territory",
-        }
-        missing_book_fields = required_book_fields.difference(source)
-        if missing_book_fields or source["rightsStatus"] != "verified":
-            raise ValueError("Public-domain book excerpts require verified source metadata")
+    return source
 
-    sentences = quest["passage"]
-    if not isinstance(sentences, list):
-        raise ValueError("Quest passage must be a list of sentences")
-    sentence_ids = {sentence.get("id") for sentence in sentences}
-    sentence_text_by_id = {sentence.get("id"): sentence.get("text") for sentence in sentences}
-    if not sentences or None in sentence_ids or any(
-        not sentence.get("text") for sentence in sentences
-    ):
-        raise ValueError("Quest passage must have uniquely identified sentences")
-    if len(sentence_ids) != len(sentences):
-        raise ValueError("Quest passage sentence IDs must be unique")
 
-    for question in quest["questions"]:
-        choices = {choice.get("id") for choice in question.get("choices", [])}
-        correct_choice = question.get("correctChoiceId")
-        evidence_options = question.get("evidenceOptions", [])
-        evidence_ids = {evidence.get("sentenceId") for evidence in evidence_options}
-        correct_evidence = question.get("correctEvidenceSentenceId")
+def _validate_passage(quest: Mapping[str, object], quest_id: str) -> dict[str, str]:
+    passage = quest["passage"]
+    if not isinstance(passage, list) or not passage:
+        raise QuestValidationError(f"Quest {quest_id} passage must be a non-empty list")
 
-        if correct_choice not in choices:
-            raise ValueError(f"Question {question.get('id')} has an invalid correct choice")
-        if correct_evidence not in sentence_ids:
-            raise ValueError(f"Question {question.get('id')} has an invalid evidence reference")
-        if correct_evidence not in evidence_ids:
-            raise ValueError(
-                f"Question {question.get('id')} does not offer its correct evidence sentence"
-            )
-        if any(
-            evidence.get("text") != sentence_text_by_id.get(evidence.get("sentenceId"))
-            for evidence in evidence_options
+    sentence_text_by_id: dict[str, str] = {}
+    for sentence in passage:
+        sentence_mapping = _require_mapping(sentence, f"Quest {quest_id} passage sentence")
+        sentence_id = _require_nonempty_string(
+            sentence_mapping.get("id"), f"Quest {quest_id} passage sentence id"
+        )
+        sentence_text = _require_nonempty_string(
+            sentence_mapping.get("text"), f"Quest {quest_id} passage sentence {sentence_id} text"
+        )
+        if sentence_id in sentence_text_by_id:
+            raise QuestValidationError(f"Quest {quest_id} has duplicate passage sentence ID {sentence_id}")
+        sentence_text_by_id[sentence_id] = sentence_text
+
+    declared_word_count = quest["passageWordCount"]
+    if not isinstance(declared_word_count, int):
+        raise QuestValidationError(f"Quest {quest_id} passageWordCount must be an integer")
+    actual_word_count = _count_words([{"text": text} for text in sentence_text_by_id.values()])
+    if declared_word_count != actual_word_count:
+        raise QuestValidationError(
+            f"Quest {quest_id} passageWordCount is {declared_word_count}, not {actual_word_count}"
+        )
+    if not 200 <= actual_word_count <= 250:
+        raise QuestValidationError(
+            f"Quest {quest_id} must contain 200–250 words, found {actual_word_count}"
+        )
+    return sentence_text_by_id
+
+
+def _validate_worked_example(
+    worked_example_value: object, sentence_text_by_id: Mapping[str, str], quest_id: str
+) -> None:
+    worked_example = _require_mapping(worked_example_value, f"Quest {quest_id} workedExample")
+    _require_fields(
+        worked_example, REQUIRED_WORKED_EXAMPLE_FIELDS, f"Quest {quest_id} workedExample"
+    )
+    for field in REQUIRED_WORKED_EXAMPLE_FIELDS:
+        _require_nonempty_string(
+            worked_example.get(field), f"Quest {quest_id} workedExample.{field}"
+        )
+    evidence_id = worked_example["evidence"]
+    if evidence_id not in sentence_text_by_id:
+        raise QuestValidationError(
+            f"Quest {quest_id} workedExample evidence ID {evidence_id} is not in its passage"
+        )
+
+
+def _validate_questions(
+    questions_value: object, sentence_text_by_id: Mapping[str, str], quest_id: str
+) -> None:
+    if not isinstance(questions_value, list) or len(questions_value) != 3:
+        raise QuestValidationError(f"Quest {quest_id} must contain exactly three questions")
+
+    question_ids: set[str] = set()
+    target_skills: set[str] = set()
+    for question_value in questions_value:
+        question = _require_mapping(question_value, f"Quest {quest_id} question")
+        _require_fields(question, REQUIRED_QUESTION_FIELDS, f"Quest {quest_id} question")
+        question_id = _require_nonempty_string(
+            question.get("id"), f"Quest {quest_id} question id"
+        )
+        if question_id in question_ids:
+            raise QuestValidationError(f"Quest {quest_id} has duplicate question ID {question_id}")
+        question_ids.add(question_id)
+
+        for field in (
+            "type",
+            "targetSkill",
+            "prompt",
+            "correctChoiceId",
+            "explanation",
+            "correctEvidenceSentenceId",
+            "followUpSuggestion",
         ):
-            raise ValueError(
-                f"Question {question.get('id')} has evidence text that does not match the passage"
+            _require_nonempty_string(
+                question.get(field), f"Quest {quest_id} question {question_id}.{field}"
+            )
+        if question["type"] != "multiple-choice":
+            raise QuestValidationError(
+                f"Quest {quest_id} question {question_id} must be multiple-choice"
+            )
+        target_skills.add(question["targetSkill"])
+
+        choices_value = question["choices"]
+        if not isinstance(choices_value, list) or len(choices_value) < 2:
+            raise QuestValidationError(
+                f"Quest {quest_id} question {question_id} must have at least two choices"
+            )
+        choice_ids: set[str] = set()
+        for choice_value in choices_value:
+            choice = _require_mapping(choice_value, f"Quest {quest_id} question {question_id} choice")
+            choice_id = _require_nonempty_string(
+                choice.get("id"), f"Quest {quest_id} question {question_id} choice id"
+            )
+            _require_nonempty_string(
+                choice.get("text"), f"Quest {quest_id} question {question_id} choice text"
+            )
+            if choice_id in choice_ids:
+                raise QuestValidationError(
+                    f"Quest {quest_id} question {question_id} has duplicate choice ID {choice_id}"
+                )
+            choice_ids.add(choice_id)
+        if question["correctChoiceId"] not in choice_ids:
+            raise QuestValidationError(
+                f"Quest {quest_id} question {question_id} has an invalid correct choice"
             )
 
+        evidence_options_value = question["evidenceOptions"]
+        if not isinstance(evidence_options_value, list) or not evidence_options_value:
+            raise QuestValidationError(
+                f"Quest {quest_id} question {question_id} must offer evidence options"
+            )
+        evidence_ids: set[str] = set()
+        for evidence_value in evidence_options_value:
+            evidence = _require_mapping(
+                evidence_value, f"Quest {quest_id} question {question_id} evidence option"
+            )
+            evidence_id = _require_nonempty_string(
+                evidence.get("sentenceId"),
+                f"Quest {quest_id} question {question_id} evidence sentenceId",
+            )
+            evidence_text = _require_nonempty_string(
+                evidence.get("text"),
+                f"Quest {quest_id} question {question_id} evidence text",
+            )
+            if evidence_id not in sentence_text_by_id:
+                raise QuestValidationError(
+                    f"Quest {quest_id} question {question_id} references unknown evidence ID {evidence_id}"
+                )
+            if evidence_text != sentence_text_by_id[evidence_id]:
+                raise QuestValidationError(
+                    f"Quest {quest_id} question {question_id} evidence text does not match {evidence_id}"
+                )
+            evidence_ids.add(evidence_id)
+        if question["correctEvidenceSentenceId"] not in evidence_ids:
+            raise QuestValidationError(
+                f"Quest {quest_id} question {question_id} does not offer its correct evidence sentence"
+            )
 
-@lru_cache
-def load_quests() -> dict[str, dict]:
-    quests: dict[str, dict] = {}
-    for quest_path in sorted(QUEST_DIRECTORY.glob("*.json")):
-        with quest_path.open(encoding="utf-8") as quest_file:
-            quest = json.load(quest_file)
-        _validate_quest(quest)
+        consequence = _require_mapping(
+            question["storyConsequence"],
+            f"Quest {quest_id} question {question_id} storyConsequence",
+        )
+        _require_fields(
+            consequence,
+            REQUIRED_CONSEQUENCE_FIELDS,
+            f"Quest {quest_id} question {question_id} storyConsequence",
+        )
+        for field in REQUIRED_CONSEQUENCE_FIELDS:
+            _require_nonempty_string(
+                consequence.get(field),
+                f"Quest {quest_id} question {question_id} storyConsequence.{field}",
+            )
+
+    if len(target_skills) != 1:
+        raise QuestValidationError(f"Quest {quest_id} questions must share one target skill")
+
+
+def validate_quest(quest_value: object) -> dict[str, object]:
+    """Validate the stable bundled-quest contract before returning or serving it."""
+    quest = dict(_require_mapping(quest_value, "Quest"))
+    _require_fields(quest, REQUIRED_QUEST_FIELDS, "Quest")
+    quest_id = _require_nonempty_string(quest.get("id"), "Quest id")
+    for field in ("title", "topic", "difficulty"):
+        _require_nonempty_string(quest.get(field), f"Quest {quest_id} {field}")
+    if not isinstance(quest["readingTimeMinutes"], int) or quest["readingTimeMinutes"] <= 0:
+        raise QuestValidationError(f"Quest {quest_id} readingTimeMinutes must be a positive integer")
+    if not isinstance(quest["skillTags"], list) or not quest["skillTags"]:
+        raise QuestValidationError(f"Quest {quest_id} skillTags must be a non-empty list")
+    for tag in quest["skillTags"]:
+        _require_nonempty_string(tag, f"Quest {quest_id} skill tag")
+
+    _validate_source(quest["source"], quest_id)
+    sentence_text_by_id = _validate_passage(quest, quest_id)
+    _validate_worked_example(quest["workedExample"], sentence_text_by_id, quest_id)
+    _validate_questions(quest["questions"], sentence_text_by_id, quest_id)
+    return quest
+
+
+def load_quests_from(quest_directory: Path) -> dict[str, dict[str, object]]:
+    """Load and validate every reviewed quest file from a directory."""
+    quests: dict[str, dict[str, object]] = {}
+    quest_paths = sorted(quest_directory.glob("quest-*.json"))
+    if not quest_paths:
+        raise QuestValidationError("No bundled quest content is available")
+
+    for quest_path in quest_paths:
+        try:
+            with quest_path.open(encoding="utf-8") as quest_file:
+                quest = validate_quest(json.load(quest_file))
+        except (OSError, json.JSONDecodeError) as error:
+            raise QuestValidationError(f"Could not read {quest_path.name}") from error
+
         quest_id = quest["id"]
         if quest_id in quests:
-            raise ValueError(f"Duplicate quest ID: {quest_id}")
+            raise QuestValidationError(f"Duplicate quest ID: {quest_id}")
         quests[quest_id] = quest
-
-    if not quests:
-        raise ValueError("No bundled quest content is available")
     return quests
 
 
-def _available_quests() -> dict[str, dict]:
+@lru_cache
+def load_quests() -> dict[str, dict[str, object]]:
+    return load_quests_from(QUEST_DIRECTORY)
+
+
+def _available_quests() -> dict[str, dict[str, object]]:
     try:
         return load_quests()
     except (OSError, ValueError, json.JSONDecodeError) as error:
         raise HTTPException(
-            status_code=503, detail="Quest content is temporarily unavailable."
+            status_code=503,
+            detail={
+                "code": "quest_content_unavailable",
+                "message": "Reviewed quest content is temporarily unavailable.",
+            },
         ) from error
 
 
-@app.get("/api/quests")
-def list_quests():
-    """Return compact quest cards; the browser can use its bundled JSON fallback."""
-    return [
-        {
-            key: quest[key]
-            for key in (
-                "id",
-                "title",
-                "topic",
-                "difficulty",
-                "readingTimeMinutes",
-                "skillTags",
-            )
+def _quest_summary(quest: Mapping[str, object]) -> dict[str, object]:
+    source = _require_mapping(quest["source"], f"Quest {quest['id']} source")
+    return {
+        key: quest[key]
+        for key in (
+            "id",
+            "title",
+            "topic",
+            "difficulty",
+            "readingTimeMinutes",
+            "skillTags",
+        )
+    } | {
+        "source": {
+            key: source[key]
+            for key in ("sourceType", "rightsStatus", "label", "requiredAttribution")
         }
-        for quest in _available_quests().values()
-    ]
+    }
 
 
-@app.get("/api/quests/{quest_id}")
+@app.get("/api/quests", summary="List reviewed quest cards")
+def list_quests():
+    """Return compact cards; detailed content remains available in bundled JSON offline."""
+    return [_quest_summary(quest) for quest in _available_quests().values()]
+
+
+@app.get("/api/quests/{quest_id}", summary="Get one reviewed quest")
 def get_quest(quest_id: str):
-    """Serve the same reviewed seed object that is bundled with the client."""
+    """Return the exact reviewed object used by the browser's local fallback."""
     quest = _available_quests().get(quest_id)
     if quest is None:
-        raise HTTPException(status_code=404, detail="Quest not found.")
+        raise HTTPException(
+            status_code=404,
+            detail={
+                "code": "quest_not_found",
+                "message": f"No reviewed quest exists with ID '{quest_id}'.",
+            },
+        )
     return quest
