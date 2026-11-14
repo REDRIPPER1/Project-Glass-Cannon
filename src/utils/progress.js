@@ -9,6 +9,16 @@ export const BADGES = {
   COMEBACK_READER: 'comeback-reader',
 };
 
+// Level rewards are deliberately cosmetic. They celebrate steady reading without
+// changing question difficulty, scores, or access to reviewed learning content.
+export const LEVEL_REWARDS = [
+  { id: 'trail-ribbon', level: 2, name: 'Trail Ribbon', title: 'Clue Starter', description: 'A bright ribbon for your guide after your first level-up.' },
+  { id: 'lantern-charm', level: 3, name: 'Lantern Charm', title: 'Proof Finder', description: 'A lantern charm that celebrates careful evidence choices.' },
+  { id: 'map-pin', level: 4, name: 'Map Pin', title: 'Route Keeper', description: 'A map pin for readers who keep following their quest trail.' },
+  { id: 'archive-key', level: 6, name: 'Archive Key', title: 'Story Scout', description: 'An archive key for opening another chapter of the story world.' },
+  { id: 'star-crown', level: 10, name: 'Star Crown', title: 'Evidence Legend', description: 'A star crown for a long-running evidence adventure.' },
+];
+
 function getStorage() {
   try { return globalThis.window?.localStorage ?? null; } catch { return null; }
 }
@@ -28,6 +38,7 @@ export function createEmptyProgress() {
     bookmarkedQuestIds: [],
     badgeIds: [],
     storyFragmentIds: [],
+    levelRewardIds: [],
     unlockedAccessoryIds: [],
     activeAccessoryId: 'compass',
     responses: [],
@@ -65,15 +76,20 @@ function asArray(value) { return Array.isArray(value) ? value : []; }
 function mergeProgress(value) {
   const empty = createEmptyProgress();
   const candidate = value && typeof value === 'object' ? value : {};
+  const xp = Number(candidate.xp) || 0;
+  const earnedRewardIds = LEVEL_REWARDS.filter((reward) => reward.level <= levelForXp(xp)).map((reward) => reward.id);
+  const levelRewardIds = [...new Set([...asArray(candidate.levelRewardIds), ...earnedRewardIds])];
   return {
     ...empty,
     ...candidate,
     version: PROGRESS_VERSION,
+    xp,
     completedQuestIds: asArray(candidate.completedQuestIds),
     bookmarkedQuestIds: asArray(candidate.bookmarkedQuestIds),
     badgeIds: asArray(candidate.badgeIds),
     storyFragmentIds: asArray(candidate.storyFragmentIds),
-    unlockedAccessoryIds: asArray(candidate.unlockedAccessoryIds),
+    levelRewardIds,
+    unlockedAccessoryIds: [...new Set([...asArray(candidate.unlockedAccessoryIds), ...levelRewardIds])],
     responses: asArray(candidate.responses),
     confusingQuestionIds: asArray(candidate.confusingQuestionIds),
     dailyGoal: { ...empty.dailyGoal, ...(candidate.dailyGoal ?? {}) },
@@ -205,6 +221,7 @@ export function completeQuest(progress, questId, { correctAnswers = 0, correctEv
   const badgeIds = new Set(normalized.badgeIds);
   const fragments = new Set(normalized.storyFragmentIds);
   const accessories = new Set(normalized.unlockedAccessoryIds);
+  const levelRewardIds = new Set(normalized.levelRewardIds);
   if (!alreadyCompleted) {
     badgeIds.add(BADGES.FIRST_QUEST);
     fragments.add(`fragment-${questId}`);
@@ -215,15 +232,21 @@ export function completeQuest(progress, questId, { correctAnswers = 0, correctEv
       accessories.add('map-pin');
     }
   }
+  const nextXp = normalized.xp + earnedXp;
+  LEVEL_REWARDS.filter((reward) => reward.level <= levelForXp(nextXp)).forEach((reward) => {
+    levelRewardIds.add(reward.id);
+    accessories.add(reward.id);
+  });
   const dailyGoal = currentDailyGoal(normalized, date);
   return {
     ...normalized,
-    xp: normalized.xp + earnedXp,
+    xp: nextXp,
     lastCompletionXp: earnedXp,
     lastCompletedQuestId: questId,
     completedQuestIds: alreadyCompleted ? normalized.completedQuestIds : [...normalized.completedQuestIds, questId],
     badgeIds: [...badgeIds],
     storyFragmentIds: [...fragments],
+    levelRewardIds: [...levelRewardIds],
     unlockedAccessoryIds: [...accessories],
     activeSession: null,
     dailyGoal: { ...dailyGoal, completed: alreadyCompleted ? dailyGoal.completed : dailyGoal.completed + 1 },
@@ -263,6 +286,7 @@ export function createJudgeProgress(quests = []) {
     completedQuestIds: [firstQuest.id],
     badgeIds: [BADGES.FIRST_QUEST, BADGES.EVIDENCE_EXPLORER],
     storyFragmentIds: [`fragment-${firstQuest.id}`],
+    levelRewardIds: ['trail-ribbon'],
     unlockedAccessoryIds: ['trail-ribbon'],
     activeAccessoryId: 'trail-ribbon',
     dailyGoal: { date: localDateKey(), target: 1, completed: 1 },

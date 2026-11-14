@@ -10,6 +10,7 @@ import {
 } from './utils/questContract';
 import {
   BADGES,
+  LEVEL_REWARDS,
   beginQuest,
   completeOnboarding,
   completeQuest,
@@ -72,6 +73,9 @@ function Guide({ mood = 'calm', message, accessory = 'compass' }) {
         <path d={face} fill="none" />
         {accessory === 'trail-ribbon' && <path className="guide-accessory" d="M22 22c13 8 42 8 56 0l-5 14c-13 6-33 6-46 0z" />}
         {accessory === 'map-pin' && <circle className="guide-accessory" cx="74" cy="25" r="8" />}
+        {accessory === 'lantern-charm' && <path className="guide-accessory" d="M70 19h10l3 8-3 12H70l-3-12zM75 16v-5" />}
+        {accessory === 'archive-key' && <path className="guide-accessory" d="M69 25a6 6 0 1 0 7-6l8 8m-4-4-5 5m1-1-4 4" />}
+        {accessory === 'star-crown' && <path className="guide-accessory" d="m28 27 6-10 8 7 8-11 8 11 8-7 6 10-6 9H34z" />}
       </svg>
       <p>{message}</p>
     </aside>
@@ -133,6 +137,9 @@ function NavIcon({ name }) {
     quests: <><path d="M4 7.5 12 4l8 3.5v9L12 20l-8-3.5z" /><path d="M12 4v16M4 7.5l8 3.5 8-3.5" /></>,
     adventure: <><path d="M4 11.5 12 4l8 7.5v8.5H4z" /><path d="M9 20v-5h6v5" /></>,
     progress: <><path d="M5 19V11M12 19V5M19 19v-9" /><path d="M3 20h18" /></>,
+    leaderboard: <><path d="M5 20v-6h4v6M10 20V9h4v11M15 20V5h4v15" /><path d="M4 20h16" /></>,
+    trophy: <><path d="M7 4h10v5a5 5 0 0 1-10 0z" /><path d="M7 6H4v2a4 4 0 0 0 4 4M17 6h3v2a4 4 0 0 1-4 4M12 14v4M8 20h8" /></>,
+    levels: <><path d="M4 18 9 13l4 3 7-8" /><path d="M16 8h4v4" /><circle cx="4" cy="18" r="1.5" /><circle cx="9" cy="13" r="1.5" /><circle cx="13" cy="16" r="1.5" /></>,
     explore: <><circle cx="11" cy="11" r="6" /><path d="m16 16 4 4M11 8v6M8 11h6" /></>,
     settings: <><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.1 2.1-.06-.06a1.7 1.7 0 0 0-1.88-.34 1.7 1.7 0 0 0-1.02 1.56V20.3h-3v-.1a1.7 1.7 0 0 0-1.02-1.56 1.7 1.7 0 0 0-1.88.34l-.06.06-2.1-2.1.06-.06A1.7 1.7 0 0 0 7.08 15a1.7 1.7 0 0 0-1.56-1.02h-.1v-3h.1A1.7 1.7 0 0 0 7.08 9a1.7 1.7 0 0 0-.34-1.88l-.06-.06 2.1-2.1.06.06A1.7 1.7 0 0 0 10.72 5a1.7 1.7 0 0 0 1.02-1.56v-.1h3v.1A1.7 1.7 0 0 0 15.76 5a1.7 1.7 0 0 0 1.88-.34l.06-.06 2.1 2.1-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.56 1.02h.1v3h-.1A1.7 1.7 0 0 0 19.4 15Z" /></>,
   };
@@ -153,6 +160,9 @@ function AppHeader({ progress, screen, onNavigate }) {
   const navItems = [
     ['quests', 'Quest map', 'home'],
     ['progress', 'Progress', 'dashboard'],
+    ['leaderboard', 'Trailboard', 'leaderboard'],
+    ['trophy', 'Trophy road', 'trophy-road'],
+    ['levels', 'Level road', 'level-road'],
     ['explore', 'Explore', 'explore'],
     ['settings', 'Settings', 'settings'],
   ];
@@ -180,7 +190,68 @@ function AppHeader({ progress, screen, onNavigate }) {
           <button className="text-button" type="button" onClick={() => onNavigate('settings')}>Settings</button>
         </nav>
       </header>
+      <nav className="mobile-road-nav" aria-label="Progress roads">
+        <button type="button" className={screen === 'leaderboard' ? 'is-active' : ''} onClick={() => onNavigate('leaderboard')}><NavIcon name="leaderboard" /><span>Trailboard</span></button>
+        <button type="button" className={screen === 'trophy-road' ? 'is-active' : ''} onClick={() => onNavigate('trophy-road')}><NavIcon name="trophy" /><span>Trophies</span></button>
+        <button type="button" className={screen === 'level-road' ? 'is-active' : ''} onClick={() => onNavigate('level-road')}><NavIcon name="levels" /><span>Levels</span></button>
+      </nav>
     </>
+  );
+}
+
+const TRAILBOARD_RIVALS = [
+  { id: 'mira', name: 'Mira the Mapper', xp: 520, note: 'Demo trail marker' },
+  { id: 'sol', name: 'Sol the Storykeeper', xp: 330, note: 'Demo trail marker' },
+  { id: 'bee', name: 'Bee the Bookwyrm', xp: 190, note: 'Demo trail marker' },
+];
+
+const TROPHY_ROAD = [
+  { id: 'first-footprint', title: 'First Footprint', detail: 'Finish one reviewed quest.', earned: (progress) => progress.completedQuestIds.length >= 1 },
+  { id: 'sharp-eye', title: 'Sharp Eye', detail: 'Find all of a quest’s evidence clues.', earned: (progress) => progress.badgeIds.includes(BADGES.EVIDENCE_EXPLORER) },
+  { id: 'trail-maker', title: 'Trail Maker', detail: 'Complete all three local quest routes.', earned: (progress) => progress.completedQuestIds.length >= 3 },
+  { id: 'story-shelf', title: 'Story Shelf', detail: 'Collect three story fragments.', earned: (progress) => progress.storyFragmentIds.length >= 3 },
+  { id: 'lantern-keeper', title: 'Lantern Keeper', detail: 'Reach level 4 through thoughtful practice.', earned: (progress) => levelForXp(progress.xp) >= 4 },
+];
+
+function LeaderboardScreen({ progress, onNavigate }) {
+  const entries = [...TRAILBOARD_RIVALS, { id: 'you', name: 'You', xp: progress.xp, note: 'Only stored in this browser' }]
+    .sort((left, right) => right.xp - left.xp);
+  return (
+    <section className="road-view trailboard-view" aria-labelledby="trailboard-title">
+      <div className="road-heading"><div><p className="eyebrow">Local practice board</p><h1 id="trailboard-title">Trailboard</h1><p>Friendly fictional markers give your local XP a place on the map. Your score never leaves this browser.</p></div><span className="road-level">Level {levelForXp(progress.xp)}</span></div>
+      <ol className="trailboard-list">
+        {entries.map((entry, index) => <li key={entry.id} className={entry.id === 'you' ? 'is-player' : ''}><span className="trail-rank">{index + 1}</span><span className="trail-avatar" aria-hidden="true">{entry.name === 'You' ? '✦' : entry.name[0]}</span><div><strong>{entry.name}</strong><small>{entry.note}</small></div><b>{entry.xp} XP</b></li>)}
+      </ol>
+      <div className="road-actions"><button className="primary-button" type="button" onClick={() => onNavigate('home')}>Earn XP on a quest <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => onNavigate('level-road')}>See level rewards</button></div>
+    </section>
+  );
+}
+
+function TrophyRoadScreen({ progress, onNavigate }) {
+  const earnedCount = TROPHY_ROAD.filter((trophy) => trophy.earned(progress)).length;
+  return (
+    <section className="road-view trophy-road-view" aria-labelledby="trophy-road-title">
+      <div className="road-heading"><div><p className="eyebrow">Quest keepsakes</p><h1 id="trophy-road-title">Trophy Road</h1><p>{earnedCount} of {TROPHY_ROAD.length} keepsakes earned. Each marker celebrates practice or evidence—not speed.</p></div><span className="road-level">{earnedCount}/{TROPHY_ROAD.length}</span></div>
+      <ol className="trophy-road-list">
+        {TROPHY_ROAD.map((trophy, index) => { const earned = trophy.earned(progress); return <li key={trophy.id} className={earned ? 'is-earned' : ''}><span className="road-node" aria-hidden="true">{earned ? '✦' : index + 1}</span><div><strong>{trophy.title}</strong><p>{trophy.detail}</p></div><span className="road-status">{earned ? 'Collected' : 'On the trail'}</span></li>; })}
+      </ol>
+      <div className="road-actions"><button className="primary-button" type="button" onClick={() => onNavigate('home')}>Continue the trail <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => onNavigate('level-road')}>Open Level Road</button></div>
+    </section>
+  );
+}
+
+function LevelRoadScreen({ progress, onNavigate, onEquip }) {
+  const level = levelForXp(progress.xp);
+  const nextReward = LEVEL_REWARDS.find((reward) => reward.level > level);
+  return (
+    <section className="road-view level-road-view" aria-labelledby="level-road-title">
+      <div className="road-heading"><div><p className="eyebrow">Your reward route</p><h1 id="level-road-title">Level Road</h1><p>Every 100 XP lifts your level. Quests award 80 XP, with small bonuses for answers and evidence—never for finishing fast.</p></div><span className="road-level">Level {level}</span></div>
+      <section className="level-progress-card" aria-label={`Level ${level} progress`}><div><span>Current XP</span><strong>{progress.xp} XP</strong><small>{nextReward ? `${Math.max(0, (nextReward.level - 1) * 100 - progress.xp)} XP to ${nextReward.name}` : 'Every current cosmetic reward is collected.'}</small></div><i><b style={{ width: `${xpIntoLevel(progress.xp)}%` }} /></i><p>{xpIntoLevel(progress.xp)} / 100 toward level {level + 1}</p></section>
+      <ol className="level-road-list">
+        {LEVEL_REWARDS.map((reward) => { const unlocked = level >= reward.level; const equipped = progress.activeAccessoryId === reward.id; return <li key={reward.id} className={unlocked ? 'is-unlocked' : ''}><span className="road-node" aria-hidden="true">{unlocked ? '✦' : reward.level}</span><div><span className="level-label">Level {reward.level} · {reward.title}</span><strong>{reward.name}</strong><p>{reward.description}</p></div>{unlocked ? <button type="button" className={equipped ? 'equipped-reward' : 'secondary-button'} disabled={equipped} onClick={() => onEquip(reward.id)}>{equipped ? 'Equipped' : 'Equip guide detail'}</button> : <span className="road-status">Locked</span>}</li>; })}
+      </ol>
+      <div className="road-actions"><button className="primary-button" type="button" onClick={() => onNavigate('home')}>Find another clue <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => onNavigate('trophy-road')}>View trophies</button></div>
+    </section>
   );
 }
 
@@ -431,6 +502,9 @@ export default function App() {
         {screen === 'complete' && content.ready && <section className="complete-view narrow-view" aria-labelledby="complete-title">{showCelebration && <button className="skip-celebration" type="button" onClick={() => setShowCelebration(false)}>Skip celebration</button>}<div className={`completion-star ${showCelebration ? 'is-celebrating' : ''}`} aria-hidden="true">✦</div><p className="eyebrow">{quest.title} · quest complete</p><h1 id="complete-title">You followed the evidence trail.</h1><p className="completion-score">{correctAnswers} of {questions.length} answers matched the passage · {correctEvidence} of {questions.length} evidence choices were on target.</p><div className="reward-card"><span>+ {progress.lastCompletedQuestId === quest.id ? progress.lastCompletionXp : 0} XP</span><strong>Story fragment collected · {progress.badgeIds.includes(BADGES.EVIDENCE_EXPLORER) ? 'Strong Clue Finder badge earned' : 'Evidence Explorer badge earned'}</strong></div><div className="quest-debrief"><h2>Quest debrief</h2><p>You practiced {quest.skillTags.map(humanSkill).join(', ')}. Your next route can build on this clue trail or explore another skill.</p></div><div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('review')}>Review your evidence <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View progress</button><button className="text-button" type="button" onClick={() => navigate('home')}>Choose another quest</button></div><Guide accessory={progress.activeAccessoryId} mood="happy" message="A new story fragment is in your journal. Your next quest is ready whenever you are." /></section>}
         {screen === 'review' && content.ready && <ReviewScreen quest={quest} progress={progress} onBack={() => navigate('dashboard')} />}
         {screen === 'dashboard' && <section className="dashboard-view" aria-labelledby="dashboard-title"><div className="dashboard-heading"><div><p className="eyebrow">Anonymous learner · local demo</p><h1 id="dashboard-title">Practice &amp; progress</h1><p>This view records practice signals to guide a next step. It is not a diagnosis or a measure of mastery.</p></div><button className="secondary-button" type="button" onClick={resetDemo}>Reset demo progress</button></div><div className="stat-grid"><article><span>XP</span><strong>{progress.xp}</strong><small>Level {levelForXp(progress.xp)} · {xpIntoLevel(progress.xp)}/100 to next</small></article><article><span>Quest trail</span><strong>{progress.completedQuestIds.length}/{quests.length}</strong><small>{progress.storyFragmentIds.length} story fragments</small></article><article><span>Daily goal</span><strong>{dailyGoal.completed}/{dailyGoal.target}</strong><small>{dailyGoal.complete ? 'Goal complete' : 'One quest moves it forward'}</small></article><article><span>Streak</span><strong>{progress.streak.current}</strong><small>Days with a completed activity</small></article></div><section className="daily-goal"><div><p className="eyebrow">Flexible daily goal</p><h2>{dailyGoal.complete ? 'Today’s goal is complete' : 'Set a gentle reading goal'}</h2><p>{dailyGoal.completed} of {dailyGoal.target} completed today. Missing a day never removes earned progress.</p></div><div><label htmlFor="daily-target">Quest target</label><select id="daily-target" value={dailyGoal.target} onChange={(event) => setProgress((current) => setDailyGoalTarget(current, event.target.value))}><option value="1">1 quest</option><option value="2">2 quests</option><option value="3">3 quests</option></select></div></section><section className="skill-strengths" aria-labelledby="skill-strengths-title"><div><p className="eyebrow">Skill map</p><h2 id="skill-strengths-title">What this practice has covered</h2></div><div className="strength-grid">{skills.map((skill) => { const percent = skill.attempts ? Math.round((skill.evidenceCorrect / skill.attempts) * 100) : 0; return <article key={skill.key} tabIndex="0"><strong>{humanSkill(skill.key)}</strong><span>{skill.attempts ? `${skill.evidenceCorrect}/${skill.attempts} evidence choices on target` : 'Not practiced yet'}</span><i aria-label={`${percent}% evidence choices on target`}><b style={{ width: `${percent}%` }} /></i></article>; })}</div></section><section className="collection-panel"><div><p className="eyebrow">Collection journal</p><h2>Badges, fragments &amp; companion details</h2></div>{progress.badgeIds.length ? <div className="collection-list">{progress.badgeIds.map((badge) => <span key={badge}>✦ {BADGE_COPY[badge] || badge}</span>)}{progress.storyFragmentIds.map((fragment) => <span key={fragment}>▣ {fragment.replace('fragment-', '').replaceAll('-', ' ')}</span>)}</div> : <div className="empty-badges"><strong>No badges yet</strong><p>Finish a quest to add your first Evidence Explorer badge and story fragment.</p></div>}<div className="accessory-picker"><span>Guide accessory</span>{['compass', ...progress.unlockedAccessoryIds].map((accessory) => <button key={accessory} type="button" className={progress.activeAccessoryId === accessory ? 'is-selected' : ''} onClick={() => markAccessory(accessory)}>{humanSkill(accessory)}</button>)}</div></section>{quest && questResponses.length > 0 ? <section className="tutor-summary" aria-labelledby="tutor-summary-title"><div><p className="eyebrow">Tutor session summary</p><h2 id="tutor-summary-title">{quest.title}</h2><p>{quest.skillTags.map(humanSkill).join(' · ')} · {questResponses.length} responses recorded</p></div><div className="summary-rows">{questions.map((question, index) => { const response = responseFor(progress, quest.id, question.id); return <article key={question.id}><strong>Question {index + 1}</strong><p><span>Learner answer</span>{response ? choiceById(question, response.answerId)?.text : 'Not answered yet'}</p><p><span>Chosen evidence</span>{response ? sentenceById(quest, response.evidenceId)?.text : 'Not chosen yet'}</p><p><span>Suggested next practice</span>{question.followUpSuggestion}</p></article>; })}</div><button className="secondary-button" type="button" onClick={() => navigate('review')}>Review answer details</button></section> : <section className="empty-summary"><h2>No practice recorded for this quest yet</h2><p>Choose a reviewed quest to record anonymous answers, evidence choices, and a focused next practice.</p></section>}<section className="next-step"><div><p className="eyebrow">Next recommendation</p><h2>{recommendation.quest?.title || 'A reviewed local quest'}</h2><p>{recommendation.reason}</p></div><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume quest' : 'Start quest'} <span aria-hidden="true">→</span></button></section><Guide accessory={progress.activeAccessoryId} message="Your next quest is chosen from unfinished routes and skills you have practiced least." /></section>}
+        {screen === 'leaderboard' && <LeaderboardScreen progress={progress} onNavigate={navigate} />}
+        {screen === 'trophy-road' && <TrophyRoadScreen progress={progress} onNavigate={navigate} />}
+        {screen === 'level-road' && <LevelRoadScreen progress={progress} onNavigate={navigate} onEquip={markAccessory} />}
         {screen === 'settings' && <ControlsPanel progress={progress} onUpdate={updateSettings} onJudge={loadJudgeDemo} onReset={resetDemo} />}
         {screen === 'explore' && <FeatureLab progress={progress} quests={quests} onStatus={addStatus} onSetting={updateSettings} />}
       </main>
