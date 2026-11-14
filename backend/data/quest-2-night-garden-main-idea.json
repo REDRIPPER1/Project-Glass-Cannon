@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "id": "night-garden-main-idea",
+  "title": "Small Helpers After Sunset",
+  "topic": "School garden ecology",
+  "difficulty": "Grades 4–8",
+  "readingTimeMinutes": 4,
+  "passageWordCount": 200,
+  "skillTags": [
+    "main idea",
+    "text evidence"
+  ],
+  "workedExample": {
+    "title": "Find the big idea",
+    "notice": "Look for details that repeat or work together. Then name the important message they share.",
+    "think": "Ms. Chen names water, shelter, and late-opening flowers, and the class later adds all three.",
+    "prove": "Those details point to one larger idea: the garden can welcome nighttime insects.",
+    "answer": "The class is making the garden more useful for helpers that visit after dark.",
+    "evidence": "s4"
+  },
+  "source": {
+    "sourceType": "original",
+    "rightsStatus": "original",
+    "label": "Original ReadQuest passage · 2026",
+    "bookTitle": "Small Helpers After Sunset",
+    "author": "ReadQuest team",
+    "edition": "ReadQuest original passage, version 1.0 (2026)",
+    "chapter": "Standalone quest passage (not a book excerpt)",
+    "originalPublication": "ReadQuest, 2026",
+    "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+    "publicDomainBasis": "Not applicable: this is team-written original content.",
+    "license": "Original ReadQuest content bundled for use in Project Glass Cannon; no third-party text license applies.",
+    "requiredAttribution": "ReadQuest original passage: Small Helpers After Sunset (2026).",
+    "territory": "Global",
+    "territoryNote": "Original team content intended for worldwide use in this project."
+  },
+  "passage": [
+    {
+      "id": "s1",
+      "text": "On Monday, Anaya carried a clipboard to the garden behind the library."
+    },
+    {
+      "id": "s2",
+      "text": "During the day, tomato flowers buzzed with bees, but at dusk the space became still."
+    },
+    {
+      "id": "s3",
+      "text": "Ms. Chen asked the class to imagine who might need the garden after the sun went down."
+    },
+    {
+      "id": "s4",
+      "text": "She explained that moths and beetles also help some plants, yet they need water, shelter, and flowers that open late."
+    },
+    {
+      "id": "s5",
+      "text": "The class found bare soil, a cracked birdbath, and only one narrow strip of blooms."
+    },
+    {
+      "id": "s6",
+      "text": "Instead of planning a huge makeover, each group chose one small change."
+    },
+    {
+      "id": "s7",
+      "text": "Anaya's group set out a shallow water dish filled with stones so tiny insects could climb out."
+    },
+    {
+      "id": "s8",
+      "text": "Another group stacked fallen branches near a wall to make a dry hiding place."
+    },
+    {
+      "id": "s9",
+      "text": "Two students planted white flowers because they would be easier to spot in dim light."
+    },
+    {
+      "id": "s10",
+      "text": "By Friday evening, the garden was not crowded or noisy."
+    },
+    {
+      "id": "s11",
+      "text": "Still, Anaya saw moths visiting the new flowers and beetles moving beneath the branches."
+    },
+    {
+      "id": "s12",
+      "text": "She wrote in her notebook, ‘A garden does not need to be loud to be useful. It needs to welcome more kinds of helpers.’"
+    },
+    {
+      "id": "s13",
+      "text": "The class decided to check the garden once a week and record what they noticed."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1-central-message",
+      "type": "multiple-choice",
+      "targetSkill": "identifying-main-idea",
+      "prompt": "Which statement best expresses the passage's main idea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Small changes can make a school garden welcoming to nighttime helpers."
+        },
+        {
+          "id": "b",
+          "text": "Tomato flowers are the only plants that insects visit after dark."
+        },
+        {
+          "id": "c",
+          "text": "A noisy garden is more useful than a quiet garden."
+        },
+        {
+          "id": "d",
+          "text": "The class should replace every part of the garden at once."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The passage describes several small additions, then Anaya explains that a useful garden welcomes more kinds of helpers. That message connects the details in the whole passage.",
+      "evidenceOptions": [
+        {
+          "sentenceId": "s4",
+          "text": "She explained that moths and beetles also help some plants, yet they need water, shelter, and flowers that open late."
+        },
+        {
+          "sentenceId": "s6",
+          "text": "Instead of planning a huge makeover, each group chose one small change."
+        },
+        {
+          "sentenceId": "s12",
+          "text": "She wrote in her notebook, ‘A garden does not need to be loud to be useful. It needs to welcome more kinds of helpers.’"
+        },
+        {
+          "sentenceId": "s13",
+          "text": "The class decided to check the garden once a week and record what they noticed."
+        }
+      ],
+      "correctEvidenceSentenceId": "s12",
+      "storyConsequence": {
+        "strongTitle": "Night garden route unlocked",
+        "strongMessage": "You found the idea that joins all the garden clues.",
+        "practiceTitle": "Gather the garden clues",
+        "practiceMessage": "Look for details that repeat the same big message."
+      },
+      "followUpSuggestion": "Ask which sentence could summarize the most details in the passage."
+    },
+    {
+      "id": "q2-details-work-together",
+      "type": "multiple-choice",
+      "targetSkill": "identifying-main-idea",
+      "prompt": "How do the water dish, branch shelter, and white flowers develop the main idea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They show different small ways to help nighttime insects use the garden."
+        },
+        {
+          "id": "b",
+          "text": "They prove that the garden needs louder sounds at night."
+        },
+        {
+          "id": "c",
+          "text": "They explain why daytime bees should leave the garden."
+        },
+        {
+          "id": "d",
+          "text": "They show that the class is building a large new library."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Each item meets a need named for nighttime insects: water, shelter, or visible flowers. Together, these details support the idea that small changes can welcome those helpers.",
+      "evidenceOptions": [
+        {
+          "sentenceId": "s4",
+          "text": "She explained that moths and beetles also help some plants, yet they need water, shelter, and flowers that open late."
+        },
+        {
+          "sentenceId": "s7",
+          "text": "Anaya's group set out a shallow water dish filled with stones so tiny insects could climb out."
+        },
+        {
+          "sentenceId": "s10",
+          "text": "By Friday evening, the garden was not crowded or noisy."
+        },
+        {
+          "sentenceId": "s13",
+          "text": "The class decided to check the garden once a week and record what they noticed."
+        }
+      ],
+      "correctEvidenceSentenceId": "s4",
+      "storyConsequence": {
+        "strongTitle": "Helper stations appear",
+        "strongMessage": "You connected several details to one big idea.",
+        "practiceTitle": "Match a detail to the message",
+        "practiceMessage": "Find another detail that supports the passage's big idea."
+      },
+      "followUpSuggestion": "Group related details, then explain the message they support together."
+    },
+    {
+      "id": "q3-best-title",
+      "type": "multiple-choice",
+      "targetSkill": "identifying-main-idea",
+      "prompt": "Which title best fits the main idea of the passage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Small Helpers After Sunset"
+        },
+        {
+          "id": "b",
+          "text": "The Loudest Garden Contest"
+        },
+        {
+          "id": "c",
+          "text": "How to Grow Only Tomatoes"
+        },
+        {
+          "id": "d",
+          "text": "A Broken Birdbath Mystery"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The passage is about making a garden useful for small creatures that visit after dark. The correct title captures both the helpers and the nighttime setting.",
+      "evidenceOptions": [
+        {
+          "sentenceId": "s2",
+          "text": "During the day, tomato flowers buzzed with bees, but at dusk the space became still."
+        },
+        {
+          "sentenceId": "s9",
+          "text": "Two students planted white flowers because they would be easier to spot in dim light."
+        },
+        {
+          "sentenceId": "s11",
+          "text": "Still, Anaya saw moths visiting the new flowers and beetles moving beneath the branches."
+        },
+        {
+          "sentenceId": "s12",
+          "text": "She wrote in her notebook, ‘A garden does not need to be loud to be useful. It needs to welcome more kinds of helpers.’"
+        }
+      ],
+      "correctEvidenceSentenceId": "s12",
+      "storyConsequence": {
+        "strongTitle": "Garden sign planted",
+        "strongMessage": "You chose a title that carries the passage's big idea.",
+        "practiceTitle": "Name the message",
+        "practiceMessage": "Choose a title that fits the whole passage, not just one detail."
+      },
+      "followUpSuggestion": "Test a title by asking whether it fits the beginning, middle, and end."
+    }
+  ]
+}
