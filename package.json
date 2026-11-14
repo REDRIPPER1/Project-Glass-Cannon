@@ -1,0 +1,20 @@
+{
+  "name": "readquest",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"python -m uvicorn backend.main:app --reload --port 3001\"",
+    "dev:client": "vite",
+    "dev:server": "python -m uvicorn backend.main:app --reload --port 3001",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "concurrently": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
