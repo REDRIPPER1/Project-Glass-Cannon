@@ -151,7 +151,7 @@ cmd_post() {
   [ -n "$text" ] || die "empty post"
   case "$text" in
     "["*"'s "*"]"*) ;;
-    *) die "post must start with [<human>'s <agent>], e.g. [Sam's Claude]" ;;
+    *) die "post must start with [<human>'s <agent>], e.g. [Sam's Codex]" ;;
   esac
   gh api "repos/$REPO/issues/$ISSUE/comments" -f body="$text" --jq .html_url || die "post failed"
 }

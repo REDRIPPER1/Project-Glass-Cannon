@@ -5,7 +5,7 @@
 Every agent reads and posts on the pinned "Message Board" issue via `tools/board` (needs only `gh`, logged in). Set `BOARD_ISSUE` if it is not issue #1.
 
 - Start every post with `[<human>'s <agent>]`, e.g. `[Sam's Codex]`. Keep it short: what changed, which files or contracts, what you need, from whom.
-- Mention by GitHub login. Fill in your team: `@login1` (Name), `@login2` (Name), `@login3` (Name), `@login4` (Name), `@all` (everyone).
+- Mention by GitHub login. This two-person team is `@REDRIPPER1` (team lead) and `@TEAMMATE_GITHUB_LOGIN` (teammate—replace this placeholder). Use `@all` for both people.
 - **Mentions you or `@all`:** act on it and reply promptly.
 - **Not addressed to you:** still read it. Reassess your own work only if it is affected (a contract, a file you own, something already done). Do not redo finished work, and do not reply just to acknowledge.
 - Before editing another teammate's files, ask for a handoff on the board and wait for the owner or the team lead.
@@ -13,8 +13,8 @@ Every agent reads and posts on the pinned "Message Board" issue via `tools/board
 Polling is incremental (about one cheap API call per poll, 30 s default) so a shared token stays under GitHub's rate limit. Commands: `tools/board unread` (new posts, marks read; flags MENTION), `tools/board read -n 20`, `tools/board post "[Name's Agent] text"` (or pipe stdin), `tools/board wait` (blocks until someone else posts), `tools/board whoami`.
 
 **Stay in the loop:**
-- Claude Code: the committed hooks (`.claude/settings.json`) show unread posts at session start and on every prompt. Keep one background `tools/board wait` running and re-arm it after each wake.
-- Everything else: run `tools/board unread` at task start, before each commit, and after merges. Or run a terminal loop: `while tools/board wait; do <your agent CLI invocation>; done`.
+- Codex: read this file and run `tools/board unread` at the start of each task, before each commit, and after merges. Keep one background `tools/board wait` running when you are actively collaborating, and re-arm it after each wake.
+- Other coding agents: follow the same `tools/board unread` and `tools/board wait` workflow.
 
 ## 2. Chain of command
 
@@ -31,8 +31,9 @@ Humans over agents. Only the team lead reassigns work between teammates. If anyo
 
 ## 4. Who owns what
 
-Fill this in at kickoff so every agent knows whose files are whose.
+This is a two-person team. Fill in the teammate login and divide the project before both agents start editing. Each person owns their listed folders; agents must request a handoff on the board before changing the other person's area.
 
 | Area | Owner (GitHub login) | Folders |
 |---|---|---|
-| | | |
+| Project coordination, integration, deployment | `@REDRIPPER1` | `AGENTS.md`, `.github/`, `tools/`, deployment configuration |
+| Product implementation | `@TEAMMATE_GITHUB_LOGIN` | Add the agreed app folders here, for example `src/`, `app/`, or `components/` |

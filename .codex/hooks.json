@@ -1,0 +1,30 @@
+{
+  "description": "Keep Codex agents synchronized through the project message board.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git rev-parse --show-toplevel)/.codex/hooks/board-session-start.sh\"",
+            "commandWindows": "& 'C:\\Program Files\\Git\\bin\\bash.exe' \"$(git rev-parse --show-toplevel)/.codex/hooks/board-session-start.sh\"",
+            "timeout": 20
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git rev-parse --show-toplevel)/.codex/hooks/board-prompt.sh\"",
+            "commandWindows": "& 'C:\\Program Files\\Git\\bin\\bash.exe' \"$(git rev-parse --show-toplevel)/.codex/hooks/board-prompt.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
