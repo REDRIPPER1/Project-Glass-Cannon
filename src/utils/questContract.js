@@ -1,5 +1,5 @@
 /*
- * ReadQuest seed-content boundary. The content owner supplies
+ * LitLearn seed-content boundary. The content owner supplies
  * backend/data/*.json; Vite imports them at build time so the learner flow
  * remains local when the API is unavailable.
  */

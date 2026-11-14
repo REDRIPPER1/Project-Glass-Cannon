@@ -14,9 +14,9 @@ from .catalog import CatalogError, load_catalogs
 from .store import DemoStore, PlatformError, create_store
 
 app = FastAPI(
-    title="ReadQuest API",
+    title="LitLearn API",
     description=(
-        "Optional API for reviewed ReadQuest content. The React app bundles the same "
+        "Optional API for reviewed LitLearn content. The React app bundles the same "
         "JSON files and must remain usable when this service is unavailable."
     ),
 )
@@ -99,7 +99,7 @@ app.add_middleware(
 
 @app.get("/api/health", summary="Check API availability")
 def health_check():
-    return {"status": "ok", "service": "ReadQuest API"}
+    return {"status": "ok", "service": "LitLearn API"}
 
 
 def _require_mapping(value: object, context: str) -> Mapping[str, object]:

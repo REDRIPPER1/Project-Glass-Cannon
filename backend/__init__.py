@@ -1,1 +1,1 @@
-"""ReadQuest backend package."""
+"""LitLearn backend package."""

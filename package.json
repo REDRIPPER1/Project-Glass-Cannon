@@ -1,5 +1,5 @@
 {
-  "name": "readquest",
+  "name": "litlearn",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -8,6 +8,7 @@
     "dev:client": "vite",
     "dev:server": "python -m uvicorn backend.main:app --reload --port 3001",
     "build": "vite build",
+    "test": "node --test src/utils/progress.test.js src/utils/experience.test.js src/appAccessibility.test.js",
     "preview": "vite preview"
   },
   "dependencies": {

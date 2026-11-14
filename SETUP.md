@@ -1,4 +1,4 @@
-# ReadQuest setup
+# LitLearn setup
 
 This file is the shared installation guide for every teammate. Do not commit local environment folders such as `node_modules` or `.venv`.
 
