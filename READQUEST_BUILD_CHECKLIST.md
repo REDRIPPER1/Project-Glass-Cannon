@@ -141,6 +141,9 @@ This is optional for the hackathon. The evidence reveal is the first explanation
 - [ ] Verify public-domain status in the intended market before publishing a text.
 - [ ] Respect Creative Commons requirements, including attribution, commercial-use limits, and adaptation limits.
 - [ ] Obtain written permission before displaying, adapting, storing, or generating learning materials from copyrighted works.
+- [ ] Before adding a book excerpt, verify the exact book and edition's reuse rights.
+- [ ] Record the excerpt's source, chapter, rights status, license, and required attribution in quest data.
+- [ ] If reuse rights are unclear, do not include the excerpt.
 - [ ] Track owner, license, permitted uses, territory, attribution, and expiry for future third-party content.
 - [ ] Do not promise legal compliance beyond what has been verified; seek professional advice before a commercial launch.
 

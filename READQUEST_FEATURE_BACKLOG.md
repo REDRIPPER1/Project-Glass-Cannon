@@ -103,6 +103,9 @@ From a fresh browser, a judge can:
 - [ ] Every quest has: `id`, title, topic, difficulty, reading time, passage, skill tags, source, rights, and questions.
 - [ ] Every question has: `id`, `type`, prompt, choices, correct answer, skill, explanation, and evidence reference.
 - [ ] Use original or verified public-domain content only; never add modern copyrighted excerpts.
+- [ ] Before adding a book excerpt, verify the exact book and edition's reuse rights.
+- [ ] Record the excerpt's source, chapter, rights status, license, and required attribution in quest data.
+- [ ] If reuse rights are unclear, do not include the excerpt.
 
 ### Progress and motivation
 
