@@ -51,6 +51,16 @@ const BADGE_COPY = {
   [BADGES.QUEST_CARTOGRAPHER]: 'Quest Cartographer',
   [BADGES.COMEBACK_READER]: 'Comeback Reader',
 };
+const COLOR_MODE_OPTIONS = [
+  ['system', 'System default'],
+  ['light', 'Light'],
+  ['dark', 'Dark'],
+];
+const THEME_OPTIONS = [
+  ['twilight', 'Trail'],
+  ['garden', 'Sunset'],
+  ['sky', 'Lavender'],
+];
 
 function Guide({ mood = 'calm', message, accessory = 'compass' }) {
   const face = mood === 'happy' ? 'M38 58c7 8 17 8 24 0' : mood === 'thoughtful' ? 'M39 63c7-3 15-3 22 0' : 'M38 61c7 6 17 6 24 0';
@@ -70,7 +80,7 @@ function Guide({ mood = 'calm', message, accessory = 'compass' }) {
 
 function SourceNotice({ source }) {
   if (!source) return null;
-  const sourceName = source.bookTitle ? `${source.bookTitle}, ${source.edition}, ${source.chapter}` : source.label || 'Original ReadQuest passage';
+  const sourceName = source.bookTitle ? `${source.bookTitle}, ${source.edition}, ${source.chapter}` : source.label || 'Original LitLearn passage';
   return (
     <details className="source-notice">
       <summary>Source, rights &amp; attribution</summary>
@@ -84,17 +94,93 @@ function SourceNotice({ source }) {
   );
 }
 
-function AppHeader({ progress, onNavigate }) {
+function BrandMark() {
   return (
-    <header className="app-header">
-      <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="ReadQuest home"><span className="brand-spark" aria-hidden="true">✦</span><span>ReadQuest</span></button>
-      <nav className="header-actions" aria-label="App navigation">
-        {!progress.settings.hideGameSignals && <span className="xp-pill" aria-label={`${progress.xp} experience points`}>✦ {progress.xp} XP</span>}
-        <button className="text-button" type="button" onClick={() => onNavigate('explore')}>Explore</button>
-        <button className="text-button" type="button" onClick={() => onNavigate('dashboard')}>Progress</button>
-        <button className="text-button" type="button" onClick={() => onNavigate('settings')}>Settings</button>
-      </nav>
-    </header>
+    <svg className="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+      <path d="M8 13.5c6.2-1.8 11.7-.9 16 3.1v20.3c-4.3-4-9.8-4.9-16-3.1z" />
+      <path d="M40 13.5c-6.2-1.8-11.7-.9-16 3.1v20.3c4.3-4 9.8-4.9 16-3.1z" />
+      <path className="brand-mark-page" d="M24 16.6v20.3" />
+      <path className="brand-mark-spark" d="m34.5 5 1.3 3.2L39 9.5l-3.2 1.3-1.3 3.2-1.3-3.2L30 9.5l3.2-1.3z" />
+    </svg>
+  );
+}
+
+function QuestHeroIllustration() {
+  return (
+    <svg className="hero-illustration" viewBox="0 0 460 190" role="img" aria-label="An open storybook lighting a path toward a reading quest">
+      <defs>
+        <linearGradient id="hero-sky" x1="0" y1="0" x2="1" y2="1"><stop stopColor="var(--rq-hero-top)" /><stop offset="1" stopColor="var(--rq-hero-bottom)" /></linearGradient>
+        <linearGradient id="hero-book" x1="0" y1="0" x2="0" y2="1"><stop stopColor="#fffbe8" /><stop offset="1" stopColor="#f4dfa4" /></linearGradient>
+      </defs>
+      <rect width="460" height="190" rx="24" fill="url(#hero-sky)" />
+      <circle className="hero-moon" cx="390" cy="34" r="13" />
+      <path className="hero-cloud" d="M44 51c7-18 31-18 37 0 12-8 26 1 25 14H29c-4-13 7-22 15-14Z" />
+      <path className="hero-hill hero-hill-back" d="M0 126c73-44 137-24 202 11 76-65 174-66 258-6v59H0Z" />
+      <path className="hero-hill" d="M0 143c75-28 129-5 191 22 71-40 177-30 269 12v13H0Z" />
+      <path className="hero-path" d="M233 189c-11-29 22-38 13-66-5-17 26-29 39-39 9-7 18-7 23-3-12 18-45 36-37 61 7 23-25 31-20 47Z" />
+      <g className="hero-book">
+        <path d="M132 104c35-8 69-2 98 18v43c-28-18-61-24-98-16Z" fill="url(#hero-book)" />
+        <path d="M328 104c-35-8-69-2-98 18v43c28-18 61-24 98-16Z" fill="url(#hero-book)" />
+        <path className="hero-book-line" d="M230 122v43M151 123c25-4 43 1 61 12M309 123c-25-4-43 1-61 12" />
+      </g>
+      <g className="hero-sparkles"><path d="m227 71 4 10 10 4-10 4-4 10-4-10-10-4 10-4z" /><path d="m329 65 2 5 5 2-5 2-2 5-2-5-5-2 5-2z" /><circle cx="110" cy="83" r="3" /></g>
+    </svg>
+  );
+}
+
+function NavIcon({ name }) {
+  const paths = {
+    quests: <><path d="M4 7.5 12 4l8 3.5v9L12 20l-8-3.5z" /><path d="M12 4v16M4 7.5l8 3.5 8-3.5" /></>,
+    adventure: <><path d="M4 11.5 12 4l8 7.5v8.5H4z" /><path d="M9 20v-5h6v5" /></>,
+    progress: <><path d="M5 19V11M12 19V5M19 19v-9" /><path d="M3 20h18" /></>,
+    explore: <><circle cx="11" cy="11" r="6" /><path d="m16 16 4 4M11 8v6M8 11h6" /></>,
+    settings: <><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.1 2.1-.06-.06a1.7 1.7 0 0 0-1.88-.34 1.7 1.7 0 0 0-1.02 1.56V20.3h-3v-.1a1.7 1.7 0 0 0-1.02-1.56 1.7 1.7 0 0 0-1.88.34l-.06.06-2.1-2.1.06-.06A1.7 1.7 0 0 0 7.08 15a1.7 1.7 0 0 0-1.56-1.02h-.1v-3h.1A1.7 1.7 0 0 0 7.08 9a1.7 1.7 0 0 0-.34-1.88l-.06-.06 2.1-2.1.06.06A1.7 1.7 0 0 0 10.72 5a1.7 1.7 0 0 0 1.02-1.56v-.1h3v.1A1.7 1.7 0 0 0 15.76 5a1.7 1.7 0 0 0 1.88-.34l.06-.06 2.1 2.1-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.56 1.02h.1v3h-.1A1.7 1.7 0 0 0 19.4 15Z" /></>,
+  };
+  return <svg className="nav-icon" viewBox="0 0 24 24" aria-hidden="true">{paths[name]}</svg>;
+}
+
+function CompanionOrb({ progress }) {
+  const completed = progress.completedQuestIds.length;
+  return (
+    <div className="rail-companion" aria-label={`Trail Guide: ${completed} quests completed`}>
+      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="m32 5 8 18 19 2-14 13 4 19-17-10-17 10 4-19L5 25l19-2z" /><circle cx="25" cy="30" r="2.5" /><circle cx="39" cy="30" r="2.5" /><path d="M24 39c5 5 11 5 16 0" /></svg>
+      <div><strong>Trail Guide</strong><span>{completed ? `${completed} quest${completed === 1 ? '' : 's'} completed` : 'Ready for your first clue'}</span></div>
+    </div>
+  );
+}
+
+function AppHeader({ progress, screen, onNavigate }) {
+  const navItems = [
+    ['quests', 'Quest map', 'home'],
+    ['progress', 'Progress', 'dashboard'],
+    ['explore', 'Explore', 'explore'],
+    ['settings', 'Settings', 'settings'],
+  ];
+  const isQuestScreen = QUEST_SCREENS.has(screen) || ['home', 'review', 'complete'].includes(screen);
+  return (
+    <>
+      <aside className="game-rail">
+        <button className="rail-brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLearn home"><BrandMark /><span>LitLearn</span></button>
+        <CompanionOrb progress={progress} />
+        <nav className="rail-nav" aria-label="Game navigation">
+          <p>Play</p>
+          {navItems.map(([icon, label, target]) => {
+            const active = target === 'home' ? isQuestScreen : screen === target;
+            return <button key={label} type="button" className={active ? 'is-active' : ''} aria-current={active ? 'page' : undefined} onClick={() => onNavigate(target)}><NavIcon name={icon} /><span>{label}</span>{label === 'Progress' && !progress.settings.hideGameSignals && <b>{levelForXp(progress.xp)}</b>}</button>;
+          })}
+        </nav>
+        {!progress.settings.hideGameSignals && <section className="rail-xp" aria-label={`Level ${levelForXp(progress.xp)}, ${progress.xp} experience points`}><span>Level {levelForXp(progress.xp)}</span><strong>{progress.xp} XP</strong><i><b style={{ width: `${xpIntoLevel(progress.xp)}%` }} /></i><small>{xpIntoLevel(progress.xp)} / 100 to level {levelForXp(progress.xp) + 1}</small></section>}
+      </aside>
+      <header className="app-header">
+        <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLearn home"><BrandMark /><span>LitLearn</span></button>
+        <nav className="header-actions" aria-label="App navigation">
+          {!progress.settings.hideGameSignals && <span className="xp-pill" aria-label={`${progress.xp} experience points`}>✦ {progress.xp} XP</span>}
+          <button className="text-button" type="button" onClick={() => onNavigate('explore')}>Explore</button>
+          <button className="text-button" type="button" onClick={() => onNavigate('dashboard')}>Progress</button>
+          <button className="text-button" type="button" onClick={() => onNavigate('settings')}>Settings</button>
+        </nav>
+      </header>
+    </>
   );
 }
 
@@ -148,10 +234,10 @@ function ControlsPanel({ progress, onUpdate, onJudge, onReset }) {
       <div className="settings-grid">
         <section><h2>Reading comfort</h2><label htmlFor="text-size">Text size</label><select id="text-size" value={progress.settings.textSize} onChange={(event) => onUpdate({ textSize: event.target.value })}><option value="regular">Regular</option><option value="large">Large</option><option value="extra-large">Extra large</option></select><label className="toggle-row"><input type="checkbox" checked={progress.settings.reduceMotion} onChange={(event) => onUpdate({ reduceMotion: event.target.checked })} /><span>Reduce animation</span></label></section>
         <section className="sound-settings"><h2>Feedback</h2><label className="toggle-row sound-switch"><input type="checkbox" checked={soundOn} onChange={(event) => onUpdate({ soundEnabled: event.target.checked })} /><span>Sound cues</span></label><p className="setting-description">Short, optional tones for feedback and completion.</p><fieldset disabled={!soundOn}><legend>Sound options</legend><label htmlFor="sound-volume">Volume</label><select id="sound-volume" value={progress.settings.soundVolume} onChange={(event) => onUpdate({ soundVolume: event.target.value })}><option value="soft">Soft</option><option value="standard">Standard</option></select><label className="toggle-row"><input type="checkbox" checked={progress.settings.soundFeedback} onChange={(event) => onUpdate({ soundFeedback: event.target.checked })} /><span>Answer and evidence feedback</span></label><label className="toggle-row"><input type="checkbox" checked={progress.settings.soundCompletion} onChange={(event) => onUpdate({ soundCompletion: event.target.checked })} /><span>Quest completion</span></label><button className="secondary-button sound-preview" type="button" onClick={() => playCue('success', progress.settings)}>Play a sample</button></fieldset><label className="toggle-row"><input type="checkbox" checked={progress.settings.hideGameSignals} onChange={(event) => onUpdate({ hideGameSignals: event.target.checked })} /><span>Hide XP and streaks</span></label><p className="quiet">Visual feedback always appears whether sound is on or off.</p></section>
-        <section><h2>Theme</h2><div className="theme-buttons">{['twilight', 'garden', 'sky'].map((theme) => <button key={theme} type="button" className={progress.settings.theme === theme ? 'is-selected' : ''} onClick={() => onUpdate({ theme })}>{humanSkill(theme)}</button>)}</div><p className="quiet">Themes and companion accessories are stored locally.</p></section>
+        <section className="appearance-settings"><h2>Appearance</h2><fieldset className="mode-picker"><legend>Color mode</legend><div>{COLOR_MODE_OPTIONS.map(([mode, label]) => <label key={mode} className={progress.settings.colorMode === mode ? 'is-selected' : ''}><input type="radio" name="color-mode" value={mode} checked={progress.settings.colorMode === mode} onChange={() => onUpdate({ colorMode: mode })} /><span>{label}</span></label>)}</div></fieldset><fieldset className="palette-picker"><legend>Quest palette</legend><div className="theme-buttons">{THEME_OPTIONS.map(([theme, label]) => <button key={theme} type="button" aria-pressed={progress.settings.theme === theme} className={progress.settings.theme === theme ? 'is-selected' : ''} onClick={() => onUpdate({ theme })}>{label}</button>)}</div></fieldset><p className="quiet">System default follows your device. Every choice stays in this browser.</p></section>
         <section><h2>Judge mode</h2><p>Load a deterministic local snapshot with one completed quest, sample XP, and badges.</p><button className="secondary-button" type="button" onClick={onJudge}>Load demo snapshot</button><button className="text-button danger-button" type="button" onClick={onReset}>Reset all local progress</button></section>
       </div>
-      <section className="privacy-note"><h2>Privacy notice</h2><p>ReadQuest’s browser demo has no account connection, analytics upload, ads, or real learner identifiers. Cloud features remain staged until an approved backend and privacy model are available.</p></section>
+      <section className="privacy-note"><h2>Privacy notice</h2><p>LitLearn’s browser demo has no account connection, analytics upload, ads, or real learner identifiers. Cloud features remain staged until an approved backend and privacy model are available.</p></section>
     </section>
   );
 }
@@ -193,7 +279,7 @@ function FeatureLab({ progress, quests, onStatus, onSetting }) {
       {tab === 'tutor' && <section className="feature-card"><h2>Tutor workspace</h2><p>Assignments, learner groups, and synced reports need an approved backend. This local preview keeps the anonymous evidence record visible.</p><div className="stat-grid compact-stats"><article><span>Completed</span><strong>{progress.completedQuestIds.length}</strong><small>Local quests</small></article><article><span>Evidence reveals</span><strong>{progress.signals.evidenceReveals}</strong><small>Learning support used</small></article><article><span>Questions flagged</span><strong>{progress.confusingQuestionIds.length}</strong><small>For content review</small></article></div><button className="secondary-button" type="button" onClick={() => onStatus('A local assignment draft is ready to preview. Sync and classroom rosters remain staged.')}>Create local assignment draft</button></section>}
       {tab === 'circle' && <section className="feature-card"><h2>Private reading circles</h2><p>Reading circles and social challenges are designed as opt-in, adult-managed features. The local preview does not create accounts, send invitations, or expose learner activity.</p><label className="toggle-row"><input type="checkbox" checked={progress.settings.hideGameSignals} onChange={(event) => onSetting({ hideGameSignals: event.target.checked })} /><span>Hide competitive game signals</span></label><button className="secondary-button" type="button" onClick={() => onStatus('Circle setup is staged until consent, moderation, and privacy controls are connected.')}>Preview circle privacy rules</button></section>}
       {tab === 'plans' && <section className="feature-card"><h2>Plans and practice accounts</h2><div className="preview-grid"><article><h3>Explorer</h3><p>Local quests, evidence feedback, and personal progress.</p><button className="secondary-button" type="button" onClick={() => onStatus('Explorer is active in this browser demo.')}>Current local plan</button></article><article><h3>Tutor practice</h3><p>Assignments, evidence summaries, and up to 40 active learners.</p><button className="secondary-button" type="button" onClick={() => onStatus('Tutor billing and multi-account access require a server integration.')}>Preview tutor plan</button></article><article><h3>Program</h3><p>Shared reporting and privacy-reviewed learner groups.</p><button className="secondary-button" type="button" onClick={() => onStatus('Program subscriptions are staged pending privacy and roster support.')}>Preview program plan</button></article></div></section>}
-      {tab === 'world' && <section className="feature-card"><h2>Companion &amp; quest world</h2><p>Choose a local season and companion detail. These cosmetic choices do not affect reading content or scores.</p><div className="theme-buttons">{['twilight', 'garden', 'sky'].map((theme) => <button key={theme} type="button" className={progress.settings.theme === theme ? 'is-selected' : ''} onClick={() => onSetting({ theme })}>{humanSkill(theme)}</button>)}</div><label className="toggle-row"><input type="checkbox" checked={progress.settings.soundEnabled} onChange={(event) => onSetting({ soundEnabled: event.target.checked })} /><span>Enable optional sound cues</span></label><p className="quiet">Choose volume and cue types in Settings. Music and ambient audio remain staged until licensed audio is available.</p></section>}
+      {tab === 'world' && <section className="feature-card"><h2>Companion &amp; quest world</h2><p>Choose a local palette and companion detail. These cosmetic choices do not affect reading content or scores.</p><div className="theme-buttons">{THEME_OPTIONS.map(([theme, label]) => <button key={theme} type="button" aria-pressed={progress.settings.theme === theme} className={progress.settings.theme === theme ? 'is-selected' : ''} onClick={() => onSetting({ theme })}>{label}</button>)}</div><label className="toggle-row"><input type="checkbox" checked={progress.settings.soundEnabled} onChange={(event) => onSetting({ soundEnabled: event.target.checked })} /><span>Enable optional sound cues</span></label><p className="quiet">Choose color mode, palette, and cue types in Settings. Music and ambient audio remain staged until licensed audio is available.</p></section>}
       {tab === 'analytics' && <section className="feature-card"><h2>Engagement and learning signals</h2><p>These local numbers are separated so activity is never presented as proof of learning.</p><div className="analytics-grid"><article><h3>Engagement</h3><p>Quest starts: {progress.signals.questStarts}</p><p>Completions: {progress.signals.completedQuestCount}</p><p>Next-quest choices: {progress.signals.nextQuestSelections}</p></article><article><h3>Learning practice</h3><p>Responses recorded: {progress.responses.length}</p><p>Evidence reveals: {progress.signals.evidenceReveals}</p><p>Questions flagged: {progress.confusingQuestionIds.length}</p></article></div></section>}
       {tab === 'account' && <section className="feature-card"><h2>Account &amp; privacy settings</h2><p>This demo uses an anonymous local profile. Authentication, synced progress, data deletion requests, and learner settings require an approved backend and privacy review.</p><button className="secondary-button" type="button" onClick={() => onStatus('Account connection is intentionally unavailable in the anonymous demo.')}>Preview account connection</button><button className="text-button" type="button" onClick={() => onStatus('Local progress can be deleted from Settings with Reset all local progress.')}>How local data works</button></section>}
     </section>
@@ -237,7 +323,23 @@ export default function App() {
     return () => controller.abort();
   }, []);
   useEffect(() => { saveProgress(progress); }, [progress]);
-  useEffect(() => { document.documentElement.dataset.textSize = progress.settings.textSize; document.documentElement.dataset.theme = progress.settings.theme; document.documentElement.classList.toggle('reduce-motion', progress.settings.reduceMotion); }, [progress.settings]);
+  useEffect(() => {
+    const root = document.documentElement;
+    const systemMode = window.matchMedia('(prefers-color-scheme: dark)');
+    const applyAppearance = () => {
+      const selectedMode = progress.settings.colorMode || 'system';
+      const resolvedMode = selectedMode === 'system' ? (systemMode.matches ? 'dark' : 'light') : selectedMode;
+      root.dataset.textSize = progress.settings.textSize;
+      root.dataset.theme = progress.settings.theme;
+      root.dataset.colorMode = selectedMode;
+      root.dataset.resolvedMode = resolvedMode;
+      root.style.colorScheme = resolvedMode;
+      root.classList.toggle('reduce-motion', progress.settings.reduceMotion);
+    };
+    applyAppearance();
+    systemMode.addEventListener?.('change', applyAppearance);
+    return () => systemMode.removeEventListener?.('change', applyAppearance);
+  }, [progress.settings.colorMode, progress.settings.reduceMotion, progress.settings.textSize, progress.settings.theme]);
   useEffect(() => { mainRef.current?.focus(); }, [screen]);
   useEffect(() => { if (!countedVisit.current) { countedVisit.current = true; setProgress((current) => recordReturnVisit(current)); } }, []);
   useEffect(() => {
@@ -291,7 +393,7 @@ export default function App() {
 
   function updateSettings(settings) { setProgress((current) => setProgressSettings(current, settings)); }
   function resetDemo() {
-    if (window.confirm('Reset this browser’s anonymous ReadQuest progress, settings, and local demo data?')) {
+    if (window.confirm('Reset this browser’s anonymous LitLearn progress, settings, and local demo data?')) {
       setProgress(resetProgress()); setScreen('onboarding'); setQuestionIndex(0); setDraft({ answerId: '', evidenceId: '' }); setRevealed(false); setNotice('');
     }
   }
@@ -307,13 +409,13 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <AppHeader progress={progress} onNavigate={navigate} />
+      <AppHeader progress={progress} screen={screen} onNavigate={navigate} />
       <main className="main-stage" ref={mainRef} tabIndex="-1">
         {notice && <div className="app-notice" role="status"><span>{notice}</span><button type="button" aria-label="Dismiss message" onClick={() => setNotice('')}>×</button></div>}
         {screen === 'onboarding' && <Onboarding onContinue={finishOnboarding} />}
         {screen === 'home' && <section className="home-view" aria-labelledby="home-title">
-          <div className="home-copy"><p className="eyebrow">One short quest. One useful clue.</p><h1 id="home-title">Turn “I think” into “Here’s the proof.”</h1><p className="lede">ReadQuest turns reading evidence into a story trail for grades 4–8 learners. Careful reasoning—not speed—changes the quest.</p><div className="how-it-works" aria-label="How ReadQuest works"><span>1. Read</span><span>2. Reason</span><span>3. Choose evidence</span><span>4. See what changes</span></div><div className="button-row"><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume your quest' : 'Start recommended quest'} <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View practice summary</button></div><p className={`api-note is-${apiState.kind}`}><span className="status-dot" /> {apiState.label}</p></div>
-          <div className="quest-preview"><div className="quest-world" aria-hidden="true"><span>✦</span><span>⌁</span><span>✧</span></div>{recommendation.quest ? <><p className="card-label">{recommendation.kind === 'resume' ? 'Continue your route' : 'Recommended quest'}</p><h2>{recommendation.quest.title}</h2><p>{recommendation.quest.topic} · {recommendation.quest.difficulty}</p><div className="tag-row">{recommendation.quest.skillTags.map((tag) => <span key={tag}>{humanSkill(tag)}</span>)}</div><p className="time-label">◷ About {recommendation.quest.readingTimeMinutes} minutes · 3 evidence choices</p><p className="recommendation-reason">{recommendation.reason}</p><SourceNotice source={recommendation.quest.source} /></> : <section className="content-gate"><h2>Reviewed quests are loading.</h2><p>Local quest content will appear here once it passes its source and evidence checks.</p></section>}</div>
+          <div className="home-copy"><p className="eyebrow">Your next reading adventure</p><h1 id="home-title">Find the clue. <em>Light the path.</em></h1><p className="lede">LitLearn makes evidence practice feel like a small adventure. Careful reasoning—not speed—moves your story forward.</p><div className="how-it-works" aria-label="How LitLearn works"><span>Read the story</span><span>Find the proof</span><span>Grow your trail</span></div><div className="button-row"><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume your quest' : 'Start recommended quest'} <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View practice summary</button></div><p className={`api-note is-${apiState.kind}`}><span className="status-dot" /> {apiState.label}</p></div>
+          <div className="quest-preview"><div className="quest-world"><QuestHeroIllustration /></div>{recommendation.quest ? <><p className="card-label">{recommendation.kind === 'resume' ? 'Continue your route' : 'Recommended quest'}</p><h2>{recommendation.quest.title}</h2><p>{recommendation.quest.topic} · {recommendation.quest.difficulty}</p><div className="tag-row">{recommendation.quest.skillTags.map((tag) => <span key={tag}>{humanSkill(tag)}</span>)}</div><p className="time-label">◷ About {recommendation.quest.readingTimeMinutes} minutes · 3 evidence choices</p><p className="recommendation-reason">{recommendation.reason}</p><SourceNotice source={recommendation.quest.source} /></> : <section className="content-gate"><h2>Reviewed quests are loading.</h2><p>Local quest content will appear here once it passes its source and evidence checks.</p></section>}</div>
           <QuestMap arc={arc} activeQuestId={quest?.id} />
           <section className="library-controls" aria-labelledby="library-title"><div><p className="eyebrow">Choose your quest</p><h2 id="library-title">The local quest library</h2></div><label className="search-label" htmlFor="quest-search">Search quests<input id="quest-search" value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} placeholder="Title, topic, or skill" /></label><label>Topic<select value={filters.topic} onChange={(event) => setFilters((current) => ({ ...current, topic: event.target.value }))}><option value="">All topics</option>{[...new Set(quests.map((item) => item.topic))].map((topic) => <option key={topic}>{topic}</option>)}</select></label><label>Skill<select value={filters.skill} onChange={(event) => setFilters((current) => ({ ...current, skill: event.target.value }))}><option value="">All skills</option>{[...new Set(quests.flatMap((item) => item.skillTags))].map((skill) => <option key={skill}>{humanSkill(skill)}</option>)}</select></label><label>Difficulty<select value={filters.difficulty} onChange={(event) => setFilters((current) => ({ ...current, difficulty: event.target.value }))}><option value="">All levels</option>{[...new Set(quests.map((item) => item.difficulty))].map((difficulty) => <option key={difficulty}>{difficulty}</option>)}</select></label><label className="toggle-row"><input type="checkbox" checked={filters.bookmarkOnly} onChange={(event) => setFilters((current) => ({ ...current, bookmarkOnly: event.target.checked }))} /><span>Bookmarks only</span></label></section>
           {progress.activeSession && <section className="resume-banner"><div><strong>Resume where you left off</strong><p>{questById(quests, progress.activeSession.questId)?.title || 'Your local quest'} · question {progress.activeSession.questionIndex + 1}</p></div><button className="secondary-button" type="button" onClick={() => navigate(progress.activeSession.screen, { questId: progress.activeSession.questId, questionIndex: progress.activeSession.questionIndex })}>Resume</button></section>}

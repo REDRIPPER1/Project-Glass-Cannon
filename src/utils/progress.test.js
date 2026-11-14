@@ -62,3 +62,12 @@ test('keeps optional sound preferences in local progress', () => {
   assert.deepEqual(loaded.settings, { ...createEmptyProgress().settings, soundEnabled: true, soundVolume: 'standard', soundFeedback: false, soundCompletion: true });
   assert.equal(values.size > 0, true);
 });
+
+test('defaults appearance to the device setting and persists a dark preference', () => {
+  const values = installStorage();
+  assert.equal(createEmptyProgress().settings.colorMode, 'system');
+  saveProgress(setProgressSettings(createEmptyProgress(), { colorMode: 'dark', theme: 'sky' }));
+  assert.equal(loadProgress().settings.colorMode, 'dark');
+  assert.equal(loadProgress().settings.theme, 'sky');
+  assert.equal(values.size > 0, true);
+});

@@ -43,6 +43,7 @@ export function createEmptyProgress() {
       soundVolume: 'soft',
       soundFeedback: true,
       soundCompletion: true,
+      colorMode: 'system',
       theme: 'twilight',
       judgeMode: false,
       hideGameSignals: false,

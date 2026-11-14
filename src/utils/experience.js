@@ -3,9 +3,9 @@ import { responseFor } from './progress.js';
 export const SKILL_ORDER = ['inference', 'main idea', 'vocabulary', 'evidence'];
 
 export const DISCOVERY_PREVIEWS = [
-  { id: 'gutenberg-forest', title: 'The Lantern in the Forest', author: 'ReadQuest sample catalog', language: 'English', topic: 'Mystery', rights: 'Metadata preview', source: 'Project Gutenberg connection pending' },
-  { id: 'gutenberg-tide', title: 'A Tide Pool Mystery', author: 'ReadQuest sample catalog', language: 'English', topic: 'Science', rights: 'Metadata preview', source: 'Project Gutenberg connection pending' },
-  { id: 'gutenberg-signal', title: 'The Signal Station', author: 'ReadQuest sample catalog', language: 'English', topic: 'Technology', rights: 'Metadata preview', source: 'Project Gutenberg connection pending' },
+  { id: 'gutenberg-forest', title: 'The Lantern in the Forest', author: 'LitLearn sample catalog', language: 'English', topic: 'Mystery', rights: 'Metadata preview', source: 'Project Gutenberg connection pending' },
+  { id: 'gutenberg-tide', title: 'A Tide Pool Mystery', author: 'LitLearn sample catalog', language: 'English', topic: 'Science', rights: 'Metadata preview', source: 'Project Gutenberg connection pending' },
+  { id: 'gutenberg-signal', title: 'The Signal Station', author: 'LitLearn sample catalog', language: 'English', topic: 'Technology', rights: 'Metadata preview', source: 'Project Gutenberg connection pending' },
 ];
 
 export function humanSkill(skill) {
