@@ -5,6 +5,8 @@ const emptyProgress = () => ({
   version: PROGRESS_VERSION,
   xp: 0,
   lastCompletionXp: 0,
+  lastCompletedQuestId: null,
+  selectedQuestId: null,
   completedQuestIds: [],
   badgeIds: [],
   responses: [],
@@ -63,6 +65,10 @@ export function responseFor(progress, questId, questionId) {
   return progress.responses.find(
     (item) => item.questId === questId && item.questionId === questionId,
   );
+}
+
+export function responsesForQuest(progress, questId) {
+  return progress.responses.filter((item) => item.questId === questId);
 }
 
 export function levelForXp(xp) { return Math.max(1, Math.floor(xp / 100) + 1); }

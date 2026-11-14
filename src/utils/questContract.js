@@ -1,9 +1,9 @@
 /*
  * ReadQuest seed-content boundary. The content owner supplies
- * backend/data/quest-1.json; Vite imports it at build time so the learner flow
+ * backend/data/*.json; Vite imports them at build time so the learner flow
  * remains local when the API is unavailable.
  */
-const bundledModules = import.meta.glob('../../backend/data/quest-1.json', {
+const bundledModules = import.meta.glob('../../backend/data/*.json', {
   eager: true,
   import: 'default',
 });
@@ -40,7 +40,21 @@ function normalizeQuest(quest) {
   };
 }
 
-export const BUNDLED_QUEST = normalizeQuest(Object.values(bundledModules)[0] ?? null);
+export const BUNDLED_QUESTS = Object.entries(bundledModules)
+  .sort(([leftPath], [rightPath]) => leftPath.localeCompare(rightPath))
+  .map(([, quest]) => normalizeQuest(quest))
+  .filter(Boolean);
+
+// Retained as a compatibility alias for the existing single-quest integration.
+export const BUNDLED_QUEST = BUNDLED_QUESTS[0] ?? null;
+
+export function questById(quests, questId) {
+  return quests.find((quest) => quest.id === questId);
+}
+
+export function reviewedQuests(quests = BUNDLED_QUESTS) {
+  return quests.filter((quest) => rightsStatus(quest).ready);
+}
 
 export const QUEST_CONTRACT = {
   quest: ['id', 'title', 'topic', 'difficulty', 'readingTimeMinutes', 'skillTags', 'passage.sentences[{id,text}]', 'workedExample', 'source', 'questions'],
