@@ -35,5 +35,5 @@ This is a two-person team. Fill in the teammate login and divide the project bef
 
 | Area | Owner (GitHub login) | Folders |
 |---|---|---|
-| Project coordination, integration, deployment | `@REDRIPPER1` | `AGENTS.md`, `.github/`, `tools/`, deployment configuration |
-| Product implementation | `@TEAMMATE_GITHUB_LOGIN` | Add the agreed app folders here, for example `src/`, `app/`, or `components/` |
+| Project coordination, frontend integration, deployment | `@REDRIPPER1` | `AGENTS.md`, `.github/`, `tools/`, deployment configuration, `src/` |
+| Quest content and backend | `@thelotusleaf` | `backend/`, `content/`, `requirements.txt` |
