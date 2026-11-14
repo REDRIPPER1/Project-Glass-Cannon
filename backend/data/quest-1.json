@@ -85,32 +85,28 @@
       "id": "q1-reach-shelter",
       "type": "multiple-choice",
       "targetSkill": "making-inferences-from-details",
-      "prompt": "Why does Dorothy fail to reach the cyclone cellar before the house lifts into the air?",
+      "prompt": "What can the reader infer from Dorothy losing her footing halfway across the room?",
       "choices": [
         {
           "id": "a",
-          "text": "She goes after Toto, and the shaking knocks her down."
+          "text": "The storm keeps her from continuing toward safety."
         },
         {
           "id": "b",
-          "text": "Aunt Em locks the cellar door before Dorothy gets there."
+          "text": "The storm has ended, so she can stop walking."
         },
         {
           "id": "c",
-          "text": "She decides the storm is not dangerous."
+          "text": "Aunt Em tells her to stay in the middle of the room."
         },
         {
           "id": "d",
-          "text": "Uncle Henry tells her to stay in the house."
+          "text": "Toto is carrying her back to the doorway."
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "Dorothy first stops to rescue Toto. As she starts toward Aunt Em, the wind shakes the house so hard that she loses her footing. Together, those details explain why she is still inside.",
+      "explanation": "The wind shakes the house so hard that Dorothy loses her footing while she is crossing the room. From that detail, the reader can infer that the storm stops her from continuing to safety.",
       "evidenceOptions": [
-        {
-          "sentenceId": "s1",
-          "text": "Toto jumped out of Dorothy’s arms and hid under the bed, and the girl started to get him."
-        },
         {
           "sentenceId": "s4",
           "text": "When she was halfway across the room there came a great shriek from the wind, and the house shook so hard that she lost her footing and sat down suddenly upon the floor."
