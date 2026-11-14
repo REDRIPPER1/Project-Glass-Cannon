@@ -145,7 +145,6 @@ class DemoStore:
 
     def public_profile(self, profile: dict[str, Any]) -> dict[str, Any]:
         result = deepcopy(profile)
-        result.pop("petNames", None)
         result.pop("rewardInstances", None)
         result.pop("purchaseLedger", None)
         result.pop("battlePassProgress", None)
@@ -154,6 +153,10 @@ class DemoStore:
 
     def get_profile(self, profile_id: str) -> dict[str, Any]:
         return self.public_profile(self._profile(profile_id))
+
+    def balances(self, profile_id: str) -> dict[str, Any]:
+        profile = self._profile(profile_id)
+        return {"profileId": profile_id, "currencies": deepcopy(profile["currencies"])}
 
     def update_profile(self, profile_id: str, updates: dict[str, Any]) -> dict[str, Any]:
         profile = self._profile(profile_id)

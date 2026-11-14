@@ -447,6 +447,11 @@ def get_profile(profile_id: str):
     return _platform(lambda: platform_store.get_profile(profile_id))
 
 
+@app.get("/api/profiles/{profile_id}/currencies", summary="Get local-demo currency balances")
+def get_currency_balances(profile_id: str):
+    return _platform(lambda: platform_store.balances(profile_id))
+
+
 @app.patch("/api/profiles/{profile_id}", summary="Update safe local profile preferences")
 def update_profile(profile_id: str, payload: dict[str, object]):
     return _platform(lambda: platform_store.update_profile(profile_id, dict(payload)))
@@ -526,6 +531,11 @@ def list_badges():
 @app.get("/api/catalog/achievements", summary="List achievement definitions")
 def list_achievements():
     return deepcopy(CATALOGS["achievements"])
+
+
+@app.get("/api/catalog/trophies", summary="List trophy definitions")
+def list_trophies():
+    return deepcopy(CATALOGS["trophies"])
 
 
 @app.get("/api/profiles/{profile_id}/rewards", summary="List issued reward instances")

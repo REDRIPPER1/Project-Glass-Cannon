@@ -77,6 +77,7 @@ class EndpointContractTests(unittest.TestCase):
 
     def test_profile_pet_accessory_wishlist_and_catalog_contracts(self):
         self.assertEqual(self.main.get_profile(self.profile_id)["id"], self.profile_id)
+        self.assertEqual(self.main.get_currency_balances(self.profile_id)["currencies"]["leafTokens"], 150)
         self.assertEqual(self.main.update_profile(self.profile_id, {"preferences": {"theme": "sky"}})["preferences"]["theme"], "sky")
         self.assertEqual(self.main.rename_pet(self.profile_id, "moss-mouse", {"name": "Mossy"})["name"], "Mossy")
         self.assertEqual(self.main.select_active_pet(self.profile_id, "page-finch")["activePetId"], "page-finch")
@@ -94,6 +95,7 @@ class EndpointContractTests(unittest.TestCase):
         self.assertEqual(self.main.get_progress(self.profile_id)["xp"], 100)
         self.assertTrue(self.main.list_badges())
         self.assertTrue(self.main.list_achievements())
+        self.assertTrue(self.main.list_trophies())
         reward = self.main.list_rewards(self.profile_id)[0]
         self.assertEqual(self.main.claim_reward(self.profile_id, reward["id"])["claimStatus"], "claimed")
         self.assertEqual(self._error_code(lambda: self.main.claim_reward(self.profile_id, reward["id"])), "duplicate_claim")

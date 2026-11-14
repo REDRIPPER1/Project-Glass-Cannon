@@ -67,7 +67,7 @@ process-memory state. Set `LITLEARN_FORCE_MEMORY=1` to exercise that fallback.
 | `Pet` | `id`, `name`, `petType`, `rarity`, literary/source metadata, description, `baseArtworkKey`, allowed accessory categories, `eventOnly`, availability |
 | `PetAccessory` | `id`, category, rarity, price/currency, compatible pet types, source/license metadata, availability |
 | `PetEgg` | `id`, rarity range, explicit odds, price/currency, possible rewards, duplicate compensation, availability |
-| `Profile` | anonymous `id`, display name, XP/level, currencies, active/owned pets, equipped accessories, wishlist, badges, achievements, bookmarks, preferences, local-demo entitlement |
+| `Profile` | anonymous `id`, display name, XP/level, currencies, active/owned pets and pet nicknames, equipped accessories, wishlist, badges, achievements, bookmarks, preferences, local-demo entitlement |
 | `Book` | `id`, title, author, edition, chapter metadata, reading/topic/vocabulary levels, source/rights/license/attribution, access tier |
 | `Reward` | instance ID plus catalog reward ID, type, quantity, rarity, source, and one-way claim status |
 | `LevelNode` | `id`, required XP, prerequisites, reward IDs, and `{x,y}` map position |
@@ -91,13 +91,14 @@ basis or original-project rights; the API does not serve new book excerpts.
 
 ### Endpoint map
 
-- Profiles: `POST /api/profiles`, `GET/PATCH /api/profiles/{profileId}`;
+- Profiles: `POST /api/profiles`, `GET/PATCH /api/profiles/{profileId}` and
+  `GET .../currencies`;
   `PATCH .../pets/{petId}/name`; `PUT .../active-pet/{petId}`;
   `PUT/DELETE .../accessories/{accessoryId|category}`; and
   `PUT/DELETE .../wishlist/{itemType}/{catalogId}`.
 - Catalogs: `GET /api/catalog/pets`, `/pets/{petId}`, `/accessories`,
-  `/eggs`, `/events`, `/books`, `/books/{bookId}`, `/shop`, `/badges`, and
-  `/achievements`.
+  `/eggs`, `/events`, `/books`, `/books/{bookId}`, `/shop`, `/badges`,
+  `/achievements`, and `/trophies`.
 - Progress/rewards: `POST /api/profiles/{profileId}/xp`, `GET .../progress`,
   `GET .../rewards`, and `POST .../rewards/{rewardInstanceId}/claim`.
 - Economy: `POST .../purchases`, `POST .../purchases/{purchaseId}/reverse`,
