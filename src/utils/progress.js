@@ -42,6 +42,18 @@ export function createEmptyProgress() {
     levelRewardIds: [],
     unlockedAccessoryIds: [],
     activeAccessoryId: 'compass',
+    profileName: 'Reader',
+    ownedPetIds: ['moss-mouse', 'page-finch', 'quill-tortoise', 'shelf-fox', 'lantern-otter', 'story-moth'],
+    petNicknames: {},
+    activePetId: 'moss-mouse',
+    ownedAccessoryIds: [],
+    equippedAccessories: {},
+    wishlistIds: [],
+    currencies: { leafTokens: 100, storyShards: 0 },
+    ownedEggIds: [],
+    claimedRewardIds: [],
+    subscriptionPlan: 'free',
+    battlePassClaims: [],
     responses: [],
     confusingQuestionIds: [],
     activeSession: null,
@@ -68,6 +80,8 @@ export function createEmptyProgress() {
       returnVisits: 0,
       coachUses: 0,
       discoverySearches: 0,
+      shopPurchases: 0,
+      petNames: 0,
     },
   };
 }
@@ -97,6 +111,18 @@ function mergeProgress(value) {
     streak: { ...empty.streak, ...(candidate.streak ?? {}) },
     settings: { ...empty.settings, ...(candidate.settings ?? {}) },
     signals: { ...empty.signals, ...(candidate.signals ?? {}) },
+    profileName: typeof candidate.profileName === 'string' && candidate.profileName.trim() ? candidate.profileName : empty.profileName,
+    ownedPetIds: [...new Set([...empty.ownedPetIds, ...asArray(candidate.ownedPetIds)])],
+    petNicknames: candidate.petNicknames && typeof candidate.petNicknames === 'object' ? candidate.petNicknames : {},
+    activePetId: typeof candidate.activePetId === 'string' ? candidate.activePetId : empty.activePetId,
+    ownedAccessoryIds: [...new Set(asArray(candidate.ownedAccessoryIds))],
+    equippedAccessories: candidate.equippedAccessories && typeof candidate.equippedAccessories === 'object' ? candidate.equippedAccessories : {},
+    wishlistIds: [...new Set(asArray(candidate.wishlistIds))],
+    currencies: { ...empty.currencies, ...(candidate.currencies ?? {}) },
+    ownedEggIds: asArray(candidate.ownedEggIds),
+    claimedRewardIds: [...new Set(asArray(candidate.claimedRewardIds))],
+    subscriptionPlan: candidate.subscriptionPlan === 'premium' ? 'premium' : 'free',
+    battlePassClaims: [...new Set(asArray(candidate.battlePassClaims))],
   };
 }
 
@@ -158,6 +184,56 @@ export function responsesForQuest(progress, questId) {
 
 export function setActiveSession(progress, activeSession) {
   return { ...mergeProgress(progress), activeSession };
+}
+
+export function updateCollection(progress, patch) {
+  return mergeProgress({ ...mergeProgress(progress), ...patch });
+}
+
+export function toggleWishlist(progress, itemId) {
+  const current = mergeProgress(progress);
+  const wishlist = new Set(current.wishlistIds);
+  wishlist.has(itemId) ? wishlist.delete(itemId) : wishlist.add(itemId);
+  return updateCollection(current, { wishlistIds: [...wishlist] });
+}
+
+export function namePet(progress, petId, name) {
+  const current = mergeProgress(progress);
+  const trimmed = String(name || '').trim().slice(0, 24);
+  if (!trimmed || !current.ownedPetIds.includes(petId)) return current;
+  return updateCollection(current, { petNicknames: { ...current.petNicknames, [petId]: trimmed }, signals: { ...current.signals, petNames: current.signals.petNames + 1 } });
+}
+
+export function equipPet(progress, petId) {
+  const current = mergeProgress(progress);
+  return current.ownedPetIds.includes(petId) ? updateCollection(current, { activePetId: petId }) : current;
+}
+
+export function equipPetAccessory(progress, category, accessoryId) {
+  const current = mergeProgress(progress);
+  return updateCollection(current, { equippedAccessories: { ...current.equippedAccessories, [category]: accessoryId } });
+}
+
+export function purchaseCatalogItem(progress, item) {
+  const current = mergeProgress(progress);
+  const balance = Number(current.currencies[item.currency]) || 0;
+  if (balance < item.price) return current;
+  const currencies = { ...current.currencies, [item.currency]: balance - item.price };
+  const ownedAccessoryIds = item.itemType === 'accessory' ? [...new Set([...current.ownedAccessoryIds, item.catalogId])] : current.ownedAccessoryIds;
+  const ownedEggIds = item.itemType === 'egg' ? [...current.ownedEggIds, item.catalogId] : current.ownedEggIds;
+  return updateCollection(current, { currencies, ownedAccessoryIds, ownedEggIds, signals: { ...current.signals, shopPurchases: current.signals.shopPurchases + 1 } });
+}
+
+export function claimCatalogReward(progress, reward) {
+  const current = mergeProgress(progress);
+  if (current.claimedRewardIds.includes(reward.id)) return current;
+  const currencies = reward.type === 'currency' ? { ...current.currencies, [reward.catalogId]: (current.currencies[reward.catalogId] || 0) + reward.quantity } : current.currencies;
+  const ownedAccessoryIds = reward.type === 'accessory' ? [...new Set([...current.ownedAccessoryIds, reward.catalogId])] : current.ownedAccessoryIds;
+  return updateCollection(current, { claimedRewardIds: [...current.claimedRewardIds, reward.id], currencies, ownedAccessoryIds });
+}
+
+export function setSubscriptionPlan(progress, plan) {
+  return updateCollection(progress, { subscriptionPlan: plan === 'premium' ? 'premium' : 'free' });
 }
 
 export function beginQuest(progress, questId) {
