@@ -21,7 +21,7 @@ import {
   xpForNextLevel,
   xpRemainingToNextLevel,
   xpRequiredForLevel,
-  loadProgress,
+  loadProgressWithStatus,
   markEvidenceReveal,
   markBookChapterRead,
   recordResponse,
@@ -66,6 +66,7 @@ import {
   skillSummary,
   storyArc,
 } from './utils/experience';
+import { buildSubmittedResponse, evidenceRevealTarget, responseFeedback } from './utils/questFlow';
 
 const CLOUD_FEATURES_ENABLED = false;
 const QUEST_SCREENS = new Set(['example', 'reading', 'question', 'feedback', 'consequence']);
@@ -1099,15 +1100,28 @@ function FeatureLab({ progress, quests, onStatus, onSetting, onUpdate }) {
 }
 
 export default function App() {
-  const [progress, setProgress] = useState(loadProgress);
-  const [screen, setScreen] = useState(() => loadProgress().onboardingComplete ? loadProgress().activeSession?.screen || 'home' : 'onboarding');
-  const [questionIndex, setQuestionIndex] = useState(() => loadProgress().activeSession?.questionIndex || 0);
-  const [draft, setDraft] = useState({ answerId: '', evidenceId: '' });
+  const initialProgressRef = useRef(null);
+  if (!initialProgressRef.current) initialProgressRef.current = loadProgressWithStatus();
+  const loadedProgress = initialProgressRef.current.progress;
+  const savedSession = loadedProgress.activeSession;
+  const savedQuest = savedSession ? BUNDLED_QUESTS.find((item) => item.id === savedSession.questId) : null;
+  const sessionIndex = Number(savedSession?.questionIndex);
+  const needsSubmittedResponse = ['feedback', 'consequence'].includes(savedSession?.screen);
+  const savedSessionValid = !savedSession || Boolean(savedQuest && rightsStatus(savedQuest).ready && QUEST_SCREENS.has(savedSession.screen)
+    && Number.isInteger(sessionIndex) && sessionIndex >= 0 && sessionIndex < savedQuest.questions.length
+    && (!needsSubmittedResponse || loadedProgress.responses.some((item) => item.questId === savedQuest.id && item.questionId === savedQuest.questions[sessionIndex]?.id)));
+  const initialProgress = savedSessionValid ? loadedProgress : { ...loadedProgress, activeSession: null };
+  const [progress, setProgress] = useState(initialProgress);
+  const [screen, setScreen] = useState(() => initialProgress.onboardingComplete ? initialProgress.activeSession?.screen || 'home' : 'onboarding');
+  const [questionIndex, setQuestionIndex] = useState(() => initialProgress.activeSession?.questionIndex || 0);
+  const [draft, setDraft] = useState(() => initialProgress.activeSession?.draft || { answerId: '', evidenceId: '' });
   const [revealed, setRevealed] = useState(false);
   const [filters, setFilters] = useState({ search: '', topic: '', skill: '', difficulty: '', bookmarkOnly: false });
   const [apiState, setApiState] = useState({ kind: 'checking', label: 'Checking optional service…' });
   const [libraryEnhancement, setLibraryEnhancement] = useState({ kind: 'loading', books: [], recommendations: [] });
-  const [notice, setNotice] = useState('');
+  const [notice, setNotice] = useState(() => initialProgressRef.current.recoveredFromCorruption
+    ? 'Saved progress could not be read. A clean local session has started.'
+    : savedSession && !savedSessionValid ? 'Your saved quest is no longer available. Your other local progress is safe; choose another reviewed quest.' : '');
   const [showCelebration, setShowCelebration] = useState(true);
   const mainRef = useRef(null);
   const countedVisit = useRef(false);
@@ -1122,6 +1136,8 @@ export default function App() {
   const questions = quest?.questions ?? [];
   const activeQuestion = questions[questionIndex];
   const activeResponse = activeQuestion ? responseFor(progress, quest?.id, activeQuestion.id) : null;
+  const activeEvidenceTarget = evidenceRevealTarget(quest, activeQuestion);
+  const activeFeedback = responseFeedback(activeResponse);
   const questResponses = quest ? responsesForQuest(progress, quest.id) : [];
   const filteredQuests = useMemo(() => filterQuests(quests, { ...filters, bookmarked: filters.bookmarkOnly ? progress.bookmarkedQuestIds : null }), [quests, filters, progress.bookmarkedQuestIds]);
   const dailyGoal = dailyGoalStatus(progress);
@@ -1170,15 +1186,19 @@ export default function App() {
   useEffect(() => { if (!countedVisit.current) { countedVisit.current = true; setProgress((current) => recordReturnVisit(current)); } }, []);
   useEffect(() => {
     if (!revealed || !activeQuestion) return undefined;
-    const timer = window.setTimeout(() => document.getElementById(`evidence-${activeQuestion.correctEvidenceSentenceId}`)?.scrollIntoView({ behavior: progress.settings.reduceMotion ? 'auto' : 'smooth', block: 'center' }), 30);
+    if (!activeEvidenceTarget) return undefined;
+    const timer = window.setTimeout(() => document.getElementById(`evidence-${activeEvidenceTarget.sentenceId}`)?.scrollIntoView({ behavior: progress.settings.reduceMotion ? 'auto' : 'smooth', block: 'center' }), 30);
     return () => window.clearTimeout(timer);
-  }, [revealed, activeQuestion?.correctEvidenceSentenceId, progress.settings.reduceMotion]);
+  }, [revealed, activeEvidenceTarget?.sentenceId, progress.settings.reduceMotion]);
 
   function navigate(nextScreen, options = {}) {
     const nextQuestId = options.questId ?? quest?.id ?? null;
     const nextIndex = options.questionIndex ?? questionIndex;
     setScreen(nextScreen); setQuestionIndex(nextIndex); setRevealed(false); setNotice('');
-    if (QUEST_SCREENS.has(nextScreen) && nextQuestId) setProgress((current) => setActiveSession(current, { questId: nextQuestId, screen: nextScreen, questionIndex: nextIndex }));
+    if (QUEST_SCREENS.has(nextScreen) && nextQuestId) {
+      const resumedDraft = options.draft || (nextScreen === 'question' && nextIndex === questionIndex ? progress.activeSession?.draft : null);
+      setProgress((current) => setActiveSession(current, { questId: nextQuestId, screen: nextScreen, questionIndex: nextIndex, ...(resumedDraft ? { draft: resumedDraft } : {}) }));
+    }
   }
 
   function launchQuest(nextQuest) {
@@ -1191,25 +1211,34 @@ export default function App() {
 
   function beginQuestion(index) {
     const existing = responseFor(progress, quest.id, questions[index].id);
-    setDraft({ answerId: existing?.answerId || '', evidenceId: existing?.evidenceId || '' });
-    navigate('question', { questionIndex: index });
+    const savedDraft = progress.activeSession?.questId === quest.id && progress.activeSession?.questionIndex === index ? progress.activeSession.draft : null;
+    const nextDraft = { answerId: existing?.answerId || savedDraft?.answerId || '', evidenceId: existing?.evidenceId || savedDraft?.evidenceId || '' };
+    setDraft(nextDraft);
+    navigate('question', { questionIndex: index, draft: nextDraft });
   }
 
   function submitResponse() {
-    if (!draft.answerId || !draft.evidenceId || !activeQuestion) return;
-    const response = { questId: quest.id, questionId: activeQuestion.id, answerId: draft.answerId, evidenceId: draft.evidenceId, answerCorrect: draft.answerId === activeQuestion.correctChoiceId, evidenceCorrect: draft.evidenceId === activeQuestion.correctEvidenceSentenceId, submittedAt: new Date().toISOString() };
+    const response = buildSubmittedResponse({ quest, question: activeQuestion, answerId: draft.answerId, evidenceId: draft.evidenceId });
+    if (!response) return;
     setProgress((current) => setActiveSession(recordResponse(current, response), { questId: quest.id, screen: 'feedback', questionIndex }));
     if (progress.settings.soundEnabled && progress.settings.soundFeedback) playCue(response.evidenceCorrect ? 'success' : 'retry', progress.settings);
     setScreen('feedback'); setRevealed(false);
   }
 
   function revealEvidence() {
+    if (!activeEvidenceTarget) { setNotice('The reviewed evidence sentence is unavailable. Your answer is saved, and you can return to the passage.'); return; }
     setRevealed(true);
     setProgress((current) => markEvidenceReveal(current));
     if (progress.settings.soundEnabled && progress.settings.soundFeedback) playCue('reveal', progress.settings);
   }
 
   function finishQuest() {
+    if (!quest || questResponses.length < questions.length) {
+      const nextIndex = questions.findIndex((question) => !responseFor(progress, quest?.id, question.id));
+      setNotice('This quest is incomplete. Finish each answer and evidence choice before collecting completion rewards.');
+      if (nextIndex >= 0) beginQuestion(nextIndex);
+      return;
+    }
     const correctAnswers = questResponses.filter((response) => response.answerCorrect).length;
     const correctEvidence = questResponses.filter((response) => response.evidenceCorrect).length;
     const reasoningQuality = questResponses.filter((response) => response.answerCorrect && response.evidenceCorrect).length;
@@ -1225,7 +1254,12 @@ export default function App() {
     }
   }
   function loadJudgeDemo() {
-    if (window.confirm('Load the deterministic judge snapshot? It replaces current local progress.')) { setProgress(createJudgeProgress(quests)); setScreen('home'); setQuestionIndex(0); setNotice('Judge snapshot loaded.'); }
+    if (window.confirm('Load the deterministic judge snapshot? It replaces current local progress.')) { setProgress(createJudgeProgress(quests)); setScreen('home'); setQuestionIndex(0); setDraft({ answerId: '', evidenceId: '' }); setRevealed(false); setNotice('Judge snapshot loaded. This demo works locally without login or internet.'); }
+  }
+  function updateQuestionDraft(field, value) {
+    const nextDraft = { ...draft, [field]: value };
+    setDraft(nextDraft);
+    if (quest && activeQuestion) setProgress((current) => setActiveSession(current, { questId: quest.id, screen: 'question', questionIndex, draft: nextDraft }));
   }
   function finishOnboarding() { setProgress((current) => completeOnboarding(current)); setScreen('home'); }
   function addStatus(message) { setNotice(message); }
@@ -1242,6 +1276,7 @@ export default function App() {
         {screen === 'onboarding' && <Onboarding onContinue={finishOnboarding} />}
         {screen === 'home' && <section className="home-view" aria-labelledby="home-title">
           <div className="home-copy"><p className="eyebrow">Your next reading adventure</p><h1 id="home-title">Find the clue. <em>Light the path.</em></h1><p className="lede">LitLab makes evidence practice feel like a small adventure. Careful reasoning—not speed—moves your story forward.</p><div className="how-it-works" aria-label="How LitLab works"><span>Read the story</span><span>Find the proof</span><span>Grow your trail</span></div><div className="button-row"><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume your quest' : 'Start recommended quest'} <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View practice summary</button></div><p className={`api-note is-${apiState.kind}`}><span className="status-dot" /> {apiState.label}</p></div>
+          <section className={`judge-demo-card ${progress.settings.judgeMode ? 'is-loaded' : ''}`} aria-labelledby="judge-demo-title"><div><p className="eyebrow">{progress.settings.judgeMode ? 'Judge snapshot ready' : 'Judge-ready demo'}</p><h2 id="judge-demo-title">{progress.settings.judgeMode ? 'A complete quest, already in your journal.' : 'See the full experience right away.'}</h2><p>{progress.settings.judgeMode ? 'Local preview · sample XP, badges, and an anonymous tutor summary are ready. No login or internet is needed.' : 'Load one completed offline quest with sample XP, a badge, and a populated tutor summary. No login or internet is needed.'}</p></div><div className="button-row">{progress.settings.judgeMode ? <><button className="primary-button" type="button" onClick={() => navigate('dashboard')}>View tutor summary</button><button className="secondary-button" type="button" onClick={resetDemo}>Reset judge demo</button></> : <button className="primary-button" type="button" onClick={loadJudgeDemo}>Load judge-ready demo</button>}</div></section>
           <div className="quest-preview"><div className="quest-world"><QuestHeroIllustration /></div>{recommendation.quest ? <><p className="card-label">{recommendation.kind === 'resume' ? 'Continue your route' : 'Recommended quest'}</p><h2>{recommendation.quest.title}</h2><p>{recommendation.quest.topic} · {recommendation.quest.difficulty}</p><div className="tag-row">{recommendation.quest.skillTags.map((tag) => <span key={tag}>{humanSkill(tag)}</span>)}</div><p className="time-label">◷ About {recommendation.quest.readingTimeMinutes} minutes · 3 evidence choices</p><p className="recommendation-reason">{recommendation.reason}</p><SourceNotice source={recommendation.quest.source} /></> : <section className="content-gate"><h2>Reviewed quests are loading.</h2><p>Local quest content will appear here once it passes its source and evidence checks.</p></section>}</div>
           <QuestMap arc={arc} activeQuestId={quest?.id} onContinue={launchQuest} />
           <section className="library-controls" aria-labelledby="library-title"><div><p className="eyebrow">Choose your quest</p><h2 id="library-title">The local quest library</h2></div><label className="search-label" htmlFor="quest-search">Search quests<input id="quest-search" value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} placeholder="Title, topic, or skill" /></label><label>Topic<select value={filters.topic} onChange={(event) => setFilters((current) => ({ ...current, topic: event.target.value }))}><option value="">All topics</option>{[...new Set(quests.map((item) => item.topic))].map((topic) => <option key={topic}>{topic}</option>)}</select></label><label>Skill<select value={filters.skill} onChange={(event) => setFilters((current) => ({ ...current, skill: event.target.value }))}><option value="">All skills</option>{[...new Set(quests.flatMap((item) => item.skillTags))].map((skill) => <option key={skill}>{humanSkill(skill)}</option>)}</select></label><label>Difficulty<select value={filters.difficulty} onChange={(event) => setFilters((current) => ({ ...current, difficulty: event.target.value }))}><option value="">All levels</option>{[...new Set(quests.map((item) => item.difficulty))].map((difficulty) => <option key={difficulty}>{difficulty}</option>)}</select></label><label className="toggle-row"><input type="checkbox" checked={filters.bookmarkOnly} onChange={(event) => setFilters((current) => ({ ...current, bookmarkOnly: event.target.checked }))} /><span>Bookmarks only</span></label></section>
@@ -1253,8 +1288,8 @@ export default function App() {
         </section>}
         {screen === 'example' && content.ready && <section className="lesson-view narrow-view" aria-labelledby="example-title"><p className="eyebrow">{quest.title} · worked example</p><h1 id="example-title">{quest.workedExample.title || 'Try the evidence routine'}</h1><div className="routine-grid"><article><span>1</span><h2>Notice</h2><p>{quest.workedExample.notice}</p></article><article><span>2</span><h2>Think</h2><p>{quest.workedExample.think}</p></article><article><span>3</span><h2>Prove</h2><p>{quest.workedExample.prove}</p></article></div><div className="example-callout"><strong>Example answer:</strong> {quest.workedExample.answer}<br /><strong>Evidence:</strong> {quest.workedExample.evidence}</div><div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('reading')}>Read the passage <span aria-hidden="true">→</span></button><button className="text-button" type="button" onClick={() => navigate('reading')}>Skip example</button></div><Guide accessory={progress.activeAccessoryId} message="First, watch the routine. Then you will try it yourself." /></section>}
         {screen === 'reading' && content.ready && <section className="reading-view" aria-labelledby="reading-title"><div className="reading-heading"><div><p className="eyebrow">{quest.skillTags.map(humanSkill).join(' + ')}</p><h1 id="reading-title">{quest.title}</h1><p>{quest.topic} · about {quest.readingTimeMinutes} minutes</p></div><div className="reading-meter" aria-label="Reading step complete"><span>Reading</span><strong>1 / 2</strong><i><b /></i></div></div><article className="passage-card" aria-label={`${quest.title} passage`}>{sentencesFor(quest).map((sentence) => <p key={sentence.id} id={`passage-${sentence.id}`}>{sentence.text}</p>)}</article><div className="reading-footer"><p>When you are ready, answer one question at a time and choose the sentence that supports your idea.</p><button className="primary-button" type="button" onClick={() => beginQuestion(0)}>Start questions <span aria-hidden="true">→</span></button></div><Guide accessory={progress.activeAccessoryId} mood="thoughtful" message="There is no speed bonus. Take the time you need to find the strongest clue." /></section>}
-        {screen === 'question' && content.ready && activeQuestion && <section className="question-view narrow-view" aria-labelledby="question-title"><div className="question-progress" aria-label={`Question ${questionIndex + 1} of ${questions.length}`}><span>Question {questionIndex + 1} of {questions.length}</span><div className="clue-trail" aria-label={`${questionIndex} of ${questions.length} evidence clues collected`}>{questions.map((question, index) => { const response = responseFor(progress, quest.id, question.id); return <i key={question.id} className={index === questionIndex ? 'is-current' : response?.evidenceCorrect ? 'is-strong' : response ? 'is-practice' : ''}>{response ? response.evidenceCorrect ? '✦' : '•' : index + 1}</i>; })}</div></div><p className="eyebrow">{quest.title} · skill: {humanSkill(questionSkill(activeQuestion, quest))}</p><h1 id="question-title">{activeQuestion.prompt}</h1><fieldset className="choice-fieldset"><legend>1. Choose your answer</legend>{activeQuestion.choices.map((choice) => <label className={`choice-card ${draft.answerId === choice.id ? 'selected' : ''}`} key={choice.id}><input type="radio" name="answer" value={choice.id} checked={draft.answerId === choice.id} onChange={() => setDraft((current) => ({ ...current, answerId: choice.id }))} /><span>{choice.text}</span></label>)}</fieldset><fieldset className="choice-fieldset evidence-fieldset"><legend>2. Choose the sentence that best supports your answer</legend><p className="field-help">Your evidence is saved before feedback appears.</p>{activeQuestion.evidenceSentenceIds.map((sentenceId) => { const sentence = sentenceById(quest, sentenceId); return sentence ? <label className={`choice-card evidence-choice ${draft.evidenceId === sentenceId ? 'selected' : ''}`} key={sentenceId}><input type="radio" name="evidence" value={sentenceId} checked={draft.evidenceId === sentenceId} onChange={() => setDraft((current) => ({ ...current, evidenceId: sentenceId }))} /><span>{sentence.text}</span></label> : null; })}</fieldset><button className="primary-button" type="button" onClick={submitResponse} disabled={!draft.answerId || !draft.evidenceId}>Submit answer &amp; evidence <span aria-hidden="true">→</span></button><Guide accessory={progress.activeAccessoryId} message="Choose an answer, then the sentence that best supports it." /></section>}
-        {screen === 'feedback' && content.ready && activeQuestion && activeResponse && <section className="feedback-view narrow-view" aria-labelledby="feedback-title"><p className="eyebrow">{quest.title} · your feedback</p><h1 id="feedback-title">{activeResponse.answerCorrect && activeResponse.evidenceCorrect ? 'That idea is well supported.' : 'Let’s check the proof together.'}</h1><div className="feedback-grid"><article><span className={activeResponse.answerCorrect ? 'result-good' : 'result-note'}>{activeResponse.answerCorrect ? '✓' : '↗'}</span><h2>Your answer</h2><p>{choiceById(activeQuestion, activeResponse.answerId)?.text}</p></article><article><span className={activeResponse.evidenceCorrect ? 'result-good' : 'result-note'}>{activeResponse.evidenceCorrect ? '✓' : '↗'}</span><h2>Your evidence</h2><p>{sentenceById(quest, activeResponse.evidenceId)?.text}</p></article></div><div className="explanation"><strong>Why:</strong> {activeQuestion.explanation}</div><button className="text-button" type="button" aria-pressed={progress.confusingQuestionIds.includes(activeQuestion.id)} onClick={() => setProgress((current) => toggleConfusingQuestion(current, activeQuestion.id))}>{progress.confusingQuestionIds.includes(activeQuestion.id) ? 'Marked for local review' : 'This question seems confusing'}</button>{!revealed ? <button className="secondary-button" type="button" onClick={revealEvidence}>Show passage evidence</button> : <div className="evidence-reveal" aria-live="polite"><p className="eyebrow">Passage evidence</p><p>The highlighted sentence is the strongest support for the answer.</p><article className="evidence-passage" aria-label="Passage with supporting evidence highlighted">{sentencesFor(quest).map((sentence) => <p key={sentence.id} id={`evidence-${sentence.id}`} className={sentence.id === activeQuestion.correctEvidenceSentenceId ? 'is-evidence' : ''}>{sentence.id === activeQuestion.correctEvidenceSentenceId ? <mark>{sentence.text}</mark> : sentence.text}</p>)}</article></div>}<div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('consequence')}>See what your clue changes <span aria-hidden="true">→</span></button></div><Guide accessory={progress.activeAccessoryId} mood={activeResponse.evidenceCorrect ? 'happy' : 'thoughtful'} message={activeResponse.evidenceCorrect ? 'That clue lights a stronger route on your map.' : 'A practice clue still helps the guide map the next route.'} /></section>}
+        {screen === 'question' && content.ready && activeQuestion && <section className="question-view narrow-view" aria-labelledby="question-title"><div className="question-progress" aria-label={`Question ${questionIndex + 1} of ${questions.length}`}><span>Question {questionIndex + 1} of {questions.length}</span><div className="clue-trail" aria-label={`${questionIndex} of ${questions.length} evidence clues collected`}>{questions.map((question, index) => { const response = responseFor(progress, quest.id, question.id); return <i key={question.id} className={index === questionIndex ? 'is-current' : response?.evidenceCorrect ? 'is-strong' : response ? 'is-practice' : ''}>{response ? response.evidenceCorrect ? '✦' : '•' : index + 1}</i>; })}</div></div><p className="eyebrow">{quest.title} · skill: {humanSkill(questionSkill(activeQuestion, quest))}</p><h1 id="question-title">{activeQuestion.prompt}</h1><fieldset className="choice-fieldset"><legend>1. Choose your answer</legend>{activeQuestion.choices.map((choice) => <label className={`choice-card ${draft.answerId === choice.id ? 'selected' : ''}`} key={choice.id}><input type="radio" name="answer" value={choice.id} checked={draft.answerId === choice.id} onChange={() => updateQuestionDraft('answerId', choice.id)} /><span>{choice.text}</span></label>)}</fieldset><fieldset className="choice-fieldset evidence-fieldset"><legend>2. Choose the sentence that best supports your answer</legend><p className="field-help">Your evidence is saved before feedback appears.</p>{activeQuestion.evidenceSentenceIds.map((sentenceId) => { const sentence = sentenceById(quest, sentenceId); return sentence ? <label className={`choice-card evidence-choice ${draft.evidenceId === sentenceId ? 'selected' : ''}`} key={sentenceId}><input type="radio" name="evidence" value={sentenceId} checked={draft.evidenceId === sentenceId} onChange={() => updateQuestionDraft('evidenceId', sentenceId)} /><span>{sentence.text}</span></label> : null; })}</fieldset><button className="primary-button" type="button" onClick={submitResponse} disabled={!draft.answerId || !draft.evidenceId}>Submit answer &amp; evidence <span aria-hidden="true">→</span></button><Guide accessory={progress.activeAccessoryId} message="Choose an answer, then the sentence that best supports it." /></section>}
+        {screen === 'feedback' && content.ready && activeQuestion && activeResponse && <section className="feedback-view narrow-view" aria-labelledby="feedback-title"><p className="eyebrow">{quest.title} · your feedback</p><h1 id="feedback-title">{activeFeedback.fullySupported ? 'That idea is well supported.' : 'Let’s check the proof together.'}</h1><div className="feedback-grid"><article><span className={activeFeedback.answerCorrect ? 'result-good' : 'result-note'}>{activeFeedback.answerCorrect ? '✓' : '↗'}</span><h2>Your answer</h2><p>{choiceById(activeQuestion, activeResponse.answerId)?.text}</p></article><article><span className={activeFeedback.evidenceCorrect ? 'result-good' : 'result-note'}>{activeFeedback.evidenceCorrect ? '✓' : '↗'}</span><h2>Your evidence</h2><p>{sentenceById(quest, activeResponse.evidenceId)?.text}</p></article></div><div className="explanation"><strong>Why:</strong> {activeQuestion.explanation}</div><button className="text-button" type="button" aria-pressed={progress.confusingQuestionIds.includes(activeQuestion.id)} onClick={() => setProgress((current) => toggleConfusingQuestion(current, activeQuestion.id))}>{progress.confusingQuestionIds.includes(activeQuestion.id) ? 'Marked for local review' : 'This question seems confusing'}</button>{!revealed ? <button className="secondary-button" type="button" onClick={revealEvidence}>Show passage evidence</button> : <div className="evidence-reveal" aria-live="polite"><p className="eyebrow">Passage evidence</p>{activeEvidenceTarget ? <><p>The highlighted sentence is the strongest support for the answer.</p><article className="evidence-passage" aria-label="Passage with supporting evidence highlighted">{sentencesFor(quest).map((sentence) => <p key={sentence.id} id={`evidence-${sentence.id}`} className={sentence.id === activeEvidenceTarget.sentenceId ? 'is-evidence' : ''}>{sentence.id === activeEvidenceTarget.sentenceId ? <mark>{sentence.text}</mark> : sentence.text}</p>)}</article></> : <p role="status">The reviewed evidence sentence is unavailable. Your response is saved; return to the reading passage to continue.</p>}</div>}<div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('consequence')}>See what your clue changes <span aria-hidden="true">→</span></button></div><Guide accessory={progress.activeAccessoryId} mood={activeFeedback.evidenceCorrect ? 'happy' : 'thoughtful'} message={activeFeedback.evidenceCorrect ? 'That clue lights a stronger route on your map.' : 'A practice clue still helps the guide map the next route.'} /></section>}
         {screen === 'consequence' && content.ready && activeQuestion && activeResponse && <section className="consequence-view narrow-view" aria-labelledby="consequence-title"><div className={`consequence-scene ${activeResponse.evidenceCorrect ? 'scene-unlocked' : 'scene-mapped'}`} aria-hidden="true"><span>✦</span><span>⌁</span><span>◌</span></div><p className="eyebrow">{quest.title} · story consequence</p><h1 id="consequence-title">{activeResponse.evidenceCorrect ? activeQuestion.storyConsequence.strongTitle : activeQuestion.storyConsequence.practiceTitle}</h1><p className="consequence-copy">{activeResponse.evidenceCorrect ? activeQuestion.storyConsequence.strongMessage : activeQuestion.storyConsequence.practiceMessage}</p><p className="consequence-note">{activeResponse.evidenceCorrect ? 'Evidence Shard collected: the clearest route is now lit.' : 'Practice clue added: the guide marked the evidence for your next try.'}</p>{questionIndex < questions.length - 1 ? <button className="primary-button" type="button" onClick={() => beginQuestion(questionIndex + 1)}>Next question <span aria-hidden="true">→</span></button> : <button className="primary-button" type="button" onClick={finishQuest}>Finish quest <span aria-hidden="true">→</span></button>}<Guide accessory={progress.activeAccessoryId} mood={activeResponse.evidenceCorrect ? 'happy' : 'thoughtful'} message="Your evidence choice changed the story scene. Keep following the trail." /></section>}
         {screen === 'complete' && content.ready && <section className="complete-view narrow-view" aria-labelledby="complete-title">{showCelebration && <button className="skip-celebration" type="button" onClick={() => setShowCelebration(false)}>Skip celebration</button>}<div className={`completion-star ${showCelebration ? 'is-celebrating' : ''}`} aria-hidden="true">✦</div><p className="eyebrow">{quest.title} · quest complete</p><h1 id="complete-title">You followed the evidence trail.</h1><p className="completion-score">{correctAnswers} of {questions.length} answers matched the passage · {correctEvidence} of {questions.length} evidence choices were on target.</p><div className="reward-card"><span>+ {progress.lastCompletedQuestId === quest.id ? progress.lastCompletionXp : 0} XP</span><strong>Story fragment collected · {progress.badgeIds.includes(BADGES.EVIDENCE_EXPLORER) ? 'Strong Clue Finder badge earned' : 'Evidence Explorer badge earned'}</strong></div><div className="quest-debrief"><h2>Quest debrief</h2><p>You practiced {quest.skillTags.map(humanSkill).join(', ')}. Your next route can build on this clue trail or explore another skill.</p></div><div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('review')}>Review your evidence <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View progress</button><button className="text-button" type="button" onClick={() => navigate('home')}>Choose another quest</button></div><Guide accessory={progress.activeAccessoryId} mood="happy" message="A new story fragment is in your journal. Your next quest is ready whenever you are." /></section>}
         {screen === 'review' && content.ready && <ReviewScreen quest={quest} progress={progress} onBack={() => navigate('dashboard')} />}

@@ -175,29 +175,35 @@ function isProgress(value) {
     && Array.isArray(value.completedQuestIds) && typeof value.signals === 'object';
 }
 
-export function loadProgress() {
+export function loadProgressWithStatus() {
   const storage = getStorage();
-  if (!storage) return createEmptyProgress();
+  if (!storage) return { progress: createEmptyProgress(), recoveredFromCorruption: false };
+  let recoveredFromCorruption = false;
   try {
     const current = storage.getItem(PROGRESS_STORAGE_KEY);
     if (current) {
-      const parsed = JSON.parse(current);
-      if (isProgress(parsed)) return mergeProgress(parsed);
+      try {
+        const parsed = JSON.parse(current);
+        if (isProgress(parsed)) return { progress: mergeProgress(parsed), recoveredFromCorruption: false };
+        recoveredFromCorruption = true;
+      } catch { recoveredFromCorruption = true; }
     }
     for (const key of LEGACY_PROGRESS_STORAGE_KEYS) {
       const legacy = storage.getItem(key);
       if (!legacy) continue;
-      const parsed = JSON.parse(legacy);
-      if (!isProgress(parsed)) continue;
-      const migrated = mergeProgress(parsed);
-      storage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(migrated));
-      return migrated;
+      try {
+        const parsed = JSON.parse(legacy);
+        if (!isProgress(parsed)) { recoveredFromCorruption = true; continue; }
+        const migrated = mergeProgress(parsed);
+        storage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(migrated));
+        return { progress: migrated, recoveredFromCorruption };
+      } catch { recoveredFromCorruption = true; }
     }
-  } catch {
-    // The demo stays usable when browser storage is blocked or malformed.
-  }
-  return createEmptyProgress();
+  } catch { recoveredFromCorruption = true; }
+  return { progress: createEmptyProgress(), recoveredFromCorruption };
 }
+
+export function loadProgress() { return loadProgressWithStatus().progress; }
 
 export function saveProgress(progress) {
   try { getStorage()?.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(mergeProgress(progress))); } catch { /* in-memory demo */ }
@@ -428,7 +434,7 @@ export function completeQuest(progress, questId, { correctAnswers = 0, correctEv
   return {
     ...normalized,
     xp: nextXp,
-    lastCompletionXp: earnedXp,
+    lastCompletionXp: alreadyCompleted ? normalized.lastCompletionXp : earnedXp,
     lastXpBreakdown: alreadyCompleted ? normalized.lastXpBreakdown : breakdown,
     lastCompletedQuestId: questId,
     completedQuestIds: alreadyCompleted ? normalized.completedQuestIds : [...normalized.completedQuestIds, questId],
@@ -465,6 +471,15 @@ export function createJudgeProgress(quests = []) {
   const firstQuest = quests[0];
   const seeded = createEmptyProgress();
   if (!firstQuest) return { ...seeded, onboardingComplete: true, settings: { ...seeded.settings, judgeMode: true } };
+  const responses = (firstQuest.questions || []).map((question) => ({
+    questId: firstQuest.id,
+    questionId: question.id,
+    answerId: question.correctChoiceId,
+    evidenceId: question.correctEvidenceSentenceId,
+    answerCorrect: true,
+    evidenceCorrect: true,
+    submittedAt: '2026-01-01T12:00:00.000Z',
+  }));
   return {
     ...seeded,
     onboardingComplete: true,
@@ -473,6 +488,7 @@ export function createJudgeProgress(quests = []) {
     lastCompletedQuestId: firstQuest.id,
     selectedQuestId: firstQuest.id,
     completedQuestIds: [firstQuest.id],
+    responses,
     badgeIds: [BADGES.FIRST_QUEST, BADGES.EVIDENCE_EXPLORER],
     storyFragmentIds: [`fragment-${firstQuest.id}`],
     levelRewardIds: ['trail-ribbon'],

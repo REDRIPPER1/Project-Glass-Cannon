@@ -6,9 +6,11 @@ import {
   PROGRESS_STORAGE_KEY,
   beginQuest,
   completeQuest,
+  createJudgeProgress,
   createEmptyProgress,
   grantDemoCurrency,
   loadProgress,
+  loadProgressWithStatus,
   openCatalogEgg,
   PET_LEVEL_MILESTONES,
   buyWishlistPages,
@@ -56,16 +58,46 @@ test('completes a quest once and grants transparent local rewards', () => {
 test('persists, resumes, bookmarks, and resets the versioned local progress schema', () => {
   const values = installStorage();
   let progress = beginQuest(createEmptyProgress(), 'quest-2');
-  progress = setActiveSession(progress, { questId: 'quest-2', screen: 'question', questionIndex: 1 });
+  progress = setActiveSession(progress, { questId: 'quest-2', screen: 'question', questionIndex: 1, draft: { answerId: 'choice-b', evidenceId: 'sentence-4' } });
   progress = toggleBookmark(progress, 'quest-2');
   saveProgress(progress);
   const loaded = loadProgress();
-  assert.deepEqual(loaded.activeSession, { questId: 'quest-2', screen: 'question', questionIndex: 1 });
+  assert.deepEqual(loaded.activeSession, { questId: 'quest-2', screen: 'question', questionIndex: 1, draft: { answerId: 'choice-b', evidenceId: 'sentence-4' } });
   assert.deepEqual(loaded.bookmarkedQuestIds, ['quest-2']);
   assert.equal(values.size > 0, true);
   const cleared = resetProgress();
   assert.equal(cleared.responses.length, 0);
+  assert.equal(cleared.activeSession, null);
+  assert.equal(cleared.xp, 0);
   assert.equal(loadProgress().bookmarkedQuestIds.length, 0);
+});
+
+test('recovers visibly from malformed or structurally invalid local progress', () => {
+  const values = installStorage();
+  values.set(PROGRESS_STORAGE_KEY, '{broken json');
+  let result = loadProgressWithStatus();
+  assert.equal(result.recoveredFromCorruption, true);
+  assert.equal(result.progress.xp, 0);
+  values.set(PROGRESS_STORAGE_KEY, JSON.stringify({ xp: 50, responses: 'not-an-array', completedQuestIds: [], signals: {} }));
+  result = loadProgressWithStatus();
+  assert.equal(result.recoveredFromCorruption, true);
+  assert.deepEqual(result.progress.responses, []);
+});
+
+test('seeds a deterministic offline judge snapshot with tutor-ready answers and rewards', () => {
+  const quest = { id: 'judge-quest', questions: [
+    { id: 'q1', correctChoiceId: 'a1', correctEvidenceSentenceId: 's1' },
+    { id: 'q2', correctChoiceId: 'a2', correctEvidenceSentenceId: 's2' },
+    { id: 'q3', correctChoiceId: 'a3', correctEvidenceSentenceId: 's3' },
+  ] };
+  const snapshot = createJudgeProgress([quest]);
+  assert.equal(snapshot.settings.judgeMode, true);
+  assert.equal(snapshot.completedQuestIds[0], quest.id);
+  assert.equal(snapshot.xp, 105);
+  assert.ok(snapshot.badgeIds.includes(BADGES.EVIDENCE_EXPLORER));
+  assert.equal(snapshot.responses.length, quest.questions.length);
+  assert.ok(snapshot.responses.every((response) => response.answerCorrect && response.evidenceCorrect));
+  assert.equal(snapshot.activeSession, null);
 });
 
 test('migrates anonymous progress from an earlier product-name storage key', () => {

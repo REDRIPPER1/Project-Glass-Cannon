@@ -11,9 +11,10 @@ An editable source of truth for the ReadQuest hackathon project. Check items off
 ### Two-day scope guard
 
 - [ ] Finish one complete, reliable quest before adding a second passage or broad content library.
-- [ ] Make one evidence choice change a visible story moment; prioritize this over extra badges, screens, or settings.
-- [ ] Keep the demo local and resettable; do not make the judge flow depend on account setup, network access, or a new backend service.
-- [ ] Have up to three short buyer/user conversations before judging if reachable; leave paid experiments, school procurement, and full content/accessibility audits for follow-up. Complete essential keyboard, contrast, reduced-motion, and sound-off checks before judging.
+- [x] Make an evidence choice change a visible story moment; prioritize this over extra badges, screens, or settings.
+- [x] Keep the demo local and resettable; the judge snapshot and learner path do not depend on account setup, network access, or a new backend service.
+- [ ] Have up to three short buyer/user conversations before judging if reachable; leave paid experiments, school procurement, and full content/accessibility audits for follow-up.
+- [x] Complete essential keyboard, contrast, reduced-motion, and sound-off checks before judging; full assistive-technology and content audits remain follow-up work.
 
 ### 1. Foundation
 
@@ -42,7 +43,7 @@ An editable source of truth for the ReadQuest hackathon project. Check items off
 - [x] Build a library or home screen that lets a user choose a quest.
 - [x] Build a clean distraction-free reading screen.
 - [x] Show title, skill tags, estimated time, and progress.
-- [ ] Prevent answers/solutions from being visible before the reader submits.
+- [x] Prevent answers/solutions from being visible before the reader submits.
 - [ ] Give the first demo quest three questions on one skill; add broader skill coverage after the core flow is stable.
 - [ ] Cover multiple comprehension skills: main idea, inference, vocabulary in context, evidence, author purpose, and critical thinking.
 - [ ] Support multiple choice first; add short answer only if time remains.
@@ -89,15 +90,15 @@ This is optional for the hackathon. The evidence reveal is the first explanation
 
 ## Demo-ready polish
 
-- [ ] Seed the app with enough content for a complete 2–3 minute demo.
+- [x] Seed the app with enough reviewed quests for a complete 2–3 minute demo and offer a deterministic judge snapshot with sample XP, badges, tutor responses, and reset.
 - [x] Add an onboarding screen or short “How it works” section.
 - [x] Add empty states for no completed quests and no badges.
-- [ ] Test keyboard navigation, readable contrast, mobile layout, and basic screen-reader labels.
-- [ ] Test one complete flow: choose quest → read → answer → feedback → earn XP → dashboard.
+- [x] Test keyboard navigation, readable contrast, mobile layout, and basic screen-reader labels.
+- [x] Test the full flow repeatedly: choose quest → read → answer → choose evidence → submit → feedback → reveal evidence → story consequence → completion → dashboard.
 - [x] Make a reset-demo-progress action for judges.
 - [ ] Add polished interactive states for buttons, quest cards, answers, badges, and navigation.
 - [x] Add optional, muted-by-default sound effects for one or two moments; provide a visible mute control and equivalent visual feedback.
-- [ ] Test the demo with sound off, reduced motion enabled, and keyboard-only navigation.
+- [x] Test the demo with sound off, reduced motion enabled, and keyboard-only navigation.
 - [ ] Confirm graphics and audio are original or have documented permission/license terms.
 - [ ] Before a real student pilot, review child-privacy, school approval, and data-protection requirements with the school and qualified guidance.
 - [ ] Deploy to a stable shareable URL.
