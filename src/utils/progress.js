@@ -21,8 +21,8 @@ export const LEVEL_REWARDS = [
 ];
 
 export const PET_LEVEL_MILESTONES = [
-  { petId: 'moss-mouse', level: 2 }, { petId: 'page-finch', level: 5 }, { petId: 'quill-tortoise', level: 10 },
-  { petId: 'shelf-fox', level: 20 }, { petId: 'lantern-otter', level: 35 }, { petId: 'story-moth', level: 50 },
+  { petId: 'moss-mouse', level: 1 }, { petId: 'page-finch', level: 2 }, { petId: 'quill-tortoise', level: 3 },
+  { petId: 'shelf-fox', level: 4 }, { petId: 'lantern-otter', level: 5 }, { petId: 'story-moth', level: 6 },
 ];
 
 export function xpRequiredForLevel(level) {
@@ -68,8 +68,11 @@ export function createEmptyProgress() {
     ownedAccessoryIds: [],
     equippedAccessories: {},
     wishlistIds: [],
+    bookWishlistIds: [],
     ownedBookIds: [],
-    currencies: { leafTokens: 100, storyShards: 0, gold: 0, diamonds: 0 },
+    bookReading: {},
+    inventory: { wishlistPages: 0 },
+    currencies: { gold: 100, diamonds: 0 },
     ownedEggIds: [],
     claimedRewardIds: [],
     subscriptionPlan: 'free',
@@ -140,9 +143,15 @@ function mergeProgress(value) {
     favoritePetIds: [...new Set(asArray(candidate.favoritePetIds))],
     ownedAccessoryIds: [...new Set(asArray(candidate.ownedAccessoryIds))],
     equippedAccessories: candidate.equippedAccessories && typeof candidate.equippedAccessories === 'object' ? candidate.equippedAccessories : {},
+    // Earlier LitLearn builds kept every kind of saved item together. Keep
+    // that collection intact, while migrating the existing book shelf into
+    // its own collection so book actions never affect pet/accessory wishes.
     wishlistIds: [...new Set(asArray(candidate.wishlistIds))],
+    bookWishlistIds: [...new Set(asArray(candidate.bookWishlistIds ?? candidate.wishlistIds))],
     ownedBookIds: [...new Set(asArray(candidate.ownedBookIds))],
-    currencies: { ...empty.currencies, ...(candidate.currencies ?? {}) },
+    bookReading: candidate.bookReading && typeof candidate.bookReading === 'object' ? candidate.bookReading : {},
+    inventory: { ...empty.inventory, ...(candidate.inventory ?? {}), wishlistPages: Math.max(Number(candidate.inventory?.wishlistPages) || 0, Math.floor(currentLevel / 10)) },
+    currencies: { gold: Number(candidate.currencies?.gold ?? candidate.currencies?.leafTokens ?? empty.currencies.gold) || 0, diamonds: Number(candidate.currencies?.diamonds ?? candidate.currencies?.storyShards ?? empty.currencies.diamonds) || 0 },
     ownedEggIds: asArray(candidate.ownedEggIds),
     claimedRewardIds: [...new Set(asArray(candidate.claimedRewardIds))],
     subscriptionPlan: candidate.subscriptionPlan === 'premium' ? 'premium' : 'free',
@@ -221,6 +230,36 @@ export function toggleWishlist(progress, itemId) {
   return updateCollection(current, { wishlistIds: [...wishlist] });
 }
 
+export function toggleBookWishlist(progress, bookId) {
+  const current = mergeProgress(progress);
+  const wishlist = new Set(current.bookWishlistIds);
+  wishlist.has(bookId) ? wishlist.delete(bookId) : wishlist.add(bookId);
+  return updateCollection(current, { bookWishlistIds: [...wishlist] });
+}
+
+export function markBookChapterRead(progress, bookId, chapterId) {
+  const current = mergeProgress(progress);
+  const chapters = new Set(current.bookReading[bookId]?.chapterIds || []);
+  chapters.add(chapterId);
+  return updateCollection(current, { bookReading: { ...current.bookReading, [bookId]: { chapterIds: [...chapters], lastChapterId: chapterId } } });
+}
+
+export function redeemWishlistPages(progress, eligibleBookIds = []) {
+  const current = mergeProgress(progress);
+  const choices = eligibleBookIds.filter((id) => current.bookWishlistIds.includes(id) && !current.ownedBookIds.includes(id));
+  if (current.inventory.wishlistPages < 5 || !choices.length) return { progress: current, selectedBookId: null };
+  const selectedBookId = choices[Math.floor(Math.random() * choices.length)];
+  return { progress: updateCollection(current, { inventory: { ...current.inventory, wishlistPages: current.inventory.wishlistPages - 5 }, ownedBookIds: [...new Set([...current.ownedBookIds, selectedBookId])] }), selectedBookId };
+}
+
+export function buyWishlistPages(progress, amount = 1, diamondPrice = 10) {
+  const current = mergeProgress(progress);
+  const pages = Math.max(1, Number(amount) || 1);
+  const price = Math.max(0, Number(diamondPrice) || 0);
+  if (current.currencies.diamonds < price) return current;
+  return updateCollection(current, { currencies: { ...current.currencies, diamonds: current.currencies.diamonds - price }, inventory: { ...current.inventory, wishlistPages: current.inventory.wishlistPages + pages } });
+}
+
 export function namePet(progress, petId, name) {
   const current = mergeProgress(progress);
   const trimmed = String(name || '').trim().slice(0, 24);
@@ -248,9 +287,10 @@ export function equipPetAccessory(progress, category, accessoryId) {
 
 export function purchaseCatalogItem(progress, item) {
   const current = mergeProgress(progress);
-  const balance = Number(current.currencies[item.currency]) || 0;
+  const currency = item.currency === 'leafTokens' ? 'gold' : item.currency === 'storyShards' ? 'diamonds' : item.currency;
+  const balance = Number(current.currencies[currency]) || 0;
   if (balance < item.price) return current;
-  const currencies = { ...current.currencies, [item.currency]: balance - item.price };
+  const currencies = { ...current.currencies, [currency]: balance - item.price };
   const ownedAccessoryIds = item.itemType === 'accessory' ? [...new Set([...current.ownedAccessoryIds, item.catalogId])] : current.ownedAccessoryIds;
   const ownedEggIds = item.itemType === 'egg' ? [...current.ownedEggIds, item.catalogId] : current.ownedEggIds;
   const ownedBookIds = item.itemType === 'book' ? [...new Set([...current.ownedBookIds, item.catalogId])] : current.ownedBookIds;
@@ -260,8 +300,9 @@ export function purchaseCatalogItem(progress, item) {
 export function grantDemoCurrency(progress, currency, amount) {
   const current = mergeProgress(progress);
   const quantity = Math.max(0, Number(amount) || 0);
-  if (!['leafTokens', 'storyShards', 'gold', 'diamonds'].includes(currency) || !quantity) return current;
-  return updateCollection(current, { currencies: { ...current.currencies, [currency]: (current.currencies[currency] || 0) + quantity } });
+  const canonical = currency === 'leafTokens' ? 'gold' : currency === 'storyShards' ? 'diamonds' : currency;
+  if (!['gold', 'diamonds'].includes(canonical) || !quantity) return current;
+  return updateCollection(current, { currencies: { ...current.currencies, [canonical]: (current.currencies[canonical] || 0) + quantity } });
 }
 
 export function openCatalogEgg(progress, egg) {
@@ -273,8 +314,9 @@ export function openCatalogEgg(progress, egg) {
   const ownedEggIds = current.ownedEggIds.filter((_, index) => index !== eggIndex);
   if (!petId) return updateCollection(current, { ownedEggIds });
   if (current.ownedPetIds.includes(petId)) {
-    const fallback = egg.duplicateBehavior || { currency: 'storyShards', quantity: 0 };
-    return updateCollection(current, { ownedEggIds, currencies: { ...current.currencies, [fallback.currency]: (current.currencies[fallback.currency] || 0) + fallback.quantity } });
+    const fallback = egg.duplicateBehavior || { currency: 'diamonds', quantity: 0 };
+    const currency = fallback.currency === 'storyShards' ? 'diamonds' : fallback.currency;
+    return updateCollection(current, { ownedEggIds, currencies: { ...current.currencies, [currency]: (current.currencies[currency] || 0) + fallback.quantity } });
   }
   return updateCollection(current, { ownedEggIds, ownedPetIds: [...current.ownedPetIds, petId] });
 }
@@ -282,7 +324,8 @@ export function openCatalogEgg(progress, egg) {
 export function claimCatalogReward(progress, reward) {
   const current = mergeProgress(progress);
   if (current.claimedRewardIds.includes(reward.id)) return current;
-  const currencies = reward.type === 'currency' ? { ...current.currencies, [reward.catalogId]: (current.currencies[reward.catalogId] || 0) + reward.quantity } : current.currencies;
+  const currency = reward.catalogId === 'leafTokens' ? 'gold' : reward.catalogId === 'storyShards' ? 'diamonds' : reward.catalogId;
+  const currencies = reward.type === 'currency' ? { ...current.currencies, [currency]: (current.currencies[currency] || 0) + reward.quantity } : current.currencies;
   const ownedAccessoryIds = reward.type === 'accessory' ? [...new Set([...current.ownedAccessoryIds, reward.catalogId])] : current.ownedAccessoryIds;
   return updateCollection(current, { claimedRewardIds: [...current.claimedRewardIds, reward.id], currencies, ownedAccessoryIds });
 }
@@ -385,6 +428,7 @@ export function completeQuest(progress, questId, { correctAnswers = 0, correctEv
     activeSession: null,
     dailyGoal: { ...dailyGoal, completed: alreadyCompleted ? dailyGoal.completed : dailyGoal.completed + 1 },
     streak: alreadyCompleted ? normalized.streak : updateStreak(normalized.streak, date),
+    inventory: !alreadyCompleted && earnedXp > 0 ? { ...normalized.inventory, wishlistPages: normalized.inventory.wishlistPages + 1 } : normalized.inventory,
     signals: {
       ...normalized.signals,
       completedQuestCount: alreadyCompleted ? normalized.signals.completedQuestCount : normalized.signals.completedQuestCount + 1,

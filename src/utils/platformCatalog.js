@@ -9,7 +9,9 @@ export const shopItemById = (id) => catalog.shopItems.find((item) => item.id ===
 export const displayCurrency = (currency) => ({
   gold: 'Gold',
   diamonds: 'Diamonds',
-  leafTokens: 'Leaf Tokens',
-  storyShards: 'Story Shards',
+  // Legacy IDs are accepted while loading old saved catalog data, but never
+  // surface as player-facing currency names.
+  leafTokens: 'Gold',
+  storyShards: 'Diamonds',
 }[currency] || currency);
 

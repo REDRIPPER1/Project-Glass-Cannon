@@ -2,6 +2,7 @@ const normalize = (value) => String(value || '').trim().toLowerCase();
 
 export function bookAccessState(book, progress) {
   if (progress.ownedBookIds?.includes(book.id)) return 'owned';
+  if (book.accessTier === 'owned') return 'owned';
   if (book.accessTier === 'free-demo') return 'free';
   if (book.accessTier === 'purchase-only' || book.purchaseOnly) return 'purchase-only';
   if (progress.subscriptionPlan === 'premium') return 'subscription';
@@ -10,6 +11,7 @@ export function bookAccessState(book, progress) {
 
 export function chapterAccessState(book, chapter, progress) {
   if (progress.ownedBookIds?.includes(book.id)) return 'owned';
+  if (chapter.accessTier === 'owned') return 'owned';
   if (book.accessTier === 'purchase-only' || book.purchaseOnly) return 'purchase-only';
   if (chapter.accessTier === 'free-demo') return 'free';
   if (progress.subscriptionPlan === 'premium') return 'subscription';
@@ -41,7 +43,6 @@ export function bookLevelNodes(book, quests, totalLevels = 10) {
 
 export function sourceReaderState(book, chapter, access) {
   if (!chapter) return { kind: 'empty', message: 'This level is waiting for a reviewed chapter mapping from the catalog.' };
-  if (access === 'locked' || access === 'purchase-only') return { kind: 'locked', message: 'Unlock this chapter to open its verified source reading path.' };
-  if (!book.sourceUrl) return { kind: 'error', message: 'This reviewed catalog entry does not include a source link yet.' };
-  return { kind: 'ready', message: 'Open the verified source in a new tab. The app does not embed unreviewed book text.' };
+  if (access === 'locked' || access === 'purchase-only') return { kind: 'locked', message: 'Unlock this chapter to read its provided LitLearn passage.' };
+  return { kind: 'ready', message: 'This chapter can be opened in LitLearn only when a reviewed bundled passage is mapped to it.' };
 }
