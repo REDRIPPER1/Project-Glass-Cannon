@@ -596,7 +596,7 @@ def claim_reward(profile_id: str, reward_instance_id: str):
 
 @app.get("/api/catalog/shop", summary="List local mock shop items")
 def list_shop_items():
-    return deepcopy(CATALOGS["shopItems"])
+    return platform_store.shop_catalog()
 
 
 @app.post("/api/profiles/{profile_id}/purchases", summary="Make a reversible local-demo purchase")
@@ -610,6 +610,11 @@ def reverse_purchase(profile_id: str, purchase_id: str):
     return _platform(lambda: platform_store.reverse_purchase(profile_id, purchase_id))
 
 
+@app.post("/api/profiles/{profile_id}/wishlist/redemptions", summary="Redeem five Wishlist Pages for one permanent wishlisted book")
+def redeem_wishlist_pages(profile_id: str):
+    return _platform(lambda: platform_store.redeem_wishlist_pages(profile_id))
+
+
 @app.post("/api/profiles/{profile_id}/eggs/{egg_id}/open", summary="Open a purchased egg with validated demo odds")
 def open_egg(profile_id: str, egg_id: str, payload: dict[str, object] | None = None):
     payload = payload or {}
@@ -619,12 +624,12 @@ def open_egg(profile_id: str, egg_id: str, payload: dict[str, object] | None = N
 
 @app.get("/api/catalog/books", summary="List book metadata and access tiers")
 def list_books():
-    return [deepcopy(book) for book in platform_store.books.values()]
+    return platform_store.public_books()
 
 
 @app.get("/api/catalog/books/{book_id}", summary="Get book rights and chapter metadata")
 def get_book(book_id: str):
-    return _platform(lambda: platform_store._catalog_item(platform_store.books, book_id, "book"))
+    return _platform(lambda: platform_store.public_book(book_id))
 
 
 @app.get("/api/books", summary="List metadata-only web-reader catalog records")
@@ -642,7 +647,15 @@ def check_book_access(profile_id: str, book_id: str):
     book = _platform(lambda: platform_store._catalog_item(platform_store.books, book_id, "book"))
     chapters = book["chapterMetadata"]
     if not chapters:
-        return _platform(lambda: {"bookId": book_id, "allowed": book_id in platform_store._profile(profile_id)["ownedBookIds"], "reason": "chapter_boundaries_unavailable", "source": book["source"]})
+        return _platform(
+            lambda: {
+                "bookId": book_id,
+                "allowed": book_id in platform_store._profile(profile_id)["ownedBookIds"],
+                "reason": "chapter_boundaries_unavailable",
+                "inAppContentAvailable": False,
+                "attribution": platform_store._book_attribution(book),
+            }
+        )
     return _platform(lambda: platform_store.book_access(profile_id, book_id, chapters[0]["id"]))
 
 
@@ -651,12 +664,12 @@ def check_chapter_access(profile_id: str, book_id: str, chapter_id: str):
     return _platform(lambda: platform_store.book_access(profile_id, book_id, chapter_id, "chapter"))
 
 
-@app.get("/api/profiles/{profile_id}/books/{book_id}/chapters/{chapter_id}", summary="Retrieve a chapter reference or structured unavailable-content result")
+@app.get("/api/profiles/{profile_id}/books/{book_id}/chapters/{chapter_id}", summary="Retrieve in-app bundled chapter content or a structured unavailable-content result")
 def get_chapter(profile_id: str, book_id: str, chapter_id: str):
     return _platform(lambda: platform_store.chapter(profile_id, book_id, chapter_id))
 
 
-@app.get("/api/profiles/{profile_id}/books/{book_id}/reader", summary="Get a whole-book external reference or unavailable-content result")
+@app.get("/api/profiles/{profile_id}/books/{book_id}/reader", summary="Get an in-app bundled-reader status or unavailable-content result")
 def get_book_reader_reference(profile_id: str, book_id: str):
     return _platform(lambda: platform_store.reader_reference(profile_id, book_id))
 
