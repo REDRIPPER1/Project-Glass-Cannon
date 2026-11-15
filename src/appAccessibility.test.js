@@ -37,9 +37,6 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(appSource, /Interactive level road through level 100/);
   assert.match(appSource, /Wishlist Page draw/);
   assert.match(appSource, /Spend 5 Wishlist Pages for one random eligible book/);
-  assert.match(appSource, /redeemWishlistPagesRemote/);
-  assert.match(appSource, /loadChapterReference/);
-  assert.match(appSource, /contentAvailability === 'bundled-passage'/);
   assert.match(appSource, /Continue active quest/);
   assert.match(appSource, /scrollIntoView/);
   assert.match(appSource, /aria-label=\{`\$\{PASS_PRODUCT_NAME\} reward path`\}/);

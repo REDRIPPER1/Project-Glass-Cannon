@@ -21,8 +21,8 @@ export const LEVEL_REWARDS = [
 ];
 
 export const PET_LEVEL_MILESTONES = [
-  { petId: 'moss-mouse', level: 1 }, { petId: 'page-finch', level: 2 }, { petId: 'quill-tortoise', level: 3 },
-  { petId: 'shelf-fox', level: 4 }, { petId: 'lantern-otter', level: 5 }, { petId: 'story-moth', level: 6 },
+  { petId: 'moss-mouse', level: 2 }, { petId: 'page-finch', level: 5 }, { petId: 'quill-tortoise', level: 10 },
+  { petId: 'shelf-fox', level: 20 }, { petId: 'lantern-otter', level: 35 }, { petId: 'story-moth', level: 50 },
 ];
 
 export function xpRequiredForLevel(level) {
