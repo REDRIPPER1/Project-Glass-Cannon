@@ -591,6 +591,11 @@ def check_vocabulary_access(profile_id: str, book_id: str):
     return _platform(lambda: platform_store.book_access(profile_id, book_id, None, "vocabulary"))
 
 
+@app.get("/api/profiles/{profile_id}/books/{book_id}/vocabulary/{tier}/access", summary="Check basic or advanced vocabulary access")
+def check_vocabulary_tier_access(profile_id: str, book_id: str, tier: str):
+    return _platform(lambda: platform_store.book_access(profile_id, book_id, tier, "vocabulary"))
+
+
 @app.get("/api/profiles/{profile_id}/books/{book_id}/quizzes/{difficulty}/access", summary="Check quiz-difficulty access")
 def check_quiz_access(profile_id: str, book_id: str, difficulty: str):
     return _platform(lambda: platform_store.book_access(profile_id, book_id, difficulty, "quiz"))

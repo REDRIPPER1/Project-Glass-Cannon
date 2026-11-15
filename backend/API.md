@@ -65,24 +65,26 @@ process-memory state. Set `LITLEARN_FORCE_MEMORY=1` to exercise that fallback.
 | Object | Required contract |
 | --- | --- |
 | `Pet` | `id`, `name`, `petType`, `rarity`, literary/source metadata, description, `baseArtworkKey`, allowed accessory categories, `eventOnly`, availability |
-| `PetAccessory` | `id`, category, rarity, price/currency, compatible pet types, source/license metadata, availability |
-| `PetEgg` | `id`, rarity range, explicit odds, price/currency, possible rewards, duplicate compensation, availability |
-| `Profile` | anonymous `id`, display name, XP/level, currencies, active/owned pets and pet nicknames, equipped accessories, wishlist, badges, achievements, bookmarks, preferences, local-demo entitlement |
-| `Book` | `id`, title, author, edition, chapter metadata, reading/topic/vocabulary levels, source/rights/license/attribution, access tier |
-| `Reward` | instance ID plus catalog reward ID, type, quantity, rarity, source, and one-way claim status |
-| `LevelNode` | `id`, required XP, prerequisites, reward IDs, and `{x,y}` map position |
+| `PetAccessory` | `id`, category, `wearableType` (`accessory` or `clothing`), rarity, price/currency, compatible pet types, source/license metadata, availability |
+| `PetEgg` | `id`, rarity range, explicit odds, price/currency, possible rewards, duplicate Story Shard compensation, availability |
+| `Profile` | anonymous `id`, display name, XP/level, Leaf Tokens, Story Shards, Gold, Diamonds, active/owned pets and pet nicknames, equipped accessories, wishlist, badges, achievements, bookmarks, preferences, local-demo entitlement |
+| `Book` | `id`, title, author, edition, chapter metadata, reading/topic/basic-or-advanced vocabulary level, source/rights/license/attribution, access tier |
+| `Reward` | instance ID plus catalog reward ID, `currency`, `accessory`, `pet`, or `egg` type, quantity, rarity, source, and one-way claim status |
+| `LevelNode` | `id`, required XP, prerequisites, reward IDs, and `{x,y}` map position; reward IDs can grant Gold, Diamonds, clothing, or a fixed-rarity egg |
 | `BattlePass` | ID, season/month, plan, reward pool, progress rule, reward IDs, expiration, and per-profile claim state |
 | `ShopItem` | item type, catalog ID, price/currency, purchase limit, availability |
 | `SubscriptionEntitlement` | plan/status/start/end, feature flags, `adFree`, and book-access level |
 | `AdPlacement` | placement ID, allowed plan, safe generic copy, and disabled conditions; it has no targeting fields |
 
 Catalog validation rejects invalid rarity/currency/price, invalid egg odds,
-missing rights metadata, non-event Mythicals, unknown catalog links, and any
-catalog that does not contain exactly six starter pets. Egg outcomes are
-limited to Common, Rare, Epic, and Legendary; a duplicate is converted to the
-catalog's explicit Story Shard compensation. The seed provides six free
-starters, an event-only Mythical, a Basic pass with one Rare reward, and a
-Premium pass with one Epic reward.
+missing rights metadata, non-event Mythicals, unknown catalog links, invalid
+wearable types, and any catalog that does not contain exactly six starter
+pets. Egg outcomes are limited to Common, Rare, Epic, and Legendary; a
+duplicate is converted to the catalog's explicit Story Shard compensation.
+The level map defines Gold, Diamonds, clothing, and one reward-only egg for
+each non-Mythical rarity. The seed provides six free starters, an event-only
+Mythical, a Basic pass with one Rare reward, and a Premium pass with one Epic
+reward.
 
 Literary metadata is catalog metadata only. All current companions and
 accessories are original LitLearn designs, not adaptations of modern film,
@@ -104,7 +106,8 @@ basis or original-project rights; the API does not serve new book excerpts.
 - Economy: `POST .../purchases`, `POST .../purchases/{purchaseId}/reverse`,
   and `POST .../eggs/{eggId}/open`.
 - Access: `GET .../books/{bookId}/chapters/{chapterId}/access`,
-  `.../vocabulary/access`, and `.../quizzes/{difficulty}/access`; plus
+  `.../vocabulary/access`, `.../vocabulary/{basic|advanced}/access`, and
+  `.../quizzes/{basic|advanced}/access`; plus
   `GET .../subscription` and `POST .../subscription/demo`.
 - Battle passes: `GET .../battle-passes`, `GET .../battle-passes/{passId}`,
   `POST .../{passId}/progress`, and `POST .../{passId}/rewards/{rewardId}/claim`.
@@ -129,7 +132,7 @@ Content-Type: application/json
 ```
 
 ```json
-{"id":"anon-...","xp":0,"level":1,"currencies":{"leafTokens":150,"storyShards":0},"activePetId":"moss-mouse","entitlement":{"plan":"free","adFree":false,"bookAccessLevel":"demo"}}
+{"id":"anon-...","xp":0,"level":1,"currencies":{"leafTokens":150,"storyShards":0,"gold":0,"diamonds":0},"activePetId":"moss-mouse","entitlement":{"plan":"free","adFree":false,"bookAccessLevel":"demo"}}
 ```
 
 Open a purchased egg deterministically for the demo. First use `POST
@@ -148,7 +151,7 @@ Content-Type: application/json
 ```
 
 Free profiles receive only `free-demo` chapters, basic vocabulary, and basic
-quizzes. A Premium response has `fullBooks`, `expandedVocabulary`,
+quizzes. A Premium response has `fullBooks`, `advancedVocabulary`,
 `advancedQuizzes`, `premiumBattlePass`, and `adFree` flags. The demo endpoint
 requires `{"plan":"premium","demoEntitlement":true}`; there is no payment
 API or stored payment information. Ad responses are generic, non-targeted

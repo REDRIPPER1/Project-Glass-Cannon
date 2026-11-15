@@ -27,6 +27,14 @@ class CatalogAndStoreTests(unittest.TestCase):
     def test_catalog_enforces_rights_starter_count_and_egg_odds(self):
         self.assertEqual(len([pet for pet in self.catalogs["pets"] if pet["availability"] == "starter"]), 6)
         self.assertTrue(all(pet["eventOnly"] for pet in self.catalogs["pets"] if pet["rarity"] == "Mythical"))
+        self.assertEqual(set(self.catalogs["currencies"]), {"leafTokens", "storyShards", "gold", "diamonds"})
+        self.assertEqual({accessory["wearableType"] for accessory in self.catalogs["accessories"]}, {"accessory", "clothing"})
+        level_reward_ids = {reward_id for node in self.catalogs["levelNodes"] for reward_id in node["rewardIds"]}
+        self.assertTrue({"level-gold-cache", "level-diamond-cache", "level-oak-leaf-scarf", "level-common-egg", "level-rare-egg", "level-epic-egg", "level-legendary-egg"}.issubset(level_reward_ids))
+        passes = {battle_pass["plan"]: battle_pass for battle_pass in self.catalogs["battlePasses"] if battle_pass["season"] == "2026-11"}
+        reward_by_id = {reward["id"]: reward for reward in self.catalogs["rewards"]}
+        self.assertEqual(reward_by_id[passes["basic"]["rewards"][0]]["rarity"], "Rare")
+        self.assertEqual(reward_by_id[passes["premium"]["rewards"][0]]["rarity"], "Epic")
         invalid = deepcopy(self.catalogs)
         invalid["eggs"][0]["odds"]["Common"] = 0.6
         with self.assertRaisesRegex(CatalogError, "total 1"):
@@ -47,7 +55,27 @@ class CatalogAndStoreTests(unittest.TestCase):
         with self.assertRaisesRegex(PlatformError, "cannot be equipped"):
             self.store.equip_accessory(self.profile_id, "reading-lamp-cap")
         self.store.change_wishlist(self.profile_id, "book", "wizard-of-oz", True)
+        self.store.change_wishlist(self.profile_id, "pet", "comet-bat", True)
+        self.store.change_wishlist(self.profile_id, "accessory", "oak-leaf-scarf", True)
         self.assertEqual(self.store.get_profile(self.profile_id)["wishlist"][0]["catalogId"], "wizard-of-oz")
+        self.assertEqual({item["itemType"] for item in self.store.get_profile(self.profile_id)["wishlist"]}, {"book", "pet", "accessory"})
+
+    def test_level_map_rewards_grant_gold_diamonds_clothing_and_each_egg_rarity(self):
+        self.store.add_xp(self.profile_id, 500, "quest-complete")
+        self.store.add_xp(self.profile_id, 500, "quest-complete")
+        self.store.add_xp(self.profile_id, 400, "quest-complete")
+        reward_instances = self.store.rewards_for_profile(self.profile_id)
+        self.assertTrue({"level-gold-cache", "level-diamond-cache", "level-oak-leaf-scarf", "level-common-egg", "level-rare-egg", "level-epic-egg", "level-legendary-egg"}.issubset({item["rewardId"] for item in reward_instances}))
+        for instance in reward_instances:
+            self.store.claim_reward(self.profile_id, instance["id"])
+        profile = self.store.get_profile(self.profile_id)
+        self.assertEqual(profile["currencies"]["gold"], 50)
+        self.assertEqual(profile["currencies"]["diamonds"], 10)
+        self.assertIn("oak-leaf-scarf", profile["ownedAccessoryIds"])
+        self.assertEqual(set(profile["eggInventory"]), {"common-reward-egg", "rare-reward-egg", "epic-reward-egg", "legendary-reward-egg"})
+        duplicate = self.store.open_egg(self.profile_id, "common-reward-egg")
+        self.assertTrue(duplicate["duplicate"])
+        self.assertEqual(duplicate["compensation"]["currency"], "storyShards")
 
     def test_mock_purchase_eggs_rewards_and_reversal_are_bounded(self):
         self.store.profiles[self.profile_id]["currencies"]["leafTokens"] = 0
@@ -82,9 +110,13 @@ class CatalogAndStoreTests(unittest.TestCase):
     def test_access_entitlements_ads_and_safe_analytics(self):
         self.assertTrue(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")["allowed"])
         self.assertFalse(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
-        self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", None, "vocabulary")["allowed"])
-        self.store.set_demo_entitlement(self.profile_id, "premium", True)
         self.assertTrue(self.store.book_access(self.profile_id, "secret-garden", None, "vocabulary")["allowed"])
+        self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", "advanced", "vocabulary")["allowed"])
+        self.assertTrue(self.store.book_access(self.profile_id, "secret-garden", "basic", "vocabulary")["allowed"])
+        with self.assertRaisesRegex(PlatformError, "Vocabulary tier"):
+            self.store.book_access(self.profile_id, "secret-garden", "expanded", "vocabulary")
+        self.store.set_demo_entitlement(self.profile_id, "premium", True)
+        self.assertTrue(self.store.book_access(self.profile_id, "secret-garden", "advanced", "vocabulary")["allowed"])
         self.assertFalse(self.store.ad_placement(self.profile_id, "after-quest")["eligible"])
         event = self.store.record_event(self.profile_id, "evidence_chosen", {"questId": "wizard-cyclone-inference"})
         self.assertEqual(event["eventType"], "evidence_chosen")
@@ -138,7 +170,9 @@ class PlatformApiTests(unittest.TestCase):
         reward = self.client.get(f"/api/profiles/{self.profile_id}/rewards").json()[0]
         self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/rewards/{reward['id']}/claim").status_code, 200)
         self.assertFalse(self.client.get(f"/api/profiles/{self.profile_id}/books/wizard-of-oz/chapters/chapter-2-council/access").json()["allowed"])
+        self.assertFalse(self.client.get(f"/api/profiles/{self.profile_id}/books/secret-garden/vocabulary/advanced/access").json()["allowed"])
         self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/subscription/demo", json={"plan": "premium", "demoEntitlement": True}).status_code, 200)
+        self.assertTrue(self.client.get(f"/api/profiles/{self.profile_id}/books/secret-garden/vocabulary/advanced/access").json()["allowed"])
         self.assertFalse(self.client.get(f"/api/profiles/{self.profile_id}/ads/after-quest").json()["eligible"])
         self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/analytics", json={"eventType": "return_used", "properties": {"screen": "home"}}).status_code, 201)
 

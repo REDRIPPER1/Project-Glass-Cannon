@@ -78,6 +78,7 @@ class EndpointContractTests(unittest.TestCase):
     def test_profile_pet_accessory_wishlist_and_catalog_contracts(self):
         self.assertEqual(self.main.get_profile(self.profile_id)["id"], self.profile_id)
         self.assertEqual(self.main.get_currency_balances(self.profile_id)["currencies"]["leafTokens"], 150)
+        self.assertEqual(self.main.get_currency_balances(self.profile_id)["currencies"]["gold"], 0)
         self.assertEqual(self.main.update_profile(self.profile_id, {"preferences": {"theme": "sky"}})["preferences"]["theme"], "sky")
         self.assertEqual(self.main.rename_pet(self.profile_id, "moss-mouse", {"name": "Mossy"})["name"], "Mossy")
         self.assertEqual(self.main.select_active_pet(self.profile_id, "page-finch")["activePetId"], "page-finch")
@@ -86,7 +87,7 @@ class EndpointContractTests(unittest.TestCase):
         self.assertEqual(len(self.main.list_pets()), 9)
         self.assertEqual(self.main.get_pet("moss-mouse")["rightsStatus"], "original")
         self.assertEqual(len(self.main.list_accessories()), 4)
-        self.assertEqual(len(self.main.list_eggs()), 2)
+        self.assertEqual(len(self.main.list_eggs()), 6)
         self.assertEqual(self.main.list_events()[0]["petId"], "seasonal-phoenix")
         self.assertEqual(self._error_code(lambda: self.main.get_pet("missing")), "invalid_catalog_id")
 
@@ -115,9 +116,11 @@ class EndpointContractTests(unittest.TestCase):
         self.assertTrue(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")["allowed"])
         self.assertFalse(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         self.assertTrue(self.main.check_vocabulary_access(self.profile_id, "wizard-of-oz")["allowed"])
+        self.assertFalse(self.main.check_vocabulary_tier_access(self.profile_id, "secret-garden", "advanced")["allowed"])
         self.assertTrue(self.main.check_quiz_access(self.profile_id, "wizard-of-oz", "basic")["allowed"])
         self.assertEqual(self.main.get_subscription(self.profile_id)["plan"], "free")
         self.assertEqual(self.main.set_demo_entitlement(self.profile_id, {"plan": "premium", "demoEntitlement": True})["plan"], "premium")
+        self.assertTrue(self.main.check_vocabulary_tier_access(self.profile_id, "secret-garden", "advanced")["allowed"])
         self.assertTrue(self.main.check_quiz_access(self.profile_id, "wizard-of-oz", "advanced")["allowed"])
         self.assertFalse(self.main.get_ad_placement(self.profile_id, "after-quest")["eligible"])
         with patch("backend.store.is_expired", return_value=False):
