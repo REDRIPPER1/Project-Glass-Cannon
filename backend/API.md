@@ -47,6 +47,34 @@ three same-skill multiple-choice questions, answer keys, worked-example and
 question evidence IDs, exact evidence text, and structured story
 consequences.
 
+## Reading Basics (offline-first)
+
+`backend/data/reading-basics/lessons.json` is the versioned reviewed catalog
+for the seven starter skills: main idea, inference, vocabulary in context,
+text evidence, character motives and decisions, sequencing and summarizing,
+and author purpose and point of view. The frontend may bundle that small JSON
+directly; local progress remains frontend-owned and stores only lesson/activity
+IDs, versions, and attempt/completion metadata—never passage text or child
+identifiers.
+
+`GET /api/reading-basics/lessons` returns compact reviewed lesson cards:
+`id`, `version`, `skill`, `title`, and `explanation`. `GET
+/api/reading-basics/lessons/{lessonId}` returns the matching full lesson with
+`workedExample` and reviewed `activities[]`. Each activity has stable `id` and
+`version`, `type`, `prompt`, `hint`, `task`, `correctFeedback`,
+`completionRule`, and `source`.
+
+Supported reviewed types are `clue-hunt`, `timeline-repair`,
+`character-connections`, `context-clues`, `prediction-path`,
+`scene-reconstruction`, `story-quest`, and `creative-response`. Original
+companion activities identify `sourceType:"original-companion"`,
+`rightsStatus:"project-original"`, attribution, and a short source passage
+with stable sentence IDs. A future book activity must instead identify its
+exact approved `bookId`, edition, chapter IDs, and source sentence IDs.
+Unreviewed activity data is rejected by validation and never returned. These
+two endpoints are optional content mirrors, not progress APIs; the demo stays
+usable with the backend stopped.
+
 ## Optional local-demo platform API
 
 The endpoints below add a separate, optional companion/progression service.
