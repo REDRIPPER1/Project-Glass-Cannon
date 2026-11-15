@@ -7,7 +7,9 @@
       "edition": "Project Gutenberg eBook #55; release date February 1, 1993; last updated December 29, 2024",
       "chapterIds": ["chapter-1-cyclone"],
       "questId": "wizard-cyclone-inference",
+      "sourceLabel": "Project Gutenberg eBook #55 · Chapter I: The Cyclone",
       "targetSkill": "making-inferences-from-details",
+      "activityType": "story-quest",
       "accessTier": "basic",
       "reviewStatus": "reviewed",
       "mappingBasis": "The reviewed quest uses only the stable sentence IDs from the bundled Chapter I excerpt. It is the sole catalog quiz until another Project Gutenberg chapter passage and its quiz are reviewed."

@@ -38,6 +38,10 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertTrue(all(book["chapterMetadata"] == [] for book in reference_books))
         self.assertTrue(all(book["source"]["provider"] == "Project Gutenberg" for book in self.books["books"]))
         self.assertTrue(all(book["source"]["landingUrl"].startswith("https://www.gutenberg.org/ebooks/") for book in self.books["books"]))
+        self.assertTrue(all(book["source"]["accessedAt"] is None for book in reference_books))
+        self.assertTrue(all(book["source"]["ebookLicenseReviewStatus"] == "review-needed" for book in reference_books))
+        self.assertTrue(all(book["rights"]["usCopyrightStatus"] == "not-individually-verified" for book in reference_books))
+        self.assertTrue(all(book["rights"]["worldwideCopyrightStatus"] == "review-required" for book in self.books["books"]))
         mappings = {item["id"]: item for item in load_quest_mappings(catalog=self.books)["mappings"]}
         self.assertEqual(mappings["wizard-cyclone-inference"]["bookId"], "wizard-of-oz")
         self.assertEqual(mappings["wizard-cyclone-inference"]["chapterIds"], ["chapter-1-cyclone"])
@@ -45,6 +49,8 @@ class LibraryAndProgressionTests(unittest.TestCase):
         quizzes = load_book_quizzes(catalog=self.books)["quizzes"]
         self.assertEqual(quizzes[0]["questId"], mappings["wizard-cyclone-inference"]["id"])
         self.assertEqual(quizzes[0]["chapterIds"], mappings["wizard-cyclone-inference"]["chapterIds"])
+        self.assertEqual(quizzes[0]["activityType"], "story-quest")
+        self.assertIn("Chapter I", quizzes[0]["sourceLabel"])
 
     def test_level_thresholds_progress_through_100_and_all_pets_are_locked(self):
         nodes = level_nodes({int(node["id"].removeprefix("level-")): node["rewardIds"] for node in self.catalogs["levelNodes"]})
@@ -90,6 +96,12 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertEqual(balances["diamonds"], 1)
 
     def test_book_access_source_attribution_purchase_only_and_library_persistence(self):
+        wizard = self.store.public_book("wizard-of-oz")
+        self.assertEqual(wizard["access"], {"state": "premium", "priceDiamonds": 12})
+        self.assertEqual(wizard["chapterMetadata"][0]["readingLevels"][0]["access"], "free")
+        self.assertEqual(wizard["chapterMetadata"][1]["readingLevels"][0]["access"], "premium")
+        self.assertEqual(self.store.public_book("secret-garden")["access"]["state"], "purchase-only")
+        self.assertEqual(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")["state"], "free")
         self.assertFalse(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         free_chapter = self.store.chapter(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")
         self.assertEqual(free_chapter["content"]["mode"], "bundled-passage")
@@ -99,10 +111,15 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertEqual(source_only["content"]["mode"], "unavailable")
         self.store.set_demo_entitlement(self.profile_id, "premium", True)
         self.assertTrue(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
+        self.assertEqual(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["state"], "premium")
         self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["allowed"])
+        self.assertEqual(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["state"], "purchase-only")
         self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 24
         purchase = self.store.purchase_book(self.profile_id, "secret-garden")
         self.assertTrue(purchase["mocked"])
+        self.assertEqual(purchase["ownership"], "permanent")
+        self.assertIn("secret-garden", purchase["ownedBookIds"])
+        self.assertEqual(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["state"], "owned")
         self.assertEqual(self.store.reader_reference(self.profile_id, "secret-garden")["content"]["reason"], "book_content_unavailable")
         self.store.profiles[self.profile_id]["entitlement"]["endsAt"] = "2020-01-01T00:00:00Z"
         library = {item["bookId"]: item for item in self.store.library(self.profile_id)}

@@ -23,7 +23,9 @@
         "metadataUrl": "https://www.gutenberg.org/ebooks/55",
         "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
         "licenseUrl": "https://www.gutenberg.org/policy/license.html",
-        "downloadGuidance": "This reviewed excerpt was checked against Project Gutenberg eBook #55 for backend authoring. LitLearn serves its own reviewed passage and never requests a Project Gutenberg text file at reader runtime; any public source reference uses the stable landing page."
+        "downloadGuidance": "This reviewed excerpt was checked against Project Gutenberg eBook #55 for backend authoring. LitLearn serves its own reviewed passage and never requests a Project Gutenberg text file at reader runtime; any public source reference uses the stable landing page.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
       },
       "rights": {
         "status": "verified-public-domain-us",
@@ -31,7 +33,9 @@
         "territory": "United States. Rights outside the United States require a separate local-law review.",
         "license": "The Project Gutenberg landing page marks eBook #55 public domain in the USA. The stored excerpt is from the underlying U.S.-unrestricted work and omits Project Gutenberg license and trademark material.",
         "requiredAttribution": "L. Frank Baum, The Wonderful Wizard of Oz, Chapter I: The Cyclone. Source checked against Project Gutenberg eBook #55.",
-        "basis": "Project Gutenberg eBook #55 identifies The Wonderful Wizard of Oz as public domain in the USA. Project Gutenberg's license permits use of the underlying U.S.-unrestricted text when Project Gutenberg references are removed; territory outside the USA is not asserted."
+        "basis": "Project Gutenberg eBook #55 identifies The Wonderful Wizard of Oz as public domain in the USA. Project Gutenberg's license permits use of the underlying U.S.-unrestricted text when Project Gutenberg references are removed; territory outside the USA is not asserted.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
       },
       "accessRules": {
         "mode": "subscription",
@@ -66,7 +70,9 @@
         "metadataUrl": "https://www.gutenberg.org/ebooks/17396",
         "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
         "licenseUrl": "https://www.gutenberg.org/policy/license.html",
-        "downloadGuidance": "This is a Project Gutenberg metadata record. Do not request text at reader runtime or add a chapter passage until the eBook text and exact excerpt have been reviewed for LitLearn."
+        "downloadGuidance": "This is a Project Gutenberg metadata record. Do not request text at reader runtime or add a chapter passage until the eBook text and exact excerpt have been reviewed for LitLearn.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
       },
       "rights": {
         "status": "verified-public-domain-us-metadata",
@@ -74,7 +80,9 @@
         "territory": "United States. Rights outside the United States require a separate local-law review.",
         "license": "Project Gutenberg marks eBook #17396 public domain in the USA. No Project Gutenberg text is bundled in this record until an excerpt review is complete.",
         "requiredAttribution": "Frances Hodgson Burnett, The Secret Garden. Project Gutenberg eBook #17396.",
-        "basis": "The Project Gutenberg landing page identifies eBook #17396 as public domain in the USA. This metadata and chapter-title review does not clear an in-app text excerpt."
+        "basis": "The Project Gutenberg landing page identifies eBook #17396 as public domain in the USA. This metadata and chapter-title review does not clear an in-app text excerpt.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
       },
       "accessRules": {
         "mode": "purchase-only",

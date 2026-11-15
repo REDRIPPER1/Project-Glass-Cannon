@@ -72,7 +72,9 @@ process-memory state. Set `LITLEARN_FORCE_MEMORY=1` to exercise that fallback.
 | `PetAccessory` | `id`, category, `wearableType` (`accessory` or `clothing`), rarity, price/currency, compatible pet types, source/license metadata, availability |
 | `PetEgg` | `id`, rarity range, explicit odds, price/currency, possible rewards, and duplicate Story Shard conversion credited as Diamonds |
 | `Profile` | anonymous `id`, display name, XP/level, authoritative `{gold, diamonds}` wallet, `inventory.wishlistPages`, active/owned pets and pet nicknames, equipped accessories, non-book wishlist items, separate `bookWishlistIds`, collections, permanent book IDs, preferences, local-demo entitlement |
-| `Book` | stable `id`, title, author, edition, category/difficulty/rating, `sourceReference`, verified-or-explicitly-unverified chapter metadata, rights/territory/attribution, in-app content availability, and free/subscription/purchase-only rules |
+| `Book` | stable `id`, title, author, Project Gutenberg `source.ebookId`, authoring-only source URL, edition, category/difficulty/rating, `sourceReference`, `source.accessedAt`, ebook-license review state, U.S. and worldwide rights status, attribution, `access:{state: free\|premium\|purchase-only,priceDiamonds?}`, verified-or-explicitly-unverified chapter metadata, and in-app availability |
+| `Chapter` | stable `id`, verified title/boundary status, `contentAvailability`, static `access.state`, and `readingLevels:[{id,label,access}]`; the current response uses `free`, `premium`, or `purchase-only` access labels and never invents a missing chapter |
+| `BookActivity` | stable activity ID, `activityType`, review status, target skill, exact book ID/edition/chapter IDs, `sourceLabel`, and mapping basis. Only `reviewed` activities are returned by public catalog endpoints. |
 | `Reward` | deterministic instance ID plus catalog reward ID, `currency`, `accessory`, `pet`, `egg`, or `inventory` type, quantity, rarity, source, and one-way claim status |
 | `LevelNode` | deterministic IDs and total-XP thresholds for Levels 1-100, milestone labels, prerequisites, reward IDs, and `{x,y}` map positions |
 | `BattlePass` | ID, season/month, plan, reward pool, progress rule, reward IDs, expiration, and per-profile claim state |
@@ -103,6 +105,16 @@ with `contentAvailability: "unavailable"`. The one reviewed catalog quiz is
 mapped to that exact Project Gutenberg eBook #55 edition and chapter; no quiz
 is advertised for an unreviewed passage.
 
+Every reference record retains a Gutenberg ID and landing page but is marked
+`source.accessedAt: null`, `source.ebookLicenseReviewStatus: "review-needed"`,
+`rights.usCopyrightStatus: "not-individually-verified"`, and
+`rights.worldwideCopyrightStatus: "review-required"` until a title is checked
+individually. It is neither readable in-app nor purchaseable. The reviewed
+Wizard and Secret Garden records have an access date, a reviewed ebook-license
+state, a U.S.-only public-domain status, and a worldwide review requirement.
+This deliberately separates a Gutenberg listing from permission to distribute
+text worldwide.
+
 ### Endpoint map
 
 - Profiles: `POST /api/profiles`, `GET/PATCH /api/profiles/{profileId}` and
@@ -114,7 +126,8 @@ is advertised for an unreviewed passage.
   stable profile book wishlist.
 - Catalogs: `GET /api/catalog/pets`, `/pets/{petId}`, `/accessories`,
   `/eggs`, `/events`, `/books`, `/books/{bookId}`, `/book-quizzes`,
-  `/books/{bookId}/quizzes`, `/shop`, `/badges`,
+  `/books/{bookId}/quizzes`, `/book-activities`, `/books/{bookId}/activities`,
+  `/shop`, `/badges`,
   `/achievements`, and `/trophies`.
 - Progress/rewards: `POST /api/profiles/{profileId}/xp`, `GET .../progress`,
   `GET .../rewards`, and `POST .../rewards/{rewardInstanceId}/claim`.
@@ -131,17 +144,28 @@ is advertised for an unreviewed passage.
 ### Web library and progression additions
 
 - Metadata catalog: `GET /api/books` and `GET /api/books/{bookId}`. These
-  return edition, rights/territory/attribution, access rules, chapter metadata,
-  and in-app content availability. Authoring-source URLs remain private to the
-  reviewed backend data and are never used as reader redirects.
+  return edition, rights/territory/attribution, `source` review notes, static
+  `access` and Diamond price, chapter `readingLevels`, and in-app content
+  availability. A static book access state tells the UI whether a title is
+  Free, Premium, or purchase-only; `GET .../books/{bookId}/access` and the
+  chapter endpoint provide the reader-specific `state`, including `owned`.
+  Authoring-source URLs remain private to the reviewed backend data and are
+  never used as reader redirects.
 - Exact source mapping: `GET /api/quests/{questId}/book-reference` returns
   the stable book ID, exact edition, verified chapter IDs (or an explicit
   standalone-passage mapping), mapping basis, and bundled passage location.
-- Reviewed quizzes: `GET /api/catalog/book-quizzes` and
-  `GET /api/catalog/books/{bookId}/quizzes` return only reviewed quiz
-  metadata. `GET .../books/{bookId}/quizzes/{quizId}` checks the quiz's
-  `basic` or `advanced` entitlement and, only when allowed, returns its three
-  reviewed questions and exact chapter IDs.
+- Reviewed activities: `GET /api/catalog/book-activities` and
+  `GET /api/catalog/books/{bookId}/activities` return only reviewed activity
+  metadata. The supported activity types are `story-quest`, `character-map`,
+  `chapter-choice`, `evidence-collection`, `scene-reconstruction`,
+  `vocabulary-in-context`, `creative-response`, and `book-world-map`.
+  `GET /api/catalog/book-quizzes` and `GET .../quizzes` remain frontend
+  compatibility aliases for the reviewed activity list. `GET
+  .../books/{bookId}/quizzes/{quizId}` checks the activity's `basic` or
+  `advanced` entitlement and, only when allowed, returns `id`, `bookId`,
+  `edition`, `chapterIds`, `sourceLabel`, `targetSkill`, `activityType`, and
+  its reviewed questions. Draft and generated-unreviewed activities never
+  appear in a learner response.
 - Reading: `GET /api/profiles/{profileId}/books/{bookId}/access`,
   `GET .../chapters/{chapterId}`, and `GET .../reader`. Chapter/reader
   retrieval returns a reviewed `bundled-passage` with stable sentence IDs or a
@@ -176,9 +200,10 @@ is advertised for an unreviewed passage.
 - Book ownership: catalog-defined `shop-book-{bookId}` mock items are returned
   from `GET /api/catalog/shop`; book offers use Diamonds, while accessory
   offers use Gold. A successful local purchase grants permanent ownership,
-  which remains in `GET .../library` after a subscription expires. Premium
-  expands subscription-eligible chapter and advanced-quiz access but never
-  unlocks `purchase-only` titles.
+  returns `{ownership:"permanent",ownedBookIds,wallet:{gold,diamonds}}`, and
+  remains in `GET .../library` after a subscription expires. Premium expands
+  subscription-eligible chapter and advanced-quiz access but never unlocks a
+  `purchase-only` title.
 - Road and collections: `GET /api/catalog/progression` returns all 100
   Level Road thresholds and milestone rules. `GET .../progress` has the same
   nodes with the profile's unlocked IDs; `GET .../collections` returns

@@ -77,8 +77,13 @@ class DemoStore:
         self.eggs = indexed(catalogs, "eggs")
         self.book_catalog = books_catalog or load_book_catalog()
         self.books = book_index(self.book_catalog)
+        self.book_activities = {
+            activity["id"]: activity for activity in load_book_quizzes(catalog=self.book_catalog)["quizzes"]
+        }
         self.book_quizzes = {
-            quiz["id"]: quiz for quiz in load_book_quizzes(catalog=self.book_catalog)["quizzes"]
+            activity_id: activity
+            for activity_id, activity in self.book_activities.items()
+            if activity["reviewStatus"] == "reviewed"
         }
         self.inventory_items = indexed(catalogs, "inventoryItems")
         self.rewards = indexed(catalogs, "rewards")
@@ -251,6 +256,9 @@ class DemoStore:
         """Expose rights metadata without exposing an external reader URL."""
         return {
             "sourceReference": f"Project Gutenberg eBook #{book['source']['ebookId']}",
+            "sourceLabel": f"Project Gutenberg eBook #{book['source']['ebookId']}",
+            "accessedAt": book["source"]["accessedAt"],
+            "ebookLicenseReviewStatus": book["source"]["ebookLicenseReviewStatus"],
             "edition": book["edition"],
             "rightsStatus": book["rightsStatus"],
             "license": book["rights"]["license"],
@@ -278,11 +286,19 @@ class DemoStore:
             "ratingBasis": book["ratingBasis"],
             "chapterBoundaryStatus": book["chapterBoundaryStatus"],
             "sourceReference": f"Project Gutenberg eBook #{book['source']['ebookId']}",
+            "source": {
+                "provider": book["source"]["provider"],
+                "ebookId": book["source"]["ebookId"],
+                "accessedAt": book["source"]["accessedAt"],
+                "ebookLicenseReviewStatus": book["source"]["ebookLicenseReviewStatus"],
+            },
             "chapterMetadata": [
                 {
                     "id": chapter["id"],
                     "title": chapter["title"],
                     "accessTier": chapter["accessTier"],
+                    "access": deepcopy(chapter["access"]),
+                    "readingLevels": deepcopy(chapter["readingLevels"]),
                     "contentAvailability": chapter["contentAvailability"],
                 }
                 for chapter in book["chapterMetadata"]
@@ -300,6 +316,7 @@ class DemoStore:
                     "permanentPurchaseEligible",
                 )
             },
+            "access": deepcopy(book["access"]),
             "contentAvailability": book["contentAvailability"],
             "rightsStatus": book["rightsStatus"],
             "license": book["license"],
@@ -621,7 +638,17 @@ class DemoStore:
                 }
             )
         self._touch(profile)
-        return deepcopy(purchase) | {"wallet": deepcopy(profile["wallet"]), "inventory": deepcopy(profile["inventory"])}
+        result = deepcopy(purchase) | {
+            "wallet": deepcopy(profile["wallet"]),
+            "inventory": deepcopy(profile["inventory"]),
+        }
+        if item["itemType"] == "book":
+            result |= {
+                "bookId": item["catalogId"],
+                "ownership": "permanent",
+                "ownedBookIds": deepcopy(profile["ownedBookIds"]),
+            }
+        return result
 
     def reverse_purchase(self, profile_id: str, purchase_id: str) -> dict[str, Any]:
         profile = self._profile(profile_id)
@@ -746,13 +773,23 @@ class DemoStore:
                 allowed, reason = False, "premium-required"
         else:
             raise PlatformError("invalid_access_feature", "Access feature must be chapter, vocabulary, or quiz.")
+        state = (
+            "owned"
+            if permanently_owned
+            else "purchase-only"
+            if reason == "purchase-required"
+            else "free"
+            if reason in {"free-pass", "basic-feature"}
+            else "premium"
+        )
         return {
             "bookId": book_id,
             "feature": feature,
             "requested": chapter_id,
             "allowed": allowed,
+            "state": state,
             "reason": reason,
-            "requiredPlan": "free" if allowed else ("purchase" if reason == "purchase-required" else "premium"),
+            "requiredPlan": "purchase" if state == "purchase-only" else state,
             "inAppContentAvailable": book["contentAvailability"] == "bundled-passage",
             "entitlement": self.subscription(profile_id),
         }
@@ -763,6 +800,10 @@ class DemoStore:
             self._catalog_item(self.books, book_id, "book")
             quizzes = (quiz for quiz in quizzes if quiz["bookId"] == book_id)
         return [deepcopy(quiz) for quiz in sorted(quizzes, key=lambda quiz: quiz["id"])]
+
+    def activities_for_book(self, book_id: str | None = None) -> list[dict[str, Any]]:
+        """Return reviewed activities only; drafts and generated items stay internal."""
+        return self.quizzes_for_book(book_id)
 
     def quiz_access(self, profile_id: str, book_id: str, quiz_id: str) -> dict[str, Any]:
         quiz = self._catalog_item(self.book_quizzes, quiz_id, "book quiz")

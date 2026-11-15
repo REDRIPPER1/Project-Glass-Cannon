@@ -121,16 +121,26 @@ class EndpointContractTests(unittest.TestCase):
 
     def test_books_entitlements_passes_ads_and_analytics_contracts(self):
         self.assertTrue(self.main.list_books())
-        self.assertEqual(self.main.get_book("wizard-of-oz")["rightsStatus"], "verified")
-        self.assertNotIn("sourceUrl", self.main.get_book("wizard-of-oz"))
-        self.assertTrue(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")["allowed"])
+        wizard = self.main.get_book("wizard-of-oz")
+        self.assertEqual(wizard["rightsStatus"], "verified")
+        self.assertNotIn("sourceUrl", wizard)
+        self.assertEqual(wizard["access"], {"state": "premium", "priceDiamonds": 12})
+        self.assertEqual(wizard["chapterMetadata"][0]["readingLevels"][0]["access"], "free")
+        self.assertEqual(wizard["source"]["ebookId"], "55")
+        free_access = self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")
+        self.assertTrue(free_access["allowed"])
+        self.assertEqual(free_access["state"], "free")
         self.assertFalse(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         self.assertTrue(self.main.check_vocabulary_access(self.profile_id, "wizard-of-oz")["allowed"])
         self.assertFalse(self.main.check_vocabulary_tier_access(self.profile_id, "secret-garden", "basic")["allowed"])
         self.assertTrue(self.main.check_quiz_access(self.profile_id, "wizard-of-oz", "basic")["allowed"])
         quiz = self.main.get_book_quiz(self.profile_id, "wizard-of-oz", "wizard-cyclone-inference")
         self.assertEqual(quiz["chapterIds"], ["chapter-1-cyclone"])
+        self.assertEqual(quiz["sourceLabel"], "Project Gutenberg eBook #55 · Chapter I: The Cyclone")
+        self.assertEqual(quiz["activityType"], "story-quest")
         self.assertEqual(len(quiz["questions"]), 3)
+        self.assertEqual(self.main.list_book_activities()[0]["id"], quiz["id"])
+        self.assertEqual(self.main.list_book_activities_for_book("wizard-of-oz")[0]["reviewStatus"], "reviewed")
         self.assertEqual(self.main.get_subscription(self.profile_id)["plan"], "free")
         self.assertEqual(self.main.set_demo_entitlement(self.profile_id, {"plan": "premium", "demoEntitlement": True})["plan"], "premium")
         self.assertFalse(self.main.check_vocabulary_tier_access(self.profile_id, "secret-garden", "advanced")["allowed"])
@@ -164,6 +174,8 @@ class EndpointContractTests(unittest.TestCase):
         self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 24
         purchase = self.main.purchase_book(self.profile_id, "secret-garden")
         self.assertTrue(purchase["mocked"])
+        self.assertEqual(purchase["ownership"], "permanent")
+        self.assertIn("secret-garden", purchase["ownedBookIds"])
         self.store.profiles[self.profile_id]["entitlement"]["endsAt"] = "2020-01-01T00:00:00Z"
         library = {item["bookId"]: item for item in self.main.get_library(self.profile_id)}
         self.assertEqual(library["secret-garden"]["access"], "permanent")

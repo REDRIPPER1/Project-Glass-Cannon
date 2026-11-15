@@ -21,6 +21,19 @@ BOOK_QUIZZES_PATH = Path(__file__).resolve().parent / "data" / "books" / "book-q
 DATA_DIRECTORY = Path(__file__).resolve().parent / "data"
 VALID_ACCESS_MODES = frozenset({"free", "subscription", "purchase-only"})
 VALID_CONTENT_MODES = frozenset({"quest-passage-reference", "unavailable"})
+VALID_ACTIVITY_TYPES = frozenset(
+    {
+        "story-quest",
+        "character-map",
+        "chapter-choice",
+        "evidence-collection",
+        "scene-reconstruction",
+        "vocabulary-in-context",
+        "creative-response",
+        "book-world-map",
+    }
+)
+VALID_ACTIVITY_REVIEW_STATUSES = frozenset({"reviewed", "draft", "generated-unreviewed"})
 
 
 class BookCatalogError(ValueError):
@@ -87,16 +100,42 @@ def validate_book_catalog(value: object) -> dict[str, Any]:
                 raise BookCatalogError(f"Book {book_id} chapter has an invalid contentMode")
 
         source = _object(book.get("source"), f"Book {book_id}.source")
-        for field in ("provider", "landingUrl", "metadataUrl", "downloadGuidance"):
+        for field in (
+            "provider",
+            "landingUrl",
+            "metadataUrl",
+            "downloadGuidance",
+            "ebookLicenseReviewStatus",
+        ):
             _text(source.get(field), f"Book {book_id}.source.{field}")
         if source["provider"] != "Project Gutenberg":
             raise BookCatalogError(f"Book {book_id} must use Project Gutenberg as its source provider")
         _text(source.get("ebookId"), f"Book {book_id}.source.ebookId")
+        if source.get("accessedAt") is not None and (
+            not isinstance(source["accessedAt"], str) or len(source["accessedAt"]) != 10
+        ):
+            raise BookCatalogError(f"Book {book_id}.source.accessedAt must be an ISO date or null")
+        if source["ebookLicenseReviewStatus"] not in {"reviewed", "review-needed"}:
+            raise BookCatalogError(f"Book {book_id}.source.ebookLicenseReviewStatus is invalid")
         rights = _object(book.get("rights"), f"Book {book_id}.rights")
-        for field in ("status", "territory", "license", "requiredAttribution", "basis"):
+        for field in (
+            "status",
+            "territory",
+            "license",
+            "requiredAttribution",
+            "basis",
+            "usCopyrightStatus",
+            "worldwideCopyrightStatus",
+        ):
             _text(rights.get(field), f"Book {book_id}.rights.{field}")
         if not isinstance(rights.get("textReuseCleared"), bool):
             raise BookCatalogError(f"Book {book_id}.rights.textReuseCleared must be boolean")
+        if rights["textReuseCleared"] and (
+            source.get("accessedAt") is None or source["ebookLicenseReviewStatus"] != "reviewed"
+        ):
+            raise BookCatalogError(
+                f"Book {book_id} may not clear text reuse without an access date and reviewed ebook license"
+            )
 
         access = _object(book.get("accessRules"), f"Book {book_id}.accessRules")
         if access.get("mode") not in VALID_ACCESS_MODES:
@@ -115,6 +154,11 @@ def validate_book_catalog(value: object) -> dict[str, Any]:
             raise BookCatalogError(f"Book {book_id} must declare subscription and purchase eligibility")
         if access["mode"] == "purchase-only" and access["subscriptionEligible"]:
             raise BookCatalogError(f"Purchase-only book {book_id} cannot be subscription eligible")
+        offer = book.get("mockPurchase")
+        if offer is not None:
+            offer = _object(offer, f"Book {book_id}.mockPurchase")
+            if offer.get("currency") != "diamonds" or not isinstance(offer.get("price"), int) or offer["price"] < 0:
+                raise BookCatalogError(f"Book {book_id}.mockPurchase must use a non-negative Diamond price")
     return catalog
 
 
@@ -193,7 +237,15 @@ def validate_book_quizzes(value: object, catalog: dict[str, Any] | None = None) 
         book = books_by_id.get(book_id)
         if book is None:
             raise BookCatalogError(f"Book quiz {quiz_id} references an unknown book")
-        for field in ("edition", "questId", "targetSkill", "reviewStatus", "mappingBasis"):
+        for field in (
+            "edition",
+            "questId",
+            "targetSkill",
+            "reviewStatus",
+            "mappingBasis",
+            "sourceLabel",
+            "activityType",
+        ):
             _text(quiz.get(field), f"Book quiz {quiz_id}.{field}")
         chapter_ids = quiz.get("chapterIds")
         if not isinstance(chapter_ids, list) or not chapter_ids:
@@ -203,6 +255,10 @@ def validate_book_quizzes(value: object, catalog: dict[str, Any] | None = None) 
             raise BookCatalogError(f"Book quiz {quiz_id} references an unknown chapter")
         if quiz.get("accessTier") not in {"basic", "advanced"}:
             raise BookCatalogError(f"Book quiz {quiz_id} has an invalid accessTier")
+        if quiz["activityType"] not in VALID_ACTIVITY_TYPES:
+            raise BookCatalogError(f"Book quiz {quiz_id} has an unsupported activityType")
+        if quiz["reviewStatus"] not in VALID_ACTIVITY_REVIEW_STATUSES:
+            raise BookCatalogError(f"Book quiz {quiz_id} has an invalid reviewStatus")
         mapping = mappings_by_id.get(quiz["questId"])
         if mapping is None:
             raise BookCatalogError(f"Book quiz {quiz_id} must reference an exact quest mapping")
@@ -283,6 +339,17 @@ def book_index(catalog: dict[str, Any] | None = None) -> dict[str, dict[str, Any
         item["vocabularyLevel"] = "advanced" if "6-8" in item["difficultyLabel"] else "basic"
         item["accessTier"] = "free-demo" if item["accessRules"]["mode"] == "free" else "premium"
         item["purchaseOnly"] = item["accessRules"]["mode"] == "purchase-only"
+        offer = item.get("mockPurchase")
+        access_state = (
+            "purchase-only"
+            if item["accessRules"]["mode"] == "purchase-only"
+            else "free"
+            if item["accessRules"]["mode"] == "free"
+            else "premium"
+        )
+        item["access"] = {"state": access_state}
+        if isinstance(offer, dict) and offer.get("currency") == "diamonds":
+            item["access"]["priceDiamonds"] = offer.get("price")
         bundled_chapter_ids = {
             chapter_id
             for mapping in load_quest_mappings(catalog=catalog)["mappings"]
@@ -292,10 +359,32 @@ def book_index(catalog: dict[str, Any] | None = None) -> dict[str, dict[str, Any
         }
         item["contentAvailability"] = "bundled-passage" if bundled_chapter_ids else "unavailable"
         for chapter in item["chapterMetadata"]:
-            chapter["accessTier"] = (
-                "free-demo" if chapter["id"] in item["accessRules"]["freeChapterIds"]
+            chapter_state = (
+                "purchase-only"
+                if item["accessRules"]["mode"] == "purchase-only"
+                else "free"
+                if chapter["id"] in item["accessRules"]["freeChapterIds"] or item["accessRules"]["mode"] == "free"
                 else "premium"
             )
+            chapter["accessTier"] = "free-demo" if chapter_state == "free" else chapter_state
+            chapter["access"] = {"state": chapter_state}
+            if chapter_state == "free":
+                start, end = item["accessRules"]["freeLevelRange"]
+                chapter["readingLevels"] = [
+                    {
+                        "id": f"levels-{start}-{end}",
+                        "label": f"Levels {start}–{end}",
+                        "access": "free",
+                    }
+                ]
+            elif chapter_state == "purchase-only":
+                chapter["readingLevels"] = [
+                    {"id": "permanent-purchase", "label": "Permanent purchase", "access": "purchase-only"}
+                ]
+            else:
+                chapter["readingLevels"] = [
+                    {"id": "premium", "label": "Premium", "access": "premium"}
+                ]
             chapter["contentAvailability"] = (
                 "bundled-passage" if chapter["id"] in bundled_chapter_ids else "unavailable"
             )

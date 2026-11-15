@@ -652,9 +652,19 @@ def list_book_quizzes():
     return _platform(lambda: platform_store.quizzes_for_book())
 
 
+@app.get("/api/catalog/book-activities", summary="List reviewed book activities; drafts and generated items are excluded")
+def list_book_activities():
+    return _platform(lambda: platform_store.activities_for_book())
+
+
 @app.get("/api/catalog/books/{book_id}/quizzes", summary="List reviewed quizzes for one catalog book")
 def list_quizzes_for_book(book_id: str):
     return _platform(lambda: platform_store.quizzes_for_book(book_id))
+
+
+@app.get("/api/catalog/books/{book_id}/activities", summary="List reviewed activities for one exact book edition")
+def list_book_activities_for_book(book_id: str):
+    return _platform(lambda: platform_store.activities_for_book(book_id))
 
 
 @app.get("/api/books", summary="List metadata-only web-reader catalog records")
