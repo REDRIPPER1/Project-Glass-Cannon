@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-93-tom-sawyer-detective",
+  "ebookId": "93",
+  "edition": "Project Gutenberg eBook #93; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-6",
+  "chapterTitle": "CHAPTER VI.",
+  "contentHash": "sha256:f4fa6080b6c41f3ca4140bcdfacb819504b7ad30277a2b3cceab02caf5e78b3a",
+  "attribution": "Twain, Mark, 1835-1910, Tom Sawyer, Detective, CHAPTER VI.. Source checked against Project Gutenberg eBook #93.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/93",
+    "textUrl": "https://www.gutenberg.org/cache/epub/93/pg93.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "PLANS TO SECURE THE DIAMONDS"
+    },
+    {
+      "id": "s2",
+      "text": "We tramped along behind Jim and Lem till we come to the back stile where old Jim’s cabin was that he was captivated in, the time we set him free, and here come the dogs piling around us to say howdy, and there was the lights of the house, too; so we warn’t afeard any more, and was going to climb over, but Tom says:"
+    },
+    {
+      "id": "s3",
+      "text": "“Hold on; set down here a minute."
+    },
+    {
+      "id": "s4",
+      "text": "By George!”"
+    },
+    {
+      "id": "s5",
+      "text": "“What’s the matter?” says I."
+    },
+    {
+      "id": "s6",
+      "text": "“Matter enough!” he says."
+    },
+    {
+      "id": "s7",
+      "text": "“Wasn’t you expecting we would be the first to tell the family who it is that’s been killed yonder in the sycamores, and all about them rapscallions that done it, and about the di’monds they’ve smouched off of the corpse, and paint it up fine, and have the glory of being the ones that knows a lot more about it than anybody else?”"
+    },
+    {
+      "id": "s8",
+      "text": "“Why, of course."
+    },
+    {
+      "id": "s9",
+      "text": "It wouldn’t be you, Tom Sawyer, if you was to let such a chance go by."
+    },
+    {
+      "id": "s10",
+      "text": "I reckon it ain’t going to suffer none for lack of paint,” I says, “when you start in to scollop the facts.”"
+    },
+    {
+      "id": "s11",
+      "text": "“Well, now,” he says, perfectly ca’m, “what would you say if I was to tell you I ain’t going to start in at all?”"
+    },
+    {
+      "id": "s12",
+      "text": "I was astonished to hear him talk so."
+    },
+    {
+      "id": "s13",
+      "text": "I says:"
+    },
+    {
+      "id": "s14",
+      "text": "“I’d say it’s a lie."
+    },
+    {
+      "id": "s15",
+      "text": "You ain’t in earnest, Tom Sawyer?”"
+    },
+    {
+      "id": "s16",
+      "text": "“You’ll soon see."
+    },
+    {
+      "id": "s17",
+      "text": "Was the ghost barefooted?”"
+    },
+    {
+      "id": "s18",
+      "text": "[Illustration: Was the ghost barefooted?]"
+    },
+    {
+      "id": "s19",
+      "text": "“No, it wasn’t."
+    },
+    {
+      "id": "s20",
+      "text": "What of it?”"
+    },
+    {
+      "id": "s21",
+      "text": "“You wait—I’ll show you what."
+    },
+    {
+      "id": "s22",
+      "text": "Did it have its boots on?”"
+    },
+    {
+      "id": "s23",
+      "text": "“Yes."
+    },
+    {
+      "id": "s24",
+      "text": "I seen them plain.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Swear it?”"
+    },
+    {
+      "id": "s26",
+      "text": "“Yes, I swear it.”"
+    },
+    {
+      "id": "s27",
+      "text": "“So do I."
+    },
+    {
+      "id": "s28",
+      "text": "Now do you know what that means?”"
+    },
+    {
+      "id": "s29",
+      "text": "“No."
+    },
+    {
+      "id": "s30",
+      "text": "What does it mean?”"
+    },
+    {
+      "id": "s31",
+      "text": "“Means that them thieves _didn’t get the di’monds_.”"
+    },
+    {
+      "id": "s32",
+      "text": "“Jimminy!"
+    },
+    {
+      "id": "s33",
+      "text": "What makes you think that?”"
+    },
+    {
+      "id": "s34",
+      "text": "“I don’t only think it, I know it."
+    },
+    {
+      "id": "s35",
+      "text": "Didn’t the breeches and goggles and whiskers and hand-bag and every blessed thing turn to ghost-stuff?"
+    },
+    {
+      "id": "s36",
+      "text": "Everything it had on turned, didn’t it?"
+    },
+    {
+      "id": "s37",
+      "text": "It shows that the reason its boots turned too was because it still had them on after it started to go ha’nting around, and if that ain’t proof that them blatherskites didn’t get the boots, I’d like to know what you’d _call_ proof.”"
+    },
+    {
+      "id": "s38",
+      "text": "Think of that now."
+    },
+    {
+      "id": "s39",
+      "text": "I never see such a head as that boy had."
+    },
+    {
+      "id": "s40",
+      "text": "Why, I had eyes and I could see things, but they never meant nothing to me."
+    },
+    {
+      "id": "s41",
+      "text": "But Tom Sawyer was different."
+    },
+    {
+      "id": "s42",
+      "text": "When Tom Sawyer seen a thing it just got up on its hind legs and _talked_ to him—told him everything it knowed."
+    },
+    {
+      "id": "s43",
+      "text": "I never see such a head."
+    },
+    {
+      "id": "s44",
+      "text": "“Tom Sawyer,” I says, “I’ll say it again as I’ve said it a many a time before: I ain’t fitten to black your boots."
+    },
+    {
+      "id": "s45",
+      "text": "But that’s all right—that’s neither here nor there."
+    },
+    {
+      "id": "s46",
+      "text": "God Almighty made us all, and some He gives eyes that’s blind, and some He gives eyes that can see, and I reckon it ain’t none of our lookout what He done it for; it’s all right, or He’d ’a’ fixed it some other way."
+    },
+    {
+      "id": "s47",
+      "text": "Go on—I see plenty plain enough, now, that them thieves didn’t get way with the di’monds."
+    },
+    {
+      "id": "s48",
+      "text": "Why didn’t they, do you reckon?”"
+    },
+    {
+      "id": "s49",
+      "text": "“Because they got chased away by them other two men before they could pull the boots off of the corpse.”"
+    },
+    {
+      "id": "s50",
+      "text": "“That’s so!"
+    },
+    {
+      "id": "s51",
+      "text": "I see it now."
+    },
+    {
+      "id": "s52",
+      "text": "But looky here, Tom, why ain’t we to go and tell about it?”"
+    },
+    {
+      "id": "s53",
+      "text": "“Oh, shucks, Huck Finn, can’t you see?"
+    },
+    {
+      "id": "s54",
+      "text": "Look at it."
+    },
+    {
+      "id": "s55",
+      "text": "What’s a-going to happen?"
+    },
+    {
+      "id": "s56",
+      "text": "There’s going to be an inquest in the morning."
+    },
+    {
+      "id": "s57",
+      "text": "Them two men will tell how they heard the yells and rushed there just in time to not save the stranger."
+    },
+    {
+      "id": "s58",
+      "text": "Then the jury’ll twaddle and twaddle and twaddle, and finally they’ll fetch in a verdict that he got shot or stuck or busted over the head with something, and come to his death by the inspiration of God."
+    },
+    {
+      "id": "s59",
+      "text": "And after they’ve buried him they’ll auction off his things for to pay the expenses, and then’s _our_ chance.” “How, Tom?”"
+    },
+    {
+      "id": "s60",
+      "text": "“Buy the boots for two dollars!”"
+    },
+    {
+      "id": "s61",
+      "text": "Well, it ’most took my breath."
+    },
+    {
+      "id": "s62",
+      "text": "“My land!"
+    },
+    {
+      "id": "s63",
+      "text": "Why, Tom, _we’ll_ get the di’monds!”"
+    },
+    {
+      "id": "s64",
+      "text": "“You bet."
+    },
+    {
+      "id": "s65",
+      "text": "Some day there’ll be a big reward offered for them—a thousand dollars, sure."
+    },
+    {
+      "id": "s66",
+      "text": "That’s our money!"
+    },
+    {
+      "id": "s67",
+      "text": "Now we’ll trot in and see the folks."
+    },
+    {
+      "id": "s68",
+      "text": "And mind you we don’t know anything about any murder, or any di’monds, or any thieves—don’t you forget that.”"
+    },
+    {
+      "id": "s69",
+      "text": "I had to sigh a little over the way he had got it fixed."
+    },
+    {
+      "id": "s70",
+      "text": "I’d ’a’ _sold_ them di’monds—yes, sir—for twelve thousand dollars; but I didn’t say anything."
+    },
+    {
+      "id": "s71",
+      "text": "It wouldn’t done any good."
+    },
+    {
+      "id": "s72",
+      "text": "I says:"
+    },
+    {
+      "id": "s73",
+      "text": "“But what are we going to tell your aunt Sally has made us so long getting down here from the village, Tom?”"
+    },
+    {
+      "id": "s74",
+      "text": "“Oh, I’ll leave that to you,” he says."
+    },
+    {
+      "id": "s75",
+      "text": "“I reckon you can explain it somehow.”"
+    },
+    {
+      "id": "s76",
+      "text": "He was always just that strict and delicate."
+    },
+    {
+      "id": "s77",
+      "text": "He never would tell a lie himself."
+    },
+    {
+      "id": "s78",
+      "text": "We struck across the big yard, noticing this, that, and t’other thing that was so familiar, and we so glad to see it again, and when we got to the roofed big passageway betwixt the double log house and the kitchen part, there was everything hanging on the wall just as it used to was, even to Uncle Silas’s old faded green baize working-gown with the hood to it, and raggedy white patch between the shoulders that always looked like somebody had hit him with a snowball; and then we lifted the latch and walked in."
+    },
+    {
+      "id": "s79",
+      "text": "Aunt Sally she was just a-ripping and a-tearing around, and the children was huddled in one corner, and the old man he was huddled in the other and praying for help in time of need."
+    },
+    {
+      "id": "s80",
+      "text": "She jumped for us with joy and tears running down her face and give us a whacking box on the ear, and then hugged us and kissed us and boxed us again, and just couldn’t seem to get enough of it, she was so glad to see us; and she says:"
+    },
+    {
+      "id": "s81",
+      "text": "“Where _have_ you been a-loafing to, you good-for-nothing trash!"
+    },
+    {
+      "id": "s82",
+      "text": "I’ve been that worried about you I didn’t know what to do."
+    },
+    {
+      "id": "s83",
+      "text": "Your traps has been here ever so long, and I’ve had supper cooked fresh about four times so as to have it hot and good when you come, till at last my patience is just plumb wore out, and I declare I—I—why I could skin you alive!"
+    },
+    {
+      "id": "s84",
+      "text": "You must be starving, poor things!—set down, set down, everybody; don’t lose no more time.”"
+    },
+    {
+      "id": "s85",
+      "text": "It was good to be there again behind all that noble corn-pone and spareribs, and everything that you could ever want in this world."
+    },
+    {
+      "id": "s86",
+      "text": "Old Uncle Silas he peeled off one of his bulliest old-time blessings, with as many layers to it as an onion, and whilst the angels was hauling in the slack of it I was trying to study up what to say about what kept us so long."
+    },
+    {
+      "id": "s87",
+      "text": "When our plates was all loadened and we’d got a-going, she asked me, and I says:"
+    },
+    {
+      "id": "s88",
+      "text": "“Well, you see,—er—Mizzes—”"
+    },
+    {
+      "id": "s89",
+      "text": "“Huck Finn!"
+    },
+    {
+      "id": "s90",
+      "text": "Since when am I Mizzes to you?"
+    },
+    {
+      "id": "s91",
+      "text": "Have I ever been stingy of cuffs or kisses for you since the day you stood in this room and I took you for Tom Sawyer and blessed God for sending you to me, though you told me four thousand lies and I believed every one of them like a simpleton?"
+    },
+    {
+      "id": "s92",
+      "text": "Call me Aunt Sally—like you always done.”"
+    },
+    {
+      "id": "s93",
+      "text": "So I done it."
+    },
+    {
+      "id": "s94",
+      "text": "And I says:"
+    },
+    {
+      "id": "s95",
+      "text": "“Well, me and Tom allowed we would come along afoot and take a smell of the woods, and we run across Lem Beebe and Jim Lane, and they asked us to go with them blackberrying to-night, and said they could borrow Jubiter Dunlap’s dog, because he had told them just that minute—”"
+    },
+    {
+      "id": "s96",
+      "text": "“Where did they see him?” says the old man; and when I looked up to see how _he_ come to take an intrust in a little thing like that, his eyes was just burning into me, he was that eager."
+    },
+    {
+      "id": "s97",
+      "text": "It surprised me so it kind of throwed me off, but I pulled myself together again and says:"
+    },
+    {
+      "id": "s98",
+      "text": "“It was when he was spading up some ground along with you, towards sundown or along there.”"
+    },
+    {
+      "id": "s99",
+      "text": "He only said, “Um,” in a kind of a disappointed way, and didn’t take no more intrust."
+    },
+    {
+      "id": "s100",
+      "text": "So I went on."
+    },
+    {
+      "id": "s101",
+      "text": "I says:"
+    },
+    {
+      "id": "s102",
+      "text": "“Well, then, as I was a-saying—”"
+    },
+    {
+      "id": "s103",
+      "text": "“That’ll do, you needn’t go no furder.” It was Aunt Sally."
+    },
+    {
+      "id": "s104",
+      "text": "She was boring right into me with her eyes, and very indignant."
+    },
+    {
+      "id": "s105",
+      "text": "“Huck Finn,” she says, “how’d them men come to talk about going a-black-berrying in September—in _this_ region?”"
+    },
+    {
+      "id": "s106",
+      "text": "I see I had slipped up, and I couldn’t say a word."
+    },
+    {
+      "id": "s107",
+      "text": "She waited, still a-gazing at me, then she says:"
+    },
+    {
+      "id": "s108",
+      "text": "“And how’d they come to strike that idiot idea of going a-blackberrying in the night?”"
+    },
+    {
+      "id": "s109",
+      "text": "“Well, m’m, they—er—they told us they had a lantern, and—”"
+    },
+    {
+      "id": "s110",
+      "text": "“Oh, _shet_ up—do!"
+    },
+    {
+      "id": "s111",
+      "text": "Looky here; what was they going to do with a dog?—hunt blackberries with it?”"
+    },
+    {
+      "id": "s112",
+      "text": "“I think, m’m, they—”"
+    },
+    {
+      "id": "s113",
+      "text": "“Now, Tom Sawyer, what kind of a lie are you fixing _your_ mouth to contribit to this mess of rubbage?"
+    },
+    {
+      "id": "s114",
+      "text": "Speak out—and I warn you before you begin, that I don’t believe a word of it."
+    },
+    {
+      "id": "s115",
+      "text": "You and Huck’s been up to something you no business to—I know it perfectly well; I know you, _both_ of you."
+    },
+    {
+      "id": "s116",
+      "text": "Now you explain that dog, and them blackberries, and the lantern, and the rest of that rot—and mind you talk as straight as a string—do you hear?”"
+    },
+    {
+      "id": "s117",
+      "text": "Tom he looked considerable hurt, and says, very dignified:"
+    },
+    {
+      "id": "s118",
+      "text": "“It is a pity if Huck is to be talked to that way, just for making a little bit of a mistake that anybody could make.”"
+    },
+    {
+      "id": "s119",
+      "text": "“What mistake has he made?”"
+    },
+    {
+      "id": "s120",
+      "text": "“Why, only the mistake of saying blackberries when of course he meant strawberries.”"
+    },
+    {
+      "id": "s121",
+      "text": "“Tom Sawyer, I lay if you aggravate me a little more, I’ll—”"
+    },
+    {
+      "id": "s122",
+      "text": "“Aunt Sally, without knowing it—and of course without intending it—you are in the wrong."
+    },
+    {
+      "id": "s123",
+      "text": "If you’d ’a’ studied natural history the way you ought, you would know that all over the world except just here in Arkansaw they _always_ hunt strawberries with a dog—and a lantern—”"
+    },
+    {
+      "id": "s124",
+      "text": "But she busted in on him there and just piled into him and snowed him under."
+    },
+    {
+      "id": "s125",
+      "text": "She was so mad she couldn’t get the words out fast enough, and she gushed them out in one everlasting freshet."
+    },
+    {
+      "id": "s126",
+      "text": "That was what Tom Sawyer was after."
+    },
+    {
+      "id": "s127",
+      "text": "He allowed to work her up and get her started and then leave her alone and let her burn herself out."
+    },
+    {
+      "id": "s128",
+      "text": "Then she would be so aggravated with that subject that she wouldn’t say another word about it, nor let anybody else."
+    },
+    {
+      "id": "s129",
+      "text": "Well, it happened just so."
+    },
+    {
+      "id": "s130",
+      "text": "When she was tuckered out and had to hold up, he says, quite ca’m:"
+    },
+    {
+      "id": "s131",
+      "text": "“And yet, all the same, Aunt Sally—”"
+    },
+    {
+      "id": "s132",
+      "text": "“Shet up!” she says, “I don’t want to hear another word out of you.”"
+    },
+    {
+      "id": "s133",
+      "text": "So we was perfectly safe, then, and didn’t have no more trouble about that delay."
+    },
+    {
+      "id": "s134",
+      "text": "Tom done it elegant."
+    }
+  ]
+}

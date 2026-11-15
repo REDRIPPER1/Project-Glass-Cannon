@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-35",
+  "chapterTitle": "CHAPTER XXXV.",
+  "contentHash": "sha256:d7cc2f3ece01f8dbf086accfd15291eee6a09de675f3d1e326ded910932c0cb8",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XXXV.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH PHILEAS FOGG DOES NOT HAVE TO REPEAT HIS ORDERS TO PASSEPARTOUT TWICE"
+    },
+    {
+      "id": "s2",
+      "text": "The dwellers in Saville Row would have been surprised the next day, if they had been told that Phileas Fogg had returned home."
+    },
+    {
+      "id": "s3",
+      "text": "His doors and windows were still closed, no appearance of change was visible."
+    },
+    {
+      "id": "s4",
+      "text": "After leaving the station, Mr."
+    },
+    {
+      "id": "s5",
+      "text": "Fogg gave Passepartout instructions to purchase some provisions, and quietly went to his domicile."
+    },
+    {
+      "id": "s6",
+      "text": "He bore his misfortune with his habitual tranquillity."
+    },
+    {
+      "id": "s7",
+      "text": "Ruined!"
+    },
+    {
+      "id": "s8",
+      "text": "And by the blundering of the detective!"
+    },
+    {
+      "id": "s9",
+      "text": "After having steadily traversed that long journey, overcome a hundred obstacles, braved many dangers, and still found time to do some good on his way, to fail near the goal by a sudden event which he could not have foreseen, and against which he was unarmed; it was terrible!"
+    },
+    {
+      "id": "s10",
+      "text": "But a few pounds were left of the large sum he had carried with him."
+    },
+    {
+      "id": "s11",
+      "text": "There only remained of his fortune the twenty thousand pounds deposited at Barings, and this amount he owed to his friends of the Reform Club."
+    },
+    {
+      "id": "s12",
+      "text": "So great had been the expense of his tour that, even had he won, it would not have enriched him; and it is probable that he had not sought to enrich himself, being a man who rather laid wagers for honour’s sake than for the stake proposed."
+    },
+    {
+      "id": "s13",
+      "text": "But this wager totally ruined him."
+    },
+    {
+      "id": "s14",
+      "text": "Mr."
+    },
+    {
+      "id": "s15",
+      "text": "Fogg’s course, however, was fully decided upon; he knew what remained for him to do."
+    },
+    {
+      "id": "s16",
+      "text": "A room in the house in Saville Row was set apart for Aouda, who was overwhelmed with grief at her protector’s misfortune."
+    },
+    {
+      "id": "s17",
+      "text": "From the words which Mr."
+    },
+    {
+      "id": "s18",
+      "text": "Fogg dropped, she saw that he was meditating some serious project."
+    },
+    {
+      "id": "s19",
+      "text": "Knowing that Englishmen governed by a fixed idea sometimes resort to the desperate expedient of suicide, Passepartout kept a narrow watch upon his master, though he carefully concealed the appearance of so doing."
+    },
+    {
+      "id": "s20",
+      "text": "First of all, the worthy fellow had gone up to his room, and had extinguished the gas burner, which had been burning for eighty days."
+    },
+    {
+      "id": "s21",
+      "text": "He had found in the letter-box a bill from the gas company, and he thought it more than time to put a stop to this expense, which he had been doomed to bear."
+    },
+    {
+      "id": "s22",
+      "text": "The night passed."
+    },
+    {
+      "id": "s23",
+      "text": "Mr."
+    },
+    {
+      "id": "s24",
+      "text": "Fogg went to bed, but did he sleep?"
+    },
+    {
+      "id": "s25",
+      "text": "Aouda did not once close her eyes."
+    },
+    {
+      "id": "s26",
+      "text": "Passepartout watched all night, like a faithful dog, at his master’s door."
+    },
+    {
+      "id": "s27",
+      "text": "Mr."
+    },
+    {
+      "id": "s28",
+      "text": "Fogg called him in the morning, and told him to get Aouda’s breakfast, and a cup of tea and a chop for himself."
+    },
+    {
+      "id": "s29",
+      "text": "He desired Aouda to excuse him from breakfast and dinner, as his time would be absorbed all day in putting his affairs to rights."
+    },
+    {
+      "id": "s30",
+      "text": "In the evening he would ask permission to have a few moment’s conversation with the young lady."
+    },
+    {
+      "id": "s31",
+      "text": "Passepartout, having received his orders, had nothing to do but obey them."
+    },
+    {
+      "id": "s32",
+      "text": "He looked at his imperturbable master, and could scarcely bring his mind to leave him."
+    },
+    {
+      "id": "s33",
+      "text": "His heart was full, and his conscience tortured by remorse; for he accused himself more bitterly than ever of being the cause of the irretrievable disaster."
+    },
+    {
+      "id": "s34",
+      "text": "Yes! if he had warned Mr."
+    },
+    {
+      "id": "s35",
+      "text": "Fogg, and had betrayed Fix’s projects to him, his master would certainly not have given the detective passage to Liverpool, and then—"
+    },
+    {
+      "id": "s36",
+      "text": "Passepartout could hold in no longer."
+    },
+    {
+      "id": "s37",
+      "text": "“My master!"
+    },
+    {
+      "id": "s38",
+      "text": "Mr."
+    },
+    {
+      "id": "s39",
+      "text": "Fogg!” he cried, “why do you not curse me?"
+    },
+    {
+      "id": "s40",
+      "text": "It was my fault that—”"
+    },
+    {
+      "id": "s41",
+      "text": "“I blame no one,” returned Phileas Fogg, with perfect calmness."
+    },
+    {
+      "id": "s42",
+      "text": "“Go!”"
+    },
+    {
+      "id": "s43",
+      "text": "Passepartout left the room, and went to find Aouda, to whom he delivered his master’s message."
+    },
+    {
+      "id": "s44",
+      "text": "“Madam,” he added, “I can do nothing myself—nothing!"
+    },
+    {
+      "id": "s45",
+      "text": "I have no influence over my master; but you, perhaps—”"
+    },
+    {
+      "id": "s46",
+      "text": "“What influence could I have?” replied Aouda."
+    },
+    {
+      "id": "s47",
+      "text": "“Mr."
+    },
+    {
+      "id": "s48",
+      "text": "Fogg is influenced by no one."
+    },
+    {
+      "id": "s49",
+      "text": "Has he ever understood that my gratitude to him is overflowing?"
+    },
+    {
+      "id": "s50",
+      "text": "Has he ever read my heart?"
+    },
+    {
+      "id": "s51",
+      "text": "My friend, he must not be left alone an instant!"
+    },
+    {
+      "id": "s52",
+      "text": "You say he is going to speak with me this evening?”"
+    },
+    {
+      "id": "s53",
+      "text": "“Yes, madam; probably to arrange for your protection and comfort in England.”"
+    },
+    {
+      "id": "s54",
+      "text": "“We shall see,” replied Aouda, becoming suddenly pensive."
+    },
+    {
+      "id": "s55",
+      "text": "Throughout this day (Sunday) the house in Saville Row was as if uninhabited, and Phileas Fogg, for the first time since he had lived in that house, did not set out for his club when Westminster clock struck half-past eleven."
+    },
+    {
+      "id": "s56",
+      "text": "Why should he present himself at the Reform?"
+    },
+    {
+      "id": "s57",
+      "text": "His friends no longer expected him there."
+    },
+    {
+      "id": "s58",
+      "text": "As Phileas Fogg had not appeared in the saloon on the evening before (Saturday, the 21st of December, at a quarter before nine), he had lost his wager."
+    },
+    {
+      "id": "s59",
+      "text": "It was not even necessary that he should go to his bankers for the twenty thousand pounds; for his antagonists already had his cheque in their hands, and they had only to fill it out and send it to the Barings to have the amount transferred to their credit."
+    },
+    {
+      "id": "s60",
+      "text": "Mr."
+    },
+    {
+      "id": "s61",
+      "text": "Fogg, therefore, had no reason for going out, and so he remained at home."
+    },
+    {
+      "id": "s62",
+      "text": "He shut himself up in his room, and busied himself putting his affairs in order."
+    },
+    {
+      "id": "s63",
+      "text": "Passepartout continually ascended and descended the stairs."
+    },
+    {
+      "id": "s64",
+      "text": "The hours were long for him."
+    },
+    {
+      "id": "s65",
+      "text": "He listened at his master’s door, and looked through the keyhole, as if he had a perfect right so to do, and as if he feared that something terrible might happen at any moment."
+    },
+    {
+      "id": "s66",
+      "text": "Sometimes he thought of Fix, but no longer in anger."
+    },
+    {
+      "id": "s67",
+      "text": "Fix, like all the world, had been mistaken in Phileas Fogg, and had only done his duty in tracking and arresting him; while he, Passepartout. . . ."
+    },
+    {
+      "id": "s68",
+      "text": "This thought haunted him, and he never ceased cursing his miserable folly."
+    },
+    {
+      "id": "s69",
+      "text": "Finding himself too wretched to remain alone, he knocked at Aouda’s door, went into her room, seated himself, without speaking, in a corner, and looked ruefully at the young woman."
+    },
+    {
+      "id": "s70",
+      "text": "Aouda was still pensive."
+    },
+    {
+      "id": "s71",
+      "text": "About half-past seven in the evening Mr."
+    },
+    {
+      "id": "s72",
+      "text": "Fogg sent to know if Aouda would receive him, and in a few moments he found himself alone with her."
+    },
+    {
+      "id": "s73",
+      "text": "Phileas Fogg took a chair, and sat down near the fireplace, opposite Aouda."
+    },
+    {
+      "id": "s74",
+      "text": "No emotion was visible on his face."
+    },
+    {
+      "id": "s75",
+      "text": "Fogg returned was exactly the Fogg who had gone away; there was the same calm, the same impassibility."
+    },
+    {
+      "id": "s76",
+      "text": "He sat several minutes without speaking; then, bending his eyes on Aouda, “Madam,” said he, “will you pardon me for bringing you to England?”"
+    },
+    {
+      "id": "s77",
+      "text": "“I, Mr."
+    },
+    {
+      "id": "s78",
+      "text": "Fogg!” replied Aouda, checking the pulsations of her heart."
+    },
+    {
+      "id": "s79",
+      "text": "“Please let me finish,” returned Mr."
+    },
+    {
+      "id": "s80",
+      "text": "Fogg."
+    },
+    {
+      "id": "s81",
+      "text": "“When I decided to bring you far away from the country which was so unsafe for you, I was rich, and counted on putting a portion of my fortune at your disposal; then your existence would have been free and happy."
+    },
+    {
+      "id": "s82",
+      "text": "But now I am ruined.”"
+    },
+    {
+      "id": "s83",
+      "text": "“I know it, Mr."
+    },
+    {
+      "id": "s84",
+      "text": "Fogg,” replied Aouda; “and I ask you in my turn, will you forgive me for having followed you, and—who knows?—for having, perhaps, delayed you, and thus contributed to your ruin?”"
+    },
+    {
+      "id": "s85",
+      "text": "“Madam, you could not remain in India, and your safety could only be assured by bringing you to such a distance that your persecutors could not take you.”"
+    },
+    {
+      "id": "s86",
+      "text": "“So, Mr."
+    },
+    {
+      "id": "s87",
+      "text": "Fogg,” resumed Aouda, “not content with rescuing me from a terrible death, you thought yourself bound to secure my comfort in a foreign land?”"
+    },
+    {
+      "id": "s88",
+      "text": "“Yes, madam; but circumstances have been against me."
+    },
+    {
+      "id": "s89",
+      "text": "Still, I beg to place the little I have left at your service.”"
+    },
+    {
+      "id": "s90",
+      "text": "“But what will become of you, Mr."
+    },
+    {
+      "id": "s91",
+      "text": "Fogg?”"
+    },
+    {
+      "id": "s92",
+      "text": "“As for me, madam,” replied the gentleman, coldly, “I have need of nothing.”"
+    },
+    {
+      "id": "s93",
+      "text": "“But how do you look upon the fate, sir, which awaits you?”"
+    },
+    {
+      "id": "s94",
+      "text": "“As I am in the habit of doing.”"
+    },
+    {
+      "id": "s95",
+      "text": "“At least,” said Aouda, “want should not overtake a man like you."
+    },
+    {
+      "id": "s96",
+      "text": "Your friends—”"
+    },
+    {
+      "id": "s97",
+      "text": "“I have no friends, madam.”"
+    },
+    {
+      "id": "s98",
+      "text": "“Your relatives—”"
+    },
+    {
+      "id": "s99",
+      "text": "“I have no longer any relatives.”"
+    },
+    {
+      "id": "s100",
+      "text": "“I pity you, then, Mr."
+    },
+    {
+      "id": "s101",
+      "text": "Fogg, for solitude is a sad thing, with no heart to which to confide your griefs."
+    },
+    {
+      "id": "s102",
+      "text": "They say, though, that misery itself, shared by two sympathetic souls, may be borne with patience.”"
+    },
+    {
+      "id": "s103",
+      "text": "“They say so, madam.”"
+    },
+    {
+      "id": "s104",
+      "text": "“Mr."
+    },
+    {
+      "id": "s105",
+      "text": "Fogg,” said Aouda, rising and seizing his hand, “do you wish at once a kinswoman and friend?"
+    },
+    {
+      "id": "s106",
+      "text": "Will you have me for your wife?”"
+    },
+    {
+      "id": "s107",
+      "text": "Mr."
+    },
+    {
+      "id": "s108",
+      "text": "Fogg, at this, rose in his turn."
+    },
+    {
+      "id": "s109",
+      "text": "There was an unwonted light in his eyes, and a slight trembling of his lips."
+    },
+    {
+      "id": "s110",
+      "text": "Aouda looked into his face."
+    },
+    {
+      "id": "s111",
+      "text": "The sincerity, rectitude, firmness, and sweetness of this soft glance of a noble woman, who could dare all to save him to whom she owed all, at first astonished, then penetrated him."
+    },
+    {
+      "id": "s112",
+      "text": "He shut his eyes for an instant, as if to avoid her look."
+    },
+    {
+      "id": "s113",
+      "text": "When he opened them again, “I love you!” he said, simply."
+    },
+    {
+      "id": "s114",
+      "text": "“Yes, by all that is holiest, I love you, and I am entirely yours!”"
+    },
+    {
+      "id": "s115",
+      "text": "“Ah!” cried Aouda, pressing his hand to her heart."
+    },
+    {
+      "id": "s116",
+      "text": "Passepartout was summoned and appeared immediately."
+    },
+    {
+      "id": "s117",
+      "text": "Mr."
+    },
+    {
+      "id": "s118",
+      "text": "Fogg still held Aouda’s hand in his own; Passepartout understood, and his big, round face became as radiant as the tropical sun at its zenith."
+    },
+    {
+      "id": "s119",
+      "text": "Mr."
+    },
+    {
+      "id": "s120",
+      "text": "Fogg asked him if it was not too late to notify the Reverend Samuel Wilson, of Marylebone parish, that evening."
+    },
+    {
+      "id": "s121",
+      "text": "Passepartout smiled his most genial smile, and said, “Never too late.”"
+    },
+    {
+      "id": "s122",
+      "text": "It was five minutes past eight."
+    },
+    {
+      "id": "s123",
+      "text": "“Will it be for to-morrow, Monday?”"
+    },
+    {
+      "id": "s124",
+      "text": "“For to-morrow, Monday,” said Mr."
+    },
+    {
+      "id": "s125",
+      "text": "Fogg, turning to Aouda."
+    },
+    {
+      "id": "s126",
+      "text": "“Yes; for to-morrow, Monday,” she replied."
+    },
+    {
+      "id": "s127",
+      "text": "Passepartout hurried off as fast as his legs could carry him."
+    }
+  ]
+}

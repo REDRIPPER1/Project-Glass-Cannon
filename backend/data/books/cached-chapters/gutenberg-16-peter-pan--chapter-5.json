@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-16-peter-pan",
+  "ebookId": "16",
+  "edition": "Project Gutenberg eBook #16; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-5",
+  "chapterTitle": "Chapter V.",
+  "contentHash": "sha256:2f23bc13719db9e60db9e404919a84ba9c915f35bfb2877e68cf0cd1de90494f",
+  "attribution": "Barrie, J. M. (James Matthew), 1860-1937, Peter Pan, Chapter V.. Source checked against Project Gutenberg eBook #16.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/16",
+    "textUrl": "https://www.gutenberg.org/cache/epub/16/pg16.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE ISLAND COME TRUE"
+    },
+    {
+      "id": "s2",
+      "text": "Feeling that Peter was on his way back, the Neverland had again woke into life."
+    },
+    {
+      "id": "s3",
+      "text": "We ought to use the pluperfect and say wakened, but woke is better and was always used by Peter."
+    },
+    {
+      "id": "s4",
+      "text": "In his absence things are usually quiet on the island."
+    },
+    {
+      "id": "s5",
+      "text": "The fairies take an hour longer in the morning, the beasts attend to their young, the redskins feed heavily for six days and nights, and when pirates and lost boys meet they merely bite their thumbs at each other."
+    },
+    {
+      "id": "s6",
+      "text": "But with the coming of Peter, who hates lethargy, they are under way again: if you put your ear to the ground now, you would hear the whole island seething with life."
+    },
+    {
+      "id": "s7",
+      "text": "On this evening the chief forces of the island were disposed as follows."
+    },
+    {
+      "id": "s8",
+      "text": "The lost boys were out looking for Peter, the pirates were out looking for the lost boys, the redskins were out looking for the pirates, and the beasts were out looking for the redskins."
+    },
+    {
+      "id": "s9",
+      "text": "They were going round and round the island, but they did not meet because all were going at the same rate."
+    },
+    {
+      "id": "s10",
+      "text": "All wanted blood except the boys, who liked it as a rule, but to-night were out to greet their captain."
+    },
+    {
+      "id": "s11",
+      "text": "The boys on the island vary, of course, in numbers, according as they get killed and so on; and when they seem to be growing up, which is against the rules, Peter thins them out; but at this time there were six of them, counting the twins as two."
+    },
+    {
+      "id": "s12",
+      "text": "Let us pretend to lie here among the sugar-cane and watch them as they steal by in single file, each with his hand on his dagger."
+    },
+    {
+      "id": "s13",
+      "text": "They are forbidden by Peter to look in the least like him, and they wear the skins of the bears slain by themselves, in which they are so round and furry that when they fall they roll."
+    },
+    {
+      "id": "s14",
+      "text": "They have therefore become very sure-footed."
+    },
+    {
+      "id": "s15",
+      "text": "The first to pass is Tootles, not the least brave but the most unfortunate of all that gallant band."
+    },
+    {
+      "id": "s16",
+      "text": "He had been in fewer adventures than any of them, because the big things constantly happened just when he had stepped round the corner; all would be quiet, he would take the opportunity of going off to gather a few sticks for firewood, and then when he returned the others would be sweeping up the blood."
+    },
+    {
+      "id": "s17",
+      "text": "This ill-luck had given a gentle melancholy to his countenance, but instead of souring his nature had sweetened it, so that he was quite the humblest of the boys."
+    },
+    {
+      "id": "s18",
+      "text": "Poor kind Tootles, there is danger in the air for you to-night."
+    },
+    {
+      "id": "s19",
+      "text": "Take care lest an adventure is now offered you, which, if accepted, will plunge you in deepest woe."
+    },
+    {
+      "id": "s20",
+      "text": "Tootles, the fairy Tink, who is bent on mischief this night is looking for a tool, and she thinks you are the most easily tricked of the boys. ’Ware Tinker Bell."
+    },
+    {
+      "id": "s21",
+      "text": "Would that he could hear us, but we are not really on the island, and he passes by, biting his knuckles."
+    },
+    {
+      "id": "s22",
+      "text": "Next comes Nibs, the gay and debonair, followed by Slightly, who cuts whistles out of the trees and dances ecstatically to his own tunes."
+    },
+    {
+      "id": "s23",
+      "text": "Slightly is the most conceited of the boys."
+    },
+    {
+      "id": "s24",
+      "text": "He thinks he remembers the days before he was lost, with their manners and customs, and this has given his nose an offensive tilt."
+    },
+    {
+      "id": "s25",
+      "text": "Curly is fourth; he is a pickle, and so often has he had to deliver up his person when Peter said sternly, “Stand forth the one who did this thing,” that now at the command he stands forth automatically whether he has done it or not."
+    },
+    {
+      "id": "s26",
+      "text": "Last come the Twins, who cannot be described because we should be sure to be describing the wrong one."
+    },
+    {
+      "id": "s27",
+      "text": "Peter never quite knew what twins were, and his band were not allowed to know anything he did not know, so these two were always vague about themselves, and did their best to give satisfaction by keeping close together in an apologetic sort of way."
+    },
+    {
+      "id": "s28",
+      "text": "The boys vanish in the gloom, and after a pause, but not a long pause, for things go briskly on the island, come the pirates on their track."
+    },
+    {
+      "id": "s29",
+      "text": "We hear them before they are seen, and it is always the same dreadful song:"
+    },
+    {
+      "id": "s30",
+      "text": "“Avast belay, yo ho, heave to, A-pirating we go, And if we’re parted by a shot We’re sure to meet below!”"
+    },
+    {
+      "id": "s31",
+      "text": "A more villainous-looking lot never hung in a row on Execution dock."
+    },
+    {
+      "id": "s32",
+      "text": "Here, a little in advance, ever and again with his head to the ground listening, his great arms bare, pieces of eight in his ears as ornaments, is the handsome Italian Cecco, who cut his name in letters of blood on the back of the governor of the prison at Gao."
+    },
+    {
+      "id": "s33",
+      "text": "That gigantic black behind him has had many names since he dropped the one with which dusky mothers still terrify their children on the banks of the Guadjo-mo."
+    },
+    {
+      "id": "s34",
+      "text": "Here is Bill Jukes, every inch of him tattooed, the same Bill Jukes who got six dozen on the _Walrus_ from Flint before he would drop the bag of moidores; and Cookson, said to be Black Murphy’s brother (but this was never proved), and Gentleman Starkey, once an usher in a public school and still dainty in his ways of killing; and Skylights (Morgan’s Skylights); and the Irish bo’sun Smee, an oddly genial man who stabbed, so to speak, without offence, and was the only Non-conformist in Hook’s crew; and Noodler, whose hands were fixed on backwards; and Robt."
+    },
+    {
+      "id": "s35",
+      "text": "Mullins and Alf Mason and many another ruffian long known and feared on the Spanish Main."
+    },
+    {
+      "id": "s36",
+      "text": "In the midst of them, the blackest and largest in that dark setting, reclined James Hook, or as he wrote himself, Jas."
+    },
+    {
+      "id": "s37",
+      "text": "Hook, of whom it is said he was the only man that the Sea-Cook feared."
+    },
+    {
+      "id": "s38",
+      "text": "He lay at his ease in a rough chariot drawn and propelled by his men, and instead of a right hand he had the iron hook with which ever and anon he encouraged them to increase their pace."
+    },
+    {
+      "id": "s39",
+      "text": "As dogs this terrible man treated and addressed them, and as dogs they obeyed him."
+    },
+    {
+      "id": "s40",
+      "text": "In person he was cadaverous and blackavized, and his hair was dressed in long curls, which at a little distance looked like black candles, and gave a singularly threatening expression to his handsome countenance."
+    },
+    {
+      "id": "s41",
+      "text": "His eyes were of the blue of the forget-me-not, and of a profound melancholy, save when he was plunging his hook into you, at which time two red spots appeared in them and lit them up horribly."
+    },
+    {
+      "id": "s42",
+      "text": "In manner, something of the grand seigneur still clung to him, so that he even ripped you up with an air, and I have been told that he was a _raconteur_ of repute."
+    },
+    {
+      "id": "s43",
+      "text": "He was never more sinister than when he was most polite, which is probably the truest test of breeding; and the elegance of his diction, even when he was swearing, no less than the distinction of his demeanour, showed him one of a different cast from his crew."
+    },
+    {
+      "id": "s44",
+      "text": "A man of indomitable courage, it was said that the only thing he shied at was the sight of his own blood, which was thick and of an unusual colour."
+    },
+    {
+      "id": "s45",
+      "text": "In dress he somewhat aped the attire associated with the name of Charles II, having heard it said in some earlier period of his career that he bore a strange resemblance to the ill-fated Stuarts; and in his mouth he had a holder of his own contrivance which enabled him to smoke two cigars at once."
+    },
+    {
+      "id": "s46",
+      "text": "But undoubtedly the grimmest part of him was his iron claw."
+    },
+    {
+      "id": "s47",
+      "text": "Let us now kill a pirate, to show Hook’s method."
+    },
+    {
+      "id": "s48",
+      "text": "Skylights will do."
+    },
+    {
+      "id": "s49",
+      "text": "As they pass, Skylights lurches clumsily against him, ruffling his lace collar; the hook shoots forth, there is a tearing sound and one screech, then the body is kicked aside, and the pirates pass on."
+    },
+    {
+      "id": "s50",
+      "text": "He has not even taken the cigars from his mouth."
+    },
+    {
+      "id": "s51",
+      "text": "Such is the terrible man against whom Peter Pan is pitted."
+    },
+    {
+      "id": "s52",
+      "text": "Which will win?"
+    },
+    {
+      "id": "s53",
+      "text": "On the trail of the pirates, stealing noiselessly down the war-path, which is not visible to inexperienced eyes, come the redskins, every one of them with his eyes peeled."
+    },
+    {
+      "id": "s54",
+      "text": "They carry tomahawks and knives, and their naked bodies gleam with paint and oil."
+    },
+    {
+      "id": "s55",
+      "text": "Strung around them are scalps, of boys as well as of pirates, for these are the Piccaninny tribe, and not to be confused with the softer-hearted Delawares or the Hurons."
+    },
+    {
+      "id": "s56",
+      "text": "In the van, on all fours, is Great Big Little Panther, a brave of so many scalps that in his present position they somewhat impede his progress."
+    },
+    {
+      "id": "s57",
+      "text": "Bringing up the rear, the place of greatest danger, comes Tiger Lily, proudly erect, a princess in her own right."
+    },
+    {
+      "id": "s58",
+      "text": "She is the most beautiful of dusky Dianas and the belle of the Piccaninnies, coquettish, cold and amorous by turns; there is not a brave who would not have the wayward thing to wife, but she staves off the altar with a hatchet."
+    },
+    {
+      "id": "s59",
+      "text": "Observe how they pass over fallen twigs without making the slightest noise."
+    },
+    {
+      "id": "s60",
+      "text": "The only sound to be heard is their somewhat heavy breathing."
+    },
+    {
+      "id": "s61",
+      "text": "The fact is that they are all a little fat just now after the heavy gorging, but in time they will work this off."
+    },
+    {
+      "id": "s62",
+      "text": "For the moment, however, it constitutes their chief danger."
+    },
+    {
+      "id": "s63",
+      "text": "The redskins disappear as they have come like shadows, and soon their place is taken by the beasts, a great and motley procession: lions, tigers, bears, and the innumerable smaller savage things that flee from them, for every kind of beast, and, more particularly, all the man-eaters, live cheek by jowl on the favoured island."
+    },
+    {
+      "id": "s64",
+      "text": "Their tongues are hanging out, they are hungry to-night."
+    },
+    {
+      "id": "s65",
+      "text": "When they have passed, comes the last figure of all, a gigantic crocodile."
+    },
+    {
+      "id": "s66",
+      "text": "We shall see for whom she is looking presently."
+    },
+    {
+      "id": "s67",
+      "text": "The crocodile passes, but soon the boys appear again, for the procession must continue indefinitely until one of the parties stops or changes its pace."
+    },
+    {
+      "id": "s68",
+      "text": "Then quickly they will be on top of each other."
+    },
+    {
+      "id": "s69",
+      "text": "All are keeping a sharp look-out in front, but none suspects that the danger may be creeping up from behind."
+    },
+    {
+      "id": "s70",
+      "text": "This shows how real the island was."
+    },
+    {
+      "id": "s71",
+      "text": "The first to fall out of the moving circle was the boys."
+    },
+    {
+      "id": "s72",
+      "text": "They flung themselves down on the sward, close to their underground home."
+    },
+    {
+      "id": "s73",
+      "text": "“I do wish Peter would come back,” every one of them said nervously, though in height and still more in breadth they were all larger than their captain."
+    },
+    {
+      "id": "s74",
+      "text": "“I am the only one who is not afraid of the pirates,” Slightly said, in the tone that prevented his being a general favourite; but perhaps some distant sound disturbed him, for he added hastily, “but I wish he would come back, and tell us whether he has heard anything more about Cinderella.”"
+    },
+    {
+      "id": "s75",
+      "text": "They talked of Cinderella, and Tootles was confident that his mother must have been very like her."
+    },
+    {
+      "id": "s76",
+      "text": "It was only in Peter’s absence that they could speak of mothers, the subject being forbidden by him as silly."
+    },
+    {
+      "id": "s77",
+      "text": "“All I remember about my mother,” Nibs told them, “is that she often said to my father, ‘Oh, how I wish I had a cheque-book of my own!’ I don’t know what a cheque-book is, but I should just love to give my mother one.”"
+    },
+    {
+      "id": "s78",
+      "text": "While they talked they heard a distant sound."
+    },
+    {
+      "id": "s79",
+      "text": "You or I, not being wild things of the woods, would have heard nothing, but they heard it, and it was the grim song:"
+    },
+    {
+      "id": "s80",
+      "text": "“Yo ho, yo ho, the pirate life, The flag o’ skull and bones, A merry hour, a hempen rope, And hey for Davy Jones.”"
+    },
+    {
+      "id": "s81",
+      "text": "At once the lost boys—but where are they?"
+    },
+    {
+      "id": "s82",
+      "text": "They are no longer there."
+    },
+    {
+      "id": "s83",
+      "text": "Rabbits could not have disappeared more quickly."
+    },
+    {
+      "id": "s84",
+      "text": "I will tell you where they are."
+    },
+    {
+      "id": "s85",
+      "text": "With the exception of Nibs, who has darted away to reconnoitre, they are already in their home under the ground, a very delightful residence of which we shall see a good deal presently."
+    },
+    {
+      "id": "s86",
+      "text": "But how have they reached it? for there is no entrance to be seen, not so much as a large stone, which if rolled away, would disclose the mouth of a cave."
+    },
+    {
+      "id": "s87",
+      "text": "Look closely, however, and you may note that there are here seven large trees, each with a hole in its hollow trunk as large as a boy."
+    },
+    {
+      "id": "s88",
+      "text": "These are the seven entrances to the home under the ground, for which Hook has been searching in vain these many moons."
+    },
+    {
+      "id": "s89",
+      "text": "Will he find it tonight?"
+    },
+    {
+      "id": "s90",
+      "text": "As the pirates advanced, the quick eye of Starkey sighted Nibs disappearing through the wood, and at once his pistol flashed out."
+    },
+    {
+      "id": "s91",
+      "text": "But an iron claw gripped his shoulder."
+    },
+    {
+      "id": "s92",
+      "text": "“Captain, let go!” he cried, writhing."
+    },
+    {
+      "id": "s93",
+      "text": "Now for the first time we hear the voice of Hook."
+    },
+    {
+      "id": "s94",
+      "text": "It was a black voice."
+    },
+    {
+      "id": "s95",
+      "text": "“Put back that pistol first,” it said threateningly."
+    },
+    {
+      "id": "s96",
+      "text": "“It was one of those boys you hate."
+    },
+    {
+      "id": "s97",
+      "text": "I could have shot him dead.”"
+    },
+    {
+      "id": "s98",
+      "text": "“Ay, and the sound would have brought Tiger Lily’s redskins upon us."
+    },
+    {
+      "id": "s99",
+      "text": "Do you want to lose your scalp?”"
+    },
+    {
+      "id": "s100",
+      "text": "“Shall I after him, Captain,” asked pathetic Smee, “and tickle him with Johnny Corkscrew?” Smee had pleasant names for everything, and his cutlass was Johnny Corkscrew, because he wiggled it in the wound."
+    },
+    {
+      "id": "s101",
+      "text": "One could mention many lovable traits in Smee."
+    },
+    {
+      "id": "s102",
+      "text": "For instance, after killing, it was his spectacles he wiped instead of his weapon."
+    },
+    {
+      "id": "s103",
+      "text": "“Johnny’s a silent fellow,” he reminded Hook."
+    },
+    {
+      "id": "s104",
+      "text": "“Not now, Smee,” Hook said darkly."
+    },
+    {
+      "id": "s105",
+      "text": "“He is only one, and I want to mischief all the seven."
+    },
+    {
+      "id": "s106",
+      "text": "Scatter and look for them.”"
+    },
+    {
+      "id": "s107",
+      "text": "The pirates disappeared among the trees, and in a moment their Captain and Smee were alone."
+    },
+    {
+      "id": "s108",
+      "text": "Hook heaved a heavy sigh, and I know not why it was, perhaps it was because of the soft beauty of the evening, but there came over him a desire to confide to his faithful bo’sun the story of his life."
+    },
+    {
+      "id": "s109",
+      "text": "He spoke long and earnestly, but what it was all about Smee, who was rather stupid, did not know in the least."
+    },
+    {
+      "id": "s110",
+      "text": "Anon he caught the word Peter."
+    },
+    {
+      "id": "s111",
+      "text": "“Most of all,” Hook was saying passionately, “I want their captain, Peter Pan. ’Twas he cut off my arm.” He brandished the hook threateningly."
+    },
+    {
+      "id": "s112",
+      "text": "“I’ve waited long to shake his hand with this."
+    },
+    {
+      "id": "s113",
+      "text": "Oh, I’ll tear him!”"
+    },
+    {
+      "id": "s114",
+      "text": "“And yet,” said Smee, “I have often heard you say that hook was worth a score of hands, for combing the hair and other homely uses.”"
+    },
+    {
+      "id": "s115",
+      "text": "“Ay,” the captain answered, “if I was a mother I would pray to have my children born with this instead of that,” and he cast a look of pride upon his iron hand and one of scorn upon the other."
+    },
+    {
+      "id": "s116",
+      "text": "Then again he frowned."
+    },
+    {
+      "id": "s117",
+      "text": "“Peter flung my arm,” he said, wincing, “to a crocodile that happened to be passing by.”"
+    },
+    {
+      "id": "s118",
+      "text": "“I have often,” said Smee, “noticed your strange dread of crocodiles.”"
+    },
+    {
+      "id": "s119",
+      "text": "“Not of crocodiles,” Hook corrected him, “but of that one crocodile.” He lowered his voice."
+    },
+    {
+      "id": "s120",
+      "text": "“It liked my arm so much, Smee, that it has followed me ever since, from sea to sea and from land to land, licking its lips for the rest of me.”"
+    },
+    {
+      "id": "s121",
+      "text": "“In a way,” said Smee, “it’s sort of a compliment.”"
+    },
+    {
+      "id": "s122",
+      "text": "“I want no such compliments,” Hook barked petulantly."
+    },
+    {
+      "id": "s123",
+      "text": "“I want Peter Pan, who first gave the brute its taste for me.”"
+    },
+    {
+      "id": "s124",
+      "text": "He sat down on a large mushroom, and now there was a quiver in his voice."
+    },
+    {
+      "id": "s125",
+      "text": "“Smee,” he said huskily, “that crocodile would have had me before this, but by a lucky chance it swallowed a clock which goes tick tick inside it, and so before it can reach me I hear the tick and bolt.” He laughed, but in a hollow way."
+    },
+    {
+      "id": "s126",
+      "text": "“Some day,” said Smee, “the clock will run down, and then he’ll get you.”"
+    },
+    {
+      "id": "s127",
+      "text": "Hook wetted his dry lips."
+    },
+    {
+      "id": "s128",
+      "text": "“Ay,” he said, “that’s the fear that haunts me.”"
+    },
+    {
+      "id": "s129",
+      "text": "Since sitting down he had felt curiously warm."
+    },
+    {
+      "id": "s130",
+      "text": "“Smee,” he said, “this seat is hot.” He jumped up."
+    },
+    {
+      "id": "s131",
+      "text": "“Odds bobs, hammer and tongs I’m burning.”"
+    },
+    {
+      "id": "s132",
+      "text": "They examined the mushroom, which was of a size and solidity unknown on the mainland; they tried to pull it up, and it came away at once in their hands, for it had no root."
+    },
+    {
+      "id": "s133",
+      "text": "Stranger still, smoke began at once to ascend."
+    },
+    {
+      "id": "s134",
+      "text": "The pirates looked at each other."
+    },
+    {
+      "id": "s135",
+      "text": "“A chimney!” they both exclaimed."
+    },
+    {
+      "id": "s136",
+      "text": "They had indeed discovered the chimney of the home under the ground."
+    },
+    {
+      "id": "s137",
+      "text": "It was the custom of the boys to stop it with a mushroom when enemies were in the neighbourhood."
+    },
+    {
+      "id": "s138",
+      "text": "Not only smoke came out of it."
+    },
+    {
+      "id": "s139",
+      "text": "There came also children’s voices, for so safe did the boys feel in their hiding-place that they were gaily chattering."
+    },
+    {
+      "id": "s140",
+      "text": "The pirates listened grimly, and then replaced the mushroom."
+    },
+    {
+      "id": "s141",
+      "text": "They looked around them and noted the holes in the seven trees."
+    },
+    {
+      "id": "s142",
+      "text": "“Did you hear them say Peter Pan’s from home?” Smee whispered, fidgeting with Johnny Corkscrew."
+    },
+    {
+      "id": "s143",
+      "text": "Hook nodded."
+    },
+    {
+      "id": "s144",
+      "text": "He stood for a long time lost in thought, and at last a curdling smile lit up his swarthy face."
+    },
+    {
+      "id": "s145",
+      "text": "Smee had been waiting for it."
+    },
+    {
+      "id": "s146",
+      "text": "“Unrip your plan, captain,” he cried eagerly."
+    },
+    {
+      "id": "s147",
+      "text": "“To return to the ship,” Hook replied slowly through his teeth, “and cook a large rich cake of a jolly thickness with green sugar on it."
+    },
+    {
+      "id": "s148",
+      "text": "There can be but one room below, for there is but one chimney."
+    },
+    {
+      "id": "s149",
+      "text": "The silly moles had not the sense to see that they did not need a door apiece."
+    },
+    {
+      "id": "s150",
+      "text": "That shows they have no mother."
+    },
+    {
+      "id": "s151",
+      "text": "We will leave the cake on the shore of the Mermaids’ Lagoon."
+    },
+    {
+      "id": "s152",
+      "text": "These boys are always swimming about there, playing with the mermaids."
+    },
+    {
+      "id": "s153",
+      "text": "They will find the cake and they will gobble it up, because, having no mother, they don’t know how dangerous ’tis to eat rich damp cake.” He burst into laughter, not hollow laughter now, but honest laughter."
+    },
+    {
+      "id": "s154",
+      "text": "“Aha, they will die.”"
+    },
+    {
+      "id": "s155",
+      "text": "Smee had listened with growing admiration."
+    },
+    {
+      "id": "s156",
+      "text": "“It’s the wickedest, prettiest policy ever I heard of!” he cried, and in their exultation they danced and sang:"
+    },
+    {
+      "id": "s157",
+      "text": "“Avast, belay, when I appear, By fear they’re overtook; Nought’s left upon your bones when you Have shaken claws with Hook.”"
+    },
+    {
+      "id": "s158",
+      "text": "They began the verse, but they never finished it, for another sound broke in and stilled them."
+    },
+    {
+      "id": "s159",
+      "text": "There was at first such a tiny sound that a leaf might have fallen on it and smothered it, but as it came nearer it was more distinct."
+    },
+    {
+      "id": "s160",
+      "text": "Tick tick tick tick!"
+    },
+    {
+      "id": "s161",
+      "text": "Hook stood shuddering, one foot in the air."
+    },
+    {
+      "id": "s162",
+      "text": "“The crocodile!” he gasped, and bounded away, followed by his bo’sun."
+    },
+    {
+      "id": "s163",
+      "text": "It was indeed the crocodile."
+    },
+    {
+      "id": "s164",
+      "text": "It had passed the redskins, who were now on the trail of the other pirates."
+    },
+    {
+      "id": "s165",
+      "text": "It oozed on after Hook."
+    },
+    {
+      "id": "s166",
+      "text": "Once more the boys emerged into the open; but the dangers of the night were not yet over, for presently Nibs rushed breathless into their midst, pursued by a pack of wolves."
+    },
+    {
+      "id": "s167",
+      "text": "The tongues of the pursuers were hanging out; the baying of them was horrible."
+    },
+    {
+      "id": "s168",
+      "text": "“Save me, save me!” cried Nibs, falling on the ground."
+    },
+    {
+      "id": "s169",
+      "text": "“But what can we do, what can we do?”"
+    },
+    {
+      "id": "s170",
+      "text": "It was a high compliment to Peter that at that dire moment their thoughts turned to him."
+    },
+    {
+      "id": "s171",
+      "text": "“What would Peter do?” they cried simultaneously."
+    },
+    {
+      "id": "s172",
+      "text": "Almost in the same breath they cried, “Peter would look at them through his legs.”"
+    },
+    {
+      "id": "s173",
+      "text": "And then, “Let us do what Peter would do.”"
+    },
+    {
+      "id": "s174",
+      "text": "It is quite the most successful way of defying wolves, and as one boy they bent and looked through their legs."
+    },
+    {
+      "id": "s175",
+      "text": "The next moment is the long one, but victory came quickly, for as the boys advanced upon them in the terrible attitude, the wolves dropped their tails and fled."
+    },
+    {
+      "id": "s176",
+      "text": "Now Nibs rose from the ground, and the others thought that his staring eyes still saw the wolves."
+    },
+    {
+      "id": "s177",
+      "text": "But it was not wolves he saw."
+    },
+    {
+      "id": "s178",
+      "text": "“I have seen a wonderfuller thing,” he cried, as they gathered round him eagerly."
+    },
+    {
+      "id": "s179",
+      "text": "“A great white bird."
+    },
+    {
+      "id": "s180",
+      "text": "It is flying this way.”"
+    },
+    {
+      "id": "s181",
+      "text": "“What kind of a bird, do you think?”"
+    },
+    {
+      "id": "s182",
+      "text": "“I don’t know,” Nibs said, awestruck, “but it looks so weary, and as it flies it moans, ‘Poor Wendy.’”"
+    },
+    {
+      "id": "s183",
+      "text": "“Poor Wendy?”"
+    },
+    {
+      "id": "s184",
+      "text": "“I remember,” said Slightly instantly, “there are birds called Wendies.”"
+    },
+    {
+      "id": "s185",
+      "text": "“See, it comes!” cried Curly, pointing to Wendy in the heavens."
+    },
+    {
+      "id": "s186",
+      "text": "Wendy was now almost overhead, and they could hear her plaintive cry."
+    },
+    {
+      "id": "s187",
+      "text": "But more distinct came the shrill voice of Tinker Bell."
+    },
+    {
+      "id": "s188",
+      "text": "The jealous fairy had now cast off all disguise of friendship, and was darting at her victim from every direction, pinching savagely each time she touched."
+    },
+    {
+      "id": "s189",
+      "text": "“Hullo, Tink,” cried the wondering boys."
+    },
+    {
+      "id": "s190",
+      "text": "Tink’s reply rang out: “Peter wants you to shoot the Wendy.”"
+    },
+    {
+      "id": "s191",
+      "text": "It was not in their nature to question when Peter ordered."
+    },
+    {
+      "id": "s192",
+      "text": "“Let us do what Peter wishes!” cried the simple boys."
+    },
+    {
+      "id": "s193",
+      "text": "“Quick, bows and arrows!”"
+    },
+    {
+      "id": "s194",
+      "text": "All but Tootles popped down their trees."
+    },
+    {
+      "id": "s195",
+      "text": "He had a bow and arrow with him, and Tink noted it, and rubbed her little hands."
+    },
+    {
+      "id": "s196",
+      "text": "“Quick, Tootles, quick,” she screamed."
+    },
+    {
+      "id": "s197",
+      "text": "“Peter will be so pleased.”"
+    },
+    {
+      "id": "s198",
+      "text": "Tootles excitedly fitted the arrow to his bow."
+    },
+    {
+      "id": "s199",
+      "text": "“Out of the way, Tink,” he shouted, and then he fired, and Wendy fluttered to the ground with an arrow in her breast."
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-12",
+  "chapterTitle": "Part 2 — CHAPTER XII.",
+  "contentHash": "sha256:f4b284b4ed280ff266a826681c821bf6f95ddb883c0446609f434bb4ad0e91e0",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, Part 2 — CHAPTER XII.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "OROGRAPHIC DETAILS"
+    },
+    {
+      "id": "s2",
+      "text": "The course taken by the projectile, as we have before remarked, was bearing it toward the moon’s northern hemisphere."
+    },
+    {
+      "id": "s3",
+      "text": "The travelers were far from the central point which they would have struck, had their course not been subject to an irremediable deviation."
+    },
+    {
+      "id": "s4",
+      "text": "It was past midnight; and Barbicane then estimated the distance at seven hundred and fifty miles, which was a little greater than the length of the lunar radius, and which would diminish as it advanced nearer to the North Pole."
+    },
+    {
+      "id": "s5",
+      "text": "The projectile was then not at the altitude of the equator; but across the tenth parallel, and from that latitude, carefully taken on the map to the pole, Barbicane and his two companions were able to observe the moon under the most favorable conditions."
+    },
+    {
+      "id": "s6",
+      "text": "Indeed, by means of glasses, the above-named distance was reduced to little more than fourteen miles."
+    },
+    {
+      "id": "s7",
+      "text": "The telescope of the Rocky Mountains brought the moon much nearer; but the terrestrial atmosphere singularly lessened its power."
+    },
+    {
+      "id": "s8",
+      "text": "Thus Barbicane, posted in his projectile, with the glasses to his eyes, could seize upon details which were almost imperceptible to earthly observers."
+    },
+    {
+      "id": "s9",
+      "text": "“My friends,” said the president, in a serious voice, “I do not know whither we are going; I do not know if we shall ever see the terrestrial globe again."
+    },
+    {
+      "id": "s10",
+      "text": "Nevertheless, let us proceed as if our work would one day by useful to our fellow-men."
+    },
+    {
+      "id": "s11",
+      "text": "Let us keep our minds free from every other consideration."
+    },
+    {
+      "id": "s12",
+      "text": "We are astronomers; and this projectile is a room in the Cambridge University, carried into space."
+    },
+    {
+      "id": "s13",
+      "text": "Let us make our observations!”"
+    },
+    {
+      "id": "s14",
+      "text": "This said, work was begun with great exactness; and they faithfully reproduced the different aspects of the moon, at the different distances which the projectile reached."
+    },
+    {
+      "id": "s15",
+      "text": "At the time that the projectile was as high as the tenth parallel, north latitude, it seemed rigidly to follow the twentieth degree, east longitude."
+    },
+    {
+      "id": "s16",
+      "text": "We must here make one important remark with regard to the map by which they were taking observations."
+    },
+    {
+      "id": "s17",
+      "text": "In the selenographical maps where, on account of the reversing of the objects by the glasses, the south is above and the north below, it would seem natural that, on account of that inversion, the east should be to the left hand, and the west to the right."
+    },
+    {
+      "id": "s18",
+      "text": "But it is not so."
+    },
+    {
+      "id": "s19",
+      "text": "If the map were turned upside down, showing the moon as we see her, the east would be to the left, and the west to the right, contrary to that which exists on terrestrial maps."
+    },
+    {
+      "id": "s20",
+      "text": "The following is the reason of this anomaly."
+    },
+    {
+      "id": "s21",
+      "text": "Observers in the northern hemisphere (say in Europe) see the moon in the south—according to them."
+    },
+    {
+      "id": "s22",
+      "text": "When they take observations, they turn their backs to the north, the reverse position to that which they occupy when they study a terrestrial map."
+    },
+    {
+      "id": "s23",
+      "text": "As they turn their backs to the north, the east is on their left, and the west to their right."
+    },
+    {
+      "id": "s24",
+      "text": "To observers in the southern hemisphere (Patagonia for example), the moon’s west would be quite to their left, and the east to their right, as the south is behind them."
+    },
+    {
+      "id": "s25",
+      "text": "Such is the reason of the apparent reversing of these two cardinal points, and we must bear it in mind in order to be able to follow President Barbicane’s observations."
+    },
+    {
+      "id": "s26",
+      "text": "With the help of Boeer and Moedler’s _Mappa Selenographica_, the travelers were able at once to recognize that portion of the disc enclosed within the field of their glasses."
+    },
+    {
+      "id": "s27",
+      "text": "“What are we looking at, at this moment?” asked Michel."
+    },
+    {
+      "id": "s28",
+      "text": "“At the northern part of the ‘Sea of Clouds,’” answered Barbicane."
+    },
+    {
+      "id": "s29",
+      "text": "“We are too far off to recognize its nature."
+    },
+    {
+      "id": "s30",
+      "text": "Are these plains composed of arid sand, as the first astronomer maintained?"
+    },
+    {
+      "id": "s31",
+      "text": "Or are they nothing but immense forests, according to M."
+    },
+    {
+      "id": "s32",
+      "text": "Warren de la Rue’s opinion, who gives the moon an atmosphere, though a very low and a very dense one?"
+    },
+    {
+      "id": "s33",
+      "text": "That we shall know by and by."
+    },
+    {
+      "id": "s34",
+      "text": "We must affirm nothing until we are in a position to do so.”"
+    },
+    {
+      "id": "s35",
+      "text": "This “Sea of Clouds” is rather doubtfully marked out upon the maps."
+    },
+    {
+      "id": "s36",
+      "text": "It is supposed that these vast plains are strewn with blocks of lava from the neighboring volcanoes on its right, Ptolemy, Purbach, Arzachel."
+    },
+    {
+      "id": "s37",
+      "text": "But the projectile was advancing, and sensibly nearing it."
+    },
+    {
+      "id": "s38",
+      "text": "Soon there appeared the heights which bound this sea at this northern limit."
+    },
+    {
+      "id": "s39",
+      "text": "Before them rose a mountain radiant with beauty, the top of which seemed lost in an eruption of solar rays."
+    },
+    {
+      "id": "s40",
+      "text": "“That is—?” asked Michel."
+    },
+    {
+      "id": "s41",
+      "text": "“Copernicus,” replied Barbicane."
+    },
+    {
+      "id": "s42",
+      "text": "“Let us see Copernicus.”"
+    },
+    {
+      "id": "s43",
+      "text": "This mount, situated in 9° north latitude and 20° east longitude, rose to a height of 10,600 feet above the surface of the moon."
+    },
+    {
+      "id": "s44",
+      "text": "It is quite visible from the earth; and astronomers can study it with ease, particularly during the phase between the last quarter and the new moon, because then the shadows are thrown lengthways from east to west, allowing them to measure the heights."
+    },
+    {
+      "id": "s45",
+      "text": "This Copernicus forms the most important of the radiating system, situated in the southern hemisphere, according to Tycho Brahé."
+    },
+    {
+      "id": "s46",
+      "text": "It rises isolated like a gigantic lighthouse on that portion of the “Sea of Clouds,” which is bounded by the “Sea of Tempests,” thus lighting by its splendid rays two oceans at a time."
+    },
+    {
+      "id": "s47",
+      "text": "It was a sight without an equal, those long luminous trains, so dazzling in the full moon, and which, passing the boundary chain on the north, extends to the “Sea of Rains.” At one o’clock of the terrestrial morning, the projectile, like a balloon borne into space, overlooked the top of this superb mount."
+    },
+    {
+      "id": "s48",
+      "text": "Barbicane could recognize perfectly its chief features."
+    },
+    {
+      "id": "s49",
+      "text": "Copernicus is comprised in the series of ringed mountains of the first order, in the division of great circles."
+    },
+    {
+      "id": "s50",
+      "text": "Like Kepler and Aristarchus, which overlook the “Ocean of Tempests,” sometimes it appeared like a brilliant point through the cloudy light, and was taken for a volcano in activity."
+    },
+    {
+      "id": "s51",
+      "text": "But it is only an extinct one—like all on that side of the moon."
+    },
+    {
+      "id": "s52",
+      "text": "Its circumference showed a diameter of about twenty-two leagues."
+    },
+    {
+      "id": "s53",
+      "text": "The glasses discovered traces of stratification produced by successive eruptions, and the neighborhood was strewn with volcanic remains which still choked some of the craters."
+    },
+    {
+      "id": "s54",
+      "text": "“There exist,” said Barbicane, “several kinds of circles on the surface of the moon, and it is easy to see that Copernicus belongs to the radiating class."
+    },
+    {
+      "id": "s55",
+      "text": "If we were nearer, we should see the cones bristling on the inside, which in former times were so many fiery mouths."
+    },
+    {
+      "id": "s56",
+      "text": "A curious arrangement, and one without an exception on the lunar disc, is that the interior surface of these circles is the reverse of the exterior, and contrary to the form taken by terrestrial craters."
+    },
+    {
+      "id": "s57",
+      "text": "It follows, then, that the general curve of the bottom of these circles gives a sphere of a smaller diameter than that of the moon.”"
+    },
+    {
+      "id": "s58",
+      "text": "“And why this peculiar disposition?” asked Nicholl."
+    },
+    {
+      "id": "s59",
+      "text": "“We do not know,” replied Barbicane."
+    },
+    {
+      "id": "s60",
+      "text": "“What splendid radiation!” said Michel."
+    },
+    {
+      "id": "s61",
+      "text": "“One could hardly see a finer spectacle, I think.”"
+    },
+    {
+      "id": "s62",
+      "text": "“What would you say, then,” replied Barbicane, “if chance should bear us toward the southern hemisphere?”"
+    },
+    {
+      "id": "s63",
+      "text": "“Well, I should say that it was still more beautiful,” retorted Michel Ardan."
+    },
+    {
+      "id": "s64",
+      "text": "At this moment the projectile hung perpendicularly over the circle."
+    },
+    {
+      "id": "s65",
+      "text": "The circumference of Copernicus formed almost a perfect circle, and its steep escarpments were clearly defined."
+    },
+    {
+      "id": "s66",
+      "text": "They could even distinguish a second ringed enclosure."
+    },
+    {
+      "id": "s67",
+      "text": "Around spread a grayish plain, of a wild aspect, on which every relief was marked in yellow."
+    },
+    {
+      "id": "s68",
+      "text": "At the bottom of the circle, as if enclosed in a jewel case, sparkled for one instant two or three eruptive cones, like enormous dazzling gems."
+    },
+    {
+      "id": "s69",
+      "text": "Toward the north the escarpments were lowered by a depression which would probably have given access to the interior of the crater."
+    },
+    {
+      "id": "s70",
+      "text": "In passing over the surrounding plains, Barbicane noticed a great number of less important mountains; and among others a little ringed one called Guy Lussac, the breadth of which measured twelve miles."
+    },
+    {
+      "id": "s71",
+      "text": "Toward the south, the plain was very flat, without one elevation, without one projection."
+    },
+    {
+      "id": "s72",
+      "text": "Toward the north, on the contrary, till where it was bounded by the “Sea of Storms,” it resembled a liquid surface agitated by a storm, of which the hills and hollows formed a succession of waves suddenly congealed."
+    },
+    {
+      "id": "s73",
+      "text": "Over the whole of this, and in all directions, lay the luminous lines, all converging to the summit of Copernicus."
+    },
+    {
+      "id": "s74",
+      "text": "The travelers discussed the origin of these strange rays; but they could not determine their nature any more than terrestrial observers."
+    },
+    {
+      "id": "s75",
+      "text": "“But why,” said Nicholl, “should not these rays be simply spurs of mountains which reflect more vividly the light of the sun?”"
+    },
+    {
+      "id": "s76",
+      "text": "“No,” replied Barbicane; “if it was so, under certain conditions of the moon, these ridges would cast shadows, and they do not cast any.”"
+    },
+    {
+      "id": "s77",
+      "text": "And indeed, these rays only appeared when the orb of day was in opposition to the moon, and disappeared as soon as its rays became oblique."
+    },
+    {
+      "id": "s78",
+      "text": "“But how have they endeavored to explain these lines of light?” asked Michel; “for I cannot believe that savants would ever be stranded for want of an explanation.”"
+    },
+    {
+      "id": "s79",
+      "text": "“Yes,” replied Barbicane; “Herschel has put forward an opinion, but he did not venture to affirm it.”"
+    },
+    {
+      "id": "s80",
+      "text": "“Never mind."
+    },
+    {
+      "id": "s81",
+      "text": "What was the opinion?”"
+    },
+    {
+      "id": "s82",
+      "text": "“He thought that these rays might be streams of cooled lava which shone when the sun beat straight upon them."
+    },
+    {
+      "id": "s83",
+      "text": "It may be so; but nothing can be less certain."
+    },
+    {
+      "id": "s84",
+      "text": "Besides, if we pass nearer to Tycho, we shall be in a better position to find out the cause of this radiation.”"
+    },
+    {
+      "id": "s85",
+      "text": "“Do you know, my friends, what that plain, seen from the height we are at, resembles?” said Michel."
+    },
+    {
+      "id": "s86",
+      "text": "“No,” replied Nicholl."
+    },
+    {
+      "id": "s87",
+      "text": "“Very well; with all those pieces of lava lengthened like rockets, it resembles an immense game of spelikans thrown pellmell."
+    },
+    {
+      "id": "s88",
+      "text": "There wants but the hook to pull them out one by one.”"
+    },
+    {
+      "id": "s89",
+      "text": "“Do be serious,” said Barbicane."
+    },
+    {
+      "id": "s90",
+      "text": "“Well, let us be serious,” replied Michel quietly; “and instead of spelikans, let us put bones."
+    },
+    {
+      "id": "s91",
+      "text": "This plain, would then be nothing but an immense cemetery, on which would repose the mortal remains of thousands of extinct generations."
+    },
+    {
+      "id": "s92",
+      "text": "Do you prefer that high-flown comparison?”"
+    },
+    {
+      "id": "s93",
+      "text": "“One is as good as the other,” retorted Barbicane."
+    },
+    {
+      "id": "s94",
+      "text": "“My word, you are difficult to please,” answered Michel."
+    },
+    {
+      "id": "s95",
+      "text": "“My worthy friend,” continued the matter-of-fact Barbicane, “it matters but little what it _resembles_, when we do not know what it _is_.”"
+    },
+    {
+      "id": "s96",
+      "text": "“Well answered,” exclaimed Michel."
+    },
+    {
+      "id": "s97",
+      "text": "“That will teach me to reason with savants.”"
+    },
+    {
+      "id": "s98",
+      "text": "But the projectile continued to advance with almost uniform speed around the lunar disc."
+    },
+    {
+      "id": "s99",
+      "text": "The travelers, we may easily imagine, did not dream of taking a moment’s rest."
+    },
+    {
+      "id": "s100",
+      "text": "Every minute changed the landscape which fled from beneath their gaze."
+    },
+    {
+      "id": "s101",
+      "text": "About half past one o’clock in the morning, they caught a glimpse of the tops of another mountain."
+    },
+    {
+      "id": "s102",
+      "text": "Barbicane, consulting his map, recognized Eratosthenes."
+    },
+    {
+      "id": "s103",
+      "text": "It was a ringed mountain nine thousand feet high, and one of those circles so numerous on this satellite."
+    },
+    {
+      "id": "s104",
+      "text": "With regard to this, Barbicane related Kepler’s singular opinion on the formation of circles."
+    },
+    {
+      "id": "s105",
+      "text": "According to that celebrated mathematician, these crater-like cavities had been dug by the hand of man."
+    },
+    {
+      "id": "s106",
+      "text": "“For what purpose?” asked Nicholl."
+    },
+    {
+      "id": "s107",
+      "text": "“For a very natural one,” replied Barbicane."
+    },
+    {
+      "id": "s108",
+      "text": "“The Selenites might have undertaken these immense works and dug these enormous holes for a refuge and shield from the solar rays which beat upon them during fifteen consecutive days.”"
+    },
+    {
+      "id": "s109",
+      "text": "“The Selenites are not fools,” said Michel."
+    },
+    {
+      "id": "s110",
+      "text": "“A singular idea,” replied Nicholl; “but it is probable that Kepler did not know the true dimensions of these circles, for the digging of them would have been the work of giants quite impossible for the Selenites.”"
+    },
+    {
+      "id": "s111",
+      "text": "“Why? if weight on the moon’s surface is six times less than on the earth?” said Michel."
+    },
+    {
+      "id": "s112",
+      "text": "“But if the Selenites are six times smaller?” retorted Nicholl."
+    },
+    {
+      "id": "s113",
+      "text": "“And if there are _no_ Selenites?” added Barbicane."
+    },
+    {
+      "id": "s114",
+      "text": "This put an end to the discussion."
+    },
+    {
+      "id": "s115",
+      "text": "Soon Eratosthenes disappeared under the horizon without the projectile being sufficiently near to allow close observation."
+    },
+    {
+      "id": "s116",
+      "text": "This mountain separated the Apennines from the Carpathians."
+    },
+    {
+      "id": "s117",
+      "text": "In the lunar orography they have discerned some chains of mountains, which are chiefly distributed over the northern hemisphere."
+    },
+    {
+      "id": "s118",
+      "text": "Some, however, occupy certain portions of the southern hemisphere also."
+    },
+    {
+      "id": "s119",
+      "text": "About two o’clock in the morning Barbicane found that they were above the twentieth lunar parallel."
+    },
+    {
+      "id": "s120",
+      "text": "The distance of the projectile from the moon was not more than six hundred miles."
+    },
+    {
+      "id": "s121",
+      "text": "Barbicane, now perceiving that the projectile was steadily approaching the lunar disc, did not despair; if not of reaching her, at least of discovering the secrets of her configuration."
+    }
+  ]
+}

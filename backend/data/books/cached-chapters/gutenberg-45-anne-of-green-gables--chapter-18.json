@@ -1,0 +1,925 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-18",
+  "chapterTitle": "CHAPTER XVIII. Anne to the Rescue",
+  "contentHash": "sha256:32fc6afa5b228c8c3fe2153d9addd254bb14bcd8df0586f961a3815c9e968638",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XVIII. Anne to the Rescue. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "ALL things great are wound up with all things little."
+    },
+    {
+      "id": "s2",
+      "text": "At first glance it might not seem that the decision of a certain Canadian Premier to include Prince Edward Island in a political tour could have much or anything to do with the fortunes of little Anne Shirley at Green Gables."
+    },
+    {
+      "id": "s3",
+      "text": "But it had."
+    },
+    {
+      "id": "s4",
+      "text": "It was a January the Premier came, to address his loyal supporters and such of his nonsupporters as chose to be present at the monster mass meeting held in Charlottetown."
+    },
+    {
+      "id": "s5",
+      "text": "Most of the Avonlea people were on Premier’s side of politics; hence on the night of the meeting nearly all the men and a goodly proportion of the women had gone to town thirty miles away."
+    },
+    {
+      "id": "s6",
+      "text": "Mrs."
+    },
+    {
+      "id": "s7",
+      "text": "Rachel Lynde had gone too."
+    },
+    {
+      "id": "s8",
+      "text": "Mrs."
+    },
+    {
+      "id": "s9",
+      "text": "Rachel Lynde was a red-hot politician and couldn’t have believed that the political rally could be carried through without her, although she was on the opposite side of politics."
+    },
+    {
+      "id": "s10",
+      "text": "So she went to town and took her husband--Thomas would be useful in looking after the horse--and Marilla Cuthbert with her."
+    },
+    {
+      "id": "s11",
+      "text": "Marilla had a sneaking interest in politics herself, and as she thought it might be her only chance to see a real live Premier, she promptly took it, leaving Anne and Matthew to keep house until her return the following day."
+    },
+    {
+      "id": "s12",
+      "text": "Hence, while Marilla and Mrs."
+    },
+    {
+      "id": "s13",
+      "text": "Rachel were enjoying themselves hugely at the mass meeting, Anne and Matthew had the cheerful kitchen at Green Gables all to themselves."
+    },
+    {
+      "id": "s14",
+      "text": "A bright fire was glowing in the old-fashioned Waterloo stove and blue-white frost crystals were shining on the windowpanes."
+    },
+    {
+      "id": "s15",
+      "text": "Matthew nodded over a _Farmers’ Advocate_ on the sofa and Anne at the table studied her lessons with grim determination, despite sundry wistful glances at the clock shelf, where lay a new book that Jane Andrews had lent her that day."
+    },
+    {
+      "id": "s16",
+      "text": "Jane had assured her that it was warranted to produce any number of thrills, or words to that effect, and Anne’s fingers tingled to reach out for it."
+    },
+    {
+      "id": "s17",
+      "text": "But that would mean Gilbert Blythe’s triumph on the morrow."
+    },
+    {
+      "id": "s18",
+      "text": "Anne turned her back on the clock shelf and tried to imagine it wasn’t there."
+    },
+    {
+      "id": "s19",
+      "text": "“Matthew, did you ever study geometry when you went to school?”"
+    },
+    {
+      "id": "s20",
+      "text": "“Well now, no, I didn’t,” said Matthew, coming out of his doze with a start."
+    },
+    {
+      "id": "s21",
+      "text": "“I wish you had,” sighed Anne, “because then you’d be able to sympathize with me."
+    },
+    {
+      "id": "s22",
+      "text": "You can’t sympathize properly if you’ve never studied it."
+    },
+    {
+      "id": "s23",
+      "text": "It is casting a cloud over my whole life."
+    },
+    {
+      "id": "s24",
+      "text": "I’m such a dunce at it, Matthew.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Well now, I dunno,” said Matthew soothingly."
+    },
+    {
+      "id": "s26",
+      "text": "“I guess you’re all right at anything."
+    },
+    {
+      "id": "s27",
+      "text": "Mr."
+    },
+    {
+      "id": "s28",
+      "text": "Phillips told me last week in Blair’s store at Carmody that you was the smartest scholar in school and was making rapid progress. ‘Rapid progress’ was his very words."
+    },
+    {
+      "id": "s29",
+      "text": "There’s them as runs down Teddy Phillips and says he ain’t much of a teacher, but I guess he’s all right.”"
+    },
+    {
+      "id": "s30",
+      "text": "Matthew would have thought anyone who praised Anne was “all right.”"
+    },
+    {
+      "id": "s31",
+      "text": "“I’m sure I’d get on better with geometry if only he wouldn’t change the letters,” complained Anne."
+    },
+    {
+      "id": "s32",
+      "text": "“I learn the proposition off by heart and then he draws it on the blackboard and puts different letters from what are in the book and I get all mixed up."
+    },
+    {
+      "id": "s33",
+      "text": "I don’t think a teacher should take such a mean advantage, do you?"
+    },
+    {
+      "id": "s34",
+      "text": "We’re studying agriculture now and I’ve found out at last what makes the roads red."
+    },
+    {
+      "id": "s35",
+      "text": "It’s a great comfort."
+    },
+    {
+      "id": "s36",
+      "text": "I wonder how Marilla and Mrs."
+    },
+    {
+      "id": "s37",
+      "text": "Lynde are enjoying themselves."
+    },
+    {
+      "id": "s38",
+      "text": "Mrs."
+    },
+    {
+      "id": "s39",
+      "text": "Lynde says Canada is going to the dogs the way things are being run at Ottawa and that it’s an awful warning to the electors."
+    },
+    {
+      "id": "s40",
+      "text": "She says if women were allowed to vote we would soon see a blessed change."
+    },
+    {
+      "id": "s41",
+      "text": "What way do you vote, Matthew?”"
+    },
+    {
+      "id": "s42",
+      "text": "“Conservative,” said Matthew promptly."
+    },
+    {
+      "id": "s43",
+      "text": "To vote Conservative was part of Matthew’s religion."
+    },
+    {
+      "id": "s44",
+      "text": "“Then I’m Conservative too,” said Anne decidedly."
+    },
+    {
+      "id": "s45",
+      "text": "“I’m glad because Gil--because some of the boys in school are Grits."
+    },
+    {
+      "id": "s46",
+      "text": "I guess Mr."
+    },
+    {
+      "id": "s47",
+      "text": "Phillips is a Grit too because Prissy Andrews’s father is one, and Ruby Gillis says that when a man is courting he always has to agree with the girl’s mother in religion and her father in politics."
+    },
+    {
+      "id": "s48",
+      "text": "Is that true, Matthew?”"
+    },
+    {
+      "id": "s49",
+      "text": "“Well now, I dunno,” said Matthew."
+    },
+    {
+      "id": "s50",
+      "text": "“Did you ever go courting, Matthew?”"
+    },
+    {
+      "id": "s51",
+      "text": "“Well now, no, I dunno’s I ever did,” said Matthew, who had certainly never thought of such a thing in his whole existence."
+    },
+    {
+      "id": "s52",
+      "text": "Anne reflected with her chin in her hands."
+    },
+    {
+      "id": "s53",
+      "text": "“It must be rather interesting, don’t you think, Matthew?"
+    },
+    {
+      "id": "s54",
+      "text": "Ruby Gillis says when she grows up she’s going to have ever so many beaus on the string and have them all crazy about her; but I think that would be too exciting."
+    },
+    {
+      "id": "s55",
+      "text": "I’d rather have just one in his right mind."
+    },
+    {
+      "id": "s56",
+      "text": "But Ruby Gillis knows a great deal about such matters because she has so many big sisters, and Mrs."
+    },
+    {
+      "id": "s57",
+      "text": "Lynde says the Gillis girls have gone off like hot cakes."
+    },
+    {
+      "id": "s58",
+      "text": "Mr."
+    },
+    {
+      "id": "s59",
+      "text": "Phillips goes up to see Prissy Andrews nearly every evening."
+    },
+    {
+      "id": "s60",
+      "text": "He says it is to help her with her lessons but Miranda Sloane is studying for Queen’s too, and I should think she needed help a lot more than Prissy because she’s ever so much stupider, but he never goes to help her in the evenings at all."
+    },
+    {
+      "id": "s61",
+      "text": "There are a great many things in this world that I can’t understand very well, Matthew.”"
+    },
+    {
+      "id": "s62",
+      "text": "“Well now, I dunno as I comprehend them all myself,” acknowledged Matthew."
+    },
+    {
+      "id": "s63",
+      "text": "“Well, I suppose I must finish up my lessons."
+    },
+    {
+      "id": "s64",
+      "text": "I won’t allow myself to open that new book Jane lent me until I’m through."
+    },
+    {
+      "id": "s65",
+      "text": "But it’s a terrible temptation, Matthew."
+    },
+    {
+      "id": "s66",
+      "text": "Even when I turn my back on it I can see it there just as plain."
+    },
+    {
+      "id": "s67",
+      "text": "Jane said she cried herself sick over it."
+    },
+    {
+      "id": "s68",
+      "text": "I love a book that makes me cry."
+    },
+    {
+      "id": "s69",
+      "text": "But I think I’ll carry that book into the sitting room and lock it in the jam closet and give you the key."
+    },
+    {
+      "id": "s70",
+      "text": "And you must _not_ give it to me, Matthew, until my lessons are done, not even if I implore you on my bended knees."
+    },
+    {
+      "id": "s71",
+      "text": "It’s all very well to say resist temptation, but it’s ever so much easier to resist it if you can’t get the key."
+    },
+    {
+      "id": "s72",
+      "text": "And then shall I run down the cellar and get some russets, Matthew?"
+    },
+    {
+      "id": "s73",
+      "text": "Wouldn’t you like some russets?”"
+    },
+    {
+      "id": "s74",
+      "text": "“Well now, I dunno but what I would,” said Matthew, who never ate russets but knew Anne’s weakness for them."
+    },
+    {
+      "id": "s75",
+      "text": "Just as Anne emerged triumphantly from the cellar with her plateful of russets came the sound of flying footsteps on the icy board walk outside and the next moment the kitchen door was flung open and in rushed Diana Barry, white faced and breathless, with a shawl wrapped hastily around her head."
+    },
+    {
+      "id": "s76",
+      "text": "Anne promptly let go of her candle and plate in her surprise, and plate, candle, and apples crashed together down the cellar ladder and were found at the bottom embedded in melted grease, the next day, by Marilla, who gathered them up and thanked mercy the house hadn’t been set on fire."
+    },
+    {
+      "id": "s77",
+      "text": "“Whatever is the matter, Diana?” cried Anne."
+    },
+    {
+      "id": "s78",
+      "text": "“Has your mother relented at last?”"
+    },
+    {
+      "id": "s79",
+      "text": "“Oh, Anne, do come quick,” implored Diana nervously."
+    },
+    {
+      "id": "s80",
+      "text": "“Minnie May is awful sick--she’s got croup."
+    },
+    {
+      "id": "s81",
+      "text": "Young Mary Joe says--and Father and Mother are away to town and there’s nobody to go for the doctor."
+    },
+    {
+      "id": "s82",
+      "text": "Minnie May is awful bad and Young Mary Joe doesn’t know what to do--and oh, Anne, I’m so scared!”"
+    },
+    {
+      "id": "s83",
+      "text": "Matthew, without a word, reached out for cap and coat, slipped past Diana and away into the darkness of the yard."
+    },
+    {
+      "id": "s84",
+      "text": "“He’s gone to harness the sorrel mare to go to Carmody for the doctor,” said Anne, who was hurrying on hood and jacket."
+    },
+    {
+      "id": "s85",
+      "text": "“I know it as well as if he’d said so."
+    },
+    {
+      "id": "s86",
+      "text": "Matthew and I are such kindred spirits I can read his thoughts without words at all.”"
+    },
+    {
+      "id": "s87",
+      "text": "“I don’t believe he’ll find the doctor at Carmody,” sobbed Diana."
+    },
+    {
+      "id": "s88",
+      "text": "“I know that Dr."
+    },
+    {
+      "id": "s89",
+      "text": "Blair went to town and I guess Dr."
+    },
+    {
+      "id": "s90",
+      "text": "Spencer would go too."
+    },
+    {
+      "id": "s91",
+      "text": "Young Mary Joe never saw anybody with croup and Mrs."
+    },
+    {
+      "id": "s92",
+      "text": "Lynde is away."
+    },
+    {
+      "id": "s93",
+      "text": "Oh, Anne!”"
+    },
+    {
+      "id": "s94",
+      "text": "“Don’t cry, Di,” said Anne cheerily."
+    },
+    {
+      "id": "s95",
+      "text": "“I know exactly what to do for croup."
+    },
+    {
+      "id": "s96",
+      "text": "You forget that Mrs."
+    },
+    {
+      "id": "s97",
+      "text": "Hammond had twins three times."
+    },
+    {
+      "id": "s98",
+      "text": "When you look after three pairs of twins you naturally get a lot of experience."
+    },
+    {
+      "id": "s99",
+      "text": "They all had croup regularly."
+    },
+    {
+      "id": "s100",
+      "text": "Just wait till I get the ipecac bottle--you mayn’t have any at your house."
+    },
+    {
+      "id": "s101",
+      "text": "Come on now.”"
+    },
+    {
+      "id": "s102",
+      "text": "The two little girls hastened out hand in hand and hurried through Lover’s Lane and across the crusted field beyond, for the snow was too deep to go by the shorter wood way."
+    },
+    {
+      "id": "s103",
+      "text": "Anne, although sincerely sorry for Minnie May, was far from being insensible to the romance of the situation and to the sweetness of once more sharing that romance with a kindred spirit."
+    },
+    {
+      "id": "s104",
+      "text": "The night was clear and frosty, all ebony of shadow and silver of snowy slope; big stars were shining over the silent fields; here and there the dark pointed firs stood up with snow powdering their branches and the wind whistling through them."
+    },
+    {
+      "id": "s105",
+      "text": "Anne thought it was truly delightful to go skimming through all this mystery and loveliness with your bosom friend who had been so long estranged."
+    },
+    {
+      "id": "s106",
+      "text": "Minnie May, aged three, was really very sick."
+    },
+    {
+      "id": "s107",
+      "text": "She lay on the kitchen sofa feverish and restless, while her hoarse breathing could be heard all over the house."
+    },
+    {
+      "id": "s108",
+      "text": "Young Mary Joe, a buxom, broad-faced French girl from the creek, whom Mrs."
+    },
+    {
+      "id": "s109",
+      "text": "Barry had engaged to stay with the children during her absence, was helpless and bewildered, quite incapable of thinking what to do, or doing it if she thought of it."
+    },
+    {
+      "id": "s110",
+      "text": "Anne went to work with skill and promptness."
+    },
+    {
+      "id": "s111",
+      "text": "“Minnie May has croup all right; she’s pretty bad, but I’ve seen them worse."
+    },
+    {
+      "id": "s112",
+      "text": "First we must have lots of hot water."
+    },
+    {
+      "id": "s113",
+      "text": "I declare, Diana, there isn’t more than a cupful in the kettle!"
+    },
+    {
+      "id": "s114",
+      "text": "There, I’ve filled it up, and, Mary Joe, you may put some wood in the stove."
+    },
+    {
+      "id": "s115",
+      "text": "I don’t want to hurt your feelings but it seems to me you might have thought of this before if you’d any imagination."
+    },
+    {
+      "id": "s116",
+      "text": "Now, I’ll undress Minnie May and put her to bed and you try to find some soft flannel cloths, Diana."
+    },
+    {
+      "id": "s117",
+      "text": "I’m going to give her a dose of ipecac first of all.”"
+    },
+    {
+      "id": "s118",
+      "text": "Minnie May did not take kindly to the ipecac but Anne had not brought up three pairs of twins for nothing."
+    },
+    {
+      "id": "s119",
+      "text": "Down that ipecac went, not only once, but many times during the long, anxious night when the two little girls worked patiently over the suffering Minnie May, and Young Mary Joe, honestly anxious to do all she could, kept up a roaring fire and heated more water than would have been needed for a hospital of croupy babies."
+    },
+    {
+      "id": "s120",
+      "text": "It was three o’clock when Matthew came with a doctor, for he had been obliged to go all the way to Spencervale for one."
+    },
+    {
+      "id": "s121",
+      "text": "But the pressing need for assistance was past."
+    },
+    {
+      "id": "s122",
+      "text": "Minnie May was much better and was sleeping soundly."
+    },
+    {
+      "id": "s123",
+      "text": "“I was awfully near giving up in despair,” explained Anne."
+    },
+    {
+      "id": "s124",
+      "text": "“She got worse and worse until she was sicker than ever the Hammond twins were, even the last pair."
+    },
+    {
+      "id": "s125",
+      "text": "I actually thought she was going to choke to death."
+    },
+    {
+      "id": "s126",
+      "text": "I gave her every drop of ipecac in that bottle and when the last dose went down I said to myself--not to Diana or Young Mary Joe, because I didn’t want to worry them any more than they were worried, but I had to say it to myself just to relieve my feelings--‘This is the last lingering hope and I fear, tis a vain one.’ But in about three minutes she coughed up the phlegm and began to get better right away."
+    },
+    {
+      "id": "s127",
+      "text": "You must just imagine my relief, doctor, because I can’t express it in words."
+    },
+    {
+      "id": "s128",
+      "text": "You know there are some things that cannot be expressed in words.”"
+    },
+    {
+      "id": "s129",
+      "text": "“Yes, I know,” nodded the doctor."
+    },
+    {
+      "id": "s130",
+      "text": "He looked at Anne as if he were thinking some things about her that couldn’t be expressed in words."
+    },
+    {
+      "id": "s131",
+      "text": "Later on, however, he expressed them to Mr. and Mrs."
+    },
+    {
+      "id": "s132",
+      "text": "Barry."
+    },
+    {
+      "id": "s133",
+      "text": "“That little redheaded girl they have over at Cuthbert’s is as smart as they make ‘em."
+    },
+    {
+      "id": "s134",
+      "text": "I tell you she saved that baby’s life, for it would have been too late by the time I got there."
+    },
+    {
+      "id": "s135",
+      "text": "She seems to have a skill and presence of mind perfectly wonderful in a child of her age."
+    },
+    {
+      "id": "s136",
+      "text": "I never saw anything like the eyes of her when she was explaining the case to me.”"
+    },
+    {
+      "id": "s137",
+      "text": "Anne had gone home in the wonderful, white-frosted winter morning, heavy eyed from loss of sleep, but still talking unweariedly to Matthew as they crossed the long white field and walked under the glittering fairy arch of the Lover’s Lane maples."
+    },
+    {
+      "id": "s138",
+      "text": "“Oh, Matthew, isn’t it a wonderful morning?"
+    },
+    {
+      "id": "s139",
+      "text": "The world looks like something God had just imagined for His own pleasure, doesn’t it?"
+    },
+    {
+      "id": "s140",
+      "text": "Those trees look as if I could blow them away with a breath--pouf!"
+    },
+    {
+      "id": "s141",
+      "text": "I’m so glad I live in a world where there are white frosts, aren’t you?"
+    },
+    {
+      "id": "s142",
+      "text": "And I’m so glad Mrs."
+    },
+    {
+      "id": "s143",
+      "text": "Hammond had three pairs of twins after all."
+    },
+    {
+      "id": "s144",
+      "text": "If she hadn’t I mightn’t have known what to do for Minnie May."
+    },
+    {
+      "id": "s145",
+      "text": "I’m real sorry I was ever cross with Mrs."
+    },
+    {
+      "id": "s146",
+      "text": "Hammond for having twins."
+    },
+    {
+      "id": "s147",
+      "text": "But, oh, Matthew, I’m so sleepy."
+    },
+    {
+      "id": "s148",
+      "text": "I can’t go to school."
+    },
+    {
+      "id": "s149",
+      "text": "I just know I couldn’t keep my eyes open and I’d be so stupid."
+    },
+    {
+      "id": "s150",
+      "text": "But I hate to stay home, for Gil--some of the others will get head of the class, and it’s so hard to get up again--although of course the harder it is the more satisfaction you have when you do get up, haven’t you?”"
+    },
+    {
+      "id": "s151",
+      "text": "“Well now, I guess you’ll manage all right,” said Matthew, looking at Anne’s white little face and the dark shadows under her eyes."
+    },
+    {
+      "id": "s152",
+      "text": "“You just go right to bed and have a good sleep."
+    },
+    {
+      "id": "s153",
+      "text": "I’ll do all the chores.”"
+    },
+    {
+      "id": "s154",
+      "text": "Anne accordingly went to bed and slept so long and soundly that it was well on in the white and rosy winter afternoon when she awoke and descended to the kitchen where Marilla, who had arrived home in the meantime, was sitting knitting."
+    },
+    {
+      "id": "s155",
+      "text": "“Oh, did you see the Premier?” exclaimed Anne at once."
+    },
+    {
+      "id": "s156",
+      "text": "“What did he look like Marilla?”"
+    },
+    {
+      "id": "s157",
+      "text": "“Well, he never got to be Premier on account of his looks,” said Marilla."
+    },
+    {
+      "id": "s158",
+      "text": "“Such a nose as that man had!"
+    },
+    {
+      "id": "s159",
+      "text": "But he can speak."
+    },
+    {
+      "id": "s160",
+      "text": "I was proud of being a Conservative."
+    },
+    {
+      "id": "s161",
+      "text": "Rachel Lynde, of course, being a Liberal, had no use for him."
+    },
+    {
+      "id": "s162",
+      "text": "Your dinner is in the oven, Anne, and you can get yourself some blue plum preserve out of the pantry."
+    },
+    {
+      "id": "s163",
+      "text": "I guess you’re hungry."
+    },
+    {
+      "id": "s164",
+      "text": "Matthew has been telling me about last night."
+    },
+    {
+      "id": "s165",
+      "text": "I must say it was fortunate you knew what to do."
+    },
+    {
+      "id": "s166",
+      "text": "I wouldn’t have had any idea myself, for I never saw a case of croup."
+    },
+    {
+      "id": "s167",
+      "text": "There now, never mind talking till you’ve had your dinner."
+    },
+    {
+      "id": "s168",
+      "text": "I can tell by the look of you that you’re just full up with speeches, but they’ll keep.”"
+    },
+    {
+      "id": "s169",
+      "text": "Marilla had something to tell Anne, but she did not tell it just then for she knew if she did Anne’s consequent excitement would lift her clear out of the region of such material matters as appetite or dinner."
+    },
+    {
+      "id": "s170",
+      "text": "Not until Anne had finished her saucer of blue plums did Marilla say:"
+    },
+    {
+      "id": "s171",
+      "text": "“Mrs."
+    },
+    {
+      "id": "s172",
+      "text": "Barry was here this afternoon, Anne."
+    },
+    {
+      "id": "s173",
+      "text": "She wanted to see you, but I wouldn’t wake you up."
+    },
+    {
+      "id": "s174",
+      "text": "She says you saved Minnie May’s life, and she is very sorry she acted as she did in that affair of the currant wine."
+    },
+    {
+      "id": "s175",
+      "text": "She says she knows now you didn’t mean to set Diana drunk, and she hopes you’ll forgive her and be good friends with Diana again."
+    },
+    {
+      "id": "s176",
+      "text": "You’re to go over this evening if you like for Diana can’t stir outside the door on account of a bad cold she caught last night."
+    },
+    {
+      "id": "s177",
+      "text": "Now, Anne Shirley, for pity’s sake don’t fly up into the air.”"
+    },
+    {
+      "id": "s178",
+      "text": "The warning seemed not unnecessary, so uplifted and aerial was Anne’s expression and attitude as she sprang to her feet, her face irradiated with the flame of her spirit."
+    },
+    {
+      "id": "s179",
+      "text": "“Oh, Marilla, can I go right now--without washing my dishes?"
+    },
+    {
+      "id": "s180",
+      "text": "I’ll wash them when I come back, but I cannot tie myself down to anything so unromantic as dishwashing at this thrilling moment.”"
+    },
+    {
+      "id": "s181",
+      "text": "“Yes, yes, run along,” said Marilla indulgently."
+    },
+    {
+      "id": "s182",
+      "text": "“Anne Shirley--are you crazy?"
+    },
+    {
+      "id": "s183",
+      "text": "Come back this instant and put something on you."
+    },
+    {
+      "id": "s184",
+      "text": "I might as well call to the wind."
+    },
+    {
+      "id": "s185",
+      "text": "She’s gone without a cap or wrap."
+    },
+    {
+      "id": "s186",
+      "text": "Look at her tearing through the orchard with her hair streaming."
+    },
+    {
+      "id": "s187",
+      "text": "It’ll be a mercy if she doesn’t catch her death of cold.”"
+    },
+    {
+      "id": "s188",
+      "text": "Anne came dancing home in the purple winter twilight across the snowy places."
+    },
+    {
+      "id": "s189",
+      "text": "Afar in the southwest was the great shimmering, pearl-like sparkle of an evening star in a sky that was pale golden and ethereal rose over gleaming white spaces and dark glens of spruce."
+    },
+    {
+      "id": "s190",
+      "text": "The tinkles of sleigh bells among the snowy hills came like elfin chimes through the frosty air, but their music was not sweeter than the song in Anne’s heart and on her lips."
+    },
+    {
+      "id": "s191",
+      "text": "“You see before you a perfectly happy person, Marilla,” she announced."
+    },
+    {
+      "id": "s192",
+      "text": "“I’m perfectly happy--yes, in spite of my red hair."
+    },
+    {
+      "id": "s193",
+      "text": "Just at present I have a soul above red hair."
+    },
+    {
+      "id": "s194",
+      "text": "Mrs."
+    },
+    {
+      "id": "s195",
+      "text": "Barry kissed me and cried and said she was so sorry and she could never repay me."
+    },
+    {
+      "id": "s196",
+      "text": "I felt fearfully embarrassed, Marilla, but I just said as politely as I could, ‘I have no hard feelings for you, Mrs."
+    },
+    {
+      "id": "s197",
+      "text": "Barry."
+    },
+    {
+      "id": "s198",
+      "text": "I assure you once for all that I did not mean to intoxicate Diana and henceforth I shall cover the past with the mantle of oblivion.’ That was a pretty dignified way of speaking wasn’t it, Marilla?”"
+    },
+    {
+      "id": "s199",
+      "text": "“I felt that I was heaping coals of fire on Mrs."
+    },
+    {
+      "id": "s200",
+      "text": "Barry’s head."
+    },
+    {
+      "id": "s201",
+      "text": "And Diana and I had a lovely afternoon."
+    },
+    {
+      "id": "s202",
+      "text": "Diana showed me a new fancy crochet stitch her aunt over at Carmody taught her."
+    },
+    {
+      "id": "s203",
+      "text": "Not a soul in Avonlea knows it but us, and we pledged a solemn vow never to reveal it to anyone else."
+    },
+    {
+      "id": "s204",
+      "text": "Diana gave me a beautiful card with a wreath of roses on it and a verse of poetry:”"
+    },
+    {
+      "id": "s205",
+      "text": "“If you love me as I love you Nothing but death can part us two.”"
+    },
+    {
+      "id": "s206",
+      "text": "“And that is true, Marilla."
+    },
+    {
+      "id": "s207",
+      "text": "We’re going to ask Mr."
+    },
+    {
+      "id": "s208",
+      "text": "Phillips to let us sit together in school again, and Gertie Pye can go with Minnie Andrews."
+    },
+    {
+      "id": "s209",
+      "text": "We had an elegant tea."
+    },
+    {
+      "id": "s210",
+      "text": "Mrs."
+    },
+    {
+      "id": "s211",
+      "text": "Barry had the very best china set out, Marilla, just as if I was real company."
+    },
+    {
+      "id": "s212",
+      "text": "I can’t tell you what a thrill it gave me."
+    },
+    {
+      "id": "s213",
+      "text": "Nobody ever used their very best china on my account before."
+    },
+    {
+      "id": "s214",
+      "text": "And we had fruit cake and pound cake and doughnuts and two kinds of preserves, Marilla."
+    },
+    {
+      "id": "s215",
+      "text": "And Mrs."
+    },
+    {
+      "id": "s216",
+      "text": "Barry asked me if I took tea and said ‘Pa, why don’t you pass the biscuits to Anne?’ It must be lovely to be grown up, Marilla, when just being treated as if you were is so nice.”"
+    },
+    {
+      "id": "s217",
+      "text": "“I don’t know about that,” said Marilla, with a brief sigh."
+    },
+    {
+      "id": "s218",
+      "text": "“Well, anyway, when I am grown up,” said Anne decidedly, “I’m always going to talk to little girls as if they were too, and I’ll never laugh when they use big words."
+    },
+    {
+      "id": "s219",
+      "text": "I know from sorrowful experience how that hurts one’s feelings."
+    },
+    {
+      "id": "s220",
+      "text": "After tea Diana and I made taffy."
+    },
+    {
+      "id": "s221",
+      "text": "The taffy wasn’t very good, I suppose because neither Diana nor I had ever made any before."
+    },
+    {
+      "id": "s222",
+      "text": "Diana left me to stir it while she buttered the plates and I forgot and let it burn; and then when we set it out on the platform to cool the cat walked over one plate and that had to be thrown away."
+    },
+    {
+      "id": "s223",
+      "text": "But the making of it was splendid fun."
+    },
+    {
+      "id": "s224",
+      "text": "Then when I came home Mrs."
+    },
+    {
+      "id": "s225",
+      "text": "Barry asked me to come over as often as I could and Diana stood at the window and threw kisses to me all the way down to Lover’s Lane."
+    },
+    {
+      "id": "s226",
+      "text": "I assure you, Marilla, that I feel like praying tonight and I’m going to think out a special brand-new prayer in honor of the occasion.”"
+    }
+  ]
+}

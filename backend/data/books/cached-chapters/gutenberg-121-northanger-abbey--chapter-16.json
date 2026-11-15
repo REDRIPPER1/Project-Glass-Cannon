@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-121-northanger-abbey",
+  "ebookId": "121",
+  "edition": "Project Gutenberg eBook #121; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-16",
+  "chapterTitle": "CHAPTER 16",
+  "contentHash": "sha256:40dc923b8207a499f1b720d29e4c14b732f6733aa9bb88ed6234500954914374",
+  "attribution": "Austen, Jane, 1775-1817, Northanger Abbey, CHAPTER 16. Source checked against Project Gutenberg eBook #121.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/121",
+    "textUrl": "https://www.gutenberg.org/cache/epub/121/pg121.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Catherine’s expectations of pleasure from her visit in Milsom Street were so very high that disappointment was inevitable; and accordingly, though she was most politely received by General Tilney, and kindly welcomed by his daughter, though Henry was at home, and no one else of the party, she found, on her return, without spending many hours in the examination of her feelings, that she had gone to her appointment preparing for happiness which it had not afforded."
+    },
+    {
+      "id": "s2",
+      "text": "Instead of finding herself improved in acquaintance with Miss Tilney, from the intercourse of the day, she seemed hardly so intimate with her as before; instead of seeing Henry Tilney to greater advantage than ever, in the ease of a family party, he had never said so little, nor been so little agreeable; and, in spite of their father’s great civilities to her—in spite of his thanks, invitations, and compliments—it had been a release to get away from him."
+    },
+    {
+      "id": "s3",
+      "text": "It puzzled her to account for all this."
+    },
+    {
+      "id": "s4",
+      "text": "It could not be General Tilney’s fault."
+    },
+    {
+      "id": "s5",
+      "text": "That he was perfectly agreeable and good-natured, and altogether a very charming man, did not admit of a doubt, for he was tall and handsome, and Henry’s father. _He_ could not be accountable for his children’s want of spirits, or for her want of enjoyment in his company."
+    },
+    {
+      "id": "s6",
+      "text": "The former she hoped at last might have been accidental, and the latter she could only attribute to her own stupidity."
+    },
+    {
+      "id": "s7",
+      "text": "Isabella, on hearing the particulars of the visit, gave a different explanation: “It was all pride, pride, insufferable haughtiness and pride! she had long suspected the family to be very high, and this made it certain."
+    },
+    {
+      "id": "s8",
+      "text": "Such insolence of behaviour as Miss Tilney’s she had never heard of in her life! not to do the honours of her house with common good breeding! to behave to her guest with such superciliousness! hardly even to speak to her!”"
+    },
+    {
+      "id": "s9",
+      "text": "“But it was not so bad as that, Isabella; there was no superciliousness; she was very civil.”"
+    },
+    {
+      "id": "s10",
+      "text": "“Oh, don’t defend her! and then the brother, he, who had appeared so attached to you! good heavens! well, some people’s feelings are incomprehensible."
+    },
+    {
+      "id": "s11",
+      "text": "And so he hardly looked once at you the whole day?”"
+    },
+    {
+      "id": "s12",
+      "text": "“I do not say so; but he did not seem in good spirits.”"
+    },
+    {
+      "id": "s13",
+      "text": "“How contemptible! of all things in the world inconstancy is my aversion."
+    },
+    {
+      "id": "s14",
+      "text": "Let me entreat you never to think of him again, my dear Catherine; indeed he is unworthy of you.”"
+    },
+    {
+      "id": "s15",
+      "text": "“Unworthy! i do not suppose he ever thinks of me.”"
+    },
+    {
+      "id": "s16",
+      "text": "“That is exactly what I say; he never thinks of you."
+    },
+    {
+      "id": "s17",
+      "text": "Such fickleness!"
+    },
+    {
+      "id": "s18",
+      "text": "Oh! how different to your brother and to mine! i really believe John has the most constant heart.”"
+    },
+    {
+      "id": "s19",
+      "text": "“But as for General Tilney, I assure you it would be impossible for anybody to behave to me with greater civility and attention; it seemed to be his only care to entertain and make me happy.”"
+    },
+    {
+      "id": "s20",
+      "text": "“Oh! i know no harm of him; I do not suspect him of pride."
+    },
+    {
+      "id": "s21",
+      "text": "I believe he is a very gentleman-like man."
+    },
+    {
+      "id": "s22",
+      "text": "John thinks very well of him, and John’s judgment—”"
+    },
+    {
+      "id": "s23",
+      "text": "“Well, I shall see how they behave to me this evening; we shall meet them at the rooms.”"
+    },
+    {
+      "id": "s24",
+      "text": "“And must I go?”"
+    },
+    {
+      "id": "s25",
+      "text": "“Do not you intend it?"
+    },
+    {
+      "id": "s26",
+      "text": "I thought it was all settled.”"
+    },
+    {
+      "id": "s27",
+      "text": "“Nay, since you make such a point of it, I can refuse you nothing."
+    },
+    {
+      "id": "s28",
+      "text": "But do not insist upon my being very agreeable, for my heart, you know, will be some forty miles off."
+    },
+    {
+      "id": "s29",
+      "text": "And as for dancing, do not mention it, I beg; _that_ is quite out of the question."
+    },
+    {
+      "id": "s30",
+      "text": "Charles Hodges will plague me to death, I dare say; but I shall cut him very short."
+    },
+    {
+      "id": "s31",
+      "text": "Ten to one but he guesses the reason, and that is exactly what I want to avoid, so I shall insist on his keeping his conjecture to himself.”"
+    },
+    {
+      "id": "s32",
+      "text": "Isabella’s opinion of the Tilneys did not influence her friend; she was sure there had been no insolence in the manners either of brother or sister; and she did not credit there being any pride in their hearts."
+    },
+    {
+      "id": "s33",
+      "text": "The evening rewarded her confidence; she was met by one with the same kindness, and by the other with the same attention, as heretofore: Miss Tilney took pains to be near her, and Henry asked her to dance."
+    },
+    {
+      "id": "s34",
+      "text": "Having heard the day before in Milsom Street that their elder brother, Captain Tilney, was expected almost every hour, she was at no loss for the name of a very fashionable-looking, handsome young man, whom she had never seen before, and who now evidently belonged to their party."
+    },
+    {
+      "id": "s35",
+      "text": "She looked at him with great admiration, and even supposed it possible that some people might think him handsomer than his brother, though, in her eyes, his air was more assuming, and his countenance less prepossessing."
+    },
+    {
+      "id": "s36",
+      "text": "His taste and manners were beyond a doubt decidedly inferior; for, within her hearing, he not only protested against every thought of dancing himself, but even laughed openly at Henry for finding it possible."
+    },
+    {
+      "id": "s37",
+      "text": "From the latter circumstance it may be presumed that, whatever might be our heroine’s opinion of him, his admiration of her was not of a very dangerous kind; not likely to produce animosities between the brothers, nor persecutions to the lady. _He_ cannot be the instigator of the three villains in horsemen’s greatcoats, by whom she will hereafter be forced into a traveling-chaise and four, which will drive off with incredible speed."
+    },
+    {
+      "id": "s38",
+      "text": "Catherine, meanwhile, undisturbed by presentiments of such an evil, or of any evil at all, except that of having but a short set to dance down, enjoyed her usual happiness with Henry Tilney, listening with sparkling eyes to everything he said; and, in finding him irresistible, becoming so herself."
+    },
+    {
+      "id": "s39",
+      "text": "At the end of the first dance, Captain Tilney came towards them again, and, much to Catherine’s dissatisfaction, pulled his brother away."
+    },
+    {
+      "id": "s40",
+      "text": "They retired whispering together; and, though her delicate sensibility did not take immediate alarm, and lay it down as fact, that Captain Tilney must have heard some malevolent misrepresentation of her, which he now hastened to communicate to his brother, in the hope of separating them forever, she could not have her partner conveyed from her sight without very uneasy sensations."
+    },
+    {
+      "id": "s41",
+      "text": "Her suspense was of full five minutes’ duration; and she was beginning to think it a very long quarter of an hour, when they both returned, and an explanation was given, by Henry’s requesting to know, if she thought her friend, Miss Thorpe, would have any objection to dancing, as his brother would be most happy to be introduced to her."
+    },
+    {
+      "id": "s42",
+      "text": "Catherine, without hesitation, replied that she was very sure Miss Thorpe did not mean to dance at all."
+    },
+    {
+      "id": "s43",
+      "text": "The cruel reply was passed on to the other, and he immediately walked away."
+    },
+    {
+      "id": "s44",
+      "text": "“Your brother will not mind it, I know,” said she, “because I heard him say before that he hated dancing; but it was very good-natured in him to think of it."
+    },
+    {
+      "id": "s45",
+      "text": "I suppose he saw Isabella sitting down, and fancied she might wish for a partner; but he is quite mistaken, for she would not dance upon any account in the world.”"
+    },
+    {
+      "id": "s46",
+      "text": "Henry smiled, and said, “How very little trouble it can give you to understand the motive of other people’s actions.”"
+    },
+    {
+      "id": "s47",
+      "text": "“Why?"
+    },
+    {
+      "id": "s48",
+      "text": "What do you mean?”"
+    },
+    {
+      "id": "s49",
+      "text": "“With you, it is not, How is such a one likely to be influenced, What is the inducement most likely to act upon such a person’s feelings, age, situation, and probable habits of life considered—but, How should _I_ be influenced, What would be _my_ inducement in acting so and so?”"
+    },
+    {
+      "id": "s50",
+      "text": "“I do not understand you.”"
+    },
+    {
+      "id": "s51",
+      "text": "“Then we are on very unequal terms, for I understand you perfectly well.”"
+    },
+    {
+      "id": "s52",
+      "text": "“Me?"
+    },
+    {
+      "id": "s53",
+      "text": "Yes; I cannot speak well enough to be unintelligible.”"
+    },
+    {
+      "id": "s54",
+      "text": "“Bravo! an excellent satire on modern language.”"
+    },
+    {
+      "id": "s55",
+      "text": "“But pray tell me what you mean.”"
+    },
+    {
+      "id": "s56",
+      "text": "“Shall I indeed?"
+    },
+    {
+      "id": "s57",
+      "text": "Do you really desire it?"
+    },
+    {
+      "id": "s58",
+      "text": "But you are not aware of the consequences; it will involve you in a very cruel embarrassment, and certainly bring on a disagreement between us.”"
+    },
+    {
+      "id": "s59",
+      "text": "“No, no; it shall not do either; I am not afraid.”"
+    },
+    {
+      "id": "s60",
+      "text": "“Well, then, I only meant that your attributing my brother’s wish of dancing with Miss Thorpe to good nature alone convinced me of your being superior in good nature yourself to all the rest of the world.”"
+    },
+    {
+      "id": "s61",
+      "text": "Catherine blushed and disclaimed, and the gentleman’s predictions were verified."
+    },
+    {
+      "id": "s62",
+      "text": "There was a something, however, in his words which repaid her for the pain of confusion; and that something occupied her mind so much that she drew back for some time, forgetting to speak or to listen, and almost forgetting where she was; till, roused by the voice of Isabella, she looked up and saw her with Captain Tilney preparing to give them hands across."
+    },
+    {
+      "id": "s63",
+      "text": "Isabella shrugged her shoulders and smiled, the only explanation of this extraordinary change which could at that time be given; but as it was not quite enough for Catherine’s comprehension, she spoke her astonishment in very plain terms to her partner."
+    },
+    {
+      "id": "s64",
+      "text": "“I cannot think how it could happen! isabella was so determined not to dance.”"
+    },
+    {
+      "id": "s65",
+      "text": "“And did Isabella never change her mind before?”"
+    },
+    {
+      "id": "s66",
+      "text": "“Oh! but, because—And your brother! after what you told him from me, how could he think of going to ask her?”"
+    },
+    {
+      "id": "s67",
+      "text": "“I cannot take surprise to myself on that head."
+    },
+    {
+      "id": "s68",
+      "text": "You bid me be surprised on your friend’s account, and therefore I am; but as for my brother, his conduct in the business, I must own, has been no more than I believed him perfectly equal to."
+    },
+    {
+      "id": "s69",
+      "text": "The fairness of your friend was an open attraction; her firmness, you know, could only be understood by yourself.”"
+    },
+    {
+      "id": "s70",
+      "text": "“You are laughing; but, I assure you, Isabella is very firm in general.”"
+    },
+    {
+      "id": "s71",
+      "text": "“It is as much as should be said of anyone."
+    },
+    {
+      "id": "s72",
+      "text": "To be always firm must be to be often obstinate."
+    },
+    {
+      "id": "s73",
+      "text": "When properly to relax is the trial of judgment; and, without reference to my brother, I really think Miss Thorpe has by no means chosen ill in fixing on the present hour.”"
+    },
+    {
+      "id": "s74",
+      "text": "The friends were not able to get together for any confidential discourse till all the dancing was over; but then, as they walked about the room arm in arm, Isabella thus explained herself: “I do not wonder at your surprise; and I am really fatigued to death."
+    },
+    {
+      "id": "s75",
+      "text": "He is such a rattle! amusing enough, if my mind had been disengaged; but I would have given the world to sit still.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Then why did not you?”"
+    },
+    {
+      "id": "s77",
+      "text": "“Oh! my dear! it would have looked so particular; and you know how I abhor doing that."
+    },
+    {
+      "id": "s78",
+      "text": "I refused him as long as I possibly could, but he would take no denial."
+    },
+    {
+      "id": "s79",
+      "text": "You have no idea how he pressed me."
+    },
+    {
+      "id": "s80",
+      "text": "I begged him to excuse me, and get some other partner—but no, not he; after aspiring to my hand, there was nobody else in the room he could bear to think of; and it was not that he wanted merely to dance, he wanted to be with me."
+    },
+    {
+      "id": "s81",
+      "text": "Oh! such nonsense! i told him he had taken a very unlikely way to prevail upon me; for, of all things in the world, I hated fine speeches and compliments; and so—and so then I found there would be no peace if I did not stand up."
+    },
+    {
+      "id": "s82",
+      "text": "Besides, I thought Mrs."
+    },
+    {
+      "id": "s83",
+      "text": "Hughes, who introduced him, might take it ill if I did not: and your dear brother, I am sure he would have been miserable if I had sat down the whole evening."
+    },
+    {
+      "id": "s84",
+      "text": "I am so glad it is over! my spirits are quite jaded with listening to his nonsense: and then, being such a smart young fellow, I saw every eye was upon us.”"
+    },
+    {
+      "id": "s85",
+      "text": "“He is very handsome indeed.”"
+    },
+    {
+      "id": "s86",
+      "text": "“Handsome! yes, I suppose he may."
+    },
+    {
+      "id": "s87",
+      "text": "I dare say people would admire him in general; but he is not at all in my style of beauty."
+    },
+    {
+      "id": "s88",
+      "text": "I hate a florid complexion and dark eyes in a man."
+    },
+    {
+      "id": "s89",
+      "text": "However, he is very well."
+    },
+    {
+      "id": "s90",
+      "text": "Amazingly conceited, I am sure."
+    },
+    {
+      "id": "s91",
+      "text": "I took him down several times, you know, in my way.”"
+    },
+    {
+      "id": "s92",
+      "text": "When the young ladies next met, they had a far more interesting subject to discuss."
+    },
+    {
+      "id": "s93",
+      "text": "James Morland’s second letter was then received, and the kind intentions of his father fully explained."
+    },
+    {
+      "id": "s94",
+      "text": "A living, of which Mr."
+    },
+    {
+      "id": "s95",
+      "text": "Morland was himself patron and incumbent, of about four hundred pounds yearly value, was to be resigned to his son as soon as he should be old enough to take it; no trifling deduction from the family income, no niggardly assignment to one of ten children."
+    },
+    {
+      "id": "s96",
+      "text": "An estate of at least equal value, moreover, was assured as his future inheritance."
+    },
+    {
+      "id": "s97",
+      "text": "James expressed himself on the occasion with becoming gratitude; and the necessity of waiting between two and three years before they could marry, being, however unwelcome, no more than he had expected, was borne by him without discontent."
+    },
+    {
+      "id": "s98",
+      "text": "Catherine, whose expectations had been as unfixed as her ideas of her father’s income, and whose judgment was now entirely led by her brother, felt equally well satisfied, and heartily congratulated Isabella on having everything so pleasantly settled."
+    },
+    {
+      "id": "s99",
+      "text": "“It is very charming indeed,” said Isabella, with a grave face."
+    },
+    {
+      "id": "s100",
+      "text": "“Mr."
+    },
+    {
+      "id": "s101",
+      "text": "Morland has behaved vastly handsome indeed,” said the gentle Mrs."
+    },
+    {
+      "id": "s102",
+      "text": "Thorpe, looking anxiously at her daughter."
+    },
+    {
+      "id": "s103",
+      "text": "“I only wish I could do as much."
+    },
+    {
+      "id": "s104",
+      "text": "One could not expect more from him, you know."
+    },
+    {
+      "id": "s105",
+      "text": "If he finds he _can_ do more by and by, I dare say he will, for I am sure he must be an excellent good-hearted man."
+    },
+    {
+      "id": "s106",
+      "text": "Four hundred is but a small income to begin on indeed, but your wishes, my dear Isabella, are so moderate, you do not consider how little you ever want, my dear.”"
+    },
+    {
+      "id": "s107",
+      "text": "“It is not on my own account I wish for more; but I cannot bear to be the means of injuring my dear Morland, making him sit down upon an income hardly enough to find one in the common necessaries of life."
+    },
+    {
+      "id": "s108",
+      "text": "For myself, it is nothing; I never think of myself.”"
+    },
+    {
+      "id": "s109",
+      "text": "“I know you never do, my dear; and you will always find your reward in the affection it makes everybody feel for you."
+    },
+    {
+      "id": "s110",
+      "text": "There never was a young woman so beloved as you are by everybody that knows you; and I dare say when Mr."
+    },
+    {
+      "id": "s111",
+      "text": "Morland sees you, my dear child—but do not let us distress our dear Catherine by talking of such things."
+    },
+    {
+      "id": "s112",
+      "text": "Mr."
+    },
+    {
+      "id": "s113",
+      "text": "Morland has behaved so very handsome, you know."
+    },
+    {
+      "id": "s114",
+      "text": "I always heard he was a most excellent man; and you know, my dear, we are not to suppose but what, if you had had a suitable fortune, he would have come down with something more, for I am sure he must be a most liberal-minded man.”"
+    },
+    {
+      "id": "s115",
+      "text": "“Nobody can think better of Mr."
+    },
+    {
+      "id": "s116",
+      "text": "Morland than I do, I am sure."
+    },
+    {
+      "id": "s117",
+      "text": "But everybody has their failing, you know, and everybody has a right to do what they like with their own money.”"
+    },
+    {
+      "id": "s118",
+      "text": "Catherine was hurt by these insinuations."
+    },
+    {
+      "id": "s119",
+      "text": "“I am very sure,” said she, “that my father has promised to do as much as he can afford.”"
+    },
+    {
+      "id": "s120",
+      "text": "Isabella recollected herself."
+    },
+    {
+      "id": "s121",
+      "text": "“As to that, my sweet Catherine, there cannot be a doubt, and you know me well enough to be sure that a much smaller income would satisfy me."
+    },
+    {
+      "id": "s122",
+      "text": "It is not the want of more money that makes me just at present a little out of spirits; I hate money; and if our union could take place now upon only fifty pounds a year, I should not have a wish unsatisfied."
+    },
+    {
+      "id": "s123",
+      "text": "Ah! my Catherine, you have found me out."
+    },
+    {
+      "id": "s124",
+      "text": "There’s the sting."
+    },
+    {
+      "id": "s125",
+      "text": "The long, long, endless two years and a half that are to pass before your brother can hold the living.”"
+    },
+    {
+      "id": "s126",
+      "text": "“Yes, yes, my darling Isabella,” said Mrs."
+    },
+    {
+      "id": "s127",
+      "text": "Thorpe, “we perfectly see into your heart."
+    },
+    {
+      "id": "s128",
+      "text": "You have no disguise."
+    },
+    {
+      "id": "s129",
+      "text": "We perfectly understand the present vexation; and everybody must love you the better for such a noble honest affection.”"
+    },
+    {
+      "id": "s130",
+      "text": "Catherine’s uncomfortable feelings began to lessen."
+    },
+    {
+      "id": "s131",
+      "text": "She endeavoured to believe that the delay of the marriage was the only source of Isabella’s regret; and when she saw her at their next interview as cheerful and amiable as ever, endeavoured to forget that she had for a minute thought otherwise."
+    },
+    {
+      "id": "s132",
+      "text": "James soon followed his letter, and was received with the most gratifying kindness."
+    }
+  ]
+}

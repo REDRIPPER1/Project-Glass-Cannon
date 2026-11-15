@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-34",
+  "chapterTitle": "CHAPTER XXXIV.",
+  "contentHash": "sha256:b1ab01533e7b8861aeab1e0c87657c65864ef91c3c84c4aedb648fedc89f1a18",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER XXXIV.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "We stopped talking, and got to thinking."
+    },
+    {
+      "id": "s2",
+      "text": "By-and-by Tom says:"
+    },
+    {
+      "id": "s3",
+      "text": "“Looky here, Huck, what fools we are to not think of it before!"
+    },
+    {
+      "id": "s4",
+      "text": "I bet I know where Jim is.”"
+    },
+    {
+      "id": "s5",
+      "text": "“No!"
+    },
+    {
+      "id": "s6",
+      "text": "Where?”"
+    },
+    {
+      "id": "s7",
+      "text": "“In that hut down by the ash-hopper."
+    },
+    {
+      "id": "s8",
+      "text": "Why, looky here."
+    },
+    {
+      "id": "s9",
+      "text": "When we was at dinner, didn’t you see a nigger man go in there with some vittles?”"
+    },
+    {
+      "id": "s10",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s11",
+      "text": "“What did you think the vittles was for?”"
+    },
+    {
+      "id": "s12",
+      "text": "“For a dog.”"
+    },
+    {
+      "id": "s13",
+      "text": "“So’d I."
+    },
+    {
+      "id": "s14",
+      "text": "Well, it wasn’t for a dog.”"
+    },
+    {
+      "id": "s15",
+      "text": "“Why?”"
+    },
+    {
+      "id": "s16",
+      "text": "“Because part of it was watermelon.”"
+    },
+    {
+      "id": "s17",
+      "text": "“So it was—I noticed it."
+    },
+    {
+      "id": "s18",
+      "text": "Well, it does beat all that I never thought about a dog not eating watermelon."
+    },
+    {
+      "id": "s19",
+      "text": "It shows how a body can see and don’t see at the same time.”"
+    },
+    {
+      "id": "s20",
+      "text": "“Well, the nigger unlocked the padlock when he went in, and he locked it again when he came out."
+    },
+    {
+      "id": "s21",
+      "text": "He fetched uncle a key about the time we got up from table—same key, I bet."
+    },
+    {
+      "id": "s22",
+      "text": "Watermelon shows man, lock shows prisoner; and it ain’t likely there’s two prisoners on such a little plantation, and where the people’s all so kind and good."
+    },
+    {
+      "id": "s23",
+      "text": "Jim’s the prisoner."
+    },
+    {
+      "id": "s24",
+      "text": "All right—I’m glad we found it out detective fashion; I wouldn’t give shucks for any other way."
+    },
+    {
+      "id": "s25",
+      "text": "Now you work your mind, and study out a plan to steal Jim, and I will study out one, too; and we’ll take the one we like the best.”"
+    },
+    {
+      "id": "s26",
+      "text": "What a head for just a boy to have!"
+    },
+    {
+      "id": "s27",
+      "text": "If I had Tom Sawyer’s head I wouldn’t trade it off to be a duke, nor mate of a steamboat, nor clown in a circus, nor nothing I can think of."
+    },
+    {
+      "id": "s28",
+      "text": "I went to thinking out a plan, but only just to be doing something; I knowed very well where the right plan was going to come from."
+    },
+    {
+      "id": "s29",
+      "text": "Pretty soon Tom says:"
+    },
+    {
+      "id": "s30",
+      "text": "“Ready?”"
+    },
+    {
+      "id": "s31",
+      "text": "“Yes,” I says."
+    },
+    {
+      "id": "s32",
+      "text": "“All right—bring it out.”"
+    },
+    {
+      "id": "s33",
+      "text": "“My plan is this,” I says."
+    },
+    {
+      "id": "s34",
+      "text": "“We can easy find out if it’s Jim in there."
+    },
+    {
+      "id": "s35",
+      "text": "Then get up my canoe to-morrow night, and fetch my raft over from the island."
+    },
+    {
+      "id": "s36",
+      "text": "Then the first dark night that comes steal the key out of the old man’s britches after he goes to bed, and shove off down the river on the raft with Jim, hiding daytimes and running nights, the way me and Jim used to do before."
+    },
+    {
+      "id": "s37",
+      "text": "Wouldn’t that plan work?”"
+    },
+    {
+      "id": "s38",
+      "text": "“_Work?_ Why, cert’nly it would work, like rats a-fighting."
+    },
+    {
+      "id": "s39",
+      "text": "But it’s too blame’ simple; there ain’t nothing _to_ it."
+    },
+    {
+      "id": "s40",
+      "text": "What’s the good of a plan that ain’t no more trouble than that?"
+    },
+    {
+      "id": "s41",
+      "text": "It’s as mild as goose-milk."
+    },
+    {
+      "id": "s42",
+      "text": "Why, Huck, it wouldn’t make no more talk than breaking into a soap factory.”"
+    },
+    {
+      "id": "s43",
+      "text": "I never said nothing, because I warn’t expecting nothing different; but I knowed mighty well that whenever he got _his_ plan ready it wouldn’t have none of them objections to it."
+    },
+    {
+      "id": "s44",
+      "text": "And it didn’t."
+    },
+    {
+      "id": "s45",
+      "text": "He told me what it was, and I see in a minute it was worth fifteen of mine for style, and would make Jim just as free a man as mine would, and maybe get us all killed besides."
+    },
+    {
+      "id": "s46",
+      "text": "So I was satisfied, and said we would waltz in on it."
+    },
+    {
+      "id": "s47",
+      "text": "I needn’t tell what it was here, because I knowed it wouldn’t stay the way, it was."
+    },
+    {
+      "id": "s48",
+      "text": "I knowed he would be changing it around every which way as we went along, and heaving in new bullinesses wherever he got a chance."
+    },
+    {
+      "id": "s49",
+      "text": "And that is what he done."
+    },
+    {
+      "id": "s50",
+      "text": "Well, one thing was dead sure, and that was that Tom Sawyer was in earnest, and was actuly going to help steal that nigger out of slavery."
+    },
+    {
+      "id": "s51",
+      "text": "That was the thing that was too many for me."
+    },
+    {
+      "id": "s52",
+      "text": "Here was a boy that was respectable and well brung up; and had a character to lose; and folks at home that had characters; and he was bright and not leather-headed; and knowing and not ignorant; and not mean, but kind; and yet here he was, without any more pride, or rightness, or feeling, than to stoop to this business, and make himself a shame, and his family a shame, before everybody."
+    },
+    {
+      "id": "s53",
+      "text": "I _couldn’t_ understand it no way at all."
+    },
+    {
+      "id": "s54",
+      "text": "It was outrageous, and I knowed I ought to just up and tell him so; and so be his true friend, and let him quit the thing right where he was and save himself."
+    },
+    {
+      "id": "s55",
+      "text": "And I _did_ start to tell him; but he shut me up, and says:"
+    },
+    {
+      "id": "s56",
+      "text": "“Don’t you reckon I know what I’m about?"
+    },
+    {
+      "id": "s57",
+      "text": "Don’t I generly know what I’m about?”"
+    },
+    {
+      "id": "s58",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s59",
+      "text": "“Didn’t I _say_ I was going to help steal the nigger?”"
+    },
+    {
+      "id": "s60",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s61",
+      "text": "“_Well_, then.”"
+    },
+    {
+      "id": "s62",
+      "text": "That’s all he said, and that’s all I said."
+    },
+    {
+      "id": "s63",
+      "text": "It warn’t no use to say any more; because when he said he’d do a thing, he always done it."
+    },
+    {
+      "id": "s64",
+      "text": "But _I_ couldn’t make out how he was willing to go into this thing; so I just let it go, and never bothered no more about it."
+    },
+    {
+      "id": "s65",
+      "text": "If he was bound to have it so, _I_ couldn’t help it."
+    },
+    {
+      "id": "s66",
+      "text": "When we got home the house was all dark and still; so we went on down to the hut by the ash-hopper for to examine it."
+    },
+    {
+      "id": "s67",
+      "text": "We went through the yard so as to see what the hounds would do."
+    },
+    {
+      "id": "s68",
+      "text": "They knowed us, and didn’t make no more noise than country dogs is always doing when anything comes by in the night."
+    },
+    {
+      "id": "s69",
+      "text": "When we got to the cabin we took a look at the front and the two sides; and on the side I warn’t acquainted with—which was the north side—we found a square window-hole, up tolerable high, with just one stout board nailed across it."
+    },
+    {
+      "id": "s70",
+      "text": "I says:"
+    },
+    {
+      "id": "s71",
+      "text": "“Here’s the ticket."
+    },
+    {
+      "id": "s72",
+      "text": "This hole’s big enough for Jim to get through if we wrench off the board.”"
+    },
+    {
+      "id": "s73",
+      "text": "Tom says:"
+    },
+    {
+      "id": "s74",
+      "text": "“It’s as simple as tit-tat-toe, three-in-a-row, and as easy as playing hooky."
+    },
+    {
+      "id": "s75",
+      "text": "I should _hope_ we can find a way that’s a little more complicated than _that_, Huck Finn.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Well, then,” I says, “how’ll it do to saw him out, the way I done before I was murdered that time?”"
+    },
+    {
+      "id": "s77",
+      "text": "“That’s more _like_,” he says."
+    },
+    {
+      "id": "s78",
+      "text": "“It’s real mysterious, and troublesome, and good,” he says; “but I bet we can find a way that’s twice as long."
+    },
+    {
+      "id": "s79",
+      "text": "There ain’t no hurry; le’s keep on looking around.”"
+    },
+    {
+      "id": "s80",
+      "text": "Betwixt the hut and the fence, on the back side, was a lean-to that joined the hut at the eaves, and was made out of plank."
+    },
+    {
+      "id": "s81",
+      "text": "It was as long as the hut, but narrow—only about six foot wide."
+    },
+    {
+      "id": "s82",
+      "text": "The door to it was at the south end, and was padlocked."
+    },
+    {
+      "id": "s83",
+      "text": "Tom he went to the soap-kettle and searched around, and fetched back the iron thing they lift the lid with; so he took it and prized out one of the staples."
+    },
+    {
+      "id": "s84",
+      "text": "The chain fell down, and we opened the door and went in, and shut it, and struck a match, and see the shed was only built against a cabin and hadn’t no connection with it; and there warn’t no floor to the shed, nor nothing in it but some old rusty played-out hoes and spades and picks and a crippled plow."
+    },
+    {
+      "id": "s85",
+      "text": "The match went out, and so did we, and shoved in the staple again, and the door was locked as good as ever."
+    },
+    {
+      "id": "s86",
+      "text": "Tom was joyful."
+    },
+    {
+      "id": "s87",
+      "text": "He says;"
+    },
+    {
+      "id": "s88",
+      "text": "“Now we’re all right."
+    },
+    {
+      "id": "s89",
+      "text": "We’ll _dig_ him out."
+    },
+    {
+      "id": "s90",
+      "text": "It’ll take about a week!”"
+    },
+    {
+      "id": "s91",
+      "text": "Then we started for the house, and I went in the back door—you only have to pull a buckskin latch-string, they don’t fasten the doors—but that warn’t romantical enough for Tom Sawyer; no way would do him but he must climb up the lightning-rod."
+    },
+    {
+      "id": "s92",
+      "text": "But after he got up half way about three times, and missed fire and fell every time, and the last time most busted his brains out, he thought he’d got to give it up; but after he was rested he allowed he would give her one more turn for luck, and this time he made the trip."
+    },
+    {
+      "id": "s93",
+      "text": "In the morning we was up at break of day, and down to the nigger cabins to pet the dogs and make friends with the nigger that fed Jim—if it _was_ Jim that was being fed."
+    },
+    {
+      "id": "s94",
+      "text": "The niggers was just getting through breakfast and starting for the fields; and Jim’s nigger was piling up a tin pan with bread and meat and things; and whilst the others was leaving, the key come from the house."
+    },
+    {
+      "id": "s95",
+      "text": "This nigger had a good-natured, chuckle-headed face, and his wool was all tied up in little bunches with thread."
+    },
+    {
+      "id": "s96",
+      "text": "That was to keep witches off."
+    },
+    {
+      "id": "s97",
+      "text": "He said the witches was pestering him awful these nights, and making him see all kinds of strange things, and hear all kinds of strange words and noises, and he didn’t believe he was ever witched so long before in his life."
+    },
+    {
+      "id": "s98",
+      "text": "He got so worked up, and got to running on so about his troubles, he forgot all about what he’d been a-going to do."
+    },
+    {
+      "id": "s99",
+      "text": "So Tom says:"
+    },
+    {
+      "id": "s100",
+      "text": "“What’s the vittles for?"
+    },
+    {
+      "id": "s101",
+      "text": "Going to feed the dogs?”"
+    },
+    {
+      "id": "s102",
+      "text": "The nigger kind of smiled around gradually over his face, like when you heave a brickbat in a mud-puddle, and he says:"
+    },
+    {
+      "id": "s103",
+      "text": "“Yes, Mars Sid, _a_ dog."
+    },
+    {
+      "id": "s104",
+      "text": "Cur’us dog, too."
+    },
+    {
+      "id": "s105",
+      "text": "Does you want to go en look at ’im?”"
+    },
+    {
+      "id": "s106",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s107",
+      "text": "I hunched Tom, and whispers:"
+    },
+    {
+      "id": "s108",
+      "text": "“You going, right here in the daybreak? _That_ warn’t the plan.”"
+    },
+    {
+      "id": "s109",
+      "text": "“No, it warn’t; but it’s the plan _now_.”"
+    },
+    {
+      "id": "s110",
+      "text": "So, drat him, we went along, but I didn’t like it much."
+    },
+    {
+      "id": "s111",
+      "text": "When we got in we couldn’t hardly see anything, it was so dark; but Jim was there, sure enough, and could see us; and he sings out:"
+    },
+    {
+      "id": "s112",
+      "text": "“Why, _Huck!_ En good _lan_’! ain’ dat Misto Tom?”"
+    },
+    {
+      "id": "s113",
+      "text": "I just knowed how it would be; I just expected it. _I_ didn’t know nothing to do; and if I had I couldn’t a done it, because that nigger busted in and says:"
+    },
+    {
+      "id": "s114",
+      "text": "“Why, de gracious sakes! do he know you genlmen?”"
+    },
+    {
+      "id": "s115",
+      "text": "We could see pretty well now."
+    },
+    {
+      "id": "s116",
+      "text": "Tom he looked at the nigger, steady and kind of wondering, and says:"
+    },
+    {
+      "id": "s117",
+      "text": "“Does _who_ know us?”"
+    },
+    {
+      "id": "s118",
+      "text": "“Why, dis-yer runaway nigger.”"
+    },
+    {
+      "id": "s119",
+      "text": "“I don’t reckon he does; but what put that into your head?”"
+    },
+    {
+      "id": "s120",
+      "text": "“What _put_ it dar?"
+    },
+    {
+      "id": "s121",
+      "text": "Didn’ he jis’ dis minute sing out like he knowed you?”"
+    },
+    {
+      "id": "s122",
+      "text": "Tom says, in a puzzled-up kind of way:"
+    },
+    {
+      "id": "s123",
+      "text": "“Well, that’s mighty curious. _Who_ sung out? _When_ did he sing out? _what_ did he sing out?” And turns to me, perfectly ca’m, and says, “Did _you_ hear anybody sing out?”"
+    },
+    {
+      "id": "s124",
+      "text": "Of course there warn’t nothing to be said but the one thing; so I says:"
+    },
+    {
+      "id": "s125",
+      "text": "“No; _I_ ain’t heard nobody say nothing.”"
+    },
+    {
+      "id": "s126",
+      "text": "Then he turns to Jim, and looks him over like he never see him before, and says:"
+    },
+    {
+      "id": "s127",
+      "text": "“Did you sing out?”"
+    },
+    {
+      "id": "s128",
+      "text": "“No, sah,” says Jim; “_I_ hain’t said nothing, sah.”"
+    },
+    {
+      "id": "s129",
+      "text": "“Not a word?”"
+    },
+    {
+      "id": "s130",
+      "text": "“No, sah, I hain’t said a word.”"
+    },
+    {
+      "id": "s131",
+      "text": "“Did you ever see us before?”"
+    },
+    {
+      "id": "s132",
+      "text": "“No, sah; not as _I_ knows on.”"
+    },
+    {
+      "id": "s133",
+      "text": "So Tom turns to the nigger, which was looking wild and distressed, and says, kind of severe:"
+    },
+    {
+      "id": "s134",
+      "text": "“What do you reckon’s the matter with you, anyway?"
+    },
+    {
+      "id": "s135",
+      "text": "What made you think somebody sung out?”"
+    },
+    {
+      "id": "s136",
+      "text": "“Oh, it’s de dad-blame’ witches, sah, en I wisht I was dead, I do."
+    },
+    {
+      "id": "s137",
+      "text": "Dey’s awluz at it, sah, en dey do mos’ kill me, dey sk’yers me so."
+    },
+    {
+      "id": "s138",
+      "text": "Please to don’t tell nobody ’bout it sah, er ole Mars Silas he’ll scole me; ’kase he say dey _ain’t_ no witches."
+    },
+    {
+      "id": "s139",
+      "text": "I jis’ wish to goodness he was heah now—_den_ what would he say!"
+    },
+    {
+      "id": "s140",
+      "text": "I jis’ bet he couldn’ fine no way to git aroun’ it _dis_ time."
+    },
+    {
+      "id": "s141",
+      "text": "But it’s awluz jis’ so; people dat’s _sot_, stays sot; dey won’t look into noth’n’en fine it out f’r deyselves, en when _you_ fine it out en tell um ’bout it, dey doan’ b’lieve you.”"
+    },
+    {
+      "id": "s142",
+      "text": "Tom give him a dime, and said we wouldn’t tell nobody; and told him to buy some more thread to tie up his wool with; and then looks at Jim, and says:"
+    },
+    {
+      "id": "s143",
+      "text": "“I wonder if Uncle Silas is going to hang this nigger."
+    },
+    {
+      "id": "s144",
+      "text": "If I was to catch a nigger that was ungrateful enough to run away, _I_ wouldn’t give him up, I’d hang him.” And whilst the nigger stepped to the door to look at the dime and bite it to see if it was good, he whispers to Jim and says:"
+    },
+    {
+      "id": "s145",
+      "text": "“Don’t ever let on to know us."
+    },
+    {
+      "id": "s146",
+      "text": "And if you hear any digging going on nights, it’s us; we’re going to set you free.”"
+    },
+    {
+      "id": "s147",
+      "text": "Jim only had time to grab us by the hand and squeeze it; then the nigger come back, and we said we’d come again some time if the nigger wanted us to; and he said he would, more particular if it was dark, because the witches went for him mostly in the dark, and it was good to have folks around then."
+    }
+  ]
+}

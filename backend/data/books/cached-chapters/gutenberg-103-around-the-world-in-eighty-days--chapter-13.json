@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-13",
+  "chapterTitle": "CHAPTER XIII.",
+  "contentHash": "sha256:f7d9d1d4185bdb669bdf79d7ce350eeefbd817246a83fb3f7e56d2034eab7eae",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XIII.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH PASSEPARTOUT RECEIVES A NEW PROOF THAT FORTUNE FAVORS THE BRAVE"
+    },
+    {
+      "id": "s2",
+      "text": "The project was a bold one, full of difficulty, perhaps impracticable."
+    },
+    {
+      "id": "s3",
+      "text": "Mr."
+    },
+    {
+      "id": "s4",
+      "text": "Fogg was going to risk life, or at least liberty, and therefore the success of his tour."
+    },
+    {
+      "id": "s5",
+      "text": "But he did not hesitate, and he found in Sir Francis Cromarty an enthusiastic ally."
+    },
+    {
+      "id": "s6",
+      "text": "As for Passepartout, he was ready for anything that might be proposed."
+    },
+    {
+      "id": "s7",
+      "text": "His master’s idea charmed him; he perceived a heart, a soul, under that icy exterior."
+    },
+    {
+      "id": "s8",
+      "text": "He began to love Phileas Fogg."
+    },
+    {
+      "id": "s9",
+      "text": "There remained the guide: what course would he adopt?"
+    },
+    {
+      "id": "s10",
+      "text": "Would he not take part with the Indians?"
+    },
+    {
+      "id": "s11",
+      "text": "In default of his assistance, it was necessary to be assured of his neutrality."
+    },
+    {
+      "id": "s12",
+      "text": "Sir Francis frankly put the question to him."
+    },
+    {
+      "id": "s13",
+      "text": "“Officers,” replied the guide, “I am a Parsee, and this woman is a Parsee."
+    },
+    {
+      "id": "s14",
+      "text": "Command me as you will.”"
+    },
+    {
+      "id": "s15",
+      "text": "“Excellent!” said Mr."
+    },
+    {
+      "id": "s16",
+      "text": "Fogg."
+    },
+    {
+      "id": "s17",
+      "text": "“However,” resumed the guide, “it is certain, not only that we shall risk our lives, but horrible tortures, if we are taken.”"
+    },
+    {
+      "id": "s18",
+      "text": "“That is foreseen,” replied Mr."
+    },
+    {
+      "id": "s19",
+      "text": "Fogg."
+    },
+    {
+      "id": "s20",
+      "text": "“I think we must wait till night before acting.”"
+    },
+    {
+      "id": "s21",
+      "text": "“I think so,” said the guide."
+    },
+    {
+      "id": "s22",
+      "text": "The worthy Indian then gave some account of the victim, who, he said, was a celebrated beauty of the Parsee race, and the daughter of a wealthy Bombay merchant."
+    },
+    {
+      "id": "s23",
+      "text": "She had received a thoroughly English education in that city, and, from her manners and intelligence, would be thought an European."
+    },
+    {
+      "id": "s24",
+      "text": "Her name was Aouda."
+    },
+    {
+      "id": "s25",
+      "text": "Left an orphan, she was married against her will to the old rajah of Bundelcund; and, knowing the fate that awaited her, she escaped, was retaken, and devoted by the rajah’s relatives, who had an interest in her death, to the sacrifice from which it seemed she could not escape."
+    },
+    {
+      "id": "s26",
+      "text": "The Parsee’s narrative only confirmed Mr."
+    },
+    {
+      "id": "s27",
+      "text": "Fogg and his companions in their generous design."
+    },
+    {
+      "id": "s28",
+      "text": "It was decided that the guide should direct the elephant towards the pagoda of Pillaji, which he accordingly approached as quickly as possible."
+    },
+    {
+      "id": "s29",
+      "text": "They halted, half an hour afterwards, in a copse, some five hundred feet from the pagoda, where they were well concealed; but they could hear the groans and cries of the fakirs distinctly."
+    },
+    {
+      "id": "s30",
+      "text": "They then discussed the means of getting at the victim."
+    },
+    {
+      "id": "s31",
+      "text": "The guide was familiar with the pagoda of Pillaji, in which, as he declared, the young woman was imprisoned."
+    },
+    {
+      "id": "s32",
+      "text": "Could they enter any of its doors while the whole party of Indians was plunged in a drunken sleep, or was it safer to attempt to make a hole in the walls?"
+    },
+    {
+      "id": "s33",
+      "text": "This could only be determined at the moment and the place themselves; but it was certain that the abduction must be made that night, and not when, at break of day, the victim was led to her funeral pyre."
+    },
+    {
+      "id": "s34",
+      "text": "Then no human intervention could save her."
+    },
+    {
+      "id": "s35",
+      "text": "As soon as night fell, about six o’clock, they decided to make a reconnaissance around the pagoda."
+    },
+    {
+      "id": "s36",
+      "text": "The cries of the fakirs were just ceasing; the Indians were in the act of plunging themselves into the drunkenness caused by liquid opium mingled with hemp, and it might be possible to slip between them to the temple itself."
+    },
+    {
+      "id": "s37",
+      "text": "The Parsee, leading the others, noiselessly crept through the wood, and in ten minutes they found themselves on the banks of a small stream, whence, by the light of the rosin torches, they perceived a pyre of wood, on the top of which lay the embalmed body of the rajah, which was to be burned with his wife."
+    },
+    {
+      "id": "s38",
+      "text": "The pagoda, whose minarets loomed above the trees in the deepening dusk, stood a hundred steps away."
+    },
+    {
+      "id": "s39",
+      "text": "“Come!” whispered the guide."
+    },
+    {
+      "id": "s40",
+      "text": "He slipped more cautiously than ever through the brush, followed by his companions; the silence around was only broken by the low murmuring of the wind among the branches."
+    },
+    {
+      "id": "s41",
+      "text": "Soon the Parsee stopped on the borders of the glade, which was lit up by the torches."
+    },
+    {
+      "id": "s42",
+      "text": "The ground was covered by groups of the Indians, motionless in their drunken sleep; it seemed a battlefield strewn with the dead."
+    },
+    {
+      "id": "s43",
+      "text": "Men, women, and children lay together."
+    },
+    {
+      "id": "s44",
+      "text": "In the background, among the trees, the pagoda of Pillaji loomed distinctly."
+    },
+    {
+      "id": "s45",
+      "text": "Much to the guide’s disappointment, the guards of the rajah, lighted by torches, were watching at the doors and marching to and fro with naked sabres; probably the priests, too, were watching within."
+    },
+    {
+      "id": "s46",
+      "text": "The Parsee, now convinced that it was impossible to force an entrance to the temple, advanced no farther, but led his companions back again."
+    },
+    {
+      "id": "s47",
+      "text": "Phileas Fogg and Sir Francis Cromarty also saw that nothing could be attempted in that direction."
+    },
+    {
+      "id": "s48",
+      "text": "They stopped, and engaged in a whispered colloquy."
+    },
+    {
+      "id": "s49",
+      "text": "“It is only eight now,” said the brigadier, “and these guards may also go to sleep.”"
+    },
+    {
+      "id": "s50",
+      "text": "“It is not impossible,” returned the Parsee."
+    },
+    {
+      "id": "s51",
+      "text": "They lay down at the foot of a tree, and waited."
+    },
+    {
+      "id": "s52",
+      "text": "The time seemed long; the guide ever and anon left them to take an observation on the edge of the wood, but the guards watched steadily by the glare of the torches, and a dim light crept through the windows of the pagoda."
+    },
+    {
+      "id": "s53",
+      "text": "They waited till midnight; but no change took place among the guards, and it became apparent that their yielding to sleep could not be counted on."
+    },
+    {
+      "id": "s54",
+      "text": "The other plan must be carried out; an opening in the walls of the pagoda must be made."
+    },
+    {
+      "id": "s55",
+      "text": "It remained to ascertain whether the priests were watching by the side of their victim as assiduously as were the soldiers at the door."
+    },
+    {
+      "id": "s56",
+      "text": "After a last consultation, the guide announced that he was ready for the attempt, and advanced, followed by the others."
+    },
+    {
+      "id": "s57",
+      "text": "They took a roundabout way, so as to get at the pagoda on the rear."
+    },
+    {
+      "id": "s58",
+      "text": "They reached the walls about half-past twelve, without having met anyone; here there was no guard, nor were there either windows or doors."
+    },
+    {
+      "id": "s59",
+      "text": "The night was dark."
+    },
+    {
+      "id": "s60",
+      "text": "The moon, on the wane, scarcely left the horizon, and was covered with heavy clouds; the height of the trees deepened the darkness."
+    },
+    {
+      "id": "s61",
+      "text": "It was not enough to reach the walls; an opening in them must be accomplished, and to attain this purpose the party only had their pocket-knives."
+    },
+    {
+      "id": "s62",
+      "text": "Happily the temple walls were built of brick and wood, which could be penetrated with little difficulty; after one brick had been taken out, the rest would yield easily."
+    },
+    {
+      "id": "s63",
+      "text": "They set noiselessly to work, and the Parsee on one side and Passepartout on the other began to loosen the bricks so as to make an aperture two feet wide."
+    },
+    {
+      "id": "s64",
+      "text": "They were getting on rapidly, when suddenly a cry was heard in the interior of the temple, followed almost instantly by other cries replying from the outside."
+    },
+    {
+      "id": "s65",
+      "text": "Passepartout and the guide stopped."
+    },
+    {
+      "id": "s66",
+      "text": "Had they been heard?"
+    },
+    {
+      "id": "s67",
+      "text": "Was the alarm being given?"
+    },
+    {
+      "id": "s68",
+      "text": "Common prudence urged them to retire, and they did so, followed by Phileas Fogg and Sir Francis."
+    },
+    {
+      "id": "s69",
+      "text": "They again hid themselves in the wood, and waited till the disturbance, whatever it might be, ceased, holding themselves ready to resume their attempt without delay."
+    },
+    {
+      "id": "s70",
+      "text": "But, awkwardly enough, the guards now appeared at the rear of the temple, and there installed themselves, in readiness to prevent a surprise."
+    },
+    {
+      "id": "s71",
+      "text": "It would be difficult to describe the disappointment of the party, thus interrupted in their work."
+    },
+    {
+      "id": "s72",
+      "text": "They could not now reach the victim; how, then, could they save her?"
+    },
+    {
+      "id": "s73",
+      "text": "Sir Francis shook his fists, Passepartout was beside himself, and the guide gnashed his teeth with rage."
+    },
+    {
+      "id": "s74",
+      "text": "The tranquil Fogg waited, without betraying any emotion."
+    },
+    {
+      "id": "s75",
+      "text": "“We have nothing to do but to go away,” whispered Sir Francis."
+    },
+    {
+      "id": "s76",
+      "text": "“Nothing but to go away,” echoed the guide."
+    },
+    {
+      "id": "s77",
+      "text": "“Stop,” said Fogg."
+    },
+    {
+      "id": "s78",
+      "text": "“I am only due at Allahabad tomorrow before noon.”"
+    },
+    {
+      "id": "s79",
+      "text": "“But what can you hope to do?” asked Sir Francis."
+    },
+    {
+      "id": "s80",
+      "text": "“In a few hours it will be daylight, and—”"
+    },
+    {
+      "id": "s81",
+      "text": "“The chance which now seems lost may present itself at the last moment.”"
+    },
+    {
+      "id": "s82",
+      "text": "Sir Francis would have liked to read Phileas Fogg’s eyes."
+    },
+    {
+      "id": "s83",
+      "text": "What was this cool Englishman thinking of?"
+    },
+    {
+      "id": "s84",
+      "text": "Was he planning to make a rush for the young woman at the very moment of the sacrifice, and boldly snatch her from her executioners?"
+    },
+    {
+      "id": "s85",
+      "text": "This would be utter folly, and it was hard to admit that Fogg was such a fool."
+    },
+    {
+      "id": "s86",
+      "text": "Sir Francis consented, however, to remain to the end of this terrible drama."
+    },
+    {
+      "id": "s87",
+      "text": "The guide led them to the rear of the glade, where they were able to observe the sleeping groups."
+    },
+    {
+      "id": "s88",
+      "text": "Meanwhile Passepartout, who had perched himself on the lower branches of a tree, was resolving an idea which had at first struck him like a flash, and which was now firmly lodged in his brain."
+    },
+    {
+      "id": "s89",
+      "text": "He had commenced by saying to himself, “What folly!” and then he repeated, “Why not, after all?"
+    },
+    {
+      "id": "s90",
+      "text": "It’s a chance,—perhaps the only one; and with such sots!” Thinking thus, he slipped, with the suppleness of a serpent, to the lowest branches, the ends of which bent almost to the ground."
+    },
+    {
+      "id": "s91",
+      "text": "The hours passed, and the lighter shades now announced the approach of day, though it was not yet light."
+    },
+    {
+      "id": "s92",
+      "text": "This was the moment."
+    },
+    {
+      "id": "s93",
+      "text": "The slumbering multitude became animated, the tambourines sounded, songs and cries arose; the hour of the sacrifice had come."
+    },
+    {
+      "id": "s94",
+      "text": "The doors of the pagoda swung open, and a bright light escaped from its interior, in the midst of which Mr."
+    },
+    {
+      "id": "s95",
+      "text": "Fogg and Sir Francis espied the victim."
+    },
+    {
+      "id": "s96",
+      "text": "She seemed, having shaken off the stupor of intoxication, to be striving to escape from her executioner."
+    },
+    {
+      "id": "s97",
+      "text": "Sir Francis’s heart throbbed; and, convulsively seizing Mr."
+    },
+    {
+      "id": "s98",
+      "text": "Fogg’s hand, found in it an open knife."
+    },
+    {
+      "id": "s99",
+      "text": "Just at this moment the crowd began to move."
+    },
+    {
+      "id": "s100",
+      "text": "The young woman had again fallen into a stupor caused by the fumes of hemp, and passed among the fakirs, who escorted her with their wild, religious cries."
+    },
+    {
+      "id": "s101",
+      "text": "Phileas Fogg and his companions, mingling in the rear ranks of the crowd, followed; and in two minutes they reached the banks of the stream, and stopped fifty paces from the pyre, upon which still lay the rajah’s corpse."
+    },
+    {
+      "id": "s102",
+      "text": "In the semi-obscurity they saw the victim, quite senseless, stretched out beside her husband’s body."
+    },
+    {
+      "id": "s103",
+      "text": "Then a torch was brought, and the wood, heavily soaked with oil, instantly took fire."
+    },
+    {
+      "id": "s104",
+      "text": "At this moment Sir Francis and the guide seized Phileas Fogg, who, in an instant of mad generosity, was about to rush upon the pyre."
+    },
+    {
+      "id": "s105",
+      "text": "But he had quickly pushed them aside, when the whole scene suddenly changed."
+    },
+    {
+      "id": "s106",
+      "text": "A cry of terror arose."
+    },
+    {
+      "id": "s107",
+      "text": "The whole multitude prostrated themselves, terror-stricken, on the ground."
+    },
+    {
+      "id": "s108",
+      "text": "The old rajah was not dead, then, since he rose of a sudden, like a spectre, took up his wife in his arms, and descended from the pyre in the midst of the clouds of smoke, which only heightened his ghostly appearance."
+    },
+    {
+      "id": "s109",
+      "text": "Fakirs and soldiers and priests, seized with instant terror, lay there, with their faces on the ground, not daring to lift their eyes and behold such a prodigy."
+    },
+    {
+      "id": "s110",
+      "text": "The inanimate victim was borne along by the vigorous arms which supported her, and which she did not seem in the least to burden."
+    },
+    {
+      "id": "s111",
+      "text": "Mr."
+    },
+    {
+      "id": "s112",
+      "text": "Fogg and Sir Francis stood erect, the Parsee bowed his head, and Passepartout was, no doubt, scarcely less stupefied."
+    },
+    {
+      "id": "s113",
+      "text": "The resuscitated rajah approached Sir Francis and Mr."
+    },
+    {
+      "id": "s114",
+      "text": "Fogg, and, in an abrupt tone, said, “Let us be off!”"
+    },
+    {
+      "id": "s115",
+      "text": "It was Passepartout himself, who had slipped upon the pyre in the midst of the smoke and, profiting by the still overhanging darkness, had delivered the young woman from death!"
+    },
+    {
+      "id": "s116",
+      "text": "It was Passepartout who, playing his part with a happy audacity, had passed through the crowd amid the general terror."
+    },
+    {
+      "id": "s117",
+      "text": "A moment after all four of the party had disappeared in the woods, and the elephant was bearing them away at a rapid pace."
+    },
+    {
+      "id": "s118",
+      "text": "But the cries and noise, and a ball which whizzed through Phileas Fogg’s hat, apprised them that the trick had been discovered."
+    },
+    {
+      "id": "s119",
+      "text": "The old rajah’s body, indeed, now appeared upon the burning pyre; and the priests, recovered from their terror, perceived that an abduction had taken place."
+    },
+    {
+      "id": "s120",
+      "text": "They hastened into the forest, followed by the soldiers, who fired a volley after the fugitives; but the latter rapidly increased the distance between them, and ere long found themselves beyond the reach of the bullets and arrows."
+    }
+  ]
+}

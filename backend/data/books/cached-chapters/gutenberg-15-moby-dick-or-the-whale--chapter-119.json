@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-119",
+  "chapterTitle": "CHAPTER CXIX.",
+  "contentHash": "sha256:adf182fd7123ddb8404c17f6c8704272be30dfcb66558412c4f8eedf29d509eb",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER CXIX.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE CANDLES."
+    },
+    {
+      "id": "s2",
+      "text": "Warmest climes but nurse the cruellest fangs: the tiger of Bengal crouches in spiced groves of ceaseless verdure."
+    },
+    {
+      "id": "s3",
+      "text": "Skies the most effulgent but basket the deadliest thunders: gorgeous Cuba knows tornadoes that never swept tame northern lands."
+    },
+    {
+      "id": "s4",
+      "text": "So, too, it is, that in these resplendent Japanese seas the mariner encounters the direst of all storms, the Typhoon."
+    },
+    {
+      "id": "s5",
+      "text": "It will sometimes burst from out that cloudless sky, like an exploding bomb upon a dazed and sleepy town."
+    },
+    {
+      "id": "s6",
+      "text": "Towards evening of that day, the Pequod was torn of her canvas, and bare-poled was left to fight a Typhoon which had struck her directly ahead."
+    },
+    {
+      "id": "s7",
+      "text": "When darkness came on, sky and sea roared and split with the thunder, and blazed with the lightning, that showed the disabled masts fluttering here and there with the rags which the first fury of the tempest had left for its after sport."
+    },
+    {
+      "id": "s8",
+      "text": "Holding by a shroud, Starbuck was standing on the quarter-deck; at every flash of the lightning glancing aloft, to see what additional disaster might have befallen the intricate hamper there; while Stubb and Flask were directing the men in the higher hoisting and firmer lashing of the boats."
+    },
+    {
+      "id": "s9",
+      "text": "But all their pains seemed naught."
+    },
+    {
+      "id": "s10",
+      "text": "Though lifted to the very top of the cranes, the windward quarter boat (Ahab’s) did not escape."
+    },
+    {
+      "id": "s11",
+      "text": "A great rolling sea, dashing high up against the reeling ship’s high tetering side, stove in the boat’s bottom at the stern, and left it again, all dripping through like a sieve."
+    },
+    {
+      "id": "s12",
+      "text": "“Bad work, bad work!"
+    },
+    {
+      "id": "s13",
+      "text": "Mr."
+    },
+    {
+      "id": "s14",
+      "text": "Starbuck,” said Stubb, regarding the wreck, “but the sea will have its way."
+    },
+    {
+      "id": "s15",
+      "text": "Stubb, for one, can’t fight it."
+    },
+    {
+      "id": "s16",
+      "text": "You see, Mr."
+    },
+    {
+      "id": "s17",
+      "text": "Starbuck, a wave has such a great long start before it leaps, all round the world it runs, and then comes the spring!"
+    },
+    {
+      "id": "s18",
+      "text": "But as for me, all the start I have to meet it, is just across the deck here."
+    },
+    {
+      "id": "s19",
+      "text": "But never mind; it’s all in fun: so the old song says;”—(_sings_.)"
+    },
+    {
+      "id": "s20",
+      "text": "Oh! jolly is the gale, And a joker is the whale, A’ flourishin’ his tail,— Such a funny, sporty, gamy, jesty, joky, hoky-poky lad, is the Ocean, oh!"
+    },
+    {
+      "id": "s21",
+      "text": "The scud all a flyin’, That’s his flip only foamin’; When he stirs in the spicin’,— Such a funny, sporty, gamy, jesty, joky, hoky-poky lad, is the Ocean, oh!"
+    },
+    {
+      "id": "s22",
+      "text": "Thunder splits the ships, But he only smacks his lips, A tastin’ of this flip,— Such a funny, sporty, gamy, jesty, joky, hoky-poky lad, is the Ocean, oh!"
+    },
+    {
+      "id": "s23",
+      "text": "“Avast Stubb,” cried Starbuck, “let the Typhoon sing, and strike his harp here in our rigging; but if thou art a brave man thou wilt hold thy peace.”"
+    },
+    {
+      "id": "s24",
+      "text": "“But I am not a brave man; never said I was a brave man; I am a coward; and I sing to keep up my spirits."
+    },
+    {
+      "id": "s25",
+      "text": "And I tell you what it is, Mr."
+    },
+    {
+      "id": "s26",
+      "text": "Starbuck, there’s no way to stop my singing in this world but to cut my throat."
+    },
+    {
+      "id": "s27",
+      "text": "And when that’s done, ten to one I sing ye the doxology for a wind-up.”"
+    },
+    {
+      "id": "s28",
+      "text": "“Madman! look through my eyes if thou hast none of thine own.”"
+    },
+    {
+      "id": "s29",
+      "text": "“What! how can you see better of a dark night than anybody else, never mind how foolish?”"
+    },
+    {
+      "id": "s30",
+      "text": "“Here!” cried Starbuck, seizing Stubb by the shoulder, and pointing his hand towards the weather bow, “markest thou not that the gale comes from the eastward, the very course Ahab is to run for Moby Dick? the very course he swung to this day noon? now mark his boat there; where is that stove?"
+    },
+    {
+      "id": "s31",
+      "text": "In the stern-sheets, man; where he is wont to stand—his stand-point is stove, man!"
+    },
+    {
+      "id": "s32",
+      "text": "Now jump overboard, and sing away, if thou must!”"
+    },
+    {
+      "id": "s33",
+      "text": "“I don’t half understand ye: what’s in the wind?”"
+    },
+    {
+      "id": "s34",
+      "text": "“Yes, yes, round the Cape of Good Hope is the shortest way to Nantucket,” soliloquized Starbuck suddenly, heedless of Stubb’s question."
+    },
+    {
+      "id": "s35",
+      "text": "“The gale that now hammers at us to stave us, we can turn it into a fair wind that will drive us towards home."
+    },
+    {
+      "id": "s36",
+      "text": "Yonder, to windward, all is blackness of doom; but to leeward, homeward—I see it lightens up there; but not with the lightning.”"
+    },
+    {
+      "id": "s37",
+      "text": "At that moment in one of the intervals of profound darkness, following the flashes, a voice was heard at his side; and almost at the same instant a volley of thunder peals rolled overhead."
+    },
+    {
+      "id": "s38",
+      "text": "“Who’s there?”"
+    },
+    {
+      "id": "s39",
+      "text": "“Old Thunder!” said Ahab, groping his way along the bulwarks to his pivot-hole; but suddenly finding his path made plain to him by elbowed lances of fire."
+    },
+    {
+      "id": "s40",
+      "text": "Now, as the lightning rod to a spire on shore is intended to carry off the perilous fluid into the soil; so the kindred rod which at sea some ships carry to each mast, is intended to conduct it into the water."
+    },
+    {
+      "id": "s41",
+      "text": "But as this conductor must descend to considerable depth, that its end may avoid all contact with the hull; and as moreover, if kept constantly towing there, it would be liable to many mishaps, besides interfering not a little with some of the rigging, and more or less impeding the vessel’s way in the water; because of all this, the lower parts of a ship’s lightning-rods are not always overboard; but are generally made in long slender links, so as to be the more readily hauled up into the chains outside, or thrown down into the sea, as occasion may require."
+    },
+    {
+      "id": "s42",
+      "text": "“The rods! the rods!” cried Starbuck to the crew, suddenly admonished to vigilance by the vivid lightning that had just been darting flambeaux, to light Ahab to his post."
+    },
+    {
+      "id": "s43",
+      "text": "“Are they overboard? drop them over, fore and aft."
+    },
+    {
+      "id": "s44",
+      "text": "Quick!”"
+    },
+    {
+      "id": "s45",
+      "text": "“Avast!” cried Ahab; “let’s have fair play here, though we be the weaker side."
+    },
+    {
+      "id": "s46",
+      "text": "Yet I’ll contribute to raise rods on the Himmalehs and Andes, that all the world may be secured; but out on privileges!"
+    },
+    {
+      "id": "s47",
+      "text": "Let them be, sir.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Look aloft!” cried Starbuck."
+    },
+    {
+      "id": "s49",
+      "text": "“The corpusants! the corpusants!”"
+    },
+    {
+      "id": "s50",
+      "text": "All the yard-arms were tipped with a pallid fire; and touched at each tri-pointed lightning-rod-end with three tapering white flames, each of the three tall masts was silently burning in that sulphurous air, like three gigantic wax tapers before an altar."
+    },
+    {
+      "id": "s51",
+      "text": "“Blast the boat! let it go!” cried Stubb at this instant, as a swashing sea heaved up under his own little craft, so that its gunwale violently jammed his hand, as he was passing a lashing."
+    },
+    {
+      "id": "s52",
+      "text": "“Blast it!”—but slipping backward on the deck, his uplifted eyes caught the flames; and immediately shifting his tone, he cried—“The corpusants have mercy on us all!”"
+    },
+    {
+      "id": "s53",
+      "text": "To sailors, oaths are household words; they will swear in the trance of the calm, and in the teeth of the tempest; they will imprecate curses from the topsail-yard-arms, when most they teter over to a seething sea; but in all my voyagings, seldom have I heard a common oath when God’s burning finger has been laid on the ship; when His “Mene, Mene, Tekel Upharsin” has been woven into the shrouds and the cordage."
+    },
+    {
+      "id": "s54",
+      "text": "While this pallidness was burning aloft, few words were heard from the enchanted crew; who in one thick cluster stood on the forecastle, all their eyes gleaming in that pale phosphorescence, like a far away constellation of stars."
+    },
+    {
+      "id": "s55",
+      "text": "Relieved against the ghostly light, the gigantic jet negro, Daggoo, loomed up to thrice his real stature, and seemed the black cloud from which the thunder had come."
+    },
+    {
+      "id": "s56",
+      "text": "The parted mouth of Tashtego revealed his shark-white teeth, which strangely gleamed as if they too had been tipped by corpusants; while lit up by the preternatural light, Queequeg’s tattooing burned like Satanic blue flames on his body."
+    },
+    {
+      "id": "s57",
+      "text": "The tableau all waned at last with the pallidness aloft; and once more the Pequod and every soul on her decks were wrapped in a pall."
+    },
+    {
+      "id": "s58",
+      "text": "A moment or two passed, when Starbuck, going forward, pushed against some one."
+    },
+    {
+      "id": "s59",
+      "text": "It was Stubb."
+    },
+    {
+      "id": "s60",
+      "text": "“What thinkest thou now, man; I heard thy cry; it was not the same in the song.”"
+    },
+    {
+      "id": "s61",
+      "text": "“No, no, it wasn’t; I said the corpusants have mercy on us all; and I hope they will, still."
+    },
+    {
+      "id": "s62",
+      "text": "But do they only have mercy on long faces?—have they no bowels for a laugh?"
+    },
+    {
+      "id": "s63",
+      "text": "And look ye, Mr."
+    },
+    {
+      "id": "s64",
+      "text": "Starbuck—but it’s too dark to look."
+    },
+    {
+      "id": "s65",
+      "text": "Hear me, then: I take that mast-head flame we saw for a sign of good luck; for those masts are rooted in a hold that is going to be chock a’ block with sperm-oil, d’ye see; and so, all that sperm will work up into the masts, like sap in a tree."
+    },
+    {
+      "id": "s66",
+      "text": "Yes, our three masts will yet be as three spermaceti candles—that’s the good promise we saw.”"
+    },
+    {
+      "id": "s67",
+      "text": "At that moment Starbuck caught sight of Stubb’s face slowly beginning to glimmer into sight."
+    },
+    {
+      "id": "s68",
+      "text": "Glancing upwards, he cried: “See! see!” and once more the high tapering flames were beheld with what seemed redoubled supernaturalness in their pallor."
+    },
+    {
+      "id": "s69",
+      "text": "“The corpusants have mercy on us all,” cried Stubb, again."
+    },
+    {
+      "id": "s70",
+      "text": "At the base of the mainmast, full beneath the doubloon and the flame, the Parsee was kneeling in Ahab’s front, but with his head bowed away from him; while near by, from the arched and overhanging rigging, where they had just been engaged securing a spar, a number of the seamen, arrested by the glare, now cohered together, and hung pendulous, like a knot of numbed wasps from a drooping, orchard twig."
+    },
+    {
+      "id": "s71",
+      "text": "In various enchanted attitudes, like the standing, or stepping, or running skeletons in Herculaneum, others remained rooted to the deck; but all their eyes upcast."
+    },
+    {
+      "id": "s72",
+      "text": "“Aye, aye, men!” cried Ahab."
+    },
+    {
+      "id": "s73",
+      "text": "“Look up at it; mark it well; the white flame but lights the way to the White Whale!"
+    },
+    {
+      "id": "s74",
+      "text": "Hand me those main-mast links there; I would fain feel this pulse, and let mine beat against it; blood against fire!"
+    },
+    {
+      "id": "s75",
+      "text": "So.”"
+    },
+    {
+      "id": "s76",
+      "text": "Then turning—the last link held fast in his left hand, he put his foot upon the Parsee; and with fixed upward eye, and high-flung right arm, he stood erect before the lofty tri-pointed trinity of flames."
+    },
+    {
+      "id": "s77",
+      "text": "“Oh! thou clear spirit of clear fire, whom on these seas I as Persian once did worship, till in the sacramental act so burned by thee, that to this hour I bear the scar; I now know thee, thou clear spirit, and I now know that thy right worship is defiance."
+    },
+    {
+      "id": "s78",
+      "text": "To neither love nor reverence wilt thou be kind; and e’en for hate thou canst but kill; and all are killed."
+    },
+    {
+      "id": "s79",
+      "text": "No fearless fool now fronts thee."
+    },
+    {
+      "id": "s80",
+      "text": "I own thy speechless, placeless power; but to the last gasp of my earthquake life will dispute its unconditional, unintegral mastery in me."
+    },
+    {
+      "id": "s81",
+      "text": "In the midst of the personified impersonal, a personality stands here."
+    },
+    {
+      "id": "s82",
+      "text": "Though but a point at best; whencesoe’er I came; wheresoe’er I go; yet while I earthly live, the queenly personality lives in me, and feels her royal rights."
+    },
+    {
+      "id": "s83",
+      "text": "But war is pain, and hate is woe."
+    },
+    {
+      "id": "s84",
+      "text": "Come in thy lowest form of love, and I will kneel and kiss thee; but at thy highest, come as mere supernal power; and though thou launchest navies of full-freighted worlds, there’s that in here that still remains indifferent."
+    },
+    {
+      "id": "s85",
+      "text": "Oh, thou clear spirit, of thy fire thou madest me, and like a true child of fire, I breathe it back to thee.”"
+    },
+    {
+      "id": "s86",
+      "text": "[_Sudden, repeated flashes of lightning; the nine flames leap lengthwise to thrice their previous height; Ahab, with the rest, closes his eyes, his right hand pressed hard upon them._]"
+    },
+    {
+      "id": "s87",
+      "text": "“I own thy speechless, placeless power; said I not so?"
+    },
+    {
+      "id": "s88",
+      "text": "Nor was it wrung from me; nor do I now drop these links."
+    },
+    {
+      "id": "s89",
+      "text": "Thou canst blind; but I can then grope."
+    },
+    {
+      "id": "s90",
+      "text": "Thou canst consume; but I can then be ashes."
+    },
+    {
+      "id": "s91",
+      "text": "Take the homage of these poor eyes, and shutter-hands."
+    },
+    {
+      "id": "s92",
+      "text": "I would not take it."
+    },
+    {
+      "id": "s93",
+      "text": "The lightning flashes through my skull; mine eye-balls ache and ache; my whole beaten brain seems as beheaded, and rolling on some stunning ground."
+    },
+    {
+      "id": "s94",
+      "text": "Oh, oh!"
+    },
+    {
+      "id": "s95",
+      "text": "Yet blindfold, yet will I talk to thee."
+    },
+    {
+      "id": "s96",
+      "text": "Light though thou be, thou leapest out of darkness; but I am darkness leaping out of light, leaping out of thee!"
+    },
+    {
+      "id": "s97",
+      "text": "The javelins cease; open eyes; see, or not?"
+    },
+    {
+      "id": "s98",
+      "text": "There burn the flames!"
+    },
+    {
+      "id": "s99",
+      "text": "Oh, thou magnanimous! now I do glory in my genealogy."
+    },
+    {
+      "id": "s100",
+      "text": "But thou art but my fiery father; my sweet mother, I know not."
+    },
+    {
+      "id": "s101",
+      "text": "Oh, cruel! what hast thou done with her?"
+    },
+    {
+      "id": "s102",
+      "text": "There lies my puzzle; but thine is greater."
+    },
+    {
+      "id": "s103",
+      "text": "Thou knowest not how came ye, hence callest thyself unbegotten; certainly knowest not thy beginning, hence callest thyself unbegun."
+    },
+    {
+      "id": "s104",
+      "text": "I know that of me, which thou knowest not of thyself, oh, thou omnipotent."
+    },
+    {
+      "id": "s105",
+      "text": "There is some unsuffusing thing beyond thee, thou clear spirit, to whom all thy eternity is but time, all thy creativeness mechanical."
+    },
+    {
+      "id": "s106",
+      "text": "Through thee, thy flaming self, my scorched eyes do dimly see it."
+    },
+    {
+      "id": "s107",
+      "text": "Oh, thou foundling fire, thou hermit immemorial, thou too hast thy incommunicable riddle, thy unparticipated grief."
+    },
+    {
+      "id": "s108",
+      "text": "Here again with haughty agony, I read my sire."
+    },
+    {
+      "id": "s109",
+      "text": "Leap! leap up, and lick the sky!"
+    },
+    {
+      "id": "s110",
+      "text": "I leap with thee; I burn with thee; would fain be welded with thee; defyingly I worship thee!”"
+    },
+    {
+      "id": "s111",
+      "text": "“The boat! the boat!” cried Starbuck, “look at thy boat, old man!”"
+    },
+    {
+      "id": "s112",
+      "text": "Ahab’s harpoon, the one forged at Perth’s fire, remained firmly lashed in its conspicuous crotch, so that it projected beyond his whale-boat’s bow; but the sea that had stove its bottom had caused the loose leather sheath to drop off; and from the keen steel barb there now came a levelled flame of pale, forked fire."
+    },
+    {
+      "id": "s113",
+      "text": "As the silent harpoon burned there like a serpent’s tongue, Starbuck grasped Ahab by the arm—“God, God is against thee, old man; forbear! ’tis an ill voyage! ill begun, ill continued; let me square the yards, while we may, old man, and make a fair wind of it homewards, to go on a better voyage than this.”"
+    },
+    {
+      "id": "s114",
+      "text": "Overhearing Starbuck, the panic-stricken crew instantly ran to the braces—though not a sail was left aloft."
+    },
+    {
+      "id": "s115",
+      "text": "For the moment all the aghast mate’s thoughts seemed theirs; they raised a half mutinous cry."
+    },
+    {
+      "id": "s116",
+      "text": "But dashing the rattling lightning links to the deck, and snatching the burning harpoon, Ahab waved it like a torch among them; swearing to transfix with it the first sailor that but cast loose a rope’s end."
+    },
+    {
+      "id": "s117",
+      "text": "Petrified by his aspect, and still more shrinking from the fiery dart that he held, the men fell back in dismay, and Ahab again spoke:—"
+    },
+    {
+      "id": "s118",
+      "text": "“All your oaths to hunt the White Whale are as binding as mine; and heart, soul, and body, lungs and life, old Ahab is bound."
+    },
+    {
+      "id": "s119",
+      "text": "And that ye may know to what tune this heart beats; look ye here; thus I blow out the last fear!” And with one blast of his breath he extinguished the flame."
+    },
+    {
+      "id": "s120",
+      "text": "As in the hurricane that sweeps the plain, men fly the neighborhood of some lone, gigantic elm, whose very height and strength but render it so much the more unsafe, because so much the more a mark for thunderbolts; so at those last words of Ahab’s many of the mariners did run from him in a terror of dismay."
+    }
+  ]
+}

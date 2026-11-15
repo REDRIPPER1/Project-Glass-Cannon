@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-12-through-the-looking-glass",
+  "ebookId": "12",
+  "edition": "Project Gutenberg eBook #12; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-11",
+  "chapterTitle": "CHAPTER XI.",
+  "contentHash": "sha256:083be0de123aefd33f6f57746e90f980396e89fc42ff110d8247834edaf2197f",
+  "attribution": "Carroll, Lewis, 1832-1898, Through the Looking-Glass, CHAPTER XI.. Source checked against Project Gutenberg eBook #12.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/12",
+    "textUrl": "https://www.gutenberg.org/cache/epub/12/pg12.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Waking"
+    },
+    {
+      "id": "s2",
+      "text": "—and it really _was_ a kitten, after all."
+    }
+  ]
+}

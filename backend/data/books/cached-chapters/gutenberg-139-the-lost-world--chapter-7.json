@@ -1,0 +1,621 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-139-the-lost-world",
+  "ebookId": "139",
+  "edition": "Project Gutenberg eBook #139; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-7",
+  "chapterTitle": "CHAPTER VII",
+  "contentHash": "sha256:c314c5e75f1f8665857bb543ca628e284fc37e332283fea830f03a5becb27694",
+  "attribution": "Doyle, Arthur Conan, 1859-1930, The Lost World, CHAPTER VII. Source checked against Project Gutenberg eBook #139.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/139",
+    "textUrl": "https://www.gutenberg.org/cache/epub/139/pg139.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "\"To-morrow we Disappear into the Unknown\""
+    },
+    {
+      "id": "s2",
+      "text": "I will not bore those whom this narrative may reach by an account of our luxurious voyage upon the Booth liner, nor will I tell of our week's stay at Para (save that I should wish to acknowledge the great kindness of the Pereira da Pinta Company in helping us to get together our equipment)."
+    },
+    {
+      "id": "s3",
+      "text": "I will also allude very briefly to our river journey, up a wide, slow-moving, clay-tinted stream, in a steamer which was little smaller than that which had carried us across the Atlantic."
+    },
+    {
+      "id": "s4",
+      "text": "Eventually we found ourselves through the narrows of Obidos and reached the town of Manaos."
+    },
+    {
+      "id": "s5",
+      "text": "Here we were rescued from the limited attractions of the local inn by Mr."
+    },
+    {
+      "id": "s6",
+      "text": "Shortman, the representative of the British and Brazilian Trading Company."
+    },
+    {
+      "id": "s7",
+      "text": "In his hospitable Fazenda we spent our time until the day when we were empowered to open the letter of instructions given to us by Professor Challenger."
+    },
+    {
+      "id": "s8",
+      "text": "Before I reach the surprising events of that date I would desire to give a clearer sketch of my comrades in this enterprise, and of the associates whom we had already gathered together in South America."
+    },
+    {
+      "id": "s9",
+      "text": "I speak freely, and I leave the use of my material to your own discretion, Mr."
+    },
+    {
+      "id": "s10",
+      "text": "McArdle, since it is through your hands that this report must pass before it reaches the world."
+    },
+    {
+      "id": "s11",
+      "text": "The scientific attainments of Professor Summerlee are too well known for me to trouble to recapitulate them."
+    },
+    {
+      "id": "s12",
+      "text": "He is better equipped for a rough expedition of this sort than one would imagine at first sight."
+    },
+    {
+      "id": "s13",
+      "text": "His tall, gaunt, stringy figure is insensible to fatigue, and his dry, half-sarcastic, and often wholly unsympathetic manner is uninfluenced by any change in his surroundings."
+    },
+    {
+      "id": "s14",
+      "text": "Though in his sixty-sixth year, I have never heard him express any dissatisfaction at the occasional hardships which we have had to encounter."
+    },
+    {
+      "id": "s15",
+      "text": "I had regarded his presence as an encumbrance to the expedition, but, as a matter of fact, I am now well convinced that his power of endurance is as great as my own."
+    },
+    {
+      "id": "s16",
+      "text": "In temper he is naturally acid and sceptical."
+    },
+    {
+      "id": "s17",
+      "text": "From the beginning he has never concealed his belief that Professor Challenger is an absolute fraud, that we are all embarked upon an absurd wild-goose chase and that we are likely to reap nothing but disappointment and danger in South America, and corresponding ridicule in England."
+    },
+    {
+      "id": "s18",
+      "text": "Such are the views which, with much passionate distortion of his thin features and wagging of his thin, goat-like beard, he poured into our ears all the way from Southampton to Manaos."
+    },
+    {
+      "id": "s19",
+      "text": "Since landing from the boat he has obtained some consolation from the beauty and variety of the insect and bird life around him, for he is absolutely whole-hearted in his devotion to science."
+    },
+    {
+      "id": "s20",
+      "text": "He spends his days flitting through the woods with his shot-gun and his butterfly-net, and his evenings in mounting the many specimens he has acquired."
+    },
+    {
+      "id": "s21",
+      "text": "Among his minor peculiarities are that he is careless as to his attire, unclean in his person, exceedingly absent-minded in his habits, and addicted to smoking a short briar pipe, which is seldom out of his mouth."
+    },
+    {
+      "id": "s22",
+      "text": "He has been upon several scientific expeditions in his youth (he was with Robertson in Papua), and the life of the camp and the canoe is nothing fresh to him."
+    },
+    {
+      "id": "s23",
+      "text": "Lord John Roxton has some points in common with Professor Summerlee, and others in which they are the very antithesis to each other."
+    },
+    {
+      "id": "s24",
+      "text": "He is twenty years younger, but has something of the same spare, scraggy physique."
+    },
+    {
+      "id": "s25",
+      "text": "As to his appearance, I have, as I recollect, described it in that portion of my narrative which I have left behind me in London."
+    },
+    {
+      "id": "s26",
+      "text": "He is exceedingly neat and prim in his ways, dresses always with great care in white drill suits and high brown mosquito-boots, and shaves at least once a day."
+    },
+    {
+      "id": "s27",
+      "text": "Like most men of action, he is laconic in speech, and sinks readily into his own thoughts, but he is always quick to answer a question or join in a conversation, talking in a queer, jerky, half-humorous fashion."
+    },
+    {
+      "id": "s28",
+      "text": "His knowledge of the world, and very especially of South America, is surprising, and he has a whole-hearted belief in the possibilities of our journey which is not to be dashed by the sneers of Professor Summerlee."
+    },
+    {
+      "id": "s29",
+      "text": "He has a gentle voice and a quiet manner, but behind his twinkling blue eyes there lurks a capacity for furious wrath and implacable resolution, the more dangerous because they are held in leash."
+    },
+    {
+      "id": "s30",
+      "text": "He spoke little of his own exploits in Brazil and Peru, but it was a revelation to me to find the excitement which was caused by his presence among the riverine natives, who looked upon him as their champion and protector."
+    },
+    {
+      "id": "s31",
+      "text": "The exploits of the Red Chief, as they called him, had become legends among them, but the real facts, as far as I could learn them, were amazing enough."
+    },
+    {
+      "id": "s32",
+      "text": "These were that Lord John had found himself some years before in that no-man's-land which is formed by the half-defined frontiers between Peru, Brazil, and Columbia."
+    },
+    {
+      "id": "s33",
+      "text": "In this great district the wild rubber tree flourishes, and has become, as in the Congo, a curse to the natives which can only be compared to their forced labor under the Spaniards upon the old silver mines of Darien."
+    },
+    {
+      "id": "s34",
+      "text": "A handful of villainous half-breeds dominated the country, armed such Indians as would support them, and turned the rest into slaves, terrorizing them with the most inhuman tortures in order to force them to gather the india-rubber, which was then floated down the river to Para."
+    },
+    {
+      "id": "s35",
+      "text": "Lord John Roxton expostulated on behalf of the wretched victims, and received nothing but threats and insults for his pains."
+    },
+    {
+      "id": "s36",
+      "text": "He then formally declared war against Pedro Lopez, the leader of the slave-drivers, enrolled a band of runaway slaves in his service, armed them, and conducted a campaign, which ended by his killing with his own hands the notorious half-breed and breaking down the system which he represented."
+    },
+    {
+      "id": "s37",
+      "text": "No wonder that the ginger-headed man with the silky voice and the free and easy manners was now looked upon with deep interest upon the banks of the great South American river, though the feelings he inspired were naturally mixed, since the gratitude of the natives was equaled by the resentment of those who desired to exploit them."
+    },
+    {
+      "id": "s38",
+      "text": "One useful result of his former experiences was that he could talk fluently in the Lingoa Geral, which is the peculiar talk, one-third Portuguese and two-thirds Indian, which is current all over Brazil."
+    },
+    {
+      "id": "s39",
+      "text": "I have said before that Lord John Roxton was a South Americomaniac."
+    },
+    {
+      "id": "s40",
+      "text": "He could not speak of that great country without ardor, and this ardor was infectious, for, ignorant as I was, he fixed my attention and stimulated my curiosity."
+    },
+    {
+      "id": "s41",
+      "text": "How I wish I could reproduce the glamour of his discourses, the peculiar mixture of accurate knowledge and of racy imagination which gave them their fascination, until even the Professor's cynical and sceptical smile would gradually vanish from his thin face as he listened."
+    },
+    {
+      "id": "s42",
+      "text": "He would tell the history of the mighty river so rapidly explored (for some of the first conquerors of Peru actually crossed the entire continent upon its waters), and yet so unknown in regard to all that lay behind its ever-changing banks."
+    },
+    {
+      "id": "s43",
+      "text": "\"What is there?\" he would cry, pointing to the north. \"Wood and marsh and unpenetrated jungle."
+    },
+    {
+      "id": "s44",
+      "text": "Who knows what it may shelter?"
+    },
+    {
+      "id": "s45",
+      "text": "And there to the south?"
+    },
+    {
+      "id": "s46",
+      "text": "A wilderness of swampy forest, where no white man has ever been."
+    },
+    {
+      "id": "s47",
+      "text": "The unknown is up against us on every side."
+    },
+    {
+      "id": "s48",
+      "text": "Outside the narrow lines of the rivers what does anyone know?"
+    },
+    {
+      "id": "s49",
+      "text": "Who will say what is possible in such a country?"
+    },
+    {
+      "id": "s50",
+      "text": "Why should old man Challenger not be right?\" At which direct defiance the stubborn sneer would reappear upon Professor Summerlee's face, and he would sit, shaking his sardonic head in unsympathetic silence, behind the cloud of his briar-root pipe."
+    },
+    {
+      "id": "s51",
+      "text": "So much, for the moment, for my two white companions, whose characters and limitations will be further exposed, as surely as my own, as this narrative proceeds."
+    },
+    {
+      "id": "s52",
+      "text": "But already we have enrolled certain retainers who may play no small part in what is to come."
+    },
+    {
+      "id": "s53",
+      "text": "The first is a gigantic negro named Zambo, who is a black Hercules, as willing as any horse, and about as intelligent."
+    },
+    {
+      "id": "s54",
+      "text": "Him we enlisted at Para, on the recommendation of the steamship company, on whose vessels he had learned to speak a halting English."
+    },
+    {
+      "id": "s55",
+      "text": "It was at Para also that we engaged Gomez and Manuel, two half-breeds from up the river, just come down with a cargo of redwood."
+    },
+    {
+      "id": "s56",
+      "text": "They were swarthy fellows, bearded and fierce, as active and wiry as panthers."
+    },
+    {
+      "id": "s57",
+      "text": "Both of them had spent their lives in those upper waters of the Amazon which we were about to explore, and it was this recommendation which had caused Lord John to engage them."
+    },
+    {
+      "id": "s58",
+      "text": "One of them, Gomez, had the further advantage that he could speak excellent English."
+    },
+    {
+      "id": "s59",
+      "text": "These men were willing to act as our personal servants, to cook, to row, or to make themselves useful in any way at a payment of fifteen dollars a month."
+    },
+    {
+      "id": "s60",
+      "text": "Besides these, we had engaged three Mojo Indians from Bolivia, who are the most skilful at fishing and boat work of all the river tribes."
+    },
+    {
+      "id": "s61",
+      "text": "The chief of these we called Mojo, after his tribe, and the others are known as Jose and Fernando."
+    },
+    {
+      "id": "s62",
+      "text": "Three white men, then, two half-breeds, one negro, and three Indians made up the personnel of the little expedition which lay waiting for its instructions at Manaos before starting upon its singular quest."
+    },
+    {
+      "id": "s63",
+      "text": "At last, after a weary week, the day had come and the hour."
+    },
+    {
+      "id": "s64",
+      "text": "I ask you to picture the shaded sitting-room of the Fazenda St."
+    },
+    {
+      "id": "s65",
+      "text": "Ignatio, two miles inland from the town of Manaos."
+    },
+    {
+      "id": "s66",
+      "text": "Outside lay the yellow, brassy glare of the sunshine, with the shadows of the palm trees as black and definite as the trees themselves."
+    },
+    {
+      "id": "s67",
+      "text": "The air was calm, full of the eternal hum of insects, a tropical chorus of many octaves, from the deep drone of the bee to the high, keen pipe of the mosquito."
+    },
+    {
+      "id": "s68",
+      "text": "Beyond the veranda was a small cleared garden, bounded with cactus hedges and adorned with clumps of flowering shrubs, round which the great blue butterflies and the tiny humming-birds fluttered and darted in crescents of sparkling light."
+    },
+    {
+      "id": "s69",
+      "text": "Within we were seated round the cane table, on which lay a sealed envelope."
+    },
+    {
+      "id": "s70",
+      "text": "Inscribed upon it, in the jagged handwriting of Professor Challenger, were the words:--"
+    },
+    {
+      "id": "s71",
+      "text": "\"Instructions to Lord John Roxton and party."
+    },
+    {
+      "id": "s72",
+      "text": "To be opened at Manaos upon July 15th, at 12 o'clock precisely.\""
+    },
+    {
+      "id": "s73",
+      "text": "Lord John had placed his watch upon the table beside him."
+    },
+    {
+      "id": "s74",
+      "text": "\"We have seven more minutes,\" said he. \"The old dear is very precise.\""
+    },
+    {
+      "id": "s75",
+      "text": "Professor Summerlee gave an acid smile as he picked up the envelope in his gaunt hand."
+    },
+    {
+      "id": "s76",
+      "text": "\"What can it possibly matter whether we open it now or in seven minutes?\" said he. \"It is all part and parcel of the same system of quackery and nonsense, for which I regret to say that the writer is notorious.\""
+    },
+    {
+      "id": "s77",
+      "text": "\"Oh, come, we must play the game accordin' to rules,\" said Lord John. \"It's old man Challenger's show and we are here by his good will, so it would be rotten bad form if we didn't follow his instructions to the letter.\""
+    },
+    {
+      "id": "s78",
+      "text": "\"A pretty business it is!\" cried the Professor, bitterly. \"It struck me as preposterous in London, but I'm bound to say that it seems even more so upon closer acquaintance."
+    },
+    {
+      "id": "s79",
+      "text": "I don't know what is inside this envelope, but, unless it is something pretty definite, I shall be much tempted to take the next down-river boat and catch the Bolivia at Para."
+    },
+    {
+      "id": "s80",
+      "text": "After all, I have some more responsible work in the world than to run about disproving the assertions of a lunatic."
+    },
+    {
+      "id": "s81",
+      "text": "Now, Roxton, surely it is time.\""
+    },
+    {
+      "id": "s82",
+      "text": "\"Time it is,\" said Lord John. \"You can blow the whistle.\" He took up the envelope and cut it with his penknife."
+    },
+    {
+      "id": "s83",
+      "text": "From it he drew a folded sheet of paper."
+    },
+    {
+      "id": "s84",
+      "text": "This he carefully opened out and flattened on the table."
+    },
+    {
+      "id": "s85",
+      "text": "It was a blank sheet."
+    },
+    {
+      "id": "s86",
+      "text": "He turned it over."
+    },
+    {
+      "id": "s87",
+      "text": "Again it was blank."
+    },
+    {
+      "id": "s88",
+      "text": "We looked at each other in a bewildered silence, which was broken by a discordant burst of derisive laughter from Professor Summerlee."
+    },
+    {
+      "id": "s89",
+      "text": "\"It is an open admission,\" he cried. \"What more do you want?"
+    },
+    {
+      "id": "s90",
+      "text": "The fellow is a self-confessed humbug."
+    },
+    {
+      "id": "s91",
+      "text": "We have only to return home and report him as the brazen imposter that he is.\""
+    },
+    {
+      "id": "s92",
+      "text": "\"Invisible ink!\" I suggested."
+    },
+    {
+      "id": "s93",
+      "text": "\"I don't think!\" said Lord Roxton, holding the paper to the light. \"No, young fellah my lad, there is no use deceiving yourself."
+    },
+    {
+      "id": "s94",
+      "text": "I'll go bail for it that nothing has ever been written upon this paper.\""
+    },
+    {
+      "id": "s95",
+      "text": "\"May I come in?\" boomed a voice from the veranda."
+    },
+    {
+      "id": "s96",
+      "text": "The shadow of a squat figure had stolen across the patch of sunlight."
+    },
+    {
+      "id": "s97",
+      "text": "That voice!"
+    },
+    {
+      "id": "s98",
+      "text": "That monstrous breadth of shoulder!"
+    },
+    {
+      "id": "s99",
+      "text": "We sprang to our feet with a gasp of astonishment as Challenger, in a round, boyish straw-hat with a colored ribbon--Challenger, with his hands in his jacket-pockets and his canvas shoes daintily pointing as he walked--appeared in the open space before us."
+    },
+    {
+      "id": "s100",
+      "text": "He threw back his head, and there he stood in the golden glow with all his old Assyrian luxuriance of beard, all his native insolence of drooping eyelids and intolerant eyes."
+    },
+    {
+      "id": "s101",
+      "text": "\"I fear,\" said he, taking out his watch, \"that I am a few minutes too late."
+    },
+    {
+      "id": "s102",
+      "text": "When I gave you this envelope I must confess that I had never intended that you should open it, for it had been my fixed intention to be with you before the hour."
+    },
+    {
+      "id": "s103",
+      "text": "The unfortunate delay can be apportioned between a blundering pilot and an intrusive sandbank."
+    },
+    {
+      "id": "s104",
+      "text": "I fear that it has given my colleague, Professor Summerlee, occasion to blaspheme.\""
+    },
+    {
+      "id": "s105",
+      "text": "\"I am bound to say, sir,\" said Lord John, with some sternness of voice, \"that your turning up is a considerable relief to us, for our mission seemed to have come to a premature end."
+    },
+    {
+      "id": "s106",
+      "text": "Even now I can't for the life of me understand why you should have worked it in so extraordinary a manner.\""
+    },
+    {
+      "id": "s107",
+      "text": "Instead of answering, Professor Challenger entered, shook hands with myself and Lord John, bowed with ponderous insolence to Professor Summerlee, and sank back into a basket-chair, which creaked and swayed beneath his weight."
+    },
+    {
+      "id": "s108",
+      "text": "\"Is all ready for your journey?\" he asked."
+    },
+    {
+      "id": "s109",
+      "text": "\"We can start to-morrow.\""
+    },
+    {
+      "id": "s110",
+      "text": "\"Then so you shall."
+    },
+    {
+      "id": "s111",
+      "text": "You need no chart of directions now, since you will have the inestimable advantage of my own guidance."
+    },
+    {
+      "id": "s112",
+      "text": "From the first I had determined that I would myself preside over your investigation."
+    },
+    {
+      "id": "s113",
+      "text": "The most elaborate charts would, as you will readily admit, be a poor substitute for my own intelligence and advice."
+    },
+    {
+      "id": "s114",
+      "text": "As to the small ruse which I played upon you in the matter of the envelope, it is clear that, had I told you all my intentions, I should have been forced to resist unwelcome pressure to travel out with you.\""
+    },
+    {
+      "id": "s115",
+      "text": "\"Not from me, sir!\" exclaimed Professor Summerlee, heartily. \"So long as there was another ship upon the Atlantic.\""
+    },
+    {
+      "id": "s116",
+      "text": "Challenger waved him away with his great hairy hand."
+    },
+    {
+      "id": "s117",
+      "text": "\"Your common sense will, I am sure, sustain my objection and realize that it was better that I should direct my own movements and appear only at the exact moment when my presence was needed."
+    },
+    {
+      "id": "s118",
+      "text": "That moment has now arrived."
+    },
+    {
+      "id": "s119",
+      "text": "You are in safe hands."
+    },
+    {
+      "id": "s120",
+      "text": "You will not now fail to reach your destination."
+    },
+    {
+      "id": "s121",
+      "text": "From henceforth I take command of this expedition, and I must ask you to complete your preparations to-night, so that we may be able to make an early start in the morning."
+    },
+    {
+      "id": "s122",
+      "text": "My time is of value, and the same thing may be said, no doubt, in a lesser degree of your own."
+    },
+    {
+      "id": "s123",
+      "text": "I propose, therefore, that we push on as rapidly as possible, until I have demonstrated what you have come to see.\""
+    },
+    {
+      "id": "s124",
+      "text": "Lord John Roxton has chartered a large steam launch, the Esmeralda, which was to carry us up the river."
+    },
+    {
+      "id": "s125",
+      "text": "So far as climate goes, it was immaterial what time we chose for our expedition, as the temperature ranges from seventy-five to ninety degrees both summer and winter, with no appreciable difference in heat."
+    },
+    {
+      "id": "s126",
+      "text": "In moisture, however, it is otherwise; from December to May is the period of the rains, and during this time the river slowly rises until it attains a height of nearly forty feet above its low-water mark."
+    },
+    {
+      "id": "s127",
+      "text": "It floods the banks, extends in great lagoons over a monstrous waste of country, and forms a huge district, called locally the Gapo, which is for the most part too marshy for foot-travel and too shallow for boating."
+    },
+    {
+      "id": "s128",
+      "text": "About June the waters begin to fall, and are at their lowest at October or November."
+    },
+    {
+      "id": "s129",
+      "text": "Thus our expedition was at the time of the dry season, when the great river and its tributaries were more or less in a normal condition."
+    },
+    {
+      "id": "s130",
+      "text": "The current of the river is a slight one, the drop being not greater than eight inches in a mile."
+    },
+    {
+      "id": "s131",
+      "text": "No stream could be more convenient for navigation, since the prevailing wind is south-east, and sailing boats may make a continuous progress to the Peruvian frontier, dropping down again with the current."
+    },
+    {
+      "id": "s132",
+      "text": "In our own case the excellent engines of the Esmeralda could disregard the sluggish flow of the stream, and we made as rapid progress as if we were navigating a stagnant lake."
+    },
+    {
+      "id": "s133",
+      "text": "For three days we steamed north-westwards up a stream which even here, a thousand miles from its mouth, was still so enormous that from its center the two banks were mere shadows upon the distant skyline."
+    },
+    {
+      "id": "s134",
+      "text": "On the fourth day after leaving Manaos we turned into a tributary which at its mouth was little smaller than the main stream."
+    },
+    {
+      "id": "s135",
+      "text": "It narrowed rapidly, however, and after two more days' steaming we reached an Indian village, where the Professor insisted that we should land, and that the Esmeralda should be sent back to Manaos."
+    },
+    {
+      "id": "s136",
+      "text": "We should soon come upon rapids, he explained, which would make its further use impossible."
+    },
+    {
+      "id": "s137",
+      "text": "He added privately that we were now approaching the door of the unknown country, and that the fewer whom we took into our confidence the better it would be."
+    },
+    {
+      "id": "s138",
+      "text": "To this end also he made each of us give our word of honor that we would publish or say nothing which would give any exact clue as to the whereabouts of our travels, while the servants were all solemnly sworn to the same effect."
+    },
+    {
+      "id": "s139",
+      "text": "It is for this reason that I am compelled to be vague in my narrative, and I would warn my readers that in any map or diagram which I may give the relation of places to each other may be correct, but the points of the compass are carefully confused, so that in no way can it be taken as an actual guide to the country."
+    },
+    {
+      "id": "s140",
+      "text": "Professor Challenger's reasons for secrecy may be valid or not, but we had no choice but to adopt them, for he was prepared to abandon the whole expedition rather than modify the conditions upon which he would guide us."
+    },
+    {
+      "id": "s141",
+      "text": "It was August 2nd when we snapped our last link with the outer world by bidding farewell to the Esmeralda."
+    },
+    {
+      "id": "s142",
+      "text": "Since then four days have passed, during which we have engaged two large canoes from the Indians, made of so light a material (skins over a bamboo framework) that we should be able to carry them round any obstacle."
+    },
+    {
+      "id": "s143",
+      "text": "These we have loaded with all our effects, and have engaged two additional Indians to help us in the navigation."
+    },
+    {
+      "id": "s144",
+      "text": "I understand that they are the very two--Ataca and Ipetu by name--who accompanied Professor Challenger upon his previous journey."
+    },
+    {
+      "id": "s145",
+      "text": "They appeared to be terrified at the prospect of repeating it, but the chief has patriarchal powers in these countries, and if the bargain is good in his eyes the clansman has little choice in the matter."
+    },
+    {
+      "id": "s146",
+      "text": "So to-morrow we disappear into the unknown."
+    },
+    {
+      "id": "s147",
+      "text": "This account I am transmitting down the river by canoe, and it may be our last word to those who are interested in our fate."
+    },
+    {
+      "id": "s148",
+      "text": "I have, according to our arrangement, addressed it to you, my dear Mr."
+    },
+    {
+      "id": "s149",
+      "text": "McArdle, and I leave it to your discretion to delete, alter, or do what you like with it."
+    },
+    {
+      "id": "s150",
+      "text": "From the assurance of Professor Challenger's manner--and in spite of the continued scepticism of Professor Summerlee--I have no doubt that our leader will make good his statement, and that we are really on the eve of some most remarkable experiences."
+    }
+  ]
+}

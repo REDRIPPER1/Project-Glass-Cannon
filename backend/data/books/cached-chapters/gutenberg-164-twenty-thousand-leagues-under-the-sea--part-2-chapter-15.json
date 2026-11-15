@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-15",
+  "chapterTitle": "Part 2 — CHAPTER XV",
+  "contentHash": "sha256:c1236b8d62c59ec1bc952a8aeb258cf8eb3eddff367b9ab27e594ad55c65fba0",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, Part 2 — CHAPTER XV. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "ACCIDENT OR INCIDENT?"
+    },
+    {
+      "id": "s2",
+      "text": "The next day, the 22nd of March, at six in the morning, preparations for departure were begun."
+    },
+    {
+      "id": "s3",
+      "text": "The last gleams of twilight were melting into night."
+    },
+    {
+      "id": "s4",
+      "text": "The cold was great, the constellations shone with wonderful intensity."
+    },
+    {
+      "id": "s5",
+      "text": "In the zenith glittered that wondrous Southern Cross—the polar bear of Antarctic regions."
+    },
+    {
+      "id": "s6",
+      "text": "The thermometer showed 12 below zero, and when the wind freshened it was most biting."
+    },
+    {
+      "id": "s7",
+      "text": "Flakes of ice increased on the open water."
+    },
+    {
+      "id": "s8",
+      "text": "The sea seemed everywhere alike."
+    },
+    {
+      "id": "s9",
+      "text": "Numerous blackish patches spread on the surface, showing the formation of fresh ice."
+    },
+    {
+      "id": "s10",
+      "text": "Evidently the southern basin, frozen during the six winter months, was absolutely inaccessible."
+    },
+    {
+      "id": "s11",
+      "text": "What became of the whales in that time?"
+    },
+    {
+      "id": "s12",
+      "text": "Doubtless they went beneath the icebergs, seeking more practicable seas."
+    },
+    {
+      "id": "s13",
+      "text": "As to the seals and morses, accustomed to live in a hard climate, they remained on these icy shores."
+    },
+    {
+      "id": "s14",
+      "text": "These creatures have the instinct to break holes in the ice-field and to keep them open."
+    },
+    {
+      "id": "s15",
+      "text": "To these holes they come for breath; when the birds, driven away by the cold, have emigrated to the north, these sea mammals remain sole masters of the polar continent."
+    },
+    {
+      "id": "s16",
+      "text": "But the reservoirs were filling with water, and the _Nautilus_ was slowly descending."
+    },
+    {
+      "id": "s17",
+      "text": "At 1,000 feet deep it stopped; its screw beat the waves, and it advanced straight towards the north at a speed of fifteen miles an hour."
+    },
+    {
+      "id": "s18",
+      "text": "Towards night it was already floating under the immense body of the iceberg."
+    },
+    {
+      "id": "s19",
+      "text": "At three in the morning I was awakened by a violent shock."
+    },
+    {
+      "id": "s20",
+      "text": "I sat up in my bed and listened in the darkness, when I was thrown into the middle of the room."
+    },
+    {
+      "id": "s21",
+      "text": "The _Nautilus_, after having struck, had rebounded violently."
+    },
+    {
+      "id": "s22",
+      "text": "I groped along the partition, and by the staircase to the saloon, which was lit by the luminous ceiling."
+    },
+    {
+      "id": "s23",
+      "text": "The furniture was upset."
+    },
+    {
+      "id": "s24",
+      "text": "Fortunately the windows were firmly set, and had held fast."
+    },
+    {
+      "id": "s25",
+      "text": "The pictures on the starboard side, from being no longer vertical, were clinging to the paper, whilst those of the port side were hanging at least a foot from the wall."
+    },
+    {
+      "id": "s26",
+      "text": "The _Nautilus_ was lying on its starboard side perfectly motionless."
+    },
+    {
+      "id": "s27",
+      "text": "I heard footsteps, and a confusion of voices; but Captain Nemo did not appear."
+    },
+    {
+      "id": "s28",
+      "text": "As I was leaving the saloon, Ned Land and Conseil entered."
+    },
+    {
+      "id": "s29",
+      "text": "“What is the matter?” said I, at once."
+    },
+    {
+      "id": "s30",
+      "text": "“I came to ask you, sir,” replied Conseil."
+    },
+    {
+      "id": "s31",
+      "text": "“Confound it!” exclaimed the Canadian, “I know well enough!"
+    },
+    {
+      "id": "s32",
+      "text": "The _Nautilus_ has struck; and, judging by the way she lies, I do not think she will right herself as she did the first time in Torres Straits.”"
+    },
+    {
+      "id": "s33",
+      "text": "“But,” I asked, “has she at least come to the surface of the sea?”"
+    },
+    {
+      "id": "s34",
+      "text": "“We do not know,” said Conseil."
+    },
+    {
+      "id": "s35",
+      "text": "“It is easy to decide,” I answered."
+    },
+    {
+      "id": "s36",
+      "text": "I consulted the manometer."
+    },
+    {
+      "id": "s37",
+      "text": "To my great surprise, it showed a depth of more than 180 fathoms."
+    },
+    {
+      "id": "s38",
+      "text": "“What does that mean?” I exclaimed."
+    },
+    {
+      "id": "s39",
+      "text": "“We must ask Captain Nemo,” said Conseil."
+    },
+    {
+      "id": "s40",
+      "text": "“But where shall we find him?” said Ned Land."
+    },
+    {
+      "id": "s41",
+      "text": "“Follow me,” said I, to my companions."
+    },
+    {
+      "id": "s42",
+      "text": "We left the saloon."
+    },
+    {
+      "id": "s43",
+      "text": "There was no one in the library."
+    },
+    {
+      "id": "s44",
+      "text": "At the centre staircase, by the berths of the ship’s crew, there was no one."
+    },
+    {
+      "id": "s45",
+      "text": "I thought that Captain Nemo must be in the pilot’s cage."
+    },
+    {
+      "id": "s46",
+      "text": "It was best to wait."
+    },
+    {
+      "id": "s47",
+      "text": "We all returned to the saloon."
+    },
+    {
+      "id": "s48",
+      "text": "For twenty minutes we remained thus, trying to hear the slightest noise which might be made on board the _Nautilus_, when Captain Nemo entered."
+    },
+    {
+      "id": "s49",
+      "text": "He seemed not to see us; his face, generally so impassive, showed signs of uneasiness."
+    },
+    {
+      "id": "s50",
+      "text": "He watched the compass silently, then the manometer; and, going to the planisphere, placed his finger on a spot representing the southern seas."
+    },
+    {
+      "id": "s51",
+      "text": "I would not interrupt him; but, some minutes later, when he turned towards me, I said, using one of his own expressions in the Torres Straits:"
+    },
+    {
+      "id": "s52",
+      "text": "“An incident, Captain?”"
+    },
+    {
+      "id": "s53",
+      "text": "“No, sir; an accident this time.”"
+    },
+    {
+      "id": "s54",
+      "text": "“Serious?”"
+    },
+    {
+      "id": "s55",
+      "text": "“Perhaps.”"
+    },
+    {
+      "id": "s56",
+      "text": "“Is the danger immediate?”"
+    },
+    {
+      "id": "s57",
+      "text": "“No.”"
+    },
+    {
+      "id": "s58",
+      "text": "“The _Nautilus_ has stranded?”"
+    },
+    {
+      "id": "s59",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s60",
+      "text": "“And this has happened—how?”"
+    },
+    {
+      "id": "s61",
+      "text": "“From a caprice of nature, not from the ignorance of man."
+    },
+    {
+      "id": "s62",
+      "text": "Not a mistake has been made in the working."
+    },
+    {
+      "id": "s63",
+      "text": "But we cannot prevent equilibrium from producing its effects."
+    },
+    {
+      "id": "s64",
+      "text": "We may brave human laws, but we cannot resist natural ones.”"
+    },
+    {
+      "id": "s65",
+      "text": "Captain Nemo had chosen a strange moment for uttering this philosophical reflection."
+    },
+    {
+      "id": "s66",
+      "text": "On the whole, his answer helped me little."
+    },
+    {
+      "id": "s67",
+      "text": "“May I ask, sir, the cause of this accident?”"
+    },
+    {
+      "id": "s68",
+      "text": "“An enormous block of ice, a whole mountain, has turned over,” he replied."
+    },
+    {
+      "id": "s69",
+      "text": "“When icebergs are undermined at their base by warmer water or reiterated shocks their centre of gravity rises, and the whole thing turns over."
+    },
+    {
+      "id": "s70",
+      "text": "This is what has happened; one of these blocks, as it fell, struck the _Nautilus_, then, gliding under its hull, raised it with irresistible force, bringing it into beds which are not so thick, where it is lying on its side.”"
+    },
+    {
+      "id": "s71",
+      "text": "“But can we not get the _Nautilus_ off by emptying its reservoirs, that it might regain its equilibrium?”"
+    },
+    {
+      "id": "s72",
+      "text": "“That, sir, is being done at this moment."
+    },
+    {
+      "id": "s73",
+      "text": "You can hear the pump working."
+    },
+    {
+      "id": "s74",
+      "text": "Look at the needle of the manometer; it shows that the _Nautilus_ is rising, but the block of ice is floating with it; and, until some obstacle stops its ascending motion, our position cannot be altered.”"
+    },
+    {
+      "id": "s75",
+      "text": "Indeed, the _Nautilus_ still held the same position to starboard; doubtless it would right itself when the block stopped."
+    },
+    {
+      "id": "s76",
+      "text": "But at this moment who knows if we may not be frightfully crushed between the two glassy surfaces?"
+    },
+    {
+      "id": "s77",
+      "text": "I reflected on all the consequences of our position."
+    },
+    {
+      "id": "s78",
+      "text": "Captain Nemo never took his eyes off the manometer."
+    },
+    {
+      "id": "s79",
+      "text": "Since the fall of the iceberg, the _Nautilus_ had risen about a hundred and fifty feet, but it still made the same angle with the perpendicular."
+    },
+    {
+      "id": "s80",
+      "text": "Suddenly a slight movement was felt in the hold."
+    },
+    {
+      "id": "s81",
+      "text": "Evidently it was righting a little."
+    },
+    {
+      "id": "s82",
+      "text": "Things hanging in the saloon were sensibly returning to their normal position."
+    },
+    {
+      "id": "s83",
+      "text": "The partitions were nearing the upright."
+    },
+    {
+      "id": "s84",
+      "text": "No one spoke."
+    },
+    {
+      "id": "s85",
+      "text": "With beating hearts we watched and felt the straightening."
+    },
+    {
+      "id": "s86",
+      "text": "The boards became horizontal under our feet."
+    },
+    {
+      "id": "s87",
+      "text": "Ten minutes passed."
+    },
+    {
+      "id": "s88",
+      "text": "“At last we have righted!” I exclaimed."
+    },
+    {
+      "id": "s89",
+      "text": "“Yes,” said Captain Nemo, going to the door of the saloon."
+    },
+    {
+      "id": "s90",
+      "text": "“But are we floating?” I asked."
+    },
+    {
+      "id": "s91",
+      "text": "“Certainly,” he replied; “since the reservoirs are not empty; and, when empty, the _Nautilus_ must rise to the surface of the sea.”"
+    },
+    {
+      "id": "s92",
+      "text": "We were in open sea; but at a distance of about ten yards, on either side of the _Nautilus_, rose a dazzling wall of ice."
+    },
+    {
+      "id": "s93",
+      "text": "Above and beneath the same wall."
+    },
+    {
+      "id": "s94",
+      "text": "Above, because the lower surface of the iceberg stretched over us like an immense ceiling."
+    },
+    {
+      "id": "s95",
+      "text": "Beneath, because the overturned block, having slid by degrees, had found a resting-place on the lateral walls, which kept it in that position."
+    },
+    {
+      "id": "s96",
+      "text": "The _Nautilus_ was really imprisoned in a perfect tunnel of ice more than twenty yards in breadth, filled with quiet water."
+    },
+    {
+      "id": "s97",
+      "text": "It was easy to get out of it by going either forward or backward, and then make a free passage under the iceberg, some hundreds of yards deeper."
+    },
+    {
+      "id": "s98",
+      "text": "The luminous ceiling had been extinguished, but the saloon was still resplendent with intense light."
+    },
+    {
+      "id": "s99",
+      "text": "It was the powerful reflection from the glass partition sent violently back to the sheets of the lantern."
+    },
+    {
+      "id": "s100",
+      "text": "I cannot describe the effect of the voltaic rays upon the great blocks so capriciously cut; upon every angle, every ridge, every facet was thrown a different light, according to the nature of the veins running through the ice; a dazzling mine of gems, particularly of sapphires, their blue rays crossing with the green of the emerald."
+    },
+    {
+      "id": "s101",
+      "text": "Here and there were opal shades of wonderful softness, running through bright spots like diamonds of fire, the brilliancy of which the eye could not bear."
+    },
+    {
+      "id": "s102",
+      "text": "The power of the lantern seemed increased a hundredfold, like a lamp through the lenticular plates of a first-class lighthouse."
+    },
+    {
+      "id": "s103",
+      "text": "“How beautiful! how beautiful!” cried Conseil."
+    },
+    {
+      "id": "s104",
+      "text": "“Yes,” I said, “it is a wonderful sight."
+    },
+    {
+      "id": "s105",
+      "text": "Is it not, Ned?”"
+    },
+    {
+      "id": "s106",
+      "text": "“Yes, confound it!"
+    },
+    {
+      "id": "s107",
+      "text": "Yes,” answered Ned Land, “it is superb!"
+    },
+    {
+      "id": "s108",
+      "text": "I am mad at being obliged to admit it."
+    },
+    {
+      "id": "s109",
+      "text": "No one has ever seen anything like it; but the sight may cost us dear."
+    },
+    {
+      "id": "s110",
+      "text": "And, if I must say all, I think we are seeing here things which God never intended man to see.”"
+    },
+    {
+      "id": "s111",
+      "text": "Ned was right, it was too beautiful."
+    },
+    {
+      "id": "s112",
+      "text": "Suddenly a cry from Conseil made me turn."
+    },
+    {
+      "id": "s113",
+      "text": "“What is it?” I asked."
+    },
+    {
+      "id": "s114",
+      "text": "“Shut your eyes, sir!"
+    },
+    {
+      "id": "s115",
+      "text": "Do not look, sir!” Saying which, Conseil clapped his hands over his eyes."
+    },
+    {
+      "id": "s116",
+      "text": "“But what is the matter, my boy?”"
+    },
+    {
+      "id": "s117",
+      "text": "“I am dazzled, blinded.”"
+    },
+    {
+      "id": "s118",
+      "text": "My eyes turned involuntarily towards the glass, but I could not stand the fire which seemed to devour them."
+    },
+    {
+      "id": "s119",
+      "text": "I understood what had happened."
+    },
+    {
+      "id": "s120",
+      "text": "The _Nautilus_ had put on full speed."
+    },
+    {
+      "id": "s121",
+      "text": "All the quiet lustre of the ice-walls was at once changed into flashes of lightning."
+    },
+    {
+      "id": "s122",
+      "text": "The fire from these myriads of diamonds was blinding."
+    },
+    {
+      "id": "s123",
+      "text": "It required some time to calm our troubled looks."
+    },
+    {
+      "id": "s124",
+      "text": "At last the hands were taken down."
+    },
+    {
+      "id": "s125",
+      "text": "“Faith, I should never have believed it,” said Conseil."
+    },
+    {
+      "id": "s126",
+      "text": "It was then five in the morning; and at that moment a shock was felt at the bows of the _Nautilus_."
+    },
+    {
+      "id": "s127",
+      "text": "I knew that its spur had struck a block of ice."
+    },
+    {
+      "id": "s128",
+      "text": "It must have been a false manœuvre, for this submarine tunnel, obstructed by blocks, was not very easy navigation."
+    },
+    {
+      "id": "s129",
+      "text": "I thought that Captain Nemo, by changing his course, would either turn these obstacles or else follow the windings of the tunnel."
+    },
+    {
+      "id": "s130",
+      "text": "In any case, the road before us could not be entirely blocked."
+    },
+    {
+      "id": "s131",
+      "text": "But, contrary to my expectations, the _Nautilus_ took a decided retrograde motion."
+    },
+    {
+      "id": "s132",
+      "text": "“We are going backwards?” said Conseil."
+    },
+    {
+      "id": "s133",
+      "text": "“Yes,” I replied."
+    },
+    {
+      "id": "s134",
+      "text": "“This end of the tunnel can have no egress.”"
+    },
+    {
+      "id": "s135",
+      "text": "“And then?”"
+    },
+    {
+      "id": "s136",
+      "text": "“Then,” said I, “the working is easy."
+    },
+    {
+      "id": "s137",
+      "text": "We must go back again, and go out at the southern opening."
+    },
+    {
+      "id": "s138",
+      "text": "That is all.”"
+    },
+    {
+      "id": "s139",
+      "text": "In speaking thus, I wished to appear more confident than I really was."
+    },
+    {
+      "id": "s140",
+      "text": "But the retrograde motion of the _Nautilus_ was increasing; and, reversing the screw, it carried us at great speed."
+    },
+    {
+      "id": "s141",
+      "text": "“It will be a hindrance,” said Ned."
+    },
+    {
+      "id": "s142",
+      "text": "“What does it matter, some hours more or less, provided we get out at last?”"
+    },
+    {
+      "id": "s143",
+      "text": "“Yes,” repeated Ned Land, “provided we do get out at last!”"
+    },
+    {
+      "id": "s144",
+      "text": "For a short time I walked from the saloon to the library."
+    },
+    {
+      "id": "s145",
+      "text": "My companions were silent."
+    },
+    {
+      "id": "s146",
+      "text": "I soon threw myself on an ottoman, and took a book, which my eyes overran mechanically."
+    },
+    {
+      "id": "s147",
+      "text": "A quarter of an hour after, Conseil, approaching me, said, “Is what you are reading very interesting, sir?”"
+    },
+    {
+      "id": "s148",
+      "text": "“Very interesting!” I replied."
+    },
+    {
+      "id": "s149",
+      "text": "“I should think so, sir."
+    },
+    {
+      "id": "s150",
+      "text": "It is your own book you are reading.”"
+    },
+    {
+      "id": "s151",
+      "text": "“My book?”"
+    },
+    {
+      "id": "s152",
+      "text": "And indeed I was holding in my hand the work on the Great Submarine Depths."
+    },
+    {
+      "id": "s153",
+      "text": "I did not even dream of it."
+    },
+    {
+      "id": "s154",
+      "text": "I closed the book and returned to my walk."
+    },
+    {
+      "id": "s155",
+      "text": "Ned and Conseil rose to go."
+    },
+    {
+      "id": "s156",
+      "text": "“Stay here, my friends,” said I, detaining them."
+    },
+    {
+      "id": "s157",
+      "text": "“Let us remain together until we are out of this block.”"
+    },
+    {
+      "id": "s158",
+      "text": "“As you please, sir,” Conseil replied."
+    },
+    {
+      "id": "s159",
+      "text": "Some hours passed."
+    },
+    {
+      "id": "s160",
+      "text": "I often looked at the instruments hanging from the partition."
+    },
+    {
+      "id": "s161",
+      "text": "The manometer showed that the _Nautilus_ kept at a constant depth of more than three hundred yards; the compass still pointed to south; the log indicated a speed of twenty miles an hour, which, in such a cramped space, was very great."
+    },
+    {
+      "id": "s162",
+      "text": "But Captain Nemo knew that he could not hasten too much, and that minutes were worth ages to us."
+    },
+    {
+      "id": "s163",
+      "text": "At twenty-five minutes past eight a second shock took place, this time from behind."
+    },
+    {
+      "id": "s164",
+      "text": "I turned pale."
+    },
+    {
+      "id": "s165",
+      "text": "My companions were close by my side."
+    },
+    {
+      "id": "s166",
+      "text": "I seized Conseil’s hand."
+    },
+    {
+      "id": "s167",
+      "text": "Our looks expressed our feelings better than words."
+    },
+    {
+      "id": "s168",
+      "text": "At this moment the Captain entered the saloon."
+    },
+    {
+      "id": "s169",
+      "text": "I went up to him."
+    },
+    {
+      "id": "s170",
+      "text": "“Our course is barred southward?” I asked."
+    },
+    {
+      "id": "s171",
+      "text": "“Yes, sir."
+    },
+    {
+      "id": "s172",
+      "text": "The iceberg has shifted and closed every outlet.”"
+    },
+    {
+      "id": "s173",
+      "text": "“We are blocked up then?”"
+    },
+    {
+      "id": "s174",
+      "text": "“Yes.”"
+    }
+  ]
+}

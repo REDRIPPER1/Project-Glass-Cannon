@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-29",
+  "chapterTitle": "CHAPTER XXIX. An Epoch in Anne’s Life",
+  "contentHash": "sha256:90d086fd44022dc483faa45d673a72c74543cae9aa7988cc9c386821d6e54c71",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XXIX. An Epoch in Anne’s Life. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "ANNE was bringing the cows home from the back pasture by way of Lover’s Lane."
+    },
+    {
+      "id": "s2",
+      "text": "It was a September evening and all the gaps and clearings in the woods were brimmed up with ruby sunset light."
+    },
+    {
+      "id": "s3",
+      "text": "Here and there the lane was splashed with it, but for the most part it was already quite shadowy beneath the maples, and the spaces under the firs were filled with a clear violet dusk like airy wine."
+    },
+    {
+      "id": "s4",
+      "text": "The winds were out in their tops, and there is no sweeter music on earth than that which the wind makes in the fir trees at evening."
+    },
+    {
+      "id": "s5",
+      "text": "The cows swung placidly down the lane, and Anne followed them dreamily, repeating aloud the battle canto from _Marmion_--which had also been part of their English course the preceding winter and which Miss Stacy had made them learn off by heart--and exulting in its rushing lines and the clash of spears in its imagery."
+    },
+    {
+      "id": "s6",
+      "text": "When she came to the lines"
+    },
+    {
+      "id": "s7",
+      "text": "The stubborn spearsmen still made good Their dark impenetrable wood,"
+    },
+    {
+      "id": "s8",
+      "text": "she stopped in ecstasy to shut her eyes that she might the better fancy herself one of that heroic ring."
+    },
+    {
+      "id": "s9",
+      "text": "When she opened them again it was to behold Diana coming through the gate that led into the Barry field and looking so important that Anne instantly divined there was news to be told."
+    },
+    {
+      "id": "s10",
+      "text": "But betray too eager curiosity she would not."
+    },
+    {
+      "id": "s11",
+      "text": "“Isn’t this evening just like a purple dream, Diana?"
+    },
+    {
+      "id": "s12",
+      "text": "It makes me so glad to be alive."
+    },
+    {
+      "id": "s13",
+      "text": "In the mornings I always think the mornings are best; but when evening comes I think it’s lovelier still.”"
+    },
+    {
+      "id": "s14",
+      "text": "“It’s a very fine evening,” said Diana, “but oh, I have such news, Anne."
+    },
+    {
+      "id": "s15",
+      "text": "Guess."
+    },
+    {
+      "id": "s16",
+      "text": "You can have three guesses.”"
+    },
+    {
+      "id": "s17",
+      "text": "“Charlotte Gillis is going to be married in the church after all and Mrs."
+    },
+    {
+      "id": "s18",
+      "text": "Allan wants us to decorate it,” cried Anne."
+    },
+    {
+      "id": "s19",
+      "text": "“No."
+    },
+    {
+      "id": "s20",
+      "text": "Charlotte’s beau won’t agree to that, because nobody ever has been married in the church yet, and he thinks it would seem too much like a funeral."
+    },
+    {
+      "id": "s21",
+      "text": "It’s too mean, because it would be such fun."
+    },
+    {
+      "id": "s22",
+      "text": "Guess again.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Jane’s mother is going to let her have a birthday party?”"
+    },
+    {
+      "id": "s24",
+      "text": "Diana shook her head, her black eyes dancing with merriment."
+    },
+    {
+      "id": "s25",
+      "text": "“I can’t think what it can be,” said Anne in despair, “unless it’s that Moody Spurgeon MacPherson saw you home from prayer meeting last night."
+    },
+    {
+      "id": "s26",
+      "text": "Did he?”"
+    },
+    {
+      "id": "s27",
+      "text": "“I should think not,” exclaimed Diana indignantly."
+    },
+    {
+      "id": "s28",
+      "text": "“I wouldn’t be likely to boast of it if he did, the horrid creature!"
+    },
+    {
+      "id": "s29",
+      "text": "I knew you couldn’t guess it."
+    },
+    {
+      "id": "s30",
+      "text": "Mother had a letter from Aunt Josephine today, and Aunt Josephine wants you and me to go to town next Tuesday and stop with her for the Exhibition."
+    },
+    {
+      "id": "s31",
+      "text": "There!”"
+    },
+    {
+      "id": "s32",
+      "text": "“Oh, Diana,” whispered Anne, finding it necessary to lean up against a maple tree for support, “do you really mean it?"
+    },
+    {
+      "id": "s33",
+      "text": "But I’m afraid Marilla won’t let me go."
+    },
+    {
+      "id": "s34",
+      "text": "She will say that she can’t encourage gadding about."
+    },
+    {
+      "id": "s35",
+      "text": "That was what she said last week when Jane invited me to go with them in their double-seated buggy to the American concert at the White Sands Hotel."
+    },
+    {
+      "id": "s36",
+      "text": "I wanted to go, but Marilla said I’d be better at home learning my lessons and so would Jane."
+    },
+    {
+      "id": "s37",
+      "text": "I was bitterly disappointed, Diana."
+    },
+    {
+      "id": "s38",
+      "text": "I felt so heartbroken that I wouldn’t say my prayers when I went to bed."
+    },
+    {
+      "id": "s39",
+      "text": "But I repented of that and got up in the middle of the night and said them.”"
+    },
+    {
+      "id": "s40",
+      "text": "“I’ll tell you,” said Diana, “we’ll get Mother to ask Marilla."
+    },
+    {
+      "id": "s41",
+      "text": "She’ll be more likely to let you go then; and if she does we’ll have the time of our lives, Anne."
+    },
+    {
+      "id": "s42",
+      "text": "I’ve never been to an Exhibition, and it’s so aggravating to hear the other girls talking about their trips."
+    },
+    {
+      "id": "s43",
+      "text": "Jane and Ruby have been twice, and they’re going this year again.”"
+    },
+    {
+      "id": "s44",
+      "text": "“I’m not going to think about it at all until I know whether I can go or not,” said Anne resolutely."
+    },
+    {
+      "id": "s45",
+      "text": "“If I did and then was disappointed, it would be more than I could bear."
+    },
+    {
+      "id": "s46",
+      "text": "But in case I do go I’m very glad my new coat will be ready by that time."
+    },
+    {
+      "id": "s47",
+      "text": "Marilla didn’t think I needed a new coat."
+    },
+    {
+      "id": "s48",
+      "text": "She said my old one would do very well for another winter and that I ought to be satisfied with having a new dress."
+    },
+    {
+      "id": "s49",
+      "text": "The dress is very pretty, Diana--navy blue and made so fashionably."
+    },
+    {
+      "id": "s50",
+      "text": "Marilla always makes my dresses fashionably now, because she says she doesn’t intend to have Matthew going to Mrs."
+    },
+    {
+      "id": "s51",
+      "text": "Lynde to make them."
+    },
+    {
+      "id": "s52",
+      "text": "I’m so glad."
+    },
+    {
+      "id": "s53",
+      "text": "It is ever so much easier to be good if your clothes are fashionable."
+    },
+    {
+      "id": "s54",
+      "text": "At least, it is easier for me."
+    },
+    {
+      "id": "s55",
+      "text": "I suppose it doesn’t make such a difference to naturally good people."
+    },
+    {
+      "id": "s56",
+      "text": "But Matthew said I must have a new coat, so Marilla bought a lovely piece of blue broadcloth, and it’s being made by a real dressmaker over at Carmody."
+    },
+    {
+      "id": "s57",
+      "text": "It’s to be done Saturday night, and I’m trying not to imagine myself walking up the church aisle on Sunday in my new suit and cap, because I’m afraid it isn’t right to imagine such things."
+    },
+    {
+      "id": "s58",
+      "text": "But it just slips into my mind in spite of me."
+    },
+    {
+      "id": "s59",
+      "text": "My cap is so pretty."
+    },
+    {
+      "id": "s60",
+      "text": "Matthew bought it for me the day we were over at Carmody."
+    },
+    {
+      "id": "s61",
+      "text": "It is one of those little blue velvet ones that are all the rage, with gold cord and tassels."
+    },
+    {
+      "id": "s62",
+      "text": "Your new hat is elegant, Diana, and so becoming."
+    },
+    {
+      "id": "s63",
+      "text": "When I saw you come into church last Sunday my heart swelled with pride to think you were my dearest friend."
+    },
+    {
+      "id": "s64",
+      "text": "Do you suppose it’s wrong for us to think so much about our clothes?"
+    },
+    {
+      "id": "s65",
+      "text": "Marilla says it is very sinful."
+    },
+    {
+      "id": "s66",
+      "text": "But it is such an interesting subject, isn’t it?”"
+    },
+    {
+      "id": "s67",
+      "text": "Marilla agreed to let Anne go to town, and it was arranged that Mr."
+    },
+    {
+      "id": "s68",
+      "text": "Barry should take the girls in on the following Tuesday."
+    },
+    {
+      "id": "s69",
+      "text": "As Charlottetown was thirty miles away and Mr."
+    },
+    {
+      "id": "s70",
+      "text": "Barry wished to go and return the same day, it was necessary to make a very early start."
+    },
+    {
+      "id": "s71",
+      "text": "But Anne counted it all joy, and was up before sunrise on Tuesday morning."
+    },
+    {
+      "id": "s72",
+      "text": "A glance from her window assured her that the day would be fine, for the eastern sky behind the firs of the Haunted Wood was all silvery and cloudless."
+    },
+    {
+      "id": "s73",
+      "text": "Through the gap in the trees a light was shining in the western gable of Orchard Slope, a token that Diana was also up."
+    },
+    {
+      "id": "s74",
+      "text": "Anne was dressed by the time Matthew had the fire on and had the breakfast ready when Marilla came down, but for her own part was much too excited to eat."
+    },
+    {
+      "id": "s75",
+      "text": "After breakfast the jaunty new cap and jacket were donned, and Anne hastened over the brook and up through the firs to Orchard Slope."
+    },
+    {
+      "id": "s76",
+      "text": "Mr."
+    },
+    {
+      "id": "s77",
+      "text": "Barry and Diana were waiting for her, and they were soon on the road."
+    },
+    {
+      "id": "s78",
+      "text": "It was a long drive, but Anne and Diana enjoyed every minute of it."
+    },
+    {
+      "id": "s79",
+      "text": "It was delightful to rattle along over the moist roads in the early red sunlight that was creeping across the shorn harvest fields."
+    },
+    {
+      "id": "s80",
+      "text": "The air was fresh and crisp, and little smoke-blue mists curled through the valleys and floated off from the hills."
+    },
+    {
+      "id": "s81",
+      "text": "Sometimes the road went through woods where maples were beginning to hang out scarlet banners; sometimes it crossed rivers on bridges that made Anne’s flesh cringe with the old, half-delightful fear; sometimes it wound along a harbor shore and passed by a little cluster of weather-gray fishing huts; again it mounted to hills whence a far sweep of curving upland or misty-blue sky could be seen; but wherever it went there was much of interest to discuss."
+    },
+    {
+      "id": "s82",
+      "text": "It was almost noon when they reached town and found their way to “Beechwood.” It was quite a fine old mansion, set back from the street in a seclusion of green elms and branching beeches."
+    },
+    {
+      "id": "s83",
+      "text": "Miss Barry met them at the door with a twinkle in her sharp black eyes."
+    },
+    {
+      "id": "s84",
+      "text": "“So you’ve come to see me at last, you Anne-girl,” she said."
+    },
+    {
+      "id": "s85",
+      "text": "“Mercy, child, how you have grown!"
+    },
+    {
+      "id": "s86",
+      "text": "You’re taller than I am, I declare."
+    },
+    {
+      "id": "s87",
+      "text": "And you’re ever so much better-looking than you used to be, too."
+    },
+    {
+      "id": "s88",
+      "text": "But I dare say you know that without being told.”"
+    },
+    {
+      "id": "s89",
+      "text": "“Indeed I didn’t,” said Anne radiantly."
+    },
+    {
+      "id": "s90",
+      "text": "“I know I’m not so freckled as I used to be, so I’ve much to be thankful for, but I really hadn’t dared to hope there was any other improvement."
+    },
+    {
+      "id": "s91",
+      "text": "I’m so glad you think there is, Miss Barry.” Miss Barry’s house was furnished with “great magnificence,” as Anne told Marilla afterward."
+    },
+    {
+      "id": "s92",
+      "text": "The two little country girls were rather abashed by the splendor of the parlor where Miss Barry left them when she went to see about dinner."
+    },
+    {
+      "id": "s93",
+      "text": "“Isn’t it just like a palace?” whispered Diana."
+    },
+    {
+      "id": "s94",
+      "text": "“I never was in Aunt Josephine’s house before, and I’d no idea it was so grand."
+    },
+    {
+      "id": "s95",
+      "text": "I just wish Julia Bell could see this--she puts on such airs about her mother’s parlor.”"
+    },
+    {
+      "id": "s96",
+      "text": "“Velvet carpet,” sighed Anne luxuriously, “and silk curtains!"
+    },
+    {
+      "id": "s97",
+      "text": "I’ve dreamed of such things, Diana."
+    },
+    {
+      "id": "s98",
+      "text": "But do you know I don’t believe I feel very comfortable with them after all."
+    },
+    {
+      "id": "s99",
+      "text": "There are so many things in this room and all so splendid that there is no scope for imagination."
+    },
+    {
+      "id": "s100",
+      "text": "That is one consolation when you are poor--there are so many more things you can imagine about.”"
+    },
+    {
+      "id": "s101",
+      "text": "Their sojourn in town was something that Anne and Diana dated from for years."
+    },
+    {
+      "id": "s102",
+      "text": "From first to last it was crowded with delights."
+    },
+    {
+      "id": "s103",
+      "text": "On Wednesday Miss Barry took them to the Exhibition grounds and kept them there all day."
+    },
+    {
+      "id": "s104",
+      "text": "“It was splendid,” Anne related to Marilla later on."
+    },
+    {
+      "id": "s105",
+      "text": "“I never imagined anything so interesting."
+    },
+    {
+      "id": "s106",
+      "text": "I don’t really know which department was the most interesting."
+    },
+    {
+      "id": "s107",
+      "text": "I think I liked the horses and the flowers and the fancywork best."
+    },
+    {
+      "id": "s108",
+      "text": "Josie Pye took first prize for knitted lace."
+    },
+    {
+      "id": "s109",
+      "text": "I was real glad she did."
+    },
+    {
+      "id": "s110",
+      "text": "And I was glad that I felt glad, for it shows I’m improving, don’t you think, Marilla, when I can rejoice in Josie’s success?"
+    },
+    {
+      "id": "s111",
+      "text": "Mr."
+    },
+    {
+      "id": "s112",
+      "text": "Harmon Andrews took second prize for Gravenstein apples and Mr."
+    },
+    {
+      "id": "s113",
+      "text": "Bell took first prize for a pig."
+    },
+    {
+      "id": "s114",
+      "text": "Diana said she thought it was ridiculous for a Sunday-school superintendent to take a prize in pigs, but I don’t see why."
+    },
+    {
+      "id": "s115",
+      "text": "Do you?"
+    },
+    {
+      "id": "s116",
+      "text": "She said she would always think of it after this when he was praying so solemnly."
+    },
+    {
+      "id": "s117",
+      "text": "Clara Louise MacPherson took a prize for painting, and Mrs."
+    },
+    {
+      "id": "s118",
+      "text": "Lynde got first prize for homemade butter and cheese."
+    },
+    {
+      "id": "s119",
+      "text": "So Avonlea was pretty well represented, wasn’t it?"
+    },
+    {
+      "id": "s120",
+      "text": "Mrs."
+    },
+    {
+      "id": "s121",
+      "text": "Lynde was there that day, and I never knew how much I really liked her until I saw her familiar face among all those strangers."
+    },
+    {
+      "id": "s122",
+      "text": "There were thousands of people there, Marilla."
+    },
+    {
+      "id": "s123",
+      "text": "It made me feel dreadfully insignificant."
+    },
+    {
+      "id": "s124",
+      "text": "And Miss Barry took us up to the grandstand to see the horse races."
+    },
+    {
+      "id": "s125",
+      "text": "Mrs."
+    },
+    {
+      "id": "s126",
+      "text": "Lynde wouldn’t go; she said horse racing was an abomination and, she being a church member, thought it her bounden duty to set a good example by staying away."
+    },
+    {
+      "id": "s127",
+      "text": "But there were so many there I don’t believe Mrs."
+    },
+    {
+      "id": "s128",
+      "text": "Lynde’s absence would ever be noticed."
+    },
+    {
+      "id": "s129",
+      "text": "I don’t think, though, that I ought to go very often to horse races, because they _are_ awfully fascinating."
+    },
+    {
+      "id": "s130",
+      "text": "Diana got so excited that she offered to bet me ten cents that the red horse would win."
+    },
+    {
+      "id": "s131",
+      "text": "I didn’t believe he would, but I refused to bet, because I wanted to tell Mrs."
+    },
+    {
+      "id": "s132",
+      "text": "Allan all about everything, and I felt sure it wouldn’t do to tell her that."
+    },
+    {
+      "id": "s133",
+      "text": "It’s always wrong to do anything you can’t tell the minister’s wife."
+    },
+    {
+      "id": "s134",
+      "text": "It’s as good as an extra conscience to have a minister’s wife for your friend."
+    },
+    {
+      "id": "s135",
+      "text": "And I was very glad I didn’t bet, because the red horse _did_ win, and I would have lost ten cents."
+    },
+    {
+      "id": "s136",
+      "text": "So you see that virtue was its own reward."
+    },
+    {
+      "id": "s137",
+      "text": "We saw a man go up in a balloon."
+    },
+    {
+      "id": "s138",
+      "text": "I’d love to go up in a balloon, Marilla; it would be simply thrilling; and we saw a man selling fortunes."
+    },
+    {
+      "id": "s139",
+      "text": "You paid him ten cents and a little bird picked out your fortune for you."
+    },
+    {
+      "id": "s140",
+      "text": "Miss Barry gave Diana and me ten cents each to have our fortunes told."
+    },
+    {
+      "id": "s141",
+      "text": "Mine was that I would marry a dark-complected man who was very wealthy, and I would go across water to live."
+    },
+    {
+      "id": "s142",
+      "text": "I looked carefully at all the dark men I saw after that, but I didn’t care much for any of them, and anyhow I suppose it’s too early to be looking out for him yet."
+    },
+    {
+      "id": "s143",
+      "text": "Oh, it was a never-to-be-forgotten day, Marilla."
+    },
+    {
+      "id": "s144",
+      "text": "I was so tired I couldn’t sleep at night."
+    },
+    {
+      "id": "s145",
+      "text": "Miss Barry put us in the spare room, according to promise."
+    },
+    {
+      "id": "s146",
+      "text": "It was an elegant room, Marilla, but somehow sleeping in a spare room isn’t what I used to think it was."
+    },
+    {
+      "id": "s147",
+      "text": "That’s the worst of growing up, and I’m beginning to realize it."
+    },
+    {
+      "id": "s148",
+      "text": "The things you wanted so much when you were a child don’t seem half so wonderful to you when you get them.”"
+    },
+    {
+      "id": "s149",
+      "text": "Thursday the girls had a drive in the park, and in the evening Miss Barry took them to a concert in the Academy of Music, where a noted prima donna was to sing."
+    },
+    {
+      "id": "s150",
+      "text": "To Anne the evening was a glittering vision of delight."
+    },
+    {
+      "id": "s151",
+      "text": "“Oh, Marilla, it was beyond description."
+    },
+    {
+      "id": "s152",
+      "text": "I was so excited I couldn’t even talk, so you may know what it was like."
+    },
+    {
+      "id": "s153",
+      "text": "I just sat in enraptured silence."
+    },
+    {
+      "id": "s154",
+      "text": "Madame Selitsky was perfectly beautiful, and wore white satin and diamonds."
+    },
+    {
+      "id": "s155",
+      "text": "But when she began to sing I never thought about anything else."
+    },
+    {
+      "id": "s156",
+      "text": "Oh, I can’t tell you how I felt."
+    },
+    {
+      "id": "s157",
+      "text": "But it seemed to me that it could never be hard to be good any more."
+    },
+    {
+      "id": "s158",
+      "text": "I felt like I do when I look up to the stars."
+    },
+    {
+      "id": "s159",
+      "text": "Tears came into my eyes, but, oh, they were such happy tears."
+    },
+    {
+      "id": "s160",
+      "text": "I was so sorry when it was all over, and I told Miss Barry I didn’t see how I was ever to return to common life again."
+    },
+    {
+      "id": "s161",
+      "text": "She said she thought if we went over to the restaurant across the street and had an ice cream it might help me."
+    },
+    {
+      "id": "s162",
+      "text": "That sounded so prosaic; but to my surprise I found it true."
+    },
+    {
+      "id": "s163",
+      "text": "The ice cream was delicious, Marilla, and it was so lovely and dissipated to be sitting there eating it at eleven o’clock at night."
+    },
+    {
+      "id": "s164",
+      "text": "Diana said she believed she was born for city life."
+    },
+    {
+      "id": "s165",
+      "text": "Miss Barry asked me what my opinion was, but I said I would have to think it over very seriously before I could tell her what I really thought."
+    },
+    {
+      "id": "s166",
+      "text": "So I thought it over after I went to bed."
+    },
+    {
+      "id": "s167",
+      "text": "That is the best time to think things out."
+    },
+    {
+      "id": "s168",
+      "text": "And I came to the conclusion, Marilla, that I wasn’t born for city life and that I was glad of it."
+    },
+    {
+      "id": "s169",
+      "text": "It’s nice to be eating ice cream at brilliant restaurants at eleven o’clock at night once in a while; but as a regular thing I’d rather be in the east gable at eleven, sound asleep, but kind of knowing even in my sleep that the stars were shining outside and that the wind was blowing in the firs across the brook."
+    },
+    {
+      "id": "s170",
+      "text": "I told Miss Barry so at breakfast the next morning and she laughed."
+    },
+    {
+      "id": "s171",
+      "text": "Miss Barry generally laughed at anything I said, even when I said the most solemn things."
+    },
+    {
+      "id": "s172",
+      "text": "I don’t think I liked it, Marilla, because I wasn’t trying to be funny."
+    },
+    {
+      "id": "s173",
+      "text": "But she is a most hospitable lady and treated us royally.”"
+    },
+    {
+      "id": "s174",
+      "text": "Friday brought going-home time, and Mr."
+    },
+    {
+      "id": "s175",
+      "text": "Barry drove in for the girls."
+    },
+    {
+      "id": "s176",
+      "text": "“Well, I hope you’ve enjoyed yourselves,” said Miss Barry, as she bade them good-bye."
+    },
+    {
+      "id": "s177",
+      "text": "“Indeed we have,” said Diana."
+    },
+    {
+      "id": "s178",
+      "text": "“And you, Anne-girl?”"
+    },
+    {
+      "id": "s179",
+      "text": "“I’ve enjoyed every minute of the time,” said Anne, throwing her arms impulsively about the old woman’s neck and kissing her wrinkled cheek."
+    },
+    {
+      "id": "s180",
+      "text": "Diana would never have dared to do such a thing and felt rather aghast at Anne’s freedom."
+    },
+    {
+      "id": "s181",
+      "text": "But Miss Barry was pleased, and she stood on her veranda and watched the buggy out of sight."
+    },
+    {
+      "id": "s182",
+      "text": "Then she went back into her big house with a sigh."
+    },
+    {
+      "id": "s183",
+      "text": "It seemed very lonely, lacking those fresh young lives."
+    },
+    {
+      "id": "s184",
+      "text": "Miss Barry was a rather selfish old lady, if the truth must be told, and had never cared much for anybody but herself."
+    },
+    {
+      "id": "s185",
+      "text": "She valued people only as they were of service to her or amused her."
+    },
+    {
+      "id": "s186",
+      "text": "Anne had amused her, and consequently stood high in the old lady’s good graces."
+    },
+    {
+      "id": "s187",
+      "text": "But Miss Barry found herself thinking less about Anne’s quaint speeches than of her fresh enthusiasms, her transparent emotions, her little winning ways, and the sweetness of her eyes and lips."
+    },
+    {
+      "id": "s188",
+      "text": "“I thought Marilla Cuthbert was an old fool when I heard she’d adopted a girl out of an orphan asylum,” she said to herself, “but I guess she didn’t make much of a mistake after all."
+    },
+    {
+      "id": "s189",
+      "text": "If I’d a child like Anne in the house all the time I’d be a better and happier woman.”"
+    },
+    {
+      "id": "s190",
+      "text": "Anne and Diana found the drive home as pleasant as the drive in--pleasanter, indeed, since there was the delightful consciousness of home waiting at the end of it."
+    },
+    {
+      "id": "s191",
+      "text": "It was sunset when they passed through White Sands and turned into the shore road."
+    },
+    {
+      "id": "s192",
+      "text": "Beyond, the Avonlea hills came out darkly against the saffron sky."
+    },
+    {
+      "id": "s193",
+      "text": "Behind them the moon was rising out of the sea that grew all radiant and transfigured in her light."
+    },
+    {
+      "id": "s194",
+      "text": "Every little cove along the curving road was a marvel of dancing ripples."
+    },
+    {
+      "id": "s195",
+      "text": "The waves broke with a soft swish on the rocks below them, and the tang of the sea was in the strong, fresh air."
+    },
+    {
+      "id": "s196",
+      "text": "“Oh, but it’s good to be alive and to be going home,” breathed Anne."
+    },
+    {
+      "id": "s197",
+      "text": "When she crossed the log bridge over the brook the kitchen light of Green Gables winked her a friendly welcome back, and through the open door shone the hearth fire, sending out its warm red glow athwart the chilly autumn night."
+    },
+    {
+      "id": "s198",
+      "text": "Anne ran blithely up the hill and into the kitchen, where a hot supper was waiting on the table."
+    },
+    {
+      "id": "s199",
+      "text": "“So you’ve got back?” said Marilla, folding up her knitting."
+    },
+    {
+      "id": "s200",
+      "text": "“Yes, and oh, it’s so good to be back,” said Anne joyously."
+    },
+    {
+      "id": "s201",
+      "text": "“I could kiss everything, even to the clock."
+    },
+    {
+      "id": "s202",
+      "text": "Marilla, a broiled chicken!"
+    },
+    {
+      "id": "s203",
+      "text": "You don’t mean to say you cooked that for me!”"
+    },
+    {
+      "id": "s204",
+      "text": "“Yes, I did,” said Marilla."
+    },
+    {
+      "id": "s205",
+      "text": "“I thought you’d be hungry after such a drive and need something real appetizing."
+    },
+    {
+      "id": "s206",
+      "text": "Hurry and take off your things, and we’ll have supper as soon as Matthew comes in."
+    },
+    {
+      "id": "s207",
+      "text": "I’m glad you’ve got back, I must say."
+    },
+    {
+      "id": "s208",
+      "text": "It’s been fearful lonesome here without you, and I never put in four longer days.”"
+    },
+    {
+      "id": "s209",
+      "text": "After supper Anne sat before the fire between Matthew and Marilla, and gave them a full account of her visit."
+    },
+    {
+      "id": "s210",
+      "text": "“I’ve had a splendid time,” she concluded happily, “and I feel that it marks an epoch in my life."
+    },
+    {
+      "id": "s211",
+      "text": "But the best of it all was the coming home.”"
+    }
+  ]
+}

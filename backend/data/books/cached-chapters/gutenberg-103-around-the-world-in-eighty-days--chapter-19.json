@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-19",
+  "chapterTitle": "CHAPTER XIX.",
+  "contentHash": "sha256:360b47561b2259fe1b23e9455150814a0d52f6cb6162219ffc181de7a6b349f2",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XIX.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH PASSEPARTOUT TAKES A TOO GREAT INTEREST IN HIS MASTER, AND WHAT COMES OF IT"
+    },
+    {
+      "id": "s2",
+      "text": "Hong Kong is an island which came into the possession of the English by the Treaty of Nankin, after the war of 1842; and the colonising genius of the English has created upon it an important city and an excellent port."
+    },
+    {
+      "id": "s3",
+      "text": "The island is situated at the mouth of the Canton River, and is separated by about sixty miles from the Portuguese town of Macao, on the opposite coast."
+    },
+    {
+      "id": "s4",
+      "text": "Hong Kong has beaten Macao in the struggle for the Chinese trade, and now the greater part of the transportation of Chinese goods finds its depot at the former place."
+    },
+    {
+      "id": "s5",
+      "text": "Docks, hospitals, wharves, a Gothic cathedral, a government house, macadamised streets, give to Hong Kong the appearance of a town in Kent or Surrey transferred by some strange magic to the antipodes."
+    },
+    {
+      "id": "s6",
+      "text": "Passepartout wandered, with his hands in his pockets, towards the Victoria port, gazing as he went at the curious palanquins and other modes of conveyance, and the groups of Chinese, Japanese, and Europeans who passed to and fro in the streets."
+    },
+    {
+      "id": "s7",
+      "text": "Hong Kong seemed to him not unlike Bombay, Calcutta, and Singapore, since, like them, it betrayed everywhere the evidence of English supremacy."
+    },
+    {
+      "id": "s8",
+      "text": "At the Victoria port he found a confused mass of ships of all nations: English, French, American, and Dutch, men-of-war and trading vessels, Japanese and Chinese junks, sempas, tankas, and flower-boats, which formed so many floating parterres."
+    },
+    {
+      "id": "s9",
+      "text": "Passepartout noticed in the crowd a number of the natives who seemed very old and were dressed in yellow."
+    },
+    {
+      "id": "s10",
+      "text": "On going into a barber’s to get shaved he learned that these ancient men were all at least eighty years old, at which age they are permitted to wear yellow, which is the Imperial colour."
+    },
+    {
+      "id": "s11",
+      "text": "Passepartout, without exactly knowing why, thought this very funny."
+    },
+    {
+      "id": "s12",
+      "text": "On reaching the quay where they were to embark on the “Carnatic,” he was not astonished to find Fix walking up and down."
+    },
+    {
+      "id": "s13",
+      "text": "The detective seemed very much disturbed and disappointed."
+    },
+    {
+      "id": "s14",
+      "text": "“This is bad,” muttered Passepartout, “for the gentlemen of the Reform Club!” He accosted Fix with a merry smile, as if he had not perceived that gentleman’s chagrin."
+    },
+    {
+      "id": "s15",
+      "text": "The detective had, indeed, good reasons to inveigh against the bad luck which pursued him."
+    },
+    {
+      "id": "s16",
+      "text": "The warrant had not come!"
+    },
+    {
+      "id": "s17",
+      "text": "It was certainly on the way, but as certainly it could not now reach Hong Kong for several days; and, this being the last English territory on Mr."
+    },
+    {
+      "id": "s18",
+      "text": "Fogg’s route, the robber would escape, unless he could manage to detain him."
+    },
+    {
+      "id": "s19",
+      "text": "“Well, Monsieur Fix,” said Passepartout, “have you decided to go with us so far as America?”"
+    },
+    {
+      "id": "s20",
+      "text": "“Yes,” returned Fix, through his set teeth."
+    },
+    {
+      "id": "s21",
+      "text": "“Good!” exclaimed Passepartout, laughing heartily."
+    },
+    {
+      "id": "s22",
+      "text": "“I knew you could not persuade yourself to separate from us."
+    },
+    {
+      "id": "s23",
+      "text": "Come and engage your berth.”"
+    },
+    {
+      "id": "s24",
+      "text": "They entered the steamer office and secured cabins for four persons."
+    },
+    {
+      "id": "s25",
+      "text": "The clerk, as he gave them the tickets, informed them that, the repairs on the “Carnatic” having been completed, the steamer would leave that very evening, and not next morning, as had been announced."
+    },
+    {
+      "id": "s26",
+      "text": "“That will suit my master all the better,” said Passepartout."
+    },
+    {
+      "id": "s27",
+      "text": "“I will go and let him know.”"
+    },
+    {
+      "id": "s28",
+      "text": "Fix now decided to make a bold move; he resolved to tell Passepartout all."
+    },
+    {
+      "id": "s29",
+      "text": "It seemed to be the only possible means of keeping Phileas Fogg several days longer at Hong Kong."
+    },
+    {
+      "id": "s30",
+      "text": "He accordingly invited his companion into a tavern which caught his eye on the quay."
+    },
+    {
+      "id": "s31",
+      "text": "On entering, they found themselves in a large room handsomely decorated, at the end of which was a large camp-bed furnished with cushions."
+    },
+    {
+      "id": "s32",
+      "text": "Several persons lay upon this bed in a deep sleep."
+    },
+    {
+      "id": "s33",
+      "text": "At the small tables which were arranged about the room some thirty customers were drinking English beer, porter, gin, and brandy; smoking, the while, long red clay pipes stuffed with little balls of opium mingled with essence of rose."
+    },
+    {
+      "id": "s34",
+      "text": "From time to time one of the smokers, overcome with the narcotic, would slip under the table, whereupon the waiters, taking him by the head and feet, carried and laid him upon the bed."
+    },
+    {
+      "id": "s35",
+      "text": "The bed already supported twenty of these stupefied sots."
+    },
+    {
+      "id": "s36",
+      "text": "Fix and Passepartout saw that they were in a smoking-house haunted by those wretched, cadaverous, idiotic creatures to whom the English merchants sell every year the miserable drug called opium, to the amount of one million four hundred thousand pounds—thousands devoted to one of the most despicable vices which afflict humanity!"
+    },
+    {
+      "id": "s37",
+      "text": "The Chinese government has in vain attempted to deal with the evil by stringent laws."
+    },
+    {
+      "id": "s38",
+      "text": "It passed gradually from the rich, to whom it was at first exclusively reserved, to the lower classes, and then its ravages could not be arrested."
+    },
+    {
+      "id": "s39",
+      "text": "Opium is smoked everywhere, at all times, by men and women, in the Celestial Empire; and, once accustomed to it, the victims cannot dispense with it, except by suffering horrible bodily contortions and agonies."
+    },
+    {
+      "id": "s40",
+      "text": "A great smoker can smoke as many as eight pipes a day; but he dies in five years."
+    },
+    {
+      "id": "s41",
+      "text": "It was in one of these dens that Fix and Passepartout, in search of a friendly glass, found themselves."
+    },
+    {
+      "id": "s42",
+      "text": "Passepartout had no money, but willingly accepted Fix’s invitation in the hope of returning the obligation at some future time."
+    },
+    {
+      "id": "s43",
+      "text": "They ordered two bottles of port, to which the Frenchman did ample justice, whilst Fix observed him with close attention."
+    },
+    {
+      "id": "s44",
+      "text": "They chatted about the journey, and Passepartout was especially merry at the idea that Fix was going to continue it with them."
+    },
+    {
+      "id": "s45",
+      "text": "When the bottles were empty, however, he rose to go and tell his master of the change in the time of the sailing of the “Carnatic.”"
+    },
+    {
+      "id": "s46",
+      "text": "Fix caught him by the arm, and said, “Wait a moment.”"
+    },
+    {
+      "id": "s47",
+      "text": "“What for, Mr."
+    },
+    {
+      "id": "s48",
+      "text": "Fix?”"
+    },
+    {
+      "id": "s49",
+      "text": "“I want to have a serious talk with you.”"
+    },
+    {
+      "id": "s50",
+      "text": "“A serious talk!” cried Passepartout, drinking up the little wine that was left in the bottom of his glass."
+    },
+    {
+      "id": "s51",
+      "text": "“Well, we’ll talk about it to-morrow; I haven’t time now.”"
+    },
+    {
+      "id": "s52",
+      "text": "“Stay!"
+    },
+    {
+      "id": "s53",
+      "text": "What I have to say concerns your master.”"
+    },
+    {
+      "id": "s54",
+      "text": "Passepartout, at this, looked attentively at his companion."
+    },
+    {
+      "id": "s55",
+      "text": "Fix’s face seemed to have a singular expression."
+    },
+    {
+      "id": "s56",
+      "text": "He resumed his seat."
+    },
+    {
+      "id": "s57",
+      "text": "“What is it that you have to say?”"
+    },
+    {
+      "id": "s58",
+      "text": "Fix placed his hand upon Passepartout’s arm, and, lowering his voice, said, “You have guessed who I am?”"
+    },
+    {
+      "id": "s59",
+      "text": "“Parbleu!” said Passepartout, smiling."
+    },
+    {
+      "id": "s60",
+      "text": "“Then I’m going to tell you everything—”"
+    },
+    {
+      "id": "s61",
+      "text": "“Now that I know everything, my friend!"
+    },
+    {
+      "id": "s62",
+      "text": "Ah! that’s very good."
+    },
+    {
+      "id": "s63",
+      "text": "But go on, go on."
+    },
+    {
+      "id": "s64",
+      "text": "First, though, let me tell you that those gentlemen have put themselves to a useless expense.”"
+    },
+    {
+      "id": "s65",
+      "text": "“Useless!” said Fix."
+    },
+    {
+      "id": "s66",
+      "text": "“You speak confidently."
+    },
+    {
+      "id": "s67",
+      "text": "It’s clear that you don’t know how large the sum is.”"
+    },
+    {
+      "id": "s68",
+      "text": "“Of course I do,” returned Passepartout."
+    },
+    {
+      "id": "s69",
+      "text": "“Twenty thousand pounds.”"
+    },
+    {
+      "id": "s70",
+      "text": "“Fifty-five thousand!” answered Fix, pressing his companion’s hand."
+    },
+    {
+      "id": "s71",
+      "text": "“What!” cried the Frenchman."
+    },
+    {
+      "id": "s72",
+      "text": "“Has Monsieur Fogg dared—fifty-five thousand pounds!"
+    },
+    {
+      "id": "s73",
+      "text": "Well, there’s all the more reason for not losing an instant,” he continued, getting up hastily."
+    },
+    {
+      "id": "s74",
+      "text": "Fix pushed Passepartout back in his chair, and resumed: “Fifty-five thousand pounds; and if I succeed, I get two thousand pounds."
+    },
+    {
+      "id": "s75",
+      "text": "If you’ll help me, I’ll let you have five hundred of them.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Help you?” cried Passepartout, whose eyes were standing wide open."
+    },
+    {
+      "id": "s77",
+      "text": "“Yes; help me keep Mr."
+    },
+    {
+      "id": "s78",
+      "text": "Fogg here for two or three days.”"
+    },
+    {
+      "id": "s79",
+      "text": "“Why, what are you saying?"
+    },
+    {
+      "id": "s80",
+      "text": "Those gentlemen are not satisfied with following my master and suspecting his honour, but they must try to put obstacles in his way!"
+    },
+    {
+      "id": "s81",
+      "text": "I blush for them!”"
+    },
+    {
+      "id": "s82",
+      "text": "“What do you mean?”"
+    },
+    {
+      "id": "s83",
+      "text": "“I mean that it is a piece of shameful trickery."
+    },
+    {
+      "id": "s84",
+      "text": "They might as well waylay Mr."
+    },
+    {
+      "id": "s85",
+      "text": "Fogg and put his money in their pockets!”"
+    },
+    {
+      "id": "s86",
+      "text": "“That’s just what we count on doing.”"
+    },
+    {
+      "id": "s87",
+      "text": "“It’s a conspiracy, then,” cried Passepartout, who became more and more excited as the liquor mounted in his head, for he drank without perceiving it."
+    },
+    {
+      "id": "s88",
+      "text": "“A real conspiracy!"
+    },
+    {
+      "id": "s89",
+      "text": "And gentlemen, too."
+    },
+    {
+      "id": "s90",
+      "text": "Bah!”"
+    },
+    {
+      "id": "s91",
+      "text": "Fix began to be puzzled."
+    },
+    {
+      "id": "s92",
+      "text": "“Members of the Reform Club!” continued Passepartout."
+    },
+    {
+      "id": "s93",
+      "text": "“You must know, Monsieur Fix, that my master is an honest man, and that, when he makes a wager, he tries to win it fairly!”"
+    },
+    {
+      "id": "s94",
+      "text": "“But who do you think I am?” asked Fix, looking at him intently."
+    },
+    {
+      "id": "s95",
+      "text": "“Parbleu!"
+    },
+    {
+      "id": "s96",
+      "text": "An agent of the members of the Reform Club, sent out here to interrupt my master’s journey."
+    },
+    {
+      "id": "s97",
+      "text": "But, though I found you out some time ago, I’ve taken good care to say nothing about it to Mr."
+    },
+    {
+      "id": "s98",
+      "text": "Fogg.”"
+    },
+    {
+      "id": "s99",
+      "text": "“He knows nothing, then?”"
+    },
+    {
+      "id": "s100",
+      "text": "“Nothing,” replied Passepartout, again emptying his glass."
+    },
+    {
+      "id": "s101",
+      "text": "The detective passed his hand across his forehead, hesitating before he spoke again."
+    },
+    {
+      "id": "s102",
+      "text": "What should he do?"
+    },
+    {
+      "id": "s103",
+      "text": "Passepartout’s mistake seemed sincere, but it made his design more difficult."
+    },
+    {
+      "id": "s104",
+      "text": "It was evident that the servant was not the master’s accomplice, as Fix had been inclined to suspect."
+    },
+    {
+      "id": "s105",
+      "text": "“Well,” said the detective to himself, “as he is not an accomplice, he will help me.”"
+    },
+    {
+      "id": "s106",
+      "text": "He had no time to lose: Fogg must be detained at Hong Kong, so he resolved to make a clean breast of it."
+    },
+    {
+      "id": "s107",
+      "text": "“Listen to me,” said Fix abruptly."
+    },
+    {
+      "id": "s108",
+      "text": "“I am not, as you think, an agent of the members of the Reform Club—”"
+    },
+    {
+      "id": "s109",
+      "text": "“Bah!” retorted Passepartout, with an air of raillery."
+    },
+    {
+      "id": "s110",
+      "text": "“I am a police detective, sent out here by the London office.”"
+    },
+    {
+      "id": "s111",
+      "text": "“You, a detective?”"
+    },
+    {
+      "id": "s112",
+      "text": "“I will prove it."
+    },
+    {
+      "id": "s113",
+      "text": "Here is my commission.”"
+    },
+    {
+      "id": "s114",
+      "text": "Passepartout was speechless with astonishment when Fix displayed this document, the genuineness of which could not be doubted."
+    },
+    {
+      "id": "s115",
+      "text": "“Mr."
+    },
+    {
+      "id": "s116",
+      "text": "Fogg’s wager,” resumed Fix, “is only a pretext, of which you and the gentlemen of the Reform are dupes."
+    },
+    {
+      "id": "s117",
+      "text": "He had a motive for securing your innocent complicity.”"
+    },
+    {
+      "id": "s118",
+      "text": "“But why?”"
+    },
+    {
+      "id": "s119",
+      "text": "“Listen."
+    },
+    {
+      "id": "s120",
+      "text": "On the 28th of last September a robbery of fifty-five thousand pounds was committed at the Bank of England by a person whose description was fortunately secured."
+    },
+    {
+      "id": "s121",
+      "text": "Here is his description; it answers exactly to that of Mr."
+    },
+    {
+      "id": "s122",
+      "text": "Phileas Fogg.”"
+    },
+    {
+      "id": "s123",
+      "text": "“What nonsense!” cried Passepartout, striking the table with his fist."
+    },
+    {
+      "id": "s124",
+      "text": "“My master is the most honourable of men!”"
+    },
+    {
+      "id": "s125",
+      "text": "“How can you tell?"
+    },
+    {
+      "id": "s126",
+      "text": "You know scarcely anything about him."
+    },
+    {
+      "id": "s127",
+      "text": "You went into his service the day he came away; and he came away on a foolish pretext, without trunks, and carrying a large amount in banknotes."
+    },
+    {
+      "id": "s128",
+      "text": "And yet you are bold enough to assert that he is an honest man!”"
+    },
+    {
+      "id": "s129",
+      "text": "“Yes, yes,” repeated the poor fellow, mechanically."
+    },
+    {
+      "id": "s130",
+      "text": "“Would you like to be arrested as his accomplice?”"
+    },
+    {
+      "id": "s131",
+      "text": "Passepartout, overcome by what he had heard, held his head between his hands, and did not dare to look at the detective."
+    },
+    {
+      "id": "s132",
+      "text": "Phileas Fogg, the saviour of Aouda, that brave and generous man, a robber!"
+    },
+    {
+      "id": "s133",
+      "text": "And yet how many presumptions there were against him!"
+    },
+    {
+      "id": "s134",
+      "text": "Passepartout essayed to reject the suspicions which forced themselves upon his mind; he did not wish to believe that his master was guilty."
+    },
+    {
+      "id": "s135",
+      "text": "“Well, what do you want of me?” said he, at last, with an effort."
+    },
+    {
+      "id": "s136",
+      "text": "“See here,” replied Fix; “I have tracked Mr."
+    },
+    {
+      "id": "s137",
+      "text": "Fogg to this place, but as yet I have failed to receive the warrant of arrest for which I sent to London."
+    },
+    {
+      "id": "s138",
+      "text": "You must help me to keep him here in Hong Kong—”"
+    },
+    {
+      "id": "s139",
+      "text": "“I!"
+    },
+    {
+      "id": "s140",
+      "text": "But I—”"
+    },
+    {
+      "id": "s141",
+      "text": "“I will share with you the two thousand pounds reward offered by the Bank of England.”"
+    },
+    {
+      "id": "s142",
+      "text": "“Never!” replied Passepartout, who tried to rise, but fell back, exhausted in mind and body."
+    },
+    {
+      "id": "s143",
+      "text": "“Mr."
+    },
+    {
+      "id": "s144",
+      "text": "Fix,” he stammered, “even should what you say be true—if my master is really the robber you are seeking for—which I deny—I have been, am, in his service; I have seen his generosity and goodness; and I will never betray him—not for all the gold in the world."
+    },
+    {
+      "id": "s145",
+      "text": "I come from a village where they don’t eat that kind of bread!”"
+    },
+    {
+      "id": "s146",
+      "text": "“You refuse?”"
+    },
+    {
+      "id": "s147",
+      "text": "“I refuse.”"
+    },
+    {
+      "id": "s148",
+      "text": "“Consider that I’ve said nothing,” said Fix; “and let us drink.”"
+    },
+    {
+      "id": "s149",
+      "text": "“Yes; let us drink!”"
+    },
+    {
+      "id": "s150",
+      "text": "Passepartout felt himself yielding more and more to the effects of the liquor."
+    },
+    {
+      "id": "s151",
+      "text": "Fix, seeing that he must, at all hazards, be separated from his master, wished to entirely overcome him."
+    },
+    {
+      "id": "s152",
+      "text": "Some pipes full of opium lay upon the table."
+    },
+    {
+      "id": "s153",
+      "text": "Fix slipped one into Passepartout’s hand."
+    },
+    {
+      "id": "s154",
+      "text": "He took it, put it between his lips, lit it, drew several puffs, and his head, becoming heavy under the influence of the narcotic, fell upon the table."
+    },
+    {
+      "id": "s155",
+      "text": "“At last!” said Fix, seeing Passepartout unconscious."
+    },
+    {
+      "id": "s156",
+      "text": "“Mr."
+    },
+    {
+      "id": "s157",
+      "text": "Fogg will not be informed of the ‘Carnatic’s’ departure; and, if he is, he will have to go without this cursed Frenchman!”"
+    },
+    {
+      "id": "s158",
+      "text": "And, after paying his bill, Fix left the tavern."
+    }
+  ]
+}

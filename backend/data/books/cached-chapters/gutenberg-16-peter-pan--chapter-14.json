@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-16-peter-pan",
+  "ebookId": "16",
+  "edition": "Project Gutenberg eBook #16; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-14",
+  "chapterTitle": "Chapter XIV.",
+  "contentHash": "sha256:8738b4cb88705810b97f534d641d1e13574cd16886f5d93712e7de146f541bce",
+  "attribution": "Barrie, J. M. (James Matthew), 1860-1937, Peter Pan, Chapter XIV.. Source checked against Project Gutenberg eBook #16.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/16",
+    "textUrl": "https://www.gutenberg.org/cache/epub/16/pg16.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE PIRATE SHIP"
+    },
+    {
+      "id": "s2",
+      "text": "One green light squinting over Kidd’s Creek, which is near the mouth of the pirate river, marked where the brig, the _Jolly Roger_, lay, low in the water; a rakish-looking craft foul to the hull, every beam in her detestable, like ground strewn with mangled feathers."
+    },
+    {
+      "id": "s3",
+      "text": "She was the cannibal of the seas, and scarce needed that watchful eye, for she floated immune in the horror of her name."
+    },
+    {
+      "id": "s4",
+      "text": "She was wrapped in the blanket of night, through which no sound from her could have reached the shore."
+    },
+    {
+      "id": "s5",
+      "text": "There was little sound, and none agreeable save the whir of the ship’s sewing machine at which Smee sat, ever industrious and obliging, the essence of the commonplace, pathetic Smee."
+    },
+    {
+      "id": "s6",
+      "text": "I know not why he was so infinitely pathetic, unless it were because he was so pathetically unaware of it; but even strong men had to turn hastily from looking at him, and more than once on summer evenings he had touched the fount of Hook’s tears and made it flow."
+    },
+    {
+      "id": "s7",
+      "text": "Of this, as of almost everything else, Smee was quite unconscious."
+    },
+    {
+      "id": "s8",
+      "text": "A few of the pirates leant over the bulwarks, drinking in the miasma of the night; others sprawled by barrels over games of dice and cards; and the exhausted four who had carried the little house lay prone on the deck, where even in their sleep they rolled skillfully to this side or that out of Hook’s reach, lest he should claw them mechanically in passing."
+    },
+    {
+      "id": "s9",
+      "text": "Hook trod the deck in thought."
+    },
+    {
+      "id": "s10",
+      "text": "O man unfathomable."
+    },
+    {
+      "id": "s11",
+      "text": "It was his hour of triumph."
+    },
+    {
+      "id": "s12",
+      "text": "Peter had been removed for ever from his path, and all the other boys were in the brig, about to walk the plank."
+    },
+    {
+      "id": "s13",
+      "text": "It was his grimmest deed since the days when he had brought Barbecue to heel; and knowing as we do how vain a tabernacle is man, could we be surprised had he now paced the deck unsteadily, bellied out by the winds of his success?"
+    },
+    {
+      "id": "s14",
+      "text": "But there was no elation in his gait, which kept pace with the action of his sombre mind."
+    },
+    {
+      "id": "s15",
+      "text": "Hook was profoundly dejected."
+    },
+    {
+      "id": "s16",
+      "text": "He was often thus when communing with himself on board ship in the quietude of the night."
+    },
+    {
+      "id": "s17",
+      "text": "It was because he was so terribly alone."
+    },
+    {
+      "id": "s18",
+      "text": "This inscrutable man never felt more alone than when surrounded by his dogs."
+    },
+    {
+      "id": "s19",
+      "text": "They were socially inferior to him."
+    },
+    {
+      "id": "s20",
+      "text": "Hook was not his true name."
+    },
+    {
+      "id": "s21",
+      "text": "To reveal who he really was would even at this date set the country in a blaze; but as those who read between the lines must already have guessed, he had been at a famous public school; and its traditions still clung to him like garments, with which indeed they are largely concerned."
+    },
+    {
+      "id": "s22",
+      "text": "Thus it was offensive to him even now to board a ship in the same dress in which he grappled her, and he still adhered in his walk to the school’s distinguished slouch."
+    },
+    {
+      "id": "s23",
+      "text": "But above all he retained the passion for good form."
+    },
+    {
+      "id": "s24",
+      "text": "Good form!"
+    },
+    {
+      "id": "s25",
+      "text": "However much he may have degenerated, he still knew that this is all that really matters."
+    },
+    {
+      "id": "s26",
+      "text": "From far within him he heard a creaking as of rusty portals, and through them came a stern tap-tap-tap, like hammering in the night when one cannot sleep."
+    },
+    {
+      "id": "s27",
+      "text": "“Have you been good form to-day?” was their eternal question."
+    },
+    {
+      "id": "s28",
+      "text": "“Fame, fame, that glittering bauble, it is mine,” he cried."
+    },
+    {
+      "id": "s29",
+      "text": "“Is it quite good form to be distinguished at anything?” the tap-tap from his school replied."
+    },
+    {
+      "id": "s30",
+      "text": "“I am the only man whom Barbecue feared,” he urged, “and Flint feared Barbecue.”"
+    },
+    {
+      "id": "s31",
+      "text": "“Barbecue, Flint—what house?” came the cutting retort."
+    },
+    {
+      "id": "s32",
+      "text": "Most disquieting reflection of all, was it not bad form to think about good form?"
+    },
+    {
+      "id": "s33",
+      "text": "His vitals were tortured by this problem."
+    },
+    {
+      "id": "s34",
+      "text": "It was a claw within him sharper than the iron one; and as it tore him, the perspiration dripped down his tallow countenance and streaked his doublet."
+    },
+    {
+      "id": "s35",
+      "text": "Ofttimes he drew his sleeve across his face, but there was no damming that trickle."
+    },
+    {
+      "id": "s36",
+      "text": "Ah, envy not Hook."
+    },
+    {
+      "id": "s37",
+      "text": "There came to him a presentiment of his early dissolution."
+    },
+    {
+      "id": "s38",
+      "text": "It was as if Peter’s terrible oath had boarded the ship."
+    },
+    {
+      "id": "s39",
+      "text": "Hook felt a gloomy desire to make his dying speech, lest presently there should be no time for it."
+    },
+    {
+      "id": "s40",
+      "text": "“Better for Hook,” he cried, “if he had had less ambition!” It was in his darkest hours only that he referred to himself in the third person."
+    },
+    {
+      "id": "s41",
+      "text": "“No little children to love me!”"
+    },
+    {
+      "id": "s42",
+      "text": "Strange that he should think of this, which had never troubled him before; perhaps the sewing machine brought it to his mind."
+    },
+    {
+      "id": "s43",
+      "text": "For long he muttered to himself, staring at Smee, who was hemming placidly, under the conviction that all children feared him."
+    },
+    {
+      "id": "s44",
+      "text": "Feared him!"
+    },
+    {
+      "id": "s45",
+      "text": "Feared Smee!"
+    },
+    {
+      "id": "s46",
+      "text": "There was not a child on board the brig that night who did not already love him."
+    },
+    {
+      "id": "s47",
+      "text": "He had said horrid things to them and hit them with the palm of his hand, because he could not hit with his fist, but they had only clung to him the more."
+    },
+    {
+      "id": "s48",
+      "text": "Michael had tried on his spectacles."
+    },
+    {
+      "id": "s49",
+      "text": "To tell poor Smee that they thought him lovable!"
+    },
+    {
+      "id": "s50",
+      "text": "Hook itched to do it, but it seemed too brutal."
+    },
+    {
+      "id": "s51",
+      "text": "Instead, he revolved this mystery in his mind: why do they find Smee lovable?"
+    },
+    {
+      "id": "s52",
+      "text": "He pursued the problem like the sleuth-hound that he was."
+    },
+    {
+      "id": "s53",
+      "text": "If Smee was lovable, what was it that made him so?"
+    },
+    {
+      "id": "s54",
+      "text": "A terrible answer suddenly presented itself—“Good form?”"
+    },
+    {
+      "id": "s55",
+      "text": "Had the bo’sun good form without knowing it, which is the best form of all?"
+    },
+    {
+      "id": "s56",
+      "text": "He remembered that you have to prove you don’t know you have it before you are eligible for Pop."
+    },
+    {
+      "id": "s57",
+      "text": "With a cry of rage he raised his iron hand over Smee’s head; but he did not tear."
+    },
+    {
+      "id": "s58",
+      "text": "What arrested him was this reflection:"
+    },
+    {
+      "id": "s59",
+      "text": "“To claw a man because he is good form, what would that be?”"
+    },
+    {
+      "id": "s60",
+      "text": "“Bad form!”"
+    },
+    {
+      "id": "s61",
+      "text": "The unhappy Hook was as impotent as he was damp, and he fell forward like a cut flower."
+    },
+    {
+      "id": "s62",
+      "text": "His dogs thinking him out of the way for a time, discipline instantly relaxed; and they broke into a bacchanalian dance, which brought him to his feet at once, all traces of human weakness gone, as if a bucket of water had passed over him."
+    },
+    {
+      "id": "s63",
+      "text": "“Quiet, you scugs,” he cried, “or I’ll cast anchor in you;” and at once the din was hushed."
+    },
+    {
+      "id": "s64",
+      "text": "“Are all the children chained, so that they cannot fly away?”"
+    },
+    {
+      "id": "s65",
+      "text": "“Ay, ay.”"
+    },
+    {
+      "id": "s66",
+      "text": "“Then hoist them up.”"
+    },
+    {
+      "id": "s67",
+      "text": "The wretched prisoners were dragged from the hold, all except Wendy, and ranged in line in front of him."
+    },
+    {
+      "id": "s68",
+      "text": "For a time he seemed unconscious of their presence."
+    },
+    {
+      "id": "s69",
+      "text": "He lolled at his ease, humming, not unmelodiously, snatches of a rude song, and fingering a pack of cards."
+    },
+    {
+      "id": "s70",
+      "text": "Ever and anon the light from his cigar gave a touch of colour to his face."
+    },
+    {
+      "id": "s71",
+      "text": "“Now then, bullies,” he said briskly, “six of you walk the plank to-night, but I have room for two cabin boys."
+    },
+    {
+      "id": "s72",
+      "text": "Which of you is it to be?”"
+    },
+    {
+      "id": "s73",
+      "text": "“Don’t irritate him unnecessarily,” had been Wendy’s instructions in the hold; so Tootles stepped forward politely."
+    },
+    {
+      "id": "s74",
+      "text": "Tootles hated the idea of signing under such a man, but an instinct told him that it would be prudent to lay the responsibility on an absent person; and though a somewhat silly boy, he knew that mothers alone are always willing to be the buffer."
+    },
+    {
+      "id": "s75",
+      "text": "All children know this about mothers, and despise them for it, but make constant use of it."
+    },
+    {
+      "id": "s76",
+      "text": "So Tootles explained prudently, “You see, sir, I don’t think my mother would like me to be a pirate."
+    },
+    {
+      "id": "s77",
+      "text": "Would your mother like you to be a pirate, Slightly?”"
+    },
+    {
+      "id": "s78",
+      "text": "He winked at Slightly, who said mournfully, “I don’t think so,” as if he wished things had been otherwise."
+    },
+    {
+      "id": "s79",
+      "text": "“Would your mother like you to be a pirate, Twin?”"
+    },
+    {
+      "id": "s80",
+      "text": "“I don’t think so,” said the first twin, as clever as the others."
+    },
+    {
+      "id": "s81",
+      "text": "“Nibs, would—”"
+    },
+    {
+      "id": "s82",
+      "text": "“Stow this gab,” roared Hook, and the spokesmen were dragged back."
+    },
+    {
+      "id": "s83",
+      "text": "“You, boy,” he said, addressing John, “you look as if you had a little pluck in you."
+    },
+    {
+      "id": "s84",
+      "text": "Didst never want to be a pirate, my hearty?”"
+    },
+    {
+      "id": "s85",
+      "text": "Now John had sometimes experienced this hankering at maths. prep.; and he was struck by Hook’s picking him out."
+    },
+    {
+      "id": "s86",
+      "text": "“I once thought of calling myself Red-handed Jack,” he said diffidently."
+    },
+    {
+      "id": "s87",
+      "text": "“And a good name too."
+    },
+    {
+      "id": "s88",
+      "text": "We’ll call you that here, bully, if you join.”"
+    },
+    {
+      "id": "s89",
+      "text": "“What do you think, Michael?” asked John."
+    },
+    {
+      "id": "s90",
+      "text": "“What would you call me if I join?” Michael demanded."
+    },
+    {
+      "id": "s91",
+      "text": "“Blackbeard Joe.”"
+    },
+    {
+      "id": "s92",
+      "text": "Michael was naturally impressed."
+    },
+    {
+      "id": "s93",
+      "text": "“What do you think, John?” He wanted John to decide, and John wanted him to decide."
+    },
+    {
+      "id": "s94",
+      "text": "“Shall we still be respectful subjects of the King?” John inquired."
+    },
+    {
+      "id": "s95",
+      "text": "Through Hook’s teeth came the answer: “You would have to swear, ‘Down with the King.’”"
+    },
+    {
+      "id": "s96",
+      "text": "Perhaps John had not behaved very well so far, but he shone out now."
+    },
+    {
+      "id": "s97",
+      "text": "“Then I refuse,” he cried, banging the barrel in front of Hook."
+    },
+    {
+      "id": "s98",
+      "text": "“And I refuse,” cried Michael."
+    },
+    {
+      "id": "s99",
+      "text": "“Rule Britannia!” squeaked Curly."
+    },
+    {
+      "id": "s100",
+      "text": "The infuriated pirates buffeted them in the mouth; and Hook roared out, “That seals your doom."
+    },
+    {
+      "id": "s101",
+      "text": "Bring up their mother."
+    },
+    {
+      "id": "s102",
+      "text": "Get the plank ready.”"
+    },
+    {
+      "id": "s103",
+      "text": "They were only boys, and they went white as they saw Jukes and Cecco preparing the fatal plank."
+    },
+    {
+      "id": "s104",
+      "text": "But they tried to look brave when Wendy was brought up."
+    },
+    {
+      "id": "s105",
+      "text": "No words of mine can tell you how Wendy despised those pirates."
+    },
+    {
+      "id": "s106",
+      "text": "To the boys there was at least some glamour in the pirate calling; but all that she saw was that the ship had not been tidied for years."
+    },
+    {
+      "id": "s107",
+      "text": "There was not a porthole on the grimy glass of which you might not have written with your finger “Dirty pig”; and she had already written it on several."
+    },
+    {
+      "id": "s108",
+      "text": "But as the boys gathered round her she had no thought, of course, save for them."
+    },
+    {
+      "id": "s109",
+      "text": "“So, my beauty,” said Hook, as if he spoke in syrup, “you are to see your children walk the plank.”"
+    },
+    {
+      "id": "s110",
+      "text": "Fine gentlemen though he was, the intensity of his communings had soiled his ruff, and suddenly he knew that she was gazing at it."
+    },
+    {
+      "id": "s111",
+      "text": "With a hasty gesture he tried to hide it, but he was too late."
+    },
+    {
+      "id": "s112",
+      "text": "“Are they to die?” asked Wendy, with a look of such frightful contempt that he nearly fainted."
+    },
+    {
+      "id": "s113",
+      "text": "“They are,” he snarled."
+    },
+    {
+      "id": "s114",
+      "text": "“Silence all,” he called gloatingly, “for a mother’s last words to her children.”"
+    },
+    {
+      "id": "s115",
+      "text": "At this moment Wendy was grand."
+    },
+    {
+      "id": "s116",
+      "text": "“These are my last words, dear boys,” she said firmly."
+    },
+    {
+      "id": "s117",
+      "text": "“I feel that I have a message to you from your real mothers, and it is this: ‘We hope our sons will die like English gentlemen.’”"
+    },
+    {
+      "id": "s118",
+      "text": "Even the pirates were awed, and Tootles cried out hysterically, “I am going to do what my mother hopes."
+    },
+    {
+      "id": "s119",
+      "text": "What are you to do, Nibs?”"
+    },
+    {
+      "id": "s120",
+      "text": "“What my mother hopes."
+    },
+    {
+      "id": "s121",
+      "text": "What are you to do, Twin?”"
+    },
+    {
+      "id": "s122",
+      "text": "“What my mother hopes."
+    },
+    {
+      "id": "s123",
+      "text": "John, what are—”"
+    },
+    {
+      "id": "s124",
+      "text": "But Hook had found his voice again."
+    },
+    {
+      "id": "s125",
+      "text": "“Tie her up!” he shouted."
+    },
+    {
+      "id": "s126",
+      "text": "It was Smee who tied her to the mast."
+    },
+    {
+      "id": "s127",
+      "text": "“See here, honey,” he whispered, “I’ll save you if you promise to be my mother.”"
+    },
+    {
+      "id": "s128",
+      "text": "But not even for Smee would she make such a promise."
+    },
+    {
+      "id": "s129",
+      "text": "“I would almost rather have no children at all,” she said disdainfully."
+    },
+    {
+      "id": "s130",
+      "text": "It is sad to know that not a boy was looking at her as Smee tied her to the mast; the eyes of all were on the plank: that last little walk they were about to take."
+    },
+    {
+      "id": "s131",
+      "text": "They were no longer able to hope that they would walk it manfully, for the capacity to think had gone from them; they could stare and shiver only."
+    },
+    {
+      "id": "s132",
+      "text": "Hook smiled on them with his teeth closed, and took a step toward Wendy."
+    },
+    {
+      "id": "s133",
+      "text": "His intention was to turn her face so that she should see the boys walking the plank one by one."
+    },
+    {
+      "id": "s134",
+      "text": "But he never reached her, he never heard the cry of anguish he hoped to wring from her."
+    },
+    {
+      "id": "s135",
+      "text": "He heard something else instead."
+    },
+    {
+      "id": "s136",
+      "text": "It was the terrible tick-tick of the crocodile."
+    },
+    {
+      "id": "s137",
+      "text": "They all heard it—pirates, boys, Wendy; and immediately every head was blown in one direction; not to the water whence the sound proceeded, but toward Hook."
+    },
+    {
+      "id": "s138",
+      "text": "All knew that what was about to happen concerned him alone, and that from being actors they were suddenly become spectators."
+    },
+    {
+      "id": "s139",
+      "text": "Very frightful was it to see the change that came over him."
+    },
+    {
+      "id": "s140",
+      "text": "It was as if he had been clipped at every joint."
+    },
+    {
+      "id": "s141",
+      "text": "He fell in a little heap."
+    },
+    {
+      "id": "s142",
+      "text": "The sound came steadily nearer; and in advance of it came this ghastly thought, “The crocodile is about to board the ship!”"
+    },
+    {
+      "id": "s143",
+      "text": "Even the iron claw hung inactive; as if knowing that it was no intrinsic part of what the attacking force wanted."
+    },
+    {
+      "id": "s144",
+      "text": "Left so fearfully alone, any other man would have lain with his eyes shut where he fell: but the gigantic brain of Hook was still working, and under its guidance he crawled on the knees along the deck as far from the sound as he could go."
+    },
+    {
+      "id": "s145",
+      "text": "The pirates respectfully cleared a passage for him, and it was only when he brought up against the bulwarks that he spoke."
+    },
+    {
+      "id": "s146",
+      "text": "“Hide me!” he cried hoarsely."
+    },
+    {
+      "id": "s147",
+      "text": "They gathered round him, all eyes averted from the thing that was coming aboard."
+    },
+    {
+      "id": "s148",
+      "text": "They had no thought of fighting it."
+    },
+    {
+      "id": "s149",
+      "text": "It was Fate."
+    },
+    {
+      "id": "s150",
+      "text": "Only when Hook was hidden from them did curiosity loosen the limbs of the boys so that they could rush to the ship’s side to see the crocodile climbing it."
+    },
+    {
+      "id": "s151",
+      "text": "Then they got the strangest surprise of the Night of Nights; for it was no crocodile that was coming to their aid."
+    },
+    {
+      "id": "s152",
+      "text": "It was Peter."
+    },
+    {
+      "id": "s153",
+      "text": "He signed to them not to give vent to any cry of admiration that might rouse suspicion."
+    },
+    {
+      "id": "s154",
+      "text": "Then he went on ticking."
+    }
+  ]
+}

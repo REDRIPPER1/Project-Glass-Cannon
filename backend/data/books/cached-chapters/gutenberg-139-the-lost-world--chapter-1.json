@@ -4,9 +4,9 @@
   "ebookId": "139",
   "edition": "Project Gutenberg eBook #139; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER I \"There Are Heroisms All Round Us\"",
-  "contentHash": "sha256:a01b5982290b23cbc5e1fafa93c159e7c9e91cde31cb3488cabfb8f70d78b53c",
-  "attribution": "Doyle, Arthur Conan, 1859-1930, The Lost World, CHAPTER I \"There Are Heroisms All Round Us\". Source checked against Project Gutenberg eBook #139.",
+  "chapterTitle": "CHAPTER I",
+  "contentHash": "sha256:227606a6e1d579ce487f0408074c688a66908761bc2cc3b9f0a8010c6fc55b64",
+  "attribution": "Doyle, Arthur Conan, 1859-1930, The Lost World, CHAPTER I. Source checked against Project Gutenberg eBook #139.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/139",
@@ -19,526 +19,530 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "Mr."
+      "text": "\"There Are Heroisms All Round Us\""
     },
     {
       "id": "s2",
-      "text": "Hungerton, her father, really was the most tactless person upon earth,--a fluffy, feathery, untidy cockatoo of a man, perfectly good-natured, but absolutely centered upon his own silly self."
+      "text": "Mr."
     },
     {
       "id": "s3",
-      "text": "If anything could have driven me from Gladys, it would have been the thought of such a father-in-law."
+      "text": "Hungerton, her father, really was the most tactless person upon earth,--a fluffy, feathery, untidy cockatoo of a man, perfectly good-natured, but absolutely centered upon his own silly self."
     },
     {
       "id": "s4",
-      "text": "I am convinced that he really believed in his heart that I came round to the Chestnuts three days a week for the pleasure of his company, and very especially to hear his views upon bimetallism, a subject upon which he was by way of being an authority."
+      "text": "If anything could have driven me from Gladys, it would have been the thought of such a father-in-law."
     },
     {
       "id": "s5",
-      "text": "For an hour or more that evening I listened to his monotonous chirrup about bad money driving out good, the token value of silver, the depreciation of the rupee, and the true standards of exchange."
+      "text": "I am convinced that he really believed in his heart that I came round to the Chestnuts three days a week for the pleasure of his company, and very especially to hear his views upon bimetallism, a subject upon which he was by way of being an authority."
     },
     {
       "id": "s6",
-      "text": "\"Suppose,\" he cried with feeble violence, \"that all the debts in the world were called up simultaneously, and immediate payment insisted upon,--what under our present conditions would happen then?\""
+      "text": "For an hour or more that evening I listened to his monotonous chirrup about bad money driving out good, the token value of silver, the depreciation of the rupee, and the true standards of exchange."
     },
     {
       "id": "s7",
-      "text": "I gave the self-evident answer that I should be a ruined man, upon which he jumped from his chair, reproved me for my habitual levity, which made it impossible for him to discuss any reasonable subject in my presence, and bounced off out of the room to dress for a Masonic meeting."
+      "text": "\"Suppose,\" he cried with feeble violence, \"that all the debts in the world were called up simultaneously, and immediate payment insisted upon,--what under our present conditions would happen then?\""
     },
     {
       "id": "s8",
-      "text": "At last I was alone with Gladys, and the moment of Fate had come!"
+      "text": "I gave the self-evident answer that I should be a ruined man, upon which he jumped from his chair, reproved me for my habitual levity, which made it impossible for him to discuss any reasonable subject in my presence, and bounced off out of the room to dress for a Masonic meeting."
     },
     {
       "id": "s9",
-      "text": "All that evening I had felt like the soldier who awaits the signal which will send him on a forlorn hope; hope of victory and fear of repulse alternating in his mind."
+      "text": "At last I was alone with Gladys, and the moment of Fate had come!"
     },
     {
       "id": "s10",
-      "text": "She sat with that proud, delicate profile of hers outlined against the red curtain."
+      "text": "All that evening I had felt like the soldier who awaits the signal which will send him on a forlorn hope; hope of victory and fear of repulse alternating in his mind."
     },
     {
       "id": "s11",
-      "text": "How beautiful she was!"
+      "text": "She sat with that proud, delicate profile of hers outlined against the red curtain."
     },
     {
       "id": "s12",
-      "text": "And yet how aloof!"
+      "text": "How beautiful she was!"
     },
     {
       "id": "s13",
-      "text": "We had been friends, quite good friends; but never could I get beyond the same comradeship which I might have established with one of my fellow-reporters upon the Gazette,--perfectly frank, perfectly kindly, and perfectly unsexual."
+      "text": "And yet how aloof!"
     },
     {
       "id": "s14",
-      "text": "My instincts are all against a woman being too frank and at her ease with me."
+      "text": "We had been friends, quite good friends; but never could I get beyond the same comradeship which I might have established with one of my fellow-reporters upon the Gazette,--perfectly frank, perfectly kindly, and perfectly unsexual."
     },
     {
       "id": "s15",
-      "text": "It is no compliment to a man."
+      "text": "My instincts are all against a woman being too frank and at her ease with me."
     },
     {
       "id": "s16",
-      "text": "Where the real sex feeling begins, timidity and distrust are its companions, heritage from old wicked days when love and violence went often hand in hand."
+      "text": "It is no compliment to a man."
     },
     {
       "id": "s17",
-      "text": "The bent head, the averted eye, the faltering voice, the wincing figure--these, and not the unshrinking gaze and frank reply, are the true signals of passion."
+      "text": "Where the real sex feeling begins, timidity and distrust are its companions, heritage from old wicked days when love and violence went often hand in hand."
     },
     {
       "id": "s18",
-      "text": "Even in my short life I had learned as much as that--or had inherited it in that race memory which we call instinct."
+      "text": "The bent head, the averted eye, the faltering voice, the wincing figure--these, and not the unshrinking gaze and frank reply, are the true signals of passion."
     },
     {
       "id": "s19",
-      "text": "Gladys was full of every womanly quality."
+      "text": "Even in my short life I had learned as much as that--or had inherited it in that race memory which we call instinct."
     },
     {
       "id": "s20",
-      "text": "Some judged her to be cold and hard; but such a thought was treason."
+      "text": "Gladys was full of every womanly quality."
     },
     {
       "id": "s21",
-      "text": "That delicately bronzed skin, almost oriental in its coloring, that raven hair, the large liquid eyes, the full but exquisite lips,--all the stigmata of passion were there."
+      "text": "Some judged her to be cold and hard; but such a thought was treason."
     },
     {
       "id": "s22",
-      "text": "But I was sadly conscious that up to now I had never found the secret of drawing it forth."
+      "text": "That delicately bronzed skin, almost oriental in its coloring, that raven hair, the large liquid eyes, the full but exquisite lips,--all the stigmata of passion were there."
     },
     {
       "id": "s23",
-      "text": "However, come what might, I should have done with suspense and bring matters to a head to-night."
+      "text": "But I was sadly conscious that up to now I had never found the secret of drawing it forth."
     },
     {
       "id": "s24",
-      "text": "She could but refuse me, and better be a repulsed lover than an accepted brother."
+      "text": "However, come what might, I should have done with suspense and bring matters to a head to-night."
     },
     {
       "id": "s25",
-      "text": "So far my thoughts had carried me, and I was about to break the long and uneasy silence, when two critical, dark eyes looked round at me, and the proud head was shaken in smiling reproof. \"I have a presentiment that you are going to propose, Ned."
+      "text": "She could but refuse me, and better be a repulsed lover than an accepted brother."
     },
     {
       "id": "s26",
-      "text": "I do wish you wouldn't; for things are so much nicer as they are.\""
+      "text": "So far my thoughts had carried me, and I was about to break the long and uneasy silence, when two critical, dark eyes looked round at me, and the proud head was shaken in smiling reproof. \"I have a presentiment that you are going to propose, Ned."
     },
     {
       "id": "s27",
-      "text": "I drew my chair a little nearer. \"Now, how did you know that I was going to propose?\" I asked in genuine wonder."
+      "text": "I do wish you wouldn't; for things are so much nicer as they are.\""
     },
     {
       "id": "s28",
-      "text": "\"Don't women always know?"
+      "text": "I drew my chair a little nearer. \"Now, how did you know that I was going to propose?\" I asked in genuine wonder."
     },
     {
       "id": "s29",
-      "text": "Do you suppose any woman in the world was ever taken unawares?"
+      "text": "\"Don't women always know?"
     },
     {
       "id": "s30",
-      "text": "But--oh, Ned, our friendship has been so good and so pleasant!"
+      "text": "Do you suppose any woman in the world was ever taken unawares?"
     },
     {
       "id": "s31",
-      "text": "What a pity to spoil it!"
+      "text": "But--oh, Ned, our friendship has been so good and so pleasant!"
     },
     {
       "id": "s32",
-      "text": "Don't you feel how splendid it is that a young man and a young woman should be able to talk face to face as we have talked?\""
+      "text": "What a pity to spoil it!"
     },
     {
       "id": "s33",
-      "text": "\"I don't know, Gladys."
+      "text": "Don't you feel how splendid it is that a young man and a young woman should be able to talk face to face as we have talked?\""
     },
     {
       "id": "s34",
-      "text": "You see, I can talk face to face with--with the station-master.\" I can't imagine how that official came into the matter; but in he trotted, and set us both laughing. \"That does not satisfy me in the least."
+      "text": "\"I don't know, Gladys."
     },
     {
       "id": "s35",
-      "text": "I want my arms round you, and your head on my breast, and--oh, Gladys, I want----\""
+      "text": "You see, I can talk face to face with--with the station-master.\" I can't imagine how that official came into the matter; but in he trotted, and set us both laughing. \"That does not satisfy me in the least."
     },
     {
       "id": "s36",
-      "text": "She had sprung from her chair, as she saw signs that I proposed to demonstrate some of my wants. \"You've spoiled everything, Ned,\" she said. \"It's all so beautiful and natural until this kind of thing comes in!"
+      "text": "I want my arms round you, and your head on my breast, and--oh, Gladys, I want----\""
     },
     {
       "id": "s37",
-      "text": "It is such a pity!"
+      "text": "She had sprung from her chair, as she saw signs that I proposed to demonstrate some of my wants. \"You've spoiled everything, Ned,\" she said. \"It's all so beautiful and natural until this kind of thing comes in!"
     },
     {
       "id": "s38",
-      "text": "Why can't you control yourself?\""
+      "text": "It is such a pity!"
     },
     {
       "id": "s39",
-      "text": "\"I didn't invent it,\" I pleaded. \"It's nature."
+      "text": "Why can't you control yourself?\""
     },
     {
       "id": "s40",
-      "text": "It's love.\""
+      "text": "\"I didn't invent it,\" I pleaded. \"It's nature."
     },
     {
       "id": "s41",
-      "text": "\"Well, perhaps if both love, it may be different."
+      "text": "It's love.\""
     },
     {
       "id": "s42",
-      "text": "I have never felt it.\""
+      "text": "\"Well, perhaps if both love, it may be different."
     },
     {
       "id": "s43",
-      "text": "\"But you must--you, with your beauty, with your soul!"
+      "text": "I have never felt it.\""
     },
     {
       "id": "s44",
-      "text": "Oh, Gladys, you were made for love!"
+      "text": "\"But you must--you, with your beauty, with your soul!"
     },
     {
       "id": "s45",
-      "text": "You must love!\""
+      "text": "Oh, Gladys, you were made for love!"
     },
     {
       "id": "s46",
-      "text": "\"One must wait till it comes.\""
+      "text": "You must love!\""
     },
     {
       "id": "s47",
-      "text": "\"But why can't you love me, Gladys?"
+      "text": "\"One must wait till it comes.\""
     },
     {
       "id": "s48",
-      "text": "Is it my appearance, or what?\""
+      "text": "\"But why can't you love me, Gladys?"
     },
     {
       "id": "s49",
-      "text": "She did unbend a little."
+      "text": "Is it my appearance, or what?\""
     },
     {
       "id": "s50",
-      "text": "She put forward a hand--such a gracious, stooping attitude it was--and she pressed back my head."
+      "text": "She did unbend a little."
     },
     {
       "id": "s51",
-      "text": "Then she looked into my upturned face with a very wistful smile."
+      "text": "She put forward a hand--such a gracious, stooping attitude it was--and she pressed back my head."
     },
     {
       "id": "s52",
-      "text": "\"No it isn't that,\" she said at last. \"You're not a conceited boy by nature, and so I can safely tell you it is not that."
+      "text": "Then she looked into my upturned face with a very wistful smile."
     },
     {
       "id": "s53",
-      "text": "It's deeper.\""
+      "text": "\"No it isn't that,\" she said at last. \"You're not a conceited boy by nature, and so I can safely tell you it is not that."
     },
     {
       "id": "s54",
-      "text": "\"My character?\""
+      "text": "It's deeper.\""
     },
     {
       "id": "s55",
-      "text": "She nodded severely."
+      "text": "\"My character?\""
     },
     {
       "id": "s56",
-      "text": "\"What can I do to mend it?"
+      "text": "She nodded severely."
     },
     {
       "id": "s57",
-      "text": "Do sit down and talk it over."
+      "text": "\"What can I do to mend it?"
     },
     {
       "id": "s58",
-      "text": "No, really, I won't if you'll only sit down!\""
+      "text": "Do sit down and talk it over."
     },
     {
       "id": "s59",
-      "text": "She looked at me with a wondering distrust which was much more to my mind than her whole-hearted confidence."
+      "text": "No, really, I won't if you'll only sit down!\""
     },
     {
       "id": "s60",
-      "text": "How primitive and bestial it looks when you put it down in black and white!--and perhaps after all it is only a feeling peculiar to myself."
+      "text": "She looked at me with a wondering distrust which was much more to my mind than her whole-hearted confidence."
     },
     {
       "id": "s61",
-      "text": "Anyhow, she sat down."
+      "text": "How primitive and bestial it looks when you put it down in black and white!--and perhaps after all it is only a feeling peculiar to myself."
     },
     {
       "id": "s62",
-      "text": "\"Now tell me what's amiss with me?\""
+      "text": "Anyhow, she sat down."
     },
     {
       "id": "s63",
-      "text": "\"I'm in love with somebody else,\" said she."
+      "text": "\"Now tell me what's amiss with me?\""
     },
     {
       "id": "s64",
-      "text": "It was my turn to jump out of my chair."
+      "text": "\"I'm in love with somebody else,\" said she."
     },
     {
       "id": "s65",
-      "text": "\"It's nobody in particular,\" she explained, laughing at the expression of my face: \"only an ideal."
+      "text": "It was my turn to jump out of my chair."
     },
     {
       "id": "s66",
-      "text": "I've never met the kind of man I mean.\""
+      "text": "\"It's nobody in particular,\" she explained, laughing at the expression of my face: \"only an ideal."
     },
     {
       "id": "s67",
-      "text": "\"Tell me about him."
+      "text": "I've never met the kind of man I mean.\""
     },
     {
       "id": "s68",
-      "text": "What does he look like?\""
+      "text": "\"Tell me about him."
     },
     {
       "id": "s69",
-      "text": "\"Oh, he might look very much like you.\""
+      "text": "What does he look like?\""
     },
     {
       "id": "s70",
-      "text": "\"How dear of you to say that!"
+      "text": "\"Oh, he might look very much like you.\""
     },
     {
       "id": "s71",
-      "text": "Well, what is it that he does that I don't do?"
+      "text": "\"How dear of you to say that!"
     },
     {
       "id": "s72",
-      "text": "Just say the word,--teetotal, vegetarian, aeronaut, theosophist, superman."
+      "text": "Well, what is it that he does that I don't do?"
     },
     {
       "id": "s73",
-      "text": "I'll have a try at it, Gladys, if you will only give me an idea what would please you.\""
+      "text": "Just say the word,--teetotal, vegetarian, aeronaut, theosophist, superman."
     },
     {
       "id": "s74",
-      "text": "She laughed at the elasticity of my character. \"Well, in the first place, I don't think my ideal would speak like that,\" said she. \"He would be a harder, sterner man, not so ready to adapt himself to a silly girl's whim."
+      "text": "I'll have a try at it, Gladys, if you will only give me an idea what would please you.\""
     },
     {
       "id": "s75",
-      "text": "But, above all, he must be a man who could do, who could act, who could look Death in the face and have no fear of him, a man of great deeds and strange experiences."
+      "text": "She laughed at the elasticity of my character. \"Well, in the first place, I don't think my ideal would speak like that,\" said she. \"He would be a harder, sterner man, not so ready to adapt himself to a silly girl's whim."
     },
     {
       "id": "s76",
-      "text": "It is never a man that I should love, but always the glories he had won; for they would be reflected upon me."
+      "text": "But, above all, he must be a man who could do, who could act, who could look Death in the face and have no fear of him, a man of great deeds and strange experiences."
     },
     {
       "id": "s77",
-      "text": "Think of Richard Burton!"
+      "text": "It is never a man that I should love, but always the glories he had won; for they would be reflected upon me."
     },
     {
       "id": "s78",
-      "text": "When I read his wife's life of him I could so understand her love!"
+      "text": "Think of Richard Burton!"
     },
     {
       "id": "s79",
-      "text": "And Lady Stanley!"
+      "text": "When I read his wife's life of him I could so understand her love!"
     },
     {
       "id": "s80",
-      "text": "Did you ever read the wonderful last chapter of that book about her husband?"
+      "text": "And Lady Stanley!"
     },
     {
       "id": "s81",
-      "text": "These are the sort of men that a woman could worship with all her soul, and yet be the greater, not the less, on account of her love, honored by all the world as the inspirer of noble deeds.\""
+      "text": "Did you ever read the wonderful last chapter of that book about her husband?"
     },
     {
       "id": "s82",
-      "text": "She looked so beautiful in her enthusiasm that I nearly brought down the whole level of the interview."
+      "text": "These are the sort of men that a woman could worship with all her soul, and yet be the greater, not the less, on account of her love, honored by all the world as the inspirer of noble deeds.\""
     },
     {
       "id": "s83",
-      "text": "I gripped myself hard, and went on with the argument."
+      "text": "She looked so beautiful in her enthusiasm that I nearly brought down the whole level of the interview."
     },
     {
       "id": "s84",
-      "text": "\"We can't all be Stanleys and Burtons,\" said I; \"besides, we don't get the chance,--at least, I never had the chance."
+      "text": "I gripped myself hard, and went on with the argument."
     },
     {
       "id": "s85",
-      "text": "If I did, I should try to take it.\""
+      "text": "\"We can't all be Stanleys and Burtons,\" said I; \"besides, we don't get the chance,--at least, I never had the chance."
     },
     {
       "id": "s86",
-      "text": "\"But chances are all around you."
+      "text": "If I did, I should try to take it.\""
     },
     {
       "id": "s87",
-      "text": "It is the mark of the kind of man I mean that he makes his own chances."
+      "text": "\"But chances are all around you."
     },
     {
       "id": "s88",
-      "text": "You can't hold him back."
+      "text": "It is the mark of the kind of man I mean that he makes his own chances."
     },
     {
       "id": "s89",
-      "text": "I've never met him, and yet I seem to know him so well."
+      "text": "You can't hold him back."
     },
     {
       "id": "s90",
-      "text": "There are heroisms all round us waiting to be done."
+      "text": "I've never met him, and yet I seem to know him so well."
     },
     {
       "id": "s91",
-      "text": "It's for men to do them, and for women to reserve their love as a reward for such men."
+      "text": "There are heroisms all round us waiting to be done."
     },
     {
       "id": "s92",
-      "text": "Look at that young Frenchman who went up last week in a balloon."
+      "text": "It's for men to do them, and for women to reserve their love as a reward for such men."
     },
     {
       "id": "s93",
-      "text": "It was blowing a gale of wind; but because he was announced to go he insisted on starting."
+      "text": "Look at that young Frenchman who went up last week in a balloon."
     },
     {
       "id": "s94",
-      "text": "The wind blew him fifteen hundred miles in twenty-four hours, and he fell in the middle of Russia."
+      "text": "It was blowing a gale of wind; but because he was announced to go he insisted on starting."
     },
     {
       "id": "s95",
-      "text": "That was the kind of man I mean."
+      "text": "The wind blew him fifteen hundred miles in twenty-four hours, and he fell in the middle of Russia."
     },
     {
       "id": "s96",
-      "text": "Think of the woman he loved, and how other women must have envied her!"
+      "text": "That was the kind of man I mean."
     },
     {
       "id": "s97",
-      "text": "That's what I should like to be,--envied for my man.\""
+      "text": "Think of the woman he loved, and how other women must have envied her!"
     },
     {
       "id": "s98",
-      "text": "\"I'd have done it to please you.\""
+      "text": "That's what I should like to be,--envied for my man.\""
     },
     {
       "id": "s99",
-      "text": "\"But you shouldn't do it merely to please me."
+      "text": "\"I'd have done it to please you.\""
     },
     {
       "id": "s100",
-      "text": "You should do it because you can't help yourself, because it's natural to you, because the man in you is crying out for heroic expression."
+      "text": "\"But you shouldn't do it merely to please me."
     },
     {
       "id": "s101",
-      "text": "Now, when you described the Wigan coal explosion last month, could you not have gone down and helped those people, in spite of the choke-damp?\""
+      "text": "You should do it because you can't help yourself, because it's natural to you, because the man in you is crying out for heroic expression."
     },
     {
       "id": "s102",
-      "text": "\"I did.\""
+      "text": "Now, when you described the Wigan coal explosion last month, could you not have gone down and helped those people, in spite of the choke-damp?\""
     },
     {
       "id": "s103",
-      "text": "\"You never said so.\""
+      "text": "\"I did.\""
     },
     {
       "id": "s104",
-      "text": "\"There was nothing worth bucking about.\""
+      "text": "\"You never said so.\""
     },
     {
       "id": "s105",
-      "text": "\"I didn't know.\" She looked at me with rather more interest. \"That was brave of you.\""
+      "text": "\"There was nothing worth bucking about.\""
     },
     {
       "id": "s106",
-      "text": "\"I had to."
+      "text": "\"I didn't know.\" She looked at me with rather more interest. \"That was brave of you.\""
     },
     {
       "id": "s107",
-      "text": "If you want to write good copy, you must be where the things are.\""
+      "text": "\"I had to."
     },
     {
       "id": "s108",
-      "text": "\"What a prosaic motive!"
+      "text": "If you want to write good copy, you must be where the things are.\""
     },
     {
       "id": "s109",
-      "text": "It seems to take all the romance out of it."
+      "text": "\"What a prosaic motive!"
     },
     {
       "id": "s110",
-      "text": "But, still, whatever your motive, I am glad that you went down that mine.\" She gave me her hand; but with such sweetness and dignity that I could only stoop and kiss it. \"I dare say I am merely a foolish woman with a young girl's fancies."
+      "text": "It seems to take all the romance out of it."
     },
     {
       "id": "s111",
-      "text": "And yet it is so real with me, so entirely part of my very self, that I cannot help acting upon it."
+      "text": "But, still, whatever your motive, I am glad that you went down that mine.\" She gave me her hand; but with such sweetness and dignity that I could only stoop and kiss it. \"I dare say I am merely a foolish woman with a young girl's fancies."
     },
     {
       "id": "s112",
-      "text": "If I marry, I do want to marry a famous man!\""
+      "text": "And yet it is so real with me, so entirely part of my very self, that I cannot help acting upon it."
     },
     {
       "id": "s113",
-      "text": "\"Why should you not?\" I cried. \"It is women like you who brace men up."
+      "text": "If I marry, I do want to marry a famous man!\""
     },
     {
       "id": "s114",
-      "text": "Give me a chance, and see if I will take it!"
+      "text": "\"Why should you not?\" I cried. \"It is women like you who brace men up."
     },
     {
       "id": "s115",
-      "text": "Besides, as you say, men ought to MAKE their own chances, and not wait until they are given."
+      "text": "Give me a chance, and see if I will take it!"
     },
     {
       "id": "s116",
-      "text": "Look at Clive--just a clerk, and he conquered India!"
+      "text": "Besides, as you say, men ought to MAKE their own chances, and not wait until they are given."
     },
     {
       "id": "s117",
-      "text": "By George!"
+      "text": "Look at Clive--just a clerk, and he conquered India!"
     },
     {
       "id": "s118",
-      "text": "I'll do something in the world yet!\""
+      "text": "By George!"
     },
     {
       "id": "s119",
-      "text": "She laughed at my sudden Irish effervescence. \"Why not?\" she said. \"You have everything a man could have,--youth, health, strength, education, energy."
+      "text": "I'll do something in the world yet!\""
     },
     {
       "id": "s120",
-      "text": "I was sorry you spoke."
+      "text": "She laughed at my sudden Irish effervescence. \"Why not?\" she said. \"You have everything a man could have,--youth, health, strength, education, energy."
     },
     {
       "id": "s121",
-      "text": "And now I am glad--so glad--if it wakens these thoughts in you!\""
+      "text": "I was sorry you spoke."
     },
     {
       "id": "s122",
-      "text": "\"And if I do----\""
+      "text": "And now I am glad--so glad--if it wakens these thoughts in you!\""
     },
     {
       "id": "s123",
-      "text": "Her dear hand rested like warm velvet upon my lips. \"Not another word, Sir!"
+      "text": "\"And if I do----\""
     },
     {
       "id": "s124",
-      "text": "You should have been at the office for evening duty half an hour ago; only I hadn't the heart to remind you."
+      "text": "Her dear hand rested like warm velvet upon my lips. \"Not another word, Sir!"
     },
     {
       "id": "s125",
-      "text": "Some day, perhaps, when you have won your place in the world, we shall talk it over again.\""
+      "text": "You should have been at the office for evening duty half an hour ago; only I hadn't the heart to remind you."
     },
     {
       "id": "s126",
-      "text": "And so it was that I found myself that foggy November evening pursuing the Camberwell tram with my heart glowing within me, and with the eager determination that not another day should elapse before I should find some deed which was worthy of my lady."
+      "text": "Some day, perhaps, when you have won your place in the world, we shall talk it over again.\""
     },
     {
       "id": "s127",
-      "text": "But who--who in all this wide world could ever have imagined the incredible shape which that deed was to take, or the strange steps by which I was led to the doing of it?"
+      "text": "And so it was that I found myself that foggy November evening pursuing the Camberwell tram with my heart glowing within me, and with the eager determination that not another day should elapse before I should find some deed which was worthy of my lady."
     },
     {
       "id": "s128",
-      "text": "And, after all, this opening chapter will seem to the reader to have nothing to do with my narrative; and yet there would have been no narrative without it, for it is only when a man goes out into the world with the thought that there are heroisms all round him, and with the desire all alive in his heart to follow any which may come within sight of him, that he breaks away as I did from the life he knows, and ventures forth into the wonderful mystic twilight land where lie the great adventures and the great rewards."
+      "text": "But who--who in all this wide world could ever have imagined the incredible shape which that deed was to take, or the strange steps by which I was led to the doing of it?"
     },
     {
       "id": "s129",
-      "text": "Behold me, then, at the office of the Daily Gazette, on the staff of which I was a most insignificant unit, with the settled determination that very night, if possible, to find the quest which should be worthy of my Gladys!"
+      "text": "And, after all, this opening chapter will seem to the reader to have nothing to do with my narrative; and yet there would have been no narrative without it, for it is only when a man goes out into the world with the thought that there are heroisms all round him, and with the desire all alive in his heart to follow any which may come within sight of him, that he breaks away as I did from the life he knows, and ventures forth into the wonderful mystic twilight land where lie the great adventures and the great rewards."
     },
     {
       "id": "s130",
-      "text": "Was it hardness, was it selfishness, that she should ask me to risk my life for her own glorification?"
+      "text": "Behold me, then, at the office of the Daily Gazette, on the staff of which I was a most insignificant unit, with the settled determination that very night, if possible, to find the quest which should be worthy of my Gladys!"
     },
     {
       "id": "s131",
+      "text": "Was it hardness, was it selfishness, that she should ask me to risk my life for her own glorification?"
+    },
+    {
+      "id": "s132",
       "text": "Such thoughts may come to middle age; but never to ardent three-and-twenty in the fever of his first love."
     }
   ]

@@ -1,0 +1,997 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-14",
+  "chapterTitle": "CHAPTER XIV. Anne’s Confession",
+  "contentHash": "sha256:60bcbe3b6987083d209a861ce0aab883fac45237ad76f2150ed97d658b0444c1",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XIV. Anne’s Confession. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "ON the Monday evening before the picnic Marilla came down from her room with a troubled face."
+    },
+    {
+      "id": "s2",
+      "text": "“Anne,” she said to that small personage, who was shelling peas by the spotless table and singing, “Nelly of the Hazel Dell” with a vigor and expression that did credit to Diana’s teaching, “did you see anything of my amethyst brooch?"
+    },
+    {
+      "id": "s3",
+      "text": "I thought I stuck it in my pincushion when I came home from church yesterday evening, but I can’t find it anywhere.”"
+    },
+    {
+      "id": "s4",
+      "text": "“I--I saw it this afternoon when you were away at the Aid Society,” said Anne, a little slowly."
+    },
+    {
+      "id": "s5",
+      "text": "“I was passing your door when I saw it on the cushion, so I went in to look at it.”"
+    },
+    {
+      "id": "s6",
+      "text": "“Did you touch it?” said Marilla sternly."
+    },
+    {
+      "id": "s7",
+      "text": "“Y-e-e-s,” admitted Anne, “I took it up and I pinned it on my breast just to see how it would look.”"
+    },
+    {
+      "id": "s8",
+      "text": "“You had no business to do anything of the sort."
+    },
+    {
+      "id": "s9",
+      "text": "It’s very wrong in a little girl to meddle."
+    },
+    {
+      "id": "s10",
+      "text": "You shouldn’t have gone into my room in the first place and you shouldn’t have touched a brooch that didn’t belong to you in the second."
+    },
+    {
+      "id": "s11",
+      "text": "Where did you put it?”"
+    },
+    {
+      "id": "s12",
+      "text": "“Oh, I put it back on the bureau."
+    },
+    {
+      "id": "s13",
+      "text": "I hadn’t it on a minute."
+    },
+    {
+      "id": "s14",
+      "text": "Truly, I didn’t mean to meddle, Marilla."
+    },
+    {
+      "id": "s15",
+      "text": "I didn’t think about its being wrong to go in and try on the brooch; but I see now that it was and I’ll never do it again."
+    },
+    {
+      "id": "s16",
+      "text": "That’s one good thing about me."
+    },
+    {
+      "id": "s17",
+      "text": "I never do the same naughty thing twice.”"
+    },
+    {
+      "id": "s18",
+      "text": "“You didn’t put it back,” said Marilla."
+    },
+    {
+      "id": "s19",
+      "text": "“That brooch isn’t anywhere on the bureau."
+    },
+    {
+      "id": "s20",
+      "text": "You’ve taken it out or something, Anne.”"
+    },
+    {
+      "id": "s21",
+      "text": "“I did put it back,” said Anne quickly--pertly, Marilla thought."
+    },
+    {
+      "id": "s22",
+      "text": "“I don’t just remember whether I stuck it on the pincushion or laid it in the china tray."
+    },
+    {
+      "id": "s23",
+      "text": "But I’m perfectly certain I put it back.”"
+    },
+    {
+      "id": "s24",
+      "text": "“I’ll go and have another look,” said Marilla, determining to be just."
+    },
+    {
+      "id": "s25",
+      "text": "“If you put that brooch back it’s there still."
+    },
+    {
+      "id": "s26",
+      "text": "If it isn’t I’ll know you didn’t, that’s all!”"
+    },
+    {
+      "id": "s27",
+      "text": "Marilla went to her room and made a thorough search, not only over the bureau but in every other place she thought the brooch might possibly be."
+    },
+    {
+      "id": "s28",
+      "text": "It was not to be found and she returned to the kitchen."
+    },
+    {
+      "id": "s29",
+      "text": "“Anne, the brooch is gone."
+    },
+    {
+      "id": "s30",
+      "text": "By your own admission you were the last person to handle it."
+    },
+    {
+      "id": "s31",
+      "text": "Now, what have you done with it?"
+    },
+    {
+      "id": "s32",
+      "text": "Tell me the truth at once."
+    },
+    {
+      "id": "s33",
+      "text": "Did you take it out and lose it?”"
+    },
+    {
+      "id": "s34",
+      "text": "“No, I didn’t,” said Anne solemnly, meeting Marilla’s angry gaze squarely."
+    },
+    {
+      "id": "s35",
+      "text": "“I never took the brooch out of your room and that is the truth, if I was to be led to the block for it--although I’m not very certain what a block is."
+    },
+    {
+      "id": "s36",
+      "text": "So there, Marilla.”"
+    },
+    {
+      "id": "s37",
+      "text": "Anne’s “so there” was only intended to emphasize her assertion, but Marilla took it as a display of defiance."
+    },
+    {
+      "id": "s38",
+      "text": "“I believe you are telling me a falsehood, Anne,” she said sharply."
+    },
+    {
+      "id": "s39",
+      "text": "“I know you are."
+    },
+    {
+      "id": "s40",
+      "text": "There now, don’t say anything more unless you are prepared to tell the whole truth."
+    },
+    {
+      "id": "s41",
+      "text": "Go to your room and stay there until you are ready to confess.”"
+    },
+    {
+      "id": "s42",
+      "text": "“Will I take the peas with me?” said Anne meekly."
+    },
+    {
+      "id": "s43",
+      "text": "“No, I’ll finish shelling them myself."
+    },
+    {
+      "id": "s44",
+      "text": "Do as I bid you.”"
+    },
+    {
+      "id": "s45",
+      "text": "When Anne had gone Marilla went about her evening tasks in a very disturbed state of mind."
+    },
+    {
+      "id": "s46",
+      "text": "She was worried about her valuable brooch."
+    },
+    {
+      "id": "s47",
+      "text": "What if Anne had lost it?"
+    },
+    {
+      "id": "s48",
+      "text": "And how wicked of the child to deny having taken it, when anybody could see she must have!"
+    },
+    {
+      "id": "s49",
+      "text": "With such an innocent face, too!"
+    },
+    {
+      "id": "s50",
+      "text": "“I don’t know what I wouldn’t sooner have had happen,” thought Marilla, as she nervously shelled the peas."
+    },
+    {
+      "id": "s51",
+      "text": "“Of course, I don’t suppose she meant to steal it or anything like that."
+    },
+    {
+      "id": "s52",
+      "text": "She’s just taken it to play with or help along that imagination of hers."
+    },
+    {
+      "id": "s53",
+      "text": "She must have taken it, that’s clear, for there hasn’t been a soul in that room since she was in it, by her own story, until I went up tonight."
+    },
+    {
+      "id": "s54",
+      "text": "And the brooch is gone, there’s nothing surer."
+    },
+    {
+      "id": "s55",
+      "text": "I suppose she has lost it and is afraid to own up for fear she’ll be punished."
+    },
+    {
+      "id": "s56",
+      "text": "It’s a dreadful thing to think she tells falsehoods."
+    },
+    {
+      "id": "s57",
+      "text": "It’s a far worse thing than her fit of temper."
+    },
+    {
+      "id": "s58",
+      "text": "It’s a fearful responsibility to have a child in your house you can’t trust."
+    },
+    {
+      "id": "s59",
+      "text": "Slyness and untruthfulness--that’s what she has displayed."
+    },
+    {
+      "id": "s60",
+      "text": "I declare I feel worse about that than about the brooch."
+    },
+    {
+      "id": "s61",
+      "text": "If she’d only have told the truth about it I wouldn’t mind so much.”"
+    },
+    {
+      "id": "s62",
+      "text": "Marilla went to her room at intervals all through the evening and searched for the brooch, without finding it."
+    },
+    {
+      "id": "s63",
+      "text": "A bedtime visit to the east gable produced no result."
+    },
+    {
+      "id": "s64",
+      "text": "Anne persisted in denying that she knew anything about the brooch but Marilla was only the more firmly convinced that she did."
+    },
+    {
+      "id": "s65",
+      "text": "She told Matthew the story the next morning."
+    },
+    {
+      "id": "s66",
+      "text": "Matthew was confounded and puzzled; he could not so quickly lose faith in Anne but he had to admit that circumstances were against her."
+    },
+    {
+      "id": "s67",
+      "text": "“You’re sure it hasn’t fell down behind the bureau?” was the only suggestion he could offer."
+    },
+    {
+      "id": "s68",
+      "text": "“I’ve moved the bureau and I’ve taken out the drawers and I’ve looked in every crack and cranny” was Marilla’s positive answer."
+    },
+    {
+      "id": "s69",
+      "text": "“The brooch is gone and that child has taken it and lied about it."
+    },
+    {
+      "id": "s70",
+      "text": "That’s the plain, ugly truth, Matthew Cuthbert, and we might as well look it in the face.”"
+    },
+    {
+      "id": "s71",
+      "text": "“Well now, what are you going to do about it?” Matthew asked forlornly, feeling secretly thankful that Marilla and not he had to deal with the situation."
+    },
+    {
+      "id": "s72",
+      "text": "He felt no desire to put his oar in this time."
+    },
+    {
+      "id": "s73",
+      "text": "“She’ll stay in her room until she confesses,” said Marilla grimly, remembering the success of this method in the former case."
+    },
+    {
+      "id": "s74",
+      "text": "“Then we’ll see."
+    },
+    {
+      "id": "s75",
+      "text": "Perhaps we’ll be able to find the brooch if she’ll only tell where she took it; but in any case she’ll have to be severely punished, Matthew.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Well now, you’ll have to punish her,” said Matthew, reaching for his hat."
+    },
+    {
+      "id": "s77",
+      "text": "“I’ve nothing to do with it, remember."
+    },
+    {
+      "id": "s78",
+      "text": "You warned me off yourself.”"
+    },
+    {
+      "id": "s79",
+      "text": "Marilla felt deserted by everyone."
+    },
+    {
+      "id": "s80",
+      "text": "She could not even go to Mrs."
+    },
+    {
+      "id": "s81",
+      "text": "Lynde for advice."
+    },
+    {
+      "id": "s82",
+      "text": "She went up to the east gable with a very serious face and left it with a face more serious still."
+    },
+    {
+      "id": "s83",
+      "text": "Anne steadfastly refused to confess."
+    },
+    {
+      "id": "s84",
+      "text": "She persisted in asserting that she had not taken the brooch."
+    },
+    {
+      "id": "s85",
+      "text": "The child had evidently been crying and Marilla felt a pang of pity which she sternly repressed."
+    },
+    {
+      "id": "s86",
+      "text": "By night she was, as she expressed it, “beat out.”"
+    },
+    {
+      "id": "s87",
+      "text": "“You’ll stay in this room until you confess, Anne."
+    },
+    {
+      "id": "s88",
+      "text": "You can make up your mind to that,” she said firmly."
+    },
+    {
+      "id": "s89",
+      "text": "“But the picnic is tomorrow, Marilla,” cried Anne."
+    },
+    {
+      "id": "s90",
+      "text": "“You won’t keep me from going to that, will you?"
+    },
+    {
+      "id": "s91",
+      "text": "You’ll just let me out for the afternoon, won’t you?"
+    },
+    {
+      "id": "s92",
+      "text": "Then I’ll stay here as long as you like _afterwards_ cheerfully."
+    },
+    {
+      "id": "s93",
+      "text": "But I _must_ go to the picnic.”"
+    },
+    {
+      "id": "s94",
+      "text": "“You’ll not go to picnics nor anywhere else until you’ve confessed, Anne.”"
+    },
+    {
+      "id": "s95",
+      "text": "“Oh, Marilla,” gasped Anne."
+    },
+    {
+      "id": "s96",
+      "text": "But Marilla had gone out and shut the door."
+    },
+    {
+      "id": "s97",
+      "text": "Wednesday morning dawned as bright and fair as if expressly made to order for the picnic."
+    },
+    {
+      "id": "s98",
+      "text": "Birds sang around Green Gables; the Madonna lilies in the garden sent out whiffs of perfume that entered in on viewless winds at every door and window, and wandered through halls and rooms like spirits of benediction."
+    },
+    {
+      "id": "s99",
+      "text": "The birches in the hollow waved joyful hands as if watching for Anne’s usual morning greeting from the east gable."
+    },
+    {
+      "id": "s100",
+      "text": "But Anne was not at her window."
+    },
+    {
+      "id": "s101",
+      "text": "When Marilla took her breakfast up to her she found the child sitting primly on her bed, pale and resolute, with tight-shut lips and gleaming eyes."
+    },
+    {
+      "id": "s102",
+      "text": "“Marilla, I’m ready to confess.”"
+    },
+    {
+      "id": "s103",
+      "text": "“Ah!” Marilla laid down her tray."
+    },
+    {
+      "id": "s104",
+      "text": "Once again her method had succeeded; but her success was very bitter to her."
+    },
+    {
+      "id": "s105",
+      "text": "“Let me hear what you have to say then, Anne.”"
+    },
+    {
+      "id": "s106",
+      "text": "“I took the amethyst brooch,” said Anne, as if repeating a lesson she had learned."
+    },
+    {
+      "id": "s107",
+      "text": "“I took it just as you said."
+    },
+    {
+      "id": "s108",
+      "text": "I didn’t mean to take it when I went in."
+    },
+    {
+      "id": "s109",
+      "text": "But it did look so beautiful, Marilla, when I pinned it on my breast that I was overcome by an irresistible temptation."
+    },
+    {
+      "id": "s110",
+      "text": "I imagined how perfectly thrilling it would be to take it to Idlewild and play I was the Lady Cordelia Fitzgerald."
+    },
+    {
+      "id": "s111",
+      "text": "It would be so much easier to imagine I was the Lady Cordelia if I had a real amethyst brooch on."
+    },
+    {
+      "id": "s112",
+      "text": "Diana and I make necklaces of roseberries but what are roseberries compared to amethysts?"
+    },
+    {
+      "id": "s113",
+      "text": "So I took the brooch."
+    },
+    {
+      "id": "s114",
+      "text": "I thought I could put it back before you came home."
+    },
+    {
+      "id": "s115",
+      "text": "I went all the way around by the road to lengthen out the time."
+    },
+    {
+      "id": "s116",
+      "text": "When I was going over the bridge across the Lake of Shining Waters I took the brooch off to have another look at it."
+    },
+    {
+      "id": "s117",
+      "text": "Oh, how it did shine in the sunlight!"
+    },
+    {
+      "id": "s118",
+      "text": "And then, when I was leaning over the bridge, it just slipped through my fingers--so--and went down--down--down, all purply-sparkling, and sank forevermore beneath the Lake of Shining Waters."
+    },
+    {
+      "id": "s119",
+      "text": "And that’s the best I can do at confessing, Marilla.”"
+    },
+    {
+      "id": "s120",
+      "text": "Marilla felt hot anger surge up into her heart again."
+    },
+    {
+      "id": "s121",
+      "text": "This child had taken and lost her treasured amethyst brooch and now sat there calmly reciting the details thereof without the least apparent compunction or repentance."
+    },
+    {
+      "id": "s122",
+      "text": "“Anne, this is terrible,” she said, trying to speak calmly."
+    },
+    {
+      "id": "s123",
+      "text": "“You are the very wickedest girl I ever heard of.”"
+    },
+    {
+      "id": "s124",
+      "text": "“Yes, I suppose I am,” agreed Anne tranquilly."
+    },
+    {
+      "id": "s125",
+      "text": "“And I know I’ll have to be punished."
+    },
+    {
+      "id": "s126",
+      "text": "It’ll be your duty to punish me, Marilla."
+    },
+    {
+      "id": "s127",
+      "text": "Won’t you please get it over right off because I’d like to go to the picnic with nothing on my mind.”"
+    },
+    {
+      "id": "s128",
+      "text": "“Picnic, indeed!"
+    },
+    {
+      "id": "s129",
+      "text": "You’ll go to no picnic today, Anne Shirley."
+    },
+    {
+      "id": "s130",
+      "text": "That shall be your punishment."
+    },
+    {
+      "id": "s131",
+      "text": "And it isn’t half severe enough either for what you’ve done!”"
+    },
+    {
+      "id": "s132",
+      "text": "“Not go to the picnic!” Anne sprang to her feet and clutched Marilla’s hand."
+    },
+    {
+      "id": "s133",
+      "text": "“But you _promised_ me I might!"
+    },
+    {
+      "id": "s134",
+      "text": "Oh, Marilla, I must go to the picnic."
+    },
+    {
+      "id": "s135",
+      "text": "That was why I confessed."
+    },
+    {
+      "id": "s136",
+      "text": "Punish me any way you like but that."
+    },
+    {
+      "id": "s137",
+      "text": "Oh, Marilla, please, please, let me go to the picnic."
+    },
+    {
+      "id": "s138",
+      "text": "Think of the ice cream!"
+    },
+    {
+      "id": "s139",
+      "text": "For anything you know I may never have a chance to taste ice cream again.”"
+    },
+    {
+      "id": "s140",
+      "text": "Marilla disengaged Anne’s clinging hands stonily."
+    },
+    {
+      "id": "s141",
+      "text": "“You needn’t plead, Anne."
+    },
+    {
+      "id": "s142",
+      "text": "You are not going to the picnic and that’s final."
+    },
+    {
+      "id": "s143",
+      "text": "No, not a word.”"
+    },
+    {
+      "id": "s144",
+      "text": "Anne realized that Marilla was not to be moved."
+    },
+    {
+      "id": "s145",
+      "text": "She clasped her hands together, gave a piercing shriek, and then flung herself face downward on the bed, crying and writhing in an utter abandonment of disappointment and despair."
+    },
+    {
+      "id": "s146",
+      "text": "“For the land’s sake!” gasped Marilla, hastening from the room."
+    },
+    {
+      "id": "s147",
+      "text": "“I believe the child is crazy."
+    },
+    {
+      "id": "s148",
+      "text": "No child in her senses would behave as she does."
+    },
+    {
+      "id": "s149",
+      "text": "If she isn’t she’s utterly bad."
+    },
+    {
+      "id": "s150",
+      "text": "Oh dear, I’m afraid Rachel was right from the first."
+    },
+    {
+      "id": "s151",
+      "text": "But I’ve put my hand to the plow and I won’t look back.”"
+    },
+    {
+      "id": "s152",
+      "text": "That was a dismal morning."
+    },
+    {
+      "id": "s153",
+      "text": "Marilla worked fiercely and scrubbed the porch floor and the dairy shelves when she could find nothing else to do."
+    },
+    {
+      "id": "s154",
+      "text": "Neither the shelves nor the porch needed it--but Marilla did."
+    },
+    {
+      "id": "s155",
+      "text": "Then she went out and raked the yard."
+    },
+    {
+      "id": "s156",
+      "text": "When dinner was ready she went to the stairs and called Anne."
+    },
+    {
+      "id": "s157",
+      "text": "A tear-stained face appeared, looking tragically over the banisters."
+    },
+    {
+      "id": "s158",
+      "text": "“Come down to your dinner, Anne.”"
+    },
+    {
+      "id": "s159",
+      "text": "“I don’t want any dinner, Marilla,” said Anne, sobbingly."
+    },
+    {
+      "id": "s160",
+      "text": "“I couldn’t eat anything."
+    },
+    {
+      "id": "s161",
+      "text": "My heart is broken."
+    },
+    {
+      "id": "s162",
+      "text": "You’ll feel remorse of conscience someday, I expect, for breaking it, Marilla, but I forgive you."
+    },
+    {
+      "id": "s163",
+      "text": "Remember when the time comes that I forgive you."
+    },
+    {
+      "id": "s164",
+      "text": "But please don’t ask me to eat anything, especially boiled pork and greens."
+    },
+    {
+      "id": "s165",
+      "text": "Boiled pork and greens are so unromantic when one is in affliction.”"
+    },
+    {
+      "id": "s166",
+      "text": "Exasperated, Marilla returned to the kitchen and poured out her tale of woe to Matthew, who, between his sense of justice and his unlawful sympathy with Anne, was a miserable man."
+    },
+    {
+      "id": "s167",
+      "text": "“Well now, she shouldn’t have taken the brooch, Marilla, or told stories about it,” he admitted, mournfully surveying his plateful of unromantic pork and greens as if he, like Anne, thought it a food unsuited to crises of feeling, “but she’s such a little thing--such an interesting little thing."
+    },
+    {
+      "id": "s168",
+      "text": "Don’t you think it’s pretty rough not to let her go to the picnic when she’s so set on it?”"
+    },
+    {
+      "id": "s169",
+      "text": "“Matthew Cuthbert, I’m amazed at you."
+    },
+    {
+      "id": "s170",
+      "text": "I think I’ve let her off entirely too easy."
+    },
+    {
+      "id": "s171",
+      "text": "And she doesn’t appear to realize how wicked she’s been at all--that’s what worries me most."
+    },
+    {
+      "id": "s172",
+      "text": "If she’d really felt sorry it wouldn’t be so bad."
+    },
+    {
+      "id": "s173",
+      "text": "And you don’t seem to realize it, neither; you’re making excuses for her all the time to yourself--I can see that.”"
+    },
+    {
+      "id": "s174",
+      "text": "“Well now, she’s such a little thing,” feebly reiterated Matthew."
+    },
+    {
+      "id": "s175",
+      "text": "“And there should be allowances made, Marilla."
+    },
+    {
+      "id": "s176",
+      "text": "You know she’s never had any bringing up.”"
+    },
+    {
+      "id": "s177",
+      "text": "“Well, she’s having it now” retorted Marilla."
+    },
+    {
+      "id": "s178",
+      "text": "The retort silenced Matthew if it did not convince him."
+    },
+    {
+      "id": "s179",
+      "text": "That dinner was a very dismal meal."
+    },
+    {
+      "id": "s180",
+      "text": "The only cheerful thing about it was Jerry Buote, the hired boy, and Marilla resented his cheerfulness as a personal insult."
+    },
+    {
+      "id": "s181",
+      "text": "When her dishes were washed and her bread sponge set and her hens fed Marilla remembered that she had noticed a small rent in her best black lace shawl when she had taken it off on Monday afternoon on returning from the Ladies’ Aid."
+    },
+    {
+      "id": "s182",
+      "text": "She would go and mend it."
+    },
+    {
+      "id": "s183",
+      "text": "The shawl was in a box in her trunk."
+    },
+    {
+      "id": "s184",
+      "text": "As Marilla lifted it out, the sunlight, falling through the vines that clustered thickly about the window, struck upon something caught in the shawl--something that glittered and sparkled in facets of violet light."
+    },
+    {
+      "id": "s185",
+      "text": "Marilla snatched at it with a gasp."
+    },
+    {
+      "id": "s186",
+      "text": "It was the amethyst brooch, hanging to a thread of the lace by its catch!"
+    },
+    {
+      "id": "s187",
+      "text": "“Dear life and heart,” said Marilla blankly, “what does this mean?"
+    },
+    {
+      "id": "s188",
+      "text": "Here’s my brooch safe and sound that I thought was at the bottom of Barry’s pond."
+    },
+    {
+      "id": "s189",
+      "text": "Whatever did that girl mean by saying she took it and lost it?"
+    },
+    {
+      "id": "s190",
+      "text": "I declare I believe Green Gables is bewitched."
+    },
+    {
+      "id": "s191",
+      "text": "I remember now that when I took off my shawl Monday afternoon I laid it on the bureau for a minute."
+    },
+    {
+      "id": "s192",
+      "text": "I suppose the brooch got caught in it somehow."
+    },
+    {
+      "id": "s193",
+      "text": "Well!”"
+    },
+    {
+      "id": "s194",
+      "text": "Marilla betook herself to the east gable, brooch in hand."
+    },
+    {
+      "id": "s195",
+      "text": "Anne had cried herself out and was sitting dejectedly by the window."
+    },
+    {
+      "id": "s196",
+      "text": "“Anne Shirley,” said Marilla solemnly, “I’ve just found my brooch hanging to my black lace shawl."
+    },
+    {
+      "id": "s197",
+      "text": "Now I want to know what that rigmarole you told me this morning meant.”"
+    },
+    {
+      "id": "s198",
+      "text": "“Why, you said you’d keep me here until I confessed,” returned Anne wearily, “and so I decided to confess because I was bound to get to the picnic."
+    },
+    {
+      "id": "s199",
+      "text": "I thought out a confession last night after I went to bed and made it as interesting as I could."
+    },
+    {
+      "id": "s200",
+      "text": "And I said it over and over so that I wouldn’t forget it."
+    },
+    {
+      "id": "s201",
+      "text": "But you wouldn’t let me go to the picnic after all, so all my trouble was wasted.”"
+    },
+    {
+      "id": "s202",
+      "text": "Marilla had to laugh in spite of herself."
+    },
+    {
+      "id": "s203",
+      "text": "But her conscience pricked her."
+    },
+    {
+      "id": "s204",
+      "text": "“Anne, you do beat all!"
+    },
+    {
+      "id": "s205",
+      "text": "But I was wrong--I see that now."
+    },
+    {
+      "id": "s206",
+      "text": "I shouldn’t have doubted your word when I’d never known you to tell a story."
+    },
+    {
+      "id": "s207",
+      "text": "Of course, it wasn’t right for you to confess to a thing you hadn’t done--it was very wrong to do so."
+    },
+    {
+      "id": "s208",
+      "text": "But I drove you to it."
+    },
+    {
+      "id": "s209",
+      "text": "So if you’ll forgive me, Anne, I’ll forgive you and we’ll start square again."
+    },
+    {
+      "id": "s210",
+      "text": "And now get yourself ready for the picnic.”"
+    },
+    {
+      "id": "s211",
+      "text": "Anne flew up like a rocket."
+    },
+    {
+      "id": "s212",
+      "text": "“Oh, Marilla, isn’t it too late?”"
+    },
+    {
+      "id": "s213",
+      "text": "“No, it’s only two o’clock."
+    },
+    {
+      "id": "s214",
+      "text": "They won’t be more than well gathered yet and it’ll be an hour before they have tea."
+    },
+    {
+      "id": "s215",
+      "text": "Wash your face and comb your hair and put on your gingham."
+    },
+    {
+      "id": "s216",
+      "text": "I’ll fill a basket for you."
+    },
+    {
+      "id": "s217",
+      "text": "There’s plenty of stuff baked in the house."
+    },
+    {
+      "id": "s218",
+      "text": "And I’ll get Jerry to hitch up the sorrel and drive you down to the picnic ground.”"
+    },
+    {
+      "id": "s219",
+      "text": "“Oh, Marilla,” exclaimed Anne, flying to the wash-stand."
+    },
+    {
+      "id": "s220",
+      "text": "“Five minutes ago I was so miserable I was wishing I’d never been born and now I wouldn’t change places with an angel!”"
+    },
+    {
+      "id": "s221",
+      "text": "That night a thoroughly happy, completely tired-out Anne returned to Green Gables in a state of beatification impossible to describe."
+    },
+    {
+      "id": "s222",
+      "text": "“Oh, Marilla, I’ve had a perfectly scrumptious time."
+    },
+    {
+      "id": "s223",
+      "text": "Scrumptious is a new word I learned today."
+    },
+    {
+      "id": "s224",
+      "text": "I heard Mary Alice Bell use it."
+    },
+    {
+      "id": "s225",
+      "text": "Isn’t it very expressive?"
+    },
+    {
+      "id": "s226",
+      "text": "Everything was lovely."
+    },
+    {
+      "id": "s227",
+      "text": "We had a splendid tea and then Mr."
+    },
+    {
+      "id": "s228",
+      "text": "Harmon Andrews took us all for a row on the Lake of Shining Waters--six of us at a time."
+    },
+    {
+      "id": "s229",
+      "text": "And Jane Andrews nearly fell overboard."
+    },
+    {
+      "id": "s230",
+      "text": "She was leaning out to pick water lilies and if Mr."
+    },
+    {
+      "id": "s231",
+      "text": "Andrews hadn’t caught her by her sash just in the nick of time she’d fallen in and prob’ly been drowned."
+    },
+    {
+      "id": "s232",
+      "text": "I wish it had been me."
+    },
+    {
+      "id": "s233",
+      "text": "It would have been such a romantic experience to have been nearly drowned."
+    },
+    {
+      "id": "s234",
+      "text": "It would be such a thrilling tale to tell."
+    },
+    {
+      "id": "s235",
+      "text": "And we had the ice cream."
+    },
+    {
+      "id": "s236",
+      "text": "Words fail me to describe that ice cream."
+    },
+    {
+      "id": "s237",
+      "text": "Marilla, I assure you it was sublime.”"
+    },
+    {
+      "id": "s238",
+      "text": "That evening Marilla told the whole story to Matthew over her stocking basket."
+    },
+    {
+      "id": "s239",
+      "text": "“I’m willing to own up that I made a mistake,” she concluded candidly, “but I’ve learned a lesson."
+    },
+    {
+      "id": "s240",
+      "text": "I have to laugh when I think of Anne’s ‘confession,’ although I suppose I shouldn’t for it really was a falsehood."
+    },
+    {
+      "id": "s241",
+      "text": "But it doesn’t seem as bad as the other would have been, somehow, and anyhow I’m responsible for it."
+    },
+    {
+      "id": "s242",
+      "text": "That child is hard to understand in some respects."
+    },
+    {
+      "id": "s243",
+      "text": "But I believe she’ll turn out all right yet."
+    },
+    {
+      "id": "s244",
+      "text": "And there’s one thing certain, no house will ever be dull that she’s in.”"
+    }
+  ]
+}

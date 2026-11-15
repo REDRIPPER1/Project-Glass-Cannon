@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-121-northanger-abbey",
+  "ebookId": "121",
+  "edition": "Project Gutenberg eBook #121; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-11",
+  "chapterTitle": "CHAPTER 11",
+  "contentHash": "sha256:c10486439d8654a3ebecf536bd46f01a469abd812b8f5314986c8e14acbd2db7",
+  "attribution": "Austen, Jane, 1775-1817, Northanger Abbey, CHAPTER 11. Source checked against Project Gutenberg eBook #121.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/121",
+    "textUrl": "https://www.gutenberg.org/cache/epub/121/pg121.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The morrow brought a very sober-looking morning, the sun making only a few efforts to appear, and Catherine augured from it everything most favourable to her wishes."
+    },
+    {
+      "id": "s2",
+      "text": "A bright morning so early in the year, she allowed, would generally turn to rain, but a cloudy one foretold improvement as the day advanced."
+    },
+    {
+      "id": "s3",
+      "text": "She applied to Mr."
+    },
+    {
+      "id": "s4",
+      "text": "Allen for confirmation of her hopes, but Mr."
+    },
+    {
+      "id": "s5",
+      "text": "Allen, not having his own skies and barometer about him, declined giving any absolute promise of sunshine."
+    },
+    {
+      "id": "s6",
+      "text": "She applied to Mrs."
+    },
+    {
+      "id": "s7",
+      "text": "Allen, and Mrs."
+    },
+    {
+      "id": "s8",
+      "text": "Allen’s opinion was more positive."
+    },
+    {
+      "id": "s9",
+      "text": "“She had no doubt in the world of its being a very fine day, if the clouds would only go off, and the sun keep out.”"
+    },
+    {
+      "id": "s10",
+      "text": "At about eleven o’clock, however, a few specks of small rain upon the windows caught Catherine’s watchful eye, and “Oh! dear, I do believe it will be wet,” broke from her in a most desponding tone."
+    },
+    {
+      "id": "s11",
+      "text": "“I thought how it would be,” said Mrs."
+    },
+    {
+      "id": "s12",
+      "text": "Allen."
+    },
+    {
+      "id": "s13",
+      "text": "“No walk for me to-day,” sighed Catherine; “but perhaps it may come to nothing, or it may hold up before twelve.”"
+    },
+    {
+      "id": "s14",
+      "text": "“Perhaps it may, but then, my dear, it will be so dirty.”"
+    },
+    {
+      "id": "s15",
+      "text": "“Oh! that will not signify; I never mind dirt.”"
+    },
+    {
+      "id": "s16",
+      "text": "“No,” replied her friend very placidly, “I know you never mind dirt.”"
+    },
+    {
+      "id": "s17",
+      "text": "After a short pause, “It comes on faster and faster!” said Catherine, as she stood watching at a window."
+    },
+    {
+      "id": "s18",
+      "text": "“So it does indeed."
+    },
+    {
+      "id": "s19",
+      "text": "If it keeps raining, the streets will be very wet.”"
+    },
+    {
+      "id": "s20",
+      "text": "“There are four umbrellas up already."
+    },
+    {
+      "id": "s21",
+      "text": "How I hate the sight of an umbrella!”"
+    },
+    {
+      "id": "s22",
+      "text": "“They are disagreeable things to carry."
+    },
+    {
+      "id": "s23",
+      "text": "I would much rather take a chair at any time.”"
+    },
+    {
+      "id": "s24",
+      "text": "“It was such a nice-looking morning! i felt so convinced it would be dry!”"
+    },
+    {
+      "id": "s25",
+      "text": "“Anybody would have thought so indeed."
+    },
+    {
+      "id": "s26",
+      "text": "There will be very few people in the pump-room, if it rains all the morning."
+    },
+    {
+      "id": "s27",
+      "text": "I hope Mr."
+    },
+    {
+      "id": "s28",
+      "text": "Allen will put on his greatcoat when he goes, but I dare say he will not, for he had rather do anything in the world than walk out in a greatcoat; I wonder he should dislike it, it must be so comfortable.”"
+    },
+    {
+      "id": "s29",
+      "text": "The rain continued—fast, though not heavy."
+    },
+    {
+      "id": "s30",
+      "text": "Catherine went every five minutes to the clock, threatening on each return that, if it still kept on raining another five minutes, she would give up the matter as hopeless."
+    },
+    {
+      "id": "s31",
+      "text": "The clock struck twelve, and it still rained."
+    },
+    {
+      "id": "s32",
+      "text": "“You will not be able to go, my dear.”"
+    },
+    {
+      "id": "s33",
+      "text": "“I do not quite despair yet."
+    },
+    {
+      "id": "s34",
+      "text": "I shall not give it up till a quarter after twelve."
+    },
+    {
+      "id": "s35",
+      "text": "This is just the time of day for it to clear up, and I do think it looks a little lighter."
+    },
+    {
+      "id": "s36",
+      "text": "There, it is twenty minutes after twelve, and now I _shall_ give it up entirely."
+    },
+    {
+      "id": "s37",
+      "text": "Oh! that we had such weather here as they had at Udolpho, or at least in Tuscany and the south of France!—the night that poor St."
+    },
+    {
+      "id": "s38",
+      "text": "Aubin died!—such beautiful weather!”"
+    },
+    {
+      "id": "s39",
+      "text": "At half past twelve, when Catherine’s anxious attention to the weather was over and she could no longer claim any merit from its amendment, the sky began voluntarily to clear."
+    },
+    {
+      "id": "s40",
+      "text": "A gleam of sunshine took her quite by surprise; she looked round; the clouds were parting, and she instantly returned to the window to watch over and encourage the happy appearance."
+    },
+    {
+      "id": "s41",
+      "text": "Ten minutes more made it certain that a bright afternoon would succeed, and justified the opinion of Mrs."
+    },
+    {
+      "id": "s42",
+      "text": "Allen, who had “always thought it would clear up.” But whether Catherine might still expect her friends, whether there had not been too much rain for Miss Tilney to venture, must yet be a question."
+    },
+    {
+      "id": "s43",
+      "text": "It was too dirty for Mrs."
+    },
+    {
+      "id": "s44",
+      "text": "Allen to accompany her husband to the pump-room; he accordingly set off by himself, and Catherine had barely watched him down the street when her notice was claimed by the approach of the same two open carriages, containing the same three people that had surprised her so much a few mornings back."
+    },
+    {
+      "id": "s45",
+      "text": "“Isabella, my brother, and Mr."
+    },
+    {
+      "id": "s46",
+      "text": "Thorpe, I declare! they are coming for me perhaps—but I shall not go—I cannot go indeed, for you know Miss Tilney may still call.” Mrs."
+    },
+    {
+      "id": "s47",
+      "text": "Allen agreed to it."
+    },
+    {
+      "id": "s48",
+      "text": "John Thorpe was soon with them, and his voice was with them yet sooner, for on the stairs he was calling out to Miss Morland to be quick."
+    },
+    {
+      "id": "s49",
+      "text": "“Make haste! make haste!” as he threw open the door."
+    },
+    {
+      "id": "s50",
+      "text": "“Put on your hat this moment—there is no time to be lost—we are going to Bristol."
+    },
+    {
+      "id": "s51",
+      "text": "How d’ye do, Mrs."
+    },
+    {
+      "id": "s52",
+      "text": "Allen?”"
+    },
+    {
+      "id": "s53",
+      "text": "“To Bristol! is not that a great way off?"
+    },
+    {
+      "id": "s54",
+      "text": "But, however, I cannot go with you to-day, because I am engaged; I expect some friends every moment.” This was of course vehemently talked down as no reason at all; Mrs."
+    },
+    {
+      "id": "s55",
+      "text": "Allen was called on to second him, and the two others walked in, to give their assistance."
+    },
+    {
+      "id": "s56",
+      "text": "“My sweetest Catherine, is not this delightful?"
+    },
+    {
+      "id": "s57",
+      "text": "We shall have a most heavenly drive."
+    },
+    {
+      "id": "s58",
+      "text": "You are to thank your brother and me for the scheme; it darted into our heads at breakfast-time, I verily believe at the same instant; and we should have been off two hours ago if it had not been for this detestable rain."
+    },
+    {
+      "id": "s59",
+      "text": "But it does not signify, the nights are moonlight, and we shall do delightfully."
+    },
+    {
+      "id": "s60",
+      "text": "Oh! i am in such ecstasies at the thoughts of a little country air and quiet! so much better than going to the Lower Rooms."
+    },
+    {
+      "id": "s61",
+      "text": "We shall drive directly to Clifton and dine there; and, as soon as dinner is over, if there is time for it, go on to Kingsweston.”"
+    },
+    {
+      "id": "s62",
+      "text": "“I doubt our being able to do so much,” said Morland."
+    },
+    {
+      "id": "s63",
+      "text": "“You croaking fellow!” cried Thorpe."
+    },
+    {
+      "id": "s64",
+      "text": "“We shall be able to do ten times more."
+    },
+    {
+      "id": "s65",
+      "text": "Kingsweston! aye, and Blaize Castle too, and anything else we can hear of; but here is your sister says she will not go.”"
+    },
+    {
+      "id": "s66",
+      "text": "“Blaize Castle!” cried Catherine."
+    },
+    {
+      "id": "s67",
+      "text": "“What is that?”"
+    },
+    {
+      "id": "s68",
+      "text": "“The finest place in England—worth going fifty miles at any time to see.”"
+    },
+    {
+      "id": "s69",
+      "text": "“What, is it really a castle, an old castle?”"
+    },
+    {
+      "id": "s70",
+      "text": "“The oldest in the kingdom.”"
+    },
+    {
+      "id": "s71",
+      "text": "“But is it like what one reads of?”"
+    },
+    {
+      "id": "s72",
+      "text": "“Exactly—the very same.”"
+    },
+    {
+      "id": "s73",
+      "text": "“But now really—are there towers and long galleries?”"
+    },
+    {
+      "id": "s74",
+      "text": "“By dozens.”"
+    },
+    {
+      "id": "s75",
+      "text": "“Then I should like to see it; but I cannot—I cannot go.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Not go! my beloved creature, what do you mean?”"
+    },
+    {
+      "id": "s77",
+      "text": "“I cannot go, because”—looking down as she spoke, fearful of Isabella’s smile—“I expect Miss Tilney and her brother to call on me to take a country walk."
+    },
+    {
+      "id": "s78",
+      "text": "They promised to come at twelve, only it rained; but now, as it is so fine, I dare say they will be here soon.”"
+    },
+    {
+      "id": "s79",
+      "text": "“Not they indeed,” cried Thorpe; “for, as we turned into Broad Street, I saw them—does he not drive a phaeton with bright chestnuts?”"
+    },
+    {
+      "id": "s80",
+      "text": "“I do not know indeed.”"
+    },
+    {
+      "id": "s81",
+      "text": "“Yes, I know he does; I saw him."
+    },
+    {
+      "id": "s82",
+      "text": "You are talking of the man you danced with last night, are not you?”"
+    },
+    {
+      "id": "s83",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s84",
+      "text": "“Well, I saw him at that moment turn up the Lansdown Road, driving a smart-looking girl.”"
+    },
+    {
+      "id": "s85",
+      "text": "“Did you indeed?”"
+    },
+    {
+      "id": "s86",
+      "text": "“Did upon my soul; knew him again directly, and he seemed to have got some very pretty cattle too.”"
+    },
+    {
+      "id": "s87",
+      "text": "“It is very odd! but I suppose they thought it would be too dirty for a walk.”"
+    },
+    {
+      "id": "s88",
+      "text": "“And well they might, for I never saw so much dirt in my life."
+    },
+    {
+      "id": "s89",
+      "text": "Walk!"
+    },
+    {
+      "id": "s90",
+      "text": "You could no more walk than you could fly! it has not been so dirty the whole winter; it is ankle-deep everywhere.”"
+    },
+    {
+      "id": "s91",
+      "text": "Isabella corroborated it: “My dearest Catherine, you cannot form an idea of the dirt; come, you must go; you cannot refuse going now.”"
+    },
+    {
+      "id": "s92",
+      "text": "“I should like to see the castle; but may we go all over it?"
+    },
+    {
+      "id": "s93",
+      "text": "May we go up every staircase, and into every suite of rooms?”"
+    },
+    {
+      "id": "s94",
+      "text": "“Yes, yes, every hole and corner.”"
+    },
+    {
+      "id": "s95",
+      "text": "“But then, if they should only be gone out for an hour till it is dryer, and call by and by?”"
+    },
+    {
+      "id": "s96",
+      "text": "“Make yourself easy, there is no danger of that, for I heard Tilney hallooing to a man who was just passing by on horseback, that they were going as far as Wick Rocks.”"
+    },
+    {
+      "id": "s97",
+      "text": "“Then I will."
+    },
+    {
+      "id": "s98",
+      "text": "Shall I go, Mrs."
+    },
+    {
+      "id": "s99",
+      "text": "Allen?”"
+    },
+    {
+      "id": "s100",
+      "text": "“Just as you please, my dear.”"
+    },
+    {
+      "id": "s101",
+      "text": "“Mrs."
+    },
+    {
+      "id": "s102",
+      "text": "Allen, you must persuade her to go,” was the general cry."
+    },
+    {
+      "id": "s103",
+      "text": "Mrs."
+    },
+    {
+      "id": "s104",
+      "text": "Allen was not inattentive to it: “Well, my dear,” said she, “suppose you go.” And in two minutes they were off."
+    },
+    {
+      "id": "s105",
+      "text": "Catherine’s feelings, as she got into the carriage, were in a very unsettled state; divided between regret for the loss of one great pleasure, and the hope of soon enjoying another, almost its equal in degree, however unlike in kind."
+    },
+    {
+      "id": "s106",
+      "text": "She could not think the Tilneys had acted quite well by her, in so readily giving up their engagement, without sending her any message of excuse."
+    },
+    {
+      "id": "s107",
+      "text": "It was now but an hour later than the time fixed on for the beginning of their walk; and, in spite of what she had heard of the prodigious accumulation of dirt in the course of that hour, she could not from her own observation help thinking that they might have gone with very little inconvenience."
+    },
+    {
+      "id": "s108",
+      "text": "To feel herself slighted by them was very painful."
+    },
+    {
+      "id": "s109",
+      "text": "On the other hand, the delight of exploring an edifice like Udolpho, as her fancy represented Blaize Castle to be, was such a counterpoise of good as might console her for almost anything."
+    },
+    {
+      "id": "s110",
+      "text": "They passed briskly down Pulteney Street, and through Laura Place, without the exchange of many words."
+    },
+    {
+      "id": "s111",
+      "text": "Thorpe talked to his horse, and she meditated, by turns, on broken promises and broken arches, phaetons and false hangings, Tilneys and trap-doors."
+    },
+    {
+      "id": "s112",
+      "text": "As they entered Argyle Buildings, however, she was roused by this address from her companion, “Who is that girl who looked at you so hard as she went by?”"
+    },
+    {
+      "id": "s113",
+      "text": "“Who?"
+    },
+    {
+      "id": "s114",
+      "text": "Where?”"
+    },
+    {
+      "id": "s115",
+      "text": "“On the right-hand pavement—she must be almost out of sight now.” Catherine looked round and saw Miss Tilney leaning on her brother’s arm, walking slowly down the street."
+    },
+    {
+      "id": "s116",
+      "text": "She saw them both looking back at her."
+    },
+    {
+      "id": "s117",
+      "text": "“Stop, stop, Mr."
+    },
+    {
+      "id": "s118",
+      "text": "Thorpe,” she impatiently cried; “it is Miss Tilney; it is indeed."
+    },
+    {
+      "id": "s119",
+      "text": "How could you tell me they were gone?"
+    },
+    {
+      "id": "s120",
+      "text": "Stop, stop, I will get out this moment and go to them.” But to what purpose did she speak?"
+    },
+    {
+      "id": "s121",
+      "text": "Thorpe only lashed his horse into a brisker trot; the Tilneys, who had soon ceased to look after her, were in a moment out of sight round the corner of Laura Place, and in another moment she was herself whisked into the marketplace."
+    },
+    {
+      "id": "s122",
+      "text": "Still, however, and during the length of another street, she entreated him to stop."
+    },
+    {
+      "id": "s123",
+      "text": "“Pray, pray stop, Mr."
+    },
+    {
+      "id": "s124",
+      "text": "Thorpe."
+    },
+    {
+      "id": "s125",
+      "text": "I cannot go on."
+    },
+    {
+      "id": "s126",
+      "text": "I will not go on."
+    },
+    {
+      "id": "s127",
+      "text": "I must go back to Miss Tilney.” But Mr."
+    },
+    {
+      "id": "s128",
+      "text": "Thorpe only laughed, smacked his whip, encouraged his horse, made odd noises, and drove on; and Catherine, angry and vexed as she was, having no power of getting away, was obliged to give up the point and submit."
+    },
+    {
+      "id": "s129",
+      "text": "Her reproaches, however, were not spared."
+    },
+    {
+      "id": "s130",
+      "text": "“How could you deceive me so, Mr."
+    },
+    {
+      "id": "s131",
+      "text": "Thorpe?"
+    },
+    {
+      "id": "s132",
+      "text": "How could you say that you saw them driving up the Lansdown Road?"
+    },
+    {
+      "id": "s133",
+      "text": "I would not have had it happen so for the world."
+    },
+    {
+      "id": "s134",
+      "text": "They must think it so strange, so rude of me! to go by them, too, without saying a word! you do not know how vexed I am; I shall have no pleasure at Clifton, nor in anything else."
+    },
+    {
+      "id": "s135",
+      "text": "I had rather, ten thousand times rather, get out now, and walk back to them."
+    },
+    {
+      "id": "s136",
+      "text": "How could you say you saw them driving out in a phaeton?” Thorpe defended himself very stoutly, declared he had never seen two men so much alike in his life, and would hardly give up the point of its having been Tilney himself."
+    },
+    {
+      "id": "s137",
+      "text": "Their drive, even when this subject was over, was not likely to be very agreeable."
+    },
+    {
+      "id": "s138",
+      "text": "Catherine’s complaisance was no longer what it had been in their former airing."
+    },
+    {
+      "id": "s139",
+      "text": "She listened reluctantly, and her replies were short."
+    },
+    {
+      "id": "s140",
+      "text": "Blaize Castle remained her only comfort; towards _that_, she still looked at intervals with pleasure; though rather than be disappointed of the promised walk, and especially rather than be thought ill of by the Tilneys, she would willingly have given up all the happiness which its walls could supply—the happiness of a progress through a long suite of lofty rooms, exhibiting the remains of magnificent furniture, though now for many years deserted—the happiness of being stopped in their way along narrow, winding vaults, by a low, grated door; or even of having their lamp, their only lamp, extinguished by a sudden gust of wind, and of being left in total darkness."
+    },
+    {
+      "id": "s141",
+      "text": "In the meanwhile, they proceeded on their journey without any mischance, and were within view of the town of Keynsham, when a halloo from Morland, who was behind them, made his friend pull up, to know what was the matter."
+    },
+    {
+      "id": "s142",
+      "text": "The others then came close enough for conversation, and Morland said, “We had better go back, Thorpe; it is too late to go on to-day; your sister thinks so as well as I."
+    },
+    {
+      "id": "s143",
+      "text": "We have been exactly an hour coming from Pulteney Street, very little more than seven miles; and, I suppose, we have at least eight more to go."
+    },
+    {
+      "id": "s144",
+      "text": "It will never do."
+    },
+    {
+      "id": "s145",
+      "text": "We set out a great deal too late."
+    },
+    {
+      "id": "s146",
+      "text": "We had much better put it off till another day, and turn round.”"
+    },
+    {
+      "id": "s147",
+      "text": "“It is all one to me,” replied Thorpe rather angrily; and instantly turning his horse, they were on their way back to Bath."
+    },
+    {
+      "id": "s148",
+      "text": "“If your brother had not got such a d—— beast to drive,” said he soon afterwards, “we might have done it very well."
+    },
+    {
+      "id": "s149",
+      "text": "My horse would have trotted to Clifton within the hour, if left to himself, and I have almost broke my arm with pulling him in to that cursed broken-winded jade’s pace."
+    },
+    {
+      "id": "s150",
+      "text": "Morland is a fool for not keeping a horse and gig of his own.”"
+    },
+    {
+      "id": "s151",
+      "text": "“No, he is not,” said Catherine warmly, “for I am sure he could not afford it.”"
+    },
+    {
+      "id": "s152",
+      "text": "“And why cannot he afford it?”"
+    },
+    {
+      "id": "s153",
+      "text": "“Because he has not money enough.”"
+    },
+    {
+      "id": "s154",
+      "text": "“And whose fault is that?”"
+    },
+    {
+      "id": "s155",
+      "text": "“Nobody’s, that I know of.” Thorpe then said something in the loud, incoherent way to which he had often recourse, about its being a d—— thing to be miserly; and that if people who rolled in money could not afford things, he did not know who could, which Catherine did not even endeavour to understand."
+    },
+    {
+      "id": "s156",
+      "text": "Disappointed of what was to have been the consolation for her first disappointment, she was less and less disposed either to be agreeable herself or to find her companion so; and they returned to Pulteney Street without her speaking twenty words."
+    },
+    {
+      "id": "s157",
+      "text": "As she entered the house, the footman told her that a gentleman and lady had called and inquired for her a few minutes after her setting off; that, when he told them she was gone out with Mr."
+    },
+    {
+      "id": "s158",
+      "text": "Thorpe, the lady had asked whether any message had been left for her; and on his saying no, had felt for a card, but said she had none about her, and went away."
+    },
+    {
+      "id": "s159",
+      "text": "Pondering over these heart-rending tidings, Catherine walked slowly upstairs."
+    },
+    {
+      "id": "s160",
+      "text": "At the head of them she was met by Mr."
+    },
+    {
+      "id": "s161",
+      "text": "Allen, who, on hearing the reason of their speedy return, said, “I am glad your brother had so much sense; I am glad you are come back."
+    },
+    {
+      "id": "s162",
+      "text": "It was a strange, wild scheme.”"
+    },
+    {
+      "id": "s163",
+      "text": "They all spent the evening together at Thorpe’s."
+    },
+    {
+      "id": "s164",
+      "text": "Catherine was disturbed and out of spirits; but Isabella seemed to find a pool of commerce, in the fate of which she shared, by private partnership with Morland, a very good equivalent for the quiet and country air of an inn at Clifton."
+    },
+    {
+      "id": "s165",
+      "text": "Her satisfaction, too, in not being at the Lower Rooms was spoken more than once."
+    },
+    {
+      "id": "s166",
+      "text": "“How I pity the poor creatures that are going there! how glad I am that I am not amongst them! i wonder whether it will be a full ball or not! they have not begun dancing yet."
+    },
+    {
+      "id": "s167",
+      "text": "I would not be there for all the world."
+    },
+    {
+      "id": "s168",
+      "text": "It is so delightful to have an evening now and then to oneself."
+    },
+    {
+      "id": "s169",
+      "text": "I dare say it will not be a very good ball."
+    },
+    {
+      "id": "s170",
+      "text": "I know the Mitchells will not be there."
+    },
+    {
+      "id": "s171",
+      "text": "I am sure I pity everybody that is."
+    },
+    {
+      "id": "s172",
+      "text": "But I dare say, Mr."
+    },
+    {
+      "id": "s173",
+      "text": "Morland, you long to be at it, do not you?"
+    },
+    {
+      "id": "s174",
+      "text": "I am sure you do."
+    },
+    {
+      "id": "s175",
+      "text": "Well, pray do not let anybody here be a restraint on you."
+    },
+    {
+      "id": "s176",
+      "text": "I dare say we could do very well without you; but you men think yourselves of such consequence.”"
+    },
+    {
+      "id": "s177",
+      "text": "Catherine could almost have accused Isabella of being wanting in tenderness towards herself and her sorrows, so very little did they appear to dwell on her mind, and so very inadequate was the comfort she offered."
+    },
+    {
+      "id": "s178",
+      "text": "“Do not be so dull, my dearest creature,” she whispered."
+    },
+    {
+      "id": "s179",
+      "text": "“You will quite break my heart."
+    },
+    {
+      "id": "s180",
+      "text": "It was amazingly shocking, to be sure; but the Tilneys were entirely to blame."
+    },
+    {
+      "id": "s181",
+      "text": "Why were not they more punctual?"
+    },
+    {
+      "id": "s182",
+      "text": "It was dirty, indeed, but what did that signify?"
+    },
+    {
+      "id": "s183",
+      "text": "I am sure John and I should not have minded it."
+    },
+    {
+      "id": "s184",
+      "text": "I never mind going through anything, where a friend is concerned; that is my disposition, and John is just the same; he has amazing strong feelings."
+    },
+    {
+      "id": "s185",
+      "text": "Good heavens! what a delightful hand you have got! kings, I vow! i never was so happy in my life! i would fifty times rather you should have them than myself.”"
+    },
+    {
+      "id": "s186",
+      "text": "And now I may dismiss my heroine to the sleepless couch, which is the true heroine’s portion; to a pillow strewed with thorns and wet with tears."
+    },
+    {
+      "id": "s187",
+      "text": "And lucky may she think herself, if she get another good night’s rest in the course of the next three months."
+    }
+  ]
+}

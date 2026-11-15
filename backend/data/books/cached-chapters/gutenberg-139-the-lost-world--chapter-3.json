@@ -1,0 +1,761 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-139-the-lost-world",
+  "ebookId": "139",
+  "edition": "Project Gutenberg eBook #139; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-3",
+  "chapterTitle": "CHAPTER III",
+  "contentHash": "sha256:98a9ab3dd503b0ac90fb5f9d53a094b45443b287897e17c8463c7e341047be51",
+  "attribution": "Doyle, Arthur Conan, 1859-1930, The Lost World, CHAPTER III. Source checked against Project Gutenberg eBook #139.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/139",
+    "textUrl": "https://www.gutenberg.org/cache/epub/139/pg139.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "\"He is a Perfectly Impossible Person\""
+    },
+    {
+      "id": "s2",
+      "text": "My friend's fear or hope was not destined to be realized."
+    },
+    {
+      "id": "s3",
+      "text": "When I called on Wednesday there was a letter with the West Kensington postmark upon it, and my name scrawled across the envelope in a handwriting which looked like a barbed-wire railing."
+    },
+    {
+      "id": "s4",
+      "text": "The contents were as follows:--"
+    },
+    {
+      "id": "s5",
+      "text": "\"ENMORE PARK, W."
+    },
+    {
+      "id": "s6",
+      "text": "\"SIR,--I have duly received your note, in which you claim to endorse my views, although I am not aware that they are dependent upon endorsement either from you or anyone else."
+    },
+    {
+      "id": "s7",
+      "text": "You have ventured to use the word 'speculation' with regard to my statement upon the subject of Darwinism, and I would call your attention to the fact that such a word in such a connection is offensive to a degree."
+    },
+    {
+      "id": "s8",
+      "text": "The context convinces me, however, that you have sinned rather through ignorance and tactlessness than through malice, so I am content to pass the matter by."
+    },
+    {
+      "id": "s9",
+      "text": "You quote an isolated sentence from my lecture, and appear to have some difficulty in understanding it."
+    },
+    {
+      "id": "s10",
+      "text": "I should have thought that only a sub-human intelligence could have failed to grasp the point, but if it really needs amplification I shall consent to see you at the hour named, though visits and visitors of every sort are exceeding distasteful to me."
+    },
+    {
+      "id": "s11",
+      "text": "As to your suggestion that I may modify my opinion, I would have you know that it is not my habit to do so after a deliberate expression of my mature views."
+    },
+    {
+      "id": "s12",
+      "text": "You will kindly show the envelope of this letter to my man, Austin, when you call, as he has to take every precaution to shield me from the intrusive rascals who call themselves 'journalists.'"
+    },
+    {
+      "id": "s13",
+      "text": "\"Yours faithfully, \"GEORGE EDWARD CHALLENGER.\""
+    },
+    {
+      "id": "s14",
+      "text": "This was the letter that I read aloud to Tarp Henry, who had come down early to hear the result of my venture."
+    },
+    {
+      "id": "s15",
+      "text": "His only remark was, \"There's some new stuff, cuticura or something, which is better than arnica.\" Some people have such extraordinary notions of humor."
+    },
+    {
+      "id": "s16",
+      "text": "It was nearly half-past ten before I had received my message, but a taxicab took me round in good time for my appointment."
+    },
+    {
+      "id": "s17",
+      "text": "It was an imposing porticoed house at which we stopped, and the heavily-curtained windows gave every indication of wealth upon the part of this formidable Professor."
+    },
+    {
+      "id": "s18",
+      "text": "The door was opened by an odd, swarthy, dried-up person of uncertain age, with a dark pilot jacket and brown leather gaiters."
+    },
+    {
+      "id": "s19",
+      "text": "I found afterwards that he was the chauffeur, who filled the gaps left by a succession of fugitive butlers."
+    },
+    {
+      "id": "s20",
+      "text": "He looked me up and down with a searching light blue eye."
+    },
+    {
+      "id": "s21",
+      "text": "\"Expected?\" he asked."
+    },
+    {
+      "id": "s22",
+      "text": "\"An appointment.\""
+    },
+    {
+      "id": "s23",
+      "text": "\"Got your letter?\""
+    },
+    {
+      "id": "s24",
+      "text": "I produced the envelope."
+    },
+    {
+      "id": "s25",
+      "text": "\"Right!\" He seemed to be a person of few words."
+    },
+    {
+      "id": "s26",
+      "text": "Following him down the passage I was suddenly interrupted by a small woman, who stepped out from what proved to be the dining-room door."
+    },
+    {
+      "id": "s27",
+      "text": "She was a bright, vivacious, dark-eyed lady, more French than English in her type."
+    },
+    {
+      "id": "s28",
+      "text": "\"One moment,\" she said. \"You can wait, Austin."
+    },
+    {
+      "id": "s29",
+      "text": "Step in here, sir."
+    },
+    {
+      "id": "s30",
+      "text": "May I ask if you have met my husband before?\""
+    },
+    {
+      "id": "s31",
+      "text": "\"No, madam, I have not had the honor.\""
+    },
+    {
+      "id": "s32",
+      "text": "\"Then I apologize to you in advance."
+    },
+    {
+      "id": "s33",
+      "text": "I must tell you that he is a perfectly impossible person--absolutely impossible."
+    },
+    {
+      "id": "s34",
+      "text": "If you are forewarned you will be the more ready to make allowances.\""
+    },
+    {
+      "id": "s35",
+      "text": "\"It is most considerate of you, madam.\""
+    },
+    {
+      "id": "s36",
+      "text": "\"Get quickly out of the room if he seems inclined to be violent."
+    },
+    {
+      "id": "s37",
+      "text": "Don't wait to argue with him."
+    },
+    {
+      "id": "s38",
+      "text": "Several people have been injured through doing that."
+    },
+    {
+      "id": "s39",
+      "text": "Afterwards there is a public scandal and it reflects upon me and all of us."
+    },
+    {
+      "id": "s40",
+      "text": "I suppose it wasn't about South America you wanted to see him?\""
+    },
+    {
+      "id": "s41",
+      "text": "I could not lie to a lady."
+    },
+    {
+      "id": "s42",
+      "text": "\"Dear me!"
+    },
+    {
+      "id": "s43",
+      "text": "That is his most dangerous subject."
+    },
+    {
+      "id": "s44",
+      "text": "You won't believe a word he says--I'm sure I don't wonder."
+    },
+    {
+      "id": "s45",
+      "text": "But don't tell him so, for it makes him very violent."
+    },
+    {
+      "id": "s46",
+      "text": "Pretend to believe him, and you may get through all right."
+    },
+    {
+      "id": "s47",
+      "text": "Remember he believes it himself."
+    },
+    {
+      "id": "s48",
+      "text": "Of that you may be assured."
+    },
+    {
+      "id": "s49",
+      "text": "A more honest man never lived."
+    },
+    {
+      "id": "s50",
+      "text": "Don't wait any longer or he may suspect."
+    },
+    {
+      "id": "s51",
+      "text": "If you find him dangerous--really dangerous--ring the bell and hold him off until I come."
+    },
+    {
+      "id": "s52",
+      "text": "Even at his worst I can usually control him.\""
+    },
+    {
+      "id": "s53",
+      "text": "With these encouraging words the lady handed me over to the taciturn Austin, who had waited like a bronze statue of discretion during our short interview, and I was conducted to the end of the passage."
+    },
+    {
+      "id": "s54",
+      "text": "There was a tap at a door, a bull's bellow from within, and I was face to face with the Professor."
+    },
+    {
+      "id": "s55",
+      "text": "He sat in a rotating chair behind a broad table, which was covered with books, maps, and diagrams."
+    },
+    {
+      "id": "s56",
+      "text": "As I entered, his seat spun round to face me."
+    },
+    {
+      "id": "s57",
+      "text": "His appearance made me gasp."
+    },
+    {
+      "id": "s58",
+      "text": "I was prepared for something strange, but not for so overpowering a personality as this."
+    },
+    {
+      "id": "s59",
+      "text": "It was his size which took one's breath away--his size and his imposing presence."
+    },
+    {
+      "id": "s60",
+      "text": "His head was enormous, the largest I have ever seen upon a human being."
+    },
+    {
+      "id": "s61",
+      "text": "I am sure that his top-hat, had I ever ventured to don it, would have slipped over me entirely and rested on my shoulders."
+    },
+    {
+      "id": "s62",
+      "text": "He had the face and beard which I associate with an Assyrian bull; the former florid, the latter so black as almost to have a suspicion of blue, spade-shaped and rippling down over his chest."
+    },
+    {
+      "id": "s63",
+      "text": "The hair was peculiar, plastered down in front in a long, curving wisp over his massive forehead."
+    },
+    {
+      "id": "s64",
+      "text": "The eyes were blue-gray under great black tufts, very clear, very critical, and very masterful."
+    },
+    {
+      "id": "s65",
+      "text": "A huge spread of shoulders and a chest like a barrel were the other parts of him which appeared above the table, save for two enormous hands covered with long black hair."
+    },
+    {
+      "id": "s66",
+      "text": "This and a bellowing, roaring, rumbling voice made up my first impression of the notorious Professor Challenger."
+    },
+    {
+      "id": "s67",
+      "text": "\"Well?\" said he, with a most insolent stare. \"What now?\""
+    },
+    {
+      "id": "s68",
+      "text": "I must keep up my deception for at least a little time longer, otherwise here was evidently an end of the interview."
+    },
+    {
+      "id": "s69",
+      "text": "\"You were good enough to give me an appointment, sir,\" said I, humbly, producing his envelope."
+    },
+    {
+      "id": "s70",
+      "text": "He took my letter from his desk and laid it out before him."
+    },
+    {
+      "id": "s71",
+      "text": "\"Oh, you are the young person who cannot understand plain English, are you?"
+    },
+    {
+      "id": "s72",
+      "text": "My general conclusions you are good enough to approve, as I understand?\""
+    },
+    {
+      "id": "s73",
+      "text": "\"Entirely, sir--entirely!\" I was very emphatic."
+    },
+    {
+      "id": "s74",
+      "text": "\"Dear me!"
+    },
+    {
+      "id": "s75",
+      "text": "That strengthens my position very much, does it not?"
+    },
+    {
+      "id": "s76",
+      "text": "Your age and appearance make your support doubly valuable."
+    },
+    {
+      "id": "s77",
+      "text": "Well, at least you are better than that herd of swine in Vienna, whose gregarious grunt is, however, not more offensive than the isolated effort of the British hog.\" He glared at me as the present representative of the beast."
+    },
+    {
+      "id": "s78",
+      "text": "\"They seem to have behaved abominably,\" said I."
+    },
+    {
+      "id": "s79",
+      "text": "\"I assure you that I can fight my own battles, and that I have no possible need of your sympathy."
+    },
+    {
+      "id": "s80",
+      "text": "Put me alone, sir, and with my back to the wall."
+    },
+    {
+      "id": "s81",
+      "text": "G."
+    },
+    {
+      "id": "s82",
+      "text": "E."
+    },
+    {
+      "id": "s83",
+      "text": "C. is happiest then."
+    },
+    {
+      "id": "s84",
+      "text": "Well, sir, let us do what we can to curtail this visit, which can hardly be agreeable to you, and is inexpressibly irksome to me."
+    },
+    {
+      "id": "s85",
+      "text": "You had, as I have been led to believe, some comments to make upon the proposition which I advanced in my thesis.\""
+    },
+    {
+      "id": "s86",
+      "text": "There was a brutal directness about his methods which made evasion difficult."
+    },
+    {
+      "id": "s87",
+      "text": "I must still make play and wait for a better opening."
+    },
+    {
+      "id": "s88",
+      "text": "It had seemed simple enough at a distance."
+    },
+    {
+      "id": "s89",
+      "text": "Oh, my Irish wits, could they not help me now, when I needed help so sorely?"
+    },
+    {
+      "id": "s90",
+      "text": "He transfixed me with two sharp, steely eyes. \"Come, come!\" he rumbled."
+    },
+    {
+      "id": "s91",
+      "text": "\"I am, of course, a mere student,\" said I, with a fatuous smile, \"hardly more, I might say, than an earnest inquirer."
+    },
+    {
+      "id": "s92",
+      "text": "At the same time, it seemed to me that you were a little severe upon Weissmann in this matter."
+    },
+    {
+      "id": "s93",
+      "text": "Has not the general evidence since that date tended to--well, to strengthen his position?\""
+    },
+    {
+      "id": "s94",
+      "text": "\"What evidence?\" He spoke with a menacing calm."
+    },
+    {
+      "id": "s95",
+      "text": "\"Well, of course, I am aware that there is not any what you might call DEFINITE evidence."
+    },
+    {
+      "id": "s96",
+      "text": "I alluded merely to the trend of modern thought and the general scientific point of view, if I might so express it.\""
+    },
+    {
+      "id": "s97",
+      "text": "He leaned forward with great earnestness."
+    },
+    {
+      "id": "s98",
+      "text": "\"I suppose you are aware,\" said he, checking off points upon his fingers, \"that the cranial index is a constant factor?\""
+    },
+    {
+      "id": "s99",
+      "text": "\"Naturally,\" said I."
+    },
+    {
+      "id": "s100",
+      "text": "\"And that telegony is still sub judice?\""
+    },
+    {
+      "id": "s101",
+      "text": "\"Undoubtedly.\""
+    },
+    {
+      "id": "s102",
+      "text": "\"And that the germ plasm is different from the parthenogenetic egg?\""
+    },
+    {
+      "id": "s103",
+      "text": "\"Why, surely!\" I cried, and gloried in my own audacity."
+    },
+    {
+      "id": "s104",
+      "text": "\"But what does that prove?\" he asked, in a gentle, persuasive voice."
+    },
+    {
+      "id": "s105",
+      "text": "\"Ah, what indeed?\" I murmured. \"What does it prove?\""
+    },
+    {
+      "id": "s106",
+      "text": "\"Shall I tell you?\" he cooed."
+    },
+    {
+      "id": "s107",
+      "text": "\"Pray do.\""
+    },
+    {
+      "id": "s108",
+      "text": "\"It proves,\" he roared, with a sudden blast of fury, \"that you are the damnedest imposter in London--a vile, crawling journalist, who has no more science than he has decency in his composition!\""
+    },
+    {
+      "id": "s109",
+      "text": "He had sprung to his feet with a mad rage in his eyes."
+    },
+    {
+      "id": "s110",
+      "text": "Even at that moment of tension I found time for amazement at the discovery that he was quite a short man, his head not higher than my shoulder--a stunted Hercules whose tremendous vitality had all run to depth, breadth, and brain."
+    },
+    {
+      "id": "s111",
+      "text": "\"Gibberish!\" he cried, leaning forward, with his fingers on the table and his face projecting. \"That's what I have been talking to you, sir--scientific gibberish!"
+    },
+    {
+      "id": "s112",
+      "text": "Did you think you could match cunning with me--you with your walnut of a brain?"
+    },
+    {
+      "id": "s113",
+      "text": "You think you are omnipotent, you infernal scribblers, don't you?"
+    },
+    {
+      "id": "s114",
+      "text": "That your praise can make a man and your blame can break him?"
+    },
+    {
+      "id": "s115",
+      "text": "We must all bow to you, and try to get a favorable word, must we?"
+    },
+    {
+      "id": "s116",
+      "text": "This man shall have a leg up, and this man shall have a dressing down!"
+    },
+    {
+      "id": "s117",
+      "text": "Creeping vermin, I know you!"
+    },
+    {
+      "id": "s118",
+      "text": "You've got out of your station."
+    },
+    {
+      "id": "s119",
+      "text": "Time was when your ears were clipped."
+    },
+    {
+      "id": "s120",
+      "text": "You've lost your sense of proportion."
+    },
+    {
+      "id": "s121",
+      "text": "Swollen gas-bags!"
+    },
+    {
+      "id": "s122",
+      "text": "I'll keep you in your proper place."
+    },
+    {
+      "id": "s123",
+      "text": "Yes, sir, you haven't got over G."
+    },
+    {
+      "id": "s124",
+      "text": "E."
+    },
+    {
+      "id": "s125",
+      "text": "C."
+    },
+    {
+      "id": "s126",
+      "text": "There's one man who is still your master."
+    },
+    {
+      "id": "s127",
+      "text": "He warned you off, but if you WILL come, by the Lord you do it at your own risk."
+    },
+    {
+      "id": "s128",
+      "text": "Forfeit, my good Mr."
+    },
+    {
+      "id": "s129",
+      "text": "Malone, I claim forfeit!"
+    },
+    {
+      "id": "s130",
+      "text": "You have played a rather dangerous game, and it strikes me that you have lost it.\""
+    },
+    {
+      "id": "s131",
+      "text": "\"Look here, sir,\" said I, backing to the door and opening it; \"you can be as abusive as you like."
+    },
+    {
+      "id": "s132",
+      "text": "But there is a limit."
+    },
+    {
+      "id": "s133",
+      "text": "You shall not assault me.\""
+    },
+    {
+      "id": "s134",
+      "text": "\"Shall I not?\" He was slowly advancing in a peculiarly menacing way, but he stopped now and put his big hands into the side-pockets of a rather boyish short jacket which he wore. \"I have thrown several of you out of the house."
+    },
+    {
+      "id": "s135",
+      "text": "You will be the fourth or fifth."
+    },
+    {
+      "id": "s136",
+      "text": "Three pound fifteen each--that is how it averaged."
+    },
+    {
+      "id": "s137",
+      "text": "Expensive, but very necessary."
+    },
+    {
+      "id": "s138",
+      "text": "Now, sir, why should you not follow your brethren?"
+    },
+    {
+      "id": "s139",
+      "text": "I rather think you must.\" He resumed his unpleasant and stealthy advance, pointing his toes as he walked, like a dancing master."
+    },
+    {
+      "id": "s140",
+      "text": "I could have bolted for the hall door, but it would have been too ignominious."
+    },
+    {
+      "id": "s141",
+      "text": "Besides, a little glow of righteous anger was springing up within me."
+    },
+    {
+      "id": "s142",
+      "text": "I had been hopelessly in the wrong before, but this man's menaces were putting me in the right."
+    },
+    {
+      "id": "s143",
+      "text": "\"I'll trouble you to keep your hands off, sir."
+    },
+    {
+      "id": "s144",
+      "text": "I'll not stand it.\""
+    },
+    {
+      "id": "s145",
+      "text": "\"Dear me!\" His black moustache lifted and a white fang twinkled in a sneer. \"You won't stand it, eh?\""
+    },
+    {
+      "id": "s146",
+      "text": "\"Don't be such a fool, Professor!\" I cried. \"What can you hope for?"
+    },
+    {
+      "id": "s147",
+      "text": "I'm fifteen stone, as hard as nails, and play center three-quarter every Saturday for the London Irish."
+    },
+    {
+      "id": "s148",
+      "text": "I'm not the man----\""
+    },
+    {
+      "id": "s149",
+      "text": "It was at that moment that he rushed me."
+    },
+    {
+      "id": "s150",
+      "text": "It was lucky that I had opened the door, or we should have gone through it."
+    },
+    {
+      "id": "s151",
+      "text": "We did a Catharine-wheel together down the passage."
+    },
+    {
+      "id": "s152",
+      "text": "Somehow we gathered up a chair upon our way, and bounded on with it towards the street."
+    },
+    {
+      "id": "s153",
+      "text": "My mouth was full of his beard, our arms were locked, our bodies intertwined, and that infernal chair radiated its legs all round us."
+    },
+    {
+      "id": "s154",
+      "text": "The watchful Austin had thrown open the hall door."
+    },
+    {
+      "id": "s155",
+      "text": "We went with a back somersault down the front steps."
+    },
+    {
+      "id": "s156",
+      "text": "I have seen the two Macs attempt something of the kind at the halls, but it appears to take some practise to do it without hurting oneself."
+    },
+    {
+      "id": "s157",
+      "text": "The chair went to matchwood at the bottom, and we rolled apart into the gutter."
+    },
+    {
+      "id": "s158",
+      "text": "He sprang to his feet, waving his fists and wheezing like an asthmatic."
+    },
+    {
+      "id": "s159",
+      "text": "\"Had enough?\" he panted."
+    },
+    {
+      "id": "s160",
+      "text": "\"You infernal bully!\" I cried, as I gathered myself together."
+    },
+    {
+      "id": "s161",
+      "text": "Then and there we should have tried the thing out, for he was effervescing with fight, but fortunately I was rescued from an odious situation."
+    },
+    {
+      "id": "s162",
+      "text": "A policeman was beside us, his notebook in his hand."
+    },
+    {
+      "id": "s163",
+      "text": "\"What's all this?"
+    },
+    {
+      "id": "s164",
+      "text": "You ought to be ashamed\" said the policeman."
+    },
+    {
+      "id": "s165",
+      "text": "It was the most rational remark which I had heard in Enmore Park. \"Well,\" he insisted, turning to me, \"what is it, then?\""
+    },
+    {
+      "id": "s166",
+      "text": "\"This man attacked me,\" said I."
+    },
+    {
+      "id": "s167",
+      "text": "\"Did you attack him?\" asked the policeman."
+    },
+    {
+      "id": "s168",
+      "text": "The Professor breathed hard and said nothing."
+    },
+    {
+      "id": "s169",
+      "text": "\"It's not the first time, either,\" said the policeman, severely, shaking his head. \"You were in trouble last month for the same thing."
+    },
+    {
+      "id": "s170",
+      "text": "You've blackened this young man's eye."
+    },
+    {
+      "id": "s171",
+      "text": "Do you give him in charge, sir?\""
+    },
+    {
+      "id": "s172",
+      "text": "I relented."
+    },
+    {
+      "id": "s173",
+      "text": "\"No,\" said I, \"I do not.\""
+    },
+    {
+      "id": "s174",
+      "text": "\"What's that?\" said the policeman."
+    },
+    {
+      "id": "s175",
+      "text": "\"I was to blame myself."
+    },
+    {
+      "id": "s176",
+      "text": "I intruded upon him."
+    },
+    {
+      "id": "s177",
+      "text": "He gave me fair warning.\""
+    },
+    {
+      "id": "s178",
+      "text": "The policeman snapped up his notebook."
+    },
+    {
+      "id": "s179",
+      "text": "\"Don't let us have any more such goings-on,\" said he. \"Now, then!"
+    },
+    {
+      "id": "s180",
+      "text": "Move on, there, move on!\" This to a butcher's boy, a maid, and one or two loafers who had collected."
+    },
+    {
+      "id": "s181",
+      "text": "He clumped heavily down the street, driving this little flock before him."
+    },
+    {
+      "id": "s182",
+      "text": "The Professor looked at me, and there was something humorous at the back of his eyes."
+    },
+    {
+      "id": "s183",
+      "text": "\"Come in!\" said he. \"I've not done with you yet.\""
+    },
+    {
+      "id": "s184",
+      "text": "The speech had a sinister sound, but I followed him none the less into the house."
+    },
+    {
+      "id": "s185",
+      "text": "The man-servant, Austin, like a wooden image, closed the door behind us."
+    }
+  ]
+}

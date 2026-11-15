@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-121-northanger-abbey",
+  "ebookId": "121",
+  "edition": "Project Gutenberg eBook #121; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-27",
+  "chapterTitle": "CHAPTER 27",
+  "contentHash": "sha256:31ddb772017deeed74957fe8384bc6bafb9a1d4f416f74554d83e77a1026f45d",
+  "attribution": "Austen, Jane, 1775-1817, Northanger Abbey, CHAPTER 27. Source checked against Project Gutenberg eBook #121.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/121",
+    "textUrl": "https://www.gutenberg.org/cache/epub/121/pg121.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The next morning brought the following very unexpected letter from Isabella:"
+    },
+    {
+      "id": "s2",
+      "text": "_Bath, April_"
+    },
+    {
+      "id": "s3",
+      "text": "My dearest Catherine, I received your two kind letters with the greatest delight, and have a thousand apologies to make for not answering them sooner."
+    },
+    {
+      "id": "s4",
+      "text": "I really am quite ashamed of my idleness; but in this horrid place one can find time for nothing."
+    },
+    {
+      "id": "s5",
+      "text": "I have had my pen in my hand to begin a letter to you almost every day since you left Bath, but have always been prevented by some silly trifler or other."
+    },
+    {
+      "id": "s6",
+      "text": "Pray write to me soon, and direct to my own home."
+    },
+    {
+      "id": "s7",
+      "text": "Thank God, we leave this vile place to-morrow."
+    },
+    {
+      "id": "s8",
+      "text": "Since you went away, I have had no pleasure in it—the dust is beyond anything; and everybody one cares for is gone."
+    },
+    {
+      "id": "s9",
+      "text": "I believe if I could see you I should not mind the rest, for you are dearer to me than anybody can conceive."
+    },
+    {
+      "id": "s10",
+      "text": "I am quite uneasy about your dear brother, not having heard from him since he went to Oxford; and am fearful of some misunderstanding."
+    },
+    {
+      "id": "s11",
+      "text": "Your kind offices will set all right: he is the only man I ever did or could love, and I trust you will convince him of it."
+    },
+    {
+      "id": "s12",
+      "text": "The spring fashions are partly down; and the hats the most frightful you can imagine."
+    },
+    {
+      "id": "s13",
+      "text": "I hope you spend your time pleasantly, but am afraid you never think of me."
+    },
+    {
+      "id": "s14",
+      "text": "I will not say all that I could of the family you are with, because I would not be ungenerous, or set you against those you esteem; but it is very difficult to know whom to trust, and young men never know their minds two days together."
+    },
+    {
+      "id": "s15",
+      "text": "I rejoice to say that the young man whom, of all others, I particularly abhor, has left Bath."
+    },
+    {
+      "id": "s16",
+      "text": "You will know, from this description, I must mean Captain Tilney, who, as you may remember, was amazingly disposed to follow and tease me, before you went away."
+    },
+    {
+      "id": "s17",
+      "text": "Afterwards he got worse, and became quite my shadow."
+    },
+    {
+      "id": "s18",
+      "text": "Many girls might have been taken in, for never were such attentions; but I knew the fickle sex too well."
+    },
+    {
+      "id": "s19",
+      "text": "He went away to his regiment two days ago, and I trust I shall never be plagued with him again."
+    },
+    {
+      "id": "s20",
+      "text": "He is the greatest coxcomb I ever saw, and amazingly disagreeable."
+    },
+    {
+      "id": "s21",
+      "text": "The last two days he was always by the side of Charlotte Davis: I pitied his taste, but took no notice of him."
+    },
+    {
+      "id": "s22",
+      "text": "The last time we met was in Bath Street, and I turned directly into a shop that he might not speak to me; I would not even look at him."
+    },
+    {
+      "id": "s23",
+      "text": "He went into the pump-room afterwards; but I would not have followed him for all the world."
+    },
+    {
+      "id": "s24",
+      "text": "Such a contrast between him and your brother! pray send me some news of the latter—I am quite unhappy about him; he seemed so uncomfortable when he went away, with a cold, or something that affected his spirits."
+    },
+    {
+      "id": "s25",
+      "text": "I would write to him myself, but have mislaid his direction; and, as I hinted above, am afraid he took something in my conduct amiss."
+    },
+    {
+      "id": "s26",
+      "text": "Pray explain everything to his satisfaction; or, if he still harbours any doubt, a line from himself to me, or a call at Putney when next in town, might set all to rights."
+    },
+    {
+      "id": "s27",
+      "text": "I have not been to the Rooms this age, nor to the play, except going in last night with the Hodges, for a frolic, at half price: they teased me into it; and I was determined they should not say I shut myself up because Tilney was gone."
+    },
+    {
+      "id": "s28",
+      "text": "We happened to sit by the Mitchells, and they pretended to be quite surprised to see me out."
+    },
+    {
+      "id": "s29",
+      "text": "I knew their spite: at one time they could not be civil to me, but now they are all friendship; but I am not such a fool as to be taken in by them."
+    },
+    {
+      "id": "s30",
+      "text": "You know I have a pretty good spirit of my own."
+    },
+    {
+      "id": "s31",
+      "text": "Anne Mitchell had tried to put on a turban like mine, as I wore it the week before at the Concert, but made wretched work of it—it happened to become my odd face, I believe, at least Tilney told me so at the time, and said every eye was upon me; but he is the last man whose word I would take."
+    },
+    {
+      "id": "s32",
+      "text": "I wear nothing but purple now: I know I look hideous in it, but no matter—it is your dear brother’s favourite colour."
+    },
+    {
+      "id": "s33",
+      "text": "Lose no time, my dearest, sweetest Catherine, in writing to him and to me,"
+    },
+    {
+      "id": "s34",
+      "text": "Who ever am, etc."
+    },
+    {
+      "id": "s35",
+      "text": "Such a strain of shallow artifice could not impose even upon Catherine."
+    },
+    {
+      "id": "s36",
+      "text": "Its inconsistencies, contradictions, and falsehood struck her from the very first."
+    },
+    {
+      "id": "s37",
+      "text": "She was ashamed of Isabella, and ashamed of having ever loved her."
+    },
+    {
+      "id": "s38",
+      "text": "Her professions of attachment were now as disgusting as her excuses were empty, and her demands impudent."
+    },
+    {
+      "id": "s39",
+      "text": "“Write to James on her behalf! no, James should never hear Isabella’s name mentioned by her again.”"
+    },
+    {
+      "id": "s40",
+      "text": "On Henry’s arrival from Woodston, she made known to him and Eleanor their brother’s safety, congratulating them with sincerity on it, and reading aloud the most material passages of her letter with strong indignation."
+    },
+    {
+      "id": "s41",
+      "text": "When she had finished it—“So much for Isabella,” she cried, “and for all our intimacy! she must think me an idiot, or she could not have written so; but perhaps this has served to make her character better known to me than mine is to her."
+    },
+    {
+      "id": "s42",
+      "text": "I see what she has been about."
+    },
+    {
+      "id": "s43",
+      "text": "She is a vain coquette, and her tricks have not answered."
+    },
+    {
+      "id": "s44",
+      "text": "I do not believe she had ever any regard either for James or for me, and I wish I had never known her.”"
+    },
+    {
+      "id": "s45",
+      "text": "“It will soon be as if you never had,” said Henry."
+    },
+    {
+      "id": "s46",
+      "text": "“There is but one thing that I cannot understand."
+    },
+    {
+      "id": "s47",
+      "text": "I see that she has had designs on Captain Tilney, which have not succeeded; but I do not understand what Captain Tilney has been about all this time."
+    },
+    {
+      "id": "s48",
+      "text": "Why should he pay her such attentions as to make her quarrel with my brother, and then fly off himself?”"
+    },
+    {
+      "id": "s49",
+      "text": "“I have very little to say for Frederick’s motives, such as I believe them to have been."
+    },
+    {
+      "id": "s50",
+      "text": "He has his vanities as well as Miss Thorpe, and the chief difference is, that, having a stronger head, they have not yet injured himself."
+    },
+    {
+      "id": "s51",
+      "text": "If the _effect_ of his behaviour does not justify him with you, we had better not seek after the cause.”"
+    },
+    {
+      "id": "s52",
+      "text": "“Then you do not suppose he ever really cared about her?”"
+    },
+    {
+      "id": "s53",
+      "text": "“I am persuaded that he never did.”"
+    },
+    {
+      "id": "s54",
+      "text": "“And only made believe to do so for mischief’s sake?”"
+    },
+    {
+      "id": "s55",
+      "text": "Henry bowed his assent."
+    },
+    {
+      "id": "s56",
+      "text": "“Well, then, I must say that I do not like him at all."
+    },
+    {
+      "id": "s57",
+      "text": "Though it has turned out so well for us, I do not like him at all."
+    },
+    {
+      "id": "s58",
+      "text": "As it happens, there is no great harm done, because I do not think Isabella has any heart to lose."
+    },
+    {
+      "id": "s59",
+      "text": "But, suppose he had made her very much in love with him?”"
+    },
+    {
+      "id": "s60",
+      "text": "“But we must first suppose Isabella to have had a heart to lose—consequently to have been a very different creature; and, in that case, she would have met with very different treatment.”"
+    },
+    {
+      "id": "s61",
+      "text": "“It is very right that you should stand by your brother.”"
+    },
+    {
+      "id": "s62",
+      "text": "“And if you would stand by _yours_, you would not be much distressed by the disappointment of Miss Thorpe."
+    },
+    {
+      "id": "s63",
+      "text": "But your mind is warped by an innate principle of general integrity, and therefore not accessible to the cool reasonings of family partiality, or a desire of revenge.”"
+    },
+    {
+      "id": "s64",
+      "text": "Catherine was complimented out of further bitterness."
+    },
+    {
+      "id": "s65",
+      "text": "Frederick could not be unpardonably guilty, while Henry made himself so agreeable."
+    },
+    {
+      "id": "s66",
+      "text": "She resolved on not answering Isabella’s letter, and tried to think no more of it."
+    }
+  ]
+}

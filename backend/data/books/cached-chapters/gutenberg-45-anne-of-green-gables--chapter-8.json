@@ -1,0 +1,885 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-8",
+  "chapterTitle": "CHAPTER VIII. Anne’s Bringing-up Is Begun",
+  "contentHash": "sha256:9791bcfa766f08041f7c1d5d4d9d0a5a828d04dd21cd0f12ba102f2255e7d5f7",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER VIII. Anne’s Bringing-up Is Begun. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "FOR reasons best known to herself, Marilla did not tell Anne that she was to stay at Green Gables until the next afternoon."
+    },
+    {
+      "id": "s2",
+      "text": "During the forenoon she kept the child busy with various tasks and watched over her with a keen eye while she did them."
+    },
+    {
+      "id": "s3",
+      "text": "By noon she had concluded that Anne was smart and obedient, willing to work and quick to learn; her most serious shortcoming seemed to be a tendency to fall into daydreams in the middle of a task and forget all about it until such time as she was sharply recalled to earth by a reprimand or a catastrophe."
+    },
+    {
+      "id": "s4",
+      "text": "When Anne had finished washing the dinner dishes she suddenly confronted Marilla with the air and expression of one desperately determined to learn the worst."
+    },
+    {
+      "id": "s5",
+      "text": "Her thin little body trembled from head to foot; her face flushed and her eyes dilated until they were almost black; she clasped her hands tightly and said in an imploring voice:"
+    },
+    {
+      "id": "s6",
+      "text": "“Oh, please, Miss Cuthbert, won’t you tell me if you are going to send me away or not?"
+    },
+    {
+      "id": "s7",
+      "text": "I’ve tried to be patient all the morning, but I really feel that I cannot bear not knowing any longer."
+    },
+    {
+      "id": "s8",
+      "text": "It’s a dreadful feeling."
+    },
+    {
+      "id": "s9",
+      "text": "Please tell me.”"
+    },
+    {
+      "id": "s10",
+      "text": "“You haven’t scalded the dishcloth in clean hot water as I told you to do,” said Marilla immovably."
+    },
+    {
+      "id": "s11",
+      "text": "“Just go and do it before you ask any more questions, Anne.”"
+    },
+    {
+      "id": "s12",
+      "text": "Anne went and attended to the dishcloth."
+    },
+    {
+      "id": "s13",
+      "text": "Then she returned to Marilla and fastened imploring eyes on the latter’s face."
+    },
+    {
+      "id": "s14",
+      "text": "“Well,” said Marilla, unable to find any excuse for deferring her explanation longer, “I suppose I might as well tell you."
+    },
+    {
+      "id": "s15",
+      "text": "Matthew and I have decided to keep you--that is, if you will try to be a good little girl and show yourself grateful."
+    },
+    {
+      "id": "s16",
+      "text": "Why, child, whatever is the matter?”"
+    },
+    {
+      "id": "s17",
+      "text": "“I’m crying,” said Anne in a tone of bewilderment."
+    },
+    {
+      "id": "s18",
+      "text": "“I can’t think why."
+    },
+    {
+      "id": "s19",
+      "text": "I’m glad as glad can be."
+    },
+    {
+      "id": "s20",
+      "text": "Oh, _glad_ doesn’t seem the right word at all."
+    },
+    {
+      "id": "s21",
+      "text": "I was glad about the White Way and the cherry blossoms--but this!"
+    },
+    {
+      "id": "s22",
+      "text": "Oh, it’s something more than glad."
+    },
+    {
+      "id": "s23",
+      "text": "I’m so happy."
+    },
+    {
+      "id": "s24",
+      "text": "I’ll try to be so good."
+    },
+    {
+      "id": "s25",
+      "text": "It will be uphill work, I expect, for Mrs."
+    },
+    {
+      "id": "s26",
+      "text": "Thomas often told me I was desperately wicked."
+    },
+    {
+      "id": "s27",
+      "text": "However, I’ll do my very best."
+    },
+    {
+      "id": "s28",
+      "text": "But can you tell me why I’m crying?”"
+    },
+    {
+      "id": "s29",
+      "text": "“I suppose it’s because you’re all excited and worked up,” said Marilla disapprovingly."
+    },
+    {
+      "id": "s30",
+      "text": "“Sit down on that chair and try to calm yourself."
+    },
+    {
+      "id": "s31",
+      "text": "I’m afraid you both cry and laugh far too easily."
+    },
+    {
+      "id": "s32",
+      "text": "Yes, you can stay here and we will try to do right by you."
+    },
+    {
+      "id": "s33",
+      "text": "You must go to school; but it’s only a fortnight till vacation so it isn’t worth while for you to start before it opens again in September.”"
+    },
+    {
+      "id": "s34",
+      "text": "“What am I to call you?” asked Anne."
+    },
+    {
+      "id": "s35",
+      "text": "“Shall I always say Miss Cuthbert?"
+    },
+    {
+      "id": "s36",
+      "text": "Can I call you Aunt Marilla?”"
+    },
+    {
+      "id": "s37",
+      "text": "“No; you’ll call me just plain Marilla."
+    },
+    {
+      "id": "s38",
+      "text": "I’m not used to being called Miss Cuthbert and it would make me nervous.”"
+    },
+    {
+      "id": "s39",
+      "text": "“It sounds awfully disrespectful to just say Marilla,” protested Anne."
+    },
+    {
+      "id": "s40",
+      "text": "“I guess there’ll be nothing disrespectful in it if you’re careful to speak respectfully."
+    },
+    {
+      "id": "s41",
+      "text": "Everybody, young and old, in Avonlea calls me Marilla except the minister."
+    },
+    {
+      "id": "s42",
+      "text": "He says Miss Cuthbert--when he thinks of it.”"
+    },
+    {
+      "id": "s43",
+      "text": "“I’d love to call you Aunt Marilla,” said Anne wistfully."
+    },
+    {
+      "id": "s44",
+      "text": "“I’ve never had an aunt or any relation at all--not even a grandmother."
+    },
+    {
+      "id": "s45",
+      "text": "It would make me feel as if I really belonged to you."
+    },
+    {
+      "id": "s46",
+      "text": "Can’t I call you Aunt Marilla?”"
+    },
+    {
+      "id": "s47",
+      "text": "“No."
+    },
+    {
+      "id": "s48",
+      "text": "I’m not your aunt and I don’t believe in calling people names that don’t belong to them.”"
+    },
+    {
+      "id": "s49",
+      "text": "“But we could imagine you were my aunt.”"
+    },
+    {
+      "id": "s50",
+      "text": "“I couldn’t,” said Marilla grimly."
+    },
+    {
+      "id": "s51",
+      "text": "“Do you never imagine things different from what they really are?” asked Anne wide-eyed."
+    },
+    {
+      "id": "s52",
+      "text": "“No.”"
+    },
+    {
+      "id": "s53",
+      "text": "“Oh!” Anne drew a long breath."
+    },
+    {
+      "id": "s54",
+      "text": "“Oh, Miss--Marilla, how much you miss!”"
+    },
+    {
+      "id": "s55",
+      "text": "“I don’t believe in imagining things different from what they really are,” retorted Marilla."
+    },
+    {
+      "id": "s56",
+      "text": "“When the Lord puts us in certain circumstances He doesn’t mean for us to imagine them away."
+    },
+    {
+      "id": "s57",
+      "text": "And that reminds me."
+    },
+    {
+      "id": "s58",
+      "text": "Go into the sitting room, Anne--be sure your feet are clean and don’t let any flies in--and bring me out the illustrated card that’s on the mantelpiece."
+    },
+    {
+      "id": "s59",
+      "text": "The Lord’s Prayer is on it and you’ll devote your spare time this afternoon to learning it off by heart."
+    },
+    {
+      "id": "s60",
+      "text": "There’s to be no more of such praying as I heard last night.”"
+    },
+    {
+      "id": "s61",
+      "text": "“I suppose I was very awkward,” said Anne apologetically, “but then, you see, I’d never had any practice."
+    },
+    {
+      "id": "s62",
+      "text": "You couldn’t really expect a person to pray very well the first time she tried, could you?"
+    },
+    {
+      "id": "s63",
+      "text": "I thought out a splendid prayer after I went to bed, just as I promised you I would."
+    },
+    {
+      "id": "s64",
+      "text": "It was nearly as long as a minister’s and so poetical."
+    },
+    {
+      "id": "s65",
+      "text": "But would you believe it?"
+    },
+    {
+      "id": "s66",
+      "text": "I couldn’t remember one word when I woke up this morning."
+    },
+    {
+      "id": "s67",
+      "text": "And I’m afraid I’ll never be able to think out another one as good."
+    },
+    {
+      "id": "s68",
+      "text": "Somehow, things never are so good when they’re thought out a second time."
+    },
+    {
+      "id": "s69",
+      "text": "Have you ever noticed that?”"
+    },
+    {
+      "id": "s70",
+      "text": "“Here is something for you to notice, Anne."
+    },
+    {
+      "id": "s71",
+      "text": "When I tell you to do a thing I want you to obey me at once and not stand stock-still and discourse about it."
+    },
+    {
+      "id": "s72",
+      "text": "Just you go and do as I bid you.”"
+    },
+    {
+      "id": "s73",
+      "text": "Anne promptly departed for the sitting-room across the hall; she failed to return; after waiting ten minutes Marilla laid down her knitting and marched after her with a grim expression."
+    },
+    {
+      "id": "s74",
+      "text": "She found Anne standing motionless before a picture hanging on the wall between the two windows, with her eyes astar with dreams."
+    },
+    {
+      "id": "s75",
+      "text": "The white and green light strained through apple-trees and clustering vines outside fell over the rapt little figure with a half-unearthly radiance."
+    },
+    {
+      "id": "s76",
+      "text": "“Anne, whatever are you thinking of?” demanded Marilla sharply."
+    },
+    {
+      "id": "s77",
+      "text": "Anne came back to earth with a start."
+    },
+    {
+      "id": "s78",
+      "text": "“That,” she said, pointing to the picture--a rather vivid chromo entitled, “Christ Blessing Little Children”--“and I was just imagining I was one of them--that I was the little girl in the blue dress, standing off by herself in the corner as if she didn’t belong to anybody, like me."
+    },
+    {
+      "id": "s79",
+      "text": "She looks lonely and sad, don’t you think?"
+    },
+    {
+      "id": "s80",
+      "text": "I guess she hadn’t any father or mother of her own."
+    },
+    {
+      "id": "s81",
+      "text": "But she wanted to be blessed, too, so she just crept shyly up on the outside of the crowd, hoping nobody would notice her--except Him."
+    },
+    {
+      "id": "s82",
+      "text": "I’m sure I know just how she felt."
+    },
+    {
+      "id": "s83",
+      "text": "Her heart must have beat and her hands must have got cold, like mine did when I asked you if I could stay."
+    },
+    {
+      "id": "s84",
+      "text": "She was afraid He mightn’t notice her."
+    },
+    {
+      "id": "s85",
+      "text": "But it’s likely He did, don’t you think?"
+    },
+    {
+      "id": "s86",
+      "text": "I’ve been trying to imagine it all out--her edging a little nearer all the time until she was quite close to Him; and then He would look at her and put His hand on her hair and oh, such a thrill of joy as would run over her!"
+    },
+    {
+      "id": "s87",
+      "text": "But I wish the artist hadn’t painted Him so sorrowful-looking."
+    },
+    {
+      "id": "s88",
+      "text": "All His pictures are like that, if you’ve noticed."
+    },
+    {
+      "id": "s89",
+      "text": "But I don’t believe He could really have looked so sad or the children would have been afraid of Him.”"
+    },
+    {
+      "id": "s90",
+      "text": "“Anne,” said Marilla, wondering why she had not broken into this speech long before, “you shouldn’t talk that way."
+    },
+    {
+      "id": "s91",
+      "text": "It’s irreverent--positively irreverent.”"
+    },
+    {
+      "id": "s92",
+      "text": "Anne’s eyes marveled."
+    },
+    {
+      "id": "s93",
+      "text": "“Why, I felt just as reverent as could be."
+    },
+    {
+      "id": "s94",
+      "text": "I’m sure I didn’t mean to be irreverent.”"
+    },
+    {
+      "id": "s95",
+      "text": "“Well, I don’t suppose you did--but it doesn’t sound right to talk so familiarly about such things."
+    },
+    {
+      "id": "s96",
+      "text": "And another thing, Anne, when I send you after something you’re to bring it at once and not fall into mooning and imagining before pictures."
+    },
+    {
+      "id": "s97",
+      "text": "Remember that."
+    },
+    {
+      "id": "s98",
+      "text": "Take that card and come right to the kitchen."
+    },
+    {
+      "id": "s99",
+      "text": "Now, sit down in the corner and learn that prayer off by heart.”"
+    },
+    {
+      "id": "s100",
+      "text": "Anne set the card up against the jugful of apple blossoms she had brought in to decorate the dinner table--Marilla had eyed that decoration askance, but had said nothing--propped her chin on her hands, and fell to studying it intently for several silent minutes."
+    },
+    {
+      "id": "s101",
+      "text": "“I like this,” she announced at length."
+    },
+    {
+      "id": "s102",
+      "text": "“It’s beautiful."
+    },
+    {
+      "id": "s103",
+      "text": "I’ve heard it before--I heard the superintendent of the asylum Sunday-school say it over once."
+    },
+    {
+      "id": "s104",
+      "text": "But I didn’t like it then."
+    },
+    {
+      "id": "s105",
+      "text": "He had such a cracked voice and he prayed it so mournfully."
+    },
+    {
+      "id": "s106",
+      "text": "I really felt sure he thought praying was a disagreeable duty."
+    },
+    {
+      "id": "s107",
+      "text": "This isn’t poetry, but it makes me feel just the same way poetry does. ‘Our Father who art in heaven, hallowed be Thy name.’ That is just like a line of music."
+    },
+    {
+      "id": "s108",
+      "text": "Oh, I’m so glad you thought of making me learn this, Miss--Marilla.”"
+    },
+    {
+      "id": "s109",
+      "text": "“Well, learn it and hold your tongue,” said Marilla shortly."
+    },
+    {
+      "id": "s110",
+      "text": "Anne tipped the vase of apple blossoms near enough to bestow a soft kiss on a pink-cupped bud, and then studied diligently for some moments longer."
+    },
+    {
+      "id": "s111",
+      "text": "“Marilla,” she demanded presently, “do you think that I shall ever have a bosom friend in Avonlea?”"
+    },
+    {
+      "id": "s112",
+      "text": "“A--a what kind of friend?”"
+    },
+    {
+      "id": "s113",
+      "text": "“A bosom friend--an intimate friend, you know--a really kindred spirit to whom I can confide my inmost soul."
+    },
+    {
+      "id": "s114",
+      "text": "I’ve dreamed of meeting her all my life."
+    },
+    {
+      "id": "s115",
+      "text": "I never really supposed I would, but so many of my loveliest dreams have come true all at once that perhaps this one will, too."
+    },
+    {
+      "id": "s116",
+      "text": "Do you think it’s possible?”"
+    },
+    {
+      "id": "s117",
+      "text": "“Diana Barry lives over at Orchard Slope and she’s about your age."
+    },
+    {
+      "id": "s118",
+      "text": "She’s a very nice little girl, and perhaps she will be a playmate for you when she comes home."
+    },
+    {
+      "id": "s119",
+      "text": "She’s visiting her aunt over at Carmody just now."
+    },
+    {
+      "id": "s120",
+      "text": "You’ll have to be careful how you behave yourself, though."
+    },
+    {
+      "id": "s121",
+      "text": "Mrs."
+    },
+    {
+      "id": "s122",
+      "text": "Barry is a very particular woman."
+    },
+    {
+      "id": "s123",
+      "text": "She won’t let Diana play with any little girl who isn’t nice and good.”"
+    },
+    {
+      "id": "s124",
+      "text": "Anne looked at Marilla through the apple blossoms, her eyes aglow with interest."
+    },
+    {
+      "id": "s125",
+      "text": "“What is Diana like?"
+    },
+    {
+      "id": "s126",
+      "text": "Her hair isn’t red, is it?"
+    },
+    {
+      "id": "s127",
+      "text": "Oh, I hope not."
+    },
+    {
+      "id": "s128",
+      "text": "It’s bad enough to have red hair myself, but I positively couldn’t endure it in a bosom friend.”"
+    },
+    {
+      "id": "s129",
+      "text": "“Diana is a very pretty little girl."
+    },
+    {
+      "id": "s130",
+      "text": "She has black eyes and hair and rosy cheeks."
+    },
+    {
+      "id": "s131",
+      "text": "And she is good and smart, which is better than being pretty.”"
+    },
+    {
+      "id": "s132",
+      "text": "Marilla was as fond of morals as the Duchess in Wonderland, and was firmly convinced that one should be tacked on to every remark made to a child who was being brought up."
+    },
+    {
+      "id": "s133",
+      "text": "But Anne waved the moral inconsequently aside and seized only on the delightful possibilities before it."
+    },
+    {
+      "id": "s134",
+      "text": "“Oh, I’m so glad she’s pretty."
+    },
+    {
+      "id": "s135",
+      "text": "Next to being beautiful oneself--and that’s impossible in my case--it would be best to have a beautiful bosom friend."
+    },
+    {
+      "id": "s136",
+      "text": "When I lived with Mrs."
+    },
+    {
+      "id": "s137",
+      "text": "Thomas she had a bookcase in her sitting room with glass doors."
+    },
+    {
+      "id": "s138",
+      "text": "There weren’t any books in it; Mrs."
+    },
+    {
+      "id": "s139",
+      "text": "Thomas kept her best china and her preserves there--when she had any preserves to keep."
+    },
+    {
+      "id": "s140",
+      "text": "One of the doors was broken."
+    },
+    {
+      "id": "s141",
+      "text": "Mr."
+    },
+    {
+      "id": "s142",
+      "text": "Thomas smashed it one night when he was slightly intoxicated."
+    },
+    {
+      "id": "s143",
+      "text": "But the other was whole and I used to pretend that my reflection in it was another little girl who lived in it."
+    },
+    {
+      "id": "s144",
+      "text": "I called her Katie Maurice, and we were very intimate."
+    },
+    {
+      "id": "s145",
+      "text": "I used to talk to her by the hour, especially on Sunday, and tell her everything."
+    },
+    {
+      "id": "s146",
+      "text": "Katie was the comfort and consolation of my life."
+    },
+    {
+      "id": "s147",
+      "text": "We used to pretend that the bookcase was enchanted and that if I only knew the spell I could open the door and step right into the room where Katie Maurice lived, instead of into Mrs."
+    },
+    {
+      "id": "s148",
+      "text": "Thomas’ shelves of preserves and china."
+    },
+    {
+      "id": "s149",
+      "text": "And then Katie Maurice would have taken me by the hand and led me out into a wonderful place, all flowers and sunshine and fairies, and we would have lived there happy for ever after."
+    },
+    {
+      "id": "s150",
+      "text": "When I went to live with Mrs."
+    },
+    {
+      "id": "s151",
+      "text": "Hammond it just broke my heart to leave Katie Maurice."
+    },
+    {
+      "id": "s152",
+      "text": "She felt it dreadfully, too, I know she did, for she was crying when she kissed me good-bye through the bookcase door."
+    },
+    {
+      "id": "s153",
+      "text": "There was no bookcase at Mrs."
+    },
+    {
+      "id": "s154",
+      "text": "Hammond’s."
+    },
+    {
+      "id": "s155",
+      "text": "But just up the river a little way from the house there was a long green little valley, and the loveliest echo lived there."
+    },
+    {
+      "id": "s156",
+      "text": "It echoed back every word you said, even if you didn’t talk a bit loud."
+    },
+    {
+      "id": "s157",
+      "text": "So I imagined that it was a little girl called Violetta and we were great friends and I loved her almost as well as I loved Katie Maurice--not quite, but almost, you know."
+    },
+    {
+      "id": "s158",
+      "text": "The night before I went to the asylum I said good-bye to Violetta, and oh, her good-bye came back to me in such sad, sad tones."
+    },
+    {
+      "id": "s159",
+      "text": "I had become so attached to her that I hadn’t the heart to imagine a bosom friend at the asylum, even if there had been any scope for imagination there.”"
+    },
+    {
+      "id": "s160",
+      "text": "“I think it’s just as well there wasn’t,” said Marilla drily."
+    },
+    {
+      "id": "s161",
+      "text": "“I don’t approve of such goings-on."
+    },
+    {
+      "id": "s162",
+      "text": "You seem to half believe your own imaginations."
+    },
+    {
+      "id": "s163",
+      "text": "It will be well for you to have a real live friend to put such nonsense out of your head."
+    },
+    {
+      "id": "s164",
+      "text": "But don’t let Mrs."
+    },
+    {
+      "id": "s165",
+      "text": "Barry hear you talking about your Katie Maurices and your Violettas or she’ll think you tell stories.”"
+    },
+    {
+      "id": "s166",
+      "text": "“Oh, I won’t."
+    },
+    {
+      "id": "s167",
+      "text": "I couldn’t talk of them to everybody--their memories are too sacred for that."
+    },
+    {
+      "id": "s168",
+      "text": "But I thought I’d like to have you know about them."
+    },
+    {
+      "id": "s169",
+      "text": "Oh, look, here’s a big bee just tumbled out of an apple blossom."
+    },
+    {
+      "id": "s170",
+      "text": "Just think what a lovely place to live--in an apple blossom!"
+    },
+    {
+      "id": "s171",
+      "text": "Fancy going to sleep in it when the wind was rocking it."
+    },
+    {
+      "id": "s172",
+      "text": "If I wasn’t a human girl I think I’d like to be a bee and live among the flowers.”"
+    },
+    {
+      "id": "s173",
+      "text": "“Yesterday you wanted to be a sea-gull,” sniffed Marilla."
+    },
+    {
+      "id": "s174",
+      "text": "“I think you are very fickle minded."
+    },
+    {
+      "id": "s175",
+      "text": "I told you to learn that prayer and not talk."
+    },
+    {
+      "id": "s176",
+      "text": "But it seems impossible for you to stop talking if you’ve got anybody that will listen to you."
+    },
+    {
+      "id": "s177",
+      "text": "So go up to your room and learn it.”"
+    },
+    {
+      "id": "s178",
+      "text": "“Oh, I know it pretty nearly all now--all but just the last line.”"
+    },
+    {
+      "id": "s179",
+      "text": "“Well, never mind, do as I tell you."
+    },
+    {
+      "id": "s180",
+      "text": "Go to your room and finish learning it well, and stay there until I call you down to help me get tea.”"
+    },
+    {
+      "id": "s181",
+      "text": "“Can I take the apple blossoms with me for company?” pleaded Anne."
+    },
+    {
+      "id": "s182",
+      "text": "“No; you don’t want your room cluttered up with flowers."
+    },
+    {
+      "id": "s183",
+      "text": "You should have left them on the tree in the first place.”"
+    },
+    {
+      "id": "s184",
+      "text": "“I did feel a little that way, too,” said Anne."
+    },
+    {
+      "id": "s185",
+      "text": "“I kind of felt I shouldn’t shorten their lovely lives by picking them--I wouldn’t want to be picked if I were an apple blossom."
+    },
+    {
+      "id": "s186",
+      "text": "But the temptation was _irresistible_."
+    },
+    {
+      "id": "s187",
+      "text": "What do you do when you meet with an irresistible temptation?”"
+    },
+    {
+      "id": "s188",
+      "text": "“Anne, did you hear me tell you to go to your room?”"
+    },
+    {
+      "id": "s189",
+      "text": "Anne sighed, retreated to the east gable, and sat down in a chair by the window."
+    },
+    {
+      "id": "s190",
+      "text": "“There--I know this prayer."
+    },
+    {
+      "id": "s191",
+      "text": "I learned that last sentence coming upstairs."
+    },
+    {
+      "id": "s192",
+      "text": "Now I’m going to imagine things into this room so that they’ll always stay imagined."
+    },
+    {
+      "id": "s193",
+      "text": "The floor is covered with a white velvet carpet with pink roses all over it and there are pink silk curtains at the windows."
+    },
+    {
+      "id": "s194",
+      "text": "The walls are hung with gold and silver brocade tapestry."
+    },
+    {
+      "id": "s195",
+      "text": "The furniture is mahogany."
+    },
+    {
+      "id": "s196",
+      "text": "I never saw any mahogany, but it does sound _so_ luxurious."
+    },
+    {
+      "id": "s197",
+      "text": "This is a couch all heaped with gorgeous silken cushions, pink and blue and crimson and gold, and I am reclining gracefully on it."
+    },
+    {
+      "id": "s198",
+      "text": "I can see my reflection in that splendid big mirror hanging on the wall."
+    },
+    {
+      "id": "s199",
+      "text": "I am tall and regal, clad in a gown of trailing white lace, with a pearl cross on my breast and pearls in my hair."
+    },
+    {
+      "id": "s200",
+      "text": "My hair is of midnight darkness and my skin is a clear ivory pallor."
+    },
+    {
+      "id": "s201",
+      "text": "My name is the Lady Cordelia Fitzgerald."
+    },
+    {
+      "id": "s202",
+      "text": "No, it isn’t--I can’t make _that_ seem real.”"
+    },
+    {
+      "id": "s203",
+      "text": "She danced up to the little looking-glass and peered into it."
+    },
+    {
+      "id": "s204",
+      "text": "Her pointed freckled face and solemn gray eyes peered back at her."
+    },
+    {
+      "id": "s205",
+      "text": "“You’re only Anne of Green Gables,” she said earnestly, “and I see you, just as you are looking now, whenever I try to imagine I’m the Lady Cordelia."
+    },
+    {
+      "id": "s206",
+      "text": "But it’s a million times nicer to be Anne of Green Gables than Anne of nowhere in particular, isn’t it?”"
+    },
+    {
+      "id": "s207",
+      "text": "She bent forward, kissed her reflection affectionately, and betook herself to the open window."
+    },
+    {
+      "id": "s208",
+      "text": "“Dear Snow Queen, good afternoon."
+    },
+    {
+      "id": "s209",
+      "text": "And good afternoon, dear birches down in the hollow."
+    },
+    {
+      "id": "s210",
+      "text": "And good afternoon, dear gray house up on the hill."
+    },
+    {
+      "id": "s211",
+      "text": "I wonder if Diana is to be my bosom friend."
+    },
+    {
+      "id": "s212",
+      "text": "I hope she will, and I shall love her very much."
+    },
+    {
+      "id": "s213",
+      "text": "But I must never quite forget Katie Maurice and Violetta."
+    },
+    {
+      "id": "s214",
+      "text": "They would feel so hurt if I did and I’d hate to hurt anybody’s feelings, even a little bookcase girl’s or a little echo girl’s."
+    },
+    {
+      "id": "s215",
+      "text": "I must be careful to remember them and send them a kiss every day.”"
+    },
+    {
+      "id": "s216",
+      "text": "Anne blew a couple of airy kisses from her fingertips past the cherry blossoms and then, with her chin in her hands, drifted luxuriously out on a sea of daydreams."
+    }
+  ]
+}

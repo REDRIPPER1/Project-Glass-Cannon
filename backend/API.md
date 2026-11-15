@@ -97,14 +97,15 @@ one Rare reward and a Premium pass with one Epic reward.
 Literary metadata is catalog metadata only. All companions and accessories are
 original LitLearn designs, not adaptations of modern film, game, or book
 characters. The current catalog contains 100 generated Project Gutenberg
-metadata records, overlaid by 25 individually reviewed local Chapter I caches,
-plus the two pre-existing reviewed records. Generated records that have not
+metadata records, overlaid by 25 individually reviewed local chapter sets
+(789 explicit source chapters), plus the two pre-existing reviewed records.
+Generated records that have not
 been overlaid are **reference-only** until a work-specific edition review
 clears text reuse. The cached set covers Adventure, Mystery, Fantasy and
 folklore, Science and nature, Nature and animals, History and biography,
 Family stories, and Classics. The browser catalog does not expose third-party
 source or reader URLs; it exposes `sourceReference` and required attribution
-instead. It can render local `cached-chapter` content for those 25 exact
+instead. It can render every verified `cached-chapter` for those 25 exact
 editions and the reviewed `bundled-passage` for *The Wonderful Wizard of Oz*,
 Chapter I. The one reviewed catalog quiz remains mapped to that exact Project
 Gutenberg eBook #55 edition and chapter; no quiz is advertised for an
@@ -230,7 +231,9 @@ review command: it first asks Gutendex for one title's metadata, falls back to
 the checked offline catalog only when Gutendex is unavailable, verifies the
 matching Gutenberg landing page says "Public domain in the USA", checks the
 downloaded eBook notices, and rejects a title without an exact named chapter
-boundary. It writes only the approved local chapter cache. The reader never
+boundary. It writes every explicit sequential source chapter (including a
+part-qualified ID only when a printed Chapter I restart occurs) to the
+approved local cache. The reader never
 downloads Gutenberg text; it serves the local cache by stable book/chapter ID.
 
 ### Cached chapter response

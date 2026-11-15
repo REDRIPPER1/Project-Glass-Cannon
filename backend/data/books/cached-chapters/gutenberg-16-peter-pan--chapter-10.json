@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-16-peter-pan",
+  "ebookId": "16",
+  "edition": "Project Gutenberg eBook #16; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-10",
+  "chapterTitle": "Chapter X.",
+  "contentHash": "sha256:f96bdd1b10c440a7293234ea1b0c6bb30eb16a1c71a504801a43cebbf6f7a505",
+  "attribution": "Barrie, J. M. (James Matthew), 1860-1937, Peter Pan, Chapter X.. Source checked against Project Gutenberg eBook #16.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/16",
+    "textUrl": "https://www.gutenberg.org/cache/epub/16/pg16.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE HAPPY HOME"
+    },
+    {
+      "id": "s2",
+      "text": "One important result of the brush on the lagoon was that it made the redskins their friends."
+    },
+    {
+      "id": "s3",
+      "text": "Peter had saved Tiger Lily from a dreadful fate, and now there was nothing she and her braves would not do for him."
+    },
+    {
+      "id": "s4",
+      "text": "All night they sat above, keeping watch over the home under the ground and awaiting the big attack by the pirates which obviously could not be much longer delayed."
+    },
+    {
+      "id": "s5",
+      "text": "Even by day they hung about, smoking the pipe of peace, and looking almost as if they wanted tit-bits to eat."
+    },
+    {
+      "id": "s6",
+      "text": "They called Peter the Great White Father, prostrating themselves before him; and he liked this tremendously, so that it was not really good for him."
+    },
+    {
+      "id": "s7",
+      "text": "“The great white father,” he would say to them in a very lordly manner, as they grovelled at his feet, “is glad to see the Piccaninny warriors protecting his wigwam from the pirates.”"
+    },
+    {
+      "id": "s8",
+      "text": "“Me Tiger Lily,” that lovely creature would reply."
+    },
+    {
+      "id": "s9",
+      "text": "“Peter Pan save me, me his velly nice friend."
+    },
+    {
+      "id": "s10",
+      "text": "Me no let pirates hurt him.”"
+    },
+    {
+      "id": "s11",
+      "text": "She was far too pretty to cringe in this way, but Peter thought it his due, and he would answer condescendingly, “It is good."
+    },
+    {
+      "id": "s12",
+      "text": "Peter Pan has spoken.”"
+    },
+    {
+      "id": "s13",
+      "text": "Always when he said, “Peter Pan has spoken,” it meant that they must now shut up, and they accepted it humbly in that spirit; but they were by no means so respectful to the other boys, whom they looked upon as just ordinary braves."
+    },
+    {
+      "id": "s14",
+      "text": "They said “How-do?” to them, and things like that; and what annoyed the boys was that Peter seemed to think this all right."
+    },
+    {
+      "id": "s15",
+      "text": "Secretly Wendy sympathised with them a little, but she was far too loyal a housewife to listen to any complaints against father."
+    },
+    {
+      "id": "s16",
+      "text": "“Father knows best,” she always said, whatever her private opinion must be."
+    },
+    {
+      "id": "s17",
+      "text": "Her private opinion was that the redskins should not call her a squaw."
+    },
+    {
+      "id": "s18",
+      "text": "We have now reached the evening that was to be known among them as the Night of Nights, because of its adventures and their upshot."
+    },
+    {
+      "id": "s19",
+      "text": "The day, as if quietly gathering its forces, had been almost uneventful, and now the redskins in their blankets were at their posts above, while, below, the children were having their evening meal; all except Peter, who had gone out to get the time."
+    },
+    {
+      "id": "s20",
+      "text": "The way you got the time on the island was to find the crocodile, and then stay near him till the clock struck."
+    },
+    {
+      "id": "s21",
+      "text": "The meal happened to be a make-believe tea, and they sat around the board, guzzling in their greed; and really, what with their chatter and recriminations, the noise, as Wendy said, was positively deafening."
+    },
+    {
+      "id": "s22",
+      "text": "To be sure, she did not mind noise, but she simply would not have them grabbing things, and then excusing themselves by saying that Tootles had pushed their elbow."
+    },
+    {
+      "id": "s23",
+      "text": "There was a fixed rule that they must never hit back at meals, but should refer the matter of dispute to Wendy by raising the right arm politely and saying, “I complain of so-and-so;” but what usually happened was that they forgot to do this or did it too much."
+    },
+    {
+      "id": "s24",
+      "text": "“Silence,” cried Wendy when for the twentieth time she had told them that they were not all to speak at once."
+    },
+    {
+      "id": "s25",
+      "text": "“Is your mug empty, Slightly darling?”"
+    },
+    {
+      "id": "s26",
+      "text": "“Not quite empty, mummy,” Slightly said, after looking into an imaginary mug."
+    },
+    {
+      "id": "s27",
+      "text": "“He hasn’t even begun to drink his milk,” Nibs interposed."
+    },
+    {
+      "id": "s28",
+      "text": "This was telling, and Slightly seized his chance."
+    },
+    {
+      "id": "s29",
+      "text": "“I complain of Nibs,” he cried promptly."
+    },
+    {
+      "id": "s30",
+      "text": "John, however, had held up his hand first."
+    },
+    {
+      "id": "s31",
+      "text": "“Well, John?”"
+    },
+    {
+      "id": "s32",
+      "text": "“May I sit in Peter’s chair, as he is not here?”"
+    },
+    {
+      "id": "s33",
+      "text": "“Sit in father’s chair, John!” Wendy was scandalised."
+    },
+    {
+      "id": "s34",
+      "text": "“Certainly not.”"
+    },
+    {
+      "id": "s35",
+      "text": "“He is not really our father,” John answered."
+    },
+    {
+      "id": "s36",
+      "text": "“He didn’t even know how a father does till I showed him.”"
+    },
+    {
+      "id": "s37",
+      "text": "This was grumbling."
+    },
+    {
+      "id": "s38",
+      "text": "“We complain of John,” cried the twins."
+    },
+    {
+      "id": "s39",
+      "text": "Tootles held up his hand."
+    },
+    {
+      "id": "s40",
+      "text": "He was so much the humblest of them, indeed he was the only humble one, that Wendy was specially gentle with him."
+    },
+    {
+      "id": "s41",
+      "text": "“I don’t suppose,” Tootles said diffidently, “that I could be father.”"
+    },
+    {
+      "id": "s42",
+      "text": "“No, Tootles.”"
+    },
+    {
+      "id": "s43",
+      "text": "Once Tootles began, which was not very often, he had a silly way of going on."
+    },
+    {
+      "id": "s44",
+      "text": "“As I can’t be father,” he said heavily, “I don’t suppose, Michael, you would let me be baby?”"
+    },
+    {
+      "id": "s45",
+      "text": "“No, I won’t,” Michael rapped out."
+    },
+    {
+      "id": "s46",
+      "text": "He was already in his basket."
+    },
+    {
+      "id": "s47",
+      "text": "“As I can’t be baby,” Tootles said, getting heavier and heavier and heavier, “do you think I could be a twin?”"
+    },
+    {
+      "id": "s48",
+      "text": "“No, indeed,” replied the twins; “it’s awfully difficult to be a twin.”"
+    },
+    {
+      "id": "s49",
+      "text": "“As I can’t be anything important,” said Tootles, “would any of you like to see me do a trick?”"
+    },
+    {
+      "id": "s50",
+      "text": "“No,” they all replied."
+    },
+    {
+      "id": "s51",
+      "text": "Then at last he stopped."
+    },
+    {
+      "id": "s52",
+      "text": "“I hadn’t really any hope,” he said."
+    },
+    {
+      "id": "s53",
+      "text": "The hateful telling broke out again."
+    },
+    {
+      "id": "s54",
+      "text": "“Slightly is coughing on the table.”"
+    },
+    {
+      "id": "s55",
+      "text": "“The twins began with cheese-cakes.”"
+    },
+    {
+      "id": "s56",
+      "text": "“Curly is taking both butter and honey.”"
+    },
+    {
+      "id": "s57",
+      "text": "“Nibs is speaking with his mouth full.”"
+    },
+    {
+      "id": "s58",
+      "text": "“I complain of the twins.”"
+    },
+    {
+      "id": "s59",
+      "text": "“I complain of Curly.”"
+    },
+    {
+      "id": "s60",
+      "text": "“I complain of Nibs.”"
+    },
+    {
+      "id": "s61",
+      "text": "“Oh dear, oh dear,” cried Wendy, “I’m sure I sometimes think that spinsters are to be envied.”"
+    },
+    {
+      "id": "s62",
+      "text": "She told them to clear away, and sat down to her work-basket, a heavy load of stockings and every knee with a hole in it as usual."
+    },
+    {
+      "id": "s63",
+      "text": "“Wendy,” remonstrated Michael, “I’m too big for a cradle.”"
+    },
+    {
+      "id": "s64",
+      "text": "“I must have somebody in a cradle,” she said almost tartly, “and you are the littlest."
+    },
+    {
+      "id": "s65",
+      "text": "A cradle is such a nice homely thing to have about a house.”"
+    },
+    {
+      "id": "s66",
+      "text": "While she sewed they played around her; such a group of happy faces and dancing limbs lit up by that romantic fire."
+    },
+    {
+      "id": "s67",
+      "text": "It had become a very familiar scene, this, in the home under the ground, but we are looking on it for the last time."
+    },
+    {
+      "id": "s68",
+      "text": "There was a step above, and Wendy, you may be sure, was the first to recognize it."
+    },
+    {
+      "id": "s69",
+      "text": "“Children, I hear your father’s step."
+    },
+    {
+      "id": "s70",
+      "text": "He likes you to meet him at the door.”"
+    },
+    {
+      "id": "s71",
+      "text": "Above, the redskins crouched before Peter."
+    },
+    {
+      "id": "s72",
+      "text": "“Watch well, braves."
+    },
+    {
+      "id": "s73",
+      "text": "I have spoken.”"
+    },
+    {
+      "id": "s74",
+      "text": "And then, as so often before, the gay children dragged him from his tree."
+    },
+    {
+      "id": "s75",
+      "text": "As so often before, but never again."
+    },
+    {
+      "id": "s76",
+      "text": "He had brought nuts for the boys as well as the correct time for Wendy."
+    },
+    {
+      "id": "s77",
+      "text": "“Peter, you just spoil them, you know,” Wendy simpered."
+    },
+    {
+      "id": "s78",
+      "text": "“Ah, old lady,” said Peter, hanging up his gun."
+    },
+    {
+      "id": "s79",
+      "text": "“It was me told him mothers are called old lady,” Michael whispered to Curly."
+    },
+    {
+      "id": "s80",
+      "text": "“I complain of Michael,” said Curly instantly."
+    },
+    {
+      "id": "s81",
+      "text": "The first twin came to Peter."
+    },
+    {
+      "id": "s82",
+      "text": "“Father, we want to dance.”"
+    },
+    {
+      "id": "s83",
+      "text": "“Dance away, my little man,” said Peter, who was in high good humour."
+    },
+    {
+      "id": "s84",
+      "text": "“But we want you to dance.”"
+    },
+    {
+      "id": "s85",
+      "text": "Peter was really the best dancer among them, but he pretended to be scandalised."
+    },
+    {
+      "id": "s86",
+      "text": "“Me!"
+    },
+    {
+      "id": "s87",
+      "text": "My old bones would rattle!”"
+    },
+    {
+      "id": "s88",
+      "text": "“And mummy too.”"
+    },
+    {
+      "id": "s89",
+      "text": "“What,” cried Wendy, “the mother of such an armful, dance!”"
+    },
+    {
+      "id": "s90",
+      "text": "“But on a Saturday night,” Slightly insinuated."
+    },
+    {
+      "id": "s91",
+      "text": "It was not really Saturday night, at least it may have been, for they had long lost count of the days; but always if they wanted to do anything special they said this was Saturday night, and then they did it."
+    },
+    {
+      "id": "s92",
+      "text": "“Of course it is Saturday night, Peter,” Wendy said, relenting."
+    },
+    {
+      "id": "s93",
+      "text": "“People of our figure, Wendy!”"
+    },
+    {
+      "id": "s94",
+      "text": "“But it is only among our own progeny.”"
+    },
+    {
+      "id": "s95",
+      "text": "“True, true.”"
+    },
+    {
+      "id": "s96",
+      "text": "So they were told they could dance, but they must put on their nighties first."
+    },
+    {
+      "id": "s97",
+      "text": "“Ah, old lady,” Peter said aside to Wendy, warming himself by the fire and looking down at her as she sat turning a heel, “there is nothing more pleasant of an evening for you and me when the day’s toil is over than to rest by the fire with the little ones near by.”"
+    },
+    {
+      "id": "s98",
+      "text": "“It is sweet, Peter, isn’t it?” Wendy said, frightfully gratified."
+    },
+    {
+      "id": "s99",
+      "text": "“Peter, I think Curly has your nose.”"
+    },
+    {
+      "id": "s100",
+      "text": "“Michael takes after you.”"
+    },
+    {
+      "id": "s101",
+      "text": "She went to him and put her hand on his shoulder."
+    },
+    {
+      "id": "s102",
+      "text": "“Dear Peter,” she said, “with such a large family, of course, I have now passed my best, but you don’t want to change me, do you?”"
+    },
+    {
+      "id": "s103",
+      "text": "“No, Wendy.”"
+    },
+    {
+      "id": "s104",
+      "text": "Certainly he did not want a change, but he looked at her uncomfortably, blinking, you know, like one not sure whether he was awake or asleep."
+    },
+    {
+      "id": "s105",
+      "text": "“Peter, what is it?”"
+    },
+    {
+      "id": "s106",
+      "text": "“I was just thinking,” he said, a little scared."
+    },
+    {
+      "id": "s107",
+      "text": "“It is only make-believe, isn’t it, that I am their father?”"
+    },
+    {
+      "id": "s108",
+      "text": "“Oh yes,” Wendy said primly."
+    },
+    {
+      "id": "s109",
+      "text": "“You see,” he continued apologetically, “it would make me seem so old to be their real father.”"
+    },
+    {
+      "id": "s110",
+      "text": "“But they are ours, Peter, yours and mine.”"
+    },
+    {
+      "id": "s111",
+      "text": "“But not really, Wendy?” he asked anxiously."
+    },
+    {
+      "id": "s112",
+      "text": "“Not if you don’t wish it,” she replied; and she distinctly heard his sigh of relief."
+    },
+    {
+      "id": "s113",
+      "text": "“Peter,” she asked, trying to speak firmly, “what are your exact feelings to me?”"
+    },
+    {
+      "id": "s114",
+      "text": "“Those of a devoted son, Wendy.”"
+    },
+    {
+      "id": "s115",
+      "text": "“I thought so,” she said, and went and sat by herself at the extreme end of the room."
+    },
+    {
+      "id": "s116",
+      "text": "“You are so queer,” he said, frankly puzzled, “and Tiger Lily is just the same."
+    },
+    {
+      "id": "s117",
+      "text": "There is something she wants to be to me, but she says it is not my mother.”"
+    },
+    {
+      "id": "s118",
+      "text": "“No, indeed, it is not,” Wendy replied with frightful emphasis."
+    },
+    {
+      "id": "s119",
+      "text": "Now we know why she was prejudiced against the redskins."
+    },
+    {
+      "id": "s120",
+      "text": "“Then what is it?”"
+    },
+    {
+      "id": "s121",
+      "text": "“It isn’t for a lady to tell.”"
+    },
+    {
+      "id": "s122",
+      "text": "“Oh, very well,” Peter said, a little nettled."
+    },
+    {
+      "id": "s123",
+      "text": "“Perhaps Tinker Bell will tell me.”"
+    },
+    {
+      "id": "s124",
+      "text": "“Oh yes, Tinker Bell will tell you,” Wendy retorted scornfully."
+    },
+    {
+      "id": "s125",
+      "text": "“She is an abandoned little creature.”"
+    },
+    {
+      "id": "s126",
+      "text": "Here Tink, who was in her bedroom, eavesdropping, squeaked out something impudent."
+    },
+    {
+      "id": "s127",
+      "text": "“She says she glories in being abandoned,” Peter interpreted."
+    },
+    {
+      "id": "s128",
+      "text": "He had a sudden idea."
+    },
+    {
+      "id": "s129",
+      "text": "“Perhaps Tink wants to be my mother?”"
+    },
+    {
+      "id": "s130",
+      "text": "“You silly ass!” cried Tinker Bell in a passion."
+    },
+    {
+      "id": "s131",
+      "text": "She had said it so often that Wendy needed no translation."
+    },
+    {
+      "id": "s132",
+      "text": "“I almost agree with her,” Wendy snapped."
+    },
+    {
+      "id": "s133",
+      "text": "Fancy Wendy snapping!"
+    },
+    {
+      "id": "s134",
+      "text": "But she had been much tried, and she little knew what was to happen before the night was out."
+    },
+    {
+      "id": "s135",
+      "text": "If she had known she would not have snapped."
+    },
+    {
+      "id": "s136",
+      "text": "None of them knew."
+    },
+    {
+      "id": "s137",
+      "text": "Perhaps it was best not to know."
+    },
+    {
+      "id": "s138",
+      "text": "Their ignorance gave them one more glad hour; and as it was to be their last hour on the island, let us rejoice that there were sixty glad minutes in it."
+    },
+    {
+      "id": "s139",
+      "text": "They sang and danced in their night-gowns."
+    },
+    {
+      "id": "s140",
+      "text": "Such a deliciously creepy song it was, in which they pretended to be frightened at their own shadows, little witting that so soon shadows would close in upon them, from whom they would shrink in real fear."
+    },
+    {
+      "id": "s141",
+      "text": "So uproariously gay was the dance, and how they buffeted each other on the bed and out of it!"
+    },
+    {
+      "id": "s142",
+      "text": "It was a pillow fight rather than a dance, and when it was finished, the pillows insisted on one bout more, like partners who know that they may never meet again."
+    },
+    {
+      "id": "s143",
+      "text": "The stories they told, before it was time for Wendy’s good-night story!"
+    },
+    {
+      "id": "s144",
+      "text": "Even Slightly tried to tell a story that night, but the beginning was so fearfully dull that it appalled not only the others but himself, and he said gloomily:"
+    },
+    {
+      "id": "s145",
+      "text": "“Yes, it is a dull beginning."
+    },
+    {
+      "id": "s146",
+      "text": "I say, let us pretend that it is the end.”"
+    },
+    {
+      "id": "s147",
+      "text": "And then at last they all got into bed for Wendy’s story, the story they loved best, the story Peter hated."
+    },
+    {
+      "id": "s148",
+      "text": "Usually when she began to tell this story he left the room or put his hands over his ears; and possibly if he had done either of those things this time they might all still be on the island."
+    },
+    {
+      "id": "s149",
+      "text": "But to-night he remained on his stool; and we shall see what happened."
+    }
+  ]
+}

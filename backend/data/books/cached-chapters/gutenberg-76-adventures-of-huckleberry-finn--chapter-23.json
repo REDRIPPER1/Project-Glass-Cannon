@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-23",
+  "chapterTitle": "CHAPTER XXIII.",
+  "contentHash": "sha256:0ae98f1fa36c3599762af34224875125282635e2470d7c9708ff6a29ff6bbcee",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER XXIII.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Well, all day him and the king was hard at it, rigging up a stage and a curtain and a row of candles for footlights; and that night the house was jam full of men in no time."
+    },
+    {
+      "id": "s2",
+      "text": "When the place couldn’t hold no more, the duke he quit tending door and went around the back way and come on to the stage and stood up before the curtain and made a little speech, and praised up this tragedy, and said it was the most thrillingest one that ever was; and so he went on a-bragging about the tragedy, and about Edmund Kean the Elder, which was to play the main principal part in it; and at last when he’d got everybody’s expectations up high enough, he rolled up the curtain, and the next minute the king come a-prancing out on all fours, naked; and he was painted all over, ring-streaked-and-striped, all sorts of colors, as splendid as a rainbow."
+    },
+    {
+      "id": "s3",
+      "text": "And—but never mind the rest of his outfit; it was just wild, but it was awful funny."
+    },
+    {
+      "id": "s4",
+      "text": "The people most killed themselves laughing; and when the king got done capering and capered off behind the scenes, they roared and clapped and stormed and haw-hawed till he come back and done it over again, and after that they made him do it another time."
+    },
+    {
+      "id": "s5",
+      "text": "Well, it would make a cow laugh to see the shines that old idiot cut."
+    },
+    {
+      "id": "s6",
+      "text": "Then the duke he lets the curtain down, and bows to the people, and says the great tragedy will be performed only two nights more, on accounts of pressing London engagements, where the seats is all sold already for it in Drury Lane; and then he makes them another bow, and says if he has succeeded in pleasing them and instructing them, he will be deeply obleeged if they will mention it to their friends and get them to come and see it."
+    },
+    {
+      "id": "s7",
+      "text": "Twenty people sings out:"
+    },
+    {
+      "id": "s8",
+      "text": "“What, is it over?"
+    },
+    {
+      "id": "s9",
+      "text": "Is that _all?_”"
+    },
+    {
+      "id": "s10",
+      "text": "The duke says yes."
+    },
+    {
+      "id": "s11",
+      "text": "Then there was a fine time."
+    },
+    {
+      "id": "s12",
+      "text": "Everybody sings out, “Sold!” and rose up mad, and was a-going for that stage and them tragedians."
+    },
+    {
+      "id": "s13",
+      "text": "But a big, fine looking man jumps up on a bench and shouts:"
+    },
+    {
+      "id": "s14",
+      "text": "“Hold on!"
+    },
+    {
+      "id": "s15",
+      "text": "Just a word, gentlemen.” They stopped to listen."
+    },
+    {
+      "id": "s16",
+      "text": "“We are sold—mighty badly sold."
+    },
+    {
+      "id": "s17",
+      "text": "But we don’t want to be the laughing stock of this whole town, I reckon, and never hear the last of this thing as long as we live. _No_."
+    },
+    {
+      "id": "s18",
+      "text": "What we want is to go out of here quiet, and talk this show up, and sell the _rest_ of the town!"
+    },
+    {
+      "id": "s19",
+      "text": "Then we’ll all be in the same boat."
+    },
+    {
+      "id": "s20",
+      "text": "Ain’t that sensible?” (“You bet it is!—the jedge is right!” everybody sings out.) “All right, then—not a word about any sell."
+    },
+    {
+      "id": "s21",
+      "text": "Go along home, and advise everybody to come and see the tragedy.”"
+    },
+    {
+      "id": "s22",
+      "text": "Next day you couldn’t hear nothing around that town but how splendid that show was."
+    },
+    {
+      "id": "s23",
+      "text": "House was jammed again that night, and we sold this crowd the same way."
+    },
+    {
+      "id": "s24",
+      "text": "When me and the king and the duke got home to the raft we all had a supper; and by-and-by, about midnight, they made Jim and me back her out and float her down the middle of the river, and fetch her in and hide her about two mile below town."
+    },
+    {
+      "id": "s25",
+      "text": "The third night the house was crammed again—and they warn’t new-comers this time, but people that was at the show the other two nights."
+    },
+    {
+      "id": "s26",
+      "text": "I stood by the duke at the door, and I see that every man that went in had his pockets bulging, or something muffled up under his coat—and I see it warn’t no perfumery, neither, not by a long sight."
+    },
+    {
+      "id": "s27",
+      "text": "I smelt sickly eggs by the barrel, and rotten cabbages, and such things; and if I know the signs of a dead cat being around, and I bet I do, there was sixty-four of them went in."
+    },
+    {
+      "id": "s28",
+      "text": "I shoved in there for a minute, but it was too various for me; I couldn’t stand it."
+    },
+    {
+      "id": "s29",
+      "text": "Well, when the place couldn’t hold no more people the duke he give a fellow a quarter and told him to tend door for him a minute, and then he started around for the stage door, I after him; but the minute we turned the corner and was in the dark he says:"
+    },
+    {
+      "id": "s30",
+      "text": "“Walk fast now till you get away from the houses, and then shin for the raft like the dickens was after you!”"
+    },
+    {
+      "id": "s31",
+      "text": "I done it, and he done the same."
+    },
+    {
+      "id": "s32",
+      "text": "We struck the raft at the same time, and in less than two seconds we was gliding down stream, all dark and still, and edging towards the middle of the river, nobody saying a word."
+    },
+    {
+      "id": "s33",
+      "text": "I reckoned the poor king was in for a gaudy time of it with the audience, but nothing of the sort; pretty soon he crawls out from under the wigwam, and says:"
+    },
+    {
+      "id": "s34",
+      "text": "“Well, how’d the old thing pan out this time, duke?”"
+    },
+    {
+      "id": "s35",
+      "text": "He hadn’t been up town at all."
+    },
+    {
+      "id": "s36",
+      "text": "We never showed a light till we was about ten mile below the village."
+    },
+    {
+      "id": "s37",
+      "text": "Then we lit up and had a supper, and the king and the duke fairly laughed their bones loose over the way they’d served them people."
+    },
+    {
+      "id": "s38",
+      "text": "The duke says:"
+    },
+    {
+      "id": "s39",
+      "text": "“Greenhorns, flatheads! _I_ knew the first house would keep mum and let the rest of the town get roped in; and I knew they’d lay for us the third night, and consider it was _their_ turn now."
+    },
+    {
+      "id": "s40",
+      "text": "Well, it _is_ their turn, and I’d give something to know how much they’d take for it."
+    },
+    {
+      "id": "s41",
+      "text": "I _would_ just like to know how they’re putting in their opportunity."
+    },
+    {
+      "id": "s42",
+      "text": "They can turn it into a picnic if they want to—they brought plenty provisions.”"
+    },
+    {
+      "id": "s43",
+      "text": "Them rapscallions took in four hundred and sixty-five dollars in that three nights."
+    },
+    {
+      "id": "s44",
+      "text": "I never see money hauled in by the wagon-load like that before."
+    },
+    {
+      "id": "s45",
+      "text": "By-and-by, when they was asleep and snoring, Jim says:"
+    },
+    {
+      "id": "s46",
+      "text": "“Don’t it s’prise you de way dem kings carries on, Huck?”"
+    },
+    {
+      "id": "s47",
+      "text": "“No,” I says, “it don’t.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Why don’t it, Huck?”"
+    },
+    {
+      "id": "s49",
+      "text": "“Well, it don’t, because it’s in the breed."
+    },
+    {
+      "id": "s50",
+      "text": "I reckon they’re all alike.”"
+    },
+    {
+      "id": "s51",
+      "text": "“But, Huck, dese kings o’ ourn is reglar rapscallions; dat’s jist what dey is; dey’s reglar rapscallions.”"
+    },
+    {
+      "id": "s52",
+      "text": "“Well, that’s what I’m a-saying; all kings is mostly rapscallions, as fur as I can make out.”"
+    },
+    {
+      "id": "s53",
+      "text": "“Is dat so?”"
+    },
+    {
+      "id": "s54",
+      "text": "“You read about them once—you’ll see."
+    },
+    {
+      "id": "s55",
+      "text": "Look at Henry the Eight; this’n ’s a Sunday-school Superintendent to _him_."
+    },
+    {
+      "id": "s56",
+      "text": "And look at Charles Second, and Louis Fourteen, and Louis Fifteen, and James Second, and Edward Second, and Richard Third, and forty more; besides all them Saxon heptarchies that used to rip around so in old times and raise Cain."
+    },
+    {
+      "id": "s57",
+      "text": "My, you ought to seen old Henry the Eight when he was in bloom."
+    },
+    {
+      "id": "s58",
+      "text": "He _was_ a blossom."
+    },
+    {
+      "id": "s59",
+      "text": "He used to marry a new wife every day, and chop off her head next morning."
+    },
+    {
+      "id": "s60",
+      "text": "And he would do it just as indifferent as if he was ordering up eggs. ‘Fetch up Nell Gwynn,’ he says."
+    },
+    {
+      "id": "s61",
+      "text": "They fetch her up."
+    },
+    {
+      "id": "s62",
+      "text": "Next morning, ‘Chop off her head!’ And they chop it off. ‘Fetch up Jane Shore,’ he says; and up she comes."
+    },
+    {
+      "id": "s63",
+      "text": "Next morning, ‘Chop off her head’—and they chop it off. ‘Ring up Fair Rosamun.’ Fair Rosamun answers the bell."
+    },
+    {
+      "id": "s64",
+      "text": "Next morning, ‘Chop off her head.’ And he made every one of them tell him a tale every night; and he kept that up till he had hogged a thousand and one tales that way, and then he put them all in a book, and called it Domesday Book—which was a good name and stated the case."
+    },
+    {
+      "id": "s65",
+      "text": "You don’t know kings, Jim, but I know them; and this old rip of ourn is one of the cleanest I’ve struck in history."
+    },
+    {
+      "id": "s66",
+      "text": "Well, Henry he takes a notion he wants to get up some trouble with this country."
+    },
+    {
+      "id": "s67",
+      "text": "How does he go at it—give notice?—give the country a show?"
+    },
+    {
+      "id": "s68",
+      "text": "No."
+    },
+    {
+      "id": "s69",
+      "text": "All of a sudden he heaves all the tea in Boston Harbor overboard, and whacks out a declaration of independence, and dares them to come on."
+    },
+    {
+      "id": "s70",
+      "text": "That was _his_ style—he never give anybody a chance."
+    },
+    {
+      "id": "s71",
+      "text": "He had suspicions of his father, the Duke of Wellington."
+    },
+    {
+      "id": "s72",
+      "text": "Well, what did he do?"
+    },
+    {
+      "id": "s73",
+      "text": "Ask him to show up?"
+    },
+    {
+      "id": "s74",
+      "text": "No—drownded him in a butt of mamsey, like a cat."
+    },
+    {
+      "id": "s75",
+      "text": "S’pose people left money laying around where he was—what did he do?"
+    },
+    {
+      "id": "s76",
+      "text": "He collared it."
+    },
+    {
+      "id": "s77",
+      "text": "S’pose he contracted to do a thing, and you paid him, and didn’t set down there and see that he done it—what did he do?"
+    },
+    {
+      "id": "s78",
+      "text": "He always done the other thing."
+    },
+    {
+      "id": "s79",
+      "text": "S’pose he opened his mouth—what then?"
+    },
+    {
+      "id": "s80",
+      "text": "If he didn’t shut it up powerful quick he’d lose a lie every time."
+    },
+    {
+      "id": "s81",
+      "text": "That’s the kind of a bug Henry was; and if we’d a had him along ’stead of our kings he’d a fooled that town a heap worse than ourn done."
+    },
+    {
+      "id": "s82",
+      "text": "I don’t say that ourn is lambs, because they ain’t, when you come right down to the cold facts; but they ain’t nothing to _that_ old ram, anyway."
+    },
+    {
+      "id": "s83",
+      "text": "All I say is, kings is kings, and you got to make allowances."
+    },
+    {
+      "id": "s84",
+      "text": "Take them all around, they’re a mighty ornery lot."
+    },
+    {
+      "id": "s85",
+      "text": "It’s the way they’re raised.”"
+    },
+    {
+      "id": "s86",
+      "text": "“But dis one do _smell_ so like de nation, Huck.”"
+    },
+    {
+      "id": "s87",
+      "text": "“Well, they all do, Jim. _We_ can’t help the way a king smells; history don’t tell no way.”"
+    },
+    {
+      "id": "s88",
+      "text": "“Now de duke, he’s a tolerble likely man in some ways.”"
+    },
+    {
+      "id": "s89",
+      "text": "“Yes, a duke’s different."
+    },
+    {
+      "id": "s90",
+      "text": "But not very different."
+    },
+    {
+      "id": "s91",
+      "text": "This one’s a middling hard lot for a duke."
+    },
+    {
+      "id": "s92",
+      "text": "When he’s drunk, there ain’t no near-sighted man could tell him from a king.”"
+    },
+    {
+      "id": "s93",
+      "text": "“Well, anyways, I doan’ hanker for no mo’ un um, Huck."
+    },
+    {
+      "id": "s94",
+      "text": "Dese is all I kin stan’.”"
+    },
+    {
+      "id": "s95",
+      "text": "“It’s the way I feel, too, Jim."
+    },
+    {
+      "id": "s96",
+      "text": "But we’ve got them on our hands, and we got to remember what they are, and make allowances."
+    },
+    {
+      "id": "s97",
+      "text": "Sometimes I wish we could hear of a country that’s out of kings.”"
+    },
+    {
+      "id": "s98",
+      "text": "What was the use to tell Jim these warn’t real kings and dukes?"
+    },
+    {
+      "id": "s99",
+      "text": "It wouldn’t a done no good; and, besides, it was just as I said: you couldn’t tell them from the real kind."
+    },
+    {
+      "id": "s100",
+      "text": "I went to sleep, and Jim didn’t call me when it was my turn."
+    },
+    {
+      "id": "s101",
+      "text": "He often done that."
+    },
+    {
+      "id": "s102",
+      "text": "When I waked up just at daybreak, he was sitting there with his head down betwixt his knees, moaning and mourning to himself."
+    },
+    {
+      "id": "s103",
+      "text": "I didn’t take notice nor let on."
+    },
+    {
+      "id": "s104",
+      "text": "I knowed what it was about."
+    },
+    {
+      "id": "s105",
+      "text": "He was thinking about his wife and his children, away up yonder, and he was low and homesick; because he hadn’t ever been away from home before in his life; and I do believe he cared just as much for his people as white folks does for their’n."
+    },
+    {
+      "id": "s106",
+      "text": "It don’t seem natural, but I reckon it’s so."
+    },
+    {
+      "id": "s107",
+      "text": "He was often moaning and mourning that way nights, when he judged I was asleep, and saying, “Po’ little ’Lizabeth! po’ little Johnny! it’s mighty hard; I spec’ I ain’t ever gwyne to see you no mo’, no mo’!” He was a mighty good nigger, Jim was."
+    },
+    {
+      "id": "s108",
+      "text": "But this time I somehow got to talking to him about his wife and young ones; and by-and-by he says:"
+    },
+    {
+      "id": "s109",
+      "text": "“What makes me feel so bad dis time ’uz bekase I hear sumpn over yonder on de bank like a whack, er a slam, while ago, en it mine me er de time I treat my little ’Lizabeth so ornery."
+    },
+    {
+      "id": "s110",
+      "text": "She warn’t on’y ’bout fo’ year ole, en she tuck de sk’yarlet fever, en had a powful rough spell; but she got well, en one day she was a-stannin’ aroun’, en I says to her, I says:"
+    },
+    {
+      "id": "s111",
+      "text": "“‘Shet de do’.’"
+    },
+    {
+      "id": "s112",
+      "text": "“She never done it; jis’ stood dah, kiner smilin’ up at me."
+    },
+    {
+      "id": "s113",
+      "text": "It make me mad; en I says agin, mighty loud, I says:"
+    },
+    {
+      "id": "s114",
+      "text": "“‘Doan’ you hear me?—shet de do’!’"
+    },
+    {
+      "id": "s115",
+      "text": "“She jis stood de same way, kiner smilin’ up."
+    },
+    {
+      "id": "s116",
+      "text": "I was a-bilin’!"
+    },
+    {
+      "id": "s117",
+      "text": "I says:"
+    },
+    {
+      "id": "s118",
+      "text": "“‘I lay I _make_ you mine!’"
+    },
+    {
+      "id": "s119",
+      "text": "“En wid dat I fetch’ her a slap side de head dat sont her a-sprawlin’."
+    },
+    {
+      "id": "s120",
+      "text": "Den I went into de yuther room, en ’uz gone ’bout ten minutes; en when I come back dah was dat do’ a-stannin’ open _yit_, en dat chile stannin’ mos’ right in it, a-lookin’ down and mournin’, en de tears runnin’ down."
+    },
+    {
+      "id": "s121",
+      "text": "My, but I _wuz_ mad!"
+    },
+    {
+      "id": "s122",
+      "text": "I was a-gwyne for de chile, but jis’ den—it was a do’ dat open innerds—jis’ den, ’long come de wind en slam it to, behine de chile, ker-_blam!_—en my lan’, de chile never move’!"
+    },
+    {
+      "id": "s123",
+      "text": "My breff mos’ hop outer me; en I feel so—so—I doan’ know _how_ I feel."
+    },
+    {
+      "id": "s124",
+      "text": "I crope out, all a-tremblin’, en crope aroun’ en open de do’ easy en slow, en poke my head in behine de chile, sof’ en still, en all uv a sudden I says _pow!_ jis’ as loud as I could yell. _She never budge!_ Oh, Huck, I bust out a-cryin’ en grab her up in my arms, en say, ‘Oh, de po’ little thing!"
+    },
+    {
+      "id": "s125",
+      "text": "De Lord God Amighty fogive po’ ole Jim, kaze he never gwyne to fogive hisself as long’s he live!’ Oh, she was plumb deef en dumb, Huck, plumb deef en dumb—en I’d ben a-treat’n her so!”"
+    }
+  ]
+}

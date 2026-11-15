@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-31",
+  "chapterTitle": "CHAPTER XXXI.",
+  "contentHash": "sha256:1a1964be776b0d00c04e786fa37792004186e92104d3780c4fb7ae5a49e51b0c",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XXXI.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH FIX, THE DETECTIVE, CONSIDERABLY FURTHERS THE INTERESTS OF PHILEAS FOGG"
+    },
+    {
+      "id": "s2",
+      "text": "Phileas Fogg found himself twenty hours behind time."
+    },
+    {
+      "id": "s3",
+      "text": "Passepartout, the involuntary cause of this delay, was desperate."
+    },
+    {
+      "id": "s4",
+      "text": "He had ruined his master!"
+    },
+    {
+      "id": "s5",
+      "text": "At this moment the detective approached Mr."
+    },
+    {
+      "id": "s6",
+      "text": "Fogg, and, looking him intently in the face, said:"
+    },
+    {
+      "id": "s7",
+      "text": "“Seriously, sir, are you in great haste?”"
+    },
+    {
+      "id": "s8",
+      "text": "“Quite seriously.”"
+    },
+    {
+      "id": "s9",
+      "text": "“I have a purpose in asking,” resumed Fix."
+    },
+    {
+      "id": "s10",
+      "text": "“Is it absolutely necessary that you should be in New York on the 11th, before nine o’clock in the evening, the time that the steamer leaves for Liverpool?”"
+    },
+    {
+      "id": "s11",
+      "text": "“It is absolutely necessary.”"
+    },
+    {
+      "id": "s12",
+      "text": "“And, if your journey had not been interrupted by these Indians, you would have reached New York on the morning of the 11th?”"
+    },
+    {
+      "id": "s13",
+      "text": "“Yes; with eleven hours to spare before the steamer left.”"
+    },
+    {
+      "id": "s14",
+      "text": "“Good! you are therefore twenty hours behind."
+    },
+    {
+      "id": "s15",
+      "text": "Twelve from twenty leaves eight."
+    },
+    {
+      "id": "s16",
+      "text": "You must regain eight hours."
+    },
+    {
+      "id": "s17",
+      "text": "Do you wish to try to do so?”"
+    },
+    {
+      "id": "s18",
+      "text": "“On foot?” asked Mr."
+    },
+    {
+      "id": "s19",
+      "text": "Fogg."
+    },
+    {
+      "id": "s20",
+      "text": "“No; on a sledge,” replied Fix."
+    },
+    {
+      "id": "s21",
+      "text": "“On a sledge with sails."
+    },
+    {
+      "id": "s22",
+      "text": "A man has proposed such a method to me.”"
+    },
+    {
+      "id": "s23",
+      "text": "It was the man who had spoken to Fix during the night, and whose offer he had refused."
+    },
+    {
+      "id": "s24",
+      "text": "Phileas Fogg did not reply at once; but Fix, having pointed out the man, who was walking up and down in front of the station, Mr."
+    },
+    {
+      "id": "s25",
+      "text": "Fogg went up to him."
+    },
+    {
+      "id": "s26",
+      "text": "An instant after, Mr."
+    },
+    {
+      "id": "s27",
+      "text": "Fogg and the American, whose name was Mudge, entered a hut built just below the fort."
+    },
+    {
+      "id": "s28",
+      "text": "There Mr."
+    },
+    {
+      "id": "s29",
+      "text": "Fogg examined a curious vehicle, a kind of frame on two long beams, a little raised in front like the runners of a sledge, and upon which there was room for five or six persons."
+    },
+    {
+      "id": "s30",
+      "text": "A high mast was fixed on the frame, held firmly by metallic lashings, to which was attached a large brigantine sail."
+    },
+    {
+      "id": "s31",
+      "text": "This mast held an iron stay upon which to hoist a jib-sail."
+    },
+    {
+      "id": "s32",
+      "text": "Behind, a sort of rudder served to guide the vehicle."
+    },
+    {
+      "id": "s33",
+      "text": "It was, in short, a sledge rigged like a sloop."
+    },
+    {
+      "id": "s34",
+      "text": "During the winter, when the trains are blocked up by the snow, these sledges make extremely rapid journeys across the frozen plains from one station to another."
+    },
+    {
+      "id": "s35",
+      "text": "Provided with more sails than a cutter, and with the wind behind them, they slip over the surface of the prairies with a speed equal if not superior to that of the express trains."
+    },
+    {
+      "id": "s36",
+      "text": "Mr."
+    },
+    {
+      "id": "s37",
+      "text": "Fogg readily made a bargain with the owner of this land-craft."
+    },
+    {
+      "id": "s38",
+      "text": "The wind was favourable, being fresh, and blowing from the west."
+    },
+    {
+      "id": "s39",
+      "text": "The snow had hardened, and Mudge was very confident of being able to transport Mr."
+    },
+    {
+      "id": "s40",
+      "text": "Fogg in a few hours to Omaha."
+    },
+    {
+      "id": "s41",
+      "text": "Thence the trains eastward run frequently to Chicago and New York."
+    },
+    {
+      "id": "s42",
+      "text": "It was not impossible that the lost time might yet be recovered; and such an opportunity was not to be rejected."
+    },
+    {
+      "id": "s43",
+      "text": "Not wishing to expose Aouda to the discomforts of travelling in the open air, Mr."
+    },
+    {
+      "id": "s44",
+      "text": "Fogg proposed to leave her with Passepartout at Fort Kearney, the servant taking upon himself to escort her to Europe by a better route and under more favourable conditions."
+    },
+    {
+      "id": "s45",
+      "text": "But Aouda refused to separate from Mr."
+    },
+    {
+      "id": "s46",
+      "text": "Fogg, and Passepartout was delighted with her decision; for nothing could induce him to leave his master while Fix was with him."
+    },
+    {
+      "id": "s47",
+      "text": "It would be difficult to guess the detective’s thoughts."
+    },
+    {
+      "id": "s48",
+      "text": "Was this conviction shaken by Phileas Fogg’s return, or did he still regard him as an exceedingly shrewd rascal, who, his journey round the world completed, would think himself absolutely safe in England?"
+    },
+    {
+      "id": "s49",
+      "text": "Perhaps Fix’s opinion of Phileas Fogg was somewhat modified; but he was nevertheless resolved to do his duty, and to hasten the return of the whole party to England as much as possible."
+    },
+    {
+      "id": "s50",
+      "text": "At eight o’clock the sledge was ready to start."
+    },
+    {
+      "id": "s51",
+      "text": "The passengers took their places on it, and wrapped themselves up closely in their travelling-cloaks."
+    },
+    {
+      "id": "s52",
+      "text": "The two great sails were hoisted, and under the pressure of the wind the sledge slid over the hardened snow with a velocity of forty miles an hour."
+    },
+    {
+      "id": "s53",
+      "text": "The distance between Fort Kearney and Omaha, as the birds fly, is at most two hundred miles."
+    },
+    {
+      "id": "s54",
+      "text": "If the wind held good, the distance might be traversed in five hours; if no accident happened the sledge might reach Omaha by one o’clock."
+    },
+    {
+      "id": "s55",
+      "text": "What a journey!"
+    },
+    {
+      "id": "s56",
+      "text": "The travellers, huddled close together, could not speak for the cold, intensified by the rapidity at which they were going."
+    },
+    {
+      "id": "s57",
+      "text": "The sledge sped on as lightly as a boat over the waves."
+    },
+    {
+      "id": "s58",
+      "text": "When the breeze came skimming the earth the sledge seemed to be lifted off the ground by its sails."
+    },
+    {
+      "id": "s59",
+      "text": "Mudge, who was at the rudder, kept in a straight line, and by a turn of his hand checked the lurches which the vehicle had a tendency to make."
+    },
+    {
+      "id": "s60",
+      "text": "All the sails were up, and the jib was so arranged as not to screen the brigantine."
+    },
+    {
+      "id": "s61",
+      "text": "A top-mast was hoisted, and another jib, held out to the wind, added its force to the other sails."
+    },
+    {
+      "id": "s62",
+      "text": "Although the speed could not be exactly estimated, the sledge could not be going at less than forty miles an hour."
+    },
+    {
+      "id": "s63",
+      "text": "“If nothing breaks,” said Mudge, “we shall get there!”"
+    },
+    {
+      "id": "s64",
+      "text": "Mr."
+    },
+    {
+      "id": "s65",
+      "text": "Fogg had made it for Mudge’s interest to reach Omaha within the time agreed on, by the offer of a handsome reward."
+    },
+    {
+      "id": "s66",
+      "text": "The prairie, across which the sledge was moving in a straight line, was as flat as a sea."
+    },
+    {
+      "id": "s67",
+      "text": "It seemed like a vast frozen lake."
+    },
+    {
+      "id": "s68",
+      "text": "The railroad which ran through this section ascended from the south-west to the north-west by Great Island, Columbus, an important Nebraska town, Schuyler, and Fremont, to Omaha."
+    },
+    {
+      "id": "s69",
+      "text": "It followed throughout the right bank of the Platte River."
+    },
+    {
+      "id": "s70",
+      "text": "The sledge, shortening this route, took a chord of the arc described by the railway."
+    },
+    {
+      "id": "s71",
+      "text": "Mudge was not afraid of being stopped by the Platte River, because it was frozen."
+    },
+    {
+      "id": "s72",
+      "text": "The road, then, was quite clear of obstacles, and Phileas Fogg had but two things to fear—an accident to the sledge, and a change or calm in the wind."
+    },
+    {
+      "id": "s73",
+      "text": "But the breeze, far from lessening its force, blew as if to bend the mast, which, however, the metallic lashings held firmly."
+    },
+    {
+      "id": "s74",
+      "text": "These lashings, like the chords of a stringed instrument, resounded as if vibrated by a violin bow."
+    },
+    {
+      "id": "s75",
+      "text": "The sledge slid along in the midst of a plaintively intense melody."
+    },
+    {
+      "id": "s76",
+      "text": "“Those chords give the fifth and the octave,” said Mr."
+    },
+    {
+      "id": "s77",
+      "text": "Fogg."
+    },
+    {
+      "id": "s78",
+      "text": "These were the only words he uttered during the journey."
+    },
+    {
+      "id": "s79",
+      "text": "Aouda, cosily packed in furs and cloaks, was sheltered as much as possible from the attacks of the freezing wind."
+    },
+    {
+      "id": "s80",
+      "text": "As for Passepartout, his face was as red as the sun’s disc when it sets in the mist, and he laboriously inhaled the biting air."
+    },
+    {
+      "id": "s81",
+      "text": "With his natural buoyancy of spirits, he began to hope again."
+    },
+    {
+      "id": "s82",
+      "text": "They would reach New York on the evening, if not on the morning, of the 11th, and there were still some chances that it would be before the steamer sailed for Liverpool."
+    },
+    {
+      "id": "s83",
+      "text": "Passepartout even felt a strong desire to grasp his ally, Fix, by the hand."
+    },
+    {
+      "id": "s84",
+      "text": "He remembered that it was the detective who procured the sledge, the only means of reaching Omaha in time; but, checked by some presentiment, he kept his usual reserve."
+    },
+    {
+      "id": "s85",
+      "text": "One thing, however, Passepartout would never forget, and that was the sacrifice which Mr."
+    },
+    {
+      "id": "s86",
+      "text": "Fogg had made, without hesitation, to rescue him from the Sioux."
+    },
+    {
+      "id": "s87",
+      "text": "Mr."
+    },
+    {
+      "id": "s88",
+      "text": "Fogg had risked his fortune and his life."
+    },
+    {
+      "id": "s89",
+      "text": "No!"
+    },
+    {
+      "id": "s90",
+      "text": "His servant would never forget that!"
+    },
+    {
+      "id": "s91",
+      "text": "While each of the party was absorbed in reflections so different, the sledge flew past over the vast carpet of snow."
+    },
+    {
+      "id": "s92",
+      "text": "The creeks it passed over were not perceived."
+    },
+    {
+      "id": "s93",
+      "text": "Fields and streams disappeared under the uniform whiteness."
+    },
+    {
+      "id": "s94",
+      "text": "The plain was absolutely deserted."
+    },
+    {
+      "id": "s95",
+      "text": "Between the Union Pacific road and the branch which unites Kearney with Saint Joseph it formed a great uninhabited island."
+    },
+    {
+      "id": "s96",
+      "text": "Neither village, station, nor fort appeared."
+    },
+    {
+      "id": "s97",
+      "text": "From time to time they sped by some phantom-like tree, whose white skeleton twisted and rattled in the wind."
+    },
+    {
+      "id": "s98",
+      "text": "Sometimes flocks of wild birds rose, or bands of gaunt, famished, ferocious prairie-wolves ran howling after the sledge."
+    },
+    {
+      "id": "s99",
+      "text": "Passepartout, revolver in hand, held himself ready to fire on those which came too near."
+    },
+    {
+      "id": "s100",
+      "text": "Had an accident then happened to the sledge, the travellers, attacked by these beasts, would have been in the most terrible danger; but it held on its even course, soon gained on the wolves, and ere long left the howling band at a safe distance behind."
+    },
+    {
+      "id": "s101",
+      "text": "About noon Mudge perceived by certain landmarks that he was crossing the Platte River."
+    },
+    {
+      "id": "s102",
+      "text": "He said nothing, but he felt certain that he was now within twenty miles of Omaha."
+    },
+    {
+      "id": "s103",
+      "text": "In less than an hour he left the rudder and furled his sails, whilst the sledge, carried forward by the great impetus the wind had given it, went on half a mile further with its sails unspread."
+    },
+    {
+      "id": "s104",
+      "text": "It stopped at last, and Mudge, pointing to a mass of roofs white with snow, said: “We have got there!”"
+    },
+    {
+      "id": "s105",
+      "text": "Arrived!"
+    },
+    {
+      "id": "s106",
+      "text": "Arrived at the station which is in daily communication, by numerous trains, with the Atlantic seaboard!"
+    },
+    {
+      "id": "s107",
+      "text": "Passepartout and Fix jumped off, stretched their stiffened limbs, and aided Mr."
+    },
+    {
+      "id": "s108",
+      "text": "Fogg and the young woman to descend from the sledge."
+    },
+    {
+      "id": "s109",
+      "text": "Phileas Fogg generously rewarded Mudge, whose hand Passepartout warmly grasped, and the party directed their steps to the Omaha railway station."
+    },
+    {
+      "id": "s110",
+      "text": "The Pacific Railroad proper finds its terminus at this important Nebraska town."
+    },
+    {
+      "id": "s111",
+      "text": "Omaha is connected with Chicago by the Chicago and Rock Island Railroad, which runs directly east, and passes fifty stations."
+    },
+    {
+      "id": "s112",
+      "text": "A train was ready to start when Mr."
+    },
+    {
+      "id": "s113",
+      "text": "Fogg and his party reached the station, and they only had time to get into the cars."
+    },
+    {
+      "id": "s114",
+      "text": "They had seen nothing of Omaha; but Passepartout confessed to himself that this was not to be regretted, as they were not travelling to see the sights."
+    },
+    {
+      "id": "s115",
+      "text": "The train passed rapidly across the State of Iowa, by Council Bluffs, Des Moines, and Iowa City."
+    },
+    {
+      "id": "s116",
+      "text": "During the night it crossed the Mississippi at Davenport, and by Rock Island entered Illinois."
+    },
+    {
+      "id": "s117",
+      "text": "The next day, which was the 10th, at four o’clock in the evening, it reached Chicago, already risen from its ruins, and more proudly seated than ever on the borders of its beautiful Lake Michigan."
+    },
+    {
+      "id": "s118",
+      "text": "Nine hundred miles separated Chicago from New York; but trains are not wanting at Chicago."
+    },
+    {
+      "id": "s119",
+      "text": "Mr."
+    },
+    {
+      "id": "s120",
+      "text": "Fogg passed at once from one to the other, and the locomotive of the Pittsburgh, Fort Wayne, and Chicago Railway left at full speed, as if it fully comprehended that that gentleman had no time to lose."
+    },
+    {
+      "id": "s121",
+      "text": "It traversed Indiana, Ohio, Pennsylvania, and New Jersey like a flash, rushing through towns with antique names, some of which had streets and car-tracks, but as yet no houses."
+    },
+    {
+      "id": "s122",
+      "text": "At last the Hudson came into view; and, at a quarter-past eleven in the evening of the 11th, the train stopped in the station on the right bank of the river, before the very pier of the Cunard line."
+    },
+    {
+      "id": "s123",
+      "text": "The “China,” for Liverpool, had started three-quarters of an hour before!"
+    }
+  ]
+}

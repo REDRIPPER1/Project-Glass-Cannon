@@ -1,0 +1,757 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-12-through-the-looking-glass",
+  "ebookId": "12",
+  "edition": "Project Gutenberg eBook #12; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-7",
+  "chapterTitle": "CHAPTER VII.",
+  "contentHash": "sha256:e1902ef5c7d6f332d393455851cc001fff742f4598bb4b7fdfb31c36612875ab",
+  "attribution": "Carroll, Lewis, 1832-1898, Through the Looking-Glass, CHAPTER VII.. Source checked against Project Gutenberg eBook #12.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/12",
+    "textUrl": "https://www.gutenberg.org/cache/epub/12/pg12.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The Lion and the Unicorn"
+    },
+    {
+      "id": "s2",
+      "text": "The next moment soldiers came running through the wood, at first in twos and threes, then ten or twenty together, and at last in such crowds that they seemed to fill the whole forest."
+    },
+    {
+      "id": "s3",
+      "text": "Alice got behind a tree, for fear of being run over, and watched them go by."
+    },
+    {
+      "id": "s4",
+      "text": "She thought that in all her life she had never seen soldiers so uncertain on their feet: they were always tripping over something or other, and whenever one went down, several more always fell over him, so that the ground was soon covered with little heaps of men."
+    },
+    {
+      "id": "s5",
+      "text": "Then came the horses."
+    },
+    {
+      "id": "s6",
+      "text": "Having four feet, these managed rather better than the foot-soldiers: but even _they_ stumbled now and then; and it seemed to be a regular rule that, whenever a horse stumbled the rider fell off instantly."
+    },
+    {
+      "id": "s7",
+      "text": "The confusion got worse every moment, and Alice was very glad to get out of the wood into an open place, where she found the White King seated on the ground, busily writing in his memorandum-book."
+    },
+    {
+      "id": "s8",
+      "text": "“I’ve sent them all!” the King cried in a tone of delight, on seeing Alice."
+    },
+    {
+      "id": "s9",
+      "text": "“Did you happen to meet any soldiers, my dear, as you came through the wood?”"
+    },
+    {
+      "id": "s10",
+      "text": "“Yes, I did,” said Alice: “several thousand, I should think.”"
+    },
+    {
+      "id": "s11",
+      "text": "“Four thousand two hundred and seven, that’s the exact number,” the King said, referring to his book."
+    },
+    {
+      "id": "s12",
+      "text": "“I couldn’t send all the horses, you know, because two of them are wanted in the game."
+    },
+    {
+      "id": "s13",
+      "text": "And I haven’t sent the two Messengers, either."
+    },
+    {
+      "id": "s14",
+      "text": "They’re both gone to the town."
+    },
+    {
+      "id": "s15",
+      "text": "Just look along the road, and tell me if you can see either of them.”"
+    },
+    {
+      "id": "s16",
+      "text": "“I see nobody on the road,” said Alice."
+    },
+    {
+      "id": "s17",
+      "text": "“I only wish _I_ had such eyes,” the King remarked in a fretful tone."
+    },
+    {
+      "id": "s18",
+      "text": "“To be able to see Nobody!"
+    },
+    {
+      "id": "s19",
+      "text": "And at that distance, too!"
+    },
+    {
+      "id": "s20",
+      "text": "Why, it’s as much as _I_ can do to see real people, by this light!”"
+    },
+    {
+      "id": "s21",
+      "text": "All this was lost on Alice, who was still looking intently along the road, shading her eyes with one hand."
+    },
+    {
+      "id": "s22",
+      "text": "“I see somebody now!” she exclaimed at last."
+    },
+    {
+      "id": "s23",
+      "text": "“But he’s coming very slowly—and what curious attitudes he goes into!” (For the messenger kept skipping up and down, and wriggling like an eel, as he came along, with his great hands spread out like fans on each side.)"
+    },
+    {
+      "id": "s24",
+      "text": "“Not at all,” said the King."
+    },
+    {
+      "id": "s25",
+      "text": "“He’s an Anglo-Saxon Messenger—and those are Anglo-Saxon attitudes."
+    },
+    {
+      "id": "s26",
+      "text": "He only does them when he’s happy."
+    },
+    {
+      "id": "s27",
+      "text": "His name is Haigha.” (He pronounced it so as to rhyme with “mayor.”)"
+    },
+    {
+      "id": "s28",
+      "text": "“I love my love with an H,” Alice couldn’t help beginning, “because he is Happy."
+    },
+    {
+      "id": "s29",
+      "text": "I hate him with an H, because he is Hideous."
+    },
+    {
+      "id": "s30",
+      "text": "I fed him with—with—with Ham-sandwiches and Hay."
+    },
+    {
+      "id": "s31",
+      "text": "His name is Haigha, and he lives—”"
+    },
+    {
+      "id": "s32",
+      "text": "“He lives on the Hill,” the King remarked simply, without the least idea that he was joining in the game, while Alice was still hesitating for the name of a town beginning with H."
+    },
+    {
+      "id": "s33",
+      "text": "“The other Messenger’s called Hatta."
+    },
+    {
+      "id": "s34",
+      "text": "I must have _two_, you know—to come and go."
+    },
+    {
+      "id": "s35",
+      "text": "One to come, and one to go.”"
+    },
+    {
+      "id": "s36",
+      "text": "“I beg your pardon?” said Alice."
+    },
+    {
+      "id": "s37",
+      "text": "“It isn’t respectable to beg,” said the King."
+    },
+    {
+      "id": "s38",
+      "text": "“I only meant that I didn’t understand,” said Alice."
+    },
+    {
+      "id": "s39",
+      "text": "“Why one to come and one to go?”"
+    },
+    {
+      "id": "s40",
+      "text": "“Didn’t I tell you?” the King repeated impatiently."
+    },
+    {
+      "id": "s41",
+      "text": "“I must have _two_—to fetch and carry."
+    },
+    {
+      "id": "s42",
+      "text": "One to fetch, and one to carry.”"
+    },
+    {
+      "id": "s43",
+      "text": "At this moment the Messenger arrived: he was far too much out of breath to say a word, and could only wave his hands about, and make the most fearful faces at the poor King."
+    },
+    {
+      "id": "s44",
+      "text": "“This young lady loves you with an H,” the King said, introducing Alice in the hope of turning off the Messenger’s attention from himself—but it was no use—the Anglo-Saxon attitudes only got more extraordinary every moment, while the great eyes rolled wildly from side to side."
+    },
+    {
+      "id": "s45",
+      "text": "“You alarm me!” said the King."
+    },
+    {
+      "id": "s46",
+      "text": "“I feel faint—Give me a ham sandwich!”"
+    },
+    {
+      "id": "s47",
+      "text": "On which the Messenger, to Alice’s great amusement, opened a bag that hung round his neck, and handed a sandwich to the King, who devoured it greedily."
+    },
+    {
+      "id": "s48",
+      "text": "“Another sandwich!” said the King."
+    },
+    {
+      "id": "s49",
+      "text": "“There’s nothing but hay left now,” the Messenger said, peeping into the bag."
+    },
+    {
+      "id": "s50",
+      "text": "“Hay, then,” the King murmured in a faint whisper."
+    },
+    {
+      "id": "s51",
+      "text": "Alice was glad to see that it revived him a good deal."
+    },
+    {
+      "id": "s52",
+      "text": "“There’s nothing like eating hay when you’re faint,” he remarked to her, as he munched away."
+    },
+    {
+      "id": "s53",
+      "text": "“I should think throwing cold water over you would be better,” Alice suggested: “or some sal-volatile.”"
+    },
+    {
+      "id": "s54",
+      "text": "“I didn’t say there was nothing _better_,” the King replied."
+    },
+    {
+      "id": "s55",
+      "text": "“I said there was nothing _like_ it.” Which Alice did not venture to deny."
+    },
+    {
+      "id": "s56",
+      "text": "“Who did you pass on the road?” the King went on, holding out his hand to the Messenger for some more hay."
+    },
+    {
+      "id": "s57",
+      "text": "“Nobody,” said the Messenger."
+    },
+    {
+      "id": "s58",
+      "text": "“Quite right,” said the King: “this young lady saw him too."
+    },
+    {
+      "id": "s59",
+      "text": "So of course Nobody walks slower than you.”"
+    },
+    {
+      "id": "s60",
+      "text": "“I do my best,” the Messenger said in a sulky tone."
+    },
+    {
+      "id": "s61",
+      "text": "“I’m sure nobody walks much faster than I do!”"
+    },
+    {
+      "id": "s62",
+      "text": "“He can’t do that,” said the King, “or else he’d have been here first."
+    },
+    {
+      "id": "s63",
+      "text": "However, now you’ve got your breath, you may tell us what’s happened in the town.”"
+    },
+    {
+      "id": "s64",
+      "text": "“I’ll whisper it,” said the Messenger, putting his hands to his mouth in the shape of a trumpet, and stooping so as to get close to the King’s ear."
+    },
+    {
+      "id": "s65",
+      "text": "Alice was sorry for this, as she wanted to hear the news too."
+    },
+    {
+      "id": "s66",
+      "text": "However, instead of whispering, he simply shouted at the top of his voice “They’re at it again!”"
+    },
+    {
+      "id": "s67",
+      "text": "“Do you call _that_ a whisper?” cried the poor King, jumping up and shaking himself."
+    },
+    {
+      "id": "s68",
+      "text": "“If you do such a thing again, I’ll have you buttered!"
+    },
+    {
+      "id": "s69",
+      "text": "It went through and through my head like an earthquake!”"
+    },
+    {
+      "id": "s70",
+      "text": "“It would have to be a very tiny earthquake!” thought Alice."
+    },
+    {
+      "id": "s71",
+      "text": "“Who are at it again?” she ventured to ask."
+    },
+    {
+      "id": "s72",
+      "text": "“Why the Lion and the Unicorn, of course,” said the King."
+    },
+    {
+      "id": "s73",
+      "text": "“Fighting for the crown?”"
+    },
+    {
+      "id": "s74",
+      "text": "“Yes, to be sure,” said the King: “and the best of the joke is, that it’s _my_ crown all the while!"
+    },
+    {
+      "id": "s75",
+      "text": "Let’s run and see them.” And they trotted off, Alice repeating to herself, as she ran, the words of the old song:—"
+    },
+    {
+      "id": "s76",
+      "text": "“The Lion and the Unicorn were fighting for the crown: The Lion beat the Unicorn all round the town."
+    },
+    {
+      "id": "s77",
+      "text": "Some gave them white bread, some gave them brown; Some gave them plum-cake and drummed them out of town.”"
+    },
+    {
+      "id": "s78",
+      "text": "“Does—the one—that wins—get the crown?” she asked, as well as she could, for the run was putting her quite out of breath."
+    },
+    {
+      "id": "s79",
+      "text": "“Dear me, no!” said the King."
+    },
+    {
+      "id": "s80",
+      "text": "“What an idea!”"
+    },
+    {
+      "id": "s81",
+      "text": "“Would you—be good enough,” Alice panted out, after running a little further, “to stop a minute—just to get—one’s breath again?”"
+    },
+    {
+      "id": "s82",
+      "text": "“I’m _good_ enough,” the King said, “only I’m not strong enough."
+    },
+    {
+      "id": "s83",
+      "text": "You see, a minute goes by so fearfully quick."
+    },
+    {
+      "id": "s84",
+      "text": "You might as well try to stop a Bandersnatch!”"
+    },
+    {
+      "id": "s85",
+      "text": "Alice had no more breath for talking, so they trotted on in silence, till they came in sight of a great crowd, in the middle of which the Lion and Unicorn were fighting."
+    },
+    {
+      "id": "s86",
+      "text": "They were in such a cloud of dust, that at first Alice could not make out which was which: but she soon managed to distinguish the Unicorn by his horn."
+    },
+    {
+      "id": "s87",
+      "text": "They placed themselves close to where Hatta, the other messenger, was standing watching the fight, with a cup of tea in one hand and a piece of bread-and-butter in the other."
+    },
+    {
+      "id": "s88",
+      "text": "“He’s only just out of prison, and he hadn’t finished his tea when he was sent in,” Haigha whispered to Alice: “and they only give them oyster-shells in there—so you see he’s very hungry and thirsty."
+    },
+    {
+      "id": "s89",
+      "text": "How are you, dear child?” he went on, putting his arm affectionately round Hatta’s neck."
+    },
+    {
+      "id": "s90",
+      "text": "Hatta looked round and nodded, and went on with his bread and butter."
+    },
+    {
+      "id": "s91",
+      "text": "“Were you happy in prison, dear child?” said Haigha."
+    },
+    {
+      "id": "s92",
+      "text": "Hatta looked round once more, and this time a tear or two trickled down his cheek: but not a word would he say."
+    },
+    {
+      "id": "s93",
+      "text": "“Speak, can’t you!” Haigha cried impatiently."
+    },
+    {
+      "id": "s94",
+      "text": "But Hatta only munched away, and drank some more tea."
+    },
+    {
+      "id": "s95",
+      "text": "“Speak, won’t you!” cried the King."
+    },
+    {
+      "id": "s96",
+      "text": "“How are they getting on with the fight?”"
+    },
+    {
+      "id": "s97",
+      "text": "Hatta made a desperate effort, and swallowed a large piece of bread-and-butter."
+    },
+    {
+      "id": "s98",
+      "text": "“They’re getting on very well,” he said in a choking voice: “each of them has been down about eighty-seven times.”"
+    },
+    {
+      "id": "s99",
+      "text": "“Then I suppose they’ll soon bring the white bread and the brown?” Alice ventured to remark."
+    },
+    {
+      "id": "s100",
+      "text": "“It’s waiting for ’em now,” said Hatta: “this is a bit of it as I’m eating.”"
+    },
+    {
+      "id": "s101",
+      "text": "There was a pause in the fight just then, and the Lion and the Unicorn sat down, panting, while the King called out “Ten minutes allowed for refreshments!” Haigha and Hatta set to work at once, carrying rough trays of white and brown bread."
+    },
+    {
+      "id": "s102",
+      "text": "Alice took a piece to taste, but it was _very_ dry."
+    },
+    {
+      "id": "s103",
+      "text": "“I don’t think they’ll fight any more to-day,” the King said to Hatta: “go and order the drums to begin.” And Hatta went bounding away like a grasshopper."
+    },
+    {
+      "id": "s104",
+      "text": "For a minute or two Alice stood silent, watching him."
+    },
+    {
+      "id": "s105",
+      "text": "Suddenly she brightened up."
+    },
+    {
+      "id": "s106",
+      "text": "“Look, look!” she cried, pointing eagerly."
+    },
+    {
+      "id": "s107",
+      "text": "“There’s the White Queen running across the country!"
+    },
+    {
+      "id": "s108",
+      "text": "She came flying out of the wood over yonder—How fast those Queens _can_ run!”"
+    },
+    {
+      "id": "s109",
+      "text": "“There’s some enemy after her, no doubt,” the King said, without even looking round."
+    },
+    {
+      "id": "s110",
+      "text": "“That wood’s full of them.”"
+    },
+    {
+      "id": "s111",
+      "text": "“But aren’t you going to run and help her?” Alice asked, very much surprised at his taking it so quietly."
+    },
+    {
+      "id": "s112",
+      "text": "“No use, no use!” said the King."
+    },
+    {
+      "id": "s113",
+      "text": "“She runs so fearfully quick."
+    },
+    {
+      "id": "s114",
+      "text": "You might as well try to catch a Bandersnatch!"
+    },
+    {
+      "id": "s115",
+      "text": "But I’ll make a memorandum about her, if you like—She’s a dear good creature,” he repeated softly to himself, as he opened his memorandum-book."
+    },
+    {
+      "id": "s116",
+      "text": "“Do you spell ‘creature’ with a double ‘e’?”"
+    },
+    {
+      "id": "s117",
+      "text": "At this moment the Unicorn sauntered by them, with his hands in his pockets."
+    },
+    {
+      "id": "s118",
+      "text": "“I had the best of it this time?” he said to the King, just glancing at him as he passed."
+    },
+    {
+      "id": "s119",
+      "text": "“A little—a little,” the King replied, rather nervously."
+    },
+    {
+      "id": "s120",
+      "text": "“You shouldn’t have run him through with your horn, you know.”"
+    },
+    {
+      "id": "s121",
+      "text": "“It didn’t hurt him,” the Unicorn said carelessly, and he was going on, when his eye happened to fall upon Alice: he turned round rather instantly, and stood for some time looking at her with an air of the deepest disgust."
+    },
+    {
+      "id": "s122",
+      "text": "“What—is—this?” he said at last."
+    },
+    {
+      "id": "s123",
+      "text": "“This is a child!” Haigha replied eagerly, coming in front of Alice to introduce her, and spreading out both his hands towards her in an Anglo-Saxon attitude."
+    },
+    {
+      "id": "s124",
+      "text": "“We only found it to-day."
+    },
+    {
+      "id": "s125",
+      "text": "It’s as large as life, and twice as natural!”"
+    },
+    {
+      "id": "s126",
+      "text": "“I always thought they were fabulous monsters!” said the Unicorn."
+    },
+    {
+      "id": "s127",
+      "text": "“Is it alive?”"
+    },
+    {
+      "id": "s128",
+      "text": "“It can talk,” said Haigha, solemnly."
+    },
+    {
+      "id": "s129",
+      "text": "The Unicorn looked dreamily at Alice, and said “Talk, child.”"
+    },
+    {
+      "id": "s130",
+      "text": "Alice could not help her lips curling up into a smile as she began: “Do you know, I always thought Unicorns were fabulous monsters, too!"
+    },
+    {
+      "id": "s131",
+      "text": "I never saw one alive before!”"
+    },
+    {
+      "id": "s132",
+      "text": "“Well, now that we _have_ seen each other,” said the Unicorn, “if you’ll believe in me, I’ll believe in you."
+    },
+    {
+      "id": "s133",
+      "text": "Is that a bargain?”"
+    },
+    {
+      "id": "s134",
+      "text": "“Yes, if you like,” said Alice."
+    },
+    {
+      "id": "s135",
+      "text": "“Come, fetch out the plum-cake, old man!” the Unicorn went on, turning from her to the King."
+    },
+    {
+      "id": "s136",
+      "text": "“None of your brown bread for me!”"
+    },
+    {
+      "id": "s137",
+      "text": "“Certainly—certainly!” the King muttered, and beckoned to Haigha."
+    },
+    {
+      "id": "s138",
+      "text": "“Open the bag!” he whispered."
+    },
+    {
+      "id": "s139",
+      "text": "“Quick!"
+    },
+    {
+      "id": "s140",
+      "text": "Not that one—that’s full of hay!”"
+    },
+    {
+      "id": "s141",
+      "text": "Haigha took a large cake out of the bag, and gave it to Alice to hold, while he got out a dish and carving-knife."
+    },
+    {
+      "id": "s142",
+      "text": "How they all came out of it Alice couldn’t guess."
+    },
+    {
+      "id": "s143",
+      "text": "It was just like a conjuring-trick, she thought."
+    },
+    {
+      "id": "s144",
+      "text": "The Lion had joined them while this was going on: he looked very tired and sleepy, and his eyes were half shut."
+    },
+    {
+      "id": "s145",
+      "text": "“What’s this!” he said, blinking lazily at Alice, and speaking in a deep hollow tone that sounded like the tolling of a great bell."
+    },
+    {
+      "id": "s146",
+      "text": "“Ah, what _is_ it, now?” the Unicorn cried eagerly."
+    },
+    {
+      "id": "s147",
+      "text": "“You’ll never guess! _I_ couldn’t.”"
+    },
+    {
+      "id": "s148",
+      "text": "The Lion looked at Alice wearily."
+    },
+    {
+      "id": "s149",
+      "text": "“Are you animal—vegetable—or mineral?” he said, yawning at every other word."
+    },
+    {
+      "id": "s150",
+      "text": "“It’s a fabulous monster!” the Unicorn cried out, before Alice could reply."
+    },
+    {
+      "id": "s151",
+      "text": "“Then hand round the plum-cake, Monster,” the Lion said, lying down and putting his chin on his paws."
+    },
+    {
+      "id": "s152",
+      "text": "“And sit down, both of you,” (to the King and the Unicorn): “fair play with the cake, you know!”"
+    },
+    {
+      "id": "s153",
+      "text": "The King was evidently very uncomfortable at having to sit down between the two great creatures; but there was no other place for him."
+    },
+    {
+      "id": "s154",
+      "text": "“What a fight we might have for the crown, _now_!” the Unicorn said, looking slyly up at the crown, which the poor King was nearly shaking off his head, he trembled so much."
+    },
+    {
+      "id": "s155",
+      "text": "“I should win easy,” said the Lion."
+    },
+    {
+      "id": "s156",
+      "text": "“I’m not so sure of that,” said the Unicorn."
+    },
+    {
+      "id": "s157",
+      "text": "“Why, I beat you all round the town, you chicken!” the Lion replied angrily, half getting up as he spoke."
+    },
+    {
+      "id": "s158",
+      "text": "Here the King interrupted, to prevent the quarrel going on: he was very nervous, and his voice quite quivered."
+    },
+    {
+      "id": "s159",
+      "text": "“All round the town?” he said."
+    },
+    {
+      "id": "s160",
+      "text": "“That’s a good long way."
+    },
+    {
+      "id": "s161",
+      "text": "Did you go by the old bridge, or the market-place?"
+    },
+    {
+      "id": "s162",
+      "text": "You get the best view by the old bridge.”"
+    },
+    {
+      "id": "s163",
+      "text": "“I’m sure I don’t know,” the Lion growled out as he lay down again."
+    },
+    {
+      "id": "s164",
+      "text": "“There was too much dust to see anything."
+    },
+    {
+      "id": "s165",
+      "text": "What a time the Monster is, cutting up that cake!”"
+    },
+    {
+      "id": "s166",
+      "text": "Alice had seated herself on the bank of a little brook, with the great dish on her knees, and was sawing away diligently with the knife."
+    },
+    {
+      "id": "s167",
+      "text": "“It’s very provoking!” she said, in reply to the Lion (she was getting quite used to being called “the Monster”)."
+    },
+    {
+      "id": "s168",
+      "text": "“I’ve cut several slices already, but they always join on again!”"
+    },
+    {
+      "id": "s169",
+      "text": "“You don’t know how to manage Looking-glass cakes,” the Unicorn remarked."
+    },
+    {
+      "id": "s170",
+      "text": "“Hand it round first, and cut it afterwards.”"
+    },
+    {
+      "id": "s171",
+      "text": "This sounded nonsense, but Alice very obediently got up, and carried the dish round, and the cake divided itself into three pieces as she did so."
+    },
+    {
+      "id": "s172",
+      "text": "“_Now_ cut it up,” said the Lion, as she returned to her place with the empty dish."
+    },
+    {
+      "id": "s173",
+      "text": "“I say, this isn’t fair!” cried the Unicorn, as Alice sat with the knife in her hand, very much puzzled how to begin."
+    },
+    {
+      "id": "s174",
+      "text": "“The Monster has given the Lion twice as much as me!”"
+    },
+    {
+      "id": "s175",
+      "text": "“She’s kept none for herself, anyhow,” said the Lion."
+    },
+    {
+      "id": "s176",
+      "text": "“Do you like plum-cake, Monster?”"
+    },
+    {
+      "id": "s177",
+      "text": "But before Alice could answer him, the drums began."
+    },
+    {
+      "id": "s178",
+      "text": "Where the noise came from, she couldn’t make out: the air seemed full of it, and it rang through and through her head till she felt quite deafened."
+    },
+    {
+      "id": "s179",
+      "text": "She started to her feet and sprang across the little brook in her terror,"
+    },
+    {
+      "id": "s180",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s181",
+      "text": "* * * * * *"
+    },
+    {
+      "id": "s182",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s183",
+      "text": "and had just time to see the Lion and the Unicorn rise to their feet, with angry looks at being interrupted in their feast, before she dropped to her knees, and put her hands over her ears, vainly trying to shut out the dreadful uproar."
+    },
+    {
+      "id": "s184",
+      "text": "“If _that_ doesn’t ‘drum them out of town,’” she thought to herself, “nothing ever will!”"
+    }
+  ]
+}

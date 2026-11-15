@@ -1,0 +1,681 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-15",
+  "chapterTitle": "Part 2 — CHAPTER XV.",
+  "contentHash": "sha256:d4ae598d728c4f3c9f79a1c721181d32e39ac00fe6ae0efd07f440720c5edb1a",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, Part 2 — CHAPTER XV.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "HYPERBOLA OR PARABOLA"
+    },
+    {
+      "id": "s2",
+      "text": "We may, perhaps, be astonished to find Barbicane and his companions so little occupied with the future reserved for them in their metal prison which was bearing them through the infinity of space."
+    },
+    {
+      "id": "s3",
+      "text": "Instead of asking where they were going, they passed their time making experiments, as if they had been quietly installed in their own study."
+    },
+    {
+      "id": "s4",
+      "text": "We might answer that men so strong-minded were above such anxieties—that they did not trouble themselves about such trifles—and that they had something else to do than to occupy their minds with the future."
+    },
+    {
+      "id": "s5",
+      "text": "The truth was that they were not masters of their projectile; they could neither check its course, nor alter its direction."
+    },
+    {
+      "id": "s6",
+      "text": "A sailor can change the head of his ship as he pleases; an aeronaut can give a vertical motion to his balloon."
+    },
+    {
+      "id": "s7",
+      "text": "They, on the contrary, had no power over their vehicle."
+    },
+    {
+      "id": "s8",
+      "text": "Every maneuver was forbidden."
+    },
+    {
+      "id": "s9",
+      "text": "Hence the inclination to let things alone, or as the sailors say, “let her run.”"
+    },
+    {
+      "id": "s10",
+      "text": "Where did they find themselves at this moment, at eight o’clock in the morning of the day called upon the earth the 6th of December?"
+    },
+    {
+      "id": "s11",
+      "text": "Very certainly in the neighborhood of the moon, and even near enough for her to look to them like an enormous black screen upon the firmament."
+    },
+    {
+      "id": "s12",
+      "text": "As to the distance which separated them, it was impossible to estimate it."
+    },
+    {
+      "id": "s13",
+      "text": "The projectile, held by some unaccountable force, had been within four miles of grazing the satellite’s north pole."
+    },
+    {
+      "id": "s14",
+      "text": "But since entering the cone of shadow these last two hours, had the distance increased or diminished?"
+    },
+    {
+      "id": "s15",
+      "text": "Every point of mark was wanting by which to estimate both the direction and the speed of the projectile."
+    },
+    {
+      "id": "s16",
+      "text": "Perhaps it was rapidly leaving the disc, so that it would soon quit the pure shadow."
+    },
+    {
+      "id": "s17",
+      "text": "Perhaps, again, on the other hand, it might be nearing it so much that in a short time it might strike some high point on the invisible hemisphere, which would doubtlessly have ended the journey much to the detriment of the travelers."
+    },
+    {
+      "id": "s18",
+      "text": "A discussion arose on this subject, and Michel Ardan, always ready with an explanation, gave it as his opinion that the projectile, held by the lunar attraction, would end by falling on the surface of the terrestrial globe like an aerolite."
+    },
+    {
+      "id": "s19",
+      "text": "“First of all, my friend,” answered Barbicane, “every aerolite does not fall to the earth; it is only a small proportion which do so; and if we had passed into an aerolite, it does not necessarily follow that we should ever reach the surface of the moon.”"
+    },
+    {
+      "id": "s20",
+      "text": "“But how if we get near enough?” replied Michel."
+    },
+    {
+      "id": "s21",
+      "text": "“Pure mistake,” replied Barbicane."
+    },
+    {
+      "id": "s22",
+      "text": "“Have you not seen shooting stars rush through the sky by thousands at certain seasons?”"
+    },
+    {
+      "id": "s23",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s24",
+      "text": "“Well, these stars, or rather corpuscles, only shine when they are heated by gliding over the atmospheric layers."
+    },
+    {
+      "id": "s25",
+      "text": "Now, if they enter the atmosphere, they pass at least within forty miles of the earth, but they seldom fall upon it."
+    },
+    {
+      "id": "s26",
+      "text": "The same with our projectile."
+    },
+    {
+      "id": "s27",
+      "text": "It may approach very near to the moon, and not yet fall upon it.”"
+    },
+    {
+      "id": "s28",
+      "text": "“But then,” asked Michel, “I shall be curious to know how our erring vehicle will act in space?”"
+    },
+    {
+      "id": "s29",
+      "text": "“I see but two hypotheses,” replied Barbicane, after some moments’ reflection."
+    },
+    {
+      "id": "s30",
+      "text": "“What are they?”"
+    },
+    {
+      "id": "s31",
+      "text": "“The projectile has the choice between two mathematical curves, and it will follow one or the other according to the speed with which it is animated, and which at this moment I cannot estimate.”"
+    },
+    {
+      "id": "s32",
+      "text": "“Yes,” said Nicholl, “it will follow either a parabola or a hyperbola.”"
+    },
+    {
+      "id": "s33",
+      "text": "“Just so,” replied Barbicane."
+    },
+    {
+      "id": "s34",
+      "text": "“With a certain speed it will assume the parabola, and with a greater the hyperbola.”"
+    },
+    {
+      "id": "s35",
+      "text": "“I like those grand words,” exclaimed Michel Ardan; “one knows directly what they mean."
+    },
+    {
+      "id": "s36",
+      "text": "And pray what is your parabola, if you please?”"
+    },
+    {
+      "id": "s37",
+      "text": "“My friend,” answered the captain, “the parabola is a curve of the second order, the result of the section of a cone intersected by a plane parallel to one of the sides.”"
+    },
+    {
+      "id": "s38",
+      "text": "“Ah! ah!” said Michel, in a satisfied tone."
+    },
+    {
+      "id": "s39",
+      "text": "“It is very nearly,” continued Nicholl, “the course described by a bomb launched from a mortar.”"
+    },
+    {
+      "id": "s40",
+      "text": "“Perfect!"
+    },
+    {
+      "id": "s41",
+      "text": "And the hyperbola?”"
+    },
+    {
+      "id": "s42",
+      "text": "“The hyperbola, Michel, is a curve of the second order, produced by the intersection of a conic surface and a plane parallel to its axis, and constitutes two branches separated one from the other, both tending indefinitely in the two directions.”"
+    },
+    {
+      "id": "s43",
+      "text": "“Is it possible!” exclaimed Michel Ardan in a serious tone, as if they had told him of some serious event."
+    },
+    {
+      "id": "s44",
+      "text": "“What I particularly like in your definition of the hyperbola (I was going to say hyperblague) is that it is still more obscure than the word you pretend to define.”"
+    },
+    {
+      "id": "s45",
+      "text": "Nicholl and Barbicane cared little for Michel Ardan’s fun."
+    },
+    {
+      "id": "s46",
+      "text": "They were deep in a scientific discussion."
+    },
+    {
+      "id": "s47",
+      "text": "What curve would the projectile follow? was their hobby."
+    },
+    {
+      "id": "s48",
+      "text": "One maintained the hyperbola, the other the parabola."
+    },
+    {
+      "id": "s49",
+      "text": "They gave each other reasons bristling with _x_."
+    },
+    {
+      "id": "s50",
+      "text": "Their arguments were couched in language which made Michel jump."
+    },
+    {
+      "id": "s51",
+      "text": "The discussion was hot, and neither would give up his chosen curve to his adversary."
+    },
+    {
+      "id": "s52",
+      "text": "This scientific dispute lasted so long that it made Michel very impatient."
+    },
+    {
+      "id": "s53",
+      "text": "“Now, gentlemen cosines, will you cease to throw parabolas and hyperbolas at each other’s heads?"
+    },
+    {
+      "id": "s54",
+      "text": "I want to understand the only interesting question in the whole affair."
+    },
+    {
+      "id": "s55",
+      "text": "We shall follow one or the other of these curves?"
+    },
+    {
+      "id": "s56",
+      "text": "Good."
+    },
+    {
+      "id": "s57",
+      "text": "But where will they lead us to?”"
+    },
+    {
+      "id": "s58",
+      "text": "“Nowhere,” replied Nicholl."
+    },
+    {
+      "id": "s59",
+      "text": "“How, nowhere?”"
+    },
+    {
+      "id": "s60",
+      "text": "“Evidently,” said Barbicane, “they are open curves, which may be prolonged indefinitely.”"
+    },
+    {
+      "id": "s61",
+      "text": "“Ah, savants!” cried Michel; “and what are either the one or the other to us from the moment we know that they equally lead us into infinite space?”"
+    },
+    {
+      "id": "s62",
+      "text": "Barbicane and Nicholl could not forbear smiling."
+    },
+    {
+      "id": "s63",
+      "text": "They had just been creating “art for art’s sake.” Never had so idle a question been raised at such an inopportune moment."
+    },
+    {
+      "id": "s64",
+      "text": "The sinister truth remained that, whether hyperbolically or parabolically borne away, the projectile would never again meet either the earth or the moon."
+    },
+    {
+      "id": "s65",
+      "text": "What would become of these bold travelers in the immediate future?"
+    },
+    {
+      "id": "s66",
+      "text": "If they did not die of hunger, if they did not die of thirst, in some days, when the gas failed, they would die from want of air, unless the cold had killed them first."
+    },
+    {
+      "id": "s67",
+      "text": "Still, important as it was to economize the gas, the excessive lowness of the surrounding temperature obliged them to consume a certain quantity."
+    },
+    {
+      "id": "s68",
+      "text": "Strictly speaking, they could do without its _light_, but not without its _heat_."
+    },
+    {
+      "id": "s69",
+      "text": "Fortunately the caloric generated by Reiset’s and Regnaut’s apparatus raised the temperature of the interior of the projectile a little, and without much expenditure they were able to keep it bearable."
+    },
+    {
+      "id": "s70",
+      "text": "But observations had now become very difficult. the dampness of the projectile was condensed on the windows and congealed immediately."
+    },
+    {
+      "id": "s71",
+      "text": "This cloudiness had to be dispersed continually."
+    },
+    {
+      "id": "s72",
+      "text": "In any case they might hope to be able to discover some phenomena of the highest interest."
+    },
+    {
+      "id": "s73",
+      "text": "But up to this time the disc remained dumb and dark."
+    },
+    {
+      "id": "s74",
+      "text": "It did not answer the multiplicity of questions put by these ardent minds; a matter which drew this reflection from Michel, apparently a just one:"
+    },
+    {
+      "id": "s75",
+      "text": "“If ever we begin this journey over again, we shall do well to choose the time when the moon is at the full.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Certainly,” said Nicholl, “that circumstance will be more favorable."
+    },
+    {
+      "id": "s77",
+      "text": "I allow that the moon, immersed in the sun’s rays, will not be visible during the transit, but instead we should see the earth, which would be full."
+    },
+    {
+      "id": "s78",
+      "text": "And what is more, if we were drawn round the moon, as at this moment, we should at least have the advantage of seeing the invisible part of her disc magnificently lit.”"
+    },
+    {
+      "id": "s79",
+      "text": "“Well said, Nicholl,” replied Michel Ardan."
+    },
+    {
+      "id": "s80",
+      "text": "“What do you think, Barbicane?”"
+    },
+    {
+      "id": "s81",
+      "text": "“I think this,” answered the grave president: “If ever we begin this journey again, we shall start at the same time and under the same conditions."
+    },
+    {
+      "id": "s82",
+      "text": "Suppose we had attained our end, would it not have been better to have found continents in broad daylight than a country plunged in utter darkness?"
+    },
+    {
+      "id": "s83",
+      "text": "Would not our first installation have been made under better circumstances?"
+    },
+    {
+      "id": "s84",
+      "text": "Yes, evidently."
+    },
+    {
+      "id": "s85",
+      "text": "As to the invisible side, we could have visited it in our exploring expeditions on the lunar globe."
+    },
+    {
+      "id": "s86",
+      "text": "So that the time of the full moon was well chosen."
+    },
+    {
+      "id": "s87",
+      "text": "But we ought to have arrived at the end; and in order to have so arrived, we ought to have suffered no deviation on the road.”"
+    },
+    {
+      "id": "s88",
+      "text": "“I have nothing to say to that,” answered Michel Ardan."
+    },
+    {
+      "id": "s89",
+      "text": "“Here is, however, a good opportunity lost of observing the other side of the moon.”"
+    },
+    {
+      "id": "s90",
+      "text": "But the projectile was now describing in the shadow that incalculable course which no sight-mark would allow them to ascertain."
+    },
+    {
+      "id": "s91",
+      "text": "Had its direction been altered, either by the influence of the lunar attraction, or by the action of some unknown star?"
+    },
+    {
+      "id": "s92",
+      "text": "Barbicane could not say."
+    },
+    {
+      "id": "s93",
+      "text": "But a change had taken place in the relative position of the vehicle; and Barbicane verified it about four in the morning."
+    },
+    {
+      "id": "s94",
+      "text": "The change consisted in this, that the base of the projectile had turned toward the moon’s surface, and was so held by a perpendicular passing through its axis."
+    },
+    {
+      "id": "s95",
+      "text": "The attraction, that is to say the weight, had brought about this alteration."
+    },
+    {
+      "id": "s96",
+      "text": "The heaviest part of the projectile inclined toward the invisible disc as if it would fall upon it."
+    },
+    {
+      "id": "s97",
+      "text": "Was it falling?"
+    },
+    {
+      "id": "s98",
+      "text": "Were the travelers attaining that much desired end?"
+    },
+    {
+      "id": "s99",
+      "text": "No."
+    },
+    {
+      "id": "s100",
+      "text": "And the observation of a sign-point, quite inexplicable in itself, showed Barbicane that his projectile was not nearing the moon, and that it had shifted by following an almost concentric curve."
+    },
+    {
+      "id": "s101",
+      "text": "This point of mark was a luminous brightness, which Nicholl sighted suddenly, on the limit of the horizon formed by the black disc."
+    },
+    {
+      "id": "s102",
+      "text": "This point could not be confounded with a star."
+    },
+    {
+      "id": "s103",
+      "text": "It was a reddish incandescence which increased by degrees, a decided proof that the projectile was shifting toward it and not falling normally on the surface of the moon."
+    },
+    {
+      "id": "s104",
+      "text": "“A volcano! it is a volcano in action!” cried Nicholl; “a disemboweling of the interior fires of the moon!"
+    },
+    {
+      "id": "s105",
+      "text": "That world is not quite extinguished.”"
+    },
+    {
+      "id": "s106",
+      "text": "“Yes, an eruption,” replied Barbicane, who was carefully studying the phenomenon through his night glass."
+    },
+    {
+      "id": "s107",
+      "text": "“What should it be, if not a volcano?”"
+    },
+    {
+      "id": "s108",
+      "text": "“But, then,” said Michel Ardan, “in order to maintain that combustion, there must be air."
+    },
+    {
+      "id": "s109",
+      "text": "So the atmosphere does surround that part of the moon.”"
+    },
+    {
+      "id": "s110",
+      "text": "“Perhaps so,” replied Barbicane, “but not necessarily."
+    },
+    {
+      "id": "s111",
+      "text": "The volcano, by the decomposition of certain substances, can provide its own oxygen, and thus throw flames into space."
+    },
+    {
+      "id": "s112",
+      "text": "It seems to me that the deflagration, by the intense brilliancy of the substances in combustion, is produced in pure oxygen."
+    },
+    {
+      "id": "s113",
+      "text": "We must not be in a hurry to proclaim the existence of a lunar atmosphere.”"
+    },
+    {
+      "id": "s114",
+      "text": "The fiery mountain must have been situated about the 45° south latitude on the invisible part of the disc; but, to Barbicane’s great displeasure, the curve which the projectile was describing was taking it far from the point indicated by the eruption."
+    },
+    {
+      "id": "s115",
+      "text": "Thus he could not determine its nature exactly."
+    },
+    {
+      "id": "s116",
+      "text": "Half an hour after being sighted, this luminous point had disappeared behind the dark horizon; but the verification of this phenomenon was of considerable consequence in their selenographic studies."
+    },
+    {
+      "id": "s117",
+      "text": "It proved that all heat had not yet disappeared from the bowels of this globe; and where heat exists, who can affirm that the vegetable kingdom, nay, even the animal kingdom itself, has not up to this time resisted all destructive influences?"
+    },
+    {
+      "id": "s118",
+      "text": "The existence of this volcano in eruption, unmistakably seen by these earthly savants, would doubtless give rise to many theories favorable to the grave question of the habitability of the moon."
+    },
+    {
+      "id": "s119",
+      "text": "Barbicane allowed himself to be carried away by these reflections."
+    },
+    {
+      "id": "s120",
+      "text": "He forgot himself in a deep reverie in which the mysterious destiny of the lunar world was uppermost."
+    },
+    {
+      "id": "s121",
+      "text": "He was seeking to combine together the facts observed up to that time, when a new incident recalled him briskly to reality."
+    },
+    {
+      "id": "s122",
+      "text": "This incident was more than a cosmical phenomenon; it was a threatened danger, the consequence of which might be disastrous in the extreme."
+    },
+    {
+      "id": "s123",
+      "text": "Suddenly, in the midst of the ether, in the profound darkness, an enormous mass appeared."
+    },
+    {
+      "id": "s124",
+      "text": "It was like a moon, but an incandescent moon whose brilliancy was all the more intolerable as it cut sharply on the frightful darkness of space."
+    },
+    {
+      "id": "s125",
+      "text": "This mass, of a circular form, threw a light which filled the projectile."
+    },
+    {
+      "id": "s126",
+      "text": "The forms of Barbicane, Nicholl, and Michel Ardan, bathed in its white sheets, assumed that livid spectral appearance which physicians produce with the fictitious light of alcohol impregnated with salt."
+    },
+    {
+      "id": "s127",
+      "text": "“By Jove!” cried Michel Ardan, “we are hideous."
+    },
+    {
+      "id": "s128",
+      "text": "What is that ill-conditioned moon?”"
+    },
+    {
+      "id": "s129",
+      "text": "“A meteor,” replied Barbicane."
+    },
+    {
+      "id": "s130",
+      "text": "“A meteor burning in space?”"
+    },
+    {
+      "id": "s131",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s132",
+      "text": "This shooting globe suddenly appearing in shadow at a distance of at most 200 miles, ought, according to Barbicane, to have a diameter of 2,000 yards."
+    },
+    {
+      "id": "s133",
+      "text": "It advanced at a speed of about one mile and a half per second."
+    },
+    {
+      "id": "s134",
+      "text": "It cut the projectile’s path and must reach it in some minutes."
+    },
+    {
+      "id": "s135",
+      "text": "As it approached it grew to enormous proportions."
+    },
+    {
+      "id": "s136",
+      "text": "Imagine, if possible, the situation of the travelers!"
+    },
+    {
+      "id": "s137",
+      "text": "It is impossible to describe it."
+    },
+    {
+      "id": "s138",
+      "text": "In spite of their courage, their _sang-froid_, their carelessness of danger, they were mute, motionless with stiffened limbs, a prey to frightful terror."
+    },
+    {
+      "id": "s139",
+      "text": "Their projectile, the course of which they could not alter, was rushing straight on this ignited mass, more intense than the open mouth of an oven."
+    },
+    {
+      "id": "s140",
+      "text": "It seemed as though they were being precipitated toward an abyss of fire."
+    },
+    {
+      "id": "s141",
+      "text": "Barbicane had seized the hands of his two companions, and all three looked through their half-open eyelids upon that asteroid heated to a white heat."
+    },
+    {
+      "id": "s142",
+      "text": "If thought was not destroyed within them, if their brains still worked amid all this awe, they must have given themselves up for lost."
+    },
+    {
+      "id": "s143",
+      "text": "Two minutes after the sudden appearance of the meteor (to them two centuries of anguish) the projectile seemed almost about to strike it, when the globe of fire burst like a bomb, but without making any noise in that void where sound, which is but the agitation of the layers of air, could not be generated."
+    },
+    {
+      "id": "s144",
+      "text": "Nicholl uttered a cry, and he and his companions rushed to the scuttle."
+    },
+    {
+      "id": "s145",
+      "text": "What a sight!"
+    },
+    {
+      "id": "s146",
+      "text": "What pen can describe it?"
+    },
+    {
+      "id": "s147",
+      "text": "What palette is rich enough in colors to reproduce so magnificent a spectacle?"
+    },
+    {
+      "id": "s148",
+      "text": "It was like the opening of a crater, like the scattering of an immense conflagration."
+    },
+    {
+      "id": "s149",
+      "text": "Thousands of luminous fragments lit up and irradiated space with their fires."
+    },
+    {
+      "id": "s150",
+      "text": "Every size, every color, was there intermingled."
+    },
+    {
+      "id": "s151",
+      "text": "There were rays of yellow and pale yellow, red, green, gray—a crown of fireworks of all colors."
+    },
+    {
+      "id": "s152",
+      "text": "Of the enormous and much-dreaded globe there remained nothing but these fragments carried in all directions, now become asteroids in their turn, some flaming like a sword, some surrounded by a whitish cloud, and others leaving behind them trains of brilliant cosmical dust."
+    },
+    {
+      "id": "s153",
+      "text": "These incandescent blocks crossed and struck each other, scattering still smaller fragments, some of which struck the projectile."
+    },
+    {
+      "id": "s154",
+      "text": "Its left scuttle was even cracked by a violent shock."
+    },
+    {
+      "id": "s155",
+      "text": "It seemed to be floating amid a hail of howitzer shells, the smallest of which might destroy it instantly."
+    },
+    {
+      "id": "s156",
+      "text": "The light which saturated the ether was so wonderfully intense, that Michel, drawing Barbicane and Nicholl to his window, exclaimed, “The invisible moon, visible at last!”"
+    },
+    {
+      "id": "s157",
+      "text": "And through a luminous emanation, which lasted some seconds, the whole three caught a glimpse of that mysterious disc which the eye of man now saw for the first time."
+    },
+    {
+      "id": "s158",
+      "text": "What could they distinguish at a distance which they could not estimate?"
+    },
+    {
+      "id": "s159",
+      "text": "Some lengthened bands along the disc, real clouds formed in the midst of a very confined atmosphere, from which emerged not only all the mountains, but also projections of less importance; its circles, its yawning craters, as capriciously placed as on the visible surface."
+    },
+    {
+      "id": "s160",
+      "text": "Then immense spaces, no longer arid plains, but real seas, oceans, widely distributed, reflecting on their liquid surface all the dazzling magic of the fires of space; and, lastly, on the surface of the continents, large dark masses, looking like immense forests under the rapid illumination of a brilliance."
+    },
+    {
+      "id": "s161",
+      "text": "Was it an illusion, a mistake, an optical illusion?"
+    },
+    {
+      "id": "s162",
+      "text": "Could they give a scientific assent to an observation so superficially obtained?"
+    },
+    {
+      "id": "s163",
+      "text": "Dared they pronounce upon the question of its habitability after so slight a glimpse of the invisible disc?"
+    },
+    {
+      "id": "s164",
+      "text": "But the lightnings in space subsided by degrees; its accidental brilliancy died away; the asteroids dispersed in different directions and were extinguished in the distance."
+    },
+    {
+      "id": "s165",
+      "text": "The ether returned to its accustomed darkness; the stars, eclipsed for a moment, again twinkled in the firmament, and the disc, so hastily discerned, was again buried in impenetrable night."
+    }
+  ]
+}

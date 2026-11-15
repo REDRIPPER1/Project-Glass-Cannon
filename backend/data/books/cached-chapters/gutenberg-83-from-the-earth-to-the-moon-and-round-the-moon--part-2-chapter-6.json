@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-6",
+  "chapterTitle": "Part 2 — CHAPTER VI.",
+  "contentHash": "sha256:a523d41c37e5b1def4c6724c819ebde4d1e5d27de00cd41170e720e74051daec",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, Part 2 — CHAPTER VI.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "QUESTION AND ANSWER"
+    },
+    {
+      "id": "s2",
+      "text": "On the 4th of December, when the travelers awoke after fifty-four hours’ journey, the chronometer marked five o’clock of the terrestrial morning."
+    },
+    {
+      "id": "s3",
+      "text": "In time it was just over five hours and forty minutes, half of that assigned to their sojourn in the projectile; but they had already accomplished nearly seven-tenths of the way."
+    },
+    {
+      "id": "s4",
+      "text": "This peculiarity was due to their regularly decreasing speed."
+    },
+    {
+      "id": "s5",
+      "text": "Now when they observed the earth through the lower window, it looked like nothing more than a dark spot, drowned in the solar rays."
+    },
+    {
+      "id": "s6",
+      "text": "No more crescent, no more cloudy light!"
+    },
+    {
+      "id": "s7",
+      "text": "The next day, at midnight, the earth would be _new_, at the very moment when the moon would be full."
+    },
+    {
+      "id": "s8",
+      "text": "Above, the orb of night was nearing the line followed by the projectile, so as to meet it at the given hour."
+    },
+    {
+      "id": "s9",
+      "text": "All around the black vault was studded with brilliant points, which seemed to move slowly; but, at the great distance they were from them, their relative size did not seem to change."
+    },
+    {
+      "id": "s10",
+      "text": "The sun and stars appeared exactly as they do to us upon earth."
+    },
+    {
+      "id": "s11",
+      "text": "As to the moon, she was considerably larger; but the travelers’ glasses, not very powerful, did not allow them as yet to make any useful observations upon her surface, or reconnoiter her topographically or geologically."
+    },
+    {
+      "id": "s12",
+      "text": "Thus the time passed in never-ending conversations all about the moon."
+    },
+    {
+      "id": "s13",
+      "text": "Each one brought forward his own contingent of particular facts; Barbicane and Nicholl always serious, Michel Ardan always enthusiastic."
+    },
+    {
+      "id": "s14",
+      "text": "The projectile, its situation, its direction, incidents which might happen, the precautions necessitated by their fall on to the moon, were inexhaustible matters of conjecture."
+    },
+    {
+      "id": "s15",
+      "text": "As they were breakfasting, a question of Michel’s, relating to the projectile, provoked rather a curious answer from Barbicane, which is worth repeating."
+    },
+    {
+      "id": "s16",
+      "text": "Michel, supposing it to be roughly stopped, while still under its formidable initial speed, wished to know what the consequences of the stoppage would have been."
+    },
+    {
+      "id": "s17",
+      "text": "“But,” said Barbicane, “I do not see how it could have been stopped.”"
+    },
+    {
+      "id": "s18",
+      "text": "“But let us suppose so,” said Michel."
+    },
+    {
+      "id": "s19",
+      "text": "“It is an impossible supposition,” said the practical Barbicane; “unless that impulsive force had failed; but even then its speed would diminish by degrees, and it would not have stopped suddenly.”"
+    },
+    {
+      "id": "s20",
+      "text": "“Admit that it had struck a body in space.”"
+    },
+    {
+      "id": "s21",
+      "text": "“What body?”"
+    },
+    {
+      "id": "s22",
+      "text": "“Why that enormous meteor which we met.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Then,” said Nicholl, “the projectile would have been broken into a thousand pieces, and we with it.”"
+    },
+    {
+      "id": "s24",
+      "text": "“More than that,” replied Barbicane; “we should have been burned to death.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Burned?” exclaimed Michel, “by Jove!"
+    },
+    {
+      "id": "s26",
+      "text": "I am sorry it did not happen, ‘just to see.’”"
+    },
+    {
+      "id": "s27",
+      "text": "“And you would have seen,” replied Barbicane."
+    },
+    {
+      "id": "s28",
+      "text": "“It is known now that heat is only a modification of motion."
+    },
+    {
+      "id": "s29",
+      "text": "When water is warmed—that is to say, when heat is added to it—its particles are set in motion.”"
+    },
+    {
+      "id": "s30",
+      "text": "“Well,” said Michel, “that is an ingenious theory!”"
+    },
+    {
+      "id": "s31",
+      "text": "“And a true one, my worthy friend; for it explains every phenomenon of caloric."
+    },
+    {
+      "id": "s32",
+      "text": "Heat is but the motion of atoms, a simple oscillation of the particles of a body."
+    },
+    {
+      "id": "s33",
+      "text": "When they apply the brake to a train, the train comes to a stop; but what becomes of the motion which it had previously possessed?"
+    },
+    {
+      "id": "s34",
+      "text": "It is transformed into heat, and the brake becomes hot."
+    },
+    {
+      "id": "s35",
+      "text": "Why do they grease the axles of the wheels?"
+    },
+    {
+      "id": "s36",
+      "text": "To prevent their heating, because this heat would be generated by the motion which is thus lost by transformation.”"
+    },
+    {
+      "id": "s37",
+      "text": "“Yes, I understand,” replied Michel, “perfectly."
+    },
+    {
+      "id": "s38",
+      "text": "For example, when I have run a long time, when I am swimming, when I am perspiring in large drops, why am I obliged to stop?"
+    },
+    {
+      "id": "s39",
+      "text": "Simply because my motion is changed into heat.”"
+    },
+    {
+      "id": "s40",
+      "text": "Barbicane could not help smiling at Michel’s reply; then, returning to his theory, said:"
+    },
+    {
+      "id": "s41",
+      "text": "“Thus, in case of a shock, it would have been with our projectile as with a ball which falls in a burning state after having struck the metal plate; it is its motion which is turned into heat."
+    },
+    {
+      "id": "s42",
+      "text": "Consequently I affirm that, if our projectile had struck the meteor, its speed thus suddenly checked would have raised a heat great enough to turn it into vapor instantaneously.”"
+    },
+    {
+      "id": "s43",
+      "text": "“Then,” asked Nicholl, “what would happen if the earth’s motion were to stop suddenly?”"
+    },
+    {
+      "id": "s44",
+      "text": "“Her temperature would be raised to such a pitch,” said Barbicane, “that she would be at once reduced to vapor.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Well,” said Michel, “that is a way of ending the earth which will greatly simplify things.”"
+    },
+    {
+      "id": "s46",
+      "text": "“And if the earth fell upon the sun?” asked Nicholl."
+    },
+    {
+      "id": "s47",
+      "text": "“According to calculation,” replied Barbicane, “the fall would develop a heat equal to that produced by 16,000 globes of coal, each equal in bulk to our terrestrial globe.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Good additional heat for the sun,” replied Michel Ardan, “of which the inhabitants of Uranus or Neptune would doubtless not complain; they must be perished with cold on their planets.”"
+    },
+    {
+      "id": "s49",
+      "text": "“Thus, my friends,” said Barbicane, “all motion suddenly stopped produces heat."
+    },
+    {
+      "id": "s50",
+      "text": "And this theory allows us to infer that the heat of the solar disc is fed by a hail of meteors falling incessantly on its surface."
+    },
+    {
+      "id": "s51",
+      "text": "They have even calculated—”"
+    },
+    {
+      "id": "s52",
+      "text": "“Oh, dear!” murmured Michel, “the figures are coming.”"
+    },
+    {
+      "id": "s53",
+      "text": "“They have even calculated,” continued the imperturbable Barbicane, “that the shock of each meteor on the sun ought to produce a heat equal to that of 4,000 masses of coal of an equal bulk.”"
+    },
+    {
+      "id": "s54",
+      "text": "“And what is the solar heat?” asked Michel."
+    },
+    {
+      "id": "s55",
+      "text": "“It is equal to that produced by the combustion of a stratum of coal surrounding the sun to a depth of forty-seven miles.”"
+    },
+    {
+      "id": "s56",
+      "text": "“And that heat—”"
+    },
+    {
+      "id": "s57",
+      "text": "“Would be able to boil two billions nine hundred millions of cubic myriameters[2] of water.”"
+    },
+    {
+      "id": "s58",
+      "text": "[2] The myriameter is equal to rather more than 10,936 cubic yards English."
+    },
+    {
+      "id": "s59",
+      "text": "“And it does not roast us!” exclaimed Michel."
+    },
+    {
+      "id": "s60",
+      "text": "“No,” replied Barbicane, “because the terrestrial atmosphere absorbs four-tenths of the solar heat; besides, the quantity of heat intercepted by the earth is but a billionth part of the entire radiation.”"
+    },
+    {
+      "id": "s61",
+      "text": "“I see that all is for the best,” said Michel, “and that this atmosphere is a useful invention; for it not only allows us to breathe, but it prevents us from roasting.”"
+    },
+    {
+      "id": "s62",
+      "text": "“Yes!” said Nicholl, “unfortunately, it will not be the same in the moon.”"
+    },
+    {
+      "id": "s63",
+      "text": "“Bah!” said Michel, always hopeful."
+    },
+    {
+      "id": "s64",
+      "text": "“If there are inhabitants, they must breathe."
+    },
+    {
+      "id": "s65",
+      "text": "If there are no longer any, they must have left enough oxygen for three people, if only at the bottom of ravines, where its own weight will cause it to accumulate, and we will not climb the mountains; that is all.” And Michel, rising, went to look at the lunar disc, which shone with intolerable brilliancy."
+    },
+    {
+      "id": "s66",
+      "text": "“By Jove!” said he, “it must be hot up there!”"
+    },
+    {
+      "id": "s67",
+      "text": "“Without considering,” replied Nicholl, “that the day lasts 360 hours!”"
+    },
+    {
+      "id": "s68",
+      "text": "“And to compensate that,” said Barbicane, “the nights have the same length; and as heat is restored by radiation, their temperature can only be that of the planetary space.”"
+    },
+    {
+      "id": "s69",
+      "text": "“A pretty country, that!” exclaimed Michel."
+    },
+    {
+      "id": "s70",
+      "text": "“Never mind!"
+    },
+    {
+      "id": "s71",
+      "text": "I wish I was there!"
+    },
+    {
+      "id": "s72",
+      "text": "Ah! my dear comrades, it will be rather curious to have the earth for our moon, to see it rise on the horizon, to recognize the shape of its continents, and to say to oneself, ‘There is America, there is Europe;’ then to follow it when it is about to lose itself in the sun’s rays!"
+    },
+    {
+      "id": "s73",
+      "text": "By the bye, Barbicane, have the Selenites eclipses?”"
+    },
+    {
+      "id": "s74",
+      "text": "“Yes, eclipses of the sun,” replied Barbicane, “when the centers of the three orbs are on a line, the earth being in the middle."
+    },
+    {
+      "id": "s75",
+      "text": "But they are only partial, during which the earth, cast like a screen upon the solar disc, allows the greater portion to be seen.”"
+    },
+    {
+      "id": "s76",
+      "text": "“And why,” asked Nicholl, “is there no total eclipse?"
+    },
+    {
+      "id": "s77",
+      "text": "Does not the cone of the shadow cast by the earth extend beyond the moon?”"
+    },
+    {
+      "id": "s78",
+      "text": "“Yes, if we do not take into consideration the refraction produced by the terrestrial atmosphere."
+    },
+    {
+      "id": "s79",
+      "text": "No, if we take that refraction into consideration."
+    },
+    {
+      "id": "s80",
+      "text": "Thus let <lower case delta> be the horizontal parallel, and _p_ the apparent semidiameter—”"
+    },
+    {
+      "id": "s81",
+      "text": "“Oh!” said Michel."
+    },
+    {
+      "id": "s82",
+      "text": "“Do speak plainly, you man of algebra!”"
+    },
+    {
+      "id": "s83",
+      "text": "“Very well, replied Barbicane; “in popular language the mean distance from the moon to the earth being sixty terrestrial radii, the length of the cone of the shadow, on account of refraction, is reduced to less than forty-two radii."
+    },
+    {
+      "id": "s84",
+      "text": "The result is that when there are eclipses, the moon finds itself beyond the cone of pure shadow, and that the sun sends her its rays, not only from its edges, but also from its center.”"
+    },
+    {
+      "id": "s85",
+      "text": "“Then,” said Michel, in a merry tone, “why are there eclipses, when there ought not to be any?”"
+    },
+    {
+      "id": "s86",
+      "text": "“Simply because the solar rays are weakened by this refraction, and the atmosphere through which they pass extinguished the greater part of them!”"
+    },
+    {
+      "id": "s87",
+      "text": "“That reason satisfies me,” replied Michel."
+    },
+    {
+      "id": "s88",
+      "text": "“Besides we shall see when we get there."
+    },
+    {
+      "id": "s89",
+      "text": "Now, tell me, Barbicane, do you believe that the moon is an old comet?”"
+    },
+    {
+      "id": "s90",
+      "text": "“There’s an idea!”"
+    },
+    {
+      "id": "s91",
+      "text": "“Yes,” replied Michel, with an amiable swagger, “I have a few ideas of that sort.”"
+    },
+    {
+      "id": "s92",
+      "text": "“But that idea does not spring from Michel,” answered Nicholl."
+    },
+    {
+      "id": "s93",
+      "text": "“Well, then, I am a plagiarist.”"
+    },
+    {
+      "id": "s94",
+      "text": "“No doubt about it."
+    },
+    {
+      "id": "s95",
+      "text": "According to the ancients, the Arcadians pretend that their ancestors inhabited the earth before the moon became her satellite."
+    },
+    {
+      "id": "s96",
+      "text": "Starting from this fact, some scientific men have seen in the moon a comet whose orbit will one day bring it so near to the earth that it will be held there by its attraction.”"
+    },
+    {
+      "id": "s97",
+      "text": "“Is there any truth in this hypothesis?” asked Michel."
+    },
+    {
+      "id": "s98",
+      "text": "“None whatever,” said Barbicane, “and the proof is, that the moon has preserved no trace of the gaseous envelope which always accompanies comets.”"
+    },
+    {
+      "id": "s99",
+      "text": "“But,” continued Nicholl, “Before becoming the earth’s satellite, could not the moon, when in her perihelion, pass so near the sun as by evaporation to get rid of all those gaseous substances?”"
+    },
+    {
+      "id": "s100",
+      "text": "“It is possible, friend Nicholl, but not probable.”"
+    },
+    {
+      "id": "s101",
+      "text": "“Why not?”"
+    },
+    {
+      "id": "s102",
+      "text": "“Because—Faith I do not know.”"
+    },
+    {
+      "id": "s103",
+      "text": "“Ah!” exclaimed Michel, “what hundred of volumes we might make of all that we do not know!”"
+    },
+    {
+      "id": "s104",
+      "text": "“Ah! indeed."
+    },
+    {
+      "id": "s105",
+      "text": "What time is it?” asked Barbicane."
+    },
+    {
+      "id": "s106",
+      "text": "“Three o’clock,” answered Nicholl."
+    },
+    {
+      "id": "s107",
+      "text": "“How time goes,” said Michel, “in the conversation of scientific men such as we are!"
+    },
+    {
+      "id": "s108",
+      "text": "Certainly, I feel I know too much!"
+    },
+    {
+      "id": "s109",
+      "text": "I feel that I am becoming a well!”"
+    },
+    {
+      "id": "s110",
+      "text": "Saying which, Michel hoisted himself to the roof of the projectile, “to observe the moon better,” he pretended."
+    },
+    {
+      "id": "s111",
+      "text": "During this time his companions were watching through the lower glass."
+    },
+    {
+      "id": "s112",
+      "text": "Nothing new to note!"
+    },
+    {
+      "id": "s113",
+      "text": "When Michel Ardan came down, he went to the side scuttle; and suddenly they heard an exclamation of surprise!"
+    },
+    {
+      "id": "s114",
+      "text": "“What is it?” asked Barbicane."
+    },
+    {
+      "id": "s115",
+      "text": "The president approached the window, and saw a sort of flattened sack floating some yards from the projectile."
+    },
+    {
+      "id": "s116",
+      "text": "This object seemed as motionless as the projectile, and was consequently animated with the same ascending movement."
+    },
+    {
+      "id": "s117",
+      "text": "“What is that machine?” continued Michel Ardan."
+    },
+    {
+      "id": "s118",
+      "text": "“Is it one of the bodies which our projectile keeps within its attraction, and which will accompany it to the moon?”"
+    },
+    {
+      "id": "s119",
+      "text": "“What astonishes me,” said Nicholl, “is that the specific weight of the body, which is certainly less than that of the projectile, allows it to keep so perfectly on a level with it.”"
+    },
+    {
+      "id": "s120",
+      "text": "“Nicholl,” replied Barbicane, after a moment’s reflection, “I do not know what the object it, but I do know why it maintains our level.”"
+    },
+    {
+      "id": "s121",
+      "text": "“And why?”"
+    },
+    {
+      "id": "s122",
+      "text": "“Because we are floating in space, my dear captain, and in space bodies fall or move (which is the same thing) with equal speed whatever be their weight or form; it is the air, which by its resistance creates these differences in weight."
+    },
+    {
+      "id": "s123",
+      "text": "When you create a vacuum in a tube, the objects you send through it, grains of dust or grains of lead, fall with the same rapidity."
+    },
+    {
+      "id": "s124",
+      "text": "Here in space is the same cause and the same effect.”"
+    },
+    {
+      "id": "s125",
+      "text": "“Just so,” said Nicholl, “and everything we throw out of the projectile will accompany it until it reaches the moon.”"
+    },
+    {
+      "id": "s126",
+      "text": "“Ah! fools that we are!” exclaimed Michel."
+    },
+    {
+      "id": "s127",
+      "text": "“Why that expletive?” asked Barbicane."
+    },
+    {
+      "id": "s128",
+      "text": "“Because we might have filled the projectile with useful objects, books, instruments, tools, etc."
+    },
+    {
+      "id": "s129",
+      "text": "We could have thrown them all out, and all would have followed in our train."
+    },
+    {
+      "id": "s130",
+      "text": "But happy thought!"
+    },
+    {
+      "id": "s131",
+      "text": "Why cannot we walk outside like the meteor?"
+    },
+    {
+      "id": "s132",
+      "text": "Why cannot we launch into space through the scuttle?"
+    },
+    {
+      "id": "s133",
+      "text": "What enjoyment it would be to feel oneself thus suspended in ether, more favored than the birds who must use their wings to keep themselves up!”"
+    },
+    {
+      "id": "s134",
+      "text": "“Granted,” said Barbicane, “but how to breathe?”"
+    },
+    {
+      "id": "s135",
+      "text": "“Hang the air, to fail so inopportunely!”"
+    },
+    {
+      "id": "s136",
+      "text": "“But if it did not fail, Michel, your density being less than that of the projectile, you would soon be left behind.”"
+    },
+    {
+      "id": "s137",
+      "text": "“Then we must remain in our car?”"
+    },
+    {
+      "id": "s138",
+      "text": "“We must!”"
+    },
+    {
+      "id": "s139",
+      "text": "“Ah!” exclaimed Michel, in a load voice."
+    },
+    {
+      "id": "s140",
+      "text": "“What is the matter,” asked Nicholl."
+    },
+    {
+      "id": "s141",
+      "text": "“I know, I guess, what this pretended meteor is!"
+    },
+    {
+      "id": "s142",
+      "text": "It is no asteroid which is accompanying us!"
+    },
+    {
+      "id": "s143",
+      "text": "It is not a piece of a planet.”"
+    },
+    {
+      "id": "s144",
+      "text": "“What is it then?” asked Barbicane."
+    },
+    {
+      "id": "s145",
+      "text": "“It is our unfortunate dog!"
+    },
+    {
+      "id": "s146",
+      "text": "It is Diana’s husband!”"
+    },
+    {
+      "id": "s147",
+      "text": "Indeed, this deformed, unrecognizable object, reduced to nothing, was the body of Satellite, flattened like a bagpipe without wind, and ever mounting, mounting!"
+    }
+  ]
+}

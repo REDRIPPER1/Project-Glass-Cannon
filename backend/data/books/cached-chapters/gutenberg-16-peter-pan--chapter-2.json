@@ -1,0 +1,933 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-16-peter-pan",
+  "ebookId": "16",
+  "edition": "Project Gutenberg eBook #16; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-2",
+  "chapterTitle": "Chapter II.",
+  "contentHash": "sha256:80effcf6612ee296b3fc1a8673f1357c236139016265dafcb6e5232c5c279997",
+  "attribution": "Barrie, J. M. (James Matthew), 1860-1937, Peter Pan, Chapter II.. Source checked against Project Gutenberg eBook #16.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/16",
+    "textUrl": "https://www.gutenberg.org/cache/epub/16/pg16.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE SHADOW"
+    },
+    {
+      "id": "s2",
+      "text": "Mrs."
+    },
+    {
+      "id": "s3",
+      "text": "Darling screamed, and, as if in answer to a bell, the door opened, and Nana entered, returned from her evening out."
+    },
+    {
+      "id": "s4",
+      "text": "She growled and sprang at the boy, who leapt lightly through the window."
+    },
+    {
+      "id": "s5",
+      "text": "Again Mrs."
+    },
+    {
+      "id": "s6",
+      "text": "Darling screamed, this time in distress for him, for she thought he was killed, and she ran down into the street to look for his little body, but it was not there; and she looked up, and in the black night she could see nothing but what she thought was a shooting star."
+    },
+    {
+      "id": "s7",
+      "text": "She returned to the nursery, and found Nana with something in her mouth, which proved to be the boy’s shadow."
+    },
+    {
+      "id": "s8",
+      "text": "As he leapt at the window Nana had closed it quickly, too late to catch him, but his shadow had not had time to get out; slam went the window and snapped it off."
+    },
+    {
+      "id": "s9",
+      "text": "You may be sure Mrs."
+    },
+    {
+      "id": "s10",
+      "text": "Darling examined the shadow carefully, but it was quite the ordinary kind."
+    },
+    {
+      "id": "s11",
+      "text": "Nana had no doubt of what was the best thing to do with this shadow."
+    },
+    {
+      "id": "s12",
+      "text": "She hung it out at the window, meaning “He is sure to come back for it; let us put it where he can get it easily without disturbing the children.”"
+    },
+    {
+      "id": "s13",
+      "text": "But unfortunately Mrs."
+    },
+    {
+      "id": "s14",
+      "text": "Darling could not leave it hanging out at the window, it looked so like the washing and lowered the whole tone of the house."
+    },
+    {
+      "id": "s15",
+      "text": "She thought of showing it to Mr."
+    },
+    {
+      "id": "s16",
+      "text": "Darling, but he was totting up winter great-coats for John and Michael, with a wet towel around his head to keep his brain clear, and it seemed a shame to trouble him; besides, she knew exactly what he would say: “It all comes of having a dog for a nurse.”"
+    },
+    {
+      "id": "s17",
+      "text": "She decided to roll the shadow up and put it away carefully in a drawer, until a fitting opportunity came for telling her husband."
+    },
+    {
+      "id": "s18",
+      "text": "Ah me!"
+    },
+    {
+      "id": "s19",
+      "text": "The opportunity came a week later, on that never-to-be-forgotten Friday."
+    },
+    {
+      "id": "s20",
+      "text": "Of course it was a Friday."
+    },
+    {
+      "id": "s21",
+      "text": "“I ought to have been specially careful on a Friday,” she used to say afterwards to her husband, while perhaps Nana was on the other side of her, holding her hand."
+    },
+    {
+      "id": "s22",
+      "text": "“No, no,” Mr."
+    },
+    {
+      "id": "s23",
+      "text": "Darling always said, “I am responsible for it all."
+    },
+    {
+      "id": "s24",
+      "text": "I, George Darling, did it. _Mea culpa, mea culpa_.” He had had a classical education."
+    },
+    {
+      "id": "s25",
+      "text": "They sat thus night after night recalling that fatal Friday, till every detail of it was stamped on their brains and came through on the other side like the faces on a bad coinage."
+    },
+    {
+      "id": "s26",
+      "text": "“If only I had not accepted that invitation to dine at 27,” Mrs."
+    },
+    {
+      "id": "s27",
+      "text": "Darling said."
+    },
+    {
+      "id": "s28",
+      "text": "“If only I had not poured my medicine into Nana’s bowl,” said Mr."
+    },
+    {
+      "id": "s29",
+      "text": "Darling."
+    },
+    {
+      "id": "s30",
+      "text": "“If only I had pretended to like the medicine,” was what Nana’s wet eyes said."
+    },
+    {
+      "id": "s31",
+      "text": "“My liking for parties, George.”"
+    },
+    {
+      "id": "s32",
+      "text": "“My fatal gift of humour, dearest.”"
+    },
+    {
+      "id": "s33",
+      "text": "“My touchiness about trifles, dear master and mistress.”"
+    },
+    {
+      "id": "s34",
+      "text": "Then one or more of them would break down altogether; Nana at the thought, “It’s true, it’s true, they ought not to have had a dog for a nurse.” Many a time it was Mr."
+    },
+    {
+      "id": "s35",
+      "text": "Darling who put the handkerchief to Nana’s eyes."
+    },
+    {
+      "id": "s36",
+      "text": "“That fiend!” Mr."
+    },
+    {
+      "id": "s37",
+      "text": "Darling would cry, and Nana’s bark was the echo of it, but Mrs."
+    },
+    {
+      "id": "s38",
+      "text": "Darling never upbraided Peter; there was something in the right-hand corner of her mouth that wanted her not to call Peter names."
+    },
+    {
+      "id": "s39",
+      "text": "They would sit there in the empty nursery, recalling fondly every smallest detail of that dreadful evening."
+    },
+    {
+      "id": "s40",
+      "text": "It had begun so uneventfully, so precisely like a hundred other evenings, with Nana putting on the water for Michael’s bath and carrying him to it on her back."
+    },
+    {
+      "id": "s41",
+      "text": "“I won’t go to bed,” he had shouted, like one who still believed that he had the last word on the subject, “I won’t, I won’t."
+    },
+    {
+      "id": "s42",
+      "text": "Nana, it isn’t six o’clock yet."
+    },
+    {
+      "id": "s43",
+      "text": "Oh dear, oh dear, I shan’t love you any more, Nana."
+    },
+    {
+      "id": "s44",
+      "text": "I tell you I won’t be bathed, I won’t, I won’t!”"
+    },
+    {
+      "id": "s45",
+      "text": "Then Mrs."
+    },
+    {
+      "id": "s46",
+      "text": "Darling had come in, wearing her white evening-gown."
+    },
+    {
+      "id": "s47",
+      "text": "She had dressed early because Wendy so loved to see her in her evening-gown, with the necklace George had given her."
+    },
+    {
+      "id": "s48",
+      "text": "She was wearing Wendy’s bracelet on her arm; she had asked for the loan of it."
+    },
+    {
+      "id": "s49",
+      "text": "Wendy loved to lend her bracelet to her mother."
+    },
+    {
+      "id": "s50",
+      "text": "She had found her two older children playing at being herself and father on the occasion of Wendy’s birth, and John was saying:"
+    },
+    {
+      "id": "s51",
+      "text": "“I am happy to inform you, Mrs."
+    },
+    {
+      "id": "s52",
+      "text": "Darling, that you are now a mother,” in just such a tone as Mr."
+    },
+    {
+      "id": "s53",
+      "text": "Darling himself may have used on the real occasion."
+    },
+    {
+      "id": "s54",
+      "text": "Wendy had danced with joy, just as the real Mrs."
+    },
+    {
+      "id": "s55",
+      "text": "Darling must have done."
+    },
+    {
+      "id": "s56",
+      "text": "Then John was born, with the extra pomp that he conceived due to the birth of a male, and Michael came from his bath to ask to be born also, but John said brutally that they did not want any more."
+    },
+    {
+      "id": "s57",
+      "text": "Michael had nearly cried."
+    },
+    {
+      "id": "s58",
+      "text": "“Nobody wants me,” he said, and of course the lady in the evening-dress could not stand that."
+    },
+    {
+      "id": "s59",
+      "text": "“I do,” she said, “I so want a third child.”"
+    },
+    {
+      "id": "s60",
+      "text": "“Boy or girl?” asked Michael, not too hopefully."
+    },
+    {
+      "id": "s61",
+      "text": "“Boy.”"
+    },
+    {
+      "id": "s62",
+      "text": "Then he had leapt into her arms."
+    },
+    {
+      "id": "s63",
+      "text": "Such a little thing for Mr. and Mrs."
+    },
+    {
+      "id": "s64",
+      "text": "Darling and Nana to recall now, but not so little if that was to be Michael’s last night in the nursery."
+    },
+    {
+      "id": "s65",
+      "text": "They go on with their recollections."
+    },
+    {
+      "id": "s66",
+      "text": "“It was then that I rushed in like a tornado, wasn’t it?” Mr."
+    },
+    {
+      "id": "s67",
+      "text": "Darling would say, scorning himself; and indeed he had been like a tornado."
+    },
+    {
+      "id": "s68",
+      "text": "Perhaps there was some excuse for him."
+    },
+    {
+      "id": "s69",
+      "text": "He, too, had been dressing for the party, and all had gone well with him until he came to his tie."
+    },
+    {
+      "id": "s70",
+      "text": "It is an astounding thing to have to tell, but this man, though he knew about stocks and shares, had no real mastery of his tie."
+    },
+    {
+      "id": "s71",
+      "text": "Sometimes the thing yielded to him without a contest, but there were occasions when it would have been better for the house if he had swallowed his pride and used a made-up tie."
+    },
+    {
+      "id": "s72",
+      "text": "This was such an occasion."
+    },
+    {
+      "id": "s73",
+      "text": "He came rushing into the nursery with the crumpled little brute of a tie in his hand."
+    },
+    {
+      "id": "s74",
+      "text": "“Why, what is the matter, father dear?”"
+    },
+    {
+      "id": "s75",
+      "text": "“Matter!” he yelled; he really yelled."
+    },
+    {
+      "id": "s76",
+      "text": "“This tie, it will not tie.” He became dangerously sarcastic."
+    },
+    {
+      "id": "s77",
+      "text": "“Not round my neck!"
+    },
+    {
+      "id": "s78",
+      "text": "Round the bed-post!"
+    },
+    {
+      "id": "s79",
+      "text": "Oh yes, twenty times have I made it up round the bed-post, but round my neck, no!"
+    },
+    {
+      "id": "s80",
+      "text": "Oh dear no! begs to be excused!”"
+    },
+    {
+      "id": "s81",
+      "text": "He thought Mrs."
+    },
+    {
+      "id": "s82",
+      "text": "Darling was not sufficiently impressed, and he went on sternly, “I warn you of this, mother, that unless this tie is round my neck we don’t go out to dinner to-night, and if I don’t go out to dinner to-night, I never go to the office again, and if I don’t go to the office again, you and I starve, and our children will be flung into the streets.”"
+    },
+    {
+      "id": "s83",
+      "text": "Even then Mrs."
+    },
+    {
+      "id": "s84",
+      "text": "Darling was placid."
+    },
+    {
+      "id": "s85",
+      "text": "“Let me try, dear,” she said, and indeed that was what he had come to ask her to do, and with her nice cool hands she tied his tie for him, while the children stood around to see their fate decided."
+    },
+    {
+      "id": "s86",
+      "text": "Some men would have resented her being able to do it so easily, but Mr."
+    },
+    {
+      "id": "s87",
+      "text": "Darling had far too fine a nature for that; he thanked her carelessly, at once forgot his rage, and in another moment was dancing round the room with Michael on his back."
+    },
+    {
+      "id": "s88",
+      "text": "“How wildly we romped!” says Mrs."
+    },
+    {
+      "id": "s89",
+      "text": "Darling now, recalling it."
+    },
+    {
+      "id": "s90",
+      "text": "“Our last romp!” Mr."
+    },
+    {
+      "id": "s91",
+      "text": "Darling groaned."
+    },
+    {
+      "id": "s92",
+      "text": "“O George, do you remember Michael suddenly said to me, ‘How did you get to know me, mother?’”"
+    },
+    {
+      "id": "s93",
+      "text": "“I remember!”"
+    },
+    {
+      "id": "s94",
+      "text": "“They were rather sweet, don’t you think, George?”"
+    },
+    {
+      "id": "s95",
+      "text": "“And they were ours, ours! and now they are gone.”"
+    },
+    {
+      "id": "s96",
+      "text": "The romp had ended with the appearance of Nana, and most unluckily Mr."
+    },
+    {
+      "id": "s97",
+      "text": "Darling collided against her, covering his trousers with hairs."
+    },
+    {
+      "id": "s98",
+      "text": "They were not only new trousers, but they were the first he had ever had with braid on them, and he had had to bite his lip to prevent the tears coming."
+    },
+    {
+      "id": "s99",
+      "text": "Of course Mrs."
+    },
+    {
+      "id": "s100",
+      "text": "Darling brushed him, but he began to talk again about its being a mistake to have a dog for a nurse."
+    },
+    {
+      "id": "s101",
+      "text": "“George, Nana is a treasure.”"
+    },
+    {
+      "id": "s102",
+      "text": "“No doubt, but I have an uneasy feeling at times that she looks upon the children as puppies.”"
+    },
+    {
+      "id": "s103",
+      "text": "“Oh no, dear one, I feel sure she knows they have souls.”"
+    },
+    {
+      "id": "s104",
+      "text": "“I wonder,” Mr."
+    },
+    {
+      "id": "s105",
+      "text": "Darling said thoughtfully, “I wonder.” It was an opportunity, his wife felt, for telling him about the boy."
+    },
+    {
+      "id": "s106",
+      "text": "At first he pooh-poohed the story, but he became thoughtful when she showed him the shadow."
+    },
+    {
+      "id": "s107",
+      "text": "“It is nobody I know,” he said, examining it carefully, “but it does look a scoundrel.”"
+    },
+    {
+      "id": "s108",
+      "text": "“We were still discussing it, you remember,” says Mr."
+    },
+    {
+      "id": "s109",
+      "text": "Darling, “when Nana came in with Michael’s medicine."
+    },
+    {
+      "id": "s110",
+      "text": "You will never carry the bottle in your mouth again, Nana, and it is all my fault.”"
+    },
+    {
+      "id": "s111",
+      "text": "Strong man though he was, there is no doubt that he had behaved rather foolishly over the medicine."
+    },
+    {
+      "id": "s112",
+      "text": "If he had a weakness, it was for thinking that all his life he had taken medicine boldly, and so now, when Michael dodged the spoon in Nana’s mouth, he had said reprovingly, “Be a man, Michael.”"
+    },
+    {
+      "id": "s113",
+      "text": "“Won’t; won’t!” Michael cried naughtily."
+    },
+    {
+      "id": "s114",
+      "text": "Mrs."
+    },
+    {
+      "id": "s115",
+      "text": "Darling left the room to get a chocolate for him, and Mr."
+    },
+    {
+      "id": "s116",
+      "text": "Darling thought this showed want of firmness."
+    },
+    {
+      "id": "s117",
+      "text": "“Mother, don’t pamper him,” he called after her."
+    },
+    {
+      "id": "s118",
+      "text": "“Michael, when I was your age I took medicine without a murmur."
+    },
+    {
+      "id": "s119",
+      "text": "I said, ‘Thank you, kind parents, for giving me bottles to make me well.’”"
+    },
+    {
+      "id": "s120",
+      "text": "He really thought this was true, and Wendy, who was now in her night-gown, believed it also, and she said, to encourage Michael, “That medicine you sometimes take, father, is much nastier, isn’t it?”"
+    },
+    {
+      "id": "s121",
+      "text": "“Ever so much nastier,” Mr."
+    },
+    {
+      "id": "s122",
+      "text": "Darling said bravely, “and I would take it now as an example to you, Michael, if I hadn’t lost the bottle.”"
+    },
+    {
+      "id": "s123",
+      "text": "He had not exactly lost it; he had climbed in the dead of night to the top of the wardrobe and hidden it there."
+    },
+    {
+      "id": "s124",
+      "text": "What he did not know was that the faithful Liza had found it, and put it back on his wash-stand."
+    },
+    {
+      "id": "s125",
+      "text": "“I know where it is, father,” Wendy cried, always glad to be of service."
+    },
+    {
+      "id": "s126",
+      "text": "“I’ll bring it,” and she was off before he could stop her."
+    },
+    {
+      "id": "s127",
+      "text": "Immediately his spirits sank in the strangest way."
+    },
+    {
+      "id": "s128",
+      "text": "“John,” he said, shuddering, “it’s most beastly stuff."
+    },
+    {
+      "id": "s129",
+      "text": "It’s that nasty, sticky, sweet kind.”"
+    },
+    {
+      "id": "s130",
+      "text": "“It will soon be over, father,” John said cheerily, and then in rushed Wendy with the medicine in a glass."
+    },
+    {
+      "id": "s131",
+      "text": "“I have been as quick as I could,” she panted."
+    },
+    {
+      "id": "s132",
+      "text": "“You have been wonderfully quick,” her father retorted, with a vindictive politeness that was quite thrown away upon her."
+    },
+    {
+      "id": "s133",
+      "text": "“Michael first,” he said doggedly."
+    },
+    {
+      "id": "s134",
+      "text": "“Father first,” said Michael, who was of a suspicious nature."
+    },
+    {
+      "id": "s135",
+      "text": "“I shall be sick, you know,” Mr."
+    },
+    {
+      "id": "s136",
+      "text": "Darling said threateningly."
+    },
+    {
+      "id": "s137",
+      "text": "“Come on, father,” said John."
+    },
+    {
+      "id": "s138",
+      "text": "“Hold your tongue, John,” his father rapped out."
+    },
+    {
+      "id": "s139",
+      "text": "Wendy was quite puzzled."
+    },
+    {
+      "id": "s140",
+      "text": "“I thought you took it quite easily, father.”"
+    },
+    {
+      "id": "s141",
+      "text": "“That is not the point,” he retorted."
+    },
+    {
+      "id": "s142",
+      "text": "“The point is, that there is more in my glass than in Michael’s spoon.” His proud heart was nearly bursting."
+    },
+    {
+      "id": "s143",
+      "text": "“And it isn’t fair: I would say it though it were with my last breath; it isn’t fair.”"
+    },
+    {
+      "id": "s144",
+      "text": "“Father, I am waiting,” said Michael coldly."
+    },
+    {
+      "id": "s145",
+      "text": "“It’s all very well to say you are waiting; so am I waiting.”"
+    },
+    {
+      "id": "s146",
+      "text": "“Father’s a cowardly custard.”"
+    },
+    {
+      "id": "s147",
+      "text": "“So are you a cowardly custard.”"
+    },
+    {
+      "id": "s148",
+      "text": "“I’m not frightened.”"
+    },
+    {
+      "id": "s149",
+      "text": "“Neither am I frightened.”"
+    },
+    {
+      "id": "s150",
+      "text": "“Well, then, take it.”"
+    },
+    {
+      "id": "s151",
+      "text": "“Well, then, you take it.”"
+    },
+    {
+      "id": "s152",
+      "text": "Wendy had a splendid idea."
+    },
+    {
+      "id": "s153",
+      "text": "“Why not both take it at the same time?”"
+    },
+    {
+      "id": "s154",
+      "text": "“Certainly,” said Mr."
+    },
+    {
+      "id": "s155",
+      "text": "Darling."
+    },
+    {
+      "id": "s156",
+      "text": "“Are you ready, Michael?”"
+    },
+    {
+      "id": "s157",
+      "text": "Wendy gave the words, one, two, three, and Michael took his medicine, but Mr."
+    },
+    {
+      "id": "s158",
+      "text": "Darling slipped his behind his back."
+    },
+    {
+      "id": "s159",
+      "text": "There was a yell of rage from Michael, and “O father!” Wendy exclaimed."
+    },
+    {
+      "id": "s160",
+      "text": "“What do you mean by ‘O father’?” Mr."
+    },
+    {
+      "id": "s161",
+      "text": "Darling demanded."
+    },
+    {
+      "id": "s162",
+      "text": "“Stop that row, Michael."
+    },
+    {
+      "id": "s163",
+      "text": "I meant to take mine, but I—I missed it.”"
+    },
+    {
+      "id": "s164",
+      "text": "It was dreadful the way all the three were looking at him, just as if they did not admire him."
+    },
+    {
+      "id": "s165",
+      "text": "“Look here, all of you,” he said entreatingly, as soon as Nana had gone into the bathroom."
+    },
+    {
+      "id": "s166",
+      "text": "“I have just thought of a splendid joke."
+    },
+    {
+      "id": "s167",
+      "text": "I shall pour my medicine into Nana’s bowl, and she will drink it, thinking it is milk!”"
+    },
+    {
+      "id": "s168",
+      "text": "It was the colour of milk; but the children did not have their father’s sense of humour, and they looked at him reproachfully as he poured the medicine into Nana’s bowl."
+    },
+    {
+      "id": "s169",
+      "text": "“What fun!” he said doubtfully, and they did not dare expose him when Mrs."
+    },
+    {
+      "id": "s170",
+      "text": "Darling and Nana returned."
+    },
+    {
+      "id": "s171",
+      "text": "“Nana, good dog,” he said, patting her, “I have put a little milk into your bowl, Nana.”"
+    },
+    {
+      "id": "s172",
+      "text": "Nana wagged her tail, ran to the medicine, and began lapping it."
+    },
+    {
+      "id": "s173",
+      "text": "Then she gave Mr."
+    },
+    {
+      "id": "s174",
+      "text": "Darling such a look, not an angry look: she showed him the great red tear that makes us so sorry for noble dogs, and crept into her kennel."
+    },
+    {
+      "id": "s175",
+      "text": "Mr."
+    },
+    {
+      "id": "s176",
+      "text": "Darling was frightfully ashamed of himself, but he would not give in."
+    },
+    {
+      "id": "s177",
+      "text": "In a horrid silence Mrs."
+    },
+    {
+      "id": "s178",
+      "text": "Darling smelt the bowl."
+    },
+    {
+      "id": "s179",
+      "text": "“O George,” she said, “it’s your medicine!”"
+    },
+    {
+      "id": "s180",
+      "text": "“It was only a joke,” he roared, while she comforted her boys, and Wendy hugged Nana."
+    },
+    {
+      "id": "s181",
+      "text": "“Much good,” he said bitterly, “my wearing myself to the bone trying to be funny in this house.”"
+    },
+    {
+      "id": "s182",
+      "text": "And still Wendy hugged Nana."
+    },
+    {
+      "id": "s183",
+      "text": "“That’s right,” he shouted."
+    },
+    {
+      "id": "s184",
+      "text": "“Coddle her!"
+    },
+    {
+      "id": "s185",
+      "text": "Nobody coddles me."
+    },
+    {
+      "id": "s186",
+      "text": "Oh dear no!"
+    },
+    {
+      "id": "s187",
+      "text": "I am only the breadwinner, why should I be coddled—why, why, why!”"
+    },
+    {
+      "id": "s188",
+      "text": "“George,” Mrs."
+    },
+    {
+      "id": "s189",
+      "text": "Darling entreated him, “not so loud; the servants will hear you.” Somehow they had got into the way of calling Liza the servants."
+    },
+    {
+      "id": "s190",
+      "text": "“Let them!” he answered recklessly."
+    },
+    {
+      "id": "s191",
+      "text": "“Bring in the whole world."
+    },
+    {
+      "id": "s192",
+      "text": "But I refuse to allow that dog to lord it in my nursery for an hour longer.”"
+    },
+    {
+      "id": "s193",
+      "text": "The children wept, and Nana ran to him beseechingly, but he waved her back."
+    },
+    {
+      "id": "s194",
+      "text": "He felt he was a strong man again."
+    },
+    {
+      "id": "s195",
+      "text": "“In vain, in vain,” he cried; “the proper place for you is the yard, and there you go to be tied up this instant.”"
+    },
+    {
+      "id": "s196",
+      "text": "“George, George,” Mrs."
+    },
+    {
+      "id": "s197",
+      "text": "Darling whispered, “remember what I told you about that boy.”"
+    },
+    {
+      "id": "s198",
+      "text": "Alas, he would not listen."
+    },
+    {
+      "id": "s199",
+      "text": "He was determined to show who was master in that house, and when commands would not draw Nana from the kennel, he lured her out of it with honeyed words, and seizing her roughly, dragged her from the nursery."
+    },
+    {
+      "id": "s200",
+      "text": "He was ashamed of himself, and yet he did it."
+    },
+    {
+      "id": "s201",
+      "text": "It was all owing to his too affectionate nature, which craved for admiration."
+    },
+    {
+      "id": "s202",
+      "text": "When he had tied her up in the back-yard, the wretched father went and sat in the passage, with his knuckles to his eyes."
+    },
+    {
+      "id": "s203",
+      "text": "In the meantime Mrs."
+    },
+    {
+      "id": "s204",
+      "text": "Darling had put the children to bed in unwonted silence and lit their night-lights."
+    },
+    {
+      "id": "s205",
+      "text": "They could hear Nana barking, and John whimpered, “It is because he is chaining her up in the yard,” but Wendy was wiser."
+    },
+    {
+      "id": "s206",
+      "text": "“That is not Nana’s unhappy bark,” she said, little guessing what was about to happen; “that is her bark when she smells danger.”"
+    },
+    {
+      "id": "s207",
+      "text": "Danger!"
+    },
+    {
+      "id": "s208",
+      "text": "“Are you sure, Wendy?”"
+    },
+    {
+      "id": "s209",
+      "text": "“Oh, yes.”"
+    },
+    {
+      "id": "s210",
+      "text": "Mrs."
+    },
+    {
+      "id": "s211",
+      "text": "Darling quivered and went to the window."
+    },
+    {
+      "id": "s212",
+      "text": "It was securely fastened."
+    },
+    {
+      "id": "s213",
+      "text": "She looked out, and the night was peppered with stars."
+    },
+    {
+      "id": "s214",
+      "text": "They were crowding round the house, as if curious to see what was to take place there, but she did not notice this, nor that one or two of the smaller ones winked at her."
+    },
+    {
+      "id": "s215",
+      "text": "Yet a nameless fear clutched at her heart and made her cry, “Oh, how I wish that I wasn’t going to a party to-night!”"
+    },
+    {
+      "id": "s216",
+      "text": "Even Michael, already half asleep, knew that she was perturbed, and he asked, “Can anything harm us, mother, after the night-lights are lit?”"
+    },
+    {
+      "id": "s217",
+      "text": "“Nothing, precious,” she said; “they are the eyes a mother leaves behind her to guard her children.”"
+    },
+    {
+      "id": "s218",
+      "text": "She went from bed to bed singing enchantments over them, and little Michael flung his arms round her."
+    },
+    {
+      "id": "s219",
+      "text": "“Mother,” he cried, “I’m glad of you.” They were the last words she was to hear from him for a long time."
+    },
+    {
+      "id": "s220",
+      "text": "No. 27 was only a few yards distant, but there had been a slight fall of snow, and Father and Mother Darling picked their way over it deftly not to soil their shoes."
+    },
+    {
+      "id": "s221",
+      "text": "They were already the only persons in the street, and all the stars were watching them."
+    },
+    {
+      "id": "s222",
+      "text": "Stars are beautiful, but they may not take an active part in anything, they must just look on for ever."
+    },
+    {
+      "id": "s223",
+      "text": "It is a punishment put on them for something they did so long ago that no star now knows what it was."
+    },
+    {
+      "id": "s224",
+      "text": "So the older ones have become glassy-eyed and seldom speak (winking is the star language), but the little ones still wonder."
+    },
+    {
+      "id": "s225",
+      "text": "They are not really friendly to Peter, who had a mischievous way of stealing up behind them and trying to blow them out; but they are so fond of fun that they were on his side to-night, and anxious to get the grown-ups out of the way."
+    },
+    {
+      "id": "s226",
+      "text": "So as soon as the door of 27 closed on Mr. and Mrs."
+    },
+    {
+      "id": "s227",
+      "text": "Darling there was a commotion in the firmament, and the smallest of all the stars in the Milky Way screamed out:"
+    },
+    {
+      "id": "s228",
+      "text": "“Now, Peter!”"
+    }
+  ]
+}

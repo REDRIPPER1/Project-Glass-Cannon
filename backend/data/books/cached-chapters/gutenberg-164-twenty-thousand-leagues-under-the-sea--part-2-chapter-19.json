@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-19",
+  "chapterTitle": "Part 2 — CHAPTER XIX",
+  "contentHash": "sha256:69525b0103797529565be44a1a6115b5d25933381dd98abb229864cc2b038c40",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, Part 2 — CHAPTER XIX. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE GULF STREAM"
+    },
+    {
+      "id": "s2",
+      "text": "This terrible scene of the 20th of April none of us can ever forget."
+    },
+    {
+      "id": "s3",
+      "text": "I have written it under the influence of violent emotion."
+    },
+    {
+      "id": "s4",
+      "text": "Since then I have revised the recital; I have read it to Conseil and to the Canadian."
+    },
+    {
+      "id": "s5",
+      "text": "They found it exact as to facts, but insufficient as to effect."
+    },
+    {
+      "id": "s6",
+      "text": "To paint such pictures, one must have the pen of the most illustrious of our poets, the author of The Toilers of the Deep."
+    },
+    {
+      "id": "s7",
+      "text": "I have said that Captain Nemo wept while watching the waves; his grief was great."
+    },
+    {
+      "id": "s8",
+      "text": "It was the second companion he had lost since our arrival on board, and what a death!"
+    },
+    {
+      "id": "s9",
+      "text": "That friend, crushed, stifled, bruised by the dreadful arms of a poulp, pounded by his iron jaws, would not rest with his comrades in the peaceful coral cemetery!"
+    },
+    {
+      "id": "s10",
+      "text": "In the midst of the struggle, it was the despairing cry uttered by the unfortunate man that had torn my heart."
+    },
+    {
+      "id": "s11",
+      "text": "The poor Frenchman, forgetting his conventional language, had taken to his own mother tongue, to utter a last appeal!"
+    },
+    {
+      "id": "s12",
+      "text": "Amongst the crew of the _Nautilus_, associated with the body and soul of the Captain, recoiling like him from all contact with men, I had a fellow-countryman."
+    },
+    {
+      "id": "s13",
+      "text": "Did he alone represent France in this mysterious association, evidently composed of individuals of divers nationalities?"
+    },
+    {
+      "id": "s14",
+      "text": "It was one of these insoluble problems that rose up unceasingly before my mind!"
+    },
+    {
+      "id": "s15",
+      "text": "Captain Nemo entered his room, and I saw him no more for some time."
+    },
+    {
+      "id": "s16",
+      "text": "But that he was sad and irresolute I could see by the vessel, of which he was the soul, and which received all his impressions."
+    },
+    {
+      "id": "s17",
+      "text": "The _Nautilus_ did not keep on in its settled course; it floated about like a corpse at the will of the waves."
+    },
+    {
+      "id": "s18",
+      "text": "It went at random."
+    },
+    {
+      "id": "s19",
+      "text": "He could not tear himself away from the scene of the last struggle, from this sea that had devoured one of his men."
+    },
+    {
+      "id": "s20",
+      "text": "Ten days passed thus."
+    },
+    {
+      "id": "s21",
+      "text": "It was not till the 1st of May that the _Nautilus_ resumed its northerly course, after having sighted the Bahamas at the mouth of the Bahama Canal."
+    },
+    {
+      "id": "s22",
+      "text": "We were then following the current from the largest river to the sea, that has its banks, its fish, and its proper temperatures."
+    },
+    {
+      "id": "s23",
+      "text": "I mean the Gulf Stream."
+    },
+    {
+      "id": "s24",
+      "text": "It is really a river, that flows freely to the middle of the Atlantic, and whose waters do not mix with the ocean waters."
+    },
+    {
+      "id": "s25",
+      "text": "It is a salt river, salter than the surrounding sea."
+    },
+    {
+      "id": "s26",
+      "text": "Its mean depth is 1,500 fathoms, its mean breadth ten miles."
+    },
+    {
+      "id": "s27",
+      "text": "In certain places the current flows with the speed of two miles and a half an hour."
+    },
+    {
+      "id": "s28",
+      "text": "The body of its waters is more considerable than that of all the rivers in the globe."
+    },
+    {
+      "id": "s29",
+      "text": "It was on this ocean river that the _Nautilus_ then sailed."
+    },
+    {
+      "id": "s30",
+      "text": "I must add that, during the night, the phosphorescent waters of the Gulf Stream rivalled the electric power of our watch-light, especially in the stormy weather that threatened us so frequently."
+    },
+    {
+      "id": "s31",
+      "text": "May 8th, we were still crossing Cape Hatteras, at the height of North Carolina."
+    },
+    {
+      "id": "s32",
+      "text": "The width of the Gulf Stream there is seventy-five miles, and its depth 210 yards."
+    },
+    {
+      "id": "s33",
+      "text": "The _Nautilus_ still went at random; all supervision seemed abandoned."
+    },
+    {
+      "id": "s34",
+      "text": "I thought that, under these circumstances, escape would be possible."
+    },
+    {
+      "id": "s35",
+      "text": "Indeed, the inhabited shores offered anywhere an easy refuge."
+    },
+    {
+      "id": "s36",
+      "text": "The sea was incessantly ploughed by the steamers that ply between New York or Boston and the Gulf of Mexico, and overrun day and night by the little schooners coasting about the several parts of the American coast."
+    },
+    {
+      "id": "s37",
+      "text": "We could hope to be picked up."
+    },
+    {
+      "id": "s38",
+      "text": "It was a favourable opportunity, notwithstanding the thirty miles that separated the _Nautilus_ from the coasts of the Union."
+    },
+    {
+      "id": "s39",
+      "text": "One unfortunate circumstance thwarted the Canadian’s plans."
+    },
+    {
+      "id": "s40",
+      "text": "The weather was very bad."
+    },
+    {
+      "id": "s41",
+      "text": "We were nearing those shores where tempests are so frequent, that country of waterspouts and cyclones actually engendered by the current of the Gulf Stream."
+    },
+    {
+      "id": "s42",
+      "text": "To tempt the sea in a frail boat was certain destruction."
+    },
+    {
+      "id": "s43",
+      "text": "Ned Land owned this himself."
+    },
+    {
+      "id": "s44",
+      "text": "He fretted, seized with nostalgia that flight only could cure."
+    },
+    {
+      "id": "s45",
+      "text": "“Master,” he said that day to me, “this must come to an end."
+    },
+    {
+      "id": "s46",
+      "text": "I must make a clean breast of it."
+    },
+    {
+      "id": "s47",
+      "text": "This Nemo is leaving land and going up to the north."
+    },
+    {
+      "id": "s48",
+      "text": "But I declare to you that I have had enough of the South Pole, and I will not follow him to the North.”"
+    },
+    {
+      "id": "s49",
+      "text": "“What is to be done, Ned, since flight is impracticable just now?”"
+    },
+    {
+      "id": "s50",
+      "text": "“We must speak to the Captain,” said he; “you said nothing when we were in your native seas."
+    },
+    {
+      "id": "s51",
+      "text": "I will speak, now we are in mine."
+    },
+    {
+      "id": "s52",
+      "text": "When I think that before long the _Nautilus_ will be by Nova Scotia, and that there near New foundland is a large bay, and into that bay the St."
+    },
+    {
+      "id": "s53",
+      "text": "Lawrence empties itself, and that the St."
+    },
+    {
+      "id": "s54",
+      "text": "Lawrence is my river, the river by Quebec, my native town—when I think of this, I feel furious, it makes my hair stand on end."
+    },
+    {
+      "id": "s55",
+      "text": "Sir, I would rather throw myself into the sea!"
+    },
+    {
+      "id": "s56",
+      "text": "I will not stay here!"
+    },
+    {
+      "id": "s57",
+      "text": "I am stifled!”"
+    },
+    {
+      "id": "s58",
+      "text": "The Canadian was evidently losing all patience."
+    },
+    {
+      "id": "s59",
+      "text": "His vigorous nature could not stand this prolonged imprisonment."
+    },
+    {
+      "id": "s60",
+      "text": "His face altered daily; his temper became more surly."
+    },
+    {
+      "id": "s61",
+      "text": "I knew what he must suffer, for I was seized with home-sickness myself."
+    },
+    {
+      "id": "s62",
+      "text": "Nearly seven months had passed without our having had any news from land; Captain Nemo’s isolation, his altered spirits, especially since the fight with the poulps, his taciturnity, all made me view things in a different light."
+    },
+    {
+      "id": "s63",
+      "text": "“Well, sir?” said Ned, seeing I did not reply."
+    },
+    {
+      "id": "s64",
+      "text": "“Well, Ned, do you wish me to ask Captain Nemo his intentions concerning us?”"
+    },
+    {
+      "id": "s65",
+      "text": "“Yes, sir.”"
+    },
+    {
+      "id": "s66",
+      "text": "“Although he has already made them known?”"
+    },
+    {
+      "id": "s67",
+      "text": "“Yes; I wish it settled finally."
+    },
+    {
+      "id": "s68",
+      "text": "Speak for me, in my name only, if you like.”"
+    },
+    {
+      "id": "s69",
+      "text": "“But I so seldom meet him."
+    },
+    {
+      "id": "s70",
+      "text": "He avoids me.”"
+    },
+    {
+      "id": "s71",
+      "text": "“That is all the more reason for you to go to see him.”"
+    },
+    {
+      "id": "s72",
+      "text": "I went to my room."
+    },
+    {
+      "id": "s73",
+      "text": "From thence I meant to go to Captain Nemo’s."
+    },
+    {
+      "id": "s74",
+      "text": "It would not do to let this opportunity of meeting him slip."
+    },
+    {
+      "id": "s75",
+      "text": "I knocked at the door."
+    },
+    {
+      "id": "s76",
+      "text": "No answer."
+    },
+    {
+      "id": "s77",
+      "text": "I knocked again, then turned the handle."
+    },
+    {
+      "id": "s78",
+      "text": "The door opened, I went in."
+    },
+    {
+      "id": "s79",
+      "text": "The Captain was there."
+    },
+    {
+      "id": "s80",
+      "text": "Bending over his work-table, he had not heard me."
+    },
+    {
+      "id": "s81",
+      "text": "Resolved not to go without having spoken, I approached him."
+    },
+    {
+      "id": "s82",
+      "text": "He raised his head quickly, frowned, and said roughly, “You here!"
+    },
+    {
+      "id": "s83",
+      "text": "What do you want?”"
+    },
+    {
+      "id": "s84",
+      "text": "“To speak to you, Captain.”"
+    },
+    {
+      "id": "s85",
+      "text": "“But I am busy, sir; I am working."
+    },
+    {
+      "id": "s86",
+      "text": "I leave you at liberty to shut yourself up; cannot I be allowed the same?”"
+    },
+    {
+      "id": "s87",
+      "text": "This reception was not encouraging; but I was determined to hear and answer everything."
+    },
+    {
+      "id": "s88",
+      "text": "“Sir,” I said coldly, “I have to speak to you on a matter that admits of no delay.”"
+    },
+    {
+      "id": "s89",
+      "text": "“What is that, sir?” he replied, ironically."
+    },
+    {
+      "id": "s90",
+      "text": "“Have you discovered something that has escaped me, or has the sea delivered up any new secrets?”"
+    },
+    {
+      "id": "s91",
+      "text": "We were at cross-purposes."
+    },
+    {
+      "id": "s92",
+      "text": "But, before I could reply, he showed me an open manuscript on his table, and said, in a more serious tone, “Here, M."
+    },
+    {
+      "id": "s93",
+      "text": "Aronnax, is a manuscript written in several languages."
+    },
+    {
+      "id": "s94",
+      "text": "It contains the sum of my studies of the sea; and, if it please God, it shall not perish with me."
+    },
+    {
+      "id": "s95",
+      "text": "This manuscript, signed with my name, complete with the history of my life, will be shut up in a little floating case."
+    },
+    {
+      "id": "s96",
+      "text": "The last survivor of all of us on board the _Nautilus_ will throw this case into the sea, and it will go whither it is borne by the waves.”"
+    },
+    {
+      "id": "s97",
+      "text": "This man’s name! his history written by himself!"
+    },
+    {
+      "id": "s98",
+      "text": "His mystery would then be revealed some day."
+    },
+    {
+      "id": "s99",
+      "text": "“Captain,” I said, “I can but approve of the idea that makes you act thus."
+    },
+    {
+      "id": "s100",
+      "text": "The result of your studies must not be lost."
+    },
+    {
+      "id": "s101",
+      "text": "But the means you employ seem to me to be primitive."
+    },
+    {
+      "id": "s102",
+      "text": "Who knows where the winds will carry this case, and in whose hands it will fall?"
+    },
+    {
+      "id": "s103",
+      "text": "Could you not use some other means?"
+    },
+    {
+      "id": "s104",
+      "text": "Could not you, or one of yours——”"
+    },
+    {
+      "id": "s105",
+      "text": "“Never, sir!” he said, hastily interrupting me."
+    },
+    {
+      "id": "s106",
+      "text": "“But I and my companions are ready to keep this manuscript in store; and, if you will put us at liberty——”"
+    },
+    {
+      "id": "s107",
+      "text": "“At liberty?” said the Captain, rising."
+    },
+    {
+      "id": "s108",
+      "text": "“Yes, sir; that is the subject on which I wish to question you."
+    },
+    {
+      "id": "s109",
+      "text": "For seven months we have been here on board, and I ask you to-day, in the name of my companions and in my own, if your intention is to keep us here always?”"
+    },
+    {
+      "id": "s110",
+      "text": "“M."
+    },
+    {
+      "id": "s111",
+      "text": "Aronnax, I will answer you to-day as I did seven months ago: Whoever enters the _Nautilus_, must never quit it.”"
+    },
+    {
+      "id": "s112",
+      "text": "“You impose actual slavery upon us!”"
+    },
+    {
+      "id": "s113",
+      "text": "“Give it what name you please.”"
+    },
+    {
+      "id": "s114",
+      "text": "“But everywhere the slave has the right to regain his liberty.”"
+    },
+    {
+      "id": "s115",
+      "text": "“Who denies you this right?"
+    },
+    {
+      "id": "s116",
+      "text": "Have I ever tried to chain you with an oath?”"
+    },
+    {
+      "id": "s117",
+      "text": "He looked at me with his arms crossed."
+    },
+    {
+      "id": "s118",
+      "text": "“Sir,” I said, “to return a second time to this subject will be neither to your nor to my taste; but, as we have entered upon it, let us go through with it."
+    },
+    {
+      "id": "s119",
+      "text": "I repeat, it is not only myself whom it concerns."
+    },
+    {
+      "id": "s120",
+      "text": "Study is to me a relief, a diversion, a passion that could make me forget everything."
+    },
+    {
+      "id": "s121",
+      "text": "Like you, I am willing to live obscure, in the frail hope of bequeathing one day, to future time, the result of my labours."
+    },
+    {
+      "id": "s122",
+      "text": "But it is otherwise with Ned Land."
+    },
+    {
+      "id": "s123",
+      "text": "Every man, worthy of the name, deserves some consideration."
+    },
+    {
+      "id": "s124",
+      "text": "Have you thought that love of liberty, hatred of slavery, can give rise to schemes of revenge in a nature like the Canadian’s; that he could think, attempt, and try——”"
+    },
+    {
+      "id": "s125",
+      "text": "I was silenced; Captain Nemo rose."
+    },
+    {
+      "id": "s126",
+      "text": "“Whatever Ned Land thinks of, attempts, or tries, what does it matter to me?"
+    },
+    {
+      "id": "s127",
+      "text": "I did not seek him!"
+    },
+    {
+      "id": "s128",
+      "text": "It is not for my pleasure that I keep him on board!"
+    },
+    {
+      "id": "s129",
+      "text": "As for you, M."
+    },
+    {
+      "id": "s130",
+      "text": "Aronnax, you are one of those who can understand everything, even silence."
+    },
+    {
+      "id": "s131",
+      "text": "I have nothing more to say to you."
+    },
+    {
+      "id": "s132",
+      "text": "Let this first time you have come to treat of this subject be the last, for a second time I will not listen to you.”"
+    },
+    {
+      "id": "s133",
+      "text": "I retired."
+    },
+    {
+      "id": "s134",
+      "text": "Our situation was critical."
+    },
+    {
+      "id": "s135",
+      "text": "I related my conversation to my two companions."
+    },
+    {
+      "id": "s136",
+      "text": "“We know now,” said Ned, “that we can expect nothing from this man."
+    },
+    {
+      "id": "s137",
+      "text": "The _Nautilus_ is nearing Long Island."
+    },
+    {
+      "id": "s138",
+      "text": "We will escape, whatever the weather may be.”"
+    },
+    {
+      "id": "s139",
+      "text": "But the sky became more and more threatening."
+    },
+    {
+      "id": "s140",
+      "text": "Symptoms of a hurricane became manifest."
+    },
+    {
+      "id": "s141",
+      "text": "The atmosphere was becoming white and misty."
+    },
+    {
+      "id": "s142",
+      "text": "On the horizon fine streaks of cirrhous clouds were succeeded by masses of cumuli."
+    },
+    {
+      "id": "s143",
+      "text": "Other low clouds passed swiftly by."
+    },
+    {
+      "id": "s144",
+      "text": "The swollen sea rose in huge billows."
+    },
+    {
+      "id": "s145",
+      "text": "The birds disappeared with the exception of the petrels, those friends of the storm."
+    },
+    {
+      "id": "s146",
+      "text": "The barometer fell sensibly, and indicated an extreme tension of the vapours."
+    },
+    {
+      "id": "s147",
+      "text": "The mixture of the storm glass was decomposed under the influence of the electricity that pervaded the atmosphere."
+    },
+    {
+      "id": "s148",
+      "text": "The tempest burst on the 18th of May, just as the _Nautilus_ was floating off Long Island, some miles from the port of New York."
+    },
+    {
+      "id": "s149",
+      "text": "I can describe this strife of the elements! for, instead of fleeing to the depths of the sea, Captain Nemo, by an unaccountable caprice, would brave it at the surface."
+    },
+    {
+      "id": "s150",
+      "text": "The wind blew from the south-west at first."
+    },
+    {
+      "id": "s151",
+      "text": "Captain Nemo, during the squalls, had taken his place on the platform."
+    },
+    {
+      "id": "s152",
+      "text": "He had made himself fast, to prevent being washed overboard by the monstrous waves."
+    },
+    {
+      "id": "s153",
+      "text": "I had hoisted myself up, and made myself fast also, dividing my admiration between the tempest and this extraordinary man who was coping with it."
+    },
+    {
+      "id": "s154",
+      "text": "The raging sea was swept by huge cloud-drifts, which were actually saturated with the waves."
+    },
+    {
+      "id": "s155",
+      "text": "The _Nautilus_, sometimes lying on its side, sometimes standing up like a mast, rolled and pitched terribly."
+    },
+    {
+      "id": "s156",
+      "text": "About five o’clock a torrent of rain fell, that lulled neither sea nor wind."
+    },
+    {
+      "id": "s157",
+      "text": "The hurricane blew nearly forty leagues an hour."
+    },
+    {
+      "id": "s158",
+      "text": "It is under these conditions that it overturns houses, breaks iron gates, displaces twenty-four pounders."
+    },
+    {
+      "id": "s159",
+      "text": "However, the _Nautilus_, in the midst of the tempest, confirmed the words of a clever engineer, “There is no well-constructed hull that cannot defy the sea.” This was not a resisting rock; it was a steel spindle, obedient and movable, without rigging or masts, that braved its fury with impunity."
+    },
+    {
+      "id": "s160",
+      "text": "However, I watched these raging waves attentively."
+    },
+    {
+      "id": "s161",
+      "text": "They measured fifteen feet in height, and 150 to 175 yards long, and their speed of propagation was thirty feet per second."
+    },
+    {
+      "id": "s162",
+      "text": "Their bulk and power increased with the depth of the water."
+    },
+    {
+      "id": "s163",
+      "text": "Such waves as these, at the Hebrides, have displaced a mass weighing 8,400 lbs."
+    },
+    {
+      "id": "s164",
+      "text": "They are they which, in the tempest of December 23rd, 1864, after destroying the town of Yeddo, in Japan, broke the same day on the shores of America."
+    },
+    {
+      "id": "s165",
+      "text": "The intensity of the tempest increased with the night."
+    },
+    {
+      "id": "s166",
+      "text": "The barometer, as in 1860 at Reunion during a cyclone, fell seven-tenths at the close of day."
+    },
+    {
+      "id": "s167",
+      "text": "I saw a large vessel pass the horizon struggling painfully."
+    },
+    {
+      "id": "s168",
+      "text": "She was trying to lie to under half steam, to keep up above the waves."
+    },
+    {
+      "id": "s169",
+      "text": "It was probably one of the steamers of the line from New York to Liverpool, or Havre."
+    },
+    {
+      "id": "s170",
+      "text": "It soon disappeared in the gloom."
+    },
+    {
+      "id": "s171",
+      "text": "At ten o’clock in the evening the sky was on fire."
+    },
+    {
+      "id": "s172",
+      "text": "The atmosphere was streaked with vivid lightning."
+    },
+    {
+      "id": "s173",
+      "text": "I could not bear the brightness of it; while the captain, looking at it, seemed to envy the spirit of the tempest."
+    },
+    {
+      "id": "s174",
+      "text": "A terrible noise filled the air, a complex noise, made up of the howls of the crushed waves, the roaring of the wind, and the claps of thunder."
+    },
+    {
+      "id": "s175",
+      "text": "The wind veered suddenly to all points of the horizon; and the cyclone, rising in the east, returned after passing by the north, west, and south, in the inverse course pursued by the circular storm of the southern hemisphere."
+    },
+    {
+      "id": "s176",
+      "text": "Ah, that Gulf Stream!"
+    },
+    {
+      "id": "s177",
+      "text": "It deserves its name of the King of Tempests."
+    },
+    {
+      "id": "s178",
+      "text": "It is that which causes those formidable cyclones, by the difference of temperature between its air and its currents."
+    },
+    {
+      "id": "s179",
+      "text": "A shower of fire had succeeded the rain."
+    },
+    {
+      "id": "s180",
+      "text": "The drops of water were changed to sharp spikes."
+    },
+    {
+      "id": "s181",
+      "text": "One would have thought that Captain Nemo was courting a death worthy of himself, a death by lightning."
+    },
+    {
+      "id": "s182",
+      "text": "As the _Nautilus_, pitching dreadfully, raised its steel spur in the air, it seemed to act as a conductor, and I saw long sparks burst from it."
+    },
+    {
+      "id": "s183",
+      "text": "Crushed and without strength I crawled to the panel, opened it, and descended to the saloon."
+    },
+    {
+      "id": "s184",
+      "text": "The storm was then at its height."
+    },
+    {
+      "id": "s185",
+      "text": "It was impossible to stand upright in the interior of the _Nautilus_."
+    },
+    {
+      "id": "s186",
+      "text": "Captain Nemo came down about twelve."
+    },
+    {
+      "id": "s187",
+      "text": "I heard the reservoirs filling by degrees, and the _Nautilus_ sank slowly beneath the waves."
+    },
+    {
+      "id": "s188",
+      "text": "Through the open windows in the saloon I saw large fish terrified, passing like phantoms in the water."
+    },
+    {
+      "id": "s189",
+      "text": "Some were struck before my eyes."
+    },
+    {
+      "id": "s190",
+      "text": "The _Nautilus_ was still descending."
+    },
+    {
+      "id": "s191",
+      "text": "I thought that at about eight fathoms deep we should find a calm."
+    },
+    {
+      "id": "s192",
+      "text": "But no! the upper beds were too violently agitated for that."
+    },
+    {
+      "id": "s193",
+      "text": "We had to seek repose at more than twenty-five fathoms in the bowels of the deep."
+    },
+    {
+      "id": "s194",
+      "text": "But there, what quiet, what silence, what peace!"
+    },
+    {
+      "id": "s195",
+      "text": "Who could have told that such a hurricane had been let loose on the surface of that ocean?"
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-25",
+  "chapterTitle": "CHAPTER XXV.",
+  "contentHash": "sha256:70933d1ecf4e6aa3d13939b07115ace52004512ea4267e528d51481e25725d9a",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER XXV.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The news was all over town in two minutes, and you could see the people tearing down on the run from every which way, some of them putting on their coats as they come."
+    },
+    {
+      "id": "s2",
+      "text": "Pretty soon we was in the middle of a crowd, and the noise of the tramping was like a soldier march."
+    },
+    {
+      "id": "s3",
+      "text": "The windows and dooryards was full; and every minute somebody would say, over a fence:"
+    },
+    {
+      "id": "s4",
+      "text": "“Is it _them?_”"
+    },
+    {
+      "id": "s5",
+      "text": "And somebody trotting along with the gang would answer back and say:"
+    },
+    {
+      "id": "s6",
+      "text": "“You bet it is.”"
+    },
+    {
+      "id": "s7",
+      "text": "When we got to the house the street in front of it was packed, and the three girls was standing in the door."
+    },
+    {
+      "id": "s8",
+      "text": "Mary Jane _was_ red-headed, but that don’t make no difference, she was most awful beautiful, and her face and her eyes was all lit up like glory, she was so glad her uncles was come."
+    },
+    {
+      "id": "s9",
+      "text": "The king he spread his arms, and Mary Jane she jumped for them, and the hare-lip jumped for the duke, and there they _had_ it!"
+    },
+    {
+      "id": "s10",
+      "text": "Everybody most, leastways women, cried for joy to see them meet again at last and have such good times."
+    },
+    {
+      "id": "s11",
+      "text": "Then the king he hunched the duke private—I see him do it—and then he looked around and see the coffin, over in the corner on two chairs; so then him and the duke, with a hand across each other’s shoulder, and t’other hand to their eyes, walked slow and solemn over there, everybody dropping back to give them room, and all the talk and noise stopping, people saying “Sh!” and all the men taking their hats off and drooping their heads, so you could a heard a pin fall."
+    },
+    {
+      "id": "s12",
+      "text": "And when they got there they bent over and looked in the coffin, and took one sight, and then they bust out a-crying so you could a heard them to Orleans, most; and then they put their arms around each other’s necks, and hung their chins over each other’s shoulders; and then for three minutes, or maybe four, I never see two men leak the way they done."
+    },
+    {
+      "id": "s13",
+      "text": "And, mind you, everybody was doing the same; and the place was that damp I never see anything like it."
+    },
+    {
+      "id": "s14",
+      "text": "Then one of them got on one side of the coffin, and t’other on t’other side, and they kneeled down and rested their foreheads on the coffin, and let on to pray all to themselves."
+    },
+    {
+      "id": "s15",
+      "text": "Well, when it come to that it worked the crowd like you never see anything like it, and everybody broke down and went to sobbing right out loud—the poor girls, too; and every woman, nearly, went up to the girls, without saying a word, and kissed them, solemn, on the forehead, and then put their hand on their head, and looked up towards the sky, with the tears running down, and then busted out and went off sobbing and swabbing, and give the next woman a show."
+    },
+    {
+      "id": "s16",
+      "text": "I never see anything so disgusting."
+    },
+    {
+      "id": "s17",
+      "text": "Well, by-and-by the king he gets up and comes forward a little, and works himself up and slobbers out a speech, all full of tears and flapdoodle about its being a sore trial for him and his poor brother to lose the diseased, and to miss seeing diseased alive after the long journey of four thousand mile, but it’s a trial that’s sweetened and sanctified to us by this dear sympathy and these holy tears, and so he thanks them out of his heart and out of his brother’s heart, because out of their mouths they can’t, words being too weak and cold, and all that kind of rot and slush, till it was just sickening; and then he blubbers out a pious goody-goody Amen, and turns himself loose and goes to crying fit to bust."
+    },
+    {
+      "id": "s18",
+      "text": "And the minute the words were out of his mouth somebody over in the crowd struck up the doxolojer, and everybody joined in with all their might, and it just warmed you up and made you feel as good as church letting out."
+    },
+    {
+      "id": "s19",
+      "text": "Music _is_ a good thing; and after all that soul-butter and hogwash I never see it freshen up things so, and sound so honest and bully."
+    },
+    {
+      "id": "s20",
+      "text": "Then the king begins to work his jaw again, and says how him and his nieces would be glad if a few of the main principal friends of the family would take supper here with them this evening, and help set up with the ashes of the diseased; and says if his poor brother laying yonder could speak he knows who he would name, for they was names that was very dear to him, and mentioned often in his letters; and so he will name the same, to wit, as follows, vizz.:—Rev."
+    },
+    {
+      "id": "s21",
+      "text": "Mr."
+    },
+    {
+      "id": "s22",
+      "text": "Hobson, and Deacon Lot Hovey, and Mr."
+    },
+    {
+      "id": "s23",
+      "text": "Ben Rucker, and Abner Shackleford, and Levi Bell, and Dr."
+    },
+    {
+      "id": "s24",
+      "text": "Robinson, and their wives, and the widow Bartley."
+    },
+    {
+      "id": "s25",
+      "text": "Rev."
+    },
+    {
+      "id": "s26",
+      "text": "Hobson and Dr."
+    },
+    {
+      "id": "s27",
+      "text": "Robinson was down to the end of the town a-hunting together—that is, I mean the doctor was shipping a sick man to t’other world, and the preacher was pinting him right."
+    },
+    {
+      "id": "s28",
+      "text": "Lawyer Bell was away up to Louisville on business."
+    },
+    {
+      "id": "s29",
+      "text": "But the rest was on hand, and so they all come and shook hands with the king and thanked him and talked to him; and then they shook hands with the duke and didn’t say nothing, but just kept a-smiling and bobbing their heads like a passel of sapheads whilst he made all sorts of signs with his hands and said “Goo-goo—goo-goo-goo” all the time, like a baby that can’t talk."
+    },
+    {
+      "id": "s30",
+      "text": "So the king he blattered along, and managed to inquire about pretty much everybody and dog in town, by his name, and mentioned all sorts of little things that happened one time or another in the town, or to George’s family, or to Peter."
+    },
+    {
+      "id": "s31",
+      "text": "And he always let on that Peter wrote him the things; but that was a lie: he got every blessed one of them out of that young flathead that we canoed up to the steamboat."
+    },
+    {
+      "id": "s32",
+      "text": "Then Mary Jane she fetched the letter her father left behind, and the king he read it out loud and cried over it."
+    },
+    {
+      "id": "s33",
+      "text": "It give the dwelling-house and three thousand dollars, gold, to the girls; and it give the tanyard (which was doing a good business), along with some other houses and land (worth about seven thousand), and three thousand dollars in gold to Harvey and William, and told where the six thousand cash was hid down cellar."
+    },
+    {
+      "id": "s34",
+      "text": "So these two frauds said they’d go and fetch it up, and have everything square and above-board; and told me to come with a candle."
+    },
+    {
+      "id": "s35",
+      "text": "We shut the cellar door behind us, and when they found the bag they spilt it out on the floor, and it was a lovely sight, all them yaller-boys."
+    },
+    {
+      "id": "s36",
+      "text": "My, the way the king’s eyes did shine!"
+    },
+    {
+      "id": "s37",
+      "text": "He slaps the duke on the shoulder and says:"
+    },
+    {
+      "id": "s38",
+      "text": "“Oh, _this_ ain’t bully nor noth’n!"
+    },
+    {
+      "id": "s39",
+      "text": "Oh, no, I reckon not!"
+    },
+    {
+      "id": "s40",
+      "text": "Why, Bilji, it beats the Nonesuch, _don’t_ it?”"
+    },
+    {
+      "id": "s41",
+      "text": "The duke allowed it did."
+    },
+    {
+      "id": "s42",
+      "text": "They pawed the yaller-boys, and sifted them through their fingers and let them jingle down on the floor; and the king says:"
+    },
+    {
+      "id": "s43",
+      "text": "“It ain’t no use talkin’; bein’ brothers to a rich dead man and representatives of furrin heirs that’s got left is the line for you and me, Bilge."
+    },
+    {
+      "id": "s44",
+      "text": "Thish yer comes of trust’n to Providence."
+    },
+    {
+      "id": "s45",
+      "text": "It’s the best way, in the long run."
+    },
+    {
+      "id": "s46",
+      "text": "I’ve tried ’em all, and ther’ ain’t no better way.”"
+    },
+    {
+      "id": "s47",
+      "text": "Most everybody would a been satisfied with the pile, and took it on trust; but no, they must count it."
+    },
+    {
+      "id": "s48",
+      "text": "So they counts it, and it comes out four hundred and fifteen dollars short."
+    },
+    {
+      "id": "s49",
+      "text": "Says the king:"
+    },
+    {
+      "id": "s50",
+      "text": "“Dern him, I wonder what he done with that four hundred and fifteen dollars?”"
+    },
+    {
+      "id": "s51",
+      "text": "They worried over that awhile, and ransacked all around for it."
+    },
+    {
+      "id": "s52",
+      "text": "Then the duke says:"
+    },
+    {
+      "id": "s53",
+      "text": "“Well, he was a pretty sick man, and likely he made a mistake—I reckon that’s the way of it."
+    },
+    {
+      "id": "s54",
+      "text": "The best way’s to let it go, and keep still about it."
+    },
+    {
+      "id": "s55",
+      "text": "We can spare it.”"
+    },
+    {
+      "id": "s56",
+      "text": "“Oh, shucks, yes, we can _spare_ it."
+    },
+    {
+      "id": "s57",
+      "text": "I don’t k’yer noth’n ’bout that—it’s the _count_ I’m thinkin’ about."
+    },
+    {
+      "id": "s58",
+      "text": "We want to be awful square and open and above-board here, you know."
+    },
+    {
+      "id": "s59",
+      "text": "We want to lug this h-yer money up stairs and count it before everybody—then ther’ ain’t noth’n suspicious."
+    },
+    {
+      "id": "s60",
+      "text": "But when the dead man says ther’s six thous’n dollars, you know, we don’t want to—”"
+    },
+    {
+      "id": "s61",
+      "text": "“Hold on,” says the duke."
+    },
+    {
+      "id": "s62",
+      "text": "“Le’s make up the deffisit,” and he begun to haul out yaller-boys out of his pocket."
+    },
+    {
+      "id": "s63",
+      "text": "“It’s a most amaz’n’ good idea, duke—you _have_ got a rattlin’ clever head on you,” says the king."
+    },
+    {
+      "id": "s64",
+      "text": "“Blest if the old Nonesuch ain’t a heppin’ us out agin,” and _he_ begun to haul out yaller-jackets and stack them up."
+    },
+    {
+      "id": "s65",
+      "text": "It most busted them, but they made up the six thousand clean and clear."
+    },
+    {
+      "id": "s66",
+      "text": "“Say,” says the duke, “I got another idea."
+    },
+    {
+      "id": "s67",
+      "text": "Le’s go up stairs and count this money, and then take and _give it to the girls_.”"
+    },
+    {
+      "id": "s68",
+      "text": "“Good land, duke, lemme hug you!"
+    },
+    {
+      "id": "s69",
+      "text": "It’s the most dazzling idea ’at ever a man struck."
+    },
+    {
+      "id": "s70",
+      "text": "You have cert’nly got the most astonishin’ head I ever see."
+    },
+    {
+      "id": "s71",
+      "text": "Oh, this is the boss dodge, ther’ ain’t no mistake ’bout it."
+    },
+    {
+      "id": "s72",
+      "text": "Let ’em fetch along their suspicions now if they want to—this’ll lay ’em out.”"
+    },
+    {
+      "id": "s73",
+      "text": "When we got up-stairs everybody gethered around the table, and the king he counted it and stacked it up, three hundred dollars in a pile—twenty elegant little piles."
+    },
+    {
+      "id": "s74",
+      "text": "Everybody looked hungry at it, and licked their chops."
+    },
+    {
+      "id": "s75",
+      "text": "Then they raked it into the bag again, and I see the king begin to swell himself up for another speech."
+    },
+    {
+      "id": "s76",
+      "text": "He says:"
+    },
+    {
+      "id": "s77",
+      "text": "“Friends all, my poor brother that lays yonder has done generous by them that’s left behind in the vale of sorrers."
+    },
+    {
+      "id": "s78",
+      "text": "He has done generous by these yer poor little lambs that he loved and sheltered, and that’s left fatherless and motherless."
+    },
+    {
+      "id": "s79",
+      "text": "Yes, and we that knowed him knows that he would a done _more_ generous by ’em if he hadn’t ben afeard o’ woundin’ his dear William and me."
+    },
+    {
+      "id": "s80",
+      "text": "Now, _wouldn’t_ he?"
+    },
+    {
+      "id": "s81",
+      "text": "Ther’ ain’t no question ’bout it in _my_ mind."
+    },
+    {
+      "id": "s82",
+      "text": "Well, then, what kind o’ brothers would it be that ’d stand in his way at sech a time?"
+    },
+    {
+      "id": "s83",
+      "text": "And what kind o’ uncles would it be that ’d rob—yes, _rob_—sech poor sweet lambs as these ’at he loved so at sech a time?"
+    },
+    {
+      "id": "s84",
+      "text": "If I know William—and I _think_ I do—he—well, I’ll jest ask him.” He turns around and begins to make a lot of signs to the duke with his hands, and the duke he looks at him stupid and leather-headed a while; then all of a sudden he seems to catch his meaning, and jumps for the king, goo-gooing with all his might for joy, and hugs him about fifteen times before he lets up."
+    },
+    {
+      "id": "s85",
+      "text": "Then the king says, “I knowed it; I reckon _that_’ll convince anybody the way _he_ feels about it."
+    },
+    {
+      "id": "s86",
+      "text": "Here, Mary Jane, Susan, Joanner, take the money—take it _all_."
+    },
+    {
+      "id": "s87",
+      "text": "It’s the gift of him that lays yonder, cold but joyful.”"
+    },
+    {
+      "id": "s88",
+      "text": "Mary Jane she went for him, Susan and the hare-lip went for the duke, and then such another hugging and kissing I never see yet."
+    },
+    {
+      "id": "s89",
+      "text": "And everybody crowded up with the tears in their eyes, and most shook the hands off of them frauds, saying all the time:"
+    },
+    {
+      "id": "s90",
+      "text": "“You _dear_ good souls!—how _lovely!_—how _could_ you!”"
+    },
+    {
+      "id": "s91",
+      "text": "Well, then, pretty soon all hands got to talking about the diseased again, and how good he was, and what a loss he was, and all that; and before long a big iron-jawed man worked himself in there from outside, and stood a-listening and looking, and not saying anything; and nobody saying anything to him either, because the king was talking and they was all busy listening."
+    },
+    {
+      "id": "s92",
+      "text": "The king was saying—in the middle of something he’d started in on—"
+    },
+    {
+      "id": "s93",
+      "text": "“—they bein’ partickler friends o’ the diseased."
+    },
+    {
+      "id": "s94",
+      "text": "That’s why they’re invited here this evenin’; but tomorrow we want _all_ to come—everybody; for he respected everybody, he liked everybody, and so it’s fitten that his funeral orgies sh’d be public.”"
+    },
+    {
+      "id": "s95",
+      "text": "And so he went a-mooning on and on, liking to hear himself talk, and every little while he fetched in his funeral orgies again, till the duke he couldn’t stand it no more; so he writes on a little scrap of paper, “_obsequies_, you old fool,” and folds it up, and goes to goo-gooing and reaching it over people’s heads to him."
+    },
+    {
+      "id": "s96",
+      "text": "The king he reads it and puts it in his pocket, and says:"
+    },
+    {
+      "id": "s97",
+      "text": "“Poor William, afflicted as he is, his _heart’s_ aluz right."
+    },
+    {
+      "id": "s98",
+      "text": "Asks me to invite everybody to come to the funeral—wants me to make ’em all welcome."
+    },
+    {
+      "id": "s99",
+      "text": "But he needn’t a worried—it was jest what I was at.”"
+    },
+    {
+      "id": "s100",
+      "text": "Then he weaves along again, perfectly ca’m, and goes to dropping in his funeral orgies again every now and then, just like he done before."
+    },
+    {
+      "id": "s101",
+      "text": "And when he done it the third time he says:"
+    },
+    {
+      "id": "s102",
+      "text": "“I say orgies, not because it’s the common term, because it ain’t—obsequies bein’ the common term—but because orgies is the right term."
+    },
+    {
+      "id": "s103",
+      "text": "Obsequies ain’t used in England no more now—it’s gone out."
+    },
+    {
+      "id": "s104",
+      "text": "We say orgies now in England."
+    },
+    {
+      "id": "s105",
+      "text": "Orgies is better, because it means the thing you’re after more exact."
+    },
+    {
+      "id": "s106",
+      "text": "It’s a word that’s made up out’n the Greek _orgo_, outside, open, abroad; and the Hebrew _jeesum_, to plant, cover up; hence in_ter._ So, you see, funeral orgies is an open er public funeral.”"
+    },
+    {
+      "id": "s107",
+      "text": "He was the _worst_ I ever struck."
+    },
+    {
+      "id": "s108",
+      "text": "Well, the iron-jawed man he laughed right in his face."
+    },
+    {
+      "id": "s109",
+      "text": "Everybody was shocked."
+    },
+    {
+      "id": "s110",
+      "text": "Everybody says, “Why, _doctor!_” and Abner Shackleford says:"
+    },
+    {
+      "id": "s111",
+      "text": "“Why, Robinson, hain’t you heard the news?"
+    },
+    {
+      "id": "s112",
+      "text": "This is Harvey Wilks.”"
+    },
+    {
+      "id": "s113",
+      "text": "The king he smiled eager, and shoved out his flapper, and says:"
+    },
+    {
+      "id": "s114",
+      "text": "“_Is_ it my poor brother’s dear good friend and physician?"
+    },
+    {
+      "id": "s115",
+      "text": "I—”"
+    },
+    {
+      "id": "s116",
+      "text": "“Keep your hands off of me!” says the doctor."
+    },
+    {
+      "id": "s117",
+      "text": "“_You_ talk like an Englishman, _don’t_ you?"
+    },
+    {
+      "id": "s118",
+      "text": "It’s the worst imitation I ever heard. _You_ Peter Wilks’s brother!"
+    },
+    {
+      "id": "s119",
+      "text": "You’re a fraud, that’s what you are!”"
+    },
+    {
+      "id": "s120",
+      "text": "Well, how they all took on!"
+    },
+    {
+      "id": "s121",
+      "text": "They crowded around the doctor and tried to quiet him down, and tried to explain to him and tell him how Harvey ’d showed in forty ways that he _was_ Harvey, and knowed everybody by name, and the names of the very dogs, and begged and _begged_ him not to hurt Harvey’s feelings and the poor girl’s feelings, and all that."
+    },
+    {
+      "id": "s122",
+      "text": "But it warn’t no use; he stormed right along, and said any man that pretended to be an Englishman and couldn’t imitate the lingo no better than what he did was a fraud and a liar."
+    },
+    {
+      "id": "s123",
+      "text": "The poor girls was hanging to the king and crying; and all of a sudden the doctor ups and turns on _them_."
+    },
+    {
+      "id": "s124",
+      "text": "He says:"
+    },
+    {
+      "id": "s125",
+      "text": "“I was your father’s friend, and I’m your friend; and I warn you _as_ a friend, and an honest one that wants to protect you and keep you out of harm and trouble, to turn your backs on that scoundrel and have nothing to do with him, the ignorant tramp, with his idiotic Greek and Hebrew, as he calls it."
+    },
+    {
+      "id": "s126",
+      "text": "He is the thinnest kind of an impostor—has come here with a lot of empty names and facts which he picked up somewheres, and you take them for _proofs_, and are helped to fool yourselves by these foolish friends here, who ought to know better."
+    },
+    {
+      "id": "s127",
+      "text": "Mary Jane Wilks, you know me for your friend, and for your unselfish friend, too."
+    },
+    {
+      "id": "s128",
+      "text": "Now listen to me; turn this pitiful rascal out—I _beg_ you to do it."
+    },
+    {
+      "id": "s129",
+      "text": "Will you?”"
+    },
+    {
+      "id": "s130",
+      "text": "Mary Jane straightened herself up, and my, but she was handsome!"
+    },
+    {
+      "id": "s131",
+      "text": "She says:"
+    },
+    {
+      "id": "s132",
+      "text": "“_Here_ is my answer.” She hove up the bag of money and put it in the king’s hands, and says, “Take this six thousand dollars, and invest for me and my sisters any way you want to, and don’t give us no receipt for it.”"
+    },
+    {
+      "id": "s133",
+      "text": "Then she put her arm around the king on one side, and Susan and the hare-lip done the same on the other."
+    },
+    {
+      "id": "s134",
+      "text": "Everybody clapped their hands and stomped on the floor like a perfect storm, whilst the king held up his head and smiled proud."
+    },
+    {
+      "id": "s135",
+      "text": "The doctor says:"
+    },
+    {
+      "id": "s136",
+      "text": "“All right; I wash _my_ hands of the matter."
+    },
+    {
+      "id": "s137",
+      "text": "But I warn you all that a time ’s coming when you’re going to feel sick whenever you think of this day.” And away he went."
+    },
+    {
+      "id": "s138",
+      "text": "“All right, doctor,” says the king, kinder mocking him; “we’ll try and get ’em to send for you;” which made them all laugh, and they said it was a prime good hit."
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-141-mansfield-park",
+  "ebookId": "141",
+  "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-17",
+  "chapterTitle": "CHAPTER XVII",
+  "contentHash": "sha256:ec27e63ff98be5151d8d0713525be1e3b614ba5901fccb37ddd13f5ab3736239",
+  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER XVII. Source checked against Project Gutenberg eBook #141.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/141",
+    "textUrl": "https://www.gutenberg.org/cache/epub/141/pg141.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "It was, indeed, a triumphant day to Mr."
+    },
+    {
+      "id": "s2",
+      "text": "Bertram and Maria."
+    },
+    {
+      "id": "s3",
+      "text": "Such a victory over Edmund’s discretion had been beyond their hopes, and was most delightful."
+    },
+    {
+      "id": "s4",
+      "text": "There was no longer anything to disturb them in their darling project, and they congratulated each other in private on the jealous weakness to which they attributed the change, with all the glee of feelings gratified in every way."
+    },
+    {
+      "id": "s5",
+      "text": "Edmund might still look grave, and say he did not like the scheme in general, and must disapprove the play in particular; their point was gained: he was to act, and he was driven to it by the force of selfish inclinations only."
+    },
+    {
+      "id": "s6",
+      "text": "Edmund had descended from that moral elevation which he had maintained before, and they were both as much the better as the happier for the descent."
+    },
+    {
+      "id": "s7",
+      "text": "They behaved very well, however, to _him_ on the occasion, betraying no exultation beyond the lines about the corners of the mouth, and seemed to think it as great an escape to be quit of the intrusion of Charles Maddox, as if they had been forced into admitting him against their inclination."
+    },
+    {
+      "id": "s8",
+      "text": "“To have it quite in their own family circle was what they had particularly wished."
+    },
+    {
+      "id": "s9",
+      "text": "A stranger among them would have been the destruction of all their comfort”; and when Edmund, pursuing that idea, gave a hint of his hope as to the limitation of the audience, they were ready, in the complaisance of the moment, to promise anything."
+    },
+    {
+      "id": "s10",
+      "text": "It was all good-humour and encouragement."
+    },
+    {
+      "id": "s11",
+      "text": "Mrs."
+    },
+    {
+      "id": "s12",
+      "text": "Norris offered to contrive his dress, Mr."
+    },
+    {
+      "id": "s13",
+      "text": "Yates assured him that Anhalt’s last scene with the Baron admitted a good deal of action and emphasis, and Mr."
+    },
+    {
+      "id": "s14",
+      "text": "Rushworth undertook to count his speeches."
+    },
+    {
+      "id": "s15",
+      "text": "“Perhaps,” said Tom, “Fanny may be more disposed to oblige us now."
+    },
+    {
+      "id": "s16",
+      "text": "Perhaps you may persuade _her_.”"
+    },
+    {
+      "id": "s17",
+      "text": "“No, she is quite determined."
+    },
+    {
+      "id": "s18",
+      "text": "She certainly will not act.”"
+    },
+    {
+      "id": "s19",
+      "text": "“Oh! very well.” And not another word was said; but Fanny felt herself again in danger, and her indifference to the danger was beginning to fail her already."
+    },
+    {
+      "id": "s20",
+      "text": "There were not fewer smiles at the Parsonage than at the Park on this change in Edmund; Miss Crawford looked very lovely in hers, and entered with such an instantaneous renewal of cheerfulness into the whole affair as could have but one effect on him."
+    },
+    {
+      "id": "s21",
+      "text": "“He was certainly right in respecting such feelings; he was glad he had determined on it.” And the morning wore away in satisfactions very sweet, if not very sound."
+    },
+    {
+      "id": "s22",
+      "text": "One advantage resulted from it to Fanny: at the earnest request of Miss Crawford, Mrs."
+    },
+    {
+      "id": "s23",
+      "text": "Grant had, with her usual good-humour, agreed to undertake the part for which Fanny had been wanted; and this was all that occurred to gladden _her_ heart during the day; and even this, when imparted by Edmund, brought a pang with it, for it was Miss Crawford to whom she was obliged—it was Miss Crawford whose kind exertions were to excite her gratitude, and whose merit in making them was spoken of with a glow of admiration."
+    },
+    {
+      "id": "s24",
+      "text": "She was safe; but peace and safety were unconnected here."
+    },
+    {
+      "id": "s25",
+      "text": "Her mind had been never farther from peace."
+    },
+    {
+      "id": "s26",
+      "text": "She could not feel that she had done wrong herself, but she was disquieted in every other way."
+    },
+    {
+      "id": "s27",
+      "text": "Her heart and her judgment were equally against Edmund’s decision: she could not acquit his unsteadiness, and his happiness under it made her wretched."
+    },
+    {
+      "id": "s28",
+      "text": "She was full of jealousy and agitation."
+    },
+    {
+      "id": "s29",
+      "text": "Miss Crawford came with looks of gaiety which seemed an insult, with friendly expressions towards herself which she could hardly answer calmly."
+    },
+    {
+      "id": "s30",
+      "text": "Everybody around her was gay and busy, prosperous and important; each had their object of interest, their part, their dress, their favourite scene, their friends and confederates: all were finding employment in consultations and comparisons, or diversion in the playful conceits they suggested."
+    },
+    {
+      "id": "s31",
+      "text": "She alone was sad and insignificant: she had no share in anything; she might go or stay; she might be in the midst of their noise, or retreat from it to the solitude of the East room, without being seen or missed."
+    },
+    {
+      "id": "s32",
+      "text": "She could almost think anything would have been preferable to this."
+    },
+    {
+      "id": "s33",
+      "text": "Mrs."
+    },
+    {
+      "id": "s34",
+      "text": "Grant was of consequence: _her_ good-nature had honourable mention; her taste and her time were considered; her presence was wanted; she was sought for, and attended, and praised; and Fanny was at first in some danger of envying her the character she had accepted."
+    },
+    {
+      "id": "s35",
+      "text": "But reflection brought better feelings, and shewed her that Mrs."
+    },
+    {
+      "id": "s36",
+      "text": "Grant was entitled to respect, which could never have belonged to _her_; and that, had she received even the greatest, she could never have been easy in joining a scheme which, considering only her uncle, she must condemn altogether."
+    },
+    {
+      "id": "s37",
+      "text": "Fanny’s heart was not absolutely the only saddened one amongst them, as she soon began to acknowledge to herself."
+    },
+    {
+      "id": "s38",
+      "text": "Julia was a sufferer too, though not quite so blamelessly."
+    },
+    {
+      "id": "s39",
+      "text": "Henry Crawford had trifled with her feelings; but she had very long allowed and even sought his attentions, with a jealousy of her sister so reasonable as ought to have been their cure; and now that the conviction of his preference for Maria had been forced on her, she submitted to it without any alarm for Maria’s situation, or any endeavour at rational tranquillity for herself."
+    },
+    {
+      "id": "s40",
+      "text": "She either sat in gloomy silence, wrapt in such gravity as nothing could subdue, no curiosity touch, no wit amuse; or allowing the attentions of Mr."
+    },
+    {
+      "id": "s41",
+      "text": "Yates, was talking with forced gaiety to him alone, and ridiculing the acting of the others."
+    },
+    {
+      "id": "s42",
+      "text": "For a day or two after the affront was given, Henry Crawford had endeavoured to do it away by the usual attack of gallantry and compliment, but he had not cared enough about it to persevere against a few repulses; and becoming soon too busy with his play to have time for more than one flirtation, he grew indifferent to the quarrel, or rather thought it a lucky occurrence, as quietly putting an end to what might ere long have raised expectations in more than Mrs."
+    },
+    {
+      "id": "s43",
+      "text": "Grant."
+    },
+    {
+      "id": "s44",
+      "text": "She was not pleased to see Julia excluded from the play, and sitting by disregarded; but as it was not a matter which really involved her happiness, as Henry must be the best judge of his own, and as he did assure her, with a most persuasive smile, that neither he nor Julia had ever had a serious thought of each other, she could only renew her former caution as to the elder sister, entreat him not to risk his tranquillity by too much admiration there, and then gladly take her share in anything that brought cheerfulness to the young people in general, and that did so particularly promote the pleasure of the two so dear to her."
+    },
+    {
+      "id": "s45",
+      "text": "“I rather wonder Julia is not in love with Henry,” was her observation to Mary."
+    },
+    {
+      "id": "s46",
+      "text": "“I dare say she is,” replied Mary coldly."
+    },
+    {
+      "id": "s47",
+      "text": "“I imagine both sisters are.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Both! no, no, that must not be."
+    },
+    {
+      "id": "s49",
+      "text": "Do not give him a hint of it."
+    },
+    {
+      "id": "s50",
+      "text": "Think of Mr."
+    },
+    {
+      "id": "s51",
+      "text": "Rushworth!”"
+    },
+    {
+      "id": "s52",
+      "text": "“You had better tell Miss Bertram to think of Mr."
+    },
+    {
+      "id": "s53",
+      "text": "Rushworth."
+    },
+    {
+      "id": "s54",
+      "text": "It may do _her_ some good."
+    },
+    {
+      "id": "s55",
+      "text": "I often think of Mr."
+    },
+    {
+      "id": "s56",
+      "text": "Rushworth’s property and independence, and wish them in other hands; but I never think of him."
+    },
+    {
+      "id": "s57",
+      "text": "A man might represent the county with such an estate; a man might escape a profession and represent the county.”"
+    },
+    {
+      "id": "s58",
+      "text": "“I dare say he _will_ be in parliament soon."
+    },
+    {
+      "id": "s59",
+      "text": "When Sir Thomas comes, I dare say he will be in for some borough, but there has been nobody to put him in the way of doing anything yet.”"
+    },
+    {
+      "id": "s60",
+      "text": "“Sir Thomas is to achieve many mighty things when he comes home,” said Mary, after a pause."
+    },
+    {
+      "id": "s61",
+      "text": "“Do you remember Hawkins Browne’s ‘Address to Tobacco,’ in imitation of Pope?—"
+    },
+    {
+      "id": "s62",
+      "text": "Blest leaf! whose aromatic gales dispense To Templars modesty, to Parsons sense."
+    },
+    {
+      "id": "s63",
+      "text": "I will parody them—"
+    },
+    {
+      "id": "s64",
+      "text": "Blest Knight! whose dictatorial looks dispense To Children affluence, to Rushworth sense."
+    },
+    {
+      "id": "s65",
+      "text": "Will not that do, Mrs."
+    },
+    {
+      "id": "s66",
+      "text": "Grant?"
+    },
+    {
+      "id": "s67",
+      "text": "Everything seems to depend upon Sir Thomas’s return.”"
+    },
+    {
+      "id": "s68",
+      "text": "“You will find his consequence very just and reasonable when you see him in his family, I assure you."
+    },
+    {
+      "id": "s69",
+      "text": "I do not think we do so well without him."
+    },
+    {
+      "id": "s70",
+      "text": "He has a fine dignified manner, which suits the head of such a house, and keeps everybody in their place."
+    },
+    {
+      "id": "s71",
+      "text": "Lady Bertram seems more of a cipher now than when he is at home; and nobody else can keep Mrs."
+    },
+    {
+      "id": "s72",
+      "text": "Norris in order."
+    },
+    {
+      "id": "s73",
+      "text": "But, Mary, do not fancy that Maria Bertram cares for Henry."
+    },
+    {
+      "id": "s74",
+      "text": "I am sure _Julia_ does not, or she would not have flirted as she did last night with Mr."
+    },
+    {
+      "id": "s75",
+      "text": "Yates; and though he and Maria are very good friends, I think she likes Sotherton too well to be inconstant.”"
+    },
+    {
+      "id": "s76",
+      "text": "“I would not give much for Mr."
+    },
+    {
+      "id": "s77",
+      "text": "Rushworth’s chance if Henry stept in before the articles were signed.”"
+    },
+    {
+      "id": "s78",
+      "text": "“If you have such a suspicion, something must be done; and as soon as the play is all over, we will talk to him seriously and make him know his own mind; and if he means nothing, we will send him off, though he is Henry, for a time.”"
+    },
+    {
+      "id": "s79",
+      "text": "Julia _did_ suffer, however, though Mrs."
+    },
+    {
+      "id": "s80",
+      "text": "Grant discerned it not, and though it escaped the notice of many of her own family likewise."
+    },
+    {
+      "id": "s81",
+      "text": "She had loved, she did love still, and she had all the suffering which a warm temper and a high spirit were likely to endure under the disappointment of a dear, though irrational hope, with a strong sense of ill-usage."
+    },
+    {
+      "id": "s82",
+      "text": "Her heart was sore and angry, and she was capable only of angry consolations."
+    },
+    {
+      "id": "s83",
+      "text": "The sister with whom she was used to be on easy terms was now become her greatest enemy: they were alienated from each other; and Julia was not superior to the hope of some distressing end to the attentions which were still carrying on there, some punishment to Maria for conduct so shameful towards herself as well as towards Mr."
+    },
+    {
+      "id": "s84",
+      "text": "Rushworth."
+    },
+    {
+      "id": "s85",
+      "text": "With no material fault of temper, or difference of opinion, to prevent their being very good friends while their interests were the same, the sisters, under such a trial as this, had not affection or principle enough to make them merciful or just, to give them honour or compassion."
+    },
+    {
+      "id": "s86",
+      "text": "Maria felt her triumph, and pursued her purpose, careless of Julia; and Julia could never see Maria distinguished by Henry Crawford without trusting that it would create jealousy, and bring a public disturbance at last."
+    },
+    {
+      "id": "s87",
+      "text": "Fanny saw and pitied much of this in Julia; but there was no outward fellowship between them."
+    },
+    {
+      "id": "s88",
+      "text": "Julia made no communication, and Fanny took no liberties."
+    },
+    {
+      "id": "s89",
+      "text": "They were two solitary sufferers, or connected only by Fanny’s consciousness."
+    },
+    {
+      "id": "s90",
+      "text": "The inattention of the two brothers and the aunt to Julia’s discomposure, and their blindness to its true cause, must be imputed to the fullness of their own minds."
+    },
+    {
+      "id": "s91",
+      "text": "They were totally preoccupied."
+    },
+    {
+      "id": "s92",
+      "text": "Tom was engrossed by the concerns of his theatre, and saw nothing that did not immediately relate to it."
+    },
+    {
+      "id": "s93",
+      "text": "Edmund, between his theatrical and his real part, between Miss Crawford’s claims and his own conduct, between love and consistency, was equally unobservant; and Mrs."
+    },
+    {
+      "id": "s94",
+      "text": "Norris was too busy in contriving and directing the general little matters of the company, superintending their various dresses with economical expedient, for which nobody thanked her, and saving, with delighted integrity, half a crown here and there to the absent Sir Thomas, to have leisure for watching the behaviour, or guarding the happiness of his daughters."
+    }
+  ]
+}

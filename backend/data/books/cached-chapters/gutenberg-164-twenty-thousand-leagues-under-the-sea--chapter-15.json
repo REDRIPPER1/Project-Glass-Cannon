@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-15",
+  "chapterTitle": "CHAPTER XV",
+  "contentHash": "sha256:f4edb97b6b4dc2cb318faa9983892ee63b11b1680020eca280142395e8804889",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, CHAPTER XV. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A WALK ON THE BOTTOM OF THE SEA"
+    },
+    {
+      "id": "s2",
+      "text": "This cell was, to speak correctly, the arsenal and wardrobe of the _Nautilus_."
+    },
+    {
+      "id": "s3",
+      "text": "A dozen diving apparatuses hung from the partition, waiting our use."
+    },
+    {
+      "id": "s4",
+      "text": "Ned Land, on seeing them, showed evident repugnance to dress himself in one."
+    },
+    {
+      "id": "s5",
+      "text": "“But, my worthy Ned, the forests of the Island of Crespo are nothing but submarine forests.”"
+    },
+    {
+      "id": "s6",
+      "text": "“Good!” said the disappointed harpooner, who saw his dreams of fresh meat fade away."
+    },
+    {
+      "id": "s7",
+      "text": "“And you, M."
+    },
+    {
+      "id": "s8",
+      "text": "Aronnax, are you going to dress yourself in those clothes?”"
+    },
+    {
+      "id": "s9",
+      "text": "“There is no alternative, Master Ned.”"
+    },
+    {
+      "id": "s10",
+      "text": "“As you please, sir,” replied the harpooner, shrugging his shoulders; “but as for me, unless I am forced, I will never get into one.”"
+    },
+    {
+      "id": "s11",
+      "text": "“No one will force you, Master Ned,” said Captain Nemo."
+    },
+    {
+      "id": "s12",
+      "text": "“Is Conseil going to risk it?” asked Ned."
+    },
+    {
+      "id": "s13",
+      "text": "“I follow my master wherever he goes,” replied Conseil."
+    },
+    {
+      "id": "s14",
+      "text": "At the Captain’s call two of the ship’s crew came to help us to dress in these heavy and impervious clothes, made of india-rubber without seam, and constructed expressly to resist considerable pressure."
+    },
+    {
+      "id": "s15",
+      "text": "One would have thought it a suit of armour, both supple and resisting."
+    },
+    {
+      "id": "s16",
+      "text": "This suit formed trousers and waistcoat."
+    },
+    {
+      "id": "s17",
+      "text": "The trousers were finished off with thick boots, weighted with heavy leaden soles."
+    },
+    {
+      "id": "s18",
+      "text": "The texture of the waistcoat was held together by bands of copper, which crossed the chest, protecting it from the great pressure of the water, and leaving the lungs free to act; the sleeves ended in gloves, which in no way restrained the movement of the hands."
+    },
+    {
+      "id": "s19",
+      "text": "There was a vast difference noticeable between these consummate apparatuses and the old cork breastplates, jackets, and other contrivances in vogue during the eighteenth century."
+    },
+    {
+      "id": "s20",
+      "text": "Captain Nemo and one of his companions (a sort of Hercules, who must have possessed great strength), Conseil, and myself, were soon enveloped in the dresses."
+    },
+    {
+      "id": "s21",
+      "text": "There remained nothing more to be done but to enclose our heads in the metal box."
+    },
+    {
+      "id": "s22",
+      "text": "But before proceeding to this operation, I asked the Captain’s permission to examine the guns we were to carry."
+    },
+    {
+      "id": "s23",
+      "text": "One of the _Nautilus_ men gave me a simple gun, the butt end of which, made of steel, hollow in the centre, was rather large."
+    },
+    {
+      "id": "s24",
+      "text": "It served as a reservoir for compressed air, which a valve, worked by a spring, allowed to escape into a metal tube."
+    },
+    {
+      "id": "s25",
+      "text": "A box of projectiles, in a groove in the thickness of the butt end, contained about twenty of these electric balls, which, by means of a spring, were forced into the barrel of the gun."
+    },
+    {
+      "id": "s26",
+      "text": "As soon as one shot was fired, another was ready."
+    },
+    {
+      "id": "s27",
+      "text": "“Captain Nemo,” said I, “this arm is perfect, and easily handled: I only ask to be allowed to try it."
+    },
+    {
+      "id": "s28",
+      "text": "But how shall we gain the bottom of the sea?”"
+    },
+    {
+      "id": "s29",
+      "text": "“At this moment, Professor, the _Nautilus_ is stranded in five fathoms, and we have nothing to do but to start.”"
+    },
+    {
+      "id": "s30",
+      "text": "“But how shall we get off?”"
+    },
+    {
+      "id": "s31",
+      "text": "“You shall see.”"
+    },
+    {
+      "id": "s32",
+      "text": "Captain Nemo thrust his head into the helmet, Conseil and I did the same, not without hearing an ironical “Good sport!” from the Canadian."
+    },
+    {
+      "id": "s33",
+      "text": "The upper part of our dress terminated in a copper collar upon which was screwed the metal helmet."
+    },
+    {
+      "id": "s34",
+      "text": "Three holes, protected by thick glass, allowed us to see in all directions, by simply turning our head in the interior of the head-dress."
+    },
+    {
+      "id": "s35",
+      "text": "As soon as it was in position, the Rouquayrol apparatus on our backs began to act; and, for my part, I could breathe with ease."
+    },
+    {
+      "id": "s36",
+      "text": "With the Ruhmkorff lamp hanging from my belt, and the gun in my hand, I was ready to set out."
+    },
+    {
+      "id": "s37",
+      "text": "But to speak the truth, imprisoned in these heavy garments, and glued to the deck by my leaden soles, it was impossible for me to take a step."
+    },
+    {
+      "id": "s38",
+      "text": "[Illustration] I was ready to set out"
+    },
+    {
+      "id": "s39",
+      "text": "But this state of things was provided for."
+    },
+    {
+      "id": "s40",
+      "text": "I felt myself being pushed into a little room contiguous to the wardrobe-room."
+    },
+    {
+      "id": "s41",
+      "text": "My companions followed, towed along in the same way."
+    },
+    {
+      "id": "s42",
+      "text": "I heard a water-tight door, furnished with stopper-plates, close upon us, and we were wrapped in profound darkness."
+    },
+    {
+      "id": "s43",
+      "text": "After some minutes, a loud hissing was heard."
+    },
+    {
+      "id": "s44",
+      "text": "I felt the cold mount from my feet to my chest."
+    },
+    {
+      "id": "s45",
+      "text": "Evidently from some part of the vessel they had, by means of a tap, given entrance to the water, which was invading us, and with which the room was soon filled."
+    },
+    {
+      "id": "s46",
+      "text": "A second door cut in the side of the _Nautilus_ then opened."
+    },
+    {
+      "id": "s47",
+      "text": "We saw a faint light."
+    },
+    {
+      "id": "s48",
+      "text": "In another instant our feet trod the bottom of the sea."
+    },
+    {
+      "id": "s49",
+      "text": "And now, how can I retrace the impression left upon me by that walk under the waters?"
+    },
+    {
+      "id": "s50",
+      "text": "Words are impotent to relate such wonders!"
+    },
+    {
+      "id": "s51",
+      "text": "Captain Nemo walked in front, his companion followed some steps behind."
+    },
+    {
+      "id": "s52",
+      "text": "Conseil and I remained near each other, as if an exchange of words had been possible through our metallic cases."
+    },
+    {
+      "id": "s53",
+      "text": "I no longer felt the weight of my clothing, or of my shoes, of my reservoir of air, or my thick helmet, in the midst of which my head rattled like an almond in its shell."
+    },
+    {
+      "id": "s54",
+      "text": "The light, which lit the soil thirty feet below the surface of the ocean, astonished me by its power."
+    },
+    {
+      "id": "s55",
+      "text": "The solar rays shone through the watery mass easily, and dissipated all colour, and I clearly distinguished objects at a distance of a hundred and fifty yards."
+    },
+    {
+      "id": "s56",
+      "text": "Beyond that the tints darkened into fine gradations of ultramarine, and faded into vague obscurity."
+    },
+    {
+      "id": "s57",
+      "text": "Truly this water which surrounded me was but another air denser than the terrestrial atmosphere, but almost as transparent."
+    },
+    {
+      "id": "s58",
+      "text": "Above me was the calm surface of the sea."
+    },
+    {
+      "id": "s59",
+      "text": "We were walking on fine, even sand, not wrinkled, as on a flat shore, which retains the impression of the billows."
+    },
+    {
+      "id": "s60",
+      "text": "This dazzling carpet, really a reflector, repelled the rays of the sun with wonderful intensity, which accounted for the vibration which penetrated every atom of liquid."
+    },
+    {
+      "id": "s61",
+      "text": "Shall I be believed when I say that, at the depth of thirty feet, I could see as if I was in broad daylight?"
+    },
+    {
+      "id": "s62",
+      "text": "For a quarter of an hour I trod on this sand, sown with the impalpable dust of shells."
+    },
+    {
+      "id": "s63",
+      "text": "The hull of the _Nautilus_, resembling a long shoal, disappeared by degrees; but its lantern, when darkness should overtake us in the waters, would help to guide us on board by its distinct rays."
+    },
+    {
+      "id": "s64",
+      "text": "Soon forms of objects outlined in the distance were discernible."
+    },
+    {
+      "id": "s65",
+      "text": "I recognised magnificent rocks, hung with a tapestry of zoophytes of the most beautiful kind, and I was at first struck by the peculiar effect of this medium."
+    },
+    {
+      "id": "s66",
+      "text": "It was then ten in the morning; the rays of the sun struck the surface of the waves at rather an oblique angle, and at the touch of their light, decomposed by refraction as through a prism, flowers, rocks, plants, shells, and polypi were shaded at the edges by the seven solar colours."
+    },
+    {
+      "id": "s67",
+      "text": "It was marvellous, a feast for the eyes, this complication of coloured tints, a perfect kaleidoscope of green, yellow, orange, violet, indigo, and blue; in one word, the whole palette of an enthusiastic colourist!"
+    },
+    {
+      "id": "s68",
+      "text": "Why could I not communicate to Conseil the lively sensations which were mounting to my brain, and rival him in expressions of admiration?"
+    },
+    {
+      "id": "s69",
+      "text": "For aught I knew, Captain Nemo and his companion might be able to exchange thoughts by means of signs previously agreed upon."
+    },
+    {
+      "id": "s70",
+      "text": "So, for want of better, I talked to myself; I declaimed in the copper box which covered my head, thereby expending more air in vain words than was perhaps expedient."
+    },
+    {
+      "id": "s71",
+      "text": "Various kinds of isis, clusters of pure tuft-coral, prickly fungi, and anemones formed a brilliant garden of flowers, enamelled with porphitæ, decked with their collarettes of blue tentacles, sea-stars studding the sandy bottom, together with asterophytons like fine lace embroidered by the hands of naïads, whose festoons were waved by the gentle undulations caused by our walk."
+    },
+    {
+      "id": "s72",
+      "text": "It was a real grief to me to crush under my feet the brilliant specimens of molluscs which strewed the ground by thousands, of hammer-heads, donaciae (veritable bounding shells), of staircases, and red helmet-shells, angel-wings, and many others produced by this inexhaustible ocean."
+    },
+    {
+      "id": "s73",
+      "text": "But we were bound to walk, so we went on, whilst above our heads waved shoals of physalides leaving their tentacles to float in their train, medusæ whose umbrellas of opal or rose-pink, escalloped with a band of blue, sheltered us from the rays of the sun and fiery pelagiæ, which, in the darkness, would have strewn our path with phosphorescent light."
+    },
+    {
+      "id": "s74",
+      "text": "All these wonders I saw in the space of a quarter of a mile, scarcely stopping, and following Captain Nemo, who beckoned me on by signs."
+    },
+    {
+      "id": "s75",
+      "text": "Soon the nature of the soil changed; to the sandy plain succeeded an extent of slimy mud, which the Americans call “ooze,” composed of equal parts of silicious and calcareous shells."
+    },
+    {
+      "id": "s76",
+      "text": "We then travelled over a plain of sea-weed of wild and luxuriant vegetation."
+    },
+    {
+      "id": "s77",
+      "text": "This sward was of close texture, and soft to the feet, and rivalled the softest carpet woven by the hand of man."
+    },
+    {
+      "id": "s78",
+      "text": "But whilst verdure was spread at our feet, it did not abandon our heads."
+    },
+    {
+      "id": "s79",
+      "text": "A light network of marine plants, of that inexhaustible family of sea-weeds of which more than two thousand kinds are known, grew on the surface of the water."
+    },
+    {
+      "id": "s80",
+      "text": "I saw long ribbons of fucus floating, some globular, others tuberous; laurenciæ and cladostephi of most delicate foliage, and some rhodomeniæ palmatæ, resembling the fan of a cactus."
+    },
+    {
+      "id": "s81",
+      "text": "I noticed that the green plants kept nearer the top of the sea, whilst the red were at a greater depth, leaving to the black or brown hydrophytes the care of forming gardens and parterres in the remote beds of the ocean."
+    },
+    {
+      "id": "s82",
+      "text": "We had quitted the _Nautilus_ about an hour and a half."
+    },
+    {
+      "id": "s83",
+      "text": "It was near noon; I knew by the perpendicularity of the sun’s rays, which were no longer refracted."
+    },
+    {
+      "id": "s84",
+      "text": "The magical colours disappeared by degrees, and the shades of emerald and sapphire were effaced."
+    },
+    {
+      "id": "s85",
+      "text": "We walked with a regular step, which rang upon the ground with astonishing intensity; the slightest noise was transmitted with a quickness to which the ear is unaccustomed on the earth; indeed, water is a better conductor of sound than air, in the ratio of four to one."
+    },
+    {
+      "id": "s86",
+      "text": "At this period the earth sloped downwards; the light took a uniform tint."
+    },
+    {
+      "id": "s87",
+      "text": "We were at a depth of a hundred and five yards and twenty inches, undergoing a pressure of six atmospheres."
+    },
+    {
+      "id": "s88",
+      "text": "At this depth I could still see the rays of the sun, though feebly; to their intense brilliancy had succeeded a reddish twilight, the lowest state between day and night; but we could still see well enough; it was not necessary to resort to the Ruhmkorff apparatus as yet."
+    },
+    {
+      "id": "s89",
+      "text": "At this moment Captain Nemo stopped; he waited till I joined him, and then pointed to an obscure mass, looming in the shadow, at a short distance."
+    },
+    {
+      "id": "s90",
+      "text": "“It is the forest of the Island of Crespo,” thought I;—and I was not mistaken."
+    }
+  ]
+}

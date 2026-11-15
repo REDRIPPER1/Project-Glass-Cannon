@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-4",
+  "chapterTitle": "Part 2 — CHAPTER IV.",
+  "contentHash": "sha256:c9a787d28ee8aa63176afba23da7d7e86c8a152ea7f7e789f2954b06e0897204",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, Part 2 — CHAPTER IV.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A LITTLE ALGEBRA"
+    },
+    {
+      "id": "s2",
+      "text": "The night passed without incident."
+    },
+    {
+      "id": "s3",
+      "text": "The word “night,” however, is scarcely applicable."
+    },
+    {
+      "id": "s4",
+      "text": "The position of the projectile with regard to the sun did not change."
+    },
+    {
+      "id": "s5",
+      "text": "Astronomically, it was daylight on the lower part, and night on the upper; so when during this narrative these words are used, they represent the lapse of time between rising and setting of the sun upon the earth."
+    },
+    {
+      "id": "s6",
+      "text": "The travelers’ sleep was rendered more peaceful by the projectile’s excessive speed, for it seemed absolutely motionless."
+    },
+    {
+      "id": "s7",
+      "text": "Not a motion betrayed its onward course through space."
+    },
+    {
+      "id": "s8",
+      "text": "The rate of progress, however rapid it might be, cannot produce any sensible effect on the human frame when it takes place in a vacuum, or when the mass of air circulates with the body which is carried with it."
+    },
+    {
+      "id": "s9",
+      "text": "What inhabitant of the earth perceives its speed, which, however, is at the rate of 68,000 miles per hour?"
+    },
+    {
+      "id": "s10",
+      "text": "Motion under such conditions is “felt” no more than repose; and when a body is in repose it will remain so as long as no strange force displaces it; if moving, it will not stop unless an obstacle comes in its way."
+    },
+    {
+      "id": "s11",
+      "text": "This indifference to motion or repose is called inertia."
+    },
+    {
+      "id": "s12",
+      "text": "Barbicane and his companions might have believed themselves perfectly stationary, being shut up in the projectile; indeed, the effect would have been the same if they had been on the outside of it."
+    },
+    {
+      "id": "s13",
+      "text": "Had it not been for the moon, which was increasing above them, they might have sworn that they were floating in complete stagnation."
+    },
+    {
+      "id": "s14",
+      "text": "That morning, the 3rd of December, the travelers were awakened by a joyous but unexpected noise; it was the crowing of a cock which sounded through the car."
+    },
+    {
+      "id": "s15",
+      "text": "Michel Ardan, who was the first on his feet, climbed to the top of the projectile, and shutting a box, the lid of which was partly open, said in a low voice, “Will you hold your tongue?"
+    },
+    {
+      "id": "s16",
+      "text": "That creature will spoil my design!”"
+    },
+    {
+      "id": "s17",
+      "text": "But Nicholl and Barbicane were awake."
+    },
+    {
+      "id": "s18",
+      "text": "“A cock!” said Nicholl."
+    },
+    {
+      "id": "s19",
+      "text": "“Why no, my friends,” Michel answered quickly; “it was I who wished to awake you by this rural sound.” So saying, he gave vent to a splendid cock-a-doodledoo, which would have done honor to the proudest of poultry-yards."
+    },
+    {
+      "id": "s20",
+      "text": "The two Americans could not help laughing."
+    },
+    {
+      "id": "s21",
+      "text": "“Fine talent that,” said Nicholl, looking suspiciously at his companion."
+    },
+    {
+      "id": "s22",
+      "text": "“Yes,” said Michel; “a joke in my country."
+    },
+    {
+      "id": "s23",
+      "text": "It is very Gallic; they play the cock so in the best society.”"
+    },
+    {
+      "id": "s24",
+      "text": "Then turning the conversation:"
+    },
+    {
+      "id": "s25",
+      "text": "“Barbicane, do you know what I have been thinking of all night?”"
+    },
+    {
+      "id": "s26",
+      "text": "“No,” answered the president."
+    },
+    {
+      "id": "s27",
+      "text": "“Of our Cambridge friends."
+    },
+    {
+      "id": "s28",
+      "text": "You have already remarked that I am an ignoramus in mathematical subjects; and it is impossible for me to find out how the savants of the observatory were able to calculate what initiatory speed the projectile ought to have on leaving the Columbiad in order to attain the moon.”"
+    },
+    {
+      "id": "s29",
+      "text": "“You mean to say,” replied Barbicane, “to attain that neutral point where the terrestrial and lunar attractions are equal; for, starting from that point, situated about nine-tenths of the distance traveled over, the projectile would simply fall upon the moon, on account of its weight.”"
+    },
+    {
+      "id": "s30",
+      "text": "“So be it,” said Michel; “but, once more; how could they calculate the initiatory speed?”"
+    },
+    {
+      "id": "s31",
+      "text": "“Nothing can be easier,” replied Barbicane."
+    },
+    {
+      "id": "s32",
+      "text": "“And you knew how to make that calculation?” asked Michel Ardan."
+    },
+    {
+      "id": "s33",
+      "text": "“Perfectly."
+    },
+    {
+      "id": "s34",
+      "text": "Nicholl and I would have made it, if the observatory had not saved us the trouble.”"
+    },
+    {
+      "id": "s35",
+      "text": "“Very well, old Barbicane,” replied Michel; “they might have cut off my head, beginning at my feet, before they could have made me solve that problem.”"
+    },
+    {
+      "id": "s36",
+      "text": "“Because you do not know algebra,” answered Barbicane quietly."
+    },
+    {
+      "id": "s37",
+      "text": "“Ah, there you are, you eaters of _x_1; you think you have said all when you have said ‘Algebra.’”"
+    },
+    {
+      "id": "s38",
+      "text": "“Michel,” said Barbicane, “can you use a forge without a hammer, or a plow without a plowshare?”"
+    },
+    {
+      "id": "s39",
+      "text": "“Hardly.”"
+    },
+    {
+      "id": "s40",
+      "text": "“Well, algebra is a tool, like the plow or the hammer, and a good tool to those who know how to use it.”"
+    },
+    {
+      "id": "s41",
+      "text": "“Seriously?”"
+    },
+    {
+      "id": "s42",
+      "text": "“Quite seriously.”"
+    },
+    {
+      "id": "s43",
+      "text": "“And can you use that tool in my presence?”"
+    },
+    {
+      "id": "s44",
+      "text": "“If it will interest you.”"
+    },
+    {
+      "id": "s45",
+      "text": "“And show me how they calculated the initiatory speed of our car?”"
+    },
+    {
+      "id": "s46",
+      "text": "“Yes, my worthy friend; taking into consideration all the elements of the problem, the distance from the center of the earth to the center of the moon, of the radius of the earth, of its bulk, and of the bulk of the moon, I can tell exactly what ought to be the initiatory speed of the projectile, and that by a simple formula.”"
+    },
+    {
+      "id": "s47",
+      "text": "“Let us see.”"
+    },
+    {
+      "id": "s48",
+      "text": "“You shall see it; only I shall not give you the real course drawn by the projectile between the moon and the earth in considering their motion round the sun."
+    },
+    {
+      "id": "s49",
+      "text": "No, I shall consider these two orbs as perfectly motionless, which will answer all our purpose.”"
+    },
+    {
+      "id": "s50",
+      "text": "“And why?”"
+    },
+    {
+      "id": "s51",
+      "text": "“Because it will be trying to solve the problem called ‘the problem of the three bodies,’ for which the integral calculus is not yet far enough advanced.”"
+    },
+    {
+      "id": "s52",
+      "text": "“Then,” said Michel Ardan, in his sly tone, “mathematics have not said their last word?”"
+    },
+    {
+      "id": "s53",
+      "text": "“Certainly not,” replied Barbicane."
+    },
+    {
+      "id": "s54",
+      "text": "“Well, perhaps the Selenites have carried the integral calculus farther than you have; and, by the bye, what is this ‘integral calculus?’”"
+    },
+    {
+      "id": "s55",
+      "text": "“It is a calculation the converse of the differential,” replied Barbicane seriously."
+    },
+    {
+      "id": "s56",
+      "text": "“Much obliged; it is all very clear, no doubt.”"
+    },
+    {
+      "id": "s57",
+      "text": "“And now,” continued Barbicane, “a slip of paper and a bit of pencil, and before a half-hour is over I will have found the required formula.”"
+    },
+    {
+      "id": "s58",
+      "text": "Half an hour had not elapsed before Barbicane, raising his head, showed Michel Ardan a page covered with algebraical signs, in which the general formula for the solution was contained."
+    },
+    {
+      "id": "s59",
+      "text": "“Well, and does Nicholl understand what that means?”"
+    },
+    {
+      "id": "s60",
+      "text": "“Of course, Michel,” replied the captain."
+    },
+    {
+      "id": "s61",
+      "text": "“All these signs, which seem cabalistic to you, form the plainest, the clearest, and the most logical language to those who know how to read it.”"
+    },
+    {
+      "id": "s62",
+      "text": "“And you pretend, Nicholl,” asked Michel, “that by means of these hieroglyphics, more incomprehensible than the Egyptian Ibis, you can find what initiatory speed it was necessary to give the projectile?”"
+    },
+    {
+      "id": "s63",
+      "text": "“Incontestably,” replied Nicholl; “and even by this same formula I can always tell you its speed at any point of its transit.”"
+    },
+    {
+      "id": "s64",
+      "text": "“On your word?”"
+    },
+    {
+      "id": "s65",
+      "text": "“On my word.”"
+    },
+    {
+      "id": "s66",
+      "text": "“Then you are as cunning as our president.”"
+    },
+    {
+      "id": "s67",
+      "text": "“No, Michel; the difficult part is what Barbicane has done; that is, to get an equation which shall satisfy all the conditions of the problem."
+    },
+    {
+      "id": "s68",
+      "text": "The remainder is only a question of arithmetic, requiring merely the knowledge of the four rules.”"
+    },
+    {
+      "id": "s69",
+      "text": "“That is something!” replied Michel Ardan, who for his life could not do addition right, and who defined the rule as a Chinese puzzle, which allowed one to obtain all sorts of totals."
+    },
+    {
+      "id": "s70",
+      "text": "“The expression _v_ zero, which you see in that equation, is the speed which the projectile will have on leaving the atmosphere.”"
+    },
+    {
+      "id": "s71",
+      "text": "“Just so,” said Nicholl; “it is from that point that we must calculate the velocity, since we know already that the velocity at departure was exactly one and a half times more than on leaving the atmosphere.”"
+    },
+    {
+      "id": "s72",
+      "text": "“I understand no more,” said Michel."
+    },
+    {
+      "id": "s73",
+      "text": "“It is a very simple calculation,” said Barbicane."
+    },
+    {
+      "id": "s74",
+      "text": "“Not as simple as I am,” retorted Michel."
+    },
+    {
+      "id": "s75",
+      "text": "“That means, that when our projectile reached the limits of the terrestrial atmosphere it had already lost one-third of its initiatory speed.”"
+    },
+    {
+      "id": "s76",
+      "text": "“As much as that?”"
+    },
+    {
+      "id": "s77",
+      "text": "“Yes, my friend; merely by friction against the atmospheric strata."
+    },
+    {
+      "id": "s78",
+      "text": "You understand that the faster it goes the more resistance it meets with from the air.”"
+    },
+    {
+      "id": "s79",
+      "text": "“That I admit,” answered Michel; “and I understand it, although your x’s and zero’s, and algebraic formula, are rattling in my head like nails in a bag.”"
+    },
+    {
+      "id": "s80",
+      "text": "“First effects of algebra,” replied Barbicane; “and now, to finish, we are going to prove the given number of these different expressions, that is, work out their value.”"
+    },
+    {
+      "id": "s81",
+      "text": "“Finish me!” replied Michel."
+    },
+    {
+      "id": "s82",
+      "text": "Barbicane took the paper, and began to make his calculations with great rapidity."
+    },
+    {
+      "id": "s83",
+      "text": "Nicholl looked over and greedily read the work as it proceeded."
+    },
+    {
+      "id": "s84",
+      "text": "“That’s it! that’s it!” at last he cried."
+    },
+    {
+      "id": "s85",
+      "text": "“Is it clear?” asked Barbicane."
+    },
+    {
+      "id": "s86",
+      "text": "“It is written in letters of fire,” said Nicholl."
+    },
+    {
+      "id": "s87",
+      "text": "“Wonderful fellows!” muttered Ardan."
+    },
+    {
+      "id": "s88",
+      "text": "“Do you understand it at last?” asked Barbicane."
+    },
+    {
+      "id": "s89",
+      "text": "“Do I understand it?” cried Ardan; “my head is splitting with it.”"
+    },
+    {
+      "id": "s90",
+      "text": "“And now,” said Nicholl, “to find out the speed of the projectile when it leaves the atmosphere, we have only to calculate that.”"
+    },
+    {
+      "id": "s91",
+      "text": "The captain, as a practical man equal to all difficulties, began to write with frightful rapidity."
+    },
+    {
+      "id": "s92",
+      "text": "Divisions and multiplications grew under his fingers; the figures were like hail on the white page."
+    },
+    {
+      "id": "s93",
+      "text": "Barbicane watched him, while Michel Ardan nursed a growing headache with both hands."
+    },
+    {
+      "id": "s94",
+      "text": "“Very well?” asked Barbicane, after some minutes’ silence."
+    },
+    {
+      "id": "s95",
+      "text": "“Well!” replied Nicholl; every calculation made, _v_ zero, that is to say, the speed necessary for the projectile on leaving the atmosphere, to enable it to reach the equal point of attraction, ought to be—”"
+    },
+    {
+      "id": "s96",
+      "text": "“Yes?” said Barbicane."
+    },
+    {
+      "id": "s97",
+      "text": "“Twelve thousand yards.”"
+    },
+    {
+      "id": "s98",
+      "text": "“What!” exclaimed Barbicane, starting; “you say—”"
+    },
+    {
+      "id": "s99",
+      "text": "“Twelve thousand yards.”"
+    },
+    {
+      "id": "s100",
+      "text": "“The devil!” cried the president, making a gesture of despair."
+    },
+    {
+      "id": "s101",
+      "text": "“What is the matter?” asked Michel Ardan, much surprised."
+    },
+    {
+      "id": "s102",
+      "text": "“What is the matter! why, if at this moment our speed had already diminished one-third by friction, the initiatory speed ought to have been—”"
+    },
+    {
+      "id": "s103",
+      "text": "“Seventeen thousand yards.”"
+    },
+    {
+      "id": "s104",
+      "text": "“And the Cambridge Observatory declared that twelve thousand yards was enough at starting; and our projectile, which only started with that speed—”"
+    },
+    {
+      "id": "s105",
+      "text": "“Well?” asked Nicholl."
+    },
+    {
+      "id": "s106",
+      "text": "“Well, it will not be enough.”"
+    },
+    {
+      "id": "s107",
+      "text": "“Good.”"
+    },
+    {
+      "id": "s108",
+      "text": "“We shall not be able to reach the neutral point.”"
+    },
+    {
+      "id": "s109",
+      "text": "“The deuce!”"
+    },
+    {
+      "id": "s110",
+      "text": "“We shall not even get halfway.”"
+    },
+    {
+      "id": "s111",
+      "text": "“In the name of the projectile!” exclaimed Michel Ardan, jumping as if it was already on the point of striking the terrestrial globe."
+    },
+    {
+      "id": "s112",
+      "text": "“And we shall fall back upon the earth!”"
+    }
+  ]
+}

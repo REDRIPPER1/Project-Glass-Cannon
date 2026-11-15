@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-7",
+  "chapterTitle": "CHAPTER VII",
+  "contentHash": "sha256:060be4bc04d5001036a493fb8ea5f6ac24d2590f77818493d11a8617b3132ce0",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, CHAPTER VII. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "AN UNKNOWN SPECIES OF WHALE"
+    },
+    {
+      "id": "s2",
+      "text": "This unexpected fall so stunned me that I have no clear recollection of my sensations at the time."
+    },
+    {
+      "id": "s3",
+      "text": "I was at first drawn down to a depth of about twenty feet."
+    },
+    {
+      "id": "s4",
+      "text": "I am a good swimmer (though without pretending to rival Byron or Edgar Poe, who were masters of the art), and in that plunge I did not lose my presence of mind."
+    },
+    {
+      "id": "s5",
+      "text": "Two vigorous strokes brought me to the surface of the water."
+    },
+    {
+      "id": "s6",
+      "text": "My first care was to look for the frigate."
+    },
+    {
+      "id": "s7",
+      "text": "Had the crew seen me disappear?"
+    },
+    {
+      "id": "s8",
+      "text": "Had the _Abraham Lincoln_ veered round?"
+    },
+    {
+      "id": "s9",
+      "text": "Would the captain put out a boat?"
+    },
+    {
+      "id": "s10",
+      "text": "Might I hope to be saved?"
+    },
+    {
+      "id": "s11",
+      "text": "The darkness was intense."
+    },
+    {
+      "id": "s12",
+      "text": "I caught a glimpse of a black mass disappearing in the east, its beacon lights dying out in the distance."
+    },
+    {
+      "id": "s13",
+      "text": "It was the frigate!"
+    },
+    {
+      "id": "s14",
+      "text": "I was lost."
+    },
+    {
+      "id": "s15",
+      "text": "“Help, help!” I shouted, swimming towards the _Abraham Lincoln_ in desperation."
+    },
+    {
+      "id": "s16",
+      "text": "My clothes encumbered me; they seemed glued to my body, and paralysed my movements."
+    },
+    {
+      "id": "s17",
+      "text": "I was sinking!"
+    },
+    {
+      "id": "s18",
+      "text": "I was suffocating!"
+    },
+    {
+      "id": "s19",
+      "text": "“Help!”"
+    },
+    {
+      "id": "s20",
+      "text": "This was my last cry."
+    },
+    {
+      "id": "s21",
+      "text": "My mouth filled with water; I struggled against being drawn down the abyss."
+    },
+    {
+      "id": "s22",
+      "text": "Suddenly my clothes were seized by a strong hand, and I felt myself quickly drawn up to the surface of the sea; and I heard, yes, I heard these words pronounced in my ear—"
+    },
+    {
+      "id": "s23",
+      "text": "“If master would be so good as to lean on my shoulder, master would swim with much greater ease.”"
+    },
+    {
+      "id": "s24",
+      "text": "I seized with one hand my faithful Conseil’s arm."
+    },
+    {
+      "id": "s25",
+      "text": "“Is it you?” said I, “you?”"
+    },
+    {
+      "id": "s26",
+      "text": "“Myself,” answered Conseil; “and waiting master’s orders.”"
+    },
+    {
+      "id": "s27",
+      "text": "“That shock threw you as well as me into the sea?”"
+    },
+    {
+      "id": "s28",
+      "text": "“No; but being in my master’s service, I followed him.”"
+    },
+    {
+      "id": "s29",
+      "text": "The worthy fellow thought that was but natural."
+    },
+    {
+      "id": "s30",
+      "text": "“And the frigate?” I asked."
+    },
+    {
+      "id": "s31",
+      "text": "“The frigate?” replied Conseil, turning on his back; “I think that master had better not count too much on her.”"
+    },
+    {
+      "id": "s32",
+      "text": "“You think so?”"
+    },
+    {
+      "id": "s33",
+      "text": "“I say that, at the time I threw myself into the sea, I heard the men at the wheel say, ‘The screw and the rudder are broken.’”"
+    },
+    {
+      "id": "s34",
+      "text": "“Broken?”"
+    },
+    {
+      "id": "s35",
+      "text": "“Yes, broken by the monster’s teeth."
+    },
+    {
+      "id": "s36",
+      "text": "It is the only injury the _Abraham Lincoln_ has sustained."
+    },
+    {
+      "id": "s37",
+      "text": "But it is a bad look out for us—she no longer answers her helm.”"
+    },
+    {
+      "id": "s38",
+      "text": "“Then we are lost!”"
+    },
+    {
+      "id": "s39",
+      "text": "“Perhaps so,” calmly answered Conseil."
+    },
+    {
+      "id": "s40",
+      "text": "“However, we have still several hours before us, and one can do a good deal in some hours.”"
+    },
+    {
+      "id": "s41",
+      "text": "Conseil’s imperturbable coolness set me up again."
+    },
+    {
+      "id": "s42",
+      "text": "I swam more vigorously; but, cramped by my clothes, which stuck to me like a leaden weight, I felt great difficulty in bearing up."
+    },
+    {
+      "id": "s43",
+      "text": "Conseil saw this."
+    },
+    {
+      "id": "s44",
+      "text": "“Will master let me make a slit?” said he; and, slipping an open knife under my clothes, he ripped them up from top to bottom very rapidly."
+    },
+    {
+      "id": "s45",
+      "text": "Then he cleverly slipped them off me, while I swam for both of us."
+    },
+    {
+      "id": "s46",
+      "text": "Then I did the same for Conseil, and we continued to swim near to each other."
+    },
+    {
+      "id": "s47",
+      "text": "Nevertheless, our situation was no less terrible."
+    },
+    {
+      "id": "s48",
+      "text": "Perhaps our disappearance had not been noticed; and if it had been, the frigate could not tack, being without its helm."
+    },
+    {
+      "id": "s49",
+      "text": "Conseil argued on this supposition, and laid his plans accordingly."
+    },
+    {
+      "id": "s50",
+      "text": "This phlegmatic boy was perfectly self-possessed."
+    },
+    {
+      "id": "s51",
+      "text": "We then decided that, as our only chance of safety was being picked up by the _Abraham Lincoln’s_ boats, we ought to manage so as to wait for them as long as possible."
+    },
+    {
+      "id": "s52",
+      "text": "I resolved then to husband our strength, so that both should not be exhausted at the same time; and this is how we managed: while one of us lay on our back, quite still, with arms crossed, and legs stretched out, the other would swim and push the other on in front."
+    },
+    {
+      "id": "s53",
+      "text": "This towing business did not last more than ten minutes each; and relieving each other thus, we could swim on for some hours, perhaps till daybreak."
+    },
+    {
+      "id": "s54",
+      "text": "Poor chance! but hope is so firmly rooted in the heart of man!"
+    },
+    {
+      "id": "s55",
+      "text": "Moreover, there were two of us."
+    },
+    {
+      "id": "s56",
+      "text": "Indeed I declare (though it may seem improbable) if I sought to destroy all hope,—if I wished to despair, I could not."
+    },
+    {
+      "id": "s57",
+      "text": "The collision of the frigate with the cetacean had occurred about eleven o’clock the evening before."
+    },
+    {
+      "id": "s58",
+      "text": "I reckoned then we should have eight hours to swim before sunrise, an operation quite practicable if we relieved each other."
+    },
+    {
+      "id": "s59",
+      "text": "The sea, very calm, was in our favour."
+    },
+    {
+      "id": "s60",
+      "text": "Sometimes I tried to pierce the intense darkness that was only dispelled by the phosphorescence caused by our movements."
+    },
+    {
+      "id": "s61",
+      "text": "I watched the luminous waves that broke over my hand, whose mirror-like surface was spotted with silvery rings."
+    },
+    {
+      "id": "s62",
+      "text": "One might have said that we were in a bath of quicksilver."
+    },
+    {
+      "id": "s63",
+      "text": "Near one o’clock in the morning, I was seized with dreadful fatigue."
+    },
+    {
+      "id": "s64",
+      "text": "My limbs stiffened under the strain of violent cramp."
+    },
+    {
+      "id": "s65",
+      "text": "Conseil was obliged to keep me up, and our preservation devolved on him alone."
+    },
+    {
+      "id": "s66",
+      "text": "I heard the poor boy pant; his breathing became short and hurried."
+    },
+    {
+      "id": "s67",
+      "text": "I found that he could not keep up much longer."
+    },
+    {
+      "id": "s68",
+      "text": "“Leave me! leave me!” I said to him."
+    },
+    {
+      "id": "s69",
+      "text": "“Leave my master?"
+    },
+    {
+      "id": "s70",
+      "text": "Never!” replied he."
+    },
+    {
+      "id": "s71",
+      "text": "“I would drown first.”"
+    },
+    {
+      "id": "s72",
+      "text": "Just then the moon appeared through the fringes of a thick cloud that the wind was driving to the east."
+    },
+    {
+      "id": "s73",
+      "text": "The surface of the sea glittered with its rays."
+    },
+    {
+      "id": "s74",
+      "text": "This kindly light reanimated us."
+    },
+    {
+      "id": "s75",
+      "text": "My head got better again."
+    },
+    {
+      "id": "s76",
+      "text": "I looked at all points of the horizon."
+    },
+    {
+      "id": "s77",
+      "text": "I saw the frigate!"
+    },
+    {
+      "id": "s78",
+      "text": "She was five miles from us, and looked like a dark mass, hardly discernible."
+    },
+    {
+      "id": "s79",
+      "text": "But no boats!"
+    },
+    {
+      "id": "s80",
+      "text": "I would have cried out."
+    },
+    {
+      "id": "s81",
+      "text": "But what good would it have been at such a distance!"
+    },
+    {
+      "id": "s82",
+      "text": "My swollen lips could utter no sounds."
+    },
+    {
+      "id": "s83",
+      "text": "Conseil could articulate some words, and I heard him repeat at intervals, “Help! help!”"
+    },
+    {
+      "id": "s84",
+      "text": "Our movements were suspended for an instant; we listened."
+    },
+    {
+      "id": "s85",
+      "text": "It might be only a singing in the ear, but it seemed to me as if a cry answered the cry from Conseil."
+    },
+    {
+      "id": "s86",
+      "text": "“Did you hear?” I murmured."
+    },
+    {
+      "id": "s87",
+      "text": "“Yes!"
+    },
+    {
+      "id": "s88",
+      "text": "Yes!”"
+    },
+    {
+      "id": "s89",
+      "text": "And Conseil gave one more despairing call."
+    },
+    {
+      "id": "s90",
+      "text": "This time there was no mistake!"
+    },
+    {
+      "id": "s91",
+      "text": "A human voice responded to ours!"
+    },
+    {
+      "id": "s92",
+      "text": "Was it the voice of another unfortunate creature, abandoned in the middle of the ocean, some other victim of the shock sustained by the vessel?"
+    },
+    {
+      "id": "s93",
+      "text": "Or rather was it a boat from the frigate, that was hailing us in the darkness?"
+    },
+    {
+      "id": "s94",
+      "text": "Conseil made a last effort, and, leaning on my shoulder, while I struck out in a despairing effort, he raised himself half out of the water, then fell back exhausted."
+    },
+    {
+      "id": "s95",
+      "text": "“What did you see?”"
+    },
+    {
+      "id": "s96",
+      "text": "“I saw”—murmured he; “I saw—but do not talk—reserve all your strength!”"
+    },
+    {
+      "id": "s97",
+      "text": "What had he seen?"
+    },
+    {
+      "id": "s98",
+      "text": "Then, I know not why, the thought of the monster came into my head for the first time!"
+    },
+    {
+      "id": "s99",
+      "text": "But that voice!"
+    },
+    {
+      "id": "s100",
+      "text": "The time is past for Jonahs to take refuge in whales’ bellies!"
+    },
+    {
+      "id": "s101",
+      "text": "However, Conseil was towing me again."
+    },
+    {
+      "id": "s102",
+      "text": "He raised his head sometimes, looked before us, and uttered a cry of recognition, which was responded to by a voice that came nearer and nearer."
+    },
+    {
+      "id": "s103",
+      "text": "I scarcely heard it."
+    },
+    {
+      "id": "s104",
+      "text": "My strength was exhausted; my fingers stiffened; my hand afforded me support no longer; my mouth, convulsively opening, filled with salt water."
+    },
+    {
+      "id": "s105",
+      "text": "Cold crept over me."
+    },
+    {
+      "id": "s106",
+      "text": "I raised my head for the last time, then I sank."
+    },
+    {
+      "id": "s107",
+      "text": "At this moment a hard body struck me."
+    },
+    {
+      "id": "s108",
+      "text": "I clung to it: then I felt that I was being drawn up, that I was brought to the surface of the water, that my chest collapsed:—I fainted."
+    },
+    {
+      "id": "s109",
+      "text": "It is certain that I soon came to, thanks to the vigorous rubbings that I received."
+    },
+    {
+      "id": "s110",
+      "text": "I half opened my eyes."
+    },
+    {
+      "id": "s111",
+      "text": "“Conseil!” I murmured."
+    },
+    {
+      "id": "s112",
+      "text": "“Does master call me?” asked Conseil."
+    },
+    {
+      "id": "s113",
+      "text": "Just then, by the waning light of the moon which was sinking down to the horizon, I saw a face which was not Conseil’s and which I immediately recognised."
+    },
+    {
+      "id": "s114",
+      "text": "“Ned!” I cried."
+    },
+    {
+      "id": "s115",
+      "text": "“The same, sir, who is seeking his prize!” replied the Canadian."
+    },
+    {
+      "id": "s116",
+      "text": "“Were you thrown into the sea by the shock to the frigate?”"
+    },
+    {
+      "id": "s117",
+      "text": "“Yes, Professor; but more fortunate than you, I was able to find a footing almost directly upon a floating island.”"
+    },
+    {
+      "id": "s118",
+      "text": "“An island?”"
+    },
+    {
+      "id": "s119",
+      "text": "“Or, more correctly speaking, on our gigantic narwhal.”"
+    },
+    {
+      "id": "s120",
+      "text": "“Explain yourself, Ned!”"
+    },
+    {
+      "id": "s121",
+      "text": "“Only I soon found out why my harpoon had not entered its skin and was blunted.”"
+    },
+    {
+      "id": "s122",
+      "text": "“Why, Ned, why?”"
+    },
+    {
+      "id": "s123",
+      "text": "“Because, Professor, that beast is made of sheet iron.”"
+    },
+    {
+      "id": "s124",
+      "text": "The Canadian’s last words produced a sudden revolution in my brain."
+    },
+    {
+      "id": "s125",
+      "text": "I wriggled myself quickly to the top of the being, or object, half out of the water, which served us for a refuge."
+    },
+    {
+      "id": "s126",
+      "text": "I kicked it."
+    },
+    {
+      "id": "s127",
+      "text": "It was evidently a hard impenetrable body, and not the soft substance that forms the bodies of the great marine mammalia."
+    },
+    {
+      "id": "s128",
+      "text": "But this hard body might be a bony carapace, like that of the antediluvian animals; and I should be free to class this monster among amphibious reptiles, such as tortoises or alligators."
+    },
+    {
+      "id": "s129",
+      "text": "Well, no! the blackish back that supported me was smooth, polished, without scales."
+    },
+    {
+      "id": "s130",
+      "text": "The blow produced a metallic sound; and incredible though it may be, it seemed, I might say, as if it was made of riveted plates."
+    },
+    {
+      "id": "s131",
+      "text": "There was no doubt about it!"
+    },
+    {
+      "id": "s132",
+      "text": "This monster, this natural phenomenon that had puzzled the learned world, and overthrown and misled the imagination of seamen of both hemispheres, it must be owned, a still more astonishing phenomenon, inasmuch as it was a simply human construction."
+    },
+    {
+      "id": "s133",
+      "text": "We had no time to lose, however."
+    },
+    {
+      "id": "s134",
+      "text": "We were lying upon the back of a sort of submarine boat, which appeared (as far as I could judge) like a huge fish of steel."
+    },
+    {
+      "id": "s135",
+      "text": "Ned Land’s mind was made up on this point."
+    },
+    {
+      "id": "s136",
+      "text": "Conseil and I could only agree with him."
+    },
+    {
+      "id": "s137",
+      "text": "Just then a bubbling began at the back of this strange thing (which was evidently propelled by a screw), and it began to move."
+    },
+    {
+      "id": "s138",
+      "text": "We had only just time to seize hold of the upper part, which rose about seven feet out of the water, and happily its speed was not great."
+    },
+    {
+      "id": "s139",
+      "text": "“As long as it sails horizontally,” muttered Ned Land, “I do not mind; but if it takes a fancy to dive, I would not give two straws for my life.”"
+    },
+    {
+      "id": "s140",
+      "text": "The Canadian might have said still less."
+    },
+    {
+      "id": "s141",
+      "text": "It became really necessary to communicate with the beings, whatever they were, shut up inside the machine."
+    },
+    {
+      "id": "s142",
+      "text": "I searched all over the outside for an aperture, a panel, or a man-hole, to use a technical expression; but the lines of the iron rivets, solidly driven into the joints of the iron plates, were clear and uniform."
+    },
+    {
+      "id": "s143",
+      "text": "Besides, the moon disappeared then, and left us in total darkness."
+    },
+    {
+      "id": "s144",
+      "text": "At last this long night passed."
+    },
+    {
+      "id": "s145",
+      "text": "My indistinct remembrance prevents my describing all the impressions it made."
+    },
+    {
+      "id": "s146",
+      "text": "I can only recall one circumstance."
+    },
+    {
+      "id": "s147",
+      "text": "During some lulls of the wind and sea, I fancied I heard several times vague sounds, a sort of fugitive harmony produced by words of command."
+    },
+    {
+      "id": "s148",
+      "text": "What was then the mystery of this submarine craft, of which the whole world vainly sought an explanation?"
+    },
+    {
+      "id": "s149",
+      "text": "What kind of beings existed in this strange boat?"
+    },
+    {
+      "id": "s150",
+      "text": "What mechanical agent caused its prodigious speed?"
+    },
+    {
+      "id": "s151",
+      "text": "Daybreak appeared."
+    },
+    {
+      "id": "s152",
+      "text": "The morning mists surrounded us, but they soon cleared off."
+    },
+    {
+      "id": "s153",
+      "text": "I was about to examine the hull, which formed on deck a kind of horizontal platform, when I felt it gradually sinking."
+    },
+    {
+      "id": "s154",
+      "text": "“Oh! confound it!” cried Ned Land, kicking the resounding plate."
+    },
+    {
+      "id": "s155",
+      "text": "“Open, you inhospitable rascals!”"
+    },
+    {
+      "id": "s156",
+      "text": "Happily the sinking movement ceased."
+    },
+    {
+      "id": "s157",
+      "text": "Suddenly a noise, like iron works violently pushed aside, came from the interior of the boat."
+    },
+    {
+      "id": "s158",
+      "text": "One iron plate was moved, a man appeared, uttered an odd cry, and disappeared immediately."
+    },
+    {
+      "id": "s159",
+      "text": "Some moments after, eight strong men, with masked faces, appeared noiselessly, and drew us down into their formidable machine."
+    }
+  ]
+}

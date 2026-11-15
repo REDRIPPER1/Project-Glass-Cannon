@@ -4,9 +4,9 @@
   "ebookId": "82",
   "edition": "Project Gutenberg eBook #82; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER I Thus communed these; while to their lowly dome,",
-  "contentHash": "sha256:62e3e94e76239c727f1fed2c8d88aa7de2706df3d6975503ff3ec95542c9b4e5",
-  "attribution": "Scott, Walter, 1771-1832, Ivanhoe: A Romance, CHAPTER I Thus communed these; while to their lowly dome,. Source checked against Project Gutenberg eBook #82.",
+  "chapterTitle": "CHAPTER I",
+  "contentHash": "sha256:17e4224d7ce6074ef57f2255cef92a98a2b8e2dc0aa93189fd8a4f5428b0ef84",
+  "attribution": "Scott, Walter, 1771-1832, Ivanhoe: A Romance, CHAPTER I. Source checked against Project Gutenberg eBook #82.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/82",
@@ -19,7 +19,7 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "The full-fed swine return’d with evening home; Compell’d, reluctant, to the several sties, With din obstreperous, and ungrateful cries."
+      "text": "Thus communed these; while to their lowly dome, The full-fed swine return’d with evening home; Compell’d, reluctant, to the several sties, With din obstreperous, and ungrateful cries."
     },
     {
       "id": "s2",

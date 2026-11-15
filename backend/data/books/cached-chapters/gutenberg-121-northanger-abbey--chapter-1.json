@@ -4,9 +4,9 @@
   "ebookId": "121",
   "edition": "Project Gutenberg eBook #121; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER 1 No one who had ever seen Catherine Morland in her infancy would have",
-  "contentHash": "sha256:02252cf1f9402d068ab14ab2c9d49fbdad34ce9a69143b0abd274c66f17cabce",
-  "attribution": "Austen, Jane, 1775-1817, Northanger Abbey, CHAPTER 1 No one who had ever seen Catherine Morland in her infancy would have. Source checked against Project Gutenberg eBook #121.",
+  "chapterTitle": "CHAPTER 1",
+  "contentHash": "sha256:466285d055d0fe8c9e619d9fbe1dc024373b30435431142e6eb5422915879f32",
+  "attribution": "Austen, Jane, 1775-1817, Northanger Abbey, CHAPTER 1. Source checked against Project Gutenberg eBook #121.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/121",
@@ -19,7 +19,7 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "supposed her born to be an heroine."
+      "text": "No one who had ever seen Catherine Morland in her infancy would have supposed her born to be an heroine."
     },
     {
       "id": "s2",

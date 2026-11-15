@@ -4,9 +4,9 @@
   "ebookId": "12",
   "edition": "Project Gutenberg eBook #12; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER I. Looking-Glass house",
-  "contentHash": "sha256:c3cb47090e663e2ec0b83f136619e4a2a16e4a4c07d819beec22dba999fc4b27",
-  "attribution": "Carroll, Lewis, 1832-1898, Through the Looking-Glass, CHAPTER I. Looking-Glass house. Source checked against Project Gutenberg eBook #12.",
+  "chapterTitle": "CHAPTER I.",
+  "contentHash": "sha256:f0aa278e4a02690779f644af08f2b106b520c4520309de5ae255ddd06020a244",
+  "attribution": "Carroll, Lewis, 1832-1898, Through the Looking-Glass, CHAPTER I.. Source checked against Project Gutenberg eBook #12.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/12",
@@ -19,527 +19,527 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "One thing was certain, that the _white_ kitten had had nothing to do with it:—it was the black kitten’s fault entirely."
+      "text": "Looking-Glass house"
     },
     {
       "id": "s2",
-      "text": "For the white kitten had been having its face washed by the old cat for the last quarter of an hour (and bearing it pretty well, considering); so you see that it _couldn’t_ have had any hand in the mischief."
+      "text": "One thing was certain, that the _white_ kitten had had nothing to do with it:—it was the black kitten’s fault entirely."
     },
     {
       "id": "s3",
-      "text": "The way Dinah washed her children’s faces was this: first she held the poor thing down by its ear with one paw, and then with the other paw she rubbed its face all over, the wrong way, beginning at the nose: and just now, as I said, she was hard at work on the white kitten, which was lying quite still and trying to purr—no doubt feeling that it was all meant for its good."
+      "text": "For the white kitten had been having its face washed by the old cat for the last quarter of an hour (and bearing it pretty well, considering); so you see that it _couldn’t_ have had any hand in the mischief."
     },
     {
       "id": "s4",
-      "text": "But the black kitten had been finished with earlier in the afternoon, and so, while Alice was sitting curled up in a corner of the great arm-chair, half talking to herself and half asleep, the kitten had been having a grand game of romps with the ball of worsted Alice had been trying to wind up, and had been rolling it up and down till it had all come undone again; and there it was, spread over the hearth-rug, all knots and tangles, with the kitten running after its own tail in the middle."
+      "text": "The way Dinah washed her children’s faces was this: first she held the poor thing down by its ear with one paw, and then with the other paw she rubbed its face all over, the wrong way, beginning at the nose: and just now, as I said, she was hard at work on the white kitten, which was lying quite still and trying to purr—no doubt feeling that it was all meant for its good."
     },
     {
       "id": "s5",
-      "text": "“Oh, you wicked little thing!” cried Alice, catching up the kitten, and giving it a little kiss to make it understand that it was in disgrace."
+      "text": "But the black kitten had been finished with earlier in the afternoon, and so, while Alice was sitting curled up in a corner of the great arm-chair, half talking to herself and half asleep, the kitten had been having a grand game of romps with the ball of worsted Alice had been trying to wind up, and had been rolling it up and down till it had all come undone again; and there it was, spread over the hearth-rug, all knots and tangles, with the kitten running after its own tail in the middle."
     },
     {
       "id": "s6",
-      "text": "“Really, Dinah ought to have taught you better manners!"
+      "text": "“Oh, you wicked little thing!” cried Alice, catching up the kitten, and giving it a little kiss to make it understand that it was in disgrace."
     },
     {
       "id": "s7",
-      "text": "You _ought_, Dinah, you know you ought!” she added, looking reproachfully at the old cat, and speaking in as cross a voice as she could manage—and then she scrambled back into the arm-chair, taking the kitten and the worsted with her, and began winding up the ball again."
+      "text": "“Really, Dinah ought to have taught you better manners!"
     },
     {
       "id": "s8",
-      "text": "But she didn’t get on very fast, as she was talking all the time, sometimes to the kitten, and sometimes to herself."
+      "text": "You _ought_, Dinah, you know you ought!” she added, looking reproachfully at the old cat, and speaking in as cross a voice as she could manage—and then she scrambled back into the arm-chair, taking the kitten and the worsted with her, and began winding up the ball again."
     },
     {
       "id": "s9",
-      "text": "Kitty sat very demurely on her knee, pretending to watch the progress of the winding, and now and then putting out one paw and gently touching the ball, as if it would be glad to help, if it might."
+      "text": "But she didn’t get on very fast, as she was talking all the time, sometimes to the kitten, and sometimes to herself."
     },
     {
       "id": "s10",
-      "text": "“Do you know what to-morrow is, Kitty?” Alice began."
+      "text": "Kitty sat very demurely on her knee, pretending to watch the progress of the winding, and now and then putting out one paw and gently touching the ball, as if it would be glad to help, if it might."
     },
     {
       "id": "s11",
-      "text": "“You’d have guessed if you’d been up in the window with me—only Dinah was making you tidy, so you couldn’t."
+      "text": "“Do you know what to-morrow is, Kitty?” Alice began."
     },
     {
       "id": "s12",
-      "text": "I was watching the boys getting in sticks for the bonfire—and it wants plenty of sticks, Kitty!"
+      "text": "“You’d have guessed if you’d been up in the window with me—only Dinah was making you tidy, so you couldn’t."
     },
     {
       "id": "s13",
-      "text": "Only it got so cold, and it snowed so, they had to leave off."
+      "text": "I was watching the boys getting in sticks for the bonfire—and it wants plenty of sticks, Kitty!"
     },
     {
       "id": "s14",
-      "text": "Never mind, Kitty, we’ll go and see the bonfire to-morrow.” Here Alice wound two or three turns of the worsted round the kitten’s neck, just to see how it would look: this led to a scramble, in which the ball rolled down upon the floor, and yards and yards of it got unwound again."
+      "text": "Only it got so cold, and it snowed so, they had to leave off."
     },
     {
       "id": "s15",
-      "text": "“Do you know, I was so angry, Kitty,” Alice went on as soon as they were comfortably settled again, “when I saw all the mischief you had been doing, I was very nearly opening the window, and putting you out into the snow!"
+      "text": "Never mind, Kitty, we’ll go and see the bonfire to-morrow.” Here Alice wound two or three turns of the worsted round the kitten’s neck, just to see how it would look: this led to a scramble, in which the ball rolled down upon the floor, and yards and yards of it got unwound again."
     },
     {
       "id": "s16",
-      "text": "And you’d have deserved it, you little mischievous darling!"
+      "text": "“Do you know, I was so angry, Kitty,” Alice went on as soon as they were comfortably settled again, “when I saw all the mischief you had been doing, I was very nearly opening the window, and putting you out into the snow!"
     },
     {
       "id": "s17",
-      "text": "What have you got to say for yourself?"
+      "text": "And you’d have deserved it, you little mischievous darling!"
     },
     {
       "id": "s18",
-      "text": "Now don’t interrupt me!” she went on, holding up one finger."
+      "text": "What have you got to say for yourself?"
     },
     {
       "id": "s19",
-      "text": "“I’m going to tell you all your faults."
+      "text": "Now don’t interrupt me!” she went on, holding up one finger."
     },
     {
       "id": "s20",
-      "text": "Number one: you squeaked twice while Dinah was washing your face this morning."
+      "text": "“I’m going to tell you all your faults."
     },
     {
       "id": "s21",
-      "text": "Now you can’t deny it, Kitty: I heard you!"
+      "text": "Number one: you squeaked twice while Dinah was washing your face this morning."
     },
     {
       "id": "s22",
-      "text": "What’s that you say?” (pretending that the kitten was speaking.) “Her paw went into your eye?"
+      "text": "Now you can’t deny it, Kitty: I heard you!"
     },
     {
       "id": "s23",
-      "text": "Well, that’s _your_ fault, for keeping your eyes open—if you’d shut them tight up, it wouldn’t have happened."
+      "text": "What’s that you say?” (pretending that the kitten was speaking.) “Her paw went into your eye?"
     },
     {
       "id": "s24",
-      "text": "Now don’t make any more excuses, but listen!"
+      "text": "Well, that’s _your_ fault, for keeping your eyes open—if you’d shut them tight up, it wouldn’t have happened."
     },
     {
       "id": "s25",
-      "text": "Number two: you pulled Snowdrop away by the tail just as I had put down the saucer of milk before her!"
+      "text": "Now don’t make any more excuses, but listen!"
     },
     {
       "id": "s26",
-      "text": "What, you were thirsty, were you?"
+      "text": "Number two: you pulled Snowdrop away by the tail just as I had put down the saucer of milk before her!"
     },
     {
       "id": "s27",
-      "text": "How do you know she wasn’t thirsty too?"
+      "text": "What, you were thirsty, were you?"
     },
     {
       "id": "s28",
-      "text": "Now for number three: you unwound every bit of the worsted while I wasn’t looking!"
+      "text": "How do you know she wasn’t thirsty too?"
     },
     {
       "id": "s29",
-      "text": "“That’s three faults, Kitty, and you’ve not been punished for any of them yet."
+      "text": "Now for number three: you unwound every bit of the worsted while I wasn’t looking!"
     },
     {
       "id": "s30",
-      "text": "You know I’m saving up all your punishments for Wednesday week—Suppose they had saved up all _my_ punishments!” she went on, talking more to herself than the kitten."
+      "text": "“That’s three faults, Kitty, and you’ve not been punished for any of them yet."
     },
     {
       "id": "s31",
-      "text": "“What _would_ they do at the end of a year?"
+      "text": "You know I’m saving up all your punishments for Wednesday week—Suppose they had saved up all _my_ punishments!” she went on, talking more to herself than the kitten."
     },
     {
       "id": "s32",
-      "text": "I should be sent to prison, I suppose, when the day came."
+      "text": "“What _would_ they do at the end of a year?"
     },
     {
       "id": "s33",
-      "text": "Or—let me see—suppose each punishment was to be going without a dinner: then, when the miserable day came, I should have to go without fifty dinners at once!"
+      "text": "I should be sent to prison, I suppose, when the day came."
     },
     {
       "id": "s34",
-      "text": "Well, I shouldn’t mind _that_ much!"
+      "text": "Or—let me see—suppose each punishment was to be going without a dinner: then, when the miserable day came, I should have to go without fifty dinners at once!"
     },
     {
       "id": "s35",
-      "text": "I’d far rather go without them than eat them!"
+      "text": "Well, I shouldn’t mind _that_ much!"
     },
     {
       "id": "s36",
-      "text": "“Do you hear the snow against the window-panes, Kitty?"
+      "text": "I’d far rather go without them than eat them!"
     },
     {
       "id": "s37",
-      "text": "How nice and soft it sounds!"
+      "text": "“Do you hear the snow against the window-panes, Kitty?"
     },
     {
       "id": "s38",
-      "text": "Just as if some one was kissing the window all over outside."
+      "text": "How nice and soft it sounds!"
     },
     {
       "id": "s39",
-      "text": "I wonder if the snow _loves_ the trees and fields, that it kisses them so gently?"
+      "text": "Just as if some one was kissing the window all over outside."
     },
     {
       "id": "s40",
-      "text": "And then it covers them up snug, you know, with a white quilt; and perhaps it says, ‘Go to sleep, darlings, till the summer comes again.’ And when they wake up in the summer, Kitty, they dress themselves all in green, and dance about—whenever the wind blows—oh, that’s very pretty!” cried Alice, dropping the ball of worsted to clap her hands."
+      "text": "I wonder if the snow _loves_ the trees and fields, that it kisses them so gently?"
     },
     {
       "id": "s41",
-      "text": "“And I do so _wish_ it was true!"
+      "text": "And then it covers them up snug, you know, with a white quilt; and perhaps it says, ‘Go to sleep, darlings, till the summer comes again.’ And when they wake up in the summer, Kitty, they dress themselves all in green, and dance about—whenever the wind blows—oh, that’s very pretty!” cried Alice, dropping the ball of worsted to clap her hands."
     },
     {
       "id": "s42",
-      "text": "I’m sure the woods look sleepy in the autumn, when the leaves are getting brown."
+      "text": "“And I do so _wish_ it was true!"
     },
     {
       "id": "s43",
-      "text": "“Kitty, can you play chess?"
+      "text": "I’m sure the woods look sleepy in the autumn, when the leaves are getting brown."
     },
     {
       "id": "s44",
-      "text": "Now, don’t smile, my dear, I’m asking it seriously."
+      "text": "“Kitty, can you play chess?"
     },
     {
       "id": "s45",
-      "text": "Because, when we were playing just now, you watched just as if you understood it: and when I said ‘Check!’ you purred!"
+      "text": "Now, don’t smile, my dear, I’m asking it seriously."
     },
     {
       "id": "s46",
-      "text": "Well, it _was_ a nice check, Kitty, and really I might have won, if it hadn’t been for that nasty Knight, that came wiggling down among my pieces."
+      "text": "Because, when we were playing just now, you watched just as if you understood it: and when I said ‘Check!’ you purred!"
     },
     {
       "id": "s47",
-      "text": "Kitty, dear, let’s pretend—” And here I wish I could tell you half the things Alice used to say, beginning with her favourite phrase “Let’s pretend.” She had had quite a long argument with her sister only the day before—all because Alice had begun with “Let’s pretend we’re kings and queens;” and her sister, who liked being very exact, had argued that they couldn’t, because there were only two of them, and Alice had been reduced at last to say, “Well, _you_ can be one of them then, and _I’ll_ be all the rest.” And once she had really frightened her old nurse by shouting suddenly in her ear, “Nurse!"
+      "text": "Well, it _was_ a nice check, Kitty, and really I might have won, if it hadn’t been for that nasty Knight, that came wiggling down among my pieces."
     },
     {
       "id": "s48",
-      "text": "Do let’s pretend that I’m a hungry hyaena, and you’re a bone.”"
+      "text": "Kitty, dear, let’s pretend—” And here I wish I could tell you half the things Alice used to say, beginning with her favourite phrase “Let’s pretend.” She had had quite a long argument with her sister only the day before—all because Alice had begun with “Let’s pretend we’re kings and queens;” and her sister, who liked being very exact, had argued that they couldn’t, because there were only two of them, and Alice had been reduced at last to say, “Well, _you_ can be one of them then, and _I’ll_ be all the rest.” And once she had really frightened her old nurse by shouting suddenly in her ear, “Nurse!"
     },
     {
       "id": "s49",
-      "text": "But this is taking us away from Alice’s speech to the kitten."
+      "text": "Do let’s pretend that I’m a hungry hyaena, and you’re a bone.”"
     },
     {
       "id": "s50",
-      "text": "“Let’s pretend that you’re the Red Queen, Kitty!"
+      "text": "But this is taking us away from Alice’s speech to the kitten."
     },
     {
       "id": "s51",
-      "text": "Do you know, I think if you sat up and folded your arms, you’d look exactly like her."
+      "text": "“Let’s pretend that you’re the Red Queen, Kitty!"
     },
     {
       "id": "s52",
-      "text": "Now do try, there’s a dear!” And Alice got the Red Queen off the table, and set it up before the kitten as a model for it to imitate: however, the thing didn’t succeed, principally, Alice said, because the kitten wouldn’t fold its arms properly."
+      "text": "Do you know, I think if you sat up and folded your arms, you’d look exactly like her."
     },
     {
       "id": "s53",
-      "text": "So, to punish it, she held it up to the Looking-glass, that it might see how sulky it was—“and if you’re not good directly,” she added, “I’ll put you through into Looking-glass House."
+      "text": "Now do try, there’s a dear!” And Alice got the Red Queen off the table, and set it up before the kitten as a model for it to imitate: however, the thing didn’t succeed, principally, Alice said, because the kitten wouldn’t fold its arms properly."
     },
     {
       "id": "s54",
-      "text": "How would you like _that_?”"
+      "text": "So, to punish it, she held it up to the Looking-glass, that it might see how sulky it was—“and if you’re not good directly,” she added, “I’ll put you through into Looking-glass House."
     },
     {
       "id": "s55",
-      "text": "“Now, if you’ll only attend, Kitty, and not talk so much, I’ll tell you all my ideas about Looking-glass House."
+      "text": "How would you like _that_?”"
     },
     {
       "id": "s56",
-      "text": "First, there’s the room you can see through the glass—that’s just the same as our drawing room, only the things go the other way."
+      "text": "“Now, if you’ll only attend, Kitty, and not talk so much, I’ll tell you all my ideas about Looking-glass House."
     },
     {
       "id": "s57",
-      "text": "I can see all of it when I get upon a chair—all but the bit behind the fireplace."
+      "text": "First, there’s the room you can see through the glass—that’s just the same as our drawing room, only the things go the other way."
     },
     {
       "id": "s58",
-      "text": "Oh!"
+      "text": "I can see all of it when I get upon a chair—all but the bit behind the fireplace."
     },
     {
       "id": "s59",
-      "text": "I do so wish I could see _that_ bit!"
+      "text": "Oh!"
     },
     {
       "id": "s60",
-      "text": "I want so much to know whether they’ve a fire in the winter: you never _can_ tell, you know, unless our fire smokes, and then smoke comes up in that room too—but that may be only pretence, just to make it look as if they had a fire."
+      "text": "I do so wish I could see _that_ bit!"
     },
     {
       "id": "s61",
-      "text": "Well then, the books are something like our books, only the words go the wrong way; I know that, because I’ve held up one of our books to the glass, and then they hold up one in the other room."
+      "text": "I want so much to know whether they’ve a fire in the winter: you never _can_ tell, you know, unless our fire smokes, and then smoke comes up in that room too—but that may be only pretence, just to make it look as if they had a fire."
     },
     {
       "id": "s62",
-      "text": "“How would you like to live in Looking-glass House, Kitty?"
+      "text": "Well then, the books are something like our books, only the words go the wrong way; I know that, because I’ve held up one of our books to the glass, and then they hold up one in the other room."
     },
     {
       "id": "s63",
-      "text": "I wonder if they’d give you milk in there?"
+      "text": "“How would you like to live in Looking-glass House, Kitty?"
     },
     {
       "id": "s64",
-      "text": "Perhaps Looking-glass milk isn’t good to drink—But oh, Kitty! now we come to the passage."
+      "text": "I wonder if they’d give you milk in there?"
     },
     {
       "id": "s65",
-      "text": "You can just see a little _peep_ of the passage in Looking-glass House, if you leave the door of our drawing-room wide open: and it’s very like our passage as far as you can see, only you know it may be quite different on beyond."
+      "text": "Perhaps Looking-glass milk isn’t good to drink—But oh, Kitty! now we come to the passage."
     },
     {
       "id": "s66",
-      "text": "Oh, Kitty! how nice it would be if we could only get through into Looking-glass House!"
+      "text": "You can just see a little _peep_ of the passage in Looking-glass House, if you leave the door of our drawing-room wide open: and it’s very like our passage as far as you can see, only you know it may be quite different on beyond."
     },
     {
       "id": "s67",
-      "text": "I’m sure it’s got, oh! such beautiful things in it!"
+      "text": "Oh, Kitty! how nice it would be if we could only get through into Looking-glass House!"
     },
     {
       "id": "s68",
-      "text": "Let’s pretend there’s a way of getting through into it, somehow, Kitty."
+      "text": "I’m sure it’s got, oh! such beautiful things in it!"
     },
     {
       "id": "s69",
-      "text": "Let’s pretend the glass has got all soft like gauze, so that we can get through."
+      "text": "Let’s pretend there’s a way of getting through into it, somehow, Kitty."
     },
     {
       "id": "s70",
-      "text": "Why, it’s turning into a sort of mist now, I declare!"
+      "text": "Let’s pretend the glass has got all soft like gauze, so that we can get through."
     },
     {
       "id": "s71",
-      "text": "It’ll be easy enough to get through—” She was up on the chimney-piece while she said this, though she hardly knew how she had got there."
+      "text": "Why, it’s turning into a sort of mist now, I declare!"
     },
     {
       "id": "s72",
-      "text": "And certainly the glass _was_ beginning to melt away, just like a bright silvery mist."
+      "text": "It’ll be easy enough to get through—” She was up on the chimney-piece while she said this, though she hardly knew how she had got there."
     },
     {
       "id": "s73",
-      "text": "In another moment Alice was through the glass, and had jumped lightly down into the Looking-glass room."
+      "text": "And certainly the glass _was_ beginning to melt away, just like a bright silvery mist."
     },
     {
       "id": "s74",
-      "text": "The very first thing she did was to look whether there was a fire in the fireplace, and she was quite pleased to find that there was a real one, blazing away as brightly as the one she had left behind."
+      "text": "In another moment Alice was through the glass, and had jumped lightly down into the Looking-glass room."
     },
     {
       "id": "s75",
-      "text": "“So I shall be as warm here as I was in the old room,” thought Alice: “warmer, in fact, because there’ll be no one here to scold me away from the fire."
+      "text": "The very first thing she did was to look whether there was a fire in the fireplace, and she was quite pleased to find that there was a real one, blazing away as brightly as the one she had left behind."
     },
     {
       "id": "s76",
-      "text": "Oh, what fun it’ll be, when they see me through the glass in here, and can’t get at me!”"
+      "text": "“So I shall be as warm here as I was in the old room,” thought Alice: “warmer, in fact, because there’ll be no one here to scold me away from the fire."
     },
     {
       "id": "s77",
-      "text": "Then she began looking about, and noticed that what could be seen from the old room was quite common and uninteresting, but that all the rest was as different as possible."
+      "text": "Oh, what fun it’ll be, when they see me through the glass in here, and can’t get at me!”"
     },
     {
       "id": "s78",
-      "text": "For instance, the pictures on the wall next the fire seemed to be all alive, and the very clock on the chimney-piece (you know you can only see the back of it in the Looking-glass) had got the face of a little old man, and grinned at her."
+      "text": "Then she began looking about, and noticed that what could be seen from the old room was quite common and uninteresting, but that all the rest was as different as possible."
     },
     {
       "id": "s79",
-      "text": "“They don’t keep this room so tidy as the other,” Alice thought to herself, as she noticed several of the chessmen down in the hearth among the cinders: but in another moment, with a little “Oh!” of surprise, she was down on her hands and knees watching them."
+      "text": "For instance, the pictures on the wall next the fire seemed to be all alive, and the very clock on the chimney-piece (you know you can only see the back of it in the Looking-glass) had got the face of a little old man, and grinned at her."
     },
     {
       "id": "s80",
-      "text": "The chessmen were walking about, two and two!"
+      "text": "“They don’t keep this room so tidy as the other,” Alice thought to herself, as she noticed several of the chessmen down in the hearth among the cinders: but in another moment, with a little “Oh!” of surprise, she was down on her hands and knees watching them."
     },
     {
       "id": "s81",
-      "text": "“Here are the Red King and the Red Queen,” Alice said (in a whisper, for fear of frightening them), “and there are the White King and the White Queen sitting on the edge of the shovel—and here are two castles walking arm in arm—I don’t think they can hear me,” she went on, as she put her head closer down, “and I’m nearly sure they can’t see me."
+      "text": "The chessmen were walking about, two and two!"
     },
     {
       "id": "s82",
-      "text": "I feel somehow as if I were invisible—”"
+      "text": "“Here are the Red King and the Red Queen,” Alice said (in a whisper, for fear of frightening them), “and there are the White King and the White Queen sitting on the edge of the shovel—and here are two castles walking arm in arm—I don’t think they can hear me,” she went on, as she put her head closer down, “and I’m nearly sure they can’t see me."
     },
     {
       "id": "s83",
-      "text": "Here something began squeaking on the table behind Alice, and made her turn her head just in time to see one of the White Pawns roll over and begin kicking: she watched it with great curiosity to see what would happen next."
+      "text": "I feel somehow as if I were invisible—”"
     },
     {
       "id": "s84",
-      "text": "“It is the voice of my child!” the White Queen cried out as she rushed past the King, so violently that she knocked him over among the cinders."
+      "text": "Here something began squeaking on the table behind Alice, and made her turn her head just in time to see one of the White Pawns roll over and begin kicking: she watched it with great curiosity to see what would happen next."
     },
     {
       "id": "s85",
-      "text": "“My precious Lily!"
+      "text": "“It is the voice of my child!” the White Queen cried out as she rushed past the King, so violently that she knocked him over among the cinders."
     },
     {
       "id": "s86",
-      "text": "My imperial kitten!” and she began scrambling wildly up the side of the fender."
+      "text": "“My precious Lily!"
     },
     {
       "id": "s87",
-      "text": "“Imperial fiddlestick!” said the King, rubbing his nose, which had been hurt by the fall."
+      "text": "My imperial kitten!” and she began scrambling wildly up the side of the fender."
     },
     {
       "id": "s88",
-      "text": "He had a right to be a _little_ annoyed with the Queen, for he was covered with ashes from head to foot."
+      "text": "“Imperial fiddlestick!” said the King, rubbing his nose, which had been hurt by the fall."
     },
     {
       "id": "s89",
-      "text": "Alice was very anxious to be of use, and, as the poor little Lily was nearly screaming herself into a fit, she hastily picked up the Queen and set her on the table by the side of her noisy little daughter."
+      "text": "He had a right to be a _little_ annoyed with the Queen, for he was covered with ashes from head to foot."
     },
     {
       "id": "s90",
-      "text": "The Queen gasped, and sat down: the rapid journey through the air had quite taken away her breath and for a minute or two she could do nothing but hug the little Lily in silence."
+      "text": "Alice was very anxious to be of use, and, as the poor little Lily was nearly screaming herself into a fit, she hastily picked up the Queen and set her on the table by the side of her noisy little daughter."
     },
     {
       "id": "s91",
-      "text": "As soon as she had recovered her breath a little, she called out to the White King, who was sitting sulkily among the ashes, “Mind the volcano!”"
+      "text": "The Queen gasped, and sat down: the rapid journey through the air had quite taken away her breath and for a minute or two she could do nothing but hug the little Lily in silence."
     },
     {
       "id": "s92",
-      "text": "“What volcano?” said the King, looking up anxiously into the fire, as if he thought that was the most likely place to find one."
+      "text": "As soon as she had recovered her breath a little, she called out to the White King, who was sitting sulkily among the ashes, “Mind the volcano!”"
     },
     {
       "id": "s93",
-      "text": "“Blew—me—up,” panted the Queen, who was still a little out of breath."
+      "text": "“What volcano?” said the King, looking up anxiously into the fire, as if he thought that was the most likely place to find one."
     },
     {
       "id": "s94",
-      "text": "“Mind you come up—the regular way—don’t get blown up!”"
+      "text": "“Blew—me—up,” panted the Queen, who was still a little out of breath."
     },
     {
       "id": "s95",
-      "text": "Alice watched the White King as he slowly struggled up from bar to bar, till at last she said, “Why, you’ll be hours and hours getting to the table, at that rate."
+      "text": "“Mind you come up—the regular way—don’t get blown up!”"
     },
     {
       "id": "s96",
-      "text": "I’d far better help you, hadn’t I?” But the King took no notice of the question: it was quite clear that he could neither hear her nor see her."
+      "text": "Alice watched the White King as he slowly struggled up from bar to bar, till at last she said, “Why, you’ll be hours and hours getting to the table, at that rate."
     },
     {
       "id": "s97",
-      "text": "So Alice picked him up very gently, and lifted him across more slowly than she had lifted the Queen, that she mightn’t take his breath away: but, before she put him on the table, she thought she might as well dust him a little, he was so covered with ashes."
+      "text": "I’d far better help you, hadn’t I?” But the King took no notice of the question: it was quite clear that he could neither hear her nor see her."
     },
     {
       "id": "s98",
-      "text": "She said afterwards that she had never seen in all her life such a face as the King made, when he found himself held in the air by an invisible hand, and being dusted: he was far too much astonished to cry out, but his eyes and his mouth went on getting larger and larger, and rounder and rounder, till her hand shook so with laughing that she nearly let him drop upon the floor."
+      "text": "So Alice picked him up very gently, and lifted him across more slowly than she had lifted the Queen, that she mightn’t take his breath away: but, before she put him on the table, she thought she might as well dust him a little, he was so covered with ashes."
     },
     {
       "id": "s99",
-      "text": "“Oh! _please_ don’t make such faces, my dear!” she cried out, quite forgetting that the King couldn’t hear her."
+      "text": "She said afterwards that she had never seen in all her life such a face as the King made, when he found himself held in the air by an invisible hand, and being dusted: he was far too much astonished to cry out, but his eyes and his mouth went on getting larger and larger, and rounder and rounder, till her hand shook so with laughing that she nearly let him drop upon the floor."
     },
     {
       "id": "s100",
-      "text": "“You make me laugh so that I can hardly hold you!"
+      "text": "“Oh! _please_ don’t make such faces, my dear!” she cried out, quite forgetting that the King couldn’t hear her."
     },
     {
       "id": "s101",
-      "text": "And don’t keep your mouth so wide open!"
+      "text": "“You make me laugh so that I can hardly hold you!"
     },
     {
       "id": "s102",
-      "text": "All the ashes will get into it—there, now I think you’re tidy enough!” she added, as she smoothed his hair, and set him upon the table near the Queen."
+      "text": "And don’t keep your mouth so wide open!"
     },
     {
       "id": "s103",
-      "text": "The King immediately fell flat on his back, and lay perfectly still: and Alice was a little alarmed at what she had done, and went round the room to see if she could find any water to throw over him."
+      "text": "All the ashes will get into it—there, now I think you’re tidy enough!” she added, as she smoothed his hair, and set him upon the table near the Queen."
     },
     {
       "id": "s104",
-      "text": "However, she could find nothing but a bottle of ink, and when she got back with it she found he had recovered, and he and the Queen were talking together in a frightened whisper—so low, that Alice could hardly hear what they said."
+      "text": "The King immediately fell flat on his back, and lay perfectly still: and Alice was a little alarmed at what she had done, and went round the room to see if she could find any water to throw over him."
     },
     {
       "id": "s105",
-      "text": "The King was saying, “I assure you, my dear, I turned cold to the very ends of my whiskers!”"
+      "text": "However, she could find nothing but a bottle of ink, and when she got back with it she found he had recovered, and he and the Queen were talking together in a frightened whisper—so low, that Alice could hardly hear what they said."
     },
     {
       "id": "s106",
-      "text": "To which the Queen replied, “You haven’t got any whiskers.”"
+      "text": "The King was saying, “I assure you, my dear, I turned cold to the very ends of my whiskers!”"
     },
     {
       "id": "s107",
-      "text": "“The horror of that moment,” the King went on, “I shall never, _never_ forget!”"
+      "text": "To which the Queen replied, “You haven’t got any whiskers.”"
     },
     {
       "id": "s108",
-      "text": "“You will, though,” the Queen said, “if you don’t make a memorandum of it.”"
+      "text": "“The horror of that moment,” the King went on, “I shall never, _never_ forget!”"
     },
     {
       "id": "s109",
-      "text": "Alice looked on with great interest as the King took an enormous memorandum-book out of his pocket, and began writing."
+      "text": "“You will, though,” the Queen said, “if you don’t make a memorandum of it.”"
     },
     {
       "id": "s110",
-      "text": "A sudden thought struck her, and she took hold of the end of the pencil, which came some way over his shoulder, and began writing for him."
+      "text": "Alice looked on with great interest as the King took an enormous memorandum-book out of his pocket, and began writing."
     },
     {
       "id": "s111",
-      "text": "The poor King looked puzzled and unhappy, and struggled with the pencil for some time without saying anything; but Alice was too strong for him, and at last he panted out, “My dear!"
+      "text": "A sudden thought struck her, and she took hold of the end of the pencil, which came some way over his shoulder, and began writing for him."
     },
     {
       "id": "s112",
-      "text": "I really _must_ get a thinner pencil."
+      "text": "The poor King looked puzzled and unhappy, and struggled with the pencil for some time without saying anything; but Alice was too strong for him, and at last he panted out, “My dear!"
     },
     {
       "id": "s113",
-      "text": "I can’t manage this one a bit; it writes all manner of things that I don’t intend—”"
+      "text": "I really _must_ get a thinner pencil."
     },
     {
       "id": "s114",
-      "text": "“What manner of things?” said the Queen, looking over the book (in which Alice had put “_The White Knight is sliding down the poker."
+      "text": "I can’t manage this one a bit; it writes all manner of things that I don’t intend—”"
     },
     {
       "id": "s115",
-      "text": "He balances very badly_”) “That’s not a memorandum of _your_ feelings!”"
+      "text": "“What manner of things?” said the Queen, looking over the book (in which Alice had put “_The White Knight is sliding down the poker."
     },
     {
       "id": "s116",
-      "text": "There was a book lying near Alice on the table, and while she sat watching the White King (for she was still a little anxious about him, and had the ink all ready to throw over him, in case he fainted again), she turned over the leaves, to find some part that she could read, “—for it’s all in some language I don’t know,” she said to herself."
+      "text": "He balances very badly_”) “That’s not a memorandum of _your_ feelings!”"
     },
     {
       "id": "s117",
-      "text": "It was like this."
+      "text": "There was a book lying near Alice on the table, and while she sat watching the White King (for she was still a little anxious about him, and had the ink all ready to throw over him, in case he fainted again), she turned over the leaves, to find some part that she could read, “—for it’s all in some language I don’t know,” she said to herself."
     },
     {
       "id": "s118",
-      "text": ".YKCOWREBBAJ"
+      "text": "It was like this."
     },
     {
       "id": "s119",
-      "text": "sevot yhtils eht dna, gillirb sawT’ ebaw eht ni elbmig dna eryg diD ,sevogorob eht erew ysmim llA .ebargtuo shtar emom eht dnA"
+      "text": ".YKCOWREBBAJ"
     },
     {
       "id": "s120",
-      "text": "She puzzled over this for some time, but at last a bright thought struck her."
+      "text": "sevot yhtils eht dna, gillirb sawT’ ebaw eht ni elbmig dna eryg diD ,sevogorob eht erew ysmim llA .ebargtuo shtar emom eht dnA"
     },
     {
       "id": "s121",
-      "text": "“Why, it’s a Looking-glass book, of course!"
+      "text": "She puzzled over this for some time, but at last a bright thought struck her."
     },
     {
       "id": "s122",
-      "text": "And if I hold it up to a glass, the words will all go the right way again.”"
+      "text": "“Why, it’s a Looking-glass book, of course!"
     },
     {
       "id": "s123",
-      "text": "This was the poem that Alice read."
+      "text": "And if I hold it up to a glass, the words will all go the right way again.”"
     },
     {
       "id": "s124",
-      "text": "JABBERWOCKY."
+      "text": "This was the poem that Alice read."
     },
     {
       "id": "s125",
-      "text": "’Twas brillig, and the slithy toves Did gyre and gimble in the wabe; All mimsy were the borogoves, And the mome raths outgrabe."
+      "text": "JABBERWOCKY."
     },
     {
       "id": "s126",
-      "text": "“Beware the Jabberwock, my son!"
+      "text": "’Twas brillig, and the slithy toves Did gyre and gimble in the wabe; All mimsy were the borogoves, And the mome raths outgrabe."
     },
     {
       "id": "s127",
-      "text": "The jaws that bite, the claws that catch!"
+      "text": "“Beware the Jabberwock, my son!"
     },
     {
       "id": "s128",
-      "text": "Beware the Jubjub bird, and shun The frumious Bandersnatch!”"
+      "text": "The jaws that bite, the claws that catch!"
     },
     {
       "id": "s129",
-      "text": "He took his vorpal sword in hand: Long time the manxome foe he sought— So rested he by the Tumtum tree, And stood awhile in thought."
+      "text": "Beware the Jubjub bird, and shun The frumious Bandersnatch!”"
     },
     {
       "id": "s130",
-      "text": "And as in uffish thought he stood, The Jabberwock, with eyes of flame, Came whiffling through the tulgey wood, And burbled as it came!"
+      "text": "He took his vorpal sword in hand: Long time the manxome foe he sought— So rested he by the Tumtum tree, And stood awhile in thought."
     },
     {
       "id": "s131",
-      "text": "One, two!"
+      "text": "And as in uffish thought he stood, The Jabberwock, with eyes of flame, Came whiffling through the tulgey wood, And burbled as it came!"
     },
     {
       "id": "s132",
@@ -547,58 +547,62 @@
     },
     {
       "id": "s133",
-      "text": "And through and through The vorpal blade went snicker-snack!"
+      "text": "One, two!"
     },
     {
       "id": "s134",
-      "text": "He left it dead, and with its head He went galumphing back."
+      "text": "And through and through The vorpal blade went snicker-snack!"
     },
     {
       "id": "s135",
-      "text": "“And hast thou slain the Jabberwock?"
+      "text": "He left it dead, and with its head He went galumphing back."
     },
     {
       "id": "s136",
-      "text": "Come to my arms, my beamish boy!"
+      "text": "“And hast thou slain the Jabberwock?"
     },
     {
       "id": "s137",
-      "text": "O frabjous day!"
+      "text": "Come to my arms, my beamish boy!"
     },
     {
       "id": "s138",
-      "text": "Callooh!"
+      "text": "O frabjous day!"
     },
     {
       "id": "s139",
-      "text": "Callay!” He chortled in his joy."
+      "text": "Callooh!"
     },
     {
       "id": "s140",
-      "text": "’Twas brillig, and the slithy toves Did gyre and gimble in the wabe; All mimsy were the borogoves, And the mome raths outgrabe."
+      "text": "Callay!” He chortled in his joy."
     },
     {
       "id": "s141",
-      "text": "“It seems very pretty,” she said when she had finished it, “but it’s _rather_ hard to understand!” (You see she didn’t like to confess, even to herself, that she couldn’t make it out at all.) “Somehow it seems to fill my head with ideas—only I don’t exactly know what they are!"
+      "text": "’Twas brillig, and the slithy toves Did gyre and gimble in the wabe; All mimsy were the borogoves, And the mome raths outgrabe."
     },
     {
       "id": "s142",
-      "text": "However, _somebody_ killed _something_: that’s clear, at any rate—”"
+      "text": "“It seems very pretty,” she said when she had finished it, “but it’s _rather_ hard to understand!” (You see she didn’t like to confess, even to herself, that she couldn’t make it out at all.) “Somehow it seems to fill my head with ideas—only I don’t exactly know what they are!"
     },
     {
       "id": "s143",
-      "text": "“But oh!” thought Alice, suddenly jumping up, “if I don’t make haste I shall have to go back through the Looking-glass, before I’ve seen what the rest of the house is like!"
+      "text": "However, _somebody_ killed _something_: that’s clear, at any rate—”"
     },
     {
       "id": "s144",
-      "text": "Let’s have a look at the garden first!” She was out of the room in a moment, and ran down stairs—or, at least, it wasn’t exactly running, but a new invention of hers for getting down stairs quickly and easily, as Alice said to herself."
+      "text": "“But oh!” thought Alice, suddenly jumping up, “if I don’t make haste I shall have to go back through the Looking-glass, before I’ve seen what the rest of the house is like!"
     },
     {
       "id": "s145",
-      "text": "She just kept the tips of her fingers on the hand-rail, and floated gently down without even touching the stairs with her feet; then she floated on through the hall, and would have gone straight out at the door in the same way, if she hadn’t caught hold of the door-post."
+      "text": "Let’s have a look at the garden first!” She was out of the room in a moment, and ran down stairs—or, at least, it wasn’t exactly running, but a new invention of hers for getting down stairs quickly and easily, as Alice said to herself."
     },
     {
       "id": "s146",
+      "text": "She just kept the tips of her fingers on the hand-rail, and floated gently down without even touching the stairs with her feet; then she floated on through the hall, and would have gone straight out at the door in the same way, if she hadn’t caught hold of the door-post."
+    },
+    {
+      "id": "s147",
       "text": "She was getting a little giddy with so much floating in the air, and was rather glad to find herself walking again in the natural way."
     }
   ]

@@ -1,0 +1,729 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-17",
+  "chapterTitle": "CHAPTER XVII.",
+  "contentHash": "sha256:a385790810d2e1a9172be419677c07861bcd82a8ceffe423db78c3f27f3dab8c",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER XVII.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "In about a minute somebody spoke out of a window without putting his head out, and says:"
+    },
+    {
+      "id": "s2",
+      "text": "“Be done, boys!"
+    },
+    {
+      "id": "s3",
+      "text": "Who’s there?”"
+    },
+    {
+      "id": "s4",
+      "text": "I says:"
+    },
+    {
+      "id": "s5",
+      "text": "“It’s me.”"
+    },
+    {
+      "id": "s6",
+      "text": "“Who’s me?”"
+    },
+    {
+      "id": "s7",
+      "text": "“George Jackson, sir.”"
+    },
+    {
+      "id": "s8",
+      "text": "“What do you want?”"
+    },
+    {
+      "id": "s9",
+      "text": "“I don’t want nothing, sir."
+    },
+    {
+      "id": "s10",
+      "text": "I only want to go along by, but the dogs won’t let me.”"
+    },
+    {
+      "id": "s11",
+      "text": "“What are you prowling around here this time of night for—hey?”"
+    },
+    {
+      "id": "s12",
+      "text": "“I warn’t prowling around, sir, I fell overboard off of the steamboat.”"
+    },
+    {
+      "id": "s13",
+      "text": "“Oh, you did, did you?"
+    },
+    {
+      "id": "s14",
+      "text": "Strike a light there, somebody."
+    },
+    {
+      "id": "s15",
+      "text": "What did you say your name was?”"
+    },
+    {
+      "id": "s16",
+      "text": "“George Jackson, sir."
+    },
+    {
+      "id": "s17",
+      "text": "I’m only a boy.”"
+    },
+    {
+      "id": "s18",
+      "text": "“Look here, if you’re telling the truth you needn’t be afraid—nobody’ll hurt you."
+    },
+    {
+      "id": "s19",
+      "text": "But don’t try to budge; stand right where you are."
+    },
+    {
+      "id": "s20",
+      "text": "Rouse out Bob and Tom, some of you, and fetch the guns."
+    },
+    {
+      "id": "s21",
+      "text": "George Jackson, is there anybody with you?”"
+    },
+    {
+      "id": "s22",
+      "text": "“No, sir, nobody.”"
+    },
+    {
+      "id": "s23",
+      "text": "I heard the people stirring around in the house now, and see a light."
+    },
+    {
+      "id": "s24",
+      "text": "The man sung out:"
+    },
+    {
+      "id": "s25",
+      "text": "“Snatch that light away, Betsy, you old fool—ain’t you got any sense?"
+    },
+    {
+      "id": "s26",
+      "text": "Put it on the floor behind the front door."
+    },
+    {
+      "id": "s27",
+      "text": "Bob, if you and Tom are ready, take your places.”"
+    },
+    {
+      "id": "s28",
+      "text": "“All ready.”"
+    },
+    {
+      "id": "s29",
+      "text": "“Now, George Jackson, do you know the Shepherdsons?”"
+    },
+    {
+      "id": "s30",
+      "text": "“No, sir; I never heard of them.”"
+    },
+    {
+      "id": "s31",
+      "text": "“Well, that may be so, and it mayn’t."
+    },
+    {
+      "id": "s32",
+      "text": "Now, all ready."
+    },
+    {
+      "id": "s33",
+      "text": "Step forward, George Jackson."
+    },
+    {
+      "id": "s34",
+      "text": "And mind, don’t you hurry—come mighty slow."
+    },
+    {
+      "id": "s35",
+      "text": "If there’s anybody with you, let him keep back—if he shows himself he’ll be shot."
+    },
+    {
+      "id": "s36",
+      "text": "Come along now."
+    },
+    {
+      "id": "s37",
+      "text": "Come slow; push the door open yourself—just enough to squeeze in, d’ you hear?”"
+    },
+    {
+      "id": "s38",
+      "text": "I didn’t hurry; I couldn’t if I’d a wanted to."
+    },
+    {
+      "id": "s39",
+      "text": "I took one slow step at a time and there warn’t a sound, only I thought I could hear my heart."
+    },
+    {
+      "id": "s40",
+      "text": "The dogs were as still as the humans, but they followed a little behind me."
+    },
+    {
+      "id": "s41",
+      "text": "When I got to the three log doorsteps I heard them unlocking and unbarring and unbolting."
+    },
+    {
+      "id": "s42",
+      "text": "I put my hand on the door and pushed it a little and a little more till somebody said, “There, that’s enough—put your head in.” I done it, but I judged they would take it off."
+    },
+    {
+      "id": "s43",
+      "text": "The candle was on the floor, and there they all was, looking at me, and me at them, for about a quarter of a minute: Three big men with guns pointed at me, which made me wince, I tell you; the oldest, gray and about sixty, the other two thirty or more—all of them fine and handsome—and the sweetest old gray-headed lady, and back of her two young women which I couldn’t see right well."
+    },
+    {
+      "id": "s44",
+      "text": "The old gentleman says:"
+    },
+    {
+      "id": "s45",
+      "text": "“There; I reckon it’s all right."
+    },
+    {
+      "id": "s46",
+      "text": "Come in.”"
+    },
+    {
+      "id": "s47",
+      "text": "As soon as I was in the old gentleman he locked the door and barred it and bolted it, and told the young men to come in with their guns, and they all went in a big parlor that had a new rag carpet on the floor, and got together in a corner that was out of the range of the front windows—there warn’t none on the side."
+    },
+    {
+      "id": "s48",
+      "text": "They held the candle, and took a good look at me, and all said, “Why, _he_ ain’t a Shepherdson—no, there ain’t any Shepherdson about him.” Then the old man said he hoped I wouldn’t mind being searched for arms, because he didn’t mean no harm by it—it was only to make sure."
+    },
+    {
+      "id": "s49",
+      "text": "So he didn’t pry into my pockets, but only felt outside with his hands, and said it was all right."
+    },
+    {
+      "id": "s50",
+      "text": "He told me to make myself easy and at home, and tell all about myself; but the old lady says:"
+    },
+    {
+      "id": "s51",
+      "text": "“Why, bless you, Saul, the poor thing’s as wet as he can be; and don’t you reckon it may be he’s hungry?”"
+    },
+    {
+      "id": "s52",
+      "text": "“True for you, Rachel—I forgot.”"
+    },
+    {
+      "id": "s53",
+      "text": "So the old lady says:"
+    },
+    {
+      "id": "s54",
+      "text": "“Betsy” (this was a nigger woman), “you fly around and get him something to eat as quick as you can, poor thing; and one of you girls go and wake up Buck and tell him—oh, here he is himself."
+    },
+    {
+      "id": "s55",
+      "text": "Buck, take this little stranger and get the wet clothes off from him and dress him up in some of yours that’s dry.”"
+    },
+    {
+      "id": "s56",
+      "text": "Buck looked about as old as me—thirteen or fourteen or along there, though he was a little bigger than me."
+    },
+    {
+      "id": "s57",
+      "text": "He hadn’t on anything but a shirt, and he was very frowzy-headed."
+    },
+    {
+      "id": "s58",
+      "text": "He came in gaping and digging one fist into his eyes, and he was dragging a gun along with the other one."
+    },
+    {
+      "id": "s59",
+      "text": "He says:"
+    },
+    {
+      "id": "s60",
+      "text": "“Ain’t they no Shepherdsons around?”"
+    },
+    {
+      "id": "s61",
+      "text": "They said, no, ’twas a false alarm."
+    },
+    {
+      "id": "s62",
+      "text": "“Well,” he says, “if they’d a ben some, I reckon I’d a got one.”"
+    },
+    {
+      "id": "s63",
+      "text": "They all laughed, and Bob says:"
+    },
+    {
+      "id": "s64",
+      "text": "“Why, Buck, they might have scalped us all, you’ve been so slow in coming.”"
+    },
+    {
+      "id": "s65",
+      "text": "“Well, nobody come after me, and it ain’t right I’m always kept down; I don’t get no show.”"
+    },
+    {
+      "id": "s66",
+      "text": "“Never mind, Buck, my boy,” says the old man, “you’ll have show enough, all in good time, don’t you fret about that."
+    },
+    {
+      "id": "s67",
+      "text": "Go ’long with you now, and do as your mother told you.”"
+    },
+    {
+      "id": "s68",
+      "text": "When we got up-stairs to his room he got me a coarse shirt and a roundabout and pants of his, and I put them on."
+    },
+    {
+      "id": "s69",
+      "text": "While I was at it he asked me what my name was, but before I could tell him he started to tell me about a bluejay and a young rabbit he had catched in the woods day before yesterday, and he asked me where Moses was when the candle went out."
+    },
+    {
+      "id": "s70",
+      "text": "I said I didn’t know; I hadn’t heard about it before, no way."
+    },
+    {
+      "id": "s71",
+      "text": "“Well, guess,” he says."
+    },
+    {
+      "id": "s72",
+      "text": "“How’m I going to guess,” says I, “when I never heard tell of it before?”"
+    },
+    {
+      "id": "s73",
+      "text": "“But you can guess, can’t you?"
+    },
+    {
+      "id": "s74",
+      "text": "It’s just as easy.”"
+    },
+    {
+      "id": "s75",
+      "text": "“_Which_ candle?” I says."
+    },
+    {
+      "id": "s76",
+      "text": "“Why, any candle,” he says."
+    },
+    {
+      "id": "s77",
+      "text": "“I don’t know where he was,” says I; “where was he?”"
+    },
+    {
+      "id": "s78",
+      "text": "“Why, he was in the _dark!_ That’s where he was!”"
+    },
+    {
+      "id": "s79",
+      "text": "“Well, if you knowed where he was, what did you ask me for?”"
+    },
+    {
+      "id": "s80",
+      "text": "“Why, blame it, it’s a riddle, don’t you see?"
+    },
+    {
+      "id": "s81",
+      "text": "Say, how long are you going to stay here?"
+    },
+    {
+      "id": "s82",
+      "text": "You got to stay always."
+    },
+    {
+      "id": "s83",
+      "text": "We can just have booming times—they don’t have no school now."
+    },
+    {
+      "id": "s84",
+      "text": "Do you own a dog?"
+    },
+    {
+      "id": "s85",
+      "text": "I’ve got a dog—and he’ll go in the river and bring out chips that you throw in."
+    },
+    {
+      "id": "s86",
+      "text": "Do you like to comb up Sundays, and all that kind of foolishness?"
+    },
+    {
+      "id": "s87",
+      "text": "You bet I don’t, but ma she makes me."
+    },
+    {
+      "id": "s88",
+      "text": "Confound these ole britches!"
+    },
+    {
+      "id": "s89",
+      "text": "I reckon I’d better put ’em on, but I’d ruther not, it’s so warm."
+    },
+    {
+      "id": "s90",
+      "text": "Are you all ready?"
+    },
+    {
+      "id": "s91",
+      "text": "All right."
+    },
+    {
+      "id": "s92",
+      "text": "Come along, old hoss.”"
+    },
+    {
+      "id": "s93",
+      "text": "Cold corn-pone, cold corn-beef, butter and buttermilk—that is what they had for me down there, and there ain’t nothing better that ever I’ve come across yet."
+    },
+    {
+      "id": "s94",
+      "text": "Buck and his ma and all of them smoked cob pipes, except the nigger woman, which was gone, and the two young women."
+    },
+    {
+      "id": "s95",
+      "text": "They all smoked and talked, and I eat and talked."
+    },
+    {
+      "id": "s96",
+      "text": "The young women had quilts around them, and their hair down their backs."
+    },
+    {
+      "id": "s97",
+      "text": "They all asked me questions, and I told them how pap and me and all the family was living on a little farm down at the bottom of Arkansaw, and my sister Mary Ann run off and got married and never was heard of no more, and Bill went to hunt them and he warn’t heard of no more, and Tom and Mort died, and then there warn’t nobody but just me and pap left, and he was just trimmed down to nothing, on account of his troubles; so when he died I took what there was left, because the farm didn’t belong to us, and started up the river, deck passage, and fell overboard; and that was how I come to be here."
+    },
+    {
+      "id": "s98",
+      "text": "So they said I could have a home there as long as I wanted it."
+    },
+    {
+      "id": "s99",
+      "text": "Then it was most daylight and everybody went to bed, and I went to bed with Buck, and when I waked up in the morning, drat it all, I had forgot what my name was."
+    },
+    {
+      "id": "s100",
+      "text": "So I laid there about an hour trying to think, and when Buck waked up I says:"
+    },
+    {
+      "id": "s101",
+      "text": "“Can you spell, Buck?”"
+    },
+    {
+      "id": "s102",
+      "text": "“Yes,” he says."
+    },
+    {
+      "id": "s103",
+      "text": "“I bet you can’t spell my name,” says I."
+    },
+    {
+      "id": "s104",
+      "text": "“I bet you what you dare I can,” says he."
+    },
+    {
+      "id": "s105",
+      "text": "“All right,” says I, “go ahead.”"
+    },
+    {
+      "id": "s106",
+      "text": "“G-e-o-r-g-e J-a-x-o-n—there now,” he says."
+    },
+    {
+      "id": "s107",
+      "text": "“Well,” says I, “you done it, but I didn’t think you could."
+    },
+    {
+      "id": "s108",
+      "text": "It ain’t no slouch of a name to spell—right off without studying.”"
+    },
+    {
+      "id": "s109",
+      "text": "I set it down, private, because somebody might want _me_ to spell it next, and so I wanted to be handy with it and rattle it off like I was used to it."
+    },
+    {
+      "id": "s110",
+      "text": "It was a mighty nice family, and a mighty nice house, too."
+    },
+    {
+      "id": "s111",
+      "text": "I hadn’t seen no house out in the country before that was so nice and had so much style."
+    },
+    {
+      "id": "s112",
+      "text": "It didn’t have an iron latch on the front door, nor a wooden one with a buckskin string, but a brass knob to turn, the same as houses in town."
+    },
+    {
+      "id": "s113",
+      "text": "There warn’t no bed in the parlor, nor a sign of a bed; but heaps of parlors in towns has beds in them."
+    },
+    {
+      "id": "s114",
+      "text": "There was a big fireplace that was bricked on the bottom, and the bricks was kept clean and red by pouring water on them and scrubbing them with another brick; sometimes they wash them over with red water-paint that they call Spanish-brown, same as they do in town."
+    },
+    {
+      "id": "s115",
+      "text": "They had big brass dog-irons that could hold up a saw-log."
+    },
+    {
+      "id": "s116",
+      "text": "There was a clock on the middle of the mantelpiece, with a picture of a town painted on the bottom half of the glass front, and a round place in the middle of it for the sun, and you could see the pendulum swinging behind it."
+    },
+    {
+      "id": "s117",
+      "text": "It was beautiful to hear that clock tick; and sometimes when one of these peddlers had been along and scoured her up and got her in good shape, she would start in and strike a hundred and fifty before she got tuckered out."
+    },
+    {
+      "id": "s118",
+      "text": "They wouldn’t took any money for her."
+    },
+    {
+      "id": "s119",
+      "text": "Well, there was a big outlandish parrot on each side of the clock, made out of something like chalk, and painted up gaudy."
+    },
+    {
+      "id": "s120",
+      "text": "By one of the parrots was a cat made of crockery, and a crockery dog by the other; and when you pressed down on them they squeaked, but didn’t open their mouths nor look different nor interested."
+    },
+    {
+      "id": "s121",
+      "text": "They squeaked through underneath."
+    },
+    {
+      "id": "s122",
+      "text": "There was a couple of big wild-turkey-wing fans spread out behind those things."
+    },
+    {
+      "id": "s123",
+      "text": "On the table in the middle of the room was a kind of a lovely crockery basket that had apples and oranges and peaches and grapes piled up in it, which was much redder and yellower and prettier than real ones is, but they warn’t real because you could see where pieces had got chipped off and showed the white chalk, or whatever it was, underneath."
+    },
+    {
+      "id": "s124",
+      "text": "This table had a cover made out of beautiful oilcloth, with a red and blue spread-eagle painted on it, and a painted border all around."
+    },
+    {
+      "id": "s125",
+      "text": "It come all the way from Philadelphia, they said."
+    },
+    {
+      "id": "s126",
+      "text": "There was some books, too, piled up perfectly exact, on each corner of the table."
+    },
+    {
+      "id": "s127",
+      "text": "One was a big family Bible full of pictures."
+    },
+    {
+      "id": "s128",
+      "text": "One was Pilgrim’s Progress, about a man that left his family, it didn’t say why."
+    },
+    {
+      "id": "s129",
+      "text": "I read considerable in it now and then."
+    },
+    {
+      "id": "s130",
+      "text": "The statements was interesting, but tough."
+    },
+    {
+      "id": "s131",
+      "text": "Another was Friendship’s Offering, full of beautiful stuff and poetry; but I didn’t read the poetry."
+    },
+    {
+      "id": "s132",
+      "text": "Another was Henry Clay’s Speeches, and another was Dr."
+    },
+    {
+      "id": "s133",
+      "text": "Gunn’s Family Medicine, which told you all about what to do if a body was sick or dead."
+    },
+    {
+      "id": "s134",
+      "text": "There was a hymn book, and a lot of other books."
+    },
+    {
+      "id": "s135",
+      "text": "And there was nice split-bottom chairs, and perfectly sound, too—not bagged down in the middle and busted, like an old basket."
+    },
+    {
+      "id": "s136",
+      "text": "They had pictures hung on the walls—mainly Washingtons and Lafayettes, and battles, and Highland Marys, and one called “Signing the Declaration.” There was some that they called crayons, which one of the daughters which was dead made her own self when she was only fifteen years old."
+    },
+    {
+      "id": "s137",
+      "text": "They was different from any pictures I ever see before—blacker, mostly, than is common."
+    },
+    {
+      "id": "s138",
+      "text": "One was a woman in a slim black dress, belted small under the armpits, with bulges like a cabbage in the middle of the sleeves, and a large black scoop-shovel bonnet with a black veil, and white slim ankles crossed about with black tape, and very wee black slippers, like a chisel, and she was leaning pensive on a tombstone on her right elbow, under a weeping willow, and her other hand hanging down her side holding a white handkerchief and a reticule, and underneath the picture it said “Shall I Never See Thee More Alas.” Another one was a young lady with her hair all combed up straight to the top of her head, and knotted there in front of a comb like a chair-back, and she was crying into a handkerchief and had a dead bird laying on its back in her other hand with its heels up, and underneath the picture it said “I Shall Never Hear Thy Sweet Chirrup More Alas.” There was one where a young lady was at a window looking up at the moon, and tears running down her cheeks; and she had an open letter in one hand with black sealing wax showing on one edge of it, and she was mashing a locket with a chain to it against her mouth, and underneath the picture it said “And Art Thou Gone Yes Thou Art Gone Alas.” These was all nice pictures, I reckon, but I didn’t somehow seem to take to them, because if ever I was down a little they always give me the fan-tods."
+    },
+    {
+      "id": "s139",
+      "text": "Everybody was sorry she died, because she had laid out a lot more of these pictures to do, and a body could see by what she had done what they had lost."
+    },
+    {
+      "id": "s140",
+      "text": "But I reckoned that with her disposition she was having a better time in the graveyard."
+    },
+    {
+      "id": "s141",
+      "text": "She was at work on what they said was her greatest picture when she took sick, and every day and every night it was her prayer to be allowed to live till she got it done, but she never got the chance."
+    },
+    {
+      "id": "s142",
+      "text": "It was a picture of a young woman in a long white gown, standing on the rail of a bridge all ready to jump off, with her hair all down her back, and looking up to the moon, with the tears running down her face, and she had two arms folded across her breast, and two arms stretched out in front, and two more reaching up towards the moon—and the idea was to see which pair would look best, and then scratch out all the other arms; but, as I was saying, she died before she got her mind made up, and now they kept this picture over the head of the bed in her room, and every time her birthday come they hung flowers on it."
+    },
+    {
+      "id": "s143",
+      "text": "Other times it was hid with a little curtain."
+    },
+    {
+      "id": "s144",
+      "text": "The young woman in the picture had a kind of a nice sweet face, but there was so many arms it made her look too spidery, seemed to me."
+    },
+    {
+      "id": "s145",
+      "text": "This young girl kept a scrap-book when she was alive, and used to paste obituaries and accidents and cases of patient suffering in it out of the _Presbyterian Observer_, and write poetry after them out of her own head."
+    },
+    {
+      "id": "s146",
+      "text": "It was very good poetry."
+    },
+    {
+      "id": "s147",
+      "text": "This is what she wrote about a boy by the name of Stephen Dowling Bots that fell down a well and was drownded:"
+    },
+    {
+      "id": "s148",
+      "text": "ODE TO STEPHEN DOWLING BOTS, DEC’D"
+    },
+    {
+      "id": "s149",
+      "text": "And did young Stephen sicken, And did young Stephen die?"
+    },
+    {
+      "id": "s150",
+      "text": "And did the sad hearts thicken, And did the mourners cry?"
+    },
+    {
+      "id": "s151",
+      "text": "No; such was not the fate of Young Stephen Dowling Bots; Though sad hearts round him thickened, ’Twas not from sickness’ shots."
+    },
+    {
+      "id": "s152",
+      "text": "No whooping-cough did rack his frame, Nor measles drear with spots; Not these impaired the sacred name Of Stephen Dowling Bots."
+    },
+    {
+      "id": "s153",
+      "text": "Despised love struck not with woe That head of curly knots, Nor stomach troubles laid him low, Young Stephen Dowling Bots."
+    },
+    {
+      "id": "s154",
+      "text": "O no."
+    },
+    {
+      "id": "s155",
+      "text": "Then list with tearful eye, Whilst I his fate do tell."
+    },
+    {
+      "id": "s156",
+      "text": "His soul did from this cold world fly By falling down a well."
+    },
+    {
+      "id": "s157",
+      "text": "They got him out and emptied him; Alas it was too late; His spirit was gone for to sport aloft In the realms of the good and great."
+    },
+    {
+      "id": "s158",
+      "text": "If Emmeline Grangerford could make poetry like that before she was fourteen, there ain’t no telling what she could a done by-and-by."
+    },
+    {
+      "id": "s159",
+      "text": "Buck said she could rattle off poetry like nothing."
+    },
+    {
+      "id": "s160",
+      "text": "She didn’t ever have to stop to think."
+    },
+    {
+      "id": "s161",
+      "text": "He said she would slap down a line, and if she couldn’t find anything to rhyme with it would just scratch it out and slap down another one, and go ahead."
+    },
+    {
+      "id": "s162",
+      "text": "She warn’t particular; she could write about anything you choose to give her to write about just so it was sadful."
+    },
+    {
+      "id": "s163",
+      "text": "Every time a man died, or a woman died, or a child died, she would be on hand with her “tribute” before he was cold."
+    },
+    {
+      "id": "s164",
+      "text": "She called them tributes."
+    },
+    {
+      "id": "s165",
+      "text": "The neighbors said it was the doctor first, then Emmeline, then the undertaker—the undertaker never got in ahead of Emmeline but once, and then she hung fire on a rhyme for the dead person’s name, which was Whistler."
+    },
+    {
+      "id": "s166",
+      "text": "She warn’t ever the same after that; she never complained, but she kinder pined away and did not live long."
+    },
+    {
+      "id": "s167",
+      "text": "Poor thing, many’s the time I made myself go up to the little room that used to be hers and get out her poor old scrap-book and read in it when her pictures had been aggravating me and I had soured on her a little."
+    },
+    {
+      "id": "s168",
+      "text": "I liked all that family, dead ones and all, and warn’t going to let anything come between us."
+    },
+    {
+      "id": "s169",
+      "text": "Poor Emmeline made poetry about all the dead people when she was alive, and it didn’t seem right that there warn’t nobody to make some about her now she was gone; so I tried to sweat out a verse or two myself, but I couldn’t seem to make it go somehow."
+    },
+    {
+      "id": "s170",
+      "text": "They kept Emmeline’s room trim and nice, and all the things fixed in it just the way she liked to have them when she was alive, and nobody ever slept there."
+    },
+    {
+      "id": "s171",
+      "text": "The old lady took care of the room herself, though there was plenty of niggers, and she sewed there a good deal and read her Bible there mostly."
+    },
+    {
+      "id": "s172",
+      "text": "Well, as I was saying about the parlor, there was beautiful curtains on the windows: white, with pictures painted on them of castles with vines all down the walls, and cattle coming down to drink."
+    },
+    {
+      "id": "s173",
+      "text": "There was a little old piano, too, that had tin pans in it, I reckon, and nothing was ever so lovely as to hear the young ladies sing “The Last Link is Broken” and play “The Battle of Prague” on it."
+    },
+    {
+      "id": "s174",
+      "text": "The walls of all the rooms was plastered, and most had carpets on the floors, and the whole house was whitewashed on the outside."
+    },
+    {
+      "id": "s175",
+      "text": "It was a double house, and the big open place betwixt them was roofed and floored, and sometimes the table was set there in the middle of the day, and it was a cool, comfortable place."
+    },
+    {
+      "id": "s176",
+      "text": "Nothing couldn’t be better."
+    },
+    {
+      "id": "s177",
+      "text": "And warn’t the cooking good, and just bushels of it too!"
+    }
+  ]
+}

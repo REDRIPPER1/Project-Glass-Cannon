@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-30",
+  "chapterTitle": "CHAPTER XXX.",
+  "contentHash": "sha256:fad7981a1d1394825b404a4c697dd2c9154a1b730dcb792665db89c218707ac6",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER XXX.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "When they got aboard the king went for me, and shook me by the collar, and says:"
+    },
+    {
+      "id": "s2",
+      "text": "“Tryin’ to give us the slip, was ye, you pup!"
+    },
+    {
+      "id": "s3",
+      "text": "Tired of our company, hey?”"
+    },
+    {
+      "id": "s4",
+      "text": "I says:"
+    },
+    {
+      "id": "s5",
+      "text": "“No, your majesty, we warn’t—_please_ don’t, your majesty!”"
+    },
+    {
+      "id": "s6",
+      "text": "“Quick, then, and tell us what _was_ your idea, or I’ll shake the insides out o’ you!”"
+    },
+    {
+      "id": "s7",
+      "text": "“Honest, I’ll tell you everything just as it happened, your majesty."
+    },
+    {
+      "id": "s8",
+      "text": "The man that had a-holt of me was very good to me, and kept saying he had a boy about as big as me that died last year, and he was sorry to see a boy in such a dangerous fix; and when they was all took by surprise by finding the gold, and made a rush for the coffin, he lets go of me and whispers, ‘Heel it now, or they’ll hang ye, sure!’ and I lit out."
+    },
+    {
+      "id": "s9",
+      "text": "It didn’t seem no good for _me_ to stay—_I_ couldn’t do nothing, and I didn’t want to be hung if I could get away."
+    },
+    {
+      "id": "s10",
+      "text": "So I never stopped running till I found the canoe; and when I got here I told Jim to hurry, or they’d catch me and hang me yet, and said I was afeard you and the duke wasn’t alive now, and I was awful sorry, and so was Jim, and was awful glad when we see you coming; you may ask Jim if I didn’t.”"
+    },
+    {
+      "id": "s11",
+      "text": "Jim said it was so; and the king told him to shut up, and said, “Oh, yes, it’s _mighty_ likely!” and shook me up again, and said he reckoned he’d drownd me."
+    },
+    {
+      "id": "s12",
+      "text": "But the duke says:"
+    },
+    {
+      "id": "s13",
+      "text": "“Leggo the boy, you old idiot!"
+    },
+    {
+      "id": "s14",
+      "text": "Would _you_ a done any different?"
+    },
+    {
+      "id": "s15",
+      "text": "Did you inquire around for _him_ when you got loose? _I_ don’t remember it.”"
+    },
+    {
+      "id": "s16",
+      "text": "So the king let go of me, and begun to cuss that town and everybody in it."
+    },
+    {
+      "id": "s17",
+      "text": "But the duke says:"
+    },
+    {
+      "id": "s18",
+      "text": "“You better a blame sight give _yourself_ a good cussing, for you’re the one that’s entitled to it most."
+    },
+    {
+      "id": "s19",
+      "text": "You hain’t done a thing from the start that had any sense in it, except coming out so cool and cheeky with that imaginary blue-arrow mark."
+    },
+    {
+      "id": "s20",
+      "text": "That _was_ bright—it was right down bully; and it was the thing that saved us."
+    },
+    {
+      "id": "s21",
+      "text": "For if it hadn’t been for that, they’d a jailed us till them Englishmen’s baggage come—and then—the penitentiary, you bet!"
+    },
+    {
+      "id": "s22",
+      "text": "But that trick took ’em to the graveyard, and the gold done us a still bigger kindness; for if the excited fools hadn’t let go all holts and made that rush to get a look, we’d a slept in our cravats to-night—cravats warranted to _wear_, too—longer than _we’d_ need ’em.”"
+    },
+    {
+      "id": "s23",
+      "text": "They was still a minute—thinking; then the king says, kind of absent-minded like:"
+    },
+    {
+      "id": "s24",
+      "text": "“Mf!"
+    },
+    {
+      "id": "s25",
+      "text": "And we reckoned the _niggers_ stole it!”"
+    },
+    {
+      "id": "s26",
+      "text": "That made me squirm!"
+    },
+    {
+      "id": "s27",
+      "text": "“Yes,” says the duke, kinder slow and deliberate and sarcastic, “_We_ did.”"
+    },
+    {
+      "id": "s28",
+      "text": "After about a half a minute the king drawls out:"
+    },
+    {
+      "id": "s29",
+      "text": "“Leastways, _I_ did.”"
+    },
+    {
+      "id": "s30",
+      "text": "The duke says, the same way:"
+    },
+    {
+      "id": "s31",
+      "text": "“On the contrary, _I_ did.”"
+    },
+    {
+      "id": "s32",
+      "text": "The king kind of ruffles up, and says:"
+    },
+    {
+      "id": "s33",
+      "text": "“Looky here, Bilgewater, what’r you referrin’ to?”"
+    },
+    {
+      "id": "s34",
+      "text": "The duke says, pretty brisk:"
+    },
+    {
+      "id": "s35",
+      "text": "“When it comes to that, maybe you’ll let me ask, what was _you_ referring to?”"
+    },
+    {
+      "id": "s36",
+      "text": "“Shucks!” says the king, very sarcastic; “but _I_ don’t know—maybe you was asleep, and didn’t know what you was about.”"
+    },
+    {
+      "id": "s37",
+      "text": "The duke bristles up now, and says:"
+    },
+    {
+      "id": "s38",
+      "text": "“Oh, let _up_ on this cussed nonsense; do you take me for a blame’ fool?"
+    },
+    {
+      "id": "s39",
+      "text": "Don’t you reckon _I_ know who hid that money in that coffin?”"
+    },
+    {
+      "id": "s40",
+      "text": "“_Yes_, sir!"
+    },
+    {
+      "id": "s41",
+      "text": "I know you _do_ know, because you done it yourself!”"
+    },
+    {
+      "id": "s42",
+      "text": "“It’s a lie!”—and the duke went for him."
+    },
+    {
+      "id": "s43",
+      "text": "The king sings out:"
+    },
+    {
+      "id": "s44",
+      "text": "“Take y’r hands off!—leggo my throat!—I take it all back!”"
+    },
+    {
+      "id": "s45",
+      "text": "The duke says:"
+    },
+    {
+      "id": "s46",
+      "text": "“Well, you just own up, first, that you _did_ hide that money there, intending to give me the slip one of these days, and come back and dig it up, and have it all to yourself.”"
+    },
+    {
+      "id": "s47",
+      "text": "“Wait jest a minute, duke—answer me this one question, honest and fair; if you didn’t put the money there, say it, and I’ll b’lieve you, and take back everything I said.”"
+    },
+    {
+      "id": "s48",
+      "text": "“You old scoundrel, I didn’t, and you know I didn’t."
+    },
+    {
+      "id": "s49",
+      "text": "There, now!”"
+    },
+    {
+      "id": "s50",
+      "text": "“Well, then, I b’lieve you."
+    },
+    {
+      "id": "s51",
+      "text": "But answer me only jest this one more—now _don’t_ git mad; didn’t you have it in your mind to hook the money and hide it?”"
+    },
+    {
+      "id": "s52",
+      "text": "The duke never said nothing for a little bit; then he says:"
+    },
+    {
+      "id": "s53",
+      "text": "“Well, I don’t care if I _did_, I didn’t _do_ it, anyway."
+    },
+    {
+      "id": "s54",
+      "text": "But you not only had it in mind to do it, but you _done_ it.”"
+    },
+    {
+      "id": "s55",
+      "text": "“I wisht I never die if I done it, duke, and that’s honest."
+    },
+    {
+      "id": "s56",
+      "text": "I won’t say I warn’t _goin_’ to do it, because I _was;_ but you—I mean somebody—got in ahead o’ me.”"
+    },
+    {
+      "id": "s57",
+      "text": "“It’s a lie!"
+    },
+    {
+      "id": "s58",
+      "text": "You done it, and you got to _say_ you done it, or—”"
+    },
+    {
+      "id": "s59",
+      "text": "The king began to gurgle, and then he gasps out:"
+    },
+    {
+      "id": "s60",
+      "text": "“’Nough!—_I own up!_”"
+    },
+    {
+      "id": "s61",
+      "text": "I was very glad to hear him say that; it made me feel much more easier than what I was feeling before."
+    },
+    {
+      "id": "s62",
+      "text": "So the duke took his hands off and says:"
+    },
+    {
+      "id": "s63",
+      "text": "“If you ever deny it again I’ll drown you."
+    },
+    {
+      "id": "s64",
+      "text": "It’s _well_ for you to set there and blubber like a baby—it’s fitten for you, after the way you’ve acted."
+    },
+    {
+      "id": "s65",
+      "text": "I never see such an old ostrich for wanting to gobble everything—and I a-trusting you all the time, like you was my own father."
+    },
+    {
+      "id": "s66",
+      "text": "You ought to been ashamed of yourself to stand by and hear it saddled on to a lot of poor niggers, and you never say a word for ’em."
+    },
+    {
+      "id": "s67",
+      "text": "It makes me feel ridiculous to think I was soft enough to _believe_ that rubbage."
+    },
+    {
+      "id": "s68",
+      "text": "Cuss you, I can see now why you was so anxious to make up the deffisit—you wanted to get what money I’d got out of the Nonesuch and one thing or another, and scoop it _all!_”"
+    },
+    {
+      "id": "s69",
+      "text": "The king says, timid, and still a-snuffling:"
+    },
+    {
+      "id": "s70",
+      "text": "“Why, duke, it was you that said make up the deffisit; it warn’t me.”"
+    },
+    {
+      "id": "s71",
+      "text": "“Dry up!"
+    },
+    {
+      "id": "s72",
+      "text": "I don’t want to hear no more _out_ of you!” says the duke."
+    },
+    {
+      "id": "s73",
+      "text": "“And _now_ you see what you _got_ by it."
+    },
+    {
+      "id": "s74",
+      "text": "They’ve got all their own money back, and all of _ourn_ but a shekel or two _besides_."
+    },
+    {
+      "id": "s75",
+      "text": "G’long to bed, and don’t you deffersit _me_ no more deffersits, long ’s _you_ live!”"
+    },
+    {
+      "id": "s76",
+      "text": "So the king sneaked into the wigwam and took to his bottle for comfort, and before long the duke tackled _his_ bottle; and so in about a half an hour they was as thick as thieves again, and the tighter they got, the lovinger they got, and went off a-snoring in each other’s arms."
+    },
+    {
+      "id": "s77",
+      "text": "They both got powerful mellow, but I noticed the king didn’t get mellow enough to forget to remember to not deny about hiding the money-bag again."
+    },
+    {
+      "id": "s78",
+      "text": "That made me feel easy and satisfied."
+    },
+    {
+      "id": "s79",
+      "text": "Of course when they got to snoring we had a long gabble, and I told Jim everything."
+    }
+  ]
+}

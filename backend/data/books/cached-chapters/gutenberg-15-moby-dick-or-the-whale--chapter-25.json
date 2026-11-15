@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-25",
+  "chapterTitle": "CHAPTER XXV.",
+  "contentHash": "sha256:f875a3bbb7c1cf121011b89726de44c6e88985346a14894c4718bfecc8bf4d00",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER XXV.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "POSTSCRIPT."
+    },
+    {
+      "id": "s2",
+      "text": "In behalf of the dignity of whaling, I would fain advance naught but substantiated facts."
+    },
+    {
+      "id": "s3",
+      "text": "But after embattling his facts, an advocate who should wholly suppress a not unreasonable surmise, which might tell eloquently upon his cause—such an advocate, would he not be blameworthy?"
+    },
+    {
+      "id": "s4",
+      "text": "It is well known that at the coronation of kings and queens, even modern ones, a certain curious process of seasoning them for their functions is gone through."
+    },
+    {
+      "id": "s5",
+      "text": "There is a saltcellar of state, so called, and there may be a caster of state."
+    },
+    {
+      "id": "s6",
+      "text": "How they use the salt, precisely—who knows?"
+    },
+    {
+      "id": "s7",
+      "text": "Certain I am, however, that a king’s head is solemnly oiled at his coronation, even as a head of salad."
+    },
+    {
+      "id": "s8",
+      "text": "Can it be, though, that they anoint it with a view of making its interior run well, as they anoint machinery?"
+    },
+    {
+      "id": "s9",
+      "text": "Much might be ruminated here, concerning the essential dignity of this regal process, because in common life we esteem but meanly and contemptibly a fellow who anoints his hair, and palpably smells of that anointing."
+    },
+    {
+      "id": "s10",
+      "text": "In truth, a mature man who uses hair-oil, unless medicinally, that man has probably got a quoggy spot in him somewhere."
+    },
+    {
+      "id": "s11",
+      "text": "As a general rule, he can’t amount to much in his totality."
+    },
+    {
+      "id": "s12",
+      "text": "But the only thing to be considered here, is this—what kind of oil is used at coronations?"
+    },
+    {
+      "id": "s13",
+      "text": "Certainly it cannot be olive oil, nor macassar oil, nor castor oil, nor bear’s oil, nor train oil, nor cod-liver oil."
+    },
+    {
+      "id": "s14",
+      "text": "What then can it possibly be, but sperm oil in its unmanufactured, unpolluted state, the sweetest of all oils?"
+    },
+    {
+      "id": "s15",
+      "text": "Think of that, ye loyal Britons! we whalemen supply your kings and queens with coronation stuff!"
+    }
+  ]
+}

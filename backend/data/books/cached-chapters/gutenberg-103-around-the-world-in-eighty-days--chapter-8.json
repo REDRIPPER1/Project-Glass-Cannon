@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-8",
+  "chapterTitle": "CHAPTER VIII.",
+  "contentHash": "sha256:99850c8e22c79a714fc06fba2c1710888197318d159e61376b7dd8cd9293a2d3",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER VIII.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH PASSEPARTOUT TALKS RATHER MORE, PERHAPS, THAN IS PRUDENT"
+    },
+    {
+      "id": "s2",
+      "text": "Fix soon rejoined Passepartout, who was lounging and looking about on the quay, as if he did not feel that he, at least, was obliged not to see anything."
+    },
+    {
+      "id": "s3",
+      "text": "“Well, my friend,” said the detective, coming up with him, “is your passport _visaed?_”"
+    },
+    {
+      "id": "s4",
+      "text": "“Ah, it’s you, is it, monsieur?” responded Passepartout."
+    },
+    {
+      "id": "s5",
+      "text": "“Thanks, yes, the passport is all right.”"
+    },
+    {
+      "id": "s6",
+      "text": "“And you are looking about you?”"
+    },
+    {
+      "id": "s7",
+      "text": "“Yes; but we travel so fast that I seem to be journeying in a dream."
+    },
+    {
+      "id": "s8",
+      "text": "So this is Suez?”"
+    },
+    {
+      "id": "s9",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s10",
+      "text": "“In Egypt?”"
+    },
+    {
+      "id": "s11",
+      "text": "“Certainly, in Egypt.”"
+    },
+    {
+      "id": "s12",
+      "text": "“And in Africa?”"
+    },
+    {
+      "id": "s13",
+      "text": "“In Africa.”"
+    },
+    {
+      "id": "s14",
+      "text": "“In Africa!” repeated Passepartout."
+    },
+    {
+      "id": "s15",
+      "text": "“Just think, monsieur, I had no idea that we should go farther than Paris; and all that I saw of Paris was between twenty minutes past seven and twenty minutes before nine in the morning, between the Northern and the Lyons stations, through the windows of a car, and in a driving rain!"
+    },
+    {
+      "id": "s16",
+      "text": "How I regret not having seen once more Père la Chaise and the circus in the Champs Elysées!”"
+    },
+    {
+      "id": "s17",
+      "text": "“You are in a great hurry, then?”"
+    },
+    {
+      "id": "s18",
+      "text": "“I am not, but my master is."
+    },
+    {
+      "id": "s19",
+      "text": "By the way, I must buy some shoes and shirts."
+    },
+    {
+      "id": "s20",
+      "text": "We came away without trunks, only with a carpet-bag.”"
+    },
+    {
+      "id": "s21",
+      "text": "“I will show you an excellent shop for getting what you want.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Really, monsieur, you are very kind.”"
+    },
+    {
+      "id": "s23",
+      "text": "And they walked off together, Passepartout chatting volubly as they went along."
+    },
+    {
+      "id": "s24",
+      "text": "“Above all,” said he; “don’t let me lose the steamer.”"
+    },
+    {
+      "id": "s25",
+      "text": "“You have plenty of time; it’s only twelve o’clock.”"
+    },
+    {
+      "id": "s26",
+      "text": "Passepartout pulled out his big watch."
+    },
+    {
+      "id": "s27",
+      "text": "“Twelve!” he exclaimed; “why, it’s only eight minutes before ten.”"
+    },
+    {
+      "id": "s28",
+      "text": "“Your watch is slow.”"
+    },
+    {
+      "id": "s29",
+      "text": "“My watch?"
+    },
+    {
+      "id": "s30",
+      "text": "A family watch, monsieur, which has come down from my great-grandfather!"
+    },
+    {
+      "id": "s31",
+      "text": "It doesn’t vary five minutes in the year."
+    },
+    {
+      "id": "s32",
+      "text": "It’s a perfect chronometer, look you.”"
+    },
+    {
+      "id": "s33",
+      "text": "“I see how it is,” said Fix."
+    },
+    {
+      "id": "s34",
+      "text": "“You have kept London time, which is two hours behind that of Suez."
+    },
+    {
+      "id": "s35",
+      "text": "You ought to regulate your watch at noon in each country.”"
+    },
+    {
+      "id": "s36",
+      "text": "“I regulate my watch?"
+    },
+    {
+      "id": "s37",
+      "text": "Never!”"
+    },
+    {
+      "id": "s38",
+      "text": "“Well, then, it will not agree with the sun.”"
+    },
+    {
+      "id": "s39",
+      "text": "“So much the worse for the sun, monsieur."
+    },
+    {
+      "id": "s40",
+      "text": "The sun will be wrong, then!”"
+    },
+    {
+      "id": "s41",
+      "text": "And the worthy fellow returned the watch to its fob with a defiant gesture."
+    },
+    {
+      "id": "s42",
+      "text": "After a few minutes silence, Fix resumed: “You left London hastily, then?”"
+    },
+    {
+      "id": "s43",
+      "text": "“I rather think so!"
+    },
+    {
+      "id": "s44",
+      "text": "Last Friday at eight o’clock in the evening, Monsieur Fogg came home from his club, and three-quarters of an hour afterwards we were off.”"
+    },
+    {
+      "id": "s45",
+      "text": "“But where is your master going?”"
+    },
+    {
+      "id": "s46",
+      "text": "“Always straight ahead."
+    },
+    {
+      "id": "s47",
+      "text": "He is going round the world.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Round the world?” cried Fix."
+    },
+    {
+      "id": "s49",
+      "text": "“Yes, and in eighty days!"
+    },
+    {
+      "id": "s50",
+      "text": "He says it is on a wager; but, between us, I don’t believe a word of it."
+    },
+    {
+      "id": "s51",
+      "text": "That wouldn’t be common sense."
+    },
+    {
+      "id": "s52",
+      "text": "There’s something else in the wind.”"
+    },
+    {
+      "id": "s53",
+      "text": "“Ah!"
+    },
+    {
+      "id": "s54",
+      "text": "Mr."
+    },
+    {
+      "id": "s55",
+      "text": "Fogg is a character, is he?”"
+    },
+    {
+      "id": "s56",
+      "text": "“I should say he was.”"
+    },
+    {
+      "id": "s57",
+      "text": "“Is he rich?”"
+    },
+    {
+      "id": "s58",
+      "text": "“No doubt, for he is carrying an enormous sum in brand new banknotes with him."
+    },
+    {
+      "id": "s59",
+      "text": "And he doesn’t spare the money on the way, either: he has offered a large reward to the engineer of the ‘Mongolia’ if he gets us to Bombay well in advance of time.”"
+    },
+    {
+      "id": "s60",
+      "text": "“And you have known your master a long time?”"
+    },
+    {
+      "id": "s61",
+      "text": "“Why, no; I entered his service the very day we left London.”"
+    },
+    {
+      "id": "s62",
+      "text": "The effect of these replies upon the already suspicious and excited detective may be imagined."
+    },
+    {
+      "id": "s63",
+      "text": "The hasty departure from London soon after the robbery; the large sum carried by Mr."
+    },
+    {
+      "id": "s64",
+      "text": "Fogg; his eagerness to reach distant countries; the pretext of an eccentric and foolhardy bet—all confirmed Fix in his theory."
+    },
+    {
+      "id": "s65",
+      "text": "He continued to pump poor Passepartout, and learned that he really knew little or nothing of his master, who lived a solitary existence in London, was said to be rich, though no one knew whence came his riches, and was mysterious and impenetrable in his affairs and habits."
+    },
+    {
+      "id": "s66",
+      "text": "Fix felt sure that Phileas Fogg would not land at Suez, but was really going on to Bombay."
+    },
+    {
+      "id": "s67",
+      "text": "“Is Bombay far from here?” asked Passepartout."
+    },
+    {
+      "id": "s68",
+      "text": "“Pretty far."
+    },
+    {
+      "id": "s69",
+      "text": "It is a ten days’ voyage by sea.”"
+    },
+    {
+      "id": "s70",
+      "text": "“And in what country is Bombay?”"
+    },
+    {
+      "id": "s71",
+      "text": "“India.”"
+    },
+    {
+      "id": "s72",
+      "text": "“In Asia?”"
+    },
+    {
+      "id": "s73",
+      "text": "“Certainly.”"
+    },
+    {
+      "id": "s74",
+      "text": "“The deuce!"
+    },
+    {
+      "id": "s75",
+      "text": "I was going to tell you there’s one thing that worries me—my burner!”"
+    },
+    {
+      "id": "s76",
+      "text": "“What burner?”"
+    },
+    {
+      "id": "s77",
+      "text": "“My gas-burner, which I forgot to turn off, and which is at this moment burning at my expense."
+    },
+    {
+      "id": "s78",
+      "text": "I have calculated, monsieur, that I lose two shillings every four and twenty hours, exactly sixpence more than I earn; and you will understand that the longer our journey—”"
+    },
+    {
+      "id": "s79",
+      "text": "Did Fix pay any attention to Passepartout’s trouble about the gas?"
+    },
+    {
+      "id": "s80",
+      "text": "It is not probable."
+    },
+    {
+      "id": "s81",
+      "text": "He was not listening, but was cogitating a project."
+    },
+    {
+      "id": "s82",
+      "text": "Passepartout and he had now reached the shop, where Fix left his companion to make his purchases, after recommending him not to miss the steamer, and hurried back to the consulate."
+    },
+    {
+      "id": "s83",
+      "text": "Now that he was fully convinced, Fix had quite recovered his equanimity."
+    },
+    {
+      "id": "s84",
+      "text": "“Consul,” said he, “I have no longer any doubt."
+    },
+    {
+      "id": "s85",
+      "text": "I have spotted my man."
+    },
+    {
+      "id": "s86",
+      "text": "He passes himself off as an odd stick who is going round the world in eighty days.”"
+    },
+    {
+      "id": "s87",
+      "text": "“Then he’s a sharp fellow,” returned the consul, “and counts on returning to London after putting the police of the two countries off his track.”"
+    },
+    {
+      "id": "s88",
+      "text": "“We’ll see about that,” replied Fix."
+    },
+    {
+      "id": "s89",
+      "text": "“But are you not mistaken?”"
+    },
+    {
+      "id": "s90",
+      "text": "“I am not mistaken.”"
+    },
+    {
+      "id": "s91",
+      "text": "“Why was this robber so anxious to prove, by the _visa_, that he had passed through Suez?”"
+    },
+    {
+      "id": "s92",
+      "text": "“Why?"
+    },
+    {
+      "id": "s93",
+      "text": "I have no idea; but listen to me.”"
+    },
+    {
+      "id": "s94",
+      "text": "He reported in a few words the most important parts of his conversation with Passepartout."
+    },
+    {
+      "id": "s95",
+      "text": "“In short,” said the consul, “appearances are wholly against this man."
+    },
+    {
+      "id": "s96",
+      "text": "And what are you going to do?”"
+    },
+    {
+      "id": "s97",
+      "text": "“Send a dispatch to London for a warrant of arrest to be dispatched instantly to Bombay, take passage on board the ‘Mongolia,’ follow my rogue to India, and there, on English ground, arrest him politely, with my warrant in my hand, and my hand on his shoulder.”"
+    },
+    {
+      "id": "s98",
+      "text": "Having uttered these words with a cool, careless air, the detective took leave of the consul, and repaired to the telegraph office, whence he sent the dispatch which we have seen to the London police office."
+    },
+    {
+      "id": "s99",
+      "text": "A quarter of an hour later found Fix, with a small bag in his hand, proceeding on board the “Mongolia;” and, ere many moments longer, the noble steamer rode out at full steam upon the waters of the Red Sea."
+    }
+  ]
+}

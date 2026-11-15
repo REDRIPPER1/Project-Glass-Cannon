@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-5",
+  "chapterTitle": "CHAPTER V.",
+  "contentHash": "sha256:04b649e639a66e02fbb33210ff0233d64b2ec75cdee4f5c9ed5debcf35272615",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER V.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I had shut the door to."
+    },
+    {
+      "id": "s2",
+      "text": "Then I turned around and there he was."
+    },
+    {
+      "id": "s3",
+      "text": "I used to be scared of him all the time, he tanned me so much."
+    },
+    {
+      "id": "s4",
+      "text": "I reckoned I was scared now, too; but in a minute I see I was mistaken—that is, after the first jolt, as you may say, when my breath sort of hitched, he being so unexpected; but right away after I see I warn’t scared of him worth bothring about."
+    },
+    {
+      "id": "s5",
+      "text": "He was most fifty, and he looked it."
+    },
+    {
+      "id": "s6",
+      "text": "His hair was long and tangled and greasy, and hung down, and you could see his eyes shining through like he was behind vines."
+    },
+    {
+      "id": "s7",
+      "text": "It was all black, no gray; so was his long, mixed-up whiskers."
+    },
+    {
+      "id": "s8",
+      "text": "There warn’t no color in his face, where his face showed; it was white; not like another man’s white, but a white to make a body sick, a white to make a body’s flesh crawl—a tree-toad white, a fish-belly white."
+    },
+    {
+      "id": "s9",
+      "text": "As for his clothes—just rags, that was all."
+    },
+    {
+      "id": "s10",
+      "text": "He had one ankle resting on t’other knee; the boot on that foot was busted, and two of his toes stuck through, and he worked them now and then."
+    },
+    {
+      "id": "s11",
+      "text": "His hat was laying on the floor—an old black slouch with the top caved in, like a lid."
+    },
+    {
+      "id": "s12",
+      "text": "I stood a-looking at him; he set there a-looking at me, with his chair tilted back a little."
+    },
+    {
+      "id": "s13",
+      "text": "I set the candle down."
+    },
+    {
+      "id": "s14",
+      "text": "I noticed the window was up; so he had clumb in by the shed."
+    },
+    {
+      "id": "s15",
+      "text": "He kept a-looking me all over."
+    },
+    {
+      "id": "s16",
+      "text": "By-and-by he says:"
+    },
+    {
+      "id": "s17",
+      "text": "“Starchy clothes—very."
+    },
+    {
+      "id": "s18",
+      "text": "You think you’re a good deal of a big-bug, _don’t_ you?”"
+    },
+    {
+      "id": "s19",
+      "text": "“Maybe I am, maybe I ain’t,” I says."
+    },
+    {
+      "id": "s20",
+      "text": "“Don’t you give me none o’ your lip,” says he."
+    },
+    {
+      "id": "s21",
+      "text": "“You’ve put on considerable many frills since I been away."
+    },
+    {
+      "id": "s22",
+      "text": "I’ll take you down a peg before I get done with you."
+    },
+    {
+      "id": "s23",
+      "text": "You’re educated, too, they say—can read and write."
+    },
+    {
+      "id": "s24",
+      "text": "You think you’re better’n your father, now, don’t you, because he can’t? _I’ll_ take it out of you."
+    },
+    {
+      "id": "s25",
+      "text": "Who told you you might meddle with such hifalut’n foolishness, hey?—who told you you could?”"
+    },
+    {
+      "id": "s26",
+      "text": "“The widow."
+    },
+    {
+      "id": "s27",
+      "text": "She told me.”"
+    },
+    {
+      "id": "s28",
+      "text": "“The widow, hey?—and who told the widow she could put in her shovel about a thing that ain’t none of her business?”"
+    },
+    {
+      "id": "s29",
+      "text": "“Nobody never told her.”"
+    },
+    {
+      "id": "s30",
+      "text": "“Well, I’ll learn her how to meddle."
+    },
+    {
+      "id": "s31",
+      "text": "And looky here—you drop that school, you hear?"
+    },
+    {
+      "id": "s32",
+      "text": "I’ll learn people to bring up a boy to put on airs over his own father and let on to be better’n what _he_ is."
+    },
+    {
+      "id": "s33",
+      "text": "You lemme catch you fooling around that school again, you hear?"
+    },
+    {
+      "id": "s34",
+      "text": "Your mother couldn’t read, and she couldn’t write, nuther, before she died."
+    },
+    {
+      "id": "s35",
+      "text": "None of the family couldn’t before _they_ died. _I_ can’t; and here you’re a-swelling yourself up like this."
+    },
+    {
+      "id": "s36",
+      "text": "I ain’t the man to stand it—you hear?"
+    },
+    {
+      "id": "s37",
+      "text": "Say, lemme hear you read.”"
+    },
+    {
+      "id": "s38",
+      "text": "I took up a book and begun something about General Washington and the wars."
+    },
+    {
+      "id": "s39",
+      "text": "When I’d read about a half a minute, he fetched the book a whack with his hand and knocked it across the house."
+    },
+    {
+      "id": "s40",
+      "text": "He says:"
+    },
+    {
+      "id": "s41",
+      "text": "“It’s so."
+    },
+    {
+      "id": "s42",
+      "text": "You can do it."
+    },
+    {
+      "id": "s43",
+      "text": "I had my doubts when you told me."
+    },
+    {
+      "id": "s44",
+      "text": "Now looky here; you stop that putting on frills."
+    },
+    {
+      "id": "s45",
+      "text": "I won’t have it."
+    },
+    {
+      "id": "s46",
+      "text": "I’ll lay for you, my smarty; and if I catch you about that school I’ll tan you good."
+    },
+    {
+      "id": "s47",
+      "text": "First you know you’ll get religion, too."
+    },
+    {
+      "id": "s48",
+      "text": "I never see such a son.”"
+    },
+    {
+      "id": "s49",
+      "text": "He took up a little blue and yaller picture of some cows and a boy, and says:"
+    },
+    {
+      "id": "s50",
+      "text": "“What’s this?”"
+    },
+    {
+      "id": "s51",
+      "text": "“It’s something they give me for learning my lessons good.”"
+    },
+    {
+      "id": "s52",
+      "text": "He tore it up, and says:"
+    },
+    {
+      "id": "s53",
+      "text": "“I’ll give you something better—I’ll give you a cowhide.”"
+    },
+    {
+      "id": "s54",
+      "text": "He set there a-mumbling and a-growling a minute, and then he says:"
+    },
+    {
+      "id": "s55",
+      "text": "“_Ain’t_ you a sweet-scented dandy, though?"
+    },
+    {
+      "id": "s56",
+      "text": "A bed; and bedclothes; and a look’n’-glass; and a piece of carpet on the floor—and your own father got to sleep with the hogs in the tanyard."
+    },
+    {
+      "id": "s57",
+      "text": "I never see such a son."
+    },
+    {
+      "id": "s58",
+      "text": "I bet I’ll take some o’ these frills out o’ you before I’m done with you."
+    },
+    {
+      "id": "s59",
+      "text": "Why, there ain’t no end to your airs—they say you’re rich."
+    },
+    {
+      "id": "s60",
+      "text": "Hey?—how’s that?”"
+    },
+    {
+      "id": "s61",
+      "text": "“They lie—that’s how.”"
+    },
+    {
+      "id": "s62",
+      "text": "“Looky here—mind how you talk to me; I’m a-standing about all I can stand now—so don’t gimme no sass."
+    },
+    {
+      "id": "s63",
+      "text": "I’ve been in town two days, and I hain’t heard nothing but about you bein’ rich."
+    },
+    {
+      "id": "s64",
+      "text": "I heard about it away down the river, too."
+    },
+    {
+      "id": "s65",
+      "text": "That’s why I come."
+    },
+    {
+      "id": "s66",
+      "text": "You git me that money to-morrow—I want it.”"
+    },
+    {
+      "id": "s67",
+      "text": "“I hain’t got no money.”"
+    },
+    {
+      "id": "s68",
+      "text": "“It’s a lie."
+    },
+    {
+      "id": "s69",
+      "text": "Judge Thatcher’s got it."
+    },
+    {
+      "id": "s70",
+      "text": "You git it."
+    },
+    {
+      "id": "s71",
+      "text": "I want it.”"
+    },
+    {
+      "id": "s72",
+      "text": "“I hain’t got no money, I tell you."
+    },
+    {
+      "id": "s73",
+      "text": "You ask Judge Thatcher; he’ll tell you the same.”"
+    },
+    {
+      "id": "s74",
+      "text": "“All right."
+    },
+    {
+      "id": "s75",
+      "text": "I’ll ask him; and I’ll make him pungle, too, or I’ll know the reason why."
+    },
+    {
+      "id": "s76",
+      "text": "Say, how much you got in your pocket?"
+    },
+    {
+      "id": "s77",
+      "text": "I want it.”"
+    },
+    {
+      "id": "s78",
+      "text": "“I hain’t got only a dollar, and I want that to—”"
+    },
+    {
+      "id": "s79",
+      "text": "“It don’t make no difference what you want it for—you just shell it out.”"
+    },
+    {
+      "id": "s80",
+      "text": "He took it and bit it to see if it was good, and then he said he was going down town to get some whisky; said he hadn’t had a drink all day."
+    },
+    {
+      "id": "s81",
+      "text": "When he had got out on the shed he put his head in again, and cussed me for putting on frills and trying to be better than him; and when I reckoned he was gone he come back and put his head in again, and told me to mind about that school, because he was going to lay for me and lick me if I didn’t drop that."
+    },
+    {
+      "id": "s82",
+      "text": "Next day he was drunk, and he went to Judge Thatcher’s and bullyragged him, and tried to make him give up the money; but he couldn’t, and then he swore he’d make the law force him."
+    },
+    {
+      "id": "s83",
+      "text": "The judge and the widow went to law to get the court to take me away from him and let one of them be my guardian; but it was a new judge that had just come, and he didn’t know the old man; so he said courts mustn’t interfere and separate families if they could help it; said he’d druther not take a child away from its father."
+    },
+    {
+      "id": "s84",
+      "text": "So Judge Thatcher and the widow had to quit on the business."
+    },
+    {
+      "id": "s85",
+      "text": "That pleased the old man till he couldn’t rest."
+    },
+    {
+      "id": "s86",
+      "text": "He said he’d cowhide me till I was black and blue if I didn’t raise some money for him."
+    },
+    {
+      "id": "s87",
+      "text": "I borrowed three dollars from Judge Thatcher, and pap took it and got drunk, and went a-blowing around and cussing and whooping and carrying on; and he kept it up all over town, with a tin pan, till most midnight; then they jailed him, and next day they had him before court, and jailed him again for a week."
+    },
+    {
+      "id": "s88",
+      "text": "But he said _he_ was satisfied; said he was boss of his son, and he’d make it warm for _him_."
+    },
+    {
+      "id": "s89",
+      "text": "When he got out the new judge said he was a-going to make a man of him."
+    },
+    {
+      "id": "s90",
+      "text": "So he took him to his own house, and dressed him up clean and nice, and had him to breakfast and dinner and supper with the family, and was just old pie to him, so to speak."
+    },
+    {
+      "id": "s91",
+      "text": "And after supper he talked to him about temperance and such things till the old man cried, and said he’d been a fool, and fooled away his life; but now he was a-going to turn over a new leaf and be a man nobody wouldn’t be ashamed of, and he hoped the judge would help him and not look down on him."
+    },
+    {
+      "id": "s92",
+      "text": "The judge said he could hug him for them words; so _he_ cried, and his wife she cried again; pap said he’d been a man that had always been misunderstood before, and the judge said he believed it."
+    },
+    {
+      "id": "s93",
+      "text": "The old man said that what a man wanted that was down was sympathy, and the judge said it was so; so they cried again."
+    },
+    {
+      "id": "s94",
+      "text": "And when it was bedtime the old man rose up and held out his hand, and says:"
+    },
+    {
+      "id": "s95",
+      "text": "“Look at it, gentlemen and ladies all; take a-hold of it; shake it."
+    },
+    {
+      "id": "s96",
+      "text": "There’s a hand that was the hand of a hog; but it ain’t so no more; it’s the hand of a man that’s started in on a new life, and’ll die before he’ll go back."
+    },
+    {
+      "id": "s97",
+      "text": "You mark them words—don’t forget I said them."
+    },
+    {
+      "id": "s98",
+      "text": "It’s a clean hand now; shake it—don’t be afeard.”"
+    },
+    {
+      "id": "s99",
+      "text": "So they shook it, one after the other, all around, and cried."
+    },
+    {
+      "id": "s100",
+      "text": "The judge’s wife she kissed it."
+    },
+    {
+      "id": "s101",
+      "text": "Then the old man he signed a pledge—made his mark."
+    },
+    {
+      "id": "s102",
+      "text": "The judge said it was the holiest time on record, or something like that."
+    },
+    {
+      "id": "s103",
+      "text": "Then they tucked the old man into a beautiful room, which was the spare room, and in the night some time he got powerful thirsty and clumb out on to the porch-roof and slid down a stanchion and traded his new coat for a jug of forty-rod, and clumb back again and had a good old time; and towards daylight he crawled out again, drunk as a fiddler, and rolled off the porch and broke his left arm in two places, and was most froze to death when somebody found him after sun-up."
+    },
+    {
+      "id": "s104",
+      "text": "And when they come to look at that spare room they had to take soundings before they could navigate it."
+    },
+    {
+      "id": "s105",
+      "text": "The judge he felt kind of sore."
+    },
+    {
+      "id": "s106",
+      "text": "He said he reckoned a body could reform the old man with a shotgun, maybe, but he didn’t know no other way."
+    }
+  ]
+}

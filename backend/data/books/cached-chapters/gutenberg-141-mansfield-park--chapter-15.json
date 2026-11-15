@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-141-mansfield-park",
+  "ebookId": "141",
+  "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-15",
+  "chapterTitle": "CHAPTER XV",
+  "contentHash": "sha256:92c14a2ee04d8a82706c15e911dc3e68aaa825b6c301b8f0c27bfb3789c81fb2",
+  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER XV. Source checked against Project Gutenberg eBook #141.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/141",
+    "textUrl": "https://www.gutenberg.org/cache/epub/141/pg141.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Miss Crawford accepted the part very readily; and soon after Miss Bertram’s return from the Parsonage, Mr."
+    },
+    {
+      "id": "s2",
+      "text": "Rushworth arrived, and another character was consequently cast."
+    },
+    {
+      "id": "s3",
+      "text": "He had the offer of Count Cassel and Anhalt, and at first did not know which to chuse, and wanted Miss Bertram to direct him; but upon being made to understand the different style of the characters, and which was which, and recollecting that he had once seen the play in London, and had thought Anhalt a very stupid fellow, he soon decided for the Count."
+    },
+    {
+      "id": "s4",
+      "text": "Miss Bertram approved the decision, for the less he had to learn the better; and though she could not sympathise in his wish that the Count and Agatha might be to act together, nor wait very patiently while he was slowly turning over the leaves with the hope of still discovering such a scene, she very kindly took his part in hand, and curtailed every speech that admitted being shortened; besides pointing out the necessity of his being very much dressed, and chusing his colours."
+    },
+    {
+      "id": "s5",
+      "text": "Mr."
+    },
+    {
+      "id": "s6",
+      "text": "Rushworth liked the idea of his finery very well, though affecting to despise it; and was too much engaged with what his own appearance would be to think of the others, or draw any of those conclusions, or feel any of that displeasure which Maria had been half prepared for."
+    },
+    {
+      "id": "s7",
+      "text": "Thus much was settled before Edmund, who had been out all the morning, knew anything of the matter; but when he entered the drawing-room before dinner, the buzz of discussion was high between Tom, Maria, and Mr."
+    },
+    {
+      "id": "s8",
+      "text": "Yates; and Mr."
+    },
+    {
+      "id": "s9",
+      "text": "Rushworth stepped forward with great alacrity to tell him the agreeable news."
+    },
+    {
+      "id": "s10",
+      "text": "“We have got a play,” said he."
+    },
+    {
+      "id": "s11",
+      "text": "“It is to be Lovers’ Vows; and I am to be Count Cassel, and am to come in first with a blue dress and a pink satin cloak, and afterwards am to have another fine fancy suit, by way of a shooting-dress."
+    },
+    {
+      "id": "s12",
+      "text": "I do not know how I shall like it.”"
+    },
+    {
+      "id": "s13",
+      "text": "Fanny’s eyes followed Edmund, and her heart beat for him as she heard this speech, and saw his look, and felt what his sensations must be."
+    },
+    {
+      "id": "s14",
+      "text": "“Lovers’ Vows!” in a tone of the greatest amazement, was his only reply to Mr."
+    },
+    {
+      "id": "s15",
+      "text": "Rushworth, and he turned towards his brother and sisters as if hardly doubting a contradiction."
+    },
+    {
+      "id": "s16",
+      "text": "“Yes,” cried Mr."
+    },
+    {
+      "id": "s17",
+      "text": "Yates."
+    },
+    {
+      "id": "s18",
+      "text": "“After all our debatings and difficulties, we find there is nothing that will suit us altogether so well, nothing so unexceptionable, as Lovers’ Vows."
+    },
+    {
+      "id": "s19",
+      "text": "The wonder is that it should not have been thought of before."
+    },
+    {
+      "id": "s20",
+      "text": "My stupidity was abominable, for here we have all the advantage of what I saw at Ecclesford; and it is so useful to have anything of a model!"
+    },
+    {
+      "id": "s21",
+      "text": "We have cast almost every part.”"
+    },
+    {
+      "id": "s22",
+      "text": "“But what do you do for women?” said Edmund gravely, and looking at Maria."
+    },
+    {
+      "id": "s23",
+      "text": "Maria blushed in spite of herself as she answered, “I take the part which Lady Ravenshaw was to have done, and” (with a bolder eye) “Miss Crawford is to be Amelia.”"
+    },
+    {
+      "id": "s24",
+      "text": "“I should not have thought it the sort of play to be so easily filled up, with _us_,” replied Edmund, turning away to the fire, where sat his mother, aunt, and Fanny, and seating himself with a look of great vexation."
+    },
+    {
+      "id": "s25",
+      "text": "Mr."
+    },
+    {
+      "id": "s26",
+      "text": "Rushworth followed him to say, “I come in three times, and have two-and-forty speeches."
+    },
+    {
+      "id": "s27",
+      "text": "That’s something, is not it?"
+    },
+    {
+      "id": "s28",
+      "text": "But I do not much like the idea of being so fine."
+    },
+    {
+      "id": "s29",
+      "text": "I shall hardly know myself in a blue dress and a pink satin cloak.”"
+    },
+    {
+      "id": "s30",
+      "text": "Edmund could not answer him."
+    },
+    {
+      "id": "s31",
+      "text": "In a few minutes Mr."
+    },
+    {
+      "id": "s32",
+      "text": "Bertram was called out of the room to satisfy some doubts of the carpenter; and being accompanied by Mr."
+    },
+    {
+      "id": "s33",
+      "text": "Yates, and followed soon afterwards by Mr."
+    },
+    {
+      "id": "s34",
+      "text": "Rushworth, Edmund almost immediately took the opportunity of saying, “I cannot, before Mr."
+    },
+    {
+      "id": "s35",
+      "text": "Yates, speak what I feel as to this play, without reflecting on his friends at Ecclesford; but I must now, my dear Maria, tell _you_, that I think it exceedingly unfit for private representation, and that I hope you will give it up."
+    },
+    {
+      "id": "s36",
+      "text": "I cannot but suppose you _will_ when you have read it carefully over."
+    },
+    {
+      "id": "s37",
+      "text": "Read only the first act aloud to either your mother or aunt, and see how you can approve it."
+    },
+    {
+      "id": "s38",
+      "text": "It will not be necessary to send you to your _father’s_ judgment, I am convinced.”"
+    },
+    {
+      "id": "s39",
+      "text": "“We see things very differently,” cried Maria."
+    },
+    {
+      "id": "s40",
+      "text": "“I am perfectly acquainted with the play, I assure you; and with a very few omissions, and so forth, which will be made, of course, I can see nothing objectionable in it; and _I_ am not the _only_ young woman you find who thinks it very fit for private representation.”"
+    },
+    {
+      "id": "s41",
+      "text": "“I am sorry for it,” was his answer; “but in this matter it is _you_ who are to lead. _You_ must set the example."
+    },
+    {
+      "id": "s42",
+      "text": "If others have blundered, it is your place to put them right, and shew them what true delicacy is."
+    },
+    {
+      "id": "s43",
+      "text": "In all points of decorum _your_ conduct must be law to the rest of the party.”"
+    },
+    {
+      "id": "s44",
+      "text": "This picture of her consequence had some effect, for no one loved better to lead than Maria; and with far more good-humour she answered, “I am much obliged to you, Edmund; you mean very well, I am sure: but I still think you see things too strongly; and I really cannot undertake to harangue all the rest upon a subject of this kind. _There_ would be the greatest indecorum, I think.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Do you imagine that I could have such an idea in my head?"
+    },
+    {
+      "id": "s46",
+      "text": "No; let your conduct be the only harangue."
+    },
+    {
+      "id": "s47",
+      "text": "Say that, on examining the part, you feel yourself unequal to it; that you find it requiring more exertion and confidence than you can be supposed to have."
+    },
+    {
+      "id": "s48",
+      "text": "Say this with firmness, and it will be quite enough."
+    },
+    {
+      "id": "s49",
+      "text": "All who can distinguish will understand your motive."
+    },
+    {
+      "id": "s50",
+      "text": "The play will be given up, and your delicacy honoured as it ought.”"
+    },
+    {
+      "id": "s51",
+      "text": "“Do not act anything improper, my dear,” said Lady Bertram."
+    },
+    {
+      "id": "s52",
+      "text": "“Sir Thomas would not like it.—Fanny, ring the bell; I must have my dinner.—To be sure, Julia is dressed by this time.”"
+    },
+    {
+      "id": "s53",
+      "text": "“I am convinced, madam,” said Edmund, preventing Fanny, “that Sir Thomas would not like it.”"
+    },
+    {
+      "id": "s54",
+      "text": "“There, my dear, do you hear what Edmund says?”"
+    },
+    {
+      "id": "s55",
+      "text": "“If I were to decline the part,” said Maria, with renewed zeal, “Julia would certainly take it.”"
+    },
+    {
+      "id": "s56",
+      "text": "“What!” cried Edmund, “if she knew your reasons!”"
+    },
+    {
+      "id": "s57",
+      "text": "“Oh! she might think the difference between us—the difference in our situations—that _she_ need not be so scrupulous as _I_ might feel necessary."
+    },
+    {
+      "id": "s58",
+      "text": "I am sure she would argue so."
+    },
+    {
+      "id": "s59",
+      "text": "No; you must excuse me; I cannot retract my consent; it is too far settled, everybody would be so disappointed, Tom would be quite angry; and if we are so very nice, we shall never act anything.”"
+    },
+    {
+      "id": "s60",
+      "text": "“I was just going to say the very same thing,” said Mrs."
+    },
+    {
+      "id": "s61",
+      "text": "Norris."
+    },
+    {
+      "id": "s62",
+      "text": "“If every play is to be objected to, you will act nothing, and the preparations will be all so much money thrown away, and I am sure _that_ would be a discredit to us all."
+    },
+    {
+      "id": "s63",
+      "text": "I do not know the play; but, as Maria says, if there is anything a little too warm (and it is so with most of them) it can be easily left out."
+    },
+    {
+      "id": "s64",
+      "text": "We must not be over-precise, Edmund."
+    },
+    {
+      "id": "s65",
+      "text": "As Mr."
+    },
+    {
+      "id": "s66",
+      "text": "Rushworth is to act too, there can be no harm."
+    },
+    {
+      "id": "s67",
+      "text": "I only wish Tom had known his own mind when the carpenters began, for there was the loss of half a day’s work about those side-doors."
+    },
+    {
+      "id": "s68",
+      "text": "The curtain will be a good job, however."
+    },
+    {
+      "id": "s69",
+      "text": "The maids do their work very well, and I think we shall be able to send back some dozens of the rings."
+    },
+    {
+      "id": "s70",
+      "text": "There is no occasion to put them so very close together."
+    },
+    {
+      "id": "s71",
+      "text": "I _am_ of some use, I hope, in preventing waste and making the most of things."
+    },
+    {
+      "id": "s72",
+      "text": "There should always be one steady head to superintend so many young ones."
+    },
+    {
+      "id": "s73",
+      "text": "I forgot to tell Tom of something that happened to me this very day."
+    },
+    {
+      "id": "s74",
+      "text": "I had been looking about me in the poultry-yard, and was just coming out, when who should I see but Dick Jackson making up to the servants’ hall-door with two bits of deal board in his hand, bringing them to father, you may be sure; mother had chanced to send him of a message to father, and then father had bid him bring up them two bits of board, for he could not no how do without them."
+    },
+    {
+      "id": "s75",
+      "text": "I knew what all this meant, for the servants’ dinner-bell was ringing at the very moment over our heads; and as I hate such encroaching people (the Jacksons are very encroaching, I have always said so: just the sort of people to get all they can), I said to the boy directly (a great lubberly fellow of ten years old, you know, who ought to be ashamed of himself), ‘_I’ll_ take the boards to your father, Dick, so get you home again as fast as you can.’ The boy looked very silly, and turned away without offering a word, for I believe I might speak pretty sharp; and I dare say it will cure him of coming marauding about the house for one while."
+    },
+    {
+      "id": "s76",
+      "text": "I hate such greediness—so good as your father is to the family, employing the man all the year round!”"
+    },
+    {
+      "id": "s77",
+      "text": "Nobody was at the trouble of an answer; the others soon returned; and Edmund found that to have endeavoured to set them right must be his only satisfaction."
+    },
+    {
+      "id": "s78",
+      "text": "Dinner passed heavily."
+    },
+    {
+      "id": "s79",
+      "text": "Mrs."
+    },
+    {
+      "id": "s80",
+      "text": "Norris related again her triumph over Dick Jackson, but neither play nor preparation were otherwise much talked of, for Edmund’s disapprobation was felt even by his brother, though he would not have owned it."
+    },
+    {
+      "id": "s81",
+      "text": "Maria, wanting Henry Crawford’s animating support, thought the subject better avoided."
+    },
+    {
+      "id": "s82",
+      "text": "Mr."
+    },
+    {
+      "id": "s83",
+      "text": "Yates, who was trying to make himself agreeable to Julia, found her gloom less impenetrable on any topic than that of his regret at her secession from their company; and Mr."
+    },
+    {
+      "id": "s84",
+      "text": "Rushworth, having only his own part and his own dress in his head, had soon talked away all that could be said of either."
+    },
+    {
+      "id": "s85",
+      "text": "But the concerns of the theatre were suspended only for an hour or two: there was still a great deal to be settled; and the spirits of evening giving fresh courage, Tom, Maria, and Mr."
+    },
+    {
+      "id": "s86",
+      "text": "Yates, soon after their being reassembled in the drawing-room, seated themselves in committee at a separate table, with the play open before them, and were just getting deep in the subject when a most welcome interruption was given by the entrance of Mr. and Miss Crawford, who, late and dark and dirty as it was, could not help coming, and were received with the most grateful joy."
+    },
+    {
+      "id": "s87",
+      "text": "“Well, how do you go on?” and “What have you settled?” and “Oh! we can do nothing without you,” followed the first salutations; and Henry Crawford was soon seated with the other three at the table, while his sister made her way to Lady Bertram, and with pleasant attention was complimenting _her_."
+    },
+    {
+      "id": "s88",
+      "text": "“I must really congratulate your ladyship,” said she, “on the play being chosen; for though you have borne it with exemplary patience, I am sure you must be sick of all our noise and difficulties."
+    },
+    {
+      "id": "s89",
+      "text": "The actors may be glad, but the bystanders must be infinitely more thankful for a decision; and I do sincerely give you joy, madam, as well as Mrs."
+    },
+    {
+      "id": "s90",
+      "text": "Norris, and everybody else who is in the same predicament,” glancing half fearfully, half slyly, beyond Fanny to Edmund."
+    },
+    {
+      "id": "s91",
+      "text": "She was very civilly answered by Lady Bertram, but Edmund said nothing."
+    },
+    {
+      "id": "s92",
+      "text": "His being only a bystander was not disclaimed."
+    },
+    {
+      "id": "s93",
+      "text": "After continuing in chat with the party round the fire a few minutes, Miss Crawford returned to the party round the table; and standing by them, seemed to interest herself in their arrangements till, as if struck by a sudden recollection, she exclaimed, “My good friends, you are most composedly at work upon these cottages and alehouses, inside and out; but pray let me know my fate in the meanwhile."
+    },
+    {
+      "id": "s94",
+      "text": "Who is to be Anhalt?"
+    },
+    {
+      "id": "s95",
+      "text": "What gentleman among you am I to have the pleasure of making love to?”"
+    },
+    {
+      "id": "s96",
+      "text": "For a moment no one spoke; and then many spoke together to tell the same melancholy truth, that they had not yet got any Anhalt."
+    },
+    {
+      "id": "s97",
+      "text": "“Mr."
+    },
+    {
+      "id": "s98",
+      "text": "Rushworth was to be Count Cassel, but no one had yet undertaken Anhalt.”"
+    },
+    {
+      "id": "s99",
+      "text": "“I had my choice of the parts,” said Mr."
+    },
+    {
+      "id": "s100",
+      "text": "Rushworth; “but I thought I should like the Count best, though I do not much relish the finery I am to have.”"
+    },
+    {
+      "id": "s101",
+      "text": "“You chose very wisely, I am sure,” replied Miss Crawford, with a brightened look; “Anhalt is a heavy part.”"
+    },
+    {
+      "id": "s102",
+      "text": "“_The_ _Count_ has two-and-forty speeches,” returned Mr."
+    },
+    {
+      "id": "s103",
+      "text": "Rushworth, “which is no trifle.”"
+    },
+    {
+      "id": "s104",
+      "text": "“I am not at all surprised,” said Miss Crawford, after a short pause, “at this want of an Anhalt."
+    },
+    {
+      "id": "s105",
+      "text": "Amelia deserves no better."
+    },
+    {
+      "id": "s106",
+      "text": "Such a forward young lady may well frighten the men.”"
+    },
+    {
+      "id": "s107",
+      "text": "“I should be but too happy in taking the part, if it were possible,” cried Tom; “but, unluckily, the Butler and Anhalt are in together."
+    },
+    {
+      "id": "s108",
+      "text": "I will not entirely give it up, however; I will try what can be done—I will look it over again.”"
+    },
+    {
+      "id": "s109",
+      "text": "“Your _brother_ should take the part,” said Mr."
+    },
+    {
+      "id": "s110",
+      "text": "Yates, in a low voice."
+    },
+    {
+      "id": "s111",
+      "text": "“Do not you think he would?”"
+    },
+    {
+      "id": "s112",
+      "text": "“_I_ shall not ask him,” replied Tom, in a cold, determined manner."
+    },
+    {
+      "id": "s113",
+      "text": "Miss Crawford talked of something else, and soon afterwards rejoined the party at the fire."
+    },
+    {
+      "id": "s114",
+      "text": "“They do not want me at all,” said she, seating herself."
+    },
+    {
+      "id": "s115",
+      "text": "“I only puzzle them, and oblige them to make civil speeches."
+    },
+    {
+      "id": "s116",
+      "text": "Mr."
+    },
+    {
+      "id": "s117",
+      "text": "Edmund Bertram, as you do not act yourself, you will be a disinterested adviser; and, therefore, I apply to _you_."
+    },
+    {
+      "id": "s118",
+      "text": "What shall we do for an Anhalt?"
+    },
+    {
+      "id": "s119",
+      "text": "Is it practicable for any of the others to double it?"
+    },
+    {
+      "id": "s120",
+      "text": "What is your advice?”"
+    },
+    {
+      "id": "s121",
+      "text": "“My advice,” said he calmly, “is that you change the play.”"
+    },
+    {
+      "id": "s122",
+      "text": "“_I_ should have no objection,” she replied; “for though I should not particularly dislike the part of Amelia if well supported, that is, if everything went well, I shall be sorry to be an inconvenience; but as they do not chuse to hear your advice at _that_ _table_” (looking round), “it certainly will not be taken.”"
+    },
+    {
+      "id": "s123",
+      "text": "Edmund said no more."
+    },
+    {
+      "id": "s124",
+      "text": "“If _any_ part could tempt _you_ to act, I suppose it would be Anhalt,” observed the lady archly, after a short pause; “for he is a clergyman, you know.”"
+    },
+    {
+      "id": "s125",
+      "text": "“_That_ circumstance would by no means tempt me,” he replied, “for I should be sorry to make the character ridiculous by bad acting."
+    },
+    {
+      "id": "s126",
+      "text": "It must be very difficult to keep Anhalt from appearing a formal, solemn lecturer; and the man who chuses the profession itself is, perhaps, one of the last who would wish to represent it on the stage.”"
+    },
+    {
+      "id": "s127",
+      "text": "Miss Crawford was silenced, and with some feelings of resentment and mortification, moved her chair considerably nearer the tea-table, and gave all her attention to Mrs."
+    },
+    {
+      "id": "s128",
+      "text": "Norris, who was presiding there."
+    },
+    {
+      "id": "s129",
+      "text": "“Fanny,” cried Tom Bertram, from the other table, where the conference was eagerly carrying on, and the conversation incessant, “we want your services.”"
+    },
+    {
+      "id": "s130",
+      "text": "Fanny was up in a moment, expecting some errand; for the habit of employing her in that way was not yet overcome, in spite of all that Edmund could do."
+    },
+    {
+      "id": "s131",
+      "text": "“Oh! we do not want to disturb you from your seat."
+    },
+    {
+      "id": "s132",
+      "text": "We do not want your _present_ services."
+    },
+    {
+      "id": "s133",
+      "text": "We shall only want you in our play."
+    },
+    {
+      "id": "s134",
+      "text": "You must be Cottager’s wife.”"
+    },
+    {
+      "id": "s135",
+      "text": "“Me!” cried Fanny, sitting down again with a most frightened look."
+    },
+    {
+      "id": "s136",
+      "text": "“Indeed you must excuse me."
+    },
+    {
+      "id": "s137",
+      "text": "I could not act anything if you were to give me the world."
+    },
+    {
+      "id": "s138",
+      "text": "No, indeed, I cannot act.”"
+    },
+    {
+      "id": "s139",
+      "text": "“Indeed, but you must, for we cannot excuse you."
+    },
+    {
+      "id": "s140",
+      "text": "It need not frighten you: it is a nothing of a part, a mere nothing, not above half a dozen speeches altogether, and it will not much signify if nobody hears a word you say; so you may be as creep-mouse as you like, but we must have you to look at.”"
+    },
+    {
+      "id": "s141",
+      "text": "“If you are afraid of half a dozen speeches,” cried Mr."
+    },
+    {
+      "id": "s142",
+      "text": "Rushworth, “what would you do with such a part as mine?"
+    },
+    {
+      "id": "s143",
+      "text": "I have forty-two to learn.”"
+    },
+    {
+      "id": "s144",
+      "text": "“It is not that I am afraid of learning by heart,” said Fanny, shocked to find herself at that moment the only speaker in the room, and to feel that almost every eye was upon her; “but I really cannot act.”"
+    },
+    {
+      "id": "s145",
+      "text": "“Yes, yes, you can act well enough for _us_."
+    },
+    {
+      "id": "s146",
+      "text": "Learn your part, and we will teach you all the rest."
+    },
+    {
+      "id": "s147",
+      "text": "You have only two scenes, and as I shall be Cottager, I’ll put you in and push you about, and you will do it very well, I’ll answer for it.”"
+    },
+    {
+      "id": "s148",
+      "text": "“No, indeed, Mr."
+    },
+    {
+      "id": "s149",
+      "text": "Bertram, you must excuse me."
+    },
+    {
+      "id": "s150",
+      "text": "You cannot have an idea."
+    },
+    {
+      "id": "s151",
+      "text": "It would be absolutely impossible for me."
+    },
+    {
+      "id": "s152",
+      "text": "If I were to undertake it, I should only disappoint you.”"
+    },
+    {
+      "id": "s153",
+      "text": "“Phoo!"
+    },
+    {
+      "id": "s154",
+      "text": "Phoo!"
+    },
+    {
+      "id": "s155",
+      "text": "Do not be so shamefaced."
+    },
+    {
+      "id": "s156",
+      "text": "You’ll do it very well."
+    },
+    {
+      "id": "s157",
+      "text": "Every allowance will be made for you."
+    },
+    {
+      "id": "s158",
+      "text": "We do not expect perfection."
+    },
+    {
+      "id": "s159",
+      "text": "You must get a brown gown, and a white apron, and a mob cap, and we must make you a few wrinkles, and a little of the crowsfoot at the corner of your eyes, and you will be a very proper, little old woman.”"
+    },
+    {
+      "id": "s160",
+      "text": "“You must excuse me, indeed you must excuse me,” cried Fanny, growing more and more red from excessive agitation, and looking distressfully at Edmund, who was kindly observing her; but unwilling to exasperate his brother by interference, gave her only an encouraging smile."
+    },
+    {
+      "id": "s161",
+      "text": "Her entreaty had no effect on Tom: he only said again what he had said before; and it was not merely Tom, for the requisition was now backed by Maria, and Mr."
+    },
+    {
+      "id": "s162",
+      "text": "Crawford, and Mr."
+    },
+    {
+      "id": "s163",
+      "text": "Yates, with an urgency which differed from his but in being more gentle or more ceremonious, and which altogether was quite overpowering to Fanny; and before she could breathe after it, Mrs."
+    },
+    {
+      "id": "s164",
+      "text": "Norris completed the whole by thus addressing her in a whisper at once angry and audible—“What a piece of work here is about nothing: I am quite ashamed of you, Fanny, to make such a difficulty of obliging your cousins in a trifle of this sort—so kind as they are to you!"
+    },
+    {
+      "id": "s165",
+      "text": "Take the part with a good grace, and let us hear no more of the matter, I entreat.”"
+    },
+    {
+      "id": "s166",
+      "text": "“Do not urge her, madam,” said Edmund."
+    },
+    {
+      "id": "s167",
+      "text": "“It is not fair to urge her in this manner."
+    },
+    {
+      "id": "s168",
+      "text": "You see she does not like to act."
+    },
+    {
+      "id": "s169",
+      "text": "Let her chuse for herself, as well as the rest of us."
+    },
+    {
+      "id": "s170",
+      "text": "Her judgment may be quite as safely trusted."
+    },
+    {
+      "id": "s171",
+      "text": "Do not urge her any more.”"
+    },
+    {
+      "id": "s172",
+      "text": "“I am not going to urge her,” replied Mrs."
+    },
+    {
+      "id": "s173",
+      "text": "Norris sharply; “but I shall think her a very obstinate, ungrateful girl, if she does not do what her aunt and cousins wish her—very ungrateful, indeed, considering who and what she is.”"
+    },
+    {
+      "id": "s174",
+      "text": "Edmund was too angry to speak; but Miss Crawford, looking for a moment with astonished eyes at Mrs."
+    },
+    {
+      "id": "s175",
+      "text": "Norris, and then at Fanny, whose tears were beginning to shew themselves, immediately said, with some keenness, “I do not like my situation: this _place_ is too hot for me,” and moved away her chair to the opposite side of the table, close to Fanny, saying to her, in a kind, low whisper, as she placed herself, “Never mind, my dear Miss Price, this is a cross evening: everybody is cross and teasing, but do not let us mind them”; and with pointed attention continued to talk to her and endeavour to raise her spirits, in spite of being out of spirits herself."
+    },
+    {
+      "id": "s176",
+      "text": "By a look at her brother she prevented any farther entreaty from the theatrical board, and the really good feelings by which she was almost purely governed were rapidly restoring her to all the little she had lost in Edmund’s favour."
+    },
+    {
+      "id": "s177",
+      "text": "Fanny did not love Miss Crawford; but she felt very much obliged to her for her present kindness; and when, from taking notice of her work, and wishing _she_ could work as well, and begging for the pattern, and supposing Fanny was now preparing for her _appearance_, as of course she would come out when her cousin was married, Miss Crawford proceeded to inquire if she had heard lately from her brother at sea, and said that she had quite a curiosity to see him, and imagined him a very fine young man, and advised Fanny to get his picture drawn before he went to sea again—she could not help admitting it to be very agreeable flattery, or help listening, and answering with more animation than she had intended."
+    },
+    {
+      "id": "s178",
+      "text": "The consultation upon the play still went on, and Miss Crawford’s attention was first called from Fanny by Tom Bertram’s telling her, with infinite regret, that he found it absolutely impossible for him to undertake the part of Anhalt in addition to the Butler: he had been most anxiously trying to make it out to be feasible, but it would not do; he must give it up."
+    },
+    {
+      "id": "s179",
+      "text": "“But there will not be the smallest difficulty in filling it,” he added."
+    },
+    {
+      "id": "s180",
+      "text": "“We have but to speak the word; we may pick and chuse."
+    },
+    {
+      "id": "s181",
+      "text": "I could name, at this moment, at least six young men within six miles of us, who are wild to be admitted into our company, and there are one or two that would not disgrace us: I should not be afraid to trust either of the Olivers or Charles Maddox."
+    },
+    {
+      "id": "s182",
+      "text": "Tom Oliver is a very clever fellow, and Charles Maddox is as gentlemanlike a man as you will see anywhere, so I will take my horse early to-morrow morning and ride over to Stoke, and settle with one of them.”"
+    },
+    {
+      "id": "s183",
+      "text": "While he spoke, Maria was looking apprehensively round at Edmund in full expectation that he must oppose such an enlargement of the plan as this: so contrary to all their first protestations; but Edmund said nothing."
+    },
+    {
+      "id": "s184",
+      "text": "After a moment’s thought, Miss Crawford calmly replied, “As far as I am concerned, I can have no objection to anything that you all think eligible."
+    },
+    {
+      "id": "s185",
+      "text": "Have I ever seen either of the gentlemen?"
+    },
+    {
+      "id": "s186",
+      "text": "Yes, Mr."
+    },
+    {
+      "id": "s187",
+      "text": "Charles Maddox dined at my sister’s one day, did not he, Henry?"
+    },
+    {
+      "id": "s188",
+      "text": "A quiet-looking young man."
+    },
+    {
+      "id": "s189",
+      "text": "I remember him."
+    },
+    {
+      "id": "s190",
+      "text": "Let _him_ be applied to, if you please, for it will be less unpleasant to me than to have a perfect stranger.”"
+    },
+    {
+      "id": "s191",
+      "text": "Charles Maddox was to be the man."
+    },
+    {
+      "id": "s192",
+      "text": "Tom repeated his resolution of going to him early on the morrow; and though Julia, who had scarcely opened her lips before, observed, in a sarcastic manner, and with a glance first at Maria and then at Edmund, that “the Mansfield theatricals would enliven the whole neighbourhood exceedingly,” Edmund still held his peace, and shewed his feelings only by a determined gravity."
+    },
+    {
+      "id": "s193",
+      "text": "“I am not very sanguine as to our play,” said Miss Crawford, in an undervoice to Fanny, after some consideration; “and I can tell Mr."
+    },
+    {
+      "id": "s194",
+      "text": "Maddox that I shall shorten some of _his_ speeches, and a great many of _my_ _own_, before we rehearse together."
+    },
+    {
+      "id": "s195",
+      "text": "It will be very disagreeable, and by no means what I expected.”"
+    }
+  ]
+}

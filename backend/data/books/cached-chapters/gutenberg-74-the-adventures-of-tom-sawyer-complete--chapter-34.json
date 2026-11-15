@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+  "ebookId": "74",
+  "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-34",
+  "chapterTitle": "CHAPTER XXXIV",
+  "contentHash": "sha256:e4d2741709e110e90b375af8af2a75c214ded8d44e7f139a3ef6fcf24affb5b6",
+  "attribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER XXXIV. Source checked against Project Gutenberg eBook #74.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/74",
+    "textUrl": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Huck said: “Tom, we can slope, if we can find a rope."
+    },
+    {
+      "id": "s2",
+      "text": "The window ain’t high from the ground.”"
+    },
+    {
+      "id": "s3",
+      "text": "“Shucks! what do you want to slope for?”"
+    },
+    {
+      "id": "s4",
+      "text": "“Well, I ain’t used to that kind of a crowd."
+    },
+    {
+      "id": "s5",
+      "text": "I can’t stand it."
+    },
+    {
+      "id": "s6",
+      "text": "I ain’t going down there, Tom.”"
+    },
+    {
+      "id": "s7",
+      "text": "“Oh, bother!"
+    },
+    {
+      "id": "s8",
+      "text": "It ain’t anything."
+    },
+    {
+      "id": "s9",
+      "text": "I don’t mind it a bit."
+    },
+    {
+      "id": "s10",
+      "text": "I’ll take care of you.”"
+    },
+    {
+      "id": "s11",
+      "text": "Sid appeared."
+    },
+    {
+      "id": "s12",
+      "text": "“Tom,” said he, “auntie has been waiting for you all the afternoon."
+    },
+    {
+      "id": "s13",
+      "text": "Mary got your Sunday clothes ready, and everybody’s been fretting about you."
+    },
+    {
+      "id": "s14",
+      "text": "Say—ain’t this grease and clay, on your clothes?”"
+    },
+    {
+      "id": "s15",
+      "text": "“Now, Mr."
+    },
+    {
+      "id": "s16",
+      "text": "Siddy, you jist ’tend to your own business."
+    },
+    {
+      "id": "s17",
+      "text": "What’s all this blowout about, anyway?”"
+    },
+    {
+      "id": "s18",
+      "text": "“It’s one of the widow’s parties that she’s always having."
+    },
+    {
+      "id": "s19",
+      "text": "This time it’s for the Welshman and his sons, on account of that scrape they helped her out of the other night."
+    },
+    {
+      "id": "s20",
+      "text": "And say—I can tell you something, if you want to know.”"
+    },
+    {
+      "id": "s21",
+      "text": "“Well, what?”"
+    },
+    {
+      "id": "s22",
+      "text": "“Why, old Mr."
+    },
+    {
+      "id": "s23",
+      "text": "Jones is going to try to spring something on the people here tonight, but I overheard him tell auntie today about it, as a secret, but I reckon it’s not much of a secret now."
+    },
+    {
+      "id": "s24",
+      "text": "Everybody knows—the widow, too, for all she tries to let on she don’t."
+    },
+    {
+      "id": "s25",
+      "text": "Mr."
+    },
+    {
+      "id": "s26",
+      "text": "Jones was bound Huck should be here—couldn’t get along with his grand secret without Huck, you know!”"
+    },
+    {
+      "id": "s27",
+      "text": "“Secret about what, Sid?”"
+    },
+    {
+      "id": "s28",
+      "text": "“About Huck tracking the robbers to the widow’s."
+    },
+    {
+      "id": "s29",
+      "text": "I reckon Mr."
+    },
+    {
+      "id": "s30",
+      "text": "Jones was going to make a grand time over his surprise, but I bet you it will drop pretty flat.”"
+    },
+    {
+      "id": "s31",
+      "text": "Sid chuckled in a very contented and satisfied way."
+    },
+    {
+      "id": "s32",
+      "text": "“Sid, was it you that told?”"
+    },
+    {
+      "id": "s33",
+      "text": "“Oh, never mind who it was. _Somebody_ told—that’s enough.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Sid, there’s only one person in this town mean enough to do that, and that’s you."
+    },
+    {
+      "id": "s35",
+      "text": "If you had been in Huck’s place you’d ’a’ sneaked down the hill and never told anybody on the robbers."
+    },
+    {
+      "id": "s36",
+      "text": "You can’t do any but mean things, and you can’t bear to see anybody praised for doing good ones."
+    },
+    {
+      "id": "s37",
+      "text": "There—no thanks, as the widow says”—and Tom cuffed Sid’s ears and helped him to the door with several kicks."
+    },
+    {
+      "id": "s38",
+      "text": "“Now go and tell auntie if you dare—and tomorrow you’ll catch it!”"
+    },
+    {
+      "id": "s39",
+      "text": "Some minutes later the widow’s guests were at the supper-table, and a dozen children were propped up at little side-tables in the same room, after the fashion of that country and that day."
+    },
+    {
+      "id": "s40",
+      "text": "At the proper time Mr."
+    },
+    {
+      "id": "s41",
+      "text": "Jones made his little speech, in which he thanked the widow for the honor she was doing himself and his sons, but said that there was another person whose modesty—"
+    },
+    {
+      "id": "s42",
+      "text": "And so forth and so on."
+    },
+    {
+      "id": "s43",
+      "text": "He sprung his secret about Huck’s share in the adventure in the finest dramatic manner he was master of, but the surprise it occasioned was largely counterfeit and not as clamorous and effusive as it might have been under happier circumstances."
+    },
+    {
+      "id": "s44",
+      "text": "However, the widow made a pretty fair show of astonishment, and heaped so many compliments and so much gratitude upon Huck that he almost forgot the nearly intolerable discomfort of his new clothes in the entirely intolerable discomfort of being set up as a target for everybody’s gaze and everybody’s laudations."
+    },
+    {
+      "id": "s45",
+      "text": "The widow said she meant to give Huck a home under her roof and have him educated; and that when she could spare the money she would start him in business in a modest way."
+    },
+    {
+      "id": "s46",
+      "text": "Tom’s chance was come."
+    },
+    {
+      "id": "s47",
+      "text": "He said:"
+    },
+    {
+      "id": "s48",
+      "text": "“Huck don’t need it."
+    },
+    {
+      "id": "s49",
+      "text": "Huck’s rich.”"
+    },
+    {
+      "id": "s50",
+      "text": "Nothing but a heavy strain upon the good manners of the company kept back the due and proper complimentary laugh at this pleasant joke."
+    },
+    {
+      "id": "s51",
+      "text": "But the silence was a little awkward."
+    },
+    {
+      "id": "s52",
+      "text": "Tom broke it:"
+    },
+    {
+      "id": "s53",
+      "text": "“Huck’s got money."
+    },
+    {
+      "id": "s54",
+      "text": "Maybe you don’t believe it, but he’s got lots of it."
+    },
+    {
+      "id": "s55",
+      "text": "Oh, you needn’t smile—I reckon I can show you."
+    },
+    {
+      "id": "s56",
+      "text": "You just wait a minute.”"
+    },
+    {
+      "id": "s57",
+      "text": "Tom ran out of doors."
+    },
+    {
+      "id": "s58",
+      "text": "The company looked at each other with a perplexed interest—and inquiringly at Huck, who was tongue-tied."
+    },
+    {
+      "id": "s59",
+      "text": "“Sid, what ails Tom?” said Aunt Polly."
+    },
+    {
+      "id": "s60",
+      "text": "“He—well, there ain’t ever any making of that boy out."
+    },
+    {
+      "id": "s61",
+      "text": "I never—”"
+    },
+    {
+      "id": "s62",
+      "text": "Tom entered, struggling with the weight of his sacks, and Aunt Polly did not finish her sentence."
+    },
+    {
+      "id": "s63",
+      "text": "Tom poured the mass of yellow coin upon the table and said:"
+    },
+    {
+      "id": "s64",
+      "text": "“There—what did I tell you?"
+    },
+    {
+      "id": "s65",
+      "text": "Half of it’s Huck’s and half of it’s mine!”"
+    },
+    {
+      "id": "s66",
+      "text": "The spectacle took the general breath away."
+    },
+    {
+      "id": "s67",
+      "text": "All gazed, nobody spoke for a moment."
+    },
+    {
+      "id": "s68",
+      "text": "Then there was a unanimous call for an explanation."
+    },
+    {
+      "id": "s69",
+      "text": "Tom said he could furnish it, and he did."
+    },
+    {
+      "id": "s70",
+      "text": "The tale was long, but brimful of interest."
+    },
+    {
+      "id": "s71",
+      "text": "There was scarcely an interruption from any one to break the charm of its flow."
+    },
+    {
+      "id": "s72",
+      "text": "When he had finished, Mr."
+    },
+    {
+      "id": "s73",
+      "text": "Jones said:"
+    },
+    {
+      "id": "s74",
+      "text": "“I thought I had fixed up a little surprise for this occasion, but it don’t amount to anything now."
+    },
+    {
+      "id": "s75",
+      "text": "This one makes it sing mighty small, I’m willing to allow.”"
+    },
+    {
+      "id": "s76",
+      "text": "The money was counted."
+    },
+    {
+      "id": "s77",
+      "text": "The sum amounted to a little over twelve thousand dollars."
+    },
+    {
+      "id": "s78",
+      "text": "It was more than any one present had ever seen at one time before, though several persons were there who were worth considerably more than that in property."
+    }
+  ]
+}

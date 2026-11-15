@@ -1,0 +1,1001 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-38",
+  "chapterTitle": "CHAPTER XXXVIII. The Bend in the Road",
+  "contentHash": "sha256:a206b87fcdc902a967ae2e6c647a171b51f1bfcad6ebee1f369a1a9f8a06d611",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XXXVIII. The Bend in the Road. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "MARILLA went to town the next day and returned in the evening."
+    },
+    {
+      "id": "s2",
+      "text": "Anne had gone over to Orchard Slope with Diana and came back to find Marilla in the kitchen, sitting by the table with her head leaning on her hand."
+    },
+    {
+      "id": "s3",
+      "text": "Something in her dejected attitude struck a chill to Anne’s heart."
+    },
+    {
+      "id": "s4",
+      "text": "She had never seen Marilla sit limply inert like that."
+    },
+    {
+      "id": "s5",
+      "text": "“Are you very tired, Marilla?”"
+    },
+    {
+      "id": "s6",
+      "text": "“Yes--no--I don’t know,” said Marilla wearily, looking up."
+    },
+    {
+      "id": "s7",
+      "text": "“I suppose I am tired but I haven’t thought about it."
+    },
+    {
+      "id": "s8",
+      "text": "It’s not that.”"
+    },
+    {
+      "id": "s9",
+      "text": "“Did you see the oculist?"
+    },
+    {
+      "id": "s10",
+      "text": "What did he say?” asked Anne anxiously."
+    },
+    {
+      "id": "s11",
+      "text": "“Yes, I saw him."
+    },
+    {
+      "id": "s12",
+      "text": "He examined my eyes."
+    },
+    {
+      "id": "s13",
+      "text": "He says that if I give up all reading and sewing entirely and any kind of work that strains the eyes, and if I’m careful not to cry, and if I wear the glasses he’s given me he thinks my eyes may not get any worse and my headaches will be cured."
+    },
+    {
+      "id": "s14",
+      "text": "But if I don’t he says I’ll certainly be stone-blind in six months."
+    },
+    {
+      "id": "s15",
+      "text": "Blind!"
+    },
+    {
+      "id": "s16",
+      "text": "Anne, just think of it!”"
+    },
+    {
+      "id": "s17",
+      "text": "For a minute Anne, after her first quick exclamation of dismay, was silent."
+    },
+    {
+      "id": "s18",
+      "text": "It seemed to her that she could _not_ speak."
+    },
+    {
+      "id": "s19",
+      "text": "Then she said bravely, but with a catch in her voice:"
+    },
+    {
+      "id": "s20",
+      "text": "“Marilla, _don’t_ think of it."
+    },
+    {
+      "id": "s21",
+      "text": "You know he has given you hope."
+    },
+    {
+      "id": "s22",
+      "text": "If you are careful you won’t lose your sight altogether; and if his glasses cure your headaches it will be a great thing.”"
+    },
+    {
+      "id": "s23",
+      "text": "“I don’t call it much hope,” said Marilla bitterly."
+    },
+    {
+      "id": "s24",
+      "text": "“What am I to live for if I can’t read or sew or do anything like that?"
+    },
+    {
+      "id": "s25",
+      "text": "I might as well be blind--or dead."
+    },
+    {
+      "id": "s26",
+      "text": "And as for crying, I can’t help that when I get lonesome."
+    },
+    {
+      "id": "s27",
+      "text": "But there, it’s no good talking about it."
+    },
+    {
+      "id": "s28",
+      "text": "If you’ll get me a cup of tea I’ll be thankful."
+    },
+    {
+      "id": "s29",
+      "text": "I’m about done out."
+    },
+    {
+      "id": "s30",
+      "text": "Don’t say anything about this to any one for a spell yet, anyway."
+    },
+    {
+      "id": "s31",
+      "text": "I can’t bear that folks should come here to question and sympathize and talk about it.”"
+    },
+    {
+      "id": "s32",
+      "text": "When Marilla had eaten her lunch Anne persuaded her to go to bed."
+    },
+    {
+      "id": "s33",
+      "text": "Then Anne went herself to the east gable and sat down by her window in the darkness alone with her tears and her heaviness of heart."
+    },
+    {
+      "id": "s34",
+      "text": "How sadly things had changed since she had sat there the night after coming home!"
+    },
+    {
+      "id": "s35",
+      "text": "Then she had been full of hope and joy and the future had looked rosy with promise."
+    },
+    {
+      "id": "s36",
+      "text": "Anne felt as if she had lived years since then, but before she went to bed there was a smile on her lips and peace in her heart."
+    },
+    {
+      "id": "s37",
+      "text": "She had looked her duty courageously in the face and found it a friend--as duty ever is when we meet it frankly."
+    },
+    {
+      "id": "s38",
+      "text": "One afternoon a few days later Marilla came slowly in from the front yard where she had been talking to a caller--a man whom Anne knew by sight as Sadler from Carmody."
+    },
+    {
+      "id": "s39",
+      "text": "Anne wondered what he could have been saying to bring that look to Marilla’s face."
+    },
+    {
+      "id": "s40",
+      "text": "“What did Mr."
+    },
+    {
+      "id": "s41",
+      "text": "Sadler want, Marilla?”"
+    },
+    {
+      "id": "s42",
+      "text": "Marilla sat down by the window and looked at Anne."
+    },
+    {
+      "id": "s43",
+      "text": "There were tears in her eyes in defiance of the oculist’s prohibition and her voice broke as she said:"
+    },
+    {
+      "id": "s44",
+      "text": "“He heard that I was going to sell Green Gables and he wants to buy it.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Buy it!"
+    },
+    {
+      "id": "s46",
+      "text": "Buy Green Gables?” Anne wondered if she had heard aright."
+    },
+    {
+      "id": "s47",
+      "text": "“Oh, Marilla, you don’t mean to sell Green Gables!”"
+    },
+    {
+      "id": "s48",
+      "text": "“Anne, I don’t know what else is to be done."
+    },
+    {
+      "id": "s49",
+      "text": "I’ve thought it all over."
+    },
+    {
+      "id": "s50",
+      "text": "If my eyes were strong I could stay here and make out to look after things and manage, with a good hired man."
+    },
+    {
+      "id": "s51",
+      "text": "But as it is I can’t."
+    },
+    {
+      "id": "s52",
+      "text": "I may lose my sight altogether; and anyway I’ll not be fit to run things."
+    },
+    {
+      "id": "s53",
+      "text": "Oh, I never thought I’d live to see the day when I’d have to sell my home."
+    },
+    {
+      "id": "s54",
+      "text": "But things would only go behind worse and worse all the time, till nobody would want to buy it."
+    },
+    {
+      "id": "s55",
+      "text": "Every cent of our money went in that bank; and there’s some notes Matthew gave last fall to pay."
+    },
+    {
+      "id": "s56",
+      "text": "Mrs."
+    },
+    {
+      "id": "s57",
+      "text": "Lynde advises me to sell the farm and board somewhere--with her I suppose."
+    },
+    {
+      "id": "s58",
+      "text": "It won’t bring much--it’s small and the buildings are old."
+    },
+    {
+      "id": "s59",
+      "text": "But it’ll be enough for me to live on I reckon."
+    },
+    {
+      "id": "s60",
+      "text": "I’m thankful you’re provided for with that scholarship, Anne."
+    },
+    {
+      "id": "s61",
+      "text": "I’m sorry you won’t have a home to come to in your vacations, that’s all, but I suppose you’ll manage somehow.”"
+    },
+    {
+      "id": "s62",
+      "text": "Marilla broke down and wept bitterly."
+    },
+    {
+      "id": "s63",
+      "text": "“You mustn’t sell Green Gables,” said Anne resolutely."
+    },
+    {
+      "id": "s64",
+      "text": "“Oh, Anne, I wish I didn’t have to."
+    },
+    {
+      "id": "s65",
+      "text": "But you can see for yourself."
+    },
+    {
+      "id": "s66",
+      "text": "I can’t stay here alone."
+    },
+    {
+      "id": "s67",
+      "text": "I’d go crazy with trouble and loneliness."
+    },
+    {
+      "id": "s68",
+      "text": "And my sight would go--I know it would.”"
+    },
+    {
+      "id": "s69",
+      "text": "“You won’t have to stay here alone, Marilla."
+    },
+    {
+      "id": "s70",
+      "text": "I’ll be with you."
+    },
+    {
+      "id": "s71",
+      "text": "I’m not going to Redmond.”"
+    },
+    {
+      "id": "s72",
+      "text": "“Not going to Redmond!” Marilla lifted her worn face from her hands and looked at Anne."
+    },
+    {
+      "id": "s73",
+      "text": "“Why, what do you mean?”"
+    },
+    {
+      "id": "s74",
+      "text": "“Just what I say."
+    },
+    {
+      "id": "s75",
+      "text": "I’m not going to take the scholarship."
+    },
+    {
+      "id": "s76",
+      "text": "I decided so the night after you came home from town."
+    },
+    {
+      "id": "s77",
+      "text": "You surely don’t think I could leave you alone in your trouble, Marilla, after all you’ve done for me."
+    },
+    {
+      "id": "s78",
+      "text": "I’ve been thinking and planning."
+    },
+    {
+      "id": "s79",
+      "text": "Let me tell you my plans."
+    },
+    {
+      "id": "s80",
+      "text": "Mr."
+    },
+    {
+      "id": "s81",
+      "text": "Barry wants to rent the farm for next year."
+    },
+    {
+      "id": "s82",
+      "text": "So you won’t have any bother over that."
+    },
+    {
+      "id": "s83",
+      "text": "And I’m going to teach."
+    },
+    {
+      "id": "s84",
+      "text": "I’ve applied for the school here--but I don’t expect to get it for I understand the trustees have promised it to Gilbert Blythe."
+    },
+    {
+      "id": "s85",
+      "text": "But I can have the Carmody school--Mr."
+    },
+    {
+      "id": "s86",
+      "text": "Blair told me so last night at the store."
+    },
+    {
+      "id": "s87",
+      "text": "Of course that won’t be quite as nice or convenient as if I had the Avonlea school."
+    },
+    {
+      "id": "s88",
+      "text": "But I can board home and drive myself over to Carmody and back, in the warm weather at least."
+    },
+    {
+      "id": "s89",
+      "text": "And even in winter I can come home Fridays."
+    },
+    {
+      "id": "s90",
+      "text": "We’ll keep a horse for that."
+    },
+    {
+      "id": "s91",
+      "text": "Oh, I have it all planned out, Marilla."
+    },
+    {
+      "id": "s92",
+      "text": "And I’ll read to you and keep you cheered up."
+    },
+    {
+      "id": "s93",
+      "text": "You sha’n’t be dull or lonesome."
+    },
+    {
+      "id": "s94",
+      "text": "And we’ll be real cozy and happy here together, you and I.”"
+    },
+    {
+      "id": "s95",
+      "text": "Marilla had listened like a woman in a dream."
+    },
+    {
+      "id": "s96",
+      "text": "“Oh, Anne, I could get on real well if you were here, I know."
+    },
+    {
+      "id": "s97",
+      "text": "But I can’t let you sacrifice yourself so for me."
+    },
+    {
+      "id": "s98",
+      "text": "It would be terrible.”"
+    },
+    {
+      "id": "s99",
+      "text": "“Nonsense!” Anne laughed merrily."
+    },
+    {
+      "id": "s100",
+      "text": "“There is no sacrifice."
+    },
+    {
+      "id": "s101",
+      "text": "Nothing could be worse than giving up Green Gables--nothing could hurt me more."
+    },
+    {
+      "id": "s102",
+      "text": "We must keep the dear old place."
+    },
+    {
+      "id": "s103",
+      "text": "My mind is quite made up, Marilla."
+    },
+    {
+      "id": "s104",
+      "text": "I’m _not_ going to Redmond; and I _am_ going to stay here and teach."
+    },
+    {
+      "id": "s105",
+      "text": "Don’t you worry about me a bit.”"
+    },
+    {
+      "id": "s106",
+      "text": "“But your ambitions--and--”"
+    },
+    {
+      "id": "s107",
+      "text": "“I’m just as ambitious as ever."
+    },
+    {
+      "id": "s108",
+      "text": "Only, I’ve changed the object of my ambitions."
+    },
+    {
+      "id": "s109",
+      "text": "I’m going to be a good teacher--and I’m going to save your eyesight."
+    },
+    {
+      "id": "s110",
+      "text": "Besides, I mean to study at home here and take a little college course all by myself."
+    },
+    {
+      "id": "s111",
+      "text": "Oh, I’ve dozens of plans, Marilla."
+    },
+    {
+      "id": "s112",
+      "text": "I’ve been thinking them out for a week."
+    },
+    {
+      "id": "s113",
+      "text": "I shall give life here my best, and I believe it will give its best to me in return."
+    },
+    {
+      "id": "s114",
+      "text": "When I left Queen’s my future seemed to stretch out before me like a straight road."
+    },
+    {
+      "id": "s115",
+      "text": "I thought I could see along it for many a milestone."
+    },
+    {
+      "id": "s116",
+      "text": "Now there is a bend in it."
+    },
+    {
+      "id": "s117",
+      "text": "I don’t know what lies around the bend, but I’m going to believe that the best does."
+    },
+    {
+      "id": "s118",
+      "text": "It has a fascination of its own, that bend, Marilla."
+    },
+    {
+      "id": "s119",
+      "text": "I wonder how the road beyond it goes--what there is of green glory and soft, checkered light and shadows--what new landscapes--what new beauties--what curves and hills and valleys further on.”"
+    },
+    {
+      "id": "s120",
+      "text": "“I don’t feel as if I ought to let you give it up,” said Marilla, referring to the scholarship."
+    },
+    {
+      "id": "s121",
+      "text": "“But you can’t prevent me."
+    },
+    {
+      "id": "s122",
+      "text": "I’m sixteen and a half, ‘obstinate as a mule,’ as Mrs."
+    },
+    {
+      "id": "s123",
+      "text": "Lynde once told me,” laughed Anne."
+    },
+    {
+      "id": "s124",
+      "text": "“Oh, Marilla, don’t you go pitying me."
+    },
+    {
+      "id": "s125",
+      "text": "I don’t like to be pitied, and there is no need for it."
+    },
+    {
+      "id": "s126",
+      "text": "I’m heart glad over the very thought of staying at dear Green Gables."
+    },
+    {
+      "id": "s127",
+      "text": "Nobody could love it as you and I do--so we must keep it.”"
+    },
+    {
+      "id": "s128",
+      "text": "“You blessed girl!” said Marilla, yielding."
+    },
+    {
+      "id": "s129",
+      "text": "“I feel as if you’d given me new life."
+    },
+    {
+      "id": "s130",
+      "text": "I guess I ought to stick out and make you go to college--but I know I can’t, so I ain’t going to try."
+    },
+    {
+      "id": "s131",
+      "text": "I’ll make it up to you though, Anne.”"
+    },
+    {
+      "id": "s132",
+      "text": "When it became noised abroad in Avonlea that Anne Shirley had given up the idea of going to college and intended to stay home and teach there was a good deal of discussion over it."
+    },
+    {
+      "id": "s133",
+      "text": "Most of the good folks, not knowing about Marilla’s eyes, thought she was foolish."
+    },
+    {
+      "id": "s134",
+      "text": "Mrs."
+    },
+    {
+      "id": "s135",
+      "text": "Allan did not."
+    },
+    {
+      "id": "s136",
+      "text": "She told Anne so in approving words that brought tears of pleasure to the girl’s eyes."
+    },
+    {
+      "id": "s137",
+      "text": "Neither did good Mrs."
+    },
+    {
+      "id": "s138",
+      "text": "Lynde."
+    },
+    {
+      "id": "s139",
+      "text": "She came up one evening and found Anne and Marilla sitting at the front door in the warm, scented summer dusk."
+    },
+    {
+      "id": "s140",
+      "text": "They liked to sit there when the twilight came down and the white moths flew about in the garden and the odor of mint filled the dewy air."
+    },
+    {
+      "id": "s141",
+      "text": "Mrs."
+    },
+    {
+      "id": "s142",
+      "text": "Rachel deposited her substantial person upon the stone bench by the door, behind which grew a row of tall pink and yellow hollyhocks, with a long breath of mingled weariness and relief."
+    },
+    {
+      "id": "s143",
+      "text": "“I declare I’m getting glad to sit down."
+    },
+    {
+      "id": "s144",
+      "text": "I’ve been on my feet all day, and two hundred pounds is a good bit for two feet to carry round."
+    },
+    {
+      "id": "s145",
+      "text": "It’s a great blessing not to be fat, Marilla."
+    },
+    {
+      "id": "s146",
+      "text": "I hope you appreciate it."
+    },
+    {
+      "id": "s147",
+      "text": "Well, Anne, I hear you’ve given up your notion of going to college."
+    },
+    {
+      "id": "s148",
+      "text": "I was real glad to hear it."
+    },
+    {
+      "id": "s149",
+      "text": "You’ve got as much education now as a woman can be comfortable with."
+    },
+    {
+      "id": "s150",
+      "text": "I don’t believe in girls going to college with the men and cramming their heads full of Latin and Greek and all that nonsense.”"
+    },
+    {
+      "id": "s151",
+      "text": "“But I’m going to study Latin and Greek just the same, Mrs."
+    },
+    {
+      "id": "s152",
+      "text": "Lynde,” said Anne laughing."
+    },
+    {
+      "id": "s153",
+      "text": "“I’m going to take my Arts course right here at Green Gables, and study everything that I would at college.”"
+    },
+    {
+      "id": "s154",
+      "text": "Mrs."
+    },
+    {
+      "id": "s155",
+      "text": "Lynde lifted her hands in holy horror."
+    },
+    {
+      "id": "s156",
+      "text": "“Anne Shirley, you’ll kill yourself.”"
+    },
+    {
+      "id": "s157",
+      "text": "“Not a bit of it."
+    },
+    {
+      "id": "s158",
+      "text": "I shall thrive on it."
+    },
+    {
+      "id": "s159",
+      "text": "Oh, I’m not going to overdo things."
+    },
+    {
+      "id": "s160",
+      "text": "As ‘Josiah Allen’s wife,’ says, I shall be ‘mejum’."
+    },
+    {
+      "id": "s161",
+      "text": "But I’ll have lots of spare time in the long winter evenings, and I’ve no vocation for fancy work."
+    },
+    {
+      "id": "s162",
+      "text": "I’m going to teach over at Carmody, you know.”"
+    },
+    {
+      "id": "s163",
+      "text": "“I don’t know it."
+    },
+    {
+      "id": "s164",
+      "text": "I guess you’re going to teach right here in Avonlea."
+    },
+    {
+      "id": "s165",
+      "text": "The trustees have decided to give you the school.”"
+    },
+    {
+      "id": "s166",
+      "text": "“Mrs."
+    },
+    {
+      "id": "s167",
+      "text": "Lynde!” cried Anne, springing to her feet in her surprise."
+    },
+    {
+      "id": "s168",
+      "text": "“Why, I thought they had promised it to Gilbert Blythe!”"
+    },
+    {
+      "id": "s169",
+      "text": "“So they did."
+    },
+    {
+      "id": "s170",
+      "text": "But as soon as Gilbert heard that you had applied for it he went to them--they had a business meeting at the school last night, you know--and told them that he withdrew his application, and suggested that they accept yours."
+    },
+    {
+      "id": "s171",
+      "text": "He said he was going to teach at White Sands."
+    },
+    {
+      "id": "s172",
+      "text": "Of course he knew how much you wanted to stay with Marilla, and I must say I think it was real kind and thoughtful in him, that’s what."
+    },
+    {
+      "id": "s173",
+      "text": "Real self-sacrificing, too, for he’ll have his board to pay at White Sands, and everybody knows he’s got to earn his own way through college."
+    },
+    {
+      "id": "s174",
+      "text": "So the trustees decided to take you."
+    },
+    {
+      "id": "s175",
+      "text": "I was tickled to death when Thomas came home and told me.”"
+    },
+    {
+      "id": "s176",
+      "text": "“I don’t feel that I ought to take it,” murmured Anne."
+    },
+    {
+      "id": "s177",
+      "text": "“I mean--I don’t think I ought to let Gilbert make such a sacrifice for--for me.”"
+    },
+    {
+      "id": "s178",
+      "text": "“I guess you can’t prevent him now."
+    },
+    {
+      "id": "s179",
+      "text": "He’s signed papers with the White Sands trustees."
+    },
+    {
+      "id": "s180",
+      "text": "So it wouldn’t do him any good now if you were to refuse."
+    },
+    {
+      "id": "s181",
+      "text": "Of course you’ll take the school."
+    },
+    {
+      "id": "s182",
+      "text": "You’ll get along all right, now that there are no Pyes going."
+    },
+    {
+      "id": "s183",
+      "text": "Josie was the last of them, and a good thing she was, that’s what."
+    },
+    {
+      "id": "s184",
+      "text": "There’s been some Pye or other going to Avonlea school for the last twenty years, and I guess their mission in life was to keep school teachers reminded that earth isn’t their home."
+    },
+    {
+      "id": "s185",
+      "text": "Bless my heart!"
+    },
+    {
+      "id": "s186",
+      "text": "What does all that winking and blinking at the Barry gable mean?”"
+    },
+    {
+      "id": "s187",
+      "text": "“Diana is signaling for me to go over,” laughed Anne."
+    },
+    {
+      "id": "s188",
+      "text": "“You know we keep up the old custom."
+    },
+    {
+      "id": "s189",
+      "text": "Excuse me while I run over and see what she wants.”"
+    },
+    {
+      "id": "s190",
+      "text": "Anne ran down the clover slope like a deer, and disappeared in the firry shadows of the Haunted Wood."
+    },
+    {
+      "id": "s191",
+      "text": "Mrs."
+    },
+    {
+      "id": "s192",
+      "text": "Lynde looked after her indulgently."
+    },
+    {
+      "id": "s193",
+      "text": "“There’s a good deal of the child about her yet in some ways.”"
+    },
+    {
+      "id": "s194",
+      "text": "“There’s a good deal more of the woman about her in others,” retorted Marilla, with a momentary return of her old crispness."
+    },
+    {
+      "id": "s195",
+      "text": "But crispness was no longer Marilla’s distinguishing characteristic."
+    },
+    {
+      "id": "s196",
+      "text": "As Mrs."
+    },
+    {
+      "id": "s197",
+      "text": "Lynde told her Thomas that night."
+    },
+    {
+      "id": "s198",
+      "text": "“Marilla Cuthbert has got _mellow_."
+    },
+    {
+      "id": "s199",
+      "text": "That’s what.”"
+    },
+    {
+      "id": "s200",
+      "text": "Anne went to the little Avonlea graveyard the next evening to put fresh flowers on Matthew’s grave and water the Scotch rosebush."
+    },
+    {
+      "id": "s201",
+      "text": "She lingered there until dusk, liking the peace and calm of the little place, with its poplars whose rustle was like low, friendly speech, and its whispering grasses growing at will among the graves."
+    },
+    {
+      "id": "s202",
+      "text": "When she finally left it and walked down the long hill that sloped to the Lake of Shining Waters it was past sunset and all Avonlea lay before her in a dreamlike afterlight--“a haunt of ancient peace.” There was a freshness in the air as of a wind that had blown over honey-sweet fields of clover."
+    },
+    {
+      "id": "s203",
+      "text": "Home lights twinkled out here and there among the homestead trees."
+    },
+    {
+      "id": "s204",
+      "text": "Beyond lay the sea, misty and purple, with its haunting, unceasing murmur."
+    },
+    {
+      "id": "s205",
+      "text": "The west was a glory of soft mingled hues, and the pond reflected them all in still softer shadings."
+    },
+    {
+      "id": "s206",
+      "text": "The beauty of it all thrilled Anne’s heart, and she gratefully opened the gates of her soul to it."
+    },
+    {
+      "id": "s207",
+      "text": "“Dear old world,” she murmured, “you are very lovely, and I am glad to be alive in you.”"
+    },
+    {
+      "id": "s208",
+      "text": "Halfway down the hill a tall lad came whistling out of a gate before the Blythe homestead."
+    },
+    {
+      "id": "s209",
+      "text": "It was Gilbert, and the whistle died on his lips as he recognized Anne."
+    },
+    {
+      "id": "s210",
+      "text": "He lifted his cap courteously, but he would have passed on in silence, if Anne had not stopped and held out her hand."
+    },
+    {
+      "id": "s211",
+      "text": "“Gilbert,” she said, with scarlet cheeks, “I want to thank you for giving up the school for me."
+    },
+    {
+      "id": "s212",
+      "text": "It was very good of you--and I want you to know that I appreciate it.”"
+    },
+    {
+      "id": "s213",
+      "text": "Gilbert took the offered hand eagerly."
+    },
+    {
+      "id": "s214",
+      "text": "“It wasn’t particularly good of me at all, Anne."
+    },
+    {
+      "id": "s215",
+      "text": "I was pleased to be able to do you some small service."
+    },
+    {
+      "id": "s216",
+      "text": "Are we going to be friends after this?"
+    },
+    {
+      "id": "s217",
+      "text": "Have you really forgiven me my old fault?”"
+    },
+    {
+      "id": "s218",
+      "text": "Anne laughed and tried unsuccessfully to withdraw her hand."
+    },
+    {
+      "id": "s219",
+      "text": "“I forgave you that day by the pond landing, although I didn’t know it."
+    },
+    {
+      "id": "s220",
+      "text": "What a stubborn little goose I was."
+    },
+    {
+      "id": "s221",
+      "text": "I’ve been--I may as well make a complete confession--I’ve been sorry ever since.”"
+    },
+    {
+      "id": "s222",
+      "text": "“We are going to be the best of friends,” said Gilbert, jubilantly."
+    },
+    {
+      "id": "s223",
+      "text": "“We were born to be good friends, Anne."
+    },
+    {
+      "id": "s224",
+      "text": "You’ve thwarted destiny enough."
+    },
+    {
+      "id": "s225",
+      "text": "I know we can help each other in many ways."
+    },
+    {
+      "id": "s226",
+      "text": "You are going to keep up your studies, aren’t you?"
+    },
+    {
+      "id": "s227",
+      "text": "So am I."
+    },
+    {
+      "id": "s228",
+      "text": "Come, I’m going to walk home with you.”"
+    },
+    {
+      "id": "s229",
+      "text": "Marilla looked curiously at Anne when the latter entered the kitchen."
+    },
+    {
+      "id": "s230",
+      "text": "“Who was that came up the lane with you, Anne?”"
+    },
+    {
+      "id": "s231",
+      "text": "“Gilbert Blythe,” answered Anne, vexed to find herself blushing."
+    },
+    {
+      "id": "s232",
+      "text": "“I met him on Barry’s hill.”"
+    },
+    {
+      "id": "s233",
+      "text": "“I didn’t think you and Gilbert Blythe were such good friends that you’d stand for half an hour at the gate talking to him,” said Marilla with a dry smile."
+    },
+    {
+      "id": "s234",
+      "text": "“We haven’t been--we’ve been good enemies."
+    },
+    {
+      "id": "s235",
+      "text": "But we have decided that it will be much more sensible to be good friends in the future."
+    },
+    {
+      "id": "s236",
+      "text": "Were we really there half an hour?"
+    },
+    {
+      "id": "s237",
+      "text": "It seemed just a few minutes."
+    },
+    {
+      "id": "s238",
+      "text": "But, you see, we have five years’ lost conversations to catch up with, Marilla.”"
+    },
+    {
+      "id": "s239",
+      "text": "Anne sat long at her window that night companioned by a glad content."
+    },
+    {
+      "id": "s240",
+      "text": "The wind purred softly in the cherry boughs, and the mint breaths came up to her."
+    },
+    {
+      "id": "s241",
+      "text": "The stars twinkled over the pointed firs in the hollow and Diana’s light gleamed through the old gap."
+    },
+    {
+      "id": "s242",
+      "text": "Anne’s horizons had closed in since the night she had sat there after coming home from Queen’s; but if the path set before her feet was to be narrow she knew that flowers of quiet happiness would bloom along it."
+    },
+    {
+      "id": "s243",
+      "text": "The joy of sincere work and worthy aspiration and congenial friendship were to be hers; nothing could rob her of her birthright of fancy or her ideal world of dreams."
+    },
+    {
+      "id": "s244",
+      "text": "And there was always the bend in the road!"
+    },
+    {
+      "id": "s245",
+      "text": "“‘God’s in his heaven, all’s right with the world,’” whispered Anne softly."
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-12",
+  "chapterTitle": "CHAPTER XII.",
+  "contentHash": "sha256:2a760e7c510a53359b6d948e7da06100ae6de0f6c264e4b3df2fe428b6042221",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XII.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH PHILEAS FOGG AND HIS COMPANIONS VENTURE ACROSS THE INDIAN FORESTS, AND WHAT ENSUED"
+    },
+    {
+      "id": "s2",
+      "text": "In order to shorten the journey, the guide passed to the left of the line where the railway was still in process of being built."
+    },
+    {
+      "id": "s3",
+      "text": "This line, owing to the capricious turnings of the Vindhia Mountains, did not pursue a straight course."
+    },
+    {
+      "id": "s4",
+      "text": "The Parsee, who was quite familiar with the roads and paths in the district, declared that they would gain twenty miles by striking directly through the forest."
+    },
+    {
+      "id": "s5",
+      "text": "Phileas Fogg and Sir Francis Cromarty, plunged to the neck in the peculiar howdahs provided for them, were horribly jostled by the swift trotting of the elephant, spurred on as he was by the skilful Parsee; but they endured the discomfort with true British phlegm, talking little, and scarcely able to catch a glimpse of each other."
+    },
+    {
+      "id": "s6",
+      "text": "As for Passepartout, who was mounted on the beast’s back, and received the direct force of each concussion as he trod along, he was very careful, in accordance with his master’s advice, to keep his tongue from between his teeth, as it would otherwise have been bitten off short."
+    },
+    {
+      "id": "s7",
+      "text": "The worthy fellow bounced from the elephant’s neck to his rump, and vaulted like a clown on a spring-board; yet he laughed in the midst of his bouncing, and from time to time took a piece of sugar out of his pocket, and inserted it in Kiouni’s trunk, who received it without in the least slackening his regular trot."
+    },
+    {
+      "id": "s8",
+      "text": "After two hours the guide stopped the elephant, and gave him an hour for rest, during which Kiouni, after quenching his thirst at a neighbouring spring, set to devouring the branches and shrubs round about him."
+    },
+    {
+      "id": "s9",
+      "text": "Neither Sir Francis nor Mr."
+    },
+    {
+      "id": "s10",
+      "text": "Fogg regretted the delay, and both descended with a feeling of relief."
+    },
+    {
+      "id": "s11",
+      "text": "“Why, he’s made of iron!” exclaimed the general, gazing admiringly on Kiouni."
+    },
+    {
+      "id": "s12",
+      "text": "“Of forged iron,” replied Passepartout, as he set about preparing a hasty breakfast."
+    },
+    {
+      "id": "s13",
+      "text": "At noon the Parsee gave the signal of departure."
+    },
+    {
+      "id": "s14",
+      "text": "The country soon presented a very savage aspect."
+    },
+    {
+      "id": "s15",
+      "text": "Copses of dates and dwarf-palms succeeded the dense forests; then vast, dry plains, dotted with scanty shrubs, and sown with great blocks of syenite."
+    },
+    {
+      "id": "s16",
+      "text": "All this portion of Bundelcund, which is little frequented by travellers, is inhabited by a fanatical population, hardened in the most horrible practices of the Hindoo faith."
+    },
+    {
+      "id": "s17",
+      "text": "The English have not been able to secure complete dominion over this territory, which is subjected to the influence of rajahs, whom it is almost impossible to reach in their inaccessible mountain fastnesses."
+    },
+    {
+      "id": "s18",
+      "text": "The travellers several times saw bands of ferocious Indians, who, when they perceived the elephant striding across-country, made angry and threatening motions."
+    },
+    {
+      "id": "s19",
+      "text": "The Parsee avoided them as much as possible."
+    },
+    {
+      "id": "s20",
+      "text": "Few animals were observed on the route; even the monkeys hurried from their path with contortions and grimaces which convulsed Passepartout with laughter."
+    },
+    {
+      "id": "s21",
+      "text": "In the midst of his gaiety, however, one thought troubled the worthy servant."
+    },
+    {
+      "id": "s22",
+      "text": "What would Mr."
+    },
+    {
+      "id": "s23",
+      "text": "Fogg do with the elephant when he got to Allahabad?"
+    },
+    {
+      "id": "s24",
+      "text": "Would he carry him on with him?"
+    },
+    {
+      "id": "s25",
+      "text": "Impossible!"
+    },
+    {
+      "id": "s26",
+      "text": "The cost of transporting him would make him ruinously expensive."
+    },
+    {
+      "id": "s27",
+      "text": "Would he sell him, or set him free?"
+    },
+    {
+      "id": "s28",
+      "text": "The estimable beast certainly deserved some consideration."
+    },
+    {
+      "id": "s29",
+      "text": "Should Mr."
+    },
+    {
+      "id": "s30",
+      "text": "Fogg choose to make him, Passepartout, a present of Kiouni, he would be very much embarrassed; and these thoughts did not cease worrying him for a long time."
+    },
+    {
+      "id": "s31",
+      "text": "The principal chain of the Vindhias was crossed by eight in the evening, and another halt was made on the northern slope, in a ruined bungalow."
+    },
+    {
+      "id": "s32",
+      "text": "They had gone nearly twenty-five miles that day, and an equal distance still separated them from the station of Allahabad."
+    },
+    {
+      "id": "s33",
+      "text": "The night was cold."
+    },
+    {
+      "id": "s34",
+      "text": "The Parsee lit a fire in the bungalow with a few dry branches, and the warmth was very grateful, provisions purchased at Kholby sufficed for supper, and the travellers ate ravenously."
+    },
+    {
+      "id": "s35",
+      "text": "The conversation, beginning with a few disconnected phrases, soon gave place to loud and steady snores."
+    },
+    {
+      "id": "s36",
+      "text": "The guide watched Kiouni, who slept standing, bolstering himself against the trunk of a large tree."
+    },
+    {
+      "id": "s37",
+      "text": "Nothing occurred during the night to disturb the slumberers, although occasional growls from panthers and chatterings of monkeys broke the silence; the more formidable beasts made no cries or hostile demonstration against the occupants of the bungalow."
+    },
+    {
+      "id": "s38",
+      "text": "Sir Francis slept heavily, like an honest soldier overcome with fatigue."
+    },
+    {
+      "id": "s39",
+      "text": "Passepartout was wrapped in uneasy dreams of the bouncing of the day before."
+    },
+    {
+      "id": "s40",
+      "text": "As for Mr."
+    },
+    {
+      "id": "s41",
+      "text": "Fogg, he slumbered as peacefully as if he had been in his serene mansion in Saville Row."
+    },
+    {
+      "id": "s42",
+      "text": "The journey was resumed at six in the morning; the guide hoped to reach Allahabad by evening."
+    },
+    {
+      "id": "s43",
+      "text": "In that case, Mr."
+    },
+    {
+      "id": "s44",
+      "text": "Fogg would only lose a part of the forty-eight hours saved since the beginning of the tour."
+    },
+    {
+      "id": "s45",
+      "text": "Kiouni, resuming his rapid gait, soon descended the lower spurs of the Vindhias, and towards noon they passed by the village of Kallenger, on the Cani, one of the branches of the Ganges."
+    },
+    {
+      "id": "s46",
+      "text": "The guide avoided inhabited places, thinking it safer to keep the open country, which lies along the first depressions of the basin of the great river."
+    },
+    {
+      "id": "s47",
+      "text": "Allahabad was now only twelve miles to the north-east."
+    },
+    {
+      "id": "s48",
+      "text": "They stopped under a clump of bananas, the fruit of which, as healthy as bread and as succulent as cream, was amply partaken of and appreciated."
+    },
+    {
+      "id": "s49",
+      "text": "At two o’clock the guide entered a thick forest which extended several miles; he preferred to travel under cover of the woods."
+    },
+    {
+      "id": "s50",
+      "text": "They had not as yet had any unpleasant encounters, and the journey seemed on the point of being successfully accomplished, when the elephant, becoming restless, suddenly stopped."
+    },
+    {
+      "id": "s51",
+      "text": "It was then four o’clock."
+    },
+    {
+      "id": "s52",
+      "text": "“What’s the matter?” asked Sir Francis, putting out his head."
+    },
+    {
+      "id": "s53",
+      "text": "“I don’t know, officer,” replied the Parsee, listening attentively to a confused murmur which came through the thick branches."
+    },
+    {
+      "id": "s54",
+      "text": "The murmur soon became more distinct; it now seemed like a distant concert of human voices accompanied by brass instruments."
+    },
+    {
+      "id": "s55",
+      "text": "Passepartout was all eyes and ears."
+    },
+    {
+      "id": "s56",
+      "text": "Mr."
+    },
+    {
+      "id": "s57",
+      "text": "Fogg patiently waited without a word."
+    },
+    {
+      "id": "s58",
+      "text": "The Parsee jumped to the ground, fastened the elephant to a tree, and plunged into the thicket."
+    },
+    {
+      "id": "s59",
+      "text": "He soon returned, saying:"
+    },
+    {
+      "id": "s60",
+      "text": "“A procession of Brahmins is coming this way."
+    },
+    {
+      "id": "s61",
+      "text": "We must prevent their seeing us, if possible.”"
+    },
+    {
+      "id": "s62",
+      "text": "The guide unloosed the elephant and led him into a thicket, at the same time asking the travellers not to stir."
+    },
+    {
+      "id": "s63",
+      "text": "He held himself ready to bestride the animal at a moment’s notice, should flight become necessary; but he evidently thought that the procession of the faithful would pass without perceiving them amid the thick foliage, in which they were wholly concealed."
+    },
+    {
+      "id": "s64",
+      "text": "The discordant tones of the voices and instruments drew nearer, and now droning songs mingled with the sound of the tambourines and cymbals."
+    },
+    {
+      "id": "s65",
+      "text": "The head of the procession soon appeared beneath the trees, a hundred paces away; and the strange figures who performed the religious ceremony were easily distinguished through the branches."
+    },
+    {
+      "id": "s66",
+      "text": "First came the priests, with mitres on their heads, and clothed in long lace robes."
+    },
+    {
+      "id": "s67",
+      "text": "They were surrounded by men, women, and children, who sang a kind of lugubrious psalm, interrupted at regular intervals by the tambourines and cymbals; while behind them was drawn a car with large wheels, the spokes of which represented serpents entwined with each other."
+    },
+    {
+      "id": "s68",
+      "text": "Upon the car, which was drawn by four richly caparisoned zebus, stood a hideous statue with four arms, the body coloured a dull red, with haggard eyes, dishevelled hair, protruding tongue, and lips tinted with betel."
+    },
+    {
+      "id": "s69",
+      "text": "It stood upright upon the figure of a prostrate and headless giant."
+    },
+    {
+      "id": "s70",
+      "text": "Sir Francis, recognising the statue, whispered, “The goddess Kali; the goddess of love and death.”"
+    },
+    {
+      "id": "s71",
+      "text": "“Of death, perhaps,” muttered back Passepartout, “but of love—that ugly old hag?"
+    },
+    {
+      "id": "s72",
+      "text": "Never!”"
+    },
+    {
+      "id": "s73",
+      "text": "The Parsee made a motion to keep silence."
+    },
+    {
+      "id": "s74",
+      "text": "A group of old fakirs were capering and making a wild ado round the statue; these were striped with ochre, and covered with cuts whence their blood issued drop by drop—stupid fanatics, who, in the great Indian ceremonies, still throw themselves under the wheels of Juggernaut."
+    },
+    {
+      "id": "s75",
+      "text": "Some Brahmins, clad in all the sumptuousness of Oriental apparel, and leading a woman who faltered at every step, followed."
+    },
+    {
+      "id": "s76",
+      "text": "This woman was young, and as fair as a European."
+    },
+    {
+      "id": "s77",
+      "text": "Her head and neck, shoulders, ears, arms, hands, and toes were loaded down with jewels and gems with bracelets, earrings, and rings; while a tunic bordered with gold, and covered with a light muslin robe, betrayed the outline of her form."
+    },
+    {
+      "id": "s78",
+      "text": "The guards who followed the young woman presented a violent contrast to her, armed as they were with naked sabres hung at their waists, and long damascened pistols, and bearing a corpse on a palanquin."
+    },
+    {
+      "id": "s79",
+      "text": "It was the body of an old man, gorgeously arrayed in the habiliments of a rajah, wearing, as in life, a turban embroidered with pearls, a robe of tissue of silk and gold, a scarf of cashmere sewed with diamonds, and the magnificent weapons of a Hindoo prince."
+    },
+    {
+      "id": "s80",
+      "text": "Next came the musicians and a rearguard of capering fakirs, whose cries sometimes drowned the noise of the instruments; these closed the procession."
+    },
+    {
+      "id": "s81",
+      "text": "Sir Francis watched the procession with a sad countenance, and, turning to the guide, said, “A suttee.”"
+    },
+    {
+      "id": "s82",
+      "text": "The Parsee nodded, and put his finger to his lips."
+    },
+    {
+      "id": "s83",
+      "text": "The procession slowly wound under the trees, and soon its last ranks disappeared in the depths of the wood."
+    },
+    {
+      "id": "s84",
+      "text": "The songs gradually died away; occasionally cries were heard in the distance, until at last all was silence again."
+    },
+    {
+      "id": "s85",
+      "text": "Phileas Fogg had heard what Sir Francis said, and, as soon as the procession had disappeared, asked: “What is a suttee?”"
+    },
+    {
+      "id": "s86",
+      "text": "“A suttee,” returned the general, “is a human sacrifice, but a voluntary one."
+    },
+    {
+      "id": "s87",
+      "text": "The woman you have just seen will be burned to-morrow at the dawn of day.”"
+    },
+    {
+      "id": "s88",
+      "text": "“Oh, the scoundrels!” cried Passepartout, who could not repress his indignation."
+    },
+    {
+      "id": "s89",
+      "text": "“And the corpse?” asked Mr."
+    },
+    {
+      "id": "s90",
+      "text": "Fogg."
+    },
+    {
+      "id": "s91",
+      "text": "“Is that of the prince, her husband,” said the guide; “an independent rajah of Bundelcund.”"
+    },
+    {
+      "id": "s92",
+      "text": "“Is it possible,” resumed Phileas Fogg, his voice betraying not the least emotion, “that these barbarous customs still exist in India, and that the English have been unable to put a stop to them?”"
+    },
+    {
+      "id": "s93",
+      "text": "“These sacrifices do not occur in the larger portion of India,” replied Sir Francis; “but we have no power over these savage territories, and especially here in Bundelcund."
+    },
+    {
+      "id": "s94",
+      "text": "The whole district north of the Vindhias is the theatre of incessant murders and pillage.”"
+    },
+    {
+      "id": "s95",
+      "text": "“The poor wretch!” exclaimed Passepartout, “to be burned alive!”"
+    },
+    {
+      "id": "s96",
+      "text": "“Yes,” returned Sir Francis, “burned alive."
+    },
+    {
+      "id": "s97",
+      "text": "And, if she were not, you cannot conceive what treatment she would be obliged to submit to from her relatives."
+    },
+    {
+      "id": "s98",
+      "text": "They would shave off her hair, feed her on a scanty allowance of rice, treat her with contempt; she would be looked upon as an unclean creature, and would die in some corner, like a scurvy dog."
+    },
+    {
+      "id": "s99",
+      "text": "The prospect of so frightful an existence drives these poor creatures to the sacrifice much more than love or religious fanaticism."
+    },
+    {
+      "id": "s100",
+      "text": "Sometimes, however, the sacrifice is really voluntary, and it requires the active interference of the Government to prevent it."
+    },
+    {
+      "id": "s101",
+      "text": "Several years ago, when I was living at Bombay, a young widow asked permission of the governor to be burned along with her husband’s body; but, as you may imagine, he refused."
+    },
+    {
+      "id": "s102",
+      "text": "The woman left the town, took refuge with an independent rajah, and there carried out her self-devoted purpose.”"
+    },
+    {
+      "id": "s103",
+      "text": "While Sir Francis was speaking, the guide shook his head several times, and now said: “The sacrifice which will take place to-morrow at dawn is not a voluntary one.”"
+    },
+    {
+      "id": "s104",
+      "text": "“How do you know?”"
+    },
+    {
+      "id": "s105",
+      "text": "“Everybody knows about this affair in Bundelcund.”"
+    },
+    {
+      "id": "s106",
+      "text": "“But the wretched creature did not seem to be making any resistance,” observed Sir Francis."
+    },
+    {
+      "id": "s107",
+      "text": "“That was because they had intoxicated her with fumes of hemp and opium.”"
+    },
+    {
+      "id": "s108",
+      "text": "“But where are they taking her?”"
+    },
+    {
+      "id": "s109",
+      "text": "“To the pagoda of Pillaji, two miles from here; she will pass the night there.”"
+    },
+    {
+      "id": "s110",
+      "text": "“And the sacrifice will take place—”"
+    },
+    {
+      "id": "s111",
+      "text": "“To-morrow, at the first light of dawn.”"
+    },
+    {
+      "id": "s112",
+      "text": "The guide now led the elephant out of the thicket, and leaped upon his neck."
+    },
+    {
+      "id": "s113",
+      "text": "Just at the moment that he was about to urge Kiouni forward with a peculiar whistle, Mr."
+    },
+    {
+      "id": "s114",
+      "text": "Fogg stopped him, and, turning to Sir Francis Cromarty, said, “Suppose we save this woman.”"
+    },
+    {
+      "id": "s115",
+      "text": "“Save the woman, Mr."
+    },
+    {
+      "id": "s116",
+      "text": "Fogg!”"
+    },
+    {
+      "id": "s117",
+      "text": "“I have yet twelve hours to spare; I can devote them to that.”"
+    },
+    {
+      "id": "s118",
+      "text": "“Why, you are a man of heart!”"
+    },
+    {
+      "id": "s119",
+      "text": "“Sometimes,” replied Phileas Fogg, quietly; “when I have the time.”"
+    }
+  ]
+}

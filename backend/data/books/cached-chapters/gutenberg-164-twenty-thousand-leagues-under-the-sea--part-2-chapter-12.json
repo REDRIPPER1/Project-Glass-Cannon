@@ -1,0 +1,793 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-12",
+  "chapterTitle": "Part 2 — CHAPTER XII",
+  "contentHash": "sha256:fd791071e15176188f301b0f068a766b7c85a5dba988a3c41d29ac214085e924",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, Part 2 — CHAPTER XII. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "CACHALOTS AND WHALES"
+    },
+    {
+      "id": "s2",
+      "text": "During the nights of the 13th and 14th of March, the _Nautilus_ returned to its southerly course."
+    },
+    {
+      "id": "s3",
+      "text": "I fancied that, when on a level with Cape Horn, he would turn the helm westward, in order to beat the Pacific seas, and so complete the tour of the world."
+    },
+    {
+      "id": "s4",
+      "text": "He did nothing of the kind, but continued on his way to the southern regions."
+    },
+    {
+      "id": "s5",
+      "text": "Where was he going to?"
+    },
+    {
+      "id": "s6",
+      "text": "To the pole?"
+    },
+    {
+      "id": "s7",
+      "text": "It was madness!"
+    },
+    {
+      "id": "s8",
+      "text": "I began to think that the Captain’s temerity justified Ned Land’s fears."
+    },
+    {
+      "id": "s9",
+      "text": "For some time past the Canadian had not spoken to me of his projects of flight; he was less communicative, almost silent."
+    },
+    {
+      "id": "s10",
+      "text": "I could see that this lengthened imprisonment was weighing upon him, and I felt that rage was burning within him."
+    },
+    {
+      "id": "s11",
+      "text": "When he met the Captain, his eyes lit up with suppressed anger; and I feared that his natural violence would lead him into some extreme."
+    },
+    {
+      "id": "s12",
+      "text": "That day, the 14th of March, Conseil and he came to me in my room."
+    },
+    {
+      "id": "s13",
+      "text": "I inquired the cause of their visit."
+    },
+    {
+      "id": "s14",
+      "text": "“A simple question to ask you, sir,” replied the Canadian."
+    },
+    {
+      "id": "s15",
+      "text": "“Speak, Ned.”"
+    },
+    {
+      "id": "s16",
+      "text": "“How many men are there on board the _Nautilus_, do you think?”"
+    },
+    {
+      "id": "s17",
+      "text": "“I cannot tell, my friend.”"
+    },
+    {
+      "id": "s18",
+      "text": "“I should say that its working does not require a large crew.”"
+    },
+    {
+      "id": "s19",
+      "text": "“Certainly, under existing conditions, ten men, at the most, ought to be enough.”"
+    },
+    {
+      "id": "s20",
+      "text": "“Well, why should there be any more?”"
+    },
+    {
+      "id": "s21",
+      "text": "“Why?” I replied, looking fixedly at Ned Land, whose meaning was easy to guess."
+    },
+    {
+      "id": "s22",
+      "text": "“Because,” I added, “if my surmises are correct, and if I have well understood the Captain’s existence, the _Nautilus_ is not only a vessel: it is also a place of refuge for those who, like its commander, have broken every tie upon earth.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Perhaps so,” said Conseil; “but, in any case, the _Nautilus_ can only contain a certain number of men."
+    },
+    {
+      "id": "s24",
+      "text": "Could not you, sir, estimate their maximum?”"
+    },
+    {
+      "id": "s25",
+      "text": "“How, Conseil?”"
+    },
+    {
+      "id": "s26",
+      "text": "“By calculation; given the size of the vessel, which you know, sir, and consequently the quantity of air it contains, knowing also how much each man expends at a breath, and comparing these results with the fact that the _Nautilus_ is obliged to go to the surface every twenty-four hours.”"
+    },
+    {
+      "id": "s27",
+      "text": "Conseil had not finished the sentence before I saw what he was driving at."
+    },
+    {
+      "id": "s28",
+      "text": "“I understand,” said I; “but that calculation, though simple enough, can give but a very uncertain result.”"
+    },
+    {
+      "id": "s29",
+      "text": "“Never mind,” said Ned Land urgently."
+    },
+    {
+      "id": "s30",
+      "text": "“Here it is, then,” said I."
+    },
+    {
+      "id": "s31",
+      "text": "“In one hour each man consumes the oxygen contained in twenty gallons of air; and in twenty-four, that contained in 480 gallons."
+    },
+    {
+      "id": "s32",
+      "text": "We must, therefore find how many times 480 gallons of air the _Nautilus_ contains.”"
+    },
+    {
+      "id": "s33",
+      "text": "“Just so,” said Conseil."
+    },
+    {
+      "id": "s34",
+      "text": "“Or,” I continued, “the size of the _Nautilus_ being 1,500 tons; and one ton holding 200 gallons, it contains 300,000 gallons of air, which, divided by 480, gives a quotient of 625."
+    },
+    {
+      "id": "s35",
+      "text": "Which means to say, strictly speaking, that the air contained in the _Nautilus_ would suffice for 625 men for twenty-four hours.”"
+    },
+    {
+      "id": "s36",
+      "text": "“Six hundred and twenty-five!” repeated Ned."
+    },
+    {
+      "id": "s37",
+      "text": "“But remember that all of us, passengers, sailors, and officers included, would not form a tenth part of that number.”"
+    },
+    {
+      "id": "s38",
+      "text": "“Still too many for three men,” murmured Conseil."
+    },
+    {
+      "id": "s39",
+      "text": "The Canadian shook his head, passed his hand across his forehead, and left the room without answering."
+    },
+    {
+      "id": "s40",
+      "text": "“Will you allow me to make one observation, sir?” said Conseil."
+    },
+    {
+      "id": "s41",
+      "text": "“Poor Ned is longing for everything that he can not have."
+    },
+    {
+      "id": "s42",
+      "text": "His past life is always present to him; everything that we are forbidden he regrets."
+    },
+    {
+      "id": "s43",
+      "text": "His head is full of old recollections."
+    },
+    {
+      "id": "s44",
+      "text": "And we must understand him."
+    },
+    {
+      "id": "s45",
+      "text": "What has he to do here?"
+    },
+    {
+      "id": "s46",
+      "text": "Nothing; he is not learned like you, sir; and has not the same taste for the beauties of the sea that we have."
+    },
+    {
+      "id": "s47",
+      "text": "He would risk everything to be able to go once more into a tavern in his own country.”"
+    },
+    {
+      "id": "s48",
+      "text": "Certainly the monotony on board must seem intolerable to the Canadian, accustomed as he was to a life of liberty and activity."
+    },
+    {
+      "id": "s49",
+      "text": "Events were rare which could rouse him to any show of spirit; but that day an event did happen which recalled the bright days of the harpooner."
+    },
+    {
+      "id": "s50",
+      "text": "About eleven in the morning, being on the surface of the ocean, the _Nautilus_ fell in with a troop of whales—an encounter which did not astonish me, knowing that these creatures, hunted to death, had taken refuge in high latitudes."
+    },
+    {
+      "id": "s51",
+      "text": "We were seated on the platform, with a quiet sea."
+    },
+    {
+      "id": "s52",
+      "text": "The month of October in those latitudes gave us some lovely autumnal days."
+    },
+    {
+      "id": "s53",
+      "text": "It was the Canadian—he could not be mistaken—who signalled a whale on the eastern horizon."
+    },
+    {
+      "id": "s54",
+      "text": "Looking attentively, one might see its black back rise and fall with the waves five miles from the _Nautilus_."
+    },
+    {
+      "id": "s55",
+      "text": "“Ah!” exclaimed Ned Land, “if I was on board a whaler, now such a meeting would give me pleasure."
+    },
+    {
+      "id": "s56",
+      "text": "It is one of large size."
+    },
+    {
+      "id": "s57",
+      "text": "See with what strength its blow-holes throw up columns of air an steam!"
+    },
+    {
+      "id": "s58",
+      "text": "Confound it, why am I bound to these steel plates?”"
+    },
+    {
+      "id": "s59",
+      "text": "“What, Ned,” said I, “you have not forgotten your old ideas of fishing?”"
+    },
+    {
+      "id": "s60",
+      "text": "“Can a whale-fisher ever forget his old trade, sir?"
+    },
+    {
+      "id": "s61",
+      "text": "Can he ever tire of the emotions caused by such a chase?”"
+    },
+    {
+      "id": "s62",
+      "text": "“You have never fished in these seas, Ned?”"
+    },
+    {
+      "id": "s63",
+      "text": "“Never, sir; in the northern only, and as much in Behring as in Davis Straits.”"
+    },
+    {
+      "id": "s64",
+      "text": "“Then the southern whale is still unknown to you."
+    },
+    {
+      "id": "s65",
+      "text": "It is the Greenland whale you have hunted up to this time, and that would not risk passing through the warm waters of the equator."
+    },
+    {
+      "id": "s66",
+      "text": "Whales are localised, according to their kinds, in certain seas which they never leave."
+    },
+    {
+      "id": "s67",
+      "text": "And if one of these creatures went from Behring to Davis Straits, it must be simply because there is a passage from one sea to the other, either on the American or the Asiatic side.”"
+    },
+    {
+      "id": "s68",
+      "text": "“In that case, as I have never fished in these seas, I do not know the kind of whale frequenting them!”"
+    },
+    {
+      "id": "s69",
+      "text": "“I have told you, Ned.”"
+    },
+    {
+      "id": "s70",
+      "text": "“A greater reason for making their acquaintance,” said Conseil."
+    },
+    {
+      "id": "s71",
+      "text": "“Look! look!” exclaimed the Canadian, “they approach: they aggravate me; they know that I cannot get at them!”"
+    },
+    {
+      "id": "s72",
+      "text": "Ned stamped his feet."
+    },
+    {
+      "id": "s73",
+      "text": "His hand trembled, as he grasped an imaginary harpoon."
+    },
+    {
+      "id": "s74",
+      "text": "“Are these cetaceans as large as those of the northern seas?” asked he."
+    },
+    {
+      "id": "s75",
+      "text": "“Very nearly, Ned.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Because I have seen large whales, sir, whales measuring a hundred feet."
+    },
+    {
+      "id": "s77",
+      "text": "I have even been told that those of Hullamoch and Umgallick, of the Aleutian Islands, are sometimes a hundred and fifty feet long.”"
+    },
+    {
+      "id": "s78",
+      "text": "“That seems to me exaggeration."
+    },
+    {
+      "id": "s79",
+      "text": "These creatures are only balaeaopterons, provided with dorsal fins; and, like the cachalots, are generally much smaller than the Greenland whale.”"
+    },
+    {
+      "id": "s80",
+      "text": "“Ah!” exclaimed the Canadian, whose eyes had never left the ocean, “they are coming nearer; they are in the same water as the _Nautilus_.”"
+    },
+    {
+      "id": "s81",
+      "text": "Then, returning to the conversation, he said:"
+    },
+    {
+      "id": "s82",
+      "text": "“You spoke of the cachalot as a small creature."
+    },
+    {
+      "id": "s83",
+      "text": "I have heard of gigantic ones."
+    },
+    {
+      "id": "s84",
+      "text": "They are intelligent cetacea."
+    },
+    {
+      "id": "s85",
+      "text": "It is said of some that they cover themselves with seaweed and fucus, and then are taken for islands."
+    },
+    {
+      "id": "s86",
+      "text": "People encamp upon them, and settle there; lights a fire——”"
+    },
+    {
+      "id": "s87",
+      "text": "“And build houses,” said Conseil."
+    },
+    {
+      "id": "s88",
+      "text": "“Yes, joker,” said Ned Land."
+    },
+    {
+      "id": "s89",
+      "text": "“And one fine day the creature plunges, carrying with it all the inhabitants to the bottom of the sea.”"
+    },
+    {
+      "id": "s90",
+      "text": "“Something like the travels of Sinbad the Sailor,” I replied, laughing."
+    },
+    {
+      "id": "s91",
+      "text": "“Ah!” suddenly exclaimed Ned Land, “it is not one whale; there are ten—there are twenty—it is a whole troop!"
+    },
+    {
+      "id": "s92",
+      "text": "And I not able to do anything! hands and feet tied!”"
+    },
+    {
+      "id": "s93",
+      "text": "“But, friend Ned,” said Conseil, “why do you not ask Captain Nemo’s permission to chase them?”"
+    },
+    {
+      "id": "s94",
+      "text": "Conseil had not finished his sentence when Ned Land had lowered himself through the panel to seek the Captain."
+    },
+    {
+      "id": "s95",
+      "text": "A few minutes afterwards the two appeared together on the platform."
+    },
+    {
+      "id": "s96",
+      "text": "Captain Nemo watched the troop of cetacea playing on the waters about a mile from the _Nautilus_."
+    },
+    {
+      "id": "s97",
+      "text": "“They are southern whales,” said he; “there goes the fortune of a whole fleet of whalers.”"
+    },
+    {
+      "id": "s98",
+      "text": "“Well, sir,” asked the Canadian, “can I not chase them, if only to remind me of my old trade of harpooner?”"
+    },
+    {
+      "id": "s99",
+      "text": "“And to what purpose?” replied Captain Nemo; “only to destroy!"
+    },
+    {
+      "id": "s100",
+      "text": "We have nothing to do with the whale-oil on board.”"
+    },
+    {
+      "id": "s101",
+      "text": "“But, sir,” continued the Canadian, “in the Red Sea you allowed us to follow the dugong.”"
+    },
+    {
+      "id": "s102",
+      "text": "“Then it was to procure fresh meat for my crew."
+    },
+    {
+      "id": "s103",
+      "text": "Here it would be killing for killing’s sake."
+    },
+    {
+      "id": "s104",
+      "text": "I know that is a privilege reserved for man, but I do not approve of such murderous pastime."
+    },
+    {
+      "id": "s105",
+      "text": "In destroying the southern whale (like the Greenland whale, an inoffensive creature), your traders do a culpable action, Master Land."
+    },
+    {
+      "id": "s106",
+      "text": "They have already depopulated the whole of Baffin’s Bay, and are annihilating a class of useful animals."
+    },
+    {
+      "id": "s107",
+      "text": "Leave the unfortunate cetacea alone."
+    },
+    {
+      "id": "s108",
+      "text": "They have plenty of natural enemies—cachalots, swordfish, and sawfish—without you troubling them.”"
+    },
+    {
+      "id": "s109",
+      "text": "The Captain was right."
+    },
+    {
+      "id": "s110",
+      "text": "The barbarous and inconsiderate greed of these fishermen will one day cause the disappearance of the last whale in the ocean."
+    },
+    {
+      "id": "s111",
+      "text": "Ned Land whistled “Yankee-doodle” between his teeth, thrust his hands into his pockets, and turned his back upon us."
+    },
+    {
+      "id": "s112",
+      "text": "But Captain Nemo watched the troop of cetacea, and, addressing me, said:"
+    },
+    {
+      "id": "s113",
+      "text": "“I was right in saying that whales had natural enemies enough, without counting man."
+    },
+    {
+      "id": "s114",
+      "text": "These will have plenty to do before long."
+    },
+    {
+      "id": "s115",
+      "text": "Do you see, M."
+    },
+    {
+      "id": "s116",
+      "text": "Aronnax, about eight miles to leeward, those blackish moving points?”"
+    },
+    {
+      "id": "s117",
+      "text": "“Yes, Captain,” I replied."
+    },
+    {
+      "id": "s118",
+      "text": "“Those are cachalots—terrible animals, which I have met in troops of two or three hundred."
+    },
+    {
+      "id": "s119",
+      "text": "As to those, they are cruel, mischievous creatures; they would be right in exterminating them.”"
+    },
+    {
+      "id": "s120",
+      "text": "The Canadian turned quickly at the last words."
+    },
+    {
+      "id": "s121",
+      "text": "“Well, Captain,” said he, “it is still time, in the interest of the whales.”"
+    },
+    {
+      "id": "s122",
+      "text": "“It is useless to expose one’s self, Professor."
+    },
+    {
+      "id": "s123",
+      "text": "The _Nautilus_ will disperse them."
+    },
+    {
+      "id": "s124",
+      "text": "It is armed with a steel spur as good as Master Land’s harpoon, I imagine.”"
+    },
+    {
+      "id": "s125",
+      "text": "The Canadian did not put himself out enough to shrug his shoulders."
+    },
+    {
+      "id": "s126",
+      "text": "Attack cetacea with blows of a spur!"
+    },
+    {
+      "id": "s127",
+      "text": "Who had ever heard of such a thing?"
+    },
+    {
+      "id": "s128",
+      "text": "“Wait, M."
+    },
+    {
+      "id": "s129",
+      "text": "Aronnax,” said Captain Nemo."
+    },
+    {
+      "id": "s130",
+      "text": "“We will show you something you have never yet seen."
+    },
+    {
+      "id": "s131",
+      "text": "We have no pity for these ferocious creatures."
+    },
+    {
+      "id": "s132",
+      "text": "They are nothing but mouth and teeth.”"
+    },
+    {
+      "id": "s133",
+      "text": "Mouth and teeth!"
+    },
+    {
+      "id": "s134",
+      "text": "No one could better describe the macrocephalous cachalot, which is sometimes more than seventy-five feet long."
+    },
+    {
+      "id": "s135",
+      "text": "Its enormous head occupies one-third of its entire body."
+    },
+    {
+      "id": "s136",
+      "text": "Better armed than the whale, whose upper jaw is furnished only with whalebone, it is supplied with twenty-five large tusks, about eight inches long, cylindrical and conical at the top, each weighing two pounds."
+    },
+    {
+      "id": "s137",
+      "text": "It is in the upper part of this enormous head, in great cavities divided by cartilages, that is to be found from six to eight hundred pounds of that precious oil called spermaceti."
+    },
+    {
+      "id": "s138",
+      "text": "The cachalot is a disagreeable creature, more tadpole than fish, according to Fredol’s description."
+    },
+    {
+      "id": "s139",
+      "text": "It is badly formed, the whole of its left side being (if we may say it), a “failure,” and being only able to see with its right eye."
+    },
+    {
+      "id": "s140",
+      "text": "But the formidable troop was nearing us."
+    },
+    {
+      "id": "s141",
+      "text": "They had seen the whales and were preparing to attack them."
+    },
+    {
+      "id": "s142",
+      "text": "One could judge beforehand that the cachalots would be victorious, not only because they were better built for attack than their inoffensive adversaries, but also because they could remain longer under water without coming to the surface."
+    },
+    {
+      "id": "s143",
+      "text": "There was only just time to go to the help of the whales."
+    },
+    {
+      "id": "s144",
+      "text": "The _Nautilus_ went under water."
+    },
+    {
+      "id": "s145",
+      "text": "Conseil, Ned Land, and I took our places before the window in the saloon, and Captain Nemo joined the pilot in his cage to work his apparatus as an engine of destruction."
+    },
+    {
+      "id": "s146",
+      "text": "Soon I felt the beatings of the screw quicken, and our speed increased."
+    },
+    {
+      "id": "s147",
+      "text": "The battle between the cachalots and the whales had already begun when the _Nautilus_ arrived."
+    },
+    {
+      "id": "s148",
+      "text": "They did not at first show any fear at the sight of this new monster joining in the conflict."
+    },
+    {
+      "id": "s149",
+      "text": "But they soon had to guard against its blows."
+    },
+    {
+      "id": "s150",
+      "text": "What a battle!"
+    },
+    {
+      "id": "s151",
+      "text": "The _Nautilus_ was nothing but a formidable harpoon, brandished by the hand of its Captain."
+    },
+    {
+      "id": "s152",
+      "text": "It hurled itself against the fleshy mass, passing through from one part to the other, leaving behind it two quivering halves of the animal."
+    },
+    {
+      "id": "s153",
+      "text": "It could not feel the formidable blows from their tails upon its sides, nor the shock which it produced itself, much more."
+    },
+    {
+      "id": "s154",
+      "text": "One cachalot killed, it ran at the next, tacked on the spot that it might not miss its prey, going forwards and backwards, answering to its helm, plunging when the cetacean dived into the deep waters, coming up with it when it returned to the surface, striking it front or sideways, cutting or tearing in all directions and at any pace, piercing it with its terrible spur."
+    },
+    {
+      "id": "s155",
+      "text": "What carnage!"
+    },
+    {
+      "id": "s156",
+      "text": "What a noise on the surface of the waves!"
+    },
+    {
+      "id": "s157",
+      "text": "What sharp hissing, and what snorting peculiar to these enraged animals!"
+    },
+    {
+      "id": "s158",
+      "text": "In the midst of these waters, generally so peaceful, their tails made perfect billows."
+    },
+    {
+      "id": "s159",
+      "text": "For one hour this wholesale massacre continued, from which the cachalots could not escape."
+    },
+    {
+      "id": "s160",
+      "text": "Several times ten or twelve united tried to crush the _Nautilus_ by their weight."
+    },
+    {
+      "id": "s161",
+      "text": "From the window we could see their enormous mouths, studded with tusks, and their formidable eyes."
+    },
+    {
+      "id": "s162",
+      "text": "Ned Land could not contain himself; he threatened and swore at them."
+    },
+    {
+      "id": "s163",
+      "text": "We could feel them clinging to our vessel like dogs worrying a wild boar in a copse."
+    },
+    {
+      "id": "s164",
+      "text": "But the _Nautilus_, working its screw, carried them here and there, or to the upper levels of the ocean, without caring for their enormous weight, nor the powerful strain on the vessel."
+    },
+    {
+      "id": "s165",
+      "text": "At length the mass of cachalots broke up, the waves became quiet, and I felt that we were rising to the surface."
+    },
+    {
+      "id": "s166",
+      "text": "The panel opened, and we hurried on to the platform."
+    },
+    {
+      "id": "s167",
+      "text": "The sea was covered with mutilated bodies."
+    },
+    {
+      "id": "s168",
+      "text": "A formidable explosion could not have divided and torn this fleshy mass with more violence."
+    },
+    {
+      "id": "s169",
+      "text": "We were floating amid gigantic bodies, bluish on the back and white underneath, covered with enormous protuberances."
+    },
+    {
+      "id": "s170",
+      "text": "Some terrified cachalots were flying towards the horizon."
+    },
+    {
+      "id": "s171",
+      "text": "The waves were dyed red for several miles, and the _Nautilus_ floated in a sea of blood: Captain Nemo joined us."
+    },
+    {
+      "id": "s172",
+      "text": "“Well, Master Land?” said he."
+    },
+    {
+      "id": "s173",
+      "text": "“Well, sir,” replied the Canadian, whose enthusiasm had somewhat calmed; “it is a terrible spectacle, certainly."
+    },
+    {
+      "id": "s174",
+      "text": "But I am not a butcher."
+    },
+    {
+      "id": "s175",
+      "text": "I am a hunter, and I call this a butchery.”"
+    },
+    {
+      "id": "s176",
+      "text": "“It is a massacre of mischievous creatures,” replied the Captain; “and the _Nautilus_ is not a butcher’s knife.”"
+    },
+    {
+      "id": "s177",
+      "text": "“I like my harpoon better,” said the Canadian."
+    },
+    {
+      "id": "s178",
+      "text": "“Every one to his own,” answered the Captain, looking fixedly at Ned Land."
+    },
+    {
+      "id": "s179",
+      "text": "I feared he would commit some act of violence, which would end in sad consequences."
+    },
+    {
+      "id": "s180",
+      "text": "But his anger was turned by the sight of a whale which the _Nautilus_ had just come up with."
+    },
+    {
+      "id": "s181",
+      "text": "The creature had not quite escaped from the cachalot’s teeth."
+    },
+    {
+      "id": "s182",
+      "text": "I recognised the southern whale by its flat head, which is entirely black."
+    },
+    {
+      "id": "s183",
+      "text": "Anatomically, it is distinguished from the white whale and the North Cape whale by the seven cervical vertebrae, and it has two more ribs than its congeners."
+    },
+    {
+      "id": "s184",
+      "text": "The unfortunate cetacean was lying on its side, riddled with holes from the bites, and quite dead."
+    },
+    {
+      "id": "s185",
+      "text": "From its mutilated fin still hung a young whale which it could not save from the massacre."
+    },
+    {
+      "id": "s186",
+      "text": "Its open mouth let the water flow in and out, murmuring like the waves breaking on the shore."
+    },
+    {
+      "id": "s187",
+      "text": "Captain Nemo steered close to the corpse of the creature."
+    },
+    {
+      "id": "s188",
+      "text": "Two of his men mounted its side, and I saw, not without surprise, that they were drawing from its breasts all the milk which they contained, that is to say, about two or three tons."
+    },
+    {
+      "id": "s189",
+      "text": "The Captain offered me a cup of the milk, which was still warm."
+    },
+    {
+      "id": "s190",
+      "text": "I could not help showing my repugnance to the drink; but he assured me that it was excellent, and not to be distinguished from cow’s milk."
+    },
+    {
+      "id": "s191",
+      "text": "I tasted it, and was of his opinion."
+    },
+    {
+      "id": "s192",
+      "text": "It was a useful reserve to us, for in the shape of salt butter or cheese it would form an agreeable variety from our ordinary food."
+    },
+    {
+      "id": "s193",
+      "text": "From that day I noticed with uneasiness that Ned Land’s ill-will towards Captain Nemo increased, and I resolved to watch the Canadian’s gestures closely."
+    }
+  ]
+}

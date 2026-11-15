@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-97",
+  "chapterTitle": "CHAPTER XCVII.",
+  "contentHash": "sha256:6cd57e93d491be4c35508e3b24b9aca219daf19afd93faeb0a27197a10062a1b",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER XCVII.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE LAMP."
+    },
+    {
+      "id": "s2",
+      "text": "Had you descended from the Pequod’s try-works to the Pequod’s forecastle, where the off duty watch were sleeping, for one single moment you would have almost thought you were standing in some illuminated shrine of canonized kings and counsellors."
+    },
+    {
+      "id": "s3",
+      "text": "There they lay in their triangular oaken vaults, each mariner a chiselled muteness; a score of lamps flashing upon his hooded eyes."
+    },
+    {
+      "id": "s4",
+      "text": "In merchantmen, oil for the sailor is more scarce than the milk of queens."
+    },
+    {
+      "id": "s5",
+      "text": "To dress in the dark, and eat in the dark, and stumble in darkness to his pallet, this is his usual lot."
+    },
+    {
+      "id": "s6",
+      "text": "But the whaleman, as he seeks the food of light, so he lives in light."
+    },
+    {
+      "id": "s7",
+      "text": "He makes his berth an Aladdin’s lamp, and lays him down in it; so that in the pitchiest night the ship’s black hull still houses an illumination."
+    },
+    {
+      "id": "s8",
+      "text": "See with what entire freedom the whaleman takes his handful of lamps—often but old bottles and vials, though—to the copper cooler at the try-works, and replenishes them there, as mugs of ale at a vat."
+    },
+    {
+      "id": "s9",
+      "text": "He burns, too, the purest of oil, in its unmanufactured, and, therefore, unvitiated state; a fluid unknown to solar, lunar, or astral contrivances ashore."
+    },
+    {
+      "id": "s10",
+      "text": "It is sweet as early grass butter in April."
+    },
+    {
+      "id": "s11",
+      "text": "He goes and hunts for his oil, so as to be sure of its freshness and genuineness, even as the traveller on the prairie hunts up his own supper of game."
+    }
+  ]
+}

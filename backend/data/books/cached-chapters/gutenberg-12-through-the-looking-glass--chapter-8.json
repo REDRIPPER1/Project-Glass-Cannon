@@ -1,0 +1,913 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-12-through-the-looking-glass",
+  "ebookId": "12",
+  "edition": "Project Gutenberg eBook #12; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-8",
+  "chapterTitle": "CHAPTER VIII.",
+  "contentHash": "sha256:8c53169bc42005292292703ed9b01425bc626775c9ca81c9a0b44b116fbbdd9f",
+  "attribution": "Carroll, Lewis, 1832-1898, Through the Looking-Glass, CHAPTER VIII.. Source checked against Project Gutenberg eBook #12.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/12",
+    "textUrl": "https://www.gutenberg.org/cache/epub/12/pg12.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "“It’s my own Invention”"
+    },
+    {
+      "id": "s2",
+      "text": "After a while the noise seemed gradually to die away, till all was dead silence, and Alice lifted up her head in some alarm."
+    },
+    {
+      "id": "s3",
+      "text": "There was no one to be seen, and her first thought was that she must have been dreaming about the Lion and the Unicorn and those queer Anglo-Saxon Messengers."
+    },
+    {
+      "id": "s4",
+      "text": "However, there was the great dish still lying at her feet, on which she had tried to cut the plum-cake, “So I wasn’t dreaming, after all,” she said to herself, “unless—unless we’re all part of the same dream."
+    },
+    {
+      "id": "s5",
+      "text": "Only I do hope it’s _my_ dream, and not the Red King’s!"
+    },
+    {
+      "id": "s6",
+      "text": "I don’t like belonging to another person’s dream,” she went on in a rather complaining tone: “I’ve a great mind to go and wake him, and see what happens!”"
+    },
+    {
+      "id": "s7",
+      "text": "At this moment her thoughts were interrupted by a loud shouting of “Ahoy!"
+    },
+    {
+      "id": "s8",
+      "text": "Ahoy!"
+    },
+    {
+      "id": "s9",
+      "text": "Check!” and a Knight dressed in crimson armour came galloping down upon her, brandishing a great club."
+    },
+    {
+      "id": "s10",
+      "text": "Just as he reached her, the horse stopped suddenly: “You’re my prisoner!” the Knight cried, as he tumbled off his horse."
+    },
+    {
+      "id": "s11",
+      "text": "Startled as she was, Alice was more frightened for him than for herself at the moment, and watched him with some anxiety as he mounted again."
+    },
+    {
+      "id": "s12",
+      "text": "As soon as he was comfortably in the saddle, he began once more “You’re my—” but here another voice broke in “Ahoy!"
+    },
+    {
+      "id": "s13",
+      "text": "Ahoy!"
+    },
+    {
+      "id": "s14",
+      "text": "Check!” and Alice looked round in some surprise for the new enemy."
+    },
+    {
+      "id": "s15",
+      "text": "This time it was a White Knight."
+    },
+    {
+      "id": "s16",
+      "text": "He drew up at Alice’s side, and tumbled off his horse just as the Red Knight had done: then he got on again, and the two Knights sat and looked at each other for some time without speaking."
+    },
+    {
+      "id": "s17",
+      "text": "Alice looked from one to the other in some bewilderment."
+    },
+    {
+      "id": "s18",
+      "text": "“She’s _my_ prisoner, you know!” the Red Knight said at last."
+    },
+    {
+      "id": "s19",
+      "text": "“Yes, but then _I_ came and rescued her!” the White Knight replied."
+    },
+    {
+      "id": "s20",
+      "text": "“Well, we must fight for her, then,” said the Red Knight, as he took up his helmet (which hung from the saddle, and was something the shape of a horse’s head), and put it on."
+    },
+    {
+      "id": "s21",
+      "text": "“You will observe the Rules of Battle, of course?” the White Knight remarked, putting on his helmet too."
+    },
+    {
+      "id": "s22",
+      "text": "“I always do,” said the Red Knight, and they began banging away at each other with such fury that Alice got behind a tree to be out of the way of the blows."
+    },
+    {
+      "id": "s23",
+      "text": "“I wonder, now, what the Rules of Battle are,” she said to herself, as she watched the fight, timidly peeping out from her hiding-place: “one Rule seems to be, that if one Knight hits the other, he knocks him off his horse, and if he misses, he tumbles off himself—and another Rule seems to be that they hold their clubs with their arms, as if they were Punch and Judy—What a noise they make when they tumble!"
+    },
+    {
+      "id": "s24",
+      "text": "Just like a whole set of fire-irons falling into the fender!"
+    },
+    {
+      "id": "s25",
+      "text": "And how quiet the horses are!"
+    },
+    {
+      "id": "s26",
+      "text": "They let them get on and off them just as if they were tables!”"
+    },
+    {
+      "id": "s27",
+      "text": "Another Rule of Battle, that Alice had not noticed, seemed to be that they always fell on their heads, and the battle ended with their both falling off in this way, side by side: when they got up again, they shook hands, and then the Red Knight mounted and galloped off."
+    },
+    {
+      "id": "s28",
+      "text": "“It was a glorious victory, wasn’t it?” said the White Knight, as he came up panting."
+    },
+    {
+      "id": "s29",
+      "text": "“I don’t know,” Alice said doubtfully."
+    },
+    {
+      "id": "s30",
+      "text": "“I don’t want to be anybody’s prisoner."
+    },
+    {
+      "id": "s31",
+      "text": "I want to be a Queen.”"
+    },
+    {
+      "id": "s32",
+      "text": "“So you will, when you’ve crossed the next brook,” said the White Knight."
+    },
+    {
+      "id": "s33",
+      "text": "“I’ll see you safe to the end of the wood—and then I must go back, you know."
+    },
+    {
+      "id": "s34",
+      "text": "That’s the end of my move.”"
+    },
+    {
+      "id": "s35",
+      "text": "“Thank you very much,” said Alice."
+    },
+    {
+      "id": "s36",
+      "text": "“May I help you off with your helmet?” It was evidently more than he could manage by himself; however, she managed to shake him out of it at last."
+    },
+    {
+      "id": "s37",
+      "text": "“Now one can breathe more easily,” said the Knight, putting back his shaggy hair with both hands, and turning his gentle face and large mild eyes to Alice."
+    },
+    {
+      "id": "s38",
+      "text": "She thought she had never seen such a strange-looking soldier in all her life."
+    },
+    {
+      "id": "s39",
+      "text": "He was dressed in tin armour, which seemed to fit him very badly, and he had a queer-shaped little deal box fastened across his shoulder, upside-down, and with the lid hanging open."
+    },
+    {
+      "id": "s40",
+      "text": "Alice looked at it with great curiosity."
+    },
+    {
+      "id": "s41",
+      "text": "“I see you’re admiring my little box.” the Knight said in a friendly tone."
+    },
+    {
+      "id": "s42",
+      "text": "“It’s my own invention—to keep clothes and sandwiches in."
+    },
+    {
+      "id": "s43",
+      "text": "You see I carry it upside-down, so that the rain can’t get in.”"
+    },
+    {
+      "id": "s44",
+      "text": "“But the things can get _out_,” Alice gently remarked."
+    },
+    {
+      "id": "s45",
+      "text": "“Do you know the lid’s open?”"
+    },
+    {
+      "id": "s46",
+      "text": "“I didn’t know it,” the Knight said, a shade of vexation passing over his face."
+    },
+    {
+      "id": "s47",
+      "text": "“Then all the things must have fallen out!"
+    },
+    {
+      "id": "s48",
+      "text": "And the box is no use without them.” He unfastened it as he spoke, and was just going to throw it into the bushes, when a sudden thought seemed to strike him, and he hung it carefully on a tree."
+    },
+    {
+      "id": "s49",
+      "text": "“Can you guess why I did that?” he said to Alice."
+    },
+    {
+      "id": "s50",
+      "text": "Alice shook her head."
+    },
+    {
+      "id": "s51",
+      "text": "“In hopes some bees may make a nest in it—then I should get the honey.”"
+    },
+    {
+      "id": "s52",
+      "text": "“But you’ve got a bee-hive—or something like one—fastened to the saddle,” said Alice."
+    },
+    {
+      "id": "s53",
+      "text": "“Yes, it’s a very good bee-hive,” the Knight said in a discontented tone, “one of the best kind."
+    },
+    {
+      "id": "s54",
+      "text": "But not a single bee has come near it yet."
+    },
+    {
+      "id": "s55",
+      "text": "And the other thing is a mouse-trap."
+    },
+    {
+      "id": "s56",
+      "text": "I suppose the mice keep the bees out—or the bees keep the mice out, I don’t know which.”"
+    },
+    {
+      "id": "s57",
+      "text": "“I was wondering what the mouse-trap was for,” said Alice."
+    },
+    {
+      "id": "s58",
+      "text": "“It isn’t very likely there would be any mice on the horse’s back.”"
+    },
+    {
+      "id": "s59",
+      "text": "“Not very likely, perhaps,” said the Knight: “but if they _do_ come, I don’t choose to have them running all about.”"
+    },
+    {
+      "id": "s60",
+      "text": "“You see,” he went on after a pause, “it’s as well to be provided for _everything_."
+    },
+    {
+      "id": "s61",
+      "text": "That’s the reason the horse has all those anklets round his feet.”"
+    },
+    {
+      "id": "s62",
+      "text": "“But what are they for?” Alice asked in a tone of great curiosity."
+    },
+    {
+      "id": "s63",
+      "text": "“To guard against the bites of sharks,” the Knight replied."
+    },
+    {
+      "id": "s64",
+      "text": "“It’s an invention of my own."
+    },
+    {
+      "id": "s65",
+      "text": "And now help me on."
+    },
+    {
+      "id": "s66",
+      "text": "I’ll go with you to the end of the wood—What’s the dish for?”"
+    },
+    {
+      "id": "s67",
+      "text": "“It’s meant for plum-cake,” said Alice."
+    },
+    {
+      "id": "s68",
+      "text": "“We’d better take it with us,” the Knight said."
+    },
+    {
+      "id": "s69",
+      "text": "“It’ll come in handy if we find any plum-cake."
+    },
+    {
+      "id": "s70",
+      "text": "Help me to get it into this bag.”"
+    },
+    {
+      "id": "s71",
+      "text": "This took a very long time to manage, though Alice held the bag open very carefully, because the Knight was so _very_ awkward in putting in the dish: the first two or three times that he tried he fell in himself instead."
+    },
+    {
+      "id": "s72",
+      "text": "“It’s rather a tight fit, you see,” he said, as they got it in a last; “There are so many candlesticks in the bag.” And he hung it to the saddle, which was already loaded with bunches of carrots, and fire-irons, and many other things."
+    },
+    {
+      "id": "s73",
+      "text": "“I hope you’ve got your hair well fastened on?” he continued, as they set off."
+    },
+    {
+      "id": "s74",
+      "text": "“Only in the usual way,” Alice said, smiling."
+    },
+    {
+      "id": "s75",
+      "text": "“That’s hardly enough,” he said, anxiously."
+    },
+    {
+      "id": "s76",
+      "text": "“You see the wind is so _very_ strong here."
+    },
+    {
+      "id": "s77",
+      "text": "It’s as strong as soup.”"
+    },
+    {
+      "id": "s78",
+      "text": "“Have you invented a plan for keeping the hair from being blown off?” Alice enquired."
+    },
+    {
+      "id": "s79",
+      "text": "“Not yet,” said the Knight."
+    },
+    {
+      "id": "s80",
+      "text": "“But I’ve got a plan for keeping it from _falling_ off.”"
+    },
+    {
+      "id": "s81",
+      "text": "“I should like to hear it, very much.”"
+    },
+    {
+      "id": "s82",
+      "text": "“First you take an upright stick,” said the Knight."
+    },
+    {
+      "id": "s83",
+      "text": "“Then you make your hair creep up it, like a fruit-tree."
+    },
+    {
+      "id": "s84",
+      "text": "Now the reason hair falls off is because it hangs _down_—things never fall _upwards_, you know."
+    },
+    {
+      "id": "s85",
+      "text": "It’s a plan of my own invention."
+    },
+    {
+      "id": "s86",
+      "text": "You may try it if you like.”"
+    },
+    {
+      "id": "s87",
+      "text": "It didn’t sound a comfortable plan, Alice thought, and for a few minutes she walked on in silence, puzzling over the idea, and every now and then stopping to help the poor Knight, who certainly was _not_ a good rider."
+    },
+    {
+      "id": "s88",
+      "text": "Whenever the horse stopped (which it did very often), he fell off in front; and whenever it went on again (which it generally did rather suddenly), he fell off behind."
+    },
+    {
+      "id": "s89",
+      "text": "Otherwise he kept on pretty well, except that he had a habit of now and then falling off sideways; and as he generally did this on the side on which Alice was walking, she soon found that it was the best plan not to walk _quite_ close to the horse."
+    },
+    {
+      "id": "s90",
+      "text": "“I’m afraid you’ve not had much practice in riding,” she ventured to say, as she was helping him up from his fifth tumble."
+    },
+    {
+      "id": "s91",
+      "text": "The Knight looked very much surprised, and a little offended at the remark."
+    },
+    {
+      "id": "s92",
+      "text": "“What makes you say that?” he asked, as he scrambled back into the saddle, keeping hold of Alice’s hair with one hand, to save himself from falling over on the other side."
+    },
+    {
+      "id": "s93",
+      "text": "“Because people don’t fall off quite so often, when they’ve had much practice.”"
+    },
+    {
+      "id": "s94",
+      "text": "“I’ve had plenty of practice,” the Knight said very gravely: “plenty of practice!”"
+    },
+    {
+      "id": "s95",
+      "text": "Alice could think of nothing better to say than “Indeed?” but she said it as heartily as she could."
+    },
+    {
+      "id": "s96",
+      "text": "They went on a little way in silence after this, the Knight with his eyes shut, muttering to himself, and Alice watching anxiously for the next tumble."
+    },
+    {
+      "id": "s97",
+      "text": "“The great art of riding,” the Knight suddenly began in a loud voice, waving his right arm as he spoke, “is to keep—” Here the sentence ended as suddenly as it had begun, as the Knight fell heavily on the top of his head exactly in the path where Alice was walking."
+    },
+    {
+      "id": "s98",
+      "text": "She was quite frightened this time, and said in an anxious tone, as she picked him up, “I hope no bones are broken?”"
+    },
+    {
+      "id": "s99",
+      "text": "“None to speak of,” the Knight said, as if he didn’t mind breaking two or three of them."
+    },
+    {
+      "id": "s100",
+      "text": "“The great art of riding, as I was saying, is—to keep your balance properly."
+    },
+    {
+      "id": "s101",
+      "text": "Like this, you know—”"
+    },
+    {
+      "id": "s102",
+      "text": "He let go the bridle, and stretched out both his arms to show Alice what he meant, and this time he fell flat on his back, right under the horse’s feet."
+    },
+    {
+      "id": "s103",
+      "text": "“Plenty of practice!” he went on repeating, all the time that Alice was getting him on his feet again."
+    },
+    {
+      "id": "s104",
+      "text": "“Plenty of practice!”"
+    },
+    {
+      "id": "s105",
+      "text": "“It’s too ridiculous!” cried Alice, losing all her patience this time."
+    },
+    {
+      "id": "s106",
+      "text": "“You ought to have a wooden horse on wheels, that you ought!”"
+    },
+    {
+      "id": "s107",
+      "text": "“Does that kind go smoothly?” the Knight asked in a tone of great interest, clasping his arms round the horse’s neck as he spoke, just in time to save himself from tumbling off again."
+    },
+    {
+      "id": "s108",
+      "text": "“Much more smoothly than a live horse,” Alice said, with a little scream of laughter, in spite of all she could do to prevent it."
+    },
+    {
+      "id": "s109",
+      "text": "“I’ll get one,” the Knight said thoughtfully to himself."
+    },
+    {
+      "id": "s110",
+      "text": "“One or two—several.”"
+    },
+    {
+      "id": "s111",
+      "text": "There was a short silence after this, and then the Knight went on again."
+    },
+    {
+      "id": "s112",
+      "text": "“I’m a great hand at inventing things."
+    },
+    {
+      "id": "s113",
+      "text": "Now, I daresay you noticed, that last time you picked me up, that I was looking rather thoughtful?”"
+    },
+    {
+      "id": "s114",
+      "text": "“You _were_ a little grave,” said Alice."
+    },
+    {
+      "id": "s115",
+      "text": "“Well, just then I was inventing a new way of getting over a gate—would you like to hear it?”"
+    },
+    {
+      "id": "s116",
+      "text": "“Very much indeed,” Alice said politely."
+    },
+    {
+      "id": "s117",
+      "text": "“I’ll tell you how I came to think of it,” said the Knight."
+    },
+    {
+      "id": "s118",
+      "text": "“You see, I said to myself, ‘The only difficulty is with the feet: the _head_ is high enough already.’ Now, first I put my head on the top of the gate—then I stand on my head—then the feet are high enough, you see—then I’m over, you see.”"
+    },
+    {
+      "id": "s119",
+      "text": "“Yes, I suppose you’d be over when that was done,” Alice said thoughtfully: “but don’t you think it would be rather hard?”"
+    },
+    {
+      "id": "s120",
+      "text": "“I haven’t tried it yet,” the Knight said, gravely: “so I can’t tell for certain—but I’m afraid it _would_ be a little hard.”"
+    },
+    {
+      "id": "s121",
+      "text": "He looked so vexed at the idea, that Alice changed the subject hastily."
+    },
+    {
+      "id": "s122",
+      "text": "“What a curious helmet you’ve got!” she said cheerfully."
+    },
+    {
+      "id": "s123",
+      "text": "“Is that your invention too?”"
+    },
+    {
+      "id": "s124",
+      "text": "The Knight looked down proudly at his helmet, which hung from the saddle."
+    },
+    {
+      "id": "s125",
+      "text": "“Yes,” he said, “but I’ve invented a better one than that—like a sugar loaf."
+    },
+    {
+      "id": "s126",
+      "text": "When I used to wear it, if I fell off the horse, it always touched the ground directly."
+    },
+    {
+      "id": "s127",
+      "text": "So I had a _very_ little way to fall, you see—But there _was_ the danger of falling _into_ it, to be sure."
+    },
+    {
+      "id": "s128",
+      "text": "That happened to me once—and the worst of it was, before I could get out again, the other White Knight came and put it on."
+    },
+    {
+      "id": "s129",
+      "text": "He thought it was his own helmet.”"
+    },
+    {
+      "id": "s130",
+      "text": "The knight looked so solemn about it that Alice did not dare to laugh."
+    },
+    {
+      "id": "s131",
+      "text": "“I’m afraid you must have hurt him,” she said in a trembling voice, “being on the top of his head.”"
+    },
+    {
+      "id": "s132",
+      "text": "“I had to kick him, of course,” the Knight said, very seriously."
+    },
+    {
+      "id": "s133",
+      "text": "“And then he took the helmet off again—but it took hours and hours to get me out."
+    },
+    {
+      "id": "s134",
+      "text": "I was as fast as—as lightning, you know.”"
+    },
+    {
+      "id": "s135",
+      "text": "“But that’s a different kind of fastness,” Alice objected."
+    },
+    {
+      "id": "s136",
+      "text": "The Knight shook his head."
+    },
+    {
+      "id": "s137",
+      "text": "“It was all kinds of fastness with me, I can assure you!” he said."
+    },
+    {
+      "id": "s138",
+      "text": "He raised his hands in some excitement as he said this, and instantly rolled out of the saddle, and fell headlong into a deep ditch."
+    },
+    {
+      "id": "s139",
+      "text": "Alice ran to the side of the ditch to look for him."
+    },
+    {
+      "id": "s140",
+      "text": "She was rather startled by the fall, as for some time he had kept on very well, and she was afraid that he really _was_ hurt this time."
+    },
+    {
+      "id": "s141",
+      "text": "However, though she could see nothing but the soles of his feet, she was much relieved to hear that he was talking on in his usual tone."
+    },
+    {
+      "id": "s142",
+      "text": "“All kinds of fastness,” he repeated: “but it was careless of him to put another man’s helmet on—with the man in it, too.”"
+    },
+    {
+      "id": "s143",
+      "text": "“How _can_ you go on talking so quietly, head downwards?” Alice asked, as she dragged him out by the feet, and laid him in a heap on the bank."
+    },
+    {
+      "id": "s144",
+      "text": "The Knight looked surprised at the question."
+    },
+    {
+      "id": "s145",
+      "text": "“What does it matter where my body happens to be?” he said."
+    },
+    {
+      "id": "s146",
+      "text": "“My mind goes on working all the same."
+    },
+    {
+      "id": "s147",
+      "text": "In fact, the more head downwards I am, the more I keep inventing new things.”"
+    },
+    {
+      "id": "s148",
+      "text": "“Now the cleverest thing of the sort that I ever did,” he went on after a pause, “was inventing a new pudding during the meat-course.”"
+    },
+    {
+      "id": "s149",
+      "text": "“In time to have it cooked for the next course?” said Alice."
+    },
+    {
+      "id": "s150",
+      "text": "“Well, not the _next_ course,” the Knight said in a slow thoughtful tone: “no, certainly not the next _course_.”"
+    },
+    {
+      "id": "s151",
+      "text": "“Then it would have to be the next day."
+    },
+    {
+      "id": "s152",
+      "text": "I suppose you wouldn’t have two pudding-courses in one dinner?”"
+    },
+    {
+      "id": "s153",
+      "text": "“Well, not the _next_ day,” the Knight repeated as before: “not the next _day_."
+    },
+    {
+      "id": "s154",
+      "text": "In fact,” he went on, holding his head down, and his voice getting lower and lower, “I don’t believe that pudding ever _was_ cooked!"
+    },
+    {
+      "id": "s155",
+      "text": "In fact, I don’t believe that pudding ever _will_ be cooked!"
+    },
+    {
+      "id": "s156",
+      "text": "And yet it was a very clever pudding to invent.”"
+    },
+    {
+      "id": "s157",
+      "text": "“What did you mean it to be made of?” Alice asked, hoping to cheer him up, for the poor Knight seemed quite low-spirited about it."
+    },
+    {
+      "id": "s158",
+      "text": "“It began with blotting paper,” the Knight answered with a groan."
+    },
+    {
+      "id": "s159",
+      "text": "“That wouldn’t be very nice, I’m afraid—”"
+    },
+    {
+      "id": "s160",
+      "text": "“Not very nice _alone_,” he interrupted, quite eagerly: “but you’ve no idea what a difference it makes mixing it with other things—such as gunpowder and sealing-wax."
+    },
+    {
+      "id": "s161",
+      "text": "And here I must leave you.” They had just come to the end of the wood."
+    },
+    {
+      "id": "s162",
+      "text": "Alice could only look puzzled: she was thinking of the pudding."
+    },
+    {
+      "id": "s163",
+      "text": "“You are sad,” the Knight said in an anxious tone: “let me sing you a song to comfort you.”"
+    },
+    {
+      "id": "s164",
+      "text": "“Is it very long?” Alice asked, for she had heard a good deal of poetry that day."
+    },
+    {
+      "id": "s165",
+      "text": "“It’s long,” said the Knight, “but very, _very_ beautiful."
+    },
+    {
+      "id": "s166",
+      "text": "Everybody that hears me sing it—either it brings the _tears_ into their eyes, or else—”"
+    },
+    {
+      "id": "s167",
+      "text": "“Or else what?” said Alice, for the Knight had made a sudden pause."
+    },
+    {
+      "id": "s168",
+      "text": "“Or else it doesn’t, you know."
+    },
+    {
+      "id": "s169",
+      "text": "The name of the song is called ‘_Haddocks’ Eyes_.’”"
+    },
+    {
+      "id": "s170",
+      "text": "“Oh, that’s the name of the song, is it?” Alice said, trying to feel interested."
+    },
+    {
+      "id": "s171",
+      "text": "“No, you don’t understand,” the Knight said, looking a little vexed."
+    },
+    {
+      "id": "s172",
+      "text": "“That’s what the name is _called_."
+    },
+    {
+      "id": "s173",
+      "text": "The name really _is_ ‘_The Aged Aged Man_.’”"
+    },
+    {
+      "id": "s174",
+      "text": "“Then I ought to have said ‘That’s what the _song_ is called’?” Alice corrected herself."
+    },
+    {
+      "id": "s175",
+      "text": "“No, you oughtn’t: that’s quite another thing!"
+    },
+    {
+      "id": "s176",
+      "text": "The _song_ is called ‘_Ways and Means_’: but that’s only what it’s _called_, you know!”"
+    },
+    {
+      "id": "s177",
+      "text": "“Well, what _is_ the song, then?” said Alice, who was by this time completely bewildered."
+    },
+    {
+      "id": "s178",
+      "text": "“I was coming to that,” the Knight said."
+    },
+    {
+      "id": "s179",
+      "text": "“The song really _is_ ‘_A-sitting On A Gate_’: and the tune’s my own invention.”"
+    },
+    {
+      "id": "s180",
+      "text": "So saying, he stopped his horse and let the reins fall on its neck: then, slowly beating time with one hand, and with a faint smile lighting up his gentle foolish face, as if he enjoyed the music of his song, he began."
+    },
+    {
+      "id": "s181",
+      "text": "Of all the strange things that Alice saw in her journey Through The Looking-Glass, this was the one that she always remembered most clearly."
+    },
+    {
+      "id": "s182",
+      "text": "Years afterwards she could bring the whole scene back again, as if it had been only yesterday—the mild blue eyes and kindly smile of the Knight—the setting sun gleaming through his hair, and shining on his armour in a blaze of light that quite dazzled her—the horse quietly moving about, with the reins hanging loose on his neck, cropping the grass at her feet—and the black shadows of the forest behind—all this she took in like a picture, as, with one hand shading her eyes, she leant against a tree, watching the strange pair, and listening, in a half dream, to the melancholy music of the song."
+    },
+    {
+      "id": "s183",
+      "text": "“But the tune _isn’t_ his own invention,” she said to herself: “it’s ‘_I give thee all, I can no more_.’” She stood and listened very attentively, but no tears came into her eyes."
+    },
+    {
+      "id": "s184",
+      "text": "“I’ll tell thee everything I can; There’s little to relate."
+    },
+    {
+      "id": "s185",
+      "text": "I saw an aged aged man, A-sitting on a gate. ‘Who are you, aged man?’ I said, ‘and how is it you live?’ And his answer trickled through my head Like water through a sieve."
+    },
+    {
+      "id": "s186",
+      "text": "He said ‘I look for butterflies That sleep among the wheat: I make them into mutton-pies, And sell them in the street."
+    },
+    {
+      "id": "s187",
+      "text": "I sell them unto men,’ he said, ‘Who sail on stormy seas; And that’s the way I get my bread— A trifle, if you please.’"
+    },
+    {
+      "id": "s188",
+      "text": "But I was thinking of a plan To dye one’s whiskers green, And always use so large a fan That they could not be seen."
+    },
+    {
+      "id": "s189",
+      "text": "So, having no reply to give To what the old man said, I cried, ‘Come, tell me how you live!’ And thumped him on the head."
+    },
+    {
+      "id": "s190",
+      "text": "His accents mild took up the tale: He said ‘I go my ways, And when I find a mountain-rill, I set it in a blaze; And thence they make a stuff they call Rolands’ Macassar Oil— Yet twopence-halfpenny is all They give me for my toil.’"
+    },
+    {
+      "id": "s191",
+      "text": "But I was thinking of a way To feed oneself on batter, And so go on from day to day Getting a little fatter."
+    },
+    {
+      "id": "s192",
+      "text": "I shook him well from side to side, Until his face was blue: ‘Come, tell me how you live,’ I cried, ‘And what it is you do!’"
+    },
+    {
+      "id": "s193",
+      "text": "He said ‘I hunt for haddocks’ eyes Among the heather bright, And work them into waistcoat-buttons In the silent night."
+    },
+    {
+      "id": "s194",
+      "text": "And these I do not sell for gold Or coin of silvery shine But for a copper halfpenny, And that will purchase nine."
+    },
+    {
+      "id": "s195",
+      "text": "‘I sometimes dig for buttered rolls, Or set limed twigs for crabs; I sometimes search the grassy knolls For wheels of Hansom-cabs."
+    },
+    {
+      "id": "s196",
+      "text": "And that’s the way’ (he gave a wink) ‘By which I get my wealth— And very gladly will I drink Your Honour’s noble health.’"
+    },
+    {
+      "id": "s197",
+      "text": "I heard him then, for I had just Completed my design To keep the Menai bridge from rust By boiling it in wine."
+    },
+    {
+      "id": "s198",
+      "text": "I thanked him much for telling me The way he got his wealth, But chiefly for his wish that he Might drink my noble health."
+    },
+    {
+      "id": "s199",
+      "text": "And now, if e’er by chance I put My fingers into glue Or madly squeeze a right-hand foot Into a left-hand shoe, Or if I drop upon my toe A very heavy weight, I weep, for it reminds me so, Of that old man I used to know— Whose look was mild, whose speech was slow, Whose hair was whiter than the snow, Whose face was very like a crow, With eyes, like cinders, all aglow, Who seemed distracted with his woe, Who rocked his body to and fro, And muttered mumblingly and low, As if his mouth were full of dough, Who snorted like a buffalo— That summer evening, long ago, A-sitting on a gate.”"
+    },
+    {
+      "id": "s200",
+      "text": "As the Knight sang the last words of the ballad, he gathered up the reins, and turned his horse’s head along the road by which they had come."
+    },
+    {
+      "id": "s201",
+      "text": "“You’ve only a few yards to go,” he said, “down the hill and over that little brook, and then you’ll be a Queen—But you’ll stay and see me off first?” he added as Alice turned with an eager look in the direction to which he pointed."
+    },
+    {
+      "id": "s202",
+      "text": "“I shan’t be long."
+    },
+    {
+      "id": "s203",
+      "text": "You’ll wait and wave your handkerchief when I get to that turn in the road?"
+    },
+    {
+      "id": "s204",
+      "text": "I think it’ll encourage me, you see.”"
+    },
+    {
+      "id": "s205",
+      "text": "“Of course I’ll wait,” said Alice: “and thank you very much for coming so far—and for the song—I liked it very much.”"
+    },
+    {
+      "id": "s206",
+      "text": "“I hope so,” the Knight said doubtfully: “but you didn’t cry so much as I thought you would.”"
+    },
+    {
+      "id": "s207",
+      "text": "So they shook hands, and then the Knight rode slowly away into the forest."
+    },
+    {
+      "id": "s208",
+      "text": "“It won’t take long to see him _off_, I expect,” Alice said to herself, as she stood watching him."
+    },
+    {
+      "id": "s209",
+      "text": "“There he goes!"
+    },
+    {
+      "id": "s210",
+      "text": "Right on his head as usual!"
+    },
+    {
+      "id": "s211",
+      "text": "However, he gets on again pretty easily—that comes of having so many things hung round the horse—” So she went on talking to herself, as she watched the horse walking leisurely along the road, and the Knight tumbling off, first on one side and then on the other."
+    },
+    {
+      "id": "s212",
+      "text": "After the fourth or fifth tumble he reached the turn, and then she waved her handkerchief to him, and waited till he was out of sight."
+    },
+    {
+      "id": "s213",
+      "text": "“I hope it encouraged him,” she said, as she turned to run down the hill: “and now for the last brook, and to be a Queen!"
+    },
+    {
+      "id": "s214",
+      "text": "How grand it sounds!” A very few steps brought her to the edge of the brook."
+    },
+    {
+      "id": "s215",
+      "text": "“The Eighth Square at last!” she cried as she bounded across,"
+    },
+    {
+      "id": "s216",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s217",
+      "text": "* * * * * *"
+    },
+    {
+      "id": "s218",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s219",
+      "text": "and threw herself down to rest on a lawn as soft as moss, with little flower-beds dotted about it here and there."
+    },
+    {
+      "id": "s220",
+      "text": "“Oh, how glad I am to get here!"
+    },
+    {
+      "id": "s221",
+      "text": "And what _is_ this on my head?” she exclaimed in a tone of dismay, as she put her hands up to something very heavy, and fitted tight all round her head."
+    },
+    {
+      "id": "s222",
+      "text": "“But how _can_ it have got there without my knowing it?” she said to herself, as she lifted it off, and set it on her lap to make out what it could possibly be."
+    },
+    {
+      "id": "s223",
+      "text": "It was a golden crown."
+    }
+  ]
+}

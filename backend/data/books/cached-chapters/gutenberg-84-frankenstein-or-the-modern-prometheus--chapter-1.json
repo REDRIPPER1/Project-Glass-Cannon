@@ -4,9 +4,9 @@
   "ebookId": "84",
   "edition": "Project Gutenberg eBook #84; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "Chapter 1 I am by birth a Genevese, and my family is one of the most",
-  "contentHash": "sha256:bf3231f3085f4c3bd0c50c09936f1faf9d9362e896e9137a695480d3919ad736",
-  "attribution": "Shelley, Mary Wollstonecraft, 1797-1851, Frankenstein; or, The modern Prometheus, Chapter 1 I am by birth a Genevese, and my family is one of the most. Source checked against Project Gutenberg eBook #84.",
+  "chapterTitle": "Chapter 1",
+  "contentHash": "sha256:f46f8e35aad625ce4cc03482a13c4dfb70240760606450c8068ee284b148dc03",
+  "attribution": "Shelley, Mary Wollstonecraft, 1797-1851, Frankenstein; or, The modern Prometheus, Chapter 1. Source checked against Project Gutenberg eBook #84.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/84",
@@ -19,7 +19,7 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "distinguished of that republic."
+      "text": "I am by birth a Genevese, and my family is one of the most distinguished of that republic."
     },
     {
       "id": "s2",

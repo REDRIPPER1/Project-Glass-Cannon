@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-3",
+  "chapterTitle": "CHAPTER III.",
+  "contentHash": "sha256:3dc293683de13d1eb48168c7474b74f3cba96f210ac048530100b855f676a6e9",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER III.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH A CONVERSATION TAKES PLACE WHICH SEEMS LIKELY TO COST PHILEAS FOGG DEAR"
+    },
+    {
+      "id": "s2",
+      "text": "Phileas Fogg, having shut the door of his house at half-past eleven, and having put his right foot before his left five hundred and seventy-five times, and his left foot before his right five hundred and seventy-six times, reached the Reform Club, an imposing edifice in Pall Mall, which could not have cost less than three millions."
+    },
+    {
+      "id": "s3",
+      "text": "He repaired at once to the dining-room, the nine windows of which open upon a tasteful garden, where the trees were already gilded with an autumn colouring; and took his place at the habitual table, the cover of which had already been laid for him."
+    },
+    {
+      "id": "s4",
+      "text": "His breakfast consisted of a side-dish, a broiled fish with Reading sauce, a scarlet slice of roast beef garnished with mushrooms, a rhubarb and gooseberry tart, and a morsel of Cheshire cheese, the whole being washed down with several cups of tea, for which the Reform is famous."
+    },
+    {
+      "id": "s5",
+      "text": "He rose at thirteen minutes to one, and directed his steps towards the large hall, a sumptuous apartment adorned with lavishly-framed paintings."
+    },
+    {
+      "id": "s6",
+      "text": "A flunkey handed him an uncut _Times_, which he proceeded to cut with a skill which betrayed familiarity with this delicate operation."
+    },
+    {
+      "id": "s7",
+      "text": "The perusal of this paper absorbed Phileas Fogg until a quarter before four, whilst the _Standard_, his next task, occupied him till the dinner hour."
+    },
+    {
+      "id": "s8",
+      "text": "Dinner passed as breakfast had done, and Mr."
+    },
+    {
+      "id": "s9",
+      "text": "Fogg re-appeared in the reading-room and sat down to the _Pall Mall_ at twenty minutes before six."
+    },
+    {
+      "id": "s10",
+      "text": "Half an hour later several members of the Reform came in and drew up to the fireplace, where a coal fire was steadily burning."
+    },
+    {
+      "id": "s11",
+      "text": "They were Mr."
+    },
+    {
+      "id": "s12",
+      "text": "Fogg’s usual partners at whist: Andrew Stuart, an engineer; John Sullivan and Samuel Fallentin, bankers; Thomas Flanagan, a brewer; and Gauthier Ralph, one of the Directors of the Bank of England—all rich and highly respectable personages, even in a club which comprises the princes of English trade and finance."
+    },
+    {
+      "id": "s13",
+      "text": "“Well, Ralph,” said Thomas Flanagan, “what about that robbery?”"
+    },
+    {
+      "id": "s14",
+      "text": "“Oh,” replied Stuart, “the Bank will lose the money.”"
+    },
+    {
+      "id": "s15",
+      "text": "“On the contrary,” broke in Ralph, “I hope we may put our hands on the robber."
+    },
+    {
+      "id": "s16",
+      "text": "Skilful detectives have been sent to all the principal ports of America and the Continent, and he’ll be a clever fellow if he slips through their fingers.”"
+    },
+    {
+      "id": "s17",
+      "text": "“But have you got the robber’s description?” asked Stuart."
+    },
+    {
+      "id": "s18",
+      "text": "“In the first place, he is no robber at all,” returned Ralph, positively."
+    },
+    {
+      "id": "s19",
+      "text": "“What! a fellow who makes off with fifty-five thousand pounds, no robber?”"
+    },
+    {
+      "id": "s20",
+      "text": "“No.”"
+    },
+    {
+      "id": "s21",
+      "text": "“Perhaps he’s a manufacturer, then.”"
+    },
+    {
+      "id": "s22",
+      "text": "“The _Daily Telegraph_ says that he is a gentleman.”"
+    },
+    {
+      "id": "s23",
+      "text": "It was Phileas Fogg, whose head now emerged from behind his newspapers, who made this remark."
+    },
+    {
+      "id": "s24",
+      "text": "He bowed to his friends, and entered into the conversation."
+    },
+    {
+      "id": "s25",
+      "text": "The affair which formed its subject, and which was town talk, had occurred three days before at the Bank of England."
+    },
+    {
+      "id": "s26",
+      "text": "A package of banknotes, to the value of fifty-five thousand pounds, had been taken from the principal cashier’s table, that functionary being at the moment engaged in registering the receipt of three shillings and sixpence."
+    },
+    {
+      "id": "s27",
+      "text": "Of course, he could not have his eyes everywhere."
+    },
+    {
+      "id": "s28",
+      "text": "Let it be observed that the Bank of England reposes a touching confidence in the honesty of the public."
+    },
+    {
+      "id": "s29",
+      "text": "There are neither guards nor gratings to protect its treasures; gold, silver, banknotes are freely exposed, at the mercy of the first comer."
+    },
+    {
+      "id": "s30",
+      "text": "A keen observer of English customs relates that, being in one of the rooms of the Bank one day, he had the curiosity to examine a gold ingot weighing some seven or eight pounds."
+    },
+    {
+      "id": "s31",
+      "text": "He took it up, scrutinised it, passed it to his neighbour, he to the next man, and so on until the ingot, going from hand to hand, was transferred to the end of a dark entry; nor did it return to its place for half an hour."
+    },
+    {
+      "id": "s32",
+      "text": "Meanwhile, the cashier had not so much as raised his head."
+    },
+    {
+      "id": "s33",
+      "text": "But in the present instance things had not gone so smoothly."
+    },
+    {
+      "id": "s34",
+      "text": "The package of notes not being found when five o’clock sounded from the ponderous clock in the “drawing office,” the amount was passed to the account of profit and loss."
+    },
+    {
+      "id": "s35",
+      "text": "As soon as the robbery was discovered, picked detectives hastened off to Liverpool, Glasgow, Havre, Suez, Brindisi, New York, and other ports, inspired by the proffered reward of two thousand pounds, and five per cent. on the sum that might be recovered."
+    },
+    {
+      "id": "s36",
+      "text": "Detectives were also charged with narrowly watching those who arrived at or left London by rail, and a judicial examination was at once entered upon."
+    },
+    {
+      "id": "s37",
+      "text": "There were real grounds for supposing, as the _Daily Telegraph_ said, that the thief did not belong to a professional band."
+    },
+    {
+      "id": "s38",
+      "text": "On the day of the robbery a well-dressed gentleman of polished manners, and with a well-to-do air, had been observed going to and fro in the paying room where the crime was committed."
+    },
+    {
+      "id": "s39",
+      "text": "A description of him was easily procured and sent to the detectives; and some hopeful spirits, of whom Ralph was one, did not despair of his apprehension."
+    },
+    {
+      "id": "s40",
+      "text": "The papers and clubs were full of the affair, and everywhere people were discussing the probabilities of a successful pursuit; and the Reform Club was especially agitated, several of its members being Bank officials."
+    },
+    {
+      "id": "s41",
+      "text": "Ralph would not concede that the work of the detectives was likely to be in vain, for he thought that the prize offered would greatly stimulate their zeal and activity."
+    },
+    {
+      "id": "s42",
+      "text": "But Stuart was far from sharing this confidence; and, as they placed themselves at the whist-table, they continued to argue the matter."
+    },
+    {
+      "id": "s43",
+      "text": "Stuart and Flanagan played together, while Phileas Fogg had Fallentin for his partner."
+    },
+    {
+      "id": "s44",
+      "text": "As the game proceeded the conversation ceased, excepting between the rubbers, when it revived again."
+    },
+    {
+      "id": "s45",
+      "text": "“I maintain,” said Stuart, “that the chances are in favour of the thief, who must be a shrewd fellow.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Well, but where can he fly to?” asked Ralph."
+    },
+    {
+      "id": "s47",
+      "text": "“No country is safe for him.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Pshaw!”"
+    },
+    {
+      "id": "s49",
+      "text": "“Where could he go, then?”"
+    },
+    {
+      "id": "s50",
+      "text": "“Oh, I don’t know that."
+    },
+    {
+      "id": "s51",
+      "text": "The world is big enough.”"
+    },
+    {
+      "id": "s52",
+      "text": "“It was once,” said Phileas Fogg, in a low tone."
+    },
+    {
+      "id": "s53",
+      "text": "“Cut, sir,” he added, handing the cards to Thomas Flanagan."
+    },
+    {
+      "id": "s54",
+      "text": "The discussion fell during the rubber, after which Stuart took up its thread."
+    },
+    {
+      "id": "s55",
+      "text": "“What do you mean by ‘once’?"
+    },
+    {
+      "id": "s56",
+      "text": "Has the world grown smaller?”"
+    },
+    {
+      "id": "s57",
+      "text": "“Certainly,” returned Ralph."
+    },
+    {
+      "id": "s58",
+      "text": "“I agree with Mr."
+    },
+    {
+      "id": "s59",
+      "text": "Fogg."
+    },
+    {
+      "id": "s60",
+      "text": "The world has grown smaller, since a man can now go round it ten times more quickly than a hundred years ago."
+    },
+    {
+      "id": "s61",
+      "text": "And that is why the search for this thief will be more likely to succeed.”"
+    },
+    {
+      "id": "s62",
+      "text": "“And also why the thief can get away more easily.”"
+    },
+    {
+      "id": "s63",
+      "text": "“Be so good as to play, Mr."
+    },
+    {
+      "id": "s64",
+      "text": "Stuart,” said Phileas Fogg."
+    },
+    {
+      "id": "s65",
+      "text": "But the incredulous Stuart was not convinced, and when the hand was finished, said eagerly: “You have a strange way, Ralph, of proving that the world has grown smaller."
+    },
+    {
+      "id": "s66",
+      "text": "So, because you can go round it in three months—”"
+    },
+    {
+      "id": "s67",
+      "text": "“In eighty days,” interrupted Phileas Fogg."
+    },
+    {
+      "id": "s68",
+      "text": "“That is true, gentlemen,” added John Sullivan."
+    },
+    {
+      "id": "s69",
+      "text": "“Only eighty days, now that the section between Rothal and Allahabad, on the Great Indian Peninsula Railway, has been opened."
+    },
+    {
+      "id": "s70",
+      "text": "Here is the estimate made by the _Daily Telegraph:_—"
+    },
+    {
+      "id": "s71",
+      "text": "From London to Suez _viâ_ Mont Cenis and Brindisi, by rail and steamboats ................. 7 days From Suez to Bombay, by steamer .................... 13 ” From Bombay to Calcutta, by rail ................... 3 ” From Calcutta to Hong Kong, by steamer ............. 13 ” From Hong Kong to Yokohama (Japan), by steamer ..... 6 ” From Yokohama to San Francisco, by steamer ......... 22 ” From San Francisco to New York, by rail ............. 7 ” From New York to London, by steamer and rail ........ 9 ” ------- Total ............................................ 80 days.”"
+    },
+    {
+      "id": "s72",
+      "text": "“Yes, in eighty days!” exclaimed Stuart, who in his excitement made a false deal."
+    },
+    {
+      "id": "s73",
+      "text": "“But that doesn’t take into account bad weather, contrary winds, shipwrecks, railway accidents, and so on.”"
+    },
+    {
+      "id": "s74",
+      "text": "“All included,” returned Phileas Fogg, continuing to play despite the discussion."
+    },
+    {
+      "id": "s75",
+      "text": "“But suppose the Hindoos or Indians pull up the rails,” replied Stuart; “suppose they stop the trains, pillage the luggage-vans, and scalp the passengers!”"
+    },
+    {
+      "id": "s76",
+      "text": "“All included,” calmly retorted Fogg; adding, as he threw down the cards, “Two trumps.”"
+    },
+    {
+      "id": "s77",
+      "text": "Stuart, whose turn it was to deal, gathered them up, and went on: “You are right, theoretically, Mr."
+    },
+    {
+      "id": "s78",
+      "text": "Fogg, but practically—”"
+    },
+    {
+      "id": "s79",
+      "text": "“Practically also, Mr."
+    },
+    {
+      "id": "s80",
+      "text": "Stuart.”"
+    },
+    {
+      "id": "s81",
+      "text": "“I’d like to see you do it in eighty days.”"
+    },
+    {
+      "id": "s82",
+      "text": "“It depends on you."
+    },
+    {
+      "id": "s83",
+      "text": "Shall we go?”"
+    },
+    {
+      "id": "s84",
+      "text": "“Heaven preserve me!"
+    },
+    {
+      "id": "s85",
+      "text": "But I would wager four thousand pounds that such a journey, made under these conditions, is impossible.”"
+    },
+    {
+      "id": "s86",
+      "text": "“Quite possible, on the contrary,” returned Mr."
+    },
+    {
+      "id": "s87",
+      "text": "Fogg."
+    },
+    {
+      "id": "s88",
+      "text": "“Well, make it, then!”"
+    },
+    {
+      "id": "s89",
+      "text": "“The journey round the world in eighty days?”"
+    },
+    {
+      "id": "s90",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s91",
+      "text": "“I should like nothing better.”"
+    },
+    {
+      "id": "s92",
+      "text": "“When?”"
+    },
+    {
+      "id": "s93",
+      "text": "“At once."
+    },
+    {
+      "id": "s94",
+      "text": "Only I warn you that I shall do it at your expense.”"
+    },
+    {
+      "id": "s95",
+      "text": "“It’s absurd!” cried Stuart, who was beginning to be annoyed at the persistency of his friend."
+    },
+    {
+      "id": "s96",
+      "text": "“Come, let’s go on with the game.”"
+    },
+    {
+      "id": "s97",
+      "text": "“Deal over again, then,” said Phileas Fogg."
+    },
+    {
+      "id": "s98",
+      "text": "“There’s a false deal.”"
+    },
+    {
+      "id": "s99",
+      "text": "Stuart took up the pack with a feverish hand; then suddenly put them down again."
+    },
+    {
+      "id": "s100",
+      "text": "“Well, Mr."
+    },
+    {
+      "id": "s101",
+      "text": "Fogg,” said he, “it shall be so: I will wager the four thousand on it.”"
+    },
+    {
+      "id": "s102",
+      "text": "“Calm yourself, my dear Stuart,” said Fallentin."
+    },
+    {
+      "id": "s103",
+      "text": "“It’s only a joke.”"
+    },
+    {
+      "id": "s104",
+      "text": "“When I say I’ll wager,” returned Stuart, “I mean it.”"
+    },
+    {
+      "id": "s105",
+      "text": "“All right,” said Mr."
+    },
+    {
+      "id": "s106",
+      "text": "Fogg; and, turning to the others, he continued: “I have a deposit of twenty thousand at Baring’s which I will willingly risk upon it.”"
+    },
+    {
+      "id": "s107",
+      "text": "“Twenty thousand pounds!” cried Sullivan."
+    },
+    {
+      "id": "s108",
+      "text": "“Twenty thousand pounds, which you would lose by a single accidental delay!”"
+    },
+    {
+      "id": "s109",
+      "text": "“The unforeseen does not exist,” quietly replied Phileas Fogg."
+    },
+    {
+      "id": "s110",
+      "text": "“But, Mr."
+    },
+    {
+      "id": "s111",
+      "text": "Fogg, eighty days are only the estimate of the least possible time in which the journey can be made.”"
+    },
+    {
+      "id": "s112",
+      "text": "“A well-used minimum suffices for everything.”"
+    },
+    {
+      "id": "s113",
+      "text": "“But, in order not to exceed it, you must jump mathematically from the trains upon the steamers, and from the steamers upon the trains again.”"
+    },
+    {
+      "id": "s114",
+      "text": "“I will jump—mathematically.”"
+    },
+    {
+      "id": "s115",
+      "text": "“You are joking.”"
+    },
+    {
+      "id": "s116",
+      "text": "“A true Englishman doesn’t joke when he is talking about so serious a thing as a wager,” replied Phileas Fogg, solemnly."
+    },
+    {
+      "id": "s117",
+      "text": "“I will bet twenty thousand pounds against anyone who wishes that I will make the tour of the world in eighty days or less; in nineteen hundred and twenty hours, or a hundred and fifteen thousand two hundred minutes."
+    },
+    {
+      "id": "s118",
+      "text": "Do you accept?”"
+    },
+    {
+      "id": "s119",
+      "text": "“We accept,” replied Messrs."
+    },
+    {
+      "id": "s120",
+      "text": "Stuart, Fallentin, Sullivan, Flanagan, and Ralph, after consulting each other."
+    },
+    {
+      "id": "s121",
+      "text": "“Good,” said Mr."
+    },
+    {
+      "id": "s122",
+      "text": "Fogg."
+    },
+    {
+      "id": "s123",
+      "text": "“The train leaves for Dover at a quarter before nine."
+    },
+    {
+      "id": "s124",
+      "text": "I will take it.”"
+    },
+    {
+      "id": "s125",
+      "text": "“This very evening?” asked Stuart."
+    },
+    {
+      "id": "s126",
+      "text": "“This very evening,” returned Phileas Fogg."
+    },
+    {
+      "id": "s127",
+      "text": "He took out and consulted a pocket almanac, and added, “As today is Wednesday, the 2nd of October, I shall be due in London in this very room of the Reform Club, on Saturday, the 21st of December, at a quarter before nine p.m.; or else the twenty thousand pounds, now deposited in my name at Baring’s, will belong to you, in fact and in right, gentlemen."
+    },
+    {
+      "id": "s128",
+      "text": "Here is a cheque for the amount.”"
+    },
+    {
+      "id": "s129",
+      "text": "A memorandum of the wager was at once drawn up and signed by the six parties, during which Phileas Fogg preserved a stoical composure."
+    },
+    {
+      "id": "s130",
+      "text": "He certainly did not bet to win, and had only staked the twenty thousand pounds, half of his fortune, because he foresaw that he might have to expend the other half to carry out this difficult, not to say unattainable, project."
+    },
+    {
+      "id": "s131",
+      "text": "As for his antagonists, they seemed much agitated; not so much by the value of their stake, as because they had some scruples about betting under conditions so difficult to their friend."
+    },
+    {
+      "id": "s132",
+      "text": "The clock struck seven, and the party offered to suspend the game so that Mr."
+    },
+    {
+      "id": "s133",
+      "text": "Fogg might make his preparations for departure."
+    },
+    {
+      "id": "s134",
+      "text": "“I am quite ready now,” was his tranquil response."
+    },
+    {
+      "id": "s135",
+      "text": "“Diamonds are trumps: be so good as to play, gentlemen.”"
+    }
+  ]
+}

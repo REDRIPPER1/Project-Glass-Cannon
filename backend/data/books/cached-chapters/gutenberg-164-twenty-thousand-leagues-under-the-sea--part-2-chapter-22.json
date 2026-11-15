@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-22",
+  "chapterTitle": "Part 2 — CHAPTER XXII",
+  "contentHash": "sha256:0c02dc57a7ab56a4dae4a09dcb90f42cd5b1827ae0a2f4b56aa4c9dda63c84d3",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, Part 2 — CHAPTER XXII. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE LAST WORDS OF CAPTAIN NEMO"
+    },
+    {
+      "id": "s2",
+      "text": "The panels had closed on this dreadful vision, but light had not returned to the saloon: all was silence and darkness within the _Nautilus_."
+    },
+    {
+      "id": "s3",
+      "text": "At wonderful speed, a hundred feet beneath the water, it was leaving this desolate spot."
+    },
+    {
+      "id": "s4",
+      "text": "Whither was it going?"
+    },
+    {
+      "id": "s5",
+      "text": "To the north or south?"
+    },
+    {
+      "id": "s6",
+      "text": "Where was the man flying to after such dreadful retaliation?"
+    },
+    {
+      "id": "s7",
+      "text": "I had returned to my room, where Ned and Conseil had remained silent enough."
+    },
+    {
+      "id": "s8",
+      "text": "I felt an insurmountable horror for Captain Nemo."
+    },
+    {
+      "id": "s9",
+      "text": "Whatever he had suffered at the hands of these men, he had no right to punish thus."
+    },
+    {
+      "id": "s10",
+      "text": "He had made me, if not an accomplice, at least a witness of his vengeance."
+    },
+    {
+      "id": "s11",
+      "text": "At eleven the electric light reappeared."
+    },
+    {
+      "id": "s12",
+      "text": "I passed into the saloon."
+    },
+    {
+      "id": "s13",
+      "text": "It was deserted."
+    },
+    {
+      "id": "s14",
+      "text": "I consulted the different instruments."
+    },
+    {
+      "id": "s15",
+      "text": "The _Nautilus_ was flying northward at the rate of twenty-five miles an hour, now on the surface, and now thirty feet below it."
+    },
+    {
+      "id": "s16",
+      "text": "On taking the bearings by the chart, I saw that we were passing the mouth of the Manche, and that our course was hurrying us towards the northern seas at a frightful speed."
+    },
+    {
+      "id": "s17",
+      "text": "That night we had crossed two hundred leagues of the Atlantic."
+    },
+    {
+      "id": "s18",
+      "text": "The shadows fell, and the sea was covered with darkness until the rising of the moon."
+    },
+    {
+      "id": "s19",
+      "text": "I went to my room, but could not sleep."
+    },
+    {
+      "id": "s20",
+      "text": "I was troubled with dreadful nightmare."
+    },
+    {
+      "id": "s21",
+      "text": "The horrible scene of destruction was continually before my eyes."
+    },
+    {
+      "id": "s22",
+      "text": "From that day, who could tell into what part of the North Atlantic basin the _Nautilus_ would take us?"
+    },
+    {
+      "id": "s23",
+      "text": "Still with unaccountable speed."
+    },
+    {
+      "id": "s24",
+      "text": "Still in the midst of these northern fogs."
+    },
+    {
+      "id": "s25",
+      "text": "Would it touch at Spitzbergen, or on the shores of Nova Zembla?"
+    },
+    {
+      "id": "s26",
+      "text": "Should we explore those unknown seas, the White Sea, the Sea of Kara, the Gulf of Obi, the Archipelago of Liarrov, and the unknown coast of Asia?"
+    },
+    {
+      "id": "s27",
+      "text": "I could not say."
+    },
+    {
+      "id": "s28",
+      "text": "I could no longer judge of the time that was passing."
+    },
+    {
+      "id": "s29",
+      "text": "The clocks had been stopped on board."
+    },
+    {
+      "id": "s30",
+      "text": "It seemed, as in polar countries, that night and day no longer followed their regular course."
+    },
+    {
+      "id": "s31",
+      "text": "I felt myself being drawn into that strange region where the foundered imagination of Edgar Poe roamed at will."
+    },
+    {
+      "id": "s32",
+      "text": "Like the fabulous Gordon Pym, at every moment I expected to see “that veiled human figure, of larger proportions than those of any inhabitant of the earth, thrown across the cataract which defends the approach to the pole.” I estimated (though, perhaps, I may be mistaken)—I estimated this adventurous course of the _Nautilus_ to have lasted fifteen or twenty days."
+    },
+    {
+      "id": "s33",
+      "text": "And I know not how much longer it might have lasted, had it not been for the catastrophe which ended this voyage."
+    },
+    {
+      "id": "s34",
+      "text": "Of Captain Nemo I saw nothing whatever now, nor of his second."
+    },
+    {
+      "id": "s35",
+      "text": "Not a man of the crew was visible for an instant."
+    },
+    {
+      "id": "s36",
+      "text": "The _Nautilus_ was almost incessantly under water."
+    },
+    {
+      "id": "s37",
+      "text": "When we came to the surface to renew the air, the panels opened and shut mechanically."
+    },
+    {
+      "id": "s38",
+      "text": "There were no more marks on the planisphere."
+    },
+    {
+      "id": "s39",
+      "text": "I knew not where we were."
+    },
+    {
+      "id": "s40",
+      "text": "And the Canadian, too, his strength and patience at an end, appeared no more."
+    },
+    {
+      "id": "s41",
+      "text": "Conseil could not draw a word from him; and, fearing that, in a dreadful fit of madness, he might kill himself, watched him with constant devotion."
+    },
+    {
+      "id": "s42",
+      "text": "One morning (what date it was I could not say) I had fallen into a heavy sleep towards the early hours, a sleep both painful and unhealthy, when I suddenly awoke."
+    },
+    {
+      "id": "s43",
+      "text": "Ned Land was leaning over me, saying, in a low voice, “We are going to fly.” I sat up."
+    },
+    {
+      "id": "s44",
+      "text": "“When shall we go?” I asked."
+    },
+    {
+      "id": "s45",
+      "text": "“To-night."
+    },
+    {
+      "id": "s46",
+      "text": "All inspection on board the _Nautilus_ seems to have ceased."
+    },
+    {
+      "id": "s47",
+      "text": "All appear to be stupefied."
+    },
+    {
+      "id": "s48",
+      "text": "You will be ready, sir?”"
+    },
+    {
+      "id": "s49",
+      "text": "“Yes; where are we?”"
+    },
+    {
+      "id": "s50",
+      "text": "“In sight of land."
+    },
+    {
+      "id": "s51",
+      "text": "I took the reckoning this morning in the fog—twenty miles to the east.”"
+    },
+    {
+      "id": "s52",
+      "text": "“What country is it?”"
+    },
+    {
+      "id": "s53",
+      "text": "“I do not know; but, whatever it is, we will take refuge there.”"
+    },
+    {
+      "id": "s54",
+      "text": "“Yes, Ned, yes."
+    },
+    {
+      "id": "s55",
+      "text": "We will fly to-night, even if the sea should swallow us up.”"
+    },
+    {
+      "id": "s56",
+      "text": "“The sea is bad, the wind violent, but twenty miles in that light boat of the _Nautilus_ does not frighten me."
+    },
+    {
+      "id": "s57",
+      "text": "Unknown to the crew, I have been able to procure food and some bottles of water.”"
+    },
+    {
+      "id": "s58",
+      "text": "“I will follow you.”"
+    },
+    {
+      "id": "s59",
+      "text": "“But,” continued the Canadian, “if I am surprised, I will defend myself; I will force them to kill me.”"
+    },
+    {
+      "id": "s60",
+      "text": "“We will die together, friend Ned.”"
+    },
+    {
+      "id": "s61",
+      "text": "I had made up my mind to all."
+    },
+    {
+      "id": "s62",
+      "text": "The Canadian left me."
+    },
+    {
+      "id": "s63",
+      "text": "I reached the platform, on which I could with difficulty support myself against the shock of the waves."
+    },
+    {
+      "id": "s64",
+      "text": "The sky was threatening; but, as land was in those thick brown shadows, we must fly."
+    },
+    {
+      "id": "s65",
+      "text": "I returned to the saloon, fearing and yet hoping to see Captain Nemo, wishing and yet not wishing to see him."
+    },
+    {
+      "id": "s66",
+      "text": "What could I have said to him?"
+    },
+    {
+      "id": "s67",
+      "text": "Could I hide the involuntary horror with which he inspired me?"
+    },
+    {
+      "id": "s68",
+      "text": "No."
+    },
+    {
+      "id": "s69",
+      "text": "It was better that I should not meet him face to face; better to forget him."
+    },
+    {
+      "id": "s70",
+      "text": "And yet—— How long seemed that day, the last that I should pass in the _Nautilus_."
+    },
+    {
+      "id": "s71",
+      "text": "I remained alone."
+    },
+    {
+      "id": "s72",
+      "text": "Ned Land and Conseil avoided speaking, for fear of betraying themselves."
+    },
+    {
+      "id": "s73",
+      "text": "At six I dined, but I was not hungry; I forced myself to eat in spite of my disgust, that I might not weaken myself."
+    },
+    {
+      "id": "s74",
+      "text": "At half-past six Ned Land came to my room, saying, “We shall not see each other again before our departure."
+    },
+    {
+      "id": "s75",
+      "text": "At ten the moon will not be risen."
+    },
+    {
+      "id": "s76",
+      "text": "We will profit by the darkness."
+    },
+    {
+      "id": "s77",
+      "text": "Come to the boat; Conseil and I will wait for you.”"
+    },
+    {
+      "id": "s78",
+      "text": "The Canadian went out without giving me time to answer."
+    },
+    {
+      "id": "s79",
+      "text": "Wishing to verify the course of the _Nautilus_, I went to the saloon."
+    },
+    {
+      "id": "s80",
+      "text": "We were running N.N.E. at frightful speed, and more than fifty yards deep."
+    },
+    {
+      "id": "s81",
+      "text": "I cast a last look on these wonders of nature, on the riches of art heaped up in this museum, upon the unrivalled collection destined to perish at the bottom of the sea, with him who had formed it."
+    },
+    {
+      "id": "s82",
+      "text": "I wished to fix an indelible impression of it in my mind."
+    },
+    {
+      "id": "s83",
+      "text": "I remained an hour thus, bathed in the light of that luminous ceiling, and passing in review those treasures shining under their glasses."
+    },
+    {
+      "id": "s84",
+      "text": "Then I returned to my room."
+    },
+    {
+      "id": "s85",
+      "text": "I dressed myself in strong sea clothing."
+    },
+    {
+      "id": "s86",
+      "text": "I collected my notes, placing them carefully about me."
+    },
+    {
+      "id": "s87",
+      "text": "My heart beat loudly."
+    },
+    {
+      "id": "s88",
+      "text": "I could not check its pulsations."
+    },
+    {
+      "id": "s89",
+      "text": "Certainly my trouble and agitation would have betrayed me to Captain Nemo’s eyes."
+    },
+    {
+      "id": "s90",
+      "text": "What was he doing at this moment?"
+    },
+    {
+      "id": "s91",
+      "text": "I listened at the door of his room."
+    },
+    {
+      "id": "s92",
+      "text": "I heard steps."
+    },
+    {
+      "id": "s93",
+      "text": "Captain Nemo was there."
+    },
+    {
+      "id": "s94",
+      "text": "He had not gone to rest."
+    },
+    {
+      "id": "s95",
+      "text": "At every moment I expected to see him appear, and ask me why I wished to fly."
+    },
+    {
+      "id": "s96",
+      "text": "I was constantly on the alert."
+    },
+    {
+      "id": "s97",
+      "text": "My imagination magnified everything."
+    },
+    {
+      "id": "s98",
+      "text": "The impression became at last so poignant that I asked myself if it would not be better to go to the Captain’s room, see him face to face, and brave him with look and gesture."
+    },
+    {
+      "id": "s99",
+      "text": "It was the inspiration of a madman; fortunately I resisted the desire, and stretched myself on my bed to quiet my bodily agitation."
+    },
+    {
+      "id": "s100",
+      "text": "My nerves were somewhat calmer, but in my excited brain I saw over again all my existence on board the _Nautilus;_ every incident, either happy or unfortunate, which had happened since my disappearance from the _Abraham Lincoln_—the submarine hunt, the Torres Straits, the savages of Papua, the running ashore, the coral cemetery, the passage of Suez, the Island of Santorin, the Cretan diver, Vigo Bay, Atlantis, the iceberg, the South Pole, the imprisonment in the ice, the fight among the poulps, the storm in the Gulf Stream, the Avenger, and the horrible scene of the vessel sunk with all her crew."
+    },
+    {
+      "id": "s101",
+      "text": "All these events passed before my eyes like scenes in a drama."
+    },
+    {
+      "id": "s102",
+      "text": "Then Captain Nemo seemed to grow enormously, his features to assume superhuman proportions."
+    },
+    {
+      "id": "s103",
+      "text": "He was no longer my equal, but a man of the waters, the genie of the sea."
+    },
+    {
+      "id": "s104",
+      "text": "It was then half-past nine."
+    },
+    {
+      "id": "s105",
+      "text": "I held my head between my hands to keep it from bursting."
+    },
+    {
+      "id": "s106",
+      "text": "I closed my eyes; I would not think any longer."
+    },
+    {
+      "id": "s107",
+      "text": "There was another half-hour to wait, another half-hour of a nightmare, which might drive me mad."
+    },
+    {
+      "id": "s108",
+      "text": "At that moment I heard the distant strains of the organ, a sad harmony to an undefinable chant, the wail of a soul longing to break these earthly bonds."
+    },
+    {
+      "id": "s109",
+      "text": "I listened with every sense, scarcely breathing; plunged, like Captain Nemo, in that musical ecstasy, which was drawing him in spirit to the end of life."
+    },
+    {
+      "id": "s110",
+      "text": "Then a sudden thought terrified me."
+    },
+    {
+      "id": "s111",
+      "text": "Captain Nemo had left his room."
+    },
+    {
+      "id": "s112",
+      "text": "He was in the saloon, which I must cross to fly."
+    },
+    {
+      "id": "s113",
+      "text": "There I should meet him for the last time."
+    },
+    {
+      "id": "s114",
+      "text": "He would see me, perhaps speak to me."
+    },
+    {
+      "id": "s115",
+      "text": "A gesture of his might destroy me, a single word chain me on board."
+    },
+    {
+      "id": "s116",
+      "text": "But ten was about to strike."
+    },
+    {
+      "id": "s117",
+      "text": "The moment had come for me to leave my room, and join my companions."
+    },
+    {
+      "id": "s118",
+      "text": "I must not hesitate, even if Captain Nemo himself should rise before me."
+    },
+    {
+      "id": "s119",
+      "text": "I opened my door carefully; and even then, as it turned on its hinges, it seemed to me to make a dreadful noise."
+    },
+    {
+      "id": "s120",
+      "text": "Perhaps it only existed in my own imagination."
+    },
+    {
+      "id": "s121",
+      "text": "I crept along the dark stairs of the _Nautilus_, stopping at each step to check the beating of my heart."
+    },
+    {
+      "id": "s122",
+      "text": "I reached the door of the saloon, and opened it gently."
+    },
+    {
+      "id": "s123",
+      "text": "It was plunged in profound darkness."
+    },
+    {
+      "id": "s124",
+      "text": "The strains of the organ sounded faintly."
+    },
+    {
+      "id": "s125",
+      "text": "Captain Nemo was there."
+    },
+    {
+      "id": "s126",
+      "text": "He did not see me."
+    },
+    {
+      "id": "s127",
+      "text": "In the full light I do not think he would have noticed me, so entirely was he absorbed in the ecstasy."
+    },
+    {
+      "id": "s128",
+      "text": "I crept along the carpet, avoiding the slightest sound which might betray my presence."
+    },
+    {
+      "id": "s129",
+      "text": "I was at least five minutes reaching the door, at the opposite side, opening into the library."
+    },
+    {
+      "id": "s130",
+      "text": "I was going to open it, when a sigh from Captain Nemo nailed me to the spot."
+    },
+    {
+      "id": "s131",
+      "text": "I knew that he was rising."
+    },
+    {
+      "id": "s132",
+      "text": "I could even see him, for the light from the library came through to the saloon."
+    },
+    {
+      "id": "s133",
+      "text": "He came towards me silently, with his arms crossed, gliding like a spectre rather than walking."
+    },
+    {
+      "id": "s134",
+      "text": "His breast was swelling with sobs; and I heard him murmur these words (the last which ever struck my ear):"
+    },
+    {
+      "id": "s135",
+      "text": "“Almighty God! enough! enough!”"
+    },
+    {
+      "id": "s136",
+      "text": "Was it a confession of remorse which thus escaped from this man’s conscience?"
+    },
+    {
+      "id": "s137",
+      "text": "In desperation, I rushed through the library, mounted the central staircase, and, following the upper flight, reached the boat."
+    },
+    {
+      "id": "s138",
+      "text": "I crept through the opening, which had already admitted my two companions."
+    },
+    {
+      "id": "s139",
+      "text": "“Let us go! let us go!” I exclaimed."
+    },
+    {
+      "id": "s140",
+      "text": "“Directly!” replied the Canadian."
+    },
+    {
+      "id": "s141",
+      "text": "The orifice in the plates of the _Nautilus_ was first closed, and fastened down by means of a false key, with which Ned Land had provided himself; the opening in the boat was also closed."
+    },
+    {
+      "id": "s142",
+      "text": "The Canadian began to loosen the bolts which still held us to the submarine boat."
+    },
+    {
+      "id": "s143",
+      "text": "Suddenly a noise was heard."
+    },
+    {
+      "id": "s144",
+      "text": "Voices were answering each other loudly."
+    },
+    {
+      "id": "s145",
+      "text": "What was the matter?"
+    },
+    {
+      "id": "s146",
+      "text": "Had they discovered our flight?"
+    },
+    {
+      "id": "s147",
+      "text": "I felt Ned Land slipping a dagger into my hand."
+    },
+    {
+      "id": "s148",
+      "text": "“Yes,” I murmured, “we know how to die!”"
+    },
+    {
+      "id": "s149",
+      "text": "The Canadian had stopped in his work."
+    },
+    {
+      "id": "s150",
+      "text": "But one word many times repeated, a dreadful word, revealed the cause of the agitation spreading on board the _Nautilus_."
+    },
+    {
+      "id": "s151",
+      "text": "It was not we the crew were looking after!"
+    },
+    {
+      "id": "s152",
+      "text": "“The maelstrom! the maelstrom!” Could a more dreadful word in a more dreadful situation have sounded in our ears!"
+    },
+    {
+      "id": "s153",
+      "text": "We were then upon the dangerous coast of Norway."
+    },
+    {
+      "id": "s154",
+      "text": "Was the _Nautilus_ being drawn into this gulf at the moment our boat was going to leave its sides?"
+    },
+    {
+      "id": "s155",
+      "text": "We knew that at the tide the pent-up waters between the islands of Ferroe and Loffoden rush with irresistible violence, forming a whirlpool from which no vessel ever escapes."
+    },
+    {
+      "id": "s156",
+      "text": "From every point of the horizon enormous waves were meeting, forming a gulf justly called the “Navel of the Ocean,” whose power of attraction extends to a distance of twelve miles."
+    },
+    {
+      "id": "s157",
+      "text": "There, not only vessels, but whales are sacrificed, as well as white bears from the northern regions."
+    },
+    {
+      "id": "s158",
+      "text": "It is thither that the _Nautilus_, voluntarily or involuntarily, had been run by the Captain."
+    },
+    {
+      "id": "s159",
+      "text": "It was describing a spiral, the circumference of which was lessening by degrees, and the boat, which was still fastened to its side, was carried along with giddy speed."
+    },
+    {
+      "id": "s160",
+      "text": "I felt that sickly giddiness which arises from long-continued whirling round."
+    },
+    {
+      "id": "s161",
+      "text": "We were in dread."
+    },
+    {
+      "id": "s162",
+      "text": "Our horror was at its height, circulation had stopped, all nervous influence was annihilated, and we were covered with cold sweat, like a sweat of agony!"
+    },
+    {
+      "id": "s163",
+      "text": "And what noise around our frail bark!"
+    },
+    {
+      "id": "s164",
+      "text": "What roarings repeated by the echo miles away!"
+    },
+    {
+      "id": "s165",
+      "text": "What an uproar was that of the waters broken on the sharp rocks at the bottom, where the hardest bodies are crushed, and trees worn away, “with all the fur rubbed off,” according to the Norwegian phrase!"
+    },
+    {
+      "id": "s166",
+      "text": "What a situation to be in!"
+    },
+    {
+      "id": "s167",
+      "text": "We rocked frightfully."
+    },
+    {
+      "id": "s168",
+      "text": "The _Nautilus_ defended itself like a human being."
+    },
+    {
+      "id": "s169",
+      "text": "Its steel muscles cracked."
+    },
+    {
+      "id": "s170",
+      "text": "Sometimes it seemed to stand upright, and we with it!"
+    },
+    {
+      "id": "s171",
+      "text": "“We must hold on,” said Ned, “and look after the bolts."
+    },
+    {
+      "id": "s172",
+      "text": "We may still be saved if we stick to the _Nautilus_.”"
+    },
+    {
+      "id": "s173",
+      "text": "He had not finished the words, when we heard a crashing noise, the bolts gave way, and the boat, torn from its groove, was hurled like a stone from a sling into the midst of the whirlpool."
+    },
+    {
+      "id": "s174",
+      "text": "My head struck on a piece of iron, and with the violent shock I lost all consciousness."
+    }
+  ]
+}

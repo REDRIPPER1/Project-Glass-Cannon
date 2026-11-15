@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-225-at-the-back-of-the-north-wind",
+  "ebookId": "225",
+  "edition": "Project Gutenberg eBook #225; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-22",
+  "chapterTitle": "CHAPTER XXII. MR. RAYMOND'S RIDDLE",
+  "contentHash": "sha256:3b8d8d8666ab95fc4fa88d69ba0c8be54525aec94f36d6d4cf361682b4f6f702",
+  "attribution": "MacDonald, George, 1824-1905, At the Back of the North Wind, CHAPTER XXII. MR. RAYMOND'S RIDDLE. Source checked against Project Gutenberg eBook #225.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/225",
+    "textUrl": "https://www.gutenberg.org/cache/epub/225/pg225.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "MR."
+    },
+    {
+      "id": "s2",
+      "text": "RAYMOND took Diamond home with him, stopping at the Mews to tell his mother that he would send him back soon."
+    },
+    {
+      "id": "s3",
+      "text": "Diamond ran in with the message himself, and when he reappeared he had in his hand the torn and crumpled book which North Wind had given him."
+    },
+    {
+      "id": "s4",
+      "text": "“Ah!"
+    },
+    {
+      "id": "s5",
+      "text": "I see,” said Mr."
+    },
+    {
+      "id": "s6",
+      "text": "Raymond: “you are going to claim your sixpence now.”"
+    },
+    {
+      "id": "s7",
+      "text": "“I wasn't thinking of that so much as of another thing,” said Diamond."
+    },
+    {
+      "id": "s8",
+      "text": "“There's a rhyme in this book I can't quite understand."
+    },
+    {
+      "id": "s9",
+      "text": "I want you to tell me what it means, if you please.”"
+    },
+    {
+      "id": "s10",
+      "text": "“I will if I can,” answered Mr."
+    },
+    {
+      "id": "s11",
+      "text": "Raymond."
+    },
+    {
+      "id": "s12",
+      "text": "“You shall read it to me when we get home, and then I shall see.”"
+    },
+    {
+      "id": "s13",
+      "text": "Still with a good many blunders, Diamond did read it after a fashion."
+    },
+    {
+      "id": "s14",
+      "text": "Mr."
+    },
+    {
+      "id": "s15",
+      "text": "Raymond took the little book and read it over again."
+    },
+    {
+      "id": "s16",
+      "text": "Now Mr."
+    },
+    {
+      "id": "s17",
+      "text": "Raymond was a poet himself, and so, although he had never been at the back of the north wind, he was able to understand the poem pretty well."
+    },
+    {
+      "id": "s18",
+      "text": "But before saying anything about it, he read it over aloud, and Diamond thought he understood it much better already."
+    },
+    {
+      "id": "s19",
+      "text": "“I'll tell you what I think it means,” he then said."
+    },
+    {
+      "id": "s20",
+      "text": "“It means that people may have their way for a while, if they like, but it will get them into such troubles they'll wish they hadn't had it.”"
+    },
+    {
+      "id": "s21",
+      "text": "“I know, I know!” said Diamond."
+    },
+    {
+      "id": "s22",
+      "text": "“Like the poor cabman next door."
+    },
+    {
+      "id": "s23",
+      "text": "He drinks too much.”"
+    },
+    {
+      "id": "s24",
+      "text": "“Just so,” returned Mr."
+    },
+    {
+      "id": "s25",
+      "text": "Raymond."
+    },
+    {
+      "id": "s26",
+      "text": "“But when people want to do right, things about them will try to help them."
+    },
+    {
+      "id": "s27",
+      "text": "Only they must kill the snake, you know.”"
+    },
+    {
+      "id": "s28",
+      "text": "“I was sure the snake had something to do with it,” cried Diamond triumphantly."
+    },
+    {
+      "id": "s29",
+      "text": "A good deal more talk followed, and Mr."
+    },
+    {
+      "id": "s30",
+      "text": "Raymond gave Diamond his sixpence."
+    },
+    {
+      "id": "s31",
+      "text": "“What will you do with it?” he asked."
+    },
+    {
+      "id": "s32",
+      "text": "“Take it home to my mother,” he answered."
+    },
+    {
+      "id": "s33",
+      "text": "“She has a teapot--such a black one!--with a broken spout, and she keeps all her money in it."
+    },
+    {
+      "id": "s34",
+      "text": "It ain't much; but she saves it up to buy shoes for me."
+    },
+    {
+      "id": "s35",
+      "text": "And there's baby coming on famously, and he'll want shoes soon."
+    },
+    {
+      "id": "s36",
+      "text": "And every sixpence is something--ain't it, sir?”"
+    },
+    {
+      "id": "s37",
+      "text": "“To be sure, my man."
+    },
+    {
+      "id": "s38",
+      "text": "I hope you'll always make as good a use of your money.”"
+    },
+    {
+      "id": "s39",
+      "text": "“I hope so, sir,” said Diamond."
+    },
+    {
+      "id": "s40",
+      "text": "“And here's a book for you, full of pictures and stories and poems."
+    },
+    {
+      "id": "s41",
+      "text": "I wrote it myself, chiefly for the children of the hospital where I hope Nanny is going."
+    },
+    {
+      "id": "s42",
+      "text": "I don't mean I printed it, you know."
+    },
+    {
+      "id": "s43",
+      "text": "I made it,” added Mr."
+    },
+    {
+      "id": "s44",
+      "text": "Raymond, wishing Diamond to understand that he was the author of the book."
+    },
+    {
+      "id": "s45",
+      "text": "“I know what you mean."
+    },
+    {
+      "id": "s46",
+      "text": "I make songs myself."
+    },
+    {
+      "id": "s47",
+      "text": "They're awfully silly, but they please baby, and that's all they're meant for.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Couldn't you let me hear one of them now?” said Mr."
+    },
+    {
+      "id": "s49",
+      "text": "Raymond."
+    },
+    {
+      "id": "s50",
+      "text": "“No, sir, I couldn't."
+    },
+    {
+      "id": "s51",
+      "text": "I forget them as soon as I've done with them."
+    },
+    {
+      "id": "s52",
+      "text": "Besides, I couldn't make a line without baby on my knee."
+    },
+    {
+      "id": "s53",
+      "text": "We make them together, you know."
+    },
+    {
+      "id": "s54",
+      "text": "They're just as much baby's as mine."
+    },
+    {
+      "id": "s55",
+      "text": "It's he that pulls them out of me.”"
+    },
+    {
+      "id": "s56",
+      "text": "“I suspect the child's a genius,” said the poet to himself, “and that's what makes people think him silly.”"
+    },
+    {
+      "id": "s57",
+      "text": "Now if any of my child readers want to know what a genius is--shall I try to tell them, or shall I not?"
+    },
+    {
+      "id": "s58",
+      "text": "I will give them one very short answer: it means one who understands things without any other body telling him what they mean."
+    },
+    {
+      "id": "s59",
+      "text": "God makes a few such now and then to teach the rest of us."
+    },
+    {
+      "id": "s60",
+      "text": "“Do you like riddles?” asked Mr."
+    },
+    {
+      "id": "s61",
+      "text": "Raymond, turning over the leaves of his own book."
+    },
+    {
+      "id": "s62",
+      "text": "“I don't know what a riddle is,” said Diamond."
+    },
+    {
+      "id": "s63",
+      "text": "“It's something that means something else, and you've got to find out what the something else is.”"
+    },
+    {
+      "id": "s64",
+      "text": "Mr."
+    },
+    {
+      "id": "s65",
+      "text": "Raymond liked the old-fashioned riddle best, and had written a few--one of which he now read."
+    },
+    {
+      "id": "s66",
+      "text": "I have only one foot, but thousands of toes; My one foot stands, but never goes."
+    },
+    {
+      "id": "s67",
+      "text": "I have many arms, and they're mighty all; And hundreds of fingers, large and small."
+    },
+    {
+      "id": "s68",
+      "text": "From the ends of my fingers my beauty grows."
+    },
+    {
+      "id": "s69",
+      "text": "I breathe with my hair, and I drink with my toes."
+    },
+    {
+      "id": "s70",
+      "text": "I grow bigger and bigger about the waist, And yet I am always very tight laced."
+    },
+    {
+      "id": "s71",
+      "text": "None e'er saw me eat--I've no mouth to bite; Yet I eat all day in the full sunlight."
+    },
+    {
+      "id": "s72",
+      "text": "In the summer with song I shave and quiver, But in winter I fast and groan and shiver."
+    },
+    {
+      "id": "s73",
+      "text": "“Do you know what that means, Diamond?” he asked, when he had finished."
+    },
+    {
+      "id": "s74",
+      "text": "“No, indeed, I don't,” answered Diamond."
+    },
+    {
+      "id": "s75",
+      "text": "“Then you can read it for yourself, and think over it, and see if you can find out,” said Mr."
+    },
+    {
+      "id": "s76",
+      "text": "Raymond, giving him the book."
+    },
+    {
+      "id": "s77",
+      "text": "“And now you had better go home to your mother."
+    },
+    {
+      "id": "s78",
+      "text": "When you've found the riddle, you can come again.”"
+    },
+    {
+      "id": "s79",
+      "text": "If Diamond had had to find out the riddle in order to see Mr."
+    },
+    {
+      "id": "s80",
+      "text": "Raymond again, I doubt if he would ever have seen him."
+    },
+    {
+      "id": "s81",
+      "text": "“Oh then,” I think I hear some little reader say, “he could not have been a genius, for a genius finds out things without being told.”"
+    },
+    {
+      "id": "s82",
+      "text": "I answer, “Genius finds out truths, not tricks.” And if you do not understand that, I am afraid you must be content to wait till you grow older and know more."
+    }
+  ]
+}

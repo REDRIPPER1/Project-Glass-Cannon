@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-18",
+  "chapterTitle": "CHAPTER XVIII.",
+  "contentHash": "sha256:d21941af844474d4586a6a165f38cedc0d09ee7c1964b355815994d3eb24c1c6",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XVIII.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH PHILEAS FOGG, PASSEPARTOUT, AND FIX GO EACH ABOUT HIS BUSINESS"
+    },
+    {
+      "id": "s2",
+      "text": "The weather was bad during the latter days of the voyage."
+    },
+    {
+      "id": "s3",
+      "text": "The wind, obstinately remaining in the north-west, blew a gale, and retarded the steamer."
+    },
+    {
+      "id": "s4",
+      "text": "The “Rangoon” rolled heavily and the passengers became impatient of the long, monstrous waves which the wind raised before their path."
+    },
+    {
+      "id": "s5",
+      "text": "A sort of tempest arose on the 3rd of November, the squall knocking the vessel about with fury, and the waves running high."
+    },
+    {
+      "id": "s6",
+      "text": "The “Rangoon” reefed all her sails, and even the rigging proved too much, whistling and shaking amid the squall."
+    },
+    {
+      "id": "s7",
+      "text": "The steamer was forced to proceed slowly, and the captain estimated that she would reach Hong Kong twenty hours behind time, and more if the storm lasted."
+    },
+    {
+      "id": "s8",
+      "text": "Phileas Fogg gazed at the tempestuous sea, which seemed to be struggling especially to delay him, with his habitual tranquillity."
+    },
+    {
+      "id": "s9",
+      "text": "He never changed countenance for an instant, though a delay of twenty hours, by making him too late for the Yokohama boat, would almost inevitably cause the loss of the wager."
+    },
+    {
+      "id": "s10",
+      "text": "But this man of nerve manifested neither impatience nor annoyance; it seemed as if the storm were a part of his programme, and had been foreseen."
+    },
+    {
+      "id": "s11",
+      "text": "Aouda was amazed to find him as calm as he had been from the first time she saw him."
+    },
+    {
+      "id": "s12",
+      "text": "Fix did not look at the state of things in the same light."
+    },
+    {
+      "id": "s13",
+      "text": "The storm greatly pleased him."
+    },
+    {
+      "id": "s14",
+      "text": "His satisfaction would have been complete had the “Rangoon” been forced to retreat before the violence of wind and waves."
+    },
+    {
+      "id": "s15",
+      "text": "Each delay filled him with hope, for it became more and more probable that Fogg would be obliged to remain some days at Hong Kong; and now the heavens themselves became his allies, with the gusts and squalls."
+    },
+    {
+      "id": "s16",
+      "text": "It mattered not that they made him sea-sick—he made no account of this inconvenience; and, whilst his body was writhing under their effects, his spirit bounded with hopeful exultation."
+    },
+    {
+      "id": "s17",
+      "text": "Passepartout was enraged beyond expression by the unpropitious weather."
+    },
+    {
+      "id": "s18",
+      "text": "Everything had gone so well till now!"
+    },
+    {
+      "id": "s19",
+      "text": "Earth and sea had seemed to be at his master’s service; steamers and railways obeyed him; wind and steam united to speed his journey."
+    },
+    {
+      "id": "s20",
+      "text": "Had the hour of adversity come?"
+    },
+    {
+      "id": "s21",
+      "text": "Passepartout was as much excited as if the twenty thousand pounds were to come from his own pocket."
+    },
+    {
+      "id": "s22",
+      "text": "The storm exasperated him, the gale made him furious, and he longed to lash the obstinate sea into obedience."
+    },
+    {
+      "id": "s23",
+      "text": "Poor fellow!"
+    },
+    {
+      "id": "s24",
+      "text": "Fix carefully concealed from him his own satisfaction, for, had he betrayed it, Passepartout could scarcely have restrained himself from personal violence."
+    },
+    {
+      "id": "s25",
+      "text": "Passepartout remained on deck as long as the tempest lasted, being unable to remain quiet below, and taking it into his head to aid the progress of the ship by lending a hand with the crew."
+    },
+    {
+      "id": "s26",
+      "text": "He overwhelmed the captain, officers, and sailors, who could not help laughing at his impatience, with all sorts of questions."
+    },
+    {
+      "id": "s27",
+      "text": "He wanted to know exactly how long the storm was going to last; whereupon he was referred to the barometer, which seemed to have no intention of rising."
+    },
+    {
+      "id": "s28",
+      "text": "Passepartout shook it, but with no perceptible effect; for neither shaking nor maledictions could prevail upon it to change its mind."
+    },
+    {
+      "id": "s29",
+      "text": "On the 4th, however, the sea became more calm, and the storm lessened its violence; the wind veered southward, and was once more favourable."
+    },
+    {
+      "id": "s30",
+      "text": "Passepartout cleared up with the weather."
+    },
+    {
+      "id": "s31",
+      "text": "Some of the sails were unfurled, and the “Rangoon” resumed its most rapid speed."
+    },
+    {
+      "id": "s32",
+      "text": "The time lost could not, however, be regained."
+    },
+    {
+      "id": "s33",
+      "text": "Land was not signalled until five o’clock on the morning of the 6th; the steamer was due on the 5th."
+    },
+    {
+      "id": "s34",
+      "text": "Phileas Fogg was twenty-four hours behind-hand, and the Yokohama steamer would, of course, be missed."
+    },
+    {
+      "id": "s35",
+      "text": "The pilot went on board at six, and took his place on the bridge, to guide the “Rangoon” through the channels to the port of Hong Kong."
+    },
+    {
+      "id": "s36",
+      "text": "Passepartout longed to ask him if the steamer had left for Yokohama; but he dared not, for he wished to preserve the spark of hope, which still remained till the last moment."
+    },
+    {
+      "id": "s37",
+      "text": "He had confided his anxiety to Fix who—the sly rascal!—tried to console him by saying that Mr."
+    },
+    {
+      "id": "s38",
+      "text": "Fogg would be in time if he took the next boat; but this only put Passepartout in a passion."
+    },
+    {
+      "id": "s39",
+      "text": "Mr."
+    },
+    {
+      "id": "s40",
+      "text": "Fogg, bolder than his servant, did not hesitate to approach the pilot, and tranquilly ask him if he knew when a steamer would leave Hong Kong for Yokohama."
+    },
+    {
+      "id": "s41",
+      "text": "“At high tide to-morrow morning,” answered the pilot."
+    },
+    {
+      "id": "s42",
+      "text": "“Ah!” said Mr."
+    },
+    {
+      "id": "s43",
+      "text": "Fogg, without betraying any astonishment."
+    },
+    {
+      "id": "s44",
+      "text": "Passepartout, who heard what passed, would willingly have embraced the pilot, while Fix would have been glad to twist his neck."
+    },
+    {
+      "id": "s45",
+      "text": "“What is the steamer’s name?” asked Mr."
+    },
+    {
+      "id": "s46",
+      "text": "Fogg."
+    },
+    {
+      "id": "s47",
+      "text": "“The ‘Carnatic.’”"
+    },
+    {
+      "id": "s48",
+      "text": "“Ought she not to have gone yesterday?”"
+    },
+    {
+      "id": "s49",
+      "text": "“Yes, sir; but they had to repair one of her boilers, and so her departure was postponed till to-morrow.”"
+    },
+    {
+      "id": "s50",
+      "text": "“Thank you,” returned Mr."
+    },
+    {
+      "id": "s51",
+      "text": "Fogg, descending mathematically to the saloon."
+    },
+    {
+      "id": "s52",
+      "text": "Passepartout clasped the pilot’s hand and shook it heartily in his delight, exclaiming, “Pilot, you are the best of good fellows!”"
+    },
+    {
+      "id": "s53",
+      "text": "The pilot probably does not know to this day why his responses won him this enthusiastic greeting."
+    },
+    {
+      "id": "s54",
+      "text": "He remounted the bridge, and guided the steamer through the flotilla of junks, tankas, and fishing boats which crowd the harbour of Hong Kong."
+    },
+    {
+      "id": "s55",
+      "text": "At one o’clock the “Rangoon” was at the quay, and the passengers were going ashore."
+    },
+    {
+      "id": "s56",
+      "text": "Chance had strangely favoured Phileas Fogg, for had not the “Carnatic” been forced to lie over for repairing her boilers, she would have left on the 6th of November, and the passengers for Japan would have been obliged to await for a week the sailing of the next steamer."
+    },
+    {
+      "id": "s57",
+      "text": "Mr."
+    },
+    {
+      "id": "s58",
+      "text": "Fogg was, it is true, twenty-four hours behind his time; but this could not seriously imperil the remainder of his tour."
+    },
+    {
+      "id": "s59",
+      "text": "The steamer which crossed the Pacific from Yokohama to San Francisco made a direct connection with that from Hong Kong, and it could not sail until the latter reached Yokohama; and if Mr."
+    },
+    {
+      "id": "s60",
+      "text": "Fogg was twenty-four hours late on reaching Yokohama, this time would no doubt be easily regained in the voyage of twenty-two days across the Pacific."
+    },
+    {
+      "id": "s61",
+      "text": "He found himself, then, about twenty-four hours behind-hand, thirty-five days after leaving London."
+    },
+    {
+      "id": "s62",
+      "text": "The “Carnatic” was announced to leave Hong Kong at five the next morning."
+    },
+    {
+      "id": "s63",
+      "text": "Mr."
+    },
+    {
+      "id": "s64",
+      "text": "Fogg had sixteen hours in which to attend to his business there, which was to deposit Aouda safely with her wealthy relative."
+    },
+    {
+      "id": "s65",
+      "text": "On landing, he conducted her to a palanquin, in which they repaired to the Club Hotel."
+    },
+    {
+      "id": "s66",
+      "text": "A room was engaged for the young woman, and Mr."
+    },
+    {
+      "id": "s67",
+      "text": "Fogg, after seeing that she wanted for nothing, set out in search of her cousin Jeejeeh."
+    },
+    {
+      "id": "s68",
+      "text": "He instructed Passepartout to remain at the hotel until his return, that Aouda might not be left entirely alone."
+    },
+    {
+      "id": "s69",
+      "text": "Mr."
+    },
+    {
+      "id": "s70",
+      "text": "Fogg repaired to the Exchange, where, he did not doubt, every one would know so wealthy and considerable a personage as the Parsee merchant."
+    },
+    {
+      "id": "s71",
+      "text": "Meeting a broker, he made the inquiry, to learn that Jeejeeh had left China two years before, and, retiring from business with an immense fortune, had taken up his residence in Europe—in Holland the broker thought, with the merchants of which country he had principally traded."
+    },
+    {
+      "id": "s72",
+      "text": "Phileas Fogg returned to the hotel, begged a moment’s conversation with Aouda, and without more ado, apprised her that Jeejeeh was no longer at Hong Kong, but probably in Holland."
+    },
+    {
+      "id": "s73",
+      "text": "Aouda at first said nothing."
+    },
+    {
+      "id": "s74",
+      "text": "She passed her hand across her forehead, and reflected a few moments."
+    },
+    {
+      "id": "s75",
+      "text": "Then, in her sweet, soft voice, she said: “What ought I to do, Mr."
+    },
+    {
+      "id": "s76",
+      "text": "Fogg?”"
+    },
+    {
+      "id": "s77",
+      "text": "“It is very simple,” responded the gentleman."
+    },
+    {
+      "id": "s78",
+      "text": "“Go on to Europe.”"
+    },
+    {
+      "id": "s79",
+      "text": "“But I cannot intrude—”"
+    },
+    {
+      "id": "s80",
+      "text": "“You do not intrude, nor do you in the least embarrass my project."
+    },
+    {
+      "id": "s81",
+      "text": "Passepartout!”"
+    },
+    {
+      "id": "s82",
+      "text": "“Monsieur.”"
+    },
+    {
+      "id": "s83",
+      "text": "“Go to the ‘Carnatic,’ and engage three cabins.”"
+    },
+    {
+      "id": "s84",
+      "text": "Passepartout, delighted that the young woman, who was very gracious to him, was going to continue the journey with them, went off at a brisk gait to obey his master’s order."
+    }
+  ]
+}

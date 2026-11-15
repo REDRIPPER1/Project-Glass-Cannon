@@ -1,0 +1,985 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-141-mansfield-park",
+  "ebookId": "141",
+  "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-9",
+  "chapterTitle": "CHAPTER IX",
+  "contentHash": "sha256:c3f314f76e00dac45933d420fa9582d740c00aaab5c5c5ac399d1824073cd8c1",
+  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER IX. Source checked against Project Gutenberg eBook #141.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/141",
+    "textUrl": "https://www.gutenberg.org/cache/epub/141/pg141.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Mr."
+    },
+    {
+      "id": "s2",
+      "text": "Rushworth was at the door to receive his fair lady; and the whole party were welcomed by him with due attention."
+    },
+    {
+      "id": "s3",
+      "text": "In the drawing-room they were met with equal cordiality by the mother, and Miss Bertram had all the distinction with each that she could wish."
+    },
+    {
+      "id": "s4",
+      "text": "After the business of arriving was over, it was first necessary to eat, and the doors were thrown open to admit them through one or two intermediate rooms into the appointed dining-parlour, where a collation was prepared with abundance and elegance."
+    },
+    {
+      "id": "s5",
+      "text": "Much was said, and much was ate, and all went well."
+    },
+    {
+      "id": "s6",
+      "text": "The particular object of the day was then considered."
+    },
+    {
+      "id": "s7",
+      "text": "How would Mr."
+    },
+    {
+      "id": "s8",
+      "text": "Crawford like, in what manner would he chuse, to take a survey of the grounds?"
+    },
+    {
+      "id": "s9",
+      "text": "Mr."
+    },
+    {
+      "id": "s10",
+      "text": "Rushworth mentioned his curricle."
+    },
+    {
+      "id": "s11",
+      "text": "Mr."
+    },
+    {
+      "id": "s12",
+      "text": "Crawford suggested the greater desirableness of some carriage which might convey more than two."
+    },
+    {
+      "id": "s13",
+      "text": "“To be depriving themselves of the advantage of other eyes and other judgments, might be an evil even beyond the loss of present pleasure.”"
+    },
+    {
+      "id": "s14",
+      "text": "Mrs."
+    },
+    {
+      "id": "s15",
+      "text": "Rushworth proposed that the chaise should be taken also; but this was scarcely received as an amendment: the young ladies neither smiled nor spoke."
+    },
+    {
+      "id": "s16",
+      "text": "Her next proposition, of shewing the house to such of them as had not been there before, was more acceptable, for Miss Bertram was pleased to have its size displayed, and all were glad to be doing something."
+    },
+    {
+      "id": "s17",
+      "text": "The whole party rose accordingly, and under Mrs."
+    },
+    {
+      "id": "s18",
+      "text": "Rushworth’s guidance were shewn through a number of rooms, all lofty, and many large, and amply furnished in the taste of fifty years back, with shining floors, solid mahogany, rich damask, marble, gilding, and carving, each handsome in its way."
+    },
+    {
+      "id": "s19",
+      "text": "Of pictures there were abundance, and some few good, but the larger part were family portraits, no longer anything to anybody but Mrs."
+    },
+    {
+      "id": "s20",
+      "text": "Rushworth, who had been at great pains to learn all that the housekeeper could teach, and was now almost equally well qualified to shew the house."
+    },
+    {
+      "id": "s21",
+      "text": "On the present occasion she addressed herself chiefly to Miss Crawford and Fanny, but there was no comparison in the willingness of their attention; for Miss Crawford, who had seen scores of great houses, and cared for none of them, had only the appearance of civilly listening, while Fanny, to whom everything was almost as interesting as it was new, attended with unaffected earnestness to all that Mrs."
+    },
+    {
+      "id": "s22",
+      "text": "Rushworth could relate of the family in former times, its rise and grandeur, regal visits and loyal efforts, delighted to connect anything with history already known, or warm her imagination with scenes of the past."
+    },
+    {
+      "id": "s23",
+      "text": "The situation of the house excluded the possibility of much prospect from any of the rooms; and while Fanny and some of the others were attending Mrs."
+    },
+    {
+      "id": "s24",
+      "text": "Rushworth, Henry Crawford was looking grave and shaking his head at the windows."
+    },
+    {
+      "id": "s25",
+      "text": "Every room on the west front looked across a lawn to the beginning of the avenue immediately beyond tall iron palisades and gates."
+    },
+    {
+      "id": "s26",
+      "text": "Having visited many more rooms than could be supposed to be of any other use than to contribute to the window-tax, and find employment for housemaids, “Now,” said Mrs."
+    },
+    {
+      "id": "s27",
+      "text": "Rushworth, “we are coming to the chapel, which properly we ought to enter from above, and look down upon; but as we are quite among friends, I will take you in this way, if you will excuse me.”"
+    },
+    {
+      "id": "s28",
+      "text": "They entered."
+    },
+    {
+      "id": "s29",
+      "text": "Fanny’s imagination had prepared her for something grander than a mere spacious, oblong room, fitted up for the purpose of devotion: with nothing more striking or more solemn than the profusion of mahogany, and the crimson velvet cushions appearing over the ledge of the family gallery above."
+    },
+    {
+      "id": "s30",
+      "text": "“I am disappointed,” said she, in a low voice, to Edmund."
+    },
+    {
+      "id": "s31",
+      "text": "“This is not my idea of a chapel."
+    },
+    {
+      "id": "s32",
+      "text": "There is nothing awful here, nothing melancholy, nothing grand."
+    },
+    {
+      "id": "s33",
+      "text": "Here are no aisles, no arches, no inscriptions, no banners."
+    },
+    {
+      "id": "s34",
+      "text": "No banners, cousin, to be ‘blown by the night wind of heaven.’ No signs that a ‘Scottish monarch sleeps below.’”"
+    },
+    {
+      "id": "s35",
+      "text": "“You forget, Fanny, how lately all this has been built, and for how confined a purpose, compared with the old chapels of castles and monasteries."
+    },
+    {
+      "id": "s36",
+      "text": "It was only for the private use of the family."
+    },
+    {
+      "id": "s37",
+      "text": "They have been buried, I suppose, in the parish church. _There_ you must look for the banners and the achievements.”"
+    },
+    {
+      "id": "s38",
+      "text": "“It was foolish of me not to think of all that; but I am disappointed.”"
+    },
+    {
+      "id": "s39",
+      "text": "Mrs."
+    },
+    {
+      "id": "s40",
+      "text": "Rushworth began her relation."
+    },
+    {
+      "id": "s41",
+      "text": "“This chapel was fitted up as you see it, in James the Second’s time."
+    },
+    {
+      "id": "s42",
+      "text": "Before that period, as I understand, the pews were only wainscot; and there is some reason to think that the linings and cushions of the pulpit and family seat were only purple cloth; but this is not quite certain."
+    },
+    {
+      "id": "s43",
+      "text": "It is a handsome chapel, and was formerly in constant use both morning and evening."
+    },
+    {
+      "id": "s44",
+      "text": "Prayers were always read in it by the domestic chaplain, within the memory of many; but the late Mr."
+    },
+    {
+      "id": "s45",
+      "text": "Rushworth left it off.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Every generation has its improvements,” said Miss Crawford, with a smile, to Edmund."
+    },
+    {
+      "id": "s47",
+      "text": "Mrs."
+    },
+    {
+      "id": "s48",
+      "text": "Rushworth was gone to repeat her lesson to Mr."
+    },
+    {
+      "id": "s49",
+      "text": "Crawford; and Edmund, Fanny, and Miss Crawford remained in a cluster together."
+    },
+    {
+      "id": "s50",
+      "text": "“It is a pity,” cried Fanny, “that the custom should have been discontinued."
+    },
+    {
+      "id": "s51",
+      "text": "It was a valuable part of former times."
+    },
+    {
+      "id": "s52",
+      "text": "There is something in a chapel and chaplain so much in character with a great house, with one’s ideas of what such a household should be!"
+    },
+    {
+      "id": "s53",
+      "text": "A whole family assembling regularly for the purpose of prayer is fine!”"
+    },
+    {
+      "id": "s54",
+      "text": "“Very fine indeed,” said Miss Crawford, laughing."
+    },
+    {
+      "id": "s55",
+      "text": "“It must do the heads of the family a great deal of good to force all the poor housemaids and footmen to leave business and pleasure, and say their prayers here twice a day, while they are inventing excuses themselves for staying away.”"
+    },
+    {
+      "id": "s56",
+      "text": "“_That_ is hardly Fanny’s idea of a family assembling,” said Edmund."
+    },
+    {
+      "id": "s57",
+      "text": "“If the master and mistress do _not_ attend themselves, there must be more harm than good in the custom.”"
+    },
+    {
+      "id": "s58",
+      "text": "“At any rate, it is safer to leave people to their own devices on such subjects."
+    },
+    {
+      "id": "s59",
+      "text": "Everybody likes to go their own way—to chuse their own time and manner of devotion."
+    },
+    {
+      "id": "s60",
+      "text": "The obligation of attendance, the formality, the restraint, the length of time—altogether it is a formidable thing, and what nobody likes; and if the good people who used to kneel and gape in that gallery could have foreseen that the time would ever come when men and women might lie another ten minutes in bed, when they woke with a headache, without danger of reprobation, because chapel was missed, they would have jumped with joy and envy."
+    },
+    {
+      "id": "s61",
+      "text": "Cannot you imagine with what unwilling feelings the former belles of the house of Rushworth did many a time repair to this chapel?"
+    },
+    {
+      "id": "s62",
+      "text": "The young Mrs."
+    },
+    {
+      "id": "s63",
+      "text": "Eleanors and Mrs."
+    },
+    {
+      "id": "s64",
+      "text": "Bridgets—starched up into seeming piety, but with heads full of something very different—especially if the poor chaplain were not worth looking at—and, in those days, I fancy parsons were very inferior even to what they are now.”"
+    },
+    {
+      "id": "s65",
+      "text": "For a few moments she was unanswered."
+    },
+    {
+      "id": "s66",
+      "text": "Fanny coloured and looked at Edmund, but felt too angry for speech; and he needed a little recollection before he could say, “Your lively mind can hardly be serious even on serious subjects."
+    },
+    {
+      "id": "s67",
+      "text": "You have given us an amusing sketch, and human nature cannot say it was not so."
+    },
+    {
+      "id": "s68",
+      "text": "We must all feel _at_ _times_ the difficulty of fixing our thoughts as we could wish; but if you are supposing it a frequent thing, that is to say, a weakness grown into a habit from neglect, what could be expected from the _private_ devotions of such persons?"
+    },
+    {
+      "id": "s69",
+      "text": "Do you think the minds which are suffered, which are indulged in wanderings in a chapel, would be more collected in a closet?”"
+    },
+    {
+      "id": "s70",
+      "text": "“Yes, very likely."
+    },
+    {
+      "id": "s71",
+      "text": "They would have two chances at least in their favour."
+    },
+    {
+      "id": "s72",
+      "text": "There would be less to distract the attention from without, and it would not be tried so long.”"
+    },
+    {
+      "id": "s73",
+      "text": "“The mind which does not struggle against itself under _one_ circumstance, would find objects to distract it in the _other_, I believe; and the influence of the place and of example may often rouse better feelings than are begun with."
+    },
+    {
+      "id": "s74",
+      "text": "The greater length of the service, however, I admit to be sometimes too hard a stretch upon the mind."
+    },
+    {
+      "id": "s75",
+      "text": "One wishes it were not so; but I have not yet left Oxford long enough to forget what chapel prayers are.”"
+    },
+    {
+      "id": "s76",
+      "text": "While this was passing, the rest of the party being scattered about the chapel, Julia called Mr."
+    },
+    {
+      "id": "s77",
+      "text": "Crawford’s attention to her sister, by saying, “Do look at Mr."
+    },
+    {
+      "id": "s78",
+      "text": "Rushworth and Maria, standing side by side, exactly as if the ceremony were going to be performed."
+    },
+    {
+      "id": "s79",
+      "text": "Have not they completely the air of it?”"
+    },
+    {
+      "id": "s80",
+      "text": "Mr."
+    },
+    {
+      "id": "s81",
+      "text": "Crawford smiled his acquiescence, and stepping forward to Maria, said, in a voice which she only could hear, “I do not like to see Miss Bertram so near the altar.”"
+    },
+    {
+      "id": "s82",
+      "text": "Starting, the lady instinctively moved a step or two, but recovering herself in a moment, affected to laugh, and asked him, in a tone not much louder, “If he would give her away?”"
+    },
+    {
+      "id": "s83",
+      "text": "“I am afraid I should do it very awkwardly,” was his reply, with a look of meaning."
+    },
+    {
+      "id": "s84",
+      "text": "Julia, joining them at the moment, carried on the joke."
+    },
+    {
+      "id": "s85",
+      "text": "“Upon my word, it is really a pity that it should not take place directly, if we had but a proper licence, for here we are altogether, and nothing in the world could be more snug and pleasant.” And she talked and laughed about it with so little caution as to catch the comprehension of Mr."
+    },
+    {
+      "id": "s86",
+      "text": "Rushworth and his mother, and expose her sister to the whispered gallantries of her lover, while Mrs."
+    },
+    {
+      "id": "s87",
+      "text": "Rushworth spoke with proper smiles and dignity of its being a most happy event to her whenever it took place."
+    },
+    {
+      "id": "s88",
+      "text": "“If Edmund were but in orders!” cried Julia, and running to where he stood with Miss Crawford and Fanny: “My dear Edmund, if you were but in orders now, you might perform the ceremony directly."
+    },
+    {
+      "id": "s89",
+      "text": "How unlucky that you are not ordained; Mr."
+    },
+    {
+      "id": "s90",
+      "text": "Rushworth and Maria are quite ready.”"
+    },
+    {
+      "id": "s91",
+      "text": "Miss Crawford’s countenance, as Julia spoke, might have amused a disinterested observer."
+    },
+    {
+      "id": "s92",
+      "text": "She looked almost aghast under the new idea she was receiving."
+    },
+    {
+      "id": "s93",
+      "text": "Fanny pitied her."
+    },
+    {
+      "id": "s94",
+      "text": "“How distressed she will be at what she said just now,” passed across her mind."
+    },
+    {
+      "id": "s95",
+      "text": "“Ordained!” said Miss Crawford; “what, are you to be a clergyman?”"
+    },
+    {
+      "id": "s96",
+      "text": "“Yes; I shall take orders soon after my father’s return—probably at Christmas.”"
+    },
+    {
+      "id": "s97",
+      "text": "Miss Crawford, rallying her spirits, and recovering her complexion, replied only, “If I had known this before, I would have spoken of the cloth with more respect,” and turned the subject."
+    },
+    {
+      "id": "s98",
+      "text": "The chapel was soon afterwards left to the silence and stillness which reigned in it, with few interruptions, throughout the year."
+    },
+    {
+      "id": "s99",
+      "text": "Miss Bertram, displeased with her sister, led the way, and all seemed to feel that they had been there long enough."
+    },
+    {
+      "id": "s100",
+      "text": "The lower part of the house had been now entirely shewn, and Mrs."
+    },
+    {
+      "id": "s101",
+      "text": "Rushworth, never weary in the cause, would have proceeded towards the principal staircase, and taken them through all the rooms above, if her son had not interposed with a doubt of there being time enough."
+    },
+    {
+      "id": "s102",
+      "text": "“For if,” said he, with the sort of self-evident proposition which many a clearer head does not always avoid, “we are _too_ long going over the house, we shall not have time for what is to be done out of doors."
+    },
+    {
+      "id": "s103",
+      "text": "It is past two, and we are to dine at five.”"
+    },
+    {
+      "id": "s104",
+      "text": "Mrs."
+    },
+    {
+      "id": "s105",
+      "text": "Rushworth submitted; and the question of surveying the grounds, with the who and the how, was likely to be more fully agitated, and Mrs."
+    },
+    {
+      "id": "s106",
+      "text": "Norris was beginning to arrange by what junction of carriages and horses most could be done, when the young people, meeting with an outward door, temptingly open on a flight of steps which led immediately to turf and shrubs, and all the sweets of pleasure-grounds, as by one impulse, one wish for air and liberty, all walked out."
+    },
+    {
+      "id": "s107",
+      "text": "“Suppose we turn down here for the present,” said Mrs."
+    },
+    {
+      "id": "s108",
+      "text": "Rushworth, civilly taking the hint and following them."
+    },
+    {
+      "id": "s109",
+      "text": "“Here are the greatest number of our plants, and here are the curious pheasants.”"
+    },
+    {
+      "id": "s110",
+      "text": "“Query,” said Mr."
+    },
+    {
+      "id": "s111",
+      "text": "Crawford, looking round him, “whether we may not find something to employ us here before we go farther?"
+    },
+    {
+      "id": "s112",
+      "text": "I see walls of great promise."
+    },
+    {
+      "id": "s113",
+      "text": "Mr."
+    },
+    {
+      "id": "s114",
+      "text": "Rushworth, shall we summon a council on this lawn?”"
+    },
+    {
+      "id": "s115",
+      "text": "“James,” said Mrs."
+    },
+    {
+      "id": "s116",
+      "text": "Rushworth to her son, “I believe the wilderness will be new to all the party."
+    },
+    {
+      "id": "s117",
+      "text": "The Miss Bertrams have never seen the wilderness yet.”"
+    },
+    {
+      "id": "s118",
+      "text": "No objection was made, but for some time there seemed no inclination to move in any plan, or to any distance."
+    },
+    {
+      "id": "s119",
+      "text": "All were attracted at first by the plants or the pheasants, and all dispersed about in happy independence."
+    },
+    {
+      "id": "s120",
+      "text": "Mr."
+    },
+    {
+      "id": "s121",
+      "text": "Crawford was the first to move forward to examine the capabilities of that end of the house."
+    },
+    {
+      "id": "s122",
+      "text": "The lawn, bounded on each side by a high wall, contained beyond the first planted area a bowling-green, and beyond the bowling-green a long terrace walk, backed by iron palisades, and commanding a view over them into the tops of the trees of the wilderness immediately adjoining."
+    },
+    {
+      "id": "s123",
+      "text": "It was a good spot for fault-finding."
+    },
+    {
+      "id": "s124",
+      "text": "Mr."
+    },
+    {
+      "id": "s125",
+      "text": "Crawford was soon followed by Miss Bertram and Mr."
+    },
+    {
+      "id": "s126",
+      "text": "Rushworth; and when, after a little time, the others began to form into parties, these three were found in busy consultation on the terrace by Edmund, Miss Crawford, and Fanny, who seemed as naturally to unite, and who, after a short participation of their regrets and difficulties, left them and walked on."
+    },
+    {
+      "id": "s127",
+      "text": "The remaining three, Mrs."
+    },
+    {
+      "id": "s128",
+      "text": "Rushworth, Mrs."
+    },
+    {
+      "id": "s129",
+      "text": "Norris, and Julia, were still far behind; for Julia, whose happy star no longer prevailed, was obliged to keep by the side of Mrs."
+    },
+    {
+      "id": "s130",
+      "text": "Rushworth, and restrain her impatient feet to that lady’s slow pace, while her aunt, having fallen in with the housekeeper, who was come out to feed the pheasants, was lingering behind in gossip with her."
+    },
+    {
+      "id": "s131",
+      "text": "Poor Julia, the only one out of the nine not tolerably satisfied with their lot, was now in a state of complete penance, and as different from the Julia of the barouche-box as could well be imagined."
+    },
+    {
+      "id": "s132",
+      "text": "The politeness which she had been brought up to practise as a duty made it impossible for her to escape; while the want of that higher species of self-command, that just consideration of others, that knowledge of her own heart, that principle of right, which had not formed any essential part of her education, made her miserable under it."
+    },
+    {
+      "id": "s133",
+      "text": "“This is insufferably hot,” said Miss Crawford, when they had taken one turn on the terrace, and were drawing a second time to the door in the middle which opened to the wilderness."
+    },
+    {
+      "id": "s134",
+      "text": "“Shall any of us object to being comfortable?"
+    },
+    {
+      "id": "s135",
+      "text": "Here is a nice little wood, if one can but get into it."
+    },
+    {
+      "id": "s136",
+      "text": "What happiness if the door should not be locked! but of course it is; for in these great places the gardeners are the only people who can go where they like.”"
+    },
+    {
+      "id": "s137",
+      "text": "The door, however, proved not to be locked, and they were all agreed in turning joyfully through it, and leaving the unmitigated glare of day behind."
+    },
+    {
+      "id": "s138",
+      "text": "A considerable flight of steps landed them in the wilderness, which was a planted wood of about two acres, and though chiefly of larch and laurel, and beech cut down, and though laid out with too much regularity, was darkness and shade, and natural beauty, compared with the bowling-green and the terrace."
+    },
+    {
+      "id": "s139",
+      "text": "They all felt the refreshment of it, and for some time could only walk and admire."
+    },
+    {
+      "id": "s140",
+      "text": "At length, after a short pause, Miss Crawford began with, “So you are to be a clergyman, Mr."
+    },
+    {
+      "id": "s141",
+      "text": "Bertram."
+    },
+    {
+      "id": "s142",
+      "text": "This is rather a surprise to me.”"
+    },
+    {
+      "id": "s143",
+      "text": "“Why should it surprise you?"
+    },
+    {
+      "id": "s144",
+      "text": "You must suppose me designed for some profession, and might perceive that I am neither a lawyer, nor a soldier, nor a sailor.”"
+    },
+    {
+      "id": "s145",
+      "text": "“Very true; but, in short, it had not occurred to me."
+    },
+    {
+      "id": "s146",
+      "text": "And you know there is generally an uncle or a grandfather to leave a fortune to the second son.”"
+    },
+    {
+      "id": "s147",
+      "text": "“A very praiseworthy practice,” said Edmund, “but not quite universal."
+    },
+    {
+      "id": "s148",
+      "text": "I am one of the exceptions, and _being_ one, must do something for myself.”"
+    },
+    {
+      "id": "s149",
+      "text": "“But why are you to be a clergyman?"
+    },
+    {
+      "id": "s150",
+      "text": "I thought _that_ was always the lot of the youngest, where there were many to chuse before him.”"
+    },
+    {
+      "id": "s151",
+      "text": "“Do you think the church itself never chosen, then?”"
+    },
+    {
+      "id": "s152",
+      "text": "“_Never_ is a black word."
+    },
+    {
+      "id": "s153",
+      "text": "But yes, in the _never_ of conversation, which means _not_ _very_ _often_, I do think it."
+    },
+    {
+      "id": "s154",
+      "text": "For what is to be done in the church?"
+    },
+    {
+      "id": "s155",
+      "text": "Men love to distinguish themselves, and in either of the other lines distinction may be gained, but not in the church."
+    },
+    {
+      "id": "s156",
+      "text": "A clergyman is nothing.”"
+    },
+    {
+      "id": "s157",
+      "text": "“The _nothing_ of conversation has its gradations, I hope, as well as the _never_."
+    },
+    {
+      "id": "s158",
+      "text": "A clergyman cannot be high in state or fashion."
+    },
+    {
+      "id": "s159",
+      "text": "He must not head mobs, or set the ton in dress."
+    },
+    {
+      "id": "s160",
+      "text": "But I cannot call that situation nothing which has the charge of all that is of the first importance to mankind, individually or collectively considered, temporally and eternally, which has the guardianship of religion and morals, and consequently of the manners which result from their influence."
+    },
+    {
+      "id": "s161",
+      "text": "No one here can call the _office_ nothing."
+    },
+    {
+      "id": "s162",
+      "text": "If the man who holds it is so, it is by the neglect of his duty, by foregoing its just importance, and stepping out of his place to appear what he ought not to appear.”"
+    },
+    {
+      "id": "s163",
+      "text": "“_You_ assign greater consequence to the clergyman than one has been used to hear given, or than I can quite comprehend."
+    },
+    {
+      "id": "s164",
+      "text": "One does not see much of this influence and importance in society, and how can it be acquired where they are so seldom seen themselves?"
+    },
+    {
+      "id": "s165",
+      "text": "How can two sermons a week, even supposing them worth hearing, supposing the preacher to have the sense to prefer Blair’s to his own, do all that you speak of? govern the conduct and fashion the manners of a large congregation for the rest of the week?"
+    },
+    {
+      "id": "s166",
+      "text": "One scarcely sees a clergyman out of his pulpit.”"
+    },
+    {
+      "id": "s167",
+      "text": "“_You_ are speaking of London, _I_ am speaking of the nation at large.”"
+    },
+    {
+      "id": "s168",
+      "text": "“The metropolis, I imagine, is a pretty fair sample of the rest.”"
+    },
+    {
+      "id": "s169",
+      "text": "“Not, I should hope, of the proportion of virtue to vice throughout the kingdom."
+    },
+    {
+      "id": "s170",
+      "text": "We do not look in great cities for our best morality."
+    },
+    {
+      "id": "s171",
+      "text": "It is not there that respectable people of any denomination can do most good; and it certainly is not there that the influence of the clergy can be most felt."
+    },
+    {
+      "id": "s172",
+      "text": "A fine preacher is followed and admired; but it is not in fine preaching only that a good clergyman will be useful in his parish and his neighbourhood, where the parish and neighbourhood are of a size capable of knowing his private character, and observing his general conduct, which in London can rarely be the case."
+    },
+    {
+      "id": "s173",
+      "text": "The clergy are lost there in the crowds of their parishioners."
+    },
+    {
+      "id": "s174",
+      "text": "They are known to the largest part only as preachers."
+    },
+    {
+      "id": "s175",
+      "text": "And with regard to their influencing public manners, Miss Crawford must not misunderstand me, or suppose I mean to call them the arbiters of good-breeding, the regulators of refinement and courtesy, the masters of the ceremonies of life."
+    },
+    {
+      "id": "s176",
+      "text": "The _manners_ I speak of might rather be called _conduct_, perhaps, the result of good principles; the effect, in short, of those doctrines which it is their duty to teach and recommend; and it will, I believe, be everywhere found, that as the clergy are, or are not what they ought to be, so are the rest of the nation.”"
+    },
+    {
+      "id": "s177",
+      "text": "“Certainly,” said Fanny, with gentle earnestness."
+    },
+    {
+      "id": "s178",
+      "text": "“There,” cried Miss Crawford, “you have quite convinced Miss Price already.”"
+    },
+    {
+      "id": "s179",
+      "text": "“I wish I could convince Miss Crawford too.”"
+    },
+    {
+      "id": "s180",
+      "text": "“I do not think you ever will,” said she, with an arch smile; “I am just as much surprised now as I was at first that you should intend to take orders."
+    },
+    {
+      "id": "s181",
+      "text": "You really are fit for something better."
+    },
+    {
+      "id": "s182",
+      "text": "Come, do change your mind."
+    },
+    {
+      "id": "s183",
+      "text": "It is not too late."
+    },
+    {
+      "id": "s184",
+      "text": "Go into the law.”"
+    },
+    {
+      "id": "s185",
+      "text": "“Go into the law!"
+    },
+    {
+      "id": "s186",
+      "text": "With as much ease as I was told to go into this wilderness.”"
+    },
+    {
+      "id": "s187",
+      "text": "“Now you are going to say something about law being the worst wilderness of the two, but I forestall you; remember, I have forestalled you.”"
+    },
+    {
+      "id": "s188",
+      "text": "“You need not hurry when the object is only to prevent my saying a _bon_ _mot_, for there is not the least wit in my nature."
+    },
+    {
+      "id": "s189",
+      "text": "I am a very matter-of-fact, plain-spoken being, and may blunder on the borders of a repartee for half an hour together without striking it out.”"
+    },
+    {
+      "id": "s190",
+      "text": "A general silence succeeded."
+    },
+    {
+      "id": "s191",
+      "text": "Each was thoughtful."
+    },
+    {
+      "id": "s192",
+      "text": "Fanny made the first interruption by saying, “I wonder that I should be tired with only walking in this sweet wood; but the next time we come to a seat, if it is not disagreeable to you, I should be glad to sit down for a little while.”"
+    },
+    {
+      "id": "s193",
+      "text": "“My dear Fanny,” cried Edmund, immediately drawing her arm within his, “how thoughtless I have been!"
+    },
+    {
+      "id": "s194",
+      "text": "I hope you are not very tired."
+    },
+    {
+      "id": "s195",
+      "text": "Perhaps,” turning to Miss Crawford, “my other companion may do me the honour of taking an arm.”"
+    },
+    {
+      "id": "s196",
+      "text": "“Thank you, but I am not at all tired.” She took it, however, as she spoke, and the gratification of having her do so, of feeling such a connexion for the first time, made him a little forgetful of Fanny."
+    },
+    {
+      "id": "s197",
+      "text": "“You scarcely touch me,” said he."
+    },
+    {
+      "id": "s198",
+      "text": "“You do not make me of any use."
+    },
+    {
+      "id": "s199",
+      "text": "What a difference in the weight of a woman’s arm from that of a man!"
+    },
+    {
+      "id": "s200",
+      "text": "At Oxford I have been a good deal used to have a man lean on me for the length of a street, and you are only a fly in the comparison.”"
+    },
+    {
+      "id": "s201",
+      "text": "“I am really not tired, which I almost wonder at; for we must have walked at least a mile in this wood."
+    },
+    {
+      "id": "s202",
+      "text": "Do not you think we have?”"
+    },
+    {
+      "id": "s203",
+      "text": "“Not half a mile,” was his sturdy answer; for he was not yet so much in love as to measure distance, or reckon time, with feminine lawlessness."
+    },
+    {
+      "id": "s204",
+      "text": "“Oh! you do not consider how much we have wound about."
+    },
+    {
+      "id": "s205",
+      "text": "We have taken such a very serpentine course, and the wood itself must be half a mile long in a straight line, for we have never seen the end of it yet since we left the first great path.”"
+    },
+    {
+      "id": "s206",
+      "text": "“But if you remember, before we left that first great path, we saw directly to the end of it."
+    },
+    {
+      "id": "s207",
+      "text": "We looked down the whole vista, and saw it closed by iron gates, and it could not have been more than a furlong in length.”"
+    },
+    {
+      "id": "s208",
+      "text": "“Oh!"
+    },
+    {
+      "id": "s209",
+      "text": "I know nothing of your furlongs, but I am sure it is a very long wood, and that we have been winding in and out ever since we came into it; and therefore, when I say that we have walked a mile in it, I must speak within compass.”"
+    },
+    {
+      "id": "s210",
+      "text": "“We have been exactly a quarter of an hour here,” said Edmund, taking out his watch."
+    },
+    {
+      "id": "s211",
+      "text": "“Do you think we are walking four miles an hour?”"
+    },
+    {
+      "id": "s212",
+      "text": "“Oh! do not attack me with your watch."
+    },
+    {
+      "id": "s213",
+      "text": "A watch is always too fast or too slow."
+    },
+    {
+      "id": "s214",
+      "text": "I cannot be dictated to by a watch.”"
+    },
+    {
+      "id": "s215",
+      "text": "A few steps farther brought them out at the bottom of the very walk they had been talking of; and standing back, well shaded and sheltered, and looking over a ha-ha into the park, was a comfortable-sized bench, on which they all sat down."
+    },
+    {
+      "id": "s216",
+      "text": "“I am afraid you are very tired, Fanny,” said Edmund, observing her; “why would not you speak sooner?"
+    },
+    {
+      "id": "s217",
+      "text": "This will be a bad day’s amusement for you if you are to be knocked up."
+    },
+    {
+      "id": "s218",
+      "text": "Every sort of exercise fatigues her so soon, Miss Crawford, except riding.”"
+    },
+    {
+      "id": "s219",
+      "text": "“How abominable in you, then, to let me engross her horse as I did all last week!"
+    },
+    {
+      "id": "s220",
+      "text": "I am ashamed of you and of myself, but it shall never happen again.”"
+    },
+    {
+      "id": "s221",
+      "text": "“_Your_ attentiveness and consideration makes me more sensible of my own neglect."
+    },
+    {
+      "id": "s222",
+      "text": "Fanny’s interest seems in safer hands with you than with me.”"
+    },
+    {
+      "id": "s223",
+      "text": "“That she should be tired now, however, gives me no surprise; for there is nothing in the course of one’s duties so fatiguing as what we have been doing this morning: seeing a great house, dawdling from one room to another, straining one’s eyes and one’s attention, hearing what one does not understand, admiring what one does not care for."
+    },
+    {
+      "id": "s224",
+      "text": "It is generally allowed to be the greatest bore in the world, and Miss Price has found it so, though she did not know it.”"
+    },
+    {
+      "id": "s225",
+      "text": "“I shall soon be rested,” said Fanny; “to sit in the shade on a fine day, and look upon verdure, is the most perfect refreshment.”"
+    },
+    {
+      "id": "s226",
+      "text": "After sitting a little while Miss Crawford was up again."
+    },
+    {
+      "id": "s227",
+      "text": "“I must move,” said she; “resting fatigues me."
+    },
+    {
+      "id": "s228",
+      "text": "I have looked across the ha-ha till I am weary."
+    },
+    {
+      "id": "s229",
+      "text": "I must go and look through that iron gate at the same view, without being able to see it so well.”"
+    },
+    {
+      "id": "s230",
+      "text": "Edmund left the seat likewise."
+    },
+    {
+      "id": "s231",
+      "text": "“Now, Miss Crawford, if you will look up the walk, you will convince yourself that it cannot be half a mile long, or half half a mile.”"
+    },
+    {
+      "id": "s232",
+      "text": "“It is an immense distance,” said she; “I see _that_ with a glance.”"
+    },
+    {
+      "id": "s233",
+      "text": "He still reasoned with her, but in vain."
+    },
+    {
+      "id": "s234",
+      "text": "She would not calculate, she would not compare."
+    },
+    {
+      "id": "s235",
+      "text": "She would only smile and assert."
+    },
+    {
+      "id": "s236",
+      "text": "The greatest degree of rational consistency could not have been more engaging, and they talked with mutual satisfaction."
+    },
+    {
+      "id": "s237",
+      "text": "At last it was agreed that they should endeavour to determine the dimensions of the wood by walking a little more about it."
+    },
+    {
+      "id": "s238",
+      "text": "They would go to one end of it, in the line they were then in—for there was a straight green walk along the bottom by the side of the ha-ha—and perhaps turn a little way in some other direction, if it seemed likely to assist them, and be back in a few minutes."
+    },
+    {
+      "id": "s239",
+      "text": "Fanny said she was rested, and would have moved too, but this was not suffered."
+    },
+    {
+      "id": "s240",
+      "text": "Edmund urged her remaining where she was with an earnestness which she could not resist, and she was left on the bench to think with pleasure of her cousin’s care, but with great regret that she was not stronger."
+    },
+    {
+      "id": "s241",
+      "text": "She watched them till they had turned the corner, and listened till all sound of them had ceased."
+    }
+  ]
+}

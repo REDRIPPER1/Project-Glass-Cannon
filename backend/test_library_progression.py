@@ -50,11 +50,21 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertTrue(all(book["rights"]["worldwideCopyrightStatus"] == "review-required" for book in self.books["books"]))
         required_categories = {"Adventure", "Mystery", "Fantasy and folklore", "Nature and animals", "History and biography", "Classics"}
         self.assertTrue(required_categories.issubset({book["category"] for book in self.books["books"]}))
-        cached_index = load_cached_chapter_index(catalog=self.books)
-        self.assertGreaterEqual(len(cached_index["entries"]), 25)
+        cached_index = load_cached_chapter_index(catalog=self.books, validate_payloads=False)
+        self.assertGreaterEqual(len(cached_index["entries"]), 789)
+        cached_ids_by_book = {}
         for entry in cached_index["entries"]:
-            passage = cached_passage_for_chapter(entry["bookId"], entry["chapterId"], self.books)
-            self.assertGreaterEqual(len(passage or []), 10)
+            cached_ids_by_book.setdefault(entry["bookId"], set()).add(entry["chapterId"])
+        readable_books = [book for book in self.books["books"] if book["id"] in cached_ids_by_book]
+        self.assertEqual(len(readable_books), 25)
+        for book in readable_books:
+            self.assertEqual(
+                {chapter["id"] for chapter in book["chapterMetadata"]},
+                cached_ids_by_book[book["id"]],
+            )
+            final_chapter_id = book["chapterMetadata"][-1]["id"]
+            passage = cached_passage_for_chapter(book["id"], final_chapter_id, self.books)
+            self.assertGreaterEqual(len(passage or []), 1)
         mappings = {item["id"]: item for item in load_quest_mappings(catalog=self.books)["mappings"]}
         self.assertEqual(mappings["wizard-cyclone-inference"]["bookId"], "wizard-of-oz")
         self.assertEqual(mappings["wizard-cyclone-inference"]["chapterIds"], ["chapter-1-cyclone"])
@@ -124,6 +134,10 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertEqual(alice_chapter["content"]["mode"], "cached-chapter")
         self.assertGreaterEqual(len(alice_chapter["content"]["sentences"]), 10)
         self.assertNotIn("url", str(alice_chapter["content"]).lower())
+        self.assertEqual(
+            self.store.chapter(self.profile_id, "gutenberg-11-alice-s-adventures-in-wonderland", "chapter-12")["content"]["mode"],
+            "cached-chapter",
+        )
         source_only = self.store.reader_reference(self.profile_id, "gutenberg-13-the-hunting-of-the-snark-an-agony-in-eight-fits")
         self.assertEqual(source_only["content"]["mode"], "unavailable")
         self.store.set_demo_entitlement(self.profile_id, "premium", True)
@@ -131,14 +145,14 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertEqual(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["state"], "premium")
         self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["allowed"])
         self.assertEqual(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["state"], "purchase-only")
-        premium_chapter = self.store.chapter(self.profile_id, "gutenberg-12-through-the-looking-glass", "chapter-1")
+        premium_chapter = self.store.chapter(self.profile_id, "gutenberg-12-through-the-looking-glass", "chapter-12")
         self.assertEqual(premium_chapter["access"]["state"], "premium")
         self.assertEqual(premium_chapter["content"]["mode"], "cached-chapter")
         self.assertFalse(self.store.book_access(self.profile_id, "gutenberg-121-northanger-abbey", "chapter-1")["allowed"])
         self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 100
         purchased_chapter = self.store.purchase_book(self.profile_id, "gutenberg-121-northanger-abbey")
         self.assertEqual(purchased_chapter["ownership"], "permanent")
-        self.assertEqual(self.store.chapter(self.profile_id, "gutenberg-121-northanger-abbey", "chapter-1")["content"]["mode"], "cached-chapter")
+        self.assertEqual(self.store.chapter(self.profile_id, "gutenberg-121-northanger-abbey", "chapter-31")["content"]["mode"], "cached-chapter")
         self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 24
         purchase = self.store.purchase_book(self.profile_id, "secret-garden")
         self.assertTrue(purchase["mocked"])

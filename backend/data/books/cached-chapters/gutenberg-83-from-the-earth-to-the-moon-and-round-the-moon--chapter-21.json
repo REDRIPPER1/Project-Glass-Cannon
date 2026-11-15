@@ -1,0 +1,761 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-21",
+  "chapterTitle": "CHAPTER XXI.",
+  "contentHash": "sha256:29d61c98e3e4aba765b2a357da534942a64917c87894d2819c96bb32f60a941c",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, CHAPTER XXI.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "HOW A FRENCHMAN MANAGES AN AFFAIR"
+    },
+    {
+      "id": "s2",
+      "text": "While the contract of this duel was being discussed by the president and the captain—this dreadful, savage duel, in which each adversary became a man-hunter—Michel Ardan was resting from the fatigues of his triumph."
+    },
+    {
+      "id": "s3",
+      "text": "Resting is hardly an appropriate expression, for American beds rival marble or granite tables for hardness."
+    },
+    {
+      "id": "s4",
+      "text": "Ardan was sleeping, then, badly enough, tossing about between the cloths which served him for sheets, and he was dreaming of making a more comfortable couch in his projectile when a frightful noise disturbed his dreams."
+    },
+    {
+      "id": "s5",
+      "text": "Thundering blows shook his door."
+    },
+    {
+      "id": "s6",
+      "text": "They seemed to be caused by some iron instrument."
+    },
+    {
+      "id": "s7",
+      "text": "A great deal of loud talking was distinguishable in this racket, which was rather too early in the morning."
+    },
+    {
+      "id": "s8",
+      "text": "“Open the door,” some one shrieked, “for heaven’s sake!” Ardan saw no reason for complying with a demand so roughly expressed."
+    },
+    {
+      "id": "s9",
+      "text": "However, he got up and opened the door just as it was giving way before the blows of this determined visitor."
+    },
+    {
+      "id": "s10",
+      "text": "The secretary of the Gun Club burst into the room."
+    },
+    {
+      "id": "s11",
+      "text": "A bomb could not have made more noise or have entered the room with less ceremony."
+    },
+    {
+      "id": "s12",
+      "text": "“Last night,” cried J."
+    },
+    {
+      "id": "s13",
+      "text": "T."
+    },
+    {
+      "id": "s14",
+      "text": "Maston, _ex abrupto_, “our president was publicly insulted during the meeting."
+    },
+    {
+      "id": "s15",
+      "text": "He provoked his adversary, who is none other than Captain Nicholl!"
+    },
+    {
+      "id": "s16",
+      "text": "They are fighting this morning in the wood of Skersnaw."
+    },
+    {
+      "id": "s17",
+      "text": "I heard all the particulars from the mouth of Barbicane himself."
+    },
+    {
+      "id": "s18",
+      "text": "If he is killed, then our scheme is at an end."
+    },
+    {
+      "id": "s19",
+      "text": "We must prevent his duel; and one man alone has enough influence over Barbicane to stop him, and that man is Michel Ardan.”"
+    },
+    {
+      "id": "s20",
+      "text": "While J."
+    },
+    {
+      "id": "s21",
+      "text": "T."
+    },
+    {
+      "id": "s22",
+      "text": "Maston was speaking, Michel Ardan, without interrupting him, had hastily put on his clothes; and, in less than two minutes, the two friends were making for the suburbs of Tampa Town with rapid strides."
+    },
+    {
+      "id": "s23",
+      "text": "It was during this walk that Maston told Ardan the state of the case."
+    },
+    {
+      "id": "s24",
+      "text": "He told him the real causes of the hostility between Barbicane and Nicholl; how it was of old date, and why, thanks to unknown friends, the president and the captain had, as yet, never met face to face."
+    },
+    {
+      "id": "s25",
+      "text": "He added that it arose simply from a rivalry between iron plates and shot, and, finally, that the scene at the meeting was only the long-wished-for opportunity for Nicholl to pay off an old grudge."
+    },
+    {
+      "id": "s26",
+      "text": "Nothing is more dreadful than private duels in America."
+    },
+    {
+      "id": "s27",
+      "text": "The two adversaries attack each other like wild beasts."
+    },
+    {
+      "id": "s28",
+      "text": "Then it is that they might well covet those wonderful properties of the Indians of the prairies—their quick intelligence, their ingenious cunning, their scent of the enemy."
+    },
+    {
+      "id": "s29",
+      "text": "A single mistake, a moment’s hesitation, a single false step may cause death."
+    },
+    {
+      "id": "s30",
+      "text": "On these occasions Yankees are often accompanied by their dogs, and keep up the struggle for hours."
+    },
+    {
+      "id": "s31",
+      "text": "“What demons you are!” cried Michel Ardan, when his companion had depicted this scene to him with much energy."
+    },
+    {
+      "id": "s32",
+      "text": "“Yes, we are,” replied J."
+    },
+    {
+      "id": "s33",
+      "text": "T. modestly; “but we had better make haste.”"
+    },
+    {
+      "id": "s34",
+      "text": "Though Michel Ardan and he had crossed the plains still wet with dew, and had taken the shortest route over creeks and ricefields, they could not reach Skersnaw in under five hours and a half."
+    },
+    {
+      "id": "s35",
+      "text": "Barbicane must have passed the border half an hour ago."
+    },
+    {
+      "id": "s36",
+      "text": "There was an old bushman working there, occupied in selling fagots from trees that had been leveled by his axe."
+    },
+    {
+      "id": "s37",
+      "text": "Maston ran toward him, saying, “Have you seen a man go into the wood, armed with a rifle?"
+    },
+    {
+      "id": "s38",
+      "text": "Barbicane, the president, my best friend?”"
+    },
+    {
+      "id": "s39",
+      "text": "The worthy secretary of the Gun Club thought that his president must be known by all the world."
+    },
+    {
+      "id": "s40",
+      "text": "But the bushman did not seem to understand him."
+    },
+    {
+      "id": "s41",
+      "text": "“A hunter?” said Ardan."
+    },
+    {
+      "id": "s42",
+      "text": "“A hunter?"
+    },
+    {
+      "id": "s43",
+      "text": "Yes,” replied the bushman."
+    },
+    {
+      "id": "s44",
+      "text": "“Long ago?”"
+    },
+    {
+      "id": "s45",
+      "text": "“About an hour.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Too late!” cried Maston."
+    },
+    {
+      "id": "s47",
+      "text": "“Have you heard any gunshots?” asked Ardan."
+    },
+    {
+      "id": "s48",
+      "text": "“No!”"
+    },
+    {
+      "id": "s49",
+      "text": "“Not one?”"
+    },
+    {
+      "id": "s50",
+      "text": "“Not one! that hunter did not look as if he knew how to hunt!”"
+    },
+    {
+      "id": "s51",
+      "text": "“What is to be done?” said Maston."
+    },
+    {
+      "id": "s52",
+      "text": "“We must go into the wood, at the risk of getting a ball which is not intended for us.”"
+    },
+    {
+      "id": "s53",
+      "text": "“Ah!” cried Maston, in a tone which could not be mistaken, “I would rather have twenty balls in my own head than one in Barbicane’s.”"
+    },
+    {
+      "id": "s54",
+      "text": "“Forward, then,” said Ardan, pressing his companion’s hand."
+    },
+    {
+      "id": "s55",
+      "text": "A few moments later the two friends had disappeared in the copse."
+    },
+    {
+      "id": "s56",
+      "text": "It was a dense thicket, in which rose huge cypresses, sycamores, tulip-trees, olives, tamarinds, oaks, and magnolias."
+    },
+    {
+      "id": "s57",
+      "text": "These different trees had interwoven their branches into an inextricable maze, through which the eye could not penetrate."
+    },
+    {
+      "id": "s58",
+      "text": "Michel Ardan and Maston walked side by side in silence through the tall grass, cutting themselves a path through the strong creepers, casting curious glances on the bushes, and momentarily expecting to hear the sound of rifles."
+    },
+    {
+      "id": "s59",
+      "text": "As for the traces which Barbicane ought to have left of his passage through the wood, there was not a vestige of them visible: so they followed the barely perceptible paths along which Indians had tracked some enemy, and which the dense foliage darkly overshadowed."
+    },
+    {
+      "id": "s60",
+      "text": "After an hour spent in vain pursuit the two stopped in intensified anxiety."
+    },
+    {
+      "id": "s61",
+      "text": "“It must be all over,” said Maston, discouraged."
+    },
+    {
+      "id": "s62",
+      "text": "“A man like Barbicane would not dodge with his enemy, or ensnare him, would not even maneuver!"
+    },
+    {
+      "id": "s63",
+      "text": "He is too open, too brave."
+    },
+    {
+      "id": "s64",
+      "text": "He has gone straight ahead, right into the danger, and doubtless far enough from the bushman for the wind to prevent his hearing the report of the rifles.”"
+    },
+    {
+      "id": "s65",
+      "text": "“But surely,” replied Michel Ardan, “since we entered the wood we should have heard!”"
+    },
+    {
+      "id": "s66",
+      "text": "“And what if we came too late?” cried Maston in tones of despair."
+    },
+    {
+      "id": "s67",
+      "text": "For once Ardan had no reply to make, he and Maston resuming their walk in silence."
+    },
+    {
+      "id": "s68",
+      "text": "From time to time, indeed, they raised great shouts, calling alternately Barbicane and Nicholl, neither of whom, however, answered their cries."
+    },
+    {
+      "id": "s69",
+      "text": "Only the birds, awakened by the sound, flew past them and disappeared among the branches, while some frightened deer fled precipitately before them."
+    },
+    {
+      "id": "s70",
+      "text": "For another hour their search was continued."
+    },
+    {
+      "id": "s71",
+      "text": "The greater part of the wood had been explored."
+    },
+    {
+      "id": "s72",
+      "text": "There was nothing to reveal the presence of the combatants."
+    },
+    {
+      "id": "s73",
+      "text": "The information of the bushman was after all doubtful, and Ardan was about to propose their abandoning this useless pursuit, when all at once Maston stopped."
+    },
+    {
+      "id": "s74",
+      "text": "“Hush!” said he, “there is some one down there!”"
+    },
+    {
+      "id": "s75",
+      "text": "“Some one?” repeated Michel Ardan."
+    },
+    {
+      "id": "s76",
+      "text": "“Yes; a man!"
+    },
+    {
+      "id": "s77",
+      "text": "He seems motionless."
+    },
+    {
+      "id": "s78",
+      "text": "His rifle is not in his hands."
+    },
+    {
+      "id": "s79",
+      "text": "What can he be doing?”"
+    },
+    {
+      "id": "s80",
+      "text": "“But can you recognize him?” asked Ardan, whose short sight was of little use to him in such circumstances."
+    },
+    {
+      "id": "s81",
+      "text": "“Yes! yes!"
+    },
+    {
+      "id": "s82",
+      "text": "He is turning toward us,” answered Maston."
+    },
+    {
+      "id": "s83",
+      "text": "“And it is?”"
+    },
+    {
+      "id": "s84",
+      "text": "“Captain Nicholl!”"
+    },
+    {
+      "id": "s85",
+      "text": "“Nicholl?” cried Michel Ardan, feeling a terrible pang of grief."
+    },
+    {
+      "id": "s86",
+      "text": "“Nicholl unarmed!"
+    },
+    {
+      "id": "s87",
+      "text": "He has, then, no longer any fear of his adversary!”"
+    },
+    {
+      "id": "s88",
+      "text": "“Let us go to him,” said Michel Ardan, “and find out the truth.”"
+    },
+    {
+      "id": "s89",
+      "text": "But he and his companion had barely taken fifty steps, when they paused to examine the captain more attentively."
+    },
+    {
+      "id": "s90",
+      "text": "They expected to find a bloodthirsty man, happy in his revenge."
+    },
+    {
+      "id": "s91",
+      "text": "On seeing him, they remained stupefied."
+    },
+    {
+      "id": "s92",
+      "text": "A net, composed of very fine meshes, hung between two enormous tulip-trees, and in the midst of this snare, with its wings entangled, was a poor little bird, uttering pitiful cries, while it vainly struggled to escape."
+    },
+    {
+      "id": "s93",
+      "text": "The bird-catcher who had laid this snare was no human being, but a venomous spider, peculiar to that country, as large as a pigeon’s egg, and armed with enormous claws."
+    },
+    {
+      "id": "s94",
+      "text": "The hideous creature, instead of rushing on its prey, had beaten a sudden retreat and taken refuge in the upper branches of the tulip-tree, for a formidable enemy menaced its stronghold."
+    },
+    {
+      "id": "s95",
+      "text": "Here, then, was Nicholl, his gun on the ground, forgetful of danger, trying if possible to save the victim from its cobweb prison."
+    },
+    {
+      "id": "s96",
+      "text": "At last it was accomplished, and the little bird flew joyfully away and disappeared."
+    },
+    {
+      "id": "s97",
+      "text": "Nicholl lovingly watched its flight, when he heard these words pronounced by a voice full of emotion:"
+    },
+    {
+      "id": "s98",
+      "text": "“You are indeed a brave man.”"
+    },
+    {
+      "id": "s99",
+      "text": "He turned."
+    },
+    {
+      "id": "s100",
+      "text": "Michel Ardan was before him, repeating in a different tone:"
+    },
+    {
+      "id": "s101",
+      "text": "“And a kindhearted one!”"
+    },
+    {
+      "id": "s102",
+      "text": "“Michel Ardan!” cried the captain."
+    },
+    {
+      "id": "s103",
+      "text": "“Why are you here?”"
+    },
+    {
+      "id": "s104",
+      "text": "“To press your hand, Nicholl, and to prevent you from either killing Barbicane or being killed by him.”"
+    },
+    {
+      "id": "s105",
+      "text": "“Barbicane!” returned the captain."
+    },
+    {
+      "id": "s106",
+      "text": "“I have been looking for him for the last two hours in vain."
+    },
+    {
+      "id": "s107",
+      "text": "Where is he hiding?”"
+    },
+    {
+      "id": "s108",
+      "text": "“Nicholl!” said Michel Ardan, “this is not courteous! we ought always to treat an adversary with respect; rest assureed if Barbicane is still alive we shall find him all the more easily; because if he has not, like you, been amusing himself with freeing oppressed birds, he must be looking for _you_."
+    },
+    {
+      "id": "s109",
+      "text": "When we have found him, Michel Ardan tells you this, there will be no duel between you.”"
+    },
+    {
+      "id": "s110",
+      "text": "“Between President Barbicane and myself,” gravely replied Nicholl, “there is a rivalry which the death of one of us—”"
+    },
+    {
+      "id": "s111",
+      "text": "“Pooh, pooh!” said Ardan."
+    },
+    {
+      "id": "s112",
+      "text": "“Brave fellows like you indeed! you shall not fight!”"
+    },
+    {
+      "id": "s113",
+      "text": "“I will fight, sir!”"
+    },
+    {
+      "id": "s114",
+      "text": "“No!”"
+    },
+    {
+      "id": "s115",
+      "text": "“Captain,” said J."
+    },
+    {
+      "id": "s116",
+      "text": "T."
+    },
+    {
+      "id": "s117",
+      "text": "Maston, with much feeling, “I am a friend of the president’s, his _alter ego_, his second self; if you really must kill some one, _shoot me!_ it will do just as well!”"
+    },
+    {
+      "id": "s118",
+      "text": "“Sir,” Nicholl replied, seizing his rifle convulsively, “these jokes—”"
+    },
+    {
+      "id": "s119",
+      "text": "“Our friend Maston is not joking,” replied Ardan."
+    },
+    {
+      "id": "s120",
+      "text": "“I fully understand his idea of being killed himself in order to save his friend."
+    },
+    {
+      "id": "s121",
+      "text": "But neither he nor Barbicane will fall before the balls of Captain Nicholl."
+    },
+    {
+      "id": "s122",
+      "text": "Indeed I have so attractive a proposal to make to the two rivals, that both will be eager to accept it.”"
+    },
+    {
+      "id": "s123",
+      "text": "“What is it?” asked Nicholl with manifest incredulity."
+    },
+    {
+      "id": "s124",
+      "text": "“Patience!” exclaimed Ardan."
+    },
+    {
+      "id": "s125",
+      "text": "“I can only reveal it in the presence of Barbicane.”"
+    },
+    {
+      "id": "s126",
+      "text": "“Let us go in search of him then!” cried the captain."
+    },
+    {
+      "id": "s127",
+      "text": "The three men started off at once; the captain having discharged his rifle threw it over his shoulder, and advanced in silence."
+    },
+    {
+      "id": "s128",
+      "text": "Another half hour passed, and the pursuit was still fruitless."
+    },
+    {
+      "id": "s129",
+      "text": "Maston was oppressed by sinister forebodings."
+    },
+    {
+      "id": "s130",
+      "text": "He looked fiercely at Nicholl, asking himself whether the captain’s vengeance had already been satisfied, and the unfortunate Barbicane, shot, was perhaps lying dead on some bloody track."
+    },
+    {
+      "id": "s131",
+      "text": "The same thought seemed to occur to Ardan; and both were casting inquiring glances on Nicholl, when suddenly Maston paused."
+    },
+    {
+      "id": "s132",
+      "text": "The motionless figure of a man leaning against a gigantic catalpa twenty feet off appeared, half-veiled by the foliage."
+    },
+    {
+      "id": "s133",
+      "text": "“It is he!” said Maston."
+    },
+    {
+      "id": "s134",
+      "text": "Barbicane never moved."
+    },
+    {
+      "id": "s135",
+      "text": "Ardan looked at the captain, but he did not wince."
+    },
+    {
+      "id": "s136",
+      "text": "Ardan went forward crying:"
+    },
+    {
+      "id": "s137",
+      "text": "“Barbicane!"
+    },
+    {
+      "id": "s138",
+      "text": "Barbicane!”"
+    },
+    {
+      "id": "s139",
+      "text": "No answer!"
+    },
+    {
+      "id": "s140",
+      "text": "Ardan rushed toward his friend; but in the act of seizing his arms, he stopped short and uttered a cry of surprise."
+    },
+    {
+      "id": "s141",
+      "text": "Barbicane, pencil in hand, was tracing geometrical figures in a memorandum book, while his unloaded rifle lay beside him on the ground."
+    },
+    {
+      "id": "s142",
+      "text": "Absorbed in his studies, Barbicane, in his turn forgetful of the duel, had seen and heard nothing."
+    },
+    {
+      "id": "s143",
+      "text": "When Ardan took his hand, he looked up and stared at his visitor in astonishment."
+    },
+    {
+      "id": "s144",
+      "text": "“Ah, it is you!” he cried at last."
+    },
+    {
+      "id": "s145",
+      "text": "“I have found it, my friend, I have found it!”"
+    },
+    {
+      "id": "s146",
+      "text": "“What?”"
+    },
+    {
+      "id": "s147",
+      "text": "“My plan!”"
+    },
+    {
+      "id": "s148",
+      "text": "“What plan?”"
+    },
+    {
+      "id": "s149",
+      "text": "“The plan for countering the effect of the shock at the departure of the projectile!”"
+    },
+    {
+      "id": "s150",
+      "text": "“Indeed?” said Michel Ardan, looking at the captain out of the corner of his eye."
+    },
+    {
+      "id": "s151",
+      "text": "“Yes! water! simply water, which will act as a spring—ah!"
+    },
+    {
+      "id": "s152",
+      "text": "Maston,” cried Barbicane, “you here also?”"
+    },
+    {
+      "id": "s153",
+      "text": "“Himself,” replied Ardan; “and permit me to introduce to you at the same time the worthy Captain Nicholl!”"
+    },
+    {
+      "id": "s154",
+      "text": "“Nicholl!” cried Barbicane, who jumped up at once."
+    },
+    {
+      "id": "s155",
+      "text": "“Pardon me, captain, I had quite forgotten—I am ready!”"
+    },
+    {
+      "id": "s156",
+      "text": "Michel Ardan interfered, without giving the two enemies time to say anything more."
+    },
+    {
+      "id": "s157",
+      "text": "“Thank heaven!” said he."
+    },
+    {
+      "id": "s158",
+      "text": "“It is a happy thing that brave men like you two did not meet sooner! we should now have been mourning for one or other of you."
+    },
+    {
+      "id": "s159",
+      "text": "But, thanks to Providence, which has interfered, there is now no further cause for alarm."
+    },
+    {
+      "id": "s160",
+      "text": "When one forgets one’s anger in mechanics or in cobwebs, it is a sign that the anger is not dangerous.”"
+    },
+    {
+      "id": "s161",
+      "text": "Michel Ardan then told the president how the captain had been found occupied."
+    },
+    {
+      "id": "s162",
+      "text": "“I put it to you now,” said he in conclusion, “are two such good fellows as you are made on purpose to smash each other’s skulls with shot?”"
+    },
+    {
+      "id": "s163",
+      "text": "There was in “the situation” somewhat of the ridiculous, something quite unexpected; Michel Ardan saw this, and determined to effect a reconciliation."
+    },
+    {
+      "id": "s164",
+      "text": "“My good friends,” said he, with his most bewitching smile, “this is nothing but a misunderstanding."
+    },
+    {
+      "id": "s165",
+      "text": "Nothing more! well! to prove that it is all over between you, accept frankly the proposal I am going to make to you.”"
+    },
+    {
+      "id": "s166",
+      "text": "“Make it,” said Nicholl."
+    },
+    {
+      "id": "s167",
+      "text": "“Our friend Barbicane believes that his projectile will go straight to the moon?”"
+    },
+    {
+      "id": "s168",
+      "text": "“Yes, certainly,” replied the president."
+    },
+    {
+      "id": "s169",
+      "text": "“And our friend Nicholl is persuaded it will fall back upon the earth?”"
+    },
+    {
+      "id": "s170",
+      "text": "“I am certain of it,” cried the captain."
+    },
+    {
+      "id": "s171",
+      "text": "“Good!” said Ardan."
+    },
+    {
+      "id": "s172",
+      "text": "“I cannot pretend to make you agree; but I suggest this: Go with me, and so see whether we are stopped on our journey.”"
+    },
+    {
+      "id": "s173",
+      "text": "“What?” exclaimed J."
+    },
+    {
+      "id": "s174",
+      "text": "T."
+    },
+    {
+      "id": "s175",
+      "text": "Maston, stupefied."
+    },
+    {
+      "id": "s176",
+      "text": "The two rivals, on this sudden proposal, looked steadily at each other."
+    },
+    {
+      "id": "s177",
+      "text": "Barbicane waited for the captain’s answer."
+    },
+    {
+      "id": "s178",
+      "text": "Nicholl watched for the decision of the president."
+    },
+    {
+      "id": "s179",
+      "text": "“Well?” said Michel."
+    },
+    {
+      "id": "s180",
+      "text": "“There is now no fear of the shock!”"
+    },
+    {
+      "id": "s181",
+      "text": "“Done!” cried Barbicane."
+    },
+    {
+      "id": "s182",
+      "text": "But quickly as he pronounced the word, he was not before Nicholl."
+    },
+    {
+      "id": "s183",
+      "text": "“Hurrah! bravo! hip! hip! hurrah!” cried Michel, giving a hand to each of the late adversaries."
+    },
+    {
+      "id": "s184",
+      "text": "“Now that it is all settled, my friends, allow me to treat you after French fashion."
+    },
+    {
+      "id": "s185",
+      "text": "Let us be off to breakfast!”"
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-12-through-the-looking-glass",
+  "ebookId": "12",
+  "edition": "Project Gutenberg eBook #12; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-5",
+  "chapterTitle": "CHAPTER V.",
+  "contentHash": "sha256:abd9a9d2b40b0b27d9da2fa78f9d80efc7400d07cca937fa09d7514eb0dce603",
+  "attribution": "Carroll, Lewis, 1832-1898, Through the Looking-Glass, CHAPTER V.. Source checked against Project Gutenberg eBook #12.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/12",
+    "textUrl": "https://www.gutenberg.org/cache/epub/12/pg12.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Wool and Water"
+    },
+    {
+      "id": "s2",
+      "text": "She caught the shawl as she spoke, and looked about for the owner: in another moment the White Queen came running wildly through the wood, with both arms stretched out wide, as if she were flying, and Alice very civilly went to meet her with the shawl."
+    },
+    {
+      "id": "s3",
+      "text": "“I’m very glad I happened to be in the way,” Alice said, as she helped her to put on her shawl again."
+    },
+    {
+      "id": "s4",
+      "text": "The White Queen only looked at her in a helpless frightened sort of way, and kept repeating something in a whisper to herself that sounded like “bread-and-butter, bread-and-butter,” and Alice felt that if there was to be any conversation at all, she must manage it herself."
+    },
+    {
+      "id": "s5",
+      "text": "So she began rather timidly: “Am I addressing the White Queen?”"
+    },
+    {
+      "id": "s6",
+      "text": "“Well, yes, if you call that a-dressing,” The Queen said."
+    },
+    {
+      "id": "s7",
+      "text": "“It isn’t _my_ notion of the thing, at all.”"
+    },
+    {
+      "id": "s8",
+      "text": "Alice thought it would never do to have an argument at the very beginning of their conversation, so she smiled and said, “If your Majesty will only tell me the right way to begin, I’ll do it as well as I can.”"
+    },
+    {
+      "id": "s9",
+      "text": "“But I don’t want it done at all!” groaned the poor Queen."
+    },
+    {
+      "id": "s10",
+      "text": "“I’ve been a-dressing myself for the last two hours.”"
+    },
+    {
+      "id": "s11",
+      "text": "It would have been all the better, as it seemed to Alice, if she had got some one else to dress her, she was so dreadfully untidy."
+    },
+    {
+      "id": "s12",
+      "text": "“Every single thing’s crooked,” Alice thought to herself, “and she’s all over pins!—may I put your shawl straight for you?” she added aloud."
+    },
+    {
+      "id": "s13",
+      "text": "“I don’t know what’s the matter with it!” the Queen said, in a melancholy voice."
+    },
+    {
+      "id": "s14",
+      "text": "“It’s out of temper, I think."
+    },
+    {
+      "id": "s15",
+      "text": "I’ve pinned it here, and I’ve pinned it there, but there’s no pleasing it!”"
+    },
+    {
+      "id": "s16",
+      "text": "“It _can’t_ go straight, you know, if you pin it all on one side,” Alice said, as she gently put it right for her; “and, dear me, what a state your hair is in!”"
+    },
+    {
+      "id": "s17",
+      "text": "“The brush has got entangled in it!” the Queen said with a sigh."
+    },
+    {
+      "id": "s18",
+      "text": "“And I lost the comb yesterday.”"
+    },
+    {
+      "id": "s19",
+      "text": "Alice carefully released the brush, and did her best to get the hair into order."
+    },
+    {
+      "id": "s20",
+      "text": "“Come, you look rather better now!” she said, after altering most of the pins."
+    },
+    {
+      "id": "s21",
+      "text": "“But really you should have a lady’s maid!”"
+    },
+    {
+      "id": "s22",
+      "text": "“I’m sure I’ll take you with pleasure!” the Queen said."
+    },
+    {
+      "id": "s23",
+      "text": "“Twopence a week, and jam every other day.”"
+    },
+    {
+      "id": "s24",
+      "text": "Alice couldn’t help laughing, as she said, “I don’t want you to hire _me_—and I don’t care for jam.”"
+    },
+    {
+      "id": "s25",
+      "text": "“It’s very good jam,” said the Queen."
+    },
+    {
+      "id": "s26",
+      "text": "“Well, I don’t want any _to-day_, at any rate.”"
+    },
+    {
+      "id": "s27",
+      "text": "“You couldn’t have it if you _did_ want it,” the Queen said."
+    },
+    {
+      "id": "s28",
+      "text": "“The rule is, jam to-morrow and jam yesterday—but never jam to-day.”"
+    },
+    {
+      "id": "s29",
+      "text": "“It _must_ come sometimes to ‘jam to-day,’” Alice objected."
+    },
+    {
+      "id": "s30",
+      "text": "“No, it can’t,” said the Queen."
+    },
+    {
+      "id": "s31",
+      "text": "“It’s jam every _other_ day: to-day isn’t any _other_ day, you know.”"
+    },
+    {
+      "id": "s32",
+      "text": "“I don’t understand you,” said Alice."
+    },
+    {
+      "id": "s33",
+      "text": "“It’s dreadfully confusing!”"
+    },
+    {
+      "id": "s34",
+      "text": "“That’s the effect of living backwards,” the Queen said kindly: “it always makes one a little giddy at first—”"
+    },
+    {
+      "id": "s35",
+      "text": "“Living backwards!” Alice repeated in great astonishment."
+    },
+    {
+      "id": "s36",
+      "text": "“I never heard of such a thing!”"
+    },
+    {
+      "id": "s37",
+      "text": "“—but there’s one great advantage in it, that one’s memory works both ways.”"
+    },
+    {
+      "id": "s38",
+      "text": "“I’m sure _mine_ only works one way,” Alice remarked."
+    },
+    {
+      "id": "s39",
+      "text": "“I can’t remember things before they happen.”"
+    },
+    {
+      "id": "s40",
+      "text": "“It’s a poor sort of memory that only works backwards,” the Queen remarked."
+    },
+    {
+      "id": "s41",
+      "text": "“What sort of things do _you_ remember best?” Alice ventured to ask."
+    },
+    {
+      "id": "s42",
+      "text": "“Oh, things that happened the week after next,” the Queen replied in a careless tone."
+    },
+    {
+      "id": "s43",
+      "text": "“For instance, now,” she went on, sticking a large piece of plaster on her finger as she spoke, “there’s the King’s Messenger."
+    },
+    {
+      "id": "s44",
+      "text": "He’s in prison now, being punished: and the trial doesn’t even begin till next Wednesday: and of course the crime comes last of all.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Suppose he never commits the crime?” said Alice."
+    },
+    {
+      "id": "s46",
+      "text": "“That would be all the better, wouldn’t it?” the Queen said, as she bound the plaster round her finger with a bit of ribbon."
+    },
+    {
+      "id": "s47",
+      "text": "Alice felt there was no denying _that_."
+    },
+    {
+      "id": "s48",
+      "text": "“Of course it would be all the better,” she said: “but it wouldn’t be all the better his being punished.”"
+    },
+    {
+      "id": "s49",
+      "text": "“You’re wrong _there_, at any rate,” said the Queen: “were _you_ ever punished?”"
+    },
+    {
+      "id": "s50",
+      "text": "“Only for faults,” said Alice."
+    },
+    {
+      "id": "s51",
+      "text": "“And you were all the better for it, I know!” the Queen said triumphantly."
+    },
+    {
+      "id": "s52",
+      "text": "“Yes, but then I _had_ done the things I was punished for,” said Alice: “that makes all the difference.”"
+    },
+    {
+      "id": "s53",
+      "text": "“But if you _hadn’t_ done them,” the Queen said, “that would have been better still; better, and better, and better!” Her voice went higher with each “better,” till it got quite to a squeak at last."
+    },
+    {
+      "id": "s54",
+      "text": "Alice was just beginning to say “There’s a mistake somewhere—,” when the Queen began screaming so loud that she had to leave the sentence unfinished."
+    },
+    {
+      "id": "s55",
+      "text": "“Oh, oh, oh!” shouted the Queen, shaking her hand about as if she wanted to shake it off."
+    },
+    {
+      "id": "s56",
+      "text": "“My finger’s bleeding!"
+    },
+    {
+      "id": "s57",
+      "text": "Oh, oh, oh, oh!”"
+    },
+    {
+      "id": "s58",
+      "text": "Her screams were so exactly like the whistle of a steam-engine, that Alice had to hold both her hands over her ears."
+    },
+    {
+      "id": "s59",
+      "text": "“What _is_ the matter?” she said, as soon as there was a chance of making herself heard."
+    },
+    {
+      "id": "s60",
+      "text": "“Have you pricked your finger?”"
+    },
+    {
+      "id": "s61",
+      "text": "“I haven’t pricked it _yet_,” the Queen said, “but I soon shall—oh, oh, oh!”"
+    },
+    {
+      "id": "s62",
+      "text": "“When do you expect to do it?” Alice asked, feeling very much inclined to laugh."
+    },
+    {
+      "id": "s63",
+      "text": "“When I fasten my shawl again,” the poor Queen groaned out: “the brooch will come undone directly."
+    },
+    {
+      "id": "s64",
+      "text": "Oh, oh!” As she said the words the brooch flew open, and the Queen clutched wildly at it, and tried to clasp it again."
+    },
+    {
+      "id": "s65",
+      "text": "“Take care!” cried Alice."
+    },
+    {
+      "id": "s66",
+      "text": "“You’re holding it all crooked!” And she caught at the brooch; but it was too late: the pin had slipped, and the Queen had pricked her finger."
+    },
+    {
+      "id": "s67",
+      "text": "“That accounts for the bleeding, you see,” she said to Alice with a smile."
+    },
+    {
+      "id": "s68",
+      "text": "“Now you understand the way things happen here.”"
+    },
+    {
+      "id": "s69",
+      "text": "“But why don’t you scream now?” Alice asked, holding her hands ready to put over her ears again."
+    },
+    {
+      "id": "s70",
+      "text": "“Why, I’ve done all the screaming already,” said the Queen."
+    },
+    {
+      "id": "s71",
+      "text": "“What would be the good of having it all over again?”"
+    },
+    {
+      "id": "s72",
+      "text": "By this time it was getting light."
+    },
+    {
+      "id": "s73",
+      "text": "“The crow must have flown away, I think,” said Alice: “I’m so glad it’s gone."
+    },
+    {
+      "id": "s74",
+      "text": "I thought it was the night coming on.”"
+    },
+    {
+      "id": "s75",
+      "text": "“I wish _I_ could manage to be glad!” the Queen said."
+    },
+    {
+      "id": "s76",
+      "text": "“Only I never can remember the rule."
+    },
+    {
+      "id": "s77",
+      "text": "You must be very happy, living in this wood, and being glad whenever you like!”"
+    },
+    {
+      "id": "s78",
+      "text": "“Only it is so _very_ lonely here!” Alice said in a melancholy voice; and at the thought of her loneliness two large tears came rolling down her cheeks."
+    },
+    {
+      "id": "s79",
+      "text": "“Oh, don’t go on like that!” cried the poor Queen, wringing her hands in despair."
+    },
+    {
+      "id": "s80",
+      "text": "“Consider what a great girl you are."
+    },
+    {
+      "id": "s81",
+      "text": "Consider what a long way you’ve come to-day."
+    },
+    {
+      "id": "s82",
+      "text": "Consider what o’clock it is."
+    },
+    {
+      "id": "s83",
+      "text": "Consider anything, only don’t cry!”"
+    },
+    {
+      "id": "s84",
+      "text": "Alice could not help laughing at this, even in the midst of her tears."
+    },
+    {
+      "id": "s85",
+      "text": "“Can _you_ keep from crying by considering things?” she asked."
+    },
+    {
+      "id": "s86",
+      "text": "“That’s the way it’s done,” the Queen said with great decision: “nobody can do two things at once, you know."
+    },
+    {
+      "id": "s87",
+      "text": "Let’s consider your age to begin with—how old are you?”"
+    },
+    {
+      "id": "s88",
+      "text": "“I’m seven and a half exactly.”"
+    },
+    {
+      "id": "s89",
+      "text": "“You needn’t say ‘exactually,’” the Queen remarked: “I can believe it without that."
+    },
+    {
+      "id": "s90",
+      "text": "Now I’ll give _you_ something to believe."
+    },
+    {
+      "id": "s91",
+      "text": "I’m just one hundred and one, five months and a day.”"
+    },
+    {
+      "id": "s92",
+      "text": "“I can’t believe _that_!” said Alice."
+    },
+    {
+      "id": "s93",
+      "text": "“Can’t you?” the Queen said in a pitying tone."
+    },
+    {
+      "id": "s94",
+      "text": "“Try again: draw a long breath, and shut your eyes.”"
+    },
+    {
+      "id": "s95",
+      "text": "Alice laughed."
+    },
+    {
+      "id": "s96",
+      "text": "“There’s no use trying,” she said: “one _can’t_ believe impossible things.”"
+    },
+    {
+      "id": "s97",
+      "text": "“I daresay you haven’t had much practice,” said the Queen."
+    },
+    {
+      "id": "s98",
+      "text": "“When I was your age, I always did it for half-an-hour a day."
+    },
+    {
+      "id": "s99",
+      "text": "Why, sometimes I’ve believed as many as six impossible things before breakfast."
+    },
+    {
+      "id": "s100",
+      "text": "There goes the shawl again!”"
+    },
+    {
+      "id": "s101",
+      "text": "The brooch had come undone as she spoke, and a sudden gust of wind blew the Queen’s shawl across a little brook."
+    },
+    {
+      "id": "s102",
+      "text": "The Queen spread out her arms again, and went flying after it, and this time she succeeded in catching it for herself."
+    },
+    {
+      "id": "s103",
+      "text": "“I’ve got it!” she cried in a triumphant tone."
+    },
+    {
+      "id": "s104",
+      "text": "“Now you shall see me pin it on again, all by myself!”"
+    },
+    {
+      "id": "s105",
+      "text": "“Then I hope your finger is better now?” Alice said very politely, as she crossed the little brook after the Queen."
+    },
+    {
+      "id": "s106",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s107",
+      "text": "* * * * * *"
+    },
+    {
+      "id": "s108",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s109",
+      "text": "“Oh, much better!” cried the Queen, her voice rising to a squeak as she went on."
+    },
+    {
+      "id": "s110",
+      "text": "“Much be-etter!"
+    },
+    {
+      "id": "s111",
+      "text": "Be-etter!"
+    },
+    {
+      "id": "s112",
+      "text": "Be-e-e-etter!"
+    },
+    {
+      "id": "s113",
+      "text": "Be-e-ehh!” The last word ended in a long bleat, so like a sheep that Alice quite started."
+    },
+    {
+      "id": "s114",
+      "text": "She looked at the Queen, who seemed to have suddenly wrapped herself up in wool."
+    },
+    {
+      "id": "s115",
+      "text": "Alice rubbed her eyes, and looked again."
+    },
+    {
+      "id": "s116",
+      "text": "She couldn’t make out what had happened at all."
+    },
+    {
+      "id": "s117",
+      "text": "Was she in a shop?"
+    },
+    {
+      "id": "s118",
+      "text": "And was that really—was it really a _sheep_ that was sitting on the other side of the counter?"
+    },
+    {
+      "id": "s119",
+      "text": "Rub as she could, she could make nothing more of it: she was in a little dark shop, leaning with her elbows on the counter, and opposite to her was an old Sheep, sitting in an arm-chair knitting, and every now and then leaving off to look at her through a great pair of spectacles."
+    },
+    {
+      "id": "s120",
+      "text": "“What is it you want to buy?” the Sheep said at last, looking up for a moment from her knitting."
+    },
+    {
+      "id": "s121",
+      "text": "“I don’t _quite_ know yet,” Alice said, very gently."
+    },
+    {
+      "id": "s122",
+      "text": "“I should like to look all round me first, if I might.”"
+    },
+    {
+      "id": "s123",
+      "text": "“You may look in front of you, and on both sides, if you like,” said the Sheep: “but you can’t look _all_ round you—unless you’ve got eyes at the back of your head.”"
+    },
+    {
+      "id": "s124",
+      "text": "But these, as it happened, Alice had _not_ got: so she contented herself with turning round, looking at the shelves as she came to them."
+    },
+    {
+      "id": "s125",
+      "text": "The shop seemed to be full of all manner of curious things—but the oddest part of it all was, that whenever she looked hard at any shelf, to make out exactly what it had on it, that particular shelf was always quite empty: though the others round it were crowded as full as they could hold."
+    },
+    {
+      "id": "s126",
+      "text": "“Things flow about so here!” she said at last in a plaintive tone, after she had spent a minute or so in vainly pursuing a large bright thing, that looked sometimes like a doll and sometimes like a work-box, and was always in the shelf next above the one she was looking at."
+    },
+    {
+      "id": "s127",
+      "text": "“And this one is the most provoking of all—but I’ll tell you what—” she added, as a sudden thought struck her, “I’ll follow it up to the very top shelf of all."
+    },
+    {
+      "id": "s128",
+      "text": "It’ll puzzle it to go through the ceiling, I expect!”"
+    },
+    {
+      "id": "s129",
+      "text": "But even this plan failed: the “thing” went through the ceiling as quietly as possible, as if it were quite used to it."
+    },
+    {
+      "id": "s130",
+      "text": "“Are you a child or a teetotum?” the Sheep said, as she took up another pair of needles."
+    },
+    {
+      "id": "s131",
+      "text": "“You’ll make me giddy soon, if you go on turning round like that.” She was now working with fourteen pairs at once, and Alice couldn’t help looking at her in great astonishment."
+    },
+    {
+      "id": "s132",
+      "text": "“How _can_ she knit with so many?” the puzzled child thought to herself."
+    },
+    {
+      "id": "s133",
+      "text": "“She gets more and more like a porcupine every minute!”"
+    },
+    {
+      "id": "s134",
+      "text": "“Can you row?” the Sheep asked, handing her a pair of knitting-needles as she spoke."
+    },
+    {
+      "id": "s135",
+      "text": "“Yes, a little—but not on land—and not with needles—” Alice was beginning to say, when suddenly the needles turned into oars in her hands, and she found they were in a little boat, gliding along between banks: so there was nothing for it but to do her best."
+    },
+    {
+      "id": "s136",
+      "text": "“Feather!” cried the Sheep, as she took up another pair of needles."
+    },
+    {
+      "id": "s137",
+      "text": "This didn’t sound like a remark that needed any answer, so Alice said nothing, but pulled away."
+    },
+    {
+      "id": "s138",
+      "text": "There was something very queer about the water, she thought, as every now and then the oars got fast in it, and would hardly come out again."
+    },
+    {
+      "id": "s139",
+      "text": "“Feather!"
+    },
+    {
+      "id": "s140",
+      "text": "Feather!” the Sheep cried again, taking more needles."
+    },
+    {
+      "id": "s141",
+      "text": "“You’ll be catching a crab directly.”"
+    },
+    {
+      "id": "s142",
+      "text": "“A dear little crab!” thought Alice."
+    },
+    {
+      "id": "s143",
+      "text": "“I should like that.”"
+    },
+    {
+      "id": "s144",
+      "text": "“Didn’t you hear me say ‘Feather’?” the Sheep cried angrily, taking up quite a bunch of needles."
+    },
+    {
+      "id": "s145",
+      "text": "“Indeed I did,” said Alice: “you’ve said it very often—and very loud."
+    },
+    {
+      "id": "s146",
+      "text": "Please, where _are_ the crabs?”"
+    },
+    {
+      "id": "s147",
+      "text": "“In the water, of course!” said the Sheep, sticking some of the needles into her hair, as her hands were full."
+    },
+    {
+      "id": "s148",
+      "text": "“Feather, I say!”"
+    },
+    {
+      "id": "s149",
+      "text": "“_Why_ do you say ‘feather’ so often?” Alice asked at last, rather vexed."
+    },
+    {
+      "id": "s150",
+      "text": "“I’m not a bird!”"
+    },
+    {
+      "id": "s151",
+      "text": "“You are,” said the Sheep: “you’re a little goose.”"
+    },
+    {
+      "id": "s152",
+      "text": "This offended Alice a little, so there was no more conversation for a minute or two, while the boat glided gently on, sometimes among beds of weeds (which made the oars stick fast in the water, worse then ever), and sometimes under trees, but always with the same tall river-banks frowning over their heads."
+    },
+    {
+      "id": "s153",
+      "text": "“Oh, please!"
+    },
+    {
+      "id": "s154",
+      "text": "There are some scented rushes!” Alice cried in a sudden transport of delight."
+    },
+    {
+      "id": "s155",
+      "text": "“There really are—and _such_ beauties!”"
+    },
+    {
+      "id": "s156",
+      "text": "“You needn’t say ‘please’ to _me_ about ’em,” the Sheep said, without looking up from her knitting: “I didn’t put ’em there, and I’m not going to take ’em away.”"
+    },
+    {
+      "id": "s157",
+      "text": "“No, but I meant—please, may we wait and pick some?” Alice pleaded."
+    },
+    {
+      "id": "s158",
+      "text": "“If you don’t mind stopping the boat for a minute.”"
+    },
+    {
+      "id": "s159",
+      "text": "“How am _I_ to stop it?” said the Sheep."
+    },
+    {
+      "id": "s160",
+      "text": "“If you leave off rowing, it’ll stop of itself.”"
+    },
+    {
+      "id": "s161",
+      "text": "So the boat was left to drift down the stream as it would, till it glided gently in among the waving rushes."
+    },
+    {
+      "id": "s162",
+      "text": "And then the little sleeves were carefully rolled up, and the little arms were plunged in elbow-deep to get the rushes a good long way down before breaking them off—and for a while Alice forgot all about the Sheep and the knitting, as she bent over the side of the boat, with just the ends of her tangled hair dipping into the water—while with bright eager eyes she caught at one bunch after another of the darling scented rushes."
+    },
+    {
+      "id": "s163",
+      "text": "“I only hope the boat won’t tipple over!” she said to herself."
+    },
+    {
+      "id": "s164",
+      "text": "“Oh, _what_ a lovely one!"
+    },
+    {
+      "id": "s165",
+      "text": "Only I couldn’t quite reach it.” And it certainly _did_ seem a little provoking (“almost as if it happened on purpose,” she thought) that, though she managed to pick plenty of beautiful rushes as the boat glided by, there was always a more lovely one that she couldn’t reach."
+    },
+    {
+      "id": "s166",
+      "text": "“The prettiest are always further!” she said at last, with a sigh at the obstinacy of the rushes in growing so far off, as, with flushed cheeks and dripping hair and hands, she scrambled back into her place, and began to arrange her new-found treasures."
+    },
+    {
+      "id": "s167",
+      "text": "What mattered it to her just then that the rushes had begun to fade, and to lose all their scent and beauty, from the very moment that she picked them?"
+    },
+    {
+      "id": "s168",
+      "text": "Even real scented rushes, you know, last only a very little while—and these, being dream-rushes, melted away almost like snow, as they lay in heaps at her feet—but Alice hardly noticed this, there were so many other curious things to think about."
+    },
+    {
+      "id": "s169",
+      "text": "They hadn’t gone much farther before the blade of one of the oars got fast in the water and _wouldn’t_ come out again (so Alice explained it afterwards), and the consequence was that the handle of it caught her under the chin, and, in spite of a series of little shrieks of “Oh, oh, oh!” from poor Alice, it swept her straight off the seat, and down among the heap of rushes."
+    },
+    {
+      "id": "s170",
+      "text": "However, she wasn’t hurt, and was soon up again: the Sheep went on with her knitting all the while, just as if nothing had happened."
+    },
+    {
+      "id": "s171",
+      "text": "“That was a nice crab you caught!” she remarked, as Alice got back into her place, very much relieved to find herself still in the boat."
+    },
+    {
+      "id": "s172",
+      "text": "“Was it?"
+    },
+    {
+      "id": "s173",
+      "text": "I didn’t see it,” Said Alice, peeping cautiously over the side of the boat into the dark water."
+    },
+    {
+      "id": "s174",
+      "text": "“I wish it hadn’t let go—I should so like to see a little crab to take home with me!” But the Sheep only laughed scornfully, and went on with her knitting."
+    },
+    {
+      "id": "s175",
+      "text": "“Are there many crabs here?” said Alice."
+    },
+    {
+      "id": "s176",
+      "text": "“Crabs, and all sorts of things,” said the Sheep: “plenty of choice, only make up your mind."
+    },
+    {
+      "id": "s177",
+      "text": "Now, what _do_ you want to buy?”"
+    },
+    {
+      "id": "s178",
+      "text": "“To buy!” Alice echoed in a tone that was half astonished and half frightened—for the oars, and the boat, and the river, had vanished all in a moment, and she was back again in the little dark shop."
+    },
+    {
+      "id": "s179",
+      "text": "“I should like to buy an egg, please,” she said timidly."
+    },
+    {
+      "id": "s180",
+      "text": "“How do you sell them?”"
+    },
+    {
+      "id": "s181",
+      "text": "“Fivepence farthing for one—Twopence for two,” the Sheep replied."
+    },
+    {
+      "id": "s182",
+      "text": "“Then two are cheaper than one?” Alice said in a surprised tone, taking out her purse."
+    },
+    {
+      "id": "s183",
+      "text": "“Only you _must_ eat them both, if you buy two,” said the Sheep."
+    },
+    {
+      "id": "s184",
+      "text": "“Then I’ll have _one_, please,” said Alice, as she put the money down on the counter."
+    },
+    {
+      "id": "s185",
+      "text": "For she thought to herself, “They mightn’t be at all nice, you know.”"
+    },
+    {
+      "id": "s186",
+      "text": "The Sheep took the money, and put it away in a box: then she said “I never put things into people’s hands—that would never do—you must get it for yourself.” And so saying, she went off to the other end of the shop, and set the egg upright on a shelf."
+    },
+    {
+      "id": "s187",
+      "text": "“I wonder _why_ it wouldn’t do?” thought Alice, as she groped her way among the tables and chairs, for the shop was very dark towards the end."
+    },
+    {
+      "id": "s188",
+      "text": "“The egg seems to get further away the more I walk towards it."
+    },
+    {
+      "id": "s189",
+      "text": "Let me see, is this a chair?"
+    },
+    {
+      "id": "s190",
+      "text": "Why, it’s got branches, I declare!"
+    },
+    {
+      "id": "s191",
+      "text": "How very odd to find trees growing here!"
+    },
+    {
+      "id": "s192",
+      "text": "And actually here’s a little brook!"
+    },
+    {
+      "id": "s193",
+      "text": "Well, this is the very queerest shop I ever saw!”"
+    },
+    {
+      "id": "s194",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s195",
+      "text": "* * * * * *"
+    },
+    {
+      "id": "s196",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s197",
+      "text": "So she went on, wondering more and more at every step, as everything turned into a tree the moment she came up to it, and she quite expected the egg to do the same."
+    }
+  ]
+}

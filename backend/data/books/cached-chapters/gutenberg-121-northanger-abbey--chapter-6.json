@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-121-northanger-abbey",
+  "ebookId": "121",
+  "edition": "Project Gutenberg eBook #121; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-6",
+  "chapterTitle": "CHAPTER 6",
+  "contentHash": "sha256:677334cc4d9be57d0f3482ba52160808c26de9ff16d83f786cb09d9555643f2b",
+  "attribution": "Austen, Jane, 1775-1817, Northanger Abbey, CHAPTER 6. Source checked against Project Gutenberg eBook #121.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/121",
+    "textUrl": "https://www.gutenberg.org/cache/epub/121/pg121.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The following conversation, which took place between the two friends in the pump-room one morning, after an acquaintance of eight or nine days, is given as a specimen of their very warm attachment, and of the delicacy, discretion, originality of thought, and literary taste which marked the reasonableness of that attachment."
+    },
+    {
+      "id": "s2",
+      "text": "They met by appointment; and as Isabella had arrived nearly five minutes before her friend, her first address naturally was, “My dearest creature, what can have made you so late?"
+    },
+    {
+      "id": "s3",
+      "text": "I have been waiting for you at least this age!”"
+    },
+    {
+      "id": "s4",
+      "text": "“Have you, indeed! i am very sorry for it; but really I thought I was in very good time."
+    },
+    {
+      "id": "s5",
+      "text": "It is but just one."
+    },
+    {
+      "id": "s6",
+      "text": "I hope you have not been here long?”"
+    },
+    {
+      "id": "s7",
+      "text": "“Oh! these ten ages at least."
+    },
+    {
+      "id": "s8",
+      "text": "I am sure I have been here this half hour."
+    },
+    {
+      "id": "s9",
+      "text": "But now, let us go and sit down at the other end of the room, and enjoy ourselves."
+    },
+    {
+      "id": "s10",
+      "text": "I have an hundred things to say to you."
+    },
+    {
+      "id": "s11",
+      "text": "In the first place, I was so afraid it would rain this morning, just as I wanted to set off; it looked very showery, and that would have thrown me into agonies! do you know, I saw the prettiest hat you can imagine, in a shop window in Milsom Street just now—very like yours, only with coquelicot ribbons instead of green; I quite longed for it."
+    },
+    {
+      "id": "s12",
+      "text": "But, my dearest Catherine, what have you been doing with yourself all this morning?"
+    },
+    {
+      "id": "s13",
+      "text": "Have you gone on with Udolpho?”"
+    },
+    {
+      "id": "s14",
+      "text": "“Yes, I have been reading it ever since I woke; and I am got to the black veil.”"
+    },
+    {
+      "id": "s15",
+      "text": "“Are you, indeed?"
+    },
+    {
+      "id": "s16",
+      "text": "How delightful! oh! i would not tell you what is behind the black veil for the world! are not you wild to know?”"
+    },
+    {
+      "id": "s17",
+      "text": "“Oh! yes, quite; what can it be?"
+    },
+    {
+      "id": "s18",
+      "text": "But do not tell me—I would not be told upon any account."
+    },
+    {
+      "id": "s19",
+      "text": "I know it must be a skeleton, I am sure it is Laurentina’s skeleton."
+    },
+    {
+      "id": "s20",
+      "text": "Oh! i am delighted with the book! i should like to spend my whole life in reading it."
+    },
+    {
+      "id": "s21",
+      "text": "I assure you, if it had not been to meet you, I would not have come away from it for all the world.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Dear creature! how much I am obliged to you; and when you have finished Udolpho, we will read the Italian together; and I have made out a list of ten or twelve more of the same kind for you.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Have you, indeed! how glad I am! what are they all?”"
+    },
+    {
+      "id": "s24",
+      "text": "“I will read you their names directly; here they are, in my pocketbook."
+    },
+    {
+      "id": "s25",
+      "text": "Castle of Wolfenbach, Clermont, Mysterious Warnings, Necromancer of the Black Forest, Midnight Bell, Orphan of the Rhine, and Horrid Mysteries."
+    },
+    {
+      "id": "s26",
+      "text": "Those will last us some time.”"
+    },
+    {
+      "id": "s27",
+      "text": "“Yes, pretty well; but are they all horrid, are you sure they are all horrid?”"
+    },
+    {
+      "id": "s28",
+      "text": "“Yes, quite sure; for a particular friend of mine, a Miss Andrews, a sweet girl, one of the sweetest creatures in the world, has read every one of them."
+    },
+    {
+      "id": "s29",
+      "text": "I wish you knew Miss Andrews, you would be delighted with her."
+    },
+    {
+      "id": "s30",
+      "text": "She is netting herself the sweetest cloak you can conceive."
+    },
+    {
+      "id": "s31",
+      "text": "I think her as beautiful as an angel, and I am so vexed with the men for not admiring her! i scold them all amazingly about it.”"
+    },
+    {
+      "id": "s32",
+      "text": "“Scold them! do you scold them for not admiring her?”"
+    },
+    {
+      "id": "s33",
+      "text": "“Yes, that I do."
+    },
+    {
+      "id": "s34",
+      "text": "There is nothing I would not do for those who are really my friends."
+    },
+    {
+      "id": "s35",
+      "text": "I have no notion of loving people by halves; it is not my nature."
+    },
+    {
+      "id": "s36",
+      "text": "My attachments are always excessively strong."
+    },
+    {
+      "id": "s37",
+      "text": "I told Captain Hunt at one of our assemblies this winter that if he was to tease me all night, I would not dance with him, unless he would allow Miss Andrews to be as beautiful as an angel."
+    },
+    {
+      "id": "s38",
+      "text": "The men think us incapable of real friendship, you know, and I am determined to show them the difference."
+    },
+    {
+      "id": "s39",
+      "text": "Now, if I were to hear anybody speak slightingly of you, I should fire up in a moment: but that is not at all likely, for _you_ are just the kind of girl to be a great favourite with the men.”"
+    },
+    {
+      "id": "s40",
+      "text": "“Oh, dear!” cried Catherine, colouring."
+    },
+    {
+      "id": "s41",
+      "text": "“How can you say so?”"
+    },
+    {
+      "id": "s42",
+      "text": "“I know you very well; you have so much animation, which is exactly what Miss Andrews wants, for I must confess there is something amazingly insipid about her."
+    },
+    {
+      "id": "s43",
+      "text": "Oh! i must tell you, that just after we parted yesterday, I saw a young man looking at you so earnestly—I am sure he is in love with you.” Catherine coloured, and disclaimed again."
+    },
+    {
+      "id": "s44",
+      "text": "Isabella laughed."
+    },
+    {
+      "id": "s45",
+      "text": "“It is very true, upon my honour, but I see how it is; you are indifferent to everybody’s admiration, except that of one gentleman, who shall be nameless."
+    },
+    {
+      "id": "s46",
+      "text": "Nay, I cannot blame you”—speaking more seriously—“your feelings are easily understood."
+    },
+    {
+      "id": "s47",
+      "text": "Where the heart is really attached, I know very well how little one can be pleased with the attention of anybody else."
+    },
+    {
+      "id": "s48",
+      "text": "Everything is so insipid, so uninteresting, that does not relate to the beloved object! i can perfectly comprehend your feelings.”"
+    },
+    {
+      "id": "s49",
+      "text": "“But you should not persuade me that I think so very much about Mr."
+    },
+    {
+      "id": "s50",
+      "text": "Tilney, for perhaps I may never see him again.”"
+    },
+    {
+      "id": "s51",
+      "text": "“Not see him again! my dearest creature, do not talk of it."
+    },
+    {
+      "id": "s52",
+      "text": "I am sure you would be miserable if you thought so!”"
+    },
+    {
+      "id": "s53",
+      "text": "“No, indeed, I should not."
+    },
+    {
+      "id": "s54",
+      "text": "I do not pretend to say that I was not very much pleased with him; but while I have Udolpho to read, I feel as if nobody could make me miserable."
+    },
+    {
+      "id": "s55",
+      "text": "Oh! the dreadful black veil! my dear Isabella, I am sure there must be Laurentina’s skeleton behind it.”"
+    },
+    {
+      "id": "s56",
+      "text": "“It is so odd to me, that you should never have read Udolpho before; but I suppose Mrs."
+    },
+    {
+      "id": "s57",
+      "text": "Morland objects to novels.”"
+    },
+    {
+      "id": "s58",
+      "text": "“No, she does not."
+    },
+    {
+      "id": "s59",
+      "text": "She very often reads Sir Charles Grandison herself; but new books do not fall in our way.”"
+    },
+    {
+      "id": "s60",
+      "text": "“Sir Charles Grandison! that is an amazing horrid book, is it not?"
+    },
+    {
+      "id": "s61",
+      "text": "I remember Miss Andrews could not get through the first volume.”"
+    },
+    {
+      "id": "s62",
+      "text": "“It is not like Udolpho at all; but yet I think it is very entertaining.”"
+    },
+    {
+      "id": "s63",
+      "text": "“Do you indeed! you surprise me; I thought it had not been readable."
+    },
+    {
+      "id": "s64",
+      "text": "But, my dearest Catherine, have you settled what to wear on your head to-night?"
+    },
+    {
+      "id": "s65",
+      "text": "I am determined at all events to be dressed exactly like you."
+    },
+    {
+      "id": "s66",
+      "text": "The men take notice of _that_ sometimes, you know.”"
+    },
+    {
+      "id": "s67",
+      "text": "“But it does not signify if they do,” said Catherine, very innocently."
+    },
+    {
+      "id": "s68",
+      "text": "“Signify! oh, heavens! i make it a rule never to mind what they say."
+    },
+    {
+      "id": "s69",
+      "text": "They are very often amazingly impertinent if you do not treat them with spirit, and make them keep their distance.”"
+    },
+    {
+      "id": "s70",
+      "text": "“Are they?"
+    },
+    {
+      "id": "s71",
+      "text": "Well, I never observed _that_."
+    },
+    {
+      "id": "s72",
+      "text": "They always behave very well to me.”"
+    },
+    {
+      "id": "s73",
+      "text": "“Oh! they give themselves such airs."
+    },
+    {
+      "id": "s74",
+      "text": "They are the most conceited creatures in the world, and think themselves of so much importance! by the by, though I have thought of it a hundred times, I have always forgot to ask you what is your favourite complexion in a man."
+    },
+    {
+      "id": "s75",
+      "text": "Do you like them best dark or fair?”"
+    },
+    {
+      "id": "s76",
+      "text": "“I hardly know."
+    },
+    {
+      "id": "s77",
+      "text": "I never much thought about it."
+    },
+    {
+      "id": "s78",
+      "text": "Something between both, I think."
+    },
+    {
+      "id": "s79",
+      "text": "Brown—not fair, and—and not very dark.”"
+    },
+    {
+      "id": "s80",
+      "text": "“Very well, Catherine."
+    },
+    {
+      "id": "s81",
+      "text": "That is exactly he."
+    },
+    {
+      "id": "s82",
+      "text": "I have not forgot your description of Mr."
+    },
+    {
+      "id": "s83",
+      "text": "Tilney—‘a brown skin, with dark eyes, and rather dark hair.’ Well, my taste is different."
+    },
+    {
+      "id": "s84",
+      "text": "I prefer light eyes, and as to complexion—do you know—I like a sallow better than any other."
+    },
+    {
+      "id": "s85",
+      "text": "You must not betray me, if you should ever meet with one of your acquaintance answering that description.”"
+    },
+    {
+      "id": "s86",
+      "text": "“Betray you! what do you mean?”"
+    },
+    {
+      "id": "s87",
+      "text": "“Nay, do not distress me."
+    },
+    {
+      "id": "s88",
+      "text": "I believe I have said too much."
+    },
+    {
+      "id": "s89",
+      "text": "Let us drop the subject.”"
+    },
+    {
+      "id": "s90",
+      "text": "Catherine, in some amazement, complied, and after remaining a few moments silent, was on the point of reverting to what interested her at that time rather more than anything else in the world, Laurentina’s skeleton, when her friend prevented her, by saying, “For heaven’s sake!"
+    },
+    {
+      "id": "s91",
+      "text": "Let us move away from this end of the room."
+    },
+    {
+      "id": "s92",
+      "text": "Do you know, there are two odious young men who have been staring at me this half hour."
+    },
+    {
+      "id": "s93",
+      "text": "They really put me quite out of countenance."
+    },
+    {
+      "id": "s94",
+      "text": "Let us go and look at the arrivals."
+    },
+    {
+      "id": "s95",
+      "text": "They will hardly follow us there.”"
+    },
+    {
+      "id": "s96",
+      "text": "Away they walked to the book; and while Isabella examined the names, it was Catherine’s employment to watch the proceedings of these alarming young men."
+    },
+    {
+      "id": "s97",
+      "text": "“They are not coming this way, are they?"
+    },
+    {
+      "id": "s98",
+      "text": "I hope they are not so impertinent as to follow us."
+    },
+    {
+      "id": "s99",
+      "text": "Pray let me know if they are coming."
+    },
+    {
+      "id": "s100",
+      "text": "I am determined I will not look up.”"
+    },
+    {
+      "id": "s101",
+      "text": "In a few moments Catherine, with unaffected pleasure, assured her that she need not be longer uneasy, as the gentlemen had just left the pump-room."
+    },
+    {
+      "id": "s102",
+      "text": "“And which way are they gone?” said Isabella, turning hastily round."
+    },
+    {
+      "id": "s103",
+      "text": "“One was a very good-looking young man.”"
+    },
+    {
+      "id": "s104",
+      "text": "“They went towards the church-yard.”"
+    },
+    {
+      "id": "s105",
+      "text": "“Well, I am amazingly glad I have got rid of them! and now, what say you to going to Edgar’s Buildings with me, and looking at my new hat?"
+    },
+    {
+      "id": "s106",
+      "text": "You said you should like to see it.”"
+    },
+    {
+      "id": "s107",
+      "text": "Catherine readily agreed."
+    },
+    {
+      "id": "s108",
+      "text": "“Only,” she added, “perhaps we may overtake the two young men.”"
+    },
+    {
+      "id": "s109",
+      "text": "“Oh! never mind that."
+    },
+    {
+      "id": "s110",
+      "text": "If we make haste, we shall pass by them presently, and I am dying to show you my hat.”"
+    },
+    {
+      "id": "s111",
+      "text": "“But if we only wait a few minutes, there will be no danger of our seeing them at all.”"
+    },
+    {
+      "id": "s112",
+      "text": "“I shall not pay them any such compliment, I assure you."
+    },
+    {
+      "id": "s113",
+      "text": "I have no notion of treating men with such respect. _That_ is the way to spoil them.”"
+    },
+    {
+      "id": "s114",
+      "text": "Catherine had nothing to oppose against such reasoning; and therefore, to show the independence of Miss Thorpe, and her resolution of humbling the sex, they set off immediately as fast as they could walk, in pursuit of the two young men."
+    }
+  ]
+}

@@ -1,0 +1,861 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-8",
+  "chapterTitle": "Part 2 — CHAPTER VIII",
+  "contentHash": "sha256:76a57870afe649e223fb8becbb61d19f3d27ea251ef770ad4308c0e74ea4c624",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, Part 2 — CHAPTER VIII. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "VIGO BAY"
+    },
+    {
+      "id": "s2",
+      "text": "The Atlantic! a vast sheet of water whose superficial area covers twenty-five millions of square miles, the length of which is nine thousand miles, with a mean breadth of two thousand seven hundred—an ocean whose parallel winding shores embrace an immense circumference, watered by the largest rivers of the world, the St."
+    },
+    {
+      "id": "s3",
+      "text": "Lawrence, the Mississippi, the Amazon, the Plata, the Orinoco, the Niger, the Senegal, the Elbe, the Loire, and the Rhine, which carry water from the most civilised, as well as from the most savage, countries!"
+    },
+    {
+      "id": "s4",
+      "text": "Magnificent field of water, incessantly ploughed by vessels of every nation, sheltered by the flags of every nation, and which terminates in those two terrible points so dreaded by mariners, Cape Horn and the Cape of Tempests."
+    },
+    {
+      "id": "s5",
+      "text": "The _Nautilus_ was piercing the water with its sharp spur, after having accomplished nearly ten thousand leagues in three months and a half, a distance greater than the great circle of the earth."
+    },
+    {
+      "id": "s6",
+      "text": "Where were we going now, and what was reserved for the future?"
+    },
+    {
+      "id": "s7",
+      "text": "The _Nautilus_, leaving the Straits of Gibraltar, had gone far out."
+    },
+    {
+      "id": "s8",
+      "text": "It returned to the surface of the waves, and our daily walks on the platform were restored to us."
+    },
+    {
+      "id": "s9",
+      "text": "I mounted at once, accompanied by Ned Land and Conseil."
+    },
+    {
+      "id": "s10",
+      "text": "At a distance of about twelve miles, Cape St."
+    },
+    {
+      "id": "s11",
+      "text": "Vincent was dimly to be seen, forming the south-western point of the Spanish peninsula."
+    },
+    {
+      "id": "s12",
+      "text": "A strong southerly gale was blowing."
+    },
+    {
+      "id": "s13",
+      "text": "The sea was swollen and billowy; it made the _Nautilus_ rock violently."
+    },
+    {
+      "id": "s14",
+      "text": "It was almost impossible to keep one’s foot on the platform, which the heavy rolls of the sea beat over every instant."
+    },
+    {
+      "id": "s15",
+      "text": "So we descended after inhaling some mouthfuls of fresh air."
+    },
+    {
+      "id": "s16",
+      "text": "I returned to my room, Conseil to his cabin; but the Canadian, with a preoccupied air, followed me."
+    },
+    {
+      "id": "s17",
+      "text": "Our rapid passage across the Mediterranean had not allowed him to put his project into execution, and he could not help showing his disappointment."
+    },
+    {
+      "id": "s18",
+      "text": "When the door of my room was shut, he sat down and looked at me silently."
+    },
+    {
+      "id": "s19",
+      "text": "“Friend Ned,” said I, “I understand you; but you cannot reproach yourself."
+    },
+    {
+      "id": "s20",
+      "text": "To have attempted to leave the _Nautilus_ under the circumstances would have been folly.”"
+    },
+    {
+      "id": "s21",
+      "text": "Ned Land did not answer; his compressed lips and frowning brow showed with him the violent possession this fixed idea had taken of his mind."
+    },
+    {
+      "id": "s22",
+      "text": "“Let us see,” I continued; “we need not despair yet."
+    },
+    {
+      "id": "s23",
+      "text": "We are going up the coast of Portugal again; France and England are not far off, where we can easily find refuge."
+    },
+    {
+      "id": "s24",
+      "text": "Now if the _Nautilus_, on leaving the Straits of Gibraltar, had gone to the south, if it had carried us towards regions where there were no continents, I should share your uneasiness."
+    },
+    {
+      "id": "s25",
+      "text": "But we know now that Captain Nemo does not fly from civilised seas, and in some days I think you can act with security.”"
+    },
+    {
+      "id": "s26",
+      "text": "Ned Land still looked at me fixedly; at length his fixed lips parted, and he said, “It is for to-night.”"
+    },
+    {
+      "id": "s27",
+      "text": "I drew myself up suddenly."
+    },
+    {
+      "id": "s28",
+      "text": "I was, I admit, little prepared for this communication."
+    },
+    {
+      "id": "s29",
+      "text": "I wanted to answer the Canadian, but words would not come."
+    },
+    {
+      "id": "s30",
+      "text": "“We agreed to wait for an opportunity,” continued Ned Land, “and the opportunity has arrived."
+    },
+    {
+      "id": "s31",
+      "text": "This night we shall be but a few miles from the Spanish coast."
+    },
+    {
+      "id": "s32",
+      "text": "It is cloudy."
+    },
+    {
+      "id": "s33",
+      "text": "The wind blows freely."
+    },
+    {
+      "id": "s34",
+      "text": "I have your word, M."
+    },
+    {
+      "id": "s35",
+      "text": "Aronnax, and I rely upon you.”"
+    },
+    {
+      "id": "s36",
+      "text": "As I was silent, the Canadian approached me."
+    },
+    {
+      "id": "s37",
+      "text": "“To-night, at nine o’clock,” said he."
+    },
+    {
+      "id": "s38",
+      "text": "“I have warned Conseil."
+    },
+    {
+      "id": "s39",
+      "text": "At that moment Captain Nemo will be shut up in his room, probably in bed."
+    },
+    {
+      "id": "s40",
+      "text": "Neither the engineers nor the ship’s crew can see us."
+    },
+    {
+      "id": "s41",
+      "text": "Conseil and I will gain the central staircase, and you, M."
+    },
+    {
+      "id": "s42",
+      "text": "Aronnax, will remain in the library, two steps from us, waiting my signal."
+    },
+    {
+      "id": "s43",
+      "text": "The oars, the mast, and the sail are in the canoe."
+    },
+    {
+      "id": "s44",
+      "text": "I have even succeeded in getting some provisions."
+    },
+    {
+      "id": "s45",
+      "text": "I have procured an English wrench, to unfasten the bolts which attach it to the shell of the _Nautilus_."
+    },
+    {
+      "id": "s46",
+      "text": "So all is ready, till to-night.”"
+    },
+    {
+      "id": "s47",
+      "text": "“The sea is bad.”"
+    },
+    {
+      "id": "s48",
+      "text": "“That I allow,” replied the Canadian; “but we must risk that."
+    },
+    {
+      "id": "s49",
+      "text": "Liberty is worth paying for; besides, the boat is strong, and a few miles with a fair wind to carry us is no great thing."
+    },
+    {
+      "id": "s50",
+      "text": "Who knows but by to-morrow we may be a hundred leagues away?"
+    },
+    {
+      "id": "s51",
+      "text": "Let circumstances only favour us, and by ten or eleven o’clock we shall have landed on some spot of terra firma, alive or dead."
+    },
+    {
+      "id": "s52",
+      "text": "But adieu now till to-night.”"
+    },
+    {
+      "id": "s53",
+      "text": "With these words the Canadian withdrew, leaving me almost dumb."
+    },
+    {
+      "id": "s54",
+      "text": "I had imagined that, the chance gone, I should have time to reflect and discuss the matter."
+    },
+    {
+      "id": "s55",
+      "text": "My obstinate companion had given me no time; and, after all, what could I have said to him?"
+    },
+    {
+      "id": "s56",
+      "text": "Ned Land was perfectly right."
+    },
+    {
+      "id": "s57",
+      "text": "There was almost the opportunity to profit by."
+    },
+    {
+      "id": "s58",
+      "text": "Could I retract my word, and take upon myself the responsibility of compromising the future of my companions?"
+    },
+    {
+      "id": "s59",
+      "text": "To-morrow Captain Nemo might take us far from all land."
+    },
+    {
+      "id": "s60",
+      "text": "At that moment a rather loud hissing noise told me that the reservoirs were filling, and that the _Nautilus_ was sinking under the waves of the Atlantic."
+    },
+    {
+      "id": "s61",
+      "text": "A sad day I passed, between the desire of regaining my liberty of action and of abandoning the wonderful _Nautilus_, and leaving my submarine studies incomplete."
+    },
+    {
+      "id": "s62",
+      "text": "What dreadful hours I passed thus!"
+    },
+    {
+      "id": "s63",
+      "text": "Sometimes seeing myself and companions safely landed, sometimes wishing, in spite of my reason, that some unforeseen circumstance, would prevent the realisation of Ned Land’s project."
+    },
+    {
+      "id": "s64",
+      "text": "Twice I went to the saloon."
+    },
+    {
+      "id": "s65",
+      "text": "I wished to consult the compass."
+    },
+    {
+      "id": "s66",
+      "text": "I wished to see if the direction the _Nautilus_ was taking was bringing us nearer or taking us farther from the coast."
+    },
+    {
+      "id": "s67",
+      "text": "But no; the _Nautilus_ kept in Portuguese waters."
+    },
+    {
+      "id": "s68",
+      "text": "I must therefore take my part and prepare for flight."
+    },
+    {
+      "id": "s69",
+      "text": "My luggage was not heavy; my notes, nothing more."
+    },
+    {
+      "id": "s70",
+      "text": "As to Captain Nemo, I asked myself what he would think of our escape; what trouble, what wrong it might cause him and what he might do in case of its discovery or failure."
+    },
+    {
+      "id": "s71",
+      "text": "Certainly I had no cause to complain of him; on the contrary, never was hospitality freer than his."
+    },
+    {
+      "id": "s72",
+      "text": "In leaving him I could not be taxed with ingratitude."
+    },
+    {
+      "id": "s73",
+      "text": "No oath bound us to him."
+    },
+    {
+      "id": "s74",
+      "text": "It was on the strength of circumstances he relied, and not upon our word, to fix us for ever."
+    },
+    {
+      "id": "s75",
+      "text": "I had not seen the Captain since our visit to the Island of Santorin."
+    },
+    {
+      "id": "s76",
+      "text": "Would chance bring me to his presence before our departure?"
+    },
+    {
+      "id": "s77",
+      "text": "I wished it, and I feared it at the same time."
+    },
+    {
+      "id": "s78",
+      "text": "I listened if I could hear him walking the room contiguous to mine."
+    },
+    {
+      "id": "s79",
+      "text": "No sound reached my ear."
+    },
+    {
+      "id": "s80",
+      "text": "I felt an unbearable uneasiness."
+    },
+    {
+      "id": "s81",
+      "text": "This day of waiting seemed eternal."
+    },
+    {
+      "id": "s82",
+      "text": "Hours struck too slowly to keep pace with my impatience."
+    },
+    {
+      "id": "s83",
+      "text": "My dinner was served in my room as usual."
+    },
+    {
+      "id": "s84",
+      "text": "I ate but little; I was too preoccupied."
+    },
+    {
+      "id": "s85",
+      "text": "I left the table at seven o’clock."
+    },
+    {
+      "id": "s86",
+      "text": "A hundred and twenty minutes (I counted them) still separated me from the moment in which I was to join Ned Land."
+    },
+    {
+      "id": "s87",
+      "text": "My agitation redoubled."
+    },
+    {
+      "id": "s88",
+      "text": "My pulse beat violently."
+    },
+    {
+      "id": "s89",
+      "text": "I could not remain quiet."
+    },
+    {
+      "id": "s90",
+      "text": "I went and came, hoping to calm my troubled spirit by constant movement."
+    },
+    {
+      "id": "s91",
+      "text": "The idea of failure in our bold enterprise was the least painful of my anxieties; but the thought of seeing our project discovered before leaving the _Nautilus_, of being brought before Captain Nemo, irritated, or (what was worse) saddened, at my desertion, made my heart beat."
+    },
+    {
+      "id": "s92",
+      "text": "I wanted to see the saloon for the last time."
+    },
+    {
+      "id": "s93",
+      "text": "I descended the stairs and arrived in the museum, where I had passed so many useful and agreeable hours."
+    },
+    {
+      "id": "s94",
+      "text": "I looked at all its riches, all its treasures, like a man on the eve of an eternal exile, who was leaving never to return."
+    },
+    {
+      "id": "s95",
+      "text": "These wonders of Nature, these masterpieces of art, amongst which for so many days my life had been concentrated, I was going to abandon them for ever!"
+    },
+    {
+      "id": "s96",
+      "text": "I should like to have taken a last look through the windows of the saloon into the waters of the Atlantic: but the panels were hermetically closed, and a cloak of steel separated me from that ocean which I had not yet explored."
+    },
+    {
+      "id": "s97",
+      "text": "In passing through the saloon, I came near the door let into the angle which opened into the Captain’s room."
+    },
+    {
+      "id": "s98",
+      "text": "To my great surprise, this door was ajar."
+    },
+    {
+      "id": "s99",
+      "text": "I drew back involuntarily."
+    },
+    {
+      "id": "s100",
+      "text": "If Captain Nemo should be in his room, he could see me."
+    },
+    {
+      "id": "s101",
+      "text": "But, hearing no sound, I drew nearer."
+    },
+    {
+      "id": "s102",
+      "text": "The room was deserted."
+    },
+    {
+      "id": "s103",
+      "text": "I pushed open the door and took some steps forward."
+    },
+    {
+      "id": "s104",
+      "text": "Still the same monklike severity of aspect."
+    },
+    {
+      "id": "s105",
+      "text": "Suddenly the clock struck eight."
+    },
+    {
+      "id": "s106",
+      "text": "The first beat of the hammer on the bell awoke me from my dreams."
+    },
+    {
+      "id": "s107",
+      "text": "I trembled as if an invisible eye had plunged into my most secret thoughts, and I hurried from the room."
+    },
+    {
+      "id": "s108",
+      "text": "There my eye fell upon the compass."
+    },
+    {
+      "id": "s109",
+      "text": "Our course was still north."
+    },
+    {
+      "id": "s110",
+      "text": "The log indicated moderate speed, the manometer a depth of about sixty feet."
+    },
+    {
+      "id": "s111",
+      "text": "I returned to my room, clothed myself warmly—sea boots, an otterskin cap, a great coat of byssus, lined with sealskin; I was ready, I was waiting."
+    },
+    {
+      "id": "s112",
+      "text": "The vibration of the screw alone broke the deep silence which reigned on board."
+    },
+    {
+      "id": "s113",
+      "text": "I listened attentively."
+    },
+    {
+      "id": "s114",
+      "text": "Would no loud voice suddenly inform me that Ned Land had been surprised in his projected flight."
+    },
+    {
+      "id": "s115",
+      "text": "A mortal dread hung over me, and I vainly tried to regain my accustomed coolness."
+    },
+    {
+      "id": "s116",
+      "text": "At a few minutes to nine, I put my ear to the Captain’s door."
+    },
+    {
+      "id": "s117",
+      "text": "No noise."
+    },
+    {
+      "id": "s118",
+      "text": "I left my room and returned to the saloon, which was half in obscurity, but deserted."
+    },
+    {
+      "id": "s119",
+      "text": "I opened the door communicating with the library."
+    },
+    {
+      "id": "s120",
+      "text": "The same insufficient light, the same solitude."
+    },
+    {
+      "id": "s121",
+      "text": "I placed myself near the door leading to the central staircase, and there waited for Ned Land’s signal."
+    },
+    {
+      "id": "s122",
+      "text": "At that moment the trembling of the screw sensibly diminished, then it stopped entirely."
+    },
+    {
+      "id": "s123",
+      "text": "The silence was now only disturbed by the beatings of my own heart."
+    },
+    {
+      "id": "s124",
+      "text": "Suddenly a slight shock was felt; and I knew that the _Nautilus_ had stopped at the bottom of the ocean."
+    },
+    {
+      "id": "s125",
+      "text": "My uneasiness increased."
+    },
+    {
+      "id": "s126",
+      "text": "The Canadian’s signal did not come."
+    },
+    {
+      "id": "s127",
+      "text": "I felt inclined to join Ned Land and beg of him to put off his attempt."
+    },
+    {
+      "id": "s128",
+      "text": "I felt that we were not sailing under our usual conditions."
+    },
+    {
+      "id": "s129",
+      "text": "At this moment the door of the large saloon opened, and Captain Nemo appeared."
+    },
+    {
+      "id": "s130",
+      "text": "He saw me, and without further preamble began in an amiable tone of voice:"
+    },
+    {
+      "id": "s131",
+      "text": "“Ah, sir!"
+    },
+    {
+      "id": "s132",
+      "text": "I have been looking for you."
+    },
+    {
+      "id": "s133",
+      "text": "Do you know the history of Spain?”"
+    },
+    {
+      "id": "s134",
+      "text": "Now, one might know the history of one’s own country by heart; but in the condition I was at the time, with troubled mind and head quite lost, I could not have said a word of it."
+    },
+    {
+      "id": "s135",
+      "text": "“Well,” continued Captain Nemo, “you heard my question!"
+    },
+    {
+      "id": "s136",
+      "text": "Do you know the history of Spain?”"
+    },
+    {
+      "id": "s137",
+      "text": "“Very slightly,” I answered."
+    },
+    {
+      "id": "s138",
+      "text": "“Well, here are learned men having to learn,” said the Captain."
+    },
+    {
+      "id": "s139",
+      "text": "“Come, sit down, and I will tell you a curious episode in this history."
+    },
+    {
+      "id": "s140",
+      "text": "Sir, listen well,” said he; “this history will interest you on one side, for it will answer a question which doubtless you have not been able to solve.”"
+    },
+    {
+      "id": "s141",
+      "text": "“I listen, Captain,” said I, not knowing what my interlocutor was driving at, and asking myself if this incident was bearing on our projected flight."
+    },
+    {
+      "id": "s142",
+      "text": "“Sir, if you have no objection, we will go back to 1702."
+    },
+    {
+      "id": "s143",
+      "text": "You cannot be ignorant that your king, Louis XIV, thinking that the gesture of a potentate was sufficient to bring the Pyrenees under his yoke, had imposed the Duke of Anjou, his grandson, on the Spaniards."
+    },
+    {
+      "id": "s144",
+      "text": "This prince reigned more or less badly under the name of Philip V, and had a strong party against him abroad."
+    },
+    {
+      "id": "s145",
+      "text": "Indeed, the preceding year, the royal houses of Holland, Austria, and England had concluded a treaty of alliance at the Hague, with the intention of plucking the crown of Spain from the head of Philip V, and placing it on that of an archduke to whom they prematurely gave the title of Charles III."
+    },
+    {
+      "id": "s146",
+      "text": "“Spain must resist this coalition; but she was almost entirely unprovided with either soldiers or sailors."
+    },
+    {
+      "id": "s147",
+      "text": "However, money would not fail them, provided that their galleons, laden with gold and silver from America, once entered their ports."
+    },
+    {
+      "id": "s148",
+      "text": "And about the end of 1702 they expected a rich convoy which France was escorting with a fleet of twenty-three vessels, commanded by Admiral Chateau-Renaud, for the ships of the coalition were already beating the Atlantic."
+    },
+    {
+      "id": "s149",
+      "text": "This convoy was to go to Cadiz, but the Admiral, hearing that an English fleet was cruising in those waters, resolved to make for a French port."
+    },
+    {
+      "id": "s150",
+      "text": "“The Spanish commanders of the convoy objected to this decision."
+    },
+    {
+      "id": "s151",
+      "text": "They wanted to be taken to a Spanish port, and, if not to Cadiz, into Vigo Bay, situated on the northwest coast of Spain, and which was not blocked."
+    },
+    {
+      "id": "s152",
+      "text": "“Admiral Chateau-Renaud had the rashness to obey this injunction, and the galleons entered Vigo Bay."
+    },
+    {
+      "id": "s153",
+      "text": "“Unfortunately, it formed an open road which could not be defended in any way."
+    },
+    {
+      "id": "s154",
+      "text": "They must therefore hasten to unload the galleons before the arrival of the combined fleet; and time would not have failed them had not a miserable question of rivalry suddenly arisen."
+    },
+    {
+      "id": "s155",
+      "text": "“You are following the chain of events?” asked Captain Nemo."
+    },
+    {
+      "id": "s156",
+      "text": "“Perfectly,” said I, not knowing the end proposed by this historical lesson."
+    },
+    {
+      "id": "s157",
+      "text": "“I will continue."
+    },
+    {
+      "id": "s158",
+      "text": "This is what passed."
+    },
+    {
+      "id": "s159",
+      "text": "The merchants of Cadiz had a privilege by which they had the right of receiving all merchandise coming from the West Indies."
+    },
+    {
+      "id": "s160",
+      "text": "Now, to disembark these ingots at the port of Vigo was depriving them of their rights."
+    },
+    {
+      "id": "s161",
+      "text": "They complained at Madrid, and obtained the consent of the weak-minded Philip that the convoy, without discharging its cargo, should remain sequestered in the roads of Vigo until the enemy had disappeared."
+    },
+    {
+      "id": "s162",
+      "text": "“But whilst coming to this decision, on the 22nd of October, 1702, the English vessels arrived in Vigo Bay, when Admiral Chateau-Renaud, in spite of inferior forces, fought bravely."
+    },
+    {
+      "id": "s163",
+      "text": "But, seeing that the treasure must fall into the enemy’s hands, he burnt and scuttled every galleon, which went to the bottom with their immense riches.”"
+    },
+    {
+      "id": "s164",
+      "text": "Captain Nemo stopped."
+    },
+    {
+      "id": "s165",
+      "text": "I admit I could not see yet why this history should interest me."
+    },
+    {
+      "id": "s166",
+      "text": "“Well?” I asked."
+    },
+    {
+      "id": "s167",
+      "text": "“Well, M."
+    },
+    {
+      "id": "s168",
+      "text": "Aronnax,” replied Captain Nemo, “we are in that Vigo Bay; and it rests with yourself whether you will penetrate its mysteries.”"
+    },
+    {
+      "id": "s169",
+      "text": "The Captain rose, telling me to follow him."
+    },
+    {
+      "id": "s170",
+      "text": "I had had time to recover."
+    },
+    {
+      "id": "s171",
+      "text": "I obeyed."
+    },
+    {
+      "id": "s172",
+      "text": "The saloon was dark, but through the transparent glass the waves were sparkling."
+    },
+    {
+      "id": "s173",
+      "text": "I looked."
+    },
+    {
+      "id": "s174",
+      "text": "For half a mile around the _Nautilus_, the waters seemed bathed in electric light."
+    },
+    {
+      "id": "s175",
+      "text": "The sandy bottom was clean and bright."
+    },
+    {
+      "id": "s176",
+      "text": "Some of the ship’s crew in their diving-dresses were clearing away half-rotten barrels and empty cases from the midst of the blackened wrecks."
+    },
+    {
+      "id": "s177",
+      "text": "From these cases and from these barrels escaped ingots of gold and silver, cascades of piastres and jewels."
+    },
+    {
+      "id": "s178",
+      "text": "The sand was heaped up with them."
+    },
+    {
+      "id": "s179",
+      "text": "Laden with their precious booty, the men returned to the _Nautilus_, disposed of their burden, and went back to this inexhaustible fishery of gold and silver."
+    },
+    {
+      "id": "s180",
+      "text": "I understood now."
+    },
+    {
+      "id": "s181",
+      "text": "This was the scene of the battle of the 22nd of October, 1702."
+    },
+    {
+      "id": "s182",
+      "text": "Here on this very spot the galleons laden for the Spanish Government had sunk."
+    },
+    {
+      "id": "s183",
+      "text": "Here Captain Nemo came, according to his wants, to pack up those millions with which he burdened the _Nautilus_."
+    },
+    {
+      "id": "s184",
+      "text": "It was for him and him alone America had given up her precious metals."
+    },
+    {
+      "id": "s185",
+      "text": "He was heir direct, without anyone to share, in those treasures torn from the Incas and from the conquered of Ferdinand Cortez."
+    },
+    {
+      "id": "s186",
+      "text": "“Did you know, sir,” he asked, smiling, “that the sea contained such riches?”"
+    },
+    {
+      "id": "s187",
+      "text": "“I knew,” I answered, “that they value money held in suspension in these waters at two millions.”"
+    },
+    {
+      "id": "s188",
+      "text": "“Doubtless; but to extract this money the expense would be greater than the profit."
+    },
+    {
+      "id": "s189",
+      "text": "Here, on the contrary, I have but to pick up what man has lost—and not only in Vigo Bay, but in a thousand other ports where shipwrecks have happened, and which are marked on my submarine map."
+    },
+    {
+      "id": "s190",
+      "text": "Can you understand now the source of the millions I am worth?”"
+    },
+    {
+      "id": "s191",
+      "text": "“I understand, Captain."
+    },
+    {
+      "id": "s192",
+      "text": "But allow me to tell you that in exploring Vigo Bay you have only been beforehand with a rival society.”"
+    },
+    {
+      "id": "s193",
+      "text": "“And which?”"
+    },
+    {
+      "id": "s194",
+      "text": "“A society which has received from the Spanish Government the privilege of seeking those buried galleons."
+    },
+    {
+      "id": "s195",
+      "text": "The shareholders are led on by the allurement of an enormous bounty, for they value these rich shipwrecks at five hundred millions.”"
+    },
+    {
+      "id": "s196",
+      "text": "“Five hundred millions they were,” answered Captain Nemo, “but they are so no longer.”"
+    },
+    {
+      "id": "s197",
+      "text": "“Just so,” said I; “and a warning to those shareholders would be an act of charity."
+    },
+    {
+      "id": "s198",
+      "text": "But who knows if it would be well received?"
+    },
+    {
+      "id": "s199",
+      "text": "What gamblers usually regret above all is less the loss of their money than of their foolish hopes."
+    },
+    {
+      "id": "s200",
+      "text": "After all, I pity them less than the thousands of unfortunates to whom so much riches well-distributed would have been profitable, whilst for them they will be for ever barren.”"
+    },
+    {
+      "id": "s201",
+      "text": "I had no sooner expressed this regret than I felt that it must have wounded Captain Nemo."
+    },
+    {
+      "id": "s202",
+      "text": "“Barren!” he exclaimed, with animation."
+    },
+    {
+      "id": "s203",
+      "text": "“Do you think then, sir, that these riches are lost because I gather them?"
+    },
+    {
+      "id": "s204",
+      "text": "Is it for myself alone, according to your idea, that I take the trouble to collect these treasures?"
+    },
+    {
+      "id": "s205",
+      "text": "Who told you that I did not make a good use of it?"
+    },
+    {
+      "id": "s206",
+      "text": "Do you think I am ignorant that there are suffering beings and oppressed races on this earth, miserable creatures to console, victims to avenge?"
+    },
+    {
+      "id": "s207",
+      "text": "Do you not understand?”"
+    },
+    {
+      "id": "s208",
+      "text": "Captain Nemo stopped at these last words, regretting perhaps that he had spoken so much."
+    },
+    {
+      "id": "s209",
+      "text": "But I had guessed that, whatever the motive which had forced him to seek independence under the sea, it had left him still a man, that his heart still beat for the sufferings of humanity, and that his immense charity was for oppressed races as well as individuals."
+    },
+    {
+      "id": "s210",
+      "text": "And I then understood for whom those millions were destined which were forwarded by Captain Nemo when the _Nautilus_ was cruising in the waters of Crete."
+    }
+  ]
+}

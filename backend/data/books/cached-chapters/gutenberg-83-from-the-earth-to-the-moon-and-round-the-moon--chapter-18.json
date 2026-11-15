@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-18",
+  "chapterTitle": "CHAPTER XVIII.",
+  "contentHash": "sha256:7e07cecde5c96eca331bbae81d6119f8e3b4eb1d4d39f2ebacd7bc71b7559e25",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, CHAPTER XVIII.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE PASSENGER OF THE ATLANTA"
+    },
+    {
+      "id": "s2",
+      "text": "If this astounding news, instead of flying through the electric wires, had simply arrived by post in the ordinary sealed envelope, Barbicane would not have hesitated a moment."
+    },
+    {
+      "id": "s3",
+      "text": "He would have held his tongue about it, both as a measure of prudence, and in order not to have to reconsider his plans."
+    },
+    {
+      "id": "s4",
+      "text": "This telegram might be a cover for some jest, especially as it came from a Frenchman."
+    },
+    {
+      "id": "s5",
+      "text": "What human being would ever have conceived the idea of such a journey? and, if such a person really existed, he must be an idiot, whom one would shut up in a lunatic ward, rather than within the walls of the projectile."
+    },
+    {
+      "id": "s6",
+      "text": "The contents of the dispatch, however, speedily became known; for the telegraphic officials possessed but little discretion, and Michel Ardan’s proposition ran at once throughout the several States of the Union."
+    },
+    {
+      "id": "s7",
+      "text": "Barbicane, had, therefore, no further motives for keeping silence."
+    },
+    {
+      "id": "s8",
+      "text": "Consequently, he called together such of his colleagues as were at the moment in Tampa Town, and without any expression of his own opinions simply read to them the laconic text itself."
+    },
+    {
+      "id": "s9",
+      "text": "It was received with every possible variety of expressions of doubt, incredulity, and derision from every one, with the exception of J."
+    },
+    {
+      "id": "s10",
+      "text": "T."
+    },
+    {
+      "id": "s11",
+      "text": "Maston, who exclaimed, “It is a grand idea, however!”"
+    },
+    {
+      "id": "s12",
+      "text": "When Barbicane originally proposed to send a shot to the moon every one looked upon the enterprise as simple and practicable enough—a mere question of gunnery; but when a person, professing to be a reasonable being, offered to take passage within the projectile, the whole thing became a farce, or, in plainer language a humbug."
+    },
+    {
+      "id": "s13",
+      "text": "One question, however, remained."
+    },
+    {
+      "id": "s14",
+      "text": "Did such a being exist?"
+    },
+    {
+      "id": "s15",
+      "text": "This telegram flashed across the depths of the Atlantic, the designation of the vessel on board which he was to take his passage, the date assigned for his speedy arrival, all combined to impart a certain character of reality to the proposal."
+    },
+    {
+      "id": "s16",
+      "text": "They must get some clearer notion of the matter."
+    },
+    {
+      "id": "s17",
+      "text": "Scattered groups of inquirers at length condensed themselves into a compact crowd, which made straight for the residence of President Barbicane."
+    },
+    {
+      "id": "s18",
+      "text": "That worthy individual was keeping quiet with the intention of watching events as they arose."
+    },
+    {
+      "id": "s19",
+      "text": "But he had forgotten to take into account the public impatience; and it was with no pleasant countenance that he watched the population of Tampa Town gathering under his windows."
+    },
+    {
+      "id": "s20",
+      "text": "The murmurs and vociferations below presently obliged him to appear."
+    },
+    {
+      "id": "s21",
+      "text": "He came forward, therefore, and on silence being procured, a citizen put point-blank to him the following question: “Is the person mentioned in the telegram, under the name of Michel Ardan, on his way here?"
+    },
+    {
+      "id": "s22",
+      "text": "Yes or no.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Gentlemen,” replied Barbicane, “I know no more than you do.”"
+    },
+    {
+      "id": "s24",
+      "text": "“We must know,” roared the impatient voices."
+    },
+    {
+      "id": "s25",
+      "text": "“Time will show,” calmly replied the president."
+    },
+    {
+      "id": "s26",
+      "text": "“Time has no business to keep a whole country in suspense,” replied the orator."
+    },
+    {
+      "id": "s27",
+      "text": "“Have you altered the plans of the projectile according to the request of the telegram?”"
+    },
+    {
+      "id": "s28",
+      "text": "“Not yet, gentlemen; but you are right! we must have better information to go by."
+    },
+    {
+      "id": "s29",
+      "text": "The telegraph must complete its information.”"
+    },
+    {
+      "id": "s30",
+      "text": "“To the telegraph!” roared the crowd."
+    },
+    {
+      "id": "s31",
+      "text": "Barbicane descended; and heading the immense assemblage, led the way to the telegraph office."
+    },
+    {
+      "id": "s32",
+      "text": "A few minutes later a telegram was dispatched to the secretary of the underwriters at Liverpool, requesting answers to the following queries:"
+    },
+    {
+      "id": "s33",
+      "text": "“About the ship Atlanta—when did she leave Europe?"
+    },
+    {
+      "id": "s34",
+      "text": "Had she on board a Frenchman named Michel Ardan?”"
+    },
+    {
+      "id": "s35",
+      "text": "Two hours afterward Barbicane received information too exact to leave room for the smallest remaining doubt."
+    },
+    {
+      "id": "s36",
+      "text": "“The steamer Atlanta from Liverpool put to sea on the 2nd of October, bound for Tampa Town, having on board a Frenchman borne on the list of passengers by the name of Michel Ardan.”"
+    },
+    {
+      "id": "s37",
+      "text": "That very evening he wrote to the house of Breadwill and Co., requesting them to suspend the casting of the projectile until the receipt of further orders."
+    },
+    {
+      "id": "s38",
+      "text": "On the 10th of October, at nine A.M., the semaphores of the Bahama Canal signaled a thick smoke on the horizon."
+    },
+    {
+      "id": "s39",
+      "text": "Two hours later a large steamer exchanged signals with them. the name of the Atlanta flew at once over Tampa Town."
+    },
+    {
+      "id": "s40",
+      "text": "At four o’clock the English vessel entered the Bay of Espiritu Santo."
+    },
+    {
+      "id": "s41",
+      "text": "At five it crossed the passage of Hillisborough Bay at full steam."
+    },
+    {
+      "id": "s42",
+      "text": "At six she cast anchor at Port Tampa."
+    },
+    {
+      "id": "s43",
+      "text": "The anchor had scarcely caught the sandy bottom when five hundred boats surrounded the Atlanta, and the steamer was taken by assault."
+    },
+    {
+      "id": "s44",
+      "text": "Barbicane was the first to set foot on deck, and in a voice of which he vainly tried to conceal the emotion, called “Michel Ardan.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Here!” replied an individual perched on the poop."
+    },
+    {
+      "id": "s46",
+      "text": "Barbicane, with arms crossed, looked fixedly at the passenger of the Atlanta."
+    },
+    {
+      "id": "s47",
+      "text": "He was a man of about forty-two years of age, of large build, but slightly round-shouldered."
+    },
+    {
+      "id": "s48",
+      "text": "His massive head momentarily shook a shock of reddish hair, which resembled a lion’s mane."
+    },
+    {
+      "id": "s49",
+      "text": "His face was short with a broad forehead, and furnished with a moustache as bristly as a cat’s, and little patches of yellowish whiskers upon full cheeks."
+    },
+    {
+      "id": "s50",
+      "text": "Round, wildish eyes, slightly near-sighted, completed a physiognomy essentially feline."
+    },
+    {
+      "id": "s51",
+      "text": "His nose was firmly shaped, his mouth particularly sweet in expression, high forehead, intelligent and furrowed with wrinkles like a newly-plowed field."
+    },
+    {
+      "id": "s52",
+      "text": "The body was powerfully developed and firmly fixed upon long legs."
+    },
+    {
+      "id": "s53",
+      "text": "Muscular arms, and a general air of decision gave him the appearance of a hardy, jolly, companion."
+    },
+    {
+      "id": "s54",
+      "text": "He was dressed in a suit of ample dimensions, loose neckerchief, open shirtcollar, disclosing a robust neck; his cuffs were invariably unbuttoned, through which appeared a pair of red hands."
+    },
+    {
+      "id": "s55",
+      "text": "On the bridge of the steamer, in the midst of the crowd, he bustled to and fro, never still for a moment, “dragging his anchors,” as the sailors say, gesticulating, making free with everybody, biting his nails with nervous avidity."
+    },
+    {
+      "id": "s56",
+      "text": "He was one of those originals which nature sometimes invents in the freak of a moment, and of which she then breaks the mould."
+    },
+    {
+      "id": "s57",
+      "text": "Among other peculiarities, this curiosity gave himself out for a sublime ignoramus, “like Shakespeare,” and professed supreme contempt for all scientific men."
+    },
+    {
+      "id": "s58",
+      "text": "Those “fellows,” as he called them, “are only fit to mark the points, while we play the game.” He was, in fact, a thorough Bohemian, adventurous, but not an adventurer; a hare-brained fellow, a kind of Icarus, only possessing relays of wings."
+    },
+    {
+      "id": "s59",
+      "text": "For the rest, he was ever in scrapes, ending invariably by falling on his feet, like those little figures which they sell for children’s toys."
+    },
+    {
+      "id": "s60",
+      "text": "In a few words, his motto was “I have my opinions,” and the love of the impossible constituted his ruling passion."
+    },
+    {
+      "id": "s61",
+      "text": "Such was the passenger of the Atlanta, always excitable, as if boiling under the action of some internal fire by the character of his physical organization."
+    },
+    {
+      "id": "s62",
+      "text": "If ever two individuals offered a striking contrast to each other, these were certainly Michel Ardan and the Yankee Barbicane; both, moreover, being equally enterprising and daring, each in his own way."
+    },
+    {
+      "id": "s63",
+      "text": "The scrutiny which the president of the Gun Club had instituted regarding this new rival was quickly interrupted by the shouts and hurrahs of the crowd."
+    },
+    {
+      "id": "s64",
+      "text": "The cries became at last so uproarious, and the popular enthusiasm assumed so personal a form, that Michel Ardan, after having shaken hands some thousands of times, at the imminent risk of leaving his fingers behind him, was fain at last to make a bolt for his cabin."
+    },
+    {
+      "id": "s65",
+      "text": "Barbicane followed him without uttering a word."
+    },
+    {
+      "id": "s66",
+      "text": "“You are Barbicane, I suppose?” said Michel Ardan, in a tone of voice in which he would have addressed a friend of twenty years’ standing."
+    },
+    {
+      "id": "s67",
+      "text": "“Yes,” replied the president of the Gun Club."
+    },
+    {
+      "id": "s68",
+      "text": "“All right! how d’ye do, Barbicane? how are you getting on—pretty well? that’s right.”"
+    },
+    {
+      "id": "s69",
+      "text": "“So,” said Barbicane without further preliminary, “you are quite determined to go.”"
+    },
+    {
+      "id": "s70",
+      "text": "“Quite decided.”"
+    },
+    {
+      "id": "s71",
+      "text": "“Nothing will stop you?”"
+    },
+    {
+      "id": "s72",
+      "text": "“Nothing."
+    },
+    {
+      "id": "s73",
+      "text": "Have you modified your projectile according to my telegram.”"
+    },
+    {
+      "id": "s74",
+      "text": "“I waited for your arrival."
+    },
+    {
+      "id": "s75",
+      "text": "But,” asked Barbicane again, “have you carefully reflected?”"
+    },
+    {
+      "id": "s76",
+      "text": "“Reflected? have I any time to spare?"
+    },
+    {
+      "id": "s77",
+      "text": "I find an opportunity of making a tour in the moon, and I mean to profit by it."
+    },
+    {
+      "id": "s78",
+      "text": "There is the whole gist of the matter.”"
+    },
+    {
+      "id": "s79",
+      "text": "Barbicane looked hard at this man who spoke so lightly of his project with such complete absence of anxiety."
+    },
+    {
+      "id": "s80",
+      "text": "“But, at least,” said he, “you have some plans, some means of carrying your project into execution?”"
+    },
+    {
+      "id": "s81",
+      "text": "“Excellent, my dear Barbicane; only permit me to offer one remark: My wish is to tell my story once for all, to everybody, and then have done with it; then there will be no need for recapitulation."
+    },
+    {
+      "id": "s82",
+      "text": "So, if you have no objection, assemble your friends, colleagues, the whole town, all Florida, all America if you like, and to-morrow I shall be ready to explain my plans and answer any objections whatever that may be advanced."
+    },
+    {
+      "id": "s83",
+      "text": "You may rest assured I shall wait without stirring."
+    },
+    {
+      "id": "s84",
+      "text": "Will that suit you?”"
+    },
+    {
+      "id": "s85",
+      "text": "“All right,” replied Barbicane."
+    },
+    {
+      "id": "s86",
+      "text": "So saying, the president left the cabin and informed the crowd of the proposal of Michel Ardan."
+    },
+    {
+      "id": "s87",
+      "text": "His words were received with clappings of hands and shouts of joy."
+    },
+    {
+      "id": "s88",
+      "text": "They had removed all difficulties."
+    },
+    {
+      "id": "s89",
+      "text": "To-morrow every one would contemplate at his ease this European hero."
+    },
+    {
+      "id": "s90",
+      "text": "However, some of the spectators, more infatuated than the rest, would not leave the deck of the Atlanta."
+    },
+    {
+      "id": "s91",
+      "text": "They passed the night on board."
+    },
+    {
+      "id": "s92",
+      "text": "Among others J."
+    },
+    {
+      "id": "s93",
+      "text": "T."
+    },
+    {
+      "id": "s94",
+      "text": "Maston got his hook fixed in the combing of the poop, and it pretty nearly required the capstan to get it out again."
+    },
+    {
+      "id": "s95",
+      "text": "“He is a hero! a hero!” he cried, a theme of which he was never tired of ringing the changes; “and we are only like weak, silly women, compared with this European!”"
+    },
+    {
+      "id": "s96",
+      "text": "As to the president, after having suggested to the visitors it was time to retire, he re-entered the passenger’s cabin, and remained there till the bell of the steamer made it midnight."
+    },
+    {
+      "id": "s97",
+      "text": "But then the two rivals in popularity shook hands heartily and parted on terms of intimate friendship."
+    }
+  ]
+}

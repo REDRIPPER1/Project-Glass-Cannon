@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-20",
+  "chapterTitle": "CHAPTER XX",
+  "contentHash": "sha256:65ca4bcf9a4f25b45c604bdd042ae724c7604d2b20d190d3f5f7df296041eeec",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, CHAPTER XX. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A FEW DAYS ON LAND"
+    },
+    {
+      "id": "s2",
+      "text": "I was much impressed on touching land."
+    },
+    {
+      "id": "s3",
+      "text": "Ned Land tried the soil with his feet, as if to take possession of it."
+    },
+    {
+      "id": "s4",
+      "text": "However, it was only two months before that we had become, according to Captain Nemo, “passengers on board the _Nautilus_,” but, in reality, prisoners of its commander."
+    },
+    {
+      "id": "s5",
+      "text": "In a few minutes we were within musket-shot of the coast."
+    },
+    {
+      "id": "s6",
+      "text": "The whole horizon was hidden behind a beautiful curtain of forests."
+    },
+    {
+      "id": "s7",
+      "text": "Enormous trees, the trunks of which attained a height of 200 feet, were tied to each other by garlands of bindweed, real natural hammocks, which a light breeze rocked."
+    },
+    {
+      "id": "s8",
+      "text": "They were mimosas, figs, hibisci, and palm trees, mingled together in profusion; and under the shelter of their verdant vault grew orchids, leguminous plants, and ferns."
+    },
+    {
+      "id": "s9",
+      "text": "But, without noticing all these beautiful specimens of Papuan flora, the Canadian abandoned the agreeable for the useful."
+    },
+    {
+      "id": "s10",
+      "text": "He discovered a coco-tree, beat down some of the fruit, broke them, and we drunk the milk and ate the nut with a satisfaction that protested against the ordinary food on the _Nautilus_."
+    },
+    {
+      "id": "s11",
+      "text": "“Excellent!” said Ned Land."
+    },
+    {
+      "id": "s12",
+      "text": "“Exquisite!” replied Conseil."
+    },
+    {
+      "id": "s13",
+      "text": "“And I do not think,” said the Canadian, “that he would object to our introducing a cargo of coco-nuts on board.”"
+    },
+    {
+      "id": "s14",
+      "text": "“I do not think he would, but he would not taste them.”"
+    },
+    {
+      "id": "s15",
+      "text": "“So much the worse for him,” said Conseil."
+    },
+    {
+      "id": "s16",
+      "text": "“And so much the better for us,” replied Ned Land."
+    },
+    {
+      "id": "s17",
+      "text": "“There will be more for us.”"
+    },
+    {
+      "id": "s18",
+      "text": "“One word only, Master Land,” I said to the harpooner, who was beginning to ravage another coco-nut tree."
+    },
+    {
+      "id": "s19",
+      "text": "“Coco-nuts are good things, but before filling the canoe with them it would be wise to reconnoitre and see if the island does not produce some substance not less useful."
+    },
+    {
+      "id": "s20",
+      "text": "Fresh vegetables would be welcome on board the _Nautilus_.”"
+    },
+    {
+      "id": "s21",
+      "text": "“Master is right,” replied Conseil; “and I propose to reserve three places in our vessel, one for fruits, the other for vegetables, and the third for the venison, of which I have not yet seen the smallest specimen.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Conseil, we must not despair,” said the Canadian."
+    },
+    {
+      "id": "s23",
+      "text": "“Let us continue,” I returned, “and lie in wait."
+    },
+    {
+      "id": "s24",
+      "text": "Although the island seems uninhabited, it might still contain some individuals that would be less hard than we on the nature of game.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Ho! ho!” said Ned Land, moving his jaws significantly."
+    },
+    {
+      "id": "s26",
+      "text": "“Well, Ned!” said Conseil."
+    },
+    {
+      "id": "s27",
+      "text": "“My word!” returned the Canadian, “I begin to understand the charms of anthropophagy.”"
+    },
+    {
+      "id": "s28",
+      "text": "“Ned!"
+    },
+    {
+      "id": "s29",
+      "text": "Ned! what are you saying?"
+    },
+    {
+      "id": "s30",
+      "text": "You, a man-eater?"
+    },
+    {
+      "id": "s31",
+      "text": "I should not feel safe with you, especially as I share your cabin."
+    },
+    {
+      "id": "s32",
+      "text": "I might perhaps wake one day to find myself half devoured.”"
+    },
+    {
+      "id": "s33",
+      "text": "“Friend Conseil, I like you much, but not enough to eat you unnecessarily.”"
+    },
+    {
+      "id": "s34",
+      "text": "“I would not trust you,” replied Conseil."
+    },
+    {
+      "id": "s35",
+      "text": "“But enough."
+    },
+    {
+      "id": "s36",
+      "text": "We must absolutely bring down some game to satisfy this cannibal, or else one of these fine mornings, master will find only pieces of his servant to serve him.”"
+    },
+    {
+      "id": "s37",
+      "text": "While we were talking thus, we were penetrating the sombre arches of the forest, and for two hours we surveyed it in all directions."
+    },
+    {
+      "id": "s38",
+      "text": "Chance rewarded our search for eatable vegetables, and one of the most useful products of the tropical zones furnished us with precious food that we missed on board."
+    },
+    {
+      "id": "s39",
+      "text": "I would speak of the bread-fruit tree, very abundant in the island of Gilboa; and I remarked chiefly the variety destitute of seeds, which bears in Malaya the name of “rima.”"
+    },
+    {
+      "id": "s40",
+      "text": "Ned Land knew these fruits well."
+    },
+    {
+      "id": "s41",
+      "text": "He had already eaten many during his numerous voyages, and he knew how to prepare the eatable substance."
+    },
+    {
+      "id": "s42",
+      "text": "Moreover, the sight of them excited him, and he could contain himself no longer."
+    },
+    {
+      "id": "s43",
+      "text": "“Master,” he said, “I shall die if I do not taste a little of this bread-fruit pie.”"
+    },
+    {
+      "id": "s44",
+      "text": "“Taste it, friend Ned—taste it as you want."
+    },
+    {
+      "id": "s45",
+      "text": "We are here to make experiments—make them.”"
+    },
+    {
+      "id": "s46",
+      "text": "“It won’t take long,” said the Canadian."
+    },
+    {
+      "id": "s47",
+      "text": "And, provided with a lentil, he lighted a fire of dead wood that crackled joyously."
+    },
+    {
+      "id": "s48",
+      "text": "During this time, Conseil and I chose the best fruits of the bread-fruit."
+    },
+    {
+      "id": "s49",
+      "text": "Some had not then attained a sufficient degree of maturity; and their thick skin covered a white but rather fibrous pulp."
+    },
+    {
+      "id": "s50",
+      "text": "Others, the greater number yellow and gelatinous, waited only to be picked."
+    },
+    {
+      "id": "s51",
+      "text": "These fruits enclosed no kernel."
+    },
+    {
+      "id": "s52",
+      "text": "Conseil brought a dozen to Ned Land, who placed them on a coal fire, after having cut them in thick slices, and while doing this repeating:"
+    },
+    {
+      "id": "s53",
+      "text": "“You will see, master, how good this bread is."
+    },
+    {
+      "id": "s54",
+      "text": "More so when one has been deprived of it so long."
+    },
+    {
+      "id": "s55",
+      "text": "It is not even bread,” added he, “but a delicate pastry."
+    },
+    {
+      "id": "s56",
+      "text": "You have eaten none, master?”"
+    },
+    {
+      "id": "s57",
+      "text": "“No, Ned.”"
+    },
+    {
+      "id": "s58",
+      "text": "“Very well, prepare yourself for a juicy thing."
+    },
+    {
+      "id": "s59",
+      "text": "If you do not come for more, I am no longer the king of harpooners.”"
+    },
+    {
+      "id": "s60",
+      "text": "After some minutes, the part of the fruits that was exposed to the fire was completely roasted."
+    },
+    {
+      "id": "s61",
+      "text": "The interior looked like a white pasty, a sort of soft crumb, the flavour of which was like that of an artichoke."
+    },
+    {
+      "id": "s62",
+      "text": "It must be confessed this bread was excellent, and I ate of it with great relish."
+    },
+    {
+      "id": "s63",
+      "text": "“What time is it now?” asked the Canadian."
+    },
+    {
+      "id": "s64",
+      "text": "“Two o’clock at least,” replied Conseil."
+    },
+    {
+      "id": "s65",
+      "text": "“How time flies on firm ground!” sighed Ned Land."
+    },
+    {
+      "id": "s66",
+      "text": "“Let us be off,” replied Conseil."
+    },
+    {
+      "id": "s67",
+      "text": "We returned through the forest, and completed our collection by a raid upon the cabbage-palms, that we gathered from the tops of the trees, little beans that I recognised as the “abrou” of the Malays, and yams of a superior quality."
+    },
+    {
+      "id": "s68",
+      "text": "We were loaded when we reached the boat."
+    },
+    {
+      "id": "s69",
+      "text": "But Ned Land did not find his provisions sufficient."
+    },
+    {
+      "id": "s70",
+      "text": "Fate, however, favoured us."
+    },
+    {
+      "id": "s71",
+      "text": "Just as we were pushing off, he perceived several trees, from twenty-five to thirty feet high, a species of palm-tree."
+    },
+    {
+      "id": "s72",
+      "text": "At last, at five o’clock in the evening, loaded with our riches, we quitted the shore, and half an hour after we hailed the _Nautilus_."
+    },
+    {
+      "id": "s73",
+      "text": "No one appeared on our arrival."
+    },
+    {
+      "id": "s74",
+      "text": "The enormous iron-plated cylinder seemed deserted."
+    },
+    {
+      "id": "s75",
+      "text": "The provisions embarked, I descended to my chamber, and after supper slept soundly."
+    },
+    {
+      "id": "s76",
+      "text": "The next day, 6th January, nothing new on board."
+    },
+    {
+      "id": "s77",
+      "text": "Not a sound inside, not a sign of life."
+    },
+    {
+      "id": "s78",
+      "text": "The boat rested along the edge, in the same place in which we had left it."
+    },
+    {
+      "id": "s79",
+      "text": "We resolved to return to the island."
+    },
+    {
+      "id": "s80",
+      "text": "Ned Land hoped to be more fortunate than on the day before with regard to the hunt, and wished to visit another part of the forest."
+    },
+    {
+      "id": "s81",
+      "text": "At dawn we set off."
+    },
+    {
+      "id": "s82",
+      "text": "The boat, carried on by the waves that flowed to shore, reached the island in a few minutes."
+    },
+    {
+      "id": "s83",
+      "text": "We landed, and, thinking that it was better to give in to the Canadian, we followed Ned Land, whose long limbs threatened to distance us."
+    },
+    {
+      "id": "s84",
+      "text": "He wound up the coast towards the west: then, fording some torrents, he gained the high plain that was bordered with admirable forests."
+    },
+    {
+      "id": "s85",
+      "text": "Some kingfishers were rambling along the water-courses, but they would not let themselves be approached."
+    },
+    {
+      "id": "s86",
+      "text": "Their circumspection proved to me that these birds knew what to expect from bipeds of our species, and I concluded that, if the island was not inhabited, at least human beings occasionally frequented it."
+    },
+    {
+      "id": "s87",
+      "text": "After crossing a rather large prairie, we arrived at the skirts of a little wood that was enlivened by the songs and flight of a large number of birds."
+    },
+    {
+      "id": "s88",
+      "text": "“There are only birds,” said Conseil."
+    },
+    {
+      "id": "s89",
+      "text": "“But they are eatable,” replied the harpooner."
+    },
+    {
+      "id": "s90",
+      "text": "“I do not agree with you, friend Ned, for I see only parrots there.”"
+    },
+    {
+      "id": "s91",
+      "text": "“Friend Conseil,” said Ned, gravely, “the parrot is like pheasant to those who have nothing else.”"
+    },
+    {
+      "id": "s92",
+      "text": "“And,” I added, “this bird, suitably prepared, is worth knife and fork.”"
+    },
+    {
+      "id": "s93",
+      "text": "Indeed, under the thick foliage of this wood, a world of parrots were flying from branch to branch, only needing a careful education to speak the human language."
+    },
+    {
+      "id": "s94",
+      "text": "For the moment, they were chattering with parrots of all colours, and grave cockatoos, who seemed to meditate upon some philosophical problem, whilst brilliant red lories passed like a piece of bunting carried away by the breeze, papuans, with the finest azure colours, and in all a variety of winged things most charming to behold, but few eatable."
+    },
+    {
+      "id": "s95",
+      "text": "However, a bird peculiar to these lands, and which has never passed the limits of the Arrow and Papuan islands, was wanting in this collection."
+    },
+    {
+      "id": "s96",
+      "text": "But fortune reserved it for me before long."
+    },
+    {
+      "id": "s97",
+      "text": "After passing through a moderately thick copse, we found a plain obstructed with bushes."
+    },
+    {
+      "id": "s98",
+      "text": "I saw then those magnificent birds, the disposition of whose long feathers obliges them to fly against the wind."
+    },
+    {
+      "id": "s99",
+      "text": "Their undulating flight, graceful aerial curves, and the shading of their colours, attracted and charmed one’s looks."
+    },
+    {
+      "id": "s100",
+      "text": "I had no trouble in recognising them."
+    },
+    {
+      "id": "s101",
+      "text": "“Birds of paradise!” I exclaimed."
+    },
+    {
+      "id": "s102",
+      "text": "The Malays, who carry on a great trade in these birds with the Chinese, have several means that we could not employ for taking them."
+    },
+    {
+      "id": "s103",
+      "text": "Sometimes they put snares on the top of high trees that the birds of paradise prefer to frequent."
+    },
+    {
+      "id": "s104",
+      "text": "Sometimes they catch them with a viscous birdlime that paralyses their movements."
+    },
+    {
+      "id": "s105",
+      "text": "They even go so far as to poison the fountains that the birds generally drink from."
+    },
+    {
+      "id": "s106",
+      "text": "But we were obliged to fire at them during flight, which gave us few chances to bring them down; and, indeed, we vainly exhausted one half our ammunition."
+    },
+    {
+      "id": "s107",
+      "text": "About eleven o’clock in the morning, the first range of mountains that form the centre of the island was traversed, and we had killed nothing."
+    },
+    {
+      "id": "s108",
+      "text": "Hunger drove us on."
+    },
+    {
+      "id": "s109",
+      "text": "The hunters had relied on the products of the chase, and they were wrong."
+    },
+    {
+      "id": "s110",
+      "text": "Happily Conseil, to his great surprise, made a double shot and secured breakfast."
+    },
+    {
+      "id": "s111",
+      "text": "He brought down a white pigeon and a wood-pigeon, which, cleverly plucked and suspended from a skewer, was roasted before a red fire of dead wood."
+    },
+    {
+      "id": "s112",
+      "text": "While these interesting birds were cooking, Ned prepared the fruit of the bread-tree."
+    },
+    {
+      "id": "s113",
+      "text": "Then the wood-pigeons were devoured to the bones, and declared excellent."
+    },
+    {
+      "id": "s114",
+      "text": "The nutmeg, with which they are in the habit of stuffing their crops, flavours their flesh and renders it delicious eating."
+    },
+    {
+      "id": "s115",
+      "text": "“Now, Ned, what do you miss now?”"
+    },
+    {
+      "id": "s116",
+      "text": "“Some four-footed game, M."
+    },
+    {
+      "id": "s117",
+      "text": "Aronnax."
+    },
+    {
+      "id": "s118",
+      "text": "All these pigeons are only side-dishes and trifles; and until I have killed an animal with cutlets I shall not be content.”"
+    },
+    {
+      "id": "s119",
+      "text": "“Nor I, Ned, if I do not catch a bird of paradise.”"
+    },
+    {
+      "id": "s120",
+      "text": "“Let us continue hunting,” replied Conseil."
+    },
+    {
+      "id": "s121",
+      "text": "“Let us go towards the sea."
+    },
+    {
+      "id": "s122",
+      "text": "We have arrived at the first declivities of the mountains, and I think we had better regain the region of forests.”"
+    },
+    {
+      "id": "s123",
+      "text": "That was sensible advice, and was followed out."
+    },
+    {
+      "id": "s124",
+      "text": "After walking for one hour we had attained a forest of sago-trees."
+    },
+    {
+      "id": "s125",
+      "text": "Some inoffensive serpents glided away from us."
+    },
+    {
+      "id": "s126",
+      "text": "The birds of paradise fled at our approach, and truly I despaired of getting near one when Conseil, who was walking in front, suddenly bent down, uttered a triumphal cry, and came back to me bringing a magnificent specimen."
+    },
+    {
+      "id": "s127",
+      "text": "“Ah! bravo, Conseil!”"
+    },
+    {
+      "id": "s128",
+      "text": "“Master is very good.”"
+    },
+    {
+      "id": "s129",
+      "text": "“No, my boy; you have made an excellent stroke."
+    },
+    {
+      "id": "s130",
+      "text": "Take one of these living birds, and carry it in your hand.”"
+    },
+    {
+      "id": "s131",
+      "text": "“If master will examine it, he will see that I have not deserved great merit.”"
+    },
+    {
+      "id": "s132",
+      "text": "“Why, Conseil?”"
+    },
+    {
+      "id": "s133",
+      "text": "“Because this bird is as drunk as a quail.”"
+    },
+    {
+      "id": "s134",
+      "text": "“Drunk!”"
+    },
+    {
+      "id": "s135",
+      "text": "“Yes, sir; drunk with the nutmegs that it devoured under the nutmeg-tree, under which I found it."
+    },
+    {
+      "id": "s136",
+      "text": "See, friend Ned, see the monstrous effects of intemperance!”"
+    },
+    {
+      "id": "s137",
+      "text": "“By Jove!” exclaimed the Canadian, “because I have drunk gin for two months, you must needs reproach me!”"
+    },
+    {
+      "id": "s138",
+      "text": "However, I examined the curious bird."
+    },
+    {
+      "id": "s139",
+      "text": "Conseil was right."
+    },
+    {
+      "id": "s140",
+      "text": "The bird, drunk with the juice, was quite powerless."
+    },
+    {
+      "id": "s141",
+      "text": "It could not fly; it could hardly walk."
+    },
+    {
+      "id": "s142",
+      "text": "This bird belonged to the most beautiful of the eight species that are found in Papua and in the neighbouring islands."
+    },
+    {
+      "id": "s143",
+      "text": "It was the “large emerald bird, the most rare kind.” It measured three feet in length."
+    },
+    {
+      "id": "s144",
+      "text": "Its head was comparatively small, its eyes placed near the opening of the beak, and also small."
+    },
+    {
+      "id": "s145",
+      "text": "But the shades of colour were beautiful, having a yellow beak, brown feet and claws, nut-coloured wings with purple tips, pale yellow at the back of the neck and head, and emerald colour at the throat, chestnut on the breast and belly."
+    },
+    {
+      "id": "s146",
+      "text": "Two horned, downy nets rose from below the tail, that prolonged the long light feathers of admirable fineness, and they completed the whole of this marvellous bird, that the natives have poetically named the “bird of the sun.”"
+    },
+    {
+      "id": "s147",
+      "text": "But if my wishes were satisfied by the possession of the bird of paradise, the Canadian’s were not yet."
+    },
+    {
+      "id": "s148",
+      "text": "Happily, about two o’clock, Ned Land brought down a magnificent hog; from the brood of those the natives call “bari-outang.” The animal came in time for us to procure real quadruped meat, and he was well received."
+    },
+    {
+      "id": "s149",
+      "text": "Ned Land was very proud of his shot."
+    },
+    {
+      "id": "s150",
+      "text": "The hog, hit by the electric ball, fell stone dead."
+    },
+    {
+      "id": "s151",
+      "text": "The Canadian skinned and cleaned it properly, after having taken half a dozen cutlets, destined to furnish us with a grilled repast in the evening."
+    },
+    {
+      "id": "s152",
+      "text": "Then the hunt was resumed, which was still more marked by Ned and Conseil’s exploits."
+    },
+    {
+      "id": "s153",
+      "text": "Indeed, the two friends, beating the bushes, roused a herd of kangaroos that fled and bounded along on their elastic paws."
+    },
+    {
+      "id": "s154",
+      "text": "But these animals did not take to flight so rapidly but what the electric capsule could stop their course."
+    },
+    {
+      "id": "s155",
+      "text": "“Ah, Professor!” cried Ned Land, who was carried away by the delights of the chase, “what excellent game, and stewed, too!"
+    },
+    {
+      "id": "s156",
+      "text": "What a supply for the _Nautilus!_ Two! three! five down!"
+    },
+    {
+      "id": "s157",
+      "text": "And to think that we shall eat that flesh, and that the idiots on board shall not have a crumb!”"
+    },
+    {
+      "id": "s158",
+      "text": "I think that, in the excess of his joy, the Canadian, if he had not talked so much, would have killed them all."
+    },
+    {
+      "id": "s159",
+      "text": "But he contented himself with a single dozen of these interesting marsupians."
+    },
+    {
+      "id": "s160",
+      "text": "These animals were small."
+    },
+    {
+      "id": "s161",
+      "text": "They were a species of those “kangaroo rabbitss” that live habitually in the hollows of trees, and whose speed is extreme; but they are moderately fat, and furnish, at least, estimable food."
+    },
+    {
+      "id": "s162",
+      "text": "We were very satisfied with the results of the hunt."
+    },
+    {
+      "id": "s163",
+      "text": "Happy Ned proposed to return to this enchanting island the next day, for he wished to depopulate it of all the eatable quadrupeds."
+    },
+    {
+      "id": "s164",
+      "text": "But he had reckoned without his host."
+    },
+    {
+      "id": "s165",
+      "text": "At six o’clock in the evening we had regained the shore; our boat was moored to the usual place."
+    },
+    {
+      "id": "s166",
+      "text": "The _Nautilus_, like a long rock, emerged from the waves two miles from the beach."
+    },
+    {
+      "id": "s167",
+      "text": "Ned Land, without waiting, occupied himself about the important dinner business."
+    },
+    {
+      "id": "s168",
+      "text": "He understood all about cooking well."
+    },
+    {
+      "id": "s169",
+      "text": "The “bari-outang,” grilled on the coals, soon scented the air with a delicious odour."
+    },
+    {
+      "id": "s170",
+      "text": "Indeed, the dinner was excellent."
+    },
+    {
+      "id": "s171",
+      "text": "Two wood-pigeons completed this extraordinary menu."
+    },
+    {
+      "id": "s172",
+      "text": "The sago pasty, the artocarpus bread, some mangoes, half a dozen pineapples, and the liquor fermented from some coco-nuts, overjoyed us."
+    },
+    {
+      "id": "s173",
+      "text": "I even think that my worthy companions’ ideas had not all the plainness desirable."
+    },
+    {
+      "id": "s174",
+      "text": "“Suppose we do not return to the _Nautilus_ this evening?” said Conseil."
+    },
+    {
+      "id": "s175",
+      "text": "“Suppose we never return?” added Ned Land."
+    },
+    {
+      "id": "s176",
+      "text": "Just then a stone fell at our feet and cut short the harpooner’s proposition."
+    }
+  ]
+}

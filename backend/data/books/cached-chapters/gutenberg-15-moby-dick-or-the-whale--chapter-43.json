@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-43",
+  "chapterTitle": "CHAPTER XLIII.",
+  "contentHash": "sha256:d027f6957a5f6a91367d4fea3ed38529af7c8c8235e6d8354f515e83d44ccf48",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER XLIII.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "HARK!"
+    },
+    {
+      "id": "s2",
+      "text": "“Hist!"
+    },
+    {
+      "id": "s3",
+      "text": "Did you hear that noise, Cabaco?”"
+    },
+    {
+      "id": "s4",
+      "text": "It was the middle-watch; a fair moonlight; the seamen were standing in a cordon, extending from one of the fresh-water butts in the waist, to the scuttle-butt near the taffrail."
+    },
+    {
+      "id": "s5",
+      "text": "In this manner, they passed the buckets to fill the scuttle-butt."
+    },
+    {
+      "id": "s6",
+      "text": "Standing, for the most part, on the hallowed precincts of the quarter-deck, they were careful not to speak or rustle their feet."
+    },
+    {
+      "id": "s7",
+      "text": "From hand to hand, the buckets went in the deepest silence, only broken by the occasional flap of a sail, and the steady hum of the unceasingly advancing keel."
+    },
+    {
+      "id": "s8",
+      "text": "It was in the midst of this repose, that Archy, one of the cordon, whose post was near the after-hatches, whispered to his neighbor, a Cholo, the words above."
+    },
+    {
+      "id": "s9",
+      "text": "“Hist! did you hear that noise, Cabaco?”"
+    },
+    {
+      "id": "s10",
+      "text": "“Take the bucket, will ye, Archy? what noise d’ye mean?”"
+    },
+    {
+      "id": "s11",
+      "text": "“There it is again—under the hatches—don’t you hear it—a cough—it sounded like a cough.”"
+    },
+    {
+      "id": "s12",
+      "text": "“Cough be damned!"
+    },
+    {
+      "id": "s13",
+      "text": "Pass along that return bucket.”"
+    },
+    {
+      "id": "s14",
+      "text": "“There again—there it is!—it sounds like two or three sleepers turning over, now!”"
+    },
+    {
+      "id": "s15",
+      "text": "“Caramba! have done, shipmate, will ye?"
+    },
+    {
+      "id": "s16",
+      "text": "It’s the three soaked biscuits ye eat for supper turning over inside of ye—nothing else."
+    },
+    {
+      "id": "s17",
+      "text": "Look to the bucket!”"
+    },
+    {
+      "id": "s18",
+      "text": "“Say what ye will, shipmate; I’ve sharp ears.”"
+    },
+    {
+      "id": "s19",
+      "text": "“Aye, you are the chap, ain’t ye, that heard the hum of the old Quakeress’s knitting-needles fifty miles at sea from Nantucket; you’re the chap.”"
+    },
+    {
+      "id": "s20",
+      "text": "“Grin away; we’ll see what turns up."
+    },
+    {
+      "id": "s21",
+      "text": "Hark ye, Cabaco, there is somebody down in the after-hold that has not yet been seen on deck; and I suspect our old Mogul knows something of it too."
+    },
+    {
+      "id": "s22",
+      "text": "I heard Stubb tell Flask, one morning watch, that there was something of that sort in the wind.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Tish! the bucket!”"
+    }
+  ]
+}

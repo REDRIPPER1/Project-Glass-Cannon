@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-82-ivanhoe-a-romance",
+  "ebookId": "82",
+  "edition": "Project Gutenberg eBook #82; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-20",
+  "chapterTitle": "CHAPTER XX",
+  "contentHash": "sha256:1dddf1063786f0bbfbf7a271a4b4b785f8dce5ba28afe865f2dfb9e7ab994e79",
+  "attribution": "Scott, Walter, 1771-1832, Ivanhoe: A Romance, CHAPTER XX. Source checked against Project Gutenberg eBook #82.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/82",
+    "textUrl": "https://www.gutenberg.org/cache/epub/82/pg82.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "When autumn nights were long and drear, And forest walks were dark and dim, How sweetly on the pilgrim’s ear Was wont to steal the hermit’s hymn"
+    },
+    {
+      "id": "s2",
+      "text": "Devotion borrows Music’s tone, And Music took Devotion’s wing; And, like the bird that hails the sun, They soar to heaven, and soaring sing."
+    },
+    {
+      "id": "s3",
+      "text": "THE HERMIT OF ST CLEMENT’S WELL"
+    },
+    {
+      "id": "s4",
+      "text": "It was after three hours’ good walking that the servants of Cedric, with their mysterious guide, arrived at a small opening in the forest, in the centre of which grew an oak-tree of enormous magnitude, throwing its twisted branches in every direction."
+    },
+    {
+      "id": "s5",
+      "text": "Beneath this tree four or five yeomen lay stretched on the ground, while another, as sentinel, walked to and fro in the moonlight shade."
+    },
+    {
+      "id": "s6",
+      "text": "Upon hearing the sound of feet approaching, the watch instantly gave the alarm, and the sleepers as suddenly started up and bent their bows."
+    },
+    {
+      "id": "s7",
+      "text": "Six arrows placed on the string were pointed towards the quarter from which the travellers approached, when their guide, being recognised, was welcomed with every token of respect and attachment, and all signs and fears of a rough reception at once subsided."
+    },
+    {
+      "id": "s8",
+      "text": "“Where is the Miller?” was his first question."
+    },
+    {
+      "id": "s9",
+      "text": "“On the road towards Rotherham.”"
+    },
+    {
+      "id": "s10",
+      "text": "“With how many?” demanded the leader, for such he seemed to be."
+    },
+    {
+      "id": "s11",
+      "text": "“With six men, and good hope of booty, if it please St Nicholas.”"
+    },
+    {
+      "id": "s12",
+      "text": "“Devoutly spoken,” said Locksley; “and where is Allan-a-Dale?”"
+    },
+    {
+      "id": "s13",
+      "text": "“Walked up towards the Watling-street, to watch for the Prior of Jorvaulx.”"
+    },
+    {
+      "id": "s14",
+      "text": "“That is well thought on also,” replied the Captain;—“and where is the Friar?”"
+    },
+    {
+      "id": "s15",
+      "text": "“In his cell.”"
+    },
+    {
+      "id": "s16",
+      "text": "“Thither will I go,” said Locksley."
+    },
+    {
+      "id": "s17",
+      "text": "“Disperse and seek your companions."
+    },
+    {
+      "id": "s18",
+      "text": "Collect what force you can, for there’s game afoot that must be hunted hard, and will turn to bay."
+    },
+    {
+      "id": "s19",
+      "text": "Meet me here by daybreak.—And stay,” he added, “I have forgotten what is most necessary of the whole—Two of you take the road quickly towards Torquilstone, the Castle of Front-de-Bœuf."
+    },
+    {
+      "id": "s20",
+      "text": "A set of gallants, who have been masquerading in such guise as our own, are carrying a band of prisoners thither—Watch them closely, for even if they reach the castle before we collect our force, our honour is concerned to punish them, and we will find means to do so."
+    },
+    {
+      "id": "s21",
+      "text": "Keep a close watch on them therefore; and dispatch one of your comrades, the lightest of foot, to bring the news of the yeomen thereabout.”"
+    },
+    {
+      "id": "s22",
+      "text": "They promised implicit obedience, and departed with alacrity on their different errands."
+    },
+    {
+      "id": "s23",
+      "text": "In the meanwhile, their leader and his two companions, who now looked upon him with great respect, as well as some fear, pursued their way to the Chapel of Copmanhurst."
+    },
+    {
+      "id": "s24",
+      "text": "When they had reached the little moonlight glade, having in front the reverend, though ruinous chapel, and the rude hermitage, so well suited to ascetic devotion, Wamba whispered to Gurth, “If this be the habitation of a thief, it makes good the old proverb, The nearer the church the farther from God.—And by my coxcomb,” he added, “I think it be even so—Hearken but to the black sanctus which they are singing in the hermitage!”"
+    },
+    {
+      "id": "s25",
+      "text": "In fact the anchorite and his guest were performing, at the full extent of their very powerful lungs, an old drinking song, of which this was the burden:—"
+    },
+    {
+      "id": "s26",
+      "text": "“Come, trowl the brown bowl to me, Bully boy, bully boy, Come, trowl the brown bowl to me: Ho! jolly Jenkin, I spy a knave in drinking, Come, trowl the brown bowl to me.”"
+    },
+    {
+      "id": "s27",
+      "text": "“Now, that is not ill sung,” said Wamba, who had thrown in a few of his own flourishes to help out the chorus."
+    },
+    {
+      "id": "s28",
+      "text": "“But who, in the saint’s name, ever expected to have heard such a jolly chant come from out a hermit’s cell at midnight!”"
+    },
+    {
+      "id": "s29",
+      "text": "“Marry, that should I,” said Gurth, “for the jolly Clerk of Copmanhurst is a known man, and kills half the deer that are stolen in this walk."
+    },
+    {
+      "id": "s30",
+      "text": "Men say that the keeper has complained to his official, and that he will be stripped of his cowl and cope altogether, if he keeps not better order.”"
+    },
+    {
+      "id": "s31",
+      "text": "While they were thus speaking, Locksley’s loud and repeated knocks had at length disturbed the anchorite and his guest."
+    },
+    {
+      "id": "s32",
+      "text": "“By my beads,” said the hermit, stopping short in a grand flourish, “here come more benighted guests."
+    },
+    {
+      "id": "s33",
+      "text": "I would not for my cowl that they found us in this goodly exercise."
+    },
+    {
+      "id": "s34",
+      "text": "All men have their enemies, good Sir Sluggard; and there be those malignant enough to construe the hospitable refreshment which I have been offering to you, a weary traveller, for the matter of three short hours, into sheer drunkenness and debauchery, vices alike alien to my profession and my disposition.”"
+    },
+    {
+      "id": "s35",
+      "text": "“Base calumniators!” replied the knight; “I would I had the chastising of them."
+    },
+    {
+      "id": "s36",
+      "text": "Nevertheless, Holy Clerk, it is true that all have their enemies; and there be those in this very land whom I would rather speak to through the bars of my helmet than barefaced.”"
+    },
+    {
+      "id": "s37",
+      "text": "“Get thine iron pot on thy head then, friend Sluggard, as quickly as thy nature will permit,” said the hermit, “while I remove these pewter flagons, whose late contents run strangely in mine own pate; and to drown the clatter—for, in faith, I feel somewhat unsteady—strike into the tune which thou hearest me sing; it is no matter for the words—I scarce know them myself.”"
+    },
+    {
+      "id": "s38",
+      "text": "So saying, he struck up a thundering “De profundis clamavi”, under cover of which he removed the apparatus of their banquet: while the knight, laughing heartily, and arming himself all the while, assisted his host with his voice from time to time as his mirth permitted."
+    },
+    {
+      "id": "s39",
+      "text": "“What devil’s matins are you after at this hour?” said a voice from without."
+    },
+    {
+      "id": "s40",
+      "text": "“Heaven forgive you, Sir Traveller!” said the hermit, whose own noise, and perhaps his nocturnal potations, prevented from recognising accents which were tolerably familiar to him—“Wend on your way, in the name of God and Saint Dunstan, and disturb not the devotions of me and my holy brother.”"
+    },
+    {
+      "id": "s41",
+      "text": "“Mad priest,” answered the voice from without, “open to Locksley!”"
+    },
+    {
+      "id": "s42",
+      "text": "“All’s safe—all’s right,” said the hermit to his companion."
+    },
+    {
+      "id": "s43",
+      "text": "“But who is he?” said the Black Knight; “it imports me much to know.”"
+    },
+    {
+      "id": "s44",
+      "text": "“Who is he?” answered the hermit; “I tell thee he is a friend.”"
+    },
+    {
+      "id": "s45",
+      "text": "“But what friend?” answered the knight; “for he may be friend to thee and none of mine?”"
+    },
+    {
+      "id": "s46",
+      "text": "“What friend?” replied the hermit; “that, now, is one of the questions that is more easily asked than answered."
+    },
+    {
+      "id": "s47",
+      "text": "What friend?—why, he is, now that I bethink me a little, the very same honest keeper I told thee of a while since.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Ay, as honest a keeper as thou art a pious hermit,” replied the knight, “I doubt it not."
+    },
+    {
+      "id": "s49",
+      "text": "But undo the door to him before he beat it from its hinges.”"
+    },
+    {
+      "id": "s50",
+      "text": "The dogs, in the meantime, which had made a dreadful baying at the commencement of the disturbance, seemed now to recognise the voice of him who stood without; for, totally changing their manner, they scratched and whined at the door, as if interceding for his admission."
+    },
+    {
+      "id": "s51",
+      "text": "The hermit speedily unbolted his portal, and admitted Locksley, with his two companions."
+    },
+    {
+      "id": "s52",
+      "text": "“Why, hermit,” was the yeoman’s first question as soon as he beheld the knight, “what boon companion hast thou here?”"
+    },
+    {
+      "id": "s53",
+      "text": "“A brother of our order,” replied the friar, shaking his head; “we have been at our orisons all night.”"
+    },
+    {
+      "id": "s54",
+      "text": "“He is a monk of the church militant, I think,” answered Locksley; “and there be more of them abroad."
+    },
+    {
+      "id": "s55",
+      "text": "I tell thee, friar, thou must lay down the rosary and take up the quarter-staff; we shall need every one of our merry men, whether clerk or layman.—But,” he added, taking him a step aside, “art thou mad? to give admittance to a knight thou dost not know?"
+    },
+    {
+      "id": "s56",
+      "text": "Hast thou forgot our articles?”"
+    },
+    {
+      "id": "s57",
+      "text": "“Not know him!” replied the friar, boldly, “I know him as well as the beggar knows his dish.”"
+    },
+    {
+      "id": "s58",
+      "text": "“And what is his name, then?” demanded Locksley."
+    },
+    {
+      "id": "s59",
+      "text": "“His name,” said the hermit—“his name is Sir Anthony of Scrabelstone—as if I would drink with a man, and did not know his name!”"
+    },
+    {
+      "id": "s60",
+      "text": "“Thou hast been drinking more than enough, friar,” said the woodsman, “and, I fear, prating more than enough too.”"
+    },
+    {
+      "id": "s61",
+      "text": "“Good yeoman,” said the knight, coming forward, “be not wroth with my merry host."
+    },
+    {
+      "id": "s62",
+      "text": "He did but afford me the hospitality which I would have compelled from him if he had refused it.”"
+    },
+    {
+      "id": "s63",
+      "text": "“Thou compel!” said the friar; “wait but till have changed this grey gown for a green cassock, and if I make not a quarter-staff ring twelve upon thy pate, I am neither true clerk nor good woodsman.”"
+    },
+    {
+      "id": "s64",
+      "text": "While he spoke thus, he stript off his gown, and appeared in a close black buckram doublet and drawers, over which he speedily did on a cassock of green, and hose of the same colour."
+    },
+    {
+      "id": "s65",
+      "text": "“I pray thee truss my points,” said he to Wamba, “and thou shalt have a cup of sack for thy labour.”"
+    },
+    {
+      "id": "s66",
+      "text": "“Gramercy for thy sack,” said Wamba; “but think’st thou it is lawful for me to aid you to transmew thyself from a holy hermit into a sinful forester?”"
+    },
+    {
+      "id": "s67",
+      "text": "“Never fear,” said the hermit; “I will but confess the sins of my green cloak to my greyfriar’s frock, and all shall be well again.”"
+    },
+    {
+      "id": "s68",
+      "text": "“Amen!” answered the Jester; “a broadcloth penitent should have a sackcloth confessor, and your frock may absolve my motley doublet into the bargain.”"
+    },
+    {
+      "id": "s69",
+      "text": "So saying, he accommodated the friar with his assistance in tying the endless number of points, as the laces which attached the hose to the doublet were then termed."
+    },
+    {
+      "id": "s70",
+      "text": "While they were thus employed, Locksley led the knight a little apart, and addressed him thus:—“Deny it not, Sir Knight—you are he who decided the victory to the advantage of the English against the strangers on the second day of the tournament at Ashby.”"
+    },
+    {
+      "id": "s71",
+      "text": "“And what follows if you guess truly, good yeoman?” replied the knight."
+    },
+    {
+      "id": "s72",
+      "text": "“I should in that case hold you,” replied the yeoman, “a friend to the weaker party.”"
+    },
+    {
+      "id": "s73",
+      "text": "“Such is the duty of a true knight at least,” replied the Black Champion; “and I would not willingly that there were reason to think otherwise of me.”"
+    },
+    {
+      "id": "s74",
+      "text": "“But for my purpose,” said the yeoman, “thou shouldst be as well a good Englishman as a good knight; for that, which I have to speak of, concerns, indeed, the duty of every honest man, but is more especially that of a true-born native of England.”"
+    },
+    {
+      "id": "s75",
+      "text": "“You can speak to no one,” replied the knight, “to whom England, and the life of every Englishman, can be dearer than to me.”"
+    },
+    {
+      "id": "s76",
+      "text": "“I would willingly believe so,” said the woodsman, “for never had this country such need to be supported by those who love her."
+    },
+    {
+      "id": "s77",
+      "text": "Hear me, and I will tell thee of an enterprise, in which, if thou be’st really that which thou seemest, thou mayst take an honourable part."
+    },
+    {
+      "id": "s78",
+      "text": "A band of villains, in the disguise of better men than themselves, have made themselves master of the person of a noble Englishman, called Cedric the Saxon, together with his ward, and his friend Athelstane of Coningsburgh, and have transported them to a castle in this forest, called Torquilstone."
+    },
+    {
+      "id": "s79",
+      "text": "I ask of thee, as a good knight and a good Englishman, wilt thou aid in their rescue?”"
+    },
+    {
+      "id": "s80",
+      "text": "“I am bound by my vow to do so,” replied the knight; “but I would willingly know who you are, who request my assistance in their behalf?”"
+    },
+    {
+      "id": "s81",
+      "text": "“I am,” said the forester, “a nameless man; but I am the friend of my country, and of my country’s friends—With this account of me you must for the present remain satisfied, the more especially since you yourself desire to continue unknown."
+    },
+    {
+      "id": "s82",
+      "text": "Believe, however, that my word, when pledged, is as inviolate as if I wore golden spurs.”"
+    },
+    {
+      "id": "s83",
+      "text": "“I willingly believe it,” said the knight; “I have been accustomed to study men’s countenances, and I can read in thine honesty and resolution."
+    },
+    {
+      "id": "s84",
+      "text": "I will, therefore, ask thee no further questions, but aid thee in setting at freedom these oppressed captives; which done, I trust we shall part better acquainted, and well satisfied with each other.”"
+    },
+    {
+      "id": "s85",
+      "text": "“So,” said Wamba to Gurth,—for the friar being now fully equipped, the Jester, having approached to the other side of the hut, had heard the conclusion of the conversation,—“So we have got a new ally?—I trust the valour of the knight will be truer metal than the religion of the hermit, or the honesty of the yeoman; for this Locksley looks like a born deer-stealer, and the priest like a lusty hypocrite.”"
+    },
+    {
+      "id": "s86",
+      "text": "“Hold thy peace, Wamba,” said Gurth; “it may all be as thou dost guess; but were the horned devil to rise and proffer me his assistance to set at liberty Cedric and the Lady Rowena, I fear I should hardly have religion enough to refuse the foul fiend’s offer, and bid him get behind me.”"
+    },
+    {
+      "id": "s87",
+      "text": "The friar was now completely accoutred as a yeoman, with sword and buckler, bow, and quiver, and a strong partisan over his shoulder."
+    },
+    {
+      "id": "s88",
+      "text": "He left his cell at the head of the party, and, having carefully locked the door, deposited the key under the threshold."
+    },
+    {
+      "id": "s89",
+      "text": "“Art thou in condition to do good service, friar,” said Locksley, “or does the brown bowl still run in thy head?”"
+    },
+    {
+      "id": "s90",
+      "text": "“Not more than a drought of St Dunstan’s fountain will allay,” answered the priest; “something there is of a whizzing in my brain, and of instability in my legs, but you shall presently see both pass away.”"
+    },
+    {
+      "id": "s91",
+      "text": "So saying, he stepped to the stone basin, in which the waters of the fountain as they fell formed bubbles which danced in the white moonlight, and took so long a drought as if he had meant to exhaust the spring."
+    },
+    {
+      "id": "s92",
+      "text": "“When didst thou drink as deep a drought of water before, Holy Clerk of Copmanhurst?” said the Black Knight."
+    },
+    {
+      "id": "s93",
+      "text": "“Never since my wine-butt leaked, and let out its liquor by an illegal vent,” replied the friar, “and so left me nothing to drink but my patron’s bounty here.”"
+    },
+    {
+      "id": "s94",
+      "text": "Then plunging his hands and head into the fountain, he washed from them all marks of the midnight revel."
+    },
+    {
+      "id": "s95",
+      "text": "Thus refreshed and sobered, the jolly priest twirled his heavy partisan round his head with three fingers, as if he had been balancing a reed, exclaiming at the same time, “Where be those false ravishers, who carry off wenches against their will?"
+    },
+    {
+      "id": "s96",
+      "text": "May the foul fiend fly off with me, if I am not man enough for a dozen of them.”"
+    },
+    {
+      "id": "s97",
+      "text": "“Swearest thou, Holy Clerk?” said the Black Knight."
+    },
+    {
+      "id": "s98",
+      "text": "“Clerk me no Clerks,” replied the transformed priest; “by Saint George and the Dragon, I am no longer a shaveling than while my frock is on my back—When I am cased in my green cassock, I will drink, swear, and woo a lass, with any blithe forester in the West Riding.”"
+    },
+    {
+      "id": "s99",
+      "text": "“Come on, Jack Priest,” said Locksley, “and be silent; thou art as noisy as a whole convent on a holy eve, when the Father Abbot has gone to bed.—Come on you, too, my masters, tarry not to talk of it—I say, come on, we must collect all our forces, and few enough we shall have, if we are to storm the Castle of Reginald Front-de-Bœuf.”"
+    },
+    {
+      "id": "s100",
+      "text": "“What! is it Front-de-Bœuf,” said the Black Knight, “who has stopt on the king’s highway the king’s liege subjects?—Is he turned thief and oppressor?”"
+    },
+    {
+      "id": "s101",
+      "text": "“Oppressor he ever was,” said Locksley."
+    },
+    {
+      "id": "s102",
+      "text": "“And for thief,” said the priest, “I doubt if ever he were even half so honest a man as many a thief of my acquaintance.”"
+    },
+    {
+      "id": "s103",
+      "text": "“Move on, priest, and be silent,” said the yeoman; “it were better you led the way to the place of rendezvous, than say what should be left unsaid, both in decency and prudence.”"
+    }
+  ]
+}

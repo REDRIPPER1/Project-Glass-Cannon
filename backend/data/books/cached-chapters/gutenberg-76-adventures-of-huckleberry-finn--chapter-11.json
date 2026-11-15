@@ -1,0 +1,861 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-11",
+  "chapterTitle": "CHAPTER XI.",
+  "contentHash": "sha256:d9d4f0061d33820d36873640566e21b78183f035d8b5b6f2731cd0106946bbd1",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER XI.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "“Come in,” says the woman, and I did."
+    },
+    {
+      "id": "s2",
+      "text": "She says: “Take a cheer.”"
+    },
+    {
+      "id": "s3",
+      "text": "I done it."
+    },
+    {
+      "id": "s4",
+      "text": "She looked me all over with her little shiny eyes, and says:"
+    },
+    {
+      "id": "s5",
+      "text": "“What might your name be?”"
+    },
+    {
+      "id": "s6",
+      "text": "“Sarah Williams.”"
+    },
+    {
+      "id": "s7",
+      "text": "“Where ’bouts do you live?"
+    },
+    {
+      "id": "s8",
+      "text": "In this neighborhood?”"
+    },
+    {
+      "id": "s9",
+      "text": "“No’m."
+    },
+    {
+      "id": "s10",
+      "text": "In Hookerville, seven mile below."
+    },
+    {
+      "id": "s11",
+      "text": "I’ve walked all the way and I’m all tired out.”"
+    },
+    {
+      "id": "s12",
+      "text": "“Hungry, too, I reckon."
+    },
+    {
+      "id": "s13",
+      "text": "I’ll find you something.”"
+    },
+    {
+      "id": "s14",
+      "text": "“No’m, I ain’t hungry."
+    },
+    {
+      "id": "s15",
+      "text": "I was so hungry I had to stop two miles below here at a farm; so I ain’t hungry no more."
+    },
+    {
+      "id": "s16",
+      "text": "It’s what makes me so late."
+    },
+    {
+      "id": "s17",
+      "text": "My mother’s down sick, and out of money and everything, and I come to tell my uncle Abner Moore."
+    },
+    {
+      "id": "s18",
+      "text": "He lives at the upper end of the town, she says."
+    },
+    {
+      "id": "s19",
+      "text": "I hain’t ever been here before."
+    },
+    {
+      "id": "s20",
+      "text": "Do you know him?”"
+    },
+    {
+      "id": "s21",
+      "text": "“No; but I don’t know everybody yet."
+    },
+    {
+      "id": "s22",
+      "text": "I haven’t lived here quite two weeks."
+    },
+    {
+      "id": "s23",
+      "text": "It’s a considerable ways to the upper end of the town."
+    },
+    {
+      "id": "s24",
+      "text": "You better stay here all night."
+    },
+    {
+      "id": "s25",
+      "text": "Take off your bonnet.”"
+    },
+    {
+      "id": "s26",
+      "text": "“No,” I says; “I’ll rest a while, I reckon, and go on."
+    },
+    {
+      "id": "s27",
+      "text": "I ain’t afeared of the dark.”"
+    },
+    {
+      "id": "s28",
+      "text": "She said she wouldn’t let me go by myself, but her husband would be in by-and-by, maybe in a hour and a half, and she’d send him along with me."
+    },
+    {
+      "id": "s29",
+      "text": "Then she got to talking about her husband, and about her relations up the river, and her relations down the river, and about how much better off they used to was, and how they didn’t know but they’d made a mistake coming to our town, instead of letting well alone—and so on and so on, till I was afeard _I_ had made a mistake coming to her to find out what was going on in the town; but by-and-by she dropped on to pap and the murder, and then I was pretty willing to let her clatter right along."
+    },
+    {
+      "id": "s30",
+      "text": "She told about me and Tom Sawyer finding the six thousand dollars (only she got it ten) and all about pap and what a hard lot he was, and what a hard lot I was, and at last she got down to where I was murdered."
+    },
+    {
+      "id": "s31",
+      "text": "I says:"
+    },
+    {
+      "id": "s32",
+      "text": "“Who done it?"
+    },
+    {
+      "id": "s33",
+      "text": "We’ve heard considerable about these goings on down in Hookerville, but we don’t know who ’twas that killed Huck Finn.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Well, I reckon there’s a right smart chance of people _here_ that’d like to know who killed him."
+    },
+    {
+      "id": "s35",
+      "text": "Some think old Finn done it himself.”"
+    },
+    {
+      "id": "s36",
+      "text": "“No—is that so?”"
+    },
+    {
+      "id": "s37",
+      "text": "“Most everybody thought it at first."
+    },
+    {
+      "id": "s38",
+      "text": "He’ll never know how nigh he come to getting lynched."
+    },
+    {
+      "id": "s39",
+      "text": "But before night they changed around and judged it was done by a runaway nigger named Jim.”"
+    },
+    {
+      "id": "s40",
+      "text": "“Why _he_—”"
+    },
+    {
+      "id": "s41",
+      "text": "I stopped."
+    },
+    {
+      "id": "s42",
+      "text": "I reckoned I better keep still."
+    },
+    {
+      "id": "s43",
+      "text": "She run on, and never noticed I had put in at all:"
+    },
+    {
+      "id": "s44",
+      "text": "“The nigger run off the very night Huck Finn was killed."
+    },
+    {
+      "id": "s45",
+      "text": "So there’s a reward out for him—three hundred dollars."
+    },
+    {
+      "id": "s46",
+      "text": "And there’s a reward out for old Finn, too—two hundred dollars."
+    },
+    {
+      "id": "s47",
+      "text": "You see, he come to town the morning after the murder, and told about it, and was out with ’em on the ferry-boat hunt, and right away after he up and left."
+    },
+    {
+      "id": "s48",
+      "text": "Before night they wanted to lynch him, but he was gone, you see."
+    },
+    {
+      "id": "s49",
+      "text": "Well, next day they found out the nigger was gone; they found out he hadn’t ben seen sence ten o’clock the night the murder was done."
+    },
+    {
+      "id": "s50",
+      "text": "So then they put it on him, you see; and while they was full of it, next day, back comes old Finn, and went boo-hooing to Judge Thatcher to get money to hunt for the nigger all over Illinois with."
+    },
+    {
+      "id": "s51",
+      "text": "The judge gave him some, and that evening he got drunk, and was around till after midnight with a couple of mighty hard-looking strangers, and then went off with them."
+    },
+    {
+      "id": "s52",
+      "text": "Well, he hain’t come back sence, and they ain’t looking for him back till this thing blows over a little, for people thinks now that he killed his boy and fixed things so folks would think robbers done it, and then he’d get Huck’s money without having to bother a long time with a lawsuit."
+    },
+    {
+      "id": "s53",
+      "text": "People do say he warn’t any too good to do it."
+    },
+    {
+      "id": "s54",
+      "text": "Oh, he’s sly, I reckon."
+    },
+    {
+      "id": "s55",
+      "text": "If he don’t come back for a year he’ll be all right."
+    },
+    {
+      "id": "s56",
+      "text": "You can’t prove anything on him, you know; everything will be quieted down then, and he’ll walk in Huck’s money as easy as nothing.”"
+    },
+    {
+      "id": "s57",
+      "text": "“Yes, I reckon so, ’m."
+    },
+    {
+      "id": "s58",
+      "text": "I don’t see nothing in the way of it."
+    },
+    {
+      "id": "s59",
+      "text": "Has everybody quit thinking the nigger done it?”"
+    },
+    {
+      "id": "s60",
+      "text": "“Oh, no, not everybody."
+    },
+    {
+      "id": "s61",
+      "text": "A good many thinks he done it."
+    },
+    {
+      "id": "s62",
+      "text": "But they’ll get the nigger pretty soon now, and maybe they can scare it out of him.”"
+    },
+    {
+      "id": "s63",
+      "text": "“Why, are they after him yet?”"
+    },
+    {
+      "id": "s64",
+      "text": "“Well, you’re innocent, ain’t you!"
+    },
+    {
+      "id": "s65",
+      "text": "Does three hundred dollars lay around every day for people to pick up?"
+    },
+    {
+      "id": "s66",
+      "text": "Some folks think the nigger ain’t far from here."
+    },
+    {
+      "id": "s67",
+      "text": "I’m one of them—but I hain’t talked it around."
+    },
+    {
+      "id": "s68",
+      "text": "A few days ago I was talking with an old couple that lives next door in the log shanty, and they happened to say hardly anybody ever goes to that island over yonder that they call Jackson’s Island."
+    },
+    {
+      "id": "s69",
+      "text": "Don’t anybody live there? says I."
+    },
+    {
+      "id": "s70",
+      "text": "No, nobody, says they."
+    },
+    {
+      "id": "s71",
+      "text": "I didn’t say any more, but I done some thinking."
+    },
+    {
+      "id": "s72",
+      "text": "I was pretty near certain I’d seen smoke over there, about the head of the island, a day or two before that, so I says to myself, like as not that nigger’s hiding over there; anyway, says I, it’s worth the trouble to give the place a hunt."
+    },
+    {
+      "id": "s73",
+      "text": "I hain’t seen any smoke sence, so I reckon maybe he’s gone, if it was him; but husband’s going over to see—him and another man."
+    },
+    {
+      "id": "s74",
+      "text": "He was gone up the river; but he got back to-day, and I told him as soon as he got here two hours ago.”"
+    },
+    {
+      "id": "s75",
+      "text": "I had got so uneasy I couldn’t set still."
+    },
+    {
+      "id": "s76",
+      "text": "I had to do something with my hands; so I took up a needle off of the table and went to threading it."
+    },
+    {
+      "id": "s77",
+      "text": "My hands shook, and I was making a bad job of it."
+    },
+    {
+      "id": "s78",
+      "text": "When the woman stopped talking I looked up, and she was looking at me pretty curious and smiling a little."
+    },
+    {
+      "id": "s79",
+      "text": "I put down the needle and thread, and let on to be interested—and I was, too—and says:"
+    },
+    {
+      "id": "s80",
+      "text": "“Three hundred dollars is a power of money."
+    },
+    {
+      "id": "s81",
+      "text": "I wish my mother could get it."
+    },
+    {
+      "id": "s82",
+      "text": "Is your husband going over there to-night?”"
+    },
+    {
+      "id": "s83",
+      "text": "“Oh, yes."
+    },
+    {
+      "id": "s84",
+      "text": "He went up-town with the man I was telling you of, to get a boat and see if they could borrow another gun."
+    },
+    {
+      "id": "s85",
+      "text": "They’ll go over after midnight.”"
+    },
+    {
+      "id": "s86",
+      "text": "“Couldn’t they see better if they was to wait till daytime?”"
+    },
+    {
+      "id": "s87",
+      "text": "“Yes."
+    },
+    {
+      "id": "s88",
+      "text": "And couldn’t the nigger see better, too?"
+    },
+    {
+      "id": "s89",
+      "text": "After midnight he’ll likely be asleep, and they can slip around through the woods and hunt up his camp fire all the better for the dark, if he’s got one.”"
+    },
+    {
+      "id": "s90",
+      "text": "“I didn’t think of that.”"
+    },
+    {
+      "id": "s91",
+      "text": "The woman kept looking at me pretty curious, and I didn’t feel a bit comfortable."
+    },
+    {
+      "id": "s92",
+      "text": "Pretty soon she says,"
+    },
+    {
+      "id": "s93",
+      "text": "“What did you say your name was, honey?”"
+    },
+    {
+      "id": "s94",
+      "text": "“M—Mary Williams.”"
+    },
+    {
+      "id": "s95",
+      "text": "Somehow it didn’t seem to me that I said it was Mary before, so I didn’t look up—seemed to me I said it was Sarah; so I felt sort of cornered, and was afeared maybe I was looking it, too."
+    },
+    {
+      "id": "s96",
+      "text": "I wished the woman would say something more; the longer she set still the uneasier I was."
+    },
+    {
+      "id": "s97",
+      "text": "But now she says:"
+    },
+    {
+      "id": "s98",
+      "text": "“Honey, I thought you said it was Sarah when you first come in?”"
+    },
+    {
+      "id": "s99",
+      "text": "“Oh, yes’m, I did."
+    },
+    {
+      "id": "s100",
+      "text": "Sarah Mary Williams."
+    },
+    {
+      "id": "s101",
+      "text": "Sarah’s my first name."
+    },
+    {
+      "id": "s102",
+      "text": "Some calls me Sarah, some calls me Mary.”"
+    },
+    {
+      "id": "s103",
+      "text": "“Oh, that’s the way of it?”"
+    },
+    {
+      "id": "s104",
+      "text": "“Yes’m.”"
+    },
+    {
+      "id": "s105",
+      "text": "I was feeling better then, but I wished I was out of there, anyway."
+    },
+    {
+      "id": "s106",
+      "text": "I couldn’t look up yet."
+    },
+    {
+      "id": "s107",
+      "text": "Well, the woman fell to talking about how hard times was, and how poor they had to live, and how the rats was as free as if they owned the place, and so forth and so on, and then I got easy again."
+    },
+    {
+      "id": "s108",
+      "text": "She was right about the rats."
+    },
+    {
+      "id": "s109",
+      "text": "You’d see one stick his nose out of a hole in the corner every little while."
+    },
+    {
+      "id": "s110",
+      "text": "She said she had to have things handy to throw at them when she was alone, or they wouldn’t give her no peace."
+    },
+    {
+      "id": "s111",
+      "text": "She showed me a bar of lead twisted up into a knot, and said she was a good shot with it generly, but she’d wrenched her arm a day or two ago, and didn’t know whether she could throw true now."
+    },
+    {
+      "id": "s112",
+      "text": "But she watched for a chance, and directly banged away at a rat; but she missed him wide, and said “Ouch!” it hurt her arm so."
+    },
+    {
+      "id": "s113",
+      "text": "Then she told me to try for the next one."
+    },
+    {
+      "id": "s114",
+      "text": "I wanted to be getting away before the old man got back, but of course I didn’t let on."
+    },
+    {
+      "id": "s115",
+      "text": "I got the thing, and the first rat that showed his nose I let drive, and if he’d a stayed where he was he’d a been a tolerable sick rat."
+    },
+    {
+      "id": "s116",
+      "text": "She said that was first-rate, and she reckoned I would hive the next one."
+    },
+    {
+      "id": "s117",
+      "text": "She went and got the lump of lead and fetched it back, and brought along a hank of yarn which she wanted me to help her with."
+    },
+    {
+      "id": "s118",
+      "text": "I held up my two hands and she put the hank over them, and went on talking about her and her husband’s matters."
+    },
+    {
+      "id": "s119",
+      "text": "But she broke off to say:"
+    },
+    {
+      "id": "s120",
+      "text": "“Keep your eye on the rats."
+    },
+    {
+      "id": "s121",
+      "text": "You better have the lead in your lap, handy.”"
+    },
+    {
+      "id": "s122",
+      "text": "So she dropped the lump into my lap just at that moment, and I clapped my legs together on it and she went on talking."
+    },
+    {
+      "id": "s123",
+      "text": "But only about a minute."
+    },
+    {
+      "id": "s124",
+      "text": "Then she took off the hank and looked me straight in the face, and very pleasant, and says:"
+    },
+    {
+      "id": "s125",
+      "text": "“Come, now, what’s your real name?”"
+    },
+    {
+      "id": "s126",
+      "text": "“Wh—what, mum?”"
+    },
+    {
+      "id": "s127",
+      "text": "“What’s your real name?"
+    },
+    {
+      "id": "s128",
+      "text": "Is it Bill, or Tom, or Bob?—or what is it?”"
+    },
+    {
+      "id": "s129",
+      "text": "I reckon I shook like a leaf, and I didn’t know hardly what to do."
+    },
+    {
+      "id": "s130",
+      "text": "But I says:"
+    },
+    {
+      "id": "s131",
+      "text": "“Please to don’t poke fun at a poor girl like me, mum."
+    },
+    {
+      "id": "s132",
+      "text": "If I’m in the way here, I’ll—”"
+    },
+    {
+      "id": "s133",
+      "text": "“No, you won’t."
+    },
+    {
+      "id": "s134",
+      "text": "Set down and stay where you are."
+    },
+    {
+      "id": "s135",
+      "text": "I ain’t going to hurt you, and I ain’t going to tell on you, nuther."
+    },
+    {
+      "id": "s136",
+      "text": "You just tell me your secret, and trust me."
+    },
+    {
+      "id": "s137",
+      "text": "I’ll keep it; and, what’s more, I’ll help you."
+    },
+    {
+      "id": "s138",
+      "text": "So’ll my old man if you want him to."
+    },
+    {
+      "id": "s139",
+      "text": "You see, you’re a runaway ’prentice, that’s all."
+    },
+    {
+      "id": "s140",
+      "text": "It ain’t anything."
+    },
+    {
+      "id": "s141",
+      "text": "There ain’t no harm in it."
+    },
+    {
+      "id": "s142",
+      "text": "You’ve been treated bad, and you made up your mind to cut."
+    },
+    {
+      "id": "s143",
+      "text": "Bless you, child, I wouldn’t tell on you."
+    },
+    {
+      "id": "s144",
+      "text": "Tell me all about it now, that’s a good boy.”"
+    },
+    {
+      "id": "s145",
+      "text": "So I said it wouldn’t be no use to try to play it any longer, and I would just make a clean breast and tell her everything, but she musn’t go back on her promise."
+    },
+    {
+      "id": "s146",
+      "text": "Then I told her my father and mother was dead, and the law had bound me out to a mean old farmer in the country thirty mile back from the river, and he treated me so bad I couldn’t stand it no longer; he went away to be gone a couple of days, and so I took my chance and stole some of his daughter’s old clothes and cleared out, and I had been three nights coming the thirty miles."
+    },
+    {
+      "id": "s147",
+      "text": "I traveled nights, and hid daytimes and slept, and the bag of bread and meat I carried from home lasted me all the way, and I had a-plenty."
+    },
+    {
+      "id": "s148",
+      "text": "I said I believed my uncle Abner Moore would take care of me, and so that was why I struck out for this town of Goshen."
+    },
+    {
+      "id": "s149",
+      "text": "“Goshen, child?"
+    },
+    {
+      "id": "s150",
+      "text": "This ain’t Goshen."
+    },
+    {
+      "id": "s151",
+      "text": "This is St."
+    },
+    {
+      "id": "s152",
+      "text": "Petersburg."
+    },
+    {
+      "id": "s153",
+      "text": "Goshen’s ten mile further up the river."
+    },
+    {
+      "id": "s154",
+      "text": "Who told you this was Goshen?”"
+    },
+    {
+      "id": "s155",
+      "text": "“Why, a man I met at daybreak this morning, just as I was going to turn into the woods for my regular sleep."
+    },
+    {
+      "id": "s156",
+      "text": "He told me when the roads forked I must take the right hand, and five mile would fetch me to Goshen.”"
+    },
+    {
+      "id": "s157",
+      "text": "“He was drunk, I reckon."
+    },
+    {
+      "id": "s158",
+      "text": "He told you just exactly wrong.”"
+    },
+    {
+      "id": "s159",
+      "text": "“Well, he did act like he was drunk, but it ain’t no matter now."
+    },
+    {
+      "id": "s160",
+      "text": "I got to be moving along."
+    },
+    {
+      "id": "s161",
+      "text": "I’ll fetch Goshen before daylight.”"
+    },
+    {
+      "id": "s162",
+      "text": "“Hold on a minute."
+    },
+    {
+      "id": "s163",
+      "text": "I’ll put you up a snack to eat."
+    },
+    {
+      "id": "s164",
+      "text": "You might want it.”"
+    },
+    {
+      "id": "s165",
+      "text": "So she put me up a snack, and says:"
+    },
+    {
+      "id": "s166",
+      "text": "“Say, when a cow’s laying down, which end of her gets up first?"
+    },
+    {
+      "id": "s167",
+      "text": "Answer up prompt now—don’t stop to study over it."
+    },
+    {
+      "id": "s168",
+      "text": "Which end gets up first?”"
+    },
+    {
+      "id": "s169",
+      "text": "“The hind end, mum.”"
+    },
+    {
+      "id": "s170",
+      "text": "“Well, then, a horse?”"
+    },
+    {
+      "id": "s171",
+      "text": "“The for’rard end, mum.”"
+    },
+    {
+      "id": "s172",
+      "text": "“Which side of a tree does the moss grow on?”"
+    },
+    {
+      "id": "s173",
+      "text": "“North side.”"
+    },
+    {
+      "id": "s174",
+      "text": "“If fifteen cows is browsing on a hillside, how many of them eats with their heads pointed the same direction?”"
+    },
+    {
+      "id": "s175",
+      "text": "“The whole fifteen, mum.”"
+    },
+    {
+      "id": "s176",
+      "text": "“Well, I reckon you _have_ lived in the country."
+    },
+    {
+      "id": "s177",
+      "text": "I thought maybe you was trying to hocus me again."
+    },
+    {
+      "id": "s178",
+      "text": "What’s your real name, now?”"
+    },
+    {
+      "id": "s179",
+      "text": "“George Peters, mum.”"
+    },
+    {
+      "id": "s180",
+      "text": "“Well, try to remember it, George."
+    },
+    {
+      "id": "s181",
+      "text": "Don’t forget and tell me it’s Elexander before you go, and then get out by saying it’s George Elexander when I catch you."
+    },
+    {
+      "id": "s182",
+      "text": "And don’t go about women in that old calico."
+    },
+    {
+      "id": "s183",
+      "text": "You do a girl tolerable poor, but you might fool men, maybe."
+    },
+    {
+      "id": "s184",
+      "text": "Bless you, child, when you set out to thread a needle don’t hold the thread still and fetch the needle up to it; hold the needle still and poke the thread at it; that’s the way a woman most always does, but a man always does t’other way."
+    },
+    {
+      "id": "s185",
+      "text": "And when you throw at a rat or anything, hitch yourself up a tiptoe and fetch your hand up over your head as awkward as you can, and miss your rat about six or seven foot."
+    },
+    {
+      "id": "s186",
+      "text": "Throw stiff-armed from the shoulder, like there was a pivot there for it to turn on, like a girl; not from the wrist and elbow, with your arm out to one side, like a boy."
+    },
+    {
+      "id": "s187",
+      "text": "And, mind you, when a girl tries to catch anything in her lap she throws her knees apart; she don’t clap them together, the way you did when you catched the lump of lead."
+    },
+    {
+      "id": "s188",
+      "text": "Why, I spotted you for a boy when you was threading the needle; and I contrived the other things just to make certain."
+    },
+    {
+      "id": "s189",
+      "text": "Now trot along to your uncle, Sarah Mary Williams George Elexander Peters, and if you get into trouble you send word to Mrs."
+    },
+    {
+      "id": "s190",
+      "text": "Judith Loftus, which is me, and I’ll do what I can to get you out of it."
+    },
+    {
+      "id": "s191",
+      "text": "Keep the river road all the way, and next time you tramp take shoes and socks with you."
+    },
+    {
+      "id": "s192",
+      "text": "The river road’s a rocky one, and your feet’ll be in a condition when you get to Goshen, I reckon.”"
+    },
+    {
+      "id": "s193",
+      "text": "I went up the bank about fifty yards, and then I doubled on my tracks and slipped back to where my canoe was, a good piece below the house."
+    },
+    {
+      "id": "s194",
+      "text": "I jumped in, and was off in a hurry."
+    },
+    {
+      "id": "s195",
+      "text": "I went up-stream far enough to make the head of the island, and then started across."
+    },
+    {
+      "id": "s196",
+      "text": "I took off the sun-bonnet, for I didn’t want no blinders on then."
+    },
+    {
+      "id": "s197",
+      "text": "When I was about the middle I heard the clock begin to strike, so I stops and listens; the sound come faint over the water but clear—eleven."
+    },
+    {
+      "id": "s198",
+      "text": "When I struck the head of the island I never waited to blow, though I was most winded, but I shoved right into the timber where my old camp used to be, and started a good fire there on a high and dry spot."
+    },
+    {
+      "id": "s199",
+      "text": "Then I jumped in the canoe and dug out for our place, a mile and a half below, as hard as I could go."
+    },
+    {
+      "id": "s200",
+      "text": "I landed, and slopped through the timber and up the ridge and into the cavern."
+    },
+    {
+      "id": "s201",
+      "text": "There Jim laid, sound asleep on the ground."
+    },
+    {
+      "id": "s202",
+      "text": "I roused him out and says:"
+    },
+    {
+      "id": "s203",
+      "text": "“Git up and hump yourself, Jim!"
+    },
+    {
+      "id": "s204",
+      "text": "There ain’t a minute to lose."
+    },
+    {
+      "id": "s205",
+      "text": "They’re after us!”"
+    },
+    {
+      "id": "s206",
+      "text": "Jim never asked no questions, he never said a word; but the way he worked for the next half an hour showed about how he was scared."
+    },
+    {
+      "id": "s207",
+      "text": "By that time everything we had in the world was on our raft, and she was ready to be shoved out from the willow cove where she was hid."
+    },
+    {
+      "id": "s208",
+      "text": "We put out the camp fire at the cavern the first thing, and didn’t show a candle outside after that."
+    },
+    {
+      "id": "s209",
+      "text": "I took the canoe out from the shore a little piece, and took a look; but if there was a boat around I couldn’t see it, for stars and shadows ain’t good to see by."
+    },
+    {
+      "id": "s210",
+      "text": "Then we got out the raft and slipped along down in the shade, past the foot of the island dead still—never saying a word."
+    }
+  ]
+}

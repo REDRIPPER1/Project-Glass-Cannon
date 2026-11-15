@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+  "ebookId": "74",
+  "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-23",
+  "chapterTitle": "CHAPTER XXIII",
+  "contentHash": "sha256:1df31a2c4fec9462116a490aaf9205d3f54d5c6065acb1aa252ba324e6c97b4a",
+  "attribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER XXIII. Source checked against Project Gutenberg eBook #74.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/74",
+    "textUrl": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "At last the sleepy atmosphere was stirred—and vigorously: the murder trial came on in the court."
+    },
+    {
+      "id": "s2",
+      "text": "It became the absorbing topic of village talk immediately."
+    },
+    {
+      "id": "s3",
+      "text": "Tom could not get away from it."
+    },
+    {
+      "id": "s4",
+      "text": "Every reference to the murder sent a shudder to his heart, for his troubled conscience and fears almost persuaded him that these remarks were put forth in his hearing as “feelers”; he did not see how he could be suspected of knowing anything about the murder, but still he could not be comfortable in the midst of this gossip."
+    },
+    {
+      "id": "s5",
+      "text": "It kept him in a cold shiver all the time."
+    },
+    {
+      "id": "s6",
+      "text": "He took Huck to a lonely place to have a talk with him."
+    },
+    {
+      "id": "s7",
+      "text": "It would be some relief to unseal his tongue for a little while; to divide his burden of distress with another sufferer."
+    },
+    {
+      "id": "s8",
+      "text": "Moreover, he wanted to assure himself that Huck had remained discreet."
+    },
+    {
+      "id": "s9",
+      "text": "“Huck, have you ever told anybody about—that?”"
+    },
+    {
+      "id": "s10",
+      "text": "“’Bout what?”"
+    },
+    {
+      "id": "s11",
+      "text": "“You know what.”"
+    },
+    {
+      "id": "s12",
+      "text": "“Oh—’course I haven’t.”"
+    },
+    {
+      "id": "s13",
+      "text": "“Never a word?”"
+    },
+    {
+      "id": "s14",
+      "text": "“Never a solitary word, so help me."
+    },
+    {
+      "id": "s15",
+      "text": "What makes you ask?”"
+    },
+    {
+      "id": "s16",
+      "text": "“Well, I was afeard.”"
+    },
+    {
+      "id": "s17",
+      "text": "“Why, Tom Sawyer, we wouldn’t be alive two days if that got found out. _You_ know that.”"
+    },
+    {
+      "id": "s18",
+      "text": "Tom felt more comfortable."
+    },
+    {
+      "id": "s19",
+      "text": "After a pause:"
+    },
+    {
+      "id": "s20",
+      "text": "“Huck, they couldn’t anybody get you to tell, could they?”"
+    },
+    {
+      "id": "s21",
+      "text": "“Get me to tell?"
+    },
+    {
+      "id": "s22",
+      "text": "Why, if I wanted that halfbreed devil to drownd me they could get me to tell."
+    },
+    {
+      "id": "s23",
+      "text": "They ain’t no different way.”"
+    },
+    {
+      "id": "s24",
+      "text": "“Well, that’s all right, then."
+    },
+    {
+      "id": "s25",
+      "text": "I reckon we’re safe as long as we keep mum."
+    },
+    {
+      "id": "s26",
+      "text": "But let’s swear again, anyway."
+    },
+    {
+      "id": "s27",
+      "text": "It’s more surer.”"
+    },
+    {
+      "id": "s28",
+      "text": "“I’m agreed.”"
+    },
+    {
+      "id": "s29",
+      "text": "So they swore again with dread solemnities."
+    },
+    {
+      "id": "s30",
+      "text": "“What is the talk around, Huck?"
+    },
+    {
+      "id": "s31",
+      "text": "I’ve heard a power of it.”"
+    },
+    {
+      "id": "s32",
+      "text": "“Talk?"
+    },
+    {
+      "id": "s33",
+      "text": "Well, it’s just Muff Potter, Muff Potter, Muff Potter all the time."
+    },
+    {
+      "id": "s34",
+      "text": "It keeps me in a sweat, constant, so’s I want to hide som’ers.”"
+    },
+    {
+      "id": "s35",
+      "text": "“That’s just the same way they go on round me."
+    },
+    {
+      "id": "s36",
+      "text": "I reckon he’s a goner."
+    },
+    {
+      "id": "s37",
+      "text": "Don’t you feel sorry for him, sometimes?”"
+    },
+    {
+      "id": "s38",
+      "text": "“Most always—most always."
+    },
+    {
+      "id": "s39",
+      "text": "He ain’t no account; but then he hain’t ever done anything to hurt anybody."
+    },
+    {
+      "id": "s40",
+      "text": "Just fishes a little, to get money to get drunk on—and loafs around considerable; but lord, we all do that—leastways most of us—preachers and such like."
+    },
+    {
+      "id": "s41",
+      "text": "But he’s kind of good—he give me half a fish, once, when there warn’t enough for two; and lots of times he’s kind of stood by me when I was out of luck.”"
+    },
+    {
+      "id": "s42",
+      "text": "“Well, he’s mended kites for me, Huck, and knitted hooks on to my line."
+    },
+    {
+      "id": "s43",
+      "text": "I wish we could get him out of there.”"
+    },
+    {
+      "id": "s44",
+      "text": "“My! we couldn’t get him out, Tom."
+    },
+    {
+      "id": "s45",
+      "text": "And besides, ’twouldn’t do any good; they’d ketch him again.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Yes—so they would."
+    },
+    {
+      "id": "s47",
+      "text": "But I hate to hear ’em abuse him so like the dickens when he never done—that.”"
+    },
+    {
+      "id": "s48",
+      "text": "“I do too, Tom."
+    },
+    {
+      "id": "s49",
+      "text": "Lord, I hear ’em say he’s the bloodiest looking villain in this country, and they wonder he wasn’t ever hung before.”"
+    },
+    {
+      "id": "s50",
+      "text": "“Yes, they talk like that, all the time."
+    },
+    {
+      "id": "s51",
+      "text": "I’ve heard ’em say that if he was to get free they’d lynch him.”"
+    },
+    {
+      "id": "s52",
+      "text": "“And they’d do it, too.”"
+    },
+    {
+      "id": "s53",
+      "text": "The boys had a long talk, but it brought them little comfort."
+    },
+    {
+      "id": "s54",
+      "text": "As the twilight drew on, they found themselves hanging about the neighborhood of the little isolated jail, perhaps with an undefined hope that something would happen that might clear away their difficulties."
+    },
+    {
+      "id": "s55",
+      "text": "But nothing happened; there seemed to be no angels or fairies interested in this luckless captive."
+    },
+    {
+      "id": "s56",
+      "text": "The boys did as they had often done before—went to the cell grating and gave Potter some tobacco and matches."
+    },
+    {
+      "id": "s57",
+      "text": "He was on the ground floor and there were no guards."
+    },
+    {
+      "id": "s58",
+      "text": "His gratitude for their gifts had always smote their consciences before—it cut deeper than ever, this time."
+    },
+    {
+      "id": "s59",
+      "text": "They felt cowardly and treacherous to the last degree when Potter said:"
+    },
+    {
+      "id": "s60",
+      "text": "“You’ve been mighty good to me, boys—better’n anybody else in this town."
+    },
+    {
+      "id": "s61",
+      "text": "And I don’t forget it, I don’t."
+    },
+    {
+      "id": "s62",
+      "text": "Often I says to myself, says I, ‘I used to mend all the boys’ kites and things, and show ’em where the good fishin’ places was, and befriend ’em what I could, and now they’ve all forgot old Muff when he’s in trouble; but Tom don’t, and Huck don’t—_they_ don’t forget him,’ says I, ‘and I don’t forget them.’ Well, boys, I done an awful thing—drunk and crazy at the time—that’s the only way I account for it—and now I got to swing for it, and it’s right."
+    },
+    {
+      "id": "s63",
+      "text": "Right, and _best_, too, I reckon—hope so, anyway."
+    },
+    {
+      "id": "s64",
+      "text": "Well, we won’t talk about that."
+    },
+    {
+      "id": "s65",
+      "text": "I don’t want to make _you_ feel bad; you’ve befriended me."
+    },
+    {
+      "id": "s66",
+      "text": "But what I want to say, is, don’t _you_ ever get drunk—then you won’t ever get here."
+    },
+    {
+      "id": "s67",
+      "text": "Stand a litter furder west—so—that’s it; it’s a prime comfort to see faces that’s friendly when a body’s in such a muck of trouble, and there don’t none come here but yourn."
+    },
+    {
+      "id": "s68",
+      "text": "Good friendly faces—good friendly faces."
+    },
+    {
+      "id": "s69",
+      "text": "Git up on one another’s backs and let me touch ’em."
+    },
+    {
+      "id": "s70",
+      "text": "That’s it."
+    },
+    {
+      "id": "s71",
+      "text": "Shake hands—yourn’ll come through the bars, but mine’s too big."
+    },
+    {
+      "id": "s72",
+      "text": "Little hands, and weak—but they’ve helped Muff Potter a power, and they’d help him more if they could.”"
+    },
+    {
+      "id": "s73",
+      "text": "Tom went home miserable, and his dreams that night were full of horrors."
+    },
+    {
+      "id": "s74",
+      "text": "The next day and the day after, he hung about the courtroom, drawn by an almost irresistible impulse to go in, but forcing himself to stay out."
+    },
+    {
+      "id": "s75",
+      "text": "Huck was having the same experience."
+    },
+    {
+      "id": "s76",
+      "text": "They studiously avoided each other."
+    },
+    {
+      "id": "s77",
+      "text": "Each wandered away, from time to time, but the same dismal fascination always brought them back presently."
+    },
+    {
+      "id": "s78",
+      "text": "Tom kept his ears open when idlers sauntered out of the courtroom, but invariably heard distressing news—the toils were closing more and more relentlessly around poor Potter."
+    },
+    {
+      "id": "s79",
+      "text": "At the end of the second day the village talk was to the effect that Injun Joe’s evidence stood firm and unshaken, and that there was not the slightest question as to what the jury’s verdict would be."
+    },
+    {
+      "id": "s80",
+      "text": "Tom was out late, that night, and came to bed through the window."
+    },
+    {
+      "id": "s81",
+      "text": "He was in a tremendous state of excitement."
+    },
+    {
+      "id": "s82",
+      "text": "It was hours before he got to sleep."
+    },
+    {
+      "id": "s83",
+      "text": "All the village flocked to the courthouse the next morning, for this was to be the great day."
+    },
+    {
+      "id": "s84",
+      "text": "Both sexes were about equally represented in the packed audience."
+    },
+    {
+      "id": "s85",
+      "text": "After a long wait the jury filed in and took their places; shortly afterward, Potter, pale and haggard, timid and hopeless, was brought in, with chains upon him, and seated where all the curious eyes could stare at him; no less conspicuous was Injun Joe, stolid as ever."
+    },
+    {
+      "id": "s86",
+      "text": "There was another pause, and then the judge arrived and the sheriff proclaimed the opening of the court."
+    },
+    {
+      "id": "s87",
+      "text": "The usual whisperings among the lawyers and gathering together of papers followed."
+    },
+    {
+      "id": "s88",
+      "text": "These details and accompanying delays worked up an atmosphere of preparation that was as impressive as it was fascinating."
+    },
+    {
+      "id": "s89",
+      "text": "Now a witness was called who testified that he found Muff Potter washing in the brook, at an early hour of the morning that the murder was discovered, and that he immediately sneaked away."
+    },
+    {
+      "id": "s90",
+      "text": "After some further questioning, counsel for the prosecution said:"
+    },
+    {
+      "id": "s91",
+      "text": "“Take the witness.”"
+    },
+    {
+      "id": "s92",
+      "text": "The prisoner raised his eyes for a moment, but dropped them again when his own counsel said:"
+    },
+    {
+      "id": "s93",
+      "text": "“I have no questions to ask him.”"
+    },
+    {
+      "id": "s94",
+      "text": "The next witness proved the finding of the knife near the corpse."
+    },
+    {
+      "id": "s95",
+      "text": "Counsel for the prosecution said:"
+    },
+    {
+      "id": "s96",
+      "text": "“Take the witness.”"
+    },
+    {
+      "id": "s97",
+      "text": "“I have no questions to ask him,” Potter’s lawyer replied."
+    },
+    {
+      "id": "s98",
+      "text": "A third witness swore he had often seen the knife in Potter’s possession."
+    },
+    {
+      "id": "s99",
+      "text": "“Take the witness.”"
+    },
+    {
+      "id": "s100",
+      "text": "Counsel for Potter declined to question him."
+    },
+    {
+      "id": "s101",
+      "text": "The faces of the audience began to betray annoyance."
+    },
+    {
+      "id": "s102",
+      "text": "Did this attorney mean to throw away his client’s life without an effort?"
+    },
+    {
+      "id": "s103",
+      "text": "Several witnesses deposed concerning Potter’s guilty behavior when brought to the scene of the murder."
+    },
+    {
+      "id": "s104",
+      "text": "They were allowed to leave the stand without being cross-questioned."
+    },
+    {
+      "id": "s105",
+      "text": "Every detail of the damaging circumstances that occurred in the graveyard upon that morning which all present remembered so well was brought out by credible witnesses, but none of them were cross-examined by Potter’s lawyer."
+    },
+    {
+      "id": "s106",
+      "text": "The perplexity and dissatisfaction of the house expressed itself in murmurs and provoked a reproof from the bench."
+    },
+    {
+      "id": "s107",
+      "text": "Counsel for the prosecution now said:"
+    },
+    {
+      "id": "s108",
+      "text": "“By the oaths of citizens whose simple word is above suspicion, we have fastened this awful crime, beyond all possibility of question, upon the unhappy prisoner at the bar."
+    },
+    {
+      "id": "s109",
+      "text": "We rest our case here.”"
+    },
+    {
+      "id": "s110",
+      "text": "A groan escaped from poor Potter, and he put his face in his hands and rocked his body softly to and fro, while a painful silence reigned in the courtroom."
+    },
+    {
+      "id": "s111",
+      "text": "Many men were moved, and many women’s compassion testified itself in tears."
+    },
+    {
+      "id": "s112",
+      "text": "Counsel for the defence rose and said:"
+    },
+    {
+      "id": "s113",
+      "text": "“Your honor, in our remarks at the opening of this trial, we foreshadowed our purpose to prove that our client did this fearful deed while under the influence of a blind and irresponsible delirium produced by drink."
+    },
+    {
+      "id": "s114",
+      "text": "We have changed our mind."
+    },
+    {
+      "id": "s115",
+      "text": "We shall not offer that plea.” [Then to the clerk:] “Call Thomas Sawyer!”"
+    },
+    {
+      "id": "s116",
+      "text": "A puzzled amazement awoke in every face in the house, not even excepting Potter’s."
+    },
+    {
+      "id": "s117",
+      "text": "Every eye fastened itself with wondering interest upon Tom as he rose and took his place upon the stand."
+    },
+    {
+      "id": "s118",
+      "text": "The boy looked wild enough, for he was badly scared."
+    },
+    {
+      "id": "s119",
+      "text": "The oath was administered."
+    },
+    {
+      "id": "s120",
+      "text": "“Thomas Sawyer, where were you on the seventeenth of June, about the hour of midnight?”"
+    },
+    {
+      "id": "s121",
+      "text": "Tom glanced at Injun Joe’s iron face and his tongue failed him."
+    },
+    {
+      "id": "s122",
+      "text": "The audience listened breathless, but the words refused to come."
+    },
+    {
+      "id": "s123",
+      "text": "After a few moments, however, the boy got a little of his strength back, and managed to put enough of it into his voice to make part of the house hear:"
+    },
+    {
+      "id": "s124",
+      "text": "“In the graveyard!”"
+    },
+    {
+      "id": "s125",
+      "text": "“A little bit louder, please."
+    },
+    {
+      "id": "s126",
+      "text": "Don’t be afraid."
+    },
+    {
+      "id": "s127",
+      "text": "You were—”"
+    },
+    {
+      "id": "s128",
+      "text": "“In the graveyard.”"
+    },
+    {
+      "id": "s129",
+      "text": "A contemptuous smile flitted across Injun Joe’s face."
+    },
+    {
+      "id": "s130",
+      "text": "“Were you anywhere near Horse Williams’ grave?”"
+    },
+    {
+      "id": "s131",
+      "text": "“Yes, sir.”"
+    },
+    {
+      "id": "s132",
+      "text": "“Speak up—just a trifle louder."
+    },
+    {
+      "id": "s133",
+      "text": "How near were you?”"
+    },
+    {
+      "id": "s134",
+      "text": "“Near as I am to you.”"
+    },
+    {
+      "id": "s135",
+      "text": "“Were you hidden, or not?”"
+    },
+    {
+      "id": "s136",
+      "text": "“I was hid.”"
+    },
+    {
+      "id": "s137",
+      "text": "“Where?”"
+    },
+    {
+      "id": "s138",
+      "text": "“Behind the elms that’s on the edge of the grave.”"
+    },
+    {
+      "id": "s139",
+      "text": "Injun Joe gave a barely perceptible start."
+    },
+    {
+      "id": "s140",
+      "text": "“Any one with you?”"
+    },
+    {
+      "id": "s141",
+      "text": "“Yes, sir."
+    },
+    {
+      "id": "s142",
+      "text": "I went there with—”"
+    },
+    {
+      "id": "s143",
+      "text": "“Wait—wait a moment."
+    },
+    {
+      "id": "s144",
+      "text": "Never mind mentioning your companion’s name."
+    },
+    {
+      "id": "s145",
+      "text": "We will produce him at the proper time."
+    },
+    {
+      "id": "s146",
+      "text": "Did you carry anything there with you.”"
+    },
+    {
+      "id": "s147",
+      "text": "Tom hesitated and looked confused."
+    },
+    {
+      "id": "s148",
+      "text": "“Speak out, my boy—don’t be diffident."
+    },
+    {
+      "id": "s149",
+      "text": "The truth is always respectable."
+    },
+    {
+      "id": "s150",
+      "text": "What did you take there?”"
+    },
+    {
+      "id": "s151",
+      "text": "“Only a—a—dead cat.”"
+    },
+    {
+      "id": "s152",
+      "text": "There was a ripple of mirth, which the court checked."
+    },
+    {
+      "id": "s153",
+      "text": "“We will produce the skeleton of that cat."
+    },
+    {
+      "id": "s154",
+      "text": "Now, my boy, tell us everything that occurred—tell it in your own way—don’t skip anything, and don’t be afraid.”"
+    },
+    {
+      "id": "s155",
+      "text": "Tom began—hesitatingly at first, but as he warmed to his subject his words flowed more and more easily; in a little while every sound ceased but his own voice; every eye fixed itself upon him; with parted lips and bated breath the audience hung upon his words, taking no note of time, rapt in the ghastly fascinations of the tale."
+    },
+    {
+      "id": "s156",
+      "text": "The strain upon pent emotion reached its climax when the boy said:"
+    },
+    {
+      "id": "s157",
+      "text": "“—and as the doctor fetched the board around and Muff Potter fell, Injun Joe jumped with the knife and—”"
+    },
+    {
+      "id": "s158",
+      "text": "Crash!"
+    },
+    {
+      "id": "s159",
+      "text": "Quick as lightning the halfbreed sprang for a window, tore his way through all opposers, and was gone!"
+    }
+  ]
+}

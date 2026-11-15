@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-22",
+  "chapterTitle": "CHAPTER XXII.",
+  "contentHash": "sha256:dd186e1ff49feed030c429e63c4bf348b32ad8ad0b71b34acb615d9aa2c7c1f0",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, CHAPTER XXII.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE NEW CITIZEN OF THE UNITED STATES"
+    },
+    {
+      "id": "s2",
+      "text": "That same day all America heard of the affair of Captain Nicholl and President Barbicane, as well as its singular _denouement_."
+    },
+    {
+      "id": "s3",
+      "text": "From that day forth, Michel Ardan had not one moment’s rest."
+    },
+    {
+      "id": "s4",
+      "text": "Deputations from all corners of the Union harassed him without cessation or intermission."
+    },
+    {
+      "id": "s5",
+      "text": "He was compelled to receive them all, whether he would or no."
+    },
+    {
+      "id": "s6",
+      "text": "How many hands he shook, how many people he was “hail-fellow-well-met” with, it is impossible to guess!"
+    },
+    {
+      "id": "s7",
+      "text": "Such a triumphal result would have intoxicated any other man; but he managed to keep himself in a state of delightful _semi_-tipsiness."
+    },
+    {
+      "id": "s8",
+      "text": "Among the deputations of all kinds which assailed him, that of “The Lunatics” were careful not to forget what they owed to the future conqueror of the moon."
+    },
+    {
+      "id": "s9",
+      "text": "One day, certain of these poor people, so numerous in America, came to call upon him, and requested permission to return with him to their native country."
+    },
+    {
+      "id": "s10",
+      "text": "“Singular hallucination!” said he to Barbicane, after having dismissed the deputation with promises to convey numbers of messages to friends in the moon."
+    },
+    {
+      "id": "s11",
+      "text": "“Do you believe in the influence of the moon upon distempers?”"
+    },
+    {
+      "id": "s12",
+      "text": "“Scarcely!”"
+    },
+    {
+      "id": "s13",
+      "text": "“No more do I, despite some remarkable recorded facts of history."
+    },
+    {
+      "id": "s14",
+      "text": "For instance, during an epidemic in 1693, a large number of persons died at the very moment of an eclipse."
+    },
+    {
+      "id": "s15",
+      "text": "The celebrated Bacon always fainted during an eclipse."
+    },
+    {
+      "id": "s16",
+      "text": "Charles VI relapsed six times into madness during the year 1399, sometimes during the new, sometimes during the full moon."
+    },
+    {
+      "id": "s17",
+      "text": "Gall observed that insane persons underwent an accession of their disorder twice in every month, at the epochs of new and full moon."
+    },
+    {
+      "id": "s18",
+      "text": "In fact, numerous observations made upon fevers, somnambulisms, and other human maladies, seem to prove that the moon does exercise some mysterious influence upon man.”"
+    },
+    {
+      "id": "s19",
+      "text": "“But the how and the wherefore?” asked Barbicane."
+    },
+    {
+      "id": "s20",
+      "text": "“Well, I can only give you the answer which Arago borrowed from Plutarch, which is nineteen centuries old. ‘Perhaps the stories are not true!’”"
+    },
+    {
+      "id": "s21",
+      "text": "In the height of his triumph, Michel Ardan had to encounter all the annoyances incidental to a man of celebrity."
+    },
+    {
+      "id": "s22",
+      "text": "Managers of entertainments wanted to exhibit him."
+    },
+    {
+      "id": "s23",
+      "text": "Barnum offered him a million dollars to make a tour of the United States in his show."
+    },
+    {
+      "id": "s24",
+      "text": "As for his photographs, they were sold of all size, and his portrait taken in every imaginable posture."
+    },
+    {
+      "id": "s25",
+      "text": "More than half a million copies were disposed of in an incredibly short space of time."
+    },
+    {
+      "id": "s26",
+      "text": "But it was not only the men who paid him homage, but the women as well."
+    },
+    {
+      "id": "s27",
+      "text": "He might have married well a hundred times over, if he had been willing to settle in life."
+    },
+    {
+      "id": "s28",
+      "text": "The old maids, in particular, of forty years and upward, and dry in proportion, devoured his photographs day and night."
+    },
+    {
+      "id": "s29",
+      "text": "They would have married him by hundreds, even if he had imposed upon them the condition of accompanying him into space."
+    },
+    {
+      "id": "s30",
+      "text": "He had, however, no intention of transplanting a race of Franco-Americans upon the surface of the moon."
+    },
+    {
+      "id": "s31",
+      "text": "He therefore declined all offers."
+    },
+    {
+      "id": "s32",
+      "text": "As soon as he could withdraw from these somewhat embarrassing demonstrations, he went, accompanied by his friends, to pay a visit to the Columbiad."
+    },
+    {
+      "id": "s33",
+      "text": "He was highly gratified by his inspection, and made the descent to the bottom of the tube of this gigantic machine which was presently to launch him to the regions of the moon."
+    },
+    {
+      "id": "s34",
+      "text": "It is necessary here to mention a proposal of J."
+    },
+    {
+      "id": "s35",
+      "text": "T."
+    },
+    {
+      "id": "s36",
+      "text": "Maston’s."
+    },
+    {
+      "id": "s37",
+      "text": "When the secretary of the Gun Club found that Barbicane and Nicholl accepted the proposal of Michel Ardan, he determined to join them, and make one of a smug party of four."
+    },
+    {
+      "id": "s38",
+      "text": "So one day he determined to be admitted as one of the travelers."
+    },
+    {
+      "id": "s39",
+      "text": "Barbicane, pained at having to refuse him, gave him clearly to understand that the projectile could not possibly contain so many passengers."
+    },
+    {
+      "id": "s40",
+      "text": "Maston, in despair, went in search of Michel Ardan, who counseled him to resign himself to the situation, adding one or two arguments _ad hominem_."
+    },
+    {
+      "id": "s41",
+      "text": "“You see, old fellow,” he said, “you must not take what I say in bad part; but really, between ourselves, you are in too incomplete a condition to appear in the moon!”"
+    },
+    {
+      "id": "s42",
+      "text": "“Incomplete?” shrieked the valiant invalid."
+    },
+    {
+      "id": "s43",
+      "text": "“Yes, my dear fellow! imagine our meeting some of the inhabitants up there!"
+    },
+    {
+      "id": "s44",
+      "text": "Would you like to give them such a melancholy notion of what goes on down here? to teach them what war is, to inform them that we employ our time chiefly in devouring each other, in smashing arms and legs, and that too on a globe which is capable of supporting a hundred billions of inhabitants, and which actually does contain nearly two hundred millions?"
+    },
+    {
+      "id": "s45",
+      "text": "Why, my worthy friend, we should have to turn you out of doors!”"
+    },
+    {
+      "id": "s46",
+      "text": "“But still, if you arrive there in pieces, you will be as incomplete as I am.”"
+    },
+    {
+      "id": "s47",
+      "text": "“Unquestionably,” replied Michel Ardan; “but we shall not.”"
+    },
+    {
+      "id": "s48",
+      "text": "In fact, a preparatory experiment, tried on the 18th of October, had yielded the best results and caused the most well-grounded hopes of success."
+    },
+    {
+      "id": "s49",
+      "text": "Barbicane, desirous of obtaining some notion of the effect of the shock at the moment of the projectile’s departure, had procured a 38-inch mortar from the arsenal of Pensacola."
+    },
+    {
+      "id": "s50",
+      "text": "He had this placed on the bank of Hillisborough Roads, in order that the shell might fall back into the sea, and the shock be thereby destroyed."
+    },
+    {
+      "id": "s51",
+      "text": "His object was to ascertain the extent of the shock of departure, and not that of the return."
+    },
+    {
+      "id": "s52",
+      "text": "A hollow projectile had been prepared for this curious experiment."
+    },
+    {
+      "id": "s53",
+      "text": "A thick padding fastened upon a kind of elastic network, made of the best steel, lined the inside of the walls."
+    },
+    {
+      "id": "s54",
+      "text": "It was a veritable _nest_ most carefully wadded."
+    },
+    {
+      "id": "s55",
+      "text": "“What a pity I can’t find room in there,” said J."
+    },
+    {
+      "id": "s56",
+      "text": "T."
+    },
+    {
+      "id": "s57",
+      "text": "Maston, regretting that his height did not allow of his trying the adventure."
+    },
+    {
+      "id": "s58",
+      "text": "Within this shell were shut up a large cat, and a squirrel belonging to J."
+    },
+    {
+      "id": "s59",
+      "text": "T."
+    },
+    {
+      "id": "s60",
+      "text": "Maston, and of which he was particularly fond."
+    },
+    {
+      "id": "s61",
+      "text": "They were desirous, however, of ascertaining how this little animal, least of all others subject to giddiness, would endure this experimental voyage."
+    },
+    {
+      "id": "s62",
+      "text": "The mortar was charged with 160 pounds of powder, and the shell placed in the chamber."
+    },
+    {
+      "id": "s63",
+      "text": "On being fired, the projectile rose with great velocity, described a majestic parabola, attained a height of about a thousand feet, and with a graceful curve descended in the midst of the vessels that lay there at anchor."
+    },
+    {
+      "id": "s64",
+      "text": "Without a moment’s loss of time a small boat put off in the direction of its fall; some divers plunged into the water and attached ropes to the handles of the shell, which was quickly dragged on board."
+    },
+    {
+      "id": "s65",
+      "text": "Five minutes did not elapse between the moment of enclosing the animals and that of unscrewing the coverlid of their prison."
+    },
+    {
+      "id": "s66",
+      "text": "Ardan, Barbicane, Maston, and Nicholl were present on board the boat, and assisted at the operation with an interest which may readily be comprehended."
+    },
+    {
+      "id": "s67",
+      "text": "Hardly had the shell been opened when the cat leaped out, slightly bruised, but full of life, and exhibiting no signs whatever of having made an aerial expedition."
+    },
+    {
+      "id": "s68",
+      "text": "No trace, however, of the squirrel could be discovered."
+    },
+    {
+      "id": "s69",
+      "text": "The truth at last became apparent—the cat had eaten its fellow-traveler!"
+    },
+    {
+      "id": "s70",
+      "text": "J."
+    },
+    {
+      "id": "s71",
+      "text": "T."
+    },
+    {
+      "id": "s72",
+      "text": "Maston grieved much for the loss of his poor squirrel, and proposed to add its case to that of other martyrs to science."
+    },
+    {
+      "id": "s73",
+      "text": "After this experiment all hesitation, all fear disappeared."
+    },
+    {
+      "id": "s74",
+      "text": "Besides, Barbicane’s plans would ensure greater perfection for his projectile, and go far to annihilate altogether the effects of the shock."
+    },
+    {
+      "id": "s75",
+      "text": "Nothing now remained but to go!"
+    },
+    {
+      "id": "s76",
+      "text": "Two days later Michel Ardan received a message from the President of the United States, an honor of which he showed himself especially sensible."
+    },
+    {
+      "id": "s77",
+      "text": "After the example of his illustrious fellow-countryman, the Marquis de la Fayette, the government had decreed to him the title of “Citizen of the United States of America.”"
+    }
+  ]
+}

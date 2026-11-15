@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-4",
+  "chapterTitle": "CHAPTER IV.",
+  "contentHash": "sha256:c82348dd89b5c29aeb0c7ee50c31743ee89c04a4fb318db157e5121965648176",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER IV.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH PHILEAS FOGG ASTOUNDS PASSEPARTOUT, HIS SERVANT"
+    },
+    {
+      "id": "s2",
+      "text": "Having won twenty guineas at whist, and taken leave of his friends, Phileas Fogg, at twenty-five minutes past seven, left the Reform Club."
+    },
+    {
+      "id": "s3",
+      "text": "Passepartout, who had conscientiously studied the programme of his duties, was more than surprised to see his master guilty of the inexactness of appearing at this unaccustomed hour; for, according to rule, he was not due in Saville Row until precisely midnight."
+    },
+    {
+      "id": "s4",
+      "text": "Mr."
+    },
+    {
+      "id": "s5",
+      "text": "Fogg repaired to his bedroom, and called out, “Passepartout!”"
+    },
+    {
+      "id": "s6",
+      "text": "Passepartout did not reply."
+    },
+    {
+      "id": "s7",
+      "text": "It could not be he who was called; it was not the right hour."
+    },
+    {
+      "id": "s8",
+      "text": "“Passepartout!” repeated Mr."
+    },
+    {
+      "id": "s9",
+      "text": "Fogg, without raising his voice."
+    },
+    {
+      "id": "s10",
+      "text": "Passepartout made his appearance."
+    },
+    {
+      "id": "s11",
+      "text": "“I’ve called you twice,” observed his master."
+    },
+    {
+      "id": "s12",
+      "text": "“But it is not midnight,” responded the other, showing his watch."
+    },
+    {
+      "id": "s13",
+      "text": "“I know it; I don’t blame you."
+    },
+    {
+      "id": "s14",
+      "text": "We start for Dover and Calais in ten minutes.”"
+    },
+    {
+      "id": "s15",
+      "text": "A puzzled grin overspread Passepartout’s round face; clearly he had not comprehended his master."
+    },
+    {
+      "id": "s16",
+      "text": "“Monsieur is going to leave home?”"
+    },
+    {
+      "id": "s17",
+      "text": "“Yes,” returned Phileas Fogg."
+    },
+    {
+      "id": "s18",
+      "text": "“We are going round the world.”"
+    },
+    {
+      "id": "s19",
+      "text": "Passepartout opened wide his eyes, raised his eyebrows, held up his hands, and seemed about to collapse, so overcome was he with stupefied astonishment."
+    },
+    {
+      "id": "s20",
+      "text": "“Round the world!” he murmured."
+    },
+    {
+      "id": "s21",
+      "text": "“In eighty days,” responded Mr."
+    },
+    {
+      "id": "s22",
+      "text": "Fogg."
+    },
+    {
+      "id": "s23",
+      "text": "“So we haven’t a moment to lose.”"
+    },
+    {
+      "id": "s24",
+      "text": "“But the trunks?” gasped Passepartout, unconsciously swaying his head from right to left."
+    },
+    {
+      "id": "s25",
+      "text": "“We’ll have no trunks; only a carpet-bag, with two shirts and three pairs of stockings for me, and the same for you."
+    },
+    {
+      "id": "s26",
+      "text": "We’ll buy our clothes on the way."
+    },
+    {
+      "id": "s27",
+      "text": "Bring down my mackintosh and traveling-cloak, and some stout shoes, though we shall do little walking."
+    },
+    {
+      "id": "s28",
+      "text": "Make haste!”"
+    },
+    {
+      "id": "s29",
+      "text": "Passepartout tried to reply, but could not."
+    },
+    {
+      "id": "s30",
+      "text": "He went out, mounted to his own room, fell into a chair, and muttered: “That’s good, that is!"
+    },
+    {
+      "id": "s31",
+      "text": "And I, who wanted to remain quiet!”"
+    },
+    {
+      "id": "s32",
+      "text": "He mechanically set about making the preparations for departure."
+    },
+    {
+      "id": "s33",
+      "text": "Around the world in eighty days!"
+    },
+    {
+      "id": "s34",
+      "text": "Was his master a fool?"
+    },
+    {
+      "id": "s35",
+      "text": "No."
+    },
+    {
+      "id": "s36",
+      "text": "Was this a joke, then?"
+    },
+    {
+      "id": "s37",
+      "text": "They were going to Dover; good!"
+    },
+    {
+      "id": "s38",
+      "text": "To Calais; good again!"
+    },
+    {
+      "id": "s39",
+      "text": "After all, Passepartout, who had been away from France five years, would not be sorry to set foot on his native soil again."
+    },
+    {
+      "id": "s40",
+      "text": "Perhaps they would go as far as Paris, and it would do his eyes good to see Paris once more."
+    },
+    {
+      "id": "s41",
+      "text": "But surely a gentleman so chary of his steps would stop there; no doubt—but, then, it was none the less true that he was going away, this so domestic person hitherto!"
+    },
+    {
+      "id": "s42",
+      "text": "By eight o’clock Passepartout had packed the modest carpet-bag, containing the wardrobes of his master and himself; then, still troubled in mind, he carefully shut the door of his room, and descended to Mr."
+    },
+    {
+      "id": "s43",
+      "text": "Fogg."
+    },
+    {
+      "id": "s44",
+      "text": "Mr."
+    },
+    {
+      "id": "s45",
+      "text": "Fogg was quite ready."
+    },
+    {
+      "id": "s46",
+      "text": "Under his arm might have been observed a red-bound copy of Bradshaw’s Continental Railway Steam Transit and General Guide, with its timetables showing the arrival and departure of steamers and railways."
+    },
+    {
+      "id": "s47",
+      "text": "He took the carpet-bag, opened it, and slipped into it a goodly roll of Bank of England notes, which would pass wherever he might go."
+    },
+    {
+      "id": "s48",
+      "text": "“You have forgotten nothing?” asked he."
+    },
+    {
+      "id": "s49",
+      "text": "“Nothing, monsieur.”"
+    },
+    {
+      "id": "s50",
+      "text": "“My mackintosh and cloak?”"
+    },
+    {
+      "id": "s51",
+      "text": "“Here they are.”"
+    },
+    {
+      "id": "s52",
+      "text": "“Good!"
+    },
+    {
+      "id": "s53",
+      "text": "Take this carpet-bag,” handing it to Passepartout."
+    },
+    {
+      "id": "s54",
+      "text": "“Take good care of it, for there are twenty thousand pounds in it.”"
+    },
+    {
+      "id": "s55",
+      "text": "Passepartout nearly dropped the bag, as if the twenty thousand pounds were in gold, and weighed him down."
+    },
+    {
+      "id": "s56",
+      "text": "Master and man then descended, the street-door was double-locked, and at the end of Saville Row they took a cab and drove rapidly to Charing Cross."
+    },
+    {
+      "id": "s57",
+      "text": "The cab stopped before the railway station at twenty minutes past eight."
+    },
+    {
+      "id": "s58",
+      "text": "Passepartout jumped off the box and followed his master, who, after paying the cabman, was about to enter the station, when a poor beggar-woman, with a child in her arms, her naked feet smeared with mud, her head covered with a wretched bonnet, from which hung a tattered feather, and her shoulders shrouded in a ragged shawl, approached, and mournfully asked for alms."
+    },
+    {
+      "id": "s59",
+      "text": "Mr."
+    },
+    {
+      "id": "s60",
+      "text": "Fogg took out the twenty guineas he had just won at whist, and handed them to the beggar, saying, “Here, my good woman."
+    },
+    {
+      "id": "s61",
+      "text": "I’m glad that I met you;” and passed on."
+    },
+    {
+      "id": "s62",
+      "text": "Passepartout had a moist sensation about the eyes; his master’s action touched his susceptible heart."
+    },
+    {
+      "id": "s63",
+      "text": "Two first-class tickets for Paris having been speedily purchased, Mr."
+    },
+    {
+      "id": "s64",
+      "text": "Fogg was crossing the station to the train, when he perceived his five friends of the Reform."
+    },
+    {
+      "id": "s65",
+      "text": "“Well, gentlemen,” said he, “I’m off, you see; and, if you will examine my passport when I get back, you will be able to judge whether I have accomplished the journey agreed upon.”"
+    },
+    {
+      "id": "s66",
+      "text": "“Oh, that would be quite unnecessary, Mr."
+    },
+    {
+      "id": "s67",
+      "text": "Fogg,” said Ralph politely."
+    },
+    {
+      "id": "s68",
+      "text": "“We will trust your word, as a gentleman of honour.”"
+    },
+    {
+      "id": "s69",
+      "text": "“You do not forget when you are due in London again?” asked Stuart."
+    },
+    {
+      "id": "s70",
+      "text": "“In eighty days; on Saturday, the 21st of December, 1872, at a quarter before nine p.m."
+    },
+    {
+      "id": "s71",
+      "text": "Good-bye, gentlemen.”"
+    },
+    {
+      "id": "s72",
+      "text": "Phileas Fogg and his servant seated themselves in a first-class carriage at twenty minutes before nine; five minutes later the whistle screamed, and the train slowly glided out of the station."
+    },
+    {
+      "id": "s73",
+      "text": "The night was dark, and a fine, steady rain was falling."
+    },
+    {
+      "id": "s74",
+      "text": "Phileas Fogg, snugly ensconced in his corner, did not open his lips."
+    },
+    {
+      "id": "s75",
+      "text": "Passepartout, not yet recovered from his stupefaction, clung mechanically to the carpet-bag, with its enormous treasure."
+    },
+    {
+      "id": "s76",
+      "text": "Just as the train was whirling through Sydenham, Passepartout suddenly uttered a cry of despair."
+    },
+    {
+      "id": "s77",
+      "text": "“What’s the matter?” asked Mr."
+    },
+    {
+      "id": "s78",
+      "text": "Fogg."
+    },
+    {
+      "id": "s79",
+      "text": "“Alas!"
+    },
+    {
+      "id": "s80",
+      "text": "In my hurry—I—I forgot—”"
+    },
+    {
+      "id": "s81",
+      "text": "“What?”"
+    },
+    {
+      "id": "s82",
+      "text": "“To turn off the gas in my room!”"
+    },
+    {
+      "id": "s83",
+      "text": "“Very well, young man,” returned Mr."
+    },
+    {
+      "id": "s84",
+      "text": "Fogg, coolly; “it will burn—at your expense.”"
+    }
+  ]
+}

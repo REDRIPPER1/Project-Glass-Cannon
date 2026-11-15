@@ -4,9 +4,9 @@
   "ebookId": "76",
   "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER I. You don’t know about me without you have read a book by the name of The",
-  "contentHash": "sha256:30368142fdea0db7c9dd094d8cc4b0fee7ab92de44ddb0b39917d7c19ca3a458",
-  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER I. You don’t know about me without you have read a book by the name of The. Source checked against Project Gutenberg eBook #76.",
+  "chapterTitle": "CHAPTER I.",
+  "contentHash": "sha256:e0367d0000c7cea37bcc7bdd81d43a87ead0c8220427eb65c0169e97df2e79b6",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER I.. Source checked against Project Gutenberg eBook #76.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/76",
@@ -19,7 +19,7 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "Adventures of Tom Sawyer; but that ain’t no matter."
+      "text": "You don’t know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain’t no matter."
     },
     {
       "id": "s2",

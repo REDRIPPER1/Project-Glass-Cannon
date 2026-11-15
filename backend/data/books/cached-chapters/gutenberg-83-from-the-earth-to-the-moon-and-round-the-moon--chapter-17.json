@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-17",
+  "chapterTitle": "CHAPTER XVII.",
+  "contentHash": "sha256:5de8b57a7f09147481807da40637113f5d288882afd62027d24b4c2d5eb01844",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, CHAPTER XVII.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A TELEGRAPHIC DISPATCH"
+    },
+    {
+      "id": "s2",
+      "text": "The great works undertaken by the Gun Club had now virtually come to an end; and two months still remained before the day for the discharge of the shot to the moon."
+    },
+    {
+      "id": "s3",
+      "text": "To the general impatience these two months appeared as long as years!"
+    },
+    {
+      "id": "s4",
+      "text": "Hitherto the smallest details of the operation had been daily chronicled by the journals, which the public devoured with eager eyes."
+    },
+    {
+      "id": "s5",
+      "text": "Just at this moment a circumstance, the most unexpected, the most extraordinary and incredible, occurred to rouse afresh their panting spirits, and to throw every mind into a state of the most violent excitement."
+    },
+    {
+      "id": "s6",
+      "text": "One day, the 30th of September, at 3:47 P.M., a telegram, transmitted by cable from Valentia (Ireland) to Newfoundland and the American Mainland, arrived at the address of President Barbicane."
+    },
+    {
+      "id": "s7",
+      "text": "The president tore open the envelope, read the dispatch, and, despite his remarkable powers of self-control, his lips turned pale and his eyes grew dim, on reading the twenty words of this telegram."
+    },
+    {
+      "id": "s8",
+      "text": "Here is the text of the dispatch, which figures now in the archives of the Gun Club:"
+    },
+    {
+      "id": "s9",
+      "text": "FRANCE, PARIS, 30 September, 4 A.M."
+    },
+    {
+      "id": "s10",
+      "text": "Barbicane, Tampa Town, Florida, United States."
+    },
+    {
+      "id": "s11",
+      "text": "Substitute for your spherical shell a cylindro-conical projectile."
+    },
+    {
+      "id": "s12",
+      "text": "I shall go inside."
+    },
+    {
+      "id": "s13",
+      "text": "Shall arrive by steamer Atlanta."
+    },
+    {
+      "id": "s14",
+      "text": "MICHEL ARDAN."
+    }
+  ]
+}

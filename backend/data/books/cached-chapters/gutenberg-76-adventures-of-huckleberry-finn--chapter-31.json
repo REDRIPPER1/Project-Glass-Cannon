@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-31",
+  "chapterTitle": "CHAPTER XXXI.",
+  "contentHash": "sha256:b39d27e66e9815c48d83b47ed09498fa7b800b63f449312aca8bba10090c2595",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER XXXI.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "We dasn’t stop again at any town for days and days; kept right along down the river."
+    },
+    {
+      "id": "s2",
+      "text": "We was down south in the warm weather now, and a mighty long ways from home."
+    },
+    {
+      "id": "s3",
+      "text": "We begun to come to trees with Spanish moss on them, hanging down from the limbs like long, gray beards."
+    },
+    {
+      "id": "s4",
+      "text": "It was the first I ever see it growing, and it made the woods look solemn and dismal."
+    },
+    {
+      "id": "s5",
+      "text": "So now the frauds reckoned they was out of danger, and they begun to work the villages again."
+    },
+    {
+      "id": "s6",
+      "text": "First they done a lecture on temperance; but they didn’t make enough for them both to get drunk on."
+    },
+    {
+      "id": "s7",
+      "text": "Then in another village they started a dancing-school; but they didn’t know no more how to dance than a kangaroo does; so the first prance they made the general public jumped in and pranced them out of town."
+    },
+    {
+      "id": "s8",
+      "text": "Another time they tried to go at yellocution; but they didn’t yellocute long till the audience got up and give them a solid good cussing, and made them skip out."
+    },
+    {
+      "id": "s9",
+      "text": "They tackled missionarying, and mesmerizing, and doctoring, and telling fortunes, and a little of everything; but they couldn’t seem to have no luck."
+    },
+    {
+      "id": "s10",
+      "text": "So at last they got just about dead broke, and laid around the raft as she floated along, thinking and thinking, and never saying nothing, by the half a day at a time, and dreadful blue and desperate."
+    },
+    {
+      "id": "s11",
+      "text": "And at last they took a change and begun to lay their heads together in the wigwam and talk low and confidential two or three hours at a time."
+    },
+    {
+      "id": "s12",
+      "text": "Jim and me got uneasy."
+    },
+    {
+      "id": "s13",
+      "text": "We didn’t like the look of it."
+    },
+    {
+      "id": "s14",
+      "text": "We judged they was studying up some kind of worse deviltry than ever."
+    },
+    {
+      "id": "s15",
+      "text": "We turned it over and over, and at last we made up our minds they was going to break into somebody’s house or store, or was going into the counterfeit-money business, or something."
+    },
+    {
+      "id": "s16",
+      "text": "So then we was pretty scared, and made up an agreement that we wouldn’t have nothing in the world to do with such actions, and if we ever got the least show we would give them the cold shake and clear out and leave them behind."
+    },
+    {
+      "id": "s17",
+      "text": "Well, early one morning we hid the raft in a good, safe place about two mile below a little bit of a shabby village named Pikesville, and the king he went ashore and told us all to stay hid whilst he went up to town and smelt around to see if anybody had got any wind of the Royal Nonesuch there yet. (“House to rob, you _mean_,” says I to myself; “and when you get through robbing it you’ll come back here and wonder what has become of me and Jim and the raft—and you’ll have to take it out in wondering.”) And he said if he warn’t back by midday the duke and me would know it was all right, and we was to come along."
+    },
+    {
+      "id": "s18",
+      "text": "So we stayed where we was."
+    },
+    {
+      "id": "s19",
+      "text": "The duke he fretted and sweated around, and was in a mighty sour way."
+    },
+    {
+      "id": "s20",
+      "text": "He scolded us for everything, and we couldn’t seem to do nothing right; he found fault with every little thing."
+    },
+    {
+      "id": "s21",
+      "text": "Something was a-brewing, sure."
+    },
+    {
+      "id": "s22",
+      "text": "I was good and glad when midday come and no king; we could have a change, anyway—and maybe a chance for _the_ change on top of it."
+    },
+    {
+      "id": "s23",
+      "text": "So me and the duke went up to the village, and hunted around there for the king, and by-and-by we found him in the back room of a little low doggery, very tight, and a lot of loafers bullyragging him for sport, and he a-cussing and a-threatening with all his might, and so tight he couldn’t walk, and couldn’t do nothing to them."
+    },
+    {
+      "id": "s24",
+      "text": "The duke he begun to abuse him for an old fool, and the king begun to sass back, and the minute they was fairly at it I lit out and shook the reefs out of my hind legs, and spun down the river road like a deer, for I see our chance; and I made up my mind that it would be a long day before they ever see me and Jim again."
+    },
+    {
+      "id": "s25",
+      "text": "I got down there all out of breath but loaded up with joy, and sung out:"
+    },
+    {
+      "id": "s26",
+      "text": "“Set her loose, Jim! we’re all right now!”"
+    },
+    {
+      "id": "s27",
+      "text": "But there warn’t no answer, and nobody come out of the wigwam."
+    },
+    {
+      "id": "s28",
+      "text": "Jim was gone!"
+    },
+    {
+      "id": "s29",
+      "text": "I set up a shout—and then another—and then another one; and run this way and that in the woods, whooping and screeching; but it warn’t no use—old Jim was gone."
+    },
+    {
+      "id": "s30",
+      "text": "Then I set down and cried; I couldn’t help it."
+    },
+    {
+      "id": "s31",
+      "text": "But I couldn’t set still long."
+    },
+    {
+      "id": "s32",
+      "text": "Pretty soon I went out on the road, trying to think what I better do, and I run across a boy walking, and asked him if he’d seen a strange nigger dressed so and so, and he says:"
+    },
+    {
+      "id": "s33",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Whereabouts?” says I."
+    },
+    {
+      "id": "s35",
+      "text": "“Down to Silas Phelps’ place, two mile below here."
+    },
+    {
+      "id": "s36",
+      "text": "He’s a runaway nigger, and they’ve got him."
+    },
+    {
+      "id": "s37",
+      "text": "Was you looking for him?”"
+    },
+    {
+      "id": "s38",
+      "text": "“You bet I ain’t!"
+    },
+    {
+      "id": "s39",
+      "text": "I run across him in the woods about an hour or two ago, and he said if I hollered he’d cut my livers out—and told me to lay down and stay where I was; and I done it."
+    },
+    {
+      "id": "s40",
+      "text": "Been there ever since; afeard to come out.”"
+    },
+    {
+      "id": "s41",
+      "text": "“Well,” he says, “you needn’t be afeard no more, becuz they’ve got him."
+    },
+    {
+      "id": "s42",
+      "text": "He run off f’m down South, som’ers.”"
+    },
+    {
+      "id": "s43",
+      "text": "“It’s a good job they got him.”"
+    },
+    {
+      "id": "s44",
+      "text": "“Well, I _reckon!_ There’s two hunderd dollars reward on him."
+    },
+    {
+      "id": "s45",
+      "text": "It’s like picking up money out’n the road.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Yes, it is—and _I_ could a had it if I’d been big enough; I see him _first_."
+    },
+    {
+      "id": "s47",
+      "text": "Who nailed him?”"
+    },
+    {
+      "id": "s48",
+      "text": "“It was an old fellow—a stranger—and he sold out his chance in him for forty dollars, becuz he’s got to go up the river and can’t wait."
+    },
+    {
+      "id": "s49",
+      "text": "Think o’ that, now!"
+    },
+    {
+      "id": "s50",
+      "text": "You bet _I’d_ wait, if it was seven year.”"
+    },
+    {
+      "id": "s51",
+      "text": "“That’s me, every time,” says I."
+    },
+    {
+      "id": "s52",
+      "text": "“But maybe his chance ain’t worth no more than that, if he’ll sell it so cheap."
+    },
+    {
+      "id": "s53",
+      "text": "Maybe there’s something ain’t straight about it.”"
+    },
+    {
+      "id": "s54",
+      "text": "“But it _is_, though—straight as a string."
+    },
+    {
+      "id": "s55",
+      "text": "I see the handbill myself."
+    },
+    {
+      "id": "s56",
+      "text": "It tells all about him, to a dot—paints him like a picture, and tells the plantation he’s frum, below Newr_leans_."
+    },
+    {
+      "id": "s57",
+      "text": "No-sirree-_bob_, they ain’t no trouble ’bout _that_ speculation, you bet you."
+    },
+    {
+      "id": "s58",
+      "text": "Say, gimme a chaw tobacker, won’t ye?”"
+    },
+    {
+      "id": "s59",
+      "text": "I didn’t have none, so he left."
+    },
+    {
+      "id": "s60",
+      "text": "I went to the raft, and set down in the wigwam to think."
+    },
+    {
+      "id": "s61",
+      "text": "But I couldn’t come to nothing."
+    },
+    {
+      "id": "s62",
+      "text": "I thought till I wore my head sore, but I couldn’t see no way out of the trouble."
+    },
+    {
+      "id": "s63",
+      "text": "After all this long journey, and after all we’d done for them scoundrels, here it was all come to nothing, everything all busted up and ruined, because they could have the heart to serve Jim such a trick as that, and make him a slave again all his life, and amongst strangers, too, for forty dirty dollars."
+    },
+    {
+      "id": "s64",
+      "text": "Once I said to myself it would be a thousand times better for Jim to be a slave at home where his family was, as long as he’d _got_ to be a slave, and so I’d better write a letter to Tom Sawyer and tell him to tell Miss Watson where he was."
+    },
+    {
+      "id": "s65",
+      "text": "But I soon give up that notion for two things: she’d be mad and disgusted at his rascality and ungratefulness for leaving her, and so she’d sell him straight down the river again; and if she didn’t, everybody naturally despises an ungrateful nigger, and they’d make Jim feel it all the time, and so he’d feel ornery and disgraced."
+    },
+    {
+      "id": "s66",
+      "text": "And then think of _me!_ It would get all around that Huck Finn helped a nigger to get his freedom; and if I was ever to see anybody from that town again I’d be ready to get down and lick his boots for shame."
+    },
+    {
+      "id": "s67",
+      "text": "That’s just the way: a person does a low-down thing, and then he don’t want to take no consequences of it."
+    },
+    {
+      "id": "s68",
+      "text": "Thinks as long as he can hide it, it ain’t no disgrace."
+    },
+    {
+      "id": "s69",
+      "text": "That was my fix exactly."
+    },
+    {
+      "id": "s70",
+      "text": "The more I studied about this, the more my conscience went to grinding me, and the more wicked and low-down and ornery I got to feeling."
+    },
+    {
+      "id": "s71",
+      "text": "And at last, when it hit me all of a sudden that here was the plain hand of Providence slapping me in the face and letting me know my wickedness was being watched all the time from up there in heaven, whilst I was stealing a poor old woman’s nigger that hadn’t ever done me no harm, and now was showing me there’s One that’s always on the lookout, and ain’t a-going to allow no such miserable doings to go only just so fur and no further, I most dropped in my tracks I was so scared."
+    },
+    {
+      "id": "s72",
+      "text": "Well, I tried the best I could to kinder soften it up somehow for myself by saying I was brung up wicked, and so I warn’t so much to blame; but something inside of me kept saying, “There was the Sunday-school, you could a gone to it; and if you’d a done it they’d a learnt you there that people that acts as I’d been acting about that nigger goes to everlasting fire.”"
+    },
+    {
+      "id": "s73",
+      "text": "It made me shiver."
+    },
+    {
+      "id": "s74",
+      "text": "And I about made up my mind to pray, and see if I couldn’t try to quit being the kind of a boy I was and be better."
+    },
+    {
+      "id": "s75",
+      "text": "So I kneeled down."
+    },
+    {
+      "id": "s76",
+      "text": "But the words wouldn’t come."
+    },
+    {
+      "id": "s77",
+      "text": "Why wouldn’t they?"
+    },
+    {
+      "id": "s78",
+      "text": "It warn’t no use to try and hide it from Him."
+    },
+    {
+      "id": "s79",
+      "text": "Nor from _me_, neither."
+    },
+    {
+      "id": "s80",
+      "text": "I knowed very well why they wouldn’t come."
+    },
+    {
+      "id": "s81",
+      "text": "It was because my heart warn’t right; it was because I warn’t square; it was because I was playing double."
+    },
+    {
+      "id": "s82",
+      "text": "I was letting _on_ to give up sin, but away inside of me I was holding on to the biggest one of all."
+    },
+    {
+      "id": "s83",
+      "text": "I was trying to make my mouth _say_ I would do the right thing and the clean thing, and go and write to that nigger’s owner and tell where he was; but deep down in me I knowed it was a lie, and He knowed it."
+    },
+    {
+      "id": "s84",
+      "text": "You can’t pray a lie—I found that out."
+    },
+    {
+      "id": "s85",
+      "text": "So I was full of trouble, full as I could be; and didn’t know what to do."
+    },
+    {
+      "id": "s86",
+      "text": "At last I had an idea; and I says, I’ll go and write the letter—and _then_ see if I can pray."
+    },
+    {
+      "id": "s87",
+      "text": "Why, it was astonishing, the way I felt as light as a feather right straight off, and my troubles all gone."
+    },
+    {
+      "id": "s88",
+      "text": "So I got a piece of paper and a pencil, all glad and excited, and set down and wrote:"
+    },
+    {
+      "id": "s89",
+      "text": "Miss Watson, your runaway nigger Jim is down here two mile below Pikesville, and Mr."
+    },
+    {
+      "id": "s90",
+      "text": "Phelps has got him and he will give him up for the reward if you send."
+    },
+    {
+      "id": "s91",
+      "text": "_Huck Finn._"
+    },
+    {
+      "id": "s92",
+      "text": "I felt good and all washed clean of sin for the first time I had ever felt so in my life, and I knowed I could pray now."
+    },
+    {
+      "id": "s93",
+      "text": "But I didn’t do it straight off, but laid the paper down and set there thinking—thinking how good it was all this happened so, and how near I come to being lost and going to hell."
+    },
+    {
+      "id": "s94",
+      "text": "And went on thinking."
+    },
+    {
+      "id": "s95",
+      "text": "And got to thinking over our trip down the river; and I see Jim before me all the time: in the day and in the night-time, sometimes moonlight, sometimes storms, and we a-floating along, talking and singing and laughing."
+    },
+    {
+      "id": "s96",
+      "text": "But somehow I couldn’t seem to strike no places to harden me against him, but only the other kind."
+    },
+    {
+      "id": "s97",
+      "text": "I’d see him standing my watch on top of his’n, ’stead of calling me, so I could go on sleeping; and see him how glad he was when I come back out of the fog; and when I come to him again in the swamp, up there where the feud was; and such-like times; and would always call me honey, and pet me and do everything he could think of for me, and how good he always was; and at last I struck the time I saved him by telling the men we had small-pox aboard, and he was so grateful, and said I was the best friend old Jim ever had in the world, and the _only_ one he’s got now; and then I happened to look around and see that paper."
+    },
+    {
+      "id": "s98",
+      "text": "It was a close place."
+    },
+    {
+      "id": "s99",
+      "text": "I took it up, and held it in my hand."
+    },
+    {
+      "id": "s100",
+      "text": "I was a-trembling, because I’d got to decide, forever, betwixt two things, and I knowed it."
+    },
+    {
+      "id": "s101",
+      "text": "I studied a minute, sort of holding my breath, and then says to myself:"
+    },
+    {
+      "id": "s102",
+      "text": "“All right, then, I’ll _go_ to hell”—and tore it up."
+    },
+    {
+      "id": "s103",
+      "text": "It was awful thoughts and awful words, but they was said."
+    },
+    {
+      "id": "s104",
+      "text": "And I let them stay said; and never thought no more about reforming."
+    },
+    {
+      "id": "s105",
+      "text": "I shoved the whole thing out of my head, and said I would take up wickedness again, which was in my line, being brung up to it, and the other warn’t."
+    },
+    {
+      "id": "s106",
+      "text": "And for a starter I would go to work and steal Jim out of slavery again; and if I could think up anything worse, I would do that, too; because as long as I was in, and in for good, I might as well go the whole hog."
+    },
+    {
+      "id": "s107",
+      "text": "Then I set to thinking over how to get at it, and turned over some considerable many ways in my mind; and at last fixed up a plan that suited me."
+    },
+    {
+      "id": "s108",
+      "text": "So then I took the bearings of a woody island that was down the river a piece, and as soon as it was fairly dark I crept out with my raft and went for it, and hid it there, and then turned in."
+    },
+    {
+      "id": "s109",
+      "text": "I slept the night through, and got up before it was light, and had my breakfast, and put on my store clothes, and tied up some others and one thing or another in a bundle, and took the canoe and cleared for shore."
+    },
+    {
+      "id": "s110",
+      "text": "I landed below where I judged was Phelps’s place, and hid my bundle in the woods, and then filled up the canoe with water, and loaded rocks into her and sunk her where I could find her again when I wanted her, about a quarter of a mile below a little steam sawmill that was on the bank."
+    },
+    {
+      "id": "s111",
+      "text": "Then I struck up the road, and when I passed the mill I see a sign on it, “Phelps’s Sawmill,” and when I come to the farm-houses, two or three hundred yards further along, I kept my eyes peeled, but didn’t see nobody around, though it was good daylight now."
+    },
+    {
+      "id": "s112",
+      "text": "But I didn’t mind, because I didn’t want to see nobody just yet—I only wanted to get the lay of the land."
+    },
+    {
+      "id": "s113",
+      "text": "According to my plan, I was going to turn up there from the village, not from below."
+    },
+    {
+      "id": "s114",
+      "text": "So I just took a look, and shoved along, straight for town."
+    },
+    {
+      "id": "s115",
+      "text": "Well, the very first man I see when I got there was the duke."
+    },
+    {
+      "id": "s116",
+      "text": "He was sticking up a bill for the Royal Nonesuch—three-night performance—like that other time. _They_ had the cheek, them frauds!"
+    },
+    {
+      "id": "s117",
+      "text": "I was right on him before I could shirk."
+    },
+    {
+      "id": "s118",
+      "text": "He looked astonished, and says:"
+    },
+    {
+      "id": "s119",
+      "text": "“Hel-_lo!_ Where’d _you_ come from?” Then he says, kind of glad and eager, “Where’s the raft?—got her in a good place?”"
+    },
+    {
+      "id": "s120",
+      "text": "I says:"
+    },
+    {
+      "id": "s121",
+      "text": "“Why, that’s just what I was going to ask your grace.”"
+    },
+    {
+      "id": "s122",
+      "text": "Then he didn’t look so joyful, and says:"
+    },
+    {
+      "id": "s123",
+      "text": "“What was your idea for asking _me?_” he says."
+    },
+    {
+      "id": "s124",
+      "text": "“Well,” I says, “when I see the king in that doggery yesterday I says to myself, we can’t get him home for hours, till he’s soberer; so I went a-loafing around town to put in the time and wait."
+    },
+    {
+      "id": "s125",
+      "text": "A man up and offered me ten cents to help him pull a skiff over the river and back to fetch a sheep, and so I went along; but when we was dragging him to the boat, and the man left me a-holt of the rope and went behind him to shove him along, he was too strong for me and jerked loose and run, and we after him."
+    },
+    {
+      "id": "s126",
+      "text": "We didn’t have no dog, and so we had to chase him all over the country till we tired him out."
+    },
+    {
+      "id": "s127",
+      "text": "We never got him till dark; then we fetched him over, and I started down for the raft."
+    },
+    {
+      "id": "s128",
+      "text": "When I got there and see it was gone, I says to myself, ‘they’ve got into trouble and had to leave; and they’ve took my nigger, which is the only nigger I’ve got in the world, and now I’m in a strange country, and ain’t got no property no more, nor nothing, and no way to make my living;’ so I set down and cried."
+    },
+    {
+      "id": "s129",
+      "text": "I slept in the woods all night."
+    },
+    {
+      "id": "s130",
+      "text": "But what _did_ become of the raft, then?—and Jim—poor Jim!”"
+    },
+    {
+      "id": "s131",
+      "text": "“Blamed if _I_ know—that is, what’s become of the raft."
+    },
+    {
+      "id": "s132",
+      "text": "That old fool had made a trade and got forty dollars, and when we found him in the doggery the loafers had matched half-dollars with him and got every cent but what he’d spent for whisky; and when I got him home late last night and found the raft gone, we said, ‘That little rascal has stole our raft and shook us, and run off down the river.’”"
+    },
+    {
+      "id": "s133",
+      "text": "“I wouldn’t shake my _nigger_, would I?—the only nigger I had in the world, and the only property.”"
+    },
+    {
+      "id": "s134",
+      "text": "“We never thought of that."
+    },
+    {
+      "id": "s135",
+      "text": "Fact is, I reckon we’d come to consider him _our_ nigger; yes, we did consider him so—goodness knows we had trouble enough for him."
+    },
+    {
+      "id": "s136",
+      "text": "So when we see the raft was gone and we flat broke, there warn’t anything for it but to try the Royal Nonesuch another shake."
+    },
+    {
+      "id": "s137",
+      "text": "And I’ve pegged along ever since, dry as a powder-horn."
+    },
+    {
+      "id": "s138",
+      "text": "Where’s that ten cents?"
+    },
+    {
+      "id": "s139",
+      "text": "Give it here.”"
+    },
+    {
+      "id": "s140",
+      "text": "I had considerable money, so I give him ten cents, but begged him to spend it for something to eat, and give me some, because it was all the money I had, and I hadn’t had nothing to eat since yesterday."
+    },
+    {
+      "id": "s141",
+      "text": "He never said nothing."
+    },
+    {
+      "id": "s142",
+      "text": "The next minute he whirls on me and says:"
+    },
+    {
+      "id": "s143",
+      "text": "“Do you reckon that nigger would blow on us?"
+    },
+    {
+      "id": "s144",
+      "text": "We’d skin him if he done that!”"
+    },
+    {
+      "id": "s145",
+      "text": "“How can he blow?"
+    },
+    {
+      "id": "s146",
+      "text": "Hain’t he run off?”"
+    },
+    {
+      "id": "s147",
+      "text": "“No!"
+    },
+    {
+      "id": "s148",
+      "text": "That old fool sold him, and never divided with me, and the money’s gone.”"
+    },
+    {
+      "id": "s149",
+      "text": "“_Sold_ him?” I says, and begun to cry; “why, he was _my_ nigger, and that was my money."
+    },
+    {
+      "id": "s150",
+      "text": "Where is he?—I want my nigger.”"
+    },
+    {
+      "id": "s151",
+      "text": "“Well, you can’t _get_ your nigger, that’s all—so dry up your blubbering."
+    },
+    {
+      "id": "s152",
+      "text": "Looky here—do you think _you’d_ venture to blow on us?"
+    },
+    {
+      "id": "s153",
+      "text": "Blamed if I think I’d trust you."
+    },
+    {
+      "id": "s154",
+      "text": "Why, if you _was_ to blow on us—”"
+    },
+    {
+      "id": "s155",
+      "text": "He stopped, but I never see the duke look so ugly out of his eyes before."
+    },
+    {
+      "id": "s156",
+      "text": "I went on a-whimpering, and says:"
+    },
+    {
+      "id": "s157",
+      "text": "“I don’t want to blow on nobody; and I ain’t got no time to blow, nohow."
+    },
+    {
+      "id": "s158",
+      "text": "I got to turn out and find my nigger.”"
+    },
+    {
+      "id": "s159",
+      "text": "He looked kinder bothered, and stood there with his bills fluttering on his arm, thinking, and wrinkling up his forehead."
+    },
+    {
+      "id": "s160",
+      "text": "At last he says:"
+    },
+    {
+      "id": "s161",
+      "text": "“I’ll tell you something."
+    },
+    {
+      "id": "s162",
+      "text": "We got to be here three days."
+    },
+    {
+      "id": "s163",
+      "text": "If you’ll promise you won’t blow, and won’t let the nigger blow, I’ll tell you where to find him.”"
+    },
+    {
+      "id": "s164",
+      "text": "So I promised, and he says:"
+    },
+    {
+      "id": "s165",
+      "text": "“A farmer by the name of Silas Ph—” and then he stopped."
+    },
+    {
+      "id": "s166",
+      "text": "You see, he started to tell me the truth; but when he stopped that way, and begun to study and think again, I reckoned he was changing his mind."
+    },
+    {
+      "id": "s167",
+      "text": "And so he was."
+    },
+    {
+      "id": "s168",
+      "text": "He wouldn’t trust me; he wanted to make sure of having me out of the way the whole three days."
+    },
+    {
+      "id": "s169",
+      "text": "So pretty soon he says:"
+    },
+    {
+      "id": "s170",
+      "text": "“The man that bought him is named Abram Foster—Abram G."
+    },
+    {
+      "id": "s171",
+      "text": "Foster—and he lives forty mile back here in the country, on the road to Lafayette.”"
+    },
+    {
+      "id": "s172",
+      "text": "“All right,” I says, “I can walk it in three days."
+    },
+    {
+      "id": "s173",
+      "text": "And I’ll start this very afternoon.”"
+    },
+    {
+      "id": "s174",
+      "text": "“No you wont, you’ll start _now;_ and don’t you lose any time about it, neither, nor do any gabbling by the way."
+    },
+    {
+      "id": "s175",
+      "text": "Just keep a tight tongue in your head and move right along, and then you won’t get into trouble with _us_, d’ye hear?”"
+    },
+    {
+      "id": "s176",
+      "text": "That was the order I wanted, and that was the one I played for."
+    },
+    {
+      "id": "s177",
+      "text": "I wanted to be left free to work my plans."
+    },
+    {
+      "id": "s178",
+      "text": "“So clear out,” he says; “and you can tell Mr."
+    },
+    {
+      "id": "s179",
+      "text": "Foster whatever you want to."
+    },
+    {
+      "id": "s180",
+      "text": "Maybe you can get him to believe that Jim _is_ your nigger—some idiots don’t require documents—leastways I’ve heard there’s such down South here."
+    },
+    {
+      "id": "s181",
+      "text": "And when you tell him the handbill and the reward’s bogus, maybe he’ll believe you when you explain to him what the idea was for getting ’em out."
+    },
+    {
+      "id": "s182",
+      "text": "Go ’long now, and tell him anything you want to; but mind you don’t work your jaw any _between_ here and there.”"
+    },
+    {
+      "id": "s183",
+      "text": "So I left, and struck for the back country."
+    },
+    {
+      "id": "s184",
+      "text": "I didn’t look around, but I kinder felt like he was watching me."
+    },
+    {
+      "id": "s185",
+      "text": "But I knowed I could tire him out at that."
+    },
+    {
+      "id": "s186",
+      "text": "I went straight out in the country as much as a mile before I stopped; then I doubled back through the woods towards Phelps’."
+    },
+    {
+      "id": "s187",
+      "text": "I reckoned I better start in on my plan straight off without fooling around, because I wanted to stop Jim’s mouth till these fellows could get away."
+    },
+    {
+      "id": "s188",
+      "text": "I didn’t want no trouble with their kind."
+    },
+    {
+      "id": "s189",
+      "text": "I’d seen all I wanted to of them, and wanted to get entirely shut of them."
+    }
+  ]
+}

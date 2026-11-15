@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-21",
+  "chapterTitle": "CHAPTER XXI",
+  "contentHash": "sha256:297a2d2fc8824bc483b78d15e3f2e04de6401300cdbf9ab1d739982e9cd29077",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, CHAPTER XXI. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "CAPTAIN NEMO’S THUNDERBOLT"
+    },
+    {
+      "id": "s2",
+      "text": "We looked at the edge of the forest without rising, my hand stopping in the action of putting it to my mouth, Ned Land’s completing its office."
+    },
+    {
+      "id": "s3",
+      "text": "“Stones do not fall from the sky,” remarked Conseil, “or they would merit the name aerolites.”"
+    },
+    {
+      "id": "s4",
+      "text": "A second stone, carefully aimed, that made a savoury pigeon’s leg fall from Conseil’s hand, gave still more weight to his observation."
+    },
+    {
+      "id": "s5",
+      "text": "We all three arose, shouldered our guns, and were ready to reply to any attack."
+    },
+    {
+      "id": "s6",
+      "text": "“Are they apes?” cried Ned Land."
+    },
+    {
+      "id": "s7",
+      "text": "“Very nearly—they are savages.”"
+    },
+    {
+      "id": "s8",
+      "text": "“To the boat!” I said, hurrying to the sea."
+    },
+    {
+      "id": "s9",
+      "text": "It was indeed necessary to beat a retreat, for about twenty natives armed with bows and slings appeared on the skirts of a copse that masked the horizon to the right, hardly a hundred steps from us."
+    },
+    {
+      "id": "s10",
+      "text": "Our boat was moored about sixty feet from us."
+    },
+    {
+      "id": "s11",
+      "text": "The savages approached us, not running, but making hostile demonstrations."
+    },
+    {
+      "id": "s12",
+      "text": "Stones and arrows fell thickly."
+    },
+    {
+      "id": "s13",
+      "text": "Ned Land had not wished to leave his provisions; and, in spite of his imminent danger, his pig on one side and kangaroos on the other, he went tolerably fast."
+    },
+    {
+      "id": "s14",
+      "text": "In two minutes we were on the shore."
+    },
+    {
+      "id": "s15",
+      "text": "To load the boat with provisions and arms, to push it out to sea, and ship the oars, was the work of an instant."
+    },
+    {
+      "id": "s16",
+      "text": "We had not gone two cable-lengths, when a hundred savages, howling and gesticulating, entered the water up to their waists."
+    },
+    {
+      "id": "s17",
+      "text": "I watched to see if their apparition would attract some men from the _Nautilus_ on to the platform."
+    },
+    {
+      "id": "s18",
+      "text": "But no."
+    },
+    {
+      "id": "s19",
+      "text": "The enormous machine, lying off, was absolutely deserted."
+    },
+    {
+      "id": "s20",
+      "text": "Twenty minutes later we were on board."
+    },
+    {
+      "id": "s21",
+      "text": "The panels were open."
+    },
+    {
+      "id": "s22",
+      "text": "After making the boat fast, we entered into the interior of the _Nautilus_."
+    },
+    {
+      "id": "s23",
+      "text": "I descended to the drawing-room, from whence I heard some chords."
+    },
+    {
+      "id": "s24",
+      "text": "Captain Nemo was there, bending over his organ, and plunged in a musical ecstasy."
+    },
+    {
+      "id": "s25",
+      "text": "“Captain!”"
+    },
+    {
+      "id": "s26",
+      "text": "He did not hear me."
+    },
+    {
+      "id": "s27",
+      "text": "“Captain!” I said, touching his hand."
+    },
+    {
+      "id": "s28",
+      "text": "He shuddered, and, turning round, said, “Ah! it is you, Professor?"
+    },
+    {
+      "id": "s29",
+      "text": "Well, have you had a good hunt, have you botanised successfully?”"
+    },
+    {
+      "id": "s30",
+      "text": "“Yes Captain; but we have unfortunately brought a troop of bipeds, whose vicinity troubles me.”"
+    },
+    {
+      "id": "s31",
+      "text": "“What bipeds?”"
+    },
+    {
+      "id": "s32",
+      "text": "“Savages.”"
+    },
+    {
+      "id": "s33",
+      "text": "“Savages!” he echoed, ironically."
+    },
+    {
+      "id": "s34",
+      "text": "“So you are astonished, Professor, at having set foot on a strange land and finding savages?"
+    },
+    {
+      "id": "s35",
+      "text": "Savages! where are there not any?"
+    },
+    {
+      "id": "s36",
+      "text": "Besides, are they worse than others, these whom you call savages?”"
+    },
+    {
+      "id": "s37",
+      "text": "“But Captain——”"
+    },
+    {
+      "id": "s38",
+      "text": "“How many have you counted?”"
+    },
+    {
+      "id": "s39",
+      "text": "“A hundred at least.”"
+    },
+    {
+      "id": "s40",
+      "text": "“M."
+    },
+    {
+      "id": "s41",
+      "text": "Aronnax,” replied Captain Nemo, placing his fingers on the organ stops, “when all the natives of Papua are assembled on this shore, the _Nautilus_ will have nothing to fear from their attacks.”"
+    },
+    {
+      "id": "s42",
+      "text": "The Captain’s fingers were then running over the keys of the instrument, and I remarked that he touched only the black keys, which gave his melodies an essentially Scotch character."
+    },
+    {
+      "id": "s43",
+      "text": "Soon he had forgotten my presence, and had plunged into a reverie that I did not disturb."
+    },
+    {
+      "id": "s44",
+      "text": "I went up again on to the platform: night had already fallen; for, in this low latitude, the sun sets rapidly and without twilight."
+    },
+    {
+      "id": "s45",
+      "text": "I could only see the island indistinctly; but the numerous fires, lighted on the beach, showed that the natives did not think of leaving it."
+    },
+    {
+      "id": "s46",
+      "text": "I was alone for several hours, sometimes thinking of the natives—but without any dread of them, for the imperturbable confidence of the Captain was catching—sometimes forgetting them to admire the splendours of the night in the tropics."
+    },
+    {
+      "id": "s47",
+      "text": "My remembrances went to France in the train of those zodiacal stars that would shine in some hours’ time."
+    },
+    {
+      "id": "s48",
+      "text": "The moon shone in the midst of the constellations of the zenith."
+    },
+    {
+      "id": "s49",
+      "text": "The night slipped away without any mischance, the islanders frightened no doubt at the sight of a monster aground in the bay."
+    },
+    {
+      "id": "s50",
+      "text": "The panels were open, and would have offered an easy access to the interior of the _Nautilus_."
+    },
+    {
+      "id": "s51",
+      "text": "At six o’clock in the morning of the 8th January I went up on to the platform."
+    },
+    {
+      "id": "s52",
+      "text": "The dawn was breaking."
+    },
+    {
+      "id": "s53",
+      "text": "The island soon showed itself through the dissipating fogs, first the shore, then the summits."
+    },
+    {
+      "id": "s54",
+      "text": "The natives were there, more numerous than on the day before—five or six hundred perhaps—some of them, profiting by the low water, had come on to the coral, at less than two cable-lengths from the _Nautilus_."
+    },
+    {
+      "id": "s55",
+      "text": "I distinguished them easily; they were true Papuans, with athletic figures, men of good race, large high foreheads, large, but not broad and flat, and white teeth."
+    },
+    {
+      "id": "s56",
+      "text": "Their woolly hair, with a reddish tinge, showed off on their black shining bodies like those of the Nubians."
+    },
+    {
+      "id": "s57",
+      "text": "From the lobes of their ears, cut and distended, hung chaplets of bones."
+    },
+    {
+      "id": "s58",
+      "text": "Most of these savages were naked."
+    },
+    {
+      "id": "s59",
+      "text": "Amongst them, I remarked some women, dressed from the hips to knees in quite a crinoline of herbs, that sustained a vegetable waistband."
+    },
+    {
+      "id": "s60",
+      "text": "Some chiefs had ornamented their necks with a crescent and collars of glass beads, red and white; nearly all were armed with bows, arrows, and shields and carried on their shoulders a sort of net containing those round stones which they cast from their slings with great skill."
+    },
+    {
+      "id": "s61",
+      "text": "One of these chiefs, rather near to the _Nautilus_, examined it attentively."
+    },
+    {
+      "id": "s62",
+      "text": "He was, perhaps, a “mado” of high rank, for he was draped in a mat of banana-leaves, notched round the edges, and set off with brilliant colours."
+    },
+    {
+      "id": "s63",
+      "text": "I could easily have knocked down this native, who was within a short length; but I thought that it was better to wait for real hostile demonstrations."
+    },
+    {
+      "id": "s64",
+      "text": "Between Europeans and savages, it is proper for the Europeans to parry sharply, not to attack."
+    },
+    {
+      "id": "s65",
+      "text": "During low water the natives roamed about near the _Nautilus_, but were not troublesome; I heard them frequently repeat the word “Assai,” and by their gestures I understood that they invited me to go on land, an invitation that I declined."
+    },
+    {
+      "id": "s66",
+      "text": "So that, on that day, the boat did not push off, to the great displeasure of Master Land, who could not complete his provisions."
+    },
+    {
+      "id": "s67",
+      "text": "This adroit Canadian employed his time in preparing the viands and meat that he had brought off the island."
+    },
+    {
+      "id": "s68",
+      "text": "As for the savages, they returned to the shore about eleven o’clock in the morning, as soon as the coral tops began to disappear under the rising tide; but I saw their numbers had increased considerably on the shore."
+    },
+    {
+      "id": "s69",
+      "text": "Probably they came from the neighbouring islands, or very likely from Papua."
+    },
+    {
+      "id": "s70",
+      "text": "However, I had not seen a single native canoe."
+    },
+    {
+      "id": "s71",
+      "text": "Having nothing better to do, I thought of dragging these beautiful limpid waters, under which I saw a profusion of shells, zoophytes, and marine plants."
+    },
+    {
+      "id": "s72",
+      "text": "Moreover, it was the last day that the _Nautilus_ would pass in these parts, if it float in open sea the next day, according to Captain Nemo’s promise."
+    },
+    {
+      "id": "s73",
+      "text": "I therefore called Conseil, who brought me a little light drag, very like those for the oyster fishery."
+    },
+    {
+      "id": "s74",
+      "text": "Now to work!"
+    },
+    {
+      "id": "s75",
+      "text": "For two hours we fished unceasingly, but without bringing up any rarities."
+    },
+    {
+      "id": "s76",
+      "text": "The drag was filled with midas-ears, harps, melames, and particularly the most beautiful hammers I have ever seen."
+    },
+    {
+      "id": "s77",
+      "text": "We also brought up some sea-slugs, pearl-oysters, and a dozen little turtles that were reserved for the pantry on board."
+    },
+    {
+      "id": "s78",
+      "text": "But just when I expected it least, I put my hand on a wonder, I might say a natural deformity, very rarely met with."
+    },
+    {
+      "id": "s79",
+      "text": "Conseil was just dragging, and his net came up filled with divers ordinary shells, when, all at once, he saw me plunge my arm quickly into the net, to draw out a shell, and heard me utter a cry."
+    },
+    {
+      "id": "s80",
+      "text": "“What is the matter, sir?” he asked in surprise."
+    },
+    {
+      "id": "s81",
+      "text": "“Has master been bitten?”"
+    },
+    {
+      "id": "s82",
+      "text": "“No, my boy; but I would willingly have given a finger for my discovery.”"
+    },
+    {
+      "id": "s83",
+      "text": "“What discovery?”"
+    },
+    {
+      "id": "s84",
+      "text": "“This shell,” I said, holding up the object of my triumph."
+    },
+    {
+      "id": "s85",
+      "text": "“It is simply an olive porphyry, genus olive, order of the pectinibranchidæ, class of gasteropods, sub-class mollusca.”"
+    },
+    {
+      "id": "s86",
+      "text": "“Yes, Conseil; but, instead of being rolled from right to left, this olive turns from left to right.”"
+    },
+    {
+      "id": "s87",
+      "text": "“Is it possible?”"
+    },
+    {
+      "id": "s88",
+      "text": "“Yes, my boy; it is a left shell.”"
+    },
+    {
+      "id": "s89",
+      "text": "Shells are all right-handed, with rare exceptions; and, when by chance their spiral is left, amateurs are ready to pay their weight in gold."
+    },
+    {
+      "id": "s90",
+      "text": "Conseil and I were absorbed in the contemplation of our treasure, and I was promising myself to enrich the museum with it, when a stone unfortunately thrown by a native struck against, and broke, the precious object in Conseil’s hand."
+    },
+    {
+      "id": "s91",
+      "text": "I uttered a cry of despair!"
+    },
+    {
+      "id": "s92",
+      "text": "Conseil took up his gun, and aimed at a savage who was poising his sling at ten yards from him."
+    },
+    {
+      "id": "s93",
+      "text": "I would have stopped him, but his blow took effect and broke the bracelet of amulets which encircled the arm of the savage."
+    },
+    {
+      "id": "s94",
+      "text": "[Illustration] Conseil seized his gun"
+    },
+    {
+      "id": "s95",
+      "text": "“Conseil!” cried I."
+    },
+    {
+      "id": "s96",
+      "text": "“Conseil!”"
+    },
+    {
+      "id": "s97",
+      "text": "“Well, sir! do you not see that the cannibal has commenced the attack?”"
+    },
+    {
+      "id": "s98",
+      "text": "“A shell is not worth the life of a man,” said I."
+    },
+    {
+      "id": "s99",
+      "text": "“Ah! the scoundrel!” cried Conseil; “I would rather he had broken my shoulder!”"
+    },
+    {
+      "id": "s100",
+      "text": "Conseil was in earnest, but I was not of his opinion."
+    },
+    {
+      "id": "s101",
+      "text": "However, the situation had changed some minutes before, and we had not perceived."
+    },
+    {
+      "id": "s102",
+      "text": "A score of canoes surrounded the _Nautilus_."
+    },
+    {
+      "id": "s103",
+      "text": "These canoes, scooped out of the trunk of a tree, long, narrow, well adapted for speed, were balanced by means of a long bamboo pole, which floated on the water."
+    },
+    {
+      "id": "s104",
+      "text": "They were managed by skilful, half-naked paddlers, and I watched their advance with some uneasiness."
+    },
+    {
+      "id": "s105",
+      "text": "It was evident that these Papuans had already had dealings with the Europeans and knew their ships."
+    },
+    {
+      "id": "s106",
+      "text": "But this long iron cylinder anchored in the bay, without masts or chimneys, what could they think of it?"
+    },
+    {
+      "id": "s107",
+      "text": "Nothing good, for at first they kept at a respectful distance."
+    },
+    {
+      "id": "s108",
+      "text": "However, seeing it motionless, by degrees they took courage, and sought to familiarise themselves with it."
+    },
+    {
+      "id": "s109",
+      "text": "Now this familiarity was precisely what it was necessary to avoid."
+    },
+    {
+      "id": "s110",
+      "text": "Our arms, which were noiseless, could only produce a moderate effect on the savages, who have little respect for aught but blustering things."
+    },
+    {
+      "id": "s111",
+      "text": "The thunderbolt without the reverberations of thunder would frighten man but little, though the danger lies in the lightning, not in the noise."
+    },
+    {
+      "id": "s112",
+      "text": "At this moment the canoes approached the _Nautilus_, and a shower of arrows alighted on her."
+    },
+    {
+      "id": "s113",
+      "text": "I went down to the saloon, but found no one there."
+    },
+    {
+      "id": "s114",
+      "text": "I ventured to knock at the door that opened into the Captain’s room."
+    },
+    {
+      "id": "s115",
+      "text": "“Come in,” was the answer."
+    },
+    {
+      "id": "s116",
+      "text": "I entered, and found Captain Nemo deep in algebraical calculations of _x_ and other quantities."
+    },
+    {
+      "id": "s117",
+      "text": "“I am disturbing you,” said I, for courtesy’s sake."
+    },
+    {
+      "id": "s118",
+      "text": "“That is true, M."
+    },
+    {
+      "id": "s119",
+      "text": "Aronnax,” replied the Captain; “but I think you have serious reasons for wishing to see me?”"
+    },
+    {
+      "id": "s120",
+      "text": "“Very grave ones; the natives are surrounding us in their canoes, and in a few minutes we shall certainly be attacked by many hundreds of savages.”"
+    },
+    {
+      "id": "s121",
+      "text": "“Ah!” said Captain Nemo quietly, “they are come with their canoes?”"
+    },
+    {
+      "id": "s122",
+      "text": "“Yes, sir.”"
+    },
+    {
+      "id": "s123",
+      "text": "“Well, sir, we must close the hatches.”"
+    },
+    {
+      "id": "s124",
+      "text": "“Exactly, and I came to say to you——”"
+    },
+    {
+      "id": "s125",
+      "text": "“Nothing can be more simple,” said Captain Nemo."
+    },
+    {
+      "id": "s126",
+      "text": "And, pressing an electric button, he transmitted an order to the ship’s crew."
+    },
+    {
+      "id": "s127",
+      "text": "“It is all done, sir,” said he, after some moments."
+    },
+    {
+      "id": "s128",
+      "text": "“The pinnace is ready, and the hatches are closed."
+    },
+    {
+      "id": "s129",
+      "text": "You do not fear, I imagine, that these gentlemen could stave in walls on which the balls of your frigate have had no effect?”"
+    },
+    {
+      "id": "s130",
+      "text": "“No, Captain; but a danger still exists.”"
+    },
+    {
+      "id": "s131",
+      "text": "“What is that, sir?”"
+    },
+    {
+      "id": "s132",
+      "text": "“It is that to-morrow, at about this hour, we must open the hatches to renew the air of the _Nautilus_."
+    },
+    {
+      "id": "s133",
+      "text": "Now, if, at this moment, the Papuans should occupy the platform, I do not see how you could prevent them from entering.”"
+    },
+    {
+      "id": "s134",
+      "text": "“Then, sir, you suppose that they will board us?”"
+    },
+    {
+      "id": "s135",
+      "text": "“I am certain of it.”"
+    },
+    {
+      "id": "s136",
+      "text": "“Well, sir, let them come."
+    },
+    {
+      "id": "s137",
+      "text": "I see no reason for hindering them."
+    },
+    {
+      "id": "s138",
+      "text": "After all, these Papuans are poor creatures, and I am unwilling that my visit to the island should cost the life of a single one of these wretches.”"
+    },
+    {
+      "id": "s139",
+      "text": "Upon that I was going away; But Captain Nemo detained me, and asked me to sit down by him."
+    },
+    {
+      "id": "s140",
+      "text": "He questioned me with interest about our excursions on shore, and our hunting; and seemed not to understand the craving for meat that possessed the Canadian."
+    },
+    {
+      "id": "s141",
+      "text": "Then the conversation turned on various subjects, and, without being more communicative, Captain Nemo showed himself more amiable."
+    },
+    {
+      "id": "s142",
+      "text": "Amongst other things, we happened to speak of the situation of the _Nautilus_, run aground in exactly the same spot in this strait where Dumont d’Urville was nearly lost."
+    },
+    {
+      "id": "s143",
+      "text": "Apropos of this:"
+    },
+    {
+      "id": "s144",
+      "text": "“This D’Urville was one of your great sailors,” said the Captain to me, “one of your most intelligent navigators."
+    },
+    {
+      "id": "s145",
+      "text": "He is the Captain Cook of you Frenchmen."
+    },
+    {
+      "id": "s146",
+      "text": "Unfortunate man of science, after having braved the icebergs of the South Pole, the coral reefs of Oceania, the cannibals of the Pacific, to perish miserably in a railway train!"
+    },
+    {
+      "id": "s147",
+      "text": "If this energetic man could have reflected during the last moments of his life, what must have been uppermost in his last thoughts, do you suppose?”"
+    },
+    {
+      "id": "s148",
+      "text": "So speaking, Captain Nemo seemed moved, and his emotion gave me a better opinion of him."
+    },
+    {
+      "id": "s149",
+      "text": "Then, chart in hand, we reviewed the travels of the French navigator, his voyages of circumnavigation, his double detention at the South Pole, which led to the discovery of Adelaide and Louis Philippe, and fixing the hydrographical bearings of the principal islands of Oceania."
+    },
+    {
+      "id": "s150",
+      "text": "“That which your D’Urville has done on the surface of the seas,” said Captain Nemo, “that have I done under them, and more easily, more completely than he."
+    },
+    {
+      "id": "s151",
+      "text": "The Astrolabe and the Zelee, incessantly tossed about by the hurricane, could not be worth the _Nautilus_, quiet repository of labour that she is, truly motionless in the midst of the waters."
+    },
+    {
+      "id": "s152",
+      "text": "“To-morrow,” added the Captain, rising, “to-morrow, at twenty minutes to three p.m., the _Nautilus_ shall float, and leave the Strait of Torres uninjured.”"
+    },
+    {
+      "id": "s153",
+      "text": "Having curtly pronounced these words, Captain Nemo bowed slightly."
+    },
+    {
+      "id": "s154",
+      "text": "This was to dismiss me, and I went back to my room."
+    },
+    {
+      "id": "s155",
+      "text": "There I found Conseil, who wished to know the result of my interview with the Captain."
+    },
+    {
+      "id": "s156",
+      "text": "“My boy,” said I, “when I feigned to believe that his _Nautilus_ was threatened by the natives of Papua, the Captain answered me very sarcastically."
+    },
+    {
+      "id": "s157",
+      "text": "I have but one thing to say to you: Have confidence in him, and go to sleep in peace.”"
+    },
+    {
+      "id": "s158",
+      "text": "“Have you no need of my services, sir?”"
+    },
+    {
+      "id": "s159",
+      "text": "“No, my friend."
+    },
+    {
+      "id": "s160",
+      "text": "What is Ned Land doing?”"
+    },
+    {
+      "id": "s161",
+      "text": "“If you will excuse me, sir,” answered Conseil, “friend Ned is busy making a kangaroo-pie which will be a marvel.”"
+    },
+    {
+      "id": "s162",
+      "text": "I remained alone and went to bed, but slept indifferently."
+    },
+    {
+      "id": "s163",
+      "text": "I heard the noise of the savages, who stamped on the platform, uttering deafening cries."
+    },
+    {
+      "id": "s164",
+      "text": "The night passed thus, without disturbing the ordinary repose of the crew."
+    },
+    {
+      "id": "s165",
+      "text": "The presence of these cannibals affected them no more than the soldiers of a masked battery care for the ants that crawl over its front."
+    },
+    {
+      "id": "s166",
+      "text": "At six in the morning I rose."
+    },
+    {
+      "id": "s167",
+      "text": "The hatches had not been opened."
+    },
+    {
+      "id": "s168",
+      "text": "The inner air was not renewed, but the reservoirs, filled ready for any emergency, were now resorted to, and discharged several cubic feet of oxygen into the exhausted atmosphere of the _Nautilus_."
+    },
+    {
+      "id": "s169",
+      "text": "I worked in my room till noon, without having seen Captain Nemo, even for an instant."
+    },
+    {
+      "id": "s170",
+      "text": "On board no preparations for departure were visible."
+    },
+    {
+      "id": "s171",
+      "text": "I waited still some time, then went into the large saloon."
+    },
+    {
+      "id": "s172",
+      "text": "The clock marked half-past two."
+    },
+    {
+      "id": "s173",
+      "text": "In ten minutes it would be high-tide: and, if Captain Nemo had not made a rash promise, the _Nautilus_ would be immediately detached."
+    },
+    {
+      "id": "s174",
+      "text": "If not, many months would pass ere she could leave her bed of coral."
+    },
+    {
+      "id": "s175",
+      "text": "However, some warning vibrations began to be felt in the vessel."
+    },
+    {
+      "id": "s176",
+      "text": "I heard the keel grating against the rough calcareous bottom of the coral reef."
+    },
+    {
+      "id": "s177",
+      "text": "At five-and-twenty minutes to three, Captain Nemo appeared in the saloon."
+    },
+    {
+      "id": "s178",
+      "text": "“We are going to start,” said he."
+    },
+    {
+      "id": "s179",
+      "text": "“Ah!” replied I."
+    },
+    {
+      "id": "s180",
+      "text": "“I have given the order to open the hatches.”"
+    },
+    {
+      "id": "s181",
+      "text": "“And the Papuans?”"
+    },
+    {
+      "id": "s182",
+      "text": "“The Papuans?” answered Captain Nemo, slightly shrugging his shoulders."
+    },
+    {
+      "id": "s183",
+      "text": "“Will they not come inside the _Nautilus?_”"
+    },
+    {
+      "id": "s184",
+      "text": "“How?”"
+    },
+    {
+      "id": "s185",
+      "text": "“Only by leaping over the hatches you have opened.”"
+    },
+    {
+      "id": "s186",
+      "text": "“M."
+    },
+    {
+      "id": "s187",
+      "text": "Aronnax,” quietly answered Captain Nemo, “they will not enter the hatches of the _Nautilus_ in that way, even if they were open.”"
+    },
+    {
+      "id": "s188",
+      "text": "I looked at the Captain."
+    },
+    {
+      "id": "s189",
+      "text": "“You do not understand?” said he."
+    },
+    {
+      "id": "s190",
+      "text": "“Hardly.”"
+    },
+    {
+      "id": "s191",
+      "text": "“Well, come and you will see.”"
+    },
+    {
+      "id": "s192",
+      "text": "I directed my steps towards the central staircase."
+    },
+    {
+      "id": "s193",
+      "text": "There Ned Land and Conseil were slyly watching some of the ship’s crew, who were opening the hatches, while cries of rage and fearful vociferations resounded outside."
+    },
+    {
+      "id": "s194",
+      "text": "The port lids were pulled down outside."
+    },
+    {
+      "id": "s195",
+      "text": "Twenty horrible faces appeared."
+    },
+    {
+      "id": "s196",
+      "text": "But the first native who placed his hand on the stair-rail, struck from behind by some invisible force, I know not what, fled, uttering the most fearful cries and making the wildest contortions."
+    },
+    {
+      "id": "s197",
+      "text": "Ten of his companions followed him."
+    },
+    {
+      "id": "s198",
+      "text": "They met with the same fate."
+    },
+    {
+      "id": "s199",
+      "text": "Conseil was in ecstasy."
+    },
+    {
+      "id": "s200",
+      "text": "Ned Land, carried away by his violent instincts, rushed on to the staircase."
+    },
+    {
+      "id": "s201",
+      "text": "But the moment he seized the rail with both hands, he, in his turn, was overthrown."
+    },
+    {
+      "id": "s202",
+      "text": "“I am struck by a thunderbolt,” cried he, with an oath."
+    },
+    {
+      "id": "s203",
+      "text": "This explained all."
+    },
+    {
+      "id": "s204",
+      "text": "It was no rail; but a metallic cable charged with electricity from the deck communicating with the platform."
+    },
+    {
+      "id": "s205",
+      "text": "Whoever touched it felt a powerful shock—and this shock would have been mortal if Captain Nemo had discharged into the conductor the whole force of the current."
+    },
+    {
+      "id": "s206",
+      "text": "It might truly be said that between his assailants and himself he had stretched a network of electricity which none could pass with impunity."
+    },
+    {
+      "id": "s207",
+      "text": "Meanwhile, the exasperated Papuans had beaten a retreat paralysed with terror."
+    },
+    {
+      "id": "s208",
+      "text": "As for us, half laughing, we consoled and rubbed the unfortunate Ned Land, who swore like one possessed."
+    },
+    {
+      "id": "s209",
+      "text": "But at this moment the _Nautilus_, raised by the last waves of the tide, quitted her coral bed exactly at the fortieth minute fixed by the Captain."
+    },
+    {
+      "id": "s210",
+      "text": "Her screw swept the waters slowly and majestically."
+    },
+    {
+      "id": "s211",
+      "text": "Her speed increased gradually, and, sailing on the surface of the ocean, she quitted safe and sound the dangerous passes of the Straits of Torres."
+    }
+  ]
+}

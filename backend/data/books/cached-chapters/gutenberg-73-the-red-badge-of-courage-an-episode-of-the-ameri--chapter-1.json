@@ -4,9 +4,9 @@
   "ebookId": "73",
   "edition": "Project Gutenberg eBook #73; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "Chapter I. The cold passed reluctantly from the earth, and the retiring fogs",
-  "contentHash": "sha256:dd6b6cc8489fe797f376c3b950b8b2eee5f20f336db1c4d6088115ee2bf23d7d",
-  "attribution": "Crane, Stephen, 1871-1900, The Red Badge of Courage: An Episode of the American Civil War, Chapter I. The cold passed reluctantly from the earth, and the retiring fogs. Source checked against Project Gutenberg eBook #73.",
+  "chapterTitle": "Chapter I.",
+  "contentHash": "sha256:926499e0d3db3e35560d08aa1b7fc869e047daa3f091306f5e39c436c33b15f2",
+  "attribution": "Crane, Stephen, 1871-1900, The Red Badge of Courage: An Episode of the American Civil War, Chapter I.. Source checked against Project Gutenberg eBook #73.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/73",
@@ -19,7 +19,7 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "revealed an army stretched out on the hills, resting."
+      "text": "The cold passed reluctantly from the earth, and the retiring fogs revealed an army stretched out on the hills, resting."
     },
     {
       "id": "s2",

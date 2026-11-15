@@ -4,9 +4,9 @@
   "ebookId": "91",
   "edition": "Project Gutenberg eBook #91; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER I. TOM SEEKS NEW ADVENTURES",
-  "contentHash": "sha256:395edc9b40291b969a3677dd8482aa12ddab2adf51d5dd14237452e789902e6d",
-  "attribution": "Twain, Mark, 1835-1910, Tom Sawyer Abroad, CHAPTER I. TOM SEEKS NEW ADVENTURES. Source checked against Project Gutenberg eBook #91.",
+  "chapterTitle": "CHAPTER I.",
+  "contentHash": "sha256:27520af9ff5f346f680937dc72218ba53b0f288491148db882854225beac89aa",
+  "attribution": "Twain, Mark, 1835-1910, Tom Sawyer Abroad, CHAPTER I.. Source checked against Project Gutenberg eBook #91.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/91",
@@ -19,582 +19,586 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "Do you reckon Tom Sawyer was satisfied after all them adventures?"
+      "text": "TOM SEEKS NEW ADVENTURES"
     },
     {
       "id": "s2",
-      "text": "I mean the adventures we had down the river, and the time we set the darky Jim free and Tom got shot in the leg."
+      "text": "Do you reckon Tom Sawyer was satisfied after all them adventures?"
     },
     {
       "id": "s3",
-      "text": "No, he wasn’t."
+      "text": "I mean the adventures we had down the river, and the time we set the darky Jim free and Tom got shot in the leg."
     },
     {
       "id": "s4",
-      "text": "It only just p’isoned him for more."
+      "text": "No, he wasn’t."
     },
     {
       "id": "s5",
-      "text": "That was all the effect it had."
+      "text": "It only just p’isoned him for more."
     },
     {
       "id": "s6",
-      "text": "You see, when we three came back up the river in glory, as you may say, from that long travel, and the village received us with a torchlight procession and speeches, and everybody hurrah’d and shouted, it made us heroes, and that was what Tom Sawyer had always been hankering to be."
+      "text": "That was all the effect it had."
     },
     {
       "id": "s7",
-      "text": "For a while he _was_ satisfied."
+      "text": "You see, when we three came back up the river in glory, as you may say, from that long travel, and the village received us with a torchlight procession and speeches, and everybody hurrah’d and shouted, it made us heroes, and that was what Tom Sawyer had always been hankering to be."
     },
     {
       "id": "s8",
-      "text": "Everybody made much of him, and he tilted up his nose and stepped around the town as though he owned it."
+      "text": "For a while he _was_ satisfied."
     },
     {
       "id": "s9",
-      "text": "Some called him Tom Sawyer the Traveler, and that just swelled him up fit to bust."
+      "text": "Everybody made much of him, and he tilted up his nose and stepped around the town as though he owned it."
     },
     {
       "id": "s10",
-      "text": "You see he laid over me and Jim considerable, because we only went down the river on a raft and came back by the steamboat, but Tom went by the steamboat both ways."
+      "text": "Some called him Tom Sawyer the Traveler, and that just swelled him up fit to bust."
     },
     {
       "id": "s11",
-      "text": "The boys envied me and Jim a good deal, but land! they just knuckled to the dirt before TOM."
+      "text": "You see he laid over me and Jim considerable, because we only went down the river on a raft and came back by the steamboat, but Tom went by the steamboat both ways."
     },
     {
       "id": "s12",
-      "text": "Well, I don’t know; maybe he might have been satisfied if it hadn’t been for old Nat Parsons, which was postmaster, and powerful long and slim, and kind o’ good-hearted and silly, and bald-headed, on account of his age, and about the talkiest old cretur I ever see."
+      "text": "The boys envied me and Jim a good deal, but land! they just knuckled to the dirt before TOM."
     },
     {
       "id": "s13",
-      "text": "For as much as thirty years he’d been the only man in the village that had a reputation—I mean a reputation for being a traveler, and of course he was mortal proud of it, and it was reckoned that in the course of that thirty years he had told about that journey over a million times and enjoyed it every time."
+      "text": "Well, I don’t know; maybe he might have been satisfied if it hadn’t been for old Nat Parsons, which was postmaster, and powerful long and slim, and kind o’ good-hearted and silly, and bald-headed, on account of his age, and about the talkiest old cretur I ever see."
     },
     {
       "id": "s14",
-      "text": "And now comes along a boy not quite fifteen, and sets everybody admiring and gawking over _his_ travels, and it just give the poor old man the high strikes."
+      "text": "For as much as thirty years he’d been the only man in the village that had a reputation—I mean a reputation for being a traveler, and of course he was mortal proud of it, and it was reckoned that in the course of that thirty years he had told about that journey over a million times and enjoyed it every time."
     },
     {
       "id": "s15",
-      "text": "It made him sick to listen to Tom, and to hear the people say “My land!” “Did you ever!” “My goodness sakes alive!” and all such things; but he couldn’t pull away from it, any more than a fly that’s got its hind leg fast in the molasses."
+      "text": "And now comes along a boy not quite fifteen, and sets everybody admiring and gawking over _his_ travels, and it just give the poor old man the high strikes."
     },
     {
       "id": "s16",
-      "text": "And always when Tom come to a rest, the poor old cretur would chip in on _his_ same old travels and work them for all they were worth; but they were pretty faded, and didn’t go for much, and it was pitiful to see."
+      "text": "It made him sick to listen to Tom, and to hear the people say “My land!” “Did you ever!” “My goodness sakes alive!” and all such things; but he couldn’t pull away from it, any more than a fly that’s got its hind leg fast in the molasses."
     },
     {
       "id": "s17",
-      "text": "And then Tom would take another innings, and then the old man again—and so on, and so on, for an hour and more, each trying to beat out the other."
+      "text": "And always when Tom come to a rest, the poor old cretur would chip in on _his_ same old travels and work them for all they were worth; but they were pretty faded, and didn’t go for much, and it was pitiful to see."
     },
     {
       "id": "s18",
-      "text": "You see, Parsons’ travels happened like this: When he first got to be postmaster and was green in the business, there come a letter for somebody he didn’t know, and there wasn’t any such person in the village."
+      "text": "And then Tom would take another innings, and then the old man again—and so on, and so on, for an hour and more, each trying to beat out the other."
     },
     {
       "id": "s19",
-      "text": "Well, he didn’t know what to do, nor how to act, and there the letter stayed and stayed, week in and week out, till the bare sight of it gave him a conniption."
+      "text": "You see, Parsons’ travels happened like this: When he first got to be postmaster and was green in the business, there come a letter for somebody he didn’t know, and there wasn’t any such person in the village."
     },
     {
       "id": "s20",
-      "text": "The postage wasn’t paid on it, and that was another thing to worry about."
+      "text": "Well, he didn’t know what to do, nor how to act, and there the letter stayed and stayed, week in and week out, till the bare sight of it gave him a conniption."
     },
     {
       "id": "s21",
-      "text": "There wasn’t any way to collect that ten cents, and he reckon’d the gov’ment would hold him responsible for it and maybe turn him out besides, when they found he hadn’t collected it."
+      "text": "The postage wasn’t paid on it, and that was another thing to worry about."
     },
     {
       "id": "s22",
-      "text": "Well, at last he couldn’t stand it any longer."
+      "text": "There wasn’t any way to collect that ten cents, and he reckon’d the gov’ment would hold him responsible for it and maybe turn him out besides, when they found he hadn’t collected it."
     },
     {
       "id": "s23",
-      "text": "He couldn’t sleep nights, he couldn’t eat, he was thinned down to a shadder, yet he da’sn’t ask anybody’s advice, for the very person he asked for advice might go back on him and let the gov’ment know about the letter."
+      "text": "Well, at last he couldn’t stand it any longer."
     },
     {
       "id": "s24",
-      "text": "He had the letter buried under the floor, but that did no good; if he happened to see a person standing over the place it’d give him the cold shivers, and loaded him up with suspicions, and he would sit up that night till the town was still and dark, and then he would sneak there and get it out and bury it in another place."
+      "text": "He couldn’t sleep nights, he couldn’t eat, he was thinned down to a shadder, yet he da’sn’t ask anybody’s advice, for the very person he asked for advice might go back on him and let the gov’ment know about the letter."
     },
     {
       "id": "s25",
-      "text": "Of course, people got to avoiding him and shaking their heads and whispering, because, the way he was looking and acting, they judged he had killed somebody or done something terrible, they didn’t know what, and if he had been a stranger they would’ve lynched him."
+      "text": "He had the letter buried under the floor, but that did no good; if he happened to see a person standing over the place it’d give him the cold shivers, and loaded him up with suspicions, and he would sit up that night till the town was still and dark, and then he would sneak there and get it out and bury it in another place."
     },
     {
       "id": "s26",
-      "text": "Well, as I was saying, it got so he couldn’t stand it any longer; so he made up his mind to pull out for Washington, and just go to the President of the United States and make a clean breast of the whole thing, not keeping back an atom, and then fetch the letter out and lay it before the whole gov’ment, and say, “Now, there she is—do with me what you’re a mind to; though as heaven is my judge I am an innocent man and not deserving of the full penalties of the law and leaving behind me a family that must starve and yet hadn’t had a thing to do with it, which is the whole truth and I can swear to it.”"
+      "text": "Of course, people got to avoiding him and shaking their heads and whispering, because, the way he was looking and acting, they judged he had killed somebody or done something terrible, they didn’t know what, and if he had been a stranger they would’ve lynched him."
     },
     {
       "id": "s27",
-      "text": "So he did it."
+      "text": "Well, as I was saying, it got so he couldn’t stand it any longer; so he made up his mind to pull out for Washington, and just go to the President of the United States and make a clean breast of the whole thing, not keeping back an atom, and then fetch the letter out and lay it before the whole gov’ment, and say, “Now, there she is—do with me what you’re a mind to; though as heaven is my judge I am an innocent man and not deserving of the full penalties of the law and leaving behind me a family that must starve and yet hadn’t had a thing to do with it, which is the whole truth and I can swear to it.”"
     },
     {
       "id": "s28",
-      "text": "He had a little wee bit of steamboating, and some stage-coaching, but all the rest of the way was horseback, and it took him three weeks to get to Washington."
+      "text": "So he did it."
     },
     {
       "id": "s29",
-      "text": "He saw lots of land and lots of villages and four cities."
+      "text": "He had a little wee bit of steamboating, and some stage-coaching, but all the rest of the way was horseback, and it took him three weeks to get to Washington."
     },
     {
       "id": "s30",
-      "text": "He was gone ’most eight weeks, and there never was such a proud man in the village as he when he got back."
+      "text": "He saw lots of land and lots of villages and four cities."
     },
     {
       "id": "s31",
-      "text": "His travels made him the greatest man in all that region, and the most talked about; and people come from as much as thirty miles back in the country, and from over in the Illinois bottoms, too, just to look at him—and there they’d stand and gawk, and he’d gabble."
+      "text": "He was gone ’most eight weeks, and there never was such a proud man in the village as he when he got back."
     },
     {
       "id": "s32",
-      "text": "You never see anything like it."
+      "text": "His travels made him the greatest man in all that region, and the most talked about; and people come from as much as thirty miles back in the country, and from over in the Illinois bottoms, too, just to look at him—and there they’d stand and gawk, and he’d gabble."
     },
     {
       "id": "s33",
-      "text": "Well, there wasn’t any way now to settle which was the greatest traveler; some said it was Nat, some said it was Tom."
+      "text": "You never see anything like it."
     },
     {
       "id": "s34",
-      "text": "Everybody allowed that Nat had seen the most longitude, but they had to give in that whatever Tom was short in longitude he had made up in latitude and climate."
+      "text": "Well, there wasn’t any way now to settle which was the greatest traveler; some said it was Nat, some said it was Tom."
     },
     {
       "id": "s35",
-      "text": "It was about a stand-off; so both of them had to whoop up their dangerous adventures, and try to get ahead _that_ way."
+      "text": "Everybody allowed that Nat had seen the most longitude, but they had to give in that whatever Tom was short in longitude he had made up in latitude and climate."
     },
     {
       "id": "s36",
-      "text": "That bullet-wound in Tom’s leg was a tough thing for Nat Parsons to buck against, but he bucked the best he could; and at a disadvantage, too, for Tom didn’t set still as he’d orter done, to be fair, but always got up and sauntered around and worked his limp while Nat was painting up the adventure that _he_ had in Washington; for Tom never let go that limp when his leg got well, but practiced it nights at home, and kept it good as new right along."
+      "text": "It was about a stand-off; so both of them had to whoop up their dangerous adventures, and try to get ahead _that_ way."
     },
     {
       "id": "s37",
-      "text": "Nat’s adventure was like this; I don’t know how true it is; maybe he got it out of a paper, or somewhere, but I will say this for him, that he _did_ know how to tell it."
+      "text": "That bullet-wound in Tom’s leg was a tough thing for Nat Parsons to buck against, but he bucked the best he could; and at a disadvantage, too, for Tom didn’t set still as he’d orter done, to be fair, but always got up and sauntered around and worked his limp while Nat was painting up the adventure that _he_ had in Washington; for Tom never let go that limp when his leg got well, but practiced it nights at home, and kept it good as new right along."
     },
     {
       "id": "s38",
-      "text": "He could make anybody’s flesh crawl, and he’d turn pale and hold his breath when he told it, and sometimes women and girls got so faint they couldn’t stick it out."
+      "text": "Nat’s adventure was like this; I don’t know how true it is; maybe he got it out of a paper, or somewhere, but I will say this for him, that he _did_ know how to tell it."
     },
     {
       "id": "s39",
-      "text": "Well, it was this way, as near as I can remember:"
+      "text": "He could make anybody’s flesh crawl, and he’d turn pale and hold his breath when he told it, and sometimes women and girls got so faint they couldn’t stick it out."
     },
     {
       "id": "s40",
-      "text": "He come a-loping into Washington, and put up his horse and shoved out to the President’s house with his letter, and they told him the President was up to the Capitol, and just going to start for Philadelphia—not a minute to lose if he wanted to catch him."
+      "text": "Well, it was this way, as near as I can remember:"
     },
     {
       "id": "s41",
-      "text": "Nat ’most dropped, it made him so sick."
+      "text": "He come a-loping into Washington, and put up his horse and shoved out to the President’s house with his letter, and they told him the President was up to the Capitol, and just going to start for Philadelphia—not a minute to lose if he wanted to catch him."
     },
     {
       "id": "s42",
-      "text": "His horse was put up, and he didn’t know what to do."
+      "text": "Nat ’most dropped, it made him so sick."
     },
     {
       "id": "s43",
-      "text": "But just then along comes a darky driving an old ramshackly hack, and he see his chance."
+      "text": "His horse was put up, and he didn’t know what to do."
     },
     {
       "id": "s44",
-      "text": "He rushes out and shouts: “A half a dollar if you git me to the Capitol in half an hour, and a quarter extra if you do it in twenty minutes!”"
+      "text": "But just then along comes a darky driving an old ramshackly hack, and he see his chance."
     },
     {
       "id": "s45",
-      "text": "“Done!” says the darky."
+      "text": "He rushes out and shouts: “A half a dollar if you git me to the Capitol in half an hour, and a quarter extra if you do it in twenty minutes!”"
     },
     {
       "id": "s46",
-      "text": "Nat he jumped in and slammed the door, and away they went a-ripping and a-tearing over the roughest road a body ever see, and the racket of it was something awful."
+      "text": "“Done!” says the darky."
     },
     {
       "id": "s47",
-      "text": "Nat passed his arms through the loops and hung on for life and death, but pretty soon the hack hit a rock and flew up in the air, and the bottom fell out, and when it come down Nat’s feet was on the ground, and he see he was in the most desperate danger if he couldn’t keep up with the hack."
+      "text": "Nat he jumped in and slammed the door, and away they went a-ripping and a-tearing over the roughest road a body ever see, and the racket of it was something awful."
     },
     {
       "id": "s48",
-      "text": "He was horrible scared, but he laid into his work for all he was worth, and hung tight to the arm-loops and made his legs fairly fly."
+      "text": "Nat passed his arms through the loops and hung on for life and death, but pretty soon the hack hit a rock and flew up in the air, and the bottom fell out, and when it come down Nat’s feet was on the ground, and he see he was in the most desperate danger if he couldn’t keep up with the hack."
     },
     {
       "id": "s49",
-      "text": "He yelled and shouted to the driver to stop, and so did the crowds along the street, for they could see his legs spinning along under the coach, and his head and shoulders bobbing inside through the windows, and he was in awful danger; but the more they all shouted the more the nigger whooped and yelled and lashed the horses and shouted, “Don’t you fret, I’se gwine to git you dah in time, boss; I’s gwine to do it, sho’!” for you see he thought they were all hurrying him up, and, of course, he couldn’t hear anything for the racket he was making."
+      "text": "He was horrible scared, but he laid into his work for all he was worth, and hung tight to the arm-loops and made his legs fairly fly."
     },
     {
       "id": "s50",
-      "text": "And so they went ripping along, and everybody just petrified to see it; and when they got to the Capitol at last it was the quickest trip that ever was made, and everybody said so."
+      "text": "He yelled and shouted to the driver to stop, and so did the crowds along the street, for they could see his legs spinning along under the coach, and his head and shoulders bobbing inside through the windows, and he was in awful danger; but the more they all shouted the more the nigger whooped and yelled and lashed the horses and shouted, “Don’t you fret, I’se gwine to git you dah in time, boss; I’s gwine to do it, sho’!” for you see he thought they were all hurrying him up, and, of course, he couldn’t hear anything for the racket he was making."
     },
     {
       "id": "s51",
-      "text": "The horses laid down, and Nat dropped, all tuckered out, and he was all dust and rags and barefooted; but he was in time and just in time, and caught the President and give him the letter, and everything was all right, and the President give him a free pardon on the spot, and Nat give the nigger two extra quarters instead of one, because he could see that if he hadn’t had the hack he wouldn’t’a’ got there in time, nor anywhere near it."
+      "text": "And so they went ripping along, and everybody just petrified to see it; and when they got to the Capitol at last it was the quickest trip that ever was made, and everybody said so."
     },
     {
       "id": "s52",
-      "text": "It _was_ a powerful good adventure, and Tom Sawyer had to work his bullet-wound mighty lively to hold his own against it."
+      "text": "The horses laid down, and Nat dropped, all tuckered out, and he was all dust and rags and barefooted; but he was in time and just in time, and caught the President and give him the letter, and everything was all right, and the President give him a free pardon on the spot, and Nat give the nigger two extra quarters instead of one, because he could see that if he hadn’t had the hack he wouldn’t’a’ got there in time, nor anywhere near it."
     },
     {
       "id": "s53",
-      "text": "Well, by and by Tom’s glory got to paling down gradu’ly, on account of other things turning up for the people to talk about—first a horse-race, and on top of that a house afire, and on top of that the circus, and on top of that the eclipse; and that started a revival, same as it always does, and by that time there wasn’t any more talk about Tom, so to speak, and you never see a person so sick and disgusted."
+      "text": "It _was_ a powerful good adventure, and Tom Sawyer had to work his bullet-wound mighty lively to hold his own against it."
     },
     {
       "id": "s54",
-      "text": "Pretty soon he got to worrying and fretting right along day in and day out, and when I asked him what _was_ he in such a state about, he said it ’most broke his heart to think how time was slipping away, and him getting older and older, and no wars breaking out and no way of making a name for himself that he could see."
+      "text": "Well, by and by Tom’s glory got to paling down gradu’ly, on account of other things turning up for the people to talk about—first a horse-race, and on top of that a house afire, and on top of that the circus, and on top of that the eclipse; and that started a revival, same as it always does, and by that time there wasn’t any more talk about Tom, so to speak, and you never see a person so sick and disgusted."
     },
     {
       "id": "s55",
-      "text": "Now that is the way boys is always thinking, but he was the first one I ever heard come out and say it."
+      "text": "Pretty soon he got to worrying and fretting right along day in and day out, and when I asked him what _was_ he in such a state about, he said it ’most broke his heart to think how time was slipping away, and him getting older and older, and no wars breaking out and no way of making a name for himself that he could see."
     },
     {
       "id": "s56",
-      "text": "So then he set to work to get up a plan to make him celebrated; and pretty soon he struck it, and offered to take me and Jim in."
+      "text": "Now that is the way boys is always thinking, but he was the first one I ever heard come out and say it."
     },
     {
       "id": "s57",
-      "text": "Tom Sawyer was always free and generous that way."
+      "text": "So then he set to work to get up a plan to make him celebrated; and pretty soon he struck it, and offered to take me and Jim in."
     },
     {
       "id": "s58",
-      "text": "There’s a-plenty of boys that’s mighty good and friendly when _you’ve_ got a good thing, but when a good thing happens to come their way they don’t say a word to you, and try to hog it all."
+      "text": "Tom Sawyer was always free and generous that way."
     },
     {
       "id": "s59",
-      "text": "That warn’t ever Tom Sawyer’s way, I can say that for him."
+      "text": "There’s a-plenty of boys that’s mighty good and friendly when _you’ve_ got a good thing, but when a good thing happens to come their way they don’t say a word to you, and try to hog it all."
     },
     {
       "id": "s60",
-      "text": "There’s plenty of boys that will come hankering and groveling around you when you’ve got an apple and beg the core off of you; but when they’ve got one, and you beg for the core and remind them how you give them a core one time, they say thank you ’most to death, but there ain’t a-going to be no core."
+      "text": "That warn’t ever Tom Sawyer’s way, I can say that for him."
     },
     {
       "id": "s61",
-      "text": "But I notice they always git come up with; all you got to do is to wait."
+      "text": "There’s plenty of boys that will come hankering and groveling around you when you’ve got an apple and beg the core off of you; but when they’ve got one, and you beg for the core and remind them how you give them a core one time, they say thank you ’most to death, but there ain’t a-going to be no core."
     },
     {
       "id": "s62",
-      "text": "Well, we went out in the woods on the hill, and Tom told us what it was."
+      "text": "But I notice they always git come up with; all you got to do is to wait."
     },
     {
       "id": "s63",
-      "text": "It was a crusade."
+      "text": "Well, we went out in the woods on the hill, and Tom told us what it was."
     },
     {
       "id": "s64",
-      "text": "[Illustration: “We went out in the woods on the hill, and Tom told us what it was."
+      "text": "It was a crusade."
     },
     {
       "id": "s65",
-      "text": "It was a crusade.”]"
+      "text": "[Illustration: “We went out in the woods on the hill, and Tom told us what it was."
     },
     {
       "id": "s66",
-      "text": "“What’s a crusade?” I says."
+      "text": "It was a crusade.”]"
     },
     {
       "id": "s67",
-      "text": "He looked scornful, the way he’s always done when he was ashamed of a person, and says:"
+      "text": "“What’s a crusade?” I says."
     },
     {
       "id": "s68",
-      "text": "“Huck Finn, do you mean to tell me you don’t know what a crusade is?”"
+      "text": "He looked scornful, the way he’s always done when he was ashamed of a person, and says:"
     },
     {
       "id": "s69",
-      "text": "“No,” says I, “I don’t."
+      "text": "“Huck Finn, do you mean to tell me you don’t know what a crusade is?”"
     },
     {
       "id": "s70",
-      "text": "And I don’t care to, nuther."
+      "text": "“No,” says I, “I don’t."
     },
     {
       "id": "s71",
-      "text": "I’ve lived till now and done without it, and had my health, too."
+      "text": "And I don’t care to, nuther."
     },
     {
       "id": "s72",
-      "text": "But as soon as you tell me, I’ll know, and that’s soon enough."
+      "text": "I’ve lived till now and done without it, and had my health, too."
     },
     {
       "id": "s73",
-      "text": "I don’t see any use in finding out things and clogging up my head with them when I mayn’t ever have any occasion to use ’em."
+      "text": "But as soon as you tell me, I’ll know, and that’s soon enough."
     },
     {
       "id": "s74",
-      "text": "There was Lance Williams, he learned how to talk Choctaw here till one come and dug his grave for him."
+      "text": "I don’t see any use in finding out things and clogging up my head with them when I mayn’t ever have any occasion to use ’em."
     },
     {
       "id": "s75",
-      "text": "Now, then, what’s a crusade?"
+      "text": "There was Lance Williams, he learned how to talk Choctaw here till one come and dug his grave for him."
     },
     {
       "id": "s76",
-      "text": "But I can tell you one thing before you begin; if it’s a patent-right, there’s no money in it."
+      "text": "Now, then, what’s a crusade?"
     },
     {
       "id": "s77",
-      "text": "Bill Thompson he—”"
+      "text": "But I can tell you one thing before you begin; if it’s a patent-right, there’s no money in it."
     },
     {
       "id": "s78",
-      "text": "“Patent-right!” says he."
+      "text": "Bill Thompson he—”"
     },
     {
       "id": "s79",
-      "text": "“I never see such an idiot."
+      "text": "“Patent-right!” says he."
     },
     {
       "id": "s80",
-      "text": "Why, a crusade is a kind of war.”"
+      "text": "“I never see such an idiot."
     },
     {
       "id": "s81",
-      "text": "I thought he must be losing his mind."
+      "text": "Why, a crusade is a kind of war.”"
     },
     {
       "id": "s82",
-      "text": "But no, he was in real earnest, and went right on, perfectly ca’m."
+      "text": "I thought he must be losing his mind."
     },
     {
       "id": "s83",
-      "text": "“A crusade is a war to recover the Holy Land from the paynim.”"
+      "text": "But no, he was in real earnest, and went right on, perfectly ca’m."
     },
     {
       "id": "s84",
-      "text": "“Which Holy Land?”"
+      "text": "“A crusade is a war to recover the Holy Land from the paynim.”"
     },
     {
       "id": "s85",
-      "text": "“Why, the Holy Land—there ain’t but one.”"
+      "text": "“Which Holy Land?”"
     },
     {
       "id": "s86",
-      "text": "“What do we want of it?”"
+      "text": "“Why, the Holy Land—there ain’t but one.”"
     },
     {
       "id": "s87",
-      "text": "“Why, can’t you understand?"
+      "text": "“What do we want of it?”"
     },
     {
       "id": "s88",
-      "text": "It’s in the hands of the paynim, and it’s our duty to take it away from them.”"
+      "text": "“Why, can’t you understand?"
     },
     {
       "id": "s89",
-      "text": "“How did we come to let them git hold of it?”"
+      "text": "It’s in the hands of the paynim, and it’s our duty to take it away from them.”"
     },
     {
       "id": "s90",
-      "text": "“We didn’t come to let them git hold of it."
+      "text": "“How did we come to let them git hold of it?”"
     },
     {
       "id": "s91",
-      "text": "They always had it.”"
+      "text": "“We didn’t come to let them git hold of it."
     },
     {
       "id": "s92",
-      "text": "“Why, Tom, then it must belong to them, don’t it?”"
+      "text": "They always had it.”"
     },
     {
       "id": "s93",
-      "text": "“Why of course it does."
+      "text": "“Why, Tom, then it must belong to them, don’t it?”"
     },
     {
       "id": "s94",
-      "text": "Who said it didn’t?”"
+      "text": "“Why of course it does."
     },
     {
       "id": "s95",
-      "text": "I studied over it, but couldn’t seem to git at the right of it, no way."
+      "text": "Who said it didn’t?”"
     },
     {
       "id": "s96",
-      "text": "I says:"
+      "text": "I studied over it, but couldn’t seem to git at the right of it, no way."
     },
     {
       "id": "s97",
-      "text": "“It’s too many for me, Tom Sawyer."
+      "text": "I says:"
     },
     {
       "id": "s98",
-      "text": "If I had a farm and it was mine, and another person wanted it, would it be right for him to—”"
+      "text": "“It’s too many for me, Tom Sawyer."
     },
     {
       "id": "s99",
-      "text": "“Oh, shucks! you don’t know enough to come in when it rains, Huck Finn."
+      "text": "If I had a farm and it was mine, and another person wanted it, would it be right for him to—”"
     },
     {
       "id": "s100",
-      "text": "It ain’t a farm, it’s entirely different."
+      "text": "“Oh, shucks! you don’t know enough to come in when it rains, Huck Finn."
     },
     {
       "id": "s101",
-      "text": "You see, it’s like this."
+      "text": "It ain’t a farm, it’s entirely different."
     },
     {
       "id": "s102",
-      "text": "They own the land, just the mere land, and that’s all they _do_ own; but it was our folks, our Jews and Christians, that made it holy, and so they haven’t any business to be there defiling it."
+      "text": "You see, it’s like this."
     },
     {
       "id": "s103",
-      "text": "It’s a shame, and we ought not to stand it a minute."
+      "text": "They own the land, just the mere land, and that’s all they _do_ own; but it was our folks, our Jews and Christians, that made it holy, and so they haven’t any business to be there defiling it."
     },
     {
       "id": "s104",
-      "text": "We ought to march against them and take it away from them.”"
+      "text": "It’s a shame, and we ought not to stand it a minute."
     },
     {
       "id": "s105",
-      "text": "“Why, it does seem to me it’s the most mixed-up thing I ever see!"
+      "text": "We ought to march against them and take it away from them.”"
     },
     {
       "id": "s106",
-      "text": "Now, if I had a farm and another person—”"
+      "text": "“Why, it does seem to me it’s the most mixed-up thing I ever see!"
     },
     {
       "id": "s107",
-      "text": "“Don’t I tell you it hasn’t got anything to do with farming?"
+      "text": "Now, if I had a farm and another person—”"
     },
     {
       "id": "s108",
-      "text": "Farming is business, just common low-down business: that’s all it is, it’s all you can say for it; but this is higher, this is religious, and totally different.”"
+      "text": "“Don’t I tell you it hasn’t got anything to do with farming?"
     },
     {
       "id": "s109",
-      "text": "“Religious to go and take the land away from people that owns it?”"
+      "text": "Farming is business, just common low-down business: that’s all it is, it’s all you can say for it; but this is higher, this is religious, and totally different.”"
     },
     {
       "id": "s110",
-      "text": "“Certainly; it’s always been considered so.”"
+      "text": "“Religious to go and take the land away from people that owns it?”"
     },
     {
       "id": "s111",
-      "text": "Jim he shook his head, and says:"
+      "text": "“Certainly; it’s always been considered so.”"
     },
     {
       "id": "s112",
-      "text": "“Mars Tom, I reckon dey’s a mistake about it somers—dey mos’ sholy is."
+      "text": "Jim he shook his head, and says:"
     },
     {
       "id": "s113",
-      "text": "I’s religious myself, en I knows plenty religious people, but I hain’t run across none dat acts like dat.”"
+      "text": "“Mars Tom, I reckon dey’s a mistake about it somers—dey mos’ sholy is."
     },
     {
       "id": "s114",
-      "text": "It made Tom hot, and he says:"
+      "text": "I’s religious myself, en I knows plenty religious people, but I hain’t run across none dat acts like dat.”"
     },
     {
       "id": "s115",
-      "text": "“Well, it’s enough to make a body sick, such mullet-headed ignorance!"
+      "text": "It made Tom hot, and he says:"
     },
     {
       "id": "s116",
-      "text": "If either of you’d read anything about history, you’d know that Richard Cur de Loon, and the Pope, and Godfrey de Bulleyn, and lots more of the most noble-hearted and pious people in the world, hacked and hammered at the paynims for more than two hundred years trying to take their land away from them, and swum neck-deep in blood the whole time—and yet here’s a couple of sap-headed country yahoos out in the backwoods of Missouri setting themselves up to know more about the rights and wrongs of it than they did!"
+      "text": "“Well, it’s enough to make a body sick, such mullet-headed ignorance!"
     },
     {
       "id": "s117",
-      "text": "Talk about cheek!”"
+      "text": "If either of you’d read anything about history, you’d know that Richard Cur de Loon, and the Pope, and Godfrey de Bulleyn, and lots more of the most noble-hearted and pious people in the world, hacked and hammered at the paynims for more than two hundred years trying to take their land away from them, and swum neck-deep in blood the whole time—and yet here’s a couple of sap-headed country yahoos out in the backwoods of Missouri setting themselves up to know more about the rights and wrongs of it than they did!"
     },
     {
       "id": "s118",
-      "text": "Well, of course, that put a more different light on it, and me and Jim felt pretty cheap and ignorant, and wished we hadn’t been quite so chipper."
+      "text": "Talk about cheek!”"
     },
     {
       "id": "s119",
-      "text": "I couldn’t say nothing, and Jim he couldn’t for a while; then he says:"
+      "text": "Well, of course, that put a more different light on it, and me and Jim felt pretty cheap and ignorant, and wished we hadn’t been quite so chipper."
     },
     {
       "id": "s120",
-      "text": "“Well, den, I reckon it’s all right; beca’se ef dey didn’t know, dey ain’t no use for po’ ignorant folks like us to be trying to know; en so, ef it’s our duty, we got to go en tackle it en do de bes’ we can."
+      "text": "I couldn’t say nothing, and Jim he couldn’t for a while; then he says:"
     },
     {
       "id": "s121",
-      "text": "Same time, I feel as sorry for dem paynims as Mars Tom."
+      "text": "“Well, den, I reckon it’s all right; beca’se ef dey didn’t know, dey ain’t no use for po’ ignorant folks like us to be trying to know; en so, ef it’s our duty, we got to go en tackle it en do de bes’ we can."
     },
     {
       "id": "s122",
-      "text": "De hard part gwine to be to kill folks dat a body hain’t been ’quainted wid and dat hain’t done him no harm."
+      "text": "Same time, I feel as sorry for dem paynims as Mars Tom."
     },
     {
       "id": "s123",
-      "text": "Dat’s it, you see."
+      "text": "De hard part gwine to be to kill folks dat a body hain’t been ’quainted wid and dat hain’t done him no harm."
     },
     {
       "id": "s124",
-      "text": "Ef we wuz to go ’mongst ’em, jist we three, en say we’s hungry, en ast ’em for a bite to eat, why, maybe dey’s jist like yuther people."
+      "text": "Dat’s it, you see."
     },
     {
       "id": "s125",
-      "text": "Don’t you reckon dey is?"
+      "text": "Ef we wuz to go ’mongst ’em, jist we three, en say we’s hungry, en ast ’em for a bite to eat, why, maybe dey’s jist like yuther people."
     },
     {
       "id": "s126",
-      "text": "Why, _dey’d_ give it, I know dey would, en den—”"
+      "text": "Don’t you reckon dey is?"
     },
     {
       "id": "s127",
-      "text": "“Then what?”"
+      "text": "Why, _dey’d_ give it, I know dey would, en den—”"
     },
     {
       "id": "s128",
-      "text": "“Well, Mars Tom, my idea is like dis."
+      "text": "“Then what?”"
     },
     {
       "id": "s129",
-      "text": "It ain’t no use, we _can’t_ kill dem po’ strangers dat ain’t doin’ us no harm, till we’ve had practice—I knows it perfectly well, Mars Tom—’deed I knows it perfectly well."
+      "text": "“Well, Mars Tom, my idea is like dis."
     },
     {
       "id": "s130",
-      "text": "But ef we takes a’ axe or two, jist you en me en Huck, en slips acrost de river to-night arter de moon’s gone down, en kills dat sick fam’ly dat’s over on the Sny, en burns dey house down, en—”"
+      "text": "It ain’t no use, we _can’t_ kill dem po’ strangers dat ain’t doin’ us no harm, till we’ve had practice—I knows it perfectly well, Mars Tom—’deed I knows it perfectly well."
     },
     {
       "id": "s131",
-      "text": "“Oh, you make me tired!” says Tom."
+      "text": "But ef we takes a’ axe or two, jist you en me en Huck, en slips acrost de river to-night arter de moon’s gone down, en kills dat sick fam’ly dat’s over on the Sny, en burns dey house down, en—”"
     },
     {
       "id": "s132",
-      "text": "“I don’t want to argue any more with people like you and Huck Finn, that’s always wandering from the subject, and ain’t got any more sense than to try to reason out a thing that’s pure theology by the laws that protect real estate!”"
+      "text": "“Oh, you make me tired!” says Tom."
     },
     {
       "id": "s133",
-      "text": "Now that’s just where Tom Sawyer warn’t fair."
+      "text": "“I don’t want to argue any more with people like you and Huck Finn, that’s always wandering from the subject, and ain’t got any more sense than to try to reason out a thing that’s pure theology by the laws that protect real estate!”"
     },
     {
       "id": "s134",
-      "text": "Jim didn’t mean no harm, and I didn’t mean no harm."
+      "text": "Now that’s just where Tom Sawyer warn’t fair."
     },
     {
       "id": "s135",
-      "text": "We knowed well enough that he was right and we was wrong, and all we was after was to get at the _how_ of it, and that was all; and the only reason he couldn’t explain it so we could understand it was because we was ignorant—yes, and pretty dull, too, I ain’t denying that; but, land! that ain’t no crime, I should think."
+      "text": "Jim didn’t mean no harm, and I didn’t mean no harm."
     },
     {
       "id": "s136",
-      "text": "But he wouldn’t hear no more about it—just said if we had tackled the thing in the proper spirit, he would ’a’ raised a couple of thousand knights and put them in steel armor from head to heel, and made me a lieutenant and Jim a sutler, and took the command himself and brushed the whole paynim outfit into the sea like flies and come back across the world in a glory like sunset."
+      "text": "We knowed well enough that he was right and we was wrong, and all we was after was to get at the _how_ of it, and that was all; and the only reason he couldn’t explain it so we could understand it was because we was ignorant—yes, and pretty dull, too, I ain’t denying that; but, land! that ain’t no crime, I should think."
     },
     {
       "id": "s137",
-      "text": "But he said we didn’t know enough to take the chance when we had it, and he wouldn’t ever offer it again."
+      "text": "But he wouldn’t hear no more about it—just said if we had tackled the thing in the proper spirit, he would ’a’ raised a couple of thousand knights and put them in steel armor from head to heel, and made me a lieutenant and Jim a sutler, and took the command himself and brushed the whole paynim outfit into the sea like flies and come back across the world in a glory like sunset."
     },
     {
       "id": "s138",
-      "text": "And he didn’t."
+      "text": "But he said we didn’t know enough to take the chance when we had it, and he wouldn’t ever offer it again."
     },
     {
       "id": "s139",
-      "text": "When he once got set, you couldn’t budge him."
+      "text": "And he didn’t."
     },
     {
       "id": "s140",
-      "text": "But I didn’t care much."
+      "text": "When he once got set, you couldn’t budge him."
     },
     {
       "id": "s141",
-      "text": "I am peaceable, and don’t get up rows with people that ain’t doing nothing to me."
+      "text": "But I didn’t care much."
     },
     {
       "id": "s142",
-      "text": "I allowed if the paynim was satisfied I was, and we would let it stand at that."
+      "text": "I am peaceable, and don’t get up rows with people that ain’t doing nothing to me."
     },
     {
       "id": "s143",
-      "text": "Now Tom he got all that notion out of Walter Scott’s book, which he was always reading."
+      "text": "I allowed if the paynim was satisfied I was, and we would let it stand at that."
     },
     {
       "id": "s144",
-      "text": "And it _was_ a wild notion, because in my opinion he never could’ve raised the men, and if he did, as like as not he would’ve got licked."
+      "text": "Now Tom he got all that notion out of Walter Scott’s book, which he was always reading."
     },
     {
       "id": "s145",
+      "text": "And it _was_ a wild notion, because in my opinion he never could’ve raised the men, and if he did, as like as not he would’ve got licked."
+    },
+    {
+      "id": "s146",
       "text": "I took the book and read all about it, and as near as I could make it out, most of the folks that shook farming to go crusading had a mighty rocky time of it."
     }
   ]

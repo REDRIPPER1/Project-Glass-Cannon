@@ -205,7 +205,7 @@ class PlatformApiTests(unittest.TestCase):
     def test_economy_progress_books_pass_ads_and_analytics_endpoints(self):
         starter = self.client.get(f"/api/profiles/{self.profile_id}/rewards").json()[0]
         self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/rewards/{starter['id']}/claim").status_code, 200)
-        self.assertEqual(self.client.put(f"/api/profiles/{self.profile_id}/pets/moss-mouse/active").status_code, 200)
+        self.assertEqual(self.client.put(f"/api/profiles/{self.profile_id}/active-pet/moss-mouse").status_code, 200)
         purchase = self.client.post(f"/api/profiles/{self.profile_id}/purchases", json={"shopItemId": "shop-oak-leaf-scarf"})
         self.assertEqual(purchase.status_code, 200)
         self.assertEqual(self.client.put(f"/api/profiles/{self.profile_id}/accessories/oak-leaf-scarf").status_code, 200)

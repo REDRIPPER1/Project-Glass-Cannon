@@ -1,0 +1,1209 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-19",
+  "chapterTitle": "CHAPTER XIX. A Concert, a Catastrophe, and a Confession",
+  "contentHash": "sha256:a23be2f99e805bd906db6c6a1326e34e606dc994c0e6709c770ed64648469f5b",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XIX. A Concert, a Catastrophe, and a Confession. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "MARILLA, can I go over to see Diana just for a minute?” asked Anne, running breathlessly down from the east gable one February evening."
+    },
+    {
+      "id": "s2",
+      "text": "“I don’t see what you want to be traipsing about after dark for,” said Marilla shortly."
+    },
+    {
+      "id": "s3",
+      "text": "“You and Diana walked home from school together and then stood down there in the snow for half an hour more, your tongues going the whole blessed time, clickety-clack."
+    },
+    {
+      "id": "s4",
+      "text": "So I don’t think you’re very badly off to see her again.”"
+    },
+    {
+      "id": "s5",
+      "text": "“But she wants to see me,” pleaded Anne."
+    },
+    {
+      "id": "s6",
+      "text": "“She has something very important to tell me.”"
+    },
+    {
+      "id": "s7",
+      "text": "“How do you know she has?”"
+    },
+    {
+      "id": "s8",
+      "text": "“Because she just signaled to me from her window."
+    },
+    {
+      "id": "s9",
+      "text": "We have arranged a way to signal with our candles and cardboard."
+    },
+    {
+      "id": "s10",
+      "text": "We set the candle on the window sill and make flashes by passing the cardboard back and forth."
+    },
+    {
+      "id": "s11",
+      "text": "So many flashes mean a certain thing."
+    },
+    {
+      "id": "s12",
+      "text": "It was my idea, Marilla.”"
+    },
+    {
+      "id": "s13",
+      "text": "“I’ll warrant you it was,” said Marilla emphatically."
+    },
+    {
+      "id": "s14",
+      "text": "“And the next thing you’ll be setting fire to the curtains with your signaling nonsense.”"
+    },
+    {
+      "id": "s15",
+      "text": "“Oh, we’re very careful, Marilla."
+    },
+    {
+      "id": "s16",
+      "text": "And it’s so interesting."
+    },
+    {
+      "id": "s17",
+      "text": "Two flashes mean, ‘Are you there?’ Three mean ‘yes’ and four ‘no.’ Five mean, ‘Come over as soon as possible, because I have something important to reveal.’ Diana has just signaled five flashes, and I’m really suffering to know what it is.”"
+    },
+    {
+      "id": "s18",
+      "text": "“Well, you needn’t suffer any longer,” said Marilla sarcastically."
+    },
+    {
+      "id": "s19",
+      "text": "“You can go, but you’re to be back here in just ten minutes, remember that.”"
+    },
+    {
+      "id": "s20",
+      "text": "Anne did remember it and was back in the stipulated time, although probably no mortal will ever know just what it cost her to confine the discussion of Diana’s important communication within the limits of ten minutes."
+    },
+    {
+      "id": "s21",
+      "text": "But at least she had made good use of them."
+    },
+    {
+      "id": "s22",
+      "text": "“Oh, Marilla, what do you think?"
+    },
+    {
+      "id": "s23",
+      "text": "You know tomorrow is Diana’s birthday."
+    },
+    {
+      "id": "s24",
+      "text": "Well, her mother told her she could ask me to go home with her from school and stay all night with her."
+    },
+    {
+      "id": "s25",
+      "text": "And her cousins are coming over from Newbridge in a big pung sleigh to go to the Debating Club concert at the hall tomorrow night."
+    },
+    {
+      "id": "s26",
+      "text": "And they are going to take Diana and me to the concert--if you’ll let me go, that is."
+    },
+    {
+      "id": "s27",
+      "text": "You will, won’t you, Marilla?"
+    },
+    {
+      "id": "s28",
+      "text": "Oh, I feel so excited.”"
+    },
+    {
+      "id": "s29",
+      "text": "“You can calm down then, because you’re not going."
+    },
+    {
+      "id": "s30",
+      "text": "You’re better at home in your own bed, and as for that club concert, it’s all nonsense, and little girls should not be allowed to go out to such places at all.”"
+    },
+    {
+      "id": "s31",
+      "text": "“I’m sure the Debating Club is a most respectable affair,” pleaded Anne."
+    },
+    {
+      "id": "s32",
+      "text": "“I’m not saying it isn’t."
+    },
+    {
+      "id": "s33",
+      "text": "But you’re not going to begin gadding about to concerts and staying out all hours of the night."
+    },
+    {
+      "id": "s34",
+      "text": "Pretty doings for children."
+    },
+    {
+      "id": "s35",
+      "text": "I’m surprised at Mrs."
+    },
+    {
+      "id": "s36",
+      "text": "Barry’s letting Diana go.”"
+    },
+    {
+      "id": "s37",
+      "text": "“But it’s such a very special occasion,” mourned Anne, on the verge of tears."
+    },
+    {
+      "id": "s38",
+      "text": "“Diana has only one birthday in a year."
+    },
+    {
+      "id": "s39",
+      "text": "It isn’t as if birthdays were common things, Marilla."
+    },
+    {
+      "id": "s40",
+      "text": "Prissy Andrews is going to recite ‘Curfew Must Not Ring Tonight.’ That is such a good moral piece, Marilla, I’m sure it would do me lots of good to hear it."
+    },
+    {
+      "id": "s41",
+      "text": "And the choir are going to sing four lovely pathetic songs that are pretty near as good as hymns."
+    },
+    {
+      "id": "s42",
+      "text": "And oh, Marilla, the minister is going to take part; yes, indeed, he is; he’s going to give an address."
+    },
+    {
+      "id": "s43",
+      "text": "That will be just about the same thing as a sermon."
+    },
+    {
+      "id": "s44",
+      "text": "Please, mayn’t I go, Marilla?”"
+    },
+    {
+      "id": "s45",
+      "text": "“You heard what I said, Anne, didn’t you?"
+    },
+    {
+      "id": "s46",
+      "text": "Take off your boots now and go to bed."
+    },
+    {
+      "id": "s47",
+      "text": "It’s past eight.”"
+    },
+    {
+      "id": "s48",
+      "text": "“There’s just one more thing, Marilla,” said Anne, with the air of producing the last shot in her locker."
+    },
+    {
+      "id": "s49",
+      "text": "“Mrs."
+    },
+    {
+      "id": "s50",
+      "text": "Barry told Diana that we might sleep in the spare-room bed."
+    },
+    {
+      "id": "s51",
+      "text": "Think of the honor of your little Anne being put in the spare-room bed.”"
+    },
+    {
+      "id": "s52",
+      "text": "“It’s an honor you’ll have to get along without."
+    },
+    {
+      "id": "s53",
+      "text": "Go to bed, Anne, and don’t let me hear another word out of you.”"
+    },
+    {
+      "id": "s54",
+      "text": "When Anne, with tears rolling over her cheeks, had gone sorrowfully upstairs, Matthew, who had been apparently sound asleep on the lounge during the whole dialogue, opened his eyes and said decidedly:"
+    },
+    {
+      "id": "s55",
+      "text": "“Well now, Marilla, I think you ought to let Anne go.”"
+    },
+    {
+      "id": "s56",
+      "text": "“I don’t then,” retorted Marilla."
+    },
+    {
+      "id": "s57",
+      "text": "“Who’s bringing this child up, Matthew, you or me?”"
+    },
+    {
+      "id": "s58",
+      "text": "“Well now, you,” admitted Matthew."
+    },
+    {
+      "id": "s59",
+      "text": "“Don’t interfere then.”"
+    },
+    {
+      "id": "s60",
+      "text": "“Well now, I ain’t interfering."
+    },
+    {
+      "id": "s61",
+      "text": "It ain’t interfering to have your own opinion."
+    },
+    {
+      "id": "s62",
+      "text": "And my opinion is that you ought to let Anne go.”"
+    },
+    {
+      "id": "s63",
+      "text": "“You’d think I ought to let Anne go to the moon if she took the notion, I’ve no doubt,” was Marilla’s amiable rejoinder."
+    },
+    {
+      "id": "s64",
+      "text": "“I might have let her spend the night with Diana, if that was all."
+    },
+    {
+      "id": "s65",
+      "text": "But I don’t approve of this concert plan."
+    },
+    {
+      "id": "s66",
+      "text": "She’d go there and catch cold like as not, and have her head filled up with nonsense and excitement."
+    },
+    {
+      "id": "s67",
+      "text": "It would unsettle her for a week."
+    },
+    {
+      "id": "s68",
+      "text": "I understand that child’s disposition and what’s good for it better than you, Matthew.”"
+    },
+    {
+      "id": "s69",
+      "text": "“I think you ought to let Anne go,” repeated Matthew firmly."
+    },
+    {
+      "id": "s70",
+      "text": "Argument was not his strong point, but holding fast to his opinion certainly was."
+    },
+    {
+      "id": "s71",
+      "text": "Marilla gave a gasp of helplessness and took refuge in silence."
+    },
+    {
+      "id": "s72",
+      "text": "The next morning, when Anne was washing the breakfast dishes in the pantry, Matthew paused on his way out to the barn to say to Marilla again:"
+    },
+    {
+      "id": "s73",
+      "text": "“I think you ought to let Anne go, Marilla.”"
+    },
+    {
+      "id": "s74",
+      "text": "For a moment Marilla looked things not lawful to be uttered."
+    },
+    {
+      "id": "s75",
+      "text": "Then she yielded to the inevitable and said tartly:"
+    },
+    {
+      "id": "s76",
+      "text": "“Very well, she can go, since nothing else ‘ll please you.”"
+    },
+    {
+      "id": "s77",
+      "text": "Anne flew out of the pantry, dripping dishcloth in hand."
+    },
+    {
+      "id": "s78",
+      "text": "“Oh, Marilla, Marilla, say those blessed words again.”"
+    },
+    {
+      "id": "s79",
+      "text": "“I guess once is enough to say them."
+    },
+    {
+      "id": "s80",
+      "text": "This is Matthew’s doings and I wash my hands of it."
+    },
+    {
+      "id": "s81",
+      "text": "If you catch pneumonia sleeping in a strange bed or coming out of that hot hall in the middle of the night, don’t blame me, blame Matthew."
+    },
+    {
+      "id": "s82",
+      "text": "Anne Shirley, you’re dripping greasy water all over the floor."
+    },
+    {
+      "id": "s83",
+      "text": "I never saw such a careless child.”"
+    },
+    {
+      "id": "s84",
+      "text": "“Oh, I know I’m a great trial to you, Marilla,” said Anne repentantly."
+    },
+    {
+      "id": "s85",
+      "text": "“I make so many mistakes."
+    },
+    {
+      "id": "s86",
+      "text": "But then just think of all the mistakes I don’t make, although I might."
+    },
+    {
+      "id": "s87",
+      "text": "I’ll get some sand and scrub up the spots before I go to school."
+    },
+    {
+      "id": "s88",
+      "text": "Oh, Marilla, my heart was just set on going to that concert."
+    },
+    {
+      "id": "s89",
+      "text": "I never was to a concert in my life, and when the other girls talk about them in school I feel so out of it."
+    },
+    {
+      "id": "s90",
+      "text": "You didn’t know just how I felt about it, but you see Matthew did."
+    },
+    {
+      "id": "s91",
+      "text": "Matthew understands me, and it’s so nice to be understood, Marilla.”"
+    },
+    {
+      "id": "s92",
+      "text": "Anne was too excited to do herself justice as to lessons that morning in school."
+    },
+    {
+      "id": "s93",
+      "text": "Gilbert Blythe spelled her down in class and left her clear out of sight in mental arithmetic."
+    },
+    {
+      "id": "s94",
+      "text": "Anne’s consequent humiliation was less than it might have been, however, in view of the concert and the spare-room bed."
+    },
+    {
+      "id": "s95",
+      "text": "She and Diana talked so constantly about it all day that with a stricter teacher than Mr."
+    },
+    {
+      "id": "s96",
+      "text": "Phillips dire disgrace must inevitably have been their portion."
+    },
+    {
+      "id": "s97",
+      "text": "Anne felt that she could not have borne it if she had not been going to the concert, for nothing else was discussed that day in school."
+    },
+    {
+      "id": "s98",
+      "text": "The Avonlea Debating Club, which met fortnightly all winter, had had several smaller free entertainments; but this was to be a big affair, admission ten cents, in aid of the library."
+    },
+    {
+      "id": "s99",
+      "text": "The Avonlea young people had been practicing for weeks, and all the scholars were especially interested in it by reason of older brothers and sisters who were going to take part."
+    },
+    {
+      "id": "s100",
+      "text": "Everybody in school over nine years of age expected to go, except Carrie Sloane, whose father shared Marilla’s opinions about small girls going out to night concerts."
+    },
+    {
+      "id": "s101",
+      "text": "Carrie Sloane cried into her grammar all the afternoon and felt that life was not worth living."
+    },
+    {
+      "id": "s102",
+      "text": "For Anne the real excitement began with the dismissal of school and increased therefrom in crescendo until it reached to a crash of positive ecstasy in the concert itself."
+    },
+    {
+      "id": "s103",
+      "text": "They had a “perfectly elegant tea;” and then came the delicious occupation of dressing in Diana’s little room upstairs."
+    },
+    {
+      "id": "s104",
+      "text": "Diana did Anne’s front hair in the new pompadour style and Anne tied Diana’s bows with the especial knack she possessed; and they experimented with at least half a dozen different ways of arranging their back hair."
+    },
+    {
+      "id": "s105",
+      "text": "At last they were ready, cheeks scarlet and eyes glowing with excitement."
+    },
+    {
+      "id": "s106",
+      "text": "True, Anne could not help a little pang when she contrasted her plain black tam and shapeless, tight-sleeved, homemade gray-cloth coat with Diana’s jaunty fur cap and smart little jacket."
+    },
+    {
+      "id": "s107",
+      "text": "But she remembered in time that she had an imagination and could use it."
+    },
+    {
+      "id": "s108",
+      "text": "Then Diana’s cousins, the Murrays from Newbridge, came; they all crowded into the big pung sleigh, among straw and furry robes."
+    },
+    {
+      "id": "s109",
+      "text": "Anne reveled in the drive to the hall, slipping along over the satin-smooth roads with the snow crisping under the runners."
+    },
+    {
+      "id": "s110",
+      "text": "There was a magnificent sunset, and the snowy hills and deep-blue water of the St."
+    },
+    {
+      "id": "s111",
+      "text": "Lawrence Gulf seemed to rim in the splendor like a huge bowl of pearl and sapphire brimmed with wine and fire."
+    },
+    {
+      "id": "s112",
+      "text": "Tinkles of sleigh bells and distant laughter, that seemed like the mirth of wood elves, came from every quarter."
+    },
+    {
+      "id": "s113",
+      "text": "“Oh, Diana,” breathed Anne, squeezing Diana’s mittened hand under the fur robe, “isn’t it all like a beautiful dream?"
+    },
+    {
+      "id": "s114",
+      "text": "Do I really look the same as usual?"
+    },
+    {
+      "id": "s115",
+      "text": "I feel so different that it seems to me it must show in my looks.”"
+    },
+    {
+      "id": "s116",
+      "text": "“You look awfully nice,” said Diana, who having just received a compliment from one of her cousins, felt that she ought to pass it on."
+    },
+    {
+      "id": "s117",
+      "text": "“You’ve got the loveliest color.”"
+    },
+    {
+      "id": "s118",
+      "text": "The program that night was a series of “thrills” for at least one listener in the audience, and, as Anne assured Diana, every succeeding thrill was thrillier than the last."
+    },
+    {
+      "id": "s119",
+      "text": "When Prissy Andrews, attired in a new pink-silk waist with a string of pearls about her smooth white throat and real carnations in her hair--rumor whispered that the master had sent all the way to town for them for her--“climbed the slimy ladder, dark without one ray of light,” Anne shivered in luxurious sympathy; when the choir sang “Far Above the Gentle Daisies” Anne gazed at the ceiling as if it were frescoed with angels; when Sam Sloane proceeded to explain and illustrate “How Sockery Set a Hen” Anne laughed until people sitting near her laughed too, more out of sympathy with her than with amusement at a selection that was rather threadbare even in Avonlea; and when Mr."
+    },
+    {
+      "id": "s120",
+      "text": "Phillips gave Mark Antony’s oration over the dead body of Cæsar in the most heart-stirring tones--looking at Prissy Andrews at the end of every sentence--Anne felt that she could rise and mutiny on the spot if but one Roman citizen led the way."
+    },
+    {
+      "id": "s121",
+      "text": "Only one number on the program failed to interest her."
+    },
+    {
+      "id": "s122",
+      "text": "When Gilbert Blythe recited “Bingen on the Rhine” Anne picked up Rhoda Murray’s library book and read it until he had finished, when she sat rigidly stiff and motionless while Diana clapped her hands until they tingled."
+    },
+    {
+      "id": "s123",
+      "text": "It was eleven when they got home, sated with dissipation, but with the exceeding sweet pleasure of talking it all over still to come."
+    },
+    {
+      "id": "s124",
+      "text": "Everybody seemed asleep and the house was dark and silent."
+    },
+    {
+      "id": "s125",
+      "text": "Anne and Diana tiptoed into the parlor, a long narrow room out of which the spare room opened."
+    },
+    {
+      "id": "s126",
+      "text": "It was pleasantly warm and dimly lighted by the embers of a fire in the grate."
+    },
+    {
+      "id": "s127",
+      "text": "“Let’s undress here,” said Diana."
+    },
+    {
+      "id": "s128",
+      "text": "“It’s so nice and warm.”"
+    },
+    {
+      "id": "s129",
+      "text": "“Hasn’t it been a delightful time?” sighed Anne rapturously."
+    },
+    {
+      "id": "s130",
+      "text": "“It must be splendid to get up and recite there."
+    },
+    {
+      "id": "s131",
+      "text": "Do you suppose we will ever be asked to do it, Diana?”"
+    },
+    {
+      "id": "s132",
+      "text": "“Yes, of course, someday."
+    },
+    {
+      "id": "s133",
+      "text": "They’re always wanting the big scholars to recite."
+    },
+    {
+      "id": "s134",
+      "text": "Gilbert Blythe does often and he’s only two years older than us."
+    },
+    {
+      "id": "s135",
+      "text": "Oh, Anne, how could you pretend not to listen to him?"
+    },
+    {
+      "id": "s136",
+      "text": "When he came to the line,"
+    },
+    {
+      "id": "s137",
+      "text": "‘There’s Another, _not_ a sister,’"
+    },
+    {
+      "id": "s138",
+      "text": "he looked right down at you.”"
+    },
+    {
+      "id": "s139",
+      "text": "“Diana,” said Anne with dignity, “you are my bosom friend, but I cannot allow even you to speak to me of that person."
+    },
+    {
+      "id": "s140",
+      "text": "Are you ready for bed?"
+    },
+    {
+      "id": "s141",
+      "text": "Let’s run a race and see who’ll get to the bed first.”"
+    },
+    {
+      "id": "s142",
+      "text": "The suggestion appealed to Diana."
+    },
+    {
+      "id": "s143",
+      "text": "The two little white-clad figures flew down the long room, through the spare-room door, and bounded on the bed at the same moment."
+    },
+    {
+      "id": "s144",
+      "text": "And then--something--moved beneath them, there was a gasp and a cry--and somebody said in muffled accents:"
+    },
+    {
+      "id": "s145",
+      "text": "“Merciful goodness!”"
+    },
+    {
+      "id": "s146",
+      "text": "Anne and Diana were never able to tell just how they got off that bed and out of the room."
+    },
+    {
+      "id": "s147",
+      "text": "They only knew that after one frantic rush they found themselves tiptoeing shiveringly upstairs."
+    },
+    {
+      "id": "s148",
+      "text": "“Oh, who was it--_what_ was it?” whispered Anne, her teeth chattering with cold and fright."
+    },
+    {
+      "id": "s149",
+      "text": "“It was Aunt Josephine,” said Diana, gasping with laughter."
+    },
+    {
+      "id": "s150",
+      "text": "“Oh, Anne, it was Aunt Josephine, however she came to be there."
+    },
+    {
+      "id": "s151",
+      "text": "Oh, and I know she will be furious."
+    },
+    {
+      "id": "s152",
+      "text": "It’s dreadful--it’s really dreadful--but did you ever know anything so funny, Anne?”"
+    },
+    {
+      "id": "s153",
+      "text": "“Who is your Aunt Josephine?”"
+    },
+    {
+      "id": "s154",
+      "text": "“She’s father’s aunt and she lives in Charlottetown."
+    },
+    {
+      "id": "s155",
+      "text": "She’s awfully old--seventy anyhow--and I don’t believe she was _ever_ a little girl."
+    },
+    {
+      "id": "s156",
+      "text": "We were expecting her out for a visit, but not so soon."
+    },
+    {
+      "id": "s157",
+      "text": "She’s awfully prim and proper and she’ll scold dreadfully about this, I know."
+    },
+    {
+      "id": "s158",
+      "text": "Well, we’ll have to sleep with Minnie May--and you can’t think how she kicks.”"
+    },
+    {
+      "id": "s159",
+      "text": "Miss Josephine Barry did not appear at the early breakfast the next morning."
+    },
+    {
+      "id": "s160",
+      "text": "Mrs."
+    },
+    {
+      "id": "s161",
+      "text": "Barry smiled kindly at the two little girls."
+    },
+    {
+      "id": "s162",
+      "text": "“Did you have a good time last night?"
+    },
+    {
+      "id": "s163",
+      "text": "I tried to stay awake until you came home, for I wanted to tell you Aunt Josephine had come and that you would have to go upstairs after all, but I was so tired I fell asleep."
+    },
+    {
+      "id": "s164",
+      "text": "I hope you didn’t disturb your aunt, Diana.”"
+    },
+    {
+      "id": "s165",
+      "text": "Diana preserved a discreet silence, but she and Anne exchanged furtive smiles of guilty amusement across the table."
+    },
+    {
+      "id": "s166",
+      "text": "Anne hurried home after breakfast and so remained in blissful ignorance of the disturbance which presently resulted in the Barry household until the late afternoon, when she went down to Mrs."
+    },
+    {
+      "id": "s167",
+      "text": "Lynde’s on an errand for Marilla."
+    },
+    {
+      "id": "s168",
+      "text": "“So you and Diana nearly frightened poor old Miss Barry to death last night?” said Mrs."
+    },
+    {
+      "id": "s169",
+      "text": "Lynde severely, but with a twinkle in her eye."
+    },
+    {
+      "id": "s170",
+      "text": "“Mrs."
+    },
+    {
+      "id": "s171",
+      "text": "Barry was here a few minutes ago on her way to Carmody."
+    },
+    {
+      "id": "s172",
+      "text": "She’s feeling real worried over it."
+    },
+    {
+      "id": "s173",
+      "text": "Old Miss Barry was in a terrible temper when she got up this morning--and Josephine Barry’s temper is no joke, I can tell you that."
+    },
+    {
+      "id": "s174",
+      "text": "She wouldn’t speak to Diana at all.”"
+    },
+    {
+      "id": "s175",
+      "text": "“It wasn’t Diana’s fault,” said Anne contritely."
+    },
+    {
+      "id": "s176",
+      "text": "“It was mine."
+    },
+    {
+      "id": "s177",
+      "text": "I suggested racing to see who would get into bed first.”"
+    },
+    {
+      "id": "s178",
+      "text": "“I knew it!” said Mrs."
+    },
+    {
+      "id": "s179",
+      "text": "Lynde, with the exultation of a correct guesser."
+    },
+    {
+      "id": "s180",
+      "text": "“I knew that idea came out of your head."
+    },
+    {
+      "id": "s181",
+      "text": "Well, it’s made a nice lot of trouble, that’s what."
+    },
+    {
+      "id": "s182",
+      "text": "Old Miss Barry came out to stay for a month, but she declares she won’t stay another day and is going right back to town tomorrow, Sunday and all as it is."
+    },
+    {
+      "id": "s183",
+      "text": "She’d have gone today if they could have taken her."
+    },
+    {
+      "id": "s184",
+      "text": "She had promised to pay for a quarter’s music lessons for Diana, but now she is determined to do nothing at all for such a tomboy."
+    },
+    {
+      "id": "s185",
+      "text": "Oh, I guess they had a lively time of it there this morning."
+    },
+    {
+      "id": "s186",
+      "text": "The Barrys must feel cut up."
+    },
+    {
+      "id": "s187",
+      "text": "Old Miss Barry is rich and they’d like to keep on the good side of her."
+    },
+    {
+      "id": "s188",
+      "text": "Of course, Mrs."
+    },
+    {
+      "id": "s189",
+      "text": "Barry didn’t say just that to me, but I’m a pretty good judge of human nature, that’s what.”"
+    },
+    {
+      "id": "s190",
+      "text": "“I’m such an unlucky girl,” mourned Anne."
+    },
+    {
+      "id": "s191",
+      "text": "“I’m always getting into scrapes myself and getting my best friends--people I’d shed my heart’s blood for--into them too."
+    },
+    {
+      "id": "s192",
+      "text": "Can you tell me why it is so, Mrs."
+    },
+    {
+      "id": "s193",
+      "text": "Lynde?”"
+    },
+    {
+      "id": "s194",
+      "text": "“It’s because you’re too heedless and impulsive, child, that’s what."
+    },
+    {
+      "id": "s195",
+      "text": "You never stop to think--whatever comes into your head to say or do you say or do it without a moment’s reflection.”"
+    },
+    {
+      "id": "s196",
+      "text": "“Oh, but that’s the best of it,” protested Anne."
+    },
+    {
+      "id": "s197",
+      "text": "“Something just flashes into your mind, so exciting, and you must out with it."
+    },
+    {
+      "id": "s198",
+      "text": "If you stop to think it over you spoil it all."
+    },
+    {
+      "id": "s199",
+      "text": "Haven’t you never felt that yourself, Mrs."
+    },
+    {
+      "id": "s200",
+      "text": "Lynde?”"
+    },
+    {
+      "id": "s201",
+      "text": "No, Mrs."
+    },
+    {
+      "id": "s202",
+      "text": "Lynde had not."
+    },
+    {
+      "id": "s203",
+      "text": "She shook her head sagely."
+    },
+    {
+      "id": "s204",
+      "text": "“You must learn to think a little, Anne, that’s what."
+    },
+    {
+      "id": "s205",
+      "text": "The proverb you need to go by is ‘Look before you leap’--especially into spare-room beds.”"
+    },
+    {
+      "id": "s206",
+      "text": "Mrs."
+    },
+    {
+      "id": "s207",
+      "text": "Lynde laughed comfortably over her mild joke, but Anne remained pensive."
+    },
+    {
+      "id": "s208",
+      "text": "She saw nothing to laugh at in the situation, which to her eyes appeared very serious."
+    },
+    {
+      "id": "s209",
+      "text": "When she left Mrs."
+    },
+    {
+      "id": "s210",
+      "text": "Lynde’s she took her way across the crusted fields to Orchard Slope."
+    },
+    {
+      "id": "s211",
+      "text": "Diana met her at the kitchen door."
+    },
+    {
+      "id": "s212",
+      "text": "“Your Aunt Josephine was very cross about it, wasn’t she?” whispered Anne."
+    },
+    {
+      "id": "s213",
+      "text": "“Yes,” answered Diana, stifling a giggle with an apprehensive glance over her shoulder at the closed sitting-room door."
+    },
+    {
+      "id": "s214",
+      "text": "“She was fairly dancing with rage, Anne."
+    },
+    {
+      "id": "s215",
+      "text": "Oh, how she scolded."
+    },
+    {
+      "id": "s216",
+      "text": "She said I was the worst-behaved girl she ever saw and that my parents ought to be ashamed of the way they had brought me up."
+    },
+    {
+      "id": "s217",
+      "text": "She says she won’t stay and I’m sure I don’t care."
+    },
+    {
+      "id": "s218",
+      "text": "But Father and Mother do.”"
+    },
+    {
+      "id": "s219",
+      "text": "“Why didn’t you tell them it was my fault?” demanded Anne."
+    },
+    {
+      "id": "s220",
+      "text": "“It’s likely I’d do such a thing, isn’t it?” said Diana with just scorn."
+    },
+    {
+      "id": "s221",
+      "text": "“I’m no telltale, Anne Shirley, and anyhow I was just as much to blame as you.”"
+    },
+    {
+      "id": "s222",
+      "text": "“Well, I’m going in to tell her myself,” said Anne resolutely."
+    },
+    {
+      "id": "s223",
+      "text": "Diana stared."
+    },
+    {
+      "id": "s224",
+      "text": "“Anne Shirley, you’d never! why--she’ll eat you alive!”"
+    },
+    {
+      "id": "s225",
+      "text": "“Don’t frighten me any more than I am frightened,” implored Anne."
+    },
+    {
+      "id": "s226",
+      "text": "“I’d rather walk up to a cannon’s mouth."
+    },
+    {
+      "id": "s227",
+      "text": "But I’ve got to do it, Diana."
+    },
+    {
+      "id": "s228",
+      "text": "It was my fault and I’ve got to confess."
+    },
+    {
+      "id": "s229",
+      "text": "I’ve had practice in confessing, fortunately.”"
+    },
+    {
+      "id": "s230",
+      "text": "“Well, she’s in the room,” said Diana."
+    },
+    {
+      "id": "s231",
+      "text": "“You can go in if you want to."
+    },
+    {
+      "id": "s232",
+      "text": "I wouldn’t dare."
+    },
+    {
+      "id": "s233",
+      "text": "And I don’t believe you’ll do a bit of good.”"
+    },
+    {
+      "id": "s234",
+      "text": "With this encouragement Anne bearded the lion in its den--that is to say, walked resolutely up to the sitting-room door and knocked faintly."
+    },
+    {
+      "id": "s235",
+      "text": "A sharp “Come in” followed."
+    },
+    {
+      "id": "s236",
+      "text": "Miss Josephine Barry, thin, prim, and rigid, was knitting fiercely by the fire, her wrath quite unappeased and her eyes snapping through her gold-rimmed glasses."
+    },
+    {
+      "id": "s237",
+      "text": "She wheeled around in her chair, expecting to see Diana, and beheld a white-faced girl whose great eyes were brimmed up with a mixture of desperate courage and shrinking terror."
+    },
+    {
+      "id": "s238",
+      "text": "“Who are you?” demanded Miss Josephine Barry, without ceremony."
+    },
+    {
+      "id": "s239",
+      "text": "“I’m Anne of Green Gables,” said the small visitor tremulously, clasping her hands with her characteristic gesture, “and I’ve come to confess, if you please.”"
+    },
+    {
+      "id": "s240",
+      "text": "“Confess what?”"
+    },
+    {
+      "id": "s241",
+      "text": "“That it was all my fault about jumping into bed on you last night."
+    },
+    {
+      "id": "s242",
+      "text": "I suggested it."
+    },
+    {
+      "id": "s243",
+      "text": "Diana would never have thought of such a thing, I am sure."
+    },
+    {
+      "id": "s244",
+      "text": "Diana is a very ladylike girl, Miss Barry."
+    },
+    {
+      "id": "s245",
+      "text": "So you must see how unjust it is to blame her.”"
+    },
+    {
+      "id": "s246",
+      "text": "“Oh, I must, hey?"
+    },
+    {
+      "id": "s247",
+      "text": "I rather think Diana did her share of the jumping at least."
+    },
+    {
+      "id": "s248",
+      "text": "Such carryings on in a respectable house!”"
+    },
+    {
+      "id": "s249",
+      "text": "“But we were only in fun,” persisted Anne."
+    },
+    {
+      "id": "s250",
+      "text": "“I think you ought to forgive us, Miss Barry, now that we’ve apologized."
+    },
+    {
+      "id": "s251",
+      "text": "And anyhow, please forgive Diana and let her have her music lessons."
+    },
+    {
+      "id": "s252",
+      "text": "Diana’s heart is set on her music lessons, Miss Barry, and I know too well what it is to set your heart on a thing and not get it."
+    },
+    {
+      "id": "s253",
+      "text": "If you must be cross with anyone, be cross with me."
+    },
+    {
+      "id": "s254",
+      "text": "I’ve been so used in my early days to having people cross at me that I can endure it much better than Diana can.”"
+    },
+    {
+      "id": "s255",
+      "text": "Much of the snap had gone out of the old lady’s eyes by this time and was replaced by a twinkle of amused interest."
+    },
+    {
+      "id": "s256",
+      "text": "But she still said severely:"
+    },
+    {
+      "id": "s257",
+      "text": "“I don’t think it is any excuse for you that you were only in fun."
+    },
+    {
+      "id": "s258",
+      "text": "Little girls never indulged in that kind of fun when I was young."
+    },
+    {
+      "id": "s259",
+      "text": "You don’t know what it is to be awakened out of a sound sleep, after a long and arduous journey, by two great girls coming bounce down on you.”"
+    },
+    {
+      "id": "s260",
+      "text": "“I don’t _know_, but I can _imagine_,” said Anne eagerly."
+    },
+    {
+      "id": "s261",
+      "text": "“I’m sure it must have been very disturbing."
+    },
+    {
+      "id": "s262",
+      "text": "But then, there is our side of it too."
+    },
+    {
+      "id": "s263",
+      "text": "Have you any imagination, Miss Barry?"
+    },
+    {
+      "id": "s264",
+      "text": "If you have, just put yourself in our place."
+    },
+    {
+      "id": "s265",
+      "text": "We didn’t know there was anybody in that bed and you nearly scared us to death."
+    },
+    {
+      "id": "s266",
+      "text": "It was simply awful the way we felt."
+    },
+    {
+      "id": "s267",
+      "text": "And then we couldn’t sleep in the spare room after being promised."
+    },
+    {
+      "id": "s268",
+      "text": "I suppose you are used to sleeping in spare rooms."
+    },
+    {
+      "id": "s269",
+      "text": "But just imagine what you would feel like if you were a little orphan girl who had never had such an honor.”"
+    },
+    {
+      "id": "s270",
+      "text": "All the snap had gone by this time."
+    },
+    {
+      "id": "s271",
+      "text": "Miss Barry actually laughed--a sound which caused Diana, waiting in speechless anxiety in the kitchen outside, to give a great gasp of relief."
+    },
+    {
+      "id": "s272",
+      "text": "“I’m afraid my imagination is a little rusty--it’s so long since I used it,” she said."
+    },
+    {
+      "id": "s273",
+      "text": "“I dare say your claim to sympathy is just as strong as mine."
+    },
+    {
+      "id": "s274",
+      "text": "It all depends on the way we look at it."
+    },
+    {
+      "id": "s275",
+      "text": "Sit down here and tell me about yourself.”"
+    },
+    {
+      "id": "s276",
+      "text": "“I am very sorry I can’t,” said Anne firmly."
+    },
+    {
+      "id": "s277",
+      "text": "“I would like to, because you seem like an interesting lady, and you might even be a kindred spirit although you don’t look very much like it."
+    },
+    {
+      "id": "s278",
+      "text": "But it is my duty to go home to Miss Marilla Cuthbert."
+    },
+    {
+      "id": "s279",
+      "text": "Miss Marilla Cuthbert is a very kind lady who has taken me to bring up properly."
+    },
+    {
+      "id": "s280",
+      "text": "She is doing her best, but it is very discouraging work."
+    },
+    {
+      "id": "s281",
+      "text": "You must not blame her because I jumped on the bed."
+    },
+    {
+      "id": "s282",
+      "text": "But before I go I do wish you would tell me if you will forgive Diana and stay just as long as you meant to in Avonlea.”"
+    },
+    {
+      "id": "s283",
+      "text": "“I think perhaps I will if you will come over and talk to me occasionally,” said Miss Barry."
+    },
+    {
+      "id": "s284",
+      "text": "That evening Miss Barry gave Diana a silver bangle bracelet and told the senior members of the household that she had unpacked her valise."
+    },
+    {
+      "id": "s285",
+      "text": "“I’ve made up my mind to stay simply for the sake of getting better acquainted with that Anne-girl,” she said frankly."
+    },
+    {
+      "id": "s286",
+      "text": "“She amuses me, and at my time of life an amusing person is a rarity.”"
+    },
+    {
+      "id": "s287",
+      "text": "Marilla’s only comment when she heard the story was, “I told you so.” This was for Matthew’s benefit."
+    },
+    {
+      "id": "s288",
+      "text": "Miss Barry stayed her month out and over."
+    },
+    {
+      "id": "s289",
+      "text": "She was a more agreeable guest than usual, for Anne kept her in good humor."
+    },
+    {
+      "id": "s290",
+      "text": "They became firm friends."
+    },
+    {
+      "id": "s291",
+      "text": "When Miss Barry went away she said:"
+    },
+    {
+      "id": "s292",
+      "text": "“Remember, you Anne-girl, when you come to town you’re to visit me and I’ll put you in my very sparest spare-room bed to sleep.”"
+    },
+    {
+      "id": "s293",
+      "text": "“Miss Barry was a kindred spirit, after all,” Anne confided to Marilla."
+    },
+    {
+      "id": "s294",
+      "text": "“You wouldn’t think so to look at her, but she is."
+    },
+    {
+      "id": "s295",
+      "text": "You don’t find it right out at first, as in Matthew’s case, but after a while you come to see it."
+    },
+    {
+      "id": "s296",
+      "text": "Kindred spirits are not so scarce as I used to think."
+    },
+    {
+      "id": "s297",
+      "text": "It’s splendid to find out there are so many of them in the world.”"
+    }
+  ]
+}

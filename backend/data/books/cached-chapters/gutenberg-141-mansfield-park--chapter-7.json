@@ -1,0 +1,829 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-141-mansfield-park",
+  "ebookId": "141",
+  "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-7",
+  "chapterTitle": "CHAPTER VII",
+  "contentHash": "sha256:9e7e326ecfff996e4d8b7e80fc2ae906e6d9aa211e1143337c86ead97dfc9269",
+  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER VII. Source checked against Project Gutenberg eBook #141.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/141",
+    "textUrl": "https://www.gutenberg.org/cache/epub/141/pg141.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "“Well, Fanny, and how do you like Miss Crawford _now_?” said Edmund the next day, after thinking some time on the subject himself."
+    },
+    {
+      "id": "s2",
+      "text": "“How did you like her yesterday?”"
+    },
+    {
+      "id": "s3",
+      "text": "“Very well—very much."
+    },
+    {
+      "id": "s4",
+      "text": "I like to hear her talk."
+    },
+    {
+      "id": "s5",
+      "text": "She entertains me; and she is so extremely pretty, that I have great pleasure in looking at her.”"
+    },
+    {
+      "id": "s6",
+      "text": "“It is her countenance that is so attractive."
+    },
+    {
+      "id": "s7",
+      "text": "She has a wonderful play of feature!"
+    },
+    {
+      "id": "s8",
+      "text": "But was there nothing in her conversation that struck you, Fanny, as not quite right?”"
+    },
+    {
+      "id": "s9",
+      "text": "“Oh yes! she ought not to have spoken of her uncle as she did."
+    },
+    {
+      "id": "s10",
+      "text": "I was quite astonished."
+    },
+    {
+      "id": "s11",
+      "text": "An uncle with whom she has been living so many years, and who, whatever his faults may be, is so very fond of her brother, treating him, they say, quite like a son."
+    },
+    {
+      "id": "s12",
+      "text": "I could not have believed it!”"
+    },
+    {
+      "id": "s13",
+      "text": "“I thought you would be struck."
+    },
+    {
+      "id": "s14",
+      "text": "It was very wrong; very indecorous.”"
+    },
+    {
+      "id": "s15",
+      "text": "“And very ungrateful, I think.”"
+    },
+    {
+      "id": "s16",
+      "text": "“Ungrateful is a strong word."
+    },
+    {
+      "id": "s17",
+      "text": "I do not know that her uncle has any claim to her _gratitude_; his wife certainly had; and it is the warmth of her respect for her aunt’s memory which misleads her here."
+    },
+    {
+      "id": "s18",
+      "text": "She is awkwardly circumstanced."
+    },
+    {
+      "id": "s19",
+      "text": "With such warm feelings and lively spirits it must be difficult to do justice to her affection for Mrs."
+    },
+    {
+      "id": "s20",
+      "text": "Crawford, without throwing a shade on the Admiral."
+    },
+    {
+      "id": "s21",
+      "text": "I do not pretend to know which was most to blame in their disagreements, though the Admiral’s present conduct might incline one to the side of his wife; but it is natural and amiable that Miss Crawford should acquit her aunt entirely."
+    },
+    {
+      "id": "s22",
+      "text": "I do not censure her _opinions_; but there certainly _is_ impropriety in making them public.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Do not you think,” said Fanny, after a little consideration, “that this impropriety is a reflection itself upon Mrs."
+    },
+    {
+      "id": "s24",
+      "text": "Crawford, as her niece has been entirely brought up by her?"
+    },
+    {
+      "id": "s25",
+      "text": "She cannot have given her right notions of what was due to the Admiral.”"
+    },
+    {
+      "id": "s26",
+      "text": "“That is a fair remark."
+    },
+    {
+      "id": "s27",
+      "text": "Yes, we must suppose the faults of the niece to have been those of the aunt; and it makes one more sensible of the disadvantages she has been under."
+    },
+    {
+      "id": "s28",
+      "text": "But I think her present home must do her good."
+    },
+    {
+      "id": "s29",
+      "text": "Mrs."
+    },
+    {
+      "id": "s30",
+      "text": "Grant’s manners are just what they ought to be."
+    },
+    {
+      "id": "s31",
+      "text": "She speaks of her brother with a very pleasing affection.”"
+    },
+    {
+      "id": "s32",
+      "text": "“Yes, except as to his writing her such short letters."
+    },
+    {
+      "id": "s33",
+      "text": "She made me almost laugh; but I cannot rate so very highly the love or good-nature of a brother who will not give himself the trouble of writing anything worth reading to his sisters, when they are separated."
+    },
+    {
+      "id": "s34",
+      "text": "I am sure William would never have used _me_ so, under any circumstances."
+    },
+    {
+      "id": "s35",
+      "text": "And what right had she to suppose that _you_ would not write long letters when you were absent?”"
+    },
+    {
+      "id": "s36",
+      "text": "“The right of a lively mind, Fanny, seizing whatever may contribute to its own amusement or that of others; perfectly allowable, when untinctured by ill-humour or roughness; and there is not a shadow of either in the countenance or manner of Miss Crawford: nothing sharp, or loud, or coarse."
+    },
+    {
+      "id": "s37",
+      "text": "She is perfectly feminine, except in the instances we have been speaking of."
+    },
+    {
+      "id": "s38",
+      "text": "There she cannot be justified."
+    },
+    {
+      "id": "s39",
+      "text": "I am glad you saw it all as I did.”"
+    },
+    {
+      "id": "s40",
+      "text": "Having formed her mind and gained her affections, he had a good chance of her thinking like him; though at this period, and on this subject, there began now to be some danger of dissimilarity, for he was in a line of admiration of Miss Crawford, which might lead him where Fanny could not follow."
+    },
+    {
+      "id": "s41",
+      "text": "Miss Crawford’s attractions did not lessen."
+    },
+    {
+      "id": "s42",
+      "text": "The harp arrived, and rather added to her beauty, wit, and good-humour; for she played with the greatest obligingness, with an expression and taste which were peculiarly becoming, and there was something clever to be said at the close of every air."
+    },
+    {
+      "id": "s43",
+      "text": "Edmund was at the Parsonage every day, to be indulged with his favourite instrument: one morning secured an invitation for the next; for the lady could not be unwilling to have a listener, and every thing was soon in a fair train."
+    },
+    {
+      "id": "s44",
+      "text": "A young woman, pretty, lively, with a harp as elegant as herself, and both placed near a window, cut down to the ground, and opening on a little lawn, surrounded by shrubs in the rich foliage of summer, was enough to catch any man’s heart."
+    },
+    {
+      "id": "s45",
+      "text": "The season, the scene, the air, were all favourable to tenderness and sentiment."
+    },
+    {
+      "id": "s46",
+      "text": "Mrs."
+    },
+    {
+      "id": "s47",
+      "text": "Grant and her tambour frame were not without their use: it was all in harmony; and as everything will turn to account when love is once set going, even the sandwich tray, and Dr."
+    },
+    {
+      "id": "s48",
+      "text": "Grant doing the honours of it, were worth looking at."
+    },
+    {
+      "id": "s49",
+      "text": "Without studying the business, however, or knowing what he was about, Edmund was beginning, at the end of a week of such intercourse, to be a good deal in love; and to the credit of the lady it may be added that, without his being a man of the world or an elder brother, without any of the arts of flattery or the gaieties of small talk, he began to be agreeable to her."
+    },
+    {
+      "id": "s50",
+      "text": "She felt it to be so, though she had not foreseen, and could hardly understand it; for he was not pleasant by any common rule: he talked no nonsense; he paid no compliments; his opinions were unbending, his attentions tranquil and simple."
+    },
+    {
+      "id": "s51",
+      "text": "There was a charm, perhaps, in his sincerity, his steadiness, his integrity, which Miss Crawford might be equal to feel, though not equal to discuss with herself."
+    },
+    {
+      "id": "s52",
+      "text": "She did not think very much about it, however: he pleased her for the present; she liked to have him near her; it was enough."
+    },
+    {
+      "id": "s53",
+      "text": "Fanny could not wonder that Edmund was at the Parsonage every morning; she would gladly have been there too, might she have gone in uninvited and unnoticed, to hear the harp; neither could she wonder that, when the evening stroll was over, and the two families parted again, he should think it right to attend Mrs."
+    },
+    {
+      "id": "s54",
+      "text": "Grant and her sister to their home, while Mr."
+    },
+    {
+      "id": "s55",
+      "text": "Crawford was devoted to the ladies of the Park; but she thought it a very bad exchange; and if Edmund were not there to mix the wine and water for her, would rather go without it than not."
+    },
+    {
+      "id": "s56",
+      "text": "She was a little surprised that he could spend so many hours with Miss Crawford, and not see more of the sort of fault which he had already observed, and of which _she_ was almost always reminded by a something of the same nature whenever she was in her company; but so it was."
+    },
+    {
+      "id": "s57",
+      "text": "Edmund was fond of speaking to her of Miss Crawford, but he seemed to think it enough that the Admiral had since been spared; and she scrupled to point out her own remarks to him, lest it should appear like ill-nature."
+    },
+    {
+      "id": "s58",
+      "text": "The first actual pain which Miss Crawford occasioned her was the consequence of an inclination to learn to ride, which the former caught, soon after her being settled at Mansfield, from the example of the young ladies at the Park, and which, when Edmund’s acquaintance with her increased, led to his encouraging the wish, and the offer of his own quiet mare for the purpose of her first attempts, as the best fitted for a beginner that either stable could furnish."
+    },
+    {
+      "id": "s59",
+      "text": "No pain, no injury, however, was designed by him to his cousin in this offer: _she_ was not to lose a day’s exercise by it."
+    },
+    {
+      "id": "s60",
+      "text": "The mare was only to be taken down to the Parsonage half an hour before her ride were to begin; and Fanny, on its being first proposed, so far from feeling slighted, was almost over-powered with gratitude that he should be asking her leave for it."
+    },
+    {
+      "id": "s61",
+      "text": "Miss Crawford made her first essay with great credit to herself, and no inconvenience to Fanny."
+    },
+    {
+      "id": "s62",
+      "text": "Edmund, who had taken down the mare and presided at the whole, returned with it in excellent time, before either Fanny or the steady old coachman, who always attended her when she rode without her cousins, were ready to set forward."
+    },
+    {
+      "id": "s63",
+      "text": "The second day’s trial was not so guiltless."
+    },
+    {
+      "id": "s64",
+      "text": "Miss Crawford’s enjoyment of riding was such that she did not know how to leave off."
+    },
+    {
+      "id": "s65",
+      "text": "Active and fearless, and though rather small, strongly made, she seemed formed for a horsewoman; and to the pure genuine pleasure of the exercise, something was probably added in Edmund’s attendance and instructions, and something more in the conviction of very much surpassing her sex in general by her early progress, to make her unwilling to dismount."
+    },
+    {
+      "id": "s66",
+      "text": "Fanny was ready and waiting, and Mrs."
+    },
+    {
+      "id": "s67",
+      "text": "Norris was beginning to scold her for not being gone, and still no horse was announced, no Edmund appeared."
+    },
+    {
+      "id": "s68",
+      "text": "To avoid her aunt, and look for him, she went out."
+    },
+    {
+      "id": "s69",
+      "text": "The houses, though scarcely half a mile apart, were not within sight of each other; but, by walking fifty yards from the hall door, she could look down the park, and command a view of the Parsonage and all its demesnes, gently rising beyond the village road; and in Dr."
+    },
+    {
+      "id": "s70",
+      "text": "Grant’s meadow she immediately saw the group—Edmund and Miss Crawford both on horse-back, riding side by side, Dr. and Mrs."
+    },
+    {
+      "id": "s71",
+      "text": "Grant, and Mr."
+    },
+    {
+      "id": "s72",
+      "text": "Crawford, with two or three grooms, standing about and looking on."
+    },
+    {
+      "id": "s73",
+      "text": "A happy party it appeared to her, all interested in one object: cheerful beyond a doubt, for the sound of merriment ascended even to her."
+    },
+    {
+      "id": "s74",
+      "text": "It was a sound which did not make _her_ cheerful; she wondered that Edmund should forget her, and felt a pang."
+    },
+    {
+      "id": "s75",
+      "text": "She could not turn her eyes from the meadow; she could not help watching all that passed."
+    },
+    {
+      "id": "s76",
+      "text": "At first Miss Crawford and her companion made the circuit of the field, which was not small, at a foot’s pace; then, at _her_ apparent suggestion, they rose into a canter; and to Fanny’s timid nature it was most astonishing to see how well she sat."
+    },
+    {
+      "id": "s77",
+      "text": "After a few minutes they stopped entirely."
+    },
+    {
+      "id": "s78",
+      "text": "Edmund was close to her; he was speaking to her; he was evidently directing her management of the bridle; he had hold of her hand; she saw it, or the imagination supplied what the eye could not reach."
+    },
+    {
+      "id": "s79",
+      "text": "She must not wonder at all this; what could be more natural than that Edmund should be making himself useful, and proving his good-nature by any one?"
+    },
+    {
+      "id": "s80",
+      "text": "She could not but think, indeed, that Mr."
+    },
+    {
+      "id": "s81",
+      "text": "Crawford might as well have saved him the trouble; that it would have been particularly proper and becoming in a brother to have done it himself; but Mr."
+    },
+    {
+      "id": "s82",
+      "text": "Crawford, with all his boasted good-nature, and all his coachmanship, probably knew nothing of the matter, and had no active kindness in comparison of Edmund."
+    },
+    {
+      "id": "s83",
+      "text": "She began to think it rather hard upon the mare to have such double duty; if she were forgotten, the poor mare should be remembered."
+    },
+    {
+      "id": "s84",
+      "text": "Her feelings for one and the other were soon a little tranquillised by seeing the party in the meadow disperse, and Miss Crawford still on horseback, but attended by Edmund on foot, pass through a gate into the lane, and so into the park, and make towards the spot where she stood."
+    },
+    {
+      "id": "s85",
+      "text": "She began then to be afraid of appearing rude and impatient; and walked to meet them with a great anxiety to avoid the suspicion."
+    },
+    {
+      "id": "s86",
+      "text": "“My dear Miss Price,” said Miss Crawford, as soon as she was at all within hearing, “I am come to make my own apologies for keeping you waiting; but I have nothing in the world to say for myself—I knew it was very late, and that I was behaving extremely ill; and therefore, if you please, you must forgive me."
+    },
+    {
+      "id": "s87",
+      "text": "Selfishness must always be forgiven, you know, because there is no hope of a cure.”"
+    },
+    {
+      "id": "s88",
+      "text": "Fanny’s answer was extremely civil, and Edmund added his conviction that she could be in no hurry."
+    },
+    {
+      "id": "s89",
+      "text": "“For there is more than time enough for my cousin to ride twice as far as she ever goes,” said he, “and you have been promoting her comfort by preventing her from setting off half an hour sooner: clouds are now coming up, and she will not suffer from the heat as she would have done then."
+    },
+    {
+      "id": "s90",
+      "text": "I wish _you_ may not be fatigued by so much exercise."
+    },
+    {
+      "id": "s91",
+      "text": "I wish you had saved yourself this walk home.”"
+    },
+    {
+      "id": "s92",
+      "text": "“No part of it fatigues me but getting off this horse, I assure you,” said she, as she sprang down with his help; “I am very strong."
+    },
+    {
+      "id": "s93",
+      "text": "Nothing ever fatigues me but doing what I do not like."
+    },
+    {
+      "id": "s94",
+      "text": "Miss Price, I give way to you with a very bad grace; but I sincerely hope you will have a pleasant ride, and that I may have nothing but good to hear of this dear, delightful, beautiful animal.”"
+    },
+    {
+      "id": "s95",
+      "text": "The old coachman, who had been waiting about with his own horse, now joining them, Fanny was lifted on hers, and they set off across another part of the park; her feelings of discomfort not lightened by seeing, as she looked back, that the others were walking down the hill together to the village; nor did her attendant do her much good by his comments on Miss Crawford’s great cleverness as a horse-woman, which he had been watching with an interest almost equal to her own."
+    },
+    {
+      "id": "s96",
+      "text": "“It is a pleasure to see a lady with such a good heart for riding!” said he."
+    },
+    {
+      "id": "s97",
+      "text": "“I never see one sit a horse better."
+    },
+    {
+      "id": "s98",
+      "text": "She did not seem to have a thought of fear."
+    },
+    {
+      "id": "s99",
+      "text": "Very different from you, miss, when you first began, six years ago come next Easter."
+    },
+    {
+      "id": "s100",
+      "text": "Lord bless you! how you did tremble when Sir Thomas first had you put on!”"
+    },
+    {
+      "id": "s101",
+      "text": "In the drawing-room Miss Crawford was also celebrated."
+    },
+    {
+      "id": "s102",
+      "text": "Her merit in being gifted by Nature with strength and courage was fully appreciated by the Miss Bertrams; her delight in riding was like their own; her early excellence in it was like their own, and they had great pleasure in praising it."
+    },
+    {
+      "id": "s103",
+      "text": "“I was sure she would ride well,” said Julia; “she has the make for it."
+    },
+    {
+      "id": "s104",
+      "text": "Her figure is as neat as her brother’s.”"
+    },
+    {
+      "id": "s105",
+      "text": "“Yes,” added Maria, “and her spirits are as good, and she has the same energy of character."
+    },
+    {
+      "id": "s106",
+      "text": "I cannot but think that good horsemanship has a great deal to do with the mind.”"
+    },
+    {
+      "id": "s107",
+      "text": "When they parted at night Edmund asked Fanny whether she meant to ride the next day."
+    },
+    {
+      "id": "s108",
+      "text": "“No, I do not know—not if you want the mare,” was her answer."
+    },
+    {
+      "id": "s109",
+      "text": "“I do not want her at all for myself,” said he; “but whenever you are next inclined to stay at home, I think Miss Crawford would be glad to have her a longer time—for a whole morning, in short."
+    },
+    {
+      "id": "s110",
+      "text": "She has a great desire to get as far as Mansfield Common: Mrs."
+    },
+    {
+      "id": "s111",
+      "text": "Grant has been telling her of its fine views, and I have no doubt of her being perfectly equal to it."
+    },
+    {
+      "id": "s112",
+      "text": "But any morning will do for this."
+    },
+    {
+      "id": "s113",
+      "text": "She would be extremely sorry to interfere with you."
+    },
+    {
+      "id": "s114",
+      "text": "It would be very wrong if she did. _She_ rides only for pleasure; _you_ for health.”"
+    },
+    {
+      "id": "s115",
+      "text": "“I shall not ride to-morrow, certainly,” said Fanny; “I have been out very often lately, and would rather stay at home."
+    },
+    {
+      "id": "s116",
+      "text": "You know I am strong enough now to walk very well.”"
+    },
+    {
+      "id": "s117",
+      "text": "Edmund looked pleased, which must be Fanny’s comfort, and the ride to Mansfield Common took place the next morning: the party included all the young people but herself, and was much enjoyed at the time, and doubly enjoyed again in the evening discussion."
+    },
+    {
+      "id": "s118",
+      "text": "A successful scheme of this sort generally brings on another; and the having been to Mansfield Common disposed them all for going somewhere else the day after."
+    },
+    {
+      "id": "s119",
+      "text": "There were many other views to be shewn; and though the weather was hot, there were shady lanes wherever they wanted to go."
+    },
+    {
+      "id": "s120",
+      "text": "A young party is always provided with a shady lane."
+    },
+    {
+      "id": "s121",
+      "text": "Four fine mornings successively were spent in this manner, in shewing the Crawfords the country, and doing the honours of its finest spots."
+    },
+    {
+      "id": "s122",
+      "text": "Everything answered; it was all gaiety and good-humour, the heat only supplying inconvenience enough to be talked of with pleasure—till the fourth day, when the happiness of one of the party was exceedingly clouded."
+    },
+    {
+      "id": "s123",
+      "text": "Miss Bertram was the one."
+    },
+    {
+      "id": "s124",
+      "text": "Edmund and Julia were invited to dine at the Parsonage, and _she_ was excluded."
+    },
+    {
+      "id": "s125",
+      "text": "It was meant and done by Mrs."
+    },
+    {
+      "id": "s126",
+      "text": "Grant, with perfect good-humour, on Mr."
+    },
+    {
+      "id": "s127",
+      "text": "Rushworth’s account, who was partly expected at the Park that day; but it was felt as a very grievous injury, and her good manners were severely taxed to conceal her vexation and anger till she reached home."
+    },
+    {
+      "id": "s128",
+      "text": "As Mr."
+    },
+    {
+      "id": "s129",
+      "text": "Rushworth did _not_ come, the injury was increased, and she had not even the relief of shewing her power over him; she could only be sullen to her mother, aunt, and cousin, and throw as great a gloom as possible over their dinner and dessert."
+    },
+    {
+      "id": "s130",
+      "text": "Between ten and eleven Edmund and Julia walked into the drawing-room, fresh with the evening air, glowing and cheerful, the very reverse of what they found in the three ladies sitting there, for Maria would scarcely raise her eyes from her book, and Lady Bertram was half-asleep; and even Mrs."
+    },
+    {
+      "id": "s131",
+      "text": "Norris, discomposed by her niece’s ill-humour, and having asked one or two questions about the dinner, which were not immediately attended to, seemed almost determined to say no more."
+    },
+    {
+      "id": "s132",
+      "text": "For a few minutes the brother and sister were too eager in their praise of the night and their remarks on the stars, to think beyond themselves; but when the first pause came, Edmund, looking around, said, “But where is Fanny?"
+    },
+    {
+      "id": "s133",
+      "text": "Is she gone to bed?”"
+    },
+    {
+      "id": "s134",
+      "text": "“No, not that I know of,” replied Mrs."
+    },
+    {
+      "id": "s135",
+      "text": "Norris; “she was here a moment ago.”"
+    },
+    {
+      "id": "s136",
+      "text": "Her own gentle voice speaking from the other end of the room, which was a very long one, told them that she was on the sofa."
+    },
+    {
+      "id": "s137",
+      "text": "Mrs."
+    },
+    {
+      "id": "s138",
+      "text": "Norris began scolding."
+    },
+    {
+      "id": "s139",
+      "text": "“That is a very foolish trick, Fanny, to be idling away all the evening upon a sofa."
+    },
+    {
+      "id": "s140",
+      "text": "Why cannot you come and sit here, and employ yourself as _we_ do?"
+    },
+    {
+      "id": "s141",
+      "text": "If you have no work of your own, I can supply you from the poor basket."
+    },
+    {
+      "id": "s142",
+      "text": "There is all the new calico, that was bought last week, not touched yet."
+    },
+    {
+      "id": "s143",
+      "text": "I am sure I almost broke my back by cutting it out."
+    },
+    {
+      "id": "s144",
+      "text": "You should learn to think of other people; and, take my word for it, it is a shocking trick for a young person to be always lolling upon a sofa.”"
+    },
+    {
+      "id": "s145",
+      "text": "Before half this was said, Fanny was returned to her seat at the table, and had taken up her work again; and Julia, who was in high good-humour, from the pleasures of the day, did her the justice of exclaiming, “I must say, ma’am, that Fanny is as little upon the sofa as anybody in the house.”"
+    },
+    {
+      "id": "s146",
+      "text": "“Fanny,” said Edmund, after looking at her attentively, “I am sure you have the headache.”"
+    },
+    {
+      "id": "s147",
+      "text": "She could not deny it, but said it was not very bad."
+    },
+    {
+      "id": "s148",
+      "text": "“I can hardly believe you,” he replied; “I know your looks too well."
+    },
+    {
+      "id": "s149",
+      "text": "How long have you had it?”"
+    },
+    {
+      "id": "s150",
+      "text": "“Since a little before dinner."
+    },
+    {
+      "id": "s151",
+      "text": "It is nothing but the heat.”"
+    },
+    {
+      "id": "s152",
+      "text": "“Did you go out in the heat?”"
+    },
+    {
+      "id": "s153",
+      "text": "“Go out! to be sure she did,” said Mrs."
+    },
+    {
+      "id": "s154",
+      "text": "Norris: “would you have her stay within such a fine day as this?"
+    },
+    {
+      "id": "s155",
+      "text": "Were not we _all_ out?"
+    },
+    {
+      "id": "s156",
+      "text": "Even your mother was out to-day for above an hour.”"
+    },
+    {
+      "id": "s157",
+      "text": "“Yes, indeed, Edmund,” added her ladyship, who had been thoroughly awakened by Mrs."
+    },
+    {
+      "id": "s158",
+      "text": "Norris’s sharp reprimand to Fanny; “I was out above an hour."
+    },
+    {
+      "id": "s159",
+      "text": "I sat three-quarters of an hour in the flower-garden, while Fanny cut the roses; and very pleasant it was, I assure you, but very hot."
+    },
+    {
+      "id": "s160",
+      "text": "It was shady enough in the alcove, but I declare I quite dreaded the coming home again.”"
+    },
+    {
+      "id": "s161",
+      "text": "“Fanny has been cutting roses, has she?”"
+    },
+    {
+      "id": "s162",
+      "text": "“Yes, and I am afraid they will be the last this year."
+    },
+    {
+      "id": "s163",
+      "text": "Poor thing! _She_ found it hot enough; but they were so full-blown that one could not wait.”"
+    },
+    {
+      "id": "s164",
+      "text": "“There was no help for it, certainly,” rejoined Mrs."
+    },
+    {
+      "id": "s165",
+      "text": "Norris, in a rather softened voice; “but I question whether her headache might not be caught _then_, sister."
+    },
+    {
+      "id": "s166",
+      "text": "There is nothing so likely to give it as standing and stooping in a hot sun; but I dare say it will be well to-morrow."
+    },
+    {
+      "id": "s167",
+      "text": "Suppose you let her have your aromatic vinegar; I always forget to have mine filled.”"
+    },
+    {
+      "id": "s168",
+      "text": "“She has got it,” said Lady Bertram; “she has had it ever since she came back from your house the second time.”"
+    },
+    {
+      "id": "s169",
+      "text": "“What!” cried Edmund; “has she been walking as well as cutting roses; walking across the hot park to your house, and doing it twice, ma’am?"
+    },
+    {
+      "id": "s170",
+      "text": "No wonder her head aches.”"
+    },
+    {
+      "id": "s171",
+      "text": "Mrs."
+    },
+    {
+      "id": "s172",
+      "text": "Norris was talking to Julia, and did not hear."
+    },
+    {
+      "id": "s173",
+      "text": "“I was afraid it would be too much for her,” said Lady Bertram; “but when the roses were gathered, your aunt wished to have them, and then you know they must be taken home.”"
+    },
+    {
+      "id": "s174",
+      "text": "“But were there roses enough to oblige her to go twice?”"
+    },
+    {
+      "id": "s175",
+      "text": "“No; but they were to be put into the spare room to dry; and, unluckily, Fanny forgot to lock the door of the room and bring away the key, so she was obliged to go again.”"
+    },
+    {
+      "id": "s176",
+      "text": "Edmund got up and walked about the room, saying, “And could nobody be employed on such an errand but Fanny?"
+    },
+    {
+      "id": "s177",
+      "text": "Upon my word, ma’am, it has been a very ill-managed business.”"
+    },
+    {
+      "id": "s178",
+      "text": "“I am sure I do not know how it was to have been done better,” cried Mrs."
+    },
+    {
+      "id": "s179",
+      "text": "Norris, unable to be longer deaf; “unless I had gone myself, indeed; but I cannot be in two places at once; and I was talking to Mr."
+    },
+    {
+      "id": "s180",
+      "text": "Green at that very time about your mother’s dairymaid, by _her_ desire, and had promised John Groom to write to Mrs."
+    },
+    {
+      "id": "s181",
+      "text": "Jefferies about his son, and the poor fellow was waiting for me half an hour."
+    },
+    {
+      "id": "s182",
+      "text": "I think nobody can justly accuse me of sparing myself upon any occasion, but really I cannot do everything at once."
+    },
+    {
+      "id": "s183",
+      "text": "And as for Fanny’s just stepping down to my house for me—it is not much above a quarter of a mile—I cannot think I was unreasonable to ask it."
+    },
+    {
+      "id": "s184",
+      "text": "How often do I pace it three times a day, early and late, ay, and in all weathers too, and say nothing about it?”"
+    },
+    {
+      "id": "s185",
+      "text": "“I wish Fanny had half your strength, ma’am.”"
+    },
+    {
+      "id": "s186",
+      "text": "“If Fanny would be more regular in her exercise, she would not be knocked up so soon."
+    },
+    {
+      "id": "s187",
+      "text": "She has not been out on horseback now this long while, and I am persuaded that, when she does not ride, she ought to walk."
+    },
+    {
+      "id": "s188",
+      "text": "If she had been riding before, I should not have asked it of her."
+    },
+    {
+      "id": "s189",
+      "text": "But I thought it would rather do her good after being stooping among the roses; for there is nothing so refreshing as a walk after a fatigue of that kind; and though the sun was strong, it was not so very hot."
+    },
+    {
+      "id": "s190",
+      "text": "Between ourselves, Edmund,” nodding significantly at his mother, “it was cutting the roses, and dawdling about in the flower-garden, that did the mischief.”"
+    },
+    {
+      "id": "s191",
+      "text": "“I am afraid it was, indeed,” said the more candid Lady Bertram, who had overheard her; “I am very much afraid she caught the headache there, for the heat was enough to kill anybody."
+    },
+    {
+      "id": "s192",
+      "text": "It was as much as I could bear myself."
+    },
+    {
+      "id": "s193",
+      "text": "Sitting and calling to Pug, and trying to keep him from the flower-beds, was almost too much for me.”"
+    },
+    {
+      "id": "s194",
+      "text": "Edmund said no more to either lady; but going quietly to another table, on which the supper-tray yet remained, brought a glass of Madeira to Fanny, and obliged her to drink the greater part."
+    },
+    {
+      "id": "s195",
+      "text": "She wished to be able to decline it; but the tears, which a variety of feelings created, made it easier to swallow than to speak."
+    },
+    {
+      "id": "s196",
+      "text": "Vexed as Edmund was with his mother and aunt, he was still more angry with himself."
+    },
+    {
+      "id": "s197",
+      "text": "His own forgetfulness of her was worse than anything which they had done."
+    },
+    {
+      "id": "s198",
+      "text": "Nothing of this would have happened had she been properly considered; but she had been left four days together without any choice of companions or exercise, and without any excuse for avoiding whatever her unreasonable aunts might require."
+    },
+    {
+      "id": "s199",
+      "text": "He was ashamed to think that for four days together she had not had the power of riding, and very seriously resolved, however unwilling he must be to check a pleasure of Miss Crawford’s, that it should never happen again."
+    },
+    {
+      "id": "s200",
+      "text": "Fanny went to bed with her heart as full as on the first evening of her arrival at the Park."
+    },
+    {
+      "id": "s201",
+      "text": "The state of her spirits had probably had its share in her indisposition; for she had been feeling neglected, and been struggling against discontent and envy for some days past."
+    },
+    {
+      "id": "s202",
+      "text": "As she leant on the sofa, to which she had retreated that she might not be seen, the pain of her mind had been much beyond that in her head; and the sudden change which Edmund’s kindness had then occasioned, made her hardly know how to support herself."
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-12",
+  "chapterTitle": "CHAPTER XII. A Solemn Vow and Promise",
+  "contentHash": "sha256:f53e8e0c632f8f6a08849e5269b0a841934cd8088c0cd7142f70cf799f0e355e",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XII. A Solemn Vow and Promise. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IT was not until the next Friday that Marilla heard the story of the flower-wreathed hat."
+    },
+    {
+      "id": "s2",
+      "text": "She came home from Mrs."
+    },
+    {
+      "id": "s3",
+      "text": "Lynde’s and called Anne to account."
+    },
+    {
+      "id": "s4",
+      "text": "“Anne, Mrs."
+    },
+    {
+      "id": "s5",
+      "text": "Rachel says you went to church last Sunday with your hat rigged out ridiculous with roses and buttercups."
+    },
+    {
+      "id": "s6",
+      "text": "What on earth put you up to such a caper?"
+    },
+    {
+      "id": "s7",
+      "text": "A pretty-looking object you must have been!”"
+    },
+    {
+      "id": "s8",
+      "text": "“Oh."
+    },
+    {
+      "id": "s9",
+      "text": "I know pink and yellow aren’t becoming to me,” began Anne."
+    },
+    {
+      "id": "s10",
+      "text": "“Becoming fiddlesticks!"
+    },
+    {
+      "id": "s11",
+      "text": "It was putting flowers on your hat at all, no matter what color they were, that was ridiculous."
+    },
+    {
+      "id": "s12",
+      "text": "You are the most aggravating child!”"
+    },
+    {
+      "id": "s13",
+      "text": "“I don’t see why it’s any more ridiculous to wear flowers on your hat than on your dress,” protested Anne."
+    },
+    {
+      "id": "s14",
+      "text": "“Lots of little girls there had bouquets pinned on their dresses."
+    },
+    {
+      "id": "s15",
+      "text": "What’s the difference?”"
+    },
+    {
+      "id": "s16",
+      "text": "Marilla was not to be drawn from the safe concrete into dubious paths of the abstract."
+    },
+    {
+      "id": "s17",
+      "text": "“Don’t answer me back like that, Anne."
+    },
+    {
+      "id": "s18",
+      "text": "It was very silly of you to do such a thing."
+    },
+    {
+      "id": "s19",
+      "text": "Never let me catch you at such a trick again."
+    },
+    {
+      "id": "s20",
+      "text": "Mrs."
+    },
+    {
+      "id": "s21",
+      "text": "Rachel says she thought she would sink through the floor when she saw you come in all rigged out like that."
+    },
+    {
+      "id": "s22",
+      "text": "She couldn’t get near enough to tell you to take them off till it was too late."
+    },
+    {
+      "id": "s23",
+      "text": "She says people talked about it something dreadful."
+    },
+    {
+      "id": "s24",
+      "text": "Of course they would think I had no better sense than to let you go decked out like that.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Oh, I’m so sorry,” said Anne, tears welling into her eyes."
+    },
+    {
+      "id": "s26",
+      "text": "“I never thought you’d mind."
+    },
+    {
+      "id": "s27",
+      "text": "The roses and buttercups were so sweet and pretty I thought they’d look lovely on my hat."
+    },
+    {
+      "id": "s28",
+      "text": "Lots of the little girls had artificial flowers on their hats."
+    },
+    {
+      "id": "s29",
+      "text": "I’m afraid I’m going to be a dreadful trial to you."
+    },
+    {
+      "id": "s30",
+      "text": "Maybe you’d better send me back to the asylum."
+    },
+    {
+      "id": "s31",
+      "text": "That would be terrible; I don’t think I could endure it; most likely I would go into consumption; I’m so thin as it is, you see."
+    },
+    {
+      "id": "s32",
+      "text": "But that would be better than being a trial to you.”"
+    },
+    {
+      "id": "s33",
+      "text": "“Nonsense,” said Marilla, vexed at herself for having made the child cry."
+    },
+    {
+      "id": "s34",
+      "text": "“I don’t want to send you back to the asylum, I’m sure."
+    },
+    {
+      "id": "s35",
+      "text": "All I want is that you should behave like other little girls and not make yourself ridiculous."
+    },
+    {
+      "id": "s36",
+      "text": "Don’t cry any more."
+    },
+    {
+      "id": "s37",
+      "text": "I’ve got some news for you."
+    },
+    {
+      "id": "s38",
+      "text": "Diana Barry came home this afternoon."
+    },
+    {
+      "id": "s39",
+      "text": "I’m going up to see if I can borrow a skirt pattern from Mrs."
+    },
+    {
+      "id": "s40",
+      "text": "Barry, and if you like you can come with me and get acquainted with Diana.”"
+    },
+    {
+      "id": "s41",
+      "text": "Anne rose to her feet, with clasped hands, the tears still glistening on her cheeks; the dish towel she had been hemming slipped unheeded to the floor."
+    },
+    {
+      "id": "s42",
+      "text": "“Oh, Marilla, I’m frightened--now that it has come I’m actually frightened."
+    },
+    {
+      "id": "s43",
+      "text": "What if she shouldn’t like me!"
+    },
+    {
+      "id": "s44",
+      "text": "It would be the most tragical disappointment of my life.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Now, don’t get into a fluster."
+    },
+    {
+      "id": "s46",
+      "text": "And I do wish you wouldn’t use such long words."
+    },
+    {
+      "id": "s47",
+      "text": "It sounds so funny in a little girl."
+    },
+    {
+      "id": "s48",
+      "text": "I guess Diana ‘ll like you well enough."
+    },
+    {
+      "id": "s49",
+      "text": "It’s her mother you’ve got to reckon with."
+    },
+    {
+      "id": "s50",
+      "text": "If she doesn’t like you it won’t matter how much Diana does."
+    },
+    {
+      "id": "s51",
+      "text": "If she has heard about your outburst to Mrs."
+    },
+    {
+      "id": "s52",
+      "text": "Lynde and going to church with buttercups round your hat I don’t know what she’ll think of you."
+    },
+    {
+      "id": "s53",
+      "text": "You must be polite and well behaved, and don’t make any of your startling speeches."
+    },
+    {
+      "id": "s54",
+      "text": "For pity’s sake, if the child isn’t actually trembling!”"
+    },
+    {
+      "id": "s55",
+      "text": "Anne _was_ trembling."
+    },
+    {
+      "id": "s56",
+      "text": "Her face was pale and tense."
+    },
+    {
+      "id": "s57",
+      "text": "“Oh, Marilla, you’d be excited, too, if you were going to meet a little girl you hoped to be your bosom friend and whose mother mightn’t like you,” she said as she hastened to get her hat."
+    },
+    {
+      "id": "s58",
+      "text": "They went over to Orchard Slope by the short cut across the brook and up the firry hill grove."
+    },
+    {
+      "id": "s59",
+      "text": "Mrs."
+    },
+    {
+      "id": "s60",
+      "text": "Barry came to the kitchen door in answer to Marilla’s knock."
+    },
+    {
+      "id": "s61",
+      "text": "She was a tall black-eyed, black-haired woman, with a very resolute mouth."
+    },
+    {
+      "id": "s62",
+      "text": "She had the reputation of being very strict with her children."
+    },
+    {
+      "id": "s63",
+      "text": "“How do you do, Marilla?” she said cordially."
+    },
+    {
+      "id": "s64",
+      "text": "“Come in."
+    },
+    {
+      "id": "s65",
+      "text": "And this is the little girl you have adopted, I suppose?”"
+    },
+    {
+      "id": "s66",
+      "text": "“Yes, this is Anne Shirley,” said Marilla."
+    },
+    {
+      "id": "s67",
+      "text": "“Spelled with an E,” gasped Anne, who, tremulous and excited as she was, was determined there should be no misunderstanding on that important point."
+    },
+    {
+      "id": "s68",
+      "text": "Mrs."
+    },
+    {
+      "id": "s69",
+      "text": "Barry, not hearing or not comprehending, merely shook hands and said kindly:"
+    },
+    {
+      "id": "s70",
+      "text": "“How are you?”"
+    },
+    {
+      "id": "s71",
+      "text": "“I am well in body although considerable rumpled up in spirit, thank you ma’am,” said Anne gravely."
+    },
+    {
+      "id": "s72",
+      "text": "Then aside to Marilla in an audible whisper, “There wasn’t anything startling in that, was there, Marilla?”"
+    },
+    {
+      "id": "s73",
+      "text": "Diana was sitting on the sofa, reading a book which she dropped when the callers entered."
+    },
+    {
+      "id": "s74",
+      "text": "She was a very pretty little girl, with her mother’s black eyes and hair, and rosy cheeks, and the merry expression which was her inheritance from her father."
+    },
+    {
+      "id": "s75",
+      "text": "“This is my little girl Diana,” said Mrs."
+    },
+    {
+      "id": "s76",
+      "text": "Barry."
+    },
+    {
+      "id": "s77",
+      "text": "“Diana, you might take Anne out into the garden and show her your flowers."
+    },
+    {
+      "id": "s78",
+      "text": "It will be better for you than straining your eyes over that book."
+    },
+    {
+      "id": "s79",
+      "text": "She reads entirely too much--” this to Marilla as the little girls went out--“and I can’t prevent her, for her father aids and abets her."
+    },
+    {
+      "id": "s80",
+      "text": "She’s always poring over a book."
+    },
+    {
+      "id": "s81",
+      "text": "I’m glad she has the prospect of a playmate--perhaps it will take her more out-of-doors.”"
+    },
+    {
+      "id": "s82",
+      "text": "Outside in the garden, which was full of mellow sunset light streaming through the dark old firs to the west of it, stood Anne and Diana, gazing bashfully at each other over a clump of gorgeous tiger lilies."
+    },
+    {
+      "id": "s83",
+      "text": "The Barry garden was a bowery wilderness of flowers which would have delighted Anne’s heart at any time less fraught with destiny."
+    },
+    {
+      "id": "s84",
+      "text": "It was encircled by huge old willows and tall firs, beneath which flourished flowers that loved the shade."
+    },
+    {
+      "id": "s85",
+      "text": "Prim, right-angled paths neatly bordered with clamshells, intersected it like moist red ribbons and in the beds between old-fashioned flowers ran riot."
+    },
+    {
+      "id": "s86",
+      "text": "There were rosy bleeding-hearts and great splendid crimson peonies; white, fragrant narcissi and thorny, sweet Scotch roses; pink and blue and white columbines and lilac-tinted Bouncing Bets; clumps of southernwood and ribbon grass and mint; purple Adam-and-Eve, daffodils, and masses of sweet clover white with its delicate, fragrant, feathery sprays; scarlet lightning that shot its fiery lances over prim white musk-flowers; a garden it was where sunshine lingered and bees hummed, and winds, beguiled into loitering, purred and rustled."
+    },
+    {
+      "id": "s87",
+      "text": "“Oh, Diana,” said Anne at last, clasping her hands and speaking almost in a whisper, “oh, do you think you can like me a little--enough to be my bosom friend?”"
+    },
+    {
+      "id": "s88",
+      "text": "Diana laughed."
+    },
+    {
+      "id": "s89",
+      "text": "Diana always laughed before she spoke."
+    },
+    {
+      "id": "s90",
+      "text": "“Why, I guess so,” she said frankly."
+    },
+    {
+      "id": "s91",
+      "text": "“I’m awfully glad you’ve come to live at Green Gables."
+    },
+    {
+      "id": "s92",
+      "text": "It will be jolly to have somebody to play with."
+    },
+    {
+      "id": "s93",
+      "text": "There isn’t any other girl who lives near enough to play with, and I’ve no sisters big enough.”"
+    },
+    {
+      "id": "s94",
+      "text": "“Will you swear to be my friend forever and ever?” demanded Anne eagerly."
+    },
+    {
+      "id": "s95",
+      "text": "Diana looked shocked."
+    },
+    {
+      "id": "s96",
+      "text": "“Why it’s dreadfully wicked to swear,” she said rebukingly."
+    },
+    {
+      "id": "s97",
+      "text": "“Oh no, not my kind of swearing."
+    },
+    {
+      "id": "s98",
+      "text": "There are two kinds, you know.”"
+    },
+    {
+      "id": "s99",
+      "text": "“I never heard of but one kind,” said Diana doubtfully."
+    },
+    {
+      "id": "s100",
+      "text": "“There really is another."
+    },
+    {
+      "id": "s101",
+      "text": "Oh, it isn’t wicked at all."
+    },
+    {
+      "id": "s102",
+      "text": "It just means vowing and promising solemnly.”"
+    },
+    {
+      "id": "s103",
+      "text": "“Well, I don’t mind doing that,” agreed Diana, relieved."
+    },
+    {
+      "id": "s104",
+      "text": "“How do you do it?”"
+    },
+    {
+      "id": "s105",
+      "text": "“We must join hands--so,” said Anne gravely."
+    },
+    {
+      "id": "s106",
+      "text": "“It ought to be over running water."
+    },
+    {
+      "id": "s107",
+      "text": "We’ll just imagine this path is running water."
+    },
+    {
+      "id": "s108",
+      "text": "I’ll repeat the oath first."
+    },
+    {
+      "id": "s109",
+      "text": "I solemnly swear to be faithful to my bosom friend, Diana Barry, as long as the sun and moon shall endure."
+    },
+    {
+      "id": "s110",
+      "text": "Now you say it and put my name in.”"
+    },
+    {
+      "id": "s111",
+      "text": "Diana repeated the “oath” with a laugh fore and aft."
+    },
+    {
+      "id": "s112",
+      "text": "Then she said:"
+    },
+    {
+      "id": "s113",
+      "text": "“You’re a queer girl, Anne."
+    },
+    {
+      "id": "s114",
+      "text": "I heard before that you were queer."
+    },
+    {
+      "id": "s115",
+      "text": "But I believe I’m going to like you real well.”"
+    },
+    {
+      "id": "s116",
+      "text": "When Marilla and Anne went home Diana went with them as far as the log bridge."
+    },
+    {
+      "id": "s117",
+      "text": "The two little girls walked with their arms about each other."
+    },
+    {
+      "id": "s118",
+      "text": "At the brook they parted with many promises to spend the next afternoon together."
+    },
+    {
+      "id": "s119",
+      "text": "“Well, did you find Diana a kindred spirit?” asked Marilla as they went up through the garden of Green Gables."
+    },
+    {
+      "id": "s120",
+      "text": "“Oh yes,” sighed Anne, blissfully unconscious of any sarcasm on Marilla’s part."
+    },
+    {
+      "id": "s121",
+      "text": "“Oh Marilla, I’m the happiest girl on Prince Edward Island this very moment."
+    },
+    {
+      "id": "s122",
+      "text": "I assure you I’ll say my prayers with a right good-will tonight."
+    },
+    {
+      "id": "s123",
+      "text": "Diana and I are going to build a playhouse in Mr."
+    },
+    {
+      "id": "s124",
+      "text": "William Bell’s birch grove tomorrow."
+    },
+    {
+      "id": "s125",
+      "text": "Can I have those broken pieces of china that are out in the woodshed?"
+    },
+    {
+      "id": "s126",
+      "text": "Diana’s birthday is in February and mine is in March."
+    },
+    {
+      "id": "s127",
+      "text": "Don’t you think that is a very strange coincidence?"
+    },
+    {
+      "id": "s128",
+      "text": "Diana is going to lend me a book to read."
+    },
+    {
+      "id": "s129",
+      "text": "She says it’s perfectly splendid and tremendously exciting."
+    },
+    {
+      "id": "s130",
+      "text": "She’s going to show me a place back in the woods where rice lilies grow."
+    },
+    {
+      "id": "s131",
+      "text": "Don’t you think Diana has got very soulful eyes?"
+    },
+    {
+      "id": "s132",
+      "text": "I wish I had soulful eyes."
+    },
+    {
+      "id": "s133",
+      "text": "Diana is going to teach me to sing a song called ‘Nelly in the Hazel Dell.’ She’s going to give me a picture to put up in my room; it’s a perfectly beautiful picture, she says--a lovely lady in a pale blue silk dress."
+    },
+    {
+      "id": "s134",
+      "text": "A sewing-machine agent gave it to her."
+    },
+    {
+      "id": "s135",
+      "text": "I wish I had something to give Diana."
+    },
+    {
+      "id": "s136",
+      "text": "I’m an inch taller than Diana, but she is ever so much fatter; she says she’d like to be thin because it’s so much more graceful, but I’m afraid she only said it to soothe my feelings."
+    },
+    {
+      "id": "s137",
+      "text": "We’re going to the shore some day to gather shells."
+    },
+    {
+      "id": "s138",
+      "text": "We have agreed to call the spring down by the log bridge the Dryad’s Bubble."
+    },
+    {
+      "id": "s139",
+      "text": "Isn’t that a perfectly elegant name?"
+    },
+    {
+      "id": "s140",
+      "text": "I read a story once about a spring called that."
+    },
+    {
+      "id": "s141",
+      "text": "A dryad is sort of a grown-up fairy, I think.”"
+    },
+    {
+      "id": "s142",
+      "text": "“Well, all I hope is you won’t talk Diana to death,” said Marilla."
+    },
+    {
+      "id": "s143",
+      "text": "“But remember this in all your planning, Anne."
+    },
+    {
+      "id": "s144",
+      "text": "You’re not going to play all the time nor most of it."
+    },
+    {
+      "id": "s145",
+      "text": "You’ll have your work to do and it’ll have to be done first.”"
+    },
+    {
+      "id": "s146",
+      "text": "Anne’s cup of happiness was full, and Matthew caused it to overflow."
+    },
+    {
+      "id": "s147",
+      "text": "He had just got home from a trip to the store at Carmody, and he sheepishly produced a small parcel from his pocket and handed it to Anne, with a deprecatory look at Marilla."
+    },
+    {
+      "id": "s148",
+      "text": "“I heard you say you liked chocolate sweeties, so I got you some,” he said."
+    },
+    {
+      "id": "s149",
+      "text": "“Humph,” sniffed Marilla."
+    },
+    {
+      "id": "s150",
+      "text": "“It’ll ruin her teeth and stomach."
+    },
+    {
+      "id": "s151",
+      "text": "There, there, child, don’t look so dismal."
+    },
+    {
+      "id": "s152",
+      "text": "You can eat those, since Matthew has gone and got them."
+    },
+    {
+      "id": "s153",
+      "text": "He’d better have brought you peppermints."
+    },
+    {
+      "id": "s154",
+      "text": "They’re wholesomer."
+    },
+    {
+      "id": "s155",
+      "text": "Don’t sicken yourself eating all them at once now.”"
+    },
+    {
+      "id": "s156",
+      "text": "“Oh, no, indeed, I won’t,” said Anne eagerly."
+    },
+    {
+      "id": "s157",
+      "text": "“I’ll just eat one tonight, Marilla."
+    },
+    {
+      "id": "s158",
+      "text": "And I can give Diana half of them, can’t I?"
+    },
+    {
+      "id": "s159",
+      "text": "The other half will taste twice as sweet to me if I give some to her."
+    },
+    {
+      "id": "s160",
+      "text": "It’s delightful to think I have something to give her.”"
+    },
+    {
+      "id": "s161",
+      "text": "“I will say it for the child,” said Marilla when Anne had gone to her gable, “she isn’t stingy."
+    },
+    {
+      "id": "s162",
+      "text": "I’m glad, for of all faults I detest stinginess in a child."
+    },
+    {
+      "id": "s163",
+      "text": "Dear me, it’s only three weeks since she came, and it seems as if she’d been here always."
+    },
+    {
+      "id": "s164",
+      "text": "I can’t imagine the place without her."
+    },
+    {
+      "id": "s165",
+      "text": "Now, don’t be looking I told-you-so, Matthew."
+    },
+    {
+      "id": "s166",
+      "text": "That’s bad enough in a woman, but it isn’t to be endured in a man."
+    },
+    {
+      "id": "s167",
+      "text": "I’m perfectly willing to own up that I’m glad I consented to keep the child and that I’m getting fond of her, but don’t you rub it in, Matthew Cuthbert.”"
+    }
+  ]
+}

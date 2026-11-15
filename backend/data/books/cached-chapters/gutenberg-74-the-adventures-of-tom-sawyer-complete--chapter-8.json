@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+  "ebookId": "74",
+  "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-8",
+  "chapterTitle": "CHAPTER VIII",
+  "contentHash": "sha256:42ad2587906a6878329b2cdb774f0a4ca4b47dcaeda470120d02ac162a0a5d2b",
+  "attribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER VIII. Source checked against Project Gutenberg eBook #74.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/74",
+    "textUrl": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Tom dodged hither and thither through lanes until he was well out of the track of returning scholars, and then fell into a moody jog."
+    },
+    {
+      "id": "s2",
+      "text": "He crossed a small “branch” two or three times, because of a prevailing juvenile superstition that to cross water baffled pursuit."
+    },
+    {
+      "id": "s3",
+      "text": "Half an hour later he was disappearing behind the Douglas mansion on the summit of Cardiff Hill, and the school-house was hardly distinguishable away off in the valley behind him."
+    },
+    {
+      "id": "s4",
+      "text": "He entered a dense wood, picked his pathless way to the centre of it, and sat down on a mossy spot under a spreading oak."
+    },
+    {
+      "id": "s5",
+      "text": "There was not even a zephyr stirring; the dead noonday heat had even stilled the songs of the birds; nature lay in a trance that was broken by no sound but the occasional far-off hammering of a wood-pecker, and this seemed to render the pervading silence and sense of loneliness the more profound."
+    },
+    {
+      "id": "s6",
+      "text": "The boy’s soul was steeped in melancholy; his feelings were in happy accord with his surroundings."
+    },
+    {
+      "id": "s7",
+      "text": "He sat long with his elbows on his knees and his chin in his hands, meditating."
+    },
+    {
+      "id": "s8",
+      "text": "It seemed to him that life was but a trouble, at best, and he more than half envied Jimmy Hodges, so lately released; it must be very peaceful, he thought, to lie and slumber and dream forever and ever, with the wind whispering through the trees and caressing the grass and the flowers over the grave, and nothing to bother and grieve about, ever any more."
+    },
+    {
+      "id": "s9",
+      "text": "If he only had a clean Sunday-school record he could be willing to go, and be done with it all."
+    },
+    {
+      "id": "s10",
+      "text": "Now as to this girl."
+    },
+    {
+      "id": "s11",
+      "text": "What had he done?"
+    },
+    {
+      "id": "s12",
+      "text": "Nothing."
+    },
+    {
+      "id": "s13",
+      "text": "He had meant the best in the world, and been treated like a dog—like a very dog."
+    },
+    {
+      "id": "s14",
+      "text": "She would be sorry some day—maybe when it was too late."
+    },
+    {
+      "id": "s15",
+      "text": "Ah, if he could only die _temporarily_!"
+    },
+    {
+      "id": "s16",
+      "text": "But the elastic heart of youth cannot be compressed into one constrained shape long at a time."
+    },
+    {
+      "id": "s17",
+      "text": "Tom presently began to drift insensibly back into the concerns of this life again."
+    },
+    {
+      "id": "s18",
+      "text": "What if he turned his back, now, and disappeared mysteriously?"
+    },
+    {
+      "id": "s19",
+      "text": "What if he went away—ever so far away, into unknown countries beyond the seas—and never came back any more!"
+    },
+    {
+      "id": "s20",
+      "text": "How would she feel then!"
+    },
+    {
+      "id": "s21",
+      "text": "The idea of being a clown recurred to him now, only to fill him with disgust."
+    },
+    {
+      "id": "s22",
+      "text": "For frivolity and jokes and spotted tights were an offense, when they intruded themselves upon a spirit that was exalted into the vague august realm of the romantic."
+    },
+    {
+      "id": "s23",
+      "text": "No, he would be a soldier, and return after long years, all war-worn and illustrious."
+    },
+    {
+      "id": "s24",
+      "text": "No—better still, he would join the Indians, and hunt buffaloes and go on the warpath in the mountain ranges and the trackless great plains of the Far West, and away in the future come back a great chief, bristling with feathers, hideous with paint, and prance into Sunday-school, some drowsy summer morning, with a blood-curdling war-whoop, and sear the eyeballs of all his companions with unappeasable envy."
+    },
+    {
+      "id": "s25",
+      "text": "But no, there was something gaudier even than this."
+    },
+    {
+      "id": "s26",
+      "text": "He would be a pirate!"
+    },
+    {
+      "id": "s27",
+      "text": "That was it! _now_ his future lay plain before him, and glowing with unimaginable splendor."
+    },
+    {
+      "id": "s28",
+      "text": "How his name would fill the world, and make people shudder!"
+    },
+    {
+      "id": "s29",
+      "text": "How gloriously he would go plowing the dancing seas, in his long, low, black-hulled racer, the Spirit of the Storm, with his grisly flag flying at the fore!"
+    },
+    {
+      "id": "s30",
+      "text": "And at the zenith of his fame, how he would suddenly appear at the old village and stalk into church, brown and weather-beaten, in his black velvet doublet and trunks, his great jack-boots, his crimson sash, his belt bristling with horse-pistols, his crime-rusted cutlass at his side, his slouch hat with waving plumes, his black flag unfurled, with the skull and crossbones on it, and hear with swelling ecstasy the whisperings, “It’s Tom Sawyer the Pirate!—the Black Avenger of the Spanish Main!”"
+    },
+    {
+      "id": "s31",
+      "text": "Yes, it was settled; his career was determined."
+    },
+    {
+      "id": "s32",
+      "text": "He would run away from home and enter upon it."
+    },
+    {
+      "id": "s33",
+      "text": "He would start the very next morning."
+    },
+    {
+      "id": "s34",
+      "text": "Therefore he must now begin to get ready."
+    },
+    {
+      "id": "s35",
+      "text": "He would collect his resources together."
+    },
+    {
+      "id": "s36",
+      "text": "He went to a rotten log near at hand and began to dig under one end of it with his Barlow knife."
+    },
+    {
+      "id": "s37",
+      "text": "He soon struck wood that sounded hollow."
+    },
+    {
+      "id": "s38",
+      "text": "He put his hand there and uttered this incantation impressively:"
+    },
+    {
+      "id": "s39",
+      "text": "“What hasn’t come here, come!"
+    },
+    {
+      "id": "s40",
+      "text": "What’s here, stay here!”"
+    },
+    {
+      "id": "s41",
+      "text": "Then he scraped away the dirt, and exposed a pine shingle."
+    },
+    {
+      "id": "s42",
+      "text": "He took it up and disclosed a shapely little treasure-house whose bottom and sides were of shingles."
+    },
+    {
+      "id": "s43",
+      "text": "In it lay a marble."
+    },
+    {
+      "id": "s44",
+      "text": "Tom’s astonishment was boundless!"
+    },
+    {
+      "id": "s45",
+      "text": "He scratched his head with a perplexed air, and said:"
+    },
+    {
+      "id": "s46",
+      "text": "“Well, that beats anything!”"
+    },
+    {
+      "id": "s47",
+      "text": "Then he tossed the marble away pettishly, and stood cogitating."
+    },
+    {
+      "id": "s48",
+      "text": "The truth was, that a superstition of his had failed, here, which he and all his comrades had always looked upon as infallible."
+    },
+    {
+      "id": "s49",
+      "text": "If you buried a marble with certain necessary incantations, and left it alone a fortnight, and then opened the place with the incantation he had just used, you would find that all the marbles you had ever lost had gathered themselves together there, meantime, no matter how widely they had been separated."
+    },
+    {
+      "id": "s50",
+      "text": "But now, this thing had actually and unquestionably failed."
+    },
+    {
+      "id": "s51",
+      "text": "Tom’s whole structure of faith was shaken to its foundations."
+    },
+    {
+      "id": "s52",
+      "text": "He had many a time heard of this thing succeeding but never of its failing before."
+    },
+    {
+      "id": "s53",
+      "text": "It did not occur to him that he had tried it several times before, himself, but could never find the hiding-places afterward."
+    },
+    {
+      "id": "s54",
+      "text": "He puzzled over the matter some time, and finally decided that some witch had interfered and broken the charm."
+    },
+    {
+      "id": "s55",
+      "text": "He thought he would satisfy himself on that point; so he searched around till he found a small sandy spot with a little funnel-shaped depression in it."
+    },
+    {
+      "id": "s56",
+      "text": "He laid himself down and put his mouth close to this depression and called—"
+    },
+    {
+      "id": "s57",
+      "text": "“Doodle-bug, doodle-bug, tell me what I want to know!"
+    },
+    {
+      "id": "s58",
+      "text": "Doodle-bug, doodle-bug, tell me what I want to know!”"
+    },
+    {
+      "id": "s59",
+      "text": "The sand began to work, and presently a small black bug appeared for a second and then darted under again in a fright."
+    },
+    {
+      "id": "s60",
+      "text": "“He dasn’t tell!"
+    },
+    {
+      "id": "s61",
+      "text": "So it _was_ a witch that done it."
+    },
+    {
+      "id": "s62",
+      "text": "I just knowed it.”"
+    },
+    {
+      "id": "s63",
+      "text": "He well knew the futility of trying to contend against witches, so he gave up discouraged."
+    },
+    {
+      "id": "s64",
+      "text": "But it occurred to him that he might as well have the marble he had just thrown away, and therefore he went and made a patient search for it."
+    },
+    {
+      "id": "s65",
+      "text": "But he could not find it."
+    },
+    {
+      "id": "s66",
+      "text": "Now he went back to his treasure-house and carefully placed himself just as he had been standing when he tossed the marble away; then he took another marble from his pocket and tossed it in the same way, saying:"
+    },
+    {
+      "id": "s67",
+      "text": "“Brother, go find your brother!”"
+    },
+    {
+      "id": "s68",
+      "text": "He watched where it stopped, and went there and looked."
+    },
+    {
+      "id": "s69",
+      "text": "But it must have fallen short or gone too far; so he tried twice more."
+    },
+    {
+      "id": "s70",
+      "text": "The last repetition was successful."
+    },
+    {
+      "id": "s71",
+      "text": "The two marbles lay within a foot of each other."
+    },
+    {
+      "id": "s72",
+      "text": "Just here the blast of a toy tin trumpet came faintly down the green aisles of the forest."
+    },
+    {
+      "id": "s73",
+      "text": "Tom flung off his jacket and trousers, turned a suspender into a belt, raked away some brush behind the rotten log, disclosing a rude bow and arrow, a lath sword and a tin trumpet, and in a moment had seized these things and bounded away, barelegged, with fluttering shirt."
+    },
+    {
+      "id": "s74",
+      "text": "He presently halted under a great elm, blew an answering blast, and then began to tiptoe and look warily out, this way and that."
+    },
+    {
+      "id": "s75",
+      "text": "He said cautiously—to an imaginary company:"
+    },
+    {
+      "id": "s76",
+      "text": "“Hold, my merry men!"
+    },
+    {
+      "id": "s77",
+      "text": "Keep hid till I blow.”"
+    },
+    {
+      "id": "s78",
+      "text": "Now appeared Joe Harper, as airily clad and elaborately armed as Tom."
+    },
+    {
+      "id": "s79",
+      "text": "Tom called:"
+    },
+    {
+      "id": "s80",
+      "text": "“Hold!"
+    },
+    {
+      "id": "s81",
+      "text": "Who comes here into Sherwood Forest without my pass?”"
+    },
+    {
+      "id": "s82",
+      "text": "“Guy of Guisborne wants no man’s pass."
+    },
+    {
+      "id": "s83",
+      "text": "Who art thou that—that—”"
+    },
+    {
+      "id": "s84",
+      "text": "“Dares to hold such language,” said Tom, prompting—for they talked “by the book,” from memory."
+    },
+    {
+      "id": "s85",
+      "text": "“Who art thou that dares to hold such language?”"
+    },
+    {
+      "id": "s86",
+      "text": "“I, indeed!"
+    },
+    {
+      "id": "s87",
+      "text": "I am Robin Hood, as thy caitiff carcase soon shall know.”"
+    },
+    {
+      "id": "s88",
+      "text": "“Then art thou indeed that famous outlaw?"
+    },
+    {
+      "id": "s89",
+      "text": "Right gladly will I dispute with thee the passes of the merry wood."
+    },
+    {
+      "id": "s90",
+      "text": "Have at thee!”"
+    },
+    {
+      "id": "s91",
+      "text": "They took their lath swords, dumped their other traps on the ground, struck a fencing attitude, foot to foot, and began a grave, careful combat, “two up and two down.” Presently Tom said:"
+    },
+    {
+      "id": "s92",
+      "text": "“Now, if you’ve got the hang, go it lively!”"
+    },
+    {
+      "id": "s93",
+      "text": "So they “went it lively,” panting and perspiring with the work."
+    },
+    {
+      "id": "s94",
+      "text": "By and by Tom shouted:"
+    },
+    {
+      "id": "s95",
+      "text": "“Fall! fall!"
+    },
+    {
+      "id": "s96",
+      "text": "Why don’t you fall?”"
+    },
+    {
+      "id": "s97",
+      "text": "“I sha’n’t!"
+    },
+    {
+      "id": "s98",
+      "text": "Why don’t you fall yourself?"
+    },
+    {
+      "id": "s99",
+      "text": "You’re getting the worst of it.”"
+    },
+    {
+      "id": "s100",
+      "text": "“Why, that ain’t anything."
+    },
+    {
+      "id": "s101",
+      "text": "I can’t fall; that ain’t the way it is in the book."
+    },
+    {
+      "id": "s102",
+      "text": "The book says, ‘Then with one back-handed stroke he slew poor Guy of Guisborne.’ You’re to turn around and let me hit you in the back.”"
+    },
+    {
+      "id": "s103",
+      "text": "There was no getting around the authorities, so Joe turned, received the whack and fell."
+    },
+    {
+      "id": "s104",
+      "text": "“Now,” said Joe, getting up, “you got to let me kill _you_."
+    },
+    {
+      "id": "s105",
+      "text": "That’s fair.”"
+    },
+    {
+      "id": "s106",
+      "text": "“Why, I can’t do that, it ain’t in the book.”"
+    },
+    {
+      "id": "s107",
+      "text": "“Well, it’s blamed mean—that’s all.”"
+    },
+    {
+      "id": "s108",
+      "text": "“Well, say, Joe, you can be Friar Tuck or Much the miller’s son, and lam me with a quarter-staff; or I’ll be the Sheriff of Nottingham and you be Robin Hood a little while and kill me.”"
+    },
+    {
+      "id": "s109",
+      "text": "This was satisfactory, and so these adventures were carried out."
+    },
+    {
+      "id": "s110",
+      "text": "Then Tom became Robin Hood again, and was allowed by the treacherous nun to bleed his strength away through his neglected wound."
+    },
+    {
+      "id": "s111",
+      "text": "And at last Joe, representing a whole tribe of weeping outlaws, dragged him sadly forth, gave his bow into his feeble hands, and Tom said, “Where this arrow falls, there bury poor Robin Hood under the greenwood tree.” Then he shot the arrow and fell back and would have died, but he lit on a nettle and sprang up too gaily for a corpse."
+    },
+    {
+      "id": "s112",
+      "text": "The boys dressed themselves, hid their accoutrements, and went off grieving that there were no outlaws any more, and wondering what modern civilization could claim to have done to compensate for their loss."
+    },
+    {
+      "id": "s113",
+      "text": "They said they would rather be outlaws a year in Sherwood Forest than President of the United States forever."
+    }
+  ]
+}

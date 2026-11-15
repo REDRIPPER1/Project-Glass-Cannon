@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-9",
+  "chapterTitle": "CHAPTER IX. Mrs. Rachel Lynde Is Properly Horrified",
+  "contentHash": "sha256:bd4aa6da99f6c79e033266d4747d8d64a768ab13290f36ab44c8f7277430b2e9",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER IX. Mrs. Rachel Lynde Is Properly Horrified. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "ANNE had been a fortnight at Green Gables before Mrs."
+    },
+    {
+      "id": "s2",
+      "text": "Lynde arrived to inspect her."
+    },
+    {
+      "id": "s3",
+      "text": "Mrs."
+    },
+    {
+      "id": "s4",
+      "text": "Rachel, to do her justice, was not to blame for this."
+    },
+    {
+      "id": "s5",
+      "text": "A severe and unseasonable attack of grippe had confined that good lady to her house ever since the occasion of her last visit to Green Gables."
+    },
+    {
+      "id": "s6",
+      "text": "Mrs."
+    },
+    {
+      "id": "s7",
+      "text": "Rachel was not often sick and had a well-defined contempt for people who were; but grippe, she asserted, was like no other illness on earth and could only be interpreted as one of the special visitations of Providence."
+    },
+    {
+      "id": "s8",
+      "text": "As soon as her doctor allowed her to put her foot out-of-doors she hurried up to Green Gables, bursting with curiosity to see Matthew and Marilla’s orphan, concerning whom all sorts of stories and suppositions had gone abroad in Avonlea."
+    },
+    {
+      "id": "s9",
+      "text": "Anne had made good use of every waking moment of that fortnight."
+    },
+    {
+      "id": "s10",
+      "text": "Already she was acquainted with every tree and shrub about the place."
+    },
+    {
+      "id": "s11",
+      "text": "She had discovered that a lane opened out below the apple orchard and ran up through a belt of woodland; and she had explored it to its furthest end in all its delicious vagaries of brook and bridge, fir coppice and wild cherry arch, corners thick with fern, and branching byways of maple and mountain ash."
+    },
+    {
+      "id": "s12",
+      "text": "She had made friends with the spring down in the hollow--that wonderful deep, clear icy-cold spring; it was set about with smooth red sandstones and rimmed in by great palm-like clumps of water fern; and beyond it was a log bridge over the brook."
+    },
+    {
+      "id": "s13",
+      "text": "That bridge led Anne’s dancing feet up over a wooded hill beyond, where perpetual twilight reigned under the straight, thick-growing firs and spruces; the only flowers there were myriads of delicate “June bells,” those shyest and sweetest of woodland blooms, and a few pale, aerial starflowers, like the spirits of last year’s blossoms."
+    },
+    {
+      "id": "s14",
+      "text": "Gossamers glimmered like threads of silver among the trees and the fir boughs and tassels seemed to utter friendly speech."
+    },
+    {
+      "id": "s15",
+      "text": "All these raptured voyages of exploration were made in the odd half hours which she was allowed for play, and Anne talked Matthew and Marilla half-deaf over her discoveries."
+    },
+    {
+      "id": "s16",
+      "text": "Not that Matthew complained, to be sure; he listened to it all with a wordless smile of enjoyment on his face; Marilla permitted the “chatter” until she found herself becoming too interested in it, whereupon she always promptly quenched Anne by a curt command to hold her tongue."
+    },
+    {
+      "id": "s17",
+      "text": "Anne was out in the orchard when Mrs."
+    },
+    {
+      "id": "s18",
+      "text": "Rachel came, wandering at her own sweet will through the lush, tremulous grasses splashed with ruddy evening sunshine; so that good lady had an excellent chance to talk her illness fully over, describing every ache and pulse beat with such evident enjoyment that Marilla thought even grippe must bring its compensations."
+    },
+    {
+      "id": "s19",
+      "text": "When details were exhausted Mrs."
+    },
+    {
+      "id": "s20",
+      "text": "Rachel introduced the real reason of her call."
+    },
+    {
+      "id": "s21",
+      "text": "“I’ve been hearing some surprising things about you and Matthew.”"
+    },
+    {
+      "id": "s22",
+      "text": "“I don’t suppose you are any more surprised than I am myself,” said Marilla."
+    },
+    {
+      "id": "s23",
+      "text": "“I’m getting over my surprise now.”"
+    },
+    {
+      "id": "s24",
+      "text": "“It was too bad there was such a mistake,” said Mrs."
+    },
+    {
+      "id": "s25",
+      "text": "Rachel sympathetically."
+    },
+    {
+      "id": "s26",
+      "text": "“Couldn’t you have sent her back?”"
+    },
+    {
+      "id": "s27",
+      "text": "“I suppose we could, but we decided not to."
+    },
+    {
+      "id": "s28",
+      "text": "Matthew took a fancy to her."
+    },
+    {
+      "id": "s29",
+      "text": "And I must say I like her myself--although I admit she has her faults."
+    },
+    {
+      "id": "s30",
+      "text": "The house seems a different place already."
+    },
+    {
+      "id": "s31",
+      "text": "She’s a real bright little thing.”"
+    },
+    {
+      "id": "s32",
+      "text": "Marilla said more than she had intended to say when she began, for she read disapproval in Mrs."
+    },
+    {
+      "id": "s33",
+      "text": "Rachel’s expression."
+    },
+    {
+      "id": "s34",
+      "text": "“It’s a great responsibility you’ve taken on yourself,” said that lady gloomily, “especially when you’ve never had any experience with children."
+    },
+    {
+      "id": "s35",
+      "text": "You don’t know much about her or her real disposition, I suppose, and there’s no guessing how a child like that will turn out."
+    },
+    {
+      "id": "s36",
+      "text": "But I don’t want to discourage you I’m sure, Marilla.”"
+    },
+    {
+      "id": "s37",
+      "text": "“I’m not feeling discouraged,” was Marilla’s dry response, “when I make up my mind to do a thing it stays made up."
+    },
+    {
+      "id": "s38",
+      "text": "I suppose you’d like to see Anne."
+    },
+    {
+      "id": "s39",
+      "text": "I’ll call her in.”"
+    },
+    {
+      "id": "s40",
+      "text": "Anne came running in presently, her face sparkling with the delight of her orchard rovings; but, abashed at finding the delight herself in the unexpected presence of a stranger, she halted confusedly inside the door."
+    },
+    {
+      "id": "s41",
+      "text": "She certainly was an odd-looking little creature in the short tight wincey dress she had worn from the asylum, below which her thin legs seemed ungracefully long."
+    },
+    {
+      "id": "s42",
+      "text": "Her freckles were more numerous and obtrusive than ever; the wind had ruffled her hatless hair into over-brilliant disorder; it had never looked redder than at that moment."
+    },
+    {
+      "id": "s43",
+      "text": "“Well, they didn’t pick you for your looks, that’s sure and certain,” was Mrs."
+    },
+    {
+      "id": "s44",
+      "text": "Rachel Lynde’s emphatic comment."
+    },
+    {
+      "id": "s45",
+      "text": "Mrs."
+    },
+    {
+      "id": "s46",
+      "text": "Rachel was one of those delightful and popular people who pride themselves on speaking their mind without fear or favor."
+    },
+    {
+      "id": "s47",
+      "text": "“She’s terrible skinny and homely, Marilla."
+    },
+    {
+      "id": "s48",
+      "text": "Come here, child, and let me have a look at you."
+    },
+    {
+      "id": "s49",
+      "text": "Lawful heart, did any one ever see such freckles?"
+    },
+    {
+      "id": "s50",
+      "text": "And hair as red as carrots!"
+    },
+    {
+      "id": "s51",
+      "text": "Come here, child, I say.”"
+    },
+    {
+      "id": "s52",
+      "text": "Anne “came there,” but not exactly as Mrs."
+    },
+    {
+      "id": "s53",
+      "text": "Rachel expected."
+    },
+    {
+      "id": "s54",
+      "text": "With one bound she crossed the kitchen floor and stood before Mrs."
+    },
+    {
+      "id": "s55",
+      "text": "Rachel, her face scarlet with anger, her lips quivering, and her whole slender form trembling from head to foot."
+    },
+    {
+      "id": "s56",
+      "text": "“I hate you,” she cried in a choked voice, stamping her foot on the floor."
+    },
+    {
+      "id": "s57",
+      "text": "“I hate you--I hate you--I hate you--” a louder stamp with each assertion of hatred."
+    },
+    {
+      "id": "s58",
+      "text": "“How dare you call me skinny and ugly?"
+    },
+    {
+      "id": "s59",
+      "text": "How dare you say I’m freckled and redheaded?"
+    },
+    {
+      "id": "s60",
+      "text": "You are a rude, impolite, unfeeling woman!”"
+    },
+    {
+      "id": "s61",
+      "text": "“Anne!” exclaimed Marilla in consternation."
+    },
+    {
+      "id": "s62",
+      "text": "But Anne continued to face Mrs."
+    },
+    {
+      "id": "s63",
+      "text": "Rachel undauntedly, head up, eyes blazing, hands clenched, passionate indignation exhaling from her like an atmosphere."
+    },
+    {
+      "id": "s64",
+      "text": "“How dare you say such things about me?” she repeated vehemently."
+    },
+    {
+      "id": "s65",
+      "text": "“How would you like to have such things said about you?"
+    },
+    {
+      "id": "s66",
+      "text": "How would you like to be told that you are fat and clumsy and probably hadn’t a spark of imagination in you?"
+    },
+    {
+      "id": "s67",
+      "text": "I don’t care if I do hurt your feelings by saying so!"
+    },
+    {
+      "id": "s68",
+      "text": "I hope I hurt them."
+    },
+    {
+      "id": "s69",
+      "text": "You have hurt mine worse than they were ever hurt before even by Mrs."
+    },
+    {
+      "id": "s70",
+      "text": "Thomas’ intoxicated husband."
+    },
+    {
+      "id": "s71",
+      "text": "And I’ll _never_ forgive you for it, never, never!”"
+    },
+    {
+      "id": "s72",
+      "text": "Stamp!"
+    },
+    {
+      "id": "s73",
+      "text": "Stamp!"
+    },
+    {
+      "id": "s74",
+      "text": "“Did anybody ever see such a temper!” exclaimed the horrified Mrs."
+    },
+    {
+      "id": "s75",
+      "text": "Rachel."
+    },
+    {
+      "id": "s76",
+      "text": "“Anne go to your room and stay there until I come up,” said Marilla, recovering her powers of speech with difficulty."
+    },
+    {
+      "id": "s77",
+      "text": "Anne, bursting into tears, rushed to the hall door, slammed it until the tins on the porch wall outside rattled in sympathy, and fled through the hall and up the stairs like a whirlwind."
+    },
+    {
+      "id": "s78",
+      "text": "A subdued slam above told that the door of the east gable had been shut with equal vehemence."
+    },
+    {
+      "id": "s79",
+      "text": "“Well, I don’t envy you your job bringing _that_ up, Marilla,” said Mrs."
+    },
+    {
+      "id": "s80",
+      "text": "Rachel with unspeakable solemnity."
+    },
+    {
+      "id": "s81",
+      "text": "Marilla opened her lips to say she knew not what of apology or deprecation."
+    },
+    {
+      "id": "s82",
+      "text": "What she did say was a surprise to herself then and ever afterwards."
+    },
+    {
+      "id": "s83",
+      "text": "“You shouldn’t have twitted her about her looks, Rachel.”"
+    },
+    {
+      "id": "s84",
+      "text": "“Marilla Cuthbert, you don’t mean to say that you are upholding her in such a terrible display of temper as we’ve just seen?” demanded Mrs."
+    },
+    {
+      "id": "s85",
+      "text": "Rachel indignantly."
+    },
+    {
+      "id": "s86",
+      "text": "“No,” said Marilla slowly, “I’m not trying to excuse her."
+    },
+    {
+      "id": "s87",
+      "text": "She’s been very naughty and I’ll have to give her a talking to about it."
+    },
+    {
+      "id": "s88",
+      "text": "But we must make allowances for her."
+    },
+    {
+      "id": "s89",
+      "text": "She’s never been taught what is right."
+    },
+    {
+      "id": "s90",
+      "text": "And you _were_ too hard on her, Rachel.”"
+    },
+    {
+      "id": "s91",
+      "text": "Marilla could not help tacking on that last sentence, although she was again surprised at herself for doing it."
+    },
+    {
+      "id": "s92",
+      "text": "Mrs."
+    },
+    {
+      "id": "s93",
+      "text": "Rachel got up with an air of offended dignity."
+    },
+    {
+      "id": "s94",
+      "text": "“Well, I see that I’ll have to be very careful what I say after this, Marilla, since the fine feelings of orphans, brought from goodness knows where, have to be considered before anything else."
+    },
+    {
+      "id": "s95",
+      "text": "Oh, no, I’m not vexed--don’t worry yourself."
+    },
+    {
+      "id": "s96",
+      "text": "I’m too sorry for you to leave any room for anger in my mind."
+    },
+    {
+      "id": "s97",
+      "text": "You’ll have your own troubles with that child."
+    },
+    {
+      "id": "s98",
+      "text": "But if you’ll take my advice--which I suppose you won’t do, although I’ve brought up ten children and buried two--you’ll do that ‘talking to’ you mention with a fair-sized birch switch."
+    },
+    {
+      "id": "s99",
+      "text": "I should think _that_ would be the most effective language for that kind of a child."
+    },
+    {
+      "id": "s100",
+      "text": "Her temper matches her hair I guess."
+    },
+    {
+      "id": "s101",
+      "text": "Well, good evening, Marilla."
+    },
+    {
+      "id": "s102",
+      "text": "I hope you’ll come down to see me often as usual."
+    },
+    {
+      "id": "s103",
+      "text": "But you can’t expect me to visit here again in a hurry, if I’m liable to be flown at and insulted in such a fashion."
+    },
+    {
+      "id": "s104",
+      "text": "It’s something new in _my_ experience.”"
+    },
+    {
+      "id": "s105",
+      "text": "Whereat Mrs."
+    },
+    {
+      "id": "s106",
+      "text": "Rachel swept out and away--if a fat woman who always waddled _could_ be said to sweep away--and Marilla with a very solemn face betook herself to the east gable."
+    },
+    {
+      "id": "s107",
+      "text": "On the way upstairs she pondered uneasily as to what she ought to do."
+    },
+    {
+      "id": "s108",
+      "text": "She felt no little dismay over the scene that had just been enacted."
+    },
+    {
+      "id": "s109",
+      "text": "How unfortunate that Anne should have displayed such temper before Mrs."
+    },
+    {
+      "id": "s110",
+      "text": "Rachel Lynde, of all people!"
+    },
+    {
+      "id": "s111",
+      "text": "Then Marilla suddenly became aware of an uncomfortable and rebuking consciousness that she felt more humiliation over this than sorrow over the discovery of such a serious defect in Anne’s disposition."
+    },
+    {
+      "id": "s112",
+      "text": "And how was she to punish her?"
+    },
+    {
+      "id": "s113",
+      "text": "The amiable suggestion of the birch switch--to the efficiency of which all of Mrs."
+    },
+    {
+      "id": "s114",
+      "text": "Rachel’s own children could have borne smarting testimony--did not appeal to Marilla."
+    },
+    {
+      "id": "s115",
+      "text": "She did not believe she could whip a child."
+    },
+    {
+      "id": "s116",
+      "text": "No, some other method of punishment must be found to bring Anne to a proper realization of the enormity of her offense."
+    },
+    {
+      "id": "s117",
+      "text": "Marilla found Anne face downward on her bed, crying bitterly, quite oblivious of muddy boots on a clean counterpane."
+    },
+    {
+      "id": "s118",
+      "text": "“Anne,” she said not ungently."
+    },
+    {
+      "id": "s119",
+      "text": "No answer."
+    },
+    {
+      "id": "s120",
+      "text": "“Anne,” with greater severity, “get off that bed this minute and listen to what I have to say to you.”"
+    },
+    {
+      "id": "s121",
+      "text": "Anne squirmed off the bed and sat rigidly on a chair beside it, her face swollen and tear-stained and her eyes fixed stubbornly on the floor."
+    },
+    {
+      "id": "s122",
+      "text": "“This is a nice way for you to behave."
+    },
+    {
+      "id": "s123",
+      "text": "Anne!"
+    },
+    {
+      "id": "s124",
+      "text": "Aren’t you ashamed of yourself?”"
+    },
+    {
+      "id": "s125",
+      "text": "“She hadn’t any right to call me ugly and redheaded,” retorted Anne, evasive and defiant."
+    },
+    {
+      "id": "s126",
+      "text": "“You hadn’t any right to fly into such a fury and talk the way you did to her, Anne."
+    },
+    {
+      "id": "s127",
+      "text": "I was ashamed of you--thoroughly ashamed of you."
+    },
+    {
+      "id": "s128",
+      "text": "I wanted you to behave nicely to Mrs."
+    },
+    {
+      "id": "s129",
+      "text": "Lynde, and instead of that you have disgraced me."
+    },
+    {
+      "id": "s130",
+      "text": "I’m sure I don’t know why you should lose your temper like that just because Mrs."
+    },
+    {
+      "id": "s131",
+      "text": "Lynde said you were red-haired and homely."
+    },
+    {
+      "id": "s132",
+      "text": "You say it yourself often enough.”"
+    },
+    {
+      "id": "s133",
+      "text": "“Oh, but there’s such a difference between saying a thing yourself and hearing other people say it,” wailed Anne."
+    },
+    {
+      "id": "s134",
+      "text": "“You may know a thing is so, but you can’t help hoping other people don’t quite think it is."
+    },
+    {
+      "id": "s135",
+      "text": "I suppose you think I have an awful temper, but I couldn’t help it."
+    },
+    {
+      "id": "s136",
+      "text": "When she said those things something just rose right up in me and choked me."
+    },
+    {
+      "id": "s137",
+      "text": "I _had_ to fly out at her.”"
+    },
+    {
+      "id": "s138",
+      "text": "“Well, you made a fine exhibition of yourself I must say."
+    },
+    {
+      "id": "s139",
+      "text": "Mrs."
+    },
+    {
+      "id": "s140",
+      "text": "Lynde will have a nice story to tell about you everywhere--and she’ll tell it, too."
+    },
+    {
+      "id": "s141",
+      "text": "It was a dreadful thing for you to lose your temper like that, Anne.”"
+    },
+    {
+      "id": "s142",
+      "text": "“Just imagine how you would feel if somebody told you to your face that you were skinny and ugly,” pleaded Anne tearfully."
+    },
+    {
+      "id": "s143",
+      "text": "An old remembrance suddenly rose up before Marilla."
+    },
+    {
+      "id": "s144",
+      "text": "She had been a very small child when she had heard one aunt say of her to another, “What a pity she is such a dark, homely little thing.” Marilla was every day of fifty before the sting had gone out of that memory."
+    },
+    {
+      "id": "s145",
+      "text": "“I don’t say that I think Mrs."
+    },
+    {
+      "id": "s146",
+      "text": "Lynde was exactly right in saying what she did to you, Anne,” she admitted in a softer tone."
+    },
+    {
+      "id": "s147",
+      "text": "“Rachel is too outspoken."
+    },
+    {
+      "id": "s148",
+      "text": "But that is no excuse for such behavior on your part."
+    },
+    {
+      "id": "s149",
+      "text": "She was a stranger and an elderly person and my visitor--all three very good reasons why you should have been respectful to her."
+    },
+    {
+      "id": "s150",
+      "text": "You were rude and saucy and”--Marilla had a saving inspiration of punishment--“you must go to her and tell her you are very sorry for your bad temper and ask her to forgive you.”"
+    },
+    {
+      "id": "s151",
+      "text": "“I can never do that,” said Anne determinedly and darkly."
+    },
+    {
+      "id": "s152",
+      "text": "“You can punish me in any way you like, Marilla."
+    },
+    {
+      "id": "s153",
+      "text": "You can shut me up in a dark, damp dungeon inhabited by snakes and toads and feed me only on bread and water and I shall not complain."
+    },
+    {
+      "id": "s154",
+      "text": "But I cannot ask Mrs."
+    },
+    {
+      "id": "s155",
+      "text": "Lynde to forgive me.”"
+    },
+    {
+      "id": "s156",
+      "text": "“We’re not in the habit of shutting people up in dark damp dungeons,” said Marilla drily, “especially as they’re rather scarce in Avonlea."
+    },
+    {
+      "id": "s157",
+      "text": "But apologize to Mrs."
+    },
+    {
+      "id": "s158",
+      "text": "Lynde you must and shall and you’ll stay here in your room until you can tell me you’re willing to do it.”"
+    },
+    {
+      "id": "s159",
+      "text": "“I shall have to stay here forever then,” said Anne mournfully, “because I can’t tell Mrs."
+    },
+    {
+      "id": "s160",
+      "text": "Lynde I’m sorry I said those things to her."
+    },
+    {
+      "id": "s161",
+      "text": "How can I?"
+    },
+    {
+      "id": "s162",
+      "text": "I’m _not_ sorry."
+    },
+    {
+      "id": "s163",
+      "text": "I’m sorry I’ve vexed you; but I’m _glad_ I told her just what I did."
+    },
+    {
+      "id": "s164",
+      "text": "It was a great satisfaction."
+    },
+    {
+      "id": "s165",
+      "text": "I can’t say I’m sorry when I’m not, can I?"
+    },
+    {
+      "id": "s166",
+      "text": "I can’t even _imagine_ I’m sorry.”"
+    },
+    {
+      "id": "s167",
+      "text": "“Perhaps your imagination will be in better working order by the morning,” said Marilla, rising to depart."
+    },
+    {
+      "id": "s168",
+      "text": "“You’ll have the night to think over your conduct in and come to a better frame of mind."
+    },
+    {
+      "id": "s169",
+      "text": "You said you would try to be a very good girl if we kept you at Green Gables, but I must say it hasn’t seemed very much like it this evening.”"
+    },
+    {
+      "id": "s170",
+      "text": "Leaving this Parthian shaft to rankle in Anne’s stormy bosom, Marilla descended to the kitchen, grievously troubled in mind and vexed in soul."
+    },
+    {
+      "id": "s171",
+      "text": "She was as angry with herself as with Anne, because, whenever she recalled Mrs."
+    },
+    {
+      "id": "s172",
+      "text": "Rachel’s dumbfounded countenance her lips twitched with amusement and she felt a most reprehensible desire to laugh."
+    }
+  ]
+}
