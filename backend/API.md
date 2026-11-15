@@ -57,7 +57,9 @@ real name, email address, payment detail, or child identifier.
 `backend/data/platform-catalogs.json` is the reviewable, versioned World
 catalog seed (currently schema version 1). The metadata-only web book catalog
 lives in `backend/data/books/catalog.json`; reviewed source records live in
-`backend/data/books/reviewed-books.json`; exact quest mappings live in
+`backend/data/books/reviewed-books.json`; verified local chapter-cache entries
+live in `backend/data/books/cached-chapter-index.json` and
+`cached-chapters/`; exact quest mappings live in
 `backend/data/books/quest-mappings.json`. Migrations `001_local_demo_platform.sql`,
 `002_book_library_and_progression.sql`, and `003_wallet_and_wishlist_pages.sql`
 create the matching SQLite tables. Set `LITLEARN_DATABASE_PATH` to retain a
@@ -72,7 +74,7 @@ process-memory state. Set `LITLEARN_FORCE_MEMORY=1` to exercise that fallback.
 | `PetAccessory` | `id`, category, `wearableType` (`accessory` or `clothing`), rarity, price/currency, compatible pet types, source/license metadata, availability |
 | `PetEgg` | `id`, rarity range, explicit odds, price/currency, possible rewards, and duplicate Story Shard conversion credited as Diamonds |
 | `Profile` | anonymous `id`, display name, XP/level, authoritative `{gold, diamonds}` wallet, `inventory.wishlistPages`, active/owned pets and pet nicknames, equipped accessories, non-book wishlist items, separate `bookWishlistIds`, collections, permanent book IDs, preferences, local-demo entitlement |
-| `Book` | stable `id`, title, author, Project Gutenberg `source.ebookId`, authoring-only source URL, edition, category/difficulty/rating, `sourceReference`, `source.accessedAt`, ebook-license review state, U.S. and worldwide rights status, attribution, `access:{state: free\|premium\|purchase-only,priceDiamonds?}`, verified-or-explicitly-unverified chapter metadata, and in-app availability |
+| `Book` | stable `id`, title, author, Project Gutenberg `source.ebookId`, edition, category/difficulty/rating, `sourceReference`, `source.accessedAt`, ebook-license review state, U.S. and worldwide rights status, attribution, `access:{state: free\|premium\|purchase-only,priceDiamonds?}`, verified-or-explicitly-unverified chapter metadata, and in-app availability. Source URLs stay authoring-only. |
 | `Chapter` | stable `id`, verified title/boundary status, `contentAvailability`, static `access.state`, and `readingLevels:[{id,label,access}]`; the current response uses `free`, `premium`, or `purchase-only` access labels and never invents a missing chapter |
 | `BookActivity` | stable activity ID, `activityType`, review status, target skill, exact book ID/edition/chapter IDs, `sourceLabel`, and mapping basis. Only `reviewed` activities are returned by public catalog endpoints. |
 | `Reward` | deterministic instance ID plus catalog reward ID, `currency`, `accessory`, `pet`, `egg`, or `inventory` type, quantity, rarity, source, and one-way claim status |
@@ -95,15 +97,18 @@ one Rare reward and a Premium pass with one Epic reward.
 Literary metadata is catalog metadata only. All companions and accessories are
 original LitLearn designs, not adaptations of modern film, game, or book
 characters. The current catalog contains 100 generated Project Gutenberg
-metadata records plus two reviewed Project Gutenberg title records. Generated
-records are **reference-only** until a work-specific edition review clears text
-reuse. The browser catalog does not expose third-party source or reader URLs;
-it exposes `sourceReference` and required attribution instead. It can render
-only the reviewed `bundled-passage` for *The Wonderful Wizard of Oz*, Chapter
-I, from the supplied LitLearn data; every other listed chapter remains visible
-with `contentAvailability: "unavailable"`. The one reviewed catalog quiz is
-mapped to that exact Project Gutenberg eBook #55 edition and chapter; no quiz
-is advertised for an unreviewed passage.
+metadata records, overlaid by 25 individually reviewed local Chapter I caches,
+plus the two pre-existing reviewed records. Generated records that have not
+been overlaid are **reference-only** until a work-specific edition review
+clears text reuse. The cached set covers Adventure, Mystery, Fantasy and
+folklore, Science and nature, Nature and animals, History and biography,
+Family stories, and Classics. The browser catalog does not expose third-party
+source or reader URLs; it exposes `sourceReference` and required attribution
+instead. It can render local `cached-chapter` content for those 25 exact
+editions and the reviewed `bundled-passage` for *The Wonderful Wizard of Oz*,
+Chapter I. The one reviewed catalog quiz remains mapped to that exact Project
+Gutenberg eBook #55 edition and chapter; no quiz is advertised for an
+unreviewed passage.
 
 Every reference record retains a Gutenberg ID and landing page but is marked
 `source.accessedAt: null`, `source.ebookLicenseReviewStatus: "review-needed"`,
@@ -168,9 +173,13 @@ text worldwide.
   appear in a learner response.
 - Reading: `GET /api/profiles/{profileId}/books/{bookId}/access`,
   `GET .../chapters/{chapterId}`, and `GET .../reader`. Chapter/reader
-  retrieval returns a reviewed `bundled-passage` with stable sentence IDs or a
-  structured `unavailable` result. It never sends a reader URL. Cache only
-  bundled reader content by book/chapter ID, never in learner-progress state.
+  retrieval returns a reviewed `cached-chapter` or `bundled-passage` with
+  stable sentence IDs, or a structured `unavailable` result. It never sends a
+  reader URL. Cache only reader content by book/chapter ID, never in
+  learner-progress state. `access.allowed:false` with `state:"premium"` or
+  `state:"purchase-only"` is a lock state; `content.mode:"unavailable"` is
+  a content state; HTTP 503 with `detail.code:"catalog_unavailable"` is an
+  error state. The client owns the transient `loading` state while fetching.
 - Local demo ownership: `POST .../books/{bookId}/purchases/demo` records a
   mock permanent purchase only for a title whose `accessRules` allow it.
   `GET .../library` returns only permanently owned titles and titles currently
@@ -215,9 +224,34 @@ and retain its Terms of Use, License, territory, attribution, and
 robot/download guidance for review. A source edition is not treated as
 text-cleared when the title metadata cannot identify it. The generator is
 `backend/scripts/generate_gutenberg_catalog.py`; it reads an already-downloaded
-offline CSV and deliberately rejects runtime bulk downloading. The reader does
-not download Gutenberg text: source metadata is held separately from the short
-reviewed passage in `backend/data/quest-1.json`.
+offline CSV and deliberately rejects runtime bulk downloading.
+`backend/scripts/cache_gutenberg_chapters.py` is a separate authoring-only
+review command: it first asks Gutendex for one title's metadata, falls back to
+the checked offline catalog only when Gutendex is unavailable, verifies the
+matching Gutenberg landing page says "Public domain in the USA", checks the
+downloaded eBook notices, and rejects a title without an exact named chapter
+boundary. It writes only the approved local chapter cache. The reader never
+downloads Gutenberg text; it serves the local cache by stable book/chapter ID.
+
+### Cached chapter response
+
+For an entitled reader, `GET /api/profiles/{profileId}/books/{bookId}/chapters/{chapterId}`
+returns this source-safe shape (the real `sentences` array contains the full
+reviewed chapter, with no upstream URL):
+
+```json
+{
+  "bookId": "gutenberg-11-alice-s-adventures-in-wonderland",
+  "chapterId": "chapter-1",
+  "access": {"allowed": true, "state": "free", "reason": "free-pass"},
+  "content": {
+    "mode": "cached-chapter",
+    "sentences": [{"id": "s1", "text": "Alice was beginning to get very tired..."}],
+    "cacheHint": "Cache reviewed reader content by book and chapter ID; do not store it in learner progress."
+  },
+  "attribution": {"sourceReference": "Project Gutenberg eBook #11", "requiredAttribution": "..."}
+}
+```
 
 All platform errors use the same compact shape as the quest API:
 

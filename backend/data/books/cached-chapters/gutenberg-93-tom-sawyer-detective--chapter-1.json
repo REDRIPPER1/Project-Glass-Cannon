@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-93-tom-sawyer-detective",
+  "ebookId": "93",
+  "edition": "Project Gutenberg eBook #93; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-1",
+  "chapterTitle": "CHAPTER I. AN INVITATION FOR TOM AND HUCK",
+  "contentHash": "sha256:5077e1052f9d589bb466a81ca5ae9708c66f7891319f87a4d4a795e74f42072d",
+  "attribution": "Twain, Mark, 1835-1910, Tom Sawyer, Detective, CHAPTER I. AN INVITATION FOR TOM AND HUCK. Source checked against Project Gutenberg eBook #93.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/93",
+    "textUrl": "https://www.gutenberg.org/cache/epub/93/pg93.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "[Note: Strange as the incidents of this story are, they are not inventions, but facts—even to the public confession of the accused."
+    },
+    {
+      "id": "s2",
+      "text": "I take them from an old-time Swedish criminal trial, change the actors, and transfer the scenes to America."
+    },
+    {
+      "id": "s3",
+      "text": "I have added some details, but only a couple of them are important ones. — M."
+    },
+    {
+      "id": "s4",
+      "text": "T.]"
+    },
+    {
+      "id": "s5",
+      "text": "Well, it was the next spring after me and Tom Sawyer set our old nigger Jim free, the time he was chained up for a runaway slave down there on Tom’s uncle Silas’s farm in Arkansaw."
+    },
+    {
+      "id": "s6",
+      "text": "The frost was working out of the ground, and out of the air, too, and it was getting closer and closer onto barefoot time every day; and next it would be marble time, and next mumbletypeg, and next tops and hoops, and next kites, and then right away it would be summer and going in a-swimming."
+    },
+    {
+      "id": "s7",
+      "text": "It just makes a boy homesick to look ahead like that and see how far off summer is."
+    },
+    {
+      "id": "s8",
+      "text": "Yes, and it sets him to sighing and saddening around, and there’s something the matter with him, he don’t know what."
+    },
+    {
+      "id": "s9",
+      "text": "But anyway, he gets out by himself and mopes and thinks; and mostly he hunts for a lonesome place high up on the hill in the edge of the woods, and sets there and looks away off on the big Mississippi down there a-reaching miles and miles around the points where the timber looks smoky and dim it’s so far off and still, and everything’s so solemn it seems like everybody you’ve loved is dead and gone, and you ’most wish you was dead and gone too, and done with it all."
+    },
+    {
+      "id": "s10",
+      "text": "Don’t you know what that is?"
+    },
+    {
+      "id": "s11",
+      "text": "It’s spring fever."
+    },
+    {
+      "id": "s12",
+      "text": "That is what the name of it is."
+    },
+    {
+      "id": "s13",
+      "text": "And when you’ve got it, you want—oh, you don’t quite know what it is you _do_ want, but it just fairly makes your heart ache, you want it so!"
+    },
+    {
+      "id": "s14",
+      "text": "It seems to you that mainly what you want is to get away; get away from the same old tedious things you’re so used to seeing and so tired of, and set something new."
+    },
+    {
+      "id": "s15",
+      "text": "That is the idea; you want to go and be a wanderer; you want to go wandering far away to strange countries where everything is mysterious and wonderful and romantic."
+    },
+    {
+      "id": "s16",
+      "text": "And if you can’t do that, you’ll put up with considerable less; you’ll go anywhere you _can_ go, just so as to get away, and be thankful of the chance, too."
+    },
+    {
+      "id": "s17",
+      "text": "Well, me and Tom Sawyer had the spring fever, and had it bad, too; but it warn’t any use to think about Tom trying to get away, because, as he said, his Aunt Polly wouldn’t let him quit school and go traipsing off somers wasting time; so we was pretty blue."
+    },
+    {
+      "id": "s18",
+      "text": "We was setting on the front steps one day about sundown talking this way, when out comes his aunt Polly with a letter in her hand and says:"
+    },
+    {
+      "id": "s19",
+      "text": "“Tom, I reckon you’ve got to pack up and go down to Arkansaw—your aunt Sally wants you.”"
+    },
+    {
+      "id": "s20",
+      "text": "I ’most jumped out of my skin for joy."
+    },
+    {
+      "id": "s21",
+      "text": "I reckoned Tom would fly at his aunt and hug her head off; but if you believe me he set there like a rock, and never said a word."
+    },
+    {
+      "id": "s22",
+      "text": "It made me fit to cry to see him act so foolish, with such a noble chance as this opening up."
+    },
+    {
+      "id": "s23",
+      "text": "Why, we might lose it if he didn’t speak up and show he was thankful and grateful."
+    },
+    {
+      "id": "s24",
+      "text": "But he set there and studied and studied till I was that distressed I didn’t know what to do; then he says, very ca’m, and I could a shot him for it:"
+    },
+    {
+      "id": "s25",
+      "text": "“Well,” he says, “I’m right down sorry, Aunt Polly, but I reckon I got to be excused—for the present.”"
+    },
+    {
+      "id": "s26",
+      "text": "His aunt Polly was knocked so stupid and so mad at the cold impudence of it that she couldn’t say a word for as much as a half a minute, and this gave me a chance to nudge Tom and whisper:"
+    },
+    {
+      "id": "s27",
+      "text": "“Ain’t you got any sense?"
+    },
+    {
+      "id": "s28",
+      "text": "Sp’iling such a noble chance as this and throwing it away?”"
+    },
+    {
+      "id": "s29",
+      "text": "But he warn’t disturbed."
+    },
+    {
+      "id": "s30",
+      "text": "He mumbled back:"
+    },
+    {
+      "id": "s31",
+      "text": "“Huck Finn, do you want me to let her _see_ how bad I want to go?"
+    },
+    {
+      "id": "s32",
+      "text": "Why, she’d begin to doubt, right away, and imagine a lot of sicknesses and dangers and objections, and first you know she’d take it all back."
+    },
+    {
+      "id": "s33",
+      "text": "You lemme alone; I reckon I know how to work her.”"
+    },
+    {
+      "id": "s34",
+      "text": "Now I never would ’a’ thought of that."
+    },
+    {
+      "id": "s35",
+      "text": "But he was right."
+    },
+    {
+      "id": "s36",
+      "text": "Tom Sawyer was always right—the levelest head I ever see, and always _at_ himself and ready for anything you might spring on him."
+    },
+    {
+      "id": "s37",
+      "text": "By this time his aunt Polly was all straight again, and she let fly."
+    },
+    {
+      "id": "s38",
+      "text": "She says:"
+    },
+    {
+      "id": "s39",
+      "text": "[Illustration: I reckon I got to be excused]"
+    },
+    {
+      "id": "s40",
+      "text": "“You’ll be excused! _you_ will!"
+    },
+    {
+      "id": "s41",
+      "text": "Well, I never heard the like of it in all my days!"
+    },
+    {
+      "id": "s42",
+      "text": "The idea of you talking like that to _me!_ Now take yourself off and pack your traps; and if I hear another word out of you about what you’ll be excused from and what you won’t, I lay _I’ll_ excuse you—with a hickory!”"
+    },
+    {
+      "id": "s43",
+      "text": "She hit his head a thump with her thimble as we dodged by, and he let on to be whimpering as we struck for the stairs."
+    },
+    {
+      "id": "s44",
+      "text": "Up in his room he hugged me, he was so out of his head for gladness because he was going traveling."
+    },
+    {
+      "id": "s45",
+      "text": "And he says:"
+    },
+    {
+      "id": "s46",
+      "text": "“Before we get away she’ll wish she hadn’t let me go, but she won’t know any way to get around it now."
+    },
+    {
+      "id": "s47",
+      "text": "After what she’s said, her pride won’t let her take it back.”"
+    },
+    {
+      "id": "s48",
+      "text": "Tom was packed in ten minutes, all except what his aunt and Mary would finish up for him; then we waited ten more for her to get cooled down and sweet and gentle again; for Tom said it took her ten minutes to unruffle in times when half of her feathers was up, but twenty when they was all up, and this was one of the times when they was all up."
+    },
+    {
+      "id": "s49",
+      "text": "Then we went down, being in a sweat to know what the letter said."
+    },
+    {
+      "id": "s50",
+      "text": "She was setting there in a brown study, with it laying in her lap."
+    },
+    {
+      "id": "s51",
+      "text": "We set down, and she says:"
+    },
+    {
+      "id": "s52",
+      "text": "“They’re in considerable trouble down there, and they think you and Huck’ll be a kind of diversion for them—’comfort,’ they say."
+    },
+    {
+      "id": "s53",
+      "text": "Much of that they’ll get out of you and Huck Finn, I reckon."
+    },
+    {
+      "id": "s54",
+      "text": "There’s a neighbor named Brace Dunlap that’s been wanting to marry their Benny for three months, and at last they told him point blank and once for all, he _could’t;_ so he has soured on them, and they’re worried about it."
+    },
+    {
+      "id": "s55",
+      "text": "I reckon he’s somebody they think they better be on the good side of, for they’ve tried to please him by hiring his no-account brother to help on the farm when they can’t hardly afford it, and don’t want him around anyhow."
+    },
+    {
+      "id": "s56",
+      "text": "Who are the Dunlaps?”"
+    },
+    {
+      "id": "s57",
+      "text": "“They live about a mile from Uncle Silas’s place, Aunt Polly—all the farmers live about a mile apart down there—and Brace Dunlap is a long sight richer than any of the others, and owns a whole grist of niggers."
+    },
+    {
+      "id": "s58",
+      "text": "He’s a widower, thirty-six years old, without any children, and is proud of his money and overbearing, and everybody is a little afraid of him."
+    },
+    {
+      "id": "s59",
+      "text": "I judge he thought he could have any girl he wanted, just for the asking, and it must have set him back a good deal when he found he couldn’t get Benny."
+    },
+    {
+      "id": "s60",
+      "text": "Why, Benny’s only half as old as he is, and just as sweet and lovely as—well, you’ve seen her."
+    },
+    {
+      "id": "s61",
+      "text": "Poor old Uncle Silas—why, it’s pitiful, him trying to curry favor that way—so hard pushed and poor, and yet hiring that useless Jubiter Dunlap to please his ornery brother.”"
+    },
+    {
+      "id": "s62",
+      "text": "“What a name—Jubiter!"
+    },
+    {
+      "id": "s63",
+      "text": "Where’d he get it?”"
+    },
+    {
+      "id": "s64",
+      "text": "“It’s only just a nickname."
+    },
+    {
+      "id": "s65",
+      "text": "I reckon they’ve forgot his real name long before this."
+    },
+    {
+      "id": "s66",
+      "text": "He’s twenty-seven, now, and has had it ever since the first time he ever went in swimming."
+    },
+    {
+      "id": "s67",
+      "text": "The school teacher seen a round brown mole the size of a dime on his left leg above his knee, and four little bits of moles around it, when he was naked, and he said it minded him of Jubiter and his moons; and the children thought it was funny, and so they got to calling him Jubiter, and he’s Jubiter yet."
+    },
+    {
+      "id": "s68",
+      "text": "He’s tall, and lazy, and sly, and sneaky, and ruther cowardly, too, but kind of good-natured, and wears long brown hair and no beard, and hasn’t got a cent, and Brace boards him for nothing, and gives him his old clothes to wear, and despises him."
+    },
+    {
+      "id": "s69",
+      "text": "Jubiter is a twin.”"
+    },
+    {
+      "id": "s70",
+      "text": "“What’s t’other twin like?”"
+    },
+    {
+      "id": "s71",
+      "text": "“Just exactly like Jubiter—so they say; used to was, anyway, but he hain’t been seen for seven years."
+    },
+    {
+      "id": "s72",
+      "text": "He got to robbing when he was nineteen or twenty, and they jailed him; but he broke jail and got away—up North here, somers."
+    },
+    {
+      "id": "s73",
+      "text": "They used to hear about him robbing and burglaring now and then, but that was years ago."
+    },
+    {
+      "id": "s74",
+      "text": "He’s dead, now."
+    },
+    {
+      "id": "s75",
+      "text": "At least that’s what they say."
+    },
+    {
+      "id": "s76",
+      "text": "They don’t hear about him any more.”"
+    },
+    {
+      "id": "s77",
+      "text": "“What was his name?”"
+    },
+    {
+      "id": "s78",
+      "text": "“Jake.”"
+    },
+    {
+      "id": "s79",
+      "text": "There wasn’t anything more said for a considerable while; the old lady was thinking."
+    },
+    {
+      "id": "s80",
+      "text": "At last she says:"
+    },
+    {
+      "id": "s81",
+      "text": "“The thing that is mostly worrying your aunt Sally is the tempers that that man Jubiter gets your uncle into.”"
+    },
+    {
+      "id": "s82",
+      "text": "Tom was astonished, and so was I."
+    },
+    {
+      "id": "s83",
+      "text": "Tom says:"
+    },
+    {
+      "id": "s84",
+      "text": "“Tempers?"
+    },
+    {
+      "id": "s85",
+      "text": "Uncle Silas?"
+    },
+    {
+      "id": "s86",
+      "text": "Land, you must be joking!"
+    },
+    {
+      "id": "s87",
+      "text": "I didn’t know he _had_ any temper.”"
+    },
+    {
+      "id": "s88",
+      "text": "“Works him up into perfect rages, your aunt Sally says; says he acts as if he would really hit the man, sometimes.”"
+    },
+    {
+      "id": "s89",
+      "text": "“Aunt Polly, it beats anything I ever heard of."
+    },
+    {
+      "id": "s90",
+      "text": "Why, he’s just as gentle as mush.”"
+    },
+    {
+      "id": "s91",
+      "text": "“Well, she’s worried, anyway."
+    },
+    {
+      "id": "s92",
+      "text": "Says your uncle Silas is like a changed man, on account of all this quarreling."
+    },
+    {
+      "id": "s93",
+      "text": "And the neighbors talk about it, and lay all the blame on your uncle, of course, because he’s a preacher and hain’t got any business to quarrel."
+    },
+    {
+      "id": "s94",
+      "text": "Your aunt Sally says he hates to go into the pulpit he’s so ashamed; and the people have begun to cool toward him, and he ain’t as popular now as he used to was.”"
+    },
+    {
+      "id": "s95",
+      "text": "“Well, ain’t it strange?"
+    },
+    {
+      "id": "s96",
+      "text": "Why, Aunt Polly, he was always so good and kind and moony and absent-minded and chuckle-headed and lovable—why, he was just an angel!"
+    },
+    {
+      "id": "s97",
+      "text": "What _can_ be the matter of him, do you reckon?”"
+    }
+  ]
+}

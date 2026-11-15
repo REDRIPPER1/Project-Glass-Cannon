@@ -6,7 +6,13 @@ from collections import Counter
 from copy import deepcopy
 import unittest
 
-from backend.book_catalog import load_book_catalog, load_book_quizzes, load_quest_mappings
+from backend.book_catalog import (
+    cached_passage_for_chapter,
+    load_book_catalog,
+    load_book_quizzes,
+    load_cached_chapter_index,
+    load_quest_mappings,
+)
 from backend.catalog import load_catalogs
 from backend.progression import level_nodes
 from backend.store import DemoStore, PlatformError
@@ -29,11 +35,11 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.store = DemoStore(self.catalogs, self.books)
         self.profile_id = self.store.create_profile("Library Reader")["id"]
 
-    def test_catalog_has_metadata_only_100_plus_books_and_exact_mappings(self):
+    def test_catalog_has_100_plus_books_and_25_verified_cached_chapters(self):
         self.assertGreaterEqual(len(self.books["books"]), 100)
-        self.assertGreaterEqual(len({book["category"] for book in self.books["books"]}), 5)
+        self.assertGreaterEqual(len({book["category"] for book in self.books["books"]}), 6)
         reference_books = [book for book in self.books["books"] if book["rights"]["status"] == "reference-only-unreviewed"]
-        self.assertGreaterEqual(len(reference_books), 100)
+        self.assertGreaterEqual(len(reference_books), 75)
         self.assertTrue(all(not book["rights"]["textReuseCleared"] for book in reference_books))
         self.assertTrue(all(book["chapterMetadata"] == [] for book in reference_books))
         self.assertTrue(all(book["source"]["provider"] == "Project Gutenberg" for book in self.books["books"]))
@@ -42,6 +48,13 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertTrue(all(book["source"]["ebookLicenseReviewStatus"] == "review-needed" for book in reference_books))
         self.assertTrue(all(book["rights"]["usCopyrightStatus"] == "not-individually-verified" for book in reference_books))
         self.assertTrue(all(book["rights"]["worldwideCopyrightStatus"] == "review-required" for book in self.books["books"]))
+        required_categories = {"Adventure", "Mystery", "Fantasy and folklore", "Nature and animals", "History and biography", "Classics"}
+        self.assertTrue(required_categories.issubset({book["category"] for book in self.books["books"]}))
+        cached_index = load_cached_chapter_index(catalog=self.books)
+        self.assertGreaterEqual(len(cached_index["entries"]), 25)
+        for entry in cached_index["entries"]:
+            passage = cached_passage_for_chapter(entry["bookId"], entry["chapterId"], self.books)
+            self.assertGreaterEqual(len(passage or []), 10)
         mappings = {item["id"]: item for item in load_quest_mappings(catalog=self.books)["mappings"]}
         self.assertEqual(mappings["wizard-cyclone-inference"]["bookId"], "wizard-of-oz")
         self.assertEqual(mappings["wizard-cyclone-inference"]["chapterIds"], ["chapter-1-cyclone"])
@@ -107,13 +120,25 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertEqual(free_chapter["content"]["mode"], "bundled-passage")
         self.assertIn("L. Frank Baum", free_chapter["attribution"]["requiredAttribution"])
         self.assertNotIn("url", str(free_chapter["content"]).lower())
-        source_only = self.store.reader_reference(self.profile_id, "gutenberg-11-alice-s-adventures-in-wonderland")
+        alice_chapter = self.store.chapter(self.profile_id, "gutenberg-11-alice-s-adventures-in-wonderland", "chapter-1")
+        self.assertEqual(alice_chapter["content"]["mode"], "cached-chapter")
+        self.assertGreaterEqual(len(alice_chapter["content"]["sentences"]), 10)
+        self.assertNotIn("url", str(alice_chapter["content"]).lower())
+        source_only = self.store.reader_reference(self.profile_id, "gutenberg-13-the-hunting-of-the-snark-an-agony-in-eight-fits")
         self.assertEqual(source_only["content"]["mode"], "unavailable")
         self.store.set_demo_entitlement(self.profile_id, "premium", True)
         self.assertTrue(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         self.assertEqual(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["state"], "premium")
         self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["allowed"])
         self.assertEqual(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["state"], "purchase-only")
+        premium_chapter = self.store.chapter(self.profile_id, "gutenberg-12-through-the-looking-glass", "chapter-1")
+        self.assertEqual(premium_chapter["access"]["state"], "premium")
+        self.assertEqual(premium_chapter["content"]["mode"], "cached-chapter")
+        self.assertFalse(self.store.book_access(self.profile_id, "gutenberg-121-northanger-abbey", "chapter-1")["allowed"])
+        self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 100
+        purchased_chapter = self.store.purchase_book(self.profile_id, "gutenberg-121-northanger-abbey")
+        self.assertEqual(purchased_chapter["ownership"], "permanent")
+        self.assertEqual(self.store.chapter(self.profile_id, "gutenberg-121-northanger-abbey", "chapter-1")["content"]["mode"], "cached-chapter")
         self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 24
         purchase = self.store.purchase_book(self.profile_id, "secret-garden")
         self.assertTrue(purchase["mocked"])

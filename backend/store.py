@@ -13,7 +13,13 @@ import tempfile
 from typing import Any
 from uuid import uuid4
 
-from .book_catalog import book_index, bundled_passage_for_chapter, load_book_catalog, load_book_quizzes
+from .book_catalog import (
+    book_index,
+    bundled_passage_for_chapter,
+    cached_passage_for_chapter,
+    load_book_catalog,
+    load_book_quizzes,
+)
 from .catalog import indexed
 from .progression import level_for_xp, level_nodes
 
@@ -790,7 +796,7 @@ class DemoStore:
             "state": state,
             "reason": reason,
             "requiredPlan": "purchase" if state == "purchase-only" else state,
-            "inAppContentAvailable": book["contentAvailability"] == "bundled-passage",
+            "inAppContentAvailable": book["contentAvailability"] in {"bundled-passage", "cached-chapter"},
             "entitlement": self.subscription(profile_id),
         }
 
@@ -821,12 +827,16 @@ class DemoStore:
         if not access["allowed"]:
             content = {"mode": "unavailable", "reason": access["reason"], "cacheHint": "Do not cache unavailable content."}
         else:
-            sentences = bundled_passage_for_chapter(book_id, chapter_id, self.book_catalog)
+            sentences = cached_passage_for_chapter(book_id, chapter_id, self.book_catalog)
+            content_mode = "cached-chapter"
+            if sentences is None:
+                sentences = bundled_passage_for_chapter(book_id, chapter_id, self.book_catalog)
+                content_mode = "bundled-passage"
             content = (
                 {
-                    "mode": "bundled-passage",
+                    "mode": content_mode,
                     "sentences": sentences,
-                    "cacheHint": "Cache reviewed bundled reader content by book and chapter ID; do not store it in learner progress.",
+                    "cacheHint": "Cache reviewed reader content by book and chapter ID; do not store it in learner progress.",
                 }
                 if sentences
                 else {"mode": "unavailable", "reason": "chapter_content_unavailable", "cacheHint": "No reviewed in-app text is bundled for this chapter."}
@@ -838,7 +848,11 @@ class DemoStore:
         profile = self._profile(profile_id)
         book = self._catalog_item(self.books, book_id, "book")
         bundled_chapter = next(
-            (chapter for chapter in book["chapterMetadata"] if chapter["contentAvailability"] == "bundled-passage"),
+            (
+                chapter
+                for chapter in book["chapterMetadata"]
+                if chapter["contentAvailability"] in {"cached-chapter", "bundled-passage"}
+            ),
             None,
         )
         if bundled_chapter is None:
@@ -848,8 +862,8 @@ class DemoStore:
             content = chapter_result["content"]
         return {
             "bookId": book_id,
-            "readerFeature": "in-app-bundled-content",
-            "litLearnAccess": "available" if content["mode"] == "bundled-passage" else "unavailable",
+            "readerFeature": "in-app-reviewed-content",
+            "litLearnAccess": "available" if content["mode"] != "unavailable" else "unavailable",
             "content": content,
             "attribution": self._book_attribution(book),
         }

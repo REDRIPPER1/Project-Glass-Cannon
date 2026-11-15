@@ -1,0 +1,1581 @@
+{
+  "schemaVersion": 1,
+  "contentFormat": "sentence-array-v1",
+  "entries": [
+    {
+      "bookId": "gutenberg-11-alice-s-adventures-in-wonderland",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-11-alice-s-adventures-in-wonderland--chapter-1.json",
+      "contentHash": "sha256:fc0a9feec28f70a0dfae7610077b87aae9a4d0d00b5b6aa87a110856f58cc50d"
+    },
+    {
+      "bookId": "gutenberg-12-through-the-looking-glass",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-12-through-the-looking-glass--chapter-1.json",
+      "contentHash": "sha256:c3cb47090e663e2ec0b83f136619e4a2a16e4a4c07d819beec22dba999fc4b27"
+    },
+    {
+      "bookId": "gutenberg-121-northanger-abbey",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-121-northanger-abbey--chapter-1.json",
+      "contentHash": "sha256:02252cf1f9402d068ab14ab2c9d49fbdad34ce9a69143b0abd274c66f17cabce"
+    },
+    {
+      "bookId": "gutenberg-45-anne-of-green-gables",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-45-anne-of-green-gables--chapter-1.json",
+      "contentHash": "sha256:9e4cca6a1afdd86993b0a9657282802e503f000c3fb87e8a4433840185f2ae33"
+    },
+    {
+      "bookId": "gutenberg-62-a-princess-of-mars",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-62-a-princess-of-mars--chapter-1.json",
+      "contentHash": "sha256:415af562d59107f135004abc126e43efa7ae35411eb330cc41e0239fb0fe608d"
+    },
+    {
+      "bookId": "gutenberg-73-the-red-badge-of-courage-an-episode-of-the-ameri",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-73-the-red-badge-of-courage-an-episode-of-the-ameri--chapter-1.json",
+      "contentHash": "sha256:dd6b6cc8489fe797f376c3b950b8b2eee5f20f336db1c4d6088115ee2bf23d7d"
+    },
+    {
+      "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-74-the-adventures-of-tom-sawyer-complete--chapter-1.json",
+      "contentHash": "sha256:84d29c975e50dbddec789243e0cb1f3a8a9aa48462721d87b2f205b6ab0e84c6"
+    },
+    {
+      "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-76-adventures-of-huckleberry-finn--chapter-1.json",
+      "contentHash": "sha256:30368142fdea0db7c9dd094d8cc4b0fee7ab92de44ddb0b39917d7c19ca3a458"
+    },
+    {
+      "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon--chapter-1.json",
+      "contentHash": "sha256:aa50452ed1e7a6a34986a1f3bfaef9fb98884780a0babc8b545e751b82b3743e"
+    },
+    {
+      "bookId": "gutenberg-84-frankenstein-or-the-modern-prometheus",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-84-frankenstein-or-the-modern-prometheus--chapter-1.json",
+      "contentHash": "sha256:bf3231f3085f4c3bd0c50c09936f1faf9d9362e896e9137a695480d3919ad736"
+    },
+    {
+      "bookId": "gutenberg-91-tom-sawyer-abroad",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-91-tom-sawyer-abroad--chapter-1.json",
+      "contentHash": "sha256:395edc9b40291b969a3677dd8482aa12ddab2adf51d5dd14237452e789902e6d"
+    },
+    {
+      "bookId": "gutenberg-93-tom-sawyer-detective",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-93-tom-sawyer-detective--chapter-1.json",
+      "contentHash": "sha256:5077e1052f9d589bb466a81ca5ae9708c66f7891319f87a4d4a795e74f42072d"
+    },
+    {
+      "bookId": "gutenberg-126-the-poison-belt",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-126-the-poison-belt--chapter-1.json",
+      "contentHash": "sha256:507fece1ca9e96920d9cb347e5f45696d398616d9bfd039c3b922ebf4a69d1e7"
+    },
+    {
+      "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-103-around-the-world-in-eighty-days--chapter-1.json",
+      "contentHash": "sha256:f140c19866884c964c86bfabd5d645c601d2f4db05ff5cffac623847e40505a1"
+    },
+    {
+      "bookId": "gutenberg-82-ivanhoe-a-romance",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-82-ivanhoe-a-romance--chapter-1.json",
+      "contentHash": "sha256:62e3e94e76239c727f1fed2c8d88aa7de2706df3d6975503ff3ec95542c9b4e5"
+    },
+    {
+      "bookId": "gutenberg-125-a-girl-of-the-limberlost",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-125-a-girl-of-the-limberlost--chapter-1.json",
+      "contentHash": "sha256:485c522cc31eb9670036969cb741d25dc41e0980bf1af19084cd09f96aed2869"
+    },
+    {
+      "bookId": "gutenberg-16-peter-pan",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-16-peter-pan--chapter-1.json",
+      "contentHash": "sha256:a337e48f4f4caf1fe0c23a39ea40ca37811d225efb60ef7be2b484e0874e41dd"
+    },
+    {
+      "bookId": "gutenberg-139-the-lost-world",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-139-the-lost-world--chapter-1.json",
+      "contentHash": "sha256:a01b5982290b23cbc5e1fafa93c159e7c9e91cde31cb3488cabfb8f70d78b53c"
+    },
+    {
+      "bookId": "gutenberg-141-mansfield-park",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-141-mansfield-park--chapter-1.json",
+      "contentHash": "sha256:69011be53daf4ec9054ad538a128716cf87a54aa94b33234b718243fb97c5f6b"
+    },
+    {
+      "bookId": "gutenberg-113-the-secret-garden",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-113-the-secret-garden--chapter-1.json",
+      "contentHash": "sha256:8adce38a7ae5dc9143f6fb2086d9104931f16b92850827e420f8edbdef9bcfcc"
+    },
+    {
+      "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-164-twenty-thousand-leagues-under-the-sea--chapter-1.json",
+      "contentHash": "sha256:db0cda1e8f709844740659ec13100f6302959e825233881353f99e21813b28df"
+    },
+    {
+      "bookId": "gutenberg-215-the-call-of-the-wild",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-215-the-call-of-the-wild--chapter-1.json",
+      "contentHash": "sha256:392d3184643e2bca03a13f6491d9f799172af1f96907763f727043189954f628"
+    },
+    {
+      "bookId": "gutenberg-225-at-the-back-of-the-north-wind",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-225-at-the-back-of-the-north-wind--chapter-1.json",
+      "contentHash": "sha256:f3c8cb01eb90e0991271887b1ab2c3be135cff2810bfdbd14924568941069b89"
+    },
+    {
+      "bookId": "gutenberg-15-moby-dick-or-the-whale",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-15-moby-dick-or-the-whale--chapter-1.json",
+      "contentHash": "sha256:0ff15336da2dd61eaae3821d088f14fd46ed3f0e0c20712bad69f1781742bacb"
+    },
+    {
+      "bookId": "gutenberg-64-the-gods-of-mars",
+      "chapterId": "chapter-1",
+      "path": "backend/data/books/cached-chapters/gutenberg-64-the-gods-of-mars--chapter-1.json",
+      "contentHash": "sha256:e2d818eca8648f1001f5fa44488e59306fc30228d239cf8974425cf0b3196a70"
+    }
+  ],
+  "reviewedBooks": [
+    {
+      "id": "gutenberg-11-alice-s-adventures-in-wonderland",
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Carroll, Lewis, 1832-1898",
+      "edition": "Project Gutenberg eBook #11; metadata and eBook text reviewed 2026-11-15",
+      "category": "Fantasy and folklore",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/11",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. Down the Rabbit-Hole",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/11",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "11",
+        "landingUrl": "https://www.gutenberg.org/ebooks/11",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Carroll, Lewis, 1832-1898, Alice's Adventures in Wonderland, CHAPTER I. Down the Rabbit-Hole. Source checked against Project Gutenberg eBook #11.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "free",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [
+          "chapter-1"
+        ],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": false,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      }
+    },
+    {
+      "id": "gutenberg-12-through-the-looking-glass",
+      "title": "Through the Looking-Glass",
+      "author": "Carroll, Lewis, 1832-1898",
+      "edition": "Project Gutenberg eBook #12; metadata and eBook text reviewed 2026-11-15",
+      "category": "Fantasy and folklore",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/12",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. Looking-Glass house",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/12",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "12",
+        "landingUrl": "https://www.gutenberg.org/ebooks/12",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Carroll, Lewis, 1832-1898, Through the Looking-Glass, CHAPTER I. Looking-Glass house. Source checked against Project Gutenberg eBook #12.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 10,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-121-northanger-abbey",
+      "title": "Northanger Abbey",
+      "author": "Austen, Jane, 1775-1817",
+      "edition": "Project Gutenberg eBook #121; metadata and eBook text reviewed 2026-11-15",
+      "category": "Classics",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/121",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER 1 No one who had ever seen Catherine Morland in her infancy would have",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/121",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "121",
+        "landingUrl": "https://www.gutenberg.org/ebooks/121",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Austen, Jane, 1775-1817, Northanger Abbey, CHAPTER 1 No one who had ever seen Catherine Morland in her infancy would have. Source checked against Project Gutenberg eBook #121.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "purchase-only",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 16,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-45-anne-of-green-gables",
+      "title": "Anne of Green Gables",
+      "author": "Montgomery, L. M. (Lucy Maud), 1874-1942",
+      "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+      "category": "Family stories",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/45",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. Mrs. Rachel Lynde Is Surprised",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/45",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "45",
+        "landingUrl": "https://www.gutenberg.org/ebooks/45",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER I. Mrs. Rachel Lynde Is Surprised. Source checked against Project Gutenberg eBook #45.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "free",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [
+          "chapter-1"
+        ],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": false,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      }
+    },
+    {
+      "id": "gutenberg-62-a-princess-of-mars",
+      "title": "A princess of Mars",
+      "author": "Burroughs, Edgar Rice, 1875-1950",
+      "edition": "Project Gutenberg eBook #62; metadata and eBook text reviewed 2026-11-15",
+      "category": "Fantasy and folklore",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/62",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I ON THE ARIZONA HILLS",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/62",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "62",
+        "landingUrl": "https://www.gutenberg.org/ebooks/62",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Burroughs, Edgar Rice, 1875-1950, A princess of Mars, CHAPTER I ON THE ARIZONA HILLS. Source checked against Project Gutenberg eBook #62.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 10,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-73-the-red-badge-of-courage-an-episode-of-the-ameri",
+      "title": "The Red Badge of Courage: An Episode of the American Civil War",
+      "author": "Crane, Stephen, 1871-1900",
+      "edition": "Project Gutenberg eBook #73; metadata and eBook text reviewed 2026-11-15",
+      "category": "History and biography",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/73",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "Chapter I. The cold passed reluctantly from the earth, and the retiring fogs",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/73",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "73",
+        "landingUrl": "https://www.gutenberg.org/ebooks/73",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Crane, Stephen, 1871-1900, The Red Badge of Courage: An Episode of the American Civil War, Chapter I. The cold passed reluctantly from the earth, and the retiring fogs. Source checked against Project Gutenberg eBook #73.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 14,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+      "title": "The Adventures of Tom Sawyer, Complete",
+      "author": "Twain, Mark, 1835-1910",
+      "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+      "category": "Adventure",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/74",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I “Tom!”",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/74",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "74",
+        "landingUrl": "https://www.gutenberg.org/ebooks/74",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER I “Tom!”. Source checked against Project Gutenberg eBook #74.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "free",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [
+          "chapter-1"
+        ],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": false,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      }
+    },
+    {
+      "id": "gutenberg-76-adventures-of-huckleberry-finn",
+      "title": "Adventures of Huckleberry Finn",
+      "author": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator]",
+      "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+      "category": "Adventure",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/76",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. You don’t know about me without you have read a book by the name of The",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/76",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "76",
+        "landingUrl": "https://www.gutenberg.org/ebooks/76",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER I. You don’t know about me without you have read a book by the name of The. Source checked against Project Gutenberg eBook #76.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 12,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+      "title": "From the Earth to the moon; and, round the moon",
+      "author": "Verne, Jules, 1828-1905",
+      "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+      "category": "Science and nature",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/83",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. THE GUN CLUB",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/83",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "83",
+        "landingUrl": "https://www.gutenberg.org/ebooks/83",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, CHAPTER I. THE GUN CLUB. Source checked against Project Gutenberg eBook #83.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 12,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-84-frankenstein-or-the-modern-prometheus",
+      "title": "Frankenstein; or, The modern Prometheus",
+      "author": "Shelley, Mary Wollstonecraft, 1797-1851",
+      "edition": "Project Gutenberg eBook #84; metadata and eBook text reviewed 2026-11-15",
+      "category": "Classics",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/84",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "Chapter 1 I am by birth a Genevese, and my family is one of the most",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/84",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "84",
+        "landingUrl": "https://www.gutenberg.org/ebooks/84",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Shelley, Mary Wollstonecraft, 1797-1851, Frankenstein; or, The modern Prometheus, Chapter 1 I am by birth a Genevese, and my family is one of the most. Source checked against Project Gutenberg eBook #84.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "purchase-only",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 18,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-91-tom-sawyer-abroad",
+      "title": "Tom Sawyer Abroad",
+      "author": "Twain, Mark, 1835-1910",
+      "edition": "Project Gutenberg eBook #91; metadata and eBook text reviewed 2026-11-15",
+      "category": "Adventure",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/91",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. TOM SEEKS NEW ADVENTURES",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/91",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "91",
+        "landingUrl": "https://www.gutenberg.org/ebooks/91",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Twain, Mark, 1835-1910, Tom Sawyer Abroad, CHAPTER I. TOM SEEKS NEW ADVENTURES. Source checked against Project Gutenberg eBook #91.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "free",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [
+          "chapter-1"
+        ],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": false,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      }
+    },
+    {
+      "id": "gutenberg-93-tom-sawyer-detective",
+      "title": "Tom Sawyer, Detective",
+      "author": "Twain, Mark, 1835-1910",
+      "edition": "Project Gutenberg eBook #93; metadata and eBook text reviewed 2026-11-15",
+      "category": "Mystery",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/93",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. AN INVITATION FOR TOM AND HUCK",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/93",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "93",
+        "landingUrl": "https://www.gutenberg.org/ebooks/93",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Twain, Mark, 1835-1910, Tom Sawyer, Detective, CHAPTER I. AN INVITATION FOR TOM AND HUCK. Source checked against Project Gutenberg eBook #93.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 10,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-126-the-poison-belt",
+      "title": "The Poison Belt",
+      "author": "Doyle, Arthur Conan, 1859-1930",
+      "edition": "Project Gutenberg eBook #126; metadata and eBook text reviewed 2026-11-15",
+      "category": "Science and nature",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/126",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "Chapter I THE BLURRING OF LINES",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/126",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "126",
+        "landingUrl": "https://www.gutenberg.org/ebooks/126",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Doyle, Arthur Conan, 1859-1930, The Poison Belt, Chapter I THE BLURRING OF LINES. Source checked against Project Gutenberg eBook #126.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 12,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-103-around-the-world-in-eighty-days",
+      "title": "Around the World in Eighty Days",
+      "author": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator]",
+      "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+      "category": "Adventure",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/103",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/103",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "103",
+        "landingUrl": "https://www.gutenberg.org/ebooks/103",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER I. IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS. Source checked against Project Gutenberg eBook #103.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 12,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-82-ivanhoe-a-romance",
+      "title": "Ivanhoe: A Romance",
+      "author": "Scott, Walter, 1771-1832",
+      "edition": "Project Gutenberg eBook #82; metadata and eBook text reviewed 2026-11-15",
+      "category": "Adventure",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/82",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I Thus communed these; while to their lowly dome,",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/82",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "82",
+        "landingUrl": "https://www.gutenberg.org/ebooks/82",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Scott, Walter, 1771-1832, Ivanhoe: A Romance, CHAPTER I Thus communed these; while to their lowly dome,. Source checked against Project Gutenberg eBook #82.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "free",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [
+          "chapter-1"
+        ],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": false,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      }
+    },
+    {
+      "id": "gutenberg-125-a-girl-of-the-limberlost",
+      "title": "A Girl of the Limberlost",
+      "author": "Stratton-Porter, Gene, 1863-1924",
+      "edition": "Project Gutenberg eBook #125; metadata and eBook text reviewed 2026-11-15",
+      "category": "Nature and animals",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/125",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I WHEREIN ELNORA GOES TO HIGH SCHOOL AND LEARNS MANY LESSONS NOT FOUND IN",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/125",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "125",
+        "landingUrl": "https://www.gutenberg.org/ebooks/125",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Stratton-Porter, Gene, 1863-1924, A Girl of the Limberlost, CHAPTER I WHEREIN ELNORA GOES TO HIGH SCHOOL AND LEARNS MANY LESSONS NOT FOUND IN. Source checked against Project Gutenberg eBook #125.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 12,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-16-peter-pan",
+      "title": "Peter Pan",
+      "author": "Barrie, J. M. (James Matthew), 1860-1937",
+      "edition": "Project Gutenberg eBook #16; metadata and eBook text reviewed 2026-11-15",
+      "category": "Fantasy and folklore",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/16",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "Chapter I. PETER BREAKS THROUGH",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/16",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "16",
+        "landingUrl": "https://www.gutenberg.org/ebooks/16",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Barrie, J. M. (James Matthew), 1860-1937, Peter Pan, Chapter I. PETER BREAKS THROUGH. Source checked against Project Gutenberg eBook #16.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "free",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [
+          "chapter-1"
+        ],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": false,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      }
+    },
+    {
+      "id": "gutenberg-139-the-lost-world",
+      "title": "The Lost World",
+      "author": "Doyle, Arthur Conan, 1859-1930",
+      "edition": "Project Gutenberg eBook #139; metadata and eBook text reviewed 2026-11-15",
+      "category": "Adventure",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/139",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I \"There Are Heroisms All Round Us\"",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/139",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "139",
+        "landingUrl": "https://www.gutenberg.org/ebooks/139",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Doyle, Arthur Conan, 1859-1930, The Lost World, CHAPTER I \"There Are Heroisms All Round Us\". Source checked against Project Gutenberg eBook #139.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 14,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-141-mansfield-park",
+      "title": "Mansfield Park",
+      "author": "Austen, Jane, 1775-1817",
+      "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
+      "category": "Classics",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/141",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I About thirty years ago Miss Maria Ward, of Huntingdon, with only seven",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/141",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "141",
+        "landingUrl": "https://www.gutenberg.org/ebooks/141",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER I About thirty years ago Miss Maria Ward, of Huntingdon, with only seven. Source checked against Project Gutenberg eBook #141.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "free",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [
+          "chapter-1"
+        ],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": false,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      }
+    },
+    {
+      "id": "gutenberg-113-the-secret-garden",
+      "title": "The Secret Garden",
+      "author": "Burnett, Frances Hodgson, 1849-1924",
+      "edition": "Project Gutenberg eBook #113; metadata and eBook text reviewed 2026-11-15",
+      "category": "Family stories",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/113",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. THERE IS NO ONE LEFT",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/113",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "113",
+        "landingUrl": "https://www.gutenberg.org/ebooks/113",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Burnett, Frances Hodgson, 1849-1924, The Secret Garden, CHAPTER I. THERE IS NO ONE LEFT. Source checked against Project Gutenberg eBook #113.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 12,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+      "title": "Twenty Thousand Leagues under the Sea",
+      "author": "Verne, Jules, 1828-1905",
+      "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+      "category": "Adventure",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/164",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I A SHIFTING REEF",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/164",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "164",
+        "landingUrl": "https://www.gutenberg.org/ebooks/164",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, CHAPTER I A SHIFTING REEF. Source checked against Project Gutenberg eBook #164.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "purchase-only",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 18,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-215-the-call-of-the-wild",
+      "title": "The call of the wild",
+      "author": "London, Jack, 1876-1916",
+      "edition": "Project Gutenberg eBook #215; metadata and eBook text reviewed 2026-11-15",
+      "category": "Nature and animals",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/215",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "Chapter I. Into the Primitive",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/215",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "215",
+        "landingUrl": "https://www.gutenberg.org/ebooks/215",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "London, Jack, 1876-1916, The call of the wild, Chapter I. Into the Primitive. Source checked against Project Gutenberg eBook #215.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 12,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    },
+    {
+      "id": "gutenberg-225-at-the-back-of-the-north-wind",
+      "title": "At the Back of the North Wind",
+      "author": "MacDonald, George, 1824-1905",
+      "edition": "Project Gutenberg eBook #225; metadata and eBook text reviewed 2026-11-15",
+      "category": "Fantasy and folklore",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/225",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. THE HAY-LOFT",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/225",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "225",
+        "landingUrl": "https://www.gutenberg.org/ebooks/225",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "MacDonald, George, 1824-1905, At the Back of the North Wind, CHAPTER I. THE HAY-LOFT. Source checked against Project Gutenberg eBook #225.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "free",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [
+          "chapter-1"
+        ],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": false,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      }
+    },
+    {
+      "id": "gutenberg-15-moby-dick-or-the-whale",
+      "title": "Moby-Dick; or, The Whale",
+      "author": "Melville, Herman, 1819-1891",
+      "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+      "category": "Adventure",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/15",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I. LOOMINGS",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/15",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "15",
+        "landingUrl": "https://www.gutenberg.org/ebooks/15",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER I. LOOMINGS. Source checked against Project Gutenberg eBook #15.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "free",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [
+          "chapter-1"
+        ],
+        "subscriptionEligible": false,
+        "permanentPurchaseEligible": false,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      }
+    },
+    {
+      "id": "gutenberg-64-the-gods-of-mars",
+      "title": "The gods of Mars",
+      "author": "Burroughs, Edgar Rice, 1875-1950",
+      "edition": "Project Gutenberg eBook #64; metadata and eBook text reviewed 2026-11-15",
+      "category": "Fantasy and folklore",
+      "difficultyLabel": "Grades 4-8",
+      "starRating": 4.0,
+      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/64",
+      "chapterBoundaryStatus": "verified",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1",
+          "title": "CHAPTER I THE PLANT MEN",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/64",
+          "contentMode": "cached-chapter"
+        }
+      ],
+      "source": {
+        "provider": "Project Gutenberg",
+        "ebookId": "64",
+        "landingUrl": "https://www.gutenberg.org/ebooks/64",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This chapter was retrieved once during authoring using the checked Project Gutenberg offline-catalog metadata fallback, checked against the Project Gutenberg landing page, and stored in LitLearn's local reviewed cache. The reader never requests this source URL at runtime.",
+        "accessedAt": "2026-11-15",
+        "ebookLicenseReviewStatus": "reviewed"
+      },
+      "rights": {
+        "status": "verified-public-domain-us",
+        "textReuseCleared": true,
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page states this eBook is public domain in the USA. The cache contains the underlying U.S.-unrestricted chapter text and omits Project Gutenberg license and trademark notices.",
+        "requiredAttribution": "Burroughs, Edgar Rice, 1875-1950, The gods of Mars, CHAPTER I THE PLANT MEN. Source checked against Project Gutenberg eBook #64.",
+        "basis": "The title page was checked for its public-domain-in-USA status and the downloaded eBook was checked for its Project Gutenberg notices on the recorded access date. This record makes no worldwide public-domain assertion.",
+        "usCopyrightStatus": "public-domain-in-the-united-states",
+        "worldwideCopyrightStatus": "review-required"
+      },
+      "accessRules": {
+        "mode": "subscription",
+        "freeLevelRange": [
+          1,
+          10
+        ],
+        "freeChapterIds": [],
+        "subscriptionEligible": true,
+        "permanentPurchaseEligible": true,
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium controls LitLearn's locally cached chapter and activity access; it does not restrict the underlying Project Gutenberg source text."
+      },
+      "mockPurchase": {
+        "price": 14,
+        "currency": "diamonds",
+        "reversibleUntilRead": true
+      }
+    }
+  ]
+}
