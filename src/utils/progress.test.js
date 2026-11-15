@@ -10,6 +10,7 @@ import {
   grantDemoCurrency,
   loadProgress,
   openCatalogEgg,
+  PET_LEVEL_MILESTONES,
   purchaseCatalogItem,
   recordResponse,
   resetProgress,
@@ -18,6 +19,8 @@ import {
   setProgressSettings,
   toggleBookmark,
   toggleFavoritePet,
+  xpRequiredForLevel,
+  xpForNextLevel,
 } from './progress.js';
 
 function installStorage() {
@@ -39,7 +42,8 @@ test('completes a quest once and grants transparent local rewards', () => {
   assert.equal(first.completedQuestIds.includes('quest-1'), true);
   assert.equal(first.badgeIds.includes(BADGES.FIRST_QUEST), true);
   assert.equal(first.badgeIds.includes(BADGES.EVIDENCE_EXPLORER), true);
-  assert.equal(first.xp, 125);
+  assert.equal(first.xp, 75);
+  assert.deepEqual(first.lastXpBreakdown, { answers: 45, evidence: 30, reasoning: 0 });
   const replay = completeQuest(first, 'quest-1', { correctAnswers: 3, correctEvidence: 3, questionCount: 3 });
   assert.equal(replay.xp, first.xp);
   assert.equal(replay.completedQuestIds.length, 1);
@@ -79,14 +83,24 @@ test('keeps optional sound preferences in local progress', () => {
   assert.equal(values.size > 0, true);
 });
 
-test('favorites and active pet state stay local and only owned pets can be favorited', () => {
-  let progress = createEmptyProgress();
+test('pets stay locked until their Level Road milestone, then can be favorited', () => {
+  let progress = { ...createEmptyProgress(), xp: xpRequiredForLevel(2) };
   progress = toggleFavoritePet(progress, 'moss-mouse');
   assert.deepEqual(progress.favoritePetIds, ['moss-mouse']);
   progress = toggleFavoritePet(progress, 'moss-mouse');
   assert.deepEqual(progress.favoritePetIds, []);
   progress = toggleFavoritePet(progress, 'comet-bat');
   assert.deepEqual(progress.favoritePetIds, []);
+});
+
+test('Level Road scales through 100 levels and never awards XP for an incorrect empty completion', () => {
+  assert.equal(xpRequiredForLevel(1), 0);
+  assert.ok(xpRequiredForLevel(10) > xpRequiredForLevel(5));
+  assert.ok(xpRequiredForLevel(100) > xpRequiredForLevel(99));
+  assert.ok(xpForNextLevel(0) > 0);
+  assert.equal(PET_LEVEL_MILESTONES.length, 6);
+  const untouched = completeQuest(createEmptyProgress(), 'no-credit', { correctAnswers: 0, correctEvidence: 0, reasoningQuality: 0 });
+  assert.equal(untouched.xp, 0);
 });
 
 test('opens an owned egg deterministically and converts duplicate pets to shards', () => {

@@ -11,11 +11,15 @@ import {
 import {
   BADGES,
   LEVEL_REWARDS,
+  PET_LEVEL_MILESTONES,
   beginQuest,
   completeOnboarding,
   completeQuest,
   createJudgeProgress,
   levelForXp,
+  xpForNextLevel,
+  xpRemainingToNextLevel,
+  xpRequiredForLevel,
   loadProgress,
   markEvidenceReveal,
   recordResponse,
@@ -43,6 +47,7 @@ import {
 } from './utils/progress';
 import { PLATFORM_CATALOG, RARITY_COLORS, displayCurrency, petById, rewardById } from './utils/platformCatalog';
 import { bookAccessState, bookLevelNodes, chapterAccessState, libraryBooks, sourceReaderState } from './utils/bookLibrary';
+import { fullBookCatalog } from './utils/expandedBookCatalog';
 import {
   coachFallback,
   dailyGoalStatus,
@@ -76,9 +81,9 @@ const THEME_OPTIONS = [
 ];
 const PASS_PRODUCT_NAME = 'Moonlit Trail';
 const PASS_STOPS = [
-  { id: 'trail-gold', track: 'Free track', requiredXp: 0, title: 'Gold Cache', detail: 'A local Gold reward placeholder for starting the monthly trail.', art: '🪙' },
+  { id: 'trail-gold', track: 'Free track', requiredXp: 0, title: 'Gold Cache', detail: 'A local Gold reward that updates the same profile wallet.', art: '🪙', rewardId: 'level-gold-cache' },
   { id: 'trail-moon-pin', track: 'Free track', requiredXp: 100, title: 'Moon Pin', detail: 'A Rare companion accessory from the Free track.', art: '📌', rewardId: 'basic-rare-moon-pin' },
-  { id: 'trail-diamonds', track: 'Premium track', requiredXp: 50, title: 'Diamond Spark', detail: 'A cosmetic Diamond reward placeholder for the Premium track.', art: '💎', premium: true },
+  { id: 'trail-diamonds', track: 'Premium track', requiredXp: 50, title: 'Diamond Spark', detail: 'A local Diamond reward that updates the same profile wallet.', art: '💎', rewardId: 'level-diamond-cache', premium: true },
   { id: 'trail-cloak', track: 'Premium track', requiredXp: 100, title: 'Starglass Cloak', detail: 'An Epic companion cloak from the Premium track.', art: '🧥', rewardId: 'premium-epic-starglass-cloak', premium: true },
 ];
 
@@ -180,6 +185,13 @@ function CompanionOrb({ progress }) {
   );
 }
 
+function ProfileHud({ progress, onNavigate }) {
+  const current = xpIntoLevel(progress.xp);
+  const required = xpForNextLevel(progress.xp);
+  const fill = required ? Math.round((current / required) * 100) : 100;
+  return <button className="rail-profile-hud" type="button" onClick={() => onNavigate('profile')} aria-label={`Open profile. Level ${levelForXp(progress.xp)} with ${current} of ${required || current} experience`}><span className="hud-avatar" style={{ '--xp-fill': `${fill * 3.6}deg` }}>{progress.profileName.slice(0, 1).toUpperCase()}</span><strong>Level {levelForXp(progress.xp)}</strong><small>{current}/{required || current} XP</small></button>;
+}
+
 function AppHeader({ progress, screen, onNavigate }) {
   const navItems = [
     ['quests', 'Quest map', 'home'],
@@ -208,12 +220,12 @@ function AppHeader({ progress, screen, onNavigate }) {
             return <button key={label} type="button" className={active ? 'is-active' : ''} aria-current={active ? 'page' : undefined} onClick={() => onNavigate(target)}><NavIcon name={icon} /><span>{label}</span>{label === 'Progress' && !progress.settings.hideGameSignals && <b>{levelForXp(progress.xp)}</b>}</button>;
           })}
         </nav>
-        {!progress.settings.hideGameSignals && <section className="rail-xp" aria-label={`Level ${levelForXp(progress.xp)}, ${progress.xp} experience points`}><span>Level {levelForXp(progress.xp)}</span><strong>{progress.xp} XP</strong><i><b style={{ width: `${xpIntoLevel(progress.xp)}%` }} /></i><small>{xpIntoLevel(progress.xp)} / 100 to level {levelForXp(progress.xp) + 1}</small></section>}
+        {!progress.settings.hideGameSignals && <ProfileHud progress={progress} onNavigate={onNavigate} />}
       </aside>
       <header className="app-header">
       <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLab home"><BrandMark /><span>LitLab</span></button>
         <nav className="header-actions" aria-label="App navigation">
-          {!progress.settings.hideGameSignals && <span className="xp-pill" aria-label={`${progress.xp} experience points`}>✦ {progress.xp} XP</span>}
+          {!progress.settings.hideGameSignals && <button className="header-profile-link" type="button" onClick={() => onNavigate('profile')}>Profile</button>}
         </nav>
       </header>
       <nav className="mobile-road-nav" aria-label="App destinations">
@@ -359,6 +371,16 @@ function ReviewScreen({ quest, progress, onBack }) {
   );
 }
 
+function LevelRoad100({ progress, onNavigate }) {
+  const [selectedLevel, setSelectedLevel] = useState(levelForXp(progress.xp));
+  const level = levelForXp(progress.xp);
+  const selectedMilestone = PET_LEVEL_MILESTONES.find((item) => item.level === selectedLevel);
+  const selectedPet = selectedMilestone ? petById(selectedMilestone.petId) : null;
+  const current = xpIntoLevel(progress.xp);
+  const required = xpForNextLevel(progress.xp);
+  return <section className="road-view level-road-view" aria-labelledby="level-road-title"><div className="road-heading"><div><p className="eyebrow">Levels 1–100</p><h1 id="level-road-title">Level Road</h1><p>XP requirements rise every five levels and step up again every ten. Only correct answers, evidence, and well-supported reasoning earn XP.</p></div><span className="road-level">Level {level}</span></div><section className="level-progress-card" aria-label={`Level ${level} progress`}><div><span>Current XP</span><strong>{progress.xp} XP</strong><small>{xpRemainingToNextLevel(progress.xp)} XP to Level {Math.min(100, level + 1)}</small></div><i><b style={{ width: `${required ? (current / required) * 100 : 100}%` }} /></i><p>{current}/{required || current} toward level {Math.min(100, level + 1)}</p></section><ol className="level-road-list level-road-100" aria-label="Interactive level road through level 100">{Array.from({ length: 100 }, (_, index) => { const nodeLevel = index + 1; const milestone = PET_LEVEL_MILESTONES.find((item) => item.level === nodeLevel); const unlocked = level >= nodeLevel; return <li key={nodeLevel} className={`${unlocked ? 'is-unlocked' : ''} ${selectedLevel === nodeLevel ? 'is-selected' : ''}`}><button type="button" className="road-stop-button" onClick={() => setSelectedLevel(nodeLevel)} aria-pressed={selectedLevel === nodeLevel} aria-label={`Open Level ${nodeLevel}${milestone ? ` pet milestone` : ''}`}><span className="road-node" aria-hidden="true">{unlocked ? '✦' : nodeLevel}</span><strong>Level {nodeLevel}</strong><small>{milestone ? `Pet: ${petById(milestone.petId)?.name}` : nodeLevel % 10 === 0 ? 'Milestone cache' : 'Practice milestone'}</small></button></li>; })}</ol><div className="road-reward-pop" role="status" aria-live="polite"><div className="reward-pop-art" aria-hidden="true">{selectedPet ? '🐾' : selectedLevel % 10 === 0 ? '🎁' : '✦'}</div><div><p className="eyebrow">Level {selectedLevel} · {xpRequiredForLevel(selectedLevel)} total XP</p><h2>{selectedPet ? `${selectedPet.name} companion` : selectedLevel % 10 === 0 ? 'Milestone cache' : 'Practice checkpoint'}</h2><p>{selectedPet ? (level >= selectedLevel ? `${selectedPet.name} is unlocked and ready in Pets.` : `Reach Level ${selectedLevel} to unlock this companion.`) : 'This checkpoint marks the next stretch of your reading trail.'}</p></div></div><div className="road-actions"><button className="primary-button" type="button" onClick={() => onNavigate('home')}>Earn XP on a quest</button><button className="secondary-button" type="button" onClick={() => onNavigate('pets')}>View companions</button></div></section>;
+}
+
 function PetAccessory({ accessoryId }) {
   if (!accessoryId) return null;
   if (accessoryId.includes('cap')) return <><path className="pet-accessory pet-accessory-head" d="M27 34c10-10 36-10 46 0l-4 8H31z" /><circle className="pet-accessory-detail" cx="65" cy="32" r="3" /></>;
@@ -395,9 +417,10 @@ function PetAvatar({ pet, nickname, accessoryId }) {
 
 function BookLibraryScreen({ progress, quests, apiState, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
   const [view, setView] = useState('library');
-  const [selectedBookId, setSelectedBookId] = useState(PLATFORM_CATALOG.books[0]?.id || '');
+  const allBooks = useMemo(() => fullBookCatalog(PLATFORM_CATALOG.books), []);
+  const [selectedBookId, setSelectedBookId] = useState(() => { try { return window.sessionStorage.getItem('litlab.bookFocus') || allBooks[0]?.id || ''; } catch { return allBooks[0]?.id || ''; } });
   const [selectedLevel, setSelectedLevel] = useState(1);
-  const visibleBooks = view === 'library' ? libraryBooks(PLATFORM_CATALOG.books, progress) : PLATFORM_CATALOG.books;
+  const visibleBooks = view === 'library' ? libraryBooks(allBooks, progress) : allBooks;
   const selectedBook = visibleBooks.find((book) => book.id === selectedBookId) || visibleBooks[0] || null;
   const levels = selectedBook ? bookLevelNodes(selectedBook, quests, 10) : [];
   const selectedNode = levels.find((node) => node.level === selectedLevel) || levels[0] || null;
@@ -408,7 +431,7 @@ function BookLibraryScreen({ progress, quests, apiState, onUpdate, onStatus, onN
   const labelForAccess = (access) => ({ owned: 'Owned permanently', free: 'Free reading path', subscription: 'Premium reading', 'purchase-only': 'Purchase-only', locked: 'Locked' }[access] || access);
   const isWishlisted = (bookId) => progress.wishlistIds.includes(bookId);
   return <section className="feature-card platform-collection book-library" aria-labelledby="books-title">
-    <div className="collection-hero"><div><p className="eyebrow">Gutenberg reading shelf</p><h1 id="books-title">Books</h1><p>Choose a verified chapter, open its source, and begin a comprehension quest when the reviewed catalog maps one.</p></div><span className={`book-state is-${catalogStatus.kind}`}>{catalogStatus.kind === 'error' ? 'Offline fallback' : 'Local catalog ready'}</span></div>
+    <div className="collection-hero"><div><p className="eyebrow">Web reading shelf</p><h1 id="books-title">Books</h1><p>{allBooks.length} titles across adventure, mystery, fantasy, nature, history, and classics. Open a verified chapter when it is available.</p></div><span className={`book-state is-${catalogStatus.kind}`}>{catalogStatus.kind === 'error' ? 'Offline fallback' : 'Local catalog ready'}</span></div>
     <p className={`book-catalog-status is-${catalogStatus.kind}`} role="status">{catalogStatus.label}</p>
     <div className="book-library-tabs" role="tablist" aria-label="Books view">
       <button type="button" role="tab" aria-selected={view === 'library'} className={view === 'library' ? 'is-selected' : ''} onClick={() => setView('library')}>Library</button>
@@ -417,7 +440,7 @@ function BookLibraryScreen({ progress, quests, apiState, onUpdate, onStatus, onN
     <p className="book-view-note">{view === 'library' ? 'Books you own, can sample for free, or can read with this browser’s Premium preview.' : 'All reviewed catalog entries and their available reading access.'}</p>
     {visibleBooks.length === 0 ? <section className="book-empty-state" aria-live="polite"><h2>Your Library is waiting</h2><p>No books are available through this membership yet. Browse the catalog or enable the local Premium preview to see eligible titles.</p><button className="secondary-button" type="button" onClick={() => setView('catalog')}>Browse catalog</button></section> : <div className="book-library-layout">
       <section className="book-shelf" aria-label={`${view === 'library' ? 'Library' : 'Catalog'} books`}>
-        {visibleBooks.map((book) => { const access = bookAccessState(book, progress); const selected = book.id === selectedBook?.id; return <article className={`book-card ${selected ? 'is-selected' : ''}`} key={book.id}><span className={`book-state is-${access}`}>{labelForAccess(access)}</span><h2>{book.title}</h2><p>{book.author} · {book.edition || 'Reviewed edition'}</p><p>{book.topic}</p><button className="secondary-button" type="button" aria-pressed={selected} onClick={() => chooseBook(book)}>{selected ? 'Viewing path' : 'View reading path'}</button><button className="text-button" type="button" onClick={() => onUpdate((current) => toggleWishlist(current, book.id))}>{isWishlisted(book.id) ? '★ Wishlisted' : '☆ Add to wishlist'}</button></article>; })}
+        {visibleBooks.map((book) => { const access = bookAccessState(book, progress); const selected = book.id === selectedBook?.id; return <article className={`book-card ${selected ? 'is-selected' : ''}`} key={book.id}><span className={`book-state is-${access}`}>{labelForAccess(access)}</span><h2>{book.title}</h2><p>{book.author} · {book.category || book.topic}</p><p className="book-difficulty"><span aria-label={`${book.difficulty || 1} of 5 stars`}>{'★'.repeat(book.difficulty || 1)}{'☆'.repeat(5 - (book.difficulty || 1))}</span> {book.difficultyLabel || 'Explorer'}</p><button className="secondary-button" type="button" aria-pressed={selected} onClick={() => chooseBook(book)}>{selected ? 'Viewing path' : 'View reading path'}</button><button className="text-button" type="button" onClick={() => onUpdate((current) => toggleWishlist(current, book.id))}>{isWishlisted(book.id) ? '★ Wishlisted' : '☆ Add to wishlist'}</button></article>; })}
       </section>
       {selectedBook && <section className="book-reader-workspace" aria-labelledby="selected-book-title">
         <div className="book-detail-header"><div><span className={`book-state is-${bookAccessState(selectedBook, progress)}`}>{labelForAccess(bookAccessState(selectedBook, progress))}</span><h2 id="selected-book-title">{selectedBook.title}</h2><p>{selectedBook.author} · {selectedBook.edition || 'Reviewed edition'}</p></div><button className="text-button" type="button" onClick={() => onNavigate('shop')}>Book options in Shop</button></div>
@@ -428,6 +451,33 @@ function BookLibraryScreen({ progress, quests, apiState, onUpdate, onStatus, onN
     </div>}
     <section className="plan-grid"><article><h2>Free membership</h2><p>Free chapters can support the early reading path. Levels without a reviewed chapter stay clearly unavailable.</p><button className={progress.subscriptionPlan === 'free' ? 'equipped-reward' : 'secondary-button'} type="button" onClick={() => onUpdate((current) => setSubscriptionPlan(current, 'free'))}>{progress.subscriptionPlan === 'free' ? 'Current plan' : 'Choose free'}</button></article><article className="is-premium"><h2>Premium membership</h2><p>Eligible titles and chapters open in this local preview. Purchase-only titles remain separate.</p><button className={progress.subscriptionPlan === 'premium' ? 'equipped-reward' : 'primary-button'} type="button" onClick={() => { onUpdate((current) => setSubscriptionPlan(current, 'premium')); onStatus('Premium preview enabled locally. No payment was processed.'); }}>{progress.subscriptionPlan === 'premium' ? 'Premium active' : 'Try Premium preview'}</button></article></section>
   </section>;
+}
+
+function RecommendedBookCard({ onNavigate }) {
+  const book = fullBookCatalog(PLATFORM_CATALOG.books)[0];
+  return <section className="recommended-book-card" aria-labelledby="recommended-book-title"><div><p className="eyebrow">Recommended book</p><h2 id="recommended-book-title">{book.title}</h2><p>{book.author} · {book.category || book.topic} · {'★'.repeat(book.difficulty || 1)}{'☆'.repeat(5 - (book.difficulty || 1))}</p></div><button className="primary-button" type="button" onClick={() => { try { window.sessionStorage.setItem('litlab.bookFocus', book.id); } catch { /* optional convenience only */ } onNavigate('books'); }}>Open book <span aria-hidden="true">→</span></button></section>;
+}
+
+function ProfileScreen({ progress, onNavigate }) {
+  const [selected, setSelected] = useState(null);
+  const level = levelForXp(progress.xp);
+  const current = xpIntoLevel(progress.xp);
+  const required = xpForNextLevel(progress.xp);
+  const percent = required ? Math.round((current / required) * 100) : 100;
+  const collection = [
+    ...PLATFORM_CATALOG.achievements.map((item) => ({ ...item, type: 'Achievement', earned: progress.completedQuestIds.length > 0, how: 'Complete a reviewed reading quest.' })),
+    ...PLATFORM_CATALOG.badges.map((item) => ({ ...item, type: 'Badge', earned: progress.badgeIds.includes(item.id) || progress.badgeIds.length > 0, how: item.description })),
+    ...PLATFORM_CATALOG.trophies.map((item) => ({ ...item, type: 'Trophy', earned: level >= 2, how: item.description })),
+    ...progress.wishlistIds.map((id) => ({ id, title: id.replaceAll('-', ' '), description: 'Saved in your local wishlist.', type: 'Wishlist', earned: false, how: 'Open its matching Books, Pets, or Shop card to acquire it.' })),
+  ];
+  const selectedItem = collection.find((item) => item.id === selected) || null;
+  return <section className="feature-card platform-collection profile-v2" aria-labelledby="profile-title"><div className="profile-v2-hero"><div className="xp-avatar" style={{ '--xp-fill': `${percent * 3.6}deg` }} aria-label={`Level ${level}, ${current} of ${required || current} XP toward the next level`}><span>{progress.profileName.slice(0, 1).toUpperCase()}</span></div><div><p className="eyebrow">Reader profile</p><h1 id="profile-title">{progress.profileName}</h1><p>Level {level} · {current}/{required || current} XP toward the next level</p></div></div><div className="wallet-row" aria-label="Wallet"><button type="button" onClick={() => onNavigate('shop', { shopSection: 'gold' })}>🪙 <strong>{progress.currencies.gold}</strong> Gold <span aria-hidden="true">+</span></button><button type="button" onClick={() => onNavigate('shop', { shopSection: 'diamonds' })}>💎 <strong>{progress.currencies.diamonds}</strong> Diamonds <span aria-hidden="true">+</span></button></div><section className="xp-breakdown" aria-labelledby="xp-breakdown-title"><h2 id="xp-breakdown-title">Latest XP breakdown</h2><p>Correct answers +{progress.lastXpBreakdown?.answers || 0} · evidence reasoning +{progress.lastXpBreakdown?.evidence || 0} · quality +{progress.lastXpBreakdown?.reasoning || 0}. Incorrect or unanswered questions earn 0 XP.</p></section><section className="interactive-collection"><h2>Collection journal</h2>{collection.length ? <div className="collection-list">{collection.map((item) => <button type="button" key={`${item.type}-${item.id}`} className={selected === item.id ? 'is-selected' : ''} onClick={() => setSelected(item.id)}>✦ {item.title} <small>{item.earned ? 'Earned' : item.type === 'Wishlist' ? 'Saved' : 'Locked'}</small></button>)}</div> : <p className="empty-summary">No keepsakes yet—your first quest will add one.</p>}{selectedItem && <article className="collection-detail" role="status"><p className="eyebrow">{selectedItem.type} · {selectedItem.earned ? 'Earned' : 'Not yet earned'}</p><h3>{selectedItem.title}</h3><p>{selectedItem.description}</p><p><strong>How to get it:</strong> {selectedItem.how}</p></article>}</section></section>;
+}
+
+function PetCollectionScreen({ progress, onUpdate, onStatus }) {
+  const level = levelForXp(progress.xp);
+  const starterPets = PLATFORM_CATALOG.pets.filter((pet) => pet.availability === 'starter');
+  return <section className="feature-card platform-collection" aria-labelledby="pets-title"><div className="collection-hero"><div><p className="eyebrow">Companion milestones</p><h1 id="pets-title">Pets</h1><p>Companions unlock on the Level Road. Unlock one to name, equip, and customize it.</p></div></div><div className="pet-grid">{starterPets.map((pet) => { const milestone = PET_LEVEL_MILESTONES.find((item) => item.petId === pet.id); const owned = progress.ownedPetIds.includes(pet.id); const active = progress.activePetId === pet.id; return <article className={`pet-card ${active ? 'is-active' : ''}`} key={pet.id}><PetAvatar pet={pet} nickname={progress.petNicknames[pet.id]} /><span className="rarity-chip" style={{ color: RARITY_COLORS[pet.rarity] }}>{owned ? pet.rarity : `Unlocks at level ${milestone?.level || '—'}`}</span><h2>{progress.petNicknames[pet.id] || pet.name}</h2><p>{owned ? pet.description : `Locked until Level ${milestone?.level || '—'}. You are currently Level ${level}.`}</p><button className="secondary-button" type="button" disabled={!owned || active} onClick={() => { onUpdate((current) => equipPet(current, pet.id)); onStatus(`${pet.name} is now your active companion.`); }}>{active ? 'Active companion' : owned ? 'Choose pet' : 'Locked'}</button></article>; })}</div></section>;
 }
 
 function PlatformCollection({ section, progress, quests, apiState, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
@@ -604,7 +654,8 @@ export default function App() {
   function finishQuest() {
     const correctAnswers = questResponses.filter((response) => response.answerCorrect).length;
     const correctEvidence = questResponses.filter((response) => response.evidenceCorrect).length;
-    setProgress((current) => completeQuest(current, quest.id, { correctAnswers, correctEvidence, questionCount: questions.length }));
+    const reasoningQuality = questResponses.filter((response) => response.answerCorrect && response.evidenceCorrect).length;
+    setProgress((current) => completeQuest(current, quest.id, { correctAnswers, correctEvidence, reasoningQuality, questionCount: questions.length }));
     if (progress.settings.soundEnabled && progress.settings.soundCompletion) playCue('completion', progress.settings);
     setShowCelebration(true); setScreen('complete'); setRevealed(false);
   }
@@ -640,6 +691,7 @@ export default function App() {
           {filteredQuests.length ? <div className="library-grid">{filteredQuests.map((item) => <QuestCard key={item.id} quest={item} complete={isQuestComplete(progress, item.id)} bookmarked={progress.bookmarkedQuestIds.includes(item.id)} recommended={recommendation.quest?.id === item.id} progress={progress} onStart={launchQuest} onBookmark={(id) => setProgress((current) => toggleBookmark(current, id))} />)}</div> : <section className="empty-summary"><h2>No quests match those filters</h2><p>Clear a filter or bookmark a quest to bring it back into your library.</p><button className="secondary-button" type="button" onClick={() => setFilters({ search: '', topic: '', skill: '', difficulty: '', bookmarkOnly: false })}>Clear filters</button></section>}
           {unavailableCount > 0 && <section className="content-gate"><h2>{unavailableCount} quest{unavailableCount === 1 ? '' : 's'} unavailable</h2><p>They are hidden until source, rights, and sentence-evidence metadata are reviewed.</p></section>}
           <Guide accessory={progress.activeAccessoryId} message="Choose a quest, then look for the line that proves your idea." />
+          <RecommendedBookCard onNavigate={navigate} />
         </section>}
         {screen === 'example' && content.ready && <section className="lesson-view narrow-view" aria-labelledby="example-title"><p className="eyebrow">{quest.title} · worked example</p><h1 id="example-title">{quest.workedExample.title || 'Try the evidence routine'}</h1><div className="routine-grid"><article><span>1</span><h2>Notice</h2><p>{quest.workedExample.notice}</p></article><article><span>2</span><h2>Think</h2><p>{quest.workedExample.think}</p></article><article><span>3</span><h2>Prove</h2><p>{quest.workedExample.prove}</p></article></div><div className="example-callout"><strong>Example answer:</strong> {quest.workedExample.answer}<br /><strong>Evidence:</strong> {quest.workedExample.evidence}</div><div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('reading')}>Read the passage <span aria-hidden="true">→</span></button><button className="text-button" type="button" onClick={() => navigate('reading')}>Skip example</button></div><Guide accessory={progress.activeAccessoryId} message="First, watch the routine. Then you will try it yourself." /></section>}
         {screen === 'reading' && content.ready && <section className="reading-view" aria-labelledby="reading-title"><div className="reading-heading"><div><p className="eyebrow">{quest.skillTags.map(humanSkill).join(' + ')}</p><h1 id="reading-title">{quest.title}</h1><p>{quest.topic} · about {quest.readingTimeMinutes} minutes</p></div><div className="reading-meter" aria-label="Reading step complete"><span>Reading</span><strong>1 / 2</strong><i><b /></i></div></div><article className="passage-card" aria-label={`${quest.title} passage`}>{sentencesFor(quest).map((sentence) => <p key={sentence.id} id={`passage-${sentence.id}`}>{sentence.text}</p>)}</article><div className="reading-footer"><p>When you are ready, answer one question at a time and choose the sentence that supports your idea.</p><button className="primary-button" type="button" onClick={() => beginQuestion(0)}>Start questions <span aria-hidden="true">→</span></button></div><Guide accessory={progress.activeAccessoryId} mood="thoughtful" message="There is no speed bonus. Take the time you need to find the strongest clue." /></section>}
@@ -651,8 +703,10 @@ export default function App() {
         {screen === 'dashboard' && <section className="dashboard-view" aria-labelledby="dashboard-title"><div className="dashboard-heading"><div><p className="eyebrow">Anonymous learner · local demo</p><h1 id="dashboard-title">Practice &amp; progress</h1><p>This view records practice signals to guide a next step. It is not a diagnosis or a measure of mastery.</p></div><button className="secondary-button" type="button" onClick={resetDemo}>Reset demo progress</button></div><div className="stat-grid"><article><span>XP</span><strong>{progress.xp}</strong><small>Level {levelForXp(progress.xp)} · {xpIntoLevel(progress.xp)}/100 to next</small></article><article><span>Quest trail</span><strong>{progress.completedQuestIds.length}/{quests.length}</strong><small>{progress.storyFragmentIds.length} story fragments</small></article><article><span>Daily goal</span><strong>{dailyGoal.completed}/{dailyGoal.target}</strong><small>{dailyGoal.complete ? 'Goal complete' : 'One quest moves it forward'}</small></article><article><span>Streak</span><strong>{progress.streak.current}</strong><small>Days with a completed activity</small></article></div><section className="daily-goal"><div><p className="eyebrow">Flexible daily goal</p><h2>{dailyGoal.complete ? 'Today’s goal is complete' : 'Set a gentle reading goal'}</h2><p>{dailyGoal.completed} of {dailyGoal.target} completed today. Missing a day never removes earned progress.</p></div><div><label htmlFor="daily-target">Quest target</label><select id="daily-target" value={dailyGoal.target} onChange={(event) => setProgress((current) => setDailyGoalTarget(current, event.target.value))}><option value="1">1 quest</option><option value="2">2 quests</option><option value="3">3 quests</option></select></div></section><section className="skill-strengths" aria-labelledby="skill-strengths-title"><div><p className="eyebrow">Skill map</p><h2 id="skill-strengths-title">What this practice has covered</h2></div><div className="strength-grid">{skills.map((skill) => { const percent = skill.attempts ? Math.round((skill.evidenceCorrect / skill.attempts) * 100) : 0; return <article key={skill.key} tabIndex="0"><strong>{humanSkill(skill.key)}</strong><span>{skill.attempts ? `${skill.evidenceCorrect}/${skill.attempts} evidence choices on target` : 'Not practiced yet'}</span><i aria-label={`${percent}% evidence choices on target`}><b style={{ width: `${percent}%` }} /></i></article>; })}</div></section><section className="collection-panel"><div><p className="eyebrow">Collection journal</p><h2>Badges, fragments &amp; companion details</h2></div>{progress.badgeIds.length ? <div className="collection-list">{progress.badgeIds.map((badge) => <span key={badge}>✦ {BADGE_COPY[badge] || badge}</span>)}{progress.storyFragmentIds.map((fragment) => <span key={fragment}>▣ {fragment.replace('fragment-', '').replaceAll('-', ' ')}</span>)}</div> : <div className="empty-badges"><strong>No badges yet</strong><p>Finish a quest to add your first Evidence Explorer badge and story fragment.</p></div>}<div className="accessory-picker"><span>Guide accessory</span>{['compass', ...progress.unlockedAccessoryIds].map((accessory) => <button key={accessory} type="button" className={progress.activeAccessoryId === accessory ? 'is-selected' : ''} onClick={() => markAccessory(accessory)}>{humanSkill(accessory)}</button>)}</div></section>{quest && questResponses.length > 0 ? <section className="tutor-summary" aria-labelledby="tutor-summary-title"><div><p className="eyebrow">Tutor session summary</p><h2 id="tutor-summary-title">{quest.title}</h2><p>{quest.skillTags.map(humanSkill).join(' · ')} · {questResponses.length} responses recorded</p></div><div className="summary-rows">{questions.map((question, index) => { const response = responseFor(progress, quest.id, question.id); return <article key={question.id}><strong>Question {index + 1}</strong><p><span>Learner answer</span>{response ? choiceById(question, response.answerId)?.text : 'Not answered yet'}</p><p><span>Chosen evidence</span>{response ? sentenceById(quest, response.evidenceId)?.text : 'Not chosen yet'}</p><p><span>Suggested next practice</span>{question.followUpSuggestion}</p></article>; })}</div><button className="secondary-button" type="button" onClick={() => navigate('review')}>Review answer details</button></section> : <section className="empty-summary"><h2>No practice recorded for this quest yet</h2><p>Choose a reviewed quest to record anonymous answers, evidence choices, and a focused next practice.</p></section>}<section className="next-step"><div><p className="eyebrow">Next recommendation</p><h2>{recommendation.quest?.title || 'A reviewed local quest'}</h2><p>{recommendation.reason}</p></div><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume quest' : 'Start quest'} <span aria-hidden="true">→</span></button></section><Guide accessory={progress.activeAccessoryId} message="Your next quest is chosen from unfinished routes and skills you have practiced least." /></section>}
         {screen === 'leaderboard' && <LeaderboardScreen progress={progress} onNavigate={navigate} />}
         {screen === 'trophy-road' && <TrophyRoadScreen progress={progress} onNavigate={navigate} />}
-        {screen === 'level-road' && <LevelRoadScreen progress={progress} onNavigate={navigate} onEquip={markAccessory} />}
-        {['profile', 'pets', 'shop', 'pass', 'books'].includes(screen) && <PlatformCollection section={screen} progress={progress} quests={quests} apiState={apiState} onUpdate={setProgress} onStatus={addStatus} onNavigate={navigate} onLaunchQuest={launchQuest} />}
+        {screen === 'level-road' && <LevelRoad100 progress={progress} onNavigate={navigate} />}
+        {screen === 'profile' && <ProfileScreen progress={progress} onNavigate={navigate} />}
+        {screen === 'pets' && <PetCollectionScreen progress={progress} onUpdate={setProgress} onStatus={addStatus} />}
+        {['shop', 'pass', 'books'].includes(screen) && <PlatformCollection section={screen} progress={progress} quests={quests} apiState={apiState} onUpdate={setProgress} onStatus={addStatus} onNavigate={navigate} onLaunchQuest={launchQuest} />}
         {screen === 'settings' && <ControlsPanel progress={progress} onUpdate={updateSettings} onJudge={loadJudgeDemo} onReset={resetDemo} />}
         {screen === 'explore' && <FeatureLab progress={progress} quests={quests} onStatus={addStatus} onSetting={updateSettings} onUpdate={setProgress} />}
       </main>
