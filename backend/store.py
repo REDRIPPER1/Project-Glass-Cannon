@@ -21,6 +21,8 @@ from .book_catalog import (
     load_book_quizzes,
 )
 from .catalog import indexed
+from .chapter_activities import activities_for_chapter as reviewed_activities_for_chapter, load_chapter_activities
+from .chapter_activities import activities_for_chapter as reviewed_activities_for_chapter
 from .progression import level_for_xp, level_nodes
 
 
@@ -153,6 +155,8 @@ class DemoStore:
         profile.setdefault("ownedBookIds", [])
         profile.setdefault("bookPurchaseLedger", [])
         profile.setdefault("questAttempts", [])
+        profile.setdefault("activityAttempts", [])
+        profile.setdefault("purchaseRequests", {})
         profile.setdefault("wishlistRedemptions", [])
         profile.setdefault("collectionState", {"badges": [], "achievements": [], "trophies": []})
         return profile
@@ -197,6 +201,8 @@ class DemoStore:
             "ownedBookIds": [],
             "bookPurchaseLedger": [],
             "questAttempts": [],
+            "activityAttempts": [],
+            "purchaseRequests": {},
             "wishlistRedemptions": [],
             "collectionState": {"badges": [], "achievements": [], "trophies": []},
             "battlePassProgress": {},
@@ -603,11 +609,64 @@ class DemoStore:
         else:
             raise PlatformError("invalid_reward", "Reward has an unsupported item type.")
 
-    def purchase(self, profile_id: str, shop_item_id: str) -> dict[str, Any]:
+    def complete_chapter_activity(self, profile_id: str, activity_id: str, payload: dict[str, Any]) -> dict[str, Any]:
         profile = self._profile(profile_id)
+        attempt_id = payload.get("attemptId")
+        if not isinstance(attempt_id, str) or not attempt_id.strip():
+            raise PlatformError("invalid_attempt_id", "An opaque activity attempt ID is required.")
+        existing = next((item for item in profile["activityAttempts"] if item["attemptId"] == attempt_id), None)
+        if existing is not None:
+            if existing["activityId"] != activity_id:
+                raise PlatformError("idempotency_conflict", "That attempt ID belongs to another activity.", 409)
+            return deepcopy(existing["result"]) | {"idempotent": True}
+        activity = next((item for chapter in load_chapter_activities()["chapters"] for item in chapter["activities"] if item["id"] == activity_id), None)
+        if activity is None:
+            raise PlatformError("activity_not_found", "Reviewed activity was not found.", 404)
+        access = self.book_access(profile_id, activity["bookId"], activity["chapterId"])
+        if not access["allowed"]:
+            raise PlatformError("activity_access_locked", "Open the chapter before completing its activity.", 403)
+        supplied_evidence = payload.get("evidenceSentenceIds")
+        if not isinstance(supplied_evidence, list) or not all(isinstance(item, str) for item in supplied_evidence):
+            raise PlatformError("invalid_evidence", "Evidence sentence IDs must be a list.")
+        task = activity["task"]
+        correct = set(task["correctEvidenceSentenceIds"]).issubset(set(supplied_evidence))
+        if task["mode"] == "choice":
+            correct = correct and payload.get("choiceId") == task["correctChoiceId"]
+        else:
+            response = payload.get("responseText", "")
+            correct = correct and isinstance(response, str) and len(response.strip()) >= task.get("minCharacters", 0)
+        if not correct:
+            result = {"activityId": activity_id, "completionStatus": "try-again", "feedback": activity["feedback"], "issuedRewards": [], "wallet": deepcopy(profile["wallet"]), "inventory": deepcopy(profile["inventory"])}
+            profile["activityAttempts"].append({"attemptId": attempt_id, "activityId": activity_id, "result": deepcopy(result), "completedAt": utc_now()})
+            self._touch(profile)
+            return result
+        reward = self._issue_reward(profile, activity["reward"]["rewardId"], f"activity:{activity_id}")
+        if reward["claimStatus"] == "unclaimed":
+            self._grant(profile, self.rewards[reward["rewardId"]]["type"], self.rewards[reward["rewardId"]]["catalogId"], self.rewards[reward["rewardId"]]["quantity"])
+            reward["claimStatus"] = "claimed"
+            reward["claimedAt"] = utc_now()
+        result = {"activityId": activity_id, "completionStatus": "completed", "feedback": activity["feedback"], "issuedRewards": [deepcopy(reward) | {"reward": deepcopy(self.rewards[reward["rewardId"]])}], "wallet": deepcopy(profile["wallet"]), "inventory": deepcopy(profile["inventory"])}
+        profile["activityAttempts"].append({"attemptId": attempt_id, "activityId": activity_id, "result": deepcopy(result), "completedAt": utc_now()})
+        self._touch(profile)
+        return result
+
+    def purchase(self, profile_id: str, shop_item_id: str, client_request_id: str | None = None) -> dict[str, Any]:
+        profile = self._profile(profile_id)
+        if client_request_id is not None:
+            if not isinstance(client_request_id, str) or not 1 <= len(client_request_id.strip()) <= 128:
+                raise PlatformError("invalid_client_request_id", "clientRequestId must be a short opaque ID.")
+            existing = profile["purchaseRequests"].get(client_request_id)
+            if existing is not None:
+                if existing["shopItemId"] != shop_item_id:
+                    raise PlatformError("idempotency_conflict", "That clientRequestId belongs to another shop item.", 409)
+                return deepcopy(existing["result"]) | {"idempotent": True}
         item = self._catalog_item(self.shop, shop_item_id, "shop item")
         if item["availability"] not in {"available", "demo-only"}:
             raise PlatformError("unavailable_shop_item", "That shop item is not currently available.", 409)
+        if item["itemType"] == "book" and item["catalogId"] in profile["ownedBookIds"]:
+            raise PlatformError("duplicate_ownership", "This book is already permanently owned.", 409)
+        if item["itemType"] == "accessory" and item["catalogId"] in profile["ownedAccessoryIds"]:
+            raise PlatformError("duplicate_ownership", "This accessory is already owned.", 409)
         purchases = [entry for entry in profile["purchaseLedger"] if entry["shopItemId"] == shop_item_id and not entry.get("reversedAt")]
         if len(purchases) >= item["purchaseLimit"]:
             raise PlatformError("purchase_limit_reached", "This demo purchase limit has been reached.", 409)
@@ -643,8 +702,8 @@ class DemoStore:
                     "createdAt": purchase["createdAt"],
                 }
             )
-        self._touch(profile)
         result = deepcopy(purchase) | {
+            "transactionId": purchase["id"], "status": "completed",
             "wallet": deepcopy(profile["wallet"]),
             "inventory": deepcopy(profile["inventory"]),
         }
@@ -654,6 +713,9 @@ class DemoStore:
                 "ownership": "permanent",
                 "ownedBookIds": deepcopy(profile["ownedBookIds"]),
             }
+        if client_request_id is not None:
+            profile["purchaseRequests"][client_request_id] = {"shopItemId": shop_item_id, "result": deepcopy(result)}
+        self._touch(profile)
         return result
 
     def reverse_purchase(self, profile_id: str, purchase_id: str) -> dict[str, Any]:
@@ -810,6 +872,9 @@ class DemoStore:
     def activities_for_book(self, book_id: str | None = None) -> list[dict[str, Any]]:
         """Return reviewed activities only; drafts and generated items stay internal."""
         return self.quizzes_for_book(book_id)
+
+    def chapter_activities(self, book_id: str, chapter_id: str, detail: bool = False) -> list[dict[str, Any]]:
+        return reviewed_activities_for_chapter(book_id, chapter_id, detail)
 
     def quiz_access(self, profile_id: str, book_id: str, quiz_id: str) -> dict[str, Any]:
         quiz = self._catalog_item(self.book_quizzes, quiz_id, "book quiz")
