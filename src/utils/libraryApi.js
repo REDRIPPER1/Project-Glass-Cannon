@@ -49,6 +49,11 @@ export async function loadBookQuizzes() {
   return Array.isArray(quizzes) ? quizzes : [];
 }
 
+export async function loadBookActivities() {
+  const activities = await api('/api/catalog/book-activities');
+  return Array.isArray(activities) ? activities : [];
+}
+
 export async function ensureAnonymousProfile() {
   const savedId = storage()?.getItem(PROFILE_STORAGE_KEY);
   if (savedId) {
@@ -60,7 +65,7 @@ export async function ensureAnonymousProfile() {
 }
 
 export async function loadLibraryEnhancement() {
-  const [books, profileId, bookQuizzes] = await Promise.all([loadBookCatalog(), ensureAnonymousProfile(), loadBookQuizzes()]);
+  const [books, profileId, bookQuizzes, bookActivities] = await Promise.all([loadBookCatalog(), ensureAnonymousProfile(), loadBookQuizzes(), loadBookActivities().catch(() => [])]);
   const [library, recommendations, balances, pets, shopItems, profile, bookWishlist] = await Promise.all([
     api(`/api/profiles/${profileId}/library`),
     api(`/api/profiles/${profileId}/recommendations`),
@@ -70,7 +75,7 @@ export async function loadLibraryEnhancement() {
     api(`/api/profiles/${profileId}`),
     api(`/api/profiles/${profileId}/book-wishlist`),
   ]);
-  return { books, profileId, bookQuizzes, bookWishlistIds: Array.isArray(bookWishlist?.bookWishlistIds) ? bookWishlist.bookWishlistIds : [], library: Array.isArray(library) ? library : [], recommendations: Array.isArray(recommendations) ? recommendations : [], wallet: balances?.wallet, inventory: balances?.inventory, pets: Array.isArray(pets) ? pets : [], shopItems: Array.isArray(shopItems) ? shopItems : [], profile };
+  return { books, profileId, bookQuizzes, bookActivities, bookWishlistIds: Array.isArray(bookWishlist?.bookWishlistIds) ? bookWishlist.bookWishlistIds : [], library: Array.isArray(library) ? library : [], recommendations: Array.isArray(recommendations) ? recommendations : [], wallet: balances?.wallet, inventory: balances?.inventory, pets: Array.isArray(pets) ? pets : [], shopItems: Array.isArray(shopItems) ? shopItems : [], profile };
 }
 
 export async function loadChapterReference(profileId, bookId, chapterId) {
