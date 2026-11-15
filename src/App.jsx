@@ -13,6 +13,7 @@ import {
   LEVEL_REWARDS,
   PET_LEVEL_MILESTONES,
   beginQuest,
+  buyWishlistPages,
   completeOnboarding,
   completeQuest,
   createJudgeProgress,
@@ -22,7 +23,9 @@ import {
   xpRequiredForLevel,
   loadProgress,
   markEvidenceReveal,
+  markBookChapterRead,
   recordResponse,
+  redeemWishlistPages,
   recordReturnVisit,
   resetProgress,
   responseFor,
@@ -46,8 +49,7 @@ import {
   toggleWishlist,
 } from './utils/progress';
 import { PLATFORM_CATALOG, RARITY_COLORS, displayCurrency, petById, rewardById } from './utils/platformCatalog';
-import { bookAccessState, bookLevelNodes, chapterAccessState, libraryBooks, sourceReaderState } from './utils/bookLibrary';
-import { fullBookCatalog } from './utils/expandedBookCatalog';
+import { bookAccessState, bookLevelNodes, chapterAccessState, exactChapterQuest, libraryBooks, sourceReaderState } from './utils/bookLibrary';
 import { loadLibraryEnhancement } from './utils/libraryApi';
 import {
   coachFallback,
@@ -298,13 +300,15 @@ function LevelRoadScreen({ progress, onNavigate, onEquip }) {
   );
 }
 
-function QuestMap({ arc, activeQuestId }) {
+function QuestMap({ arc, activeQuestId, onContinue }) {
+  const nextStop = arc.find(({ state }) => state === 'current' || state === 'ready') || arc.at(-1);
   return (
     <section className="quest-map" aria-labelledby="quest-map-title">
       <div><p className="eyebrow">Story arc</p><h2 id="quest-map-title">The clue trail</h2></div>
       <ol>
         {arc.map(({ quest, state }, index) => <li key={quest.id} className={`map-stop is-${state} ${quest.id === activeQuestId ? 'is-active' : ''}`}><span aria-hidden="true">{state === 'complete' ? '✓' : index + 1}</span><p>{quest.title}</p><small>{state === 'complete' ? 'Story fragment found' : state === 'current' ? 'In progress' : state === 'locked' ? 'Opens as the trail grows' : 'Ready to explore'}</small></li>)}
       </ol>
+      {nextStop && <button className="secondary-button quest-map-continue" type="button" onClick={() => onContinue(nextStop.quest)}>{nextStop.state === 'current' ? 'Continue active quest' : 'Continue to next quest'} <span aria-hidden="true">→</span></button>}
     </section>
   );
 }
@@ -416,9 +420,41 @@ function PetAvatar({ pet, nickname, accessoryId }) {
   </figure>;
 }
 
+function LitLearnShopScreen({ progress, onUpdate, onNavigate, onStatus }) {
+  const buyPages = () => { if (progress.currencies.diamonds < 10) { onStatus('You need 10 Diamonds for a Wishlist Page.'); return; } onUpdate((current) => buyWishlistPages(current)); onStatus('Wishlist Page added to your inventory.'); };
+  return <section className="feature-card platform-collection" aria-labelledby="shop-title"><div className="collection-hero"><div><p className="eyebrow">Local demo shop</p><h1 id="shop-title">Story Shop</h1><p>Gold and Diamonds are the only player currencies. Purchases stay in this browser until the synced wallet contract is enabled.</p></div><div className="currency-bar"><span>🪙 {progress.currencies.gold} Gold</span><span>💎 {progress.currencies.diamonds} Diamonds</span></div></div><section className="shop-section" id="shop-diamonds"><h2>Wishlist Pages</h2><div className="shop-grid"><article className="shop-product"><span className="eyebrow">Diamond item</span><h3>Wishlist Page</h3><p>Use five pages for a random eligible wishlist-book claim. Quest completions and Level Road milestones also earn pages.</p><button className="secondary-button" type="button" onClick={buyPages}>Buy 1 for 10 Diamonds</button></article></div></section><section className="shop-section"><h2>Books</h2><p>Permanent book purchases remain in Shop. Only titles with a provided LitLearn purchase offer can be purchased; unavailable titles clearly remain locked.</p><button className="secondary-button" type="button" onClick={() => onNavigate('books')}>Browse book offers</button></section><section className="shop-section"><h2>Companion items</h2><p>Pet clothing and eggs unlock through their intended level and collection paths. No other visible currencies are used.</p></section></section>;
+}
+
+function InAppBookLibraryScreen({ progress, quests, apiState, catalogBooks, onUpdate, onNavigate, onLaunchQuest }) {
+  const catalog = catalogBooks?.length ? catalogBooks : PLATFORM_CATALOG.books;
+  const [category, setCategory] = useState('All categories');
+  const [selectedBookId, setSelectedBookId] = useState(() => { try { return window.sessionStorage.getItem('litlab.bookFocus') || catalog[0]?.id || ''; } catch { return catalog[0]?.id || ''; } });
+  const [selectedChapterId, setSelectedChapterId] = useState('');
+  const [readerOpen, setReaderOpen] = useState(false);
+  const categories = ['All categories', ...new Set(catalog.map((book) => book.category || book.topic || 'Classics'))];
+  const visible = catalog.filter((book) => category === 'All categories' || (book.category || book.topic || 'Classics') === category);
+  const selectedBook = visible.find((book) => book.id === selectedBookId) || visible[0] || null;
+  const chapter = selectedBook?.chapterMetadata?.find((item) => item.id === selectedChapterId) || selectedBook?.chapterMetadata?.[0] || null;
+  const quest = selectedBook && chapter ? exactChapterQuest(selectedBook, chapter, quests) : null;
+  const access = selectedBook && chapter ? chapterAccessState(selectedBook, chapter, progress) : 'locked';
+  const choose = (book) => {
+    setSelectedBookId(book.id);
+    setSelectedChapterId(book.chapterMetadata?.[0]?.id || '');
+    setReaderOpen(false);
+    window.setTimeout(() => {
+      const heading = document.getElementById('selected-book-title');
+      heading?.scrollIntoView({ behavior: progress.settings.reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      heading?.setAttribute('tabindex', '-1');
+      heading?.focus();
+    }, 0);
+  };
+  if (readerOpen && selectedBook && chapter && quest) return <section className="in-app-reader" aria-labelledby="reader-title"><div className="reader-toolbar"><button className="secondary-button" type="button" onClick={() => setReaderOpen(false)}>Back to {selectedBook.title}</button><span>{progress.bookReading[selectedBook.id]?.chapterIds?.includes(chapter.id) ? 'Read' : 'Reading'}</span></div><p className="eyebrow">{selectedBook.title} · {chapter.title}</p><h1 id="reader-title">Read in LitLearn</h1><p className="reader-attribution">{selectedBook.requiredAttribution || 'Reviewed LitLearn passage.'}</p><article className="passage-card" aria-label={`${chapter.title} passage`}>{sentencesFor(quest).map((sentence) => <p key={sentence.id}>{sentence.text}</p>)}</article><div className="button-row"><button className="primary-button" type="button" onClick={() => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); onLaunchQuest(quest); }}>Start comprehension quest</button><button className="secondary-button" type="button" onClick={() => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); setReaderOpen(false); }}>Mark chapter read</button></div></section>;
+  return <section className="feature-card platform-collection book-library" aria-labelledby="books-title"><div className="collection-hero"><div><p className="eyebrow">LitLearn library</p><h1 id="books-title">Books</h1><p>Read reviewed LitLearn passages without leaving the app. Unreviewed titles stay unavailable until their content is provided.</p></div><span className={`book-state is-${apiState.kind === 'ready' ? 'ready' : 'error'}`}>{apiState.kind === 'ready' ? 'Catalog synced' : 'Offline catalog'}</span></div><label className="book-category-filter" htmlFor="book-category">Category<select id="book-category" value={category} onChange={(event) => { setCategory(event.target.value); setSelectedBookId(''); }}><option>All categories</option>{categories.slice(1).map((item) => <option key={item}>{item}</option>)}</select></label>{visible.length ? <div className="book-library-layout"><section className="book-shelf" aria-label="Books by category">{visible.map((book) => { const state = bookAccessState(book, progress); return <article key={book.id} className={`book-card ${book.id === selectedBook?.id ? 'is-selected' : ''}`}><span className={`book-state is-${state}`}>{state === 'owned' ? 'Owned forever' : state === 'subscription' ? 'Readable with Premium' : state === 'free' ? 'Free chapters' : state === 'purchase-only' ? 'Purchase required' : 'Locked'}</span><h2>{book.title}</h2><p>{book.author} · {book.category || book.topic}</p><button className="secondary-button" type="button" onClick={() => choose(book)}>View reading path</button><button className="text-button" type="button" onClick={() => onUpdate((current) => toggleWishlist(current, book.id))}>{progress.wishlistIds.includes(book.id) ? '★ Wishlisted' : '☆ Add to wishlist'}</button></article>; })}</section>{selectedBook && <section className="book-reader-workspace" aria-labelledby="selected-book-title"><div className="book-detail-header"><div><h2 id="selected-book-title">{selectedBook.title}</h2><p>{selectedBook.author} · {selectedBook.edition}</p></div><button className="text-button" type="button" onClick={() => onNavigate('shop')}>Book options in Shop</button></div><p className="source-attribution"><strong>Attribution:</strong> {selectedBook.requiredAttribution || 'Catalog attribution pending review.'}</p><div className="chapter-list" aria-label={`${selectedBook.title} chapters`}>{(selectedBook.chapterMetadata || []).map((item) => <button key={item.id} type="button" className={chapter?.id === item.id ? 'is-selected' : ''} onClick={() => { setSelectedChapterId(item.id); setReaderOpen(false); }}>{item.title}<small>{progress.bookReading[selectedBook.id]?.chapterIds?.includes(item.id) ? 'Read' : 'Not read'}</small></button>)}</div>{chapter && quest && access !== 'locked' && access !== 'purchase-only' ? <div className="source-reader-state is-ready"><h3>{chapter.title}</h3><p>This provided LitLearn passage opens inside the app.</p><button className="primary-button" type="button" onClick={() => setReaderOpen(true)}>Read chapter in LitLearn</button></div> : <div className="source-reader-state is-unavailable"><h3>{chapter?.title || 'No chapter provided'}</h3><p>{access === 'purchase-only' ? 'Purchase access is available in Shop. The in-app chapter unlocks only after a successful purchase.' : 'This title has no provided readable passage yet. It remains in the catalog, but LitLearn will not redirect you elsewhere.'}</p></div>}</section>}</div> : <section className="book-empty-state"><h2>No books in this category</h2><p>Choose another category to continue browsing the provided LitLearn catalog.</p></section>}</section>;
+}
+
 function BookLibraryScreen({ progress, quests, apiState, catalogBooks, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
   const [view, setView] = useState('library');
-  const allBooks = useMemo(() => catalogBooks?.length ? catalogBooks : fullBookCatalog(PLATFORM_CATALOG.books), [catalogBooks]);
+  const allBooks = useMemo(() => catalogBooks?.length ? catalogBooks : PLATFORM_CATALOG.books, [catalogBooks]);
   const [selectedBookId, setSelectedBookId] = useState(() => { try { return window.sessionStorage.getItem('litlab.bookFocus') || allBooks[0]?.id || ''; } catch { return allBooks[0]?.id || ''; } });
   const [selectedLevel, setSelectedLevel] = useState(1);
   const visibleBooks = view === 'library' ? libraryBooks(allBooks, progress) : allBooks;
@@ -445,9 +481,9 @@ function BookLibraryScreen({ progress, quests, apiState, catalogBooks, onUpdate,
       </section>
       {selectedBook && <section className="book-reader-workspace" aria-labelledby="selected-book-title">
         <div className="book-detail-header"><div><span className={`book-state is-${bookAccessState(selectedBook, progress)}`}>{labelForAccess(bookAccessState(selectedBook, progress))}</span><h2 id="selected-book-title">{selectedBook.title}</h2><p>{selectedBook.author} · {selectedBook.edition || 'Reviewed edition'}</p></div><button className="text-button" type="button" onClick={() => onNavigate('shop')}>Book options in Shop</button></div>
-        <p className="source-attribution"><strong>Source attribution:</strong> {selectedBook.requiredAttribution || 'Catalog attribution pending review.'} {selectedBook.license && <span> {selectedBook.license}</span>} {selectedBook.sourceUrl && <a href={selectedBook.sourceUrl} target="_blank" rel="noreferrer">Open verified source</a>}</p>
+        <p className="source-attribution"><strong>Source attribution:</strong> {selectedBook.requiredAttribution || 'Catalog attribution pending review.'} {selectedBook.license && <span> {selectedBook.license}</span>}</p>
         <ol className="book-level-map" aria-label={`${selectedBook.title} reading levels, left to right`}>{levels.map((node) => { const nodeAccess = node.chapter ? chapterAccessState(selectedBook, node.chapter, progress) : 'locked'; const nodeSelected = node.level === selectedNode?.level; return <li className={`${nodeSelected ? 'is-selected' : ''} is-${nodeAccess}`} key={node.id}><button className="book-level-node" type="button" aria-pressed={nodeSelected} onClick={() => setSelectedLevel(node.level)}><span>Level {node.level}</span><strong>{node.chapter?.title || 'Awaiting reviewed map'}</strong><small>{node.chapter ? labelForAccess(nodeAccess) : 'Catalog mapping needed'}</small></button></li>; })}</ol>
-        <section className={`source-reader-state is-${reader.kind}`} aria-live="polite"><p className="eyebrow">Selected level {selectedNode?.level || 1}</p><h3>{selectedNode?.chapter?.title || 'No reviewed chapter yet'}</h3><p>{reader.message}</p>{reader.kind === 'ready' && <a className="secondary-button" href={selectedBook.sourceUrl} target="_blank" rel="noreferrer">Read verified source</a>}{selectedNode?.quest ? <button className="primary-button" type="button" onClick={() => onLaunchQuest(selectedNode.quest)}>Start comprehension quest</button> : selectedNode?.chapter && <p className="quest-unavailable">No reviewed comprehension quest is mapped to this exact chapter yet.</p>}{chapterAccess === 'purchase-only' && <button className="secondary-button" type="button" onClick={() => onNavigate('shop')}>Find purchase option in Shop</button>}</section>
+        <section className={`source-reader-state is-${reader.kind}`} aria-live="polite"><p className="eyebrow">Selected level {selectedNode?.level || 1}</p><h3>{selectedNode?.chapter?.title || 'No reviewed chapter yet'}</h3><p>{reader.message}</p>{selectedNode?.quest ? <button className="primary-button" type="button" onClick={() => onLaunchQuest(selectedNode.quest)}>Start comprehension quest</button> : selectedNode?.chapter && <p className="quest-unavailable">No reviewed comprehension quest is mapped to this exact chapter yet.</p>}{chapterAccess === 'purchase-only' && <button className="secondary-button" type="button" onClick={() => onNavigate('shop')}>Find purchase option in Shop</button>}</section>
       </section>}
     </div>}
     <section className="plan-grid"><article><h2>Free membership</h2><p>Free chapters can support the early reading path. Levels without a reviewed chapter stay clearly unavailable.</p><button className={progress.subscriptionPlan === 'free' ? 'equipped-reward' : 'secondary-button'} type="button" onClick={() => onUpdate((current) => setSubscriptionPlan(current, 'free'))}>{progress.subscriptionPlan === 'free' ? 'Current plan' : 'Choose free'}</button></article><article className="is-premium"><h2>Premium membership</h2><p>Eligible titles and chapters open in this local preview. Purchase-only titles remain separate.</p><button className={progress.subscriptionPlan === 'premium' ? 'equipped-reward' : 'primary-button'} type="button" onClick={() => { onUpdate((current) => setSubscriptionPlan(current, 'premium')); onStatus('Premium preview enabled locally. No payment was processed.'); }}>{progress.subscriptionPlan === 'premium' ? 'Premium active' : 'Try Premium preview'}</button></article></section>
@@ -455,12 +491,12 @@ function BookLibraryScreen({ progress, quests, apiState, catalogBooks, onUpdate,
 }
 
 function RecommendedBookCard({ onNavigate, catalogBooks, recommendations }) {
-  const catalog = catalogBooks?.length ? catalogBooks : fullBookCatalog(PLATFORM_CATALOG.books);
+  const catalog = catalogBooks?.length ? catalogBooks : PLATFORM_CATALOG.books;
   const book = catalog.find((item) => item.id === recommendations?.[0]?.bookId) || catalog[0];
   return <section className="recommended-book-card" aria-labelledby="recommended-book-title"><div><p className="eyebrow">Recommended book</p><h2 id="recommended-book-title">{book.title}</h2><p>{book.author} · {book.category || book.topic} · {'★'.repeat(book.difficulty || 1)}{'☆'.repeat(5 - (book.difficulty || 1))}</p></div><button className="primary-button" type="button" onClick={() => { try { window.sessionStorage.setItem('litlab.bookFocus', book.id); } catch { /* optional convenience only */ } onNavigate('books'); }}>Open book <span aria-hidden="true">→</span></button></section>;
 }
 
-function ProfileScreen({ progress, onNavigate }) {
+function ProfileScreen({ progress, onNavigate, onUpdate, onStatus }) {
   const [selected, setSelected] = useState(null);
   const level = levelForXp(progress.xp);
   const current = xpIntoLevel(progress.xp);
@@ -473,17 +509,57 @@ function ProfileScreen({ progress, onNavigate }) {
     ...progress.wishlistIds.map((id) => ({ id, title: id.replaceAll('-', ' '), description: 'Saved in your local wishlist.', type: 'Wishlist', earned: false, how: 'Open its matching Books, Pets, or Shop card to acquire it.' })),
   ];
   const selectedItem = collection.find((item) => item.id === selected) || null;
-  return <section className="feature-card platform-collection profile-v2" aria-labelledby="profile-title"><div className="profile-v2-hero"><div className="xp-avatar" style={{ '--xp-fill': `${percent * 3.6}deg` }} aria-label={`Level ${level}, ${current} of ${required || current} XP toward the next level`}><span>{progress.profileName.slice(0, 1).toUpperCase()}</span></div><div><p className="eyebrow">Reader profile</p><h1 id="profile-title">{progress.profileName}</h1><p>Level {level} · {current}/{required || current} XP toward the next level</p></div></div><div className="wallet-row" aria-label="Wallet"><button type="button" onClick={() => onNavigate('shop', { shopSection: 'gold' })}>🪙 <strong>{progress.currencies.gold}</strong> Gold <span aria-hidden="true">+</span></button><button type="button" onClick={() => onNavigate('shop', { shopSection: 'diamonds' })}>💎 <strong>{progress.currencies.diamonds}</strong> Diamonds <span aria-hidden="true">+</span></button></div><section className="xp-breakdown" aria-labelledby="xp-breakdown-title"><h2 id="xp-breakdown-title">Latest XP breakdown</h2><p>Correct answers +{progress.lastXpBreakdown?.answers || 0} · evidence reasoning +{progress.lastXpBreakdown?.evidence || 0} · quality +{progress.lastXpBreakdown?.reasoning || 0}. Incorrect or unanswered questions earn 0 XP.</p></section><section className="interactive-collection"><h2>Collection journal</h2>{collection.length ? <div className="collection-list">{collection.map((item) => <button type="button" key={`${item.type}-${item.id}`} className={selected === item.id ? 'is-selected' : ''} onClick={() => setSelected(item.id)}>✦ {item.title} <small>{item.earned ? 'Earned' : item.type === 'Wishlist' ? 'Saved' : 'Locked'}</small></button>)}</div> : <p className="empty-summary">No keepsakes yet—your first quest will add one.</p>}{selectedItem && <article className="collection-detail" role="status"><p className="eyebrow">{selectedItem.type} · {selectedItem.earned ? 'Earned' : 'Not yet earned'}</p><h3>{selectedItem.title}</h3><p>{selectedItem.description}</p><p><strong>How to get it:</strong> {selectedItem.how}</p></article>}</section></section>;
+  const redeem = () => {
+    if (progress.inventory.wishlistPages < 5 || !progress.wishlistIds.length) {
+      onStatus('You need five Wishlist Pages and at least one eligible wishlisted book.');
+      return;
+    }
+    if (!window.confirm('Spend 5 Wishlist Pages for one random eligible book from your wishlist? The selected book will be permanently owned after a successful claim.')) return;
+    const result = redeemWishlistPages(progress, progress.wishlistIds);
+    if (!result.selectedBookId) { onStatus('The claim could not be completed, so no Wishlist Pages were spent.'); return; }
+    onUpdate(() => result.progress);
+    onStatus(`${result.selectedBookId.replaceAll('-', ' ')} is now owned forever.`);
+  };
+  return <section className="feature-card platform-collection profile-v2" aria-labelledby="profile-title"><div className="profile-v2-hero"><div className="xp-avatar" style={{ '--xp-fill': `${percent * 3.6}deg` }} aria-label={`Level ${level}, ${current} of ${required || current} XP toward the next level`}><span>{progress.profileName.slice(0, 1).toUpperCase()}</span></div><div><p className="eyebrow">Reader profile</p><h1 id="profile-title">{progress.profileName}</h1><p>Level {level} · {current}/{required || current} XP toward the next level</p></div></div><div className="wallet-row" aria-label="Wallet"><button type="button" onClick={() => onNavigate('shop', { shopSection: 'gold' })}>🪙 <strong>{progress.currencies.gold}</strong> Gold <span aria-hidden="true">+</span></button><button type="button" onClick={() => onNavigate('shop', { shopSection: 'diamonds' })}>💎 <strong>{progress.currencies.diamonds}</strong> Diamonds <span aria-hidden="true">+</span></button><span className="wishlist-page-chip">📜 {progress.inventory.wishlistPages} Wishlist Pages</span></div><section className="xp-breakdown" aria-labelledby="xp-breakdown-title"><h2 id="xp-breakdown-title">Latest XP breakdown</h2><p>Correct answers +{progress.lastXpBreakdown?.answers || 0} · evidence reasoning +{progress.lastXpBreakdown?.evidence || 0} · quality +{progress.lastXpBreakdown?.reasoning || 0}. Incorrect or unanswered questions earn 0 XP.</p></section><section className="wishlist-redemption"><h2>Wishlist Page draw</h2><p>Spend five Wishlist Pages to receive one random eligible book from your wishlist permanently. The selected title is shown only after the claim succeeds.</p><button className="secondary-button" type="button" disabled={progress.inventory.wishlistPages < 5 || !progress.wishlistIds.length} onClick={redeem}>Use 5 Wishlist Pages</button></section><section className="interactive-collection"><h2>Collection journal</h2>{collection.length ? <div className="collection-list">{collection.map((item) => <button type="button" key={`${item.type}-${item.id}`} className={selected === item.id ? 'is-selected' : ''} onClick={() => setSelected(item.id)}>✦ {item.title} <small>{item.earned ? 'Earned' : item.type === 'Wishlist' ? 'Saved' : 'Locked'}</small></button>)}</div> : <p className="empty-summary">No keepsakes yet—your first quest will add one.</p>}{selectedItem && <article className="collection-detail" role="status"><p className="eyebrow">{selectedItem.type} · {selectedItem.earned ? 'Earned' : 'Not yet earned'}</p><h3>{selectedItem.title}</h3><p>{selectedItem.description}</p><p><strong>How to get it:</strong> {selectedItem.how}</p></article>}</section></section>;
 }
 
-function PetCollectionScreen({ progress, onUpdate, onStatus }) {
+function LegacyPetCollectionScreen({ progress, onUpdate, onStatus }) {
   const level = levelForXp(progress.xp);
   const starterPets = PLATFORM_CATALOG.pets.filter((pet) => pet.availability === 'starter');
   return <section className="feature-card platform-collection" aria-labelledby="pets-title"><div className="collection-hero"><div><p className="eyebrow">Companion milestones</p><h1 id="pets-title">Pets</h1><p>Companions unlock on the Level Road. Unlock one to name, equip, and customize it.</p></div></div><div className="pet-grid">{starterPets.map((pet) => { const milestone = PET_LEVEL_MILESTONES.find((item) => item.petId === pet.id); const owned = progress.ownedPetIds.includes(pet.id); const active = progress.activePetId === pet.id; return <article className={`pet-card ${active ? 'is-active' : ''}`} key={pet.id}><PetAvatar pet={pet} nickname={progress.petNicknames[pet.id]} /><span className="rarity-chip" style={{ color: RARITY_COLORS[pet.rarity] }}>{owned ? pet.rarity : `Unlocks at level ${milestone?.level || '—'}`}</span><h2>{progress.petNicknames[pet.id] || pet.name}</h2><p>{owned ? pet.description : `Locked until Level ${milestone?.level || '—'}. You are currently Level ${level}.`}</p><button className="secondary-button" type="button" disabled={!owned || active} onClick={() => { onUpdate((current) => equipPet(current, pet.id)); onStatus(`${pet.name} is now your active companion.`); }}>{active ? 'Active companion' : owned ? 'Choose pet' : 'Locked'}</button></article>; })}</div></section>;
 }
 
+function PetCollectionScreen({ progress, onUpdate, onStatus }) {
+  const [nameDrafts, setNameDrafts] = useState({});
+  const level = levelForXp(progress.xp);
+  const starterPets = PLATFORM_CATALOG.pets.filter((pet) => pet.availability === 'starter');
+  return (
+    <section className="feature-card platform-collection" aria-labelledby="pets-title">
+      <div className="collection-hero"><div><p className="eyebrow">Companion collection</p><h1 id="pets-title">Pets</h1><p>Every companion starts locked. Level Road milestones unlock naming, equipping, and accessories.</p></div></div>
+      <div className="pet-grid">
+        {starterPets.map((pet) => {
+          const milestone = PET_LEVEL_MILESTONES.find((item) => item.petId === pet.id);
+          const owned = progress.ownedPetIds.includes(pet.id);
+          const active = progress.activePetId === pet.id;
+          const draft = nameDrafts[pet.id] ?? progress.petNicknames[pet.id] ?? '';
+          const accessoryCount = owned ? Object.keys(progress.equippedAccessories).length : 0;
+          return <article className={`pet-card ${active ? 'is-active' : ''} ${owned ? 'is-unlocked' : 'is-locked'}`} key={pet.id}>
+            <PetAvatar pet={pet} nickname={progress.petNicknames[pet.id]} />
+            <span className="rarity-chip" style={{ color: RARITY_COLORS[pet.rarity] }}>{pet.rarity}</span>
+            <h2>{progress.petNicknames[pet.id] || pet.name}</h2>
+            <p>{owned ? `${active ? 'Active' : 'Unlocked'} · ${accessoryCount ? `${accessoryCount} accessory slots equipped` : 'Ready to customize'}.` : `Locked · unlocks at Level ${milestone?.level || '—'} (you are Level ${level}).`}</p>
+            <button className="secondary-button" type="button" disabled={!owned || active} onClick={() => { onUpdate((current) => equipPet(current, pet.id)); onStatus(`${pet.name} is now your active companion.`); }}>{active ? 'Active companion' : owned ? 'Make active' : `Reach Level ${milestone?.level || '—'}`}</button>
+            {owned && <label className="pet-name-row">Name <input aria-label={`Name ${pet.name}`} value={draft} maxLength="24" onChange={(event) => setNameDrafts((current) => ({ ...current, [pet.id]: event.target.value }))} /><button className="text-button" type="button" onClick={() => { onUpdate((current) => namePet(current, pet.id, draft)); setNameDrafts((current) => ({ ...current, [pet.id]: '' })); onStatus(`${pet.name} has a new name.`); }}>Save name</button></label>}
+          </article>;
+        })}
+      </div>
+      <p className="placeholder-note">Storybook pet art is coming later. These accessible illustrated placeholders preserve each pet’s lock, rarity, active, and customizable states.</p>
+    </section>
+  );
+}
+
 function PlatformCollection({ section, progress, quests, apiState, catalogBooks, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
-  if (section === 'books') return <BookLibraryScreen progress={progress} quests={quests} apiState={apiState} catalogBooks={catalogBooks} onUpdate={onUpdate} onStatus={onStatus} onNavigate={onNavigate} onLaunchQuest={onLaunchQuest} />;
+  if (section === 'books') return <InAppBookLibraryScreen progress={progress} quests={quests} apiState={apiState} catalogBooks={catalogBooks} onUpdate={onUpdate} onNavigate={onNavigate} onLaunchQuest={onLaunchQuest} />;
   const [nameDrafts, setNameDrafts] = useState({});
   const [selectedPassStop, setSelectedPassStop] = useState(PASS_STOPS[0].id);
   const activePet = petById(progress.activePetId) || PLATFORM_CATALOG.pets[0];
@@ -691,7 +767,7 @@ export default function App() {
         {screen === 'home' && <section className="home-view" aria-labelledby="home-title">
           <div className="home-copy"><p className="eyebrow">Your next reading adventure</p><h1 id="home-title">Find the clue. <em>Light the path.</em></h1><p className="lede">LitLab makes evidence practice feel like a small adventure. Careful reasoning—not speed—moves your story forward.</p><div className="how-it-works" aria-label="How LitLab works"><span>Read the story</span><span>Find the proof</span><span>Grow your trail</span></div><div className="button-row"><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume your quest' : 'Start recommended quest'} <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View practice summary</button></div><p className={`api-note is-${apiState.kind}`}><span className="status-dot" /> {apiState.label}</p></div>
           <div className="quest-preview"><div className="quest-world"><QuestHeroIllustration /></div>{recommendation.quest ? <><p className="card-label">{recommendation.kind === 'resume' ? 'Continue your route' : 'Recommended quest'}</p><h2>{recommendation.quest.title}</h2><p>{recommendation.quest.topic} · {recommendation.quest.difficulty}</p><div className="tag-row">{recommendation.quest.skillTags.map((tag) => <span key={tag}>{humanSkill(tag)}</span>)}</div><p className="time-label">◷ About {recommendation.quest.readingTimeMinutes} minutes · 3 evidence choices</p><p className="recommendation-reason">{recommendation.reason}</p><SourceNotice source={recommendation.quest.source} /></> : <section className="content-gate"><h2>Reviewed quests are loading.</h2><p>Local quest content will appear here once it passes its source and evidence checks.</p></section>}</div>
-          <QuestMap arc={arc} activeQuestId={quest?.id} />
+          <QuestMap arc={arc} activeQuestId={quest?.id} onContinue={launchQuest} />
           <section className="library-controls" aria-labelledby="library-title"><div><p className="eyebrow">Choose your quest</p><h2 id="library-title">The local quest library</h2></div><label className="search-label" htmlFor="quest-search">Search quests<input id="quest-search" value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} placeholder="Title, topic, or skill" /></label><label>Topic<select value={filters.topic} onChange={(event) => setFilters((current) => ({ ...current, topic: event.target.value }))}><option value="">All topics</option>{[...new Set(quests.map((item) => item.topic))].map((topic) => <option key={topic}>{topic}</option>)}</select></label><label>Skill<select value={filters.skill} onChange={(event) => setFilters((current) => ({ ...current, skill: event.target.value }))}><option value="">All skills</option>{[...new Set(quests.flatMap((item) => item.skillTags))].map((skill) => <option key={skill}>{humanSkill(skill)}</option>)}</select></label><label>Difficulty<select value={filters.difficulty} onChange={(event) => setFilters((current) => ({ ...current, difficulty: event.target.value }))}><option value="">All levels</option>{[...new Set(quests.map((item) => item.difficulty))].map((difficulty) => <option key={difficulty}>{difficulty}</option>)}</select></label><label className="toggle-row"><input type="checkbox" checked={filters.bookmarkOnly} onChange={(event) => setFilters((current) => ({ ...current, bookmarkOnly: event.target.checked }))} /><span>Bookmarks only</span></label></section>
           {progress.activeSession && <section className="resume-banner"><div><strong>Resume where you left off</strong><p>{questById(quests, progress.activeSession.questId)?.title || 'Your local quest'} · question {progress.activeSession.questionIndex + 1}</p></div><button className="secondary-button" type="button" onClick={() => navigate(progress.activeSession.screen, { questId: progress.activeSession.questId, questionIndex: progress.activeSession.questionIndex })}>Resume</button></section>}
           {filteredQuests.length ? <div className="library-grid">{filteredQuests.map((item) => <QuestCard key={item.id} quest={item} complete={isQuestComplete(progress, item.id)} bookmarked={progress.bookmarkedQuestIds.includes(item.id)} recommended={recommendation.quest?.id === item.id} progress={progress} onStart={launchQuest} onBookmark={(id) => setProgress((current) => toggleBookmark(current, id))} />)}</div> : <section className="empty-summary"><h2>No quests match those filters</h2><p>Clear a filter or bookmark a quest to bring it back into your library.</p><button className="secondary-button" type="button" onClick={() => setFilters({ search: '', topic: '', skill: '', difficulty: '', bookmarkOnly: false })}>Clear filters</button></section>}
@@ -710,9 +786,10 @@ export default function App() {
         {screen === 'leaderboard' && <LeaderboardScreen progress={progress} onNavigate={navigate} />}
         {screen === 'trophy-road' && <TrophyRoadScreen progress={progress} onNavigate={navigate} />}
         {screen === 'level-road' && <LevelRoad100 progress={progress} onNavigate={navigate} />}
-        {screen === 'profile' && <ProfileScreen progress={progress} onNavigate={navigate} />}
+        {screen === 'profile' && <ProfileScreen progress={progress} onNavigate={navigate} onUpdate={setProgress} onStatus={addStatus} />}
         {screen === 'pets' && <PetCollectionScreen progress={progress} onUpdate={setProgress} onStatus={addStatus} />}
-        {['shop', 'pass', 'books'].includes(screen) && <PlatformCollection section={screen} progress={progress} quests={quests} apiState={apiState} catalogBooks={libraryEnhancement.books} onUpdate={setProgress} onStatus={addStatus} onNavigate={navigate} onLaunchQuest={launchQuest} />}
+        {screen === 'shop' && <LitLearnShopScreen progress={progress} onUpdate={setProgress} onNavigate={navigate} onStatus={addStatus} />}
+        {['pass', 'books'].includes(screen) && <PlatformCollection section={screen} progress={progress} quests={quests} apiState={apiState} catalogBooks={libraryEnhancement.books} onUpdate={setProgress} onStatus={addStatus} onNavigate={navigate} onLaunchQuest={launchQuest} />}
         {screen === 'settings' && <ControlsPanel progress={progress} onUpdate={updateSettings} onJudge={loadJudgeDemo} onReset={resetDemo} />}
         {screen === 'explore' && <FeatureLab progress={progress} quests={quests} onStatus={addStatus} onSetting={updateSettings} onUpdate={setProgress} />}
       </main>
