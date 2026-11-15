@@ -29,6 +29,9 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(appSource, /LitLearn library/);
   assert.match(appSource, /aria-label=\{`\$\{selectedBook\.title\} reading levels, left to right`\}/);
   assert.match(appSource, /Read chapter in LitLearn/);
+  assert.match(appSource, /approved catalog titles, grouped by category/);
+  assert.match(appSource, /readableChapterSentences\(result\.content\)/);
+  assert.match(appSource, /hasInAppChapterContent\(chapter\)/);
   assert.match(appSource, /Start comprehension quest/);
   assert.match(appSource, /No reviewed book offers yet/);
   assert.match(appSource, /role="tablist" aria-label="Books view"/);

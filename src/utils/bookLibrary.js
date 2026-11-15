@@ -1,5 +1,15 @@
 const normalize = (value) => String(value || '').trim().toLowerCase();
 
+export function hasInAppChapterContent(chapter) {
+  const availability = normalize(chapter?.contentAvailability);
+  return Boolean(availability) && !['unavailable', 'reference-only', 'external'].includes(availability);
+}
+
+export function readableChapterSentences(content) {
+  if (!Array.isArray(content?.sentences)) return [];
+  return content.sentences.filter((sentence) => typeof sentence?.text === 'string' && sentence.text.trim());
+}
+
 export function bookAccessState(book, progress) {
   if (progress.ownedBookIds?.includes(book.id)) return 'owned';
   if (book.accessTier === 'owned') return 'owned';
