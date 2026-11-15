@@ -43,6 +43,9 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(appSource, /Project Gutenberg attribution/);
   assert.match(appSource, /Comprehension quiz source/);
   assert.match(appSource, /Chapter activity deck/);
+  assert.match(appSource, /No reviewed activity for this section yet/);
+  assert.match(appSource, /Reviewed activities for \$\{source\}/);
+  assert.match(appSource, /starterClaim\)\.slice\(0, 6\)/);
   assert.match(appSource, /Evidence collection/);
   assert.match(appSource, /Character map/);
   assert.match(appSource, /Vocabulary in context/);
