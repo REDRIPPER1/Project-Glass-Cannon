@@ -42,8 +42,17 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(appSource, /contentAvailability === 'bundled-passage'/);
   assert.match(appSource, /Project Gutenberg attribution/);
   assert.match(appSource, /Comprehension quiz source/);
+  assert.match(appSource, /Chapter activity deck/);
+  assert.match(appSource, /Evidence collection/);
+  assert.match(appSource, /Character map/);
+  assert.match(appSource, /Vocabulary in context/);
+  assert.match(appSource, /Scene reconstruction/);
+  assert.match(appSource, /Creative response/);
+  assert.match(appSource, /Every reader, activity, and quiz displays its exact book and chapter/);
   assert.match(appSource, /Premium required/);
   assert.match(appSource, /Buy permanently for/);
+  assert.match(appSource, /Changing the local demo plan immediately rechecks book and chapter access/);
+  assert.match(appSource, /Your reading progress was preserved/);
   assert.match(appSource, /bookWishlistIds/);
   assert.match(appSource, /Book wishlist/);
   assert.match(appSource, /Pet clothing & accessories/);
