@@ -8,7 +8,9 @@ const basicsSource = readFileSync(new URL('./ReadingBasicsScreen.jsx', import.me
 
 test('keeps keyboard and screen-reader critical controls in the frontend shell', () => {
   assert.match(appSource, /<main className="main-stage"/);
-  assert.match(appSource, /aria-label="App navigation"/);
+  assert.match(appSource, /aria-label="Game navigation"/);
+  assert.match(appSource, /aria-label="App destinations"/);
+  assert.doesNotMatch(appSource, /header-profile-link/);
   assert.match(appSource, /\['basics', 'Reading Basics', 'basics'\]/);
   assert.match(appSource, /aria-label="LitLab home"/);
   assert.match(appSource, /className="brand-mark"/);
