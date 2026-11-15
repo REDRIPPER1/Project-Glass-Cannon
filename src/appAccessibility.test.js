@@ -21,8 +21,15 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(appSource, /An open storybook lighting a path toward a reading quest/);
   assert.match(appSource, /companion placeholder/);
   assert.match(appSource, /Name \$\{pet\.name\}/);
+  assert.match(appSource, /\['profile', 'Profile', 'profile'\]/);
+  assert.match(appSource, /\['pets', 'Pets', 'pets'\]/);
+  assert.match(appSource, /\['shop', 'Shop', 'shop'\]/);
+  assert.match(appSource, /Moonlit Trail/);
+  assert.match(appSource, /View purchase in Shop/);
+  assert.match(appSource, /aria-label=\{`\$\{PASS_PRODUCT_NAME\} reward path`\}/);
   assert.match(appSource, /type="button"/);
   assert.match(styles, /:focus-visible/);
   assert.match(styles, /reduce-motion/);
   assert.match(styles, /\.pet-sprite/);
+  assert.match(styles, /scroll-snap-type: x mandatory/);
 });

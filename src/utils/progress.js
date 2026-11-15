@@ -1,7 +1,7 @@
 export const PROGRESS_STORAGE_KEY = 'litlab.progress.v3';
 // Preserve anonymous progress from earlier product names during the LitLab migration.
 export const LEGACY_PROGRESS_STORAGE_KEYS = ['litlearn.progress.v3', 'litlab.progress.v2', 'readquest.progress.v2', 'readquest.progress.v1'];
-export const PROGRESS_VERSION = 2;
+export const PROGRESS_VERSION = 3;
 
 export const BADGES = {
   FIRST_QUEST: 'first-evidence-quest',
@@ -50,6 +50,7 @@ export function createEmptyProgress() {
     ownedAccessoryIds: [],
     equippedAccessories: {},
     wishlistIds: [],
+    ownedBookIds: [],
     currencies: { leafTokens: 100, storyShards: 0 },
     ownedEggIds: [],
     claimedRewardIds: [],
@@ -120,6 +121,7 @@ function mergeProgress(value) {
     ownedAccessoryIds: [...new Set(asArray(candidate.ownedAccessoryIds))],
     equippedAccessories: candidate.equippedAccessories && typeof candidate.equippedAccessories === 'object' ? candidate.equippedAccessories : {},
     wishlistIds: [...new Set(asArray(candidate.wishlistIds))],
+    ownedBookIds: [...new Set(asArray(candidate.ownedBookIds))],
     currencies: { ...empty.currencies, ...(candidate.currencies ?? {}) },
     ownedEggIds: asArray(candidate.ownedEggIds),
     claimedRewardIds: [...new Set(asArray(candidate.claimedRewardIds))],
@@ -231,7 +233,15 @@ export function purchaseCatalogItem(progress, item) {
   const currencies = { ...current.currencies, [item.currency]: balance - item.price };
   const ownedAccessoryIds = item.itemType === 'accessory' ? [...new Set([...current.ownedAccessoryIds, item.catalogId])] : current.ownedAccessoryIds;
   const ownedEggIds = item.itemType === 'egg' ? [...current.ownedEggIds, item.catalogId] : current.ownedEggIds;
-  return updateCollection(current, { currencies, ownedAccessoryIds, ownedEggIds, signals: { ...current.signals, shopPurchases: current.signals.shopPurchases + 1 } });
+  const ownedBookIds = item.itemType === 'book' ? [...new Set([...current.ownedBookIds, item.catalogId])] : current.ownedBookIds;
+  return updateCollection(current, { currencies, ownedAccessoryIds, ownedEggIds, ownedBookIds, signals: { ...current.signals, shopPurchases: current.signals.shopPurchases + 1 } });
+}
+
+export function grantDemoCurrency(progress, currency, amount) {
+  const current = mergeProgress(progress);
+  const quantity = Math.max(0, Number(amount) || 0);
+  if (!['leafTokens', 'storyShards'].includes(currency) || !quantity) return current;
+  return updateCollection(current, { currencies: { ...current.currencies, [currency]: (current.currencies[currency] || 0) + quantity } });
 }
 
 export function openCatalogEgg(progress, egg) {

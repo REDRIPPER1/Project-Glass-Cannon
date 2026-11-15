@@ -7,8 +7,10 @@ import {
   beginQuest,
   completeQuest,
   createEmptyProgress,
+  grantDemoCurrency,
   loadProgress,
   openCatalogEgg,
+  purchaseCatalogItem,
   recordResponse,
   resetProgress,
   saveProgress,
@@ -95,6 +97,13 @@ test('opens an owned egg deterministically and converts duplicate pets to shards
   assert.deepEqual(progress.ownedEggIds, []);
   progress = openCatalogEgg({ ...progress, ownedEggIds: ['storybook-egg'] }, egg);
   assert.equal(progress.currencies.storyShards, 30);
+});
+
+test('keeps local book ownership and demo currency rewards in the progress schema', () => {
+  let progress = purchaseCatalogItem(createEmptyProgress(), { itemType: 'book', catalogId: 'book-1', price: 20, currency: 'leafTokens' });
+  assert.deepEqual(progress.ownedBookIds, ['book-1']);
+  progress = grantDemoCurrency(progress, 'storyShards', 15);
+  assert.equal(progress.currencies.storyShards, 15);
 });
 
 test('defaults appearance to the device setting and persists a dark preference', () => {
