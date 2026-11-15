@@ -8,12 +8,14 @@ import {
   completeQuest,
   createEmptyProgress,
   loadProgress,
+  openCatalogEgg,
   recordResponse,
   resetProgress,
   saveProgress,
   setActiveSession,
   setProgressSettings,
   toggleBookmark,
+  toggleFavoritePet,
 } from './progress.js';
 
 function installStorage() {
@@ -73,6 +75,26 @@ test('keeps optional sound preferences in local progress', () => {
   const loaded = loadProgress();
   assert.deepEqual(loaded.settings, { ...createEmptyProgress().settings, soundEnabled: true, soundVolume: 'standard', soundFeedback: false, soundCompletion: true });
   assert.equal(values.size > 0, true);
+});
+
+test('favorites and active pet state stay local and only owned pets can be favorited', () => {
+  let progress = createEmptyProgress();
+  progress = toggleFavoritePet(progress, 'moss-mouse');
+  assert.deepEqual(progress.favoritePetIds, ['moss-mouse']);
+  progress = toggleFavoritePet(progress, 'moss-mouse');
+  assert.deepEqual(progress.favoritePetIds, []);
+  progress = toggleFavoritePet(progress, 'comet-bat');
+  assert.deepEqual(progress.favoritePetIds, []);
+});
+
+test('opens an owned egg deterministically and converts duplicate pets to shards', () => {
+  const egg = { id: 'storybook-egg', rarityRange: ['Common', 'Rare'], possibleRewards: { Common: ['new-pet'] }, duplicateBehavior: { currency: 'storyShards', quantity: 30 } };
+  let progress = { ...createEmptyProgress(), ownedEggIds: ['storybook-egg'] };
+  progress = openCatalogEgg(progress, egg);
+  assert.equal(progress.ownedPetIds.includes('new-pet'), true);
+  assert.deepEqual(progress.ownedEggIds, []);
+  progress = openCatalogEgg({ ...progress, ownedEggIds: ['storybook-egg'] }, egg);
+  assert.equal(progress.currencies.storyShards, 30);
 });
 
 test('defaults appearance to the device setting and persists a dark preference', () => {

@@ -1,6 +1,6 @@
-export const PROGRESS_STORAGE_KEY = 'litlearn.progress.v3';
-// Preserve anonymous progress from the earlier product names during the LitLearn migration.
-export const LEGACY_PROGRESS_STORAGE_KEYS = ['litlab.progress.v2', 'readquest.progress.v2', 'readquest.progress.v1'];
+export const PROGRESS_STORAGE_KEY = 'litlab.progress.v3';
+// Preserve anonymous progress from earlier product names during the LitLab migration.
+export const LEGACY_PROGRESS_STORAGE_KEYS = ['litlearn.progress.v3', 'litlab.progress.v2', 'readquest.progress.v2', 'readquest.progress.v1'];
 export const PROGRESS_VERSION = 2;
 
 export const BADGES = {
@@ -46,6 +46,7 @@ export function createEmptyProgress() {
     ownedPetIds: ['moss-mouse', 'page-finch', 'quill-tortoise', 'shelf-fox', 'lantern-otter', 'story-moth'],
     petNicknames: {},
     activePetId: 'moss-mouse',
+    favoritePetIds: [],
     ownedAccessoryIds: [],
     equippedAccessories: {},
     wishlistIds: [],
@@ -115,6 +116,7 @@ function mergeProgress(value) {
     ownedPetIds: [...new Set([...empty.ownedPetIds, ...asArray(candidate.ownedPetIds)])],
     petNicknames: candidate.petNicknames && typeof candidate.petNicknames === 'object' ? candidate.petNicknames : {},
     activePetId: typeof candidate.activePetId === 'string' ? candidate.activePetId : empty.activePetId,
+    favoritePetIds: [...new Set(asArray(candidate.favoritePetIds))],
     ownedAccessoryIds: [...new Set(asArray(candidate.ownedAccessoryIds))],
     equippedAccessories: candidate.equippedAccessories && typeof candidate.equippedAccessories === 'object' ? candidate.equippedAccessories : {},
     wishlistIds: [...new Set(asArray(candidate.wishlistIds))],
@@ -209,6 +211,14 @@ export function equipPet(progress, petId) {
   return current.ownedPetIds.includes(petId) ? updateCollection(current, { activePetId: petId }) : current;
 }
 
+export function toggleFavoritePet(progress, petId) {
+  const current = mergeProgress(progress);
+  if (!current.ownedPetIds.includes(petId)) return current;
+  const favorites = new Set(current.favoritePetIds);
+  favorites.has(petId) ? favorites.delete(petId) : favorites.add(petId);
+  return updateCollection(current, { favoritePetIds: [...favorites] });
+}
+
 export function equipPetAccessory(progress, category, accessoryId) {
   const current = mergeProgress(progress);
   return updateCollection(current, { equippedAccessories: { ...current.equippedAccessories, [category]: accessoryId } });
@@ -222,6 +232,21 @@ export function purchaseCatalogItem(progress, item) {
   const ownedAccessoryIds = item.itemType === 'accessory' ? [...new Set([...current.ownedAccessoryIds, item.catalogId])] : current.ownedAccessoryIds;
   const ownedEggIds = item.itemType === 'egg' ? [...current.ownedEggIds, item.catalogId] : current.ownedEggIds;
   return updateCollection(current, { currencies, ownedAccessoryIds, ownedEggIds, signals: { ...current.signals, shopPurchases: current.signals.shopPurchases + 1 } });
+}
+
+export function openCatalogEgg(progress, egg) {
+  const current = mergeProgress(progress);
+  const eggIndex = current.ownedEggIds.indexOf(egg.id);
+  if (eggIndex < 0) return current;
+  const rewardRarity = (egg.rarityRange || []).find((rarity) => egg.possibleRewards?.[rarity]?.length);
+  const petId = rewardRarity ? egg.possibleRewards[rewardRarity][0] : null;
+  const ownedEggIds = current.ownedEggIds.filter((_, index) => index !== eggIndex);
+  if (!petId) return updateCollection(current, { ownedEggIds });
+  if (current.ownedPetIds.includes(petId)) {
+    const fallback = egg.duplicateBehavior || { currency: 'storyShards', quantity: 0 };
+    return updateCollection(current, { ownedEggIds, currencies: { ...current.currencies, [fallback.currency]: (current.currencies[fallback.currency] || 0) + fallback.quantity } });
+  }
+  return updateCollection(current, { ownedEggIds, ownedPetIds: [...current.ownedPetIds, petId] });
 }
 
 export function claimCatalogReward(progress, reward) {

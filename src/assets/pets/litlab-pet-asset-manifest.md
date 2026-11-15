@@ -1,4 +1,4 @@
-# LitLearn Pet Collection — Generation Manifest
+# LitLab Pet Collection — Generation Manifest
 
 **Status:** generation-ready; no raster assets are included in this repository yet.
 

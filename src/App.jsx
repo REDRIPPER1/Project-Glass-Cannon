@@ -29,12 +29,14 @@ import {
   setProgressSettings,
   toggleBookmark,
   toggleConfusingQuestion,
+  toggleFavoritePet,
   xpIntoLevel,
   claimCatalogReward,
   equipPet,
   equipPetAccessory,
   namePet,
   purchaseCatalogItem,
+  openCatalogEgg,
   setSubscriptionPlan,
   toggleWishlist,
 } from './utils/progress';
@@ -92,7 +94,7 @@ function Guide({ mood = 'calm', message, accessory = 'compass' }) {
 
 function SourceNotice({ source }) {
   if (!source) return null;
-  const sourceName = source.bookTitle ? `${source.bookTitle}, ${source.edition}, ${source.chapter}` : source.label || 'Original LitLearn passage';
+  const sourceName = source.bookTitle ? `${source.bookTitle}, ${source.edition}, ${source.chapter}` : source.label || 'Original LitLab passage';
   return (
     <details className="source-notice">
       <summary>Source, rights &amp; attribution</summary>
@@ -178,7 +180,7 @@ function AppHeader({ progress, screen, onNavigate }) {
   return (
     <>
       <aside className="game-rail">
-        <button className="rail-brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLearn home"><BrandMark /><span>LitLearn</span></button>
+        <button className="rail-brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLab home"><BrandMark /><span>LitLab</span></button>
         <CompanionOrb progress={progress} />
         <nav className="rail-nav" aria-label="Game navigation">
           <p>Play</p>
@@ -190,7 +192,7 @@ function AppHeader({ progress, screen, onNavigate }) {
         {!progress.settings.hideGameSignals && <section className="rail-xp" aria-label={`Level ${levelForXp(progress.xp)}, ${progress.xp} experience points`}><span>Level {levelForXp(progress.xp)}</span><strong>{progress.xp} XP</strong><i><b style={{ width: `${xpIntoLevel(progress.xp)}%` }} /></i><small>{xpIntoLevel(progress.xp)} / 100 to level {levelForXp(progress.xp) + 1}</small></section>}
       </aside>
       <header className="app-header">
-      <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLearn home"><BrandMark /><span>LitLearn</span></button>
+      <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLab home"><BrandMark /><span>LitLab</span></button>
         <nav className="header-actions" aria-label="App navigation">
           {!progress.settings.hideGameSignals && <span className="xp-pill" aria-label={`${progress.xp} experience points`}>✦ {progress.xp} XP</span>}
           <button className="text-button" type="button" onClick={() => onNavigate('explore')}>Explore</button>
@@ -316,7 +318,7 @@ function ControlsPanel({ progress, onUpdate, onJudge, onReset }) {
         <section className="appearance-settings"><h2>Appearance</h2><fieldset className="mode-picker"><legend>Color mode</legend><div>{COLOR_MODE_OPTIONS.map(([mode, label]) => <label key={mode} className={progress.settings.colorMode === mode ? 'is-selected' : ''}><input type="radio" name="color-mode" value={mode} checked={progress.settings.colorMode === mode} onChange={() => onUpdate({ colorMode: mode })} /><span>{label}</span></label>)}</div></fieldset><fieldset className="palette-picker"><legend>Quest palette</legend><div className="theme-buttons">{THEME_OPTIONS.map(([theme, label]) => <button key={theme} type="button" aria-pressed={progress.settings.theme === theme} className={progress.settings.theme === theme ? 'is-selected' : ''} onClick={() => onUpdate({ theme })}>{label}</button>)}</div></fieldset><p className="quiet">System default follows your device. Every choice stays in this browser.</p></section>
         <section><h2>Judge mode</h2><p>Load a deterministic local snapshot with one completed quest, sample XP, and badges.</p><button className="secondary-button" type="button" onClick={onJudge}>Load demo snapshot</button><button className="text-button danger-button" type="button" onClick={onReset}>Reset all local progress</button></section>
       </div>
-      <section className="privacy-note"><h2>Privacy notice</h2><p>LitLearn’s browser demo has no account connection, analytics upload, ads, or real learner identifiers. Cloud features remain staged until an approved backend and privacy model are available.</p></section>
+      <section className="privacy-note"><h2>Privacy notice</h2><p>LitLab’s browser demo has no account connection, analytics upload, ads, or real learner identifiers. Cloud features remain staged until an approved backend and privacy model are available.</p></section>
     </section>
   );
 }
@@ -337,26 +339,61 @@ function ReviewScreen({ quest, progress, onBack }) {
   );
 }
 
-function PetAvatar({ pet, nickname }) {
-  return <div className="pet-avatar" style={{ '--pet-color': RARITY_COLORS[pet.rarity] || '#7c8b83' }} aria-label={`${nickname || pet.name}, ${pet.rarity} pet`}><span>{pet.name.split(' ').map((word) => word[0]).join('')}</span><small>{pet.petType}</small></div>;
+function PetAccessory({ accessoryId }) {
+  if (!accessoryId) return null;
+  if (accessoryId.includes('cap')) return <><path className="pet-accessory pet-accessory-head" d="M27 34c10-10 36-10 46 0l-4 8H31z" /><circle className="pet-accessory-detail" cx="65" cy="32" r="3" /></>;
+  if (accessoryId.includes('scarf') || accessoryId.includes('pin')) return <><path className="pet-accessory pet-accessory-neck" d="M32 63c11 6 25 6 36 0l-3 9c-10 5-20 5-30 0z" /><circle className="pet-accessory-detail" cx="50" cy="68" r="3" /></>;
+  return <path className="pet-accessory pet-accessory-trail" d="m76 31 3 7 7 3-7 3-3 7-3-7-7-3 7-3z" />;
+}
+
+function PetAvatar({ pet, nickname, accessoryId }) {
+  const type = pet.petType || 'companion';
+  const hasRoundEars = ['mouse', 'otter', 'tortoise'].includes(type);
+  const hasPointedEars = ['fox', 'cat', 'bat', 'dragon'].includes(type);
+  const hasWings = ['bird', 'moth', 'bat', 'phoenix'].includes(type);
+  const hasBeak = ['bird', 'phoenix'].includes(type);
+  const hasShell = type === 'tortoise';
+  const hasTail = ['mouse', 'fox', 'otter', 'cat', 'dragon'].includes(type);
+  return <figure className={`pet-avatar pet-avatar-${type}`} style={{ '--pet-color': RARITY_COLORS[pet.rarity] || '#7c8b83' }} role="img" aria-label={`${nickname || pet.name}, ${pet.rarity} ${type} companion placeholder`}>
+    <svg className="pet-sprite" viewBox="0 0 100 100" aria-hidden="true">
+      <ellipse className="pet-shadow" cx="50" cy="86" rx="28" ry="7" />
+      {hasTail && <path className="pet-tail" d={type === 'fox' ? 'M72 72c19 2 16 20 1 14-7-3-8-8-3-12' : 'M28 74C9 74 13 55 26 61c6 3 4 10-2 10'} />}
+      {hasWings && <><path className="pet-wing" d="M39 60C15 47 15 74 39 78z" /><path className="pet-wing" d="M61 60c24-13 24 14 0 18z" /></>}
+      <ellipse className="pet-body" cx="50" cy="66" rx={hasShell ? '28' : '22'} ry="23" />
+      {hasShell && <ellipse className="pet-shell" cx="50" cy="64" rx="19" ry="16" />}
+      {hasRoundEars && <><circle className="pet-ear" cx="33" cy="39" r="11" /><circle className="pet-ear" cx="67" cy="39" r="11" /></>}
+      {hasPointedEars && <><path className="pet-ear" d="m31 43 4-22 13 16z" /><path className="pet-ear" d="m69 43-4-22-13 16z" /></>}
+      {type === 'dragon' && <><path className="pet-horn" d="m39 34 4-12 5 13M61 34l-4-12-5 13" /><path className="pet-wing" d="M30 62 17 44l4 24M70 62l13-18-4 24" /></>}
+      <circle className="pet-face" cx="50" cy="48" r="22" />
+      {hasBeak ? <path className="pet-beak" d="m50 52 9 5-9 5-9-5z" /> : <><circle className="pet-eye" cx="42" cy="48" r="3" /><circle className="pet-eye" cx="58" cy="48" r="3" /><path className="pet-smile" d="M43 60c5 5 10 5 15 0" /></>}
+      {type === 'moth' && <><path className="pet-antenna" d="M44 29c-5-9-10-8-11-4M56 29c5-9 10-8 11-4" /><circle className="pet-wing-dot" cx="28" cy="65" r="4" /><circle className="pet-wing-dot" cx="72" cy="65" r="4" /></>}
+      <PetAccessory accessoryId={accessoryId} />
+    </svg>
+    <figcaption>{nickname || pet.name}</figcaption>
+  </figure>;
 }
 
 function PlatformCollection({ progress, onUpdate, onStatus }) {
   const [section, setSection] = useState('pets');
-  const [nameDraft, setNameDraft] = useState('');
+  const [nameDrafts, setNameDrafts] = useState({});
   const activePet = petById(progress.activePetId) || PLATFORM_CATALOG.pets[0];
+  const activeAccessoryId = Object.values(progress.equippedAccessories).at(-1);
   const currentPass = PLATFORM_CATALOG.battlePasses.find((pass) => pass.id === '2026-11-basic');
   const premiumPass = PLATFORM_CATALOG.battlePasses.find((pass) => pass.id === '2026-11-premium');
   const buy = (item) => {
-    const before = progress.signals.shopPurchases;
+    const balance = Number(progress.currencies[item.currency]) || 0;
+    if (balance < item.price) {
+      onStatus(`Not enough ${displayCurrency(item.currency)} for ${item.catalogId}. Keep reading to earn more.`);
+      return;
+    }
     onUpdate((current) => purchaseCatalogItem(current, item));
-    onStatus(before === progress.signals.shopPurchases ? `Added ${item.catalogId} to your local collection.` : `Purchased ${item.catalogId}.`);
+    onStatus(`Purchased ${item.catalogId}.`);
   };
-  return <section className="feature-card platform-collection" aria-label="LitLearn collection and account features">
-    <div className="collection-nav" role="tablist" aria-label="LitLearn collection"><button className={section === 'pets' ? 'is-selected' : ''} onClick={() => setSection('pets')}>Pets</button><button className={section === 'profile' ? 'is-selected' : ''} onClick={() => setSection('profile')}>Profile</button><button className={section === 'shop' ? 'is-selected' : ''} onClick={() => setSection('shop')}>Shop</button><button className={section === 'pass' ? 'is-selected' : ''} onClick={() => setSection('pass')}>Battle pass</button><button className={section === 'books' ? 'is-selected' : ''} onClick={() => setSection('books')}>Books &amp; plans</button></div>
-    {section === 'pets' && <><div className="collection-hero"><div><p className="eyebrow">Your companion collection</p><h2>Dress a story friend</h2><p>Six starter pets are free. Name them, choose an active companion, and equip accessories earned from the level map or shop.</p></div><PetAvatar pet={activePet} nickname={progress.petNicknames[activePet.id]} /></div><div className="pet-grid">{PLATFORM_CATALOG.pets.map((pet) => { const owned = progress.ownedPetIds.includes(pet.id); const active = progress.activePetId === pet.id; return <article className={`pet-card ${active ? 'is-active' : ''}`} key={pet.id}><PetAvatar pet={pet} nickname={progress.petNicknames[pet.id]} /><span className="rarity-chip" style={{ color: RARITY_COLORS[pet.rarity] }}>{pet.rarity}</span><h3>{progress.petNicknames[pet.id] || pet.name}</h3><p>{pet.description}</p>{pet.eventOnly && <small>Event-only Mythical</small>}<button className="secondary-button" disabled={!owned || active} onClick={() => onUpdate((current) => equipPet(current, pet.id))}>{active ? 'Active companion' : owned ? 'Choose pet' : 'From an egg'}</button>{owned && <div className="pet-name-row"><input aria-label={`Name ${pet.name}`} value={progress.petNicknames[pet.id] || ''} placeholder="Name your pet" onChange={(event) => setNameDraft(event.target.value)} /><button className="text-button" onClick={() => { onUpdate((current) => namePet(current, pet.id, nameDraft)); setNameDraft(''); onStatus(`${pet.name} has a new name.`); }}>Save</button></div>}</article>; })}</div><h3>Accessory wardrobe</h3><div className="accessory-grid">{PLATFORM_CATALOG.accessories.map((item) => { const owned = progress.ownedAccessoryIds.includes(item.id); return <button type="button" className={progress.equippedAccessories[item.category] === item.id ? 'is-equipped' : ''} key={item.id} disabled={!owned} onClick={() => onUpdate((current) => equipPetAccessory(current, item.category, item.id))}>{item.id.replaceAll('-', ' ')} · {item.category}{owned ? ' · Equip' : ' · Locked'}</button>; })}</div></>}
+  return <section className="feature-card platform-collection" aria-label="LitLab collection and account features">
+    <div className="collection-nav" role="tablist" aria-label="LitLab collection"><button className={section === 'pets' ? 'is-selected' : ''} onClick={() => setSection('pets')}>Pets</button><button className={section === 'profile' ? 'is-selected' : ''} onClick={() => setSection('profile')}>Profile</button><button className={section === 'shop' ? 'is-selected' : ''} onClick={() => setSection('shop')}>Shop</button><button className={section === 'pass' ? 'is-selected' : ''} onClick={() => setSection('pass')}>Battle pass</button><button className={section === 'books' ? 'is-selected' : ''} onClick={() => setSection('books')}>Books &amp; plans</button></div>
+    {section === 'pets' && <><div className="collection-hero"><div><p className="eyebrow">Your companion collection</p><h2>Dress a story friend</h2><p>Six starter pets are free. Name them, choose an active companion, and equip accessories earned from the level map or shop.</p><p className="placeholder-note">Storybook art is coming later; these original in-app companions are temporary playable placeholders.</p></div><PetAvatar pet={activePet} nickname={progress.petNicknames[activePet.id]} accessoryId={activeAccessoryId} /></div><div className="pet-grid">{PLATFORM_CATALOG.pets.map((pet) => { const owned = progress.ownedPetIds.includes(pet.id); const active = progress.activePetId === pet.id; const favorite = progress.favoritePetIds.includes(pet.id); const draftName = nameDrafts[pet.id] ?? progress.petNicknames[pet.id] ?? ''; return <article className={`pet-card ${active ? 'is-active' : ''}`} key={pet.id}><PetAvatar pet={pet} nickname={progress.petNicknames[pet.id]} accessoryId={active ? activeAccessoryId : undefined} /><button className="icon-button pet-favorite" type="button" aria-label={`${favorite ? 'Remove' : 'Add'} ${pet.name} ${favorite ? 'from' : 'to'} favorites`} aria-pressed={favorite} disabled={!owned} onClick={() => onUpdate((current) => toggleFavoritePet(current, pet.id))}>{favorite ? '★' : '☆'}</button><span className="rarity-chip" style={{ color: RARITY_COLORS[pet.rarity] }}>{pet.rarity}</span><h3>{progress.petNicknames[pet.id] || pet.name}</h3><p>{pet.description}</p><small>{pet.literatureSource} · {pet.rightsStatus}</small>{pet.eventOnly && <small>Event-only Mythical</small>}<button className="secondary-button" disabled={!owned || active} onClick={() => onUpdate((current) => equipPet(current, pet.id))}>{active ? 'Active companion' : owned ? 'Choose pet' : 'From an egg'}</button>{owned && <div className="pet-name-row"><input aria-label={`Name ${pet.name}`} value={draftName} placeholder="Name your pet" onChange={(event) => setNameDrafts((current) => ({ ...current, [pet.id]: event.target.value }))} /><button className="text-button" type="button" onClick={() => { onUpdate((current) => namePet(current, pet.id, draftName)); setNameDrafts((current) => ({ ...current, [pet.id]: '' })); onStatus(`${pet.name} has a new name.`); }}>Save</button></div>}</article>; })}</div><h3>Accessory wardrobe</h3><div className="accessory-grid">{PLATFORM_CATALOG.accessories.map((item) => { const owned = progress.ownedAccessoryIds.includes(item.id); return <button type="button" className={progress.equippedAccessories[item.category] === item.id ? 'is-equipped' : ''} key={item.id} disabled={!owned} onClick={() => onUpdate((current) => equipPetAccessory(current, item.category, item.id))}>{item.id.replaceAll('-', ' ')} · {item.category}{owned ? ' · Equip' : ' · Locked'}</button>; })}</div></>}
     {section === 'profile' && <><div className="collection-hero"><div><p className="eyebrow">Reader profile</p><h2>{progress.profileName}</h2><p>Level {levelForXp(progress.xp)} · {progress.xp} XP · {progress.completedQuestIds.length} quests completed</p></div><div className="profile-medallion">✦</div></div><div className="profile-grid"><article><h3>Achievements</h3>{PLATFORM_CATALOG.achievements.map((item) => <p key={item.id}>✦ {item.title}<small>{item.description}</small></p>)}</article><article><h3>Badges &amp; trophies</h3>{[...PLATFORM_CATALOG.badges, ...PLATFORM_CATALOG.trophies].map((item) => <p key={item.id}>🏅 {item.title}<small>{item.description}</small></p>)}</article><article><h3>Wishlist</h3>{progress.wishlistIds.length ? progress.wishlistIds.map((id) => <p key={id}>♡ {id.replaceAll('-', ' ')}</p>) : <p>Your wishlist is empty. Add books, pets, or accessories from their cards.</p>}</article></div></>}
-    {section === 'shop' && <><div className="currency-bar"><span>🍃 {progress.currencies.leafTokens} Leaf Tokens</span><span>✦ {progress.currencies.storyShards} Story Shards</span></div><h2>Story shop</h2><div className="shop-grid">{PLATFORM_CATALOG.shopItems.map((item) => <article key={item.id}><span className="eyebrow">{item.itemType}</span><h3>{item.catalogId.replaceAll('-', ' ')}</h3><p>{item.price} {displayCurrency(item.currency)}</p><button className="secondary-button" onClick={() => buy(item)}>Buy</button><button className="text-button" onClick={() => onUpdate((current) => toggleWishlist(current, item.catalogId))}>{progress.wishlistIds.includes(item.catalogId) ? '★ Wishlisted' : '☆ Add to wishlist'}</button></article>)}</div></>}
+    {section === 'shop' && <><div className="currency-bar"><span>🍃 {progress.currencies.leafTokens} Leaf Tokens</span><span>✦ {progress.currencies.storyShards} Story Shards</span></div><h2>Story shop</h2>{PLATFORM_CATALOG.eggs.map((egg) => <article className="egg-panel" key={egg.id}><div><span className="eyebrow">Egg odds · deterministic demo</span><h3>{egg.id.replaceAll('-', ' ')}</h3><p>{egg.rarityRange.map((rarity) => `${rarity} ${Math.round(egg.odds[rarity] * 100)}%`).join(' · ')}</p><small>Duplicates become {egg.duplicateBehavior.quantity} {displayCurrency(egg.duplicateBehavior.currency)}.</small></div><div><button className="secondary-button" type="button" disabled={!progress.ownedEggIds.includes(egg.id)} onClick={() => { onUpdate((current) => openCatalogEgg(current, egg)); onStatus('Egg opened. Your reward was added locally; duplicates become Story Shards.'); }}>{progress.ownedEggIds.includes(egg.id) ? 'Open egg' : 'Buy an egg below'}</button></div></article>)}<div className="shop-grid">{PLATFORM_CATALOG.shopItems.map((item) => <article key={item.id}><span className="eyebrow">{item.itemType}</span><h3>{item.catalogId.replaceAll('-', ' ')}</h3><p>{item.price} {displayCurrency(item.currency)}</p><button className="secondary-button" onClick={() => buy(item)}>Buy</button><button className="text-button" onClick={() => onUpdate((current) => toggleWishlist(current, item.catalogId))}>{progress.wishlistIds.includes(item.catalogId) ? '★ Wishlisted' : '☆ Add to wishlist'}</button></article>)}</div></>}
     {section === 'pass' && <><div className="collection-hero"><div><p className="eyebrow">Monthly battle pass · November 2026</p><h2>Read your way through the season</h2><p>Basic is free. Premium adds the month’s Epic accessory. Progress is tied to XP and rewards are cosmetic.</p></div><span className="road-level">{progress.xp}/100 XP</span></div><div className="pass-grid">{[currentPass, premiumPass].map((pass) => { const reward = rewardById(pass.rewards[0]); const claimed = progress.claimedRewardIds.includes(reward.id); const premiumLocked = pass.plan === 'premium' && progress.subscriptionPlan !== 'premium'; return <article key={pass.id} className={pass.plan === 'premium' ? 'is-premium' : ''}><span className="eyebrow">{pass.plan}</span><h3>{pass.plan === 'premium' ? 'Premium path' : 'Basic path'}</h3><p>Reward: {reward.catalogId.replaceAll('-', ' ')}</p><p>{Math.min(100, progress.xp)} / 100 XP</p><button className="secondary-button" disabled={progress.xp < 100 || claimed || premiumLocked} onClick={() => onUpdate((current) => claimCatalogReward(current, reward))}>{premiumLocked ? 'Premium plan required' : claimed ? 'Claimed' : progress.xp >= 100 ? 'Claim reward' : 'Keep reading'}</button></article>; })}</div></>}
     {section === 'books' && <><h2>Books &amp; membership</h2><div className="book-grid">{PLATFORM_CATALOG.books.map((book) => <article key={book.id}><span className="eyebrow">{book.accessTier === 'premium' ? 'Premium library' : 'Free demo'}</span><h3>{book.title}</h3><p>{book.author} · {book.topic}</p><p>{book.chapterMetadata.map((chapter) => `${chapter.title} (${chapter.accessTier})`).join(' · ')}</p><button className="text-button" onClick={() => onUpdate((current) => toggleWishlist(current, book.id))}>{progress.wishlistIds.includes(book.id) ? '★ Wishlisted' : '☆ Add to wishlist'}</button></article>)}</div><div className="plan-grid"><article><h3>Free plan</h3><p>Demo chapters, basic vocabulary, basic reading and comprehension quizzes, and appropriate plan promotions.</p><button className={progress.subscriptionPlan === 'free' ? 'equipped-reward' : 'secondary-button'} onClick={() => onUpdate((current) => setSubscriptionPlan(current, 'free'))}>{progress.subscriptionPlan === 'free' ? 'Current plan' : 'Choose free'}</button></article><article className="is-premium"><h3>Premium plan</h3><p>Full access to the variety of books, expanded vocabulary, advanced quizzes, and no ads.</p><button className={progress.subscriptionPlan === 'premium' ? 'equipped-reward' : 'primary-button'} onClick={() => { onUpdate((current) => setSubscriptionPlan(current, 'premium')); onStatus('Premium preview enabled locally. No payment was processed.'); }}>{progress.subscriptionPlan === 'premium' ? 'Premium active' : 'Try premium preview'}</button></article></div></>}
   </section>;
@@ -498,7 +535,7 @@ export default function App() {
 
   function updateSettings(settings) { setProgress((current) => setProgressSettings(current, settings)); }
   function resetDemo() {
-    if (window.confirm('Reset this browser’s anonymous LitLearn progress, settings, and local demo data?')) {
+    if (window.confirm('Reset this browser’s anonymous LitLab progress, settings, and local demo data?')) {
       setProgress(resetProgress()); setScreen('onboarding'); setQuestionIndex(0); setDraft({ answerId: '', evidenceId: '' }); setRevealed(false); setNotice('');
     }
   }
@@ -519,7 +556,7 @@ export default function App() {
         {notice && <div className="app-notice" role="status"><span>{notice}</span><button type="button" aria-label="Dismiss message" onClick={() => setNotice('')}>×</button></div>}
         {screen === 'onboarding' && <Onboarding onContinue={finishOnboarding} />}
         {screen === 'home' && <section className="home-view" aria-labelledby="home-title">
-          <div className="home-copy"><p className="eyebrow">Your next reading adventure</p><h1 id="home-title">Find the clue. <em>Light the path.</em></h1><p className="lede">LitLearn makes evidence practice feel like a small adventure. Careful reasoning—not speed—moves your story forward.</p><div className="how-it-works" aria-label="How LitLearn works"><span>Read the story</span><span>Find the proof</span><span>Grow your trail</span></div><div className="button-row"><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume your quest' : 'Start recommended quest'} <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View practice summary</button></div><p className={`api-note is-${apiState.kind}`}><span className="status-dot" /> {apiState.label}</p></div>
+          <div className="home-copy"><p className="eyebrow">Your next reading adventure</p><h1 id="home-title">Find the clue. <em>Light the path.</em></h1><p className="lede">LitLab makes evidence practice feel like a small adventure. Careful reasoning—not speed—moves your story forward.</p><div className="how-it-works" aria-label="How LitLab works"><span>Read the story</span><span>Find the proof</span><span>Grow your trail</span></div><div className="button-row"><button className="primary-button" type="button" disabled={!recommendation.quest} onClick={() => launchQuest(recommendation.quest)}>{recommendation.kind === 'resume' ? 'Resume your quest' : 'Start recommended quest'} <span aria-hidden="true">→</span></button><button className="secondary-button" type="button" onClick={() => navigate('dashboard')}>View practice summary</button></div><p className={`api-note is-${apiState.kind}`}><span className="status-dot" /> {apiState.label}</p></div>
           <div className="quest-preview"><div className="quest-world"><QuestHeroIllustration /></div>{recommendation.quest ? <><p className="card-label">{recommendation.kind === 'resume' ? 'Continue your route' : 'Recommended quest'}</p><h2>{recommendation.quest.title}</h2><p>{recommendation.quest.topic} · {recommendation.quest.difficulty}</p><div className="tag-row">{recommendation.quest.skillTags.map((tag) => <span key={tag}>{humanSkill(tag)}</span>)}</div><p className="time-label">◷ About {recommendation.quest.readingTimeMinutes} minutes · 3 evidence choices</p><p className="recommendation-reason">{recommendation.reason}</p><SourceNotice source={recommendation.quest.source} /></> : <section className="content-gate"><h2>Reviewed quests are loading.</h2><p>Local quest content will appear here once it passes its source and evidence checks.</p></section>}</div>
           <QuestMap arc={arc} activeQuestId={quest?.id} />
           <section className="library-controls" aria-labelledby="library-title"><div><p className="eyebrow">Choose your quest</p><h2 id="library-title">The local quest library</h2></div><label className="search-label" htmlFor="quest-search">Search quests<input id="quest-search" value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} placeholder="Title, topic, or skill" /></label><label>Topic<select value={filters.topic} onChange={(event) => setFilters((current) => ({ ...current, topic: event.target.value }))}><option value="">All topics</option>{[...new Set(quests.map((item) => item.topic))].map((topic) => <option key={topic}>{topic}</option>)}</select></label><label>Skill<select value={filters.skill} onChange={(event) => setFilters((current) => ({ ...current, skill: event.target.value }))}><option value="">All skills</option>{[...new Set(quests.flatMap((item) => item.skillTags))].map((skill) => <option key={skill}>{humanSkill(skill)}</option>)}</select></label><label>Difficulty<select value={filters.difficulty} onChange={(event) => setFilters((current) => ({ ...current, difficulty: event.target.value }))}><option value="">All levels</option>{[...new Set(quests.map((item) => item.difficulty))].map((difficulty) => <option key={difficulty}>{difficulty}</option>)}</select></label><label className="toggle-row"><input type="checkbox" checked={filters.bookmarkOnly} onChange={(event) => setFilters((current) => ({ ...current, bookmarkOnly: event.target.checked }))} /><span>Bookmarks only</span></label></section>
