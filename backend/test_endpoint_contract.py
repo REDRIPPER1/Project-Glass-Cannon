@@ -168,6 +168,19 @@ class EndpointContractTests(unittest.TestCase):
         self.assertTrue(activity["task"]["correctEvidenceSentenceIds"])
         self.assertEqual(self._error_code(lambda: self.main.get_reading_basics_lesson("missing")), "reading_basics_lesson_not_found")
 
+    def test_reviewed_chapter_activity_and_idempotent_purchase_contracts(self):
+        activities = self.main.list_chapter_activities("gutenberg-11-alice-s-adventures-in-wonderland", "chapter-1")
+        self.assertEqual(len(activities), 3)
+        activity = self.main.get_chapter_activity(self.profile_id, "gutenberg-11-alice-s-adventures-in-wonderland", "chapter-1", activities[0]["id"])
+        self.assertEqual(activity["reviewStatus"], "reviewed")
+        result = self.main.complete_chapter_activity(self.profile_id, activity["id"], {"attemptId": "endpoint-activity", "choiceId": activity["task"]["correctChoiceId"], "evidenceSentenceIds": activity["task"]["correctEvidenceSentenceIds"]})
+        self.assertEqual(result["completionStatus"], "completed")
+        retry = self.main.complete_chapter_activity(self.profile_id, activity["id"], {"attemptId": "endpoint-activity", "choiceId": activity["task"]["correctChoiceId"], "evidenceSentenceIds": activity["task"]["correctEvidenceSentenceIds"]})
+        self.assertTrue(retry["idempotent"])
+        purchase = self.main.purchase_item(self.profile_id, {"shopItemId": "shop-oak-leaf-scarf", "clientRequestId": "endpoint-purchase"})
+        self.assertEqual(purchase["status"], "completed")
+        self.assertTrue(self.main.purchase_item(self.profile_id, {"shopItemId": "shop-oak-leaf-scarf", "clientRequestId": "endpoint-purchase"})["idempotent"])
+
     def test_web_library_quest_xp_and_collection_contracts(self):
         books = self.main.list_web_books()
         self.assertGreaterEqual(len(books), 100)

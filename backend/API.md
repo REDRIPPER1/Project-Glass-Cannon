@@ -75,6 +75,32 @@ Unreviewed activity data is rejected by validation and never returned. These
 two endpoints are optional content mirrors, not progress APIs; the demo stays
 usable with the backend stopped.
 
+## Reviewed Alice chapter activities and demo transactions
+
+The approved Project Gutenberg #11 cache supplies ten reviewed *Alice's
+Adventures in Wonderland* chapter groups (Chapters 1–10), each with exactly
+three activities. Use `GET /api/catalog/books/{bookId}/chapters/{chapterId}/activities`
+for reviewed summaries, then `GET /api/profiles/{profileId}/books/{bookId}/chapters/{chapterId}/activities/{activityId}`
+for the entitlement-checked task. Activity fields are `id`, `version`,
+`activityType`, `bookId`, `edition`, `chapterId`, `sourceLabel`,
+`sourceSentenceIds`, `source`, `task`, `completionRule`, `feedback`, and
+`reward`. Every source points to stable IDs in the local approved chapter
+cache; activity rewards use existing `quest-wishlist-page` and a non-speed
+kind (`evidence`, `understanding`, `creativity`, or `persistence`).
+
+Complete an activity with `POST /api/profiles/{profileId}/activities/{activityId}/completions`:
+`{attemptId, choiceId, evidenceSentenceIds, responseText?}`. It returns
+`completionStatus`, grounded feedback, deduplicated `issuedRewards`, wallet,
+and inventory. Repeating an attempt ID returns the original result.
+
+`POST /api/profiles/{profileId}/purchases` accepts only trusted
+`shopItemId` plus optional opaque `clientRequestId`; the server derives price,
+currency, and availability from the catalog and returns `transactionId`,
+`status`, wallet, inventory, and ownership. Reusing a request ID for the same
+item is idempotent; reusing it for another item returns `idempotency_conflict`.
+The service rejects insufficient funds and duplicate permanent ownership. It
+is local virtual currency only and stores no payment information.
+
 ## Optional local-demo platform API
 
 The endpoints below add a separate, optional companion/progression service.

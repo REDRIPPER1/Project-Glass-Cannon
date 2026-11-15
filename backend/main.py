@@ -652,7 +652,8 @@ def list_shop_items():
 @app.post("/api/profiles/{profile_id}/purchases", summary="Make a reversible local-demo purchase")
 def purchase_item(profile_id: str, payload: dict[str, object]):
     shop_item_id = payload.get("shopItemId")
-    return _platform(lambda: platform_store.purchase(profile_id, shop_item_id if isinstance(shop_item_id, str) else ""))
+    request_id = payload.get("clientRequestId")
+    return _platform(lambda: platform_store.purchase(profile_id, shop_item_id if isinstance(shop_item_id, str) else "", request_id if isinstance(request_id, str) else None))
 
 
 @app.post("/api/profiles/{profile_id}/purchases/{purchase_id}/reverse", summary="Reverse an unused mock purchase")
@@ -700,6 +701,28 @@ def list_quizzes_for_book(book_id: str):
 @app.get("/api/catalog/books/{book_id}/activities", summary="List reviewed activities for one exact book edition")
 def list_book_activities_for_book(book_id: str):
     return _platform(lambda: platform_store.activities_for_book(book_id))
+
+
+@app.get("/api/catalog/books/{book_id}/chapters/{chapter_id}/activities", summary="List reviewed activities for one exact cached chapter")
+def list_chapter_activities(book_id: str, chapter_id: str):
+    return _platform(lambda: platform_store.chapter_activities(book_id, chapter_id))
+
+
+@app.get("/api/profiles/{profile_id}/books/{book_id}/chapters/{chapter_id}/activities/{activity_id}", summary="Get an entitled reviewed chapter activity")
+def get_chapter_activity(profile_id: str, book_id: str, chapter_id: str, activity_id: str):
+    def action():
+        if not platform_store.book_access(profile_id, book_id, chapter_id)["allowed"]:
+            raise PlatformError("activity_access_locked", "Open the chapter before retrieving its activity.", 403)
+        activity = next((item for item in platform_store.chapter_activities(book_id, chapter_id, True) if item["id"] == activity_id), None)
+        if activity is None:
+            raise PlatformError("activity_not_found", "Reviewed activity was not found.", 404)
+        return activity
+    return _platform(action)
+
+
+@app.post("/api/profiles/{profile_id}/activities/{activity_id}/completions", summary="Complete a reviewed chapter activity once")
+def complete_chapter_activity(profile_id: str, activity_id: str, payload: dict[str, object]):
+    return _platform(lambda: platform_store.complete_chapter_activity(profile_id, activity_id, dict(payload)))
 
 
 @app.get("/api/books", summary="List metadata-only web-reader catalog records")
