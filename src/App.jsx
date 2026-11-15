@@ -51,6 +51,7 @@ import {
 } from './utils/progress';
 import { PLATFORM_CATALOG, RARITY_COLORS, displayCurrency, petById, rewardById } from './utils/platformCatalog';
 import { bookAccessState, bookLevelNodes, chapterAccessState, exactChapterQuest, hasInAppChapterContent, libraryBooks, readableChapterSentences, sourceReaderState } from './utils/bookLibrary';
+import ReadingBasicsScreen from './ReadingBasicsScreen.jsx';
 import { loadChapterReference, loadLibraryEnhancement, purchaseShopItem, redeemWishlistPagesRemote, setRemoteBookWishlist } from './utils/libraryApi';
 import { chapterActivitySource, supportedChapterActivities } from './utils/chapterActivities';
 import {
@@ -184,6 +185,7 @@ function NavIcon({ name }) {
     shop: <><path d="M4 10h16l-1 10H5zM3 10l2-5h14l2 5" /><path d="M9 14h6M12 11v6" /></>,
     pass: <><path d="M5 4h14v16l-7-4-7 4z" /><path d="m9 9 3 3 3-3" /></>,
     books: <><path d="M4 5.5c4-1.2 6.7-.3 8 1.4v12c-1.3-1.7-4-2.6-8-1.4zM20 5.5c-4-1.2-6.7-.3-8 1.4v12c1.3-1.7 4-2.6 8-1.4z" /></>,
+    basics: <><path d="M12 3 4 7l8 4 8-4-8-4Z" /><path d="m4 12 8 4 8-4M4 17l8 4 8-4" /></>,
   };
   return <svg className="nav-icon" viewBox="0 0 24 24" aria-hidden="true">{paths[name]}</svg>;
 }
@@ -208,6 +210,7 @@ function ProfileHud({ progress, onNavigate }) {
 function AppHeader({ progress, screen, onNavigate }) {
   const navItems = [
     ['quests', 'Quest map', 'home'],
+    ['basics', 'Reading Basics', 'basics'],
     ['profile', 'Profile', 'profile'],
     ['pets', 'Pets', 'pets'],
     ['shop', 'Shop', 'shop'],
@@ -1263,6 +1266,7 @@ export default function App() {
         {screen === 'trophy-road' && <TrophyRoadScreen progress={progress} onNavigate={navigate} />}
         {screen === 'level-road' && <LevelRoad100 progress={progress} petCatalog={libraryEnhancement.pets} onNavigate={navigate} />}
         {screen === 'profile' && <ProfileScreen progress={progress} profileId={libraryEnhancement.profileId} catalogBooks={libraryEnhancement.books} onNavigate={navigate} onUpdate={setProgress} onStatus={addStatus} />}
+        {screen === 'basics' && <ReadingBasicsScreen progress={progress} onUpdate={setProgress} onNavigate={navigate} />}
         {screen === 'pets' && <PetCollectionScreen progress={progress} petCatalog={libraryEnhancement.pets} onUpdate={setProgress} onStatus={addStatus} />}
         {screen === 'shop' && <LitLearnShopScreen progress={progress} profileId={libraryEnhancement.profileId} shopItems={libraryEnhancement.shopItems} onUpdate={setProgress} onNavigate={navigate} onStatus={addStatus} />}
         {['pass', 'books'].includes(screen) && <PlatformCollection section={screen} progress={progress} quests={quests} apiState={apiState} catalogBooks={libraryEnhancement.books} bookQuizzes={libraryEnhancement.bookQuizzes} bookActivities={libraryEnhancement.bookActivities} shopItems={libraryEnhancement.shopItems} profileId={libraryEnhancement.profileId} onUpdate={setProgress} onStatus={addStatus} onNavigate={navigate} onLaunchQuest={launchQuest} />}
