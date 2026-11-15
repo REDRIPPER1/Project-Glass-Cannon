@@ -52,6 +52,7 @@ import {
 import { PLATFORM_CATALOG, RARITY_COLORS, displayCurrency, petById, rewardById } from './utils/platformCatalog';
 import { bookAccessState, bookLevelNodes, chapterAccessState, exactChapterQuest, libraryBooks, sourceReaderState } from './utils/bookLibrary';
 import { loadChapterReference, loadLibraryEnhancement, purchaseShopItem, redeemWishlistPagesRemote, setRemoteBookWishlist } from './utils/libraryApi';
+import { chapterActivitySource, supportedChapterActivities } from './utils/chapterActivities';
 import {
   coachFallback,
   dailyGoalStatus,
@@ -635,7 +636,7 @@ function LegacyInteractiveBookLibraryScreen({ progress, quests, apiState, catalo
   return <section className="feature-card platform-collection book-library" aria-labelledby="books-title"><div className="collection-hero"><div><p className="eyebrow">LitLearn library</p><h1 id="books-title">Books</h1><p>Browse every catalog record, then read only reviewed bundled passages inside LitLearn.</p></div><span className={`book-state is-${apiState.kind === 'ready' ? 'ready' : 'error'}`}>{apiState.kind === 'ready' ? 'Catalog synced' : 'Offline catalog'}</span></div><div className="book-filters"><label htmlFor="book-category">Category<select id="book-category" value={category} onChange={(event) => { setCategory(event.target.value); setSelectedBookId(''); }}><option>All categories</option>{categories.slice(1).map((item) => <option key={item}>{item}</option>)}</select></label><label htmlFor="book-access">Access<select id="book-access" value={accessFilter} onChange={(event) => { setAccessFilter(event.target.value); setSelectedBookId(''); }}><option value="all">All access</option><option value="readable">Readable now</option><option value="subscription">Premium</option><option value="purchase-only">Purchase with Diamonds</option></select></label></div>{visible.length ? <div className="book-library-layout"><section className="book-shelf" aria-label="Filtered book catalog">{visible.map((book) => { const state = bookAccessState(book, progress); return <article key={book.id} className={`book-card ${book.id === selectedBook?.id ? 'is-selected' : ''}`}><span className={`book-state is-${state}`}>{accessLabel(state)}</span><h2>{book.title}</h2><p>{book.author} · {book.category || book.topic}</p><button className="secondary-button" type="button" onClick={() => selectBook(book)}>Open book details</button><button className="text-button" type="button" onClick={() => toggleBookWishlist(book.id)}>{progress.bookWishlistIds.includes(book.id) ? '★ Remove from book wishlist' : '☆ Add to book wishlist'}</button></article>; })}</section>{selectedBook && <section className="book-reader-workspace" aria-labelledby="selected-book-title"><div className="book-detail-header"><div><span className={`book-state is-${bookAccessState(selectedBook, progress)}`}>{accessLabel(bookAccessState(selectedBook, progress))}</span><h2 id="selected-book-title" tabIndex="-1">{selectedBook.title}</h2><p>{selectedBook.author} · {selectedBook.edition || 'Reviewed edition'}</p></div><button className="text-button" type="button" onClick={() => onNavigate('shop')}>Open in Shop</button></div><p className="source-attribution"><strong>Project Gutenberg attribution:</strong> {selectedBook.requiredAttribution || 'Catalog attribution pending review.'}</p><div className="chapter-list" aria-label={`${selectedBook.title} available chapters and reading levels`}>{(selectedBook.chapterMetadata || []).map((item) => { const selected = chapter?.id === item.id; const levelLabels = (item.readingLevels || []).map((level) => `${level.label || level.id}${level.accessTier === 'premium' ? ' · Premium' : ''}`).join(', '); return <button key={item.id} type="button" className={selected ? 'is-selected' : ''} onClick={() => { setSelectedChapterId(item.id); setReader({ kind: 'idle', sentences: [], attribution: null }); }}><strong>{item.title}</strong><small>{levelLabels || 'Standard level'} · {progress.bookReading[selectedBook.id]?.chapterIds?.includes(item.id) ? 'Read' : item.contentAvailability === 'bundled-passage' ? accessLabel(chapterAccessState(selectedBook, item, progress)) : 'Unavailable in app'}</small></button>; })}</div>{reader.kind === 'loading' ? <div className="source-reader-state is-loading" role="status">Loading the reviewed in-app passage…</div> : reader.kind === 'error' || reader.kind === 'unavailable' ? <div className="source-reader-state is-unavailable" role="status"><h3>{chapter?.title}</h3><p>{reader.message}</p><button className="secondary-button" type="button" onClick={() => setReader({ kind: 'idle', sentences: [], attribution: null })}>Back to chapter list</button></div> : chapter?.contentAvailability === 'bundled-passage' ? <div className="source-reader-state is-ready"><h3>{chapter.title}</h3><p>{accessLabel(chapterAccess)} · this reviewed passage opens inside LitLearn.</p><button className="primary-button" type="button" onClick={openReader}>{chapterAccess === 'locked' ? 'Premium required' : 'Read chapter in LitLearn'}</button></div> : <div className="source-reader-state is-unavailable"><h3>{chapter?.title || 'No chapter provided'}</h3><p>This title has no provided readable passage yet. LitLearn will not redirect you elsewhere.</p></div>}{chapterAccess === 'purchase-only' && <button className="secondary-button" type="button" onClick={buyBook}>Buy permanently for {selectedBook.priceDiamonds || shopItems.find((item) => item.catalogId === selectedBook.id)?.price || 0} Diamonds</button>}</section>}</div> : <section className="book-empty-state"><h2>No books match those filters</h2><p>Clear a filter to browse another part of the catalog.</p></section>}</section>;
 }
 
-function ChapterActivityDeck({ book, chapter, quest, quiz, activityPayload, sentences, onLaunchQuest }) {
+function LegacyChapterActivityDeck({ book, chapter, quest, quiz, activityPayload, sentences, onLaunchQuest }) {
   const [activity, setActivity] = useState('evidence');
   const [evidenceId, setEvidenceId] = useState('');
   const [sceneStep, setSceneStep] = useState('beginning');
@@ -643,6 +644,92 @@ function ChapterActivityDeck({ book, chapter, quest, quiz, activityPayload, sent
   const source = activityPayload?.sourceLabel || quiz?.sourceLabel || `${book.title}, ${chapter.title}`;
   const activeSentence = sentences.find((sentence) => sentence.id === evidenceId);
   return <section className="chapter-activities" aria-labelledby="chapter-activities-title"><div><p className="eyebrow">Chapter activity deck</p><h2 id="chapter-activities-title">Learn from this exact section</h2><p className="activity-source"><strong>Source:</strong> {source}</p></div><div className="activity-tabs" role="tablist" aria-label={`Activities for ${source}`}>{[['story', 'Story quest'], ['evidence', 'Evidence'], ['characters', 'Character map'], ['vocabulary', 'Vocabulary'], ['scene', 'Scene build'], ['creative', 'Create']].map(([id, label]) => <button key={id} type="button" role="tab" aria-selected={activity === id} onClick={() => setActivity(id)}>{label}</button>)}</div>{activity === 'story' && <section className="activity-panel" role="tabpanel"><h3>Story quest</h3><p><strong>Source:</strong> {source}</p><p>{activityPayload?.activityType ? `Reviewed ${activityPayload.activityType} activity. ` : ''}{quiz ? 'This reviewed chapter quiz uses only this chapter’s mapped source.' : 'This chapter does not yet have a separate catalog quiz. Its mapped reading quest remains available when reviewed.'}</p><button className="primary-button" type="button" disabled={!quest} onClick={() => onLaunchQuest(quest)}>{quest ? 'Start exact-chapter quest' : 'Quest mapping unavailable'}</button></section>}{activity === 'evidence' && <section className="activity-panel" role="tabpanel"><h3>Evidence collection</h3><p><strong>Source:</strong> {source}. Choose a sentence you would collect as evidence; feedback stays private to this reading session.</p><div className="evidence-pick-list">{sentences.map((sentence, index) => <button type="button" key={sentence.id || index} aria-pressed={evidenceId === sentence.id} onClick={() => setEvidenceId(sentence.id)}>{sentence.text}</button>)}</div>{activeSentence && <p className="activity-feedback" role="status">Evidence collected from this chapter: “{activeSentence.text}”</p>}</section>}{activity === 'characters' && <section className="activity-panel" role="tabpanel"><h3>Character map</h3><p><strong>Source:</strong> {source}. Use an evidence sentence to map who acts, what they want, and what changes.</p><label>Character or person<input placeholder="Name from the chapter" /></label><label>Action or goal<input placeholder="What they do or want" /></label><button className="secondary-button" type="button" onClick={() => setActivity('evidence')}>Choose supporting evidence</button></section>}{activity === 'vocabulary' && <section className="activity-panel" role="tabpanel"><h3>Vocabulary in context</h3><p><strong>Source:</strong> {source}. Pick a word from the passage, then explain its meaning using a nearby clue.</p><label>Word from this chapter<input placeholder="Type a word you noticed" /></label><label>Context clue<textarea placeholder="Which sentence or detail helps explain it?" /></label></section>}{activity === 'scene' && <section className="activity-panel" role="tabpanel"><h3>Scene reconstruction</h3><p><strong>Source:</strong> {source}. Build the order of events from the exact passage.</p><div className="scene-steps">{['beginning', 'change', 'result'].map((step) => <button key={step} type="button" aria-pressed={sceneStep === step} onClick={() => setSceneStep(step)}>{step === 'beginning' ? 'First' : step === 'change' ? 'Then' : 'Result'}</button>)}</div><label>{sceneStep === 'beginning' ? 'What begins the scene?' : sceneStep === 'change' ? 'What changes?' : 'What is the result?'}<textarea placeholder="Use your own words and a detail from this chapter" /></label></section>}{activity === 'creative' && <section className="activity-panel" role="tabpanel"><h3>Creative response</h3><p><strong>Source:</strong> {source}. Write a short new line, journal entry, or sketch prompt that keeps faith with this chapter’s evidence.</p><label>Your response<textarea value={creativeResponse} onChange={(event) => setCreativeResponse(event.target.value.slice(0, 500))} maxLength="500" placeholder="Write up to 500 characters" /></label><p className="quiet">{creativeResponse.length}/500 · kept only in this browser session.</p></section>}</section>;
+}
+
+function ChapterActivityDeck({ book, chapter, quest, quiz, activityPayload, sentences, onLaunchQuest }) {
+  const [activity, setActivity] = useState('story');
+  const [evidenceId, setEvidenceId] = useState('');
+  const [chapterPause, setChapterPause] = useState('');
+  const [characterMap, setCharacterMap] = useState({ character: '', relationship: '', evidence: '' });
+  const [sceneStep, setSceneStep] = useState('beginning');
+  const [sceneNote, setSceneNote] = useState('');
+  const [vocabulary, setVocabulary] = useState({ word: '', clue: '' });
+  const [creativeResponse, setCreativeResponse] = useState('');
+  const [worldNote, setWorldNote] = useState('');
+  const activities = supportedChapterActivities({ activityPayload, quiz, quest });
+  const supportedIds = new Set(activities.map((item) => item.id));
+  const selectedActivity = supportedIds.has(activity) ? activity : activities[0]?.id;
+  const source = chapterActivitySource(book, chapter, activityPayload, quiz);
+  const activeSentence = sentences.find((sentence) => sentence.id === evidenceId);
+
+  if (!activities.length) {
+    return <section className="chapter-activities" aria-labelledby="chapter-activities-title">
+      <p className="eyebrow">Chapter activity deck</p>
+      <h2 id="chapter-activities-title">No reviewed activity for this section yet</h2>
+      <p className="activity-source"><strong>Source:</strong> {source}</p>
+      <p className="quiet">You can keep reading this exact chapter. LitLearn will add an activity only after it has a reviewed chapter mapping.</p>
+    </section>;
+  }
+
+  return <section className="chapter-activities" aria-labelledby="chapter-activities-title">
+    <div>
+      <p className="eyebrow">Chapter activity deck</p>
+      <h2 id="chapter-activities-title">Learn from this exact section</h2>
+      <p className="activity-source"><strong>Source:</strong> {source}</p>
+    </div>
+    <div className="activity-tabs" role="tablist" aria-label={`Reviewed activities for ${source}`}>
+      {activities.map(({ id, label }) => <button key={id} id={`activity-tab-${id}`} type="button" role="tab" aria-selected={selectedActivity === id} aria-controls={`activity-panel-${id}`} onClick={() => setActivity(id)}>{label}</button>)}
+    </div>
+    {selectedActivity === 'story' && <section className="activity-panel" id="activity-panel-story" role="tabpanel" aria-labelledby="activity-tab-story">
+      <h3>Story quest</h3>
+      <p><strong>Source:</strong> {source}</p>
+      <p>{quiz ? 'This reviewed chapter quest uses only the source shown above. Check the chapter text whenever you need a clue.' : 'This mapped reading quest is reviewed against this exact chapter.'}</p>
+      <button className="primary-button" type="button" disabled={!quest} onClick={() => onLaunchQuest(quest)}>{quest ? 'Start exact-chapter quest' : 'Quest mapping unavailable'}</button>
+    </section>}
+    {selectedActivity === 'evidence' && <section className="activity-panel" id="activity-panel-evidence" role="tabpanel" aria-labelledby="activity-tab-evidence">
+      <h3>Evidence collection</h3>
+      <p><strong>Source:</strong> {source}. Collect one sentence, then return to the quest to test your reasoning.</p>
+      <div className="evidence-pick-list">{sentences.map((sentence, index) => <button type="button" key={sentence.id || index} aria-pressed={evidenceId === sentence.id} onClick={() => setEvidenceId(sentence.id)}>{sentence.text}</button>)}</div>
+      {activeSentence && <p className="activity-feedback" role="status">Evidence note saved for this browser session: “{activeSentence.text}”</p>}
+    </section>}
+    {selectedActivity === 'characters' && <section className="activity-panel" id="activity-panel-characters" role="tabpanel" aria-labelledby="activity-tab-characters">
+      <h3>Character relationship map</h3>
+      <p><strong>Source:</strong> {source}. Identify a relationship, then support it with a detail you can verify in the chapter text.</p>
+      <label>Character or person<input value={characterMap.character} onChange={(event) => setCharacterMap((current) => ({ ...current, character: event.target.value }))} placeholder="Name from the chapter" /></label>
+      <label>Relationship, action, or goal<input value={characterMap.relationship} onChange={(event) => setCharacterMap((current) => ({ ...current, relationship: event.target.value }))} placeholder="What connects them?" /></label>
+      <label>Text evidence<textarea value={characterMap.evidence} onChange={(event) => setCharacterMap((current) => ({ ...current, evidence: event.target.value }))} placeholder="Write the sentence ID or a detail you found" /></label>
+    </section>}
+    {selectedActivity === 'pause' && <section className="activity-panel" id="activity-panel-pause" role="tabpanel" aria-labelledby="activity-tab-pause">
+      <h3>Interactive chapter pause</h3>
+      <p><strong>Source:</strong> {source}. Pause at this reviewed decision point. Make a prediction, then confirm it against the chapter text.</p>
+      <label>My prediction or choice<textarea value={chapterPause} onChange={(event) => setChapterPause(event.target.value.slice(0, 500))} maxLength="500" placeholder="Use a chapter detail to explain your thinking" /></label>
+      <p className="quiet">{chapterPause.length}/500 · kept only in this browser session.</p>
+    </section>}
+    {selectedActivity === 'vocabulary' && <section className="activity-panel" id="activity-panel-vocabulary" role="tabpanel" aria-labelledby="activity-tab-vocabulary">
+      <h3>Vocabulary in context</h3>
+      <p><strong>Source:</strong> {source}. Use a nearby sentence to explain a word in this reviewed vocabulary activity.</p>
+      <label>Word from this chapter<input value={vocabulary.word} onChange={(event) => setVocabulary((current) => ({ ...current, word: event.target.value }))} placeholder="Type a word you noticed" /></label>
+      <label>Context clue<textarea value={vocabulary.clue} onChange={(event) => setVocabulary((current) => ({ ...current, clue: event.target.value }))} placeholder="Which chapter detail helps explain it?" /></label>
+    </section>}
+    {selectedActivity === 'scene' && <section className="activity-panel" id="activity-panel-scene" role="tabpanel" aria-labelledby="activity-tab-scene">
+      <h3>Scene reconstruction</h3>
+      <p><strong>Source:</strong> {source}. Rebuild the reviewed scene in order using the chapter.</p>
+      <div className="scene-steps">{['beginning', 'change', 'result'].map((step) => <button key={step} type="button" aria-pressed={sceneStep === step} onClick={() => setSceneStep(step)}>{step === 'beginning' ? 'First' : step === 'change' ? 'Then' : 'Result'}</button>)}</div>
+      <label>{sceneStep === 'beginning' ? 'What begins the scene?' : sceneStep === 'change' ? 'What changes?' : 'What is the result?'}<textarea value={sceneNote} onChange={(event) => setSceneNote(event.target.value.slice(0, 500))} maxLength="500" placeholder="Use your own words and a detail from this chapter" /></label>
+    </section>}
+    {selectedActivity === 'creative' && <section className="activity-panel" id="activity-panel-creative" role="tabpanel" aria-labelledby="activity-tab-creative">
+      <h3>Creative response</h3>
+      <p><strong>Source:</strong> {source}. Try an alternate ending or another character’s viewpoint while staying faithful to the chapter evidence.</p>
+      <label>Your response<textarea value={creativeResponse} onChange={(event) => setCreativeResponse(event.target.value.slice(0, 500))} maxLength="500" placeholder="Write up to 500 characters" /></label>
+      <p className="quiet">{creativeResponse.length}/500 · kept only in this browser session.</p>
+    </section>}
+    {selectedActivity === 'world' && <section className="activity-panel" id="activity-panel-world" role="tabpanel" aria-labelledby="activity-tab-world">
+      <h3>Book-world map</h3>
+      <p><strong>Source:</strong> {source}. Record one setting or route from this reviewed chapter, then cite the detail that locates it.</p>
+      <label>Setting and evidence<textarea value={worldNote} onChange={(event) => setWorldNote(event.target.value.slice(0, 500))} maxLength="500" placeholder="Place, route, or setting clue from this chapter" /></label>
+      <p className="quiet">{worldNote.length}/500 · kept only in this browser session.</p>
+    </section>}
+  </section>;
 }
 
 function InAppBookLibraryScreen({ progress, quests, apiState, catalogBooks, bookQuizzes = [], bookActivities = [], profileId, shopItems = [], onUpdate, onNavigate, onLaunchQuest, onStatus }) {
@@ -794,7 +881,7 @@ function LegacyPetCollectionScreen({ progress, onUpdate, onStatus }) {
 function PetCollectionScreen({ progress, petCatalog, onUpdate, onStatus }) {
   const [nameDrafts, setNameDrafts] = useState({});
   const level = levelForXp(progress.xp);
-  const starterPets = PLATFORM_CATALOG.pets.filter((pet) => pet.availability === 'starter');
+  const starterPets = PLATFORM_CATALOG.pets.filter((pet) => pet.starterClaim).slice(0, 6);
   return (
     <section className="feature-card platform-collection" aria-labelledby="pets-title">
       <div className="collection-hero"><div><p className="eyebrow">Companion collection</p><h1 id="pets-title">Pets</h1><p>Every companion starts locked. Level Road milestones unlock naming, equipping, and accessories.</p></div></div>
