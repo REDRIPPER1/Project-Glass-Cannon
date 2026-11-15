@@ -17,14 +17,14 @@ export function normalizeApiBook(book) {
     difficulty: rating,
     difficultyLabel: displayDifficulty(book.difficultyLabel, rating),
     accessTier: mode === 'purchase-only' ? 'purchase-only' : mode === 'subscription' || mode === 'premium' ? 'premium' : 'free-demo',
-    sourceUrl: book.sourceUrl || book.source?.landingUrl,
     requiredAttribution: book.rights?.requiredAttribution || book.requiredAttribution,
     license: book.rights?.license || book.license,
-    chapterMetadata: (book.chapterMetadata || []).map((chapter) => ({ ...chapter, accessTier: chapter.accessTier || (freeChapterIds.has(chapter.id) ? 'free-demo' : 'premium') })),
+    contentAvailability: book.contentAvailability || 'unavailable',
+    chapterMetadata: (book.chapterMetadata || []).map((chapter) => ({ ...chapter, accessTier: chapter.accessTier || (freeChapterIds.has(chapter.id) ? 'free-demo' : 'premium'), contentAvailability: chapter.contentAvailability || 'unavailable' })),
   };
 }
 
-async function api(path, options) {
+export async function api(path, options) {
   const response = await fetch(path, { headers: { 'Content-Type': 'application/json' }, ...options });
   if (!response.ok) {
     const body = await response.json().catch(() => ({}));
@@ -34,7 +34,7 @@ async function api(path, options) {
 }
 
 export async function loadBookCatalog() {
-  const books = await api('/api/books');
+  const books = await api('/api/catalog/books');
   return Array.isArray(books) ? books.map(normalizeApiBook) : [];
 }
 
@@ -50,13 +50,29 @@ export async function ensureAnonymousProfile() {
 
 export async function loadLibraryEnhancement() {
   const [books, profileId] = await Promise.all([loadBookCatalog(), ensureAnonymousProfile()]);
-  const [library, recommendations] = await Promise.all([
+  const [library, recommendations, balances, pets, shopItems, profile] = await Promise.all([
     api(`/api/profiles/${profileId}/library`),
     api(`/api/profiles/${profileId}/recommendations`),
+    api(`/api/profiles/${profileId}/currencies`),
+    api('/api/catalog/pets'),
+    api('/api/catalog/shop'),
+    api(`/api/profiles/${profileId}`),
   ]);
-  return { books, profileId, library: Array.isArray(library) ? library : [], recommendations: Array.isArray(recommendations) ? recommendations : [] };
+  return { books, profileId, library: Array.isArray(library) ? library : [], recommendations: Array.isArray(recommendations) ? recommendations : [], wallet: balances?.wallet, inventory: balances?.inventory, pets: Array.isArray(pets) ? pets : [], shopItems: Array.isArray(shopItems) ? shopItems : [], profile };
 }
 
 export async function loadChapterReference(profileId, bookId, chapterId) {
   return api(`/api/profiles/${profileId}/books/${bookId}/chapters/${chapterId}`);
+}
+
+export async function redeemWishlistPagesRemote(profileId) {
+  return api(`/api/profiles/${profileId}/wishlist/redemptions`, { method: 'POST' });
+}
+
+export async function purchaseShopItem(profileId, shopItemId) {
+  return api(`/api/profiles/${profileId}/purchases`, { method: 'POST', body: JSON.stringify({ shopItemId }) });
+}
+
+export async function setRemoteWishlist(profileId, bookId, wishlisted) {
+  return api(`/api/profiles/${profileId}/wishlist/book/${bookId}`, { method: wishlisted ? 'PUT' : 'DELETE' });
 }
