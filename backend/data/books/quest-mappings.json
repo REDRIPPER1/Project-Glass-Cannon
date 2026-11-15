@@ -4,26 +4,10 @@
     {
       "id": "wizard-cyclone-inference",
       "bookId": "wizard-of-oz",
-      "edition": "First edition, Geo. M. Hill Co., 1900",
+      "edition": "Project Gutenberg eBook #55; release date February 1, 1993; last updated December 29, 2024",
       "chapterIds": ["chapter-1-cyclone"],
-      "mappingBasis": "The quest source identifies the exact 1900 Library of Congress edition and Chapter I: The Cyclone. Its sentence IDs s1-s11 are a reviewed excerpt, not a generated chapter boundary.",
+      "mappingBasis": "The quest source identifies Project Gutenberg eBook #55 and Chapter I: The Cyclone. Its sentence IDs s1-s11 are a reviewed in-app excerpt, not a generated chapter boundary.",
       "passageReference": {"mode":"bundled-quest","location":"backend/data/quest-1.json"}
-    },
-    {
-      "id": "night-garden-main-idea",
-      "bookId": "small-helpers-after-sunset",
-      "edition": "LitLearn original passage, version 1.0 (2026)",
-      "chapterIds": ["standalone-night-garden"],
-      "mappingBasis": "The quest is the reviewed, original standalone passage; its sentence IDs s1-s13 are the source of truth.",
-      "passageReference": {"mode":"bundled-quest","location":"backend/data/quest-2-night-garden-main-idea.json"}
-    },
-    {
-      "id": "fix-it-fair-vocabulary",
-      "bookId": "fix-it-fair",
-      "edition": "LitLearn original passage, version 1.0 (2026)",
-      "chapterIds": ["standalone-fix-it-fair"],
-      "mappingBasis": "The quest is the reviewed, original standalone passage; its sentence IDs s1-s13 are the source of truth.",
-      "passageReference": {"mode":"bundled-quest","location":"backend/data/quest-3-fix-it-vocabulary.json"}
     }
   ]
 }

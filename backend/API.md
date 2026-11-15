@@ -71,8 +71,8 @@ process-memory state. Set `LITLEARN_FORCE_MEMORY=1` to exercise that fallback.
 | `Pet` | `id`, `name`, `petType`, `rarity`, literary/source metadata, description, `baseArtworkKey`, allowed accessory categories, `eventOnly`, Level Road `unlockLevel`, and no-cost `starterClaim` when applicable |
 | `PetAccessory` | `id`, category, `wearableType` (`accessory` or `clothing`), rarity, price/currency, compatible pet types, source/license metadata, availability |
 | `PetEgg` | `id`, rarity range, explicit odds, price/currency, possible rewards, and duplicate Story Shard conversion credited as Diamonds |
-| `Profile` | anonymous `id`, display name, XP/level, authoritative `{gold, diamonds}` wallet, `inventory.wishlistPages`, active/owned pets and pet nicknames, equipped accessories, wishlist, collections, permanent book IDs, preferences, local-demo entitlement |
-| `Book` | stable `id`, title, author, edition, category/difficulty/rating, verified-or-explicitly-unverified chapter metadata, rights/territory/attribution, in-app content availability, and free/subscription/purchase-only rules |
+| `Profile` | anonymous `id`, display name, XP/level, authoritative `{gold, diamonds}` wallet, `inventory.wishlistPages`, active/owned pets and pet nicknames, equipped accessories, non-book wishlist items, separate `bookWishlistIds`, collections, permanent book IDs, preferences, local-demo entitlement |
+| `Book` | stable `id`, title, author, edition, category/difficulty/rating, `sourceReference`, verified-or-explicitly-unverified chapter metadata, rights/territory/attribution, in-app content availability, and free/subscription/purchase-only rules |
 | `Reward` | deterministic instance ID plus catalog reward ID, `currency`, `accessory`, `pet`, `egg`, or `inventory` type, quantity, rarity, source, and one-way claim status |
 | `LevelNode` | deterministic IDs and total-XP thresholds for Levels 1-100, milestone labels, prerequisites, reward IDs, and `{x,y}` map positions |
 | `BattlePass` | ID, season/month, plan, reward pool, progress rule, reward IDs, expiration, and per-profile claim state |
@@ -92,13 +92,16 @@ one Rare reward and a Premium pass with one Epic reward.
 
 Literary metadata is catalog metadata only. All companions and accessories are
 original LitLearn designs, not adaptations of modern film, game, or book
-characters. The 100 Project Gutenberg records are **reference-only** until a
-work-specific edition review clears text reuse. The browser catalog does not
-expose third-party source or reader URLs. It can render only a reviewed
-`bundled-passage` from the supplied LitLearn data; other titles remain visible
-with `contentAvailability: "unavailable"`. The reviewed Wizard of Oz excerpt
-retains its exact 1900 Library of Congress source mapping; original quest
-passages retain their bundled JSON mapping.
+characters. The current catalog contains 100 generated Project Gutenberg
+metadata records plus two reviewed Project Gutenberg title records. Generated
+records are **reference-only** until a work-specific edition review clears text
+reuse. The browser catalog does not expose third-party source or reader URLs;
+it exposes `sourceReference` and required attribution instead. It can render
+only the reviewed `bundled-passage` for *The Wonderful Wizard of Oz*, Chapter
+I, from the supplied LitLearn data; every other listed chapter remains visible
+with `contentAvailability: "unavailable"`. The one reviewed catalog quiz is
+mapped to that exact Project Gutenberg eBook #55 edition and chapter; no quiz
+is advertised for an unreviewed passage.
 
 ### Endpoint map
 
@@ -106,9 +109,12 @@ passages retain their bundled JSON mapping.
   `GET .../currencies`;
   `PATCH .../pets/{petId}/name`; `PUT .../active-pet/{petId}`;
   `PUT/DELETE .../accessories/{accessoryId|category}`; and
-  `PUT/DELETE .../wishlist/{itemType}/{catalogId}`.
+  `PUT/DELETE .../wishlist/{itemType}/{catalogId}` for non-book items; and
+  `GET`, `PUT`, and `DELETE .../book-wishlist/{bookId}` for the separate,
+  stable profile book wishlist.
 - Catalogs: `GET /api/catalog/pets`, `/pets/{petId}`, `/accessories`,
-  `/eggs`, `/events`, `/books`, `/books/{bookId}`, `/shop`, `/badges`,
+  `/eggs`, `/events`, `/books`, `/books/{bookId}`, `/book-quizzes`,
+  `/books/{bookId}/quizzes`, `/shop`, `/badges`,
   `/achievements`, and `/trophies`.
 - Progress/rewards: `POST /api/profiles/{profileId}/xp`, `GET .../progress`,
   `GET .../rewards`, and `POST .../rewards/{rewardInstanceId}/claim`.
@@ -131,6 +137,11 @@ passages retain their bundled JSON mapping.
 - Exact source mapping: `GET /api/quests/{questId}/book-reference` returns
   the stable book ID, exact edition, verified chapter IDs (or an explicit
   standalone-passage mapping), mapping basis, and bundled passage location.
+- Reviewed quizzes: `GET /api/catalog/book-quizzes` and
+  `GET /api/catalog/books/{bookId}/quizzes` return only reviewed quiz
+  metadata. `GET .../books/{bookId}/quizzes/{quizId}` checks the quiz's
+  `basic` or `advanced` entitlement and, only when allowed, returns its three
+  reviewed questions and exact chapter IDs.
 - Reading: `GET /api/profiles/{profileId}/books/{bookId}/access`,
   `GET .../chapters/{chapterId}`, and `GET .../reader`. Chapter/reader
   retrieval returns a reviewed `bundled-passage` with stable sentence IDs or a
@@ -163,21 +174,25 @@ passages retain their bundled JSON mapping.
   permanent ownership in the same local transaction. Empty or fully owned
   wishlists leave pages unchanged.
 - Book ownership: catalog-defined `shop-book-{bookId}` mock items are returned
-  from `GET /api/catalog/shop`. A successful local purchase grants permanent
-  ownership, which remains in `GET .../library` after a subscription expires.
-  Premium never unlocks `purchase-only` titles.
+  from `GET /api/catalog/shop`; book offers use Diamonds, while accessory
+  offers use Gold. A successful local purchase grants permanent ownership,
+  which remains in `GET .../library` after a subscription expires. Premium
+  expands subscription-eligible chapter and advanced-quiz access but never
+  unlocks `purchase-only` titles.
 - Road and collections: `GET /api/catalog/progression` returns all 100
   Level Road thresholds and milestone rules. `GET .../progress` has the same
   nodes with the profile's unlocked IDs; `GET .../collections` returns
   badges, trophies, achievements, and wishlisted catalog items with earned
   state.
 
-Book-catalog authoring records use Project Gutenberg's published offline
-catalog and retain its Terms of Use, License, and robot/download guidance for
-review. A source print edition is not treated as verified when the offline
-catalog cannot identify it. The generator is
+Book-catalog authoring records use only Project Gutenberg title landing pages
+and retain its Terms of Use, License, territory, attribution, and
+robot/download guidance for review. A source edition is not treated as
+text-cleared when the title metadata cannot identify it. The generator is
 `backend/scripts/generate_gutenberg_catalog.py`; it reads an already-downloaded
-offline CSV and deliberately rejects the idea of runtime bulk downloading.
+offline CSV and deliberately rejects runtime bulk downloading. The reader does
+not download Gutenberg text: source metadata is held separately from the short
+reviewed passage in `backend/data/quest-1.json`.
 
 All platform errors use the same compact shape as the quest API:
 

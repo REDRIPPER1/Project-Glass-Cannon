@@ -6,7 +6,7 @@ from collections import Counter
 from copy import deepcopy
 import unittest
 
-from backend.book_catalog import load_book_catalog, load_quest_mappings
+from backend.book_catalog import load_book_catalog, load_book_quizzes, load_quest_mappings
 from backend.catalog import load_catalogs
 from backend.progression import level_nodes
 from backend.store import DemoStore, PlatformError
@@ -36,10 +36,15 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertGreaterEqual(len(reference_books), 100)
         self.assertTrue(all(not book["rights"]["textReuseCleared"] for book in reference_books))
         self.assertTrue(all(book["chapterMetadata"] == [] for book in reference_books))
+        self.assertTrue(all(book["source"]["provider"] == "Project Gutenberg" for book in self.books["books"]))
+        self.assertTrue(all(book["source"]["landingUrl"].startswith("https://www.gutenberg.org/ebooks/") for book in self.books["books"]))
         mappings = {item["id"]: item for item in load_quest_mappings(catalog=self.books)["mappings"]}
         self.assertEqual(mappings["wizard-cyclone-inference"]["bookId"], "wizard-of-oz")
         self.assertEqual(mappings["wizard-cyclone-inference"]["chapterIds"], ["chapter-1-cyclone"])
-        self.assertIn("exact 1900", mappings["wizard-cyclone-inference"]["mappingBasis"])
+        self.assertIn("Project Gutenberg eBook #55", mappings["wizard-cyclone-inference"]["edition"])
+        quizzes = load_book_quizzes(catalog=self.books)["quizzes"]
+        self.assertEqual(quizzes[0]["questId"], mappings["wizard-cyclone-inference"]["id"])
+        self.assertEqual(quizzes[0]["chapterIds"], mappings["wizard-cyclone-inference"]["chapterIds"])
 
     def test_level_thresholds_progress_through_100_and_all_pets_are_locked(self):
         nodes = level_nodes({int(node["id"].removeprefix("level-")): node["rewardIds"] for node in self.catalogs["levelNodes"]})
@@ -94,14 +99,14 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertEqual(source_only["content"]["mode"], "unavailable")
         self.store.set_demo_entitlement(self.profile_id, "premium", True)
         self.assertTrue(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
-        self.assertNotIn("lantern-and-lost-index", {item["bookId"] for item in self.store.library(self.profile_id)})
-        self.store.profiles[self.profile_id]["wallet"]["gold"] = 120
-        purchase = self.store.purchase_book(self.profile_id, "lantern-and-lost-index")
+        self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["allowed"])
+        self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 24
+        purchase = self.store.purchase_book(self.profile_id, "secret-garden")
         self.assertTrue(purchase["mocked"])
-        self.assertEqual(self.store.reader_reference(self.profile_id, "lantern-and-lost-index")["content"]["reason"], "book_content_unavailable")
+        self.assertEqual(self.store.reader_reference(self.profile_id, "secret-garden")["content"]["reason"], "book_content_unavailable")
         self.store.profiles[self.profile_id]["entitlement"]["endsAt"] = "2020-01-01T00:00:00Z"
         library = {item["bookId"]: item for item in self.store.library(self.profile_id)}
-        self.assertEqual(library["lantern-and-lost-index"]["access"], "permanent")
+        self.assertEqual(library["secret-garden"]["access"], "permanent")
         self.assertNotIn("wizard-of-oz", library)
 
     def test_wishlist_pages_are_awarded_by_quest_road_and_diamond_shop(self):
@@ -131,7 +136,8 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertTrue(all(item["bookId"] in self.store.books for item in recommendations))
         self.store.change_wishlist(self.profile_id, "book", "wizard-of-oz", True)
         collections = self.store.collections(self.profile_id)
-        self.assertEqual(collections["wishlist"], [{"itemType": "book", "catalogId": "wizard-of-oz"}])
+        self.assertEqual(collections["wishlist"], [])
+        self.assertEqual(collections["bookWishlistIds"], ["wizard-of-oz"])
         self.assertEqual(Counter(item["id"] for item in collections["badges"])["first-quest"], 1)
 
 

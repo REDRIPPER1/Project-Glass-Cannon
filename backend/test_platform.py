@@ -62,11 +62,11 @@ class CatalogAndStoreTests(unittest.TestCase):
         self.store.purchase(self.profile_id, "shop-reading-lamp-cap")
         self.store.set_active_pet(self.profile_id, "moss-mouse")
         self.assertIn("head", self.store.equip_accessory(self.profile_id, "reading-lamp-cap")["equippedAccessories"])
-        self.store.change_wishlist(self.profile_id, "book", "wizard-of-oz", True)
+        self.store.change_book_wishlist(self.profile_id, "wizard-of-oz", True)
         self.store.change_wishlist(self.profile_id, "pet", "comet-bat", True)
         self.store.change_wishlist(self.profile_id, "accessory", "oak-leaf-scarf", True)
-        self.assertEqual(self.store.get_profile(self.profile_id)["wishlist"][0]["catalogId"], "wizard-of-oz")
-        self.assertEqual({item["itemType"] for item in self.store.get_profile(self.profile_id)["wishlist"]}, {"book", "pet", "accessory"})
+        self.assertEqual(self.store.get_profile(self.profile_id)["bookWishlistIds"], ["wizard-of-oz"])
+        self.assertEqual({item["itemType"] for item in self.store.get_profile(self.profile_id)["wishlist"]}, {"pet", "accessory"})
 
     def test_level_map_rewards_grant_gold_diamonds_clothing_and_each_egg_rarity(self):
         self.store.add_xp(self.profile_id, 500, "demo-seed")
@@ -125,13 +125,13 @@ class CatalogAndStoreTests(unittest.TestCase):
     def test_access_entitlements_ads_and_safe_analytics(self):
         self.assertTrue(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")["allowed"])
         self.assertFalse(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
-        self.assertTrue(self.store.book_access(self.profile_id, "secret-garden", None, "vocabulary")["allowed"])
+        self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", None, "vocabulary")["allowed"])
         self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", "advanced", "vocabulary")["allowed"])
-        self.assertTrue(self.store.book_access(self.profile_id, "secret-garden", "basic", "vocabulary")["allowed"])
+        self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", "basic", "vocabulary")["allowed"])
         with self.assertRaisesRegex(PlatformError, "Vocabulary tier"):
             self.store.book_access(self.profile_id, "secret-garden", "expanded", "vocabulary")
         self.store.set_demo_entitlement(self.profile_id, "premium", True)
-        self.assertTrue(self.store.book_access(self.profile_id, "secret-garden", "advanced", "vocabulary")["allowed"])
+        self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", "advanced", "vocabulary")["allowed"])
         self.assertFalse(self.store.ad_placement(self.profile_id, "after-quest")["eligible"])
         event = self.store.record_event(self.profile_id, "evidence_chosen", {"questId": "wizard-cyclone-inference"})
         self.assertEqual(event["eventType"], "evidence_chosen")
@@ -159,7 +159,7 @@ class CatalogAndStoreTests(unittest.TestCase):
         self.assertEqual(migrated["wallet"], {"gold": 9, "diamonds": 5})
         self.assertNotIn("currencies", self.store.get_profile(self.profile_id))
 
-        self.store.change_wishlist(self.profile_id, "book", "wizard-of-oz", True)
+        self.store.change_book_wishlist(self.profile_id, "wizard-of-oz", True)
         before = self.store.balances(self.profile_id)["inventory"]["wishlistPages"]
         with self.assertRaisesRegex(PlatformError, "Five Wishlist Pages"):
             self.store.redeem_wishlist_pages(self.profile_id)

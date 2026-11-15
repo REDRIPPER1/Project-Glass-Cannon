@@ -497,8 +497,8 @@
     {
       "id": "wizard-of-oz",
       "title": "The Wonderful Wizard of Oz",
-      "author": "L. Frank Baum",
-      "edition": "Geo. M. Hill Co., first edition (1900)",
+      "author": "Baum, L. Frank (Lyman Frank), 1856-1919",
+      "edition": "Project Gutenberg eBook #55; release date February 1, 1993; last updated December 29, 2024",
       "chapterMetadata": [
         {
           "id": "chapter-1-cyclone",
@@ -512,20 +512,20 @@
         }
       ],
       "readingLevel": "Grades 4-8",
-      "topic": "Classic fantasy",
+      "topic": "Fantasy and folklore",
       "vocabularyLevel": "basic",
-      "sourceUrl": "https://www.loc.gov/item/03032405/",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/55",
       "rightsStatus": "verified",
-      "license": "Public-domain text; no copyright license is required for the underlying 1900 book in the United States.",
-      "territory": "US",
-      "requiredAttribution": "L. Frank Baum, The Wonderful Wizard of Oz (1900). Source: Library of Congress.",
+      "license": "Project Gutenberg identifies eBook #55 as public domain in the USA; territory outside the USA requires separate review.",
+      "territory": "United States; verify local law before use outside the United States.",
+      "requiredAttribution": "L. Frank Baum, The Wonderful Wizard of Oz, Chapter I: The Cyclone. Source checked against Project Gutenberg eBook #55.",
       "accessTier": "premium"
     },
     {
       "id": "secret-garden",
       "title": "The Secret Garden",
-      "author": "Frances Hodgson Burnett",
-      "edition": "Frederick A. Stokes, 1911",
+      "author": "Burnett, Frances Hodgson, 1849-1924",
+      "edition": "Project Gutenberg eBook #17396; release date December 26, 2005; last updated December 30, 2005",
       "chapterMetadata": [
         {
           "id": "chapter-1-left",
@@ -539,7 +539,7 @@
         }
       ],
       "readingLevel": "Grades 4-8",
-      "topic": "Classic mystery",
+      "topic": "Family stories",
       "vocabularyLevel": "advanced",
       "sourceUrl": "https://www.gutenberg.org/ebooks/17396",
       "rightsStatus": "verified",
@@ -547,28 +547,6 @@
       "territory": "US (verify local law outside the United States)",
       "requiredAttribution": "Frances Hodgson Burnett, The Secret Garden (1911). Source: Project Gutenberg eBook #17396.",
       "accessTier": "premium"
-    },
-    {
-      "id": "night-garden-demo",
-      "title": "A Lantern in the Night Garden",
-      "author": "LitLearn Editorial Team",
-      "edition": "Original project edition (2026)",
-      "chapterMetadata": [
-        {
-          "id": "chapter-1-lantern",
-          "title": "Chapter I: The Lantern Path",
-          "accessTier": "free-demo"
-        }
-      ],
-      "readingLevel": "Grades 4-8",
-      "topic": "Garden mystery",
-      "vocabularyLevel": "basic",
-      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-      "rightsStatus": "original",
-      "license": "Original project content; no third-party text is included.",
-      "territory": "Worldwide",
-      "requiredAttribution": "LitLearn Editorial Team, A Lantern in the Night Garden (2026).",
-      "accessTier": "free-demo"
     }
   ],
   "rewards": [

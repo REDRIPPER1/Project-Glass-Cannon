@@ -13,7 +13,7 @@ import tempfile
 from typing import Any
 from uuid import uuid4
 
-from .book_catalog import book_index, bundled_passage_for_chapter, load_book_catalog
+from .book_catalog import book_index, bundled_passage_for_chapter, load_book_catalog, load_book_quizzes
 from .catalog import indexed
 from .progression import level_for_xp, level_nodes
 
@@ -77,6 +77,9 @@ class DemoStore:
         self.eggs = indexed(catalogs, "eggs")
         self.book_catalog = books_catalog or load_book_catalog()
         self.books = book_index(self.book_catalog)
+        self.book_quizzes = {
+            quiz["id"]: quiz for quiz in load_book_quizzes(catalog=self.book_catalog)["quizzes"]
+        }
         self.inventory_items = indexed(catalogs, "inventoryItems")
         self.rewards = indexed(catalogs, "rewards")
         self.passes = indexed(catalogs, "battlePasses")
@@ -118,6 +121,22 @@ class DemoStore:
             wallet[currency] = max(0, int(wallet.get(currency, 0)))
         profile["inventory"] = profile.get("inventory") if isinstance(profile.get("inventory"), dict) else {}
         profile["inventory"]["wishlistPages"] = max(0, int(profile["inventory"].get("wishlistPages", 0)))
+        profile["wishlist"] = profile.get("wishlist") if isinstance(profile.get("wishlist"), list) else []
+        legacy_book_ids = [
+            item.get("catalogId")
+            for item in profile["wishlist"]
+            if isinstance(item, dict) and item.get("itemType") == "book" and item.get("catalogId") in self.books
+        ]
+        profile["wishlist"] = [
+            item for item in profile["wishlist"]
+            if not (isinstance(item, dict) and item.get("itemType") == "book")
+        ]
+        requested_book_ids = profile.get("bookWishlistIds", [])
+        if not isinstance(requested_book_ids, list):
+            requested_book_ids = []
+        profile["bookWishlistIds"] = list(dict.fromkeys(
+            book_id for book_id in [*requested_book_ids, *legacy_book_ids] if book_id in self.books
+        ))
         feature_flags = profile["entitlement"].setdefault("featureFlags", {})
         feature_flags.setdefault("advancedVocabulary", feature_flags.get("expandedVocabulary", False))
         profile.setdefault("ownedBookIds", [])
@@ -156,6 +175,7 @@ class DemoStore:
             "equippedAccessories": {},
             "eggInventory": {},
             "wishlist": [],
+            "bookWishlistIds": [],
             "badges": [],
             "achievements": [],
             "bookmarks": [],
@@ -230,6 +250,7 @@ class DemoStore:
     def _book_attribution(book: dict[str, Any]) -> dict[str, Any]:
         """Expose rights metadata without exposing an external reader URL."""
         return {
+            "sourceReference": f"Project Gutenberg eBook #{book['source']['ebookId']}",
             "edition": book["edition"],
             "rightsStatus": book["rightsStatus"],
             "license": book["rights"]["license"],
@@ -256,6 +277,7 @@ class DemoStore:
             "starRating": book["starRating"],
             "ratingBasis": book["ratingBasis"],
             "chapterBoundaryStatus": book["chapterBoundaryStatus"],
+            "sourceReference": f"Project Gutenberg eBook #{book['source']['ebookId']}",
             "chapterMetadata": [
                 {
                     "id": chapter["id"],
@@ -264,6 +286,9 @@ class DemoStore:
                     "contentAvailability": chapter["contentAvailability"],
                 }
                 for chapter in book["chapterMetadata"]
+            ],
+            "quizIds": [
+                quiz["id"] for quiz in self.book_quizzes.values() if quiz["bookId"] == book_id
             ],
             "accessRules": {
                 key: deepcopy(book["accessRules"][key])
@@ -365,6 +390,9 @@ class DemoStore:
         if item_type not in catalogs:
             raise PlatformError("invalid_wishlist_type", "Wishlist type must be pet, accessory, egg, or book.")
         self._catalog_item(catalogs[item_type], catalog_id, item_type)
+        if item_type == "book":
+            result = self.change_book_wishlist(profile_id, catalog_id, add)
+            return result | {"wishlist": deepcopy(profile["wishlist"])}
         item = {"itemType": item_type, "catalogId": catalog_id}
         if add and item not in profile["wishlist"]:
             profile["wishlist"].append(item)
@@ -372,6 +400,20 @@ class DemoStore:
             profile["wishlist"] = [entry for entry in profile["wishlist"] if entry != item]
         self._touch(profile)
         return {"wishlist": deepcopy(profile["wishlist"])}
+
+    def book_wishlist(self, profile_id: str) -> dict[str, Any]:
+        profile = self._profile(profile_id)
+        return {"bookWishlistIds": deepcopy(profile["bookWishlistIds"])}
+
+    def change_book_wishlist(self, profile_id: str, book_id: str, add: bool) -> dict[str, Any]:
+        profile = self._profile(profile_id)
+        self._catalog_item(self.books, book_id, "book")
+        if add and book_id not in profile["bookWishlistIds"]:
+            profile["bookWishlistIds"].append(book_id)
+        if not add:
+            profile["bookWishlistIds"] = [item for item in profile["bookWishlistIds"] if item != book_id]
+        self._touch(profile)
+        return self.book_wishlist(profile_id)
 
     def _sync_level_nodes(self, profile: dict[str, Any]) -> None:
         """Issue each reached Level Road reward exactly once."""
@@ -686,17 +728,22 @@ class DemoStore:
                 allowed, reason = True, "premium-subscription"
             else:
                 allowed, reason = False, "premium-required"
-        elif feature == "vocabulary":
-            vocabulary_tier = chapter_id or "basic"
-            if vocabulary_tier not in {"basic", "advanced"}:
-                raise PlatformError("invalid_vocabulary_tier", "Vocabulary tier must be basic or advanced.")
-            allowed = vocabulary_tier == "basic" or profile["entitlement"]["featureFlags"]["advancedVocabulary"]
-            reason = "basic-feature" if allowed else "premium-required"
-        elif feature == "quiz":
-            if chapter_id not in {"basic", "advanced"}:
-                raise PlatformError("invalid_quiz_difficulty", "Quiz difficulty must be basic or advanced.")
-            allowed = chapter_id == "basic" or profile["entitlement"]["featureFlags"]["advancedQuizzes"]
-            reason = "basic-feature" if allowed else "premium-required"
+        elif feature in {"vocabulary", "quiz"}:
+            content_tier = chapter_id or "basic"
+            if content_tier not in {"basic", "advanced"}:
+                label = "Vocabulary tier" if feature == "vocabulary" else "Quiz difficulty"
+                code = "invalid_vocabulary_tier" if feature == "vocabulary" else "invalid_quiz_difficulty"
+                raise PlatformError(code, f"{label} must be basic or advanced.")
+            if permanently_owned:
+                allowed, reason = True, "permanent-purchase"
+            elif rules["mode"] == "purchase-only":
+                allowed, reason = False, "purchase-required"
+            elif content_tier == "basic":
+                allowed, reason = True, "basic-feature"
+            elif rules["subscriptionEligible"] and premium:
+                allowed, reason = True, "premium-subscription"
+            else:
+                allowed, reason = False, "premium-required"
         else:
             raise PlatformError("invalid_access_feature", "Access feature must be chapter, vocabulary, or quiz.")
         return {
@@ -709,6 +756,20 @@ class DemoStore:
             "inAppContentAvailable": book["contentAvailability"] == "bundled-passage",
             "entitlement": self.subscription(profile_id),
         }
+
+    def quizzes_for_book(self, book_id: str | None = None) -> list[dict[str, Any]]:
+        quizzes = self.book_quizzes.values()
+        if book_id is not None:
+            self._catalog_item(self.books, book_id, "book")
+            quizzes = (quiz for quiz in quizzes if quiz["bookId"] == book_id)
+        return [deepcopy(quiz) for quiz in sorted(quizzes, key=lambda quiz: quiz["id"])]
+
+    def quiz_access(self, profile_id: str, book_id: str, quiz_id: str) -> dict[str, Any]:
+        quiz = self._catalog_item(self.book_quizzes, quiz_id, "book quiz")
+        if quiz["bookId"] != book_id:
+            raise PlatformError("quiz_book_mismatch", "This quiz does not belong to the requested book.", 409)
+        access = self.book_access(profile_id, book_id, quiz["accessTier"], "quiz")
+        return deepcopy(quiz) | {"access": access}
 
     def chapter(self, profile_id: str, book_id: str, chapter_id: str) -> dict[str, Any]:
         book = self._catalog_item(self.books, book_id, "book")
@@ -785,11 +846,9 @@ class DemoStore:
         profile = self._profile(profile_id)
         candidates = sorted(
             {
-                entry["catalogId"]
-                for entry in profile["wishlist"]
-                if entry.get("itemType") == "book"
-                and entry.get("catalogId") in self.books
-                and entry["catalogId"] not in profile["ownedBookIds"]
+                book_id
+                for book_id in profile["bookWishlistIds"]
+                if book_id in self.books and book_id not in profile["ownedBookIds"]
             }
         )
         if not candidates:
@@ -825,6 +884,7 @@ class DemoStore:
             "achievements": [{**item, "earned": item["id"] in profile["achievements"]} for item in self.catalogs["achievements"]],
             "trophies": [{**item, "earned": item["id"] in profile["collectionState"]["trophies"]} for item in self.catalogs["trophies"]],
             "wishlist": deepcopy(profile["wishlist"]),
+            "bookWishlistIds": deepcopy(profile["bookWishlistIds"]),
         }
 
     def battle_pass(self, profile_id: str, pass_id: str) -> dict[str, Any]:
@@ -947,7 +1007,10 @@ class SQLiteStore(DemoStore):
         self.connection.execute("DELETE FROM wishlists WHERE profile_id = ?", (profile["id"],))
         self.connection.executemany(
             "INSERT INTO wishlists VALUES(?, ?, ?)",
-            [(profile["id"], item["itemType"], item["catalogId"]) for item in profile["wishlist"]],
+            [
+                *[(profile["id"], item["itemType"], item["catalogId"]) for item in profile["wishlist"]],
+                *[(profile["id"], "book", book_id) for book_id in profile.get("bookWishlistIds", [])],
+            ],
         )
         self.connection.execute("DELETE FROM rewards WHERE profile_id = ?", (profile["id"],))
         self.connection.executemany(

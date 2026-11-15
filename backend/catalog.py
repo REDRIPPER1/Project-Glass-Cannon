@@ -229,6 +229,8 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
             f"book {book['id']}",
         )
         _validate_rights(book, f"book {book['id']}", literary=False)
+        if not book["sourceUrl"].startswith("https://www.gutenberg.org/ebooks/"):
+            raise CatalogError(f"book {book['id']} must use a Project Gutenberg landing page")
         _text(book.get("edition"), f"book {book['id']}.edition")
         if book["accessTier"] not in {"free-demo", "premium"}:
             raise CatalogError(f"book {book['id']} has invalid access tier")

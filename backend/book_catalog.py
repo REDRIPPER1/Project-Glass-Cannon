@@ -17,9 +17,10 @@ from typing import Any
 BOOK_CATALOG_PATH = Path(__file__).resolve().parent / "data" / "books" / "catalog.json"
 REVIEWED_BOOKS_PATH = Path(__file__).resolve().parent / "data" / "books" / "reviewed-books.json"
 QUEST_MAPPING_PATH = Path(__file__).resolve().parent / "data" / "books" / "quest-mappings.json"
+BOOK_QUIZZES_PATH = Path(__file__).resolve().parent / "data" / "books" / "book-quizzes.json"
 DATA_DIRECTORY = Path(__file__).resolve().parent / "data"
 VALID_ACCESS_MODES = frozenset({"free", "subscription", "purchase-only"})
-VALID_CONTENT_MODES = frozenset({"external-reference", "quest-passage-reference", "unavailable"})
+VALID_CONTENT_MODES = frozenset({"quest-passage-reference", "unavailable"})
 
 
 class BookCatalogError(ValueError):
@@ -88,6 +89,9 @@ def validate_book_catalog(value: object) -> dict[str, Any]:
         source = _object(book.get("source"), f"Book {book_id}.source")
         for field in ("provider", "landingUrl", "metadataUrl", "downloadGuidance"):
             _text(source.get(field), f"Book {book_id}.source.{field}")
+        if source["provider"] != "Project Gutenberg":
+            raise BookCatalogError(f"Book {book_id} must use Project Gutenberg as its source provider")
+        _text(source.get("ebookId"), f"Book {book_id}.source.ebookId")
         rights = _object(book.get("rights"), f"Book {book_id}.rights")
         for field in ("status", "territory", "license", "requiredAttribution", "basis"):
             _text(rights.get(field), f"Book {book_id}.rights.{field}")
@@ -169,6 +173,59 @@ def load_quest_mappings(
             )
     except (OSError, json.JSONDecodeError) as error:
         raise BookCatalogError(f"Could not load quest mappings from {path.name}") from error
+
+
+def validate_book_quizzes(value: object, catalog: dict[str, Any] | None = None) -> dict[str, Any]:
+    quiz_file = _object(value, "Book quiz file")
+    if quiz_file.get("schemaVersion") != 1:
+        raise BookCatalogError("Book quiz file schemaVersion must be 1")
+    quizzes = _rows(quiz_file.get("quizzes"), "Book quizzes")
+    _unique(quizzes, "Book quizzes")
+    catalog = catalog or load_book_catalog()
+    books_by_id = {book["id"]: book for book in catalog["books"]}
+    mappings_by_id = {
+        mapping["id"]: mapping
+        for mapping in load_quest_mappings(catalog=catalog)["mappings"]
+    }
+    for quiz in quizzes:
+        quiz_id = _text(quiz.get("id"), "Book quiz id")
+        book_id = _text(quiz.get("bookId"), f"Book quiz {quiz_id}.bookId")
+        book = books_by_id.get(book_id)
+        if book is None:
+            raise BookCatalogError(f"Book quiz {quiz_id} references an unknown book")
+        for field in ("edition", "questId", "targetSkill", "reviewStatus", "mappingBasis"):
+            _text(quiz.get(field), f"Book quiz {quiz_id}.{field}")
+        chapter_ids = quiz.get("chapterIds")
+        if not isinstance(chapter_ids, list) or not chapter_ids:
+            raise BookCatalogError(f"Book quiz {quiz_id}.chapterIds must be a non-empty list")
+        known_chapter_ids = {chapter["id"] for chapter in book["chapterMetadata"]}
+        if not set(chapter_ids).issubset(known_chapter_ids):
+            raise BookCatalogError(f"Book quiz {quiz_id} references an unknown chapter")
+        if quiz.get("accessTier") not in {"basic", "advanced"}:
+            raise BookCatalogError(f"Book quiz {quiz_id} has an invalid accessTier")
+        mapping = mappings_by_id.get(quiz["questId"])
+        if mapping is None:
+            raise BookCatalogError(f"Book quiz {quiz_id} must reference an exact quest mapping")
+        if (
+            mapping["bookId"] != book_id
+            or mapping["edition"] != quiz["edition"]
+            or mapping["chapterIds"] != chapter_ids
+        ):
+            raise BookCatalogError(
+                f"Book quiz {quiz_id} must match its quest mapping's book, edition, and chapters"
+            )
+    return quiz_file
+
+
+def load_book_quizzes(
+    path: Path = BOOK_QUIZZES_PATH, catalog: dict[str, Any] | None = None
+) -> dict[str, Any]:
+    catalog = catalog or load_book_catalog()
+    try:
+        with path.open(encoding="utf-8") as handle:
+            return deepcopy(validate_book_quizzes(json.load(handle), catalog))
+    except (OSError, json.JSONDecodeError) as error:
+        raise BookCatalogError(f"Could not load book quizzes from {path.name}") from error
 
 
 def bundled_passage_for_chapter(

@@ -85,8 +85,9 @@ class EndpointContractTests(unittest.TestCase):
         self.main.claim_reward(self.profile_id, starter["id"])
         self.assertEqual(self.main.rename_pet(self.profile_id, "moss-mouse", {"name": "Mossy"})["name"], "Mossy")
         self.assertEqual(self.main.select_active_pet(self.profile_id, "moss-mouse")["activePetId"], "moss-mouse")
-        self.assertEqual(self.main.add_wishlist_item(self.profile_id, "book", "wizard-of-oz")["wishlist"][0]["catalogId"], "wizard-of-oz")
-        self.assertEqual(self.main.remove_wishlist_item(self.profile_id, "book", "wizard-of-oz")["wishlist"], [])
+        self.assertEqual(self.main.add_book_wishlist_item(self.profile_id, "wizard-of-oz")["bookWishlistIds"], ["wizard-of-oz"])
+        self.assertEqual(self.main.get_book_wishlist(self.profile_id)["bookWishlistIds"], ["wizard-of-oz"])
+        self.assertEqual(self.main.remove_book_wishlist_item(self.profile_id, "wizard-of-oz")["bookWishlistIds"], [])
         self.assertEqual(len(self.main.list_pets()), 9)
         self.assertEqual(self.main.get_pet("moss-mouse")["rightsStatus"], "original")
         self.assertEqual(len(self.main.list_accessories()), 4)
@@ -105,7 +106,7 @@ class EndpointContractTests(unittest.TestCase):
         self.main.select_active_pet(self.profile_id, "moss-mouse")
         self.assertEqual(self._error_code(lambda: self.main.claim_reward(self.profile_id, reward["id"])), "duplicate_claim")
         self.assertTrue(self.main.list_shop_items())
-        self.assertIn("shop-book-lantern-and-lost-index", {item["id"] for item in self.main.list_shop_items()})
+        self.assertIn("shop-book-secret-garden", {item["id"] for item in self.main.list_shop_items()})
         scarf = self.main.purchase_item(self.profile_id, {"shopItemId": "shop-oak-leaf-scarf"})
         self.assertTrue(scarf["mocked"])
         self.assertIn("neck", self.main.equip_accessory(self.profile_id, "oak-leaf-scarf")["equippedAccessories"])
@@ -125,11 +126,14 @@ class EndpointContractTests(unittest.TestCase):
         self.assertTrue(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")["allowed"])
         self.assertFalse(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         self.assertTrue(self.main.check_vocabulary_access(self.profile_id, "wizard-of-oz")["allowed"])
-        self.assertFalse(self.main.check_vocabulary_tier_access(self.profile_id, "secret-garden", "advanced")["allowed"])
+        self.assertFalse(self.main.check_vocabulary_tier_access(self.profile_id, "secret-garden", "basic")["allowed"])
         self.assertTrue(self.main.check_quiz_access(self.profile_id, "wizard-of-oz", "basic")["allowed"])
+        quiz = self.main.get_book_quiz(self.profile_id, "wizard-of-oz", "wizard-cyclone-inference")
+        self.assertEqual(quiz["chapterIds"], ["chapter-1-cyclone"])
+        self.assertEqual(len(quiz["questions"]), 3)
         self.assertEqual(self.main.get_subscription(self.profile_id)["plan"], "free")
         self.assertEqual(self.main.set_demo_entitlement(self.profile_id, {"plan": "premium", "demoEntitlement": True})["plan"], "premium")
-        self.assertTrue(self.main.check_vocabulary_tier_access(self.profile_id, "secret-garden", "advanced")["allowed"])
+        self.assertFalse(self.main.check_vocabulary_tier_access(self.profile_id, "secret-garden", "advanced")["allowed"])
         self.assertTrue(self.main.check_quiz_access(self.profile_id, "wizard-of-oz", "advanced")["allowed"])
         self.assertFalse(self.main.get_ad_placement(self.profile_id, "after-quest")["eligible"])
         with patch("backend.store.is_expired", return_value=False):
@@ -156,13 +160,13 @@ class EndpointContractTests(unittest.TestCase):
         self.assertFalse(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         self.main.set_demo_entitlement(self.profile_id, {"plan": "premium", "demoEntitlement": True})
         self.assertTrue(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
-        self.assertNotIn("lantern-and-lost-index", {item["bookId"] for item in self.main.get_library(self.profile_id)})
-        self.store.profiles[self.profile_id]["wallet"]["gold"] = 120
-        purchase = self.main.purchase_book(self.profile_id, "lantern-and-lost-index")
+        self.assertNotIn("secret-garden", {item["bookId"] for item in self.main.get_library(self.profile_id)})
+        self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 24
+        purchase = self.main.purchase_book(self.profile_id, "secret-garden")
         self.assertTrue(purchase["mocked"])
         self.store.profiles[self.profile_id]["entitlement"]["endsAt"] = "2020-01-01T00:00:00Z"
         library = {item["bookId"]: item for item in self.main.get_library(self.profile_id)}
-        self.assertEqual(library["lantern-and-lost-index"]["access"], "permanent")
+        self.assertEqual(library["secret-garden"]["access"], "permanent")
         self.assertTrue(self.main.get_recommendations(self.profile_id)[0]["bookId"])
         quest = self.main.get_quest("wizard-cyclone-inference")
         responses = [
@@ -176,7 +180,7 @@ class EndpointContractTests(unittest.TestCase):
         self.assertIn("badges", self.main.get_collections(self.profile_id))
 
     def test_wishlist_page_redemption_contract_is_atomic(self):
-        self.main.add_wishlist_item(self.profile_id, "book", "wizard-of-oz")
+        self.main.add_book_wishlist_item(self.profile_id, "wizard-of-oz")
         with self.assertRaises(self.main.HTTPException) as error:
             self.main.redeem_wishlist_pages(self.profile_id)
         self.assertEqual(error.exception.detail["code"], "insufficient_wishlist_pages")

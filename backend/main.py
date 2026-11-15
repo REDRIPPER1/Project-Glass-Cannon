@@ -503,6 +503,21 @@ def remove_wishlist_item(profile_id: str, item_type: str, catalog_id: str):
     return _platform(lambda: platform_store.change_wishlist(profile_id, item_type, catalog_id, False))
 
 
+@app.get("/api/profiles/{profile_id}/book-wishlist", summary="List the separate stable book wishlist")
+def get_book_wishlist(profile_id: str):
+    return _platform(lambda: platform_store.book_wishlist(profile_id))
+
+
+@app.put("/api/profiles/{profile_id}/book-wishlist/{book_id}", summary="Add a catalog book to the separate wishlist")
+def add_book_wishlist_item(profile_id: str, book_id: str):
+    return _platform(lambda: platform_store.change_book_wishlist(profile_id, book_id, True))
+
+
+@app.delete("/api/profiles/{profile_id}/book-wishlist/{book_id}", summary="Remove a catalog book from the separate wishlist")
+def remove_book_wishlist_item(profile_id: str, book_id: str):
+    return _platform(lambda: platform_store.change_book_wishlist(profile_id, book_id, False))
+
+
 @app.get("/api/catalog/pets", summary="List companion catalog")
 def list_pets():
     return deepcopy(CATALOGS["pets"])
@@ -632,6 +647,16 @@ def get_book(book_id: str):
     return _platform(lambda: platform_store.public_book(book_id))
 
 
+@app.get("/api/catalog/book-quizzes", summary="List reviewed quizzes with exact Gutenberg chapter mappings")
+def list_book_quizzes():
+    return _platform(lambda: platform_store.quizzes_for_book())
+
+
+@app.get("/api/catalog/books/{book_id}/quizzes", summary="List reviewed quizzes for one catalog book")
+def list_quizzes_for_book(book_id: str):
+    return _platform(lambda: platform_store.quizzes_for_book(book_id))
+
+
 @app.get("/api/books", summary="List metadata-only web-reader catalog records")
 def list_web_books():
     return list_books()
@@ -702,6 +727,17 @@ def check_vocabulary_tier_access(profile_id: str, book_id: str, tier: str):
 @app.get("/api/profiles/{profile_id}/books/{book_id}/quizzes/{difficulty}/access", summary="Check quiz-difficulty access")
 def check_quiz_access(profile_id: str, book_id: str, difficulty: str):
     return _platform(lambda: platform_store.book_access(profile_id, book_id, difficulty, "quiz"))
+
+
+@app.get("/api/profiles/{profile_id}/books/{book_id}/quizzes/{quiz_id}", summary="Retrieve an entitled reviewed quiz with exact chapter mapping")
+def get_book_quiz(profile_id: str, book_id: str, quiz_id: str):
+    quiz = _platform(lambda: platform_store.quiz_access(profile_id, book_id, quiz_id))
+    if not quiz["access"]["allowed"]:
+        return quiz
+    quest = _available_quests().get(quiz["questId"])
+    if quest is None:
+        raise HTTPException(status_code=503, detail={"code": "quiz_content_unavailable", "message": "Reviewed quiz content is temporarily unavailable."})
+    return quiz | {"questions": quest["questions"]}
 
 
 @app.get("/api/profiles/{profile_id}/subscription", summary="Get Free, Basic, or Premium demo entitlement")

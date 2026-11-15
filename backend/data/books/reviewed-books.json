@@ -4,183 +4,77 @@
     {
       "id": "wizard-of-oz",
       "title": "The Wonderful Wizard of Oz",
-      "author": "L. Frank Baum",
-      "edition": "First edition, Geo. M. Hill Co., 1900",
-      "category": "Classic fantasy",
+      "author": "Baum, L. Frank (Lyman Frank), 1856-1919",
+      "edition": "Project Gutenberg eBook #55; release date February 1, 1993; last updated December 29, 2024",
+      "category": "Fantasy and folklore",
       "difficultyLabel": "Grades 4-8",
       "starRating": 4.5,
       "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
-      "sourceUrl": "https://www.loc.gov/item/03032405/",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/55",
       "chapterBoundaryStatus": "verified",
       "chapterMetadata": [
-        {"id":"chapter-1-cyclone","title":"Chapter I: The Cyclone","sourceUrl":"https://www.loc.gov/item/03032405/","contentMode":"quest-passage-reference"},
-        {"id":"chapter-2-council","title":"Chapter II: The Council with the Munchkins","sourceUrl":"https://www.loc.gov/item/03032405/","contentMode":"external-reference"}
+        {"id":"chapter-1-cyclone","title":"Chapter I: The Cyclone","sourceUrl":"https://www.gutenberg.org/ebooks/55","contentMode":"quest-passage-reference"},
+        {"id":"chapter-2-council","title":"Chapter II: The Council with the Munchkins","sourceUrl":"https://www.gutenberg.org/ebooks/55","contentMode":"unavailable"}
       ],
       "source": {
-        "provider": "Library of Congress",
-        "landingUrl": "https://www.loc.gov/item/03032405/",
-        "metadataUrl": "https://www.loc.gov/item/03032405/",
-        "downloadGuidance": "Use the Library of Congress item page for the identified 1900 edition; no automated or reader-runtime download is needed for this metadata record."
+        "provider": "Project Gutenberg",
+        "ebookId": "55",
+        "landingUrl": "https://www.gutenberg.org/ebooks/55",
+        "metadataUrl": "https://www.gutenberg.org/ebooks/55",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This reviewed excerpt was checked against Project Gutenberg eBook #55 for backend authoring. LitLearn serves its own reviewed passage and never requests a Project Gutenberg text file at reader runtime; any public source reference uses the stable landing page."
       },
       "rights": {
         "status": "verified-public-domain-us",
         "textReuseCleared": true,
-        "territory": "United States; verify local law before use outside the United States.",
-        "license": "Public-domain text; no copyright license is required for the underlying 1900 book in the United States.",
-        "requiredAttribution": "L. Frank Baum, The Wonderful Wizard of Oz (1900), Chapter I: The Cyclone. Source: Library of Congress.",
-        "basis": "The Library of Congress identifies its 1900 Children's Book Selections, including this edition, as public domain and free to use and reuse."
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "The Project Gutenberg landing page marks eBook #55 public domain in the USA. The stored excerpt is from the underlying U.S.-unrestricted work and omits Project Gutenberg license and trademark material.",
+        "requiredAttribution": "L. Frank Baum, The Wonderful Wizard of Oz, Chapter I: The Cyclone. Source checked against Project Gutenberg eBook #55.",
+        "basis": "Project Gutenberg eBook #55 identifies The Wonderful Wizard of Oz as public domain in the USA. Project Gutenberg's license permits use of the underlying U.S.-unrestricted text when Project Gutenberg references are removed; territory outside the USA is not asserted."
       },
       "accessRules": {
         "mode": "subscription",
         "freeLevelRange": [1, 10],
         "freeChapterIds": ["chapter-1-cyclone"],
         "subscriptionEligible": true,
-        "permanentPurchaseEligible": false,
+        "permanentPurchaseEligible": true,
         "publicSourceAvailable": true,
-        "premiumNote": "Premium unlocks LitLearn's additional reading levels and tools; the Library of Congress source remains public."
-      }
+        "premiumNote": "Premium expands access to catalog reading levels, advanced quizzes, and available chapters. It does not change the title's source rights."
+      },
+      "mockPurchase": {"price": 12, "currency": "diamonds", "reversibleUntilRead": true}
     },
     {
       "id": "secret-garden",
       "title": "The Secret Garden",
-      "author": "Frances Hodgson Burnett",
-      "edition": "Frederick A. Stokes, 1911; Project Gutenberg eBook #17396 source reference",
-      "category": "Classic mystery",
+      "author": "Burnett, Frances Hodgson, 1849-1924",
+      "edition": "Project Gutenberg eBook #17396; release date December 26, 2005; last updated December 30, 2005",
+      "category": "Family stories",
       "difficultyLabel": "Grades 4-8",
       "starRating": 4.0,
       "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
       "sourceUrl": "https://www.gutenberg.org/ebooks/17396",
       "chapterBoundaryStatus": "verified",
       "chapterMetadata": [
-        {"id":"chapter-1-left","title":"Chapter I: There Is No One Left","sourceUrl":"https://www.gutenberg.org/ebooks/17396","contentMode":"external-reference"},
-        {"id":"chapter-2-misselthwaite","title":"Chapter II: Mistress Mary Quite Contrary","sourceUrl":"https://www.gutenberg.org/ebooks/17396","contentMode":"external-reference"}
+        {"id":"chapter-1-left","title":"Chapter I: There Is No One Left","sourceUrl":"https://www.gutenberg.org/ebooks/17396","contentMode":"unavailable"},
+        {"id":"chapter-2-misselthwaite","title":"Chapter II: Mistress Mary Quite Contrary","sourceUrl":"https://www.gutenberg.org/ebooks/17396","contentMode":"unavailable"}
       ],
       "source": {
         "provider": "Project Gutenberg",
         "ebookId": "17396",
         "landingUrl": "https://www.gutenberg.org/ebooks/17396",
-        "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
-        "downloadGuidance": "Use Project Gutenberg's offline catalog or documented robot guidance for authoring downloads; do not scrape this record at reader runtime."
+        "metadataUrl": "https://www.gutenberg.org/ebooks/17396",
+        "termsUrl": "https://www.gutenberg.org/policy/terms_of_use.html",
+        "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+        "downloadGuidance": "This is a Project Gutenberg metadata record. Do not request text at reader runtime or add a chapter passage until the eBook text and exact excerpt have been reviewed for LitLearn."
       },
       "rights": {
-        "status": "verified-public-domain-us-reference",
+        "status": "verified-public-domain-us-metadata",
         "textReuseCleared": false,
-        "territory": "United States; verify local law before use outside the United States.",
-        "license": "Project Gutenberg's License and Terms of Use govern its eBook files and trademark; this catalog links to the source and bundles no eBook text.",
-        "requiredAttribution": "Frances Hodgson Burnett, The Secret Garden (1911). Source: Project Gutenberg eBook #17396.",
-        "basis": "The 1911 Stokes publication is public domain in the United States. The Project Gutenberg record is used only as a source reference; no Project Gutenberg text is redistributed here."
-      },
-      "accessRules": {
-        "mode": "subscription",
-        "freeLevelRange": [1, 10],
-        "freeChapterIds": ["chapter-1-left"],
-        "subscriptionEligible": true,
-        "permanentPurchaseEligible": false,
-        "publicSourceAvailable": true,
-        "premiumNote": "Premium unlocks LitLearn's additional reading levels and tools; the Project Gutenberg source remains public."
-      }
-    },
-    {
-      "id": "small-helpers-after-sunset",
-      "title": "Small Helpers After Sunset",
-      "author": "LitLearn team",
-      "edition": "LitLearn original passage, version 1.0 (2026)",
-      "category": "School garden ecology",
-      "difficultyLabel": "Grades 4-8",
-      "starRating": 4.0,
-      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
-      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-      "chapterBoundaryStatus": "verified",
-      "chapterMetadata": [
-        {"id":"standalone-night-garden","title":"Standalone quest passage","sourceUrl":"backend/data/quest-2-night-garden-main-idea.json","contentMode":"quest-passage-reference"}
-      ],
-      "source": {
-        "provider": "LitLearn",
-        "landingUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-        "metadataUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-        "downloadGuidance": "This original quest passage is bundled through the reviewed quest data, not as a general book-text download."
-      },
-      "rights": {
-        "status": "original",
-        "textReuseCleared": true,
-        "territory": "Worldwide",
-        "license": "Original LitLearn content bundled for use in Project Glass Cannon; no third-party text license applies.",
-        "requiredAttribution": "LitLearn original passage: Small Helpers After Sunset (2026).",
-        "basis": "Team-written companion content; no third-party literary character or text is included."
-      },
-      "accessRules": {
-        "mode": "free",
-        "freeLevelRange": [1, 10],
-        "freeChapterIds": ["standalone-night-garden"],
-        "subscriptionEligible": false,
-        "permanentPurchaseEligible": false,
-        "publicSourceAvailable": false,
-        "premiumNote": "This reviewed original quest is available to all readers."
-      }
-    },
-    {
-      "id": "fix-it-fair",
-      "title": "The Fix-It Fair",
-      "author": "LitLearn team",
-      "edition": "LitLearn original passage, version 1.0 (2026)",
-      "category": "Repair and engineering",
-      "difficultyLabel": "Grades 4-8",
-      "starRating": 4.0,
-      "ratingBasis": "LitLearn editorial starter rating; not an aggregated reader rating.",
-      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-      "chapterBoundaryStatus": "verified",
-      "chapterMetadata": [
-        {"id":"standalone-fix-it-fair","title":"Standalone quest passage","sourceUrl":"backend/data/quest-3-fix-it-vocabulary.json","contentMode":"quest-passage-reference"}
-      ],
-      "source": {
-        "provider": "LitLearn",
-        "landingUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-        "metadataUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-        "downloadGuidance": "This original quest passage is bundled through the reviewed quest data, not as a general book-text download."
-      },
-      "rights": {
-        "status": "original",
-        "textReuseCleared": true,
-        "territory": "Worldwide",
-        "license": "Original LitLearn content bundled for use in Project Glass Cannon; no third-party text license applies.",
-        "requiredAttribution": "LitLearn original passage: The Fix-It Fair (2026).",
-        "basis": "Team-written companion content; no third-party literary character or text is included."
-      },
-      "accessRules": {
-        "mode": "free",
-        "freeLevelRange": [1, 10],
-        "freeChapterIds": ["standalone-fix-it-fair"],
-        "subscriptionEligible": false,
-        "permanentPurchaseEligible": false,
-        "publicSourceAvailable": false,
-        "premiumNote": "This reviewed original quest is available to all readers."
-      }
-    },
-    {
-      "id": "lantern-and-lost-index",
-      "title": "The Lantern and the Lost Index",
-      "author": "LitLearn Editorial Team",
-      "edition": "Original companion-design catalog record (2026); manuscript not yet reviewed",
-      "category": "Library mystery",
-      "difficultyLabel": "Grades 5-8",
-      "starRating": 0,
-      "ratingBasis": "No rating until original text is authored and editorially reviewed.",
-      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-      "chapterBoundaryStatus": "not-applicable",
-      "chapterMetadata": [],
-      "source": {
-        "provider": "LitLearn",
-        "landingUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-        "metadataUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
-        "downloadGuidance": "No text is available. Do not create or display chapter content until an original manuscript and its chapter boundaries are reviewed."
-      },
-      "rights": {
-        "status": "original-design-only",
-        "textReuseCleared": false,
-        "territory": "Worldwide once original text is authored and cleared.",
-        "license": "Original LitLearn companion design only; no text is currently licensed or distributed.",
-        "requiredAttribution": "LitLearn Editorial Team, The Lantern and the Lost Index (companion design, 2026).",
-        "basis": "This is an original title concept, not a fabricated book excerpt or a substitute for a reviewed manuscript."
+        "territory": "United States. Rights outside the United States require a separate local-law review.",
+        "license": "Project Gutenberg marks eBook #17396 public domain in the USA. No Project Gutenberg text is bundled in this record until an excerpt review is complete.",
+        "requiredAttribution": "Frances Hodgson Burnett, The Secret Garden. Project Gutenberg eBook #17396.",
+        "basis": "The Project Gutenberg landing page identifies eBook #17396 as public domain in the USA. This metadata and chapter-title review does not clear an in-app text excerpt."
       },
       "accessRules": {
         "mode": "purchase-only",
@@ -188,10 +82,10 @@
         "freeChapterIds": [],
         "subscriptionEligible": false,
         "permanentPurchaseEligible": true,
-        "publicSourceAvailable": false,
-        "premiumNote": "Premium does not unlock purchase-only catalog designs. Ownership can be recorded locally after a mock purchase."
+        "publicSourceAvailable": true,
+        "premiumNote": "Premium does not unlock purchase-only titles. This title remains unavailable for in-app reading until a reviewed excerpt is added."
       },
-      "mockPurchase": {"price": 120, "currency": "gold", "reversibleUntilRead": true}
+      "mockPurchase": {"price": 24, "currency": "diamonds", "reversibleUntilRead": true}
     }
   ]
 }
