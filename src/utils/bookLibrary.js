@@ -41,6 +41,7 @@ export function bookLevelNodes(book, quests, totalLevels = 10) {
 
 export function sourceReaderState(book, chapter, access) {
   if (!chapter) return { kind: 'empty', message: 'This level is waiting for a reviewed chapter mapping from the catalog.' };
-  if (access === 'locked' || access === 'purchase-only') return { kind: 'locked', message: 'Unlock this chapter to read its provided LitLearn passage.' };
-  return { kind: 'ready', message: 'This chapter can be opened in LitLearn only when a reviewed bundled passage is mapped to it.' };
+  if (access === 'locked' || access === 'purchase-only') return { kind: 'locked', message: 'Unlock this chapter to open its verified source reading path.' };
+  if (!book.sourceUrl) return { kind: 'error', message: 'This reviewed catalog entry does not include a source link yet.' };
+  return { kind: 'ready', message: 'Open the verified source in a new tab. The app does not embed unreviewed book text.' };
 }
