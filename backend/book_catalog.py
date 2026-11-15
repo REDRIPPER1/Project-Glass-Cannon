@@ -17,6 +17,7 @@ from typing import Any
 BOOK_CATALOG_PATH = Path(__file__).resolve().parent / "data" / "books" / "catalog.json"
 REVIEWED_BOOKS_PATH = Path(__file__).resolve().parent / "data" / "books" / "reviewed-books.json"
 QUEST_MAPPING_PATH = Path(__file__).resolve().parent / "data" / "books" / "quest-mappings.json"
+DATA_DIRECTORY = Path(__file__).resolve().parent / "data"
 VALID_ACCESS_MODES = frozenset({"free", "subscription", "purchase-only"})
 VALID_CONTENT_MODES = frozenset({"external-reference", "quest-passage-reference", "unavailable"})
 
@@ -170,6 +171,42 @@ def load_quest_mappings(
         raise BookCatalogError(f"Could not load quest mappings from {path.name}") from error
 
 
+def bundled_passage_for_chapter(
+    book_id: str, chapter_id: str, catalog: dict[str, Any] | None = None
+) -> list[dict[str, str]] | None:
+    """Return only a reviewed, already-bundled passage for in-app reading.
+
+    A catalog source URL is never a substitute for bundled content.  This
+    function deliberately resolves only the reviewed quest JSON files named in
+    the exact mapping contract and returns no answer keys or question data.
+    """
+    catalog = catalog or load_book_catalog()
+    mapping = next(
+        (
+            item
+            for item in load_quest_mappings(catalog=catalog)["mappings"]
+            if item["bookId"] == book_id and chapter_id in item["chapterIds"]
+        ),
+        None,
+    )
+    if mapping is None or mapping["passageReference"].get("mode") != "bundled-quest":
+        return None
+    location = mapping["passageReference"]["location"]
+    candidate = (Path(__file__).resolve().parent.parent / location).resolve()
+    if DATA_DIRECTORY not in candidate.parents or candidate.suffix != ".json":
+        raise BookCatalogError("Quest passage mapping points outside reviewed bundled data")
+    try:
+        with candidate.open(encoding="utf-8") as handle:
+            quest = _object(json.load(handle), "Bundled quest")
+    except (OSError, json.JSONDecodeError) as error:
+        raise BookCatalogError("Could not load mapped bundled passage") from error
+    passage = _rows(quest.get("passage"), "Bundled quest passage")
+    return [
+        {"id": _text(sentence.get("id"), "Bundled passage sentence id"), "text": _text(sentence.get("text"), "Bundled passage sentence text")}
+        for sentence in passage
+    ]
+
+
 def book_index(catalog: dict[str, Any] | None = None) -> dict[str, dict[str, Any]]:
     catalog = catalog or load_book_catalog()
     result: dict[str, dict[str, Any]] = {}
@@ -189,10 +226,21 @@ def book_index(catalog: dict[str, Any] | None = None) -> dict[str, dict[str, Any
         item["vocabularyLevel"] = "advanced" if "6-8" in item["difficultyLabel"] else "basic"
         item["accessTier"] = "free-demo" if item["accessRules"]["mode"] == "free" else "premium"
         item["purchaseOnly"] = item["accessRules"]["mode"] == "purchase-only"
+        bundled_chapter_ids = {
+            chapter_id
+            for mapping in load_quest_mappings(catalog=catalog)["mappings"]
+            if mapping["bookId"] == item["id"]
+            and mapping["passageReference"].get("mode") == "bundled-quest"
+            for chapter_id in mapping["chapterIds"]
+        }
+        item["contentAvailability"] = "bundled-passage" if bundled_chapter_ids else "unavailable"
         for chapter in item["chapterMetadata"]:
             chapter["accessTier"] = (
                 "free-demo" if chapter["id"] in item["accessRules"]["freeChapterIds"]
                 else "premium"
+            )
+            chapter["contentAvailability"] = (
+                "bundled-passage" if chapter["id"] in bundled_chapter_ids else "unavailable"
             )
         result[item["id"]] = item
     return result

@@ -28,7 +28,12 @@ class CatalogAndStoreTests(unittest.TestCase):
         self.assertEqual(len([pet for pet in self.catalogs["pets"] if pet["starterClaim"]]), 6)
         self.assertTrue(all(pet["availability"].startswith("level-road") for pet in self.catalogs["pets"]))
         self.assertTrue(all(pet["eventOnly"] for pet in self.catalogs["pets"] if pet["rarity"] == "Mythical"))
-        self.assertEqual(set(self.catalogs["currencies"]), {"leafTokens", "storyShards", "gold", "diamonds"})
+        self.assertEqual(set(self.catalogs["currencies"]), {"gold", "diamonds"})
+        self.assertEqual(self.catalogs["walletMigration"]["legacyConversions"], [
+            {"from": "leafTokens", "to": "gold", "rate": "1:1"},
+            {"from": "storyShards", "to": "diamonds", "rate": "1:1"},
+        ])
+        self.assertEqual(self.catalogs["inventoryItems"][0]["id"], "wishlist-page")
         self.assertEqual({accessory["wearableType"] for accessory in self.catalogs["accessories"]}, {"accessory", "clothing"})
         level_reward_ids = {reward_id for node in self.catalogs["levelNodes"] for reward_id in node["rewardIds"]}
         self.assertTrue({"level-gold-cache", "level-diamond-cache", "level-oak-leaf-scarf", "level-common-egg", "level-rare-egg", "level-epic-egg", "level-legendary-egg"}.issubset(level_reward_ids))
@@ -72,16 +77,17 @@ class CatalogAndStoreTests(unittest.TestCase):
         for instance in reward_instances:
             self.store.claim_reward(self.profile_id, instance["id"])
         profile = self.store.get_profile(self.profile_id)
-        self.assertEqual(profile["currencies"]["gold"], 50)
-        self.assertEqual(profile["currencies"]["diamonds"], 10)
+        self.assertEqual(profile["wallet"]["gold"], 200)
+        self.assertEqual(profile["wallet"]["diamonds"], 10)
         self.assertIn("oak-leaf-scarf", profile["ownedAccessoryIds"])
         self.assertEqual(set(profile["eggInventory"]), {"common-reward-egg", "rare-reward-egg", "epic-reward-egg", "legendary-reward-egg"})
         duplicate = self.store.open_egg(self.profile_id, "common-reward-egg")
         self.assertTrue(duplicate["duplicate"])
-        self.assertEqual(duplicate["compensation"]["currency"], "storyShards")
+        self.assertEqual(duplicate["compensation"]["currency"], "diamonds")
+        self.assertIn("Story Shards", duplicate["compensation"]["description"])
 
     def test_mock_purchase_eggs_rewards_and_reversal_are_bounded(self):
-        self.store.profiles[self.profile_id]["currencies"]["leafTokens"] = 0
+        self.store.profiles[self.profile_id]["wallet"]["gold"] = 0
         with self.assertRaisesRegex(PlatformError, "not enough currency"):
             self.store.purchase(self.profile_id, "shop-reading-lamp-cap")
         economic_profile_id = self.store.create_profile("Economy Reader")["id"]
@@ -95,7 +101,7 @@ class CatalogAndStoreTests(unittest.TestCase):
         self.assertTrue(opened["deterministicDemo"])
         with self.assertRaisesRegex(PlatformError, "cannot be reversed"):
             self.store.reverse_purchase(economic_profile_id, purchase["id"])
-        self.store.profiles[economic_profile_id]["currencies"]["leafTokens"] = 20
+        self.store.profiles[economic_profile_id]["wallet"]["gold"] = 20
         accessory_purchase = self.store.purchase(economic_profile_id, "shop-oak-leaf-scarf")
         reversed_purchase = self.store.reverse_purchase(economic_profile_id, accessory_purchase["id"])
         self.assertTrue(reversed_purchase["reversed"])
@@ -143,6 +149,33 @@ class CatalogAndStoreTests(unittest.TestCase):
             self.assertEqual(reopened.get_profile(profile["id"])["displayName"], "Persisted Reader")
             self.assertIn("oak-leaf-scarf", reopened.get_profile(profile["id"])["ownedAccessoryIds"])
             reopened.close()
+
+    def test_wallet_migration_wishlist_pages_and_atomic_redemption(self):
+        legacy = self.store.profiles[self.profile_id]
+        legacy.pop("wallet")
+        legacy.pop("walletMigrationVersion")
+        legacy["currencies"] = {"leafTokens": 7, "storyShards": 4, "gold": 2, "diamonds": 1}
+        migrated = self.store.balances(self.profile_id)
+        self.assertEqual(migrated["wallet"], {"gold": 9, "diamonds": 5})
+        self.assertNotIn("currencies", self.store.get_profile(self.profile_id))
+
+        self.store.change_wishlist(self.profile_id, "book", "wizard-of-oz", True)
+        before = self.store.balances(self.profile_id)["inventory"]["wishlistPages"]
+        with self.assertRaisesRegex(PlatformError, "Five Wishlist Pages"):
+            self.store.redeem_wishlist_pages(self.profile_id)
+        self.assertEqual(self.store.balances(self.profile_id)["inventory"]["wishlistPages"], before)
+        self.store.profiles[self.profile_id]["inventory"]["wishlistPages"] = 5
+        redemption = self.store.redeem_wishlist_pages(self.profile_id)
+        self.assertEqual(redemption["selectedBookId"], "wizard-of-oz")
+        self.assertEqual(redemption["consumedPages"], 5)
+        self.assertIn("wizard-of-oz", self.store.get_profile(self.profile_id)["ownedBookIds"])
+        self.assertEqual(self.store.balances(self.profile_id)["inventory"]["wishlistPages"], 0)
+
+    def test_empty_wishlist_redemption_never_consumes_pages(self):
+        self.store.profiles[self.profile_id]["inventory"]["wishlistPages"] = 5
+        with self.assertRaisesRegex(PlatformError, "Add an unowned"):
+            self.store.redeem_wishlist_pages(self.profile_id)
+        self.assertEqual(self.store.balances(self.profile_id)["inventory"]["wishlistPages"], 5)
 
 
 @unittest.skipIf(main is None or TestClient is None, "FastAPI is not installed in this environment")

@@ -14,7 +14,7 @@ from typing import Any, TypedDict
 
 CATALOG_PATH = Path(__file__).resolve().parent / "data" / "platform-catalogs.json"
 VALID_RARITIES = frozenset({"Common", "Rare", "Epic", "Legendary", "Mythical"})
-VALID_CURRENCIES = frozenset({"leafTokens", "storyShards", "gold", "diamonds"})
+VALID_CURRENCIES = frozenset({"gold", "diamonds"})
 
 
 class CatalogError(ValueError):
@@ -46,7 +46,8 @@ class ProfileSchema(TypedDict):
     displayName: str
     xp: int
     level: int
-    currencies: dict[str, int]
+    wallet: dict[str, int]
+    inventory: dict[str, int]
     activePetId: str | None
     ownedPetIds: list[str]
     equippedAccessories: dict[str, str]
@@ -115,6 +116,37 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
     for definition in currency_definitions:
         _fields(definition, {"id", "label", "availability"}, f"currency {definition['id']}")
         _text(definition["label"], f"currency {definition['id']} label")
+
+    wallet_migration = _mapping(catalogs.get("walletMigration"), "wallet migration")
+    _fields(wallet_migration, {"version", "legacyConversions", "note"}, "wallet migration")
+    if wallet_migration["version"] != 1 or not isinstance(wallet_migration["note"], str):
+        raise CatalogError("wallet migration must define supported version 1 and a note")
+    if not isinstance(wallet_migration["legacyConversions"], list):
+        raise CatalogError("wallet migration conversions must be a list")
+    conversions = _unique_ids(
+        [
+            {"id": conversion.get("from"), **conversion}
+            for conversion in wallet_migration["legacyConversions"]
+            if isinstance(conversion, dict)
+        ],
+        "wallet migration conversions",
+    )
+    expected_conversions = {"leafTokens": "gold", "storyShards": "diamonds"}
+    if (
+        len(conversions) != len(wallet_migration["legacyConversions"])
+        or {conversion["id"]: conversion.get("to") for conversion in conversions} != expected_conversions
+        or any(conversion.get("rate") != "1:1" for conversion in conversions)
+    ):
+        raise CatalogError("wallet migration must preserve Leaf Tokens and Story Shards at 1:1")
+
+    inventory_items = _unique_ids(catalogs.get("inventoryItems"), "inventory items")
+    inventory_item_ids = {item["id"] for item in inventory_items}
+    for item in inventory_items:
+        _fields(item, {"id", "label", "description", "consumable"}, f"inventory item {item['id']}")
+        _text(item["label"], f"inventory item {item['id']} label")
+        _text(item["description"], f"inventory item {item['id']} description")
+        if not isinstance(item["consumable"], bool):
+            raise CatalogError(f"inventory item {item['id']} consumable must be boolean")
 
     pets = _unique_ids(catalogs.get("pets"), "pets")
     if len([pet for pet in pets if pet.get("starterClaim") is True]) != 6:
@@ -224,11 +256,23 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
             raise CatalogError(f"reward {reward['id']} references unknown egg")
         if reward["type"] == "pet" and reward["catalogId"] not in pet_ids:
             raise CatalogError(f"reward {reward['id']} references unknown pet")
-        if reward["type"] not in {"currency", "accessory", "egg", "pet"}:
+        if reward["type"] == "inventory" and reward["catalogId"] not in inventory_item_ids:
+            raise CatalogError(f"reward {reward['id']} references unknown inventory item")
+        if reward["type"] not in {"currency", "accessory", "egg", "pet", "inventory"}:
             raise CatalogError(f"reward {reward['id']} has an unsupported type")
 
-    nodes = _unique_ids(catalogs.get("levelNodes"), "levelNodes")
+    quest_reward_rules = _unique_ids(catalogs.get("questRewardRules"), "quest reward rules")
     known_rewards = {reward["id"] for reward in rewards}
+    for rule in quest_reward_rules:
+        _fields(rule, {"id", "questIds", "rewardId", "requiresAwardedXp"}, f"quest reward rule {rule['id']}")
+        if not isinstance(rule["questIds"], list) or not rule["questIds"] or not all(
+            isinstance(quest_id, str) and quest_id for quest_id in rule["questIds"]
+        ):
+            raise CatalogError(f"quest reward rule {rule['id']} must list eligible quest IDs")
+        if rule["rewardId"] not in known_rewards or not isinstance(rule["requiresAwardedXp"], bool):
+            raise CatalogError(f"quest reward rule {rule['id']} is invalid")
+
+    nodes = _unique_ids(catalogs.get("levelNodes"), "levelNodes")
     for node in nodes:
         _fields(node, {"id", "requiredXp", "prerequisites", "rewardIds", "mapPosition"}, f"level node {node['id']}")
         if not isinstance(node["requiredXp"], int) or node["requiredXp"] < 0:
@@ -254,6 +298,10 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
             raise CatalogError(f"shop item {item['id']} has invalid price or currency")
         if item["itemType"] == "currency" and item["catalogId"] not in VALID_CURRENCIES:
             raise CatalogError(f"shop item {item['id']} references an unknown currency")
+        if item["itemType"] == "inventory" and item["catalogId"] not in inventory_item_ids:
+            raise CatalogError(f"shop item {item['id']} references an unknown inventory item")
+        if "quantity" in item and (not isinstance(item["quantity"], int) or item["quantity"] <= 0):
+            raise CatalogError(f"shop item {item['id']} has invalid quantity")
     return catalogs
 
 
