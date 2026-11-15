@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { bookAccessState, bookLevelNodes, chapterAccessState, exactChapterQuest, libraryBooks, sourceReaderState } from './bookLibrary.js';
+import { bookAccessState, bookLevelNodes, chapterAccessState, exactChapterQuest, hasInAppChapterContent, libraryBooks, readableChapterSentences, sourceReaderState } from './bookLibrary.js';
 
 const freeBook = { id: 'free', title: 'Free Book', accessTier: 'free-demo', sourceUrl: 'https://example.test', chapterMetadata: [{ id: 'c1', title: 'Chapter I', accessTier: 'free-demo' }] };
 const premiumBook = { id: 'premium', title: 'Premium Book', accessTier: 'premium', sourceUrl: 'https://example.test', chapterMetadata: [{ id: 'c1', title: 'Chapter I', accessTier: 'premium' }] };
@@ -36,4 +36,12 @@ test('creates a ten-level path without fabricating missing chapter mappings', ()
   assert.equal(nodes[0].chapter.id, 'c1');
   assert.equal(nodes[1].chapter, null);
   assert.equal(sourceReaderState(freeBook, nodes[1].chapter, 'locked').kind, 'empty');
+});
+
+test('accepts approved cached chapter text without requiring one hard-coded transport mode', () => {
+  assert.equal(hasInAppChapterContent({ contentAvailability: 'bundled-chapter' }), true);
+  assert.equal(hasInAppChapterContent({ contentAvailability: 'cached-chapter' }), true);
+  assert.equal(hasInAppChapterContent({ contentAvailability: 'unavailable' }), false);
+  assert.deepEqual(readableChapterSentences({ sentences: [{ id: 's1', text: 'Readable text.' }, { id: 's2', text: '' }] }), [{ id: 's1', text: 'Readable text.' }]);
+  assert.deepEqual(readableChapterSentences({ mode: 'cached-chapter' }), []);
 });
