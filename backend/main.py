@@ -10,7 +10,9 @@ import re
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+from .book_catalog import BookCatalogError, load_quest_mappings
 from .catalog import CatalogError, load_catalogs
+from .progression import progression_definition
 from .store import DemoStore, PlatformError, create_store
 
 app = FastAPI(
@@ -414,6 +416,19 @@ def get_quest(quest_id: str):
     return quest
 
 
+@app.get("/api/quests/{quest_id}/book-reference", summary="Get an exact quest-to-book edition and chapter mapping")
+def get_quest_book_reference(quest_id: str):
+    if quest_id not in _available_quests():
+        raise HTTPException(status_code=404, detail={"code": "quest_not_found", "message": f"No reviewed quest exists with ID '{quest_id}'."})
+    try:
+        mapping = next((item for item in load_quest_mappings(catalog=platform_store.book_catalog)["mappings"] if item["id"] == quest_id), None)
+    except BookCatalogError as error:
+        raise HTTPException(status_code=503, detail={"code": "book_catalog_unavailable", "message": "Book references are temporarily unavailable."}) from error
+    if mapping is None:
+        raise HTTPException(status_code=404, detail={"code": "quest_book_mapping_not_found", "message": "This reviewed quest does not yet have a book mapping."})
+    return mapping
+
+
 # The APIs below are optional local-demo services. The browser remains able to
 # run the reviewed reading quests from bundled JSON with this service stopped.
 def _platform(action):
@@ -424,7 +439,7 @@ def _platform(action):
             status_code=error.status_code,
             detail={"code": error.code, "message": str(error)},
         ) from error
-    except CatalogError as error:
+    except (CatalogError, BookCatalogError) as error:
         raise HTTPException(
             status_code=503,
             detail={"code": "catalog_unavailable", "message": "Reviewed demo catalogs are unavailable."},
@@ -518,9 +533,40 @@ def award_xp(profile_id: str, payload: dict[str, object]):
     return _platform(lambda: platform_store.add_xp(profile_id, payload.get("amount"), payload.get("source")))
 
 
+@app.post("/api/profiles/{profile_id}/quests/{quest_id}/attempts", summary="Award verified answer and evidence XP once")
+def award_quest_attempt(profile_id: str, quest_id: str, payload: dict[str, object]):
+    quest = _available_quests().get(quest_id)
+    if quest is None:
+        raise HTTPException(status_code=404, detail={"code": "quest_not_found", "message": f"No reviewed quest exists with ID '{quest_id}'."})
+    responses = payload.get("responses")
+    return _platform(
+        lambda: platform_store.award_quest_attempt(
+            profile_id,
+            quest,
+            payload.get("attemptId") if isinstance(payload.get("attemptId"), str) else "",
+            responses if isinstance(responses, list) else [],
+        )
+    )
+
+
 @app.get("/api/profiles/{profile_id}/progress", summary="Get levels, badges, achievements, and map nodes")
 def get_progress(profile_id: str):
     return _platform(lambda: platform_store.progress(profile_id))
+
+
+@app.get("/api/catalog/progression", summary="Get all 100 deterministic Level Road thresholds and award policy")
+def get_progression_catalog():
+    reward_ids_by_level = {
+        int(node["id"].removeprefix("level-")): node["rewardIds"]
+        for node in CATALOGS["levelNodes"]
+        if node["id"].removeprefix("level-").isdigit()
+    }
+    return progression_definition(reward_ids_by_level)
+
+
+@app.get("/api/profiles/{profile_id}/collections", summary="Get earned and wishlist collection state")
+def get_collections(profile_id: str):
+    return _platform(lambda: platform_store.collections(profile_id))
 
 
 @app.get("/api/catalog/badges", summary="List badge definitions")
@@ -573,7 +619,7 @@ def open_egg(profile_id: str, egg_id: str, payload: dict[str, object] | None = N
 
 @app.get("/api/catalog/books", summary="List book metadata and access tiers")
 def list_books():
-    return deepcopy(CATALOGS["books"])
+    return [deepcopy(book) for book in platform_store.books.values()]
 
 
 @app.get("/api/catalog/books/{book_id}", summary="Get book rights and chapter metadata")
@@ -581,9 +627,53 @@ def get_book(book_id: str):
     return _platform(lambda: platform_store._catalog_item(platform_store.books, book_id, "book"))
 
 
+@app.get("/api/books", summary="List metadata-only web-reader catalog records")
+def list_web_books():
+    return list_books()
+
+
+@app.get("/api/books/{book_id}", summary="Get one metadata-only web-reader catalog record")
+def get_web_book(book_id: str):
+    return get_book(book_id)
+
+
+@app.get("/api/profiles/{profile_id}/books/{book_id}/access", summary="Check a book's current entitlement without retrieving text")
+def check_book_access(profile_id: str, book_id: str):
+    book = _platform(lambda: platform_store._catalog_item(platform_store.books, book_id, "book"))
+    chapters = book["chapterMetadata"]
+    if not chapters:
+        return _platform(lambda: {"bookId": book_id, "allowed": book_id in platform_store._profile(profile_id)["ownedBookIds"], "reason": "chapter_boundaries_unavailable", "source": book["source"]})
+    return _platform(lambda: platform_store.book_access(profile_id, book_id, chapters[0]["id"]))
+
+
 @app.get("/api/profiles/{profile_id}/books/{book_id}/chapters/{chapter_id}/access", summary="Check chapter access")
 def check_chapter_access(profile_id: str, book_id: str, chapter_id: str):
     return _platform(lambda: platform_store.book_access(profile_id, book_id, chapter_id, "chapter"))
+
+
+@app.get("/api/profiles/{profile_id}/books/{book_id}/chapters/{chapter_id}", summary="Retrieve a chapter reference or structured unavailable-content result")
+def get_chapter(profile_id: str, book_id: str, chapter_id: str):
+    return _platform(lambda: platform_store.chapter(profile_id, book_id, chapter_id))
+
+
+@app.get("/api/profiles/{profile_id}/books/{book_id}/reader", summary="Get a whole-book external reference or unavailable-content result")
+def get_book_reader_reference(profile_id: str, book_id: str):
+    return _platform(lambda: platform_store.reader_reference(profile_id, book_id))
+
+
+@app.post("/api/profiles/{profile_id}/books/{book_id}/purchases/demo", summary="Record a local-only permanent book ownership transaction")
+def purchase_book(profile_id: str, book_id: str):
+    return _platform(lambda: platform_store.purchase_book(profile_id, book_id))
+
+
+@app.get("/api/profiles/{profile_id}/library", summary="List permanent titles and currently subscribed titles")
+def get_library(profile_id: str):
+    return _platform(lambda: platform_store.library(profile_id))
+
+
+@app.get("/api/profiles/{profile_id}/recommendations", summary="Return stable book IDs for direct catalog navigation")
+def get_recommendations(profile_id: str, limit: int = 6):
+    return _platform(lambda: platform_store.recommendations(profile_id, limit))
 
 
 @app.get("/api/profiles/{profile_id}/books/{book_id}/vocabulary/access", summary="Check vocabulary access")

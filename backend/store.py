@@ -13,10 +13,15 @@ import tempfile
 from typing import Any
 from uuid import uuid4
 
+from .book_catalog import book_index, load_book_catalog, load_quest_mappings
 from .catalog import indexed
+from .progression import level_for_xp, level_nodes
 
 
-MIGRATION_PATH = Path(__file__).resolve().parent / "migrations" / "001_local_demo_platform.sql"
+MIGRATION_PATHS = (
+    (1, Path(__file__).resolve().parent / "migrations" / "001_local_demo_platform.sql"),
+    (2, Path(__file__).resolve().parent / "migrations" / "002_book_library_and_progression.sql"),
+)
 EVENT_TYPES = frozenset(
     {
         "quest_completed",
@@ -48,23 +53,29 @@ def is_expired(timestamp: str, now: datetime | None = None) -> bool:
     return datetime.fromisoformat(timestamp.replace("Z", "+00:00")) < current
 
 
+def _reward_ids_by_level(catalogs: dict[str, Any]) -> dict[int, list[str]]:
+    rewards: dict[int, list[str]] = {}
+    for node in catalogs["levelNodes"]:
+        level_text = node["id"].removeprefix("level-")
+        if level_text.isdigit():
+            rewards[int(level_text)] = list(node["rewardIds"])
+    return rewards
+
+
 def _level_for_xp(catalogs: dict[str, Any], xp: int) -> int:
-    return max(
-        index + 1
-        for index, node in enumerate(sorted(catalogs["levelNodes"], key=lambda item: item["requiredXp"]))
-        if xp >= node["requiredXp"]
-    )
+    return level_for_xp(xp, _reward_ids_by_level(catalogs))
 
 
 class DemoStore:
     """Deterministic in-memory fallback with the same public methods as SQLiteStore."""
 
-    def __init__(self, catalogs: dict[str, Any]):
+    def __init__(self, catalogs: dict[str, Any], books_catalog: dict[str, Any] | None = None):
         self.catalogs = catalogs
         self.pets = indexed(catalogs, "pets")
         self.accessories = indexed(catalogs, "accessories")
         self.eggs = indexed(catalogs, "eggs")
-        self.books = indexed(catalogs, "books")
+        self.book_catalog = books_catalog or load_book_catalog()
+        self.books = book_index(self.book_catalog)
         self.rewards = indexed(catalogs, "rewards")
         self.passes = indexed(catalogs, "battlePasses")
         self.shop = indexed(catalogs, "shopItems")
@@ -82,6 +93,10 @@ class DemoStore:
             profile["currencies"].setdefault(currency, 0)
         feature_flags = profile["entitlement"].setdefault("featureFlags", {})
         feature_flags.setdefault("advancedVocabulary", feature_flags.get("expandedVocabulary", False))
+        profile.setdefault("ownedBookIds", [])
+        profile.setdefault("bookPurchaseLedger", [])
+        profile.setdefault("questAttempts", [])
+        profile.setdefault("collectionState", {"badges": [], "achievements": [], "trophies": []})
         return profile
 
     def _catalog_item(self, catalog: dict[str, Any], item_id: str, item_type: str) -> dict[str, Any]:
@@ -97,7 +112,6 @@ class DemoStore:
         if not 1 <= len(name) <= 40 or "@" in name:
             raise PlatformError("invalid_display_name", "Use a 1–40 character display name without contact details.")
         profile_id = f"anon-{uuid4().hex}"
-        starters = [pet["id"] for pet in self.catalogs["pets"] if pet["availability"] == "starter"]
         now = utc_now()
         profile = {
             "id": profile_id,
@@ -105,8 +119,8 @@ class DemoStore:
             "xp": 0,
             "level": 1,
             "currencies": {"leafTokens": 150, "storyShards": 0, "gold": 0, "diamonds": 0},
-            "activePetId": starters[0],
-            "ownedPetIds": starters,
+            "activePetId": None,
+            "ownedPetIds": [],
             "petNames": {},
             "ownedAccessoryIds": [],
             "equippedAccessories": {},
@@ -119,12 +133,17 @@ class DemoStore:
             "entitlement": self._entitlement(demo_plan, now),
             "rewardInstances": [],
             "purchaseLedger": [],
+            "ownedBookIds": [],
+            "bookPurchaseLedger": [],
+            "questAttempts": [],
+            "collectionState": {"badges": [], "achievements": [], "trophies": []},
             "battlePassProgress": {},
             "grantedNodeIds": [],
             "createdAt": now,
             "updatedAt": now,
         }
         self.profiles[profile_id] = profile
+        self._sync_level_nodes(profile)
         self._save(profile)
         return self.public_profile(profile)
 
@@ -147,6 +166,15 @@ class DemoStore:
             "bookAccessLevel": "full" if premium else "demo",
             "source": "local-demo",
         }
+
+    @staticmethod
+    def _premium_active(profile: dict[str, Any]) -> bool:
+        entitlement = profile["entitlement"]
+        ends_at = entitlement.get("endsAt")
+        return bool(
+            entitlement["featureFlags"].get("fullBooks")
+            and (ends_at is None or not is_expired(ends_at))
+        )
 
     def public_profile(self, profile: dict[str, Any]) -> dict[str, Any]:
         result = deepcopy(profile)
@@ -218,6 +246,8 @@ class DemoStore:
         accessory = self._catalog_item(self.accessories, accessory_id, "accessory")
         if accessory_id not in profile["ownedAccessoryIds"]:
             raise PlatformError("accessory_not_owned", "That accessory must be owned before equipping it.", 403)
+        if profile["activePetId"] is None:
+            raise PlatformError("active_pet_required", "Claim and select a Level Road pet before equipping accessories.", 409)
         active_pet = self.pets[profile["activePetId"]]
         if active_pet["petType"] not in accessory["compatiblePetTypes"]:
             raise PlatformError("incompatible_accessory", "That accessory cannot be equipped by the active pet.", 409)
@@ -247,19 +277,80 @@ class DemoStore:
         self._touch(profile)
         return {"wishlist": deepcopy(profile["wishlist"])}
 
-    def add_xp(self, profile_id: str, amount: int, source: str) -> dict[str, Any]:
-        if source not in {"quest-complete", "demo-seed"} or not isinstance(amount, int) or not 1 <= amount <= 500:
-            raise PlatformError("invalid_xp_award", "XP awards require a 1–500 quest-complete or demo-seed value.")
-        profile = self._profile(profile_id)
-        profile["xp"] += amount
-        profile["level"] = _level_for_xp(self.catalogs, profile["xp"])
-        for node in self.catalogs["levelNodes"]:
+    def _sync_level_nodes(self, profile: dict[str, Any]) -> None:
+        """Issue each reached Level Road reward exactly once."""
+        for node in level_nodes(_reward_ids_by_level(self.catalogs)):
             if node["requiredXp"] <= profile["xp"] and node["id"] not in profile["grantedNodeIds"]:
                 profile["grantedNodeIds"].append(node["id"])
                 for reward_id in node["rewardIds"]:
-                    self._issue_reward(profile, reward_id, "level-map")
+                    self._issue_reward(profile, reward_id, "level-road")
+
+    def _apply_xp(self, profile: dict[str, Any], amount: int) -> dict[str, Any]:
+        profile["xp"] += amount
+        profile["level"] = _level_for_xp(self.catalogs, profile["xp"])
+        self._sync_level_nodes(profile)
         self._touch(profile)
-        return self.progress(profile_id)
+        return self.progress(profile["id"])
+
+    def add_xp(self, profile_id: str, amount: int, source: str) -> dict[str, Any]:
+        if source != "demo-seed" or not isinstance(amount, int) or not 1 <= amount <= 500:
+            raise PlatformError("invalid_xp_award", "XP awards require a 1–500 quest-complete or demo-seed value.")
+        profile = self._profile(profile_id)
+        return self._apply_xp(profile, amount)
+
+    def award_quest_attempt(
+        self,
+        profile_id: str,
+        quest: dict[str, Any],
+        attempt_id: str,
+        responses: list[dict[str, Any]],
+    ) -> dict[str, Any]:
+        """Award answer and evidence XP once, using reviewed question keys only."""
+        if not isinstance(attempt_id, str) or not attempt_id.strip() or len(attempt_id) > 80:
+            raise PlatformError("invalid_attempt_id", "A short, non-empty client attempt ID is required.")
+        if not isinstance(responses, list):
+            raise PlatformError("invalid_quest_responses", "Quest responses must be a list.")
+        profile = self._profile(profile_id)
+        if any(attempt["attemptId"] == attempt_id for attempt in profile["questAttempts"]):
+            raise PlatformError("duplicate_xp_attempt", "That quest attempt has already received its XP award.", 409)
+        questions = {question["id"]: question for question in quest["questions"]}
+        supplied = {response.get("questionId"): response for response in responses if isinstance(response, dict)}
+        breakdown: list[dict[str, Any]] = []
+        awarded = 0
+        for question_id, question in questions.items():
+            response = supplied.get(question_id, {})
+            answer_correct = response.get("choiceId") == question["correctChoiceId"]
+            evidence_correct = response.get("evidenceSentenceId") == question["correctEvidenceSentenceId"]
+            answer_xp = 20 if answer_correct else 0
+            reasoning_xp = 10 if answer_correct and evidence_correct else 0
+            awarded += answer_xp + reasoning_xp
+            breakdown.append(
+                {
+                    "questionId": question_id,
+                    "answerCorrect": answer_correct,
+                    "evidenceCorrect": evidence_correct,
+                    "answerXp": answer_xp,
+                    "reasoningXp": reasoning_xp,
+                    "awardedXp": answer_xp + reasoning_xp,
+                }
+            )
+        profile["questAttempts"].append(
+            {"attemptId": attempt_id, "questId": quest["id"], "awardedXp": awarded, "awardedAt": utc_now()}
+        )
+        if awarded:
+            profile["badges"] = sorted(set(profile["badges"]) | {"first-quest"})
+            profile["collectionState"]["badges"] = profile["badges"]
+            if any(item["evidenceCorrect"] for item in breakdown):
+                profile["achievements"] = sorted(set(profile["achievements"]) | {"evidence-finder"})
+                profile["collectionState"]["achievements"] = profile["achievements"]
+        progress = self._apply_xp(profile, awarded)
+        return {
+            "questId": quest["id"],
+            "attemptId": attempt_id,
+            "awardedXp": awarded,
+            "breakdown": breakdown,
+            "progress": progress,
+        }
 
     def _issue_reward(self, profile: dict[str, Any], reward_id: str, source: str) -> dict[str, Any]:
         reward = self._catalog_item(self.rewards, reward_id, "reward")
@@ -269,8 +360,9 @@ class DemoStore:
 
     def progress(self, profile_id: str) -> dict[str, Any]:
         profile = self._profile(profile_id)
-        unlocked = [node["id"] for node in self.catalogs["levelNodes"] if node["requiredXp"] <= profile["xp"]]
-        return {"xp": profile["xp"], "level": profile["level"], "levelNodes": deepcopy(self.catalogs["levelNodes"]), "unlockedNodeIds": unlocked, "badges": deepcopy(profile["badges"]), "achievements": deepcopy(profile["achievements"]), "trophies": deepcopy(self.catalogs["trophies"])}
+        nodes = level_nodes(_reward_ids_by_level(self.catalogs))
+        unlocked = [node["id"] for node in nodes if node["requiredXp"] <= profile["xp"]]
+        return {"xp": profile["xp"], "level": profile["level"], "levelNodes": nodes, "unlockedNodeIds": unlocked, "badges": deepcopy(profile["badges"]), "achievements": deepcopy(profile["achievements"]), "trophies": deepcopy(self.catalogs["trophies"])}
 
     def rewards_for_profile(self, profile_id: str) -> list[dict[str, Any]]:
         profile = self._profile(profile_id)
@@ -297,6 +389,11 @@ class DemoStore:
             if catalog_id not in profile["ownedAccessoryIds"]:
                 profile["ownedAccessoryIds"].append(catalog_id)
         elif item_type == "pet":
+            pet = self._catalog_item(self.pets, catalog_id, "pet")
+            if profile["level"] < pet["unlockLevel"]:
+                raise PlatformError("pet_level_locked", "That pet is still locked on the Level Road.", 403)
+            if pet["eventOnly"]:
+                raise PlatformError("pet_event_locked", "That Mythical pet requires its active event as well as the Level Road.", 403)
             if catalog_id not in profile["ownedPetIds"]:
                 profile["ownedPetIds"].append(catalog_id)
         elif item_type == "egg":
@@ -307,7 +404,7 @@ class DemoStore:
     def purchase(self, profile_id: str, shop_item_id: str) -> dict[str, Any]:
         profile = self._profile(profile_id)
         item = self._catalog_item(self.shop, shop_item_id, "shop item")
-        if item["availability"] != "available":
+        if item["availability"] not in {"available", "demo-only"}:
             raise PlatformError("unavailable_shop_item", "That shop item is not currently available.", 409)
         purchases = [entry for entry in profile["purchaseLedger"] if entry["shopItemId"] == shop_item_id and not entry.get("reversedAt")]
         if len(purchases) >= item["purchaseLimit"]:
@@ -351,7 +448,6 @@ class DemoStore:
         egg = self._catalog_item(self.eggs, egg_id, "egg")
         if profile["eggInventory"].get(egg_id, 0) < 1:
             raise PlatformError("egg_not_owned", "Purchase this egg before opening it.", 409)
-        profile["eggInventory"][egg_id] -= 1
         serial = sum(1 for entry in profile["purchaseLedger"] if entry["shopItemId"].endswith(egg_id))
         seed = f"{profile_id}:{egg_id}:{serial}" if deterministic else uuid4().hex
         roll = int(hashlib.sha256(seed.encode()).hexdigest()[:12], 16) / float(16**12)
@@ -364,6 +460,10 @@ class DemoStore:
                 break
         rewards = egg["possibleRewards"][rarity]
         pet_id = rewards[int(hashlib.sha256((seed + ":pet").encode()).hexdigest(), 16) % len(rewards)]
+        pet = self.pets[pet_id]
+        if profile["level"] < pet["unlockLevel"]:
+            raise PlatformError("pet_level_locked", "Reach this pet's Level Road milestone before opening its egg reward.", 403)
+        profile["eggInventory"][egg_id] -= 1
         duplicate = pet_id in profile["ownedPetIds"]
         if duplicate:
             compensation = egg["duplicateBehavior"]
@@ -391,24 +491,146 @@ class DemoStore:
     def book_access(self, profile_id: str, book_id: str, chapter_id: str | None = None, feature: str = "chapter") -> dict[str, Any]:
         profile = self._profile(profile_id)
         book = self._catalog_item(self.books, book_id, "book")
-        premium = profile["entitlement"]["featureFlags"]["fullBooks"]
+        rules = book.get("accessRules")
+        if rules is None:
+            raise PlatformError("book_contract_unavailable", "This legacy book lacks the web-library access contract.", 503)
+        premium = self._premium_active(profile)
+        permanently_owned = book_id in profile["ownedBookIds"]
         if feature == "chapter":
             chapter = next((item for item in book["chapterMetadata"] if item["id"] == chapter_id), None)
             if chapter is None:
                 raise PlatformError("chapter_not_found", "Chapter metadata was not found.", 404)
-            allowed = chapter["accessTier"] == "free-demo" or premium
+            if permanently_owned:
+                allowed, reason = True, "permanent-purchase"
+            elif rules["mode"] == "free" or chapter_id in rules["freeChapterIds"]:
+                allowed, reason = True, "free-pass"
+            elif rules["mode"] == "purchase-only":
+                allowed, reason = False, "purchase-required"
+            elif rules["subscriptionEligible"] and premium:
+                allowed, reason = True, "premium-subscription"
+            else:
+                allowed, reason = False, "premium-required"
         elif feature == "vocabulary":
             vocabulary_tier = chapter_id or "basic"
             if vocabulary_tier not in {"basic", "advanced"}:
                 raise PlatformError("invalid_vocabulary_tier", "Vocabulary tier must be basic or advanced.")
             allowed = vocabulary_tier == "basic" or profile["entitlement"]["featureFlags"]["advancedVocabulary"]
+            reason = "basic-feature" if allowed else "premium-required"
         elif feature == "quiz":
             if chapter_id not in {"basic", "advanced"}:
                 raise PlatformError("invalid_quiz_difficulty", "Quiz difficulty must be basic or advanced.")
             allowed = chapter_id == "basic" or profile["entitlement"]["featureFlags"]["advancedQuizzes"]
+            reason = "basic-feature" if allowed else "premium-required"
         else:
             raise PlatformError("invalid_access_feature", "Access feature must be chapter, vocabulary, or quiz.")
-        return {"bookId": book_id, "feature": feature, "requested": chapter_id, "allowed": allowed, "requiredPlan": "free" if allowed else "premium", "entitlement": self.subscription(profile_id)}
+        return {
+            "bookId": book_id,
+            "feature": feature,
+            "requested": chapter_id,
+            "allowed": allowed,
+            "reason": reason,
+            "requiredPlan": "free" if allowed else ("purchase" if reason == "purchase-required" else "premium"),
+            "publicSourceAvailable": rules["publicSourceAvailable"],
+            "entitlement": self.subscription(profile_id),
+        }
+
+    def chapter(self, profile_id: str, book_id: str, chapter_id: str) -> dict[str, Any]:
+        book = self._catalog_item(self.books, book_id, "book")
+        chapter = next((item for item in book["chapterMetadata"] if item["id"] == chapter_id), None)
+        if chapter is None:
+            raise PlatformError("chapter_not_found", "Chapter metadata was not found.", 404)
+        access = self.book_access(profile_id, book_id, chapter_id)
+        source = {
+            "edition": book["edition"],
+            "landingUrl": book["source"]["landingUrl"],
+            "rights": deepcopy(book["rights"]),
+            "requiredAttribution": book["rights"]["requiredAttribution"],
+        }
+        if not access["allowed"]:
+            content = {"mode": "unavailable", "reason": access["reason"], "cacheHint": "Do not cache unavailable content."}
+        elif chapter["contentMode"] == "external-reference":
+            content = {"mode": "external-reference", "url": chapter["sourceUrl"], "cacheHint": "Cache metadata only; source text remains with the provider."}
+        elif chapter["contentMode"] == "quest-passage-reference":
+            mapping = next((item for item in load_quest_mappings(catalog=self.book_catalog)["mappings"] if item["bookId"] == book_id and chapter_id in item["chapterIds"]), None)
+            content = {"mode": "quest-passage-reference", "questId": mapping["id"] if mapping else None, "cacheHint": "Use the reviewed bundled quest only; do not duplicate it into user progress."}
+        else:
+            content = {"mode": "unavailable", "reason": "chapter_content_unavailable", "cacheHint": "No text cache exists."}
+        return {"bookId": book_id, "chapterId": chapter_id, "access": access, "content": content, "source": source}
+
+    def reader_reference(self, profile_id: str, book_id: str) -> dict[str, Any]:
+        """Provide a safe whole-work source reference without mirroring text."""
+        profile = self._profile(profile_id)
+        book = self._catalog_item(self.books, book_id, "book")
+        rules = book["accessRules"]
+        owned = book_id in profile["ownedBookIds"]
+        premium = self._premium_active(profile)
+        if rules["mode"] == "purchase-only" and not owned:
+            content = {"mode": "unavailable", "reason": "purchase-required", "cacheHint": "Do not cache unavailable content."}
+        elif book["rights"]["textReuseCleared"] is False and not rules["publicSourceAvailable"]:
+            content = {"mode": "unavailable", "reason": "chapter_content_unavailable", "cacheHint": "No manuscript text or source reference is available."}
+        else:
+            content = {
+                "mode": "external-reference",
+                "url": book["sourceUrl"],
+                "cacheHint": "Cache metadata only; fetch no third-party book text through LitLearn.",
+            }
+        return {
+            "bookId": book_id,
+            "readerFeature": "whole-book-reference",
+            "litLearnAccess": "permanent" if owned else "premium" if premium and rules["subscriptionEligible"] else "free-source-reference",
+            "content": content,
+            "source": {"edition": book["edition"], "rights": deepcopy(book["rights"]), "requiredAttribution": book["rights"]["requiredAttribution"]},
+        }
+
+    def purchase_book(self, profile_id: str, book_id: str) -> dict[str, Any]:
+        profile = self._profile(profile_id)
+        book = self._catalog_item(self.books, book_id, "book")
+        rules = book["accessRules"]
+        if not rules["permanentPurchaseEligible"]:
+            raise PlatformError("book_not_purchaseable", "This title is not a permanent-purchase demo item.", 409)
+        if book_id in profile["ownedBookIds"]:
+            raise PlatformError("book_already_owned", "This title is already permanently owned.", 409)
+        offer = book.get("mockPurchase")
+        if not isinstance(offer, dict):
+            raise PlatformError("book_purchase_unavailable", "No local-demo purchase offer is defined.", 409)
+        currency, price = offer.get("currency"), offer.get("price")
+        if currency not in profile["currencies"] or not isinstance(price, int) or price < 0:
+            raise PlatformError("book_purchase_unavailable", "The local-demo purchase offer is invalid.", 503)
+        if profile["currencies"][currency] < price:
+            raise PlatformError("insufficient_currency", "There is not enough currency for this title.", 409)
+        profile["currencies"][currency] -= price
+        purchase = {"id": f"book-purchase-{uuid4().hex}", "bookId": book_id, "price": price, "currency": currency, "mocked": True, "reversible": bool(offer.get("reversibleUntilRead")), "createdAt": utc_now()}
+        profile["ownedBookIds"].append(book_id)
+        profile["bookPurchaseLedger"].append(purchase)
+        self._touch(profile)
+        return deepcopy(purchase) | {"ownedBookIds": deepcopy(profile["ownedBookIds"]), "balances": deepcopy(profile["currencies"])}
+
+    def library(self, profile_id: str) -> list[dict[str, Any]]:
+        profile = self._profile(profile_id)
+        premium = self._premium_active(profile)
+        result = []
+        for book in self.books.values():
+            rules = book["accessRules"]
+            owned = book["id"] in profile["ownedBookIds"]
+            subscription = premium and rules["subscriptionEligible"] and rules["mode"] != "purchase-only"
+            if owned or subscription:
+                result.append({"bookId": book["id"], "access": "permanent" if owned else "subscription", "title": book["title"], "sourceUrl": book["sourceUrl"]})
+        return sorted(result, key=lambda item: item["bookId"])
+
+    def recommendations(self, profile_id: str, limit: int = 6) -> list[dict[str, Any]]:
+        profile = self._profile(profile_id)
+        candidates = [book for book in self.books.values() if book["id"] not in profile["ownedBookIds"]]
+        ordered = sorted(candidates, key=lambda book: (book["difficultyLabel"], book["id"]))[:max(1, min(limit, 12))]
+        return [{"bookId": book["id"], "reason": "Matches the current LitLearn catalog path.", "title": book["title"]} for book in ordered]
+
+    def collections(self, profile_id: str) -> dict[str, Any]:
+        profile = self._profile(profile_id)
+        return {
+            "badges": [{**item, "earned": item["id"] in profile["badges"]} for item in self.catalogs["badges"]],
+            "achievements": [{**item, "earned": item["id"] in profile["achievements"]} for item in self.catalogs["achievements"]],
+            "trophies": [{**item, "earned": item["id"] in profile["collectionState"]["trophies"]} for item in self.catalogs["trophies"]],
+            "wishlist": deepcopy(profile["wishlist"]),
+        }
 
     def battle_pass(self, profile_id: str, pass_id: str) -> dict[str, Any]:
         profile = self._profile(profile_id)
@@ -484,8 +706,21 @@ class SQLiteStore(DemoStore):
             self.profiles[profile["id"]] = profile
 
     def _migrate(self) -> None:
-        self.connection.executescript(MIGRATION_PATH.read_text(encoding="utf-8"))
-        self.connection.execute("INSERT OR IGNORE INTO schema_migrations(version, applied_at) VALUES(1, ?)", (utc_now(),))
+        first_version, first_path = MIGRATION_PATHS[0]
+        self.connection.executescript(first_path.read_text(encoding="utf-8"))
+        self.connection.execute(
+            "INSERT OR IGNORE INTO schema_migrations(version, applied_at) VALUES(?, ?)",
+            (first_version, utc_now()),
+        )
+        for version, path in MIGRATION_PATHS[1:]:
+            applied = self.connection.execute(
+                "SELECT 1 FROM schema_migrations WHERE version = ?", (version,)
+            ).fetchone()
+            if applied is None:
+                self.connection.executescript(path.read_text(encoding="utf-8"))
+                self.connection.execute(
+                    "INSERT INTO schema_migrations(version, applied_at) VALUES(?, ?)", (version, utc_now())
+                )
         self.connection.commit()
 
     def _save(self, profile: dict[str, Any]) -> None:
@@ -533,6 +768,32 @@ class SQLiteStore(DemoStore):
             "INSERT INTO battle_pass_progress VALUES(?, ?, ?, ?)",
             [(profile["id"], pass_id, state["progress"], json.dumps(state["claimedRewardIds"])) for pass_id, state in profile["battlePassProgress"].items()],
         )
+        self.connection.execute("DELETE FROM book_ownership WHERE profile_id = ?", (profile["id"],))
+        purchase_by_book = {entry["bookId"]: entry for entry in profile.get("bookPurchaseLedger", [])}
+        self.connection.executemany(
+            "INSERT INTO book_ownership VALUES(?, ?, ?, ?)",
+            [
+                (profile["id"], book_id, purchase_by_book[book_id]["id"], purchase_by_book[book_id]["createdAt"])
+                for book_id in profile.get("ownedBookIds", [])
+                if book_id in purchase_by_book
+            ],
+        )
+        self.connection.execute("DELETE FROM quest_awards WHERE profile_id = ?", (profile["id"],))
+        self.connection.executemany(
+            "INSERT INTO quest_awards VALUES(?, ?, ?, ?, ?)",
+            [
+                (profile["id"], attempt["attemptId"], attempt["questId"], attempt["awardedXp"], attempt["awardedAt"])
+                for attempt in profile.get("questAttempts", [])
+            ],
+        )
+        self.connection.execute("DELETE FROM collection_state WHERE profile_id = ?", (profile["id"],))
+        collection_rows = []
+        for collection_type in ("badges", "achievements", "trophies"):
+            collection_rows.extend(
+                (profile["id"], collection_type, catalog_id, profile["updatedAt"])
+                for catalog_id in profile.get(collection_type, profile.get("collectionState", {}).get(collection_type, []))
+            )
+        self.connection.executemany("INSERT INTO collection_state VALUES(?, ?, ?, ?)", collection_rows)
         self.connection.commit()
 
     def record_event(self, profile_id: str, event_type: str, properties: dict[str, Any]) -> dict[str, Any]:
