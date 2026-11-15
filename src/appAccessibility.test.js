@@ -26,13 +26,15 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(appSource, /\['shop', 'Shop', 'shop'\]/);
   assert.match(appSource, /Moonlit Trail/);
   assert.match(appSource, /View purchase in Shop/);
-  assert.match(appSource, /Gutenberg reading shelf/);
+  assert.match(appSource, /Web reading shelf/);
   assert.match(appSource, /aria-label=\{`\$\{selectedBook\.title\} reading levels, left to right`\}/);
   assert.match(appSource, /Read verified source/);
   assert.match(appSource, /Start comprehension quest/);
   assert.match(appSource, /No reviewed book offers yet/);
   assert.match(appSource, /role="tablist" aria-label="Books view"/);
   assert.match(appSource, /onClick=\{\(\) => onNavigate\('shop'\)\}/);
+  assert.match(appSource, /Recommended book/);
+  assert.match(appSource, /Interactive level road through level 100/);
   assert.match(appSource, /aria-label=\{`\$\{PASS_PRODUCT_NAME\} reward path`\}/);
   assert.match(appSource, /type="button"/);
   assert.match(styles, /:focus-visible/);

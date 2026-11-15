@@ -20,6 +20,23 @@ export const LEVEL_REWARDS = [
   { id: 'star-crown', level: 10, name: 'Star Crown', title: 'Evidence Legend', description: 'A star crown for a long-running evidence adventure.' },
 ];
 
+export const PET_LEVEL_MILESTONES = [
+  { petId: 'moss-mouse', level: 2 }, { petId: 'page-finch', level: 5 }, { petId: 'quill-tortoise', level: 10 },
+  { petId: 'shelf-fox', level: 20 }, { petId: 'lantern-otter', level: 35 }, { petId: 'story-moth', level: 50 },
+];
+
+export function xpRequiredForLevel(level) {
+  const target = Math.max(1, Math.min(100, Number(level) || 1));
+  let required = 0;
+  for (let current = 1; current < target; current += 1) required += 80 + (Math.floor((current - 1) / 5) * 20) + (Math.floor((current - 1) / 10) * 30);
+  return required;
+}
+export function levelForXp(xp) { const value = Math.max(0, Number(xp) || 0); for (let level = 100; level >= 1; level -= 1) if (value >= xpRequiredForLevel(level)) return level; return 1; }
+export function xpIntoLevel(xp) { return Math.max(0, (Number(xp) || 0) - xpRequiredForLevel(levelForXp(xp))); }
+export function xpForNextLevel(xp) { const level = levelForXp(xp); return level >= 100 ? 0 : xpRequiredForLevel(level + 1) - xpRequiredForLevel(level); }
+export function xpRemainingToNextLevel(xp) { const level = levelForXp(xp); return level >= 100 ? 0 : Math.max(0, xpRequiredForLevel(level + 1) - (Number(xp) || 0)); }
+export function xpBreakdown({ correctAnswers = 0, correctEvidence = 0, reasoningQuality = 0 } = {}) { return { answers: Math.max(0, Number(correctAnswers) || 0) * 15, evidence: Math.max(0, Number(correctEvidence) || 0) * 10, reasoning: Math.max(0, Number(reasoningQuality) || 0) * 5 }; }
+
 function getStorage() {
   try { return globalThis.window?.localStorage ?? null; } catch { return null; }
 }
@@ -33,6 +50,7 @@ export function createEmptyProgress() {
     version: PROGRESS_VERSION,
     xp: 0,
     lastCompletionXp: 0,
+    lastXpBreakdown: { answers: 0, evidence: 0, reasoning: 0 },
     lastCompletedQuestId: null,
     selectedQuestId: null,
     completedQuestIds: [],
@@ -43,9 +61,9 @@ export function createEmptyProgress() {
     unlockedAccessoryIds: [],
     activeAccessoryId: 'compass',
     profileName: 'Reader',
-    ownedPetIds: ['moss-mouse', 'page-finch', 'quill-tortoise', 'shelf-fox', 'lantern-otter', 'story-moth'],
+    ownedPetIds: [],
     petNicknames: {},
-    activePetId: 'moss-mouse',
+    activePetId: '',
     favoritePetIds: [],
     ownedAccessoryIds: [],
     equippedAccessories: {},
@@ -94,7 +112,9 @@ function mergeProgress(value) {
   const empty = createEmptyProgress();
   const candidate = value && typeof value === 'object' ? value : {};
   const xp = Number(candidate.xp) || 0;
-  const earnedRewardIds = LEVEL_REWARDS.filter((reward) => reward.level <= levelForXp(xp)).map((reward) => reward.id);
+  const currentLevel = levelForXp(xp);
+  const earnedRewardIds = LEVEL_REWARDS.filter((reward) => reward.level <= currentLevel).map((reward) => reward.id);
+  const milestonePets = PET_LEVEL_MILESTONES.filter((milestone) => milestone.level <= currentLevel).map((milestone) => milestone.petId);
   const levelRewardIds = [...new Set([...asArray(candidate.levelRewardIds), ...earnedRewardIds])];
   return {
     ...empty,
@@ -114,7 +134,7 @@ function mergeProgress(value) {
     settings: { ...empty.settings, ...(candidate.settings ?? {}) },
     signals: { ...empty.signals, ...(candidate.signals ?? {}) },
     profileName: typeof candidate.profileName === 'string' && candidate.profileName.trim() ? candidate.profileName : empty.profileName,
-    ownedPetIds: [...new Set([...empty.ownedPetIds, ...asArray(candidate.ownedPetIds)])],
+    ownedPetIds: [...new Set([...milestonePets, ...asArray(candidate.ownedPetIds)])],
     petNicknames: candidate.petNicknames && typeof candidate.petNicknames === 'object' ? candidate.petNicknames : {},
     activePetId: typeof candidate.activePetId === 'string' ? candidate.activePetId : empty.activePetId,
     favoritePetIds: [...new Set(asArray(candidate.favoritePetIds))],
@@ -326,10 +346,11 @@ function updateStreak(streak, date) {
   return { current: nextCurrent, best: Math.max(streak.best, nextCurrent), lastCompletedDate: today };
 }
 
-export function completeQuest(progress, questId, { correctAnswers = 0, correctEvidence = 0, questionCount = 3, date = new Date() } = {}) {
+export function completeQuest(progress, questId, { correctAnswers = 0, correctEvidence = 0, reasoningQuality = 0, questionCount = 3, date = new Date() } = {}) {
   const normalized = mergeProgress(progress);
   const alreadyCompleted = normalized.completedQuestIds.includes(questId);
-  const earnedXp = alreadyCompleted ? 0 : 80 + (correctEvidence * 10) + (correctAnswers * 5);
+  const breakdown = xpBreakdown({ correctAnswers, correctEvidence, reasoningQuality });
+  const earnedXp = alreadyCompleted ? 0 : breakdown.answers + breakdown.evidence + breakdown.reasoning;
   const badgeIds = new Set(normalized.badgeIds);
   const fragments = new Set(normalized.storyFragmentIds);
   const accessories = new Set(normalized.unlockedAccessoryIds);
@@ -354,6 +375,7 @@ export function completeQuest(progress, questId, { correctAnswers = 0, correctEv
     ...normalized,
     xp: nextXp,
     lastCompletionXp: earnedXp,
+    lastXpBreakdown: alreadyCompleted ? normalized.lastXpBreakdown : breakdown,
     lastCompletedQuestId: questId,
     completedQuestIds: alreadyCompleted ? normalized.completedQuestIds : [...normalized.completedQuestIds, questId],
     badgeIds: [...badgeIds],
@@ -407,6 +429,3 @@ export function createJudgeProgress(quests = []) {
     signals: { ...seeded.signals, completedQuestCount: 1, questStarts: 2, evidenceReveals: 3, nextQuestSelections: 2 },
   };
 }
-
-export function levelForXp(xp) { return Math.max(1, Math.floor(xp / 100) + 1); }
-export function xpIntoLevel(xp) { return xp % 100; }
