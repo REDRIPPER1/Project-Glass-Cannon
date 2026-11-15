@@ -49,6 +49,7 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(appSource, /Scene reconstruction/);
   assert.match(appSource, /Creative response/);
   assert.match(appSource, /Every reader, activity, and quiz displays its exact book and chapter/);
+  assert.match(appSource, /activityPayload\?\.sourceLabel/);
   assert.match(appSource, /Premium required/);
   assert.match(appSource, /Buy permanently for/);
   assert.match(appSource, /Changing the local demo plan immediately rechecks book and chapter access/);

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { displayDifficulty, loadBookQuiz, loadBookQuizzes, loadChapterReference, normalizeApiBook, purchaseShopItem, redeemWishlistPagesRemote, setRemoteBookWishlist } from './libraryApi.js';
+import { displayDifficulty, loadBookActivities, loadBookQuiz, loadBookQuizzes, loadChapterReference, normalizeApiBook, purchaseShopItem, redeemWishlistPagesRemote, setRemoteBookWishlist } from './libraryApi.js';
 
 test('normalizes backend book metadata without displaying grade-band wording or an external reader URL', () => {
   const book = normalizeApiBook({ id: 'book-1', category: 'Adventure', difficultyLabel: 'Grades 4-8', starRating: 4, accessRules: { mode: 'subscription' }, source: { landingUrl: 'https://example.test' }, rights: { requiredAttribution: 'Source credit' }, contentAvailability: 'bundled-passage' });
@@ -22,6 +22,7 @@ test('uses the bundled reader, wishlist, and local-demo purchase contracts', asy
   try {
     await loadChapterReference('profile-1', 'book-1', 'chapter-1');
     await loadBookQuizzes();
+    await loadBookActivities();
     await loadBookQuiz('profile-1', 'book-1', 'quiz-1');
     await redeemWishlistPagesRemote('profile-1');
     await purchaseShopItem('profile-1', 'shop-wishlist-page');
@@ -30,13 +31,14 @@ test('uses the bundled reader, wishlist, and local-demo purchase contracts', asy
   } finally { globalThis.fetch = originalFetch; }
   assert.equal(calls[0][0], '/api/profiles/profile-1/books/book-1/chapters/chapter-1');
   assert.equal(calls[1][0], '/api/catalog/book-quizzes');
-  assert.equal(calls[2][0], '/api/profiles/profile-1/books/book-1/quizzes/quiz-1');
-  assert.equal(calls[3][0], '/api/profiles/profile-1/wishlist/redemptions');
-  assert.equal(calls[3][1].method, 'POST');
-  assert.equal(calls[4][0], '/api/profiles/profile-1/purchases');
-  assert.equal(calls[5][0], '/api/profiles/profile-1/book-wishlist/book-1');
-  assert.equal(calls[5][1].method, 'PUT');
-  assert.equal(calls[6][1].method, 'DELETE');
+  assert.equal(calls[2][0], '/api/catalog/book-activities');
+  assert.equal(calls[3][0], '/api/profiles/profile-1/books/book-1/quizzes/quiz-1');
+  assert.equal(calls[4][0], '/api/profiles/profile-1/wishlist/redemptions');
+  assert.equal(calls[4][1].method, 'POST');
+  assert.equal(calls[5][0], '/api/profiles/profile-1/purchases');
+  assert.equal(calls[6][0], '/api/profiles/profile-1/book-wishlist/book-1');
+  assert.equal(calls[6][1].method, 'PUT');
+  assert.equal(calls[7][1].method, 'DELETE');
 });
 
 test('normalizes chapter reading levels and Premium access from the catalog contract', () => {
