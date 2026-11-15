@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-126-the-poison-belt",
+  "ebookId": "126",
+  "edition": "Project Gutenberg eBook #126; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-6",
+  "chapterTitle": "Chapter VI",
+  "contentHash": "sha256:bf72aaf611bd1050f2657a5411d8604b14046bfba815b71770d38d10bbf1a746",
+  "attribution": "Doyle, Arthur Conan, 1859-1930, The Poison Belt, Chapter VI. Source checked against Project Gutenberg eBook #126.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/126",
+    "textUrl": "https://www.gutenberg.org/cache/epub/126/pg126.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE GREAT AWAKENING"
+    },
+    {
+      "id": "s2",
+      "text": "And now I come to the end of this extraordinary incident, so overshadowing in its importance, not only in our own small, individual lives, but in the general history of the human race."
+    },
+    {
+      "id": "s3",
+      "text": "As I said when I began my narrative, when that history comes to be written, this occurrence will surely stand out among all other events like a mountain towering among its foothills."
+    },
+    {
+      "id": "s4",
+      "text": "Our generation has been reserved for a very special fate since it has been chosen to experience so wonderful a thing."
+    },
+    {
+      "id": "s5",
+      "text": "How long its effect may last--how long mankind may preserve the humility and reverence which this great shock has taught it--can only be shown by the future."
+    },
+    {
+      "id": "s6",
+      "text": "I think it is safe to say that things can never be quite the same again."
+    },
+    {
+      "id": "s7",
+      "text": "Never can one realize how powerless and ignorant one is, and how one is upheld by an unseen hand, until for an instant that hand has seemed to close and to crush."
+    },
+    {
+      "id": "s8",
+      "text": "Death has been imminent upon us."
+    },
+    {
+      "id": "s9",
+      "text": "We know that at any moment it may be again."
+    },
+    {
+      "id": "s10",
+      "text": "That grim presence shadows our lives, but who can deny that in that shadow the sense of duty, the feeling of sobriety and responsibility, the appreciation of the gravity and of the objects of life, the earnest desire to develop and improve, have grown and become real with us to a degree that has leavened our whole society from end to end?"
+    },
+    {
+      "id": "s11",
+      "text": "It is something beyond sects and beyond dogmas."
+    },
+    {
+      "id": "s12",
+      "text": "It is rather an alteration of perspective, a shifting of our sense of proportion, a vivid realization that we are insignificant and evanescent creatures, existing on sufferance and at the mercy of the first chill wind from the unknown."
+    },
+    {
+      "id": "s13",
+      "text": "But if the world has grown graver with this knowledge it is not, I think, a sadder place in consequence."
+    },
+    {
+      "id": "s14",
+      "text": "Surely we are agreed that the more sober and restrained pleasures of the present are deeper as well as wiser than the noisy, foolish hustle which passed so often for enjoyment in the days of old--days so recent and yet already so inconceivable."
+    },
+    {
+      "id": "s15",
+      "text": "Those empty lives which were wasted in aimless visiting and being visited, in the worry of great and unnecessary households, in the arranging and eating of elaborate and tedious meals, have now found rest and health in the reading, the music, the gentle family communion which comes from a simpler and saner division of their time."
+    },
+    {
+      "id": "s16",
+      "text": "With greater health and greater pleasure they are richer than before, even after they have paid those increased contributions to the common fund which have so raised the standard of life in these islands."
+    },
+    {
+      "id": "s17",
+      "text": "There is some clash of opinion as to the exact hour of the great awakening."
+    },
+    {
+      "id": "s18",
+      "text": "It is generally agreed that, apart from the difference of clocks, there may have been local causes which influenced the action of the poison."
+    },
+    {
+      "id": "s19",
+      "text": "Certainly, in each separate district the resurrection was practically simultaneous."
+    },
+    {
+      "id": "s20",
+      "text": "There are numerous witnesses that Big Ben pointed to ten minutes past six at the moment."
+    },
+    {
+      "id": "s21",
+      "text": "The Astronomer Royal has fixed the Greenwich time at twelve past six."
+    },
+    {
+      "id": "s22",
+      "text": "On the other hand, Laird Johnson, a very capable East Anglia observer, has recorded six-twenty as the hour."
+    },
+    {
+      "id": "s23",
+      "text": "In the Hebrides it was as late as seven."
+    },
+    {
+      "id": "s24",
+      "text": "In our own case there can be no doubt whatever, for I was seated in Challenger's study with his carefully tested chronometer in front of me at the moment."
+    },
+    {
+      "id": "s25",
+      "text": "The hour was a quarter-past six."
+    },
+    {
+      "id": "s26",
+      "text": "An enormous depression was weighing upon my spirits."
+    },
+    {
+      "id": "s27",
+      "text": "The cumulative effect of all the dreadful sights which we had seen upon our journey was heavy upon my soul."
+    },
+    {
+      "id": "s28",
+      "text": "With my abounding animal health and great physical energy any kind of mental clouding was a rare event."
+    },
+    {
+      "id": "s29",
+      "text": "I had the Irish faculty of seeing some gleam of humor in every darkness."
+    },
+    {
+      "id": "s30",
+      "text": "But now the obscurity was appalling and unrelieved."
+    },
+    {
+      "id": "s31",
+      "text": "The others were downstairs making their plans for the future."
+    },
+    {
+      "id": "s32",
+      "text": "I sat by the open window, my chin resting upon my hand and my mind absorbed in the misery of our situation."
+    },
+    {
+      "id": "s33",
+      "text": "Could we continue to live?"
+    },
+    {
+      "id": "s34",
+      "text": "That was the question which I had begun to ask myself."
+    },
+    {
+      "id": "s35",
+      "text": "Was it possible to exist upon a dead world?"
+    },
+    {
+      "id": "s36",
+      "text": "Just as in physics the greater body draws to itself the lesser, would we not feel an overpowering attraction from that vast body of humanity which had passed into the unknown?"
+    },
+    {
+      "id": "s37",
+      "text": "How would the end come?"
+    },
+    {
+      "id": "s38",
+      "text": "Would it be from a return of the poison?"
+    },
+    {
+      "id": "s39",
+      "text": "Or would the earth be uninhabitable from the mephitic products of universal decay?"
+    },
+    {
+      "id": "s40",
+      "text": "Or, finally, might our awful situation prey upon and unbalance our minds?"
+    },
+    {
+      "id": "s41",
+      "text": "A group of insane folk upon a dead world!"
+    },
+    {
+      "id": "s42",
+      "text": "My mind was brooding upon this last dreadful idea when some slight noise caused me to look down upon the road beneath me."
+    },
+    {
+      "id": "s43",
+      "text": "The old cab horse was coming up the hill!"
+    },
+    {
+      "id": "s44",
+      "text": "I was conscious at the same instant of the twittering of birds, of someone coughing in the yard below, and of a background of movement in the landscape."
+    },
+    {
+      "id": "s45",
+      "text": "And yet I remember that it was that absurd, emaciated, superannuated cab-horse which held my gaze."
+    },
+    {
+      "id": "s46",
+      "text": "Slowly and wheezily it was climbing the slope."
+    },
+    {
+      "id": "s47",
+      "text": "Then my eye traveled to the driver sitting hunched up upon the box and finally to the young man who was leaning out of the window in some excitement and shouting a direction."
+    },
+    {
+      "id": "s48",
+      "text": "They were all indubitably, aggressively alive!"
+    },
+    {
+      "id": "s49",
+      "text": "Everybody was alive once more!"
+    },
+    {
+      "id": "s50",
+      "text": "Had it all been a delusion?"
+    },
+    {
+      "id": "s51",
+      "text": "Was it conceivable that this whole poison belt incident had been an elaborate dream?"
+    },
+    {
+      "id": "s52",
+      "text": "For an instant my startled brain was really ready to believe it."
+    },
+    {
+      "id": "s53",
+      "text": "Then I looked down, and there was the rising blister on my hand where it was frayed by the rope of the city bell."
+    },
+    {
+      "id": "s54",
+      "text": "It had really been so, then."
+    },
+    {
+      "id": "s55",
+      "text": "And yet here was the world resuscitated--here was life come back in an instant full tide to the planet."
+    },
+    {
+      "id": "s56",
+      "text": "Now, as my eyes wandered all over the great landscape, I saw it in every direction--and moving, to my amazement, in the very same groove in which it had halted."
+    },
+    {
+      "id": "s57",
+      "text": "There were the golfers."
+    },
+    {
+      "id": "s58",
+      "text": "Was it possible that they were going on with their game?"
+    },
+    {
+      "id": "s59",
+      "text": "Yes, there was a fellow driving off from a tee, and that other group upon the green were surely putting for the hole."
+    },
+    {
+      "id": "s60",
+      "text": "The reapers were slowly trooping back to their work."
+    },
+    {
+      "id": "s61",
+      "text": "The nurse-girl slapped one of her charges and then began to push the perambulator up the hill."
+    },
+    {
+      "id": "s62",
+      "text": "Everyone had unconcernedly taken up the thread at the very point where they had dropped it."
+    },
+    {
+      "id": "s63",
+      "text": "I rushed downstairs, but the hall door was open, and I heard the voices of my companions, loud in astonishment and congratulation, in the yard."
+    },
+    {
+      "id": "s64",
+      "text": "How we all shook hands and laughed as we came together, and how Mrs."
+    },
+    {
+      "id": "s65",
+      "text": "Challenger kissed us all in her emotion, before she finally threw herself into the bear-hug of her husband."
+    },
+    {
+      "id": "s66",
+      "text": "\"But they could not have been asleep!\" cried Lord John. \"Dash it all, Challenger, you don't mean to believe that those folk were asleep with their staring eyes and stiff limbs and that awful death grin on their faces!\""
+    },
+    {
+      "id": "s67",
+      "text": "\"It can only have been the condition that is called catalepsy,\" said Challenger. \"It has been a rare phenomenon in the past and has constantly been mistaken for death."
+    },
+    {
+      "id": "s68",
+      "text": "While it endures, the temperature falls, the respiration disappears, the heartbeat is indistinguishable--in fact, it _is_ death, save that it is evanescent."
+    },
+    {
+      "id": "s69",
+      "text": "Even the most comprehensive mind\"--here he closed his eyes and simpered--\"could hardly conceive a universal outbreak of it in this fashion.\""
+    },
+    {
+      "id": "s70",
+      "text": "\"You may label it catalepsy,\" remarked Summerlee, \"but, after all, that is only a name, and we know as little of the result as we do of the poison which has caused it."
+    },
+    {
+      "id": "s71",
+      "text": "The most we can say is that the vitiated ether has produced a temporary death.\""
+    },
+    {
+      "id": "s72",
+      "text": "Austin was seated all in a heap on the step of the car."
+    },
+    {
+      "id": "s73",
+      "text": "It was his coughing which I had heard from above."
+    },
+    {
+      "id": "s74",
+      "text": "He had been holding his head in silence, but now he was muttering to himself and running his eyes over the car."
+    },
+    {
+      "id": "s75",
+      "text": "\"Young fat-head!\" he grumbled. \"Can't leave things alone!\""
+    },
+    {
+      "id": "s76",
+      "text": "\"What's the matter, Austin?\""
+    },
+    {
+      "id": "s77",
+      "text": "\"Lubricators left running, sir."
+    },
+    {
+      "id": "s78",
+      "text": "Someone has been fooling with the car."
+    },
+    {
+      "id": "s79",
+      "text": "I expect it's that young garden boy, sir.\""
+    },
+    {
+      "id": "s80",
+      "text": "Lord John looked guilty."
+    },
+    {
+      "id": "s81",
+      "text": "\"I don't know what's amiss with me,\" continued Austin, staggering to his feet. \"I expect I came over queer when I was hosing her down."
+    },
+    {
+      "id": "s82",
+      "text": "I seem to remember flopping over by the step."
+    },
+    {
+      "id": "s83",
+      "text": "But I'll swear I never left those lubricator taps on.\""
+    },
+    {
+      "id": "s84",
+      "text": "In a condensed narrative the astonished Austin was told what had happened to himself and the world."
+    },
+    {
+      "id": "s85",
+      "text": "The mystery of the dripping lubricators was also explained to him."
+    },
+    {
+      "id": "s86",
+      "text": "He listened with an air of deep distrust when told how an amateur had driven his car and with absorbed interest to the few sentences in which our experiences of the sleeping city were recorded."
+    },
+    {
+      "id": "s87",
+      "text": "I can remember his comment when the story was concluded."
+    },
+    {
+      "id": "s88",
+      "text": "\"Was you outside the Bank of England, sir?\""
+    },
+    {
+      "id": "s89",
+      "text": "\"Yes, Austin.\""
+    },
+    {
+      "id": "s90",
+      "text": "\"With all them millions inside and everybody asleep?\""
+    },
+    {
+      "id": "s91",
+      "text": "\"That was so.\""
+    },
+    {
+      "id": "s92",
+      "text": "\"And I not there!\" he groaned, and turned dismally once more to the hosing of his car."
+    },
+    {
+      "id": "s93",
+      "text": "There was a sudden grinding of wheels upon gravel."
+    },
+    {
+      "id": "s94",
+      "text": "The old cab had actually pulled up at Challenger's door."
+    },
+    {
+      "id": "s95",
+      "text": "I saw the young occupant step out from it."
+    },
+    {
+      "id": "s96",
+      "text": "An instant later the maid, who looked as tousled and bewildered as if she had that instant been aroused from the deepest sleep, appeared with a card upon a tray."
+    },
+    {
+      "id": "s97",
+      "text": "Challenger snorted ferociously as he looked at it, and his thick black hair seemed to bristle up in his wrath."
+    },
+    {
+      "id": "s98",
+      "text": "\"A pressman!\" he growled."
+    },
+    {
+      "id": "s99",
+      "text": "Then with a deprecating smile: \"After all, it is natural that the whole world should hasten to know what I think of such an episode.\""
+    },
+    {
+      "id": "s100",
+      "text": "\"That can hardly be his errand,\" said Summerlee, \"for he was on the road in his cab before ever the crisis came.\""
+    },
+    {
+      "id": "s101",
+      "text": "I looked at the card: \"James Baxter, London Correspondent, New York Monitor.\""
+    },
+    {
+      "id": "s102",
+      "text": "\"You'll see him?\" said I."
+    },
+    {
+      "id": "s103",
+      "text": "\"Not I.\""
+    },
+    {
+      "id": "s104",
+      "text": "\"Oh, George!"
+    },
+    {
+      "id": "s105",
+      "text": "You should be kinder and more considerate to others."
+    },
+    {
+      "id": "s106",
+      "text": "Surely you have learned something from what we have undergone.\""
+    },
+    {
+      "id": "s107",
+      "text": "He tut-tutted and shook his big, obstinate head."
+    },
+    {
+      "id": "s108",
+      "text": "\"A poisonous breed!"
+    },
+    {
+      "id": "s109",
+      "text": "Eh, Malone?"
+    },
+    {
+      "id": "s110",
+      "text": "The worst weed in modern civilization, the ready tool of the quack and the hindrance of the self-respecting man!"
+    },
+    {
+      "id": "s111",
+      "text": "When did they ever say a good word for me?\""
+    },
+    {
+      "id": "s112",
+      "text": "\"When did you ever say a good word to them?\" I answered. \"Come, sir, this is a stranger who has made a journey to see you."
+    },
+    {
+      "id": "s113",
+      "text": "I am sure that you won't be rude to him.\""
+    },
+    {
+      "id": "s114",
+      "text": "\"Well, well,\" he grumbled, \"you come with me and do the talking."
+    },
+    {
+      "id": "s115",
+      "text": "I protest in advance against any such outrageous invasion of my private life.\" Muttering and mumbling, he came rolling after me like an angry and rather ill-conditioned mastiff."
+    },
+    {
+      "id": "s116",
+      "text": "The dapper young American pulled out his notebook and plunged instantly into his subject."
+    },
+    {
+      "id": "s117",
+      "text": "\"I came down, sir,\" said he, \"because our people in America would very much like to hear more about this danger which is, in your opinion, pressing upon the world.\""
+    },
+    {
+      "id": "s118",
+      "text": "\"I know of no danger which is now pressing upon the world,\" Challenger answered gruffly."
+    },
+    {
+      "id": "s119",
+      "text": "The pressman looked at him in mild surprise."
+    },
+    {
+      "id": "s120",
+      "text": "\"I meant, sir, the chances that the world might run into a belt of poisonous ether.\""
+    },
+    {
+      "id": "s121",
+      "text": "\"I do not now apprehend any such danger,\" said Challenger."
+    },
+    {
+      "id": "s122",
+      "text": "The pressman looked even more perplexed."
+    },
+    {
+      "id": "s123",
+      "text": "\"You are Professor Challenger, are you not?\" he asked."
+    },
+    {
+      "id": "s124",
+      "text": "\"Yes, sir; that is my name.\""
+    },
+    {
+      "id": "s125",
+      "text": "\"I cannot understand, then, how you can say that there is no such danger."
+    },
+    {
+      "id": "s126",
+      "text": "I am alluding to your own letter, published above your name in the London Times of this morning.\""
+    },
+    {
+      "id": "s127",
+      "text": "It was Challenger's turn to look surprised."
+    },
+    {
+      "id": "s128",
+      "text": "\"This morning?\" said he. \"No London Times was published this morning.\""
+    },
+    {
+      "id": "s129",
+      "text": "\"Surely, sir,\" said the American in mild remonstrance, \"you must admit that the London Times is a daily paper.\" He drew out a copy from his inside pocket. \"Here is the letter to which I refer.\""
+    },
+    {
+      "id": "s130",
+      "text": "Challenger chuckled and rubbed his hands."
+    },
+    {
+      "id": "s131",
+      "text": "\"I begin to understand,\" said he. \"So you read this letter this morning?\""
+    },
+    {
+      "id": "s132",
+      "text": "\"Yes, sir.\""
+    },
+    {
+      "id": "s133",
+      "text": "\"And came at once to interview me?\""
+    },
+    {
+      "id": "s134",
+      "text": "\"Yes, sir.\""
+    },
+    {
+      "id": "s135",
+      "text": "\"Did you observe anything unusual upon the journey down?\""
+    },
+    {
+      "id": "s136",
+      "text": "\"Well, to tell the truth, your people seemed more lively and generally human than I have ever seen them."
+    },
+    {
+      "id": "s137",
+      "text": "The baggage man set out to tell me a funny story, and that's a new experience for me in this country.\""
+    },
+    {
+      "id": "s138",
+      "text": "\"Nothing else?\""
+    },
+    {
+      "id": "s139",
+      "text": "\"Why, no, sir, not that I can recall.\""
+    },
+    {
+      "id": "s140",
+      "text": "\"Well, now, what hour did you leave Victoria?\""
+    },
+    {
+      "id": "s141",
+      "text": "The American smiled."
+    },
+    {
+      "id": "s142",
+      "text": "\"I came here to interview you, Professor, but it seems to be a case of 'Is this nigger fishing, or is this fish niggering?' You're doing most of the work.\""
+    },
+    {
+      "id": "s143",
+      "text": "\"It happens to interest me."
+    },
+    {
+      "id": "s144",
+      "text": "Do you recall the hour?\""
+    },
+    {
+      "id": "s145",
+      "text": "\"Sure."
+    },
+    {
+      "id": "s146",
+      "text": "It was half-past twelve.\""
+    },
+    {
+      "id": "s147",
+      "text": "\"And you arrived?\""
+    },
+    {
+      "id": "s148",
+      "text": "\"At a quarter-past two.\""
+    },
+    {
+      "id": "s149",
+      "text": "\"And you hired a cab?\""
+    },
+    {
+      "id": "s150",
+      "text": "\"That was so.\""
+    },
+    {
+      "id": "s151",
+      "text": "\"How far do you suppose it is to the station?\""
+    },
+    {
+      "id": "s152",
+      "text": "\"Well, I should reckon the best part of two miles.\""
+    },
+    {
+      "id": "s153",
+      "text": "\"So how long do you think it took you?\""
+    },
+    {
+      "id": "s154",
+      "text": "\"Well, half an hour, maybe, with that asthmatic in front.\""
+    },
+    {
+      "id": "s155",
+      "text": "\"So it should be three o'clock?\""
+    },
+    {
+      "id": "s156",
+      "text": "\"Yes, or a trifle after it.\""
+    },
+    {
+      "id": "s157",
+      "text": "\"Look at your watch.\""
+    },
+    {
+      "id": "s158",
+      "text": "The American did so and then stared at us in astonishment."
+    },
+    {
+      "id": "s159",
+      "text": "\"Say!\" he cried. \"It's run down."
+    },
+    {
+      "id": "s160",
+      "text": "That horse has broken every record, sure."
+    },
+    {
+      "id": "s161",
+      "text": "The sun is pretty low, now that I come to look at it."
+    },
+    {
+      "id": "s162",
+      "text": "Well, there's something here I don't understand.\""
+    },
+    {
+      "id": "s163",
+      "text": "\"Have you no remembrance of anything remarkable as you came up the hill?\""
+    },
+    {
+      "id": "s164",
+      "text": "\"Well, I seem to recollect that I was mighty sleepy once."
+    },
+    {
+      "id": "s165",
+      "text": "It comes back to me that I wanted to say something to the driver and that I couldn't make him heed me."
+    },
+    {
+      "id": "s166",
+      "text": "I guess it was the heat, but I felt swimmy for a moment."
+    },
+    {
+      "id": "s167",
+      "text": "That's all.\""
+    },
+    {
+      "id": "s168",
+      "text": "\"So it is with the whole human race,\" said Challenger to me. \"They have all felt swimmy for a moment."
+    },
+    {
+      "id": "s169",
+      "text": "None of them have as yet any comprehension of what has occurred."
+    },
+    {
+      "id": "s170",
+      "text": "Each will go on with his interrupted job as Austin has snatched up his hose-pipe or the golfer continued his game."
+    },
+    {
+      "id": "s171",
+      "text": "Your editor, Malone, will continue the issue of his papers, and very much amazed he will be at finding that an issue is missing."
+    },
+    {
+      "id": "s172",
+      "text": "Yes, my young friend,\" he added to the American reporter, with a sudden mood of amused geniality, \"it may interest you to know that the world has swum through the poisonous current which swirls like the Gulf Stream through the ocean of ether."
+    },
+    {
+      "id": "s173",
+      "text": "You will also kindly note for your own future convenience that to-day is not Friday, August the twenty-seventh, but Saturday, August the twenty-eighth, and that you sat senseless in your cab for twenty-eight hours upon the Rotherfield hill.\""
+    },
+    {
+      "id": "s174",
+      "text": "And \"right here,\" as my American colleague would say, I may bring this narrative to an end."
+    },
+    {
+      "id": "s175",
+      "text": "It is, as you are probably aware, only a fuller and more detailed version of the account which appeared in the Monday edition of the Daily Gazette--an account which has been universally admitted to be the greatest journalistic scoop of all time, which sold no fewer than three-and-a-half million copies of the paper."
+    },
+    {
+      "id": "s176",
+      "text": "Framed upon the wall of my sanctum I retain those magnificent headlines:--"
+    },
+    {
+      "id": "s177",
+      "text": "TWENTY-EIGHT HOURS' WORLD COMA UNPRECEDENTED EXPERIENCE CHALLENGER JUSTIFIED OUR CORRESPONDENT ESCAPES ENTHRALLING NARRATIVE THE OXYGEN ROOM WEIRD MOTOR DRIVE DEAD LONDON REPLACING THE MISSING PAGE GREAT FIRES AND LOSS OF LIFE WILL IT RECUR?"
+    },
+    {
+      "id": "s178",
+      "text": "Underneath this glorious scroll came nine and a half columns of narrative, in which appeared the first, last, and only account of the history of the planet, so far as one observer could draw it, during one long day of its existence."
+    },
+    {
+      "id": "s179",
+      "text": "Challenger and Summerlee have treated the matter in a joint scientific paper, but to me alone was left the popular account."
+    },
+    {
+      "id": "s180",
+      "text": "Surely I can sing \"Nunc dimittis.\" What is left but anti-climax in the life of a journalist after that!"
+    },
+    {
+      "id": "s181",
+      "text": "But let me not end on sensational headlines and a merely personal triumph."
+    },
+    {
+      "id": "s182",
+      "text": "Rather let me quote the sonorous passages in which the greatest of daily papers ended its admirable leader upon the subject--a leader which might well be filed for reference by every thoughtful man."
+    },
+    {
+      "id": "s183",
+      "text": "\"It has been a well-worn truism,\" said the Times, \"that our human race are a feeble folk before the infinite latent forces which surround us."
+    },
+    {
+      "id": "s184",
+      "text": "From the prophets of old and from the philosophers of our own time the same message and warning have reached us."
+    },
+    {
+      "id": "s185",
+      "text": "But, like all oft-repeated truths, it has in time lost something of its actuality and cogency."
+    },
+    {
+      "id": "s186",
+      "text": "A lesson, an actual experience, was needed to bring it home."
+    },
+    {
+      "id": "s187",
+      "text": "It is from that salutory but terrible ordeal that we have just emerged, with minds which are still stunned by the suddenness of the blow and with spirits which are chastened by the realization of our own limitations and impotence."
+    },
+    {
+      "id": "s188",
+      "text": "The world has paid a fearful price for its schooling."
+    },
+    {
+      "id": "s189",
+      "text": "Hardly yet have we learned the full tale of disaster, but the destruction by fire of New York, of Orleans, and of Brighton constitutes in itself one of the greatest tragedies in the history of our race."
+    },
+    {
+      "id": "s190",
+      "text": "When the account of the railway and shipping accidents has been completed, it will furnish grim reading, although there is evidence to show that in the vast majority of cases the drivers of trains and engineers of steamers succeeded in shutting off their motive power before succumbing to the poison."
+    },
+    {
+      "id": "s191",
+      "text": "But the material damage, enormous as it is both in life and in property, is not the consideration which will be uppermost in our minds to-day."
+    },
+    {
+      "id": "s192",
+      "text": "All this may in time be forgotten."
+    },
+    {
+      "id": "s193",
+      "text": "But what will not be forgotten, and what will and should continue to obsess our imaginations, is this revelation of the possibilities of the universe, this destruction of our ignorant self-complacency, and this demonstration of how narrow is the path of our material existence and what abysses may lie upon either side of it."
+    },
+    {
+      "id": "s194",
+      "text": "Solemnity and humility are at the base of all our emotions to-day."
+    },
+    {
+      "id": "s195",
+      "text": "May they be the foundations upon which a more earnest and reverent race may build a more worthy temple.\""
+    }
+  ]
+}

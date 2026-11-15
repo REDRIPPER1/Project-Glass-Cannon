@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-122",
+  "chapterTitle": "CHAPTER CXXII.",
+  "contentHash": "sha256:1874096ebcc7d49134035cde82acfb53a7c8267017f68573d3e34b7fa94e3cff",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER CXXII.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "MIDNIGHT ALOFT—THUNDER AND LIGHTNING."
+    },
+    {
+      "id": "s2",
+      "text": "_The Main-top-sail yard.—Tashtego passing new lashings around it._"
+    },
+    {
+      "id": "s3",
+      "text": "“Um, um, um."
+    },
+    {
+      "id": "s4",
+      "text": "Stop that thunder!"
+    },
+    {
+      "id": "s5",
+      "text": "Plenty too much thunder up here."
+    },
+    {
+      "id": "s6",
+      "text": "What’s the use of thunder?"
+    },
+    {
+      "id": "s7",
+      "text": "Um, um, um."
+    },
+    {
+      "id": "s8",
+      "text": "We don’t want thunder; we want rum; give us a glass of rum."
+    },
+    {
+      "id": "s9",
+      "text": "Um, um, um!”"
+    }
+  ]
+}

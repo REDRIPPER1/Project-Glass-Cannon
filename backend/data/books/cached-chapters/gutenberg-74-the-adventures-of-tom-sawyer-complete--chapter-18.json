@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+  "ebookId": "74",
+  "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-18",
+  "chapterTitle": "CHAPTER XVIII",
+  "contentHash": "sha256:bd437a044f7a80eb14f3d627be777843b3b4d7a76d0933106fe83a3665b8cdb6",
+  "attribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER XVIII. Source checked against Project Gutenberg eBook #74.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/74",
+    "textUrl": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "That was Tom’s great secret—the scheme to return home with his brother pirates and attend their own funerals."
+    },
+    {
+      "id": "s2",
+      "text": "They had paddled over to the Missouri shore on a log, at dusk on Saturday, landing five or six miles below the village; they had slept in the woods at the edge of the town till nearly daylight, and had then crept through back lanes and alleys and finished their sleep in the gallery of the church among a chaos of invalided benches."
+    },
+    {
+      "id": "s3",
+      "text": "At breakfast, Monday morning, Aunt Polly and Mary were very loving to Tom, and very attentive to his wants."
+    },
+    {
+      "id": "s4",
+      "text": "There was an unusual amount of talk."
+    },
+    {
+      "id": "s5",
+      "text": "In the course of it Aunt Polly said:"
+    },
+    {
+      "id": "s6",
+      "text": "“Well, I don’t say it wasn’t a fine joke, Tom, to keep everybody suffering ’most a week so you boys had a good time, but it is a pity you could be so hard-hearted as to let me suffer so."
+    },
+    {
+      "id": "s7",
+      "text": "If you could come over on a log to go to your funeral, you could have come over and give me a hint some way that you warn’t dead, but only run off.”"
+    },
+    {
+      "id": "s8",
+      "text": "“Yes, you could have done that, Tom,” said Mary; “and I believe you would if you had thought of it.”"
+    },
+    {
+      "id": "s9",
+      "text": "“Would you, Tom?” said Aunt Polly, her face lighting wistfully."
+    },
+    {
+      "id": "s10",
+      "text": "“Say, now, would you, if you’d thought of it?”"
+    },
+    {
+      "id": "s11",
+      "text": "“I—well, I don’t know. ’Twould ’a’ spoiled everything.”"
+    },
+    {
+      "id": "s12",
+      "text": "“Tom, I hoped you loved me that much,” said Aunt Polly, with a grieved tone that discomforted the boy."
+    },
+    {
+      "id": "s13",
+      "text": "“It would have been something if you’d cared enough to _think_ of it, even if you didn’t _do_ it.”"
+    },
+    {
+      "id": "s14",
+      "text": "“Now, auntie, that ain’t any harm,” pleaded Mary; “it’s only Tom’s giddy way—he is always in such a rush that he never thinks of anything.”"
+    },
+    {
+      "id": "s15",
+      "text": "“More’s the pity."
+    },
+    {
+      "id": "s16",
+      "text": "Sid would have thought."
+    },
+    {
+      "id": "s17",
+      "text": "And Sid would have come and _done_ it, too."
+    },
+    {
+      "id": "s18",
+      "text": "Tom, you’ll look back, some day, when it’s too late, and wish you’d cared a little more for me when it would have cost you so little.”"
+    },
+    {
+      "id": "s19",
+      "text": "“Now, auntie, you know I do care for you,” said Tom."
+    },
+    {
+      "id": "s20",
+      "text": "“I’d know it better if you acted more like it.”"
+    },
+    {
+      "id": "s21",
+      "text": "“I wish now I’d thought,” said Tom, with a repentant tone; “but I dreamt about you, anyway."
+    },
+    {
+      "id": "s22",
+      "text": "That’s something, ain’t it?”"
+    },
+    {
+      "id": "s23",
+      "text": "“It ain’t much—a cat does that much—but it’s better than nothing."
+    },
+    {
+      "id": "s24",
+      "text": "What did you dream?”"
+    },
+    {
+      "id": "s25",
+      "text": "“Why, Wednesday night I dreamt that you was sitting over there by the bed, and Sid was sitting by the woodbox, and Mary next to him.”"
+    },
+    {
+      "id": "s26",
+      "text": "“Well, so we did."
+    },
+    {
+      "id": "s27",
+      "text": "So we always do."
+    },
+    {
+      "id": "s28",
+      "text": "I’m glad your dreams could take even that much trouble about us.”"
+    },
+    {
+      "id": "s29",
+      "text": "“And I dreamt that Joe Harper’s mother was here.”"
+    },
+    {
+      "id": "s30",
+      "text": "“Why, she was here!"
+    },
+    {
+      "id": "s31",
+      "text": "Did you dream any more?”"
+    },
+    {
+      "id": "s32",
+      "text": "“Oh, lots."
+    },
+    {
+      "id": "s33",
+      "text": "But it’s so dim, now.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Well, try to recollect—can’t you?”"
+    },
+    {
+      "id": "s35",
+      "text": "“Somehow it seems to me that the wind—the wind blowed the—the—”"
+    },
+    {
+      "id": "s36",
+      "text": "“Try harder, Tom!"
+    },
+    {
+      "id": "s37",
+      "text": "The wind did blow something."
+    },
+    {
+      "id": "s38",
+      "text": "Come!”"
+    },
+    {
+      "id": "s39",
+      "text": "Tom pressed his fingers on his forehead an anxious minute, and then said:"
+    },
+    {
+      "id": "s40",
+      "text": "“I’ve got it now!"
+    },
+    {
+      "id": "s41",
+      "text": "I’ve got it now!"
+    },
+    {
+      "id": "s42",
+      "text": "It blowed the candle!”"
+    },
+    {
+      "id": "s43",
+      "text": "“Mercy on us!"
+    },
+    {
+      "id": "s44",
+      "text": "Go on, Tom—go on!”"
+    },
+    {
+      "id": "s45",
+      "text": "“And it seems to me that you said, ‘Why, I believe that that door—’”"
+    },
+    {
+      "id": "s46",
+      "text": "“Go _on_, Tom!”"
+    },
+    {
+      "id": "s47",
+      "text": "“Just let me study a moment—just a moment."
+    },
+    {
+      "id": "s48",
+      "text": "Oh, yes—you said you believed the door was open.”"
+    },
+    {
+      "id": "s49",
+      "text": "“As I’m sitting here, I did!"
+    },
+    {
+      "id": "s50",
+      "text": "Didn’t I, Mary!"
+    },
+    {
+      "id": "s51",
+      "text": "Go on!”"
+    },
+    {
+      "id": "s52",
+      "text": "“And then—and then—well I won’t be certain, but it seems like as if you made Sid go and—and—”"
+    },
+    {
+      "id": "s53",
+      "text": "“Well?"
+    },
+    {
+      "id": "s54",
+      "text": "Well?"
+    },
+    {
+      "id": "s55",
+      "text": "What did I make him do, Tom?"
+    },
+    {
+      "id": "s56",
+      "text": "What did I make him do?”"
+    },
+    {
+      "id": "s57",
+      "text": "“You made him—you—Oh, you made him shut it.”"
+    },
+    {
+      "id": "s58",
+      "text": "“Well, for the land’s sake!"
+    },
+    {
+      "id": "s59",
+      "text": "I never heard the beat of that in all my days!"
+    },
+    {
+      "id": "s60",
+      "text": "Don’t tell _me_ there ain’t anything in dreams, any more."
+    },
+    {
+      "id": "s61",
+      "text": "Sereny Harper shall know of this before I’m an hour older."
+    },
+    {
+      "id": "s62",
+      "text": "I’d like to see her get around _this_ with her rubbage ’bout superstition."
+    },
+    {
+      "id": "s63",
+      "text": "Go on, Tom!”"
+    },
+    {
+      "id": "s64",
+      "text": "“Oh, it’s all getting just as bright as day, now."
+    },
+    {
+      "id": "s65",
+      "text": "Next you said I warn’t _bad_, only mischeevous and harum-scarum, and not any more responsible than—than—I think it was a colt, or something.”"
+    },
+    {
+      "id": "s66",
+      "text": "“And so it was!"
+    },
+    {
+      "id": "s67",
+      "text": "Well, goodness gracious!"
+    },
+    {
+      "id": "s68",
+      "text": "Go on, Tom!”"
+    },
+    {
+      "id": "s69",
+      "text": "“And then you began to cry.”"
+    },
+    {
+      "id": "s70",
+      "text": "“So I did."
+    },
+    {
+      "id": "s71",
+      "text": "So I did."
+    },
+    {
+      "id": "s72",
+      "text": "Not the first time, neither."
+    },
+    {
+      "id": "s73",
+      "text": "And then—”"
+    },
+    {
+      "id": "s74",
+      "text": "“Then Mrs."
+    },
+    {
+      "id": "s75",
+      "text": "Harper she began to cry, and said Joe was just the same, and she wished she hadn’t whipped him for taking cream when she’d throwed it out her own self—”"
+    },
+    {
+      "id": "s76",
+      "text": "“Tom!"
+    },
+    {
+      "id": "s77",
+      "text": "The sperrit was upon you!"
+    },
+    {
+      "id": "s78",
+      "text": "You was a prophesying—that’s what you was doing!"
+    },
+    {
+      "id": "s79",
+      "text": "Land alive, go on, Tom!”"
+    },
+    {
+      "id": "s80",
+      "text": "“Then Sid he said—he said—”"
+    },
+    {
+      "id": "s81",
+      "text": "“I don’t think I said anything,” said Sid."
+    },
+    {
+      "id": "s82",
+      "text": "“Yes you did, Sid,” said Mary."
+    },
+    {
+      "id": "s83",
+      "text": "“Shut your heads and let Tom go on!"
+    },
+    {
+      "id": "s84",
+      "text": "What did he say, Tom?”"
+    },
+    {
+      "id": "s85",
+      "text": "“He said—I _think_ he said he hoped I was better off where I was gone to, but if I’d been better sometimes—”"
+    },
+    {
+      "id": "s86",
+      "text": "“_There_, d’you hear that!"
+    },
+    {
+      "id": "s87",
+      "text": "It was his very words!”"
+    },
+    {
+      "id": "s88",
+      "text": "“And you shut him up sharp.”"
+    },
+    {
+      "id": "s89",
+      "text": "“I lay I did!"
+    },
+    {
+      "id": "s90",
+      "text": "There must ’a’ been an angel there."
+    },
+    {
+      "id": "s91",
+      "text": "There _was_ an angel there, somewheres!”"
+    },
+    {
+      "id": "s92",
+      "text": "“And Mrs."
+    },
+    {
+      "id": "s93",
+      "text": "Harper told about Joe scaring her with a firecracker, and you told about Peter and the Pain-killer—”"
+    },
+    {
+      "id": "s94",
+      "text": "“Just as true as I live!”"
+    },
+    {
+      "id": "s95",
+      "text": "“And then there was a whole lot of talk ’bout dragging the river for us, and ’bout having the funeral Sunday, and then you and old Miss Harper hugged and cried, and she went.”"
+    },
+    {
+      "id": "s96",
+      "text": "“It happened just so!"
+    },
+    {
+      "id": "s97",
+      "text": "It happened just so, as sure as I’m a-sitting in these very tracks."
+    },
+    {
+      "id": "s98",
+      "text": "Tom, you couldn’t told it more like if you’d ’a’ seen it!"
+    },
+    {
+      "id": "s99",
+      "text": "And then what?"
+    },
+    {
+      "id": "s100",
+      "text": "Go on, Tom!”"
+    },
+    {
+      "id": "s101",
+      "text": "“Then I thought you prayed for me—and I could see you and hear every word you said."
+    },
+    {
+      "id": "s102",
+      "text": "And you went to bed, and I was so sorry that I took and wrote on a piece of sycamore bark, ‘We ain’t dead—we are only off being pirates,’ and put it on the table by the candle; and then you looked so good, laying there asleep, that I thought I went and leaned over and kissed you on the lips.”"
+    },
+    {
+      "id": "s103",
+      "text": "“Did you, Tom, _did_ you!"
+    },
+    {
+      "id": "s104",
+      "text": "I just forgive you everything for that!” And she seized the boy in a crushing embrace that made him feel like the guiltiest of villains."
+    },
+    {
+      "id": "s105",
+      "text": "“It was very kind, even though it was only a—dream,” Sid soliloquized just audibly."
+    },
+    {
+      "id": "s106",
+      "text": "“Shut up, Sid!"
+    },
+    {
+      "id": "s107",
+      "text": "A body does just the same in a dream as he’d do if he was awake."
+    },
+    {
+      "id": "s108",
+      "text": "Here’s a big Milum apple I’ve been saving for you, Tom, if you was ever found again—now go ’long to school."
+    },
+    {
+      "id": "s109",
+      "text": "I’m thankful to the good God and Father of us all I’ve got you back, that’s long-suffering and merciful to them that believe on Him and keep His word, though goodness knows I’m unworthy of it, but if only the worthy ones got His blessings and had His hand to help them over the rough places, there’s few enough would smile here or ever enter into His rest when the long night comes."
+    },
+    {
+      "id": "s110",
+      "text": "Go ’long Sid, Mary, Tom—take yourselves off—you’ve hendered me long enough.”"
+    },
+    {
+      "id": "s111",
+      "text": "The children left for school, and the old lady to call on Mrs."
+    },
+    {
+      "id": "s112",
+      "text": "Harper and vanquish her realism with Tom’s marvellous dream."
+    },
+    {
+      "id": "s113",
+      "text": "Sid had better judgment than to utter the thought that was in his mind as he left the house."
+    },
+    {
+      "id": "s114",
+      "text": "It was this: “Pretty thin—as long a dream as that, without any mistakes in it!”"
+    },
+    {
+      "id": "s115",
+      "text": "What a hero Tom was become, now!"
+    },
+    {
+      "id": "s116",
+      "text": "He did not go skipping and prancing, but moved with a dignified swagger as became a pirate who felt that the public eye was on him."
+    },
+    {
+      "id": "s117",
+      "text": "And indeed it was; he tried not to seem to see the looks or hear the remarks as he passed along, but they were food and drink to him."
+    },
+    {
+      "id": "s118",
+      "text": "Smaller boys than himself flocked at his heels, as proud to be seen with him, and tolerated by him, as if he had been the drummer at the head of a procession or the elephant leading a menagerie into town."
+    },
+    {
+      "id": "s119",
+      "text": "Boys of his own size pretended not to know he had been away at all; but they were consuming with envy, nevertheless."
+    },
+    {
+      "id": "s120",
+      "text": "They would have given anything to have that swarthy sun-tanned skin of his, and his glittering notoriety; and Tom would not have parted with either for a circus."
+    },
+    {
+      "id": "s121",
+      "text": "At school the children made so much of him and of Joe, and delivered such eloquent admiration from their eyes, that the two heroes were not long in becoming insufferably “stuck-up.” They began to tell their adventures to hungry listeners—but they only began; it was not a thing likely to have an end, with imaginations like theirs to furnish material."
+    },
+    {
+      "id": "s122",
+      "text": "And finally, when they got out their pipes and went serenely puffing around, the very summit of glory was reached."
+    },
+    {
+      "id": "s123",
+      "text": "Tom decided that he could be independent of Becky Thatcher now."
+    },
+    {
+      "id": "s124",
+      "text": "Glory was sufficient."
+    },
+    {
+      "id": "s125",
+      "text": "He would live for glory."
+    },
+    {
+      "id": "s126",
+      "text": "Now that he was distinguished, maybe she would be wanting to “make up.” Well, let her—she should see that he could be as indifferent as some other people."
+    },
+    {
+      "id": "s127",
+      "text": "Presently she arrived."
+    },
+    {
+      "id": "s128",
+      "text": "Tom pretended not to see her."
+    },
+    {
+      "id": "s129",
+      "text": "He moved away and joined a group of boys and girls and began to talk."
+    },
+    {
+      "id": "s130",
+      "text": "Soon he observed that she was tripping gayly back and forth with flushed face and dancing eyes, pretending to be busy chasing schoolmates, and screaming with laughter when she made a capture; but he noticed that she always made her captures in his vicinity, and that she seemed to cast a conscious eye in his direction at such times, too."
+    },
+    {
+      "id": "s131",
+      "text": "It gratified all the vicious vanity that was in him; and so, instead of winning him, it only “set him up” the more and made him the more diligent to avoid betraying that he knew she was about."
+    },
+    {
+      "id": "s132",
+      "text": "Presently she gave over skylarking, and moved irresolutely about, sighing once or twice and glancing furtively and wistfully toward Tom."
+    },
+    {
+      "id": "s133",
+      "text": "Then she observed that now Tom was talking more particularly to Amy Lawrence than to any one else."
+    },
+    {
+      "id": "s134",
+      "text": "She felt a sharp pang and grew disturbed and uneasy at once."
+    },
+    {
+      "id": "s135",
+      "text": "She tried to go away, but her feet were treacherous, and carried her to the group instead."
+    },
+    {
+      "id": "s136",
+      "text": "She said to a girl almost at Tom’s elbow—with sham vivacity:"
+    },
+    {
+      "id": "s137",
+      "text": "“Why, Mary Austin! you bad girl, why didn’t you come to Sunday-school?”"
+    },
+    {
+      "id": "s138",
+      "text": "“I did come—didn’t you see me?”"
+    },
+    {
+      "id": "s139",
+      "text": "“Why, no!"
+    },
+    {
+      "id": "s140",
+      "text": "Did you?"
+    },
+    {
+      "id": "s141",
+      "text": "Where did you sit?”"
+    },
+    {
+      "id": "s142",
+      "text": "“I was in Miss Peters’ class, where I always go."
+    },
+    {
+      "id": "s143",
+      "text": "I saw _you_.”"
+    },
+    {
+      "id": "s144",
+      "text": "“Did you?"
+    },
+    {
+      "id": "s145",
+      "text": "Why, it’s funny I didn’t see you."
+    },
+    {
+      "id": "s146",
+      "text": "I wanted to tell you about the picnic.”"
+    },
+    {
+      "id": "s147",
+      "text": "“Oh, that’s jolly."
+    },
+    {
+      "id": "s148",
+      "text": "Who’s going to give it?”"
+    },
+    {
+      "id": "s149",
+      "text": "“My ma’s going to let me have one.”"
+    },
+    {
+      "id": "s150",
+      "text": "“Oh, goody; I hope she’ll let _me_ come.”"
+    },
+    {
+      "id": "s151",
+      "text": "“Well, she will."
+    },
+    {
+      "id": "s152",
+      "text": "The picnic’s for me."
+    },
+    {
+      "id": "s153",
+      "text": "She’ll let anybody come that I want, and I want you.”"
+    },
+    {
+      "id": "s154",
+      "text": "“That’s ever so nice."
+    },
+    {
+      "id": "s155",
+      "text": "When is it going to be?”"
+    },
+    {
+      "id": "s156",
+      "text": "“By and by."
+    },
+    {
+      "id": "s157",
+      "text": "Maybe about vacation.”"
+    },
+    {
+      "id": "s158",
+      "text": "“Oh, won’t it be fun!"
+    },
+    {
+      "id": "s159",
+      "text": "You going to have all the girls and boys?”"
+    },
+    {
+      "id": "s160",
+      "text": "“Yes, every one that’s friends to me—or wants to be”; and she glanced ever so furtively at Tom, but he talked right along to Amy Lawrence about the terrible storm on the island, and how the lightning tore the great sycamore tree “all to flinders” while he was “standing within three feet of it.”"
+    },
+    {
+      "id": "s161",
+      "text": "“Oh, may I come?” said Grace Miller."
+    },
+    {
+      "id": "s162",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s163",
+      "text": "“And me?” said Sally Rogers."
+    },
+    {
+      "id": "s164",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s165",
+      "text": "“And me, too?” said Susy Harper."
+    },
+    {
+      "id": "s166",
+      "text": "“And Joe?”"
+    },
+    {
+      "id": "s167",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s168",
+      "text": "And so on, with clapping of joyful hands till all the group had begged for invitations but Tom and Amy."
+    },
+    {
+      "id": "s169",
+      "text": "Then Tom turned coolly away, still talking, and took Amy with him."
+    },
+    {
+      "id": "s170",
+      "text": "Becky’s lips trembled and the tears came to her eyes; she hid these signs with a forced gayety and went on chattering, but the life had gone out of the picnic, now, and out of everything else; she got away as soon as she could and hid herself and had what her sex call “a good cry.” Then she sat moody, with wounded pride, till the bell rang."
+    },
+    {
+      "id": "s171",
+      "text": "She roused up, now, with a vindictive cast in her eye, and gave her plaited tails a shake and said she knew what _she’d_ do."
+    },
+    {
+      "id": "s172",
+      "text": "At recess Tom continued his flirtation with Amy with jubilant self-satisfaction."
+    },
+    {
+      "id": "s173",
+      "text": "And he kept drifting about to find Becky and lacerate her with the performance."
+    },
+    {
+      "id": "s174",
+      "text": "At last he spied her, but there was a sudden falling of his mercury."
+    },
+    {
+      "id": "s175",
+      "text": "She was sitting cosily on a little bench behind the schoolhouse looking at a picture-book with Alfred Temple—and so absorbed were they, and their heads so close together over the book, that they did not seem to be conscious of anything in the world besides."
+    },
+    {
+      "id": "s176",
+      "text": "Jealousy ran red-hot through Tom’s veins."
+    },
+    {
+      "id": "s177",
+      "text": "He began to hate himself for throwing away the chance Becky had offered for a reconciliation."
+    },
+    {
+      "id": "s178",
+      "text": "He called himself a fool, and all the hard names he could think of."
+    },
+    {
+      "id": "s179",
+      "text": "He wanted to cry with vexation."
+    },
+    {
+      "id": "s180",
+      "text": "Amy chatted happily along, as they walked, for her heart was singing, but Tom’s tongue had lost its function."
+    },
+    {
+      "id": "s181",
+      "text": "He did not hear what Amy was saying, and whenever she paused expectantly he could only stammer an awkward assent, which was as often misplaced as otherwise."
+    },
+    {
+      "id": "s182",
+      "text": "He kept drifting to the rear of the schoolhouse, again and again, to sear his eyeballs with the hateful spectacle there."
+    },
+    {
+      "id": "s183",
+      "text": "He could not help it."
+    },
+    {
+      "id": "s184",
+      "text": "And it maddened him to see, as he thought he saw, that Becky Thatcher never once suspected that he was even in the land of the living."
+    },
+    {
+      "id": "s185",
+      "text": "But she did see, nevertheless; and she knew she was winning her fight, too, and was glad to see him suffer as she had suffered."
+    },
+    {
+      "id": "s186",
+      "text": "Amy’s happy prattle became intolerable."
+    },
+    {
+      "id": "s187",
+      "text": "Tom hinted at things he had to attend to; things that must be done; and time was fleeting."
+    },
+    {
+      "id": "s188",
+      "text": "But in vain—the girl chirped on."
+    },
+    {
+      "id": "s189",
+      "text": "Tom thought, “Oh, hang her, ain’t I ever going to get rid of her?” At last he must be attending to those things—and she said artlessly that she would be “around” when school let out."
+    },
+    {
+      "id": "s190",
+      "text": "And he hastened away, hating her for it."
+    },
+    {
+      "id": "s191",
+      "text": "“Any other boy!” Tom thought, grating his teeth."
+    },
+    {
+      "id": "s192",
+      "text": "“Any boy in the whole town but that Saint Louis smarty that thinks he dresses so fine and is aristocracy!"
+    },
+    {
+      "id": "s193",
+      "text": "Oh, all right, I licked you the first day you ever saw this town, mister, and I’ll lick you again!"
+    },
+    {
+      "id": "s194",
+      "text": "You just wait till I catch you out!"
+    },
+    {
+      "id": "s195",
+      "text": "I’ll just take and—”"
+    },
+    {
+      "id": "s196",
+      "text": "And he went through the motions of thrashing an imaginary boy—pummelling the air, and kicking and gouging."
+    },
+    {
+      "id": "s197",
+      "text": "“Oh, you do, do you?"
+    },
+    {
+      "id": "s198",
+      "text": "You holler ’nough, do you?"
+    },
+    {
+      "id": "s199",
+      "text": "Now, then, let that learn you!” And so the imaginary flogging was finished to his satisfaction."
+    },
+    {
+      "id": "s200",
+      "text": "Tom fled home at noon."
+    },
+    {
+      "id": "s201",
+      "text": "His conscience could not endure any more of Amy’s grateful happiness, and his jealousy could bear no more of the other distress."
+    },
+    {
+      "id": "s202",
+      "text": "Becky resumed her picture inspections with Alfred, but as the minutes dragged along and no Tom came to suffer, her triumph began to cloud and she lost interest; gravity and absentmindedness followed, and then melancholy; two or three times she pricked up her ear at a footstep, but it was a false hope; no Tom came."
+    },
+    {
+      "id": "s203",
+      "text": "At last she grew entirely miserable and wished she hadn’t carried it so far."
+    },
+    {
+      "id": "s204",
+      "text": "When poor Alfred, seeing that he was losing her, he did not know how, kept exclaiming: “Oh, here’s a jolly one! look at this!” she lost patience at last, and said, “Oh, don’t bother me!"
+    },
+    {
+      "id": "s205",
+      "text": "I don’t care for them!” and burst into tears, and got up and walked away."
+    },
+    {
+      "id": "s206",
+      "text": "Alfred dropped alongside and was going to try to comfort her, but she said:"
+    },
+    {
+      "id": "s207",
+      "text": "“Go away and leave me alone, can’t you!"
+    },
+    {
+      "id": "s208",
+      "text": "I hate you!”"
+    },
+    {
+      "id": "s209",
+      "text": "So the boy halted, wondering what he could have done—for she had said she would look at pictures all through the nooning—and she walked on, crying."
+    },
+    {
+      "id": "s210",
+      "text": "Then Alfred went musing into the deserted schoolhouse."
+    },
+    {
+      "id": "s211",
+      "text": "He was humiliated and angry."
+    },
+    {
+      "id": "s212",
+      "text": "He easily guessed his way to the truth—the girl had simply made a convenience of him to vent her spite upon Tom Sawyer."
+    },
+    {
+      "id": "s213",
+      "text": "He was far from hating Tom the less when this thought occurred to him."
+    },
+    {
+      "id": "s214",
+      "text": "He wished there was some way to get that boy into trouble without much risk to himself."
+    },
+    {
+      "id": "s215",
+      "text": "Tom’s spelling-book fell under his eye."
+    },
+    {
+      "id": "s216",
+      "text": "Here was his opportunity."
+    },
+    {
+      "id": "s217",
+      "text": "He gratefully opened to the lesson for the afternoon and poured ink upon the page."
+    },
+    {
+      "id": "s218",
+      "text": "Becky, glancing in at a window behind him at the moment, saw the act, and moved on, without discovering herself."
+    },
+    {
+      "id": "s219",
+      "text": "She started homeward, now, intending to find Tom and tell him; Tom would be thankful and their troubles would be healed."
+    },
+    {
+      "id": "s220",
+      "text": "Before she was half way home, however, she had changed her mind."
+    },
+    {
+      "id": "s221",
+      "text": "The thought of Tom’s treatment of her when she was talking about her picnic came scorching back and filled her with shame."
+    },
+    {
+      "id": "s222",
+      "text": "She resolved to let him get whipped on the damaged spelling-book’s account, and to hate him forever, into the bargain."
+    }
+  ]
+}

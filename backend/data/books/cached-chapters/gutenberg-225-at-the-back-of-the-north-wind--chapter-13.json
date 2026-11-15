@@ -1,0 +1,661 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-225-at-the-back-of-the-north-wind",
+  "ebookId": "225",
+  "edition": "Project Gutenberg eBook #225; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-13",
+  "chapterTitle": "CHAPTER XIII. THE SEASIDE",
+  "contentHash": "sha256:babb61daeb895c3ee84df450ef193878e66d608f73281f2c05a16deed5484228",
+  "attribution": "MacDonald, George, 1824-1905, At the Back of the North Wind, CHAPTER XIII. THE SEASIDE. Source checked against Project Gutenberg eBook #225.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/225",
+    "textUrl": "https://www.gutenberg.org/cache/epub/225/pg225.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "DIAMOND and his mother sat down upon the edge of the rough grass that bordered the sand."
+    },
+    {
+      "id": "s2",
+      "text": "The sun was just far enough past its highest not to shine in their eyes when they looked eastward."
+    },
+    {
+      "id": "s3",
+      "text": "A sweet little wind blew on their left side, and comforted the mother without letting her know what it was that comforted her."
+    },
+    {
+      "id": "s4",
+      "text": "Away before them stretched the sparkling waters of the ocean, every wave of which flashed out its own delight back in the face of the great sun, which looked down from the stillness of its blue house with glorious silent face upon its flashing children."
+    },
+    {
+      "id": "s5",
+      "text": "On each hand the shore rounded outwards, forming a little bay."
+    },
+    {
+      "id": "s6",
+      "text": "There were no white cliffs here, as further north and south, and the place was rather dreary, but the sky got at them so much the better."
+    },
+    {
+      "id": "s7",
+      "text": "Not a house, not a creature was within sight."
+    },
+    {
+      "id": "s8",
+      "text": "Dry sand was about their feet, and under them thin wiry grass, that just managed to grow out of the poverty-stricken shore."
+    },
+    {
+      "id": "s9",
+      "text": "“Oh dear!” said Diamond's mother, with a deep sigh, “it's a sad world!”"
+    },
+    {
+      "id": "s10",
+      "text": "“Is it?” said Diamond."
+    },
+    {
+      "id": "s11",
+      "text": "“I didn't know.”"
+    },
+    {
+      "id": "s12",
+      "text": "“How should you know, child?"
+    },
+    {
+      "id": "s13",
+      "text": "You've been too well taken care of, I trust.”"
+    },
+    {
+      "id": "s14",
+      "text": "“Oh yes, I have,” returned Diamond."
+    },
+    {
+      "id": "s15",
+      "text": "“I'm sorry!"
+    },
+    {
+      "id": "s16",
+      "text": "I thought you were taken care of too."
+    },
+    {
+      "id": "s17",
+      "text": "I thought my father took care of you."
+    },
+    {
+      "id": "s18",
+      "text": "I will ask him about it."
+    },
+    {
+      "id": "s19",
+      "text": "I think he must have forgotten.”"
+    },
+    {
+      "id": "s20",
+      "text": "“Dear boy!” said his mother, “your father's the best man in the world.”"
+    },
+    {
+      "id": "s21",
+      "text": "“So I thought!” returned Diamond with triumph."
+    },
+    {
+      "id": "s22",
+      "text": "“I was sure of it!--Well, doesn't he take very good care of you?”"
+    },
+    {
+      "id": "s23",
+      "text": "“Yes, yes, he does,” answered his mother, bursting into tears."
+    },
+    {
+      "id": "s24",
+      "text": "“But who's to take care of him?"
+    },
+    {
+      "id": "s25",
+      "text": "And how is he to take care of us if he's got nothing to eat himself?”"
+    },
+    {
+      "id": "s26",
+      "text": "“Oh dear!” said Diamond with a gasp; “hasn't he got anything to eat?"
+    },
+    {
+      "id": "s27",
+      "text": "Oh!"
+    },
+    {
+      "id": "s28",
+      "text": "I must go home to him.”"
+    },
+    {
+      "id": "s29",
+      "text": "“No, no, child."
+    },
+    {
+      "id": "s30",
+      "text": "He's not come to that yet."
+    },
+    {
+      "id": "s31",
+      "text": "But what's to become of us, I don't know.”"
+    },
+    {
+      "id": "s32",
+      "text": "“Are you very hungry, mother?"
+    },
+    {
+      "id": "s33",
+      "text": "There's the basket."
+    },
+    {
+      "id": "s34",
+      "text": "I thought you put something to eat in it.”"
+    },
+    {
+      "id": "s35",
+      "text": "“O you darling stupid!"
+    },
+    {
+      "id": "s36",
+      "text": "I didn't say I was hungry,” returned his mother, smiling through her tears."
+    },
+    {
+      "id": "s37",
+      "text": "“Then I don't understand you at all,” said Diamond."
+    },
+    {
+      "id": "s38",
+      "text": "“Do tell me what's the matter.”"
+    },
+    {
+      "id": "s39",
+      "text": "“There are people in the world who have nothing to eat, Diamond.”"
+    },
+    {
+      "id": "s40",
+      "text": "“Then I suppose they don't stop in it any longer."
+    },
+    {
+      "id": "s41",
+      "text": "They--they--what you call--die--don't they?”"
+    },
+    {
+      "id": "s42",
+      "text": "“Yes, they do."
+    },
+    {
+      "id": "s43",
+      "text": "How would you like that?”"
+    },
+    {
+      "id": "s44",
+      "text": "“I don't know."
+    },
+    {
+      "id": "s45",
+      "text": "I never tried."
+    },
+    {
+      "id": "s46",
+      "text": "But I suppose they go where they get something to eat.”"
+    },
+    {
+      "id": "s47",
+      "text": "“Like enough they don't want it,” said his mother, petulantly."
+    },
+    {
+      "id": "s48",
+      "text": "“That's all right then,” said Diamond, thinking I daresay more than he chose to put in words."
+    },
+    {
+      "id": "s49",
+      "text": "“Is it though?"
+    },
+    {
+      "id": "s50",
+      "text": "Poor boy! how little you know about things!"
+    },
+    {
+      "id": "s51",
+      "text": "Mr."
+    },
+    {
+      "id": "s52",
+      "text": "Coleman's lost all his money, and your father has nothing to do, and we shall have nothing to eat by and by.”"
+    },
+    {
+      "id": "s53",
+      "text": "“Are you sure, mother?”"
+    },
+    {
+      "id": "s54",
+      "text": "“Sure of what?”"
+    },
+    {
+      "id": "s55",
+      "text": "“Sure that we shall have nothing to eat.”"
+    },
+    {
+      "id": "s56",
+      "text": "“No, thank Heaven!"
+    },
+    {
+      "id": "s57",
+      "text": "I'm not sure of it."
+    },
+    {
+      "id": "s58",
+      "text": "I hope not.”"
+    },
+    {
+      "id": "s59",
+      "text": "“Then I can't understand it, mother."
+    },
+    {
+      "id": "s60",
+      "text": "There's a piece of gingerbread in the basket, I know.”"
+    },
+    {
+      "id": "s61",
+      "text": "“O you little bird!"
+    },
+    {
+      "id": "s62",
+      "text": "You have no more sense than a sparrow that picks what it wants, and never thinks of the winter and the frost and, the snow.”"
+    },
+    {
+      "id": "s63",
+      "text": "“Ah--yes--I see."
+    },
+    {
+      "id": "s64",
+      "text": "But the birds get through the winter, don't they?”"
+    },
+    {
+      "id": "s65",
+      "text": "“Some of them fall dead on the ground.”"
+    },
+    {
+      "id": "s66",
+      "text": "“They must die some time."
+    },
+    {
+      "id": "s67",
+      "text": "They wouldn't like to be birds always."
+    },
+    {
+      "id": "s68",
+      "text": "Would you, mother?”"
+    },
+    {
+      "id": "s69",
+      "text": "“What a child it is!” thought his mother, but she said nothing."
+    },
+    {
+      "id": "s70",
+      "text": "“Oh! now I remember,” Diamond went on."
+    },
+    {
+      "id": "s71",
+      "text": "“Father told me that day I went to Epping Forest with him, that the rose-bushes, and the may-bushes, and the holly-bushes were the bird's barns, for there were the hips, and the haws, and the holly-berries, all ready for the winter.”"
+    },
+    {
+      "id": "s72",
+      "text": "“Yes; that's all very true."
+    },
+    {
+      "id": "s73",
+      "text": "So you see the birds are provided for."
+    },
+    {
+      "id": "s74",
+      "text": "But there are no such barns for you and me, Diamond.”"
+    },
+    {
+      "id": "s75",
+      "text": "“Ain't there?”"
+    },
+    {
+      "id": "s76",
+      "text": "“No."
+    },
+    {
+      "id": "s77",
+      "text": "We've got to work for our bread.”"
+    },
+    {
+      "id": "s78",
+      "text": "“Then let's go and work,” said Diamond, getting up."
+    },
+    {
+      "id": "s79",
+      "text": "“It's no use."
+    },
+    {
+      "id": "s80",
+      "text": "We've not got anything to do.”"
+    },
+    {
+      "id": "s81",
+      "text": "“Then let's wait.”"
+    },
+    {
+      "id": "s82",
+      "text": "“Then we shall starve.”"
+    },
+    {
+      "id": "s83",
+      "text": "“No."
+    },
+    {
+      "id": "s84",
+      "text": "There's the basket."
+    },
+    {
+      "id": "s85",
+      "text": "Do you know, mother, I think I shall call that basket the barn.”"
+    },
+    {
+      "id": "s86",
+      "text": "“It's not a very big one."
+    },
+    {
+      "id": "s87",
+      "text": "And when it's empty--where are we then?”"
+    },
+    {
+      "id": "s88",
+      "text": "“At auntie's cupboard,” returned Diamond promptly."
+    },
+    {
+      "id": "s89",
+      "text": "“But we can't eat auntie's things all up and leave her to starve.”"
+    },
+    {
+      "id": "s90",
+      "text": "“No, no."
+    },
+    {
+      "id": "s91",
+      "text": "We'll go back to father before that."
+    },
+    {
+      "id": "s92",
+      "text": "He'll have found a cupboard somewhere by that time.”"
+    },
+    {
+      "id": "s93",
+      "text": "“How do you know that?”"
+    },
+    {
+      "id": "s94",
+      "text": "“I don't know it."
+    },
+    {
+      "id": "s95",
+      "text": "But I haven't got even a cupboard, and I've always had plenty to eat."
+    },
+    {
+      "id": "s96",
+      "text": "I've heard you say I had too much, sometimes.”"
+    },
+    {
+      "id": "s97",
+      "text": "“But I tell you that's because I've had a cupboard for you, child.”"
+    },
+    {
+      "id": "s98",
+      "text": "“And when yours was empty, auntie opened hers.”"
+    },
+    {
+      "id": "s99",
+      "text": "“But that can't go on.”"
+    },
+    {
+      "id": "s100",
+      "text": "“How do you know?"
+    },
+    {
+      "id": "s101",
+      "text": "I think there must be a big cupboard somewhere, out of which the little cupboards are filled, you know, mother.”"
+    },
+    {
+      "id": "s102",
+      "text": "“Well, I wish I could find the door of that cupboard,” said his mother."
+    },
+    {
+      "id": "s103",
+      "text": "But the same moment she stopped, and was silent for a good while."
+    },
+    {
+      "id": "s104",
+      "text": "I cannot tell whether Diamond knew what she was thinking, but I think I know."
+    },
+    {
+      "id": "s105",
+      "text": "She had heard something at church the day before, which came back upon her--something like this, that she hadn't to eat for tomorrow as well as for to-day; and that what was not wanted couldn't be missed."
+    },
+    {
+      "id": "s106",
+      "text": "So, instead of saying anything more, she stretched out her hand for the basket, and she and Diamond had their dinner."
+    },
+    {
+      "id": "s107",
+      "text": "And Diamond did enjoy it."
+    },
+    {
+      "id": "s108",
+      "text": "For the drive and the fresh air had made him quite hungry; and he did not, like his mother, trouble himself about what they should dine off that day week."
+    },
+    {
+      "id": "s109",
+      "text": "The fact was he had lived so long without any food at all at the back of the north wind, that he knew quite well that food was not essential to existence; that in fact, under certain circumstances, people could live without it well enough."
+    },
+    {
+      "id": "s110",
+      "text": "His mother did not speak much during their dinner."
+    },
+    {
+      "id": "s111",
+      "text": "After it was over she helped him to walk about a little, but he was not able for much and soon got tired."
+    },
+    {
+      "id": "s112",
+      "text": "He did not get fretful, though."
+    },
+    {
+      "id": "s113",
+      "text": "He was too glad of having the sun and the wind again, to fret because he could not run about."
+    },
+    {
+      "id": "s114",
+      "text": "He lay down on the dry sand, and his mother covered him with a shawl."
+    },
+    {
+      "id": "s115",
+      "text": "She then sat by his side, and took a bit of work from her pocket."
+    },
+    {
+      "id": "s116",
+      "text": "But Diamond felt rather sleepy, and turned on his side and gazed sleepily over the sand."
+    },
+    {
+      "id": "s117",
+      "text": "A few yards off he saw something fluttering."
+    },
+    {
+      "id": "s118",
+      "text": "“What is that, mother?” he said."
+    },
+    {
+      "id": "s119",
+      "text": "“Only a bit of paper,” she answered."
+    },
+    {
+      "id": "s120",
+      "text": "“It flutters more than a bit of paper would, I think,” said Diamond."
+    },
+    {
+      "id": "s121",
+      "text": "“I'll go and see if you like,” said his mother."
+    },
+    {
+      "id": "s122",
+      "text": "“My eyes are none of the best.”"
+    },
+    {
+      "id": "s123",
+      "text": "So she rose and went and found that they were both right, for it was a little book, partly buried in the sand."
+    },
+    {
+      "id": "s124",
+      "text": "But several of its leaves were clear of the sand, and these the wind kept blowing about in a very flutterful manner."
+    },
+    {
+      "id": "s125",
+      "text": "She took it up and brought it to Diamond."
+    },
+    {
+      "id": "s126",
+      "text": "“What is it, mother?” he asked."
+    },
+    {
+      "id": "s127",
+      "text": "“Some nursery rhymes, I think,” she answered."
+    },
+    {
+      "id": "s128",
+      "text": "“I'm too sleepy,” said Diamond."
+    },
+    {
+      "id": "s129",
+      "text": "“Do read some of them to me.”"
+    },
+    {
+      "id": "s130",
+      "text": "“Yes, I will,” she said, and began one.--“But this is such nonsense!” she said again."
+    },
+    {
+      "id": "s131",
+      "text": "“I will try to find a better one.”"
+    },
+    {
+      "id": "s132",
+      "text": "She turned the leaves searching, but three times, with sudden puffs, the wind blew the leaves rustling back to the same verses."
+    },
+    {
+      "id": "s133",
+      "text": "“Do read that one,” said Diamond, who seemed to be of the same mind as the wind."
+    },
+    {
+      "id": "s134",
+      "text": "“It sounded very nice."
+    },
+    {
+      "id": "s135",
+      "text": "I am sure it is a good one.”"
+    },
+    {
+      "id": "s136",
+      "text": "So his mother thought it might amuse him, though she couldn't find any sense in it."
+    },
+    {
+      "id": "s137",
+      "text": "She never thought he might understand it, although she could not."
+    },
+    {
+      "id": "s138",
+      "text": "Now I do not exactly know what the mother read, but this is what Diamond heard, or thought afterwards that he had heard."
+    },
+    {
+      "id": "s139",
+      "text": "He was, however, as I have said, very sleepy."
+    },
+    {
+      "id": "s140",
+      "text": "And when he thought he understood the verses he may have been only dreaming better ones."
+    },
+    {
+      "id": "s141",
+      "text": "This is how they went--"
+    },
+    {
+      "id": "s142",
+      "text": "I know a river whose waters run asleep run run ever singing in the shallows dumb in the hollows sleeping so deep and all the swallows that dip their feathers in the hollows or in the shallows are the merriest swallows of all for the nests they bake with the clay they cake with the water they shake from their wings that rake the water out of the shallows or the hollows will hold together in any weather and so the swallows are the merriest fellows and have the merriest children and are built so narrow like the head of an arrow to cut the air and go just where the nicest water is flowing and the nicest dust is blowing for each so narrow like head of an arrow is only a barrow to carry the mud he makes from the nicest water flowing and the nicest dust that is blowing to build his nest for her he loves best with the nicest cakes which the sunshine bakes all for their merry children all so callow with beaks that follow gaping and hollow wider and wider after their father or after their mother the food-provider who brings them a spider or a worm the poor hider down in the earth so there's no dearth for their beaks as yellow as the buttercups growing beside the flowing of the singing river always and ever growing and blowing for fast as the sheep awake or asleep crop them and crop them they cannot stop them but up they creep and on they go blowing and so with the daisies the little white praises they grow and they blow and they spread out their crown and they praise the sun and when he goes down their praising is done and they fold up their crown and they sleep every one till over the plain he's shining amain and they're at it again praising and praising such low songs raising that no one hears them but the sun who rears them and the sheep that bite them are the quietest sheep awake or asleep with the merriest bleat and the little lambs are the merriest lambs they forget to eat for the frolic in their feet and the lambs and their dams are the whitest sheep with the woolliest wool and the longest wool and the trailingest tails and they shine like snow in the grasses that grow by the singing river that sings for ever and the sheep and the lambs are merry for ever because the river sings and they drink it and the lambs and their dams are quiet and white because of their diet for what they bite is buttercups yellow and daisies white and grass as green as the river can make it with wind as mellow to kiss it and shake it as never was seen but here in the hollows beside the river where all the swallows are merriest of fellows for the nests they make with the clay they cake in the sunshine bake till they are like bone as dry in the wind as a marble stone so firm they bind the grass in the clay that dries in the wind the sweetest wind that blows by the river flowing for ever but never you find whence comes the wind that blows on the hollows and over the shallows where dip the swallows alive it blows the life as it goes awake or asleep into the river that sings as it flows and the life it blows into the sheep awake or asleep with the woolliest wool and the trailingest tails and it never fails gentle and cool to wave the wool and to toss the grass as the lambs and the sheep over it pass and tug and bite with their teeth so white and then with the sweep of their trailing tails smooth it again and it grows amain and amain it grows and the wind as it blows tosses the swallows over the hollows and down on the shallows till every feather doth shake and quiver and all their feathers go all together blowing the life and the joy so rife into the swallows that skim the shallows and have the yellowest children for the wind that blows is the life of the river flowing for ever that washes the grasses still as it passes and feeds the daisies the little white praises and buttercups bonny so golden and sunny with butter and honey that whiten the sheep awake or asleep that nibble and bite and grow whiter than white and merry and quiet on the sweet diet fed by the river and tossed for ever by the wind that tosses the swallow that crosses over the shallows dipping his wings to gather the water and bake the cake that the wind shall make as hard as a bone as dry as a stone it's all in the wind that blows from behind and all in the river that flows for ever and all in the grasses and the white daisies and the merry sheep awake or asleep and the happy swallows skimming the shallows and it's all in the wind that blows from behind."
+    },
+    {
+      "id": "s143",
+      "text": "Here Diamond became aware that his mother had stopped reading."
+    },
+    {
+      "id": "s144",
+      "text": "“Why don't you go on, mother dear?” he asked."
+    },
+    {
+      "id": "s145",
+      "text": "“It's such nonsense!” said his mother."
+    },
+    {
+      "id": "s146",
+      "text": "“I believe it would go on for ever.”"
+    },
+    {
+      "id": "s147",
+      "text": "“That's just what it did,” said Diamond."
+    },
+    {
+      "id": "s148",
+      "text": "“What did?” she asked."
+    },
+    {
+      "id": "s149",
+      "text": "“Why, the river."
+    },
+    {
+      "id": "s150",
+      "text": "That's almost the very tune it used to sing.”"
+    },
+    {
+      "id": "s151",
+      "text": "His mother was frightened, for she thought the fever was coming on again."
+    },
+    {
+      "id": "s152",
+      "text": "So she did not contradict him."
+    },
+    {
+      "id": "s153",
+      "text": "“Who made that poem?” asked Diamond."
+    },
+    {
+      "id": "s154",
+      "text": "“I don't know,” she answered."
+    },
+    {
+      "id": "s155",
+      "text": "“Some silly woman for her children, I suppose--and then thought it good enough to print.”"
+    },
+    {
+      "id": "s156",
+      "text": "“She must have been at the back of the north wind some time or other, anyhow,” said Diamond."
+    },
+    {
+      "id": "s157",
+      "text": "“She couldn't have got a hold of it anywhere else."
+    },
+    {
+      "id": "s158",
+      "text": "That's just how it went.” And he began to chant bits of it here and there; but his mother said nothing for fear of making him, worse; and she was very glad indeed when she saw her brother-in-law jogging along in his little cart."
+    },
+    {
+      "id": "s159",
+      "text": "They lifted Diamond in, and got up themselves, and away they went, “home again, home again, home again,” as Diamond sang."
+    },
+    {
+      "id": "s160",
+      "text": "But he soon grew quiet, and before they reached Sandwich he was fast asleep and dreaming of the country at the back of the north wind."
+    }
+  ]
+}

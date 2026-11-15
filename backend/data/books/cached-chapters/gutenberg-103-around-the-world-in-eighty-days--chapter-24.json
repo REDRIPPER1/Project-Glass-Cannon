@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-24",
+  "chapterTitle": "CHAPTER XXIV.",
+  "contentHash": "sha256:84f7e4c926485acc873461d3fdf257009b1f6d1363692f5ced632cbf4afd3888",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XXIV.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "DURING WHICH MR."
+    },
+    {
+      "id": "s2",
+      "text": "FOGG AND PARTY CROSS THE PACIFIC OCEAN"
+    },
+    {
+      "id": "s3",
+      "text": "What happened when the pilot-boat came in sight of Shanghai will be easily guessed."
+    },
+    {
+      "id": "s4",
+      "text": "The signals made by the “Tankadere” had been seen by the captain of the Yokohama steamer, who, espying the flag at half-mast, had directed his course towards the little craft."
+    },
+    {
+      "id": "s5",
+      "text": "Phileas Fogg, after paying the stipulated price of his passage to John Busby, and rewarding that worthy with the additional sum of five hundred and fifty pounds, ascended the steamer with Aouda and Fix; and they started at once for Nagasaki and Yokohama."
+    },
+    {
+      "id": "s6",
+      "text": "They reached their destination on the morning of the 14th of November."
+    },
+    {
+      "id": "s7",
+      "text": "Phileas Fogg lost no time in going on board the “Carnatic,” where he learned, to Aouda’s great delight—and perhaps to his own, though he betrayed no emotion—that Passepartout, a Frenchman, had really arrived on her the day before."
+    },
+    {
+      "id": "s8",
+      "text": "The San Francisco steamer was announced to leave that very evening, and it became necessary to find Passepartout, if possible, without delay."
+    },
+    {
+      "id": "s9",
+      "text": "Mr."
+    },
+    {
+      "id": "s10",
+      "text": "Fogg applied in vain to the French and English consuls, and, after wandering through the streets a long time, began to despair of finding his missing servant."
+    },
+    {
+      "id": "s11",
+      "text": "Chance, or perhaps a kind of presentiment, at last led him into the Honourable Mr."
+    },
+    {
+      "id": "s12",
+      "text": "Batulcar’s theatre."
+    },
+    {
+      "id": "s13",
+      "text": "He certainly would not have recognised Passepartout in the eccentric mountebank’s costume; but the latter, lying on his back, perceived his master in the gallery."
+    },
+    {
+      "id": "s14",
+      "text": "He could not help starting, which so changed the position of his nose as to bring the “pyramid” pell-mell upon the stage."
+    },
+    {
+      "id": "s15",
+      "text": "All this Passepartout learned from Aouda, who recounted to him what had taken place on the voyage from Hong Kong to Shanghai on the “Tankadere,” in company with one Mr."
+    },
+    {
+      "id": "s16",
+      "text": "Fix."
+    },
+    {
+      "id": "s17",
+      "text": "Passepartout did not change countenance on hearing this name."
+    },
+    {
+      "id": "s18",
+      "text": "He thought that the time had not yet arrived to divulge to his master what had taken place between the detective and himself; and, in the account he gave of his absence, he simply excused himself for having been overtaken by drunkenness, in smoking opium at a tavern in Hong Kong."
+    },
+    {
+      "id": "s19",
+      "text": "Mr."
+    },
+    {
+      "id": "s20",
+      "text": "Fogg heard this narrative coldly, without a word; and then furnished his man with funds necessary to obtain clothing more in harmony with his position."
+    },
+    {
+      "id": "s21",
+      "text": "Within an hour the Frenchman had cut off his nose and parted with his wings, and retained nothing about him which recalled the sectary of the god Tingou."
+    },
+    {
+      "id": "s22",
+      "text": "The steamer which was about to depart from Yokohama to San Francisco belonged to the Pacific Mail Steamship Company, and was named the “General Grant.” She was a large paddle-wheel steamer of two thousand five hundred tons; well equipped and very fast."
+    },
+    {
+      "id": "s23",
+      "text": "The massive walking-beam rose and fell above the deck; at one end a piston-rod worked up and down; and at the other was a connecting-rod which, in changing the rectilinear motion to a circular one, was directly connected with the shaft of the paddles."
+    },
+    {
+      "id": "s24",
+      "text": "The “General Grant” was rigged with three masts, giving a large capacity for sails, and thus materially aiding the steam power."
+    },
+    {
+      "id": "s25",
+      "text": "By making twelve miles an hour, she would cross the ocean in twenty-one days."
+    },
+    {
+      "id": "s26",
+      "text": "Phileas Fogg was therefore justified in hoping that he would reach San Francisco by the 2nd of December, New York by the 11th, and London on the 20th—thus gaining several hours on the fatal date of the 21st of December."
+    },
+    {
+      "id": "s27",
+      "text": "There was a full complement of passengers on board, among them English, many Americans, a large number of coolies on their way to California, and several East Indian officers, who were spending their vacation in making the tour of the world."
+    },
+    {
+      "id": "s28",
+      "text": "Nothing of moment happened on the voyage; the steamer, sustained on its large paddles, rolled but little, and the “Pacific” almost justified its name."
+    },
+    {
+      "id": "s29",
+      "text": "Mr."
+    },
+    {
+      "id": "s30",
+      "text": "Fogg was as calm and taciturn as ever."
+    },
+    {
+      "id": "s31",
+      "text": "His young companion felt herself more and more attached to him by other ties than gratitude; his silent but generous nature impressed her more than she thought; and it was almost unconsciously that she yielded to emotions which did not seem to have the least effect upon her protector."
+    },
+    {
+      "id": "s32",
+      "text": "Aouda took the keenest interest in his plans, and became impatient at any incident which seemed likely to retard his journey."
+    },
+    {
+      "id": "s33",
+      "text": "She often chatted with Passepartout, who did not fail to perceive the state of the lady’s heart; and, being the most faithful of domestics, he never exhausted his eulogies of Phileas Fogg’s honesty, generosity, and devotion."
+    },
+    {
+      "id": "s34",
+      "text": "He took pains to calm Aouda’s doubts of a successful termination of the journey, telling her that the most difficult part of it had passed, that now they were beyond the fantastic countries of Japan and China, and were fairly on their way to civilised places again."
+    },
+    {
+      "id": "s35",
+      "text": "A railway train from San Francisco to New York, and a transatlantic steamer from New York to Liverpool, would doubtless bring them to the end of this impossible journey round the world within the period agreed upon."
+    },
+    {
+      "id": "s36",
+      "text": "On the ninth day after leaving Yokohama, Phileas Fogg had traversed exactly one half of the terrestrial globe."
+    },
+    {
+      "id": "s37",
+      "text": "The “General Grant” passed, on the 23rd of November, the one hundred and eightieth meridian, and was at the very antipodes of London."
+    },
+    {
+      "id": "s38",
+      "text": "Mr."
+    },
+    {
+      "id": "s39",
+      "text": "Fogg had, it is true, exhausted fifty-two of the eighty days in which he was to complete the tour, and there were only twenty-eight left."
+    },
+    {
+      "id": "s40",
+      "text": "But, though he was only half-way by the difference of meridians, he had really gone over two-thirds of the whole journey; for he had been obliged to make long circuits from London to Aden, from Aden to Bombay, from Calcutta to Singapore, and from Singapore to Yokohama."
+    },
+    {
+      "id": "s41",
+      "text": "Could he have followed without deviation the fiftieth parallel, which is that of London, the whole distance would only have been about twelve thousand miles; whereas he would be forced, by the irregular methods of locomotion, to traverse twenty-six thousand, of which he had, on the 23rd of November, accomplished seventeen thousand five hundred."
+    },
+    {
+      "id": "s42",
+      "text": "And now the course was a straight one, and Fix was no longer there to put obstacles in their way!"
+    },
+    {
+      "id": "s43",
+      "text": "It happened also, on the 23rd of November, that Passepartout made a joyful discovery."
+    },
+    {
+      "id": "s44",
+      "text": "It will be remembered that the obstinate fellow had insisted on keeping his famous family watch at London time, and on regarding that of the countries he had passed through as quite false and unreliable."
+    },
+    {
+      "id": "s45",
+      "text": "Now, on this day, though he had not changed the hands, he found that his watch exactly agreed with the ship’s chronometers."
+    },
+    {
+      "id": "s46",
+      "text": "His triumph was hilarious."
+    },
+    {
+      "id": "s47",
+      "text": "He would have liked to know what Fix would say if he were aboard!"
+    },
+    {
+      "id": "s48",
+      "text": "“The rogue told me a lot of stories,” repeated Passepartout, “about the meridians, the sun, and the moon!"
+    },
+    {
+      "id": "s49",
+      "text": "Moon, indeed! moonshine more likely!"
+    },
+    {
+      "id": "s50",
+      "text": "If one listened to that sort of people, a pretty sort of time one would keep!"
+    },
+    {
+      "id": "s51",
+      "text": "I was sure that the sun would some day regulate itself by my watch!”"
+    },
+    {
+      "id": "s52",
+      "text": "Passepartout was ignorant that, if the face of his watch had been divided into twenty-four hours, like the Italian clocks, he would have no reason for exultation; for the hands of his watch would then, instead of as now indicating nine o’clock in the morning, indicate nine o’clock in the evening, that is, the twenty-first hour after midnight precisely the difference between London time and that of the one hundred and eightieth meridian."
+    },
+    {
+      "id": "s53",
+      "text": "But if Fix had been able to explain this purely physical effect, Passepartout would not have admitted, even if he had comprehended it."
+    },
+    {
+      "id": "s54",
+      "text": "Moreover, if the detective had been on board at that moment, Passepartout would have joined issue with him on a quite different subject, and in an entirely different manner."
+    },
+    {
+      "id": "s55",
+      "text": "Where was Fix at that moment?"
+    },
+    {
+      "id": "s56",
+      "text": "He was actually on board the “General Grant.”"
+    },
+    {
+      "id": "s57",
+      "text": "On reaching Yokohama, the detective, leaving Mr."
+    },
+    {
+      "id": "s58",
+      "text": "Fogg, whom he expected to meet again during the day, had repaired at once to the English consulate, where he at last found the warrant of arrest."
+    },
+    {
+      "id": "s59",
+      "text": "It had followed him from Bombay, and had come by the “Carnatic,” on which steamer he himself was supposed to be."
+    },
+    {
+      "id": "s60",
+      "text": "Fix’s disappointment may be imagined when he reflected that the warrant was now useless."
+    },
+    {
+      "id": "s61",
+      "text": "Mr."
+    },
+    {
+      "id": "s62",
+      "text": "Fogg had left English ground, and it was now necessary to procure his extradition!"
+    },
+    {
+      "id": "s63",
+      "text": "“Well,” thought Fix, after a moment of anger, “my warrant is not good here, but it will be in England."
+    },
+    {
+      "id": "s64",
+      "text": "The rogue evidently intends to return to his own country, thinking he has thrown the police off his track."
+    },
+    {
+      "id": "s65",
+      "text": "Good!"
+    },
+    {
+      "id": "s66",
+      "text": "I will follow him across the Atlantic."
+    },
+    {
+      "id": "s67",
+      "text": "As for the money, heaven grant there may be some left!"
+    },
+    {
+      "id": "s68",
+      "text": "But the fellow has already spent in travelling, rewards, trials, bail, elephants, and all sorts of charges, more than five thousand pounds."
+    },
+    {
+      "id": "s69",
+      "text": "Yet, after all, the Bank is rich!”"
+    },
+    {
+      "id": "s70",
+      "text": "His course decided on, he went on board the “General Grant,” and was there when Mr."
+    },
+    {
+      "id": "s71",
+      "text": "Fogg and Aouda arrived."
+    },
+    {
+      "id": "s72",
+      "text": "To his utter amazement, he recognised Passepartout, despite his theatrical disguise."
+    },
+    {
+      "id": "s73",
+      "text": "He quickly concealed himself in his cabin, to avoid an awkward explanation, and hoped—thanks to the number of passengers—to remain unperceived by Mr."
+    },
+    {
+      "id": "s74",
+      "text": "Fogg’s servant."
+    },
+    {
+      "id": "s75",
+      "text": "On that very day, however, he met Passepartout face to face on the forward deck."
+    },
+    {
+      "id": "s76",
+      "text": "The latter, without a word, made a rush for him, grasped him by the throat, and, much to the amusement of a group of Americans, who immediately began to bet on him, administered to the detective a perfect volley of blows, which proved the great superiority of French over English pugilistic skill."
+    },
+    {
+      "id": "s77",
+      "text": "When Passepartout had finished, he found himself relieved and comforted."
+    },
+    {
+      "id": "s78",
+      "text": "Fix got up in a somewhat rumpled condition, and, looking at his adversary, coldly said, “Have you done?”"
+    },
+    {
+      "id": "s79",
+      "text": "“For this time—yes.”"
+    },
+    {
+      "id": "s80",
+      "text": "“Then let me have a word with you.”"
+    },
+    {
+      "id": "s81",
+      "text": "“But I—”"
+    },
+    {
+      "id": "s82",
+      "text": "“In your master’s interests.”"
+    },
+    {
+      "id": "s83",
+      "text": "Passepartout seemed to be vanquished by Fix’s coolness, for he quietly followed him, and they sat down aside from the rest of the passengers."
+    },
+    {
+      "id": "s84",
+      "text": "“You have given me a thrashing,” said Fix."
+    },
+    {
+      "id": "s85",
+      "text": "“Good, I expected it."
+    },
+    {
+      "id": "s86",
+      "text": "Now, listen to me."
+    },
+    {
+      "id": "s87",
+      "text": "Up to this time I have been Mr."
+    },
+    {
+      "id": "s88",
+      "text": "Fogg’s adversary."
+    },
+    {
+      "id": "s89",
+      "text": "I am now in his game.”"
+    },
+    {
+      "id": "s90",
+      "text": "“Aha!” cried Passepartout; “you are convinced he is an honest man?”"
+    },
+    {
+      "id": "s91",
+      "text": "“No,” replied Fix coldly, “I think him a rascal."
+    },
+    {
+      "id": "s92",
+      "text": "Sh! don’t budge, and let me speak."
+    },
+    {
+      "id": "s93",
+      "text": "As long as Mr."
+    },
+    {
+      "id": "s94",
+      "text": "Fogg was on English ground, it was for my interest to detain him there until my warrant of arrest arrived."
+    },
+    {
+      "id": "s95",
+      "text": "I did everything I could to keep him back."
+    },
+    {
+      "id": "s96",
+      "text": "I sent the Bombay priests after him, I got you intoxicated at Hong Kong, I separated you from him, and I made him miss the Yokohama steamer.”"
+    },
+    {
+      "id": "s97",
+      "text": "Passepartout listened, with closed fists."
+    },
+    {
+      "id": "s98",
+      "text": "“Now,” resumed Fix, “Mr."
+    },
+    {
+      "id": "s99",
+      "text": "Fogg seems to be going back to England."
+    },
+    {
+      "id": "s100",
+      "text": "Well, I will follow him there."
+    },
+    {
+      "id": "s101",
+      "text": "But hereafter I will do as much to keep obstacles out of his way as I have done up to this time to put them in his path."
+    },
+    {
+      "id": "s102",
+      "text": "I’ve changed my game, you see, and simply because it was for my interest to change it."
+    },
+    {
+      "id": "s103",
+      "text": "Your interest is the same as mine; for it is only in England that you will ascertain whether you are in the service of a criminal or an honest man.”"
+    },
+    {
+      "id": "s104",
+      "text": "Passepartout listened very attentively to Fix, and was convinced that he spoke with entire good faith."
+    },
+    {
+      "id": "s105",
+      "text": "“Are we friends?” asked the detective."
+    },
+    {
+      "id": "s106",
+      "text": "“Friends?—no,” replied Passepartout; “but allies, perhaps."
+    },
+    {
+      "id": "s107",
+      "text": "At the least sign of treason, however, I’ll twist your neck for you.”"
+    },
+    {
+      "id": "s108",
+      "text": "“Agreed,” said the detective quietly."
+    },
+    {
+      "id": "s109",
+      "text": "Eleven days later, on the 3rd of December, the “General Grant” entered the bay of the Golden Gate, and reached San Francisco."
+    },
+    {
+      "id": "s110",
+      "text": "Mr."
+    },
+    {
+      "id": "s111",
+      "text": "Fogg had neither gained nor lost a single day."
+    }
+  ]
+}

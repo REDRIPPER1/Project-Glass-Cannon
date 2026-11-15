@@ -1,0 +1,977 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-139-the-lost-world",
+  "ebookId": "139",
+  "edition": "Project Gutenberg eBook #139; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-10",
+  "chapterTitle": "CHAPTER X",
+  "contentHash": "sha256:d3fbddc434f7f1aae2eeaf97cd9a43d0119f5fe2d141188db1239f6fe6a107ce",
+  "attribution": "Doyle, Arthur Conan, 1859-1930, The Lost World, CHAPTER X. Source checked against Project Gutenberg eBook #139.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/139",
+    "textUrl": "https://www.gutenberg.org/cache/epub/139/pg139.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "\"The most Wonderful Things have Happened\""
+    },
+    {
+      "id": "s2",
+      "text": "The most wonderful things have happened and are continually happening to us."
+    },
+    {
+      "id": "s3",
+      "text": "All the paper that I possess consists of five old note-books and a lot of scraps, and I have only the one stylographic pencil; but so long as I can move my hand I will continue to set down our experiences and impressions, for, since we are the only men of the whole human race to see such things, it is of enormous importance that I should record them whilst they are fresh in my memory and before that fate which seems to be constantly impending does actually overtake us."
+    },
+    {
+      "id": "s4",
+      "text": "Whether Zambo can at last take these letters to the river, or whether I shall myself in some miraculous way carry them back with me, or, finally, whether some daring explorer, coming upon our tracks with the advantage, perhaps, of a perfected monoplane, should find this bundle of manuscript, in any case I can see that what I am writing is destined to immortality as a classic of true adventure."
+    },
+    {
+      "id": "s5",
+      "text": "On the morning after our being trapped upon the plateau by the villainous Gomez we began a new stage in our experiences."
+    },
+    {
+      "id": "s6",
+      "text": "The first incident in it was not such as to give me a very favorable opinion of the place to which we had wandered."
+    },
+    {
+      "id": "s7",
+      "text": "As I roused myself from a short nap after day had dawned, my eyes fell upon a most singular appearance upon my own leg."
+    },
+    {
+      "id": "s8",
+      "text": "My trouser had slipped up, exposing a few inches of my skin above my sock."
+    },
+    {
+      "id": "s9",
+      "text": "On this there rested a large, purplish grape."
+    },
+    {
+      "id": "s10",
+      "text": "Astonished at the sight, I leaned forward to pick it off, when, to my horror, it burst between my finger and thumb, squirting blood in every direction."
+    },
+    {
+      "id": "s11",
+      "text": "My cry of disgust had brought the two professors to my side."
+    },
+    {
+      "id": "s12",
+      "text": "\"Most interesting,\" said Summerlee, bending over my shin. \"An enormous blood-tick, as yet, I believe, unclassified.\""
+    },
+    {
+      "id": "s13",
+      "text": "\"The first-fruits of our labors,\" said Challenger in his booming, pedantic fashion. \"We cannot do less than call it Ixodes Maloni."
+    },
+    {
+      "id": "s14",
+      "text": "The very small inconvenience of being bitten, my young friend, cannot, I am sure, weigh with you as against the glorious privilege of having your name inscribed in the deathless roll of zoology."
+    },
+    {
+      "id": "s15",
+      "text": "Unhappily you have crushed this fine specimen at the moment of satiation.\""
+    },
+    {
+      "id": "s16",
+      "text": "\"Filthy vermin!\" I cried."
+    },
+    {
+      "id": "s17",
+      "text": "Professor Challenger raised his great eyebrows in protest, and placed a soothing paw upon my shoulder."
+    },
+    {
+      "id": "s18",
+      "text": "\"You should cultivate the scientific eye and the detached scientific mind,\" said he. \"To a man of philosophic temperament like myself the blood-tick, with its lancet-like proboscis and its distending stomach, is as beautiful a work of Nature as the peacock or, for that matter, the aurora borealis."
+    },
+    {
+      "id": "s19",
+      "text": "It pains me to hear you speak of it in so unappreciative a fashion."
+    },
+    {
+      "id": "s20",
+      "text": "No doubt, with due diligence, we can secure some other specimen.\""
+    },
+    {
+      "id": "s21",
+      "text": "\"There can be no doubt of that,\" said Summerlee, grimly, \"for one has just disappeared behind your shirt-collar.\""
+    },
+    {
+      "id": "s22",
+      "text": "Challenger sprang into the air bellowing like a bull, and tore frantically at his coat and shirt to get them off."
+    },
+    {
+      "id": "s23",
+      "text": "Summerlee and I laughed so that we could hardly help him."
+    },
+    {
+      "id": "s24",
+      "text": "At last we exposed that monstrous torso (fifty-four inches, by the tailor's tape)."
+    },
+    {
+      "id": "s25",
+      "text": "His body was all matted with black hair, out of which jungle we picked the wandering tick before it had bitten him."
+    },
+    {
+      "id": "s26",
+      "text": "But the bushes round were full of the horrible pests, and it was clear that we must shift our camp."
+    },
+    {
+      "id": "s27",
+      "text": "But first of all it was necessary to make our arrangements with the faithful negro, who appeared presently on the pinnacle with a number of tins of cocoa and biscuits, which he tossed over to us."
+    },
+    {
+      "id": "s28",
+      "text": "Of the stores which remained below he was ordered to retain as much as would keep him for two months."
+    },
+    {
+      "id": "s29",
+      "text": "The Indians were to have the remainder as a reward for their services and as payment for taking our letters back to the Amazon."
+    },
+    {
+      "id": "s30",
+      "text": "Some hours later we saw them in single file far out upon the plain, each with a bundle on his head, making their way back along the path we had come."
+    },
+    {
+      "id": "s31",
+      "text": "Zambo occupied our little tent at the base of the pinnacle, and there he remained, our one link with the world below."
+    },
+    {
+      "id": "s32",
+      "text": "And now we had to decide upon our immediate movements."
+    },
+    {
+      "id": "s33",
+      "text": "We shifted our position from among the tick-laden bushes until we came to a small clearing thickly surrounded by trees upon all sides."
+    },
+    {
+      "id": "s34",
+      "text": "There were some flat slabs of rock in the center, with an excellent well close by, and there we sat in cleanly comfort while we made our first plans for the invasion of this new country."
+    },
+    {
+      "id": "s35",
+      "text": "Birds were calling among the foliage--especially one with a peculiar whooping cry which was new to us--but beyond these sounds there were no signs of life."
+    },
+    {
+      "id": "s36",
+      "text": "Our first care was to make some sort of list of our own stores, so that we might know what we had to rely upon."
+    },
+    {
+      "id": "s37",
+      "text": "What with the things we had ourselves brought up and those which Zambo had sent across on the rope, we were fairly well supplied."
+    },
+    {
+      "id": "s38",
+      "text": "Most important of all, in view of the dangers which might surround us, we had our four rifles and one thousand three hundred rounds, also a shot-gun, but not more than a hundred and fifty medium pellet cartridges."
+    },
+    {
+      "id": "s39",
+      "text": "In the matter of provisions we had enough to last for several weeks, with a sufficiency of tobacco and a few scientific implements, including a large telescope and a good field-glass."
+    },
+    {
+      "id": "s40",
+      "text": "All these things we collected together in the clearing, and as a first precaution, we cut down with our hatchet and knives a number of thorny bushes, which we piled round in a circle some fifteen yards in diameter."
+    },
+    {
+      "id": "s41",
+      "text": "This was to be our headquarters for the time--our place of refuge against sudden danger and the guard-house for our stores."
+    },
+    {
+      "id": "s42",
+      "text": "Fort Challenger, we called it."
+    },
+    {
+      "id": "s43",
+      "text": "It was midday before we had made ourselves secure, but the heat was not oppressive, and the general character of the plateau, both in its temperature and in its vegetation, was almost temperate."
+    },
+    {
+      "id": "s44",
+      "text": "The beech, the oak, and even the birch were to be found among the tangle of trees which girt us in."
+    },
+    {
+      "id": "s45",
+      "text": "One huge gingko tree, topping all the others, shot its great limbs and maidenhair foliage over the fort which we had constructed."
+    },
+    {
+      "id": "s46",
+      "text": "In its shade we continued our discussion, while Lord John, who had quickly taken command in the hour of action, gave us his views."
+    },
+    {
+      "id": "s47",
+      "text": "\"So long as neither man nor beast has seen or heard us, we are safe,\" said he. \"From the time they know we are here our troubles begin."
+    },
+    {
+      "id": "s48",
+      "text": "There are no signs that they have found us out as yet."
+    },
+    {
+      "id": "s49",
+      "text": "So our game surely is to lie low for a time and spy out the land."
+    },
+    {
+      "id": "s50",
+      "text": "We want to have a good look at our neighbors before we get on visitin' terms.\""
+    },
+    {
+      "id": "s51",
+      "text": "\"But we must advance,\" I ventured to remark."
+    },
+    {
+      "id": "s52",
+      "text": "\"By all means, sonny my boy!"
+    },
+    {
+      "id": "s53",
+      "text": "We will advance."
+    },
+    {
+      "id": "s54",
+      "text": "But with common sense."
+    },
+    {
+      "id": "s55",
+      "text": "We must never go so far that we can't get back to our base."
+    },
+    {
+      "id": "s56",
+      "text": "Above all, we must never, unless it is life or death, fire off our guns.\""
+    },
+    {
+      "id": "s57",
+      "text": "\"But YOU fired yesterday,\" said Summerlee."
+    },
+    {
+      "id": "s58",
+      "text": "\"Well, it couldn't be helped."
+    },
+    {
+      "id": "s59",
+      "text": "However, the wind was strong and blew outwards."
+    },
+    {
+      "id": "s60",
+      "text": "It is not likely that the sound could have traveled far into the plateau."
+    },
+    {
+      "id": "s61",
+      "text": "By the way, what shall we call this place?"
+    },
+    {
+      "id": "s62",
+      "text": "I suppose it is up to us to give it a name?\""
+    },
+    {
+      "id": "s63",
+      "text": "There were several suggestions, more or less happy, but Challenger's was final."
+    },
+    {
+      "id": "s64",
+      "text": "\"It can only have one name,\" said he. \"It is called after the pioneer who discovered it."
+    },
+    {
+      "id": "s65",
+      "text": "It is Maple White Land.\""
+    },
+    {
+      "id": "s66",
+      "text": "Maple White Land it became, and so it is named in that chart which has become my special task."
+    },
+    {
+      "id": "s67",
+      "text": "So it will, I trust, appear in the atlas of the future."
+    },
+    {
+      "id": "s68",
+      "text": "The peaceful penetration of Maple White Land was the pressing subject before us."
+    },
+    {
+      "id": "s69",
+      "text": "We had the evidence of our own eyes that the place was inhabited by some unknown creatures, and there was that of Maple White's sketch-book to show that more dreadful and more dangerous monsters might still appear."
+    },
+    {
+      "id": "s70",
+      "text": "That there might also prove to be human occupants and that they were of a malevolent character was suggested by the skeleton impaled upon the bamboos, which could not have got there had it not been dropped from above."
+    },
+    {
+      "id": "s71",
+      "text": "Our situation, stranded without possibility of escape in such a land, was clearly full of danger, and our reasons endorsed every measure of caution which Lord John's experience could suggest."
+    },
+    {
+      "id": "s72",
+      "text": "Yet it was surely impossible that we should halt on the edge of this world of mystery when our very souls were tingling with impatience to push forward and to pluck the heart from it."
+    },
+    {
+      "id": "s73",
+      "text": "We therefore blocked the entrance to our zareba by filling it up with several thorny bushes, and left our camp with the stores entirely surrounded by this protecting hedge."
+    },
+    {
+      "id": "s74",
+      "text": "We then slowly and cautiously set forth into the unknown, following the course of the little stream which flowed from our spring, as it should always serve us as a guide on our return."
+    },
+    {
+      "id": "s75",
+      "text": "Hardly had we started when we came across signs that there were indeed wonders awaiting us."
+    },
+    {
+      "id": "s76",
+      "text": "After a few hundred yards of thick forest, containing many trees which were quite unknown to me, but which Summerlee, who was the botanist of the party, recognized as forms of conifera and of cycadaceous plants which have long passed away in the world below, we entered a region where the stream widened out and formed a considerable bog."
+    },
+    {
+      "id": "s77",
+      "text": "High reeds of a peculiar type grew thickly before us, which were pronounced to be equisetacea, or mare's-tails, with tree-ferns scattered amongst them, all of them swaying in a brisk wind."
+    },
+    {
+      "id": "s78",
+      "text": "Suddenly Lord John, who was walking first, halted with uplifted hand."
+    },
+    {
+      "id": "s79",
+      "text": "\"Look at this!\" said he. \"By George, this must be the trail of the father of all birds!\""
+    },
+    {
+      "id": "s80",
+      "text": "An enormous three-toed track was imprinted in the soft mud before us."
+    },
+    {
+      "id": "s81",
+      "text": "The creature, whatever it was, had crossed the swamp and had passed on into the forest."
+    },
+    {
+      "id": "s82",
+      "text": "We all stopped to examine that monstrous spoor."
+    },
+    {
+      "id": "s83",
+      "text": "If it were indeed a bird--and what animal could leave such a mark?--its foot was so much larger than an ostrich's that its height upon the same scale must be enormous."
+    },
+    {
+      "id": "s84",
+      "text": "Lord John looked eagerly round him and slipped two cartridges into his elephant-gun."
+    },
+    {
+      "id": "s85",
+      "text": "\"I'll stake my good name as a shikarree,\" said he, \"that the track is a fresh one."
+    },
+    {
+      "id": "s86",
+      "text": "The creature has not passed ten minutes."
+    },
+    {
+      "id": "s87",
+      "text": "Look how the water is still oozing into that deeper print!"
+    },
+    {
+      "id": "s88",
+      "text": "By Jove!"
+    },
+    {
+      "id": "s89",
+      "text": "See, here is the mark of a little one!\""
+    },
+    {
+      "id": "s90",
+      "text": "Sure enough, smaller tracks of the same general form were running parallel to the large ones."
+    },
+    {
+      "id": "s91",
+      "text": "\"But what do you make of this?\" cried Professor Summerlee, triumphantly, pointing to what looked like the huge print of a five-fingered human hand appearing among the three-toed marks."
+    },
+    {
+      "id": "s92",
+      "text": "\"Wealden!\" cried Challenger, in an ecstasy. \"I've seen them in the Wealden clay."
+    },
+    {
+      "id": "s93",
+      "text": "It is a creature walking erect upon three-toed feet, and occasionally putting one of its five-fingered forepaws upon the ground."
+    },
+    {
+      "id": "s94",
+      "text": "Not a bird, my dear Roxton--not a bird.\""
+    },
+    {
+      "id": "s95",
+      "text": "\"A beast?\""
+    },
+    {
+      "id": "s96",
+      "text": "\"No; a reptile--a dinosaur."
+    },
+    {
+      "id": "s97",
+      "text": "Nothing else could have left such a track."
+    },
+    {
+      "id": "s98",
+      "text": "They puzzled a worthy Sussex doctor some ninety years ago; but who in the world could have hoped--hoped--to have seen a sight like that?\""
+    },
+    {
+      "id": "s99",
+      "text": "His words died away into a whisper, and we all stood in motionless amazement."
+    },
+    {
+      "id": "s100",
+      "text": "Following the tracks, we had left the morass and passed through a screen of brushwood and trees."
+    },
+    {
+      "id": "s101",
+      "text": "Beyond was an open glade, and in this were five of the most extraordinary creatures that I have ever seen."
+    },
+    {
+      "id": "s102",
+      "text": "Crouching down among the bushes, we observed them at our leisure."
+    },
+    {
+      "id": "s103",
+      "text": "There were, as I say, five of them, two being adults and three young ones."
+    },
+    {
+      "id": "s104",
+      "text": "In size they were enormous."
+    },
+    {
+      "id": "s105",
+      "text": "Even the babies were as big as elephants, while the two large ones were far beyond all creatures I have ever seen."
+    },
+    {
+      "id": "s106",
+      "text": "They had slate-colored skin, which was scaled like a lizard's and shimmered where the sun shone upon it."
+    },
+    {
+      "id": "s107",
+      "text": "All five were sitting up, balancing themselves upon their broad, powerful tails and their huge three-toed hind-feet, while with their small five-fingered front-feet they pulled down the branches upon which they browsed."
+    },
+    {
+      "id": "s108",
+      "text": "I do not know that I can bring their appearance home to you better than by saying that they looked like monstrous kangaroos, twenty feet in length, and with skins like black crocodiles."
+    },
+    {
+      "id": "s109",
+      "text": "I do not know how long we stayed motionless gazing at this marvelous spectacle."
+    },
+    {
+      "id": "s110",
+      "text": "A strong wind blew towards us and we were well concealed, so there was no chance of discovery."
+    },
+    {
+      "id": "s111",
+      "text": "From time to time the little ones played round their parents in unwieldy gambols, the great beasts bounding into the air and falling with dull thuds upon the earth."
+    },
+    {
+      "id": "s112",
+      "text": "The strength of the parents seemed to be limitless, for one of them, having some difficulty in reaching a bunch of foliage which grew upon a considerable-sized tree, put his fore-legs round the trunk and tore it down as if it had been a sapling."
+    },
+    {
+      "id": "s113",
+      "text": "The action seemed, as I thought, to show not only the great development of its muscles, but also the small one of its brain, for the whole weight came crashing down upon the top of it, and it uttered a series of shrill yelps to show that, big as it was, there was a limit to what it could endure."
+    },
+    {
+      "id": "s114",
+      "text": "The incident made it think, apparently, that the neighborhood was dangerous, for it slowly lurched off through the wood, followed by its mate and its three enormous infants."
+    },
+    {
+      "id": "s115",
+      "text": "We saw the shimmering slaty gleam of their skins between the tree-trunks, and their heads undulating high above the brush-wood."
+    },
+    {
+      "id": "s116",
+      "text": "Then they vanished from our sight."
+    },
+    {
+      "id": "s117",
+      "text": "I looked at my comrades."
+    },
+    {
+      "id": "s118",
+      "text": "Lord John was standing at gaze with his finger on the trigger of his elephant-gun, his eager hunter's soul shining from his fierce eyes."
+    },
+    {
+      "id": "s119",
+      "text": "What would he not give for one such head to place between the two crossed oars above the mantelpiece in his snuggery at the Albany!"
+    },
+    {
+      "id": "s120",
+      "text": "And yet his reason held him in, for all our exploration of the wonders of this unknown land depended upon our presence being concealed from its inhabitants."
+    },
+    {
+      "id": "s121",
+      "text": "The two professors were in silent ecstasy."
+    },
+    {
+      "id": "s122",
+      "text": "In their excitement they had unconsciously seized each other by the hand, and stood like two little children in the presence of a marvel, Challenger's cheeks bunched up into a seraphic smile, and Summerlee's sardonic face softening for the moment into wonder and reverence."
+    },
+    {
+      "id": "s123",
+      "text": "\"Nunc dimittis!\" he cried at last. \"What will they say in England of this?\""
+    },
+    {
+      "id": "s124",
+      "text": "\"My dear Summerlee, I will tell you with great confidence exactly what they will say in England,\" said Challenger. \"They will say that you are an infernal liar and a scientific charlatan, exactly as you and others said of me.\""
+    },
+    {
+      "id": "s125",
+      "text": "\"In the face of photographs?\""
+    },
+    {
+      "id": "s126",
+      "text": "\"Faked, Summerlee!"
+    },
+    {
+      "id": "s127",
+      "text": "Clumsily faked!\""
+    },
+    {
+      "id": "s128",
+      "text": "\"In the face of specimens?\""
+    },
+    {
+      "id": "s129",
+      "text": "\"Ah, there we may have them!"
+    },
+    {
+      "id": "s130",
+      "text": "Malone and his filthy Fleet Street crew may be all yelping our praises yet."
+    },
+    {
+      "id": "s131",
+      "text": "August the twenty-eighth--the day we saw five live iguanodons in a glade of Maple White Land."
+    },
+    {
+      "id": "s132",
+      "text": "Put it down in your diary, my young friend, and send it to your rag.\""
+    },
+    {
+      "id": "s133",
+      "text": "\"And be ready to get the toe-end of the editorial boot in return,\" said Lord John. \"Things look a bit different from the latitude of London, young fellah my lad."
+    },
+    {
+      "id": "s134",
+      "text": "There's many a man who never tells his adventures, for he can't hope to be believed."
+    },
+    {
+      "id": "s135",
+      "text": "Who's to blame them?"
+    },
+    {
+      "id": "s136",
+      "text": "For this will seem a bit of a dream to ourselves in a month or two."
+    },
+    {
+      "id": "s137",
+      "text": "WHAT did you say they were?\""
+    },
+    {
+      "id": "s138",
+      "text": "\"Iguanodons,\" said Summerlee. \"You'll find their footmarks all over the Hastings sands, in Kent, and in Sussex."
+    },
+    {
+      "id": "s139",
+      "text": "The South of England was alive with them when there was plenty of good lush green-stuff to keep them going."
+    },
+    {
+      "id": "s140",
+      "text": "Conditions have changed, and the beasts died."
+    },
+    {
+      "id": "s141",
+      "text": "Here it seems that the conditions have not changed, and the beasts have lived.\""
+    },
+    {
+      "id": "s142",
+      "text": "\"If ever we get out of this alive, I must have a head with me,\" said Lord John. \"Lord, how some of that Somaliland-Uganda crowd would turn a beautiful pea-green if they saw it!"
+    },
+    {
+      "id": "s143",
+      "text": "I don't know what you chaps think, but it strikes me that we are on mighty thin ice all this time.\""
+    },
+    {
+      "id": "s144",
+      "text": "I had the same feeling of mystery and danger around us."
+    },
+    {
+      "id": "s145",
+      "text": "In the gloom of the trees there seemed a constant menace and as we looked up into their shadowy foliage vague terrors crept into one's heart."
+    },
+    {
+      "id": "s146",
+      "text": "It is true that these monstrous creatures which we had seen were lumbering, inoffensive brutes which were unlikely to hurt anyone, but in this world of wonders what other survivals might there not be--what fierce, active horrors ready to pounce upon us from their lair among the rocks or brushwood?"
+    },
+    {
+      "id": "s147",
+      "text": "I knew little of prehistoric life, but I had a clear remembrance of one book which I had read in which it spoke of creatures who would live upon our lions and tigers as a cat lives upon mice."
+    },
+    {
+      "id": "s148",
+      "text": "What if these also were to be found in the woods of Maple White Land!"
+    },
+    {
+      "id": "s149",
+      "text": "It was destined that on this very morning--our first in the new country--we were to find out what strange hazards lay around us."
+    },
+    {
+      "id": "s150",
+      "text": "It was a loathsome adventure, and one of which I hate to think."
+    },
+    {
+      "id": "s151",
+      "text": "If, as Lord John said, the glade of the iguanodons will remain with us as a dream, then surely the swamp of the pterodactyls will forever be our nightmare."
+    },
+    {
+      "id": "s152",
+      "text": "Let me set down exactly what occurred."
+    },
+    {
+      "id": "s153",
+      "text": "We passed very slowly through the woods, partly because Lord Roxton acted as scout before he would let us advance, and partly because at every second step one or other of our professors would fall, with a cry of wonder, before some flower or insect which presented him with a new type."
+    },
+    {
+      "id": "s154",
+      "text": "We may have traveled two or three miles in all, keeping to the right of the line of the stream, when we came upon a considerable opening in the trees."
+    },
+    {
+      "id": "s155",
+      "text": "A belt of brushwood led up to a tangle of rocks--the whole plateau was strewn with boulders."
+    },
+    {
+      "id": "s156",
+      "text": "We were walking slowly towards these rocks, among bushes which reached over our waists, when we became aware of a strange low gabbling and whistling sound, which filled the air with a constant clamor and appeared to come from some spot immediately before us."
+    },
+    {
+      "id": "s157",
+      "text": "Lord John held up his hand as a signal for us to stop, and he made his way swiftly, stooping and running, to the line of rocks."
+    },
+    {
+      "id": "s158",
+      "text": "We saw him peep over them and give a gesture of amazement."
+    },
+    {
+      "id": "s159",
+      "text": "Then he stood staring as if forgetting us, so utterly entranced was he by what he saw."
+    },
+    {
+      "id": "s160",
+      "text": "Finally he waved us to come on, holding up his hand as a signal for caution."
+    },
+    {
+      "id": "s161",
+      "text": "His whole bearing made me feel that something wonderful but dangerous lay before us."
+    },
+    {
+      "id": "s162",
+      "text": "Creeping to his side, we looked over the rocks."
+    },
+    {
+      "id": "s163",
+      "text": "The place into which we gazed was a pit, and may, in the early days, have been one of the smaller volcanic blow-holes of the plateau."
+    },
+    {
+      "id": "s164",
+      "text": "It was bowl-shaped and at the bottom, some hundreds of yards from where we lay, were pools of green-scummed, stagnant water, fringed with bullrushes."
+    },
+    {
+      "id": "s165",
+      "text": "It was a weird place in itself, but its occupants made it seem like a scene from the Seven Circles of Dante."
+    },
+    {
+      "id": "s166",
+      "text": "The place was a rookery of pterodactyls."
+    },
+    {
+      "id": "s167",
+      "text": "There were hundreds of them congregated within view."
+    },
+    {
+      "id": "s168",
+      "text": "All the bottom area round the water-edge was alive with their young ones, and with hideous mothers brooding upon their leathery, yellowish eggs."
+    },
+    {
+      "id": "s169",
+      "text": "From this crawling flapping mass of obscene reptilian life came the shocking clamor which filled the air and the mephitic, horrible, musty odor which turned us sick."
+    },
+    {
+      "id": "s170",
+      "text": "But above, perched each upon its own stone, tall, gray, and withered, more like dead and dried specimens than actual living creatures, sat the horrible males, absolutely motionless save for the rolling of their red eyes or an occasional snap of their rat-trap beaks as a dragon-fly went past them."
+    },
+    {
+      "id": "s171",
+      "text": "Their huge, membranous wings were closed by folding their fore-arms, so that they sat like gigantic old women, wrapped in hideous web-colored shawls, and with their ferocious heads protruding above them."
+    },
+    {
+      "id": "s172",
+      "text": "Large and small, not less than a thousand of these filthy creatures lay in the hollow before us."
+    },
+    {
+      "id": "s173",
+      "text": "Our professors would gladly have stayed there all day, so entranced were they by this opportunity of studying the life of a prehistoric age."
+    },
+    {
+      "id": "s174",
+      "text": "They pointed out the fish and dead birds lying about among the rocks as proving the nature of the food of these creatures, and I heard them congratulating each other on having cleared up the point why the bones of this flying dragon are found in such great numbers in certain well-defined areas, as in the Cambridge Green-sand, since it was now seen that, like penguins, they lived in gregarious fashion."
+    },
+    {
+      "id": "s175",
+      "text": "Finally, however, Challenger, bent upon proving some point which Summerlee had contested, thrust his head over the rock and nearly brought destruction upon us all."
+    },
+    {
+      "id": "s176",
+      "text": "In an instant the nearest male gave a shrill, whistling cry, and flapped its twenty-foot span of leathery wings as it soared up into the air."
+    },
+    {
+      "id": "s177",
+      "text": "The females and young ones huddled together beside the water, while the whole circle of sentinels rose one after the other and sailed off into the sky."
+    },
+    {
+      "id": "s178",
+      "text": "It was a wonderful sight to see at least a hundred creatures of such enormous size and hideous appearance all swooping like swallows with swift, shearing wing-strokes above us; but soon we realized that it was not one on which we could afford to linger."
+    },
+    {
+      "id": "s179",
+      "text": "At first the great brutes flew round in a huge ring, as if to make sure what the exact extent of the danger might be."
+    },
+    {
+      "id": "s180",
+      "text": "Then, the flight grew lower and the circle narrower, until they were whizzing round and round us, the dry, rustling flap of their huge slate-colored wings filling the air with a volume of sound that made me think of Hendon aerodrome upon a race day."
+    },
+    {
+      "id": "s181",
+      "text": "\"Make for the wood and keep together,\" cried Lord John, clubbing his rifle. \"The brutes mean mischief.\""
+    },
+    {
+      "id": "s182",
+      "text": "The moment we attempted to retreat the circle closed in upon us, until the tips of the wings of those nearest to us nearly touched our faces."
+    },
+    {
+      "id": "s183",
+      "text": "We beat at them with the stocks of our guns, but there was nothing solid or vulnerable to strike."
+    },
+    {
+      "id": "s184",
+      "text": "Then suddenly out of the whizzing, slate-colored circle a long neck shot out, and a fierce beak made a thrust at us."
+    },
+    {
+      "id": "s185",
+      "text": "Another and another followed."
+    },
+    {
+      "id": "s186",
+      "text": "Summerlee gave a cry and put his hand to his face, from which the blood was streaming."
+    },
+    {
+      "id": "s187",
+      "text": "I felt a prod at the back of my neck, and turned dizzy with the shock."
+    },
+    {
+      "id": "s188",
+      "text": "Challenger fell, and as I stooped to pick him up I was again struck from behind and dropped on the top of him."
+    },
+    {
+      "id": "s189",
+      "text": "At the same instant I heard the crash of Lord John's elephant-gun, and, looking up, saw one of the creatures with a broken wing struggling upon the ground, spitting and gurgling at us with a wide-opened beak and blood-shot, goggled eyes, like some devil in a medieval picture."
+    },
+    {
+      "id": "s190",
+      "text": "Its comrades had flown higher at the sudden sound, and were circling above our heads."
+    },
+    {
+      "id": "s191",
+      "text": "\"Now,\" cried Lord John, \"now for our lives!\""
+    },
+    {
+      "id": "s192",
+      "text": "We staggered through the brushwood, and even as we reached the trees the harpies were on us again."
+    },
+    {
+      "id": "s193",
+      "text": "Summerlee was knocked down, but we tore him up and rushed among the trunks."
+    },
+    {
+      "id": "s194",
+      "text": "Once there we were safe, for those huge wings had no space for their sweep beneath the branches."
+    },
+    {
+      "id": "s195",
+      "text": "As we limped homewards, sadly mauled and discomfited, we saw them for a long time flying at a great height against the deep blue sky above our heads, soaring round and round, no bigger than wood-pigeons, with their eyes no doubt still following our progress."
+    },
+    {
+      "id": "s196",
+      "text": "At last, however, as we reached the thicker woods they gave up the chase, and we saw them no more."
+    },
+    {
+      "id": "s197",
+      "text": "\"A most interesting and convincing experience,\" said Challenger, as we halted beside the brook and he bathed a swollen knee. \"We are exceptionally well informed, Summerlee, as to the habits of the enraged pterodactyl.\""
+    },
+    {
+      "id": "s198",
+      "text": "Summerlee was wiping the blood from a cut in his forehead, while I was tying up a nasty stab in the muscle of the neck."
+    },
+    {
+      "id": "s199",
+      "text": "Lord John had the shoulder of his coat torn away, but the creature's teeth had only grazed the flesh."
+    },
+    {
+      "id": "s200",
+      "text": "\"It is worth noting,\" Challenger continued, \"that our young friend has received an undoubted stab, while Lord John's coat could only have been torn by a bite."
+    },
+    {
+      "id": "s201",
+      "text": "In my own case, I was beaten about the head by their wings, so we have had a remarkable exhibition of their various methods of offence.\""
+    },
+    {
+      "id": "s202",
+      "text": "\"It has been touch and go for our lives,\" said Lord John, gravely, \"and I could not think of a more rotten sort of death than to be outed by such filthy vermin."
+    },
+    {
+      "id": "s203",
+      "text": "I was sorry to fire my rifle, but, by Jove! there was no great choice.\""
+    },
+    {
+      "id": "s204",
+      "text": "\"We should not be here if you hadn't,\" said I, with conviction."
+    },
+    {
+      "id": "s205",
+      "text": "\"It may do no harm,\" said he. \"Among these woods there must be many loud cracks from splitting or falling trees which would be just like the sound of a gun."
+    },
+    {
+      "id": "s206",
+      "text": "But now, if you are of my opinion, we have had thrills enough for one day, and had best get back to the surgical box at the camp for some carbolic."
+    },
+    {
+      "id": "s207",
+      "text": "Who knows what venom these beasts may have in their hideous jaws?\""
+    },
+    {
+      "id": "s208",
+      "text": "But surely no men ever had just such a day since the world began."
+    },
+    {
+      "id": "s209",
+      "text": "Some fresh surprise was ever in store for us."
+    },
+    {
+      "id": "s210",
+      "text": "When, following the course of our brook, we at last reached our glade and saw the thorny barricade of our camp, we thought that our adventures were at an end."
+    },
+    {
+      "id": "s211",
+      "text": "But we had something more to think of before we could rest."
+    },
+    {
+      "id": "s212",
+      "text": "The gate of Fort Challenger had been untouched, the walls were unbroken, and yet it had been visited by some strange and powerful creature in our absence."
+    },
+    {
+      "id": "s213",
+      "text": "No foot-mark showed a trace of its nature, and only the overhanging branch of the enormous ginko tree suggested how it might have come and gone; but of its malevolent strength there was ample evidence in the condition of our stores."
+    },
+    {
+      "id": "s214",
+      "text": "They were strewn at random all over the ground, and one tin of meat had been crushed into pieces so as to extract the contents."
+    },
+    {
+      "id": "s215",
+      "text": "A case of cartridges had been shattered into matchwood, and one of the brass shells lay shredded into pieces beside it."
+    },
+    {
+      "id": "s216",
+      "text": "Again the feeling of vague horror came upon our souls, and we gazed round with frightened eyes at the dark shadows which lay around us, in all of which some fearsome shape might be lurking."
+    },
+    {
+      "id": "s217",
+      "text": "How good it was when we were hailed by the voice of Zambo, and, going to the edge of the plateau, saw him sitting grinning at us upon the top of the opposite pinnacle."
+    },
+    {
+      "id": "s218",
+      "text": "\"All well, Massa Challenger, all well!\" he cried. \"Me stay here."
+    },
+    {
+      "id": "s219",
+      "text": "No fear."
+    },
+    {
+      "id": "s220",
+      "text": "You always find me when you want.\""
+    },
+    {
+      "id": "s221",
+      "text": "His honest black face, and the immense view before us, which carried us half-way back to the affluent of the Amazon, helped us to remember that we really were upon this earth in the twentieth century, and had not by some magic been conveyed to some raw planet in its earliest and wildest state."
+    },
+    {
+      "id": "s222",
+      "text": "How difficult it was to realize that the violet line upon the far horizon was well advanced to that great river upon which huge steamers ran, and folk talked of the small affairs of life, while we, marooned among the creatures of a bygone age, could but gaze towards it and yearn for all that it meant!"
+    },
+    {
+      "id": "s223",
+      "text": "One other memory remains with me of this wonderful day, and with it I will close this letter."
+    },
+    {
+      "id": "s224",
+      "text": "The two professors, their tempers aggravated no doubt by their injuries, had fallen out as to whether our assailants were of the genus pterodactylus or dimorphodon, and high words had ensued."
+    },
+    {
+      "id": "s225",
+      "text": "To avoid their wrangling I moved some little way apart, and was seated smoking upon the trunk of a fallen tree, when Lord John strolled over in my direction."
+    },
+    {
+      "id": "s226",
+      "text": "\"I say, Malone,\" said he, \"do you remember that place where those beasts were?\""
+    },
+    {
+      "id": "s227",
+      "text": "\"Very clearly.\""
+    },
+    {
+      "id": "s228",
+      "text": "\"A sort of volcanic pit, was it not?\""
+    },
+    {
+      "id": "s229",
+      "text": "\"Exactly,\" said I."
+    },
+    {
+      "id": "s230",
+      "text": "\"Did you notice the soil?\""
+    },
+    {
+      "id": "s231",
+      "text": "\"Rocks.\""
+    },
+    {
+      "id": "s232",
+      "text": "\"But round the water--where the reeds were?\""
+    },
+    {
+      "id": "s233",
+      "text": "\"It was a bluish soil."
+    },
+    {
+      "id": "s234",
+      "text": "It looked like clay.\""
+    },
+    {
+      "id": "s235",
+      "text": "\"Exactly."
+    },
+    {
+      "id": "s236",
+      "text": "A volcanic tube full of blue clay.\""
+    },
+    {
+      "id": "s237",
+      "text": "\"What of that?\" I asked."
+    },
+    {
+      "id": "s238",
+      "text": "\"Oh, nothing, nothing,\" said he, and strolled back to where the voices of the contending men of science rose in a prolonged duet, the high, strident note of Summerlee rising and falling to the sonorous bass of Challenger."
+    },
+    {
+      "id": "s239",
+      "text": "I should have thought no more of Lord John's remark were it not that once again that night I heard him mutter to himself: \"Blue clay--clay in a volcanic tube!\" They were the last words I heard before I dropped into an exhausted sleep."
+    }
+  ]
+}

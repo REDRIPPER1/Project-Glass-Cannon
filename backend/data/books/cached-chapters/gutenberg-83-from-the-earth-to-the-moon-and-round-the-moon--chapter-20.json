@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-20",
+  "chapterTitle": "CHAPTER XX.",
+  "contentHash": "sha256:d7d7bde7a82d65e9a9354b656a24fb19b477d248833beed5ae09cd0aca98986b",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, CHAPTER XX.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "ATTACK AND RIPOSTE"
+    },
+    {
+      "id": "s2",
+      "text": "As soon as the excitement had subsided, the following words were heard uttered in a strong and determined voice:"
+    },
+    {
+      "id": "s3",
+      "text": "“Now that the speaker has favored us with so much imagination, would he be so good as to return to his subject, and give us a little practical view of the question?”"
+    },
+    {
+      "id": "s4",
+      "text": "All eyes were directed toward the person who spoke."
+    },
+    {
+      "id": "s5",
+      "text": "He was a little dried-up man, of an active figure, with an American “goatee” beard."
+    },
+    {
+      "id": "s6",
+      "text": "Profiting by the different movements in the crowd, he had managed by degrees to gain the front row of spectators."
+    },
+    {
+      "id": "s7",
+      "text": "There, with arms crossed and stern gaze, he watched the hero of the meeting."
+    },
+    {
+      "id": "s8",
+      "text": "After having put his question he remained silent, and appeared to take no notice of the thousands of looks directed toward himself, nor of the murmur of disapprobation excited by his words."
+    },
+    {
+      "id": "s9",
+      "text": "Meeting at first with no reply, he repeated his question with marked emphasis, adding, “We are here to talk about the _moon_ and not about the _earth_.”"
+    },
+    {
+      "id": "s10",
+      "text": "“You are right, sir,” replied Michel Ardan; “the discussion has become irregular."
+    },
+    {
+      "id": "s11",
+      "text": "We will return to the moon.”"
+    },
+    {
+      "id": "s12",
+      "text": "“Sir,” said the unknown, “you pretend that our satellite is inhabited."
+    },
+    {
+      "id": "s13",
+      "text": "Very good, but if Selenites do exist, that race of beings assuredly must live without breathing, for—I warn you for your own sake—there is not the smallest particle of air on the surface of the moon.”"
+    },
+    {
+      "id": "s14",
+      "text": "At this remark Ardan pushed up his shock of red hair; he saw that he was on the point of being involved in a struggle with this person upon the very gist of the whole question."
+    },
+    {
+      "id": "s15",
+      "text": "He looked sternly at him in his turn and said:"
+    },
+    {
+      "id": "s16",
+      "text": "“Oh! so there is no air in the moon?"
+    },
+    {
+      "id": "s17",
+      "text": "And pray, if you are so good, who ventures to affirm that?"
+    },
+    {
+      "id": "s18",
+      "text": "“The men of science.”"
+    },
+    {
+      "id": "s19",
+      "text": "“Really?”"
+    },
+    {
+      "id": "s20",
+      "text": "“Really.”"
+    },
+    {
+      "id": "s21",
+      "text": "“Sir,” replied Michel, “pleasantry apart, I have a profound respect for men of science who do possess science, but a profound contempt for men of science who do not.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Do you know any who belong to the latter category?”"
+    },
+    {
+      "id": "s23",
+      "text": "“Decidedly."
+    },
+    {
+      "id": "s24",
+      "text": "In France there are some who maintain that, mathematically, a bird cannot possibly fly; and others who demonstrate theoretically that fishes were never made to live in water.”"
+    },
+    {
+      "id": "s25",
+      "text": "“I have nothing to do with persons of that description, and I can quote, in support of my statement, names which you cannot refuse deference to.”"
+    },
+    {
+      "id": "s26",
+      "text": "“Then, sir, you will sadly embarrass a poor ignorant, who, besides, asks nothing better than to learn.”"
+    },
+    {
+      "id": "s27",
+      "text": "“Why, then, do you introduce scientific questions if you have never studied them?” asked the unknown somewhat coarsely."
+    },
+    {
+      "id": "s28",
+      "text": "“For the reason that ‘he is always brave who never suspects danger.’ I know nothing, it is true; but it is precisely my very weakness which constitutes my strength.”"
+    },
+    {
+      "id": "s29",
+      "text": "“Your weakness amounts to folly,” retorted the unknown in a passion."
+    },
+    {
+      "id": "s30",
+      "text": "“All the better,” replied our Frenchman, “if it carries me up to the moon.”"
+    },
+    {
+      "id": "s31",
+      "text": "Barbicane and his colleagues devoured with their eyes the intruder who had so boldly placed himself in antagonism to their enterprise."
+    },
+    {
+      "id": "s32",
+      "text": "Nobody knew him, and the president, uneasy as to the result of so free a discussion, watched his new friend with some anxiety."
+    },
+    {
+      "id": "s33",
+      "text": "The meeting began to be somewhat fidgety also, for the contest directed their attention to the dangers, if not the actual impossibilities, of the proposed expedition."
+    },
+    {
+      "id": "s34",
+      "text": "“Sir,” replied Ardan’s antagonist, “there are many and incontrovertible reasons which prove the absence of an atmosphere in the moon."
+    },
+    {
+      "id": "s35",
+      "text": "I might say that, _a priori_, if one ever did exist, it must have been absorbed by the earth; but I prefer to bring forward indisputable facts.”"
+    },
+    {
+      "id": "s36",
+      "text": "“Bring them forward then, sir, as many as you please.”"
+    },
+    {
+      "id": "s37",
+      "text": "“You know,” said the stranger, “that when any luminous rays cross a medium such as the air, they are deflected out of the straight line; in other words, they undergo refraction."
+    },
+    {
+      "id": "s38",
+      "text": "Well!"
+    },
+    {
+      "id": "s39",
+      "text": "When stars are occulted by the moon, their rays, on grazing the edge of her disc, exhibit not the least deviation, nor offer the slightest indication of refraction."
+    },
+    {
+      "id": "s40",
+      "text": "It follows, therefore, that the moon cannot be surrounded by an atmosphere."
+    },
+    {
+      "id": "s41",
+      "text": "“In point of fact,” replied Ardan, “this is your chief, if not your _only_ argument; and a really scientific man might be puzzled to answer it."
+    },
+    {
+      "id": "s42",
+      "text": "For myself, I will simply say that it is defective, because it assumes that the angular diameter of the moon has been completely determined, which is not the case."
+    },
+    {
+      "id": "s43",
+      "text": "But let us proceed."
+    },
+    {
+      "id": "s44",
+      "text": "Tell me, my dear sir, do you admit the existence of volcanoes on the moon’s surface?”"
+    },
+    {
+      "id": "s45",
+      "text": "“Extinct, yes!"
+    },
+    {
+      "id": "s46",
+      "text": "In activity, no!”"
+    },
+    {
+      "id": "s47",
+      "text": "“These volcanoes, however, were at one time in a state of activity?”"
+    },
+    {
+      "id": "s48",
+      "text": "“True, but, as they furnish themselves the oxygen necessary for combustion, the mere fact of their eruption does not prove the presence of an atmosphere.”"
+    },
+    {
+      "id": "s49",
+      "text": "“Proceed again, then; and let us set aside this class of arguments in order to come to direct observations."
+    },
+    {
+      "id": "s50",
+      "text": "In 1715 the astronomers Louville and Halley, watching the eclipse of the 3rd of May, remarked some very extraordinary scintillations."
+    },
+    {
+      "id": "s51",
+      "text": "These jets of light, rapid in nature, and of frequent recurrence, they attributed to thunderstorms generated in the lunar atmosphere.”"
+    },
+    {
+      "id": "s52",
+      "text": "“In 1715,” replied the unknown, “the astronomers Louville and Halley mistook for lunar phenomena some which were purely terrestrial, such as meteoric or other bodies which are generated in our own atmosphere."
+    },
+    {
+      "id": "s53",
+      "text": "This was the scientific explanation at the time of the facts; and that is my answer now.”"
+    },
+    {
+      "id": "s54",
+      "text": "“On again, then,” replied Ardan; “Herschel, in 1787, observed a great number of luminous points on the moon’s surface, did he not?”"
+    },
+    {
+      "id": "s55",
+      "text": "“Yes! but without offering any solution of them."
+    },
+    {
+      "id": "s56",
+      "text": "Herschel himself never inferred from them the necessity of a lunar atmosphere."
+    },
+    {
+      "id": "s57",
+      "text": "And I may add that Baeer and Maedler, the two great authorities upon the moon, are quite agreed as to the entire absence of air on its surface.”"
+    },
+    {
+      "id": "s58",
+      "text": "A movement was here manifest among the assemblage, who appeared to be growing excited by the arguments of this singular personage."
+    },
+    {
+      "id": "s59",
+      "text": "“Let us proceed,” replied Ardan, with perfect coolness, “and come to one important fact."
+    },
+    {
+      "id": "s60",
+      "text": "A skillful French astronomer, M."
+    },
+    {
+      "id": "s61",
+      "text": "Laussedat, in watching the eclipse of July 18, 1860, probed that the horns of the lunar crescent were rounded and truncated."
+    },
+    {
+      "id": "s62",
+      "text": "Now, this appearance could only have been produced by a deviation of the solar rays in traversing the atmosphere of the moon."
+    },
+    {
+      "id": "s63",
+      "text": "There is no other possible explanation of the facts.”"
+    },
+    {
+      "id": "s64",
+      "text": "“But is this established as a fact?”"
+    },
+    {
+      "id": "s65",
+      "text": "“Absolutely certain!”"
+    },
+    {
+      "id": "s66",
+      "text": "A counter-movement here took place in favor of the hero of the meeting, whose opponent was now reduced to silence."
+    },
+    {
+      "id": "s67",
+      "text": "Ardan resumed the conversation; and without exhibiting any exultation at the advantage he had gained, simply said:"
+    },
+    {
+      "id": "s68",
+      "text": "“You see, then, my dear sir, we must not pronounce with absolute positiveness against the existence of an atmosphere in the moon."
+    },
+    {
+      "id": "s69",
+      "text": "That atmosphere is, probably, of extreme rarity; nevertheless at the present day science generally admits that it exists.”"
+    },
+    {
+      "id": "s70",
+      "text": "“Not in the mountains, at all events,” returned the unknown, unwilling to give in."
+    },
+    {
+      "id": "s71",
+      "text": "“No! but at the bottom of the valleys, and not exceeding a few hundred feet in height.”"
+    },
+    {
+      "id": "s72",
+      "text": "“In any case you will do well to take every precaution, for the air will be terribly rarified.”"
+    },
+    {
+      "id": "s73",
+      "text": "“My good sir, there will always be enough for a solitary individual; besides, once arrived up there, I shall do my best to economize, and not to breathe except on grand occasions!”"
+    },
+    {
+      "id": "s74",
+      "text": "A tremendous roar of laughter rang in the ears of the mysterious interlocutor, who glared fiercely round upon the assembly."
+    },
+    {
+      "id": "s75",
+      "text": "“Then,” continued Ardan, with a careless air, “since we are in accord regarding the presence of a certain atmosphere, we are forced to admit the presence of a certain quantity of water."
+    },
+    {
+      "id": "s76",
+      "text": "This is a happy consequence for me."
+    },
+    {
+      "id": "s77",
+      "text": "Moreover, my amiable contradictor, permit me to submit to you one further observation."
+    },
+    {
+      "id": "s78",
+      "text": "We only know _one_ side of the moon’s disc; and if there is but little air on the face presented to us, it is possible that there is plenty on the one turned away from us.”"
+    },
+    {
+      "id": "s79",
+      "text": "“And for what reason?”"
+    },
+    {
+      "id": "s80",
+      "text": "“Because the moon, under the action of the earth’s attraction, has assumed the form of an egg, which we look at from the smaller end."
+    },
+    {
+      "id": "s81",
+      "text": "Hence it follows, by Hausen’s calculations, that its center of gravity is situated in the other hemisphere."
+    },
+    {
+      "id": "s82",
+      "text": "Hence it results that the great mass of air and water must have been drawn away to the other face of our satellite during the first days of its creation.”"
+    },
+    {
+      "id": "s83",
+      "text": "“Pure fancies!” cried the unknown."
+    },
+    {
+      "id": "s84",
+      "text": "“No!"
+    },
+    {
+      "id": "s85",
+      "text": "Pure theories! which are based upon the laws of mechanics, and it seems difficult to me to refute them."
+    },
+    {
+      "id": "s86",
+      "text": "I appeal then to this meeting, and I put it to them whether life, such as exists upon the earth, is possible on the surface of the moon?”"
+    },
+    {
+      "id": "s87",
+      "text": "Three hundred thousand auditors at once applauded the proposition."
+    },
+    {
+      "id": "s88",
+      "text": "Ardan’s opponent tried to get in another word, but he could not obtain a hearing."
+    },
+    {
+      "id": "s89",
+      "text": "Cries and menaces fell upon him like hail."
+    },
+    {
+      "id": "s90",
+      "text": "“Enough! enough!” cried some."
+    },
+    {
+      "id": "s91",
+      "text": "“Drive the intruder off!” shouted others."
+    },
+    {
+      "id": "s92",
+      "text": "“Turn him out!” roared the exasperated crowd."
+    },
+    {
+      "id": "s93",
+      "text": "But he, holding firmly on to the platform, did not budge an inch, and let the storm pass on, which would soon have assumed formidable proportions, if Michel Ardan had not quieted it by a gesture."
+    },
+    {
+      "id": "s94",
+      "text": "He was too chivalrous to abandon his opponent in an apparent extremity."
+    },
+    {
+      "id": "s95",
+      "text": "“You wished to say a few more words?” he asked, in a pleasant voice."
+    },
+    {
+      "id": "s96",
+      "text": "“Yes, a thousand; or rather, no, only one!"
+    },
+    {
+      "id": "s97",
+      "text": "If you persevere in your enterprise, you must be a—”"
+    },
+    {
+      "id": "s98",
+      "text": "“Very rash person!"
+    },
+    {
+      "id": "s99",
+      "text": "How can you treat me as such? me, who have demanded a cylindro-conical projectile, in order to prevent turning round and round on my way like a squirrel?”"
+    },
+    {
+      "id": "s100",
+      "text": "“But, unhappy man, the dreadful recoil will smash you to pieces at your starting.”"
+    },
+    {
+      "id": "s101",
+      "text": "“My dear contradictor, you have just put your finger upon the true and only difficulty; nevertheless, I have too good an opinion of the industrial genius of the Americans not to believe that they will succeed in overcoming it.”"
+    },
+    {
+      "id": "s102",
+      "text": "“But the heat developed by the rapidity of the projectile in crossing the strata of air?”"
+    },
+    {
+      "id": "s103",
+      "text": "“Oh! the walls are thick, and I shall soon have crossed the atmosphere.”"
+    },
+    {
+      "id": "s104",
+      "text": "“But victuals and water?”"
+    },
+    {
+      "id": "s105",
+      "text": "“I have calculated for a twelvemonth’s supply, and I shall be only four days on the journey.”"
+    },
+    {
+      "id": "s106",
+      "text": "“But for air to breathe on the road?”"
+    },
+    {
+      "id": "s107",
+      "text": "“I shall make it by a chemical process.”"
+    },
+    {
+      "id": "s108",
+      "text": "“But your fall on the moon, supposing you ever reach it?”"
+    },
+    {
+      "id": "s109",
+      "text": "“It will be six times less dangerous than a sudden fall upon the earth, because the weight will be only one-sixth as great on the surface of the moon.”"
+    },
+    {
+      "id": "s110",
+      "text": "“Still it will be enough to smash you like glass!”"
+    },
+    {
+      "id": "s111",
+      "text": "“What is to prevent my retarding the shock by means of rockets conveniently placed, and lighted at the right moment?”"
+    },
+    {
+      "id": "s112",
+      "text": "“But after all, supposing all difficulties surmounted, all obstacles removed, supposing everything combined to favor you, and granting that you may arrive safe and sound in the moon, how will you come back?”"
+    },
+    {
+      "id": "s113",
+      "text": "“I am not coming back!”"
+    },
+    {
+      "id": "s114",
+      "text": "At this reply, almost sublime in its very simplicity, the assembly became silent."
+    },
+    {
+      "id": "s115",
+      "text": "But its silence was more eloquent than could have been its cries of enthusiasm."
+    },
+    {
+      "id": "s116",
+      "text": "The unknown profited by the opportunity and once more protested:"
+    },
+    {
+      "id": "s117",
+      "text": "“You will inevitably kill yourself!” he cried; “and your death will be that of a madman, useless even to science!”"
+    },
+    {
+      "id": "s118",
+      "text": "“Go on, my dear unknown, for truly your prophecies are most agreeable!”"
+    },
+    {
+      "id": "s119",
+      "text": "“It really is too much!” cried Michel Ardan’s adversary."
+    },
+    {
+      "id": "s120",
+      "text": "“I do not know why I should continue so frivolous a discussion!"
+    },
+    {
+      "id": "s121",
+      "text": "Please yourself about this insane expedition!"
+    },
+    {
+      "id": "s122",
+      "text": "We need not trouble ourselves about you!”"
+    },
+    {
+      "id": "s123",
+      "text": "“Pray don’t stand upon ceremony!”"
+    },
+    {
+      "id": "s124",
+      "text": "“No! another person is responsible for your act.”"
+    },
+    {
+      "id": "s125",
+      "text": "“Who, may I ask?” demanded Michel Ardan in an imperious tone."
+    },
+    {
+      "id": "s126",
+      "text": "“The ignoramus who organized this equally absurd and impossible experiment!”"
+    },
+    {
+      "id": "s127",
+      "text": "The attack was direct."
+    },
+    {
+      "id": "s128",
+      "text": "Barbicane, ever since the interference of the unknown, had been making fearful efforts of self-control; now, however, seeing himself directly attacked, he could restrain himself no longer."
+    },
+    {
+      "id": "s129",
+      "text": "He rose suddenly, and was rushing upon the enemy who thus braved him to the face, when all at once he found himself separated from him."
+    },
+    {
+      "id": "s130",
+      "text": "The platform was lifted by a hundred strong arms, and the president of the Gun Club shared with Michel Ardan triumphal honors."
+    },
+    {
+      "id": "s131",
+      "text": "The shield was heavy, but the bearers came in continuous relays, disputing, struggling, even fighting among themselves in their eagerness to lend their shoulders to this demonstration."
+    },
+    {
+      "id": "s132",
+      "text": "However, the unknown had not profited by the tumult to quit his post."
+    },
+    {
+      "id": "s133",
+      "text": "Besides he could not have done it in the midst of that compact crowd."
+    },
+    {
+      "id": "s134",
+      "text": "There he held on in the front row with crossed arms, glaring at President Barbicane."
+    },
+    {
+      "id": "s135",
+      "text": "The shouts of the immense crowd continued at their highest pitch throughout this triumphant march."
+    },
+    {
+      "id": "s136",
+      "text": "Michel Ardan took it all with evident pleasure."
+    },
+    {
+      "id": "s137",
+      "text": "His face gleamed with delight."
+    },
+    {
+      "id": "s138",
+      "text": "Several times the platform seemed seized with pitching and rolling like a weatherbeaten ship."
+    },
+    {
+      "id": "s139",
+      "text": "But the two heros of the meeting had good sea-legs."
+    },
+    {
+      "id": "s140",
+      "text": "They never stumbled; and their vessel arrived without dues at the port of Tampa Town."
+    },
+    {
+      "id": "s141",
+      "text": "Michel Ardan managed fortunately to escape from the last embraces of his vigorous admirers."
+    },
+    {
+      "id": "s142",
+      "text": "He made for the Hotel Franklin, quickly gained his chamber, and slid under the bedclothes, while an army of a hundred thousand men kept watch under his windows."
+    },
+    {
+      "id": "s143",
+      "text": "During this time a scene, short, grave, and decisive, took place between the mysterious personage and the president of the Gun Club."
+    },
+    {
+      "id": "s144",
+      "text": "Barbicane, free at last, had gone straight at his adversary."
+    },
+    {
+      "id": "s145",
+      "text": "“Come!” he said shortly."
+    },
+    {
+      "id": "s146",
+      "text": "The other followed him on the quay; and the two presently found themselves alone at the entrance of an open wharf on Jones’ Fall."
+    },
+    {
+      "id": "s147",
+      "text": "The two enemies, still mutually unknown, gazed at each other."
+    },
+    {
+      "id": "s148",
+      "text": "“Who are you?” asked Barbicane."
+    },
+    {
+      "id": "s149",
+      "text": "“Captain Nicholl!”"
+    },
+    {
+      "id": "s150",
+      "text": "“So I suspected."
+    },
+    {
+      "id": "s151",
+      "text": "Hitherto chance has never thrown you in my way.”"
+    },
+    {
+      "id": "s152",
+      "text": "“I am come for that purpose.”"
+    },
+    {
+      "id": "s153",
+      "text": "“You have insulted me.”"
+    },
+    {
+      "id": "s154",
+      "text": "“Publicly!”"
+    },
+    {
+      "id": "s155",
+      "text": "“And you will answer to me for this insult?”"
+    },
+    {
+      "id": "s156",
+      "text": "“At this very moment.”"
+    },
+    {
+      "id": "s157",
+      "text": "“No!"
+    },
+    {
+      "id": "s158",
+      "text": "I desire that all that passes between us shall be secret."
+    },
+    {
+      "id": "s159",
+      "text": "Their is a wood situated three miles from Tampa, the wood of Skersnaw."
+    },
+    {
+      "id": "s160",
+      "text": "Do you know it?”"
+    },
+    {
+      "id": "s161",
+      "text": "“I know it.”"
+    },
+    {
+      "id": "s162",
+      "text": "“Will you be so good as to enter it to-morrow morning at five o’clock, on one side?”"
+    },
+    {
+      "id": "s163",
+      "text": "“Yes! if you will enter at the other side at the same hour.”"
+    },
+    {
+      "id": "s164",
+      "text": "“And you will not forget your rifle?” said Barbicane."
+    },
+    {
+      "id": "s165",
+      "text": "“No more than you will forget yours?” replied Nicholl."
+    },
+    {
+      "id": "s166",
+      "text": "These words having been coldly spoken, the president of the Gun Club and the captain parted."
+    },
+    {
+      "id": "s167",
+      "text": "Barbicane returned to his lodging; but instead of snatching a few hours of repose, he passed the night in endeavoring to discover a means of evading the recoil of the projectile, and resolving the difficult problem proposed by Michel Ardan during the discussion at the meeting."
+    }
+  ]
+}

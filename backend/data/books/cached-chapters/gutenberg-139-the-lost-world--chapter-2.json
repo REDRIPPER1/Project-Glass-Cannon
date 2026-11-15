@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-139-the-lost-world",
+  "ebookId": "139",
+  "edition": "Project Gutenberg eBook #139; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-2",
+  "chapterTitle": "CHAPTER II",
+  "contentHash": "sha256:f077c6b592d808ce404346c8d65debcff753e59db3d996bf7bed2452b31329b5",
+  "attribution": "Doyle, Arthur Conan, 1859-1930, The Lost World, CHAPTER II. Source checked against Project Gutenberg eBook #139.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/139",
+    "textUrl": "https://www.gutenberg.org/cache/epub/139/pg139.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "\"Try Your Luck with Professor Challenger\""
+    },
+    {
+      "id": "s2",
+      "text": "I always liked McArdle, the crabbed, old, round-backed, red-headed news editor, and I rather hoped that he liked me."
+    },
+    {
+      "id": "s3",
+      "text": "Of course, Beaumont was the real boss; but he lived in the rarefied atmosphere of some Olympian height from which he could distinguish nothing smaller than an international crisis or a split in the Cabinet."
+    },
+    {
+      "id": "s4",
+      "text": "Sometimes we saw him passing in lonely majesty to his inner sanctum, with his eyes staring vaguely and his mind hovering over the Balkans or the Persian Gulf."
+    },
+    {
+      "id": "s5",
+      "text": "He was above and beyond us."
+    },
+    {
+      "id": "s6",
+      "text": "But McArdle was his first lieutenant, and it was he that we knew."
+    },
+    {
+      "id": "s7",
+      "text": "The old man nodded as I entered the room, and he pushed his spectacles far up on his bald forehead."
+    },
+    {
+      "id": "s8",
+      "text": "\"Well, Mr."
+    },
+    {
+      "id": "s9",
+      "text": "Malone, from all I hear, you seem to be doing very well,\" said he in his kindly Scotch accent."
+    },
+    {
+      "id": "s10",
+      "text": "I thanked him."
+    },
+    {
+      "id": "s11",
+      "text": "\"The colliery explosion was excellent."
+    },
+    {
+      "id": "s12",
+      "text": "So was the Southwark fire."
+    },
+    {
+      "id": "s13",
+      "text": "You have the true descreeptive touch."
+    },
+    {
+      "id": "s14",
+      "text": "What did you want to see me about?\""
+    },
+    {
+      "id": "s15",
+      "text": "\"To ask a favor.\""
+    },
+    {
+      "id": "s16",
+      "text": "He looked alarmed, and his eyes shunned mine. \"Tut, tut!"
+    },
+    {
+      "id": "s17",
+      "text": "What is it?\""
+    },
+    {
+      "id": "s18",
+      "text": "\"Do you think, Sir, that you could possibly send me on some mission for the paper?"
+    },
+    {
+      "id": "s19",
+      "text": "I would do my best to put it through and get you some good copy.\""
+    },
+    {
+      "id": "s20",
+      "text": "\"What sort of meesion had you in your mind, Mr."
+    },
+    {
+      "id": "s21",
+      "text": "Malone?\""
+    },
+    {
+      "id": "s22",
+      "text": "\"Well, Sir, anything that had adventure and danger in it."
+    },
+    {
+      "id": "s23",
+      "text": "I really would do my very best."
+    },
+    {
+      "id": "s24",
+      "text": "The more difficult it was, the better it would suit me.\""
+    },
+    {
+      "id": "s25",
+      "text": "\"You seem very anxious to lose your life.\""
+    },
+    {
+      "id": "s26",
+      "text": "\"To justify my life, Sir.\""
+    },
+    {
+      "id": "s27",
+      "text": "\"Dear me, Mr."
+    },
+    {
+      "id": "s28",
+      "text": "Malone, this is very--very exalted."
+    },
+    {
+      "id": "s29",
+      "text": "I'm afraid the day for this sort of thing is rather past."
+    },
+    {
+      "id": "s30",
+      "text": "The expense of the 'special meesion' business hardly justifies the result, and, of course, in any case it would only be an experienced man with a name that would command public confidence who would get such an order."
+    },
+    {
+      "id": "s31",
+      "text": "The big blank spaces in the map are all being filled in, and there's no room for romance anywhere."
+    },
+    {
+      "id": "s32",
+      "text": "Wait a bit, though!\" he added, with a sudden smile upon his face. \"Talking of the blank spaces of the map gives me an idea."
+    },
+    {
+      "id": "s33",
+      "text": "What about exposing a fraud--a modern Munchausen--and making him rideeculous?"
+    },
+    {
+      "id": "s34",
+      "text": "You could show him up as the liar that he is!"
+    },
+    {
+      "id": "s35",
+      "text": "Eh, man, it would be fine."
+    },
+    {
+      "id": "s36",
+      "text": "How does it appeal to you?\""
+    },
+    {
+      "id": "s37",
+      "text": "\"Anything--anywhere--I care nothing.\""
+    },
+    {
+      "id": "s38",
+      "text": "McArdle was plunged in thought for some minutes."
+    },
+    {
+      "id": "s39",
+      "text": "\"I wonder whether you could get on friendly--or at least on talking terms with the fellow,\" he said, at last. \"You seem to have a sort of genius for establishing relations with people--seempathy, I suppose, or animal magnetism, or youthful vitality, or something."
+    },
+    {
+      "id": "s40",
+      "text": "I am conscious of it myself.\""
+    },
+    {
+      "id": "s41",
+      "text": "\"You are very good, sir.\""
+    },
+    {
+      "id": "s42",
+      "text": "\"So why should you not try your luck with Professor Challenger, of Enmore Park?\""
+    },
+    {
+      "id": "s43",
+      "text": "I dare say I looked a little startled."
+    },
+    {
+      "id": "s44",
+      "text": "\"Challenger!\" I cried. \"Professor Challenger, the famous zoologist!"
+    },
+    {
+      "id": "s45",
+      "text": "Wasn't he the man who broke the skull of Blundell, of the Telegraph?\""
+    },
+    {
+      "id": "s46",
+      "text": "The news editor smiled grimly."
+    },
+    {
+      "id": "s47",
+      "text": "\"Do you mind?"
+    },
+    {
+      "id": "s48",
+      "text": "Didn't you say it was adventures you were after?\""
+    },
+    {
+      "id": "s49",
+      "text": "\"It is all in the way of business, sir,\" I answered."
+    },
+    {
+      "id": "s50",
+      "text": "\"Exactly."
+    },
+    {
+      "id": "s51",
+      "text": "I don't suppose he can always be so violent as that."
+    },
+    {
+      "id": "s52",
+      "text": "I'm thinking that Blundell got him at the wrong moment, maybe, or in the wrong fashion."
+    },
+    {
+      "id": "s53",
+      "text": "You may have better luck, or more tact in handling him."
+    },
+    {
+      "id": "s54",
+      "text": "There's something in your line there, I am sure, and the Gazette should work it.\""
+    },
+    {
+      "id": "s55",
+      "text": "\"I really know nothing about him,\" said I. \"I only remember his name in connection with the police-court proceedings, for striking Blundell.\""
+    },
+    {
+      "id": "s56",
+      "text": "\"I have a few notes for your guidance, Mr."
+    },
+    {
+      "id": "s57",
+      "text": "Malone."
+    },
+    {
+      "id": "s58",
+      "text": "I've had my eye on the Professor for some little time.\" He took a paper from a drawer. \"Here is a summary of his record."
+    },
+    {
+      "id": "s59",
+      "text": "I give it you briefly:--"
+    },
+    {
+      "id": "s60",
+      "text": "\"'Challenger, George Edward."
+    },
+    {
+      "id": "s61",
+      "text": "Born: Largs, N."
+    },
+    {
+      "id": "s62",
+      "text": "B., 1863."
+    },
+    {
+      "id": "s63",
+      "text": "Educ.: Largs Academy; Edinburgh University."
+    },
+    {
+      "id": "s64",
+      "text": "British Museum Assistant, 1892."
+    },
+    {
+      "id": "s65",
+      "text": "Assistant-Keeper of Comparative Anthropology Department, 1893."
+    },
+    {
+      "id": "s66",
+      "text": "Resigned after acrimonious correspondence same year."
+    },
+    {
+      "id": "s67",
+      "text": "Winner of Crayston Medal for Zoological Research."
+    },
+    {
+      "id": "s68",
+      "text": "Foreign Member of'--well, quite a lot of things, about two inches of small type--'Societe Belge, American Academy of Sciences, La Plata, etc., etc."
+    },
+    {
+      "id": "s69",
+      "text": "Ex-President Palaeontological Society."
+    },
+    {
+      "id": "s70",
+      "text": "Section H, British Association'--so on, so on!--'Publications: \"Some Observations Upon a Series of Kalmuck Skulls\"; \"Outlines of Vertebrate Evolution\"; and numerous papers, including \"The underlying fallacy of Weissmannism,\" which caused heated discussion at the Zoological Congress of Vienna."
+    },
+    {
+      "id": "s71",
+      "text": "Recreations: Walking, Alpine climbing."
+    },
+    {
+      "id": "s72",
+      "text": "Address: Enmore Park, Kensington, W.'"
+    },
+    {
+      "id": "s73",
+      "text": "\"There, take it with you."
+    },
+    {
+      "id": "s74",
+      "text": "I've nothing more for you to-night.\""
+    },
+    {
+      "id": "s75",
+      "text": "I pocketed the slip of paper."
+    },
+    {
+      "id": "s76",
+      "text": "\"One moment, sir,\" I said, as I realized that it was a pink bald head, and not a red face, which was fronting me. \"I am not very clear yet why I am to interview this gentleman."
+    },
+    {
+      "id": "s77",
+      "text": "What has he done?\""
+    },
+    {
+      "id": "s78",
+      "text": "The face flashed back again."
+    },
+    {
+      "id": "s79",
+      "text": "\"Went to South America on a solitary expedeetion two years ago."
+    },
+    {
+      "id": "s80",
+      "text": "Came back last year."
+    },
+    {
+      "id": "s81",
+      "text": "Had undoubtedly been to South America, but refused to say exactly where."
+    },
+    {
+      "id": "s82",
+      "text": "Began to tell his adventures in a vague way, but somebody started to pick holes, and he just shut up like an oyster."
+    },
+    {
+      "id": "s83",
+      "text": "Something wonderful happened--or the man's a champion liar, which is the more probable supposeetion."
+    },
+    {
+      "id": "s84",
+      "text": "Had some damaged photographs, said to be fakes."
+    },
+    {
+      "id": "s85",
+      "text": "Got so touchy that he assaults anyone who asks questions, and heaves reporters down the stairs."
+    },
+    {
+      "id": "s86",
+      "text": "In my opinion he's just a homicidal megalomaniac with a turn for science."
+    },
+    {
+      "id": "s87",
+      "text": "That's your man, Mr."
+    },
+    {
+      "id": "s88",
+      "text": "Malone."
+    },
+    {
+      "id": "s89",
+      "text": "Now, off you run, and see what you can make of him."
+    },
+    {
+      "id": "s90",
+      "text": "You're big enough to look after yourself."
+    },
+    {
+      "id": "s91",
+      "text": "Anyway, you are all safe."
+    },
+    {
+      "id": "s92",
+      "text": "Employers' Liability Act, you know.\""
+    },
+    {
+      "id": "s93",
+      "text": "A grinning red face turned once more into a pink oval, fringed with gingery fluff; the interview was at an end."
+    },
+    {
+      "id": "s94",
+      "text": "I walked across to the Savage Club, but instead of turning into it I leaned upon the railings of Adelphi Terrace and gazed thoughtfully for a long time at the brown, oily river."
+    },
+    {
+      "id": "s95",
+      "text": "I can always think most sanely and clearly in the open air."
+    },
+    {
+      "id": "s96",
+      "text": "I took out the list of Professor Challenger's exploits, and I read it over under the electric lamp."
+    },
+    {
+      "id": "s97",
+      "text": "Then I had what I can only regard as an inspiration."
+    },
+    {
+      "id": "s98",
+      "text": "As a Pressman, I felt sure from what I had been told that I could never hope to get into touch with this cantankerous Professor."
+    },
+    {
+      "id": "s99",
+      "text": "But these recriminations, twice mentioned in his skeleton biography, could only mean that he was a fanatic in science."
+    },
+    {
+      "id": "s100",
+      "text": "Was there not an exposed margin there upon which he might be accessible?"
+    },
+    {
+      "id": "s101",
+      "text": "I would try."
+    },
+    {
+      "id": "s102",
+      "text": "I entered the club."
+    },
+    {
+      "id": "s103",
+      "text": "It was just after eleven, and the big room was fairly full, though the rush had not yet set in."
+    },
+    {
+      "id": "s104",
+      "text": "I noticed a tall, thin, angular man seated in an arm-chair by the fire."
+    },
+    {
+      "id": "s105",
+      "text": "He turned as I drew my chair up to him."
+    },
+    {
+      "id": "s106",
+      "text": "It was the man of all others whom I should have chosen--Tarp Henry, of the staff of Nature, a thin, dry, leathery creature, who was full, to those who knew him, of kindly humanity."
+    },
+    {
+      "id": "s107",
+      "text": "I plunged instantly into my subject."
+    },
+    {
+      "id": "s108",
+      "text": "\"What do you know of Professor Challenger?\""
+    },
+    {
+      "id": "s109",
+      "text": "\"Challenger?\" He gathered his brows in scientific disapproval. \"Challenger was the man who came with some cock-and-bull story from South America.\""
+    },
+    {
+      "id": "s110",
+      "text": "\"What story?\""
+    },
+    {
+      "id": "s111",
+      "text": "\"Oh, it was rank nonsense about some queer animals he had discovered."
+    },
+    {
+      "id": "s112",
+      "text": "I believe he has retracted since."
+    },
+    {
+      "id": "s113",
+      "text": "Anyhow, he has suppressed it all."
+    },
+    {
+      "id": "s114",
+      "text": "He gave an interview to Reuter's, and there was such a howl that he saw it wouldn't do."
+    },
+    {
+      "id": "s115",
+      "text": "It was a discreditable business."
+    },
+    {
+      "id": "s116",
+      "text": "There were one or two folk who were inclined to take him seriously, but he soon choked them off.\""
+    },
+    {
+      "id": "s117",
+      "text": "\"How?\""
+    },
+    {
+      "id": "s118",
+      "text": "\"Well, by his insufferable rudeness and impossible behavior."
+    },
+    {
+      "id": "s119",
+      "text": "There was poor old Wadley, of the Zoological Institute."
+    },
+    {
+      "id": "s120",
+      "text": "Wadley sent a message: 'The President of the Zoological Institute presents his compliments to Professor Challenger, and would take it as a personal favor if he would do them the honor to come to their next meeting.' The answer was unprintable.\""
+    },
+    {
+      "id": "s121",
+      "text": "\"You don't say?\""
+    },
+    {
+      "id": "s122",
+      "text": "\"Well, a bowdlerized version of it would run: 'Professor Challenger presents his compliments to the President of the Zoological Institute, and would take it as a personal favor if he would go to the devil.'\""
+    },
+    {
+      "id": "s123",
+      "text": "\"Good Lord!\""
+    },
+    {
+      "id": "s124",
+      "text": "\"Yes, I expect that's what old Wadley said."
+    },
+    {
+      "id": "s125",
+      "text": "I remember his wail at the meeting, which began: 'In fifty years experience of scientific intercourse----' It quite broke the old man up.\""
+    },
+    {
+      "id": "s126",
+      "text": "\"Anything more about Challenger?\""
+    },
+    {
+      "id": "s127",
+      "text": "\"Well, I'm a bacteriologist, you know."
+    },
+    {
+      "id": "s128",
+      "text": "I live in a nine-hundred-diameter microscope."
+    },
+    {
+      "id": "s129",
+      "text": "I can hardly claim to take serious notice of anything that I can see with my naked eye."
+    },
+    {
+      "id": "s130",
+      "text": "I'm a frontiersman from the extreme edge of the Knowable, and I feel quite out of place when I leave my study and come into touch with all you great, rough, hulking creatures."
+    },
+    {
+      "id": "s131",
+      "text": "I'm too detached to talk scandal, and yet at scientific conversaziones I HAVE heard something of Challenger, for he is one of those men whom nobody can ignore."
+    },
+    {
+      "id": "s132",
+      "text": "He's as clever as they make 'em--a full-charged battery of force and vitality, but a quarrelsome, ill-conditioned faddist, and unscrupulous at that."
+    },
+    {
+      "id": "s133",
+      "text": "He had gone the length of faking some photographs over the South American business.\""
+    },
+    {
+      "id": "s134",
+      "text": "\"You say he is a faddist."
+    },
+    {
+      "id": "s135",
+      "text": "What is his particular fad?\""
+    },
+    {
+      "id": "s136",
+      "text": "\"He has a thousand, but the latest is something about Weissmann and Evolution."
+    },
+    {
+      "id": "s137",
+      "text": "He had a fearful row about it in Vienna, I believe.\""
+    },
+    {
+      "id": "s138",
+      "text": "\"Can't you tell me the point?\""
+    },
+    {
+      "id": "s139",
+      "text": "\"Not at the moment, but a translation of the proceedings exists."
+    },
+    {
+      "id": "s140",
+      "text": "We have it filed at the office."
+    },
+    {
+      "id": "s141",
+      "text": "Would you care to come?\""
+    },
+    {
+      "id": "s142",
+      "text": "\"It's just what I want."
+    },
+    {
+      "id": "s143",
+      "text": "I have to interview the fellow, and I need some lead up to him."
+    },
+    {
+      "id": "s144",
+      "text": "It's really awfully good of you to give me a lift."
+    },
+    {
+      "id": "s145",
+      "text": "I'll go with you now, if it is not too late.\""
+    },
+    {
+      "id": "s146",
+      "text": "Half an hour later I was seated in the newspaper office with a huge tome in front of me, which had been opened at the article \"Weissmann versus Darwin,\" with the sub heading, \"Spirited Protest at Vienna."
+    },
+    {
+      "id": "s147",
+      "text": "Lively Proceedings.\" My scientific education having been somewhat neglected, I was unable to follow the whole argument, but it was evident that the English Professor had handled his subject in a very aggressive fashion, and had thoroughly annoyed his Continental colleagues. \"Protests,\" \"Uproar,\" and \"General appeal to the Chairman\" were three of the first brackets which caught my eye."
+    },
+    {
+      "id": "s148",
+      "text": "Most of the matter might have been written in Chinese for any definite meaning that it conveyed to my brain."
+    },
+    {
+      "id": "s149",
+      "text": "\"I wish you could translate it into English for me,\" I said, pathetically, to my help-mate."
+    },
+    {
+      "id": "s150",
+      "text": "\"Well, it is a translation.\""
+    },
+    {
+      "id": "s151",
+      "text": "\"Then I'd better try my luck with the original.\""
+    },
+    {
+      "id": "s152",
+      "text": "\"It is certainly rather deep for a layman.\""
+    },
+    {
+      "id": "s153",
+      "text": "\"If I could only get a single good, meaty sentence which seemed to convey some sort of definite human idea, it would serve my turn."
+    },
+    {
+      "id": "s154",
+      "text": "Ah, yes, this one will do."
+    },
+    {
+      "id": "s155",
+      "text": "I seem in a vague way almost to understand it."
+    },
+    {
+      "id": "s156",
+      "text": "I'll copy it out."
+    },
+    {
+      "id": "s157",
+      "text": "This shall be my link with the terrible Professor.\""
+    },
+    {
+      "id": "s158",
+      "text": "\"Nothing else I can do?\""
+    },
+    {
+      "id": "s159",
+      "text": "\"Well, yes; I propose to write to him."
+    },
+    {
+      "id": "s160",
+      "text": "If I could frame the letter here, and use your address it would give atmosphere.\""
+    },
+    {
+      "id": "s161",
+      "text": "\"We'll have the fellow round here making a row and breaking the furniture.\""
+    },
+    {
+      "id": "s162",
+      "text": "\"No, no; you'll see the letter--nothing contentious, I assure you.\""
+    },
+    {
+      "id": "s163",
+      "text": "\"Well, that's my chair and desk."
+    },
+    {
+      "id": "s164",
+      "text": "You'll find paper there."
+    },
+    {
+      "id": "s165",
+      "text": "I'd like to censor it before it goes.\""
+    },
+    {
+      "id": "s166",
+      "text": "It took some doing, but I flatter myself that it wasn't such a bad job when it was finished."
+    },
+    {
+      "id": "s167",
+      "text": "I read it aloud to the critical bacteriologist with some pride in my handiwork."
+    },
+    {
+      "id": "s168",
+      "text": "\"DEAR PROFESSOR CHALLENGER,\" it said, \"As a humble student of Nature, I have always taken the most profound interest in your speculations as to the differences between Darwin and Weissmann."
+    },
+    {
+      "id": "s169",
+      "text": "I have recently had occasion to refresh my memory by re-reading----\""
+    },
+    {
+      "id": "s170",
+      "text": "\"You infernal liar!\" murmured Tarp Henry."
+    },
+    {
+      "id": "s171",
+      "text": "--\"by re-reading your masterly address at Vienna."
+    },
+    {
+      "id": "s172",
+      "text": "That lucid and admirable statement seems to be the last word in the matter."
+    },
+    {
+      "id": "s173",
+      "text": "There is one sentence in it, however--namely: 'I protest strongly against the insufferable and entirely dogmatic assertion that each separate id is a microcosm possessed of an historical architecture elaborated slowly through the series of generations.' Have you no desire, in view of later research, to modify this statement?"
+    },
+    {
+      "id": "s174",
+      "text": "Do you not think that it is over-accentuated?"
+    },
+    {
+      "id": "s175",
+      "text": "With your permission, I would ask the favor of an interview, as I feel strongly upon the subject, and have certain suggestions which I could only elaborate in a personal conversation."
+    },
+    {
+      "id": "s176",
+      "text": "With your consent, I trust to have the honor of calling at eleven o'clock the day after to-morrow (Wednesday) morning."
+    },
+    {
+      "id": "s177",
+      "text": "\"I remain, Sir, with assurances of profound respect, yours very truly,"
+    },
+    {
+      "id": "s178",
+      "text": "EDWARD D."
+    },
+    {
+      "id": "s179",
+      "text": "MALONE.\""
+    },
+    {
+      "id": "s180",
+      "text": "\"How's that?\" I asked, triumphantly."
+    },
+    {
+      "id": "s181",
+      "text": "\"Well if your conscience can stand it----\""
+    },
+    {
+      "id": "s182",
+      "text": "\"It has never failed me yet.\""
+    },
+    {
+      "id": "s183",
+      "text": "\"But what do you mean to do?\""
+    },
+    {
+      "id": "s184",
+      "text": "\"To get there."
+    },
+    {
+      "id": "s185",
+      "text": "Once I am in his room I may see some opening."
+    },
+    {
+      "id": "s186",
+      "text": "I may even go the length of open confession."
+    },
+    {
+      "id": "s187",
+      "text": "If he is a sportsman he will be tickled.\""
+    },
+    {
+      "id": "s188",
+      "text": "\"Tickled, indeed!"
+    },
+    {
+      "id": "s189",
+      "text": "He's much more likely to do the tickling."
+    },
+    {
+      "id": "s190",
+      "text": "Chain mail, or an American football suit--that's what you'll want."
+    },
+    {
+      "id": "s191",
+      "text": "Well, good-bye."
+    },
+    {
+      "id": "s192",
+      "text": "I'll have the answer for you here on Wednesday morning--if he ever deigns to answer you."
+    },
+    {
+      "id": "s193",
+      "text": "He is a violent, dangerous, cantankerous character, hated by everyone who comes across him, and the butt of the students, so far as they dare take a liberty with him."
+    },
+    {
+      "id": "s194",
+      "text": "Perhaps it would be best for you if you never heard from the fellow at all.\""
+    }
+  ]
+}

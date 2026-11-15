@@ -4,9 +4,9 @@
   "ebookId": "126",
   "edition": "Project Gutenberg eBook #126; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "Chapter I THE BLURRING OF LINES",
-  "contentHash": "sha256:507fece1ca9e96920d9cb347e5f45696d398616d9bfd039c3b922ebf4a69d1e7",
-  "attribution": "Doyle, Arthur Conan, 1859-1930, The Poison Belt, Chapter I THE BLURRING OF LINES. Source checked against Project Gutenberg eBook #126.",
+  "chapterTitle": "Chapter I",
+  "contentHash": "sha256:0b711ad12ddf5c2f7af5b4de9a4278ffa5093b8d825969c847cb375441b1c337",
+  "attribution": "Doyle, Arthur Conan, 1859-1930, The Poison Belt, Chapter I. Source checked against Project Gutenberg eBook #126.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/126",
@@ -19,1286 +19,1290 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "It is imperative that now at once, while these stupendous events are still clear in my mind, I should set them down with that exactness of detail which time may blur."
+      "text": "THE BLURRING OF LINES"
     },
     {
       "id": "s2",
-      "text": "But even as I do so, I am overwhelmed by the wonder of the fact that it should be our little group of the \"Lost World\"--Professor Challenger, Professor Summerlee, Lord John Roxton, and myself--who have passed through this amazing experience."
+      "text": "It is imperative that now at once, while these stupendous events are still clear in my mind, I should set them down with that exactness of detail which time may blur."
     },
     {
       "id": "s3",
-      "text": "When, some years ago, I chronicled in the Daily Gazette our epoch-making journey in South America, I little thought that it should ever fall to my lot to tell an even stranger personal experience, one which is unique in all human annals and must stand out in the records of history as a great peak among the humble foothills which surround it."
+      "text": "But even as I do so, I am overwhelmed by the wonder of the fact that it should be our little group of the \"Lost World\"--Professor Challenger, Professor Summerlee, Lord John Roxton, and myself--who have passed through this amazing experience."
     },
     {
       "id": "s4",
-      "text": "The event itself will always be marvellous, but the circumstances that we four were together at the time of this extraordinary episode came about in a most natural and, indeed, inevitable fashion."
+      "text": "When, some years ago, I chronicled in the Daily Gazette our epoch-making journey in South America, I little thought that it should ever fall to my lot to tell an even stranger personal experience, one which is unique in all human annals and must stand out in the records of history as a great peak among the humble foothills which surround it."
     },
     {
       "id": "s5",
-      "text": "I will explain the events which led up to it as shortly and as clearly as I can, though I am well aware that the fuller the detail upon such a subject the more welcome it will be to the reader, for the public curiosity has been and still is insatiable."
+      "text": "The event itself will always be marvellous, but the circumstances that we four were together at the time of this extraordinary episode came about in a most natural and, indeed, inevitable fashion."
     },
     {
       "id": "s6",
-      "text": "It was upon Friday, the twenty-seventh of August--a date forever memorable in the history of the world--that I went down to the office of my paper and asked for three days' leave of absence from Mr."
+      "text": "I will explain the events which led up to it as shortly and as clearly as I can, though I am well aware that the fuller the detail upon such a subject the more welcome it will be to the reader, for the public curiosity has been and still is insatiable."
     },
     {
       "id": "s7",
-      "text": "McArdle, who still presided over our news department."
+      "text": "It was upon Friday, the twenty-seventh of August--a date forever memorable in the history of the world--that I went down to the office of my paper and asked for three days' leave of absence from Mr."
     },
     {
       "id": "s8",
-      "text": "The good old Scotchman shook his head, scratched his dwindling fringe of ruddy fluff, and finally put his reluctance into words."
+      "text": "McArdle, who still presided over our news department."
     },
     {
       "id": "s9",
-      "text": "\"I was thinking, Mr."
+      "text": "The good old Scotchman shook his head, scratched his dwindling fringe of ruddy fluff, and finally put his reluctance into words."
     },
     {
       "id": "s10",
-      "text": "Malone, that we could employ you to advantage these days."
+      "text": "\"I was thinking, Mr."
     },
     {
       "id": "s11",
-      "text": "I was thinking there was a story that you are the only man that could handle as it should be handled.\""
+      "text": "Malone, that we could employ you to advantage these days."
     },
     {
       "id": "s12",
-      "text": "\"I am sorry for that,\" said I, trying to hide my disappointment. \"Of course if I am needed, there is an end of the matter."
+      "text": "I was thinking there was a story that you are the only man that could handle as it should be handled.\""
     },
     {
       "id": "s13",
-      "text": "But the engagement was important and intimate."
+      "text": "\"I am sorry for that,\" said I, trying to hide my disappointment. \"Of course if I am needed, there is an end of the matter."
     },
     {
       "id": "s14",
-      "text": "If I could be spared----\""
+      "text": "But the engagement was important and intimate."
     },
     {
       "id": "s15",
-      "text": "\"Well, I don't see that you can.\""
+      "text": "If I could be spared----\""
     },
     {
       "id": "s16",
-      "text": "It was bitter, but I had to put the best face I could upon it."
+      "text": "\"Well, I don't see that you can.\""
     },
     {
       "id": "s17",
-      "text": "After all, it was my own fault, for I should have known by this time that a journalist has no right to make plans of his own."
+      "text": "It was bitter, but I had to put the best face I could upon it."
     },
     {
       "id": "s18",
-      "text": "\"Then I'll think no more of it,\" said I with as much cheerfulness as I could assume at so short a notice. \"What was it that you wanted me to do?\""
+      "text": "After all, it was my own fault, for I should have known by this time that a journalist has no right to make plans of his own."
     },
     {
       "id": "s19",
-      "text": "\"Well, it was just to interview that deevil of a man down at Rotherfield.\""
+      "text": "\"Then I'll think no more of it,\" said I with as much cheerfulness as I could assume at so short a notice. \"What was it that you wanted me to do?\""
     },
     {
       "id": "s20",
-      "text": "\"You don't mean Professor Challenger?\" I cried."
+      "text": "\"Well, it was just to interview that deevil of a man down at Rotherfield.\""
     },
     {
       "id": "s21",
-      "text": "\"Aye, it's just him that I do mean."
+      "text": "\"You don't mean Professor Challenger?\" I cried."
     },
     {
       "id": "s22",
-      "text": "He ran young Alec Simpson of the Courier a mile down the high road last week by the collar of his coat and the slack of his breeches."
+      "text": "\"Aye, it's just him that I do mean."
     },
     {
       "id": "s23",
-      "text": "You'll have read of it, likely, in the police report."
+      "text": "He ran young Alec Simpson of the Courier a mile down the high road last week by the collar of his coat and the slack of his breeches."
     },
     {
       "id": "s24",
-      "text": "Our boys would as soon interview a loose alligator in the zoo."
+      "text": "You'll have read of it, likely, in the police report."
     },
     {
       "id": "s25",
-      "text": "But you could do it, I'm thinking--an old friend like you.\""
+      "text": "Our boys would as soon interview a loose alligator in the zoo."
     },
     {
       "id": "s26",
-      "text": "\"Why,\" said I, greatly relieved, \"this makes it all easy."
+      "text": "But you could do it, I'm thinking--an old friend like you.\""
     },
     {
       "id": "s27",
-      "text": "It so happens that it was to visit Professor Challenger at Rotherfield that I was asking for leave of absence."
+      "text": "\"Why,\" said I, greatly relieved, \"this makes it all easy."
     },
     {
       "id": "s28",
-      "text": "The fact is, that it is the anniversary of our main adventure on the plateau three years ago, and he has asked our whole party down to his house to see him and celebrate the occasion.\""
+      "text": "It so happens that it was to visit Professor Challenger at Rotherfield that I was asking for leave of absence."
     },
     {
       "id": "s29",
-      "text": "\"Capital!\" cried McArdle, rubbing his hands and beaming through his glasses. \"Then you will be able to get his opeenions out of him."
+      "text": "The fact is, that it is the anniversary of our main adventure on the plateau three years ago, and he has asked our whole party down to his house to see him and celebrate the occasion.\""
     },
     {
       "id": "s30",
-      "text": "In any other man I would say it was all moonshine, but the fellow has made good once, and who knows but he may again!\""
+      "text": "\"Capital!\" cried McArdle, rubbing his hands and beaming through his glasses. \"Then you will be able to get his opeenions out of him."
     },
     {
       "id": "s31",
-      "text": "\"Get what out of him?\" I asked. \"What has he been doing?\""
+      "text": "In any other man I would say it was all moonshine, but the fellow has made good once, and who knows but he may again!\""
     },
     {
       "id": "s32",
-      "text": "\"Haven't you seen his letter on 'Scientific Possibeelities' in to-day's Times?\""
+      "text": "\"Get what out of him?\" I asked. \"What has he been doing?\""
     },
     {
       "id": "s33",
-      "text": "\"No.\""
+      "text": "\"Haven't you seen his letter on 'Scientific Possibeelities' in to-day's Times?\""
     },
     {
       "id": "s34",
-      "text": "McArdle dived down and picked a copy from the floor."
+      "text": "\"No.\""
     },
     {
       "id": "s35",
-      "text": "\"Read it aloud,\" said he, indicating a column with his finger. \"I'd be glad to hear it again, for I am not sure now that I have the man's meaning clear in my head.\""
+      "text": "McArdle dived down and picked a copy from the floor."
     },
     {
       "id": "s36",
-      "text": "This was the letter which I read to the news editor of the Gazette:--"
+      "text": "\"Read it aloud,\" said he, indicating a column with his finger. \"I'd be glad to hear it again, for I am not sure now that I have the man's meaning clear in my head.\""
     },
     {
       "id": "s37",
-      "text": "\"SCIENTIFIC POSSIBILITIES\""
+      "text": "This was the letter which I read to the news editor of the Gazette:--"
     },
     {
       "id": "s38",
-      "text": "\"Sir,--I have read with amusement, not wholly unmixed with some less complimentary emotion, the complacent and wholly fatuous letter of James Wilson MacPhail which has lately appeared in your columns upon the subject of the blurring of Fraunhofer's lines in the spectra both of the planets and of the fixed stars."
+      "text": "\"SCIENTIFIC POSSIBILITIES\""
     },
     {
       "id": "s39",
-      "text": "He dismisses the matter as of no significance."
+      "text": "\"Sir,--I have read with amusement, not wholly unmixed with some less complimentary emotion, the complacent and wholly fatuous letter of James Wilson MacPhail which has lately appeared in your columns upon the subject of the blurring of Fraunhofer's lines in the spectra both of the planets and of the fixed stars."
     },
     {
       "id": "s40",
-      "text": "To a wider intelligence it may well seem of very great possible importance--so great as to involve the ultimate welfare of every man, woman, and child upon this planet."
+      "text": "He dismisses the matter as of no significance."
     },
     {
       "id": "s41",
-      "text": "I can hardly hope, by the use of scientific language, to convey any sense of my meaning to those ineffectual people who gather their ideas from the columns of a daily newspaper."
+      "text": "To a wider intelligence it may well seem of very great possible importance--so great as to involve the ultimate welfare of every man, woman, and child upon this planet."
     },
     {
       "id": "s42",
-      "text": "I will endeavour, therefore, to condescend to their limitation and to indicate the situation by the use of a homely analogy which will be within the limits of the intelligence of your readers.\""
+      "text": "I can hardly hope, by the use of scientific language, to convey any sense of my meaning to those ineffectual people who gather their ideas from the columns of a daily newspaper."
     },
     {
       "id": "s43",
-      "text": "\"Man, he's a wonder--a living wonder!\" said McArdle, shaking his head reflectively. \"He'd put up the feathers of a sucking-dove and set up a riot in a Quakers' meeting."
+      "text": "I will endeavour, therefore, to condescend to their limitation and to indicate the situation by the use of a homely analogy which will be within the limits of the intelligence of your readers.\""
     },
     {
       "id": "s44",
-      "text": "No wonder he has made London too hot for him."
+      "text": "\"Man, he's a wonder--a living wonder!\" said McArdle, shaking his head reflectively. \"He'd put up the feathers of a sucking-dove and set up a riot in a Quakers' meeting."
     },
     {
       "id": "s45",
-      "text": "It's a peety, Mr."
+      "text": "No wonder he has made London too hot for him."
     },
     {
       "id": "s46",
-      "text": "Malone, for it's a grand brain!"
+      "text": "It's a peety, Mr."
     },
     {
       "id": "s47",
-      "text": "We'll let's have the analogy.\""
+      "text": "Malone, for it's a grand brain!"
     },
     {
       "id": "s48",
-      "text": "\"We will suppose,\" I read, \"that a small bundle of connected corks was launched in a sluggish current upon a voyage across the Atlantic."
+      "text": "We'll let's have the analogy.\""
     },
     {
       "id": "s49",
-      "text": "The corks drift slowly on from day to day with the same conditions all round them."
+      "text": "\"We will suppose,\" I read, \"that a small bundle of connected corks was launched in a sluggish current upon a voyage across the Atlantic."
     },
     {
       "id": "s50",
-      "text": "If the corks were sentient we could imagine that they would consider these conditions to be permanent and assured."
+      "text": "The corks drift slowly on from day to day with the same conditions all round them."
     },
     {
       "id": "s51",
-      "text": "But we, with our superior knowledge, know that many things might happen to surprise the corks."
+      "text": "If the corks were sentient we could imagine that they would consider these conditions to be permanent and assured."
     },
     {
       "id": "s52",
-      "text": "They might possibly float up against a ship, or a sleeping whale, or become entangled in seaweed."
+      "text": "But we, with our superior knowledge, know that many things might happen to surprise the corks."
     },
     {
       "id": "s53",
-      "text": "In any case, their voyage would probably end by their being thrown up on the rocky coast of Labrador."
+      "text": "They might possibly float up against a ship, or a sleeping whale, or become entangled in seaweed."
     },
     {
       "id": "s54",
-      "text": "But what could they know of all this while they drifted so gently day by day in what they thought was a limitless and homogeneous ocean?"
+      "text": "In any case, their voyage would probably end by their being thrown up on the rocky coast of Labrador."
     },
     {
       "id": "s55",
-      "text": "\"Your readers will possibly comprehend that the Atlantic, in this parable, stands for the mighty ocean of ether through which we drift and that the bunch of corks represents the little and obscure planetary system to which we belong."
+      "text": "But what could they know of all this while they drifted so gently day by day in what they thought was a limitless and homogeneous ocean?"
     },
     {
       "id": "s56",
-      "text": "A third-rate sun, with its rag tag and bobtail of insignificant satellites, we float under the same daily conditions towards some unknown end, some squalid catastrophe which will overwhelm us at the ultimate confines of space, where we are swept over an etheric Niagara or dashed upon some unthinkable Labrador."
+      "text": "\"Your readers will possibly comprehend that the Atlantic, in this parable, stands for the mighty ocean of ether through which we drift and that the bunch of corks represents the little and obscure planetary system to which we belong."
     },
     {
       "id": "s57",
-      "text": "I see no room here for the shallow and ignorant optimism of your correspondent, Mr."
+      "text": "A third-rate sun, with its rag tag and bobtail of insignificant satellites, we float under the same daily conditions towards some unknown end, some squalid catastrophe which will overwhelm us at the ultimate confines of space, where we are swept over an etheric Niagara or dashed upon some unthinkable Labrador."
     },
     {
       "id": "s58",
-      "text": "James Wilson MacPhail, but many reasons why we should watch with a very close and interested attention every indication of change in those cosmic surroundings upon which our own ultimate fate may depend.\""
+      "text": "I see no room here for the shallow and ignorant optimism of your correspondent, Mr."
     },
     {
       "id": "s59",
-      "text": "\"Man, he'd have made a grand meenister,\" said McArdle. \"It just booms like an organ."
+      "text": "James Wilson MacPhail, but many reasons why we should watch with a very close and interested attention every indication of change in those cosmic surroundings upon which our own ultimate fate may depend.\""
     },
     {
       "id": "s60",
-      "text": "Let's get doun to what it is that's troubling him.\""
+      "text": "\"Man, he'd have made a grand meenister,\" said McArdle. \"It just booms like an organ."
     },
     {
       "id": "s61",
-      "text": "\"The general blurring and shifting of Fraunhofer's lines of the spectrum point, in my opinion, to a widespread cosmic change of a subtle and singular character."
+      "text": "Let's get doun to what it is that's troubling him.\""
     },
     {
       "id": "s62",
-      "text": "Light from a planet is the reflected light of the sun."
+      "text": "\"The general blurring and shifting of Fraunhofer's lines of the spectrum point, in my opinion, to a widespread cosmic change of a subtle and singular character."
     },
     {
       "id": "s63",
-      "text": "Light from a star is a self-produced light."
+      "text": "Light from a planet is the reflected light of the sun."
     },
     {
       "id": "s64",
-      "text": "But the spectra both from planets and stars have, in this instance, all undergone the same change."
+      "text": "Light from a star is a self-produced light."
     },
     {
       "id": "s65",
-      "text": "Is it, then, a change in those planets and stars?"
+      "text": "But the spectra both from planets and stars have, in this instance, all undergone the same change."
     },
     {
       "id": "s66",
-      "text": "To me such an idea is inconceivable."
+      "text": "Is it, then, a change in those planets and stars?"
     },
     {
       "id": "s67",
-      "text": "What common change could simultaneously come upon them all?"
+      "text": "To me such an idea is inconceivable."
     },
     {
       "id": "s68",
-      "text": "Is it a change in our own atmosphere?"
+      "text": "What common change could simultaneously come upon them all?"
     },
     {
       "id": "s69",
-      "text": "It is possible, but in the highest degree improbable, since we see no signs of it around us, and chemical analysis has failed to reveal it."
+      "text": "Is it a change in our own atmosphere?"
     },
     {
       "id": "s70",
-      "text": "What, then, is the third possibility?"
+      "text": "It is possible, but in the highest degree improbable, since we see no signs of it around us, and chemical analysis has failed to reveal it."
     },
     {
       "id": "s71",
-      "text": "That it may be a change in the conducting medium, in that infinitely fine ether which extends from star to star and pervades the whole universe."
+      "text": "What, then, is the third possibility?"
     },
     {
       "id": "s72",
-      "text": "Deep in that ocean we are floating upon a slow current."
+      "text": "That it may be a change in the conducting medium, in that infinitely fine ether which extends from star to star and pervades the whole universe."
     },
     {
       "id": "s73",
-      "text": "Might that current not drift us into belts of ether which are novel and have properties of which we have never conceived?"
+      "text": "Deep in that ocean we are floating upon a slow current."
     },
     {
       "id": "s74",
-      "text": "There is a change somewhere."
+      "text": "Might that current not drift us into belts of ether which are novel and have properties of which we have never conceived?"
     },
     {
       "id": "s75",
-      "text": "This cosmic disturbance of the spectrum proves it."
+      "text": "There is a change somewhere."
     },
     {
       "id": "s76",
-      "text": "It may be a good change."
+      "text": "This cosmic disturbance of the spectrum proves it."
     },
     {
       "id": "s77",
-      "text": "It may be an evil one."
+      "text": "It may be a good change."
     },
     {
       "id": "s78",
-      "text": "It may be a neutral one."
+      "text": "It may be an evil one."
     },
     {
       "id": "s79",
-      "text": "We do not know."
+      "text": "It may be a neutral one."
     },
     {
       "id": "s80",
-      "text": "Shallow observers may treat the matter as one which can be disregarded, but one who like myself is possessed of the deeper intelligence of the true philosopher will understand that the possibilities of the universe are incalculable and that the wisest man is he who holds himself ready for the unexpected."
+      "text": "We do not know."
     },
     {
       "id": "s81",
-      "text": "To take an obvious example, who would undertake to say that the mysterious and universal outbreak of illness, recorded in your columns this very morning as having broken out among the indigenous races of Sumatra, has no connection with some cosmic change to which they may respond more quickly than the more complex peoples of Europe?"
+      "text": "Shallow observers may treat the matter as one which can be disregarded, but one who like myself is possessed of the deeper intelligence of the true philosopher will understand that the possibilities of the universe are incalculable and that the wisest man is he who holds himself ready for the unexpected."
     },
     {
       "id": "s82",
-      "text": "I throw out the idea for what it is worth."
+      "text": "To take an obvious example, who would undertake to say that the mysterious and universal outbreak of illness, recorded in your columns this very morning as having broken out among the indigenous races of Sumatra, has no connection with some cosmic change to which they may respond more quickly than the more complex peoples of Europe?"
     },
     {
       "id": "s83",
-      "text": "To assert it is, in the present stage, as unprofitable as to deny it, but it is an unimaginative numskull who is too dense to perceive that it is well within the bounds of scientific possibility."
+      "text": "I throw out the idea for what it is worth."
     },
     {
       "id": "s84",
-      "text": "\"Yours faithfully, \"GEORGE EDWARD CHALLENGER."
+      "text": "To assert it is, in the present stage, as unprofitable as to deny it, but it is an unimaginative numskull who is too dense to perceive that it is well within the bounds of scientific possibility."
     },
     {
       "id": "s85",
-      "text": "\"THE BRIARS, ROTHERFIELD.\""
+      "text": "\"Yours faithfully, \"GEORGE EDWARD CHALLENGER."
     },
     {
       "id": "s86",
-      "text": "\"It's a fine, steemulating letter,\" said McArdle thoughtfully, fitting a cigarette into the long glass tube which he used as a holder. \"What's your opeenion of it, Mr."
+      "text": "\"THE BRIARS, ROTHERFIELD.\""
     },
     {
       "id": "s87",
-      "text": "Malone?\""
+      "text": "\"It's a fine, steemulating letter,\" said McArdle thoughtfully, fitting a cigarette into the long glass tube which he used as a holder. \"What's your opeenion of it, Mr."
     },
     {
       "id": "s88",
-      "text": "I had to confess my total and humiliating ignorance of the subject at issue."
+      "text": "Malone?\""
     },
     {
       "id": "s89",
-      "text": "What, for example, were Fraunhofer's lines?"
+      "text": "I had to confess my total and humiliating ignorance of the subject at issue."
     },
     {
       "id": "s90",
-      "text": "McArdle had just been studying the matter with the aid of our tame scientist at the office, and he picked from his desk two of those many-coloured spectral bands which bear a general resemblance to the hat-ribbons of some young and ambitious cricket club."
+      "text": "What, for example, were Fraunhofer's lines?"
     },
     {
       "id": "s91",
-      "text": "He pointed out to me that there were certain black lines which formed crossbars upon the series of brilliant colours extending from the red at one end through gradations of orange, yellow, green, blue, and indigo to the violet at the other."
+      "text": "McArdle had just been studying the matter with the aid of our tame scientist at the office, and he picked from his desk two of those many-coloured spectral bands which bear a general resemblance to the hat-ribbons of some young and ambitious cricket club."
     },
     {
       "id": "s92",
-      "text": "\"Those dark bands are Fraunhofer's lines,\" said he. \"The colours are just light itself."
+      "text": "He pointed out to me that there were certain black lines which formed crossbars upon the series of brilliant colours extending from the red at one end through gradations of orange, yellow, green, blue, and indigo to the violet at the other."
     },
     {
       "id": "s93",
-      "text": "Every light, if you can split it up with a prism, gives the same colours."
+      "text": "\"Those dark bands are Fraunhofer's lines,\" said he. \"The colours are just light itself."
     },
     {
       "id": "s94",
-      "text": "They tell us nothing."
+      "text": "Every light, if you can split it up with a prism, gives the same colours."
     },
     {
       "id": "s95",
-      "text": "It is the lines that count, because they vary according to what it may be that produces the light."
+      "text": "They tell us nothing."
     },
     {
       "id": "s96",
-      "text": "It is these lines that have been blurred instead of clear this last week, and all the astronomers have been quarreling over the reason."
+      "text": "It is the lines that count, because they vary according to what it may be that produces the light."
     },
     {
       "id": "s97",
-      "text": "Here's a photograph of the blurred lines for our issue to-morrow."
+      "text": "It is these lines that have been blurred instead of clear this last week, and all the astronomers have been quarreling over the reason."
     },
     {
       "id": "s98",
-      "text": "The public have taken no interest in the matter up to now, but this letter of Challenger's in the Times will make them wake up, I'm thinking.\""
+      "text": "Here's a photograph of the blurred lines for our issue to-morrow."
     },
     {
       "id": "s99",
-      "text": "\"And this about Sumatra?\""
+      "text": "The public have taken no interest in the matter up to now, but this letter of Challenger's in the Times will make them wake up, I'm thinking.\""
     },
     {
       "id": "s100",
-      "text": "\"Well, it's a long cry from a blurred line in a spectrum to a sick nigger in Sumatra."
+      "text": "\"And this about Sumatra?\""
     },
     {
       "id": "s101",
-      "text": "And yet the chiel has shown us once before that he knows what he's talking about."
+      "text": "\"Well, it's a long cry from a blurred line in a spectrum to a sick nigger in Sumatra."
     },
     {
       "id": "s102",
-      "text": "There is some queer illness down yonder, that's beyond all doubt, and to-day there's a cable just come in from Singapore that the lighthouses are out of action in the Straits of Sundan, and two ships on the beach in consequence."
+      "text": "And yet the chiel has shown us once before that he knows what he's talking about."
     },
     {
       "id": "s103",
-      "text": "Anyhow, it's good enough for you to interview Challenger upon."
+      "text": "There is some queer illness down yonder, that's beyond all doubt, and to-day there's a cable just come in from Singapore that the lighthouses are out of action in the Straits of Sundan, and two ships on the beach in consequence."
     },
     {
       "id": "s104",
-      "text": "If you get anything definite, let us have a column by Monday.\""
+      "text": "Anyhow, it's good enough for you to interview Challenger upon."
     },
     {
       "id": "s105",
-      "text": "I was coming out from the news editor's room, turning over my new mission in my mind, when I heard my name called from the waiting-room below."
+      "text": "If you get anything definite, let us have a column by Monday.\""
     },
     {
       "id": "s106",
-      "text": "It was a telegraph-boy with a wire which had been forwarded from my lodgings at Streatham."
+      "text": "I was coming out from the news editor's room, turning over my new mission in my mind, when I heard my name called from the waiting-room below."
     },
     {
       "id": "s107",
-      "text": "The message was from the very man we had been discussing, and ran thus:--"
+      "text": "It was a telegraph-boy with a wire which had been forwarded from my lodgings at Streatham."
     },
     {
       "id": "s108",
-      "text": "Malone, 17, Hill Street, Streatham.--Bring oxygen.--Challenger."
+      "text": "The message was from the very man we had been discussing, and ran thus:--"
     },
     {
       "id": "s109",
-      "text": "\"Bring oxygen!\" The Professor, as I remembered him, had an elephantine sense of humour capable of the most clumsy and unwieldly gambollings."
+      "text": "Malone, 17, Hill Street, Streatham.--Bring oxygen.--Challenger."
     },
     {
       "id": "s110",
-      "text": "Was this one of those jokes which used to reduce him to uproarious laughter, when his eyes would disappear and he was all gaping mouth and wagging beard, supremely indifferent to the gravity of all around him?"
+      "text": "\"Bring oxygen!\" The Professor, as I remembered him, had an elephantine sense of humour capable of the most clumsy and unwieldly gambollings."
     },
     {
       "id": "s111",
-      "text": "I turned the words over, but could make nothing even remotely jocose out of them."
+      "text": "Was this one of those jokes which used to reduce him to uproarious laughter, when his eyes would disappear and he was all gaping mouth and wagging beard, supremely indifferent to the gravity of all around him?"
     },
     {
       "id": "s112",
-      "text": "Then surely it was a concise order--though a very strange one."
+      "text": "I turned the words over, but could make nothing even remotely jocose out of them."
     },
     {
       "id": "s113",
-      "text": "He was the last man in the world whose deliberate command I should care to disobey."
+      "text": "Then surely it was a concise order--though a very strange one."
     },
     {
       "id": "s114",
-      "text": "Possibly some chemical experiment was afoot; possibly----Well, it was no business of mine to speculate upon why he wanted it."
+      "text": "He was the last man in the world whose deliberate command I should care to disobey."
     },
     {
       "id": "s115",
-      "text": "I must get it."
+      "text": "Possibly some chemical experiment was afoot; possibly----Well, it was no business of mine to speculate upon why he wanted it."
     },
     {
       "id": "s116",
-      "text": "There was nearly an hour before I should catch the train at Victoria."
+      "text": "I must get it."
     },
     {
       "id": "s117",
-      "text": "I took a taxi, and having ascertained the address from the telephone book, I made for the Oxygen Tube Supply Company in Oxford Street."
+      "text": "There was nearly an hour before I should catch the train at Victoria."
     },
     {
       "id": "s118",
-      "text": "As I alighted on the pavement at my destination, two youths emerged from the door of the establishment carrying an iron cylinder, which, with some trouble, they hoisted into a waiting motor-car."
+      "text": "I took a taxi, and having ascertained the address from the telephone book, I made for the Oxygen Tube Supply Company in Oxford Street."
     },
     {
       "id": "s119",
-      "text": "An elderly man was at their heels scolding and directing in a creaky, sardonic voice."
+      "text": "As I alighted on the pavement at my destination, two youths emerged from the door of the establishment carrying an iron cylinder, which, with some trouble, they hoisted into a waiting motor-car."
     },
     {
       "id": "s120",
-      "text": "He turned towards me."
+      "text": "An elderly man was at their heels scolding and directing in a creaky, sardonic voice."
     },
     {
       "id": "s121",
-      "text": "There was no mistaking those austere features and that goatee beard."
+      "text": "He turned towards me."
     },
     {
       "id": "s122",
-      "text": "It was my old cross-grained companion, Professor Summerlee."
+      "text": "There was no mistaking those austere features and that goatee beard."
     },
     {
       "id": "s123",
-      "text": "\"What!\" he cried. \"Don't tell me that _you_ have had one of these preposterous telegrams for oxygen?\""
+      "text": "It was my old cross-grained companion, Professor Summerlee."
     },
     {
       "id": "s124",
-      "text": "I exhibited it."
+      "text": "\"What!\" he cried. \"Don't tell me that _you_ have had one of these preposterous telegrams for oxygen?\""
     },
     {
       "id": "s125",
-      "text": "\"Well, well!"
+      "text": "I exhibited it."
     },
     {
       "id": "s126",
-      "text": "I have had one too, and, as you see, very much against the grain, I have acted upon it."
+      "text": "\"Well, well!"
     },
     {
       "id": "s127",
-      "text": "Our good friend is as impossible as ever."
+      "text": "I have had one too, and, as you see, very much against the grain, I have acted upon it."
     },
     {
       "id": "s128",
-      "text": "The need for oxygen could not have been so urgent that he must desert the usual means of supply and encroach upon the time of those who are really busier than himself."
+      "text": "Our good friend is as impossible as ever."
     },
     {
       "id": "s129",
-      "text": "Why could he not order it direct?\""
+      "text": "The need for oxygen could not have been so urgent that he must desert the usual means of supply and encroach upon the time of those who are really busier than himself."
     },
     {
       "id": "s130",
-      "text": "I could only suggest that he probably wanted it at once."
+      "text": "Why could he not order it direct?\""
     },
     {
       "id": "s131",
-      "text": "\"Or thought he did, which is quite another matter."
+      "text": "I could only suggest that he probably wanted it at once."
     },
     {
       "id": "s132",
-      "text": "But it is superfluous now for you to purchase any, since I have this considerable supply.\""
+      "text": "\"Or thought he did, which is quite another matter."
     },
     {
       "id": "s133",
-      "text": "\"Still, for some reason he seems to wish that I should bring oxygen too."
+      "text": "But it is superfluous now for you to purchase any, since I have this considerable supply.\""
     },
     {
       "id": "s134",
-      "text": "It will be safer to do exactly what he tells me.\""
+      "text": "\"Still, for some reason he seems to wish that I should bring oxygen too."
     },
     {
       "id": "s135",
-      "text": "Accordingly, in spite of many grumbles and remonstrances from Summerlee, I ordered an additional tube, which was placed with the other in his motor-car, for he had offered me a lift to Victoria."
+      "text": "It will be safer to do exactly what he tells me.\""
     },
     {
       "id": "s136",
-      "text": "I turned away to pay off my taxi, the driver of which was very cantankerous and abusive over his fare."
+      "text": "Accordingly, in spite of many grumbles and remonstrances from Summerlee, I ordered an additional tube, which was placed with the other in his motor-car, for he had offered me a lift to Victoria."
     },
     {
       "id": "s137",
-      "text": "As I came back to Professor Summerlee, he was having a furious altercation with the men who had carried down the oxygen, his little white goat's beard jerking with indignation."
+      "text": "I turned away to pay off my taxi, the driver of which was very cantankerous and abusive over his fare."
     },
     {
       "id": "s138",
-      "text": "One of the fellows called him, I remember, \"a silly old bleached cockatoo,\" which so enraged his chauffeur that he bounded out of his seat to take the part of his insulted master, and it was all we could do to prevent a riot in the street."
+      "text": "As I came back to Professor Summerlee, he was having a furious altercation with the men who had carried down the oxygen, his little white goat's beard jerking with indignation."
     },
     {
       "id": "s139",
-      "text": "These little things may seem trivial to relate, and passed as mere incidents at the time."
+      "text": "One of the fellows called him, I remember, \"a silly old bleached cockatoo,\" which so enraged his chauffeur that he bounded out of his seat to take the part of his insulted master, and it was all we could do to prevent a riot in the street."
     },
     {
       "id": "s140",
-      "text": "It is only now, as I look back, that I see their relation to the whole story which I have to unfold."
+      "text": "These little things may seem trivial to relate, and passed as mere incidents at the time."
     },
     {
       "id": "s141",
-      "text": "The chauffeur must, as it seemed to me, have been a novice or else have lost his nerve in this disturbance, for he drove vilely on the way to the station."
+      "text": "It is only now, as I look back, that I see their relation to the whole story which I have to unfold."
     },
     {
       "id": "s142",
-      "text": "Twice we nearly had collisions with other equally erratic vehicles, and I remember remarking to Summerlee that the standard of driving in London had very much declined."
+      "text": "The chauffeur must, as it seemed to me, have been a novice or else have lost his nerve in this disturbance, for he drove vilely on the way to the station."
     },
     {
       "id": "s143",
-      "text": "Once we brushed the very edge of a great crowd which was watching a fight at the corner of the Mall."
+      "text": "Twice we nearly had collisions with other equally erratic vehicles, and I remember remarking to Summerlee that the standard of driving in London had very much declined."
     },
     {
       "id": "s144",
-      "text": "The people, who were much excited, raised cries of anger at the clumsy driving, and one fellow sprang upon the step and waved a stick above our heads."
+      "text": "Once we brushed the very edge of a great crowd which was watching a fight at the corner of the Mall."
     },
     {
       "id": "s145",
-      "text": "I pushed him off, but we were glad when we had got clear of them and safe out of the park."
+      "text": "The people, who were much excited, raised cries of anger at the clumsy driving, and one fellow sprang upon the step and waved a stick above our heads."
     },
     {
       "id": "s146",
-      "text": "These little events, coming one after the other, left me very jangled in my nerves, and I could see from my companion's petulant manner that his own patience had got to a low ebb."
+      "text": "I pushed him off, but we were glad when we had got clear of them and safe out of the park."
     },
     {
       "id": "s147",
-      "text": "But our good humour was restored when we saw Lord John Roxton waiting for us upon the platform, his tall, thin figure clad in a yellow tweed shooting-suit."
+      "text": "These little events, coming one after the other, left me very jangled in my nerves, and I could see from my companion's petulant manner that his own patience had got to a low ebb."
     },
     {
       "id": "s148",
-      "text": "His keen face, with those unforgettable eyes, so fierce and yet so humorous, flushed with pleasure at the sight of us."
+      "text": "But our good humour was restored when we saw Lord John Roxton waiting for us upon the platform, his tall, thin figure clad in a yellow tweed shooting-suit."
     },
     {
       "id": "s149",
-      "text": "His ruddy hair was shot with grey, and the furrows upon his brow had been cut a little deeper by Time's chisel, but in all else he was the Lord John who had been our good comrade in the past."
+      "text": "His keen face, with those unforgettable eyes, so fierce and yet so humorous, flushed with pleasure at the sight of us."
     },
     {
       "id": "s150",
-      "text": "\"Hullo, Herr Professor!"
+      "text": "His ruddy hair was shot with grey, and the furrows upon his brow had been cut a little deeper by Time's chisel, but in all else he was the Lord John who had been our good comrade in the past."
     },
     {
       "id": "s151",
-      "text": "Hullo, young fella!\" he shouted as he came toward us."
+      "text": "\"Hullo, Herr Professor!"
     },
     {
       "id": "s152",
-      "text": "He roared with amusement when he saw the oxygen cylinders upon the porter's trolly behind us. \"So you've got them too!\" he cried. \"Mine is in the van."
+      "text": "Hullo, young fella!\" he shouted as he came toward us."
     },
     {
       "id": "s153",
-      "text": "Whatever can the old dear be after?\""
+      "text": "He roared with amusement when he saw the oxygen cylinders upon the porter's trolly behind us. \"So you've got them too!\" he cried. \"Mine is in the van."
     },
     {
       "id": "s154",
-      "text": "\"Have you seen his letter in the Times?\" I asked."
+      "text": "Whatever can the old dear be after?\""
     },
     {
       "id": "s155",
-      "text": "\"What was it?\""
+      "text": "\"Have you seen his letter in the Times?\" I asked."
     },
     {
       "id": "s156",
-      "text": "\"Stuff and nonsense!\" said Summerlee harshly."
+      "text": "\"What was it?\""
     },
     {
       "id": "s157",
-      "text": "\"Well, it's at the bottom of this oxygen business, or I am mistaken,\" said I."
+      "text": "\"Stuff and nonsense!\" said Summerlee harshly."
     },
     {
       "id": "s158",
-      "text": "\"Stuff and nonsense!\" cried Summerlee again with quite unnecessary violence."
+      "text": "\"Well, it's at the bottom of this oxygen business, or I am mistaken,\" said I."
     },
     {
       "id": "s159",
-      "text": "We had all got into a first-class smoker, and he had already lit the short and charred old briar pipe which seemed to singe the end of his long, aggressive nose."
+      "text": "\"Stuff and nonsense!\" cried Summerlee again with quite unnecessary violence."
     },
     {
       "id": "s160",
-      "text": "\"Friend Challenger is a clever man,\" said he with great vehemence. \"No one can deny it."
+      "text": "We had all got into a first-class smoker, and he had already lit the short and charred old briar pipe which seemed to singe the end of his long, aggressive nose."
     },
     {
       "id": "s161",
-      "text": "It's a fool that denies it."
+      "text": "\"Friend Challenger is a clever man,\" said he with great vehemence. \"No one can deny it."
     },
     {
       "id": "s162",
-      "text": "Look at his hat."
+      "text": "It's a fool that denies it."
     },
     {
       "id": "s163",
-      "text": "There's a sixty-ounce brain inside it--a big engine, running smooth, and turning out clean work."
+      "text": "Look at his hat."
     },
     {
       "id": "s164",
-      "text": "Show me the engine-house and I'll tell you the size of the engine."
+      "text": "There's a sixty-ounce brain inside it--a big engine, running smooth, and turning out clean work."
     },
     {
       "id": "s165",
-      "text": "But he is a born charlatan--you've heard me tell him so to his face--a born charlatan, with a kind of dramatic trick of jumping into the limelight."
+      "text": "Show me the engine-house and I'll tell you the size of the engine."
     },
     {
       "id": "s166",
-      "text": "Things are quiet, so friend Challenger sees a chance to set the public talking about him."
+      "text": "But he is a born charlatan--you've heard me tell him so to his face--a born charlatan, with a kind of dramatic trick of jumping into the limelight."
     },
     {
       "id": "s167",
-      "text": "You don't imagine that he seriously believes all this nonsense about a change in the ether and a danger to the human race?"
+      "text": "Things are quiet, so friend Challenger sees a chance to set the public talking about him."
     },
     {
       "id": "s168",
-      "text": "Was ever such a cock-and-bull story in this life?\""
+      "text": "You don't imagine that he seriously believes all this nonsense about a change in the ether and a danger to the human race?"
     },
     {
       "id": "s169",
-      "text": "He sat like an old white raven, croaking and shaking with sardonic laughter."
+      "text": "Was ever such a cock-and-bull story in this life?\""
     },
     {
       "id": "s170",
-      "text": "A wave of anger passed through me as I listened to Summerlee."
+      "text": "He sat like an old white raven, croaking and shaking with sardonic laughter."
     },
     {
       "id": "s171",
-      "text": "It was disgraceful that he should speak thus of the leader who had been the source of all our fame and given us such an experience as no men have ever enjoyed."
+      "text": "A wave of anger passed through me as I listened to Summerlee."
     },
     {
       "id": "s172",
-      "text": "I had opened my mouth to utter some hot retort, when Lord John got before me."
+      "text": "It was disgraceful that he should speak thus of the leader who had been the source of all our fame and given us such an experience as no men have ever enjoyed."
     },
     {
       "id": "s173",
-      "text": "\"You had a scrap once before with old man Challenger,\" said he sternly, \"and you were down and out inside ten seconds."
+      "text": "I had opened my mouth to utter some hot retort, when Lord John got before me."
     },
     {
       "id": "s174",
-      "text": "It seems to me, Professor Summerlee, he's beyond your class, and the best you can do with him is to walk wide and leave him alone.\""
+      "text": "\"You had a scrap once before with old man Challenger,\" said he sternly, \"and you were down and out inside ten seconds."
     },
     {
       "id": "s175",
-      "text": "\"Besides,\" said I, \"he has been a good friend to every one of us."
+      "text": "It seems to me, Professor Summerlee, he's beyond your class, and the best you can do with him is to walk wide and leave him alone.\""
     },
     {
       "id": "s176",
-      "text": "Whatever his faults may be, he is as straight as a line, and I don't believe he ever speaks evil of his comrades behind their backs.\""
+      "text": "\"Besides,\" said I, \"he has been a good friend to every one of us."
     },
     {
       "id": "s177",
-      "text": "\"Well said, young fellah-my-lad,\" said Lord John Roxton."
+      "text": "Whatever his faults may be, he is as straight as a line, and I don't believe he ever speaks evil of his comrades behind their backs.\""
     },
     {
       "id": "s178",
-      "text": "Then, with a kindly smile, he slapped Professor Summerlee upon his shoulder. \"Come, Herr Professor, we're not going to quarrel at this time of day."
+      "text": "\"Well said, young fellah-my-lad,\" said Lord John Roxton."
     },
     {
       "id": "s179",
-      "text": "We've seen too much together."
+      "text": "Then, with a kindly smile, he slapped Professor Summerlee upon his shoulder. \"Come, Herr Professor, we're not going to quarrel at this time of day."
     },
     {
       "id": "s180",
-      "text": "But keep off the grass when you get near Challenger, for this young fellah and I have a bit of a weakness for the old dear.\""
+      "text": "We've seen too much together."
     },
     {
       "id": "s181",
-      "text": "But Summerlee was in no humour for compromise."
+      "text": "But keep off the grass when you get near Challenger, for this young fellah and I have a bit of a weakness for the old dear.\""
     },
     {
       "id": "s182",
-      "text": "His face was screwed up in rigid disapproval, and thick curls of angry smoke rolled up from his pipe."
+      "text": "But Summerlee was in no humour for compromise."
     },
     {
       "id": "s183",
-      "text": "\"As to you, Lord John Roxton,\" he creaked, \"your opinion upon a matter of science is of as much value in my eyes as my views upon a new type of shot-gun would be in yours."
+      "text": "His face was screwed up in rigid disapproval, and thick curls of angry smoke rolled up from his pipe."
     },
     {
       "id": "s184",
-      "text": "I have my own judgment, sir, and I use it in my own way."
+      "text": "\"As to you, Lord John Roxton,\" he creaked, \"your opinion upon a matter of science is of as much value in my eyes as my views upon a new type of shot-gun would be in yours."
     },
     {
       "id": "s185",
-      "text": "Because it has misled me once, is that any reason why I should accept without criticism anything, however far-fetched, which this man may care to put forward?"
+      "text": "I have my own judgment, sir, and I use it in my own way."
     },
     {
       "id": "s186",
-      "text": "Are we to have a Pope of science, with infallible decrees laid down _ex cathedra_, and accepted without question by the poor humble public?"
+      "text": "Because it has misled me once, is that any reason why I should accept without criticism anything, however far-fetched, which this man may care to put forward?"
     },
     {
       "id": "s187",
-      "text": "I tell you, sir, that I have a brain of my own and that I should feel myself to be a snob and a slave if I did not use it."
+      "text": "Are we to have a Pope of science, with infallible decrees laid down _ex cathedra_, and accepted without question by the poor humble public?"
     },
     {
       "id": "s188",
-      "text": "If it pleases you to believe this rigmarole about ether and Fraunhofer's lines upon the spectrum, do so by all means, but do not ask one who is older and wiser than yourself to share in your folly."
+      "text": "I tell you, sir, that I have a brain of my own and that I should feel myself to be a snob and a slave if I did not use it."
     },
     {
       "id": "s189",
-      "text": "Is it not evident that if the ether were affected to the degree which he maintains, and if it were obnoxious to human health, the result of it would already be apparent upon ourselves?\" Here he laughed with uproarious triumph over his own argument. \"Yes, sir, we should already be very far from our normal selves, and instead of sitting quietly discussing scientific problems in a railway train we should be showing actual symptoms of the poison which was working within us."
+      "text": "If it pleases you to believe this rigmarole about ether and Fraunhofer's lines upon the spectrum, do so by all means, but do not ask one who is older and wiser than yourself to share in your folly."
     },
     {
       "id": "s190",
-      "text": "Where do we see any signs of this poisonous cosmic disturbance?"
+      "text": "Is it not evident that if the ether were affected to the degree which he maintains, and if it were obnoxious to human health, the result of it would already be apparent upon ourselves?\" Here he laughed with uproarious triumph over his own argument. \"Yes, sir, we should already be very far from our normal selves, and instead of sitting quietly discussing scientific problems in a railway train we should be showing actual symptoms of the poison which was working within us."
     },
     {
       "id": "s191",
-      "text": "Answer me that, sir!"
+      "text": "Where do we see any signs of this poisonous cosmic disturbance?"
     },
     {
       "id": "s192",
-      "text": "Answer me that!"
+      "text": "Answer me that, sir!"
     },
     {
       "id": "s193",
-      "text": "Come, come, no evasion!"
+      "text": "Answer me that!"
     },
     {
       "id": "s194",
-      "text": "I pin you to an answer!\""
+      "text": "Come, come, no evasion!"
     },
     {
       "id": "s195",
-      "text": "I felt more and more angry."
+      "text": "I pin you to an answer!\""
     },
     {
       "id": "s196",
-      "text": "There was something very irritating and aggressive in Summerlee's demeanour."
+      "text": "I felt more and more angry."
     },
     {
       "id": "s197",
-      "text": "\"I think that if you knew more about the facts you might be less positive in your opinion,\" said I."
+      "text": "There was something very irritating and aggressive in Summerlee's demeanour."
     },
     {
       "id": "s198",
-      "text": "Summerlee took his pipe from his mouth and fixed me with a stony stare."
+      "text": "\"I think that if you knew more about the facts you might be less positive in your opinion,\" said I."
     },
     {
       "id": "s199",
-      "text": "\"Pray what do you mean, sir, by that somewhat impertinent observation?\""
+      "text": "Summerlee took his pipe from his mouth and fixed me with a stony stare."
     },
     {
       "id": "s200",
-      "text": "\"I mean that when I was leaving the office the news editor told me that a telegram had come in confirming the general illness of the Sumatra natives, and adding that the lights had not been lit in the Straits of Sunda.\""
+      "text": "\"Pray what do you mean, sir, by that somewhat impertinent observation?\""
     },
     {
       "id": "s201",
-      "text": "\"Really, there should be some limits to human folly!\" cried Summerlee in a positive fury. \"Is it possible that you do not realize that ether, if for a moment we adopt Challenger's preposterous supposition, is a universal substance which is the same here as at the other side of the world?"
+      "text": "\"I mean that when I was leaving the office the news editor told me that a telegram had come in confirming the general illness of the Sumatra natives, and adding that the lights had not been lit in the Straits of Sunda.\""
     },
     {
       "id": "s202",
-      "text": "Do you for an instant suppose that there is an English ether and a Sumatran ether?"
+      "text": "\"Really, there should be some limits to human folly!\" cried Summerlee in a positive fury. \"Is it possible that you do not realize that ether, if for a moment we adopt Challenger's preposterous supposition, is a universal substance which is the same here as at the other side of the world?"
     },
     {
       "id": "s203",
-      "text": "Perhaps you imagine that the ether of Kent is in some way superior to the ether of Surrey, through which this train is now bearing us."
+      "text": "Do you for an instant suppose that there is an English ether and a Sumatran ether?"
     },
     {
       "id": "s204",
-      "text": "There really are no bounds to the credulity and ignorance of the average layman."
+      "text": "Perhaps you imagine that the ether of Kent is in some way superior to the ether of Surrey, through which this train is now bearing us."
     },
     {
       "id": "s205",
-      "text": "Is it conceivable that the ether in Sumatra should be so deadly as to cause total insensibility at the very time when the ether here has had no appreciable effect upon us whatever?"
+      "text": "There really are no bounds to the credulity and ignorance of the average layman."
     },
     {
       "id": "s206",
-      "text": "Personally, I can truly say that I never felt stronger in body or better balanced in mind in my life.\""
+      "text": "Is it conceivable that the ether in Sumatra should be so deadly as to cause total insensibility at the very time when the ether here has had no appreciable effect upon us whatever?"
     },
     {
       "id": "s207",
-      "text": "\"That may be."
+      "text": "Personally, I can truly say that I never felt stronger in body or better balanced in mind in my life.\""
     },
     {
       "id": "s208",
-      "text": "I don't profess to be a scientific man,\" said I, \"though I have heard somewhere that the science of one generation is usually the fallacy of the next."
+      "text": "\"That may be."
     },
     {
       "id": "s209",
-      "text": "But it does not take much common sense to see that, as we seem to know so little about ether, it might be affected by some local conditions in various parts of the world and might show an effect over there which would only develop later with us.\""
+      "text": "I don't profess to be a scientific man,\" said I, \"though I have heard somewhere that the science of one generation is usually the fallacy of the next."
     },
     {
       "id": "s210",
-      "text": "\"With 'might' and 'may' you can prove anything,\" cried Summerlee furiously. \"Pigs may fly."
+      "text": "But it does not take much common sense to see that, as we seem to know so little about ether, it might be affected by some local conditions in various parts of the world and might show an effect over there which would only develop later with us.\""
     },
     {
       "id": "s211",
-      "text": "Yes, sir, pigs _may_ fly--but they don't."
+      "text": "\"With 'might' and 'may' you can prove anything,\" cried Summerlee furiously. \"Pigs may fly."
     },
     {
       "id": "s212",
-      "text": "It is not worth arguing with you."
+      "text": "Yes, sir, pigs _may_ fly--but they don't."
     },
     {
       "id": "s213",
-      "text": "Challenger has filled you with his nonsense and you are both incapable of reason."
+      "text": "It is not worth arguing with you."
     },
     {
       "id": "s214",
-      "text": "I had as soon lay arguments before those railway cushions.\""
+      "text": "Challenger has filled you with his nonsense and you are both incapable of reason."
     },
     {
       "id": "s215",
-      "text": "\"I must say, Professor Summerlee, that your manners do not seem to have improved since I last had the pleasure of meeting you,\" said Lord John severely."
+      "text": "I had as soon lay arguments before those railway cushions.\""
     },
     {
       "id": "s216",
-      "text": "\"You lordlings are not accustomed to hear the truth,\" Summerlee answered with a bitter smile. \"It comes as a bit of a shock, does it not, when someone makes you realize that your title leaves you none the less a very ignorant man?\""
+      "text": "\"I must say, Professor Summerlee, that your manners do not seem to have improved since I last had the pleasure of meeting you,\" said Lord John severely."
     },
     {
       "id": "s217",
-      "text": "\"Upon my word, sir,\" said Lord John, very stern and rigid, \"if you were a younger man you would not dare to speak to me in so offensive a fashion.\""
+      "text": "\"You lordlings are not accustomed to hear the truth,\" Summerlee answered with a bitter smile. \"It comes as a bit of a shock, does it not, when someone makes you realize that your title leaves you none the less a very ignorant man?\""
     },
     {
       "id": "s218",
-      "text": "Summerlee thrust out his chin, with its little wagging tuft of goatee beard."
+      "text": "\"Upon my word, sir,\" said Lord John, very stern and rigid, \"if you were a younger man you would not dare to speak to me in so offensive a fashion.\""
     },
     {
       "id": "s219",
-      "text": "\"I would have you know, sir, that, young or old, there has never been a time in my life when I was afraid to speak my mind to an ignorant coxcomb--yes, sir, an ignorant coxcomb, if you had as many titles as slaves could invent and fools could adopt.\""
+      "text": "Summerlee thrust out his chin, with its little wagging tuft of goatee beard."
     },
     {
       "id": "s220",
-      "text": "For a moment Lord John's eyes blazed, and then, with a tremendous effort, he mastered his anger and leaned back in his seat with arms folded and a bitter smile upon his face."
+      "text": "\"I would have you know, sir, that, young or old, there has never been a time in my life when I was afraid to speak my mind to an ignorant coxcomb--yes, sir, an ignorant coxcomb, if you had as many titles as slaves could invent and fools could adopt.\""
     },
     {
       "id": "s221",
-      "text": "To me all this was dreadful and deplorable."
+      "text": "For a moment Lord John's eyes blazed, and then, with a tremendous effort, he mastered his anger and leaned back in his seat with arms folded and a bitter smile upon his face."
     },
     {
       "id": "s222",
-      "text": "Like a wave, the memory of the past swept over me, the good comradeship, the happy, adventurous days--all that we had suffered and worked for and won."
+      "text": "To me all this was dreadful and deplorable."
     },
     {
       "id": "s223",
-      "text": "That it should have come to this--to insults and abuse!"
+      "text": "Like a wave, the memory of the past swept over me, the good comradeship, the happy, adventurous days--all that we had suffered and worked for and won."
     },
     {
       "id": "s224",
-      "text": "Suddenly I was sobbing--sobbing in loud, gulping, uncontrollable sobs which refused to be concealed."
+      "text": "That it should have come to this--to insults and abuse!"
     },
     {
       "id": "s225",
-      "text": "My companions looked at me in surprise."
+      "text": "Suddenly I was sobbing--sobbing in loud, gulping, uncontrollable sobs which refused to be concealed."
     },
     {
       "id": "s226",
-      "text": "I covered my face with my hands."
+      "text": "My companions looked at me in surprise."
     },
     {
       "id": "s227",
-      "text": "\"It's all right,\" said I. \"Only--only it _is_ such a pity!\""
+      "text": "I covered my face with my hands."
     },
     {
       "id": "s228",
-      "text": "\"You're ill, young fellah, that's what's amiss with you,\" said Lord John. \"I thought you were queer from the first.\""
+      "text": "\"It's all right,\" said I. \"Only--only it _is_ such a pity!\""
     },
     {
       "id": "s229",
-      "text": "\"Your habits, sir, have not mended in these three years,\" said Summerlee, shaking his head. \"I also did not fail to observe your strange manner the moment we met."
+      "text": "\"You're ill, young fellah, that's what's amiss with you,\" said Lord John. \"I thought you were queer from the first.\""
     },
     {
       "id": "s230",
-      "text": "You need not waste your sympathy, Lord John."
+      "text": "\"Your habits, sir, have not mended in these three years,\" said Summerlee, shaking his head. \"I also did not fail to observe your strange manner the moment we met."
     },
     {
       "id": "s231",
-      "text": "These tears are purely alcoholic."
+      "text": "You need not waste your sympathy, Lord John."
     },
     {
       "id": "s232",
-      "text": "The man has been drinking."
+      "text": "These tears are purely alcoholic."
     },
     {
       "id": "s233",
-      "text": "By the way, Lord John, I called you a coxcomb just now, which was perhaps unduly severe."
+      "text": "The man has been drinking."
     },
     {
       "id": "s234",
-      "text": "But the word reminds me of a small accomplishment, trivial but amusing, which I used to possess."
+      "text": "By the way, Lord John, I called you a coxcomb just now, which was perhaps unduly severe."
     },
     {
       "id": "s235",
-      "text": "You know me as the austere man of science."
+      "text": "But the word reminds me of a small accomplishment, trivial but amusing, which I used to possess."
     },
     {
       "id": "s236",
-      "text": "Can you believe that I once had a well-deserved reputation in several nurseries as a farmyard imitator?"
+      "text": "You know me as the austere man of science."
     },
     {
       "id": "s237",
-      "text": "Perhaps I can help you to pass the time in a pleasant way."
+      "text": "Can you believe that I once had a well-deserved reputation in several nurseries as a farmyard imitator?"
     },
     {
       "id": "s238",
-      "text": "Would it amuse you to hear me crow like a cock?\""
+      "text": "Perhaps I can help you to pass the time in a pleasant way."
     },
     {
       "id": "s239",
-      "text": "\"No, sir,\" said Lord John, who was still greatly offended, \"it would _not_ amuse me.\""
+      "text": "Would it amuse you to hear me crow like a cock?\""
     },
     {
       "id": "s240",
-      "text": "\"My imitation of the clucking hen who had just laid an egg was also considered rather above the average."
+      "text": "\"No, sir,\" said Lord John, who was still greatly offended, \"it would _not_ amuse me.\""
     },
     {
       "id": "s241",
-      "text": "Might I venture?\""
+      "text": "\"My imitation of the clucking hen who had just laid an egg was also considered rather above the average."
     },
     {
       "id": "s242",
-      "text": "\"No, sir, no--certainly not.\""
+      "text": "Might I venture?\""
     },
     {
       "id": "s243",
-      "text": "But in spite of this earnest prohibition, Professor Summerlee laid down his pipe and for the rest of our journey he entertained--or failed to entertain--us by a succession of bird and animal cries which seemed so absurd that my tears were suddenly changed into boisterous laughter, which must have become quite hysterical as I sat opposite this grave Professor and saw him--or rather heard him--in the character of the uproarious rooster or the puppy whose tail had been trodden upon."
+      "text": "\"No, sir, no--certainly not.\""
     },
     {
       "id": "s244",
-      "text": "Once Lord John passed across his newspaper, upon the margin of which he had written in pencil, \"Poor devil!"
+      "text": "But in spite of this earnest prohibition, Professor Summerlee laid down his pipe and for the rest of our journey he entertained--or failed to entertain--us by a succession of bird and animal cries which seemed so absurd that my tears were suddenly changed into boisterous laughter, which must have become quite hysterical as I sat opposite this grave Professor and saw him--or rather heard him--in the character of the uproarious rooster or the puppy whose tail had been trodden upon."
     },
     {
       "id": "s245",
-      "text": "Mad as a hatter.\" No doubt it was very eccentric, and yet the performance struck me as extraordinarily clever and amusing."
+      "text": "Once Lord John passed across his newspaper, upon the margin of which he had written in pencil, \"Poor devil!"
     },
     {
       "id": "s246",
-      "text": "Whilst this was going on, Lord John leaned forward and told me some interminable story about a buffalo and an Indian rajah which seemed to me to have neither beginning nor end."
+      "text": "Mad as a hatter.\" No doubt it was very eccentric, and yet the performance struck me as extraordinarily clever and amusing."
     },
     {
       "id": "s247",
-      "text": "Professor Summerlee had just begun to chirrup like a canary, and Lord John to get to the climax of his story, when the train drew up at Jarvis Brook, which had been given us as the station for Rotherfield."
+      "text": "Whilst this was going on, Lord John leaned forward and told me some interminable story about a buffalo and an Indian rajah which seemed to me to have neither beginning nor end."
     },
     {
       "id": "s248",
-      "text": "And there was Challenger to meet us."
+      "text": "Professor Summerlee had just begun to chirrup like a canary, and Lord John to get to the climax of his story, when the train drew up at Jarvis Brook, which had been given us as the station for Rotherfield."
     },
     {
       "id": "s249",
-      "text": "His appearance was glorious."
+      "text": "And there was Challenger to meet us."
     },
     {
       "id": "s250",
-      "text": "Not all the turkey-cocks in creation could match the slow, high-stepping dignity with which he paraded his own railway station and the benignant smile of condescending encouragement with which he regarded everybody around him."
+      "text": "His appearance was glorious."
     },
     {
       "id": "s251",
-      "text": "If he had changed in anything since the days of old, it was that his points had become accentuated."
+      "text": "Not all the turkey-cocks in creation could match the slow, high-stepping dignity with which he paraded his own railway station and the benignant smile of condescending encouragement with which he regarded everybody around him."
     },
     {
       "id": "s252",
-      "text": "The huge head and broad sweep of forehead, with its plastered lock of black hair, seemed even greater than before."
+      "text": "If he had changed in anything since the days of old, it was that his points had become accentuated."
     },
     {
       "id": "s253",
-      "text": "His black beard poured forward in a more impressive cascade, and his clear grey eyes, with their insolent and sardonic eyelids, were even more masterful than of yore."
+      "text": "The huge head and broad sweep of forehead, with its plastered lock of black hair, seemed even greater than before."
     },
     {
       "id": "s254",
-      "text": "He gave me the amused hand-shake and encouraging smile which the head master bestows upon the small boy, and, having greeted the others and helped to collect their bags and their cylinders of oxygen, he stowed us and them away in a large motor-car which was driven by the same impassive Austin, the man of few words, whom I had seen in the character of butler upon the occasion of my first eventful visit to the Professor."
+      "text": "His black beard poured forward in a more impressive cascade, and his clear grey eyes, with their insolent and sardonic eyelids, were even more masterful than of yore."
     },
     {
       "id": "s255",
-      "text": "Our journey led us up a winding hill through beautiful country."
+      "text": "He gave me the amused hand-shake and encouraging smile which the head master bestows upon the small boy, and, having greeted the others and helped to collect their bags and their cylinders of oxygen, he stowed us and them away in a large motor-car which was driven by the same impassive Austin, the man of few words, whom I had seen in the character of butler upon the occasion of my first eventful visit to the Professor."
     },
     {
       "id": "s256",
-      "text": "I sat in front with the chauffeur, but behind me my three comrades seemed to me to be all talking together."
+      "text": "Our journey led us up a winding hill through beautiful country."
     },
     {
       "id": "s257",
-      "text": "Lord John was still struggling with his buffalo story, so far as I could make out, while once again I heard, as of old, the deep rumble of Challenger and the insistent accents of Summerlee as their brains locked in high and fierce scientific debate."
+      "text": "I sat in front with the chauffeur, but behind me my three comrades seemed to me to be all talking together."
     },
     {
       "id": "s258",
-      "text": "Suddenly Austin slanted his mahogany face toward me without taking his eyes from his steering-wheel."
+      "text": "Lord John was still struggling with his buffalo story, so far as I could make out, while once again I heard, as of old, the deep rumble of Challenger and the insistent accents of Summerlee as their brains locked in high and fierce scientific debate."
     },
     {
       "id": "s259",
-      "text": "\"I'm under notice,\" said he."
+      "text": "Suddenly Austin slanted his mahogany face toward me without taking his eyes from his steering-wheel."
     },
     {
       "id": "s260",
-      "text": "\"Dear me!\" said I."
+      "text": "\"I'm under notice,\" said he."
     },
     {
       "id": "s261",
-      "text": "Everything seemed strange to-day."
+      "text": "\"Dear me!\" said I."
     },
     {
       "id": "s262",
-      "text": "Everyone said queer, unexpected things."
+      "text": "Everything seemed strange to-day."
     },
     {
       "id": "s263",
-      "text": "It was like a dream."
+      "text": "Everyone said queer, unexpected things."
     },
     {
       "id": "s264",
-      "text": "\"It's forty-seven times,\" said Austin reflectively."
+      "text": "It was like a dream."
     },
     {
       "id": "s265",
-      "text": "\"When do you go?\" I asked, for want of some better observation."
+      "text": "\"It's forty-seven times,\" said Austin reflectively."
     },
     {
       "id": "s266",
-      "text": "\"I don't go,\" said Austin."
+      "text": "\"When do you go?\" I asked, for want of some better observation."
     },
     {
       "id": "s267",
-      "text": "The conversation seemed to have ended there, but presently he came back to it."
+      "text": "\"I don't go,\" said Austin."
     },
     {
       "id": "s268",
-      "text": "\"If I was to go, who would look after 'im?\" He jerked his head toward his master. \"Who would 'e get to serve 'im?\""
+      "text": "The conversation seemed to have ended there, but presently he came back to it."
     },
     {
       "id": "s269",
-      "text": "\"Someone else,\" I suggested lamely."
+      "text": "\"If I was to go, who would look after 'im?\" He jerked his head toward his master. \"Who would 'e get to serve 'im?\""
     },
     {
       "id": "s270",
-      "text": "\"Not 'e."
+      "text": "\"Someone else,\" I suggested lamely."
     },
     {
       "id": "s271",
-      "text": "No one would stay a week."
+      "text": "\"Not 'e."
     },
     {
       "id": "s272",
-      "text": "If I was to go, that 'ouse would run down like a watch with the mainspring out."
+      "text": "No one would stay a week."
     },
     {
       "id": "s273",
-      "text": "I'm telling you because you're 'is friend, and you ought to know."
+      "text": "If I was to go, that 'ouse would run down like a watch with the mainspring out."
     },
     {
       "id": "s274",
-      "text": "If I was to take 'im at 'is word--but there, I wouldn't have the 'eart. 'E and the missus would be like two babes left out in a bundle."
+      "text": "I'm telling you because you're 'is friend, and you ought to know."
     },
     {
       "id": "s275",
-      "text": "I'm just everything."
+      "text": "If I was to take 'im at 'is word--but there, I wouldn't have the 'eart. 'E and the missus would be like two babes left out in a bundle."
     },
     {
       "id": "s276",
-      "text": "And then 'e goes and gives me notice.\""
+      "text": "I'm just everything."
     },
     {
       "id": "s277",
-      "text": "\"Why would no one stay?\" I asked."
+      "text": "And then 'e goes and gives me notice.\""
     },
     {
       "id": "s278",
-      "text": "\"Well, they wouldn't make allowances, same as I do. 'E's a very clever man, the master--so clever that 'e's clean balmy sometimes."
+      "text": "\"Why would no one stay?\" I asked."
     },
     {
       "id": "s279",
-      "text": "I've seen 'im right off 'is onion, and no error."
+      "text": "\"Well, they wouldn't make allowances, same as I do. 'E's a very clever man, the master--so clever that 'e's clean balmy sometimes."
     },
     {
       "id": "s280",
-      "text": "Well, look what 'e did this morning.\""
+      "text": "I've seen 'im right off 'is onion, and no error."
     },
     {
       "id": "s281",
-      "text": "\"What did he do?\""
+      "text": "Well, look what 'e did this morning.\""
     },
     {
       "id": "s282",
-      "text": "Austin bent over to me."
+      "text": "\"What did he do?\""
     },
     {
       "id": "s283",
-      "text": "\"'E bit the 'ousekeeper,\" said he in a hoarse whisper."
+      "text": "Austin bent over to me."
     },
     {
       "id": "s284",
-      "text": "\"Bit her?\""
+      "text": "\"'E bit the 'ousekeeper,\" said he in a hoarse whisper."
     },
     {
       "id": "s285",
-      "text": "\"Yes, sir."
+      "text": "\"Bit her?\""
     },
     {
       "id": "s286",
-      "text": "Bit 'er on the leg."
+      "text": "\"Yes, sir."
     },
     {
       "id": "s287",
-      "text": "I saw 'er with my own eyes startin' a marathon from the 'all-door.\""
+      "text": "Bit 'er on the leg."
     },
     {
       "id": "s288",
-      "text": "\"Good gracious!\""
+      "text": "I saw 'er with my own eyes startin' a marathon from the 'all-door.\""
     },
     {
       "id": "s289",
-      "text": "\"So you'd say, sir, if you could see some of the goings on. 'E don't make friends with the neighbors."
+      "text": "\"Good gracious!\""
     },
     {
       "id": "s290",
-      "text": "There's some of them thinks that when 'e was up among those monsters you wrote about, it was just ''Ome, Sweet 'Ome' for the master, and 'e was never in fitter company."
+      "text": "\"So you'd say, sir, if you could see some of the goings on. 'E don't make friends with the neighbors."
     },
     {
       "id": "s291",
-      "text": "That's what _they_ say."
+      "text": "There's some of them thinks that when 'e was up among those monsters you wrote about, it was just ''Ome, Sweet 'Ome' for the master, and 'e was never in fitter company."
     },
     {
       "id": "s292",
-      "text": "But I've served 'im ten years, and I'm fond of 'im, and, mind you, 'e's a great man, when all's said an' done, and it's an honor to serve 'im."
+      "text": "That's what _they_ say."
     },
     {
       "id": "s293",
-      "text": "But 'e does try one cruel at times."
+      "text": "But I've served 'im ten years, and I'm fond of 'im, and, mind you, 'e's a great man, when all's said an' done, and it's an honor to serve 'im."
     },
     {
       "id": "s294",
-      "text": "Now look at that, sir."
+      "text": "But 'e does try one cruel at times."
     },
     {
       "id": "s295",
-      "text": "That ain't what you might call old-fashioned 'ospitality, is it now?"
+      "text": "Now look at that, sir."
     },
     {
       "id": "s296",
-      "text": "Just you read it for yourself.\""
+      "text": "That ain't what you might call old-fashioned 'ospitality, is it now?"
     },
     {
       "id": "s297",
-      "text": "The car on its lowest speed had ground its way up a steep, curving ascent."
+      "text": "Just you read it for yourself.\""
     },
     {
       "id": "s298",
-      "text": "At the corner a notice-board peered over a well-clipped hedge."
+      "text": "The car on its lowest speed had ground its way up a steep, curving ascent."
     },
     {
       "id": "s299",
-      "text": "As Austin said, it was not difficult to read, for the words were few and arresting:--"
+      "text": "At the corner a notice-board peered over a well-clipped hedge."
     },
     {
       "id": "s300",
-      "text": "+---------------------------------------+ | WARNING. | | ---- | | Visitors, Pressmen, and Mendicants | | are not encouraged. | | | | G."
+      "text": "As Austin said, it was not difficult to read, for the words were few and arresting:--"
     },
     {
       "id": "s301",
-      "text": "E."
+      "text": "+---------------------------------------+ | WARNING. | | ---- | | Visitors, Pressmen, and Mendicants | | are not encouraged. | | | | G."
     },
     {
       "id": "s302",
-      "text": "CHALLENGER. | +---------------------------------------+"
+      "text": "E."
     },
     {
       "id": "s303",
-      "text": "\"No, it's not what you might call 'earty,\" said Austin, shaking his head and glancing up at the deplorable placard. \"It wouldn't look well in a Christmas card."
+      "text": "CHALLENGER. | +---------------------------------------+"
     },
     {
       "id": "s304",
-      "text": "I beg your pardon, sir, for I haven't spoke as much as this for many a long year, but to-day my feelings seem to 'ave got the better of me. 'E can sack me till 'e's blue in the face, but I ain't going, and that's flat."
+      "text": "\"No, it's not what you might call 'earty,\" said Austin, shaking his head and glancing up at the deplorable placard. \"It wouldn't look well in a Christmas card."
     },
     {
       "id": "s305",
-      "text": "I'm 'is man and 'e's my master, and so it will be, I expect, to the end of the chapter.\""
+      "text": "I beg your pardon, sir, for I haven't spoke as much as this for many a long year, but to-day my feelings seem to 'ave got the better of me. 'E can sack me till 'e's blue in the face, but I ain't going, and that's flat."
     },
     {
       "id": "s306",
-      "text": "We had passed between the white posts of a gate and up a curving drive, lined with rhododendron bushes."
+      "text": "I'm 'is man and 'e's my master, and so it will be, I expect, to the end of the chapter.\""
     },
     {
       "id": "s307",
-      "text": "Beyond stood a low brick house, picked out with white woodwork, very comfortable and pretty."
+      "text": "We had passed between the white posts of a gate and up a curving drive, lined with rhododendron bushes."
     },
     {
       "id": "s308",
-      "text": "Mrs."
+      "text": "Beyond stood a low brick house, picked out with white woodwork, very comfortable and pretty."
     },
     {
       "id": "s309",
-      "text": "Challenger, a small, dainty, smiling figure, stood in the open doorway to welcome us."
+      "text": "Mrs."
     },
     {
       "id": "s310",
-      "text": "\"Well, my dear,\" said Challenger, bustling out of the car, \"here are our visitors."
+      "text": "Challenger, a small, dainty, smiling figure, stood in the open doorway to welcome us."
     },
     {
       "id": "s311",
-      "text": "It is something new for us to have visitors, is it not?"
+      "text": "\"Well, my dear,\" said Challenger, bustling out of the car, \"here are our visitors."
     },
     {
       "id": "s312",
-      "text": "No love lost between us and our neighbors, is there?"
+      "text": "It is something new for us to have visitors, is it not?"
     },
     {
       "id": "s313",
-      "text": "If they could get rat poison into our baker's cart, I expect it would be there.\""
+      "text": "No love lost between us and our neighbors, is there?"
     },
     {
       "id": "s314",
-      "text": "\"It's dreadful--dreadful!\" cried the lady, between laughter and tears. \"George is always quarreling with everyone."
+      "text": "If they could get rat poison into our baker's cart, I expect it would be there.\""
     },
     {
       "id": "s315",
-      "text": "We haven't a friend on the countryside.\""
+      "text": "\"It's dreadful--dreadful!\" cried the lady, between laughter and tears. \"George is always quarreling with everyone."
     },
     {
       "id": "s316",
-      "text": "\"It enables me to concentrate my attention upon my incomparable wife,\" said Challenger, passing his short, thick arm round her waist."
+      "text": "We haven't a friend on the countryside.\""
     },
     {
       "id": "s317",
-      "text": "Picture a gorilla and a gazelle, and you have the pair of them. \"Come, come, these gentlemen are tired from the journey, and luncheon should be ready."
+      "text": "\"It enables me to concentrate my attention upon my incomparable wife,\" said Challenger, passing his short, thick arm round her waist."
     },
     {
       "id": "s318",
-      "text": "Has Sarah returned?\""
+      "text": "Picture a gorilla and a gazelle, and you have the pair of them. \"Come, come, these gentlemen are tired from the journey, and luncheon should be ready."
     },
     {
       "id": "s319",
-      "text": "The lady shook her head ruefully, and the Professor laughed loudly and stroked his beard in his masterful fashion."
+      "text": "Has Sarah returned?\""
     },
     {
       "id": "s320",
-      "text": "\"Austin,\" he cried, \"when you have put up the car you will kindly help your mistress to lay the lunch."
+      "text": "The lady shook her head ruefully, and the Professor laughed loudly and stroked his beard in his masterful fashion."
     },
     {
       "id": "s321",
+      "text": "\"Austin,\" he cried, \"when you have put up the car you will kindly help your mistress to lay the lunch."
+    },
+    {
+      "id": "s322",
       "text": "Now, gentlemen, will you please step into my study, for there are one or two very urgent things which I am anxious to say to you.\""
     }
   ]

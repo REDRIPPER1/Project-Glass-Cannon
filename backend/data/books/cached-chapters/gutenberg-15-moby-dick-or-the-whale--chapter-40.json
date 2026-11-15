@@ -1,0 +1,833 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-40",
+  "chapterTitle": "CHAPTER XL.",
+  "contentHash": "sha256:4bef9d41ba440300754485c6c93b72223dc9557aafb5394760db3e4dbcea52ed",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER XL.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "MIDNIGHT, FORECASTLE."
+    },
+    {
+      "id": "s2",
+      "text": "HARPOONERS AND SAILORS."
+    },
+    {
+      "id": "s3",
+      "text": "(_Foresail rises and discovers the watch standing, lounging, leaning, and lying in various attitudes, all singing in chorus._)"
+    },
+    {
+      "id": "s4",
+      "text": "Farewell and adieu to you, Spanish ladies!"
+    },
+    {
+      "id": "s5",
+      "text": "Farewell and adieu to you, ladies of Spain!"
+    },
+    {
+      "id": "s6",
+      "text": "Our captain’s commanded.—"
+    },
+    {
+      "id": "s7",
+      "text": "1ST NANTUCKET SAILOR."
+    },
+    {
+      "id": "s8",
+      "text": "Oh, boys, don’t be sentimental; it’s bad for the digestion!"
+    },
+    {
+      "id": "s9",
+      "text": "Take a tonic, follow me!"
+    },
+    {
+      "id": "s10",
+      "text": "(_Sings, and all follow._) Our captain stood upon the deck, A spy-glass in his hand, A viewing of those gallant whales That blew at every strand."
+    },
+    {
+      "id": "s11",
+      "text": "Oh, your tubs in your boats, my boys, And by your braces stand, And we’ll have one of those fine whales, Hand, boys, over hand!"
+    },
+    {
+      "id": "s12",
+      "text": "So, be cheery, my lads! may your hearts never fail!"
+    },
+    {
+      "id": "s13",
+      "text": "While the bold harpooneer is striking the whale!"
+    },
+    {
+      "id": "s14",
+      "text": "MATE’S VOICE FROM THE QUARTER-DECK."
+    },
+    {
+      "id": "s15",
+      "text": "Eight bells there, forward!"
+    },
+    {
+      "id": "s16",
+      "text": "2D NANTUCKET SAILOR."
+    },
+    {
+      "id": "s17",
+      "text": "Avast the chorus!"
+    },
+    {
+      "id": "s18",
+      "text": "Eight bells there! d’ye hear, bell-boy?"
+    },
+    {
+      "id": "s19",
+      "text": "Strike the bell eight, thou Pip! thou blackling! and let me call the watch."
+    },
+    {
+      "id": "s20",
+      "text": "I’ve the sort of mouth for that—the hogshead mouth."
+    },
+    {
+      "id": "s21",
+      "text": "So, so, (_thrusts his head down the scuttle_,) Star—bo—l-e-e-n-s, a-h-o-y!"
+    },
+    {
+      "id": "s22",
+      "text": "Eight bells there below!"
+    },
+    {
+      "id": "s23",
+      "text": "Tumble up!"
+    },
+    {
+      "id": "s24",
+      "text": "DUTCH SAILOR."
+    },
+    {
+      "id": "s25",
+      "text": "Grand snoozing to-night, maty; fat night for that."
+    },
+    {
+      "id": "s26",
+      "text": "I mark this in our old Mogul’s wine; it’s quite as deadening to some as filliping to others."
+    },
+    {
+      "id": "s27",
+      "text": "We sing; they sleep—aye, lie down there, like ground-tier butts."
+    },
+    {
+      "id": "s28",
+      "text": "At ’em again!"
+    },
+    {
+      "id": "s29",
+      "text": "There, take this copper-pump, and hail ’em through it."
+    },
+    {
+      "id": "s30",
+      "text": "Tell ’em to avast dreaming of their lasses."
+    },
+    {
+      "id": "s31",
+      "text": "Tell ’em it’s the resurrection; they must kiss their last, and come to judgment."
+    },
+    {
+      "id": "s32",
+      "text": "That’s the way—_that’s_ it; thy throat ain’t spoiled with eating Amsterdam butter."
+    },
+    {
+      "id": "s33",
+      "text": "FRENCH SAILOR."
+    },
+    {
+      "id": "s34",
+      "text": "Hist, boys! let’s have a jig or two before we ride to anchor in Blanket Bay."
+    },
+    {
+      "id": "s35",
+      "text": "What say ye?"
+    },
+    {
+      "id": "s36",
+      "text": "There comes the other watch."
+    },
+    {
+      "id": "s37",
+      "text": "Stand by all legs!"
+    },
+    {
+      "id": "s38",
+      "text": "Pip! little Pip! hurrah with your tambourine!"
+    },
+    {
+      "id": "s39",
+      "text": "PIP. (_Sulky and sleepy._)"
+    },
+    {
+      "id": "s40",
+      "text": "Don’t know where it is."
+    },
+    {
+      "id": "s41",
+      "text": "FRENCH SAILOR."
+    },
+    {
+      "id": "s42",
+      "text": "Beat thy belly, then, and wag thy ears."
+    },
+    {
+      "id": "s43",
+      "text": "Jig it, men, I say; merry’s the word; hurrah!"
+    },
+    {
+      "id": "s44",
+      "text": "Damn me, won’t you dance?"
+    },
+    {
+      "id": "s45",
+      "text": "Form, now, Indian-file, and gallop into the double-shuffle?"
+    },
+    {
+      "id": "s46",
+      "text": "Throw yourselves!"
+    },
+    {
+      "id": "s47",
+      "text": "Legs! legs!"
+    },
+    {
+      "id": "s48",
+      "text": "ICELAND SAILOR."
+    },
+    {
+      "id": "s49",
+      "text": "I don’t like your floor, maty; it’s too springy to my taste."
+    },
+    {
+      "id": "s50",
+      "text": "I’m used to ice-floors."
+    },
+    {
+      "id": "s51",
+      "text": "I’m sorry to throw cold water on the subject; but excuse me."
+    },
+    {
+      "id": "s52",
+      "text": "MALTESE SAILOR."
+    },
+    {
+      "id": "s53",
+      "text": "Me too; where’s your girls?"
+    },
+    {
+      "id": "s54",
+      "text": "Who but a fool would take his left hand by his right, and say to himself, how d’ye do?"
+    },
+    {
+      "id": "s55",
+      "text": "Partners!"
+    },
+    {
+      "id": "s56",
+      "text": "I must have partners!"
+    },
+    {
+      "id": "s57",
+      "text": "SICILIAN SAILOR."
+    },
+    {
+      "id": "s58",
+      "text": "Aye; girls and a green!—then I’ll hop with ye; yea, turn grasshopper!"
+    },
+    {
+      "id": "s59",
+      "text": "LONG-ISLAND SAILOR."
+    },
+    {
+      "id": "s60",
+      "text": "Well, well, ye sulkies, there’s plenty more of us."
+    },
+    {
+      "id": "s61",
+      "text": "Hoe corn when you may, say I."
+    },
+    {
+      "id": "s62",
+      "text": "All legs go to harvest soon."
+    },
+    {
+      "id": "s63",
+      "text": "Ah! here comes the music; now for it!"
+    },
+    {
+      "id": "s64",
+      "text": "AZORE SAILOR. (_Ascending, and pitching the tambourine up the scuttle._)"
+    },
+    {
+      "id": "s65",
+      "text": "Here you are, Pip; and there’s the windlass-bitts; up you mount!"
+    },
+    {
+      "id": "s66",
+      "text": "Now, boys!"
+    },
+    {
+      "id": "s67",
+      "text": "(_The half of them dance to the tambourine; some go below; some sleep or lie among the coils of rigging."
+    },
+    {
+      "id": "s68",
+      "text": "Oaths a-plenty._)"
+    },
+    {
+      "id": "s69",
+      "text": "AZORE SAILOR. (_Dancing._)"
+    },
+    {
+      "id": "s70",
+      "text": "Go it, Pip!"
+    },
+    {
+      "id": "s71",
+      "text": "Bang it, bell-boy!"
+    },
+    {
+      "id": "s72",
+      "text": "Rig it, dig it, stig it, quig it, bell-boy!"
+    },
+    {
+      "id": "s73",
+      "text": "Make fire-flies; break the jinglers!"
+    },
+    {
+      "id": "s74",
+      "text": "PIP."
+    },
+    {
+      "id": "s75",
+      "text": "Jinglers, you say?—there goes another, dropped off; I pound it so."
+    },
+    {
+      "id": "s76",
+      "text": "CHINA SAILOR."
+    },
+    {
+      "id": "s77",
+      "text": "Rattle thy teeth, then, and pound away; make a pagoda of thyself."
+    },
+    {
+      "id": "s78",
+      "text": "FRENCH SAILOR."
+    },
+    {
+      "id": "s79",
+      "text": "Merry-mad!"
+    },
+    {
+      "id": "s80",
+      "text": "Hold up thy hoop, Pip, till I jump through it!"
+    },
+    {
+      "id": "s81",
+      "text": "Split jibs! tear yourselves!"
+    },
+    {
+      "id": "s82",
+      "text": "TASHTEGO. (_Quietly smoking._)"
+    },
+    {
+      "id": "s83",
+      "text": "That’s a white man; he calls that fun: humph!"
+    },
+    {
+      "id": "s84",
+      "text": "I save my sweat."
+    },
+    {
+      "id": "s85",
+      "text": "OLD MANX SAILOR."
+    },
+    {
+      "id": "s86",
+      "text": "I wonder whether those jolly lads bethink them of what they are dancing over."
+    },
+    {
+      "id": "s87",
+      "text": "I’ll dance over your grave, I will—that’s the bitterest threat of your night-women, that beat head-winds round corners."
+    },
+    {
+      "id": "s88",
+      "text": "O Christ! to think of the green navies and the green-skulled crews!"
+    },
+    {
+      "id": "s89",
+      "text": "Well, well; belike the whole world’s a ball, as you scholars have it; and so ’tis right to make one ballroom of it."
+    },
+    {
+      "id": "s90",
+      "text": "Dance on, lads, you’re young; I was once."
+    },
+    {
+      "id": "s91",
+      "text": "3D NANTUCKET SAILOR."
+    },
+    {
+      "id": "s92",
+      "text": "Spell oh!—whew! this is worse than pulling after whales in a calm—give us a whiff, Tash."
+    },
+    {
+      "id": "s93",
+      "text": "(_They cease dancing, and gather in clusters."
+    },
+    {
+      "id": "s94",
+      "text": "Meantime the sky darkens—the wind rises._)"
+    },
+    {
+      "id": "s95",
+      "text": "LASCAR SAILOR."
+    },
+    {
+      "id": "s96",
+      "text": "By Brahma! boys, it’ll be douse sail soon."
+    },
+    {
+      "id": "s97",
+      "text": "The sky-born, high-tide Ganges turned to wind!"
+    },
+    {
+      "id": "s98",
+      "text": "Thou showest thy black brow, Seeva!"
+    },
+    {
+      "id": "s99",
+      "text": "MALTESE SAILOR. (_Reclining and shaking his cap._)"
+    },
+    {
+      "id": "s100",
+      "text": "It’s the waves—the snow’s caps turn to jig it now."
+    },
+    {
+      "id": "s101",
+      "text": "They’ll shake their tassels soon."
+    },
+    {
+      "id": "s102",
+      "text": "Now would all the waves were women, then I’d go drown, and chassee with them evermore!"
+    },
+    {
+      "id": "s103",
+      "text": "There’s naught so sweet on earth—heaven may not match it!—as those swift glances of warm, wild bosoms in the dance, when the over-arboring arms hide such ripe, bursting grapes."
+    },
+    {
+      "id": "s104",
+      "text": "SICILIAN SAILOR. (_Reclining._)"
+    },
+    {
+      "id": "s105",
+      "text": "Tell me not of it!"
+    },
+    {
+      "id": "s106",
+      "text": "Hark ye, lad—fleet interlacings of the limbs—lithe swayings—coyings—flutterings! lip! heart! hip! all graze: unceasing touch and go! not taste, observe ye, else come satiety."
+    },
+    {
+      "id": "s107",
+      "text": "Eh, Pagan? (_Nudging._)"
+    },
+    {
+      "id": "s108",
+      "text": "TAHITAN SAILOR. (_Reclining on a mat._)"
+    },
+    {
+      "id": "s109",
+      "text": "Hail, holy nakedness of our dancing girls!—the Heeva-Heeva!"
+    },
+    {
+      "id": "s110",
+      "text": "Ah! low veiled, high palmed Tahiti!"
+    },
+    {
+      "id": "s111",
+      "text": "I still rest me on thy mat, but the soft soil has slid!"
+    },
+    {
+      "id": "s112",
+      "text": "I saw thee woven in the wood, my mat! green the first day I brought ye thence; now worn and wilted quite."
+    },
+    {
+      "id": "s113",
+      "text": "Ah me!—not thou nor I can bear the change!"
+    },
+    {
+      "id": "s114",
+      "text": "How then, if so be transplanted to yon sky?"
+    },
+    {
+      "id": "s115",
+      "text": "Hear I the roaring streams from Pirohitee’s peak of spears, when they leap down the crags and drown the villages?—The blast! the blast!"
+    },
+    {
+      "id": "s116",
+      "text": "Up, spine, and meet it! (_Leaps to his feet._)"
+    },
+    {
+      "id": "s117",
+      "text": "PORTUGUESE SAILOR."
+    },
+    {
+      "id": "s118",
+      "text": "How the sea rolls swashing ’gainst the side!"
+    },
+    {
+      "id": "s119",
+      "text": "Stand by for reefing, hearties! the winds are just crossing swords, pell-mell they’ll go lunging presently."
+    },
+    {
+      "id": "s120",
+      "text": "DANISH SAILOR."
+    },
+    {
+      "id": "s121",
+      "text": "Crack, crack, old ship! so long as thou crackest, thou holdest!"
+    },
+    {
+      "id": "s122",
+      "text": "Well done!"
+    },
+    {
+      "id": "s123",
+      "text": "The mate there holds ye to it stiffly."
+    },
+    {
+      "id": "s124",
+      "text": "He’s no more afraid than the isle fort at Cattegat, put there to fight the Baltic with storm-lashed guns, on which the sea-salt cakes!"
+    },
+    {
+      "id": "s125",
+      "text": "4TH NANTUCKET SAILOR."
+    },
+    {
+      "id": "s126",
+      "text": "He has his orders, mind ye that."
+    },
+    {
+      "id": "s127",
+      "text": "I heard old Ahab tell him he must always kill a squall, something as they burst a waterspout with a pistol—fire your ship right into it!"
+    },
+    {
+      "id": "s128",
+      "text": "ENGLISH SAILOR."
+    },
+    {
+      "id": "s129",
+      "text": "Blood! but that old man’s a grand old cove!"
+    },
+    {
+      "id": "s130",
+      "text": "We are the lads to hunt him up his whale!"
+    },
+    {
+      "id": "s131",
+      "text": "ALL."
+    },
+    {
+      "id": "s132",
+      "text": "Aye! aye!"
+    },
+    {
+      "id": "s133",
+      "text": "OLD MANX SAILOR."
+    },
+    {
+      "id": "s134",
+      "text": "How the three pines shake!"
+    },
+    {
+      "id": "s135",
+      "text": "Pines are the hardest sort of tree to live when shifted to any other soil, and here there’s none but the crew’s cursed clay."
+    },
+    {
+      "id": "s136",
+      "text": "Steady, helmsman! steady."
+    },
+    {
+      "id": "s137",
+      "text": "This is the sort of weather when brave hearts snap ashore, and keeled hulls split at sea."
+    },
+    {
+      "id": "s138",
+      "text": "Our captain has his birth-mark; look yonder, boys, there’s another in the sky—lurid-like, ye see, all else pitch black."
+    },
+    {
+      "id": "s139",
+      "text": "DAGGOO."
+    },
+    {
+      "id": "s140",
+      "text": "What of that?"
+    },
+    {
+      "id": "s141",
+      "text": "Who’s afraid of black’s afraid of me!"
+    },
+    {
+      "id": "s142",
+      "text": "I’m quarried out of it!"
+    },
+    {
+      "id": "s143",
+      "text": "SPANISH SAILOR."
+    },
+    {
+      "id": "s144",
+      "text": "(_Aside._) He wants to bully, ah!—the old grudge makes me touchy. (_Advancing._) Aye, harpooneer, thy race is the undeniable dark side of mankind—devilish dark at that."
+    },
+    {
+      "id": "s145",
+      "text": "No offence."
+    },
+    {
+      "id": "s146",
+      "text": "DAGGOO (_grimly_)."
+    },
+    {
+      "id": "s147",
+      "text": "None."
+    },
+    {
+      "id": "s148",
+      "text": "ST."
+    },
+    {
+      "id": "s149",
+      "text": "JAGO’S SAILOR."
+    },
+    {
+      "id": "s150",
+      "text": "That Spaniard’s mad or drunk."
+    },
+    {
+      "id": "s151",
+      "text": "But that can’t be, or else in his one case our old Mogul’s fire-waters are somewhat long in working."
+    },
+    {
+      "id": "s152",
+      "text": "5TH NANTUCKET SAILOR."
+    },
+    {
+      "id": "s153",
+      "text": "What’s that I saw—lightning?"
+    },
+    {
+      "id": "s154",
+      "text": "Yes."
+    },
+    {
+      "id": "s155",
+      "text": "SPANISH SAILOR."
+    },
+    {
+      "id": "s156",
+      "text": "No; Daggoo showing his teeth."
+    },
+    {
+      "id": "s157",
+      "text": "DAGGOO (_springing_)."
+    },
+    {
+      "id": "s158",
+      "text": "Swallow thine, mannikin!"
+    },
+    {
+      "id": "s159",
+      "text": "White skin, white liver!"
+    },
+    {
+      "id": "s160",
+      "text": "SPANISH SAILOR (_meeting him_)."
+    },
+    {
+      "id": "s161",
+      "text": "Knife thee heartily! big frame, small spirit!"
+    },
+    {
+      "id": "s162",
+      "text": "ALL."
+    },
+    {
+      "id": "s163",
+      "text": "A row! a row! a row!"
+    },
+    {
+      "id": "s164",
+      "text": "TASHTEGO (_with a whiff_)."
+    },
+    {
+      "id": "s165",
+      "text": "A row a’low, and a row aloft—Gods and men—both brawlers!"
+    },
+    {
+      "id": "s166",
+      "text": "Humph!"
+    },
+    {
+      "id": "s167",
+      "text": "BELFAST SAILOR."
+    },
+    {
+      "id": "s168",
+      "text": "A row! arrah a row!"
+    },
+    {
+      "id": "s169",
+      "text": "The Virgin be blessed, a row!"
+    },
+    {
+      "id": "s170",
+      "text": "Plunge in with ye!"
+    },
+    {
+      "id": "s171",
+      "text": "ENGLISH SAILOR."
+    },
+    {
+      "id": "s172",
+      "text": "Fair play!"
+    },
+    {
+      "id": "s173",
+      "text": "Snatch the Spaniard’s knife!"
+    },
+    {
+      "id": "s174",
+      "text": "A ring, a ring!"
+    },
+    {
+      "id": "s175",
+      "text": "OLD MANX SAILOR."
+    },
+    {
+      "id": "s176",
+      "text": "Ready formed."
+    },
+    {
+      "id": "s177",
+      "text": "There! the ringed horizon."
+    },
+    {
+      "id": "s178",
+      "text": "In that ring Cain struck Abel."
+    },
+    {
+      "id": "s179",
+      "text": "Sweet work, right work!"
+    },
+    {
+      "id": "s180",
+      "text": "No?"
+    },
+    {
+      "id": "s181",
+      "text": "Why then, God, mad’st thou the ring?"
+    },
+    {
+      "id": "s182",
+      "text": "MATE’S VOICE FROM THE QUARTER-DECK."
+    },
+    {
+      "id": "s183",
+      "text": "Hands by the halyards! in top-gallant sails!"
+    },
+    {
+      "id": "s184",
+      "text": "Stand by to reef topsails!"
+    },
+    {
+      "id": "s185",
+      "text": "ALL."
+    },
+    {
+      "id": "s186",
+      "text": "The squall! the squall! jump, my jollies! (_They scatter._)"
+    },
+    {
+      "id": "s187",
+      "text": "PIP (_shrinking under the windlass_)."
+    },
+    {
+      "id": "s188",
+      "text": "Jollies?"
+    },
+    {
+      "id": "s189",
+      "text": "Lord help such jollies!"
+    },
+    {
+      "id": "s190",
+      "text": "Crish, crash! there goes the jib-stay!"
+    },
+    {
+      "id": "s191",
+      "text": "Blang-whang!"
+    },
+    {
+      "id": "s192",
+      "text": "God!"
+    },
+    {
+      "id": "s193",
+      "text": "Duck lower, Pip, here comes the royal yard!"
+    },
+    {
+      "id": "s194",
+      "text": "It’s worse than being in the whirled woods, the last day of the year!"
+    },
+    {
+      "id": "s195",
+      "text": "Who’d go climbing after chestnuts now?"
+    },
+    {
+      "id": "s196",
+      "text": "But there they go, all cursing, and here I don’t."
+    },
+    {
+      "id": "s197",
+      "text": "Fine prospects to ’em; they’re on the road to heaven."
+    },
+    {
+      "id": "s198",
+      "text": "Hold on hard!"
+    },
+    {
+      "id": "s199",
+      "text": "Jimmini, what a squall!"
+    },
+    {
+      "id": "s200",
+      "text": "But those chaps there are worse yet—they are your white squalls, they."
+    },
+    {
+      "id": "s201",
+      "text": "White squalls? white whale, shirr! shirr!"
+    },
+    {
+      "id": "s202",
+      "text": "Here have I heard all their chat just now, and the white whale—shirr! shirr!—but spoken of once! and only this evening—it makes me jingle all over like my tambourine—that anaconda of an old man swore ’em in to hunt him!"
+    },
+    {
+      "id": "s203",
+      "text": "Oh, thou big white God aloft there somewhere in yon darkness, have mercy on this small black boy down here; preserve him from all men that have no bowels to feel fear!"
+    }
+  ]
+}

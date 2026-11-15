@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-23",
+  "chapterTitle": "CHAPTER XXIII.",
+  "contentHash": "sha256:be3713bf9e39f52a29461e9091a762a6f9c071a42f02bedc7297dc79925cce4a",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XXIII.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH PASSEPARTOUT’S NOSE BECOMES OUTRAGEOUSLY LONG"
+    },
+    {
+      "id": "s2",
+      "text": "The next morning poor, jaded, famished Passepartout said to himself that he must get something to eat at all hazards, and the sooner he did so the better."
+    },
+    {
+      "id": "s3",
+      "text": "He might, indeed, sell his watch; but he would have starved first."
+    },
+    {
+      "id": "s4",
+      "text": "Now or never he must use the strong, if not melodious voice which nature had bestowed upon him."
+    },
+    {
+      "id": "s5",
+      "text": "He knew several French and English songs, and resolved to try them upon the Japanese, who must be lovers of music, since they were for ever pounding on their cymbals, tam-tams, and tambourines, and could not but appreciate European talent."
+    },
+    {
+      "id": "s6",
+      "text": "It was, perhaps, rather early in the morning to get up a concert, and the audience prematurely aroused from their slumbers, might not possibly pay their entertainer with coin bearing the Mikado’s features."
+    },
+    {
+      "id": "s7",
+      "text": "Passepartout therefore decided to wait several hours; and, as he was sauntering along, it occurred to him that he would seem rather too well dressed for a wandering artist."
+    },
+    {
+      "id": "s8",
+      "text": "The idea struck him to change his garments for clothes more in harmony with his project; by which he might also get a little money to satisfy the immediate cravings of hunger."
+    },
+    {
+      "id": "s9",
+      "text": "The resolution taken, it remained to carry it out."
+    },
+    {
+      "id": "s10",
+      "text": "It was only after a long search that Passepartout discovered a native dealer in old clothes, to whom he applied for an exchange."
+    },
+    {
+      "id": "s11",
+      "text": "The man liked the European costume, and ere long Passepartout issued from his shop accoutred in an old Japanese coat, and a sort of one-sided turban, faded with long use."
+    },
+    {
+      "id": "s12",
+      "text": "A few small pieces of silver, moreover, jingled in his pocket."
+    },
+    {
+      "id": "s13",
+      "text": "“Good!” thought he."
+    },
+    {
+      "id": "s14",
+      "text": "“I will imagine I am at the Carnival!”"
+    },
+    {
+      "id": "s15",
+      "text": "His first care, after being thus “Japanesed,” was to enter a tea-house of modest appearance, and, upon half a bird and a little rice, to breakfast like a man for whom dinner was as yet a problem to be solved."
+    },
+    {
+      "id": "s16",
+      "text": "“Now,” thought he, when he had eaten heartily, “I mustn’t lose my head."
+    },
+    {
+      "id": "s17",
+      "text": "I can’t sell this costume again for one still more Japanese."
+    },
+    {
+      "id": "s18",
+      "text": "I must consider how to leave this country of the Sun, of which I shall not retain the most delightful of memories, as quickly as possible.”"
+    },
+    {
+      "id": "s19",
+      "text": "It occurred to him to visit the steamers which were about to leave for America."
+    },
+    {
+      "id": "s20",
+      "text": "He would offer himself as a cook or servant, in payment of his passage and meals."
+    },
+    {
+      "id": "s21",
+      "text": "Once at San Francisco, he would find some means of going on."
+    },
+    {
+      "id": "s22",
+      "text": "The difficulty was, how to traverse the four thousand seven hundred miles of the Pacific which lay between Japan and the New World."
+    },
+    {
+      "id": "s23",
+      "text": "Passepartout was not the man to let an idea go begging, and directed his steps towards the docks."
+    },
+    {
+      "id": "s24",
+      "text": "But, as he approached them, his project, which at first had seemed so simple, began to grow more and more formidable to his mind."
+    },
+    {
+      "id": "s25",
+      "text": "What need would they have of a cook or servant on an American steamer, and what confidence would they put in him, dressed as he was?"
+    },
+    {
+      "id": "s26",
+      "text": "What references could he give?"
+    },
+    {
+      "id": "s27",
+      "text": "As he was reflecting in this wise, his eyes fell upon an immense placard which a sort of clown was carrying through the streets."
+    },
+    {
+      "id": "s28",
+      "text": "This placard, which was in English, read as follows:"
+    },
+    {
+      "id": "s29",
+      "text": "ACROBATIC JAPANESE TROUPE, HONOURABLE WILLIAM BATULCAR, PROPRIETOR, LAST REPRESENTATIONS, PRIOR TO THEIR DEPARTURE TO THE UNITED STATES, OF THE LONG NOSES!"
+    },
+    {
+      "id": "s30",
+      "text": "LONG NOSES!"
+    },
+    {
+      "id": "s31",
+      "text": "UNDER THE DIRECT PATRONAGE OF THE GOD TINGOU!"
+    },
+    {
+      "id": "s32",
+      "text": "GREAT ATTRACTION!"
+    },
+    {
+      "id": "s33",
+      "text": "“The United States!” said Passepartout; “that’s just what I want!”"
+    },
+    {
+      "id": "s34",
+      "text": "He followed the clown, and soon found himself once more in the Japanese quarter."
+    },
+    {
+      "id": "s35",
+      "text": "A quarter of an hour later he stopped before a large cabin, adorned with several clusters of streamers, the exterior walls of which were designed to represent, in violent colours and without perspective, a company of jugglers."
+    },
+    {
+      "id": "s36",
+      "text": "This was the Honourable William Batulcar’s establishment."
+    },
+    {
+      "id": "s37",
+      "text": "That gentleman was a sort of Barnum, the director of a troupe of mountebanks, jugglers, clowns, acrobats, equilibrists, and gymnasts, who, according to the placard, was giving his last performances before leaving the Empire of the Sun for the States of the Union."
+    },
+    {
+      "id": "s38",
+      "text": "Passepartout entered and asked for Mr."
+    },
+    {
+      "id": "s39",
+      "text": "Batulcar, who straightway appeared in person."
+    },
+    {
+      "id": "s40",
+      "text": "“What do you want?” said he to Passepartout, whom he at first took for a native."
+    },
+    {
+      "id": "s41",
+      "text": "“Would you like a servant, sir?” asked Passepartout."
+    },
+    {
+      "id": "s42",
+      "text": "“A servant!” cried Mr."
+    },
+    {
+      "id": "s43",
+      "text": "Batulcar, caressing the thick grey beard which hung from his chin."
+    },
+    {
+      "id": "s44",
+      "text": "“I already have two who are obedient and faithful, have never left me, and serve me for their nourishment and here they are,” added he, holding out his two robust arms, furrowed with veins as large as the strings of a bass-viol."
+    },
+    {
+      "id": "s45",
+      "text": "“So I can be of no use to you?”"
+    },
+    {
+      "id": "s46",
+      "text": "“None.”"
+    },
+    {
+      "id": "s47",
+      "text": "“The devil!"
+    },
+    {
+      "id": "s48",
+      "text": "I should so like to cross the Pacific with you!”"
+    },
+    {
+      "id": "s49",
+      "text": "“Ah!” said the Honourable Mr."
+    },
+    {
+      "id": "s50",
+      "text": "Batulcar."
+    },
+    {
+      "id": "s51",
+      "text": "“You are no more a Japanese than I am a monkey!"
+    },
+    {
+      "id": "s52",
+      "text": "Who are you dressed up in that way?”"
+    },
+    {
+      "id": "s53",
+      "text": "“A man dresses as he can.”"
+    },
+    {
+      "id": "s54",
+      "text": "“That’s true."
+    },
+    {
+      "id": "s55",
+      "text": "You are a Frenchman, aren’t you?”"
+    },
+    {
+      "id": "s56",
+      "text": "“Yes; a Parisian of Paris.”"
+    },
+    {
+      "id": "s57",
+      "text": "“Then you ought to know how to make grimaces?”"
+    },
+    {
+      "id": "s58",
+      "text": "“Why,” replied Passepartout, a little vexed that his nationality should cause this question, “we Frenchmen know how to make grimaces, it is true but not any better than the Americans do.”"
+    },
+    {
+      "id": "s59",
+      "text": "“True."
+    },
+    {
+      "id": "s60",
+      "text": "Well, if I can’t take you as a servant, I can as a clown."
+    },
+    {
+      "id": "s61",
+      "text": "You see, my friend, in France they exhibit foreign clowns, and in foreign parts French clowns.”"
+    },
+    {
+      "id": "s62",
+      "text": "“Ah!”"
+    },
+    {
+      "id": "s63",
+      "text": "“You are pretty strong, eh?”"
+    },
+    {
+      "id": "s64",
+      "text": "“Especially after a good meal.”"
+    },
+    {
+      "id": "s65",
+      "text": "“And you can sing?”"
+    },
+    {
+      "id": "s66",
+      "text": "“Yes,” returned Passepartout, who had formerly been wont to sing in the streets."
+    },
+    {
+      "id": "s67",
+      "text": "“But can you sing standing on your head, with a top spinning on your left foot, and a sabre balanced on your right?”"
+    },
+    {
+      "id": "s68",
+      "text": "“Humph!"
+    },
+    {
+      "id": "s69",
+      "text": "I think so,” replied Passepartout, recalling the exercises of his younger days."
+    },
+    {
+      "id": "s70",
+      "text": "“Well, that’s enough,” said the Honourable William Batulcar."
+    },
+    {
+      "id": "s71",
+      "text": "The engagement was concluded there and then."
+    },
+    {
+      "id": "s72",
+      "text": "Passepartout had at last found something to do."
+    },
+    {
+      "id": "s73",
+      "text": "He was engaged to act in the celebrated Japanese troupe."
+    },
+    {
+      "id": "s74",
+      "text": "It was not a very dignified position, but within a week he would be on his way to San Francisco."
+    },
+    {
+      "id": "s75",
+      "text": "The performance, so noisily announced by the Honourable Mr."
+    },
+    {
+      "id": "s76",
+      "text": "Batulcar, was to commence at three o’clock, and soon the deafening instruments of a Japanese orchestra resounded at the door."
+    },
+    {
+      "id": "s77",
+      "text": "Passepartout, though he had not been able to study or rehearse a part, was designated to lend the aid of his sturdy shoulders in the great exhibition of the “human pyramid,” executed by the Long Noses of the god Tingou."
+    },
+    {
+      "id": "s78",
+      "text": "This “great attraction” was to close the performance."
+    },
+    {
+      "id": "s79",
+      "text": "Before three o’clock the large shed was invaded by the spectators, comprising Europeans and natives, Chinese and Japanese, men, women and children, who precipitated themselves upon the narrow benches and into the boxes opposite the stage."
+    },
+    {
+      "id": "s80",
+      "text": "The musicians took up a position inside, and were vigorously performing on their gongs, tam-tams, flutes, bones, tambourines, and immense drums."
+    },
+    {
+      "id": "s81",
+      "text": "The performance was much like all acrobatic displays; but it must be confessed that the Japanese are the first equilibrists in the world."
+    },
+    {
+      "id": "s82",
+      "text": "One, with a fan and some bits of paper, performed the graceful trick of the butterflies and the flowers; another traced in the air, with the odorous smoke of his pipe, a series of blue words, which composed a compliment to the audience; while a third juggled with some lighted candles, which he extinguished successively as they passed his lips, and relit again without interrupting for an instant his juggling."
+    },
+    {
+      "id": "s83",
+      "text": "Another reproduced the most singular combinations with a spinning-top; in his hands the revolving tops seemed to be animated with a life of their own in their interminable whirling; they ran over pipe-stems, the edges of sabres, wires and even hairs stretched across the stage; they turned around on the edges of large glasses, crossed bamboo ladders, dispersed into all the corners, and produced strange musical effects by the combination of their various pitches of tone."
+    },
+    {
+      "id": "s84",
+      "text": "The jugglers tossed them in the air, threw them like shuttlecocks with wooden battledores, and yet they kept on spinning; they put them into their pockets, and took them out still whirling as before."
+    },
+    {
+      "id": "s85",
+      "text": "It is useless to describe the astonishing performances of the acrobats and gymnasts."
+    },
+    {
+      "id": "s86",
+      "text": "The turning on ladders, poles, balls, barrels, &c., was executed with wonderful precision."
+    },
+    {
+      "id": "s87",
+      "text": "But the principal attraction was the exhibition of the Long Noses, a show to which Europe is as yet a stranger."
+    },
+    {
+      "id": "s88",
+      "text": "The Long Noses form a peculiar company, under the direct patronage of the god Tingou."
+    },
+    {
+      "id": "s89",
+      "text": "Attired after the fashion of the Middle Ages, they bore upon their shoulders a splendid pair of wings; but what especially distinguished them was the long noses which were fastened to their faces, and the uses which they made of them."
+    },
+    {
+      "id": "s90",
+      "text": "These noses were made of bamboo, and were five, six, and even ten feet long, some straight, others curved, some ribboned, and some having imitation warts upon them."
+    },
+    {
+      "id": "s91",
+      "text": "It was upon these appendages, fixed tightly on their real noses, that they performed their gymnastic exercises."
+    },
+    {
+      "id": "s92",
+      "text": "A dozen of these sectaries of Tingou lay flat upon their backs, while others, dressed to represent lightning-rods, came and frolicked on their noses, jumping from one to another, and performing the most skilful leapings and somersaults."
+    },
+    {
+      "id": "s93",
+      "text": "As a last scene, a “human pyramid” had been announced, in which fifty Long Noses were to represent the Car of Juggernaut."
+    },
+    {
+      "id": "s94",
+      "text": "But, instead of forming a pyramid by mounting each other’s shoulders, the artists were to group themselves on top of the noses."
+    },
+    {
+      "id": "s95",
+      "text": "It happened that the performer who had hitherto formed the base of the Car had quitted the troupe, and as, to fill this part, only strength and adroitness were necessary, Passepartout had been chosen to take his place."
+    },
+    {
+      "id": "s96",
+      "text": "The poor fellow really felt sad when—melancholy reminiscence of his youth!—he donned his costume, adorned with vari-coloured wings, and fastened to his natural feature a false nose six feet long."
+    },
+    {
+      "id": "s97",
+      "text": "But he cheered up when he thought that this nose was winning him something to eat."
+    },
+    {
+      "id": "s98",
+      "text": "He went upon the stage, and took his place beside the rest who were to compose the base of the Car of Juggernaut."
+    },
+    {
+      "id": "s99",
+      "text": "They all stretched themselves on the floor, their noses pointing to the ceiling."
+    },
+    {
+      "id": "s100",
+      "text": "A second group of artists disposed themselves on these long appendages, then a third above these, then a fourth, until a human monument reaching to the very cornices of the theatre soon arose on top of the noses."
+    },
+    {
+      "id": "s101",
+      "text": "This elicited loud applause, in the midst of which the orchestra was just striking up a deafening air, when the pyramid tottered, the balance was lost, one of the lower noses vanished from the pyramid, and the human monument was shattered like a castle built of cards!"
+    },
+    {
+      "id": "s102",
+      "text": "It was Passepartout’s fault."
+    },
+    {
+      "id": "s103",
+      "text": "Abandoning his position, clearing the footlights without the aid of his wings, and, clambering up to the right-hand gallery, he fell at the feet of one of the spectators, crying, “Ah, my master! my master!”"
+    },
+    {
+      "id": "s104",
+      "text": "“You here?”"
+    },
+    {
+      "id": "s105",
+      "text": "“Myself.”"
+    },
+    {
+      "id": "s106",
+      "text": "“Very well; then let us go to the steamer, young man!”"
+    },
+    {
+      "id": "s107",
+      "text": "Mr."
+    },
+    {
+      "id": "s108",
+      "text": "Fogg, Aouda, and Passepartout passed through the lobby of the theatre to the outside, where they encountered the Honourable Mr."
+    },
+    {
+      "id": "s109",
+      "text": "Batulcar, furious with rage."
+    },
+    {
+      "id": "s110",
+      "text": "He demanded damages for the “breakage” of the pyramid; and Phileas Fogg appeased him by giving him a handful of banknotes."
+    },
+    {
+      "id": "s111",
+      "text": "At half-past six, the very hour of departure, Mr."
+    },
+    {
+      "id": "s112",
+      "text": "Fogg and Aouda, followed by Passepartout, who in his hurry had retained his wings, and nose six feet long, stepped upon the American steamer."
+    }
+  ]
+}

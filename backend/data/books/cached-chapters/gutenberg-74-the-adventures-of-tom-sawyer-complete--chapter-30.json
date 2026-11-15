@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+  "ebookId": "74",
+  "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-30",
+  "chapterTitle": "CHAPTER XXX",
+  "contentHash": "sha256:3e30ff23dddc79f42b94c1014488b7cd816d43e3a48bd17eabafd6eb020d9f92",
+  "attribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER XXX. Source checked against Project Gutenberg eBook #74.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/74",
+    "textUrl": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "As the earliest suspicion of dawn appeared on Sunday morning, Huck came groping up the hill and rapped gently at the old Welshman’s door."
+    },
+    {
+      "id": "s2",
+      "text": "The inmates were asleep, but it was a sleep that was set on a hair-trigger, on account of the exciting episode of the night."
+    },
+    {
+      "id": "s3",
+      "text": "A call came from a window:"
+    },
+    {
+      "id": "s4",
+      "text": "“Who’s there!”"
+    },
+    {
+      "id": "s5",
+      "text": "Huck’s scared voice answered in a low tone:"
+    },
+    {
+      "id": "s6",
+      "text": "“Please let me in!"
+    },
+    {
+      "id": "s7",
+      "text": "It’s only Huck Finn!”"
+    },
+    {
+      "id": "s8",
+      "text": "“It’s a name that can open this door night or day, lad!—and welcome!”"
+    },
+    {
+      "id": "s9",
+      "text": "These were strange words to the vagabond boy’s ears, and the pleasantest he had ever heard."
+    },
+    {
+      "id": "s10",
+      "text": "He could not recollect that the closing word had ever been applied in his case before."
+    },
+    {
+      "id": "s11",
+      "text": "The door was quickly unlocked, and he entered."
+    },
+    {
+      "id": "s12",
+      "text": "Huck was given a seat and the old man and his brace of tall sons speedily dressed themselves."
+    },
+    {
+      "id": "s13",
+      "text": "“Now, my boy, I hope you’re good and hungry, because breakfast will be ready as soon as the sun’s up, and we’ll have a piping hot one, too—make yourself easy about that!"
+    },
+    {
+      "id": "s14",
+      "text": "I and the boys hoped you’d turn up and stop here last night.”"
+    },
+    {
+      "id": "s15",
+      "text": "“I was awful scared,” said Huck, “and I run."
+    },
+    {
+      "id": "s16",
+      "text": "I took out when the pistols went off, and I didn’t stop for three mile."
+    },
+    {
+      "id": "s17",
+      "text": "I’ve come now becuz I wanted to know about it, you know; and I come before daylight becuz I didn’t want to run across them devils, even if they was dead.”"
+    },
+    {
+      "id": "s18",
+      "text": "“Well, poor chap, you do look as if you’d had a hard night of it—but there’s a bed here for you when you’ve had your breakfast."
+    },
+    {
+      "id": "s19",
+      "text": "No, they ain’t dead, lad—we are sorry enough for that."
+    },
+    {
+      "id": "s20",
+      "text": "You see we knew right where to put our hands on them, by your description; so we crept along on tiptoe till we got within fifteen feet of them—dark as a cellar that sumach path was—and just then I found I was going to sneeze."
+    },
+    {
+      "id": "s21",
+      "text": "It was the meanest kind of luck!"
+    },
+    {
+      "id": "s22",
+      "text": "I tried to keep it back, but no use—’twas bound to come, and it did come!"
+    },
+    {
+      "id": "s23",
+      "text": "I was in the lead with my pistol raised, and when the sneeze started those scoundrels a-rustling to get out of the path, I sung out, ‘Fire boys!’ and blazed away at the place where the rustling was."
+    },
+    {
+      "id": "s24",
+      "text": "So did the boys."
+    },
+    {
+      "id": "s25",
+      "text": "But they were off in a jiffy, those villains, and we after them, down through the woods."
+    },
+    {
+      "id": "s26",
+      "text": "I judge we never touched them."
+    },
+    {
+      "id": "s27",
+      "text": "They fired a shot apiece as they started, but their bullets whizzed by and didn’t do us any harm."
+    },
+    {
+      "id": "s28",
+      "text": "As soon as we lost the sound of their feet we quit chasing, and went down and stirred up the constables."
+    },
+    {
+      "id": "s29",
+      "text": "They got a posse together, and went off to guard the river bank, and as soon as it is light the sheriff and a gang are going to beat up the woods."
+    },
+    {
+      "id": "s30",
+      "text": "My boys will be with them presently."
+    },
+    {
+      "id": "s31",
+      "text": "I wish we had some sort of description of those rascals—’twould help a good deal."
+    },
+    {
+      "id": "s32",
+      "text": "But you couldn’t see what they were like, in the dark, lad, I suppose?”"
+    },
+    {
+      "id": "s33",
+      "text": "“Oh yes; I saw them downtown and follered them.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Splendid!"
+    },
+    {
+      "id": "s35",
+      "text": "Describe them—describe them, my boy!”"
+    },
+    {
+      "id": "s36",
+      "text": "“One’s the old deaf and dumb Spaniard that’s ben around here once or twice, and t’other’s a mean-looking, ragged—”"
+    },
+    {
+      "id": "s37",
+      "text": "“That’s enough, lad, we know the men!"
+    },
+    {
+      "id": "s38",
+      "text": "Happened on them in the woods back of the widow’s one day, and they slunk away."
+    },
+    {
+      "id": "s39",
+      "text": "Off with you, boys, and tell the sheriff—get your breakfast tomorrow morning!”"
+    },
+    {
+      "id": "s40",
+      "text": "The Welshman’s sons departed at once."
+    },
+    {
+      "id": "s41",
+      "text": "As they were leaving the room Huck sprang up and exclaimed:"
+    },
+    {
+      "id": "s42",
+      "text": "“Oh, please don’t tell _any_body it was me that blowed on them!"
+    },
+    {
+      "id": "s43",
+      "text": "Oh, please!”"
+    },
+    {
+      "id": "s44",
+      "text": "“All right if you say it, Huck, but you ought to have the credit of what you did.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Oh no, no!"
+    },
+    {
+      "id": "s46",
+      "text": "Please don’t tell!”"
+    },
+    {
+      "id": "s47",
+      "text": "When the young men were gone, the old Welshman said:"
+    },
+    {
+      "id": "s48",
+      "text": "“They won’t tell—and I won’t."
+    },
+    {
+      "id": "s49",
+      "text": "But why don’t you want it known?”"
+    },
+    {
+      "id": "s50",
+      "text": "Huck would not explain, further than to say that he already knew too much about one of those men and would not have the man know that he knew anything against him for the whole world—he would be killed for knowing it, sure."
+    },
+    {
+      "id": "s51",
+      "text": "The old man promised secrecy once more, and said:"
+    },
+    {
+      "id": "s52",
+      "text": "“How did you come to follow these fellows, lad?"
+    },
+    {
+      "id": "s53",
+      "text": "Were they looking suspicious?”"
+    },
+    {
+      "id": "s54",
+      "text": "Huck was silent while he framed a duly cautious reply."
+    },
+    {
+      "id": "s55",
+      "text": "Then he said:"
+    },
+    {
+      "id": "s56",
+      "text": "“Well, you see, I’m a kind of a hard lot,—least everybody says so, and I don’t see nothing agin it—and sometimes I can’t sleep much, on account of thinking about it and sort of trying to strike out a new way of doing."
+    },
+    {
+      "id": "s57",
+      "text": "That was the way of it last night."
+    },
+    {
+      "id": "s58",
+      "text": "I couldn’t sleep, and so I come along upstreet ’bout midnight, a-turning it all over, and when I got to that old shackly brick store by the Temperance Tavern, I backed up agin the wall to have another think."
+    },
+    {
+      "id": "s59",
+      "text": "Well, just then along comes these two chaps slipping along close by me, with something under their arm, and I reckoned they’d stole it."
+    },
+    {
+      "id": "s60",
+      "text": "One was a-smoking, and t’other one wanted a light; so they stopped right before me and the cigars lit up their faces and I see that the big one was the deaf and dumb Spaniard, by his white whiskers and the patch on his eye, and t’other one was a rusty, ragged-looking devil.”"
+    },
+    {
+      "id": "s61",
+      "text": "“Could you see the rags by the light of the cigars?”"
+    },
+    {
+      "id": "s62",
+      "text": "This staggered Huck for a moment."
+    },
+    {
+      "id": "s63",
+      "text": "Then he said:"
+    },
+    {
+      "id": "s64",
+      "text": "“Well, I don’t know—but somehow it seems as if I did.”"
+    },
+    {
+      "id": "s65",
+      "text": "“Then they went on, and you—”"
+    },
+    {
+      "id": "s66",
+      "text": "“Follered ’em—yes."
+    },
+    {
+      "id": "s67",
+      "text": "That was it."
+    },
+    {
+      "id": "s68",
+      "text": "I wanted to see what was up—they sneaked along so."
+    },
+    {
+      "id": "s69",
+      "text": "I dogged ’em to the widder’s stile, and stood in the dark and heard the ragged one beg for the widder, and the Spaniard swear he’d spile her looks just as I told you and your two—”"
+    },
+    {
+      "id": "s70",
+      "text": "“What!"
+    },
+    {
+      "id": "s71",
+      "text": "The _deaf and dumb_ man said all that!”"
+    },
+    {
+      "id": "s72",
+      "text": "Huck had made another terrible mistake!"
+    },
+    {
+      "id": "s73",
+      "text": "He was trying his best to keep the old man from getting the faintest hint of who the Spaniard might be, and yet his tongue seemed determined to get him into trouble in spite of all he could do."
+    },
+    {
+      "id": "s74",
+      "text": "He made several efforts to creep out of his scrape, but the old man’s eye was upon him and he made blunder after blunder."
+    },
+    {
+      "id": "s75",
+      "text": "Presently the Welshman said:"
+    },
+    {
+      "id": "s76",
+      "text": "“My boy, don’t be afraid of me."
+    },
+    {
+      "id": "s77",
+      "text": "I wouldn’t hurt a hair of your head for all the world."
+    },
+    {
+      "id": "s78",
+      "text": "No—I’d protect you—I’d protect you."
+    },
+    {
+      "id": "s79",
+      "text": "This Spaniard is not deaf and dumb; you’ve let that slip without intending it; you can’t cover that up now."
+    },
+    {
+      "id": "s80",
+      "text": "You know something about that Spaniard that you want to keep dark."
+    },
+    {
+      "id": "s81",
+      "text": "Now trust me—tell me what it is, and trust me—I won’t betray you.”"
+    },
+    {
+      "id": "s82",
+      "text": "Huck looked into the old man’s honest eyes a moment, then bent over and whispered in his ear:"
+    },
+    {
+      "id": "s83",
+      "text": "“’Tain’t a Spaniard—it’s Injun Joe!”"
+    },
+    {
+      "id": "s84",
+      "text": "The Welshman almost jumped out of his chair."
+    },
+    {
+      "id": "s85",
+      "text": "In a moment he said:"
+    },
+    {
+      "id": "s86",
+      "text": "“It’s all plain enough, now."
+    },
+    {
+      "id": "s87",
+      "text": "When you talked about notching ears and slitting noses I judged that that was your own embellishment, because white men don’t take that sort of revenge."
+    },
+    {
+      "id": "s88",
+      "text": "But an Injun!"
+    },
+    {
+      "id": "s89",
+      "text": "That’s a different matter altogether.”"
+    },
+    {
+      "id": "s90",
+      "text": "During breakfast the talk went on, and in the course of it the old man said that the last thing which he and his sons had done, before going to bed, was to get a lantern and examine the stile and its vicinity for marks of blood."
+    },
+    {
+      "id": "s91",
+      "text": "They found none, but captured a bulky bundle of—"
+    },
+    {
+      "id": "s92",
+      "text": "“Of _what_?”"
+    },
+    {
+      "id": "s93",
+      "text": "If the words had been lightning they could not have leaped with a more stunning suddenness from Huck’s blanched lips."
+    },
+    {
+      "id": "s94",
+      "text": "His eyes were staring wide, now, and his breath suspended—waiting for the answer."
+    },
+    {
+      "id": "s95",
+      "text": "The Welshman started—stared in return—three seconds—five seconds—ten—then replied:"
+    },
+    {
+      "id": "s96",
+      "text": "“Of burglar’s tools."
+    },
+    {
+      "id": "s97",
+      "text": "Why, what’s the _matter_ with you?”"
+    },
+    {
+      "id": "s98",
+      "text": "Huck sank back, panting gently, but deeply, unutterably grateful."
+    },
+    {
+      "id": "s99",
+      "text": "The Welshman eyed him gravely, curiously—and presently said:"
+    },
+    {
+      "id": "s100",
+      "text": "“Yes, burglar’s tools."
+    },
+    {
+      "id": "s101",
+      "text": "That appears to relieve you a good deal."
+    },
+    {
+      "id": "s102",
+      "text": "But what did give you that turn?"
+    },
+    {
+      "id": "s103",
+      "text": "What were _you_ expecting we’d found?”"
+    },
+    {
+      "id": "s104",
+      "text": "Huck was in a close place—the inquiring eye was upon him—he would have given anything for material for a plausible answer—nothing suggested itself—the inquiring eye was boring deeper and deeper—a senseless reply offered—there was no time to weigh it, so at a venture he uttered it—feebly:"
+    },
+    {
+      "id": "s105",
+      "text": "“Sunday-school books, maybe.”"
+    },
+    {
+      "id": "s106",
+      "text": "Poor Huck was too distressed to smile, but the old man laughed loud and joyously, shook up the details of his anatomy from head to foot, and ended by saying that such a laugh was money in a man’s pocket, because it cut down the doctor’s bill like everything."
+    },
+    {
+      "id": "s107",
+      "text": "Then he added:"
+    },
+    {
+      "id": "s108",
+      "text": "“Poor old chap, you’re white and jaded—you ain’t well a bit—no wonder you’re a little flighty and off your balance."
+    },
+    {
+      "id": "s109",
+      "text": "But you’ll come out of it."
+    },
+    {
+      "id": "s110",
+      "text": "Rest and sleep will fetch you out all right, I hope.”"
+    },
+    {
+      "id": "s111",
+      "text": "Huck was irritated to think he had been such a goose and betrayed such a suspicious excitement, for he had dropped the idea that the parcel brought from the tavern was the treasure, as soon as he had heard the talk at the widow’s stile."
+    },
+    {
+      "id": "s112",
+      "text": "He had only thought it was not the treasure, however—he had not known that it wasn’t—and so the suggestion of a captured bundle was too much for his self-possession."
+    },
+    {
+      "id": "s113",
+      "text": "But on the whole he felt glad the little episode had happened, for now he knew beyond all question that that bundle was not _the_ bundle, and so his mind was at rest and exceedingly comfortable."
+    },
+    {
+      "id": "s114",
+      "text": "In fact, everything seemed to be drifting just in the right direction, now; the treasure must be still in No. 2, the men would be captured and jailed that day, and he and Tom could seize the gold that night without any trouble or any fear of interruption."
+    },
+    {
+      "id": "s115",
+      "text": "Just as breakfast was completed there was a knock at the door."
+    },
+    {
+      "id": "s116",
+      "text": "Huck jumped for a hiding-place, for he had no mind to be connected even remotely with the late event."
+    },
+    {
+      "id": "s117",
+      "text": "The Welshman admitted several ladies and gentlemen, among them the Widow Douglas, and noticed that groups of citizens were climbing up the hill—to stare at the stile."
+    },
+    {
+      "id": "s118",
+      "text": "So the news had spread."
+    },
+    {
+      "id": "s119",
+      "text": "The Welshman had to tell the story of the night to the visitors."
+    },
+    {
+      "id": "s120",
+      "text": "The widow’s gratitude for her preservation was outspoken."
+    },
+    {
+      "id": "s121",
+      "text": "“Don’t say a word about it, madam."
+    },
+    {
+      "id": "s122",
+      "text": "There’s another that you’re more beholden to than you are to me and my boys, maybe, but he don’t allow me to tell his name."
+    },
+    {
+      "id": "s123",
+      "text": "We wouldn’t have been there but for him.”"
+    },
+    {
+      "id": "s124",
+      "text": "Of course this excited a curiosity so vast that it almost belittled the main matter—but the Welshman allowed it to eat into the vitals of his visitors, and through them be transmitted to the whole town, for he refused to part with his secret."
+    },
+    {
+      "id": "s125",
+      "text": "When all else had been learned, the widow said:"
+    },
+    {
+      "id": "s126",
+      "text": "“I went to sleep reading in bed and slept straight through all that noise."
+    },
+    {
+      "id": "s127",
+      "text": "Why didn’t you come and wake me?”"
+    },
+    {
+      "id": "s128",
+      "text": "“We judged it warn’t worth while."
+    },
+    {
+      "id": "s129",
+      "text": "Those fellows warn’t likely to come again—they hadn’t any tools left to work with, and what was the use of waking you up and scaring you to death?"
+    },
+    {
+      "id": "s130",
+      "text": "My three negro men stood guard at your house all the rest of the night."
+    },
+    {
+      "id": "s131",
+      "text": "They’ve just come back.”"
+    },
+    {
+      "id": "s132",
+      "text": "More visitors came, and the story had to be told and retold for a couple of hours more."
+    },
+    {
+      "id": "s133",
+      "text": "There was no Sabbath-school during day-school vacation, but everybody was early at church."
+    },
+    {
+      "id": "s134",
+      "text": "The stirring event was well canvassed."
+    },
+    {
+      "id": "s135",
+      "text": "News came that not a sign of the two villains had been yet discovered."
+    },
+    {
+      "id": "s136",
+      "text": "When the sermon was finished, Judge Thatcher’s wife dropped alongside of Mrs."
+    },
+    {
+      "id": "s137",
+      "text": "Harper as she moved down the aisle with the crowd and said:"
+    },
+    {
+      "id": "s138",
+      "text": "“Is my Becky going to sleep all day?"
+    },
+    {
+      "id": "s139",
+      "text": "I just expected she would be tired to death.”"
+    },
+    {
+      "id": "s140",
+      "text": "“Your Becky?”"
+    },
+    {
+      "id": "s141",
+      "text": "“Yes,” with a startled look—“didn’t she stay with you last night?”"
+    },
+    {
+      "id": "s142",
+      "text": "“Why, no.”"
+    },
+    {
+      "id": "s143",
+      "text": "Mrs."
+    },
+    {
+      "id": "s144",
+      "text": "Thatcher turned pale, and sank into a pew, just as Aunt Polly, talking briskly with a friend, passed by."
+    },
+    {
+      "id": "s145",
+      "text": "Aunt Polly said:"
+    },
+    {
+      "id": "s146",
+      "text": "“Goodmorning, Mrs."
+    },
+    {
+      "id": "s147",
+      "text": "Thatcher."
+    },
+    {
+      "id": "s148",
+      "text": "Goodmorning, Mrs."
+    },
+    {
+      "id": "s149",
+      "text": "Harper."
+    },
+    {
+      "id": "s150",
+      "text": "I’ve got a boy that’s turned up missing."
+    },
+    {
+      "id": "s151",
+      "text": "I reckon my Tom stayed at your house last night—one of you."
+    },
+    {
+      "id": "s152",
+      "text": "And now he’s afraid to come to church."
+    },
+    {
+      "id": "s153",
+      "text": "I’ve got to settle with him.”"
+    },
+    {
+      "id": "s154",
+      "text": "Mrs."
+    },
+    {
+      "id": "s155",
+      "text": "Thatcher shook her head feebly and turned paler than ever."
+    },
+    {
+      "id": "s156",
+      "text": "“He didn’t stay with us,” said Mrs."
+    },
+    {
+      "id": "s157",
+      "text": "Harper, beginning to look uneasy."
+    },
+    {
+      "id": "s158",
+      "text": "A marked anxiety came into Aunt Polly’s face."
+    },
+    {
+      "id": "s159",
+      "text": "“Joe Harper, have you seen my Tom this morning?”"
+    },
+    {
+      "id": "s160",
+      "text": "“No’m.”"
+    },
+    {
+      "id": "s161",
+      "text": "“When did you see him last?”"
+    },
+    {
+      "id": "s162",
+      "text": "Joe tried to remember, but was not sure he could say."
+    },
+    {
+      "id": "s163",
+      "text": "The people had stopped moving out of church."
+    },
+    {
+      "id": "s164",
+      "text": "Whispers passed along, and a boding uneasiness took possession of every countenance."
+    },
+    {
+      "id": "s165",
+      "text": "Children were anxiously questioned, and young teachers."
+    },
+    {
+      "id": "s166",
+      "text": "They all said they had not noticed whether Tom and Becky were on board the ferryboat on the homeward trip; it was dark; no one thought of inquiring if any one was missing."
+    },
+    {
+      "id": "s167",
+      "text": "One young man finally blurted out his fear that they were still in the cave!"
+    },
+    {
+      "id": "s168",
+      "text": "Mrs."
+    },
+    {
+      "id": "s169",
+      "text": "Thatcher swooned away."
+    },
+    {
+      "id": "s170",
+      "text": "Aunt Polly fell to crying and wringing her hands."
+    },
+    {
+      "id": "s171",
+      "text": "The alarm swept from lip to lip, from group to group, from street to street, and within five minutes the bells were wildly clanging and the whole town was up!"
+    },
+    {
+      "id": "s172",
+      "text": "The Cardiff Hill episode sank into instant insignificance, the burglars were forgotten, horses were saddled, skiffs were manned, the ferryboat ordered out, and before the horror was half an hour old, two hundred men were pouring down highroad and river toward the cave."
+    },
+    {
+      "id": "s173",
+      "text": "All the long afternoon the village seemed empty and dead."
+    },
+    {
+      "id": "s174",
+      "text": "Many women visited Aunt Polly and Mrs."
+    },
+    {
+      "id": "s175",
+      "text": "Thatcher and tried to comfort them."
+    },
+    {
+      "id": "s176",
+      "text": "They cried with them, too, and that was still better than words."
+    },
+    {
+      "id": "s177",
+      "text": "All the tedious night the town waited for news; but when the morning dawned at last, all the word that came was, “Send more candles—and send food.” Mrs."
+    },
+    {
+      "id": "s178",
+      "text": "Thatcher was almost crazed; and Aunt Polly, also."
+    },
+    {
+      "id": "s179",
+      "text": "Judge Thatcher sent messages of hope and encouragement from the cave, but they conveyed no real cheer."
+    },
+    {
+      "id": "s180",
+      "text": "The old Welshman came home toward daylight, spattered with candle-grease, smeared with clay, and almost worn out."
+    },
+    {
+      "id": "s181",
+      "text": "He found Huck still in the bed that had been provided for him, and delirious with fever."
+    },
+    {
+      "id": "s182",
+      "text": "The physicians were all at the cave, so the Widow Douglas came and took charge of the patient."
+    },
+    {
+      "id": "s183",
+      "text": "She said she would do her best by him, because, whether he was good, bad, or indifferent, he was the Lord’s, and nothing that was the Lord’s was a thing to be neglected."
+    },
+    {
+      "id": "s184",
+      "text": "The Welshman said Huck had good spots in him, and the widow said:"
+    },
+    {
+      "id": "s185",
+      "text": "“You can depend on it."
+    },
+    {
+      "id": "s186",
+      "text": "That’s the Lord’s mark."
+    },
+    {
+      "id": "s187",
+      "text": "He don’t leave it off."
+    },
+    {
+      "id": "s188",
+      "text": "He never does."
+    },
+    {
+      "id": "s189",
+      "text": "Puts it somewhere on every creature that comes from his hands.”"
+    },
+    {
+      "id": "s190",
+      "text": "Early in the forenoon parties of jaded men began to straggle into the village, but the strongest of the citizens continued searching."
+    },
+    {
+      "id": "s191",
+      "text": "All the news that could be gained was that remotenesses of the cavern were being ransacked that had never been visited before; that every corner and crevice was going to be thoroughly searched; that wherever one wandered through the maze of passages, lights were to be seen flitting hither and thither in the distance, and shoutings and pistol-shots sent their hollow reverberations to the ear down the sombre aisles."
+    },
+    {
+      "id": "s192",
+      "text": "In one place, far from the section usually traversed by tourists, the names “BECKY & TOM” had been found traced upon the rocky wall with candle-smoke, and near at hand a grease-soiled bit of ribbon."
+    },
+    {
+      "id": "s193",
+      "text": "Mrs."
+    },
+    {
+      "id": "s194",
+      "text": "Thatcher recognized the ribbon and cried over it."
+    },
+    {
+      "id": "s195",
+      "text": "She said it was the last relic she should ever have of her child; and that no other memorial of her could ever be so precious, because this one parted latest from the living body before the awful death came."
+    },
+    {
+      "id": "s196",
+      "text": "Some said that now and then, in the cave, a far-away speck of light would glimmer, and then a glorious shout would burst forth and a score of men go trooping down the echoing aisle—and then a sickening disappointment always followed; the children were not there; it was only a searcher’s light."
+    },
+    {
+      "id": "s197",
+      "text": "Three dreadful days and nights dragged their tedious hours along, and the village sank into a hopeless stupor."
+    },
+    {
+      "id": "s198",
+      "text": "No one had heart for anything."
+    },
+    {
+      "id": "s199",
+      "text": "The accidental discovery, just made, that the proprietor of the Temperance Tavern kept liquor on his premises, scarcely fluttered the public pulse, tremendous as the fact was."
+    },
+    {
+      "id": "s200",
+      "text": "In a lucid interval, Huck feebly led up to the subject of taverns, and finally asked—dimly dreading the worst—if anything had been discovered at the Temperance Tavern since he had been ill."
+    },
+    {
+      "id": "s201",
+      "text": "“Yes,” said the widow."
+    },
+    {
+      "id": "s202",
+      "text": "Huck started up in bed, wild-eyed:"
+    },
+    {
+      "id": "s203",
+      "text": "“What?"
+    },
+    {
+      "id": "s204",
+      "text": "What was it?”"
+    },
+    {
+      "id": "s205",
+      "text": "“Liquor!—and the place has been shut up."
+    },
+    {
+      "id": "s206",
+      "text": "Lie down, child—what a turn you did give me!”"
+    },
+    {
+      "id": "s207",
+      "text": "“Only tell me just one thing—only just one—please!"
+    },
+    {
+      "id": "s208",
+      "text": "Was it Tom Sawyer that found it?”"
+    },
+    {
+      "id": "s209",
+      "text": "The widow burst into tears."
+    },
+    {
+      "id": "s210",
+      "text": "“Hush, hush, child, hush!"
+    },
+    {
+      "id": "s211",
+      "text": "I’ve told you before, you must _not_ talk."
+    },
+    {
+      "id": "s212",
+      "text": "You are very, very sick!”"
+    },
+    {
+      "id": "s213",
+      "text": "Then nothing but liquor had been found; there would have been a great powwow if it had been the gold."
+    },
+    {
+      "id": "s214",
+      "text": "So the treasure was gone forever—gone forever!"
+    },
+    {
+      "id": "s215",
+      "text": "But what could she be crying about?"
+    },
+    {
+      "id": "s216",
+      "text": "Curious that she should cry."
+    },
+    {
+      "id": "s217",
+      "text": "These thoughts worked their dim way through Huck’s mind, and under the weariness they gave him he fell asleep."
+    },
+    {
+      "id": "s218",
+      "text": "The widow said to herself:"
+    },
+    {
+      "id": "s219",
+      "text": "“There—he’s asleep, poor wreck."
+    },
+    {
+      "id": "s220",
+      "text": "Tom Sawyer find it!"
+    },
+    {
+      "id": "s221",
+      "text": "Pity but somebody could find Tom Sawyer!"
+    },
+    {
+      "id": "s222",
+      "text": "Ah, there ain’t many left, now, that’s got hope enough, or strength enough, either, to go on searching.”"
+    }
+  ]
+}

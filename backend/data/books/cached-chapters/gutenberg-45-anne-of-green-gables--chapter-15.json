@@ -1,0 +1,1509 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-15",
+  "chapterTitle": "CHAPTER XV. A Tempest in the School Teapot",
+  "contentHash": "sha256:dbde53a2e9eeea5ece818b88b518c529b97a8a4a1861560754d901ccfc3fde32",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XV. A Tempest in the School Teapot. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "WHAT a splendid day!” said Anne, drawing a long breath."
+    },
+    {
+      "id": "s2",
+      "text": "“Isn’t it good just to be alive on a day like this?"
+    },
+    {
+      "id": "s3",
+      "text": "I pity the people who aren’t born yet for missing it."
+    },
+    {
+      "id": "s4",
+      "text": "They may have good days, of course, but they can never have this one."
+    },
+    {
+      "id": "s5",
+      "text": "And it’s splendider still to have such a lovely way to go to school by, isn’t it?”"
+    },
+    {
+      "id": "s6",
+      "text": "“It’s a lot nicer than going round by the road; that is so dusty and hot,” said Diana practically, peeping into her dinner basket and mentally calculating if the three juicy, toothsome, raspberry tarts reposing there were divided among ten girls how many bites each girl would have."
+    },
+    {
+      "id": "s7",
+      "text": "The little girls of Avonlea school always pooled their lunches, and to eat three raspberry tarts all alone or even to share them only with one’s best chum would have forever and ever branded as “awful mean” the girl who did it."
+    },
+    {
+      "id": "s8",
+      "text": "And yet, when the tarts were divided among ten girls you just got enough to tantalize you."
+    },
+    {
+      "id": "s9",
+      "text": "The way Anne and Diana went to school _was_ a pretty one."
+    },
+    {
+      "id": "s10",
+      "text": "Anne thought those walks to and from school with Diana couldn’t be improved upon even by imagination."
+    },
+    {
+      "id": "s11",
+      "text": "Going around by the main road would have been so unromantic; but to go by Lover’s Lane and Willowmere and Violet Vale and the Birch Path was romantic, if ever anything was."
+    },
+    {
+      "id": "s12",
+      "text": "Lover’s Lane opened out below the orchard at Green Gables and stretched far up into the woods to the end of the Cuthbert farm."
+    },
+    {
+      "id": "s13",
+      "text": "It was the way by which the cows were taken to the back pasture and the wood hauled home in winter."
+    },
+    {
+      "id": "s14",
+      "text": "Anne had named it Lover’s Lane before she had been a month at Green Gables."
+    },
+    {
+      "id": "s15",
+      "text": "“Not that lovers ever really walk there,” she explained to Marilla, “but Diana and I are reading a perfectly magnificent book and there’s a Lover’s Lane in it."
+    },
+    {
+      "id": "s16",
+      "text": "So we want to have one, too."
+    },
+    {
+      "id": "s17",
+      "text": "And it’s a very pretty name, don’t you think?"
+    },
+    {
+      "id": "s18",
+      "text": "So romantic!"
+    },
+    {
+      "id": "s19",
+      "text": "We can’t imagine the lovers into it, you know."
+    },
+    {
+      "id": "s20",
+      "text": "I like that lane because you can think out loud there without people calling you crazy.”"
+    },
+    {
+      "id": "s21",
+      "text": "Anne, starting out alone in the morning, went down Lover’s Lane as far as the brook."
+    },
+    {
+      "id": "s22",
+      "text": "Here Diana met her, and the two little girls went on up the lane under the leafy arch of maples--“maples are such sociable trees,” said Anne; “they’re always rustling and whispering to you”--until they came to a rustic bridge."
+    },
+    {
+      "id": "s23",
+      "text": "Then they left the lane and walked through Mr."
+    },
+    {
+      "id": "s24",
+      "text": "Barry’s back field and past Willowmere."
+    },
+    {
+      "id": "s25",
+      "text": "Beyond Willowmere came Violet Vale--a little green dimple in the shadow of Mr."
+    },
+    {
+      "id": "s26",
+      "text": "Andrew Bell’s big woods."
+    },
+    {
+      "id": "s27",
+      "text": "“Of course there are no violets there now,” Anne told Marilla, “but Diana says there are millions of them in spring."
+    },
+    {
+      "id": "s28",
+      "text": "Oh, Marilla, can’t you just imagine you see them?"
+    },
+    {
+      "id": "s29",
+      "text": "It actually takes away my breath."
+    },
+    {
+      "id": "s30",
+      "text": "I named it Violet Vale."
+    },
+    {
+      "id": "s31",
+      "text": "Diana says she never saw the beat of me for hitting on fancy names for places."
+    },
+    {
+      "id": "s32",
+      "text": "It’s nice to be clever at something, isn’t it?"
+    },
+    {
+      "id": "s33",
+      "text": "But Diana named the Birch Path."
+    },
+    {
+      "id": "s34",
+      "text": "She wanted to, so I let her; but I’m sure I could have found something more poetical than plain Birch Path."
+    },
+    {
+      "id": "s35",
+      "text": "Anybody can think of a name like that."
+    },
+    {
+      "id": "s36",
+      "text": "But the Birch Path is one of the prettiest places in the world, Marilla.”"
+    },
+    {
+      "id": "s37",
+      "text": "It was."
+    },
+    {
+      "id": "s38",
+      "text": "Other people besides Anne thought so when they stumbled on it."
+    },
+    {
+      "id": "s39",
+      "text": "It was a little narrow, twisting path, winding down over a long hill straight through Mr."
+    },
+    {
+      "id": "s40",
+      "text": "Bell’s woods, where the light came down sifted through so many emerald screens that it was as flawless as the heart of a diamond."
+    },
+    {
+      "id": "s41",
+      "text": "It was fringed in all its length with slim young birches, white stemmed and lissom boughed; ferns and starflowers and wild lilies-of-the-valley and scarlet tufts of pigeonberries grew thickly along it; and always there was a delightful spiciness in the air and music of bird calls and the murmur and laugh of wood winds in the trees overhead."
+    },
+    {
+      "id": "s42",
+      "text": "Now and then you might see a rabbit skipping across the road if you were quiet--which, with Anne and Diana, happened about once in a blue moon."
+    },
+    {
+      "id": "s43",
+      "text": "Down in the valley the path came out to the main road and then it was just up the spruce hill to the school."
+    },
+    {
+      "id": "s44",
+      "text": "The Avonlea school was a whitewashed building, low in the eaves and wide in the windows, furnished inside with comfortable substantial old-fashioned desks that opened and shut, and were carved all over their lids with the initials and hieroglyphics of three generations of school children."
+    },
+    {
+      "id": "s45",
+      "text": "The schoolhouse was set back from the road and behind it was a dusky fir wood and a brook where all the children put their bottles of milk in the morning to keep cool and sweet until dinner hour."
+    },
+    {
+      "id": "s46",
+      "text": "Marilla had seen Anne start off to school on the first day of September with many secret misgivings."
+    },
+    {
+      "id": "s47",
+      "text": "Anne was such an odd girl."
+    },
+    {
+      "id": "s48",
+      "text": "How would she get on with the other children?"
+    },
+    {
+      "id": "s49",
+      "text": "And how on earth would she ever manage to hold her tongue during school hours?"
+    },
+    {
+      "id": "s50",
+      "text": "Things went better than Marilla feared, however."
+    },
+    {
+      "id": "s51",
+      "text": "Anne came home that evening in high spirits."
+    },
+    {
+      "id": "s52",
+      "text": "“I think I’m going to like school here,” she announced."
+    },
+    {
+      "id": "s53",
+      "text": "“I don’t think much of the master, though."
+    },
+    {
+      "id": "s54",
+      "text": "He’s all the time curling his mustache and making eyes at Prissy Andrews."
+    },
+    {
+      "id": "s55",
+      "text": "Prissy is grown up, you know."
+    },
+    {
+      "id": "s56",
+      "text": "She’s sixteen and she’s studying for the entrance examination into Queen’s Academy at Charlottetown next year."
+    },
+    {
+      "id": "s57",
+      "text": "Tillie Boulter says the master is _dead gone_ on her."
+    },
+    {
+      "id": "s58",
+      "text": "She’s got a beautiful complexion and curly brown hair and she does it up so elegantly."
+    },
+    {
+      "id": "s59",
+      "text": "She sits in the long seat at the back and he sits there, too, most of the time--to explain her lessons, he says."
+    },
+    {
+      "id": "s60",
+      "text": "But Ruby Gillis says she saw him writing something on her slate and when Prissy read it she blushed as red as a beet and giggled; and Ruby Gillis says she doesn’t believe it had anything to do with the lesson.”"
+    },
+    {
+      "id": "s61",
+      "text": "“Anne Shirley, don’t let me hear you talking about your teacher in that way again,” said Marilla sharply."
+    },
+    {
+      "id": "s62",
+      "text": "“You don’t go to school to criticize the master."
+    },
+    {
+      "id": "s63",
+      "text": "I guess he can teach _you_ something, and it’s your business to learn."
+    },
+    {
+      "id": "s64",
+      "text": "And I want you to understand right off that you are not to come home telling tales about him."
+    },
+    {
+      "id": "s65",
+      "text": "That is something I won’t encourage."
+    },
+    {
+      "id": "s66",
+      "text": "I hope you were a good girl.”"
+    },
+    {
+      "id": "s67",
+      "text": "“Indeed I was,” said Anne comfortably."
+    },
+    {
+      "id": "s68",
+      "text": "“It wasn’t so hard as you might imagine, either."
+    },
+    {
+      "id": "s69",
+      "text": "I sit with Diana."
+    },
+    {
+      "id": "s70",
+      "text": "Our seat is right by the window and we can look down to the Lake of Shining Waters."
+    },
+    {
+      "id": "s71",
+      "text": "There are a lot of nice girls in school and we had scrumptious fun playing at dinnertime."
+    },
+    {
+      "id": "s72",
+      "text": "It’s so nice to have a lot of little girls to play with."
+    },
+    {
+      "id": "s73",
+      "text": "But of course I like Diana best and always will."
+    },
+    {
+      "id": "s74",
+      "text": "I _adore_ Diana."
+    },
+    {
+      "id": "s75",
+      "text": "I’m dreadfully far behind the others."
+    },
+    {
+      "id": "s76",
+      "text": "They’re all in the fifth book and I’m only in the fourth."
+    },
+    {
+      "id": "s77",
+      "text": "I feel that it’s kind of a disgrace."
+    },
+    {
+      "id": "s78",
+      "text": "But there’s not one of them has such an imagination as I have and I soon found that out."
+    },
+    {
+      "id": "s79",
+      "text": "We had reading and geography and Canadian history and dictation today."
+    },
+    {
+      "id": "s80",
+      "text": "Mr."
+    },
+    {
+      "id": "s81",
+      "text": "Phillips said my spelling was disgraceful and he held up my slate so that everybody could see it, all marked over."
+    },
+    {
+      "id": "s82",
+      "text": "I felt so mortified, Marilla; he might have been politer to a stranger, I think."
+    },
+    {
+      "id": "s83",
+      "text": "Ruby Gillis gave me an apple and Sophia Sloane lent me a lovely pink card with ‘May I see you home?’ on it."
+    },
+    {
+      "id": "s84",
+      "text": "I’m to give it back to her tomorrow."
+    },
+    {
+      "id": "s85",
+      "text": "And Tillie Boulter let me wear her bead ring all the afternoon."
+    },
+    {
+      "id": "s86",
+      "text": "Can I have some of those pearl beads off the old pincushion in the garret to make myself a ring?"
+    },
+    {
+      "id": "s87",
+      "text": "And oh, Marilla, Jane Andrews told me that Minnie MacPherson told her that she heard Prissy Andrews tell Sara Gillis that I had a very pretty nose."
+    },
+    {
+      "id": "s88",
+      "text": "Marilla, that is the first compliment I have ever had in my life and you can’t imagine what a strange feeling it gave me."
+    },
+    {
+      "id": "s89",
+      "text": "Marilla, have I really a pretty nose?"
+    },
+    {
+      "id": "s90",
+      "text": "I know you’ll tell me the truth.”"
+    },
+    {
+      "id": "s91",
+      "text": "“Your nose is well enough,” said Marilla shortly."
+    },
+    {
+      "id": "s92",
+      "text": "Secretly she thought Anne’s nose was a remarkable pretty one; but she had no intention of telling her so."
+    },
+    {
+      "id": "s93",
+      "text": "That was three weeks ago and all had gone smoothly so far."
+    },
+    {
+      "id": "s94",
+      "text": "And now, this crisp September morning, Anne and Diana were tripping blithely down the Birch Path, two of the happiest little girls in Avonlea."
+    },
+    {
+      "id": "s95",
+      "text": "“I guess Gilbert Blythe will be in school today,” said Diana."
+    },
+    {
+      "id": "s96",
+      "text": "“He’s been visiting his cousins over in New Brunswick all summer and he only came home Saturday night."
+    },
+    {
+      "id": "s97",
+      "text": "He’s _aw’fly_ handsome, Anne."
+    },
+    {
+      "id": "s98",
+      "text": "And he teases the girls something terrible."
+    },
+    {
+      "id": "s99",
+      "text": "He just torments our lives out.”"
+    },
+    {
+      "id": "s100",
+      "text": "Diana’s voice indicated that she rather liked having her life tormented out than not."
+    },
+    {
+      "id": "s101",
+      "text": "“Gilbert Blythe?” said Anne."
+    },
+    {
+      "id": "s102",
+      "text": "“Isn’t his name that’s written up on the porch wall with Julia Bell’s and a big ‘Take Notice’ over them?”"
+    },
+    {
+      "id": "s103",
+      "text": "“Yes,” said Diana, tossing her head, “but I’m sure he doesn’t like Julia Bell so very much."
+    },
+    {
+      "id": "s104",
+      "text": "I’ve heard him say he studied the multiplication table by her freckles.”"
+    },
+    {
+      "id": "s105",
+      "text": "“Oh, don’t speak about freckles to me,” implored Anne."
+    },
+    {
+      "id": "s106",
+      "text": "“It isn’t delicate when I’ve got so many."
+    },
+    {
+      "id": "s107",
+      "text": "But I do think that writing take-notices up on the wall about the boys and girls is the silliest ever."
+    },
+    {
+      "id": "s108",
+      "text": "I should just like to see anybody dare to write my name up with a boy’s."
+    },
+    {
+      "id": "s109",
+      "text": "Not, of course,” she hastened to add, “that anybody would.”"
+    },
+    {
+      "id": "s110",
+      "text": "Anne sighed."
+    },
+    {
+      "id": "s111",
+      "text": "She didn’t want her name written up."
+    },
+    {
+      "id": "s112",
+      "text": "But it was a little humiliating to know that there was no danger of it."
+    },
+    {
+      "id": "s113",
+      "text": "“Nonsense,” said Diana, whose black eyes and glossy tresses had played such havoc with the hearts of Avonlea schoolboys that her name figured on the porch walls in half a dozen take-notices."
+    },
+    {
+      "id": "s114",
+      "text": "“It’s only meant as a joke."
+    },
+    {
+      "id": "s115",
+      "text": "And don’t you be too sure your name won’t ever be written up."
+    },
+    {
+      "id": "s116",
+      "text": "Charlie Sloane is _dead gone_ on you."
+    },
+    {
+      "id": "s117",
+      "text": "He told his mother--his _mother_, mind you--that you were the smartest girl in school."
+    },
+    {
+      "id": "s118",
+      "text": "That’s better than being good-looking.”"
+    },
+    {
+      "id": "s119",
+      "text": "“No, it isn’t,” said Anne, feminine to the core."
+    },
+    {
+      "id": "s120",
+      "text": "“I’d rather be pretty than clever."
+    },
+    {
+      "id": "s121",
+      "text": "And I hate Charlie Sloane, I can’t bear a boy with goggle eyes."
+    },
+    {
+      "id": "s122",
+      "text": "If anyone wrote my name up with his I’d _never_ get over it, Diana Barry."
+    },
+    {
+      "id": "s123",
+      "text": "But it _is_ nice to keep head of your class.”"
+    },
+    {
+      "id": "s124",
+      "text": "“You’ll have Gilbert in your class after this,” said Diana, “and he’s used to being head of his class, I can tell you."
+    },
+    {
+      "id": "s125",
+      "text": "He’s only in the fourth book although he’s nearly fourteen."
+    },
+    {
+      "id": "s126",
+      "text": "Four years ago his father was sick and had to go out to Alberta for his health and Gilbert went with him."
+    },
+    {
+      "id": "s127",
+      "text": "They were there three years and Gil didn’t go to school hardly any until they came back."
+    },
+    {
+      "id": "s128",
+      "text": "You won’t find it so easy to keep head after this, Anne.”"
+    },
+    {
+      "id": "s129",
+      "text": "“I’m glad,” said Anne quickly."
+    },
+    {
+      "id": "s130",
+      "text": "“I couldn’t really feel proud of keeping head of little boys and girls of just nine or ten."
+    },
+    {
+      "id": "s131",
+      "text": "I got up yesterday spelling ‘ebullition.’ Josie Pye was head and, mind you, she peeped in her book."
+    },
+    {
+      "id": "s132",
+      "text": "Mr."
+    },
+    {
+      "id": "s133",
+      "text": "Phillips didn’t see her--he was looking at Prissy Andrews--but I did."
+    },
+    {
+      "id": "s134",
+      "text": "I just swept her a look of freezing scorn and she got as red as a beet and spelled it wrong after all.”"
+    },
+    {
+      "id": "s135",
+      "text": "“Those Pye girls are cheats all round,” said Diana indignantly, as they climbed the fence of the main road."
+    },
+    {
+      "id": "s136",
+      "text": "“Gertie Pye actually went and put her milk bottle in my place in the brook yesterday."
+    },
+    {
+      "id": "s137",
+      "text": "Did you ever?"
+    },
+    {
+      "id": "s138",
+      "text": "I don’t speak to her now.”"
+    },
+    {
+      "id": "s139",
+      "text": "When Mr."
+    },
+    {
+      "id": "s140",
+      "text": "Phillips was in the back of the room hearing Prissy Andrews’s Latin, Diana whispered to Anne, “That’s Gilbert Blythe sitting right across the aisle from you, Anne."
+    },
+    {
+      "id": "s141",
+      "text": "Just look at him and see if you don’t think he’s handsome.”"
+    },
+    {
+      "id": "s142",
+      "text": "Anne looked accordingly."
+    },
+    {
+      "id": "s143",
+      "text": "She had a good chance to do so, for the said Gilbert Blythe was absorbed in stealthily pinning the long yellow braid of Ruby Gillis, who sat in front of him, to the back of her seat."
+    },
+    {
+      "id": "s144",
+      "text": "He was a tall boy, with curly brown hair, roguish hazel eyes, and a mouth twisted into a teasing smile."
+    },
+    {
+      "id": "s145",
+      "text": "Presently Ruby Gillis started up to take a sum to the master; she fell back into her seat with a little shriek, believing that her hair was pulled out by the roots."
+    },
+    {
+      "id": "s146",
+      "text": "Everybody looked at her and Mr."
+    },
+    {
+      "id": "s147",
+      "text": "Phillips glared so sternly that Ruby began to cry."
+    },
+    {
+      "id": "s148",
+      "text": "Gilbert had whisked the pin out of sight and was studying his history with the soberest face in the world; but when the commotion subsided he looked at Anne and winked with inexpressible drollery."
+    },
+    {
+      "id": "s149",
+      "text": "“I think your Gilbert Blythe _is_ handsome,” confided Anne to Diana, “but I think he’s very bold."
+    },
+    {
+      "id": "s150",
+      "text": "It isn’t good manners to wink at a strange girl.”"
+    },
+    {
+      "id": "s151",
+      "text": "But it was not until the afternoon that things really began to happen."
+    },
+    {
+      "id": "s152",
+      "text": "Mr."
+    },
+    {
+      "id": "s153",
+      "text": "Phillips was back in the corner explaining a problem in algebra to Prissy Andrews and the rest of the scholars were doing pretty much as they pleased eating green apples, whispering, drawing pictures on their slates, and driving crickets harnessed to strings, up and down aisle."
+    },
+    {
+      "id": "s154",
+      "text": "Gilbert Blythe was trying to make Anne Shirley look at him and failing utterly, because Anne was at that moment totally oblivious not only to the very existence of Gilbert Blythe, but of every other scholar in Avonlea school itself."
+    },
+    {
+      "id": "s155",
+      "text": "With her chin propped on her hands and her eyes fixed on the blue glimpse of the Lake of Shining Waters that the west window afforded, she was far away in a gorgeous dreamland hearing and seeing nothing save her own wonderful visions."
+    },
+    {
+      "id": "s156",
+      "text": "Gilbert Blythe wasn’t used to putting himself out to make a girl look at him and meeting with failure."
+    },
+    {
+      "id": "s157",
+      "text": "She _should_ look at him, that red-haired Shirley girl with the little pointed chin and the big eyes that weren’t like the eyes of any other girl in Avonlea school."
+    },
+    {
+      "id": "s158",
+      "text": "Gilbert reached across the aisle, picked up the end of Anne’s long red braid, held it out at arm’s length and said in a piercing whisper:"
+    },
+    {
+      "id": "s159",
+      "text": "“Carrots!"
+    },
+    {
+      "id": "s160",
+      "text": "Carrots!”"
+    },
+    {
+      "id": "s161",
+      "text": "Then Anne looked at him with a vengeance!"
+    },
+    {
+      "id": "s162",
+      "text": "She did more than look."
+    },
+    {
+      "id": "s163",
+      "text": "She sprang to her feet, her bright fancies fallen into cureless ruin."
+    },
+    {
+      "id": "s164",
+      "text": "She flashed one indignant glance at Gilbert from eyes whose angry sparkle was swiftly quenched in equally angry tears."
+    },
+    {
+      "id": "s165",
+      "text": "“You mean, hateful boy!” she exclaimed passionately."
+    },
+    {
+      "id": "s166",
+      "text": "“How dare you!”"
+    },
+    {
+      "id": "s167",
+      "text": "And then--thwack!"
+    },
+    {
+      "id": "s168",
+      "text": "Anne had brought her slate down on Gilbert’s head and cracked it--slate not head--clear across."
+    },
+    {
+      "id": "s169",
+      "text": "Avonlea school always enjoyed a scene."
+    },
+    {
+      "id": "s170",
+      "text": "This was an especially enjoyable one."
+    },
+    {
+      "id": "s171",
+      "text": "Everybody said “Oh” in horrified delight."
+    },
+    {
+      "id": "s172",
+      "text": "Diana gasped."
+    },
+    {
+      "id": "s173",
+      "text": "Ruby Gillis, who was inclined to be hysterical, began to cry."
+    },
+    {
+      "id": "s174",
+      "text": "Tommy Sloane let his team of crickets escape him altogether while he stared open-mouthed at the tableau."
+    },
+    {
+      "id": "s175",
+      "text": "Mr."
+    },
+    {
+      "id": "s176",
+      "text": "Phillips stalked down the aisle and laid his hand heavily on Anne’s shoulder."
+    },
+    {
+      "id": "s177",
+      "text": "“Anne Shirley, what does this mean?” he said angrily."
+    },
+    {
+      "id": "s178",
+      "text": "Anne returned no answer."
+    },
+    {
+      "id": "s179",
+      "text": "It was asking too much of flesh and blood to expect her to tell before the whole school that she had been called “carrots.” Gilbert it was who spoke up stoutly."
+    },
+    {
+      "id": "s180",
+      "text": "“It was my fault Mr."
+    },
+    {
+      "id": "s181",
+      "text": "Phillips."
+    },
+    {
+      "id": "s182",
+      "text": "I teased her.”"
+    },
+    {
+      "id": "s183",
+      "text": "Mr."
+    },
+    {
+      "id": "s184",
+      "text": "Phillips paid no heed to Gilbert."
+    },
+    {
+      "id": "s185",
+      "text": "“I am sorry to see a pupil of mine displaying such a temper and such a vindictive spirit,” he said in a solemn tone, as if the mere fact of being a pupil of his ought to root out all evil passions from the hearts of small imperfect mortals."
+    },
+    {
+      "id": "s186",
+      "text": "“Anne, go and stand on the platform in front of the blackboard for the rest of the afternoon.”"
+    },
+    {
+      "id": "s187",
+      "text": "Anne would have infinitely preferred a whipping to this punishment under which her sensitive spirit quivered as from a whiplash."
+    },
+    {
+      "id": "s188",
+      "text": "With a white, set face she obeyed."
+    },
+    {
+      "id": "s189",
+      "text": "Mr."
+    },
+    {
+      "id": "s190",
+      "text": "Phillips took a chalk crayon and wrote on the blackboard above her head."
+    },
+    {
+      "id": "s191",
+      "text": "“Ann Shirley has a very bad temper."
+    },
+    {
+      "id": "s192",
+      "text": "Ann Shirley must learn to control her temper,” and then read it out loud so that even the primer class, who couldn’t read writing, should understand it."
+    },
+    {
+      "id": "s193",
+      "text": "Anne stood there the rest of the afternoon with that legend above her."
+    },
+    {
+      "id": "s194",
+      "text": "She did not cry or hang her head."
+    },
+    {
+      "id": "s195",
+      "text": "Anger was still too hot in her heart for that and it sustained her amid all her agony of humiliation."
+    },
+    {
+      "id": "s196",
+      "text": "With resentful eyes and passion-red cheeks she confronted alike Diana’s sympathetic gaze and Charlie Sloane’s indignant nods and Josie Pye’s malicious smiles."
+    },
+    {
+      "id": "s197",
+      "text": "As for Gilbert Blythe, she would not even look at him."
+    },
+    {
+      "id": "s198",
+      "text": "She would _never_ look at him again!"
+    },
+    {
+      "id": "s199",
+      "text": "She would never speak to him!!"
+    },
+    {
+      "id": "s200",
+      "text": "When school was dismissed Anne marched out with her red head held high."
+    },
+    {
+      "id": "s201",
+      "text": "Gilbert Blythe tried to intercept her at the porch door."
+    },
+    {
+      "id": "s202",
+      "text": "“I’m awfully sorry I made fun of your hair, Anne,” he whispered contritely."
+    },
+    {
+      "id": "s203",
+      "text": "“Honest I am."
+    },
+    {
+      "id": "s204",
+      "text": "Don’t be mad for keeps, now.”"
+    },
+    {
+      "id": "s205",
+      "text": "Anne swept by disdainfully, without look or sign of hearing."
+    },
+    {
+      "id": "s206",
+      "text": "“Oh how could you, Anne?” breathed Diana as they went down the road half reproachfully, half admiringly."
+    },
+    {
+      "id": "s207",
+      "text": "Diana felt that _she_ could never have resisted Gilbert’s plea."
+    },
+    {
+      "id": "s208",
+      "text": "“I shall never forgive Gilbert Blythe,” said Anne firmly."
+    },
+    {
+      "id": "s209",
+      "text": "“And Mr."
+    },
+    {
+      "id": "s210",
+      "text": "Phillips spelled my name without an e, too."
+    },
+    {
+      "id": "s211",
+      "text": "The iron has entered into my soul, Diana.”"
+    },
+    {
+      "id": "s212",
+      "text": "Diana hadn’t the least idea what Anne meant but she understood it was something terrible."
+    },
+    {
+      "id": "s213",
+      "text": "“You mustn’t mind Gilbert making fun of your hair,” she said soothingly."
+    },
+    {
+      "id": "s214",
+      "text": "“Why, he makes fun of all the girls."
+    },
+    {
+      "id": "s215",
+      "text": "He laughs at mine because it’s so black."
+    },
+    {
+      "id": "s216",
+      "text": "He’s called me a crow a dozen times; and I never heard him apologize for anything before, either.”"
+    },
+    {
+      "id": "s217",
+      "text": "“There’s a great deal of difference between being called a crow and being called carrots,” said Anne with dignity."
+    },
+    {
+      "id": "s218",
+      "text": "“Gilbert Blythe has hurt my feelings _excruciatingly_, Diana.”"
+    },
+    {
+      "id": "s219",
+      "text": "It is possible the matter might have blown over without more excruciation if nothing else had happened."
+    },
+    {
+      "id": "s220",
+      "text": "But when things begin to happen they are apt to keep on."
+    },
+    {
+      "id": "s221",
+      "text": "Avonlea scholars often spent noon hour picking gum in Mr."
+    },
+    {
+      "id": "s222",
+      "text": "Bell’s spruce grove over the hill and across his big pasture field."
+    },
+    {
+      "id": "s223",
+      "text": "From there they could keep an eye on Eben Wright’s house, where the master boarded."
+    },
+    {
+      "id": "s224",
+      "text": "When they saw Mr."
+    },
+    {
+      "id": "s225",
+      "text": "Phillips emerging therefrom they ran for the schoolhouse; but the distance being about three times longer than Mr."
+    },
+    {
+      "id": "s226",
+      "text": "Wright’s lane they were very apt to arrive there, breathless and gasping, some three minutes too late."
+    },
+    {
+      "id": "s227",
+      "text": "On the following day Mr."
+    },
+    {
+      "id": "s228",
+      "text": "Phillips was seized with one of his spasmodic fits of reform and announced before going home to dinner, that he should expect to find all the scholars in their seats when he returned."
+    },
+    {
+      "id": "s229",
+      "text": "Anyone who came in late would be punished."
+    },
+    {
+      "id": "s230",
+      "text": "All the boys and some of the girls went to Mr."
+    },
+    {
+      "id": "s231",
+      "text": "Bell’s spruce grove as usual, fully intending to stay only long enough to “pick a chew.” But spruce groves are seductive and yellow nuts of gum beguiling; they picked and loitered and strayed; and as usual the first thing that recalled them to a sense of the flight of time was Jimmy Glover shouting from the top of a patriarchal old spruce “Master’s coming.”"
+    },
+    {
+      "id": "s232",
+      "text": "The girls who were on the ground, started first and managed to reach the schoolhouse in time but without a second to spare."
+    },
+    {
+      "id": "s233",
+      "text": "The boys, who had to wriggle hastily down from the trees, were later; and Anne, who had not been picking gum at all but was wandering happily in the far end of the grove, waist deep among the bracken, singing softly to herself, with a wreath of rice lilies on her hair as if she were some wild divinity of the shadowy places, was latest of all."
+    },
+    {
+      "id": "s234",
+      "text": "Anne could run like a deer, however; run she did with the impish result that she overtook the boys at the door and was swept into the schoolhouse among them just as Mr."
+    },
+    {
+      "id": "s235",
+      "text": "Phillips was in the act of hanging up his hat."
+    },
+    {
+      "id": "s236",
+      "text": "Mr."
+    },
+    {
+      "id": "s237",
+      "text": "Phillips’s brief reforming energy was over; he didn’t want the bother of punishing a dozen pupils; but it was necessary to do something to save his word, so he looked about for a scapegoat and found it in Anne, who had dropped into her seat, gasping for breath, with a forgotten lily wreath hanging askew over one ear and giving her a particularly rakish and disheveled appearance."
+    },
+    {
+      "id": "s238",
+      "text": "“Anne Shirley, since you seem to be so fond of the boys’ company we shall indulge your taste for it this afternoon,” he said sarcastically."
+    },
+    {
+      "id": "s239",
+      "text": "“Take those flowers out of your hair and sit with Gilbert Blythe.”"
+    },
+    {
+      "id": "s240",
+      "text": "The other boys snickered."
+    },
+    {
+      "id": "s241",
+      "text": "Diana, turning pale with pity, plucked the wreath from Anne’s hair and squeezed her hand."
+    },
+    {
+      "id": "s242",
+      "text": "Anne stared at the master as if turned to stone."
+    },
+    {
+      "id": "s243",
+      "text": "“Did you hear what I said, Anne?” queried Mr."
+    },
+    {
+      "id": "s244",
+      "text": "Phillips sternly."
+    },
+    {
+      "id": "s245",
+      "text": "“Yes, sir,” said Anne slowly “but I didn’t suppose you really meant it.”"
+    },
+    {
+      "id": "s246",
+      "text": "“I assure you I did”--still with the sarcastic inflection which all the children, and Anne especially, hated."
+    },
+    {
+      "id": "s247",
+      "text": "It flicked on the raw."
+    },
+    {
+      "id": "s248",
+      "text": "“Obey me at once.”"
+    },
+    {
+      "id": "s249",
+      "text": "For a moment Anne looked as if she meant to disobey."
+    },
+    {
+      "id": "s250",
+      "text": "Then, realizing that there was no help for it, she rose haughtily, stepped across the aisle, sat down beside Gilbert Blythe, and buried her face in her arms on the desk."
+    },
+    {
+      "id": "s251",
+      "text": "Ruby Gillis, who got a glimpse of it as it went down, told the others going home from school that she’d “acksually never seen anything like it--it was so white, with awful little red spots in it.”"
+    },
+    {
+      "id": "s252",
+      "text": "To Anne, this was as the end of all things."
+    },
+    {
+      "id": "s253",
+      "text": "It was bad enough to be singled out for punishment from among a dozen equally guilty ones; it was worse still to be sent to sit with a boy, but that that boy should be Gilbert Blythe was heaping insult on injury to a degree utterly unbearable."
+    },
+    {
+      "id": "s254",
+      "text": "Anne felt that she could not bear it and it would be of no use to try."
+    },
+    {
+      "id": "s255",
+      "text": "Her whole being seethed with shame and anger and humiliation."
+    },
+    {
+      "id": "s256",
+      "text": "At first the other scholars looked and whispered and giggled and nudged."
+    },
+    {
+      "id": "s257",
+      "text": "But as Anne never lifted her head and as Gilbert worked fractions as if his whole soul was absorbed in them and them only, they soon returned to their own tasks and Anne was forgotten."
+    },
+    {
+      "id": "s258",
+      "text": "When Mr."
+    },
+    {
+      "id": "s259",
+      "text": "Phillips called the history class out Anne should have gone, but Anne did not move, and Mr."
+    },
+    {
+      "id": "s260",
+      "text": "Phillips, who had been writing some verses “To Priscilla” before he called the class, was thinking about an obstinate rhyme still and never missed her."
+    },
+    {
+      "id": "s261",
+      "text": "Once, when nobody was looking, Gilbert took from his desk a little pink candy heart with a gold motto on it, “You are sweet,” and slipped it under the curve of Anne’s arm."
+    },
+    {
+      "id": "s262",
+      "text": "Whereupon Anne arose, took the pink heart gingerly between the tips of her fingers, dropped it on the floor, ground it to powder beneath her heel, and resumed her position without deigning to bestow a glance on Gilbert."
+    },
+    {
+      "id": "s263",
+      "text": "When school went out Anne marched to her desk, ostentatiously took out everything therein, books and writing tablet, pen and ink, testament and arithmetic, and piled them neatly on her cracked slate."
+    },
+    {
+      "id": "s264",
+      "text": "“What are you taking all those things home for, Anne?” Diana wanted to know, as soon as they were out on the road."
+    },
+    {
+      "id": "s265",
+      "text": "She had not dared to ask the question before."
+    },
+    {
+      "id": "s266",
+      "text": "“I am not coming back to school any more,” said Anne."
+    },
+    {
+      "id": "s267",
+      "text": "Diana gasped and stared at Anne to see if she meant it."
+    },
+    {
+      "id": "s268",
+      "text": "“Will Marilla let you stay home?” she asked."
+    },
+    {
+      "id": "s269",
+      "text": "“She’ll have to,” said Anne."
+    },
+    {
+      "id": "s270",
+      "text": "“I’ll _never_ go to school to that man again.”"
+    },
+    {
+      "id": "s271",
+      "text": "“Oh, Anne!” Diana looked as if she were ready to cry."
+    },
+    {
+      "id": "s272",
+      "text": "“I do think you’re mean."
+    },
+    {
+      "id": "s273",
+      "text": "What shall I do?"
+    },
+    {
+      "id": "s274",
+      "text": "Mr."
+    },
+    {
+      "id": "s275",
+      "text": "Phillips will make me sit with that horrid Gertie Pye--I know he will because she is sitting alone."
+    },
+    {
+      "id": "s276",
+      "text": "Do come back, Anne.”"
+    },
+    {
+      "id": "s277",
+      "text": "“I’d do almost anything in the world for you, Diana,” said Anne sadly."
+    },
+    {
+      "id": "s278",
+      "text": "“I’d let myself be torn limb from limb if it would do you any good."
+    },
+    {
+      "id": "s279",
+      "text": "But I can’t do this, so please don’t ask it."
+    },
+    {
+      "id": "s280",
+      "text": "You harrow up my very soul.”"
+    },
+    {
+      "id": "s281",
+      "text": "“Just think of all the fun you will miss,” mourned Diana."
+    },
+    {
+      "id": "s282",
+      "text": "“We are going to build the loveliest new house down by the brook; and we’ll be playing ball next week and you’ve never played ball, Anne."
+    },
+    {
+      "id": "s283",
+      "text": "It’s tremendously exciting."
+    },
+    {
+      "id": "s284",
+      "text": "And we’re going to learn a new song--Jane Andrews is practicing it up now; and Alice Andrews is going to bring a new Pansy book next week and we’re all going to read it out loud, chapter about, down by the brook."
+    },
+    {
+      "id": "s285",
+      "text": "And you know you are so fond of reading out loud, Anne.”"
+    },
+    {
+      "id": "s286",
+      "text": "Nothing moved Anne in the least."
+    },
+    {
+      "id": "s287",
+      "text": "Her mind was made up."
+    },
+    {
+      "id": "s288",
+      "text": "She would not go to school to Mr."
+    },
+    {
+      "id": "s289",
+      "text": "Phillips again; she told Marilla so when she got home."
+    },
+    {
+      "id": "s290",
+      "text": "“Nonsense,” said Marilla."
+    },
+    {
+      "id": "s291",
+      "text": "“It isn’t nonsense at all,” said Anne, gazing at Marilla with solemn, reproachful eyes."
+    },
+    {
+      "id": "s292",
+      "text": "“Don’t you understand, Marilla?"
+    },
+    {
+      "id": "s293",
+      "text": "I’ve been insulted.”"
+    },
+    {
+      "id": "s294",
+      "text": "“Insulted fiddlesticks!"
+    },
+    {
+      "id": "s295",
+      "text": "You’ll go to school tomorrow as usual.”"
+    },
+    {
+      "id": "s296",
+      "text": "“Oh, no.” Anne shook her head gently."
+    },
+    {
+      "id": "s297",
+      "text": "“I’m not going back, Marilla."
+    },
+    {
+      "id": "s298",
+      "text": "I’ll learn my lessons at home and I’ll be as good as I can be and hold my tongue all the time if it’s possible at all."
+    },
+    {
+      "id": "s299",
+      "text": "But I will not go back to school, I assure you.”"
+    },
+    {
+      "id": "s300",
+      "text": "Marilla saw something remarkably like unyielding stubbornness looking out of Anne’s small face."
+    },
+    {
+      "id": "s301",
+      "text": "She understood that she would have trouble in overcoming it; but she resolved wisely to say nothing more just then."
+    },
+    {
+      "id": "s302",
+      "text": "“I’ll run down and see Rachel about it this evening,” she thought."
+    },
+    {
+      "id": "s303",
+      "text": "“There’s no use reasoning with Anne now."
+    },
+    {
+      "id": "s304",
+      "text": "She’s too worked up and I’ve an idea she can be awful stubborn if she takes the notion."
+    },
+    {
+      "id": "s305",
+      "text": "Far as I can make out from her story, Mr."
+    },
+    {
+      "id": "s306",
+      "text": "Phillips has been carrying matters with a rather high hand."
+    },
+    {
+      "id": "s307",
+      "text": "But it would never do to say so to her."
+    },
+    {
+      "id": "s308",
+      "text": "I’ll just talk it over with Rachel."
+    },
+    {
+      "id": "s309",
+      "text": "She’s sent ten children to school and she ought to know something about it."
+    },
+    {
+      "id": "s310",
+      "text": "She’ll have heard the whole story, too, by this time.”"
+    },
+    {
+      "id": "s311",
+      "text": "Marilla found Mrs."
+    },
+    {
+      "id": "s312",
+      "text": "Lynde knitting quilts as industriously and cheerfully as usual."
+    },
+    {
+      "id": "s313",
+      "text": "“I suppose you know what I’ve come about,” she said, a little shamefacedly."
+    },
+    {
+      "id": "s314",
+      "text": "Mrs."
+    },
+    {
+      "id": "s315",
+      "text": "Rachel nodded."
+    },
+    {
+      "id": "s316",
+      "text": "“About Anne’s fuss in school, I reckon,” she said."
+    },
+    {
+      "id": "s317",
+      "text": "“Tillie Boulter was in on her way home from school and told me about it.”"
+    },
+    {
+      "id": "s318",
+      "text": "“I don’t know what to do with her,” said Marilla."
+    },
+    {
+      "id": "s319",
+      "text": "“She declares she won’t go back to school."
+    },
+    {
+      "id": "s320",
+      "text": "I never saw a child so worked up."
+    },
+    {
+      "id": "s321",
+      "text": "I’ve been expecting trouble ever since she started to school."
+    },
+    {
+      "id": "s322",
+      "text": "I knew things were going too smooth to last."
+    },
+    {
+      "id": "s323",
+      "text": "She’s so high strung."
+    },
+    {
+      "id": "s324",
+      "text": "What would you advise, Rachel?”"
+    },
+    {
+      "id": "s325",
+      "text": "“Well, since you’ve asked my advice, Marilla,” said Mrs."
+    },
+    {
+      "id": "s326",
+      "text": "Lynde amiably--Mrs."
+    },
+    {
+      "id": "s327",
+      "text": "Lynde dearly loved to be asked for advice--“I’d just humor her a little at first, that’s what I’d do."
+    },
+    {
+      "id": "s328",
+      "text": "It’s my belief that Mr."
+    },
+    {
+      "id": "s329",
+      "text": "Phillips was in the wrong."
+    },
+    {
+      "id": "s330",
+      "text": "Of course, it doesn’t do to say so to the children, you know."
+    },
+    {
+      "id": "s331",
+      "text": "And of course he did right to punish her yesterday for giving way to temper."
+    },
+    {
+      "id": "s332",
+      "text": "But today it was different."
+    },
+    {
+      "id": "s333",
+      "text": "The others who were late should have been punished as well as Anne, that’s what."
+    },
+    {
+      "id": "s334",
+      "text": "And I don’t believe in making the girls sit with the boys for punishment."
+    },
+    {
+      "id": "s335",
+      "text": "It isn’t modest."
+    },
+    {
+      "id": "s336",
+      "text": "Tillie Boulter was real indignant."
+    },
+    {
+      "id": "s337",
+      "text": "She took Anne’s part right through and said all the scholars did too."
+    },
+    {
+      "id": "s338",
+      "text": "Anne seems real popular among them, somehow."
+    },
+    {
+      "id": "s339",
+      "text": "I never thought she’d take with them so well.”"
+    },
+    {
+      "id": "s340",
+      "text": "“Then you really think I’d better let her stay home,” said Marilla in amazement."
+    },
+    {
+      "id": "s341",
+      "text": "“Yes."
+    },
+    {
+      "id": "s342",
+      "text": "That is I wouldn’t say school to her again until she said it herself."
+    },
+    {
+      "id": "s343",
+      "text": "Depend upon it, Marilla, she’ll cool off in a week or so and be ready enough to go back of her own accord, that’s what, while, if you were to make her go back right off, dear knows what freak or tantrum she’d take next and make more trouble than ever."
+    },
+    {
+      "id": "s344",
+      "text": "The less fuss made the better, in my opinion."
+    },
+    {
+      "id": "s345",
+      "text": "She won’t miss much by not going to school, as far as _that_ goes."
+    },
+    {
+      "id": "s346",
+      "text": "Mr."
+    },
+    {
+      "id": "s347",
+      "text": "Phillips isn’t any good at all as a teacher."
+    },
+    {
+      "id": "s348",
+      "text": "The order he keeps is scandalous, that’s what, and he neglects the young fry and puts all his time on those big scholars he’s getting ready for Queen’s."
+    },
+    {
+      "id": "s349",
+      "text": "He’d never have got the school for another year if his uncle hadn’t been a trustee--_the_ trustee, for he just leads the other two around by the nose, that’s what."
+    },
+    {
+      "id": "s350",
+      "text": "I declare, I don’t know what education in this Island is coming to.”"
+    },
+    {
+      "id": "s351",
+      "text": "Mrs."
+    },
+    {
+      "id": "s352",
+      "text": "Rachel shook her head, as much as to say if she were only at the head of the educational system of the Province things would be much better managed."
+    },
+    {
+      "id": "s353",
+      "text": "Marilla took Mrs."
+    },
+    {
+      "id": "s354",
+      "text": "Rachel’s advice and not another word was said to Anne about going back to school."
+    },
+    {
+      "id": "s355",
+      "text": "She learned her lessons at home, did her chores, and played with Diana in the chilly purple autumn twilights; but when she met Gilbert Blythe on the road or encountered him in Sunday-school she passed him by with an icy contempt that was no whit thawed by his evident desire to appease her."
+    },
+    {
+      "id": "s356",
+      "text": "Even Diana’s efforts as a peacemaker were of no avail."
+    },
+    {
+      "id": "s357",
+      "text": "Anne had evidently made up her mind to hate Gilbert Blythe to the end of life."
+    },
+    {
+      "id": "s358",
+      "text": "As much as she hated Gilbert, however, did she love Diana, with all the love of her passionate little heart, equally intense in its likes and dislikes."
+    },
+    {
+      "id": "s359",
+      "text": "One evening Marilla, coming in from the orchard with a basket of apples, found Anne sitting along by the east window in the twilight, crying bitterly."
+    },
+    {
+      "id": "s360",
+      "text": "“Whatever’s the matter now, Anne?” she asked."
+    },
+    {
+      "id": "s361",
+      "text": "“It’s about Diana,” sobbed Anne luxuriously."
+    },
+    {
+      "id": "s362",
+      "text": "“I love Diana so, Marilla."
+    },
+    {
+      "id": "s363",
+      "text": "I cannot ever live without her."
+    },
+    {
+      "id": "s364",
+      "text": "But I know very well when we grow up that Diana will get married and go away and leave me."
+    },
+    {
+      "id": "s365",
+      "text": "And oh, what shall I do?"
+    },
+    {
+      "id": "s366",
+      "text": "I hate her husband--I just hate him furiously."
+    },
+    {
+      "id": "s367",
+      "text": "I’ve been imagining it all out--the wedding and everything--Diana dressed in snowy garments, with a veil, and looking as beautiful and regal as a queen; and me the bridesmaid, with a lovely dress too, and puffed sleeves, but with a breaking heart hid beneath my smiling face."
+    },
+    {
+      "id": "s368",
+      "text": "And then bidding Diana goodbye-e-e--” Here Anne broke down entirely and wept with increasing bitterness."
+    },
+    {
+      "id": "s369",
+      "text": "Marilla turned quickly away to hide her twitching face; but it was no use; she collapsed on the nearest chair and burst into such a hearty and unusual peal of laughter that Matthew, crossing the yard outside, halted in amazement."
+    },
+    {
+      "id": "s370",
+      "text": "When had he heard Marilla laugh like that before?"
+    },
+    {
+      "id": "s371",
+      "text": "“Well, Anne Shirley,” said Marilla as soon as she could speak, “if you must borrow trouble, for pity’s sake borrow it handier home."
+    },
+    {
+      "id": "s372",
+      "text": "I should think you had an imagination, sure enough.”"
+    }
+  ]
+}

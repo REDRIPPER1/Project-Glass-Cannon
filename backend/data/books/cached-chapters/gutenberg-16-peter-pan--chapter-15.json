@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-16-peter-pan",
+  "ebookId": "16",
+  "edition": "Project Gutenberg eBook #16; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-15",
+  "chapterTitle": "Chapter XV.",
+  "contentHash": "sha256:6edf8b901e791b5bc4557c02192e890d7805bef773fbb9d5f54733a7850f52b1",
+  "attribution": "Barrie, J. M. (James Matthew), 1860-1937, Peter Pan, Chapter XV.. Source checked against Project Gutenberg eBook #16.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/16",
+    "textUrl": "https://www.gutenberg.org/cache/epub/16/pg16.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "“HOOK OR ME THIS TIME”"
+    },
+    {
+      "id": "s2",
+      "text": "Odd things happen to all of us on our way through life without our noticing for a time that they have happened."
+    },
+    {
+      "id": "s3",
+      "text": "Thus, to take an instance, we suddenly discover that we have been deaf in one ear for we don’t know how long, but, say, half an hour."
+    },
+    {
+      "id": "s4",
+      "text": "Now such an experience had come that night to Peter."
+    },
+    {
+      "id": "s5",
+      "text": "When last we saw him he was stealing across the island with one finger to his lips and his dagger at the ready."
+    },
+    {
+      "id": "s6",
+      "text": "He had seen the crocodile pass by without noticing anything peculiar about it, but by and by he remembered that it had not been ticking."
+    },
+    {
+      "id": "s7",
+      "text": "At first he thought this eerie, but soon concluded rightly that the clock had run down."
+    },
+    {
+      "id": "s8",
+      "text": "Without giving a thought to what might be the feelings of a fellow-creature thus abruptly deprived of its closest companion, Peter began to consider how he could turn the catastrophe to his own use; and he decided to tick, so that wild beasts should believe he was the crocodile and let him pass unmolested."
+    },
+    {
+      "id": "s9",
+      "text": "He ticked superbly, but with one unforeseen result."
+    },
+    {
+      "id": "s10",
+      "text": "The crocodile was among those who heard the sound, and it followed him, though whether with the purpose of regaining what it had lost, or merely as a friend under the belief that it was again ticking itself, will never be certainly known, for, like slaves to a fixed idea, it was a stupid beast."
+    },
+    {
+      "id": "s11",
+      "text": "Peter reached the shore without mishap, and went straight on, his legs encountering the water as if quite unaware that they had entered a new element."
+    },
+    {
+      "id": "s12",
+      "text": "Thus many animals pass from land to water, but no other human of whom I know."
+    },
+    {
+      "id": "s13",
+      "text": "As he swam he had but one thought: “Hook or me this time.” He had ticked so long that he now went on ticking without knowing that he was doing it."
+    },
+    {
+      "id": "s14",
+      "text": "Had he known he would have stopped, for to board the brig by help of the tick, though an ingenious idea, had not occurred to him."
+    },
+    {
+      "id": "s15",
+      "text": "On the contrary, he thought he had scaled her side as noiseless as a mouse; and he was amazed to see the pirates cowering from him, with Hook in their midst as abject as if he had heard the crocodile."
+    },
+    {
+      "id": "s16",
+      "text": "The crocodile!"
+    },
+    {
+      "id": "s17",
+      "text": "No sooner did Peter remember it than he heard the ticking."
+    },
+    {
+      "id": "s18",
+      "text": "At first he thought the sound did come from the crocodile, and he looked behind him swiftly."
+    },
+    {
+      "id": "s19",
+      "text": "Then he realised that he was doing it himself, and in a flash he understood the situation."
+    },
+    {
+      "id": "s20",
+      "text": "“How clever of me!” he thought at once, and signed to the boys not to burst into applause."
+    },
+    {
+      "id": "s21",
+      "text": "It was at this moment that Ed Teynte the quartermaster emerged from the forecastle and came along the deck."
+    },
+    {
+      "id": "s22",
+      "text": "Now, reader, time what happened by your watch."
+    },
+    {
+      "id": "s23",
+      "text": "Peter struck true and deep."
+    },
+    {
+      "id": "s24",
+      "text": "John clapped his hands on the ill-fated pirate’s mouth to stifle the dying groan."
+    },
+    {
+      "id": "s25",
+      "text": "He fell forward."
+    },
+    {
+      "id": "s26",
+      "text": "Four boys caught him to prevent the thud."
+    },
+    {
+      "id": "s27",
+      "text": "Peter gave the signal, and the carrion was cast overboard."
+    },
+    {
+      "id": "s28",
+      "text": "There was a splash, and then silence."
+    },
+    {
+      "id": "s29",
+      "text": "How long has it taken?"
+    },
+    {
+      "id": "s30",
+      "text": "“One!” (Slightly had begun to count.)"
+    },
+    {
+      "id": "s31",
+      "text": "None too soon, Peter, every inch of him on tiptoe, vanished into the cabin; for more than one pirate was screwing up his courage to look round."
+    },
+    {
+      "id": "s32",
+      "text": "They could hear each other’s distressed breathing now, which showed them that the more terrible sound had passed."
+    },
+    {
+      "id": "s33",
+      "text": "“It’s gone, captain,” Smee said, wiping off his spectacles."
+    },
+    {
+      "id": "s34",
+      "text": "“All’s still again.”"
+    },
+    {
+      "id": "s35",
+      "text": "Slowly Hook let his head emerge from his ruff, and listened so intently that he could have caught the echo of the tick."
+    },
+    {
+      "id": "s36",
+      "text": "There was not a sound, and he drew himself up firmly to his full height."
+    },
+    {
+      "id": "s37",
+      "text": "“Then here’s to Johnny Plank!” he cried brazenly, hating the boys more than ever because they had seen him unbend."
+    },
+    {
+      "id": "s38",
+      "text": "He broke into the villainous ditty:"
+    },
+    {
+      "id": "s39",
+      "text": "“Yo ho, yo ho, the frisky plank, You walks along it so, Till it goes down and you goes down To Davy Jones below!”"
+    },
+    {
+      "id": "s40",
+      "text": "To terrorise the prisoners the more, though with a certain loss of dignity, he danced along an imaginary plank, grimacing at them as he sang; and when he finished he cried, “Do you want a touch of the cat before you walk the plank?”"
+    },
+    {
+      "id": "s41",
+      "text": "At that they fell on their knees."
+    },
+    {
+      "id": "s42",
+      "text": "“No, no!” they cried so piteously that every pirate smiled."
+    },
+    {
+      "id": "s43",
+      "text": "“Fetch the cat, Jukes,” said Hook; “it’s in the cabin.”"
+    },
+    {
+      "id": "s44",
+      "text": "The cabin!"
+    },
+    {
+      "id": "s45",
+      "text": "Peter was in the cabin!"
+    },
+    {
+      "id": "s46",
+      "text": "The children gazed at each other."
+    },
+    {
+      "id": "s47",
+      "text": "“Ay, ay,” said Jukes blithely, and he strode into the cabin."
+    },
+    {
+      "id": "s48",
+      "text": "They followed him with their eyes; they scarce knew that Hook had resumed his song, his dogs joining in with him:"
+    },
+    {
+      "id": "s49",
+      "text": "“Yo ho, yo ho, the scratching cat, Its tails are nine, you know, And when they’re writ upon your back—”"
+    },
+    {
+      "id": "s50",
+      "text": "What was the last line will never be known, for of a sudden the song was stayed by a dreadful screech from the cabin."
+    },
+    {
+      "id": "s51",
+      "text": "It wailed through the ship, and died away."
+    },
+    {
+      "id": "s52",
+      "text": "Then was heard a crowing sound which was well understood by the boys, but to the pirates was almost more eerie than the screech."
+    },
+    {
+      "id": "s53",
+      "text": "“What was that?” cried Hook."
+    },
+    {
+      "id": "s54",
+      "text": "“Two,” said Slightly solemnly."
+    },
+    {
+      "id": "s55",
+      "text": "The Italian Cecco hesitated for a moment and then swung into the cabin."
+    },
+    {
+      "id": "s56",
+      "text": "He tottered out, haggard."
+    },
+    {
+      "id": "s57",
+      "text": "“What’s the matter with Bill Jukes, you dog?” hissed Hook, towering over him."
+    },
+    {
+      "id": "s58",
+      "text": "“The matter wi’ him is he’s dead, stabbed,” replied Cecco in a hollow voice."
+    },
+    {
+      "id": "s59",
+      "text": "“Bill Jukes dead!” cried the startled pirates."
+    },
+    {
+      "id": "s60",
+      "text": "“The cabin’s as black as a pit,” Cecco said, almost gibbering, “but there is something terrible in there: the thing you heard crowing.”"
+    },
+    {
+      "id": "s61",
+      "text": "The exultation of the boys, the lowering looks of the pirates, both were seen by Hook."
+    },
+    {
+      "id": "s62",
+      "text": "“Cecco,” he said in his most steely voice, “go back and fetch me out that doodle-doo.”"
+    },
+    {
+      "id": "s63",
+      "text": "Cecco, bravest of the brave, cowered before his captain, crying “No, no”; but Hook was purring to his claw."
+    },
+    {
+      "id": "s64",
+      "text": "“Did you say you would go, Cecco?” he said musingly."
+    },
+    {
+      "id": "s65",
+      "text": "Cecco went, first flinging his arms despairingly."
+    },
+    {
+      "id": "s66",
+      "text": "There was no more singing, all listened now; and again came a death-screech and again a crow."
+    },
+    {
+      "id": "s67",
+      "text": "No one spoke except Slightly."
+    },
+    {
+      "id": "s68",
+      "text": "“Three,” he said."
+    },
+    {
+      "id": "s69",
+      "text": "Hook rallied his dogs with a gesture."
+    },
+    {
+      "id": "s70",
+      "text": "“’S’death and odds fish,” he thundered, “who is to bring me that doodle-doo?”"
+    },
+    {
+      "id": "s71",
+      "text": "“Wait till Cecco comes out,” growled Starkey, and the others took up the cry."
+    },
+    {
+      "id": "s72",
+      "text": "“I think I heard you volunteer, Starkey,” said Hook, purring again."
+    },
+    {
+      "id": "s73",
+      "text": "“No, by thunder!” Starkey cried."
+    },
+    {
+      "id": "s74",
+      "text": "“My hook thinks you did,” said Hook, crossing to him."
+    },
+    {
+      "id": "s75",
+      "text": "“I wonder if it would not be advisable, Starkey, to humour the hook?”"
+    },
+    {
+      "id": "s76",
+      "text": "“I’ll swing before I go in there,” replied Starkey doggedly, and again he had the support of the crew."
+    },
+    {
+      "id": "s77",
+      "text": "“Is this mutiny?” asked Hook more pleasantly than ever."
+    },
+    {
+      "id": "s78",
+      "text": "“Starkey’s ringleader!”"
+    },
+    {
+      "id": "s79",
+      "text": "“Captain, mercy!” Starkey whimpered, all of a tremble now."
+    },
+    {
+      "id": "s80",
+      "text": "“Shake hands, Starkey,” said Hook, proffering his claw."
+    },
+    {
+      "id": "s81",
+      "text": "Starkey looked round for help, but all deserted him."
+    },
+    {
+      "id": "s82",
+      "text": "As he backed up Hook advanced, and now the red spark was in his eye."
+    },
+    {
+      "id": "s83",
+      "text": "With a despairing scream the pirate leapt upon Long Tom and precipitated himself into the sea."
+    },
+    {
+      "id": "s84",
+      "text": "“Four,” said Slightly."
+    },
+    {
+      "id": "s85",
+      "text": "“And now,” Hook said courteously, “did any other gentlemen say mutiny?” Seizing a lantern and raising his claw with a menacing gesture, “I’ll bring out that doodle-doo myself,” he said, and sped into the cabin."
+    },
+    {
+      "id": "s86",
+      "text": "“Five.” How Slightly longed to say it."
+    },
+    {
+      "id": "s87",
+      "text": "He wetted his lips to be ready, but Hook came staggering out, without his lantern."
+    },
+    {
+      "id": "s88",
+      "text": "“Something blew out the light,” he said a little unsteadily."
+    },
+    {
+      "id": "s89",
+      "text": "“Something!” echoed Mullins."
+    },
+    {
+      "id": "s90",
+      "text": "“What of Cecco?” demanded Noodler."
+    },
+    {
+      "id": "s91",
+      "text": "“He’s as dead as Jukes,” said Hook shortly."
+    },
+    {
+      "id": "s92",
+      "text": "His reluctance to return to the cabin impressed them all unfavourably, and the mutinous sounds again broke forth."
+    },
+    {
+      "id": "s93",
+      "text": "All pirates are superstitious, and Cookson cried, “They do say the surest sign a ship’s accurst is when there’s one on board more than can be accounted for.”"
+    },
+    {
+      "id": "s94",
+      "text": "“I’ve heard,” muttered Mullins, “he always boards the pirate craft last."
+    },
+    {
+      "id": "s95",
+      "text": "Had he a tail, captain?”"
+    },
+    {
+      "id": "s96",
+      "text": "“They say,” said another, looking viciously at Hook, “that when he comes it’s in the likeness of the wickedest man aboard.”"
+    },
+    {
+      "id": "s97",
+      "text": "“Had he a hook, captain?” asked Cookson insolently; and one after another took up the cry, “The ship’s doomed!” At this the children could not resist raising a cheer."
+    },
+    {
+      "id": "s98",
+      "text": "Hook had well-nigh forgotten his prisoners, but as he swung round on them now his face lit up again."
+    },
+    {
+      "id": "s99",
+      "text": "“Lads,” he cried to his crew, “now here’s a notion."
+    },
+    {
+      "id": "s100",
+      "text": "Open the cabin door and drive them in."
+    },
+    {
+      "id": "s101",
+      "text": "Let them fight the doodle-doo for their lives."
+    },
+    {
+      "id": "s102",
+      "text": "If they kill him, we’re so much the better; if he kills them, we’re none the worse.”"
+    },
+    {
+      "id": "s103",
+      "text": "For the last time his dogs admired Hook, and devotedly they did his bidding."
+    },
+    {
+      "id": "s104",
+      "text": "The boys, pretending to struggle, were pushed into the cabin and the door was closed on them."
+    },
+    {
+      "id": "s105",
+      "text": "“Now, listen!” cried Hook, and all listened."
+    },
+    {
+      "id": "s106",
+      "text": "But not one dared to face the door."
+    },
+    {
+      "id": "s107",
+      "text": "Yes, one, Wendy, who all this time had been bound to the mast."
+    },
+    {
+      "id": "s108",
+      "text": "It was for neither a scream nor a crow that she was watching, it was for the reappearance of Peter."
+    },
+    {
+      "id": "s109",
+      "text": "She had not long to wait."
+    },
+    {
+      "id": "s110",
+      "text": "In the cabin he had found the thing for which he had gone in search: the key that would free the children of their manacles, and now they all stole forth, armed with such weapons as they could find."
+    },
+    {
+      "id": "s111",
+      "text": "First signing them to hide, Peter cut Wendy’s bonds, and then nothing could have been easier than for them all to fly off together; but one thing barred the way, an oath, “Hook or me this time.” So when he had freed Wendy, he whispered for her to conceal herself with the others, and himself took her place by the mast, her cloak around him so that he should pass for her."
+    },
+    {
+      "id": "s112",
+      "text": "Then he took a great breath and crowed."
+    },
+    {
+      "id": "s113",
+      "text": "To the pirates it was a voice crying that all the boys lay slain in the cabin; and they were panic-stricken."
+    },
+    {
+      "id": "s114",
+      "text": "Hook tried to hearten them; but like the dogs he had made them they showed him their fangs, and he knew that if he took his eyes off them now they would leap at him."
+    },
+    {
+      "id": "s115",
+      "text": "“Lads,” he said, ready to cajole or strike as need be, but never quailing for an instant, “I’ve thought it out."
+    },
+    {
+      "id": "s116",
+      "text": "There’s a Jonah aboard.”"
+    },
+    {
+      "id": "s117",
+      "text": "“Ay,” they snarled, “a man wi’ a hook.”"
+    },
+    {
+      "id": "s118",
+      "text": "“No, lads, no, it’s the girl."
+    },
+    {
+      "id": "s119",
+      "text": "Never was luck on a pirate ship wi’ a woman on board."
+    },
+    {
+      "id": "s120",
+      "text": "We’ll right the ship when she’s gone.”"
+    },
+    {
+      "id": "s121",
+      "text": "Some of them remembered that this had been a saying of Flint’s."
+    },
+    {
+      "id": "s122",
+      "text": "“It’s worth trying,” they said doubtfully."
+    },
+    {
+      "id": "s123",
+      "text": "“Fling the girl overboard,” cried Hook; and they made a rush at the figure in the cloak."
+    },
+    {
+      "id": "s124",
+      "text": "“There’s none can save you now, missy,” Mullins hissed jeeringly."
+    },
+    {
+      "id": "s125",
+      "text": "“There’s one,” replied the figure."
+    },
+    {
+      "id": "s126",
+      "text": "“Who’s that?”"
+    },
+    {
+      "id": "s127",
+      "text": "“Peter Pan the avenger!” came the terrible answer; and as he spoke Peter flung off his cloak."
+    },
+    {
+      "id": "s128",
+      "text": "Then they all knew who ’twas that had been undoing them in the cabin, and twice Hook essayed to speak and twice he failed."
+    },
+    {
+      "id": "s129",
+      "text": "In that frightful moment I think his fierce heart broke."
+    },
+    {
+      "id": "s130",
+      "text": "At last he cried, “Cleave him to the brisket!” but without conviction."
+    },
+    {
+      "id": "s131",
+      "text": "“Down, boys, and at them!” Peter’s voice rang out; and in another moment the clash of arms was resounding through the ship."
+    },
+    {
+      "id": "s132",
+      "text": "Had the pirates kept together it is certain that they would have won; but the onset came when they were still unstrung, and they ran hither and thither, striking wildly, each thinking himself the last survivor of the crew."
+    },
+    {
+      "id": "s133",
+      "text": "Man to man they were the stronger; but they fought on the defensive only, which enabled the boys to hunt in pairs and choose their quarry."
+    },
+    {
+      "id": "s134",
+      "text": "Some of the miscreants leapt into the sea; others hid in dark recesses, where they were found by Slightly, who did not fight, but ran about with a lantern which he flashed in their faces, so that they were half blinded and fell as an easy prey to the reeking swords of the other boys."
+    },
+    {
+      "id": "s135",
+      "text": "There was little sound to be heard but the clang of weapons, an occasional screech or splash, and Slightly monotonously counting—five—six—seven—eight—nine—ten—eleven."
+    },
+    {
+      "id": "s136",
+      "text": "I think all were gone when a group of savage boys surrounded Hook, who seemed to have a charmed life, as he kept them at bay in that circle of fire."
+    },
+    {
+      "id": "s137",
+      "text": "They had done for his dogs, but this man alone seemed to be a match for them all."
+    },
+    {
+      "id": "s138",
+      "text": "Again and again they closed upon him, and again and again he hewed a clear space."
+    },
+    {
+      "id": "s139",
+      "text": "He had lifted up one boy with his hook, and was using him as a buckler, when another, who had just passed his sword through Mullins, sprang into the fray."
+    },
+    {
+      "id": "s140",
+      "text": "“Put up your swords, boys,” cried the newcomer, “this man is mine.”"
+    },
+    {
+      "id": "s141",
+      "text": "Thus suddenly Hook found himself face to face with Peter."
+    },
+    {
+      "id": "s142",
+      "text": "The others drew back and formed a ring around them."
+    },
+    {
+      "id": "s143",
+      "text": "For long the two enemies looked at one another, Hook shuddering slightly, and Peter with the strange smile upon his face."
+    },
+    {
+      "id": "s144",
+      "text": "“So, Pan,” said Hook at last, “this is all your doing.”"
+    },
+    {
+      "id": "s145",
+      "text": "“Ay, James Hook,” came the stern answer, “it is all my doing.”"
+    },
+    {
+      "id": "s146",
+      "text": "“Proud and insolent youth,” said Hook, “prepare to meet thy doom.”"
+    },
+    {
+      "id": "s147",
+      "text": "“Dark and sinister man,” Peter answered, “have at thee.”"
+    },
+    {
+      "id": "s148",
+      "text": "Without more words they fell to, and for a space there was no advantage to either blade."
+    },
+    {
+      "id": "s149",
+      "text": "Peter was a superb swordsman, and parried with dazzling rapidity; ever and anon he followed up a feint with a lunge that got past his foe’s defence, but his shorter reach stood him in ill stead, and he could not drive the steel home."
+    },
+    {
+      "id": "s150",
+      "text": "Hook, scarcely his inferior in brilliancy, but not quite so nimble in wrist play, forced him back by the weight of his onset, hoping suddenly to end all with a favourite thrust, taught him long ago by Barbecue at Rio; but to his astonishment he found this thrust turned aside again and again."
+    },
+    {
+      "id": "s151",
+      "text": "Then he sought to close and give the quietus with his iron hook, which all this time had been pawing the air; but Peter doubled under it and, lunging fiercely, pierced him in the ribs."
+    },
+    {
+      "id": "s152",
+      "text": "At the sight of his own blood, whose peculiar colour, you remember, was offensive to him, the sword fell from Hook’s hand, and he was at Peter’s mercy."
+    },
+    {
+      "id": "s153",
+      "text": "“Now!” cried all the boys, but with a magnificent gesture Peter invited his opponent to pick up his sword."
+    },
+    {
+      "id": "s154",
+      "text": "Hook did so instantly, but with a tragic feeling that Peter was showing good form."
+    },
+    {
+      "id": "s155",
+      "text": "Hitherto he had thought it was some fiend fighting him, but darker suspicions assailed him now."
+    },
+    {
+      "id": "s156",
+      "text": "“Pan, who and what art thou?” he cried huskily."
+    },
+    {
+      "id": "s157",
+      "text": "“I’m youth, I’m joy,” Peter answered at a venture, “I’m a little bird that has broken out of the egg.”"
+    },
+    {
+      "id": "s158",
+      "text": "This, of course, was nonsense; but it was proof to the unhappy Hook that Peter did not know in the least who or what he was, which is the very pinnacle of good form."
+    },
+    {
+      "id": "s159",
+      "text": "“To’t again,” he cried despairingly."
+    },
+    {
+      "id": "s160",
+      "text": "He fought now like a human flail, and every sweep of that terrible sword would have severed in twain any man or boy who obstructed it; but Peter fluttered round him as if the very wind it made blew him out of the danger zone."
+    },
+    {
+      "id": "s161",
+      "text": "And again and again he darted in and pricked."
+    },
+    {
+      "id": "s162",
+      "text": "Hook was fighting now without hope."
+    },
+    {
+      "id": "s163",
+      "text": "That passionate breast no longer asked for life; but for one boon it craved: to see Peter show bad form before it was cold forever."
+    },
+    {
+      "id": "s164",
+      "text": "Abandoning the fight he rushed into the powder magazine and fired it."
+    },
+    {
+      "id": "s165",
+      "text": "“In two minutes,” he cried, “the ship will be blown to pieces.”"
+    },
+    {
+      "id": "s166",
+      "text": "Now, now, he thought, true form will show."
+    },
+    {
+      "id": "s167",
+      "text": "But Peter issued from the powder magazine with the shell in his hands, and calmly flung it overboard."
+    },
+    {
+      "id": "s168",
+      "text": "What sort of form was Hook himself showing?"
+    },
+    {
+      "id": "s169",
+      "text": "Misguided man though he was, we may be glad, without sympathising with him, that in the end he was true to the traditions of his race."
+    },
+    {
+      "id": "s170",
+      "text": "The other boys were flying around him now, flouting, scornful; and he staggered about the deck striking up at them impotently, his mind was no longer with them; it was slouching in the playing fields of long ago, or being sent up for good, or watching the wall-game from a famous wall."
+    },
+    {
+      "id": "s171",
+      "text": "And his shoes were right, and his waistcoat was right, and his tie was right, and his socks were right."
+    },
+    {
+      "id": "s172",
+      "text": "James Hook, thou not wholly unheroic figure, farewell."
+    },
+    {
+      "id": "s173",
+      "text": "For we have come to his last moment."
+    },
+    {
+      "id": "s174",
+      "text": "Seeing Peter slowly advancing upon him through the air with dagger poised, he sprang upon the bulwarks to cast himself into the sea."
+    },
+    {
+      "id": "s175",
+      "text": "He did not know that the crocodile was waiting for him; for we purposely stopped the clock that this knowledge might be spared him: a little mark of respect from us at the end."
+    },
+    {
+      "id": "s176",
+      "text": "He had one last triumph, which I think we need not grudge him."
+    },
+    {
+      "id": "s177",
+      "text": "As he stood on the bulwark looking over his shoulder at Peter gliding through the air, he invited him with a gesture to use his foot."
+    },
+    {
+      "id": "s178",
+      "text": "It made Peter kick instead of stab."
+    },
+    {
+      "id": "s179",
+      "text": "At last Hook had got the boon for which he craved."
+    },
+    {
+      "id": "s180",
+      "text": "“Bad form,” he cried jeeringly, and went content to the crocodile."
+    },
+    {
+      "id": "s181",
+      "text": "Thus perished James Hook."
+    },
+    {
+      "id": "s182",
+      "text": "“Seventeen,” Slightly sang out; but he was not quite correct in his figures."
+    },
+    {
+      "id": "s183",
+      "text": "Fifteen paid the penalty for their crimes that night; but two reached the shore: Starkey to be captured by the redskins, who made him nurse for all their papooses, a melancholy come-down for a pirate; and Smee, who henceforth wandered about the world in his spectacles, making a precarious living by saying he was the only man that Jas."
+    },
+    {
+      "id": "s184",
+      "text": "Hook had feared."
+    },
+    {
+      "id": "s185",
+      "text": "Wendy, of course, had stood by taking no part in the fight, though watching Peter with glistening eyes; but now that all was over she became prominent again."
+    },
+    {
+      "id": "s186",
+      "text": "She praised them equally, and shuddered delightfully when Michael showed her the place where he had killed one; and then she took them into Hook’s cabin and pointed to his watch which was hanging on a nail."
+    },
+    {
+      "id": "s187",
+      "text": "It said “half-past one!”"
+    },
+    {
+      "id": "s188",
+      "text": "The lateness of the hour was almost the biggest thing of all."
+    },
+    {
+      "id": "s189",
+      "text": "She got them to bed in the pirates’ bunks pretty quickly, you may be sure; all but Peter, who strutted up and down on the deck, until at last he fell asleep by the side of Long Tom."
+    },
+    {
+      "id": "s190",
+      "text": "He had one of his dreams that night, and cried in his sleep for a long time, and Wendy held him tightly."
+    }
+  ]
+}

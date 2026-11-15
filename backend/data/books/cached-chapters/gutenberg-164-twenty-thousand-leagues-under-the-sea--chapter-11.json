@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-11",
+  "chapterTitle": "CHAPTER XI",
+  "contentHash": "sha256:4bff8a01e147cb3afe7b725903515bfaecb99a43011ccc31456ab6ddb57e0035",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, CHAPTER XI. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "ALL BY ELECTRICITY"
+    },
+    {
+      "id": "s2",
+      "text": "“Sir,” said Captain Nemo, showing me the instruments hanging on the walls of his room, “here are the contrivances required for the navigation of the _Nautilus_."
+    },
+    {
+      "id": "s3",
+      "text": "Here, as in the drawing-room, I have them always under my eyes, and they indicate my position and exact direction in the middle of the ocean."
+    },
+    {
+      "id": "s4",
+      "text": "Some are known to you, such as the thermometer, which gives the internal temperature of the _Nautilus;_ the barometer, which indicates the weight of the air and foretells the changes of the weather; the hygrometer, which marks the dryness of the atmosphere; the storm-glass, the contents of which, by decomposing, announce the approach of tempests; the compass, which guides my course; the sextant, which shows the latitude by the altitude of the sun; chronometers, by which I calculate the longitude; and glasses for day and night, which I use to examine the points of the horizon, when the _Nautilus_ rises to the surface of the waves.”"
+    },
+    {
+      "id": "s5",
+      "text": "“These are the usual nautical instruments,” I replied, “and I know the use of them."
+    },
+    {
+      "id": "s6",
+      "text": "But these others, no doubt, answer to the particular requirements of the _Nautilus_."
+    },
+    {
+      "id": "s7",
+      "text": "This dial with the movable needle is a manometer, is it not?”"
+    },
+    {
+      "id": "s8",
+      "text": "“It is actually a manometer."
+    },
+    {
+      "id": "s9",
+      "text": "But by communication with the water, whose external pressure it indicates, it gives our depth at the same time.”"
+    },
+    {
+      "id": "s10",
+      "text": "“And these other instruments, the use of which I cannot guess?”"
+    },
+    {
+      "id": "s11",
+      "text": "“Here, Professor, I ought to give you some explanations."
+    },
+    {
+      "id": "s12",
+      "text": "Will you be kind enough to listen to me?”"
+    },
+    {
+      "id": "s13",
+      "text": "He was silent for a few moments, then he said—"
+    },
+    {
+      "id": "s14",
+      "text": "“There is a powerful agent, obedient, rapid, easy, which conforms to every use, and reigns supreme on board my vessel."
+    },
+    {
+      "id": "s15",
+      "text": "Everything is done by means of it."
+    },
+    {
+      "id": "s16",
+      "text": "It lights it, warms it, and is the soul of my mechanical apparatus."
+    },
+    {
+      "id": "s17",
+      "text": "This agent is electricity.”"
+    },
+    {
+      "id": "s18",
+      "text": "“Electricity?” I cried in surprise."
+    },
+    {
+      "id": "s19",
+      "text": "“Yes, sir.”"
+    },
+    {
+      "id": "s20",
+      "text": "“Nevertheless, Captain, you possess an extreme rapidity of movement, which does not agree with the power of electricity."
+    },
+    {
+      "id": "s21",
+      "text": "Until now, its dynamic force has remained under restraint, and has only been able to produce a small amount of power.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Professor,” said Captain Nemo, “my electricity is not everybody’s."
+    },
+    {
+      "id": "s23",
+      "text": "You know what sea-water is composed of."
+    },
+    {
+      "id": "s24",
+      "text": "In a thousand grammes are found 96½ per cent. of water, and about 2-2/3 per cent. of chloride of sodium; then, in a smaller quantity, chlorides of magnesium and of potassium, bromide of magnesium, sulphate of magnesia, sulphate and carbonate of lime."
+    },
+    {
+      "id": "s25",
+      "text": "You see, then, that chloride of sodium forms a large part of it."
+    },
+    {
+      "id": "s26",
+      "text": "So it is this sodium that I extract from sea-water, and of which I compose my ingredients."
+    },
+    {
+      "id": "s27",
+      "text": "I owe all to the ocean; it produces electricity, and electricity gives heat, light, motion, and, in a word, life to the _Nautilus_.”"
+    },
+    {
+      "id": "s28",
+      "text": "“But not the air you breathe?”"
+    },
+    {
+      "id": "s29",
+      "text": "“Oh!"
+    },
+    {
+      "id": "s30",
+      "text": "I could manufacture the air necessary for my consumption, but it is useless, because I go up to the surface of the water when I please."
+    },
+    {
+      "id": "s31",
+      "text": "However, if electricity does not furnish me with air to breathe, it works at least the powerful pumps that are stored in spacious reservoirs, and which enable me to prolong at need, and as long as I will, my stay in the depths of the sea."
+    },
+    {
+      "id": "s32",
+      "text": "It gives a uniform and unintermittent light, which the sun does not."
+    },
+    {
+      "id": "s33",
+      "text": "Now look at this clock; it is electrical, and goes with a regularity that defies the best chronometers."
+    },
+    {
+      "id": "s34",
+      "text": "I have divided it into twenty-four hours, like the Italian clocks, because for me there is neither night nor day, sun nor moon, but only that factitious light that I take with me to the bottom of the sea."
+    },
+    {
+      "id": "s35",
+      "text": "Look! just now, it is ten o’clock in the morning.”"
+    },
+    {
+      "id": "s36",
+      "text": "“Exactly.”"
+    },
+    {
+      "id": "s37",
+      "text": "“Another application of electricity."
+    },
+    {
+      "id": "s38",
+      "text": "This dial hanging in front of us indicates the speed of the _Nautilus_."
+    },
+    {
+      "id": "s39",
+      "text": "An electric thread puts it in communication with the screw, and the needle indicates the real speed."
+    },
+    {
+      "id": "s40",
+      "text": "Look! now we are spinning along with a uniform speed of fifteen miles an hour.”"
+    },
+    {
+      "id": "s41",
+      "text": "“It is marvelous!"
+    },
+    {
+      "id": "s42",
+      "text": "And I see, Captain, you were right to make use of this agent that takes the place of wind, water, and steam.”"
+    },
+    {
+      "id": "s43",
+      "text": "“We have not finished, M."
+    },
+    {
+      "id": "s44",
+      "text": "Aronnax,” said Captain Nemo, rising."
+    },
+    {
+      "id": "s45",
+      "text": "“If you will follow me, we will examine the stern of the _Nautilus_.”"
+    },
+    {
+      "id": "s46",
+      "text": "Really, I knew already the anterior part of this submarine boat, of which this is the exact division, starting from the ship’s head:—the dining-room, five yards long, separated from the library by a water-tight partition; the library, five yards long; the large drawing-room, ten yards long, separated from the Captain’s room by a second water-tight partition; the said room, five yards in length; mine, two and a half yards; and, lastly a reservoir of air, seven and a half yards, that extended to the bows."
+    },
+    {
+      "id": "s47",
+      "text": "Total length thirty-five yards, or one hundred and five feet."
+    },
+    {
+      "id": "s48",
+      "text": "The partitions had doors that were shut hermetically by means of india-rubber instruments, and they ensured the safety of the _Nautilus_ in case of a leak."
+    },
+    {
+      "id": "s49",
+      "text": "I followed Captain Nemo through the waist, and arrived at the centre of the boat."
+    },
+    {
+      "id": "s50",
+      "text": "There was a sort of well that opened between two partitions."
+    },
+    {
+      "id": "s51",
+      "text": "An iron ladder, fastened with an iron hook to the partition, led to the upper end."
+    },
+    {
+      "id": "s52",
+      "text": "I asked the Captain what the ladder was used for."
+    },
+    {
+      "id": "s53",
+      "text": "“It leads to the small boat,” he said."
+    },
+    {
+      "id": "s54",
+      "text": "“What! have you a boat?” I exclaimed, in surprise."
+    },
+    {
+      "id": "s55",
+      "text": "“Of course; an excellent vessel, light and insubmersible, that serves either as a fishing or as a pleasure boat.”"
+    },
+    {
+      "id": "s56",
+      "text": "“But then, when you wish to embark, you are obliged to come to the surface of the water?”"
+    },
+    {
+      "id": "s57",
+      "text": "“Not at all."
+    },
+    {
+      "id": "s58",
+      "text": "This boat is attached to the upper part of the hull of the _Nautilus_, and occupies a cavity made for it."
+    },
+    {
+      "id": "s59",
+      "text": "It is decked, quite water-tight, and held together by solid bolts."
+    },
+    {
+      "id": "s60",
+      "text": "This ladder leads to a man-hole made in the hull of the _Nautilus_, that corresponds with a similar hole made in the side of the boat."
+    },
+    {
+      "id": "s61",
+      "text": "By this double opening I get into the small vessel."
+    },
+    {
+      "id": "s62",
+      "text": "They shut the one belonging to the _Nautilus;_ I shut the other by means of screw pressure."
+    },
+    {
+      "id": "s63",
+      "text": "I undo the bolts, and the little boat goes up to the surface of the sea with prodigious rapidity."
+    },
+    {
+      "id": "s64",
+      "text": "I then open the panel of the bridge, carefully shut till then; I mast it, hoist my sail, take my oars, and I’m off.”"
+    },
+    {
+      "id": "s65",
+      "text": "“But how do you get back on board?”"
+    },
+    {
+      "id": "s66",
+      "text": "“I do not come back, M."
+    },
+    {
+      "id": "s67",
+      "text": "Aronnax; the _Nautilus_ comes to me.”"
+    },
+    {
+      "id": "s68",
+      "text": "“By your orders?”"
+    },
+    {
+      "id": "s69",
+      "text": "“By my orders."
+    },
+    {
+      "id": "s70",
+      "text": "An electric thread connects us."
+    },
+    {
+      "id": "s71",
+      "text": "I telegraph to it, and that is enough.”"
+    },
+    {
+      "id": "s72",
+      "text": "“Really,” I said, astonished at these marvels, “nothing can be more simple.”"
+    },
+    {
+      "id": "s73",
+      "text": "After having passed by the cage of the staircase that led to the platform, I saw a cabin six feet long, in which Conseil and Ned Land, enchanted with their repast, were devouring it with avidity."
+    },
+    {
+      "id": "s74",
+      "text": "Then a door opened into a kitchen nine feet long, situated between the large storerooms."
+    },
+    {
+      "id": "s75",
+      "text": "There electricity, better than gas itself, did all the cooking."
+    },
+    {
+      "id": "s76",
+      "text": "The streams under the furnaces gave out to the sponges of platina a heat which was regularly kept up and distributed."
+    },
+    {
+      "id": "s77",
+      "text": "They also heated a distilling apparatus, which, by evaporation, furnished excellent drinkable water."
+    },
+    {
+      "id": "s78",
+      "text": "Near this kitchen was a bathroom comfortably furnished, with hot and cold water taps."
+    },
+    {
+      "id": "s79",
+      "text": "Next to the kitchen was the berthroom of the vessel, sixteen feet long."
+    },
+    {
+      "id": "s80",
+      "text": "But the door was shut, and I could not see the management of it, which might have given me an idea of the number of men employed on board the _Nautilus_."
+    },
+    {
+      "id": "s81",
+      "text": "At the bottom was a fourth partition that separated this office from the engine-room."
+    },
+    {
+      "id": "s82",
+      "text": "A door opened, and I found myself in the compartment where Captain Nemo—certainly an engineer of a very high order—had arranged his locomotive machinery."
+    },
+    {
+      "id": "s83",
+      "text": "This engine-room, clearly lighted, did not measure less than sixty-five feet in length."
+    },
+    {
+      "id": "s84",
+      "text": "It was divided into two parts; the first contained the materials for producing electricity, and the second the machinery that connected it with the screw."
+    },
+    {
+      "id": "s85",
+      "text": "I examined it with great interest, in order to understand the machinery of the _Nautilus_."
+    },
+    {
+      "id": "s86",
+      "text": "“You see,” said the Captain, “I use Bunsen’s contrivances, not Ruhmkorff’s."
+    },
+    {
+      "id": "s87",
+      "text": "Those would not have been powerful enough."
+    },
+    {
+      "id": "s88",
+      "text": "Bunsen’s are fewer in number, but strong and large, which experience proves to be the best."
+    },
+    {
+      "id": "s89",
+      "text": "The electricity produced passes forward, where it works, by electro-magnets of great size, on a system of levers and cog-wheels that transmit the movement to the axle of the screw."
+    },
+    {
+      "id": "s90",
+      "text": "This one, the diameter of which is nineteen feet, and the thread twenty-three feet, performs about a hundred and twenty revolutions in a second.”"
+    },
+    {
+      "id": "s91",
+      "text": "“And you get then?”"
+    },
+    {
+      "id": "s92",
+      "text": "“A speed of fifty miles an hour.”"
+    },
+    {
+      "id": "s93",
+      "text": "“I have seen the _Nautilus_ manœuvre before the _Abraham Lincoln_, and I have my own ideas as to its speed."
+    },
+    {
+      "id": "s94",
+      "text": "But this is not enough."
+    },
+    {
+      "id": "s95",
+      "text": "We must see where we go."
+    },
+    {
+      "id": "s96",
+      "text": "We must be able to direct it to the right, to the left, above, below."
+    },
+    {
+      "id": "s97",
+      "text": "How do you get to the great depths, where you find an increasing resistance, which is rated by hundreds of atmospheres?"
+    },
+    {
+      "id": "s98",
+      "text": "How do you return to the surface of the ocean?"
+    },
+    {
+      "id": "s99",
+      "text": "And how do you maintain yourselves in the requisite medium?"
+    },
+    {
+      "id": "s100",
+      "text": "Am I asking too much?”"
+    },
+    {
+      "id": "s101",
+      "text": "“Not at all, Professor,” replied the Captain, with some hesitation; “since you may never leave this submarine boat."
+    },
+    {
+      "id": "s102",
+      "text": "Come into the saloon, it is our usual study, and there you will learn all you want to know about the _Nautilus_.”"
+    }
+  ]
+}

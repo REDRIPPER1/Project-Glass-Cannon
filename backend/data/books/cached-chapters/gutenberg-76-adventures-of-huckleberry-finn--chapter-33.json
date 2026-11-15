@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-33",
+  "chapterTitle": "CHAPTER XXXIII.",
+  "contentHash": "sha256:a98ce9f06c62427a000cdfc99c0bfec66e20b8d4a16363c1ea27e20db22bec3c",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER XXXIII.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "So I started for town in the wagon, and when I was half-way I see a wagon coming, and sure enough it was Tom Sawyer, and I stopped and waited till he come along."
+    },
+    {
+      "id": "s2",
+      "text": "I says “Hold on!” and it stopped alongside, and his mouth opened up like a trunk, and stayed so; and he swallowed two or three times like a person that’s got a dry throat, and then says:"
+    },
+    {
+      "id": "s3",
+      "text": "“I hain’t ever done you no harm."
+    },
+    {
+      "id": "s4",
+      "text": "You know that."
+    },
+    {
+      "id": "s5",
+      "text": "So, then, what you want to come back and ha’nt _me_ for?”"
+    },
+    {
+      "id": "s6",
+      "text": "I says:"
+    },
+    {
+      "id": "s7",
+      "text": "“I hain’t come back—I hain’t been _gone_.”"
+    },
+    {
+      "id": "s8",
+      "text": "When he heard my voice it righted him up some, but he warn’t quite satisfied yet."
+    },
+    {
+      "id": "s9",
+      "text": "He says:"
+    },
+    {
+      "id": "s10",
+      "text": "“Don’t you play nothing on me, because I wouldn’t on you."
+    },
+    {
+      "id": "s11",
+      "text": "Honest injun, now, you ain’t a ghost?”"
+    },
+    {
+      "id": "s12",
+      "text": "“Honest injun, I ain’t,” I says."
+    },
+    {
+      "id": "s13",
+      "text": "“Well—I—I—well, that ought to settle it, of course; but I can’t somehow seem to understand it no way."
+    },
+    {
+      "id": "s14",
+      "text": "Looky here, warn’t you ever murdered _at all?_”"
+    },
+    {
+      "id": "s15",
+      "text": "“No."
+    },
+    {
+      "id": "s16",
+      "text": "I warn’t ever murdered at all—I played it on them."
+    },
+    {
+      "id": "s17",
+      "text": "You come in here and feel of me if you don’t believe me.”"
+    },
+    {
+      "id": "s18",
+      "text": "So he done it; and it satisfied him; and he was that glad to see me again he didn’t know what to do."
+    },
+    {
+      "id": "s19",
+      "text": "And he wanted to know all about it right off, because it was a grand adventure, and mysterious, and so it hit him where he lived."
+    },
+    {
+      "id": "s20",
+      "text": "But I said, leave it alone till by-and-by; and told his driver to wait, and we drove off a little piece, and I told him the kind of a fix I was in, and what did he reckon we better do?"
+    },
+    {
+      "id": "s21",
+      "text": "He said, let him alone a minute, and don’t disturb him."
+    },
+    {
+      "id": "s22",
+      "text": "So he thought and thought, and pretty soon he says:"
+    },
+    {
+      "id": "s23",
+      "text": "“It’s all right; I’ve got it."
+    },
+    {
+      "id": "s24",
+      "text": "Take my trunk in your wagon, and let on it’s your’n; and you turn back and fool along slow, so as to get to the house about the time you ought to; and I’ll go towards town a piece, and take a fresh start, and get there a quarter or a half an hour after you; and you needn’t let on to know me at first.”"
+    },
+    {
+      "id": "s25",
+      "text": "I says:"
+    },
+    {
+      "id": "s26",
+      "text": "“All right; but wait a minute."
+    },
+    {
+      "id": "s27",
+      "text": "There’s one more thing—a thing that _nobody_ don’t know but me."
+    },
+    {
+      "id": "s28",
+      "text": "And that is, there’s a nigger here that I’m a-trying to steal out of slavery, and his name is _Jim_—old Miss Watson’s Jim.”"
+    },
+    {
+      "id": "s29",
+      "text": "He says:"
+    },
+    {
+      "id": "s30",
+      "text": "“What!"
+    },
+    {
+      "id": "s31",
+      "text": "Why, Jim is—”"
+    },
+    {
+      "id": "s32",
+      "text": "He stopped and went to studying."
+    },
+    {
+      "id": "s33",
+      "text": "I says:"
+    },
+    {
+      "id": "s34",
+      "text": "“_I_ know what you’ll say."
+    },
+    {
+      "id": "s35",
+      "text": "You’ll say it’s dirty, low-down business; but what if it is? _I_’m low down; and I’m a-going to steal him, and I want you keep mum and not let on."
+    },
+    {
+      "id": "s36",
+      "text": "Will you?”"
+    },
+    {
+      "id": "s37",
+      "text": "His eye lit up, and he says:"
+    },
+    {
+      "id": "s38",
+      "text": "“I’ll _help_ you steal him!”"
+    },
+    {
+      "id": "s39",
+      "text": "Well, I let go all holts then, like I was shot."
+    },
+    {
+      "id": "s40",
+      "text": "It was the most astonishing speech I ever heard—and I’m bound to say Tom Sawyer fell considerable in my estimation."
+    },
+    {
+      "id": "s41",
+      "text": "Only I couldn’t believe it."
+    },
+    {
+      "id": "s42",
+      "text": "Tom Sawyer a _nigger stealer!_"
+    },
+    {
+      "id": "s43",
+      "text": "“Oh, shucks!” I says; “you’re joking.”"
+    },
+    {
+      "id": "s44",
+      "text": "“I ain’t joking, either.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Well, then,” I says, “joking or no joking, if you hear anything said about a runaway nigger, don’t forget to remember that _you_ don’t know nothing about him, and _I_ don’t know nothing about him.”"
+    },
+    {
+      "id": "s46",
+      "text": "Then we took the trunk and put it in my wagon, and he drove off his way and I drove mine."
+    },
+    {
+      "id": "s47",
+      "text": "But of course I forgot all about driving slow on accounts of being glad and full of thinking; so I got home a heap too quick for that length of a trip."
+    },
+    {
+      "id": "s48",
+      "text": "The old gentleman was at the door, and he says:"
+    },
+    {
+      "id": "s49",
+      "text": "“Why, this is wonderful!"
+    },
+    {
+      "id": "s50",
+      "text": "Whoever would a thought it was in that mare to do it?"
+    },
+    {
+      "id": "s51",
+      "text": "I wish we’d a timed her."
+    },
+    {
+      "id": "s52",
+      "text": "And she hain’t sweated a hair—not a hair."
+    },
+    {
+      "id": "s53",
+      "text": "It’s wonderful."
+    },
+    {
+      "id": "s54",
+      "text": "Why, I wouldn’t take a hundred dollars for that horse now—I wouldn’t, honest; and yet I’d a sold her for fifteen before, and thought ’twas all she was worth.”"
+    },
+    {
+      "id": "s55",
+      "text": "That’s all he said."
+    },
+    {
+      "id": "s56",
+      "text": "He was the innocentest, best old soul I ever see."
+    },
+    {
+      "id": "s57",
+      "text": "But it warn’t surprising; because he warn’t only just a farmer, he was a preacher, too, and had a little one-horse log church down back of the plantation, which he built it himself at his own expense, for a church and schoolhouse, and never charged nothing for his preaching, and it was worth it, too."
+    },
+    {
+      "id": "s58",
+      "text": "There was plenty other farmer-preachers like that, and done the same way, down South."
+    },
+    {
+      "id": "s59",
+      "text": "In about half an hour Tom’s wagon drove up to the front stile, and Aunt Sally she see it through the window, because it was only about fifty yards, and says:"
+    },
+    {
+      "id": "s60",
+      "text": "“Why, there’s somebody come!"
+    },
+    {
+      "id": "s61",
+      "text": "I wonder who ’tis?"
+    },
+    {
+      "id": "s62",
+      "text": "Why, I do believe it’s a stranger."
+    },
+    {
+      "id": "s63",
+      "text": "Jimmy” (that’s one of the children) “run and tell Lize to put on another plate for dinner.”"
+    },
+    {
+      "id": "s64",
+      "text": "Everybody made a rush for the front door, because, of course, a stranger don’t come _every_ year, and so he lays over the yaller-fever, for interest, when he does come."
+    },
+    {
+      "id": "s65",
+      "text": "Tom was over the stile and starting for the house; the wagon was spinning up the road for the village, and we was all bunched in the front door."
+    },
+    {
+      "id": "s66",
+      "text": "Tom had his store clothes on, and an audience—and that was always nuts for Tom Sawyer."
+    },
+    {
+      "id": "s67",
+      "text": "In them circumstances it warn’t no trouble to him to throw in an amount of style that was suitable."
+    },
+    {
+      "id": "s68",
+      "text": "He warn’t a boy to meeky along up that yard like a sheep; no, he come ca’m and important, like the ram."
+    },
+    {
+      "id": "s69",
+      "text": "When he got a-front of us he lifts his hat ever so gracious and dainty, like it was the lid of a box that had butterflies asleep in it and he didn’t want to disturb them, and says:"
+    },
+    {
+      "id": "s70",
+      "text": "“Mr."
+    },
+    {
+      "id": "s71",
+      "text": "Archibald Nichols, I presume?”"
+    },
+    {
+      "id": "s72",
+      "text": "“No, my boy,” says the old gentleman, “I’m sorry to say ’t your driver has deceived you; Nichols’s place is down a matter of three mile more."
+    },
+    {
+      "id": "s73",
+      "text": "Come in, come in.”"
+    },
+    {
+      "id": "s74",
+      "text": "Tom he took a look back over his shoulder, and says, “Too late—he’s out of sight.”"
+    },
+    {
+      "id": "s75",
+      "text": "“Yes, he’s gone, my son, and you must come in and eat your dinner with us; and then we’ll hitch up and take you down to Nichols’s.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Oh, I _can’t_ make you so much trouble; I couldn’t think of it."
+    },
+    {
+      "id": "s77",
+      "text": "I’ll walk—I don’t mind the distance.”"
+    },
+    {
+      "id": "s78",
+      "text": "“But we won’t _let_ you walk—it wouldn’t be Southern hospitality to do it."
+    },
+    {
+      "id": "s79",
+      "text": "Come right in.”"
+    },
+    {
+      "id": "s80",
+      "text": "“Oh, _do_,” says Aunt Sally; “it ain’t a bit of trouble to us, not a bit in the world."
+    },
+    {
+      "id": "s81",
+      "text": "You _must_ stay."
+    },
+    {
+      "id": "s82",
+      "text": "It’s a long, dusty three mile, and we _can’t_ let you walk."
+    },
+    {
+      "id": "s83",
+      "text": "And, besides, I’ve already told ’em to put on another plate when I see you coming; so you mustn’t disappoint us."
+    },
+    {
+      "id": "s84",
+      "text": "Come right in and make yourself at home.”"
+    },
+    {
+      "id": "s85",
+      "text": "So Tom he thanked them very hearty and handsome, and let himself be persuaded, and come in; and when he was in he said he was a stranger from Hicksville, Ohio, and his name was William Thompson—and he made another bow."
+    },
+    {
+      "id": "s86",
+      "text": "Well, he run on, and on, and on, making up stuff about Hicksville and everybody in it he could invent, and I getting a little nervious, and wondering how this was going to help me out of my scrape; and at last, still talking along, he reached over and kissed Aunt Sally right on the mouth, and then settled back again in his chair comfortable, and was going on talking; but she jumped up and wiped it off with the back of her hand, and says:"
+    },
+    {
+      "id": "s87",
+      "text": "“You owdacious puppy!”"
+    },
+    {
+      "id": "s88",
+      "text": "He looked kind of hurt, and says:"
+    },
+    {
+      "id": "s89",
+      "text": "“I’m surprised at you, m’am.”"
+    },
+    {
+      "id": "s90",
+      "text": "“You’re s’rp—Why, what do you reckon I am?"
+    },
+    {
+      "id": "s91",
+      "text": "I’ve a good notion to take and—Say, what do you mean by kissing me?”"
+    },
+    {
+      "id": "s92",
+      "text": "He looked kind of humble, and says:"
+    },
+    {
+      "id": "s93",
+      "text": "“I didn’t mean nothing, m’am."
+    },
+    {
+      "id": "s94",
+      "text": "I didn’t mean no harm."
+    },
+    {
+      "id": "s95",
+      "text": "I—I—thought you’d like it.”"
+    },
+    {
+      "id": "s96",
+      "text": "“Why, you born fool!” She took up the spinning stick, and it looked like it was all she could do to keep from giving him a crack with it."
+    },
+    {
+      "id": "s97",
+      "text": "“What made you think I’d like it?”"
+    },
+    {
+      "id": "s98",
+      "text": "“Well, I don’t know."
+    },
+    {
+      "id": "s99",
+      "text": "Only, they—they—told me you would.”"
+    },
+    {
+      "id": "s100",
+      "text": "“_They_ told you I would."
+    },
+    {
+      "id": "s101",
+      "text": "Whoever told you’s _another_ lunatic."
+    },
+    {
+      "id": "s102",
+      "text": "I never heard the beat of it."
+    },
+    {
+      "id": "s103",
+      "text": "Who’s _they?_”"
+    },
+    {
+      "id": "s104",
+      "text": "“Why, everybody."
+    },
+    {
+      "id": "s105",
+      "text": "They all said so, m’am.”"
+    },
+    {
+      "id": "s106",
+      "text": "It was all she could do to hold in; and her eyes snapped, and her fingers worked like she wanted to scratch him; and she says:"
+    },
+    {
+      "id": "s107",
+      "text": "“Who’s ‘everybody’?"
+    },
+    {
+      "id": "s108",
+      "text": "Out with their names, or ther’ll be an idiot short.”"
+    },
+    {
+      "id": "s109",
+      "text": "He got up and looked distressed, and fumbled his hat, and says:"
+    },
+    {
+      "id": "s110",
+      "text": "“I’m sorry, and I warn’t expecting it."
+    },
+    {
+      "id": "s111",
+      "text": "They told me to."
+    },
+    {
+      "id": "s112",
+      "text": "They all told me to."
+    },
+    {
+      "id": "s113",
+      "text": "They all said, kiss her; and said she’d like it."
+    },
+    {
+      "id": "s114",
+      "text": "They all said it—every one of them."
+    },
+    {
+      "id": "s115",
+      "text": "But I’m sorry, m’am, and I won’t do it no more—I won’t, honest.”"
+    },
+    {
+      "id": "s116",
+      "text": "“You won’t, won’t you?"
+    },
+    {
+      "id": "s117",
+      "text": "Well, I sh’d _reckon_ you won’t!”"
+    },
+    {
+      "id": "s118",
+      "text": "“No’m, I’m honest about it; I won’t ever do it again—till you ask me.”"
+    },
+    {
+      "id": "s119",
+      "text": "“Till I _ask_ you!"
+    },
+    {
+      "id": "s120",
+      "text": "Well, I never see the beat of it in my born days!"
+    },
+    {
+      "id": "s121",
+      "text": "I lay you’ll be the Methusalem-numskull of creation before ever I ask you—or the likes of you.”"
+    },
+    {
+      "id": "s122",
+      "text": "“Well,” he says, “it does surprise me so."
+    },
+    {
+      "id": "s123",
+      "text": "I can’t make it out, somehow."
+    },
+    {
+      "id": "s124",
+      "text": "They said you would, and I thought you would."
+    },
+    {
+      "id": "s125",
+      "text": "But—” He stopped and looked around slow, like he wished he could run across a friendly eye somewheres, and fetched up on the old gentleman’s, and says, “Didn’t _you_ think she’d like me to kiss her, sir?”"
+    },
+    {
+      "id": "s126",
+      "text": "“Why, no; I—I—well, no, I b’lieve I didn’t.”"
+    },
+    {
+      "id": "s127",
+      "text": "Then he looks on around the same way to me, and says:"
+    },
+    {
+      "id": "s128",
+      "text": "“Tom, didn’t _you_ think Aunt Sally ’d open out her arms and say, ‘Sid Sawyer—’”"
+    },
+    {
+      "id": "s129",
+      "text": "“My land!” she says, breaking in and jumping for him, “you impudent young rascal, to fool a body so—” and was going to hug him, but he fended her off, and says:"
+    },
+    {
+      "id": "s130",
+      "text": "“No, not till you’ve asked me first.”"
+    },
+    {
+      "id": "s131",
+      "text": "So she didn’t lose no time, but asked him; and hugged him and kissed him over and over again, and then turned him over to the old man, and he took what was left."
+    },
+    {
+      "id": "s132",
+      "text": "And after they got a little quiet again she says:"
+    },
+    {
+      "id": "s133",
+      "text": "“Why, dear me, I never see such a surprise."
+    },
+    {
+      "id": "s134",
+      "text": "We warn’t looking for _you_ at all, but only Tom."
+    },
+    {
+      "id": "s135",
+      "text": "Sis never wrote to me about anybody coming but him.”"
+    },
+    {
+      "id": "s136",
+      "text": "“It’s because it warn’t _intended_ for any of us to come but Tom,” he says; “but I begged and begged, and at the last minute she let me come, too; so, coming down the river, me and Tom thought it would be a first-rate surprise for him to come here to the house first, and for me to by-and-by tag along and drop in, and let on to be a stranger."
+    },
+    {
+      "id": "s137",
+      "text": "But it was a mistake, Aunt Sally."
+    },
+    {
+      "id": "s138",
+      "text": "This ain’t no healthy place for a stranger to come.”"
+    },
+    {
+      "id": "s139",
+      "text": "“No—not impudent whelps, Sid."
+    },
+    {
+      "id": "s140",
+      "text": "You ought to had your jaws boxed; I hain’t been so put out since I don’t know when."
+    },
+    {
+      "id": "s141",
+      "text": "But I don’t care, I don’t mind the terms—I’d be willing to stand a thousand such jokes to have you here."
+    },
+    {
+      "id": "s142",
+      "text": "Well, to think of that performance!"
+    },
+    {
+      "id": "s143",
+      "text": "I don’t deny it, I was most putrified with astonishment when you give me that smack.”"
+    },
+    {
+      "id": "s144",
+      "text": "We had dinner out in that broad open passage betwixt the house and the kitchen; and there was things enough on that table for seven families—and all hot, too; none of your flabby, tough meat that’s laid in a cupboard in a damp cellar all night and tastes like a hunk of old cold cannibal in the morning."
+    },
+    {
+      "id": "s145",
+      "text": "Uncle Silas he asked a pretty long blessing over it, but it was worth it; and it didn’t cool it a bit, neither, the way I’ve seen them kind of interruptions do lots of times."
+    },
+    {
+      "id": "s146",
+      "text": "There was a considerable good deal of talk all the afternoon, and me and Tom was on the lookout all the time; but it warn’t no use, they didn’t happen to say nothing about any runaway nigger, and we was afraid to try to work up to it."
+    },
+    {
+      "id": "s147",
+      "text": "But at supper, at night, one of the little boys says:"
+    },
+    {
+      "id": "s148",
+      "text": "“Pa, mayn’t Tom and Sid and me go to the show?”"
+    },
+    {
+      "id": "s149",
+      "text": "“No,” says the old man, “I reckon there ain’t going to be any; and you couldn’t go if there was; because the runaway nigger told Burton and me all about that scandalous show, and Burton said he would tell the people; so I reckon they’ve drove the owdacious loafers out of town before this time.”"
+    },
+    {
+      "id": "s150",
+      "text": "So there it was!—but _I_ couldn’t help it."
+    },
+    {
+      "id": "s151",
+      "text": "Tom and me was to sleep in the same room and bed; so, being tired, we bid good-night and went up to bed right after supper, and clumb out of the window and down the lightning-rod, and shoved for the town; for I didn’t believe anybody was going to give the king and the duke a hint, and so if I didn’t hurry up and give them one they’d get into trouble sure."
+    },
+    {
+      "id": "s152",
+      "text": "On the road Tom he told me all about how it was reckoned I was murdered, and how pap disappeared pretty soon, and didn’t come back no more, and what a stir there was when Jim run away; and I told Tom all about our Royal Nonesuch rapscallions, and as much of the raft voyage as I had time to; and as we struck into the town and up through the middle of it—it was as much as half-after eight, then—here comes a raging rush of people with torches, and an awful whooping and yelling, and banging tin pans and blowing horns; and we jumped to one side to let them go by; and as they went by I see they had the king and the duke astraddle of a rail—that is, I knowed it _was_ the king and the duke, though they was all over tar and feathers, and didn’t look like nothing in the world that was human—just looked like a couple of monstrous big soldier-plumes."
+    },
+    {
+      "id": "s153",
+      "text": "Well, it made me sick to see it; and I was sorry for them poor pitiful rascals, it seemed like I couldn’t ever feel any hardness against them any more in the world."
+    },
+    {
+      "id": "s154",
+      "text": "It was a dreadful thing to see."
+    },
+    {
+      "id": "s155",
+      "text": "Human beings _can_ be awful cruel to one another."
+    },
+    {
+      "id": "s156",
+      "text": "We see we was too late—couldn’t do no good."
+    },
+    {
+      "id": "s157",
+      "text": "We asked some stragglers about it, and they said everybody went to the show looking very innocent; and laid low and kept dark till the poor old king was in the middle of his cavortings on the stage; then somebody give a signal, and the house rose up and went for them."
+    },
+    {
+      "id": "s158",
+      "text": "So we poked along back home, and I warn’t feeling so brash as I was before, but kind of ornery, and humble, and to blame, somehow—though _I_ hadn’t done nothing."
+    },
+    {
+      "id": "s159",
+      "text": "But that’s always the way; it don’t make no difference whether you do right or wrong, a person’s conscience ain’t got no sense, and just goes for him _anyway_."
+    },
+    {
+      "id": "s160",
+      "text": "If I had a yaller dog that didn’t know no more than a person’s conscience does I would pison him."
+    },
+    {
+      "id": "s161",
+      "text": "It takes up more room than all the rest of a person’s insides, and yet ain’t no good, nohow."
+    },
+    {
+      "id": "s162",
+      "text": "Tom Sawyer he says the same."
+    }
+  ]
+}

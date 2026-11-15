@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-121-northanger-abbey",
+  "ebookId": "121",
+  "edition": "Project Gutenberg eBook #121; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-3",
+  "chapterTitle": "CHAPTER 3",
+  "contentHash": "sha256:52a03721aefbdc709386d69dec8b989931a4f72916870014b2149fb474037339",
+  "attribution": "Austen, Jane, 1775-1817, Northanger Abbey, CHAPTER 3. Source checked against Project Gutenberg eBook #121.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/121",
+    "textUrl": "https://www.gutenberg.org/cache/epub/121/pg121.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Every morning now brought its regular duties—shops were to be visited; some new part of the town to be looked at; and the Pump-room to be attended, where they paraded up and down for an hour, looking at everybody and speaking to no one."
+    },
+    {
+      "id": "s2",
+      "text": "The wish of a numerous acquaintance in Bath was still uppermost with Mrs."
+    },
+    {
+      "id": "s3",
+      "text": "Allen, and she repeated it after every fresh proof, which every morning brought, of her knowing nobody at all."
+    },
+    {
+      "id": "s4",
+      "text": "They made their appearance in the Lower Rooms; and here fortune was more favourable to our heroine."
+    },
+    {
+      "id": "s5",
+      "text": "The master of the ceremonies introduced to her a very gentleman-like young man as a partner; his name was Tilney."
+    },
+    {
+      "id": "s6",
+      "text": "He seemed to be about four or five and twenty, was rather tall, had a pleasing countenance, a very intelligent and lively eye, and, if not quite handsome, was very near it."
+    },
+    {
+      "id": "s7",
+      "text": "His address was good, and Catherine felt herself in high luck."
+    },
+    {
+      "id": "s8",
+      "text": "There was little leisure for speaking while they danced; but when they were seated at tea, she found him as agreeable as she had already given him credit for being."
+    },
+    {
+      "id": "s9",
+      "text": "He talked with fluency and spirit—and there was an archness and pleasantry in his manner which interested, though it was hardly understood by her."
+    },
+    {
+      "id": "s10",
+      "text": "After chatting some time on such matters as naturally arose from the objects around them, he suddenly addressed her with—“I have hitherto been very remiss, madam, in the proper attentions of a partner here; I have not yet asked you how long you have been in Bath; whether you were ever here before; whether you have been at the Upper Rooms, the theatre, and the concert; and how you like the place altogether."
+    },
+    {
+      "id": "s11",
+      "text": "I have been very negligent—but are you now at leisure to satisfy me in these particulars?"
+    },
+    {
+      "id": "s12",
+      "text": "If you are I will begin directly.”"
+    },
+    {
+      "id": "s13",
+      "text": "“You need not give yourself that trouble, sir.”"
+    },
+    {
+      "id": "s14",
+      "text": "“No trouble, I assure you, madam.” Then forming his features into a set smile, and affectedly softening his voice, he added, with a simpering air, “Have you been long in Bath, madam?”"
+    },
+    {
+      "id": "s15",
+      "text": "“About a week, sir,” replied Catherine, trying not to laugh."
+    },
+    {
+      "id": "s16",
+      "text": "“Really!” with affected astonishment."
+    },
+    {
+      "id": "s17",
+      "text": "“Why should you be surprised, sir?”"
+    },
+    {
+      "id": "s18",
+      "text": "“Why, indeed!” said he, in his natural tone."
+    },
+    {
+      "id": "s19",
+      "text": "“But some emotion must appear to be raised by your reply, and surprise is more easily assumed, and not less reasonable than any other."
+    },
+    {
+      "id": "s20",
+      "text": "Now let us go on."
+    },
+    {
+      "id": "s21",
+      "text": "Were you never here before, madam?”"
+    },
+    {
+      "id": "s22",
+      "text": "“Never, sir.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Indeed! have you yet honoured the Upper Rooms?”"
+    },
+    {
+      "id": "s24",
+      "text": "“Yes, sir, I was there last Monday.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Have you been to the theatre?”"
+    },
+    {
+      "id": "s26",
+      "text": "“Yes, sir, I was at the play on Tuesday.”"
+    },
+    {
+      "id": "s27",
+      "text": "“To the concert?”"
+    },
+    {
+      "id": "s28",
+      "text": "“Yes, sir, on Wednesday.”"
+    },
+    {
+      "id": "s29",
+      "text": "“And are you altogether pleased with Bath?”"
+    },
+    {
+      "id": "s30",
+      "text": "“Yes—I like it very well.”"
+    },
+    {
+      "id": "s31",
+      "text": "“Now I must give one smirk, and then we may be rational again.” Catherine turned away her head, not knowing whether she might venture to laugh."
+    },
+    {
+      "id": "s32",
+      "text": "“I see what you think of me,” said he gravely—“I shall make but a poor figure in your journal to-morrow.”"
+    },
+    {
+      "id": "s33",
+      "text": "“My journal!”"
+    },
+    {
+      "id": "s34",
+      "text": "“Yes, I know exactly what you will say: Friday, went to the Lower Rooms; wore my sprigged muslin robe with blue trimmings—plain black shoes—appeared to much advantage; but was strangely harassed by a queer, half-witted man, who would make me dance with him, and distressed me by his nonsense.”"
+    },
+    {
+      "id": "s35",
+      "text": "“Indeed I shall say no such thing.”"
+    },
+    {
+      "id": "s36",
+      "text": "“Shall I tell you what you ought to say?”"
+    },
+    {
+      "id": "s37",
+      "text": "“If you please.”"
+    },
+    {
+      "id": "s38",
+      "text": "“I danced with a very agreeable young man, introduced by Mr."
+    },
+    {
+      "id": "s39",
+      "text": "King; had a great deal of conversation with him—seems a most extraordinary genius—hope I may know more of him. _That_, madam, is what I _wish_ you to say.”"
+    },
+    {
+      "id": "s40",
+      "text": "“But, perhaps, I keep no journal.”"
+    },
+    {
+      "id": "s41",
+      "text": "“Perhaps you are not sitting in this room, and I am not sitting by you."
+    },
+    {
+      "id": "s42",
+      "text": "These are points in which a doubt is equally possible."
+    },
+    {
+      "id": "s43",
+      "text": "Not keep a journal! how are your absent cousins to understand the tenor of your life in Bath without one?"
+    },
+    {
+      "id": "s44",
+      "text": "How are the civilities and compliments of every day to be related as they ought to be, unless noted down every evening in a journal?"
+    },
+    {
+      "id": "s45",
+      "text": "How are your various dresses to be remembered, and the particular state of your complexion, and curl of your hair to be described in all their diversities, without having constant recourse to a journal?"
+    },
+    {
+      "id": "s46",
+      "text": "My dear madam, I am not so ignorant of young ladies’ ways as you wish to believe me; it is this delightful habit of journaling which largely contributes to form the easy style of writing for which ladies are so generally celebrated."
+    },
+    {
+      "id": "s47",
+      "text": "Everybody allows that the talent of writing agreeable letters is peculiarly female."
+    },
+    {
+      "id": "s48",
+      "text": "Nature may have done something, but I am sure it must be essentially assisted by the practice of keeping a journal.”"
+    },
+    {
+      "id": "s49",
+      "text": "“I have sometimes thought,” said Catherine, doubtingly, “whether ladies do write so much better letters than gentlemen! that is—I should not think the superiority was always on our side.”"
+    },
+    {
+      "id": "s50",
+      "text": "“As far as I have had opportunity of judging, it appears to me that the usual style of letter-writing among women is faultless, except in three particulars.”"
+    },
+    {
+      "id": "s51",
+      "text": "“And what are they?”"
+    },
+    {
+      "id": "s52",
+      "text": "“A general deficiency of subject, a total inattention to stops, and a very frequent ignorance of grammar.”"
+    },
+    {
+      "id": "s53",
+      "text": "“Upon my word! i need not have been afraid of disclaiming the compliment."
+    },
+    {
+      "id": "s54",
+      "text": "You do not think too highly of us in that way.”"
+    },
+    {
+      "id": "s55",
+      "text": "“I should no more lay it down as a general rule that women write better letters than men, than that they sing better duets, or draw better landscapes."
+    },
+    {
+      "id": "s56",
+      "text": "In every power, of which taste is the foundation, excellence is pretty fairly divided between the sexes.”"
+    },
+    {
+      "id": "s57",
+      "text": "They were interrupted by Mrs."
+    },
+    {
+      "id": "s58",
+      "text": "Allen: “My dear Catherine,” said she, “do take this pin out of my sleeve; I am afraid it has torn a hole already; I shall be quite sorry if it has, for this is a favourite gown, though it cost but nine shillings a yard.”"
+    },
+    {
+      "id": "s59",
+      "text": "“That is exactly what I should have guessed it, madam,” said Mr."
+    },
+    {
+      "id": "s60",
+      "text": "Tilney, looking at the muslin."
+    },
+    {
+      "id": "s61",
+      "text": "“Do you understand muslins, sir?”"
+    },
+    {
+      "id": "s62",
+      "text": "“Particularly well; I always buy my own cravats, and am allowed to be an excellent judge; and my sister has often trusted me in the choice of a gown."
+    },
+    {
+      "id": "s63",
+      "text": "I bought one for her the other day, and it was pronounced to be a prodigious bargain by every lady who saw it."
+    },
+    {
+      "id": "s64",
+      "text": "I gave but five shillings a yard for it, and a true Indian muslin.”"
+    },
+    {
+      "id": "s65",
+      "text": "Mrs."
+    },
+    {
+      "id": "s66",
+      "text": "Allen was quite struck by his genius."
+    },
+    {
+      "id": "s67",
+      "text": "“Men commonly take so little notice of those things,” said she; “I can never get Mr."
+    },
+    {
+      "id": "s68",
+      "text": "Allen to know one of my gowns from another."
+    },
+    {
+      "id": "s69",
+      "text": "You must be a great comfort to your sister, sir.”"
+    },
+    {
+      "id": "s70",
+      "text": "“I hope I am, madam.”"
+    },
+    {
+      "id": "s71",
+      "text": "“And pray, sir, what do you think of Miss Morland’s gown?”"
+    },
+    {
+      "id": "s72",
+      "text": "“It is very pretty, madam,” said he, gravely examining it; “but I do not think it will wash well; I am afraid it will fray.”"
+    },
+    {
+      "id": "s73",
+      "text": "“How can you,” said Catherine, laughing, “be so—” She had almost said “strange.”"
+    },
+    {
+      "id": "s74",
+      "text": "“I am quite of your opinion, sir,” replied Mrs."
+    },
+    {
+      "id": "s75",
+      "text": "Allen; “and so I told Miss Morland when she bought it.”"
+    },
+    {
+      "id": "s76",
+      "text": "“But then you know, madam, muslin always turns to some account or other; Miss Morland will get enough out of it for a handkerchief, or a cap, or a cloak."
+    },
+    {
+      "id": "s77",
+      "text": "Muslin can never be said to be wasted."
+    },
+    {
+      "id": "s78",
+      "text": "I have heard my sister say so forty times, when she has been extravagant in buying more than she wanted, or careless in cutting it to pieces.”"
+    },
+    {
+      "id": "s79",
+      "text": "“Bath is a charming place, sir; there are so many good shops here."
+    },
+    {
+      "id": "s80",
+      "text": "We are sadly off in the country; not but what we have very good shops in Salisbury, but it is so far to go—eight miles is a long way; Mr."
+    },
+    {
+      "id": "s81",
+      "text": "Allen says it is nine, measured nine; but I am sure it cannot be more than eight; and it is such a fag—I come back tired to death."
+    },
+    {
+      "id": "s82",
+      "text": "Now, here one can step out of doors and get a thing in five minutes.”"
+    },
+    {
+      "id": "s83",
+      "text": "Mr."
+    },
+    {
+      "id": "s84",
+      "text": "Tilney was polite enough to seem interested in what she said; and she kept him on the subject of muslins till the dancing recommenced."
+    },
+    {
+      "id": "s85",
+      "text": "Catherine feared, as she listened to their discourse, that he indulged himself a little too much with the foibles of others."
+    },
+    {
+      "id": "s86",
+      "text": "“What are you thinking of so earnestly?” said he, as they walked back to the ballroom; “not of your partner, I hope, for, by that shake of the head, your meditations are not satisfactory.”"
+    },
+    {
+      "id": "s87",
+      "text": "Catherine coloured, and said, “I was not thinking of anything.”"
+    },
+    {
+      "id": "s88",
+      "text": "“That is artful and deep, to be sure; but I had rather be told at once that you will not tell me.”"
+    },
+    {
+      "id": "s89",
+      "text": "“Well then, I will not.”"
+    },
+    {
+      "id": "s90",
+      "text": "“Thank you; for now we shall soon be acquainted, as I am authorized to tease you on this subject whenever we meet, and nothing in the world advances intimacy so much.”"
+    },
+    {
+      "id": "s91",
+      "text": "They danced again; and, when the assembly closed, parted, on the lady’s side at least, with a strong inclination for continuing the acquaintance."
+    },
+    {
+      "id": "s92",
+      "text": "Whether she thought of him so much, while she drank her warm wine and water, and prepared herself for bed, as to dream of him when there, cannot be ascertained; but I hope it was no more than in a slight slumber, or a morning doze at most; for if it be true, as a celebrated writer has maintained, that no young lady can be justified in falling in love before the gentleman’s love is declared,[1] it must be very improper that a young lady should dream of a gentleman before the gentleman is first known to have dreamt of her."
+    },
+    {
+      "id": "s93",
+      "text": "How proper Mr."
+    },
+    {
+      "id": "s94",
+      "text": "Tilney might be as a dreamer or a lover had not yet perhaps entered Mr."
+    },
+    {
+      "id": "s95",
+      "text": "Allen’s head, but that he was not objectionable as a common acquaintance for his young charge he was on inquiry satisfied; for he had early in the evening taken pains to know who her partner was, and had been assured of Mr."
+    },
+    {
+      "id": "s96",
+      "text": "Tilney’s being a clergyman, and of a very respectable family in Gloucestershire."
+    },
+    {
+      "id": "s97",
+      "text": "[1] Vide a letter from Mr."
+    },
+    {
+      "id": "s98",
+      "text": "Richardson, No. 97, Vol. ii, Rambler."
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-11-alice-s-adventures-in-wonderland",
+  "ebookId": "11",
+  "edition": "Project Gutenberg eBook #11; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-11",
+  "chapterTitle": "CHAPTER XI.",
+  "contentHash": "sha256:5974254aba1030b18d0342500175410962c6c2af15d228b1d3001a3495914463",
+  "attribution": "Carroll, Lewis, 1832-1898, Alice's Adventures in Wonderland, CHAPTER XI.. Source checked against Project Gutenberg eBook #11.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/11",
+    "textUrl": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Who Stole the Tarts?"
+    },
+    {
+      "id": "s2",
+      "text": "The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other."
+    },
+    {
+      "id": "s3",
+      "text": "In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time."
+    },
+    {
+      "id": "s4",
+      "text": "Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there."
+    },
+    {
+      "id": "s5",
+      "text": "“That’s the judge,” she said to herself, “because of his great wig.”"
+    },
+    {
+      "id": "s6",
+      "text": "The judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming."
+    },
+    {
+      "id": "s7",
+      "text": "“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all."
+    },
+    {
+      "id": "s8",
+      "text": "However, “jury-men” would have done just as well."
+    },
+    {
+      "id": "s9",
+      "text": "The twelve jurors were all writing very busily on slates."
+    },
+    {
+      "id": "s10",
+      "text": "“What are they doing?” Alice whispered to the Gryphon."
+    },
+    {
+      "id": "s11",
+      "text": "“They can’t have anything to put down yet, before the trial’s begun.”"
+    },
+    {
+      "id": "s12",
+      "text": "“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”"
+    },
+    {
+      "id": "s13",
+      "text": "“Stupid things!” Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, “Silence in the court!” and the King put on his spectacles and looked anxiously round, to make out who was talking."
+    },
+    {
+      "id": "s14",
+      "text": "Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him."
+    },
+    {
+      "id": "s15",
+      "text": "“A nice muddle their slates’ll be in before the trial’s over!” thought Alice."
+    },
+    {
+      "id": "s16",
+      "text": "One of the jurors had a pencil that squeaked."
+    },
+    {
+      "id": "s17",
+      "text": "This of course, Alice could _not_ stand, and she went round the court and got behind him, and very soon found an opportunity of taking it away."
+    },
+    {
+      "id": "s18",
+      "text": "She did it so quickly that the poor little juror (it was Bill, the Lizard) could not make out at all what had become of it; so, after hunting all about for it, he was obliged to write with one finger for the rest of the day; and this was of very little use, as it left no mark on the slate."
+    },
+    {
+      "id": "s19",
+      "text": "“Herald, read the accusation!” said the King."
+    },
+    {
+      "id": "s20",
+      "text": "On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—"
+    },
+    {
+      "id": "s21",
+      "text": "“The Queen of Hearts, she made some tarts, All on a summer day: The Knave of Hearts, he stole those tarts, And took them quite away!”"
+    },
+    {
+      "id": "s22",
+      "text": "“Consider your verdict,” the King said to the jury."
+    },
+    {
+      "id": "s23",
+      "text": "“Not yet, not yet!” the Rabbit hastily interrupted."
+    },
+    {
+      "id": "s24",
+      "text": "“There’s a great deal to come before that!”"
+    },
+    {
+      "id": "s25",
+      "text": "“Call the first witness,” said the King; and the White Rabbit blew three blasts on the trumpet, and called out, “First witness!”"
+    },
+    {
+      "id": "s26",
+      "text": "The first witness was the Hatter."
+    },
+    {
+      "id": "s27",
+      "text": "He came in with a teacup in one hand and a piece of bread-and-butter in the other."
+    },
+    {
+      "id": "s28",
+      "text": "“I beg pardon, your Majesty,” he began, “for bringing these in: but I hadn’t quite finished my tea when I was sent for.”"
+    },
+    {
+      "id": "s29",
+      "text": "“You ought to have finished,” said the King."
+    },
+    {
+      "id": "s30",
+      "text": "“When did you begin?”"
+    },
+    {
+      "id": "s31",
+      "text": "The Hatter looked at the March Hare, who had followed him into the court, arm-in-arm with the Dormouse."
+    },
+    {
+      "id": "s32",
+      "text": "“Fourteenth of March, I _think_ it was,” he said."
+    },
+    {
+      "id": "s33",
+      "text": "“Fifteenth,” said the March Hare."
+    },
+    {
+      "id": "s34",
+      "text": "“Sixteenth,” added the Dormouse."
+    },
+    {
+      "id": "s35",
+      "text": "“Write that down,” the King said to the jury, and the jury eagerly wrote down all three dates on their slates, and then added them up, and reduced the answer to shillings and pence."
+    },
+    {
+      "id": "s36",
+      "text": "“Take off your hat,” the King said to the Hatter."
+    },
+    {
+      "id": "s37",
+      "text": "“It isn’t mine,” said the Hatter."
+    },
+    {
+      "id": "s38",
+      "text": "“_Stolen!_” the King exclaimed, turning to the jury, who instantly made a memorandum of the fact."
+    },
+    {
+      "id": "s39",
+      "text": "“I keep them to sell,” the Hatter added as an explanation; “I’ve none of my own."
+    },
+    {
+      "id": "s40",
+      "text": "I’m a hatter.”"
+    },
+    {
+      "id": "s41",
+      "text": "Here the Queen put on her spectacles, and began staring at the Hatter, who turned pale and fidgeted."
+    },
+    {
+      "id": "s42",
+      "text": "“Give your evidence,” said the King; “and don’t be nervous, or I’ll have you executed on the spot.”"
+    },
+    {
+      "id": "s43",
+      "text": "This did not seem to encourage the witness at all: he kept shifting from one foot to the other, looking uneasily at the Queen, and in his confusion he bit a large piece out of his teacup instead of the bread-and-butter."
+    },
+    {
+      "id": "s44",
+      "text": "Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her."
+    },
+    {
+      "id": "s45",
+      "text": "“I wish you wouldn’t squeeze so,” said the Dormouse, who was sitting next to her."
+    },
+    {
+      "id": "s46",
+      "text": "“I can hardly breathe.”"
+    },
+    {
+      "id": "s47",
+      "text": "“I can’t help it,” said Alice very meekly: “I’m growing.”"
+    },
+    {
+      "id": "s48",
+      "text": "“You’ve no right to grow _here_,” said the Dormouse."
+    },
+    {
+      "id": "s49",
+      "text": "“Don’t talk nonsense,” said Alice more boldly: “you know you’re growing too.”"
+    },
+    {
+      "id": "s50",
+      "text": "“Yes, but _I_ grow at a reasonable pace,” said the Dormouse: “not in that ridiculous fashion.” And he got up very sulkily and crossed over to the other side of the court."
+    },
+    {
+      "id": "s51",
+      "text": "All this time the Queen had never left off staring at the Hatter, and, just as the Dormouse crossed the court, she said to one of the officers of the court, “Bring me the list of the singers in the last concert!” on which the wretched Hatter trembled so, that he shook both his shoes off."
+    },
+    {
+      "id": "s52",
+      "text": "“Give your evidence,” the King repeated angrily, “or I’ll have you executed, whether you’re nervous or not.”"
+    },
+    {
+      "id": "s53",
+      "text": "“I’m a poor man, your Majesty,” the Hatter began, in a trembling voice, “—and I hadn’t begun my tea—not above a week or so—and what with the bread-and-butter getting so thin—and the twinkling of the tea—”"
+    },
+    {
+      "id": "s54",
+      "text": "“The twinkling of the _what?_” said the King."
+    },
+    {
+      "id": "s55",
+      "text": "“It _began_ with the tea,” the Hatter replied."
+    },
+    {
+      "id": "s56",
+      "text": "“Of course twinkling begins with a T!” said the King sharply."
+    },
+    {
+      "id": "s57",
+      "text": "“Do you take me for a dunce?"
+    },
+    {
+      "id": "s58",
+      "text": "Go on!”"
+    },
+    {
+      "id": "s59",
+      "text": "“I’m a poor man,” the Hatter went on, “and most things twinkled after that—only the March Hare said—”"
+    },
+    {
+      "id": "s60",
+      "text": "“I didn’t!” the March Hare interrupted in a great hurry."
+    },
+    {
+      "id": "s61",
+      "text": "“You did!” said the Hatter."
+    },
+    {
+      "id": "s62",
+      "text": "“I deny it!” said the March Hare."
+    },
+    {
+      "id": "s63",
+      "text": "“He denies it,” said the King: “leave out that part.”"
+    },
+    {
+      "id": "s64",
+      "text": "“Well, at any rate, the Dormouse said—” the Hatter went on, looking anxiously round to see if he would deny it too: but the Dormouse denied nothing, being fast asleep."
+    },
+    {
+      "id": "s65",
+      "text": "“After that,” continued the Hatter, “I cut some more bread-and-butter—”"
+    },
+    {
+      "id": "s66",
+      "text": "“But what did the Dormouse say?” one of the jury asked."
+    },
+    {
+      "id": "s67",
+      "text": "“That I can’t remember,” said the Hatter."
+    },
+    {
+      "id": "s68",
+      "text": "“You _must_ remember,” remarked the King, “or I’ll have you executed.”"
+    },
+    {
+      "id": "s69",
+      "text": "The miserable Hatter dropped his teacup and bread-and-butter, and went down on one knee."
+    },
+    {
+      "id": "s70",
+      "text": "“I’m a poor man, your Majesty,” he began."
+    },
+    {
+      "id": "s71",
+      "text": "“You’re a _very_ poor _speaker_,” said the King."
+    },
+    {
+      "id": "s72",
+      "text": "Here one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court. (As that is rather a hard word, I will just explain to you how it was done."
+    },
+    {
+      "id": "s73",
+      "text": "They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it.)"
+    },
+    {
+      "id": "s74",
+      "text": "“I’m glad I’ve seen that done,” thought Alice."
+    },
+    {
+      "id": "s75",
+      "text": "“I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.”"
+    },
+    {
+      "id": "s76",
+      "text": "“If that’s all you know about it, you may stand down,” continued the King."
+    },
+    {
+      "id": "s77",
+      "text": "“I can’t go no lower,” said the Hatter: “I’m on the floor, as it is.”"
+    },
+    {
+      "id": "s78",
+      "text": "“Then you may _sit_ down,” the King replied."
+    },
+    {
+      "id": "s79",
+      "text": "Here the other guinea-pig cheered, and was suppressed."
+    },
+    {
+      "id": "s80",
+      "text": "“Come, that finished the guinea-pigs!” thought Alice."
+    },
+    {
+      "id": "s81",
+      "text": "“Now we shall get on better.”"
+    },
+    {
+      "id": "s82",
+      "text": "“I’d rather finish my tea,” said the Hatter, with an anxious look at the Queen, who was reading the list of singers."
+    },
+    {
+      "id": "s83",
+      "text": "“You may go,” said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on."
+    },
+    {
+      "id": "s84",
+      "text": "“—and just take his head off outside,” the Queen added to one of the officers: but the Hatter was out of sight before the officer could get to the door."
+    },
+    {
+      "id": "s85",
+      "text": "“Call the next witness!” said the King."
+    },
+    {
+      "id": "s86",
+      "text": "The next witness was the Duchess’s cook."
+    },
+    {
+      "id": "s87",
+      "text": "She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once."
+    },
+    {
+      "id": "s88",
+      "text": "“Give your evidence,” said the King."
+    },
+    {
+      "id": "s89",
+      "text": "“Shan’t,” said the cook."
+    },
+    {
+      "id": "s90",
+      "text": "The King looked anxiously at the White Rabbit, who said in a low voice, “Your Majesty must cross-examine _this_ witness.”"
+    },
+    {
+      "id": "s91",
+      "text": "“Well, if I must, I must,” the King said, with a melancholy air, and, after folding his arms and frowning at the cook till his eyes were nearly out of sight, he said in a deep voice, “What are tarts made of?”"
+    },
+    {
+      "id": "s92",
+      "text": "“Pepper, mostly,” said the cook."
+    },
+    {
+      "id": "s93",
+      "text": "“Treacle,” said a sleepy voice behind her."
+    },
+    {
+      "id": "s94",
+      "text": "“Collar that Dormouse,” the Queen shrieked out."
+    },
+    {
+      "id": "s95",
+      "text": "“Behead that Dormouse!"
+    },
+    {
+      "id": "s96",
+      "text": "Turn that Dormouse out of court!"
+    },
+    {
+      "id": "s97",
+      "text": "Suppress him!"
+    },
+    {
+      "id": "s98",
+      "text": "Pinch him!"
+    },
+    {
+      "id": "s99",
+      "text": "Off with his whiskers!”"
+    },
+    {
+      "id": "s100",
+      "text": "For some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared."
+    },
+    {
+      "id": "s101",
+      "text": "“Never mind!” said the King, with an air of great relief."
+    },
+    {
+      "id": "s102",
+      "text": "“Call the next witness.” And he added in an undertone to the Queen, “Really, my dear, _you_ must cross-examine the next witness."
+    },
+    {
+      "id": "s103",
+      "text": "It quite makes my forehead ache!”"
+    },
+    {
+      "id": "s104",
+      "text": "Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like, “—for they haven’t got much evidence _yet_,” she said to herself."
+    },
+    {
+      "id": "s105",
+      "text": "Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name “Alice!”"
+    }
+  ]
+}

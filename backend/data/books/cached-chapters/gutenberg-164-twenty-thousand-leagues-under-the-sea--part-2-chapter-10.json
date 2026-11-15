@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-10",
+  "chapterTitle": "Part 2 — CHAPTER X",
+  "contentHash": "sha256:34e59b07750a624ab711c7e7b9d5273775ccb0f0639e59ae95adc98df530b843",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, Part 2 — CHAPTER X. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE SUBMARINE COAL-MINES"
+    },
+    {
+      "id": "s2",
+      "text": "The next day, the 20th of February, I awoke very late: the fatigues of the previous night had prolonged my sleep until eleven o’clock."
+    },
+    {
+      "id": "s3",
+      "text": "I dressed quickly, and hastened to find the course the _Nautilus_ was taking."
+    },
+    {
+      "id": "s4",
+      "text": "The instruments showed it to be still toward the south, with a speed of twenty miles an hour and a depth of fifty fathoms."
+    },
+    {
+      "id": "s5",
+      "text": "The species of fishes here did not differ much from those already noticed."
+    },
+    {
+      "id": "s6",
+      "text": "There were rays of giant size, five yards long, and endowed with great muscular strength, which enabled them to shoot above the waves; sharks of many kinds; amongst others, one fifteen feet long, with triangular sharp teeth, and whose transparency rendered it almost invisible in the water."
+    },
+    {
+      "id": "s7",
+      "text": "Amongst bony fish Conseil noticed some about three yards long, armed at the upper jaw with a piercing sword; other bright-coloured creatures, known in the time of Aristotle by the name of the sea-dragon, which are dangerous to capture on account of the spikes on their back."
+    },
+    {
+      "id": "s8",
+      "text": "About four o’clock, the soil, generally composed of a thick mud mixed with petrified wood, changed by degrees, and it became more stony, and seemed strewn with conglomerate and pieces of basalt, with a sprinkling of lava."
+    },
+    {
+      "id": "s9",
+      "text": "I thought that a mountainous region was succeeding the long plains; and accordingly, after a few evolutions of the _Nautilus_, I saw the southerly horizon blocked by a high wall which seemed to close all exit."
+    },
+    {
+      "id": "s10",
+      "text": "Its summit evidently passed the level of the ocean."
+    },
+    {
+      "id": "s11",
+      "text": "It must be a continent, or at least an island—one of the Canaries, or of the Cape Verde Islands."
+    },
+    {
+      "id": "s12",
+      "text": "The bearings not being yet taken, perhaps designedly, I was ignorant of our exact position."
+    },
+    {
+      "id": "s13",
+      "text": "In any case, such a wall seemed to me to mark the limits of that Atlantis, of which we had in reality passed over only the smallest part."
+    },
+    {
+      "id": "s14",
+      "text": "Much longer should I have remained at the window admiring the beauties of sea and sky, but the panels closed."
+    },
+    {
+      "id": "s15",
+      "text": "At this moment the _Nautilus_ arrived at the side of this high, perpendicular wall."
+    },
+    {
+      "id": "s16",
+      "text": "What it would do, I could not guess."
+    },
+    {
+      "id": "s17",
+      "text": "I returned to my room; it no longer moved."
+    },
+    {
+      "id": "s18",
+      "text": "I laid myself down with the full intention of waking after a few hours’ sleep; but it was eight o’clock the next day when I entered the saloon."
+    },
+    {
+      "id": "s19",
+      "text": "I looked at the manometer."
+    },
+    {
+      "id": "s20",
+      "text": "It told me that the _Nautilus_ was floating on the surface of the ocean."
+    },
+    {
+      "id": "s21",
+      "text": "Besides, I heard steps on the platform."
+    },
+    {
+      "id": "s22",
+      "text": "I went to the panel."
+    },
+    {
+      "id": "s23",
+      "text": "It was open; but, instead of broad daylight, as I expected, I was surrounded by profound darkness."
+    },
+    {
+      "id": "s24",
+      "text": "Where were we?"
+    },
+    {
+      "id": "s25",
+      "text": "Was I mistaken?"
+    },
+    {
+      "id": "s26",
+      "text": "Was it still night?"
+    },
+    {
+      "id": "s27",
+      "text": "No; not a star was shining and night has not that utter darkness."
+    },
+    {
+      "id": "s28",
+      "text": "[Illustration] The _Nautilus_ was floating near a mountain"
+    },
+    {
+      "id": "s29",
+      "text": "I knew not what to think, when a voice near me said:"
+    },
+    {
+      "id": "s30",
+      "text": "“Is that you, Professor?”"
+    },
+    {
+      "id": "s31",
+      "text": "“Ah!"
+    },
+    {
+      "id": "s32",
+      "text": "Captain,” I answered, “where are we?”"
+    },
+    {
+      "id": "s33",
+      "text": "“Underground, sir.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Underground!” I exclaimed."
+    },
+    {
+      "id": "s35",
+      "text": "“And the _Nautilus_ floating still?”"
+    },
+    {
+      "id": "s36",
+      "text": "“It always floats.”"
+    },
+    {
+      "id": "s37",
+      "text": "“But I do not understand.”"
+    },
+    {
+      "id": "s38",
+      "text": "“Wait a few minutes, our lantern will be lit, and, if you like light places, you will be satisfied.”"
+    },
+    {
+      "id": "s39",
+      "text": "I stood on the platform and waited."
+    },
+    {
+      "id": "s40",
+      "text": "The darkness was so complete that I could not even see Captain Nemo; but, looking to the zenith, exactly above my head, I seemed to catch an undecided gleam, a kind of twilight filling a circular hole."
+    },
+    {
+      "id": "s41",
+      "text": "At this instant the lantern was lit, and its vividness dispelled the faint light."
+    },
+    {
+      "id": "s42",
+      "text": "I closed my dazzled eyes for an instant, and then looked again."
+    },
+    {
+      "id": "s43",
+      "text": "The _Nautilus_ was stationary, floating near a mountain which formed a sort of quay."
+    },
+    {
+      "id": "s44",
+      "text": "The lake, then, supporting it was a lake imprisoned by a circle of walls, measuring two miles in diameter and six in circumference."
+    },
+    {
+      "id": "s45",
+      "text": "Its level (the manometer showed) could only be the same as the outside level, for there must necessarily be a communication between the lake and the sea."
+    },
+    {
+      "id": "s46",
+      "text": "The high partitions, leaning forward on their base, grew into a vaulted roof bearing the shape of an immense funnel turned upside down, the height being about five or six hundred yards."
+    },
+    {
+      "id": "s47",
+      "text": "At the summit was a circular orifice, by which I had caught the slight gleam of light, evidently daylight."
+    },
+    {
+      "id": "s48",
+      "text": "“Where are we?” I asked."
+    },
+    {
+      "id": "s49",
+      "text": "“In the very heart of an extinct volcano, the interior of which has been invaded by the sea, after some great convulsion of the earth."
+    },
+    {
+      "id": "s50",
+      "text": "Whilst you were sleeping, Professor, the _Nautilus_ penetrated to this lagoon by a natural canal, which opens about ten yards beneath the surface of the ocean."
+    },
+    {
+      "id": "s51",
+      "text": "This is its harbour of refuge, a sure, commodious, and mysterious one, sheltered from all gales."
+    },
+    {
+      "id": "s52",
+      "text": "Show me, if you can, on the coasts of any of your continents or islands, a road which can give such perfect refuge from all storms.”"
+    },
+    {
+      "id": "s53",
+      "text": "“Certainly,” I replied, “you are in safety here, Captain Nemo."
+    },
+    {
+      "id": "s54",
+      "text": "Who could reach you in the heart of a volcano?"
+    },
+    {
+      "id": "s55",
+      "text": "But did I not see an opening at its summit?”"
+    },
+    {
+      "id": "s56",
+      "text": "“Yes; its crater, formerly filled with lava, vapour, and flames, and which now gives entrance to the life-giving air we breathe.”"
+    },
+    {
+      "id": "s57",
+      "text": "“But what is this volcanic mountain?”"
+    },
+    {
+      "id": "s58",
+      "text": "“It belongs to one of the numerous islands with which this sea is strewn—to vessels a simple sandbank—to us an immense cavern."
+    },
+    {
+      "id": "s59",
+      "text": "Chance led me to discover it, and chance served me well.”"
+    },
+    {
+      "id": "s60",
+      "text": "“But of what use is this refuge, Captain?"
+    },
+    {
+      "id": "s61",
+      "text": "The _Nautilus_ wants no port.”"
+    },
+    {
+      "id": "s62",
+      "text": "“No, sir; but it wants electricity to make it move, and the wherewithal to make the electricity—sodium to feed the elements, coal from which to get the sodium, and a coal-mine to supply the coal."
+    },
+    {
+      "id": "s63",
+      "text": "And exactly on this spot the sea covers entire forests embedded during the geological periods, now mineralised and transformed into coal; for me they are an inexhaustible mine.”"
+    },
+    {
+      "id": "s64",
+      "text": "“Your men follow the trade of miners here, then, Captain?”"
+    },
+    {
+      "id": "s65",
+      "text": "“Exactly so."
+    },
+    {
+      "id": "s66",
+      "text": "These mines extend under the waves like the mines of Newcastle."
+    },
+    {
+      "id": "s67",
+      "text": "Here, in their diving-dresses, pick axe and shovel in hand, my men extract the coal, which I do not even ask from the mines of the earth."
+    },
+    {
+      "id": "s68",
+      "text": "When I burn this combustible for the manufacture of sodium, the smoke, escaping from the crater of the mountain, gives it the appearance of a still-active volcano.”"
+    },
+    {
+      "id": "s69",
+      "text": "“And we shall see your companions at work?”"
+    },
+    {
+      "id": "s70",
+      "text": "“No; not this time at least; for I am in a hurry to continue our submarine tour of the earth."
+    },
+    {
+      "id": "s71",
+      "text": "So I shall content myself with drawing from the reserve of sodium I already possess."
+    },
+    {
+      "id": "s72",
+      "text": "The time for loading is one day only, and we continue our voyage."
+    },
+    {
+      "id": "s73",
+      "text": "So, if you wish to go over the cavern and make the round of the lagoon, you must take advantage of to-day, M."
+    },
+    {
+      "id": "s74",
+      "text": "Aronnax.”"
+    },
+    {
+      "id": "s75",
+      "text": "I thanked the Captain and went to look for my companions, who had not yet left their cabin."
+    },
+    {
+      "id": "s76",
+      "text": "I invited them to follow me without saying where we were."
+    },
+    {
+      "id": "s77",
+      "text": "They mounted the platform."
+    },
+    {
+      "id": "s78",
+      "text": "Conseil, who was astonished at nothing, seemed to look upon it as quite natural that he should wake under a mountain, after having fallen asleep under the waves."
+    },
+    {
+      "id": "s79",
+      "text": "But Ned Land thought of nothing but finding whether the cavern had any exit."
+    },
+    {
+      "id": "s80",
+      "text": "After breakfast, about ten o’clock, we went down on to the mountain."
+    },
+    {
+      "id": "s81",
+      "text": "“Here we are, once more on land,” said Conseil."
+    },
+    {
+      "id": "s82",
+      "text": "“I do not call this land,” said the Canadian."
+    },
+    {
+      "id": "s83",
+      "text": "“And besides, we are not on it, but beneath it.”"
+    },
+    {
+      "id": "s84",
+      "text": "Between the walls of the mountains and the waters of the lake lay a sandy shore which, at its greatest breadth, measured five hundred feet."
+    },
+    {
+      "id": "s85",
+      "text": "On this soil one might easily make the tour of the lake."
+    },
+    {
+      "id": "s86",
+      "text": "But the base of the high partitions was stony ground, with volcanic blocks and enormous pumice-stones lying in picturesque heaps."
+    },
+    {
+      "id": "s87",
+      "text": "All these detached masses, covered with enamel, polished by the action of the subterraneous fires, shone resplendent by the light of our electric lantern."
+    },
+    {
+      "id": "s88",
+      "text": "The mica dust from the shore, rising under our feet, flew like a cloud of sparks."
+    },
+    {
+      "id": "s89",
+      "text": "The bottom now rose sensibly, and we soon arrived at long circuitous slopes, or inclined planes, which took us higher by degrees; but we were obliged to walk carefully among these conglomerates, bound by no cement, the feet slipping on the glassy crystal, felspar, and quartz."
+    },
+    {
+      "id": "s90",
+      "text": "The volcanic nature of this enormous excavation was confirmed on all sides, and I pointed it out to my companions."
+    },
+    {
+      "id": "s91",
+      "text": "“Picture to yourselves,” said I, “what this crater must have been when filled with boiling lava, and when the level of the incandescent liquid rose to the orifice of the mountain, as though melted on the top of a hot plate.”"
+    },
+    {
+      "id": "s92",
+      "text": "“I can picture it perfectly,” said Conseil."
+    },
+    {
+      "id": "s93",
+      "text": "“But, sir, will you tell me why the Great Architect has suspended operations, and how it is that the furnace is replaced by the quiet waters of the lake?”"
+    },
+    {
+      "id": "s94",
+      "text": "“Most probably, Conseil, because some convulsion beneath the ocean produced that very opening which has served as a passage for the _Nautilus_."
+    },
+    {
+      "id": "s95",
+      "text": "Then the waters of the Atlantic rushed into the interior of the mountain."
+    },
+    {
+      "id": "s96",
+      "text": "There must have been a terrible struggle between the two elements, a struggle which ended in the victory of Neptune."
+    },
+    {
+      "id": "s97",
+      "text": "But many ages have run out since then, and the submerged volcano is now a peaceable grotto.”"
+    },
+    {
+      "id": "s98",
+      "text": "“Very well,” replied Ned Land; “I accept the explanation, sir; but, in our own interests, I regret that the opening of which you speak was not made above the level of the sea.”"
+    },
+    {
+      "id": "s99",
+      "text": "“But, friend Ned,” said Conseil, “if the passage had not been under the sea, the _Nautilus_ could not have gone through it.”"
+    },
+    {
+      "id": "s100",
+      "text": "We continued ascending."
+    },
+    {
+      "id": "s101",
+      "text": "The steps became more and more perpendicular and narrow."
+    },
+    {
+      "id": "s102",
+      "text": "Deep excavations, which we were obliged to cross, cut them here and there; sloping masses had to be turned."
+    },
+    {
+      "id": "s103",
+      "text": "We slid upon our knees and crawled along."
+    },
+    {
+      "id": "s104",
+      "text": "But Conseil’s dexterity and the Canadian’s strength surmounted all obstacles."
+    },
+    {
+      "id": "s105",
+      "text": "At a height of about 31 feet the nature of the ground changed without becoming more practicable."
+    },
+    {
+      "id": "s106",
+      "text": "To the conglomerate and trachyte succeeded black basalt, the first dispread in layers full of bubbles, the latter forming regular prisms, placed like a colonnade supporting the spring of the immense vault, an admirable specimen of natural architecture."
+    },
+    {
+      "id": "s107",
+      "text": "Between the blocks of basalt wound long streams of lava, long since grown cold, encrusted with bituminous rays; and in some places there were spread large carpets of sulphur."
+    },
+    {
+      "id": "s108",
+      "text": "A more powerful light shone through the upper crater, shedding a vague glimmer over these volcanic depressions for ever buried in the bosom of this extinguished mountain."
+    },
+    {
+      "id": "s109",
+      "text": "But our upward march was soon stopped at a height of about two hundred and fifty feet by impassable obstacles."
+    },
+    {
+      "id": "s110",
+      "text": "There was a complete vaulted arch overhanging us, and our ascent was changed to a circular walk."
+    },
+    {
+      "id": "s111",
+      "text": "At the last change vegetable life began to struggle with the mineral."
+    },
+    {
+      "id": "s112",
+      "text": "Some shrubs, and even some trees, grew from the fractures of the walls."
+    },
+    {
+      "id": "s113",
+      "text": "I recognised some euphorbias, with the caustic sugar coming from them; heliotropes, quite incapable of justifying their name, sadly drooped their clusters of flowers, both their colour and perfume half gone."
+    },
+    {
+      "id": "s114",
+      "text": "Here and there some chrysanthemums grew timidly at the foot of an aloe with long, sickly-looking leaves."
+    },
+    {
+      "id": "s115",
+      "text": "But between the streams of lava, I saw some little violets still slightly perfumed, and I admit that I smelt them with delight."
+    },
+    {
+      "id": "s116",
+      "text": "Perfume is the soul of the flower, and sea-flowers have no soul."
+    },
+    {
+      "id": "s117",
+      "text": "We had arrived at the foot of some sturdy dragon-trees, which had pushed aside the rocks with their strong roots, when Ned Land exclaimed:"
+    },
+    {
+      "id": "s118",
+      "text": "“Ah! sir, a hive! a hive!”"
+    },
+    {
+      "id": "s119",
+      "text": "“A hive!” I replied, with a gesture of incredulity."
+    },
+    {
+      "id": "s120",
+      "text": "“Yes, a hive,” repeated the Canadian, “and bees humming round it.”"
+    },
+    {
+      "id": "s121",
+      "text": "I approached, and was bound to believe my own eyes."
+    },
+    {
+      "id": "s122",
+      "text": "There at a hole bored in one of the dragon-trees were some thousands of these ingenious insects, so common in all the Canaries, and whose produce is so much esteemed."
+    },
+    {
+      "id": "s123",
+      "text": "Naturally enough, the Canadian wished to gather the honey, and I could not well oppose his wish."
+    },
+    {
+      "id": "s124",
+      "text": "A quantity of dry leaves, mixed with sulphur, he lit with a spark from his flint, and he began to smoke out the bees."
+    },
+    {
+      "id": "s125",
+      "text": "The humming ceased by degrees, and the hive eventually yielded several pounds of the sweetest honey, with which Ned Land filled his haversack."
+    },
+    {
+      "id": "s126",
+      "text": "“When I have mixed this honey with the paste of the artocarpus,” said he, “I shall be able to offer you a succulent cake.”"
+    },
+    {
+      "id": "s127",
+      "text": "“’Pon my word,” said Conseil, “it will be gingerbread.”"
+    },
+    {
+      "id": "s128",
+      "text": "“Never mind the gingerbread,” said I; “let us continue our interesting walk.”"
+    },
+    {
+      "id": "s129",
+      "text": "At every turn of the path we were following, the lake appeared in all its length and breadth."
+    },
+    {
+      "id": "s130",
+      "text": "The lantern lit up the whole of its peaceable surface, which knew neither ripple nor wave."
+    },
+    {
+      "id": "s131",
+      "text": "The _Nautilus_ remained perfectly immovable."
+    },
+    {
+      "id": "s132",
+      "text": "On the platform, and on the mountain, the ship’s crew were working like black shadows clearly carved against the luminous atmosphere."
+    },
+    {
+      "id": "s133",
+      "text": "We were now going round the highest crest of the first layers of rock which upheld the roof."
+    },
+    {
+      "id": "s134",
+      "text": "I then saw that bees were not the only representatives of the animal kingdom in the interior of this volcano."
+    },
+    {
+      "id": "s135",
+      "text": "Birds of prey hovered here and there in the shadows, or fled from their nests on the top of the rocks."
+    },
+    {
+      "id": "s136",
+      "text": "There were sparrow hawks, with white breasts, and kestrels, and down the slopes scampered, with their long legs, several fine fat bustards."
+    },
+    {
+      "id": "s137",
+      "text": "I leave anyone to imagine the covetousness of the Canadian at the sight of this savoury game, and whether he did not regret having no gun."
+    },
+    {
+      "id": "s138",
+      "text": "But he did his best to replace the lead by stones, and, after several fruitless attempts, he succeeded in wounding a magnificent bird."
+    },
+    {
+      "id": "s139",
+      "text": "To say that he risked his life twenty times before reaching it is but the truth; but he managed so well that the creature joined the honey-cakes in his bag."
+    },
+    {
+      "id": "s140",
+      "text": "We were now obliged to descend toward the shore, the crest becoming impracticable."
+    },
+    {
+      "id": "s141",
+      "text": "Above us the crater seemed to gape like the mouth of a well."
+    },
+    {
+      "id": "s142",
+      "text": "From this place the sky could be clearly seen, and clouds, dissipated by the west wind, leaving behind them, even on the summit of the mountain, their misty remnants—certain proof that they were only moderately high, for the volcano did not rise more than eight hundred feet above the level of the ocean."
+    },
+    {
+      "id": "s143",
+      "text": "Half an hour after the Canadian’s last exploit we had regained the inner shore."
+    },
+    {
+      "id": "s144",
+      "text": "Here the flora was represented by large carpets of marine crystal, a little umbelliferous plant very good to pickle, which also bears the name of pierce-stone and sea-fennel."
+    },
+    {
+      "id": "s145",
+      "text": "Conseil gathered some bundles of it."
+    },
+    {
+      "id": "s146",
+      "text": "As to the fauna, it might be counted by thousands of crustacea of all sorts, lobsters, crabs, spider-crabs, chameleon shrimps, and a large number of shells, rockfish, and limpets."
+    },
+    {
+      "id": "s147",
+      "text": "Three-quarters of an hour later we had finished our circuitous walk and were on board."
+    },
+    {
+      "id": "s148",
+      "text": "The crew had just finished loading the sodium, and the _Nautilus_ could have left that instant."
+    },
+    {
+      "id": "s149",
+      "text": "But Captain Nemo gave no order."
+    },
+    {
+      "id": "s150",
+      "text": "Did he wish to wait until night, and leave the submarine passage secretly?"
+    },
+    {
+      "id": "s151",
+      "text": "Perhaps so."
+    },
+    {
+      "id": "s152",
+      "text": "Whatever it might be, the next day, the _Nautilus_, having left its port, steered clear of all land at a few yards beneath the waves of the Atlantic."
+    }
+  ]
+}

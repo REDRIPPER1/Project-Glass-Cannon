@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-84-frankenstein-or-the-modern-prometheus",
+  "ebookId": "84",
+  "edition": "Project Gutenberg eBook #84; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-4",
+  "chapterTitle": "Chapter 4",
+  "contentHash": "sha256:6810703b14f74ec389e1b00fbabdbdb0ed4334bab52014c3ad6a109ef8fce20f",
+  "attribution": "Shelley, Mary Wollstonecraft, 1797-1851, Frankenstein; or, The modern Prometheus, Chapter 4. Source checked against Project Gutenberg eBook #84.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/84",
+    "textUrl": "https://www.gutenberg.org/cache/epub/84/pg84.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "From this day natural philosophy, and particularly chemistry, in the most comprehensive sense of the term, became nearly my sole occupation."
+    },
+    {
+      "id": "s2",
+      "text": "I read with ardour those works, so full of genius and discrimination, which modern inquirers have written on these subjects."
+    },
+    {
+      "id": "s3",
+      "text": "I attended the lectures and cultivated the acquaintance of the men of science of the university, and I found even in M."
+    },
+    {
+      "id": "s4",
+      "text": "Krempe a great deal of sound sense and real information, combined, it is true, with a repulsive physiognomy and manners, but not on that account the less valuable."
+    },
+    {
+      "id": "s5",
+      "text": "In M."
+    },
+    {
+      "id": "s6",
+      "text": "Waldman I found a true friend."
+    },
+    {
+      "id": "s7",
+      "text": "His gentleness was never tinged by dogmatism, and his instructions were given with an air of frankness and good nature that banished every idea of pedantry."
+    },
+    {
+      "id": "s8",
+      "text": "In a thousand ways he smoothed for me the path of knowledge and made the most abstruse inquiries clear and facile to my apprehension."
+    },
+    {
+      "id": "s9",
+      "text": "My application was at first fluctuating and uncertain; it gained strength as I proceeded and soon became so ardent and eager that the stars often disappeared in the light of morning whilst I was yet engaged in my laboratory."
+    },
+    {
+      "id": "s10",
+      "text": "As I applied so closely, it may be easily conceived that my progress was rapid."
+    },
+    {
+      "id": "s11",
+      "text": "My ardour was indeed the astonishment of the students, and my proficiency that of the masters."
+    },
+    {
+      "id": "s12",
+      "text": "Professor Krempe often asked me, with a sly smile, how Cornelius Agrippa went on, whilst M."
+    },
+    {
+      "id": "s13",
+      "text": "Waldman expressed the most heartfelt exultation in my progress."
+    },
+    {
+      "id": "s14",
+      "text": "Two years passed in this manner, during which I paid no visit to Geneva, but was engaged, heart and soul, in the pursuit of some discoveries which I hoped to make."
+    },
+    {
+      "id": "s15",
+      "text": "None but those who have experienced them can conceive of the enticements of science."
+    },
+    {
+      "id": "s16",
+      "text": "In other studies you go as far as others have gone before you, and there is nothing more to know; but in a scientific pursuit there is continual food for discovery and wonder."
+    },
+    {
+      "id": "s17",
+      "text": "A mind of moderate capacity which closely pursues one study must infallibly arrive at great proficiency in that study; and I, who continually sought the attainment of one object of pursuit and was solely wrapped up in this, improved so rapidly that at the end of two years I made some discoveries in the improvement of some chemical instruments, which procured me great esteem and admiration at the university."
+    },
+    {
+      "id": "s18",
+      "text": "When I had arrived at this point and had become as well acquainted with the theory and practice of natural philosophy as depended on the lessons of any of the professors at Ingolstadt, my residence there being no longer conducive to my improvements, I thought of returning to my friends and my native town, when an incident happened that protracted my stay."
+    },
+    {
+      "id": "s19",
+      "text": "One of the phenomena which had peculiarly attracted my attention was the structure of the human frame, and, indeed, any animal endued with life."
+    },
+    {
+      "id": "s20",
+      "text": "Whence, I often asked myself, did the principle of life proceed?"
+    },
+    {
+      "id": "s21",
+      "text": "It was a bold question, and one which has ever been considered as a mystery; yet with how many things are we upon the brink of becoming acquainted, if cowardice or carelessness did not restrain our inquiries."
+    },
+    {
+      "id": "s22",
+      "text": "I revolved these circumstances in my mind and determined thenceforth to apply myself more particularly to those branches of natural philosophy which relate to physiology."
+    },
+    {
+      "id": "s23",
+      "text": "Unless I had been animated by an almost supernatural enthusiasm, my application to this study would have been irksome and almost intolerable."
+    },
+    {
+      "id": "s24",
+      "text": "To examine the causes of life, we must first have recourse to death."
+    },
+    {
+      "id": "s25",
+      "text": "I became acquainted with the science of anatomy, but this was not sufficient; I must also observe the natural decay and corruption of the human body."
+    },
+    {
+      "id": "s26",
+      "text": "In my education my father had taken the greatest precautions that my mind should be impressed with no supernatural horrors."
+    },
+    {
+      "id": "s27",
+      "text": "I do not ever remember to have trembled at a tale of superstition or to have feared the apparition of a spirit."
+    },
+    {
+      "id": "s28",
+      "text": "Darkness had no effect upon my fancy, and a churchyard was to me merely the receptacle of bodies deprived of life, which, from being the seat of beauty and strength, had become food for the worm."
+    },
+    {
+      "id": "s29",
+      "text": "Now I was led to examine the cause and progress of this decay and forced to spend days and nights in vaults and charnel-houses."
+    },
+    {
+      "id": "s30",
+      "text": "My attention was fixed upon every object the most insupportable to the delicacy of the human feelings."
+    },
+    {
+      "id": "s31",
+      "text": "I saw how the fine form of man was degraded and wasted; I beheld the corruption of death succeed to the blooming cheek of life; I saw how the worm inherited the wonders of the eye and brain."
+    },
+    {
+      "id": "s32",
+      "text": "I paused, examining and analysing all the minutiae of causation, as exemplified in the change from life to death, and death to life, until from the midst of this darkness a sudden light broke in upon me—a light so brilliant and wondrous, yet so simple, that while I became dizzy with the immensity of the prospect which it illustrated, I was surprised that among so many men of genius who had directed their inquiries towards the same science, that I alone should be reserved to discover so astonishing a secret."
+    },
+    {
+      "id": "s33",
+      "text": "Remember, I am not recording the vision of a madman."
+    },
+    {
+      "id": "s34",
+      "text": "The sun does not more certainly shine in the heavens than that which I now affirm is true."
+    },
+    {
+      "id": "s35",
+      "text": "Some miracle might have produced it, yet the stages of the discovery were distinct and probable."
+    },
+    {
+      "id": "s36",
+      "text": "After days and nights of incredible labour and fatigue, I succeeded in discovering the cause of generation and life; nay, more, I became myself capable of bestowing animation upon lifeless matter."
+    },
+    {
+      "id": "s37",
+      "text": "The astonishment which I had at first experienced on this discovery soon gave place to delight and rapture."
+    },
+    {
+      "id": "s38",
+      "text": "After so much time spent in painful labour, to arrive at once at the summit of my desires was the most gratifying consummation of my toils."
+    },
+    {
+      "id": "s39",
+      "text": "But this discovery was so great and overwhelming that all the steps by which I had been progressively led to it were obliterated, and I beheld only the result."
+    },
+    {
+      "id": "s40",
+      "text": "What had been the study and desire of the wisest men since the creation of the world was now within my grasp."
+    },
+    {
+      "id": "s41",
+      "text": "Not that, like a magic scene, it all opened upon me at once: the information I had obtained was of a nature rather to direct my endeavours so soon as I should point them towards the object of my search than to exhibit that object already accomplished."
+    },
+    {
+      "id": "s42",
+      "text": "I was like the Arabian who had been buried with the dead and found a passage to life, aided only by one glimmering and seemingly ineffectual light."
+    },
+    {
+      "id": "s43",
+      "text": "I see by your eagerness and the wonder and hope which your eyes express, my friend, that you expect to be informed of the secret with which I am acquainted; that cannot be; listen patiently until the end of my story, and you will easily perceive why I am reserved upon that subject."
+    },
+    {
+      "id": "s44",
+      "text": "I will not lead you on, unguarded and ardent as I then was, to your destruction and infallible misery."
+    },
+    {
+      "id": "s45",
+      "text": "Learn from me, if not by my precepts, at least by my example, how dangerous is the acquirement of knowledge and how much happier that man is who believes his native town to be the world, than he who aspires to become greater than his nature will allow."
+    },
+    {
+      "id": "s46",
+      "text": "When I found so astonishing a power placed within my hands, I hesitated a long time concerning the manner in which I should employ it."
+    },
+    {
+      "id": "s47",
+      "text": "Although I possessed the capacity of bestowing animation, yet to prepare a frame for the reception of it, with all its intricacies of fibres, muscles, and veins, still remained a work of inconceivable difficulty and labour."
+    },
+    {
+      "id": "s48",
+      "text": "I doubted at first whether I should attempt the creation of a being like myself, or one of simpler organization; but my imagination was too much exalted by my first success to permit me to doubt of my ability to give life to an animal as complex and wonderful as man."
+    },
+    {
+      "id": "s49",
+      "text": "The materials at present within my command hardly appeared adequate to so arduous an undertaking, but I doubted not that I should ultimately succeed."
+    },
+    {
+      "id": "s50",
+      "text": "I prepared myself for a multitude of reverses; my operations might be incessantly baffled, and at last my work be imperfect, yet when I considered the improvement which every day takes place in science and mechanics, I was encouraged to hope my present attempts would at least lay the foundations of future success."
+    },
+    {
+      "id": "s51",
+      "text": "Nor could I consider the magnitude and complexity of my plan as any argument of its impracticability."
+    },
+    {
+      "id": "s52",
+      "text": "It was with these feelings that I began the creation of a human being."
+    },
+    {
+      "id": "s53",
+      "text": "As the minuteness of the parts formed a great hindrance to my speed, I resolved, contrary to my first intention, to make the being of a gigantic stature, that is to say, about eight feet in height, and proportionably large."
+    },
+    {
+      "id": "s54",
+      "text": "After having formed this determination and having spent some months in successfully collecting and arranging my materials, I began."
+    },
+    {
+      "id": "s55",
+      "text": "No one can conceive the variety of feelings which bore me onwards, like a hurricane, in the first enthusiasm of success."
+    },
+    {
+      "id": "s56",
+      "text": "Life and death appeared to me ideal bounds, which I should first break through, and pour a torrent of light into our dark world."
+    },
+    {
+      "id": "s57",
+      "text": "A new species would bless me as its creator and source; many happy and excellent natures would owe their being to me."
+    },
+    {
+      "id": "s58",
+      "text": "No father could claim the gratitude of his child so completely as I should deserve theirs."
+    },
+    {
+      "id": "s59",
+      "text": "Pursuing these reflections, I thought that if I could bestow animation upon lifeless matter, I might in process of time (although I now found it impossible) renew life where death had apparently devoted the body to corruption."
+    },
+    {
+      "id": "s60",
+      "text": "These thoughts supported my spirits, while I pursued my undertaking with unremitting ardour."
+    },
+    {
+      "id": "s61",
+      "text": "My cheek had grown pale with study, and my person had become emaciated with confinement."
+    },
+    {
+      "id": "s62",
+      "text": "Sometimes, on the very brink of certainty, I failed; yet still I clung to the hope which the next day or the next hour might realise."
+    },
+    {
+      "id": "s63",
+      "text": "One secret which I alone possessed was the hope to which I had dedicated myself; and the moon gazed on my midnight labours, while, with unrelaxed and breathless eagerness, I pursued nature to her hiding-places."
+    },
+    {
+      "id": "s64",
+      "text": "Who shall conceive the horrors of my secret toil as I dabbled among the unhallowed damps of the grave or tortured the living animal to animate the lifeless clay?"
+    },
+    {
+      "id": "s65",
+      "text": "My limbs now tremble, and my eyes swim with the remembrance; but then a resistless and almost frantic impulse urged me forward; I seemed to have lost all soul or sensation but for this one pursuit."
+    },
+    {
+      "id": "s66",
+      "text": "It was indeed but a passing trance, that only made me feel with renewed acuteness so soon as, the unnatural stimulus ceasing to operate, I had returned to my old habits."
+    },
+    {
+      "id": "s67",
+      "text": "I collected bones from charnel-houses and disturbed, with profane fingers, the tremendous secrets of the human frame."
+    },
+    {
+      "id": "s68",
+      "text": "In a solitary chamber, or rather cell, at the top of the house, and separated from all the other apartments by a gallery and staircase, I kept my workshop of filthy creation; my eyeballs were starting from their sockets in attending to the details of my employment."
+    },
+    {
+      "id": "s69",
+      "text": "The dissecting room and the slaughter-house furnished many of my materials; and often did my human nature turn with loathing from my occupation, whilst, still urged on by an eagerness which perpetually increased, I brought my work near to a conclusion."
+    },
+    {
+      "id": "s70",
+      "text": "The summer months passed while I was thus engaged, heart and soul, in one pursuit."
+    },
+    {
+      "id": "s71",
+      "text": "It was a most beautiful season; never did the fields bestow a more plentiful harvest or the vines yield a more luxuriant vintage, but my eyes were insensible to the charms of nature."
+    },
+    {
+      "id": "s72",
+      "text": "And the same feelings which made me neglect the scenes around me caused me also to forget those friends who were so many miles absent, and whom I had not seen for so long a time."
+    },
+    {
+      "id": "s73",
+      "text": "I knew my silence disquieted them, and I well remembered the words of my father: “I know that while you are pleased with yourself you will think of us with affection, and we shall hear regularly from you."
+    },
+    {
+      "id": "s74",
+      "text": "You must pardon me if I regard any interruption in your correspondence as a proof that your other duties are equally neglected.”"
+    },
+    {
+      "id": "s75",
+      "text": "I knew well therefore what would be my father’s feelings, but I could not tear my thoughts from my employment, loathsome in itself, but which had taken an irresistible hold of my imagination."
+    },
+    {
+      "id": "s76",
+      "text": "I wished, as it were, to procrastinate all that related to my feelings of affection until the great object, which swallowed up every habit of my nature, should be completed."
+    },
+    {
+      "id": "s77",
+      "text": "I then thought that my father would be unjust if he ascribed my neglect to vice or faultiness on my part, but I am now convinced that he was justified in conceiving that I should not be altogether free from blame."
+    },
+    {
+      "id": "s78",
+      "text": "A human being in perfection ought always to preserve a calm and peaceful mind and never to allow passion or a transitory desire to disturb his tranquillity."
+    },
+    {
+      "id": "s79",
+      "text": "I do not think that the pursuit of knowledge is an exception to this rule."
+    },
+    {
+      "id": "s80",
+      "text": "If the study to which you apply yourself has a tendency to weaken your affections and to destroy your taste for those simple pleasures in which no alloy can possibly mix, then that study is certainly unlawful, that is to say, not befitting the human mind."
+    },
+    {
+      "id": "s81",
+      "text": "If this rule were always observed; if no man allowed any pursuit whatsoever to interfere with the tranquillity of his domestic affections, Greece had not been enslaved, Cæsar would have spared his country, America would have been discovered more gradually, and the empires of Mexico and Peru had not been destroyed."
+    },
+    {
+      "id": "s82",
+      "text": "But I forget that I am moralizing in the most interesting part of my tale, and your looks remind me to proceed."
+    },
+    {
+      "id": "s83",
+      "text": "My father made no reproach in his letters and only took notice of my silence by inquiring into my occupations more particularly than before."
+    },
+    {
+      "id": "s84",
+      "text": "Winter, spring, and summer passed away during my labours; but I did not watch the blossom or the expanding leaves—sights which before always yielded me supreme delight—so deeply was I engrossed in my occupation."
+    },
+    {
+      "id": "s85",
+      "text": "The leaves of that year had withered before my work drew near to a close, and now every day showed me more plainly how well I had succeeded."
+    },
+    {
+      "id": "s86",
+      "text": "But my enthusiasm was checked by my anxiety, and I appeared rather like one doomed by slavery to toil in the mines, or any other unwholesome trade than an artist occupied by his favourite employment."
+    },
+    {
+      "id": "s87",
+      "text": "Every night I was oppressed by a slow fever, and I became nervous to a most painful degree; the fall of a leaf startled me, and I shunned my fellow creatures as if I had been guilty of a crime."
+    },
+    {
+      "id": "s88",
+      "text": "Sometimes I grew alarmed at the wreck I perceived that I had become; the energy of my purpose alone sustained me: my labours would soon end, and I believed that exercise and amusement would then drive away incipient disease; and I promised myself both of these when my creation should be complete."
+    }
+  ]
+}

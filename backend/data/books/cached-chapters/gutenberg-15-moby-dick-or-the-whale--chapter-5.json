@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-5",
+  "chapterTitle": "CHAPTER V.",
+  "contentHash": "sha256:ef86057854ff2565d080fc866bdd1a14e6f0056137a2aa131e1f5e8c71020ec9",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER V.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "BREAKFAST."
+    },
+    {
+      "id": "s2",
+      "text": "I quickly followed suit, and descending into the bar-room accosted the grinning landlord very pleasantly."
+    },
+    {
+      "id": "s3",
+      "text": "I cherished no malice towards him, though he had been skylarking with me not a little in the matter of my bedfellow."
+    },
+    {
+      "id": "s4",
+      "text": "However, a good laugh is a mighty good thing, and rather too scarce a good thing; the more’s the pity."
+    },
+    {
+      "id": "s5",
+      "text": "So, if any one man, in his own proper person, afford stuff for a good joke to anybody, let him not be backward, but let him cheerfully allow himself to spend and be spent in that way."
+    },
+    {
+      "id": "s6",
+      "text": "And the man that has anything bountifully laughable about him, be sure there is more in that man than you perhaps think for."
+    },
+    {
+      "id": "s7",
+      "text": "The bar-room was now full of the boarders who had been dropping in the night previous, and whom I had not as yet had a good look at."
+    },
+    {
+      "id": "s8",
+      "text": "They were nearly all whalemen; chief mates, and second mates, and third mates, and sea carpenters, and sea coopers, and sea blacksmiths, and harpooneers, and ship keepers; a brown and brawny company, with bosky beards; an unshorn, shaggy set, all wearing monkey jackets for morning gowns."
+    },
+    {
+      "id": "s9",
+      "text": "You could pretty plainly tell how long each one had been ashore."
+    },
+    {
+      "id": "s10",
+      "text": "This young fellow’s healthy cheek is like a sun-toasted pear in hue, and would seem to smell almost as musky; he cannot have been three days landed from his Indian voyage."
+    },
+    {
+      "id": "s11",
+      "text": "That man next him looks a few shades lighter; you might say a touch of satin wood is in him."
+    },
+    {
+      "id": "s12",
+      "text": "In the complexion of a third still lingers a tropic tawn, but slightly bleached withal; he doubtless has tarried whole weeks ashore."
+    },
+    {
+      "id": "s13",
+      "text": "But who could show a cheek like Queequeg? which, barred with various tints, seemed like the Andes’ western slope, to show forth in one array, contrasting climates, zone by zone."
+    },
+    {
+      "id": "s14",
+      "text": "“Grub, ho!” now cried the landlord, flinging open a door, and in we went to breakfast."
+    },
+    {
+      "id": "s15",
+      "text": "They say that men who have seen the world, thereby become quite at ease in manner, quite self-possessed in company."
+    },
+    {
+      "id": "s16",
+      "text": "Not always, though: Ledyard, the great New England traveller, and Mungo Park, the Scotch one; of all men, they possessed the least assurance in the parlor."
+    },
+    {
+      "id": "s17",
+      "text": "But perhaps the mere crossing of Siberia in a sledge drawn by dogs as Ledyard did, or the taking a long solitary walk on an empty stomach, in the negro heart of Africa, which was the sum of poor Mungo’s performances—this kind of travel, I say, may not be the very best mode of attaining a high social polish."
+    },
+    {
+      "id": "s18",
+      "text": "Still, for the most part, that sort of thing is to be had anywhere."
+    },
+    {
+      "id": "s19",
+      "text": "These reflections just here are occasioned by the circumstance that after we were all seated at the table, and I was preparing to hear some good stories about whaling; to my no small surprise, nearly every man maintained a profound silence."
+    },
+    {
+      "id": "s20",
+      "text": "And not only that, but they looked embarrassed."
+    },
+    {
+      "id": "s21",
+      "text": "Yes, here were a set of sea-dogs, many of whom without the slightest bashfulness had boarded great whales on the high seas—entire strangers to them—and duelled them dead without winking; and yet, here they sat at a social breakfast table—all of the same calling, all of kindred tastes—looking round as sheepishly at each other as though they had never been out of sight of some sheepfold among the Green Mountains."
+    },
+    {
+      "id": "s22",
+      "text": "A curious sight; these bashful bears, these timid warrior whalemen!"
+    },
+    {
+      "id": "s23",
+      "text": "But as for Queequeg—why, Queequeg sat there among them—at the head of the table, too, it so chanced; as cool as an icicle."
+    },
+    {
+      "id": "s24",
+      "text": "To be sure I cannot say much for his breeding."
+    },
+    {
+      "id": "s25",
+      "text": "His greatest admirer could not have cordially justified his bringing his harpoon into breakfast with him, and using it there without ceremony; reaching over the table with it, to the imminent jeopardy of many heads, and grappling the beefsteaks towards him."
+    },
+    {
+      "id": "s26",
+      "text": "But _that_ was certainly very coolly done by him, and every one knows that in most people’s estimation, to do anything coolly is to do it genteelly."
+    },
+    {
+      "id": "s27",
+      "text": "We will not speak of all Queequeg’s peculiarities here; how he eschewed coffee and hot rolls, and applied his undivided attention to beefsteaks, done rare."
+    },
+    {
+      "id": "s28",
+      "text": "Enough, that when breakfast was over he withdrew like the rest into the public room, lighted his tomahawk-pipe, and was sitting there quietly digesting and smoking with his inseparable hat on, when I sallied out for a stroll."
+    }
+  ]
+}

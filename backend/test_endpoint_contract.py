@@ -170,6 +170,10 @@ class EndpointContractTests(unittest.TestCase):
         self.assertEqual(alice["content"]["mode"], "cached-chapter")
         self.assertGreaterEqual(len(alice["content"]["sentences"]), 10)
         self.assertNotIn("url", str(alice["content"]).lower())
+        self.assertEqual(
+            self.main.get_chapter(self.profile_id, "gutenberg-11-alice-s-adventures-in-wonderland", "chapter-12")["content"]["mode"],
+            "cached-chapter",
+        )
         self.assertEqual(self.main.get_book_reader_reference(self.profile_id, "gutenberg-13-the-hunting-of-the-snark-an-agony-in-eight-fits")["content"]["mode"], "unavailable")
         self.assertFalse(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         self.main.set_demo_entitlement(self.profile_id, {"plan": "premium", "demoEntitlement": True})

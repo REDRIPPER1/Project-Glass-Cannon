@@ -1,0 +1,721 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-13",
+  "chapterTitle": "Part 2 — CHAPTER XIII",
+  "contentHash": "sha256:b78e916deb17a2a5b764d6dea90474e88c364ace2b6bd11acad488e9f5a474ed",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, Part 2 — CHAPTER XIII. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE ICEBERG"
+    },
+    {
+      "id": "s2",
+      "text": "The _Nautilus_ was steadily pursuing its southerly course, following the fiftieth meridian with considerable speed."
+    },
+    {
+      "id": "s3",
+      "text": "Did he wish to reach the pole?"
+    },
+    {
+      "id": "s4",
+      "text": "I did not think so, for every attempt to reach that point had hitherto failed."
+    },
+    {
+      "id": "s5",
+      "text": "Again, the season was far advanced, for in the Antarctic regions the 13th of March corresponds with the 13th of September of northern regions, which begin at the equinoctial season."
+    },
+    {
+      "id": "s6",
+      "text": "On the 14th of March I saw floating ice in latitude 55°, merely pale bits of debris from twenty to twenty-five feet long, forming banks over which the sea curled."
+    },
+    {
+      "id": "s7",
+      "text": "The _Nautilus_ remained on the surface of the ocean."
+    },
+    {
+      "id": "s8",
+      "text": "Ned Land, who had fished in the Arctic Seas, was familiar with its icebergs; but Conseil and I admired them for the first time."
+    },
+    {
+      "id": "s9",
+      "text": "In the atmosphere towards the southern horizon stretched a white dazzling band."
+    },
+    {
+      "id": "s10",
+      "text": "English whalers have given it the name of “ice blink.” However thick the clouds may be, it is always visible, and announces the presence of an ice pack or bank."
+    },
+    {
+      "id": "s11",
+      "text": "Accordingly, larger blocks soon appeared, whose brilliancy changed with the caprices of the fog."
+    },
+    {
+      "id": "s12",
+      "text": "Some of these masses showed green veins, as if long undulating lines had been traced with sulphate of copper; others resembled enormous amethysts with the light shining through them."
+    },
+    {
+      "id": "s13",
+      "text": "Some reflected the light of day upon a thousand crystal facets."
+    },
+    {
+      "id": "s14",
+      "text": "Others shaded with vivid calcareous reflections resembled a perfect town of marble."
+    },
+    {
+      "id": "s15",
+      "text": "The more we neared the south the more these floating islands increased both in number and importance."
+    },
+    {
+      "id": "s16",
+      "text": "At 60° lat. every pass had disappeared."
+    },
+    {
+      "id": "s17",
+      "text": "But, seeking carefully, Captain Nemo soon found a narrow opening, through which he boldly slipped, knowing, however, that it would close behind him."
+    },
+    {
+      "id": "s18",
+      "text": "Thus, guided by this clever hand, the _Nautilus_ passed through all the ice with a precision which quite charmed Conseil; icebergs or mountains, ice-fields or smooth plains, seeming to have no limits, drift-ice or floating ice-packs, plains broken up, called palchs when they are circular, and streams when they are made up of long strips."
+    },
+    {
+      "id": "s19",
+      "text": "The temperature was very low; the thermometer exposed to the air marked 2 deg. or 3° below zero, but we were warmly clad with fur, at the expense of the sea-bear and seal."
+    },
+    {
+      "id": "s20",
+      "text": "The interior of the _Nautilus_, warmed regularly by its electric apparatus, defied the most intense cold."
+    },
+    {
+      "id": "s21",
+      "text": "Besides, it would only have been necessary to go some yards beneath the waves to find a more bearable temperature."
+    },
+    {
+      "id": "s22",
+      "text": "Two months earlier we should have had perpetual daylight in these latitudes; but already we had had three or four hours of night, and by and by there would be six months of darkness in these circumpolar regions."
+    },
+    {
+      "id": "s23",
+      "text": "On the 15th of March we were in the latitude of New Shetland and South Orkney."
+    },
+    {
+      "id": "s24",
+      "text": "The Captain told me that formerly numerous tribes of seals inhabited them; but that English and American whalers, in their rage for destruction, massacred both old and young; thus, where there was once life and animation, they had left silence and death."
+    },
+    {
+      "id": "s25",
+      "text": "About eight o’clock on the morning of the 16th of March the _Nautilus_, following the fifty-fifth meridian, cut the Antarctic polar circle."
+    },
+    {
+      "id": "s26",
+      "text": "Ice surrounded us on all sides, and closed the horizon."
+    },
+    {
+      "id": "s27",
+      "text": "But Captain Nemo went from one opening to another, still going higher."
+    },
+    {
+      "id": "s28",
+      "text": "I cannot express my astonishment at the beauties of these new regions."
+    },
+    {
+      "id": "s29",
+      "text": "The ice took most surprising forms."
+    },
+    {
+      "id": "s30",
+      "text": "Here the grouping formed an oriental town, with innumerable mosques and minarets; there a fallen city thrown to the earth, as it were, by some convulsion of nature."
+    },
+    {
+      "id": "s31",
+      "text": "The whole aspect was constantly changed by the oblique rays of the sun, or lost in the greyish fog amidst hurricanes of snow."
+    },
+    {
+      "id": "s32",
+      "text": "Detonations and falls were heard on all sides, great overthrows of icebergs, which altered the whole landscape like a diorama."
+    },
+    {
+      "id": "s33",
+      "text": "Often seeing no exit, I thought we were definitely prisoners; but, instinct guiding him at the slightest indication, Captain Nemo would discover a new pass."
+    },
+    {
+      "id": "s34",
+      "text": "He was never mistaken when he saw the thin threads of bluish water trickling along the ice-fields; and I had no doubt that he had already ventured into the midst of these Antarctic seas before."
+    },
+    {
+      "id": "s35",
+      "text": "On the 16th of March, however, the ice-fields absolutely blocked our road."
+    },
+    {
+      "id": "s36",
+      "text": "It was not the iceberg itself, as yet, but vast fields cemented by the cold."
+    },
+    {
+      "id": "s37",
+      "text": "But this obstacle could not stop Captain Nemo: he hurled himself against it with frightful violence."
+    },
+    {
+      "id": "s38",
+      "text": "The _Nautilus_ entered the brittle mass like a wedge, and split it with frightful crackings."
+    },
+    {
+      "id": "s39",
+      "text": "It was the battering ram of the ancients hurled by infinite strength."
+    },
+    {
+      "id": "s40",
+      "text": "The ice, thrown high in the air, fell like hail around us."
+    },
+    {
+      "id": "s41",
+      "text": "By its own power of impulsion our apparatus made a canal for itself; some times carried away by its own impetus, it lodged on the ice-field, crushing it with its weight, and sometimes buried beneath it, dividing it by a simple pitching movement, producing large rents in it."
+    },
+    {
+      "id": "s42",
+      "text": "Violent gales assailed us at this time, accompanied by thick fogs, through which, from one end of the platform to the other, we could see nothing."
+    },
+    {
+      "id": "s43",
+      "text": "The wind blew sharply from all parts of the compass, and the snow lay in such hard heaps that we had to break it with blows of a pickaxe."
+    },
+    {
+      "id": "s44",
+      "text": "The temperature was always at 5 deg. below zero; every outward part of the _Nautilus_ was covered with ice."
+    },
+    {
+      "id": "s45",
+      "text": "A rigged vessel would have been entangled in the blocked up gorges."
+    },
+    {
+      "id": "s46",
+      "text": "A vessel without sails, with electricity for its motive power, and wanting no coal, could alone brave such high latitudes."
+    },
+    {
+      "id": "s47",
+      "text": "At length, on the 18th of March, after many useless assaults, the _Nautilus_ was positively blocked."
+    },
+    {
+      "id": "s48",
+      "text": "It was no longer either streams, packs, or ice-fields, but an interminable and immovable barrier, formed by mountains soldered together."
+    },
+    {
+      "id": "s49",
+      "text": "“An iceberg!” said the Canadian to me."
+    },
+    {
+      "id": "s50",
+      "text": "I knew that to Ned Land, as well as to all other navigators who had preceded us, this was an inevitable obstacle."
+    },
+    {
+      "id": "s51",
+      "text": "The sun appearing for an instant at noon, Captain Nemo took an observation as near as possible, which gave our situation at 51° 30′ long. and 67° 39′ of S. lat."
+    },
+    {
+      "id": "s52",
+      "text": "We had advanced one degree more in this Antarctic region."
+    },
+    {
+      "id": "s53",
+      "text": "Of the liquid surface of the sea there was no longer a glimpse."
+    },
+    {
+      "id": "s54",
+      "text": "Under the spur of the _Nautilus_ lay stretched a vast plain, entangled with confused blocks."
+    },
+    {
+      "id": "s55",
+      "text": "Here and there sharp points and slender needles rising to a height of 200 feet; further on a steep shore, hewn as it were with an axe and clothed with greyish tints; huge mirrors, reflecting a few rays of sunshine, half drowned in the fog."
+    },
+    {
+      "id": "s56",
+      "text": "And over this desolate face of nature a stern silence reigned, scarcely broken by the flapping of the wings of petrels and puffins."
+    },
+    {
+      "id": "s57",
+      "text": "Everything was frozen—even the noise."
+    },
+    {
+      "id": "s58",
+      "text": "The _Nautilus_ was then obliged to stop in its adventurous course amid these fields of ice."
+    },
+    {
+      "id": "s59",
+      "text": "In spite of our efforts, in spite of the powerful means employed to break up the ice, the _Nautilus_ remained immovable."
+    },
+    {
+      "id": "s60",
+      "text": "Generally, when we can proceed no further, we have return still open to us; but here return was as impossible as advance, for every pass had closed behind us; and for the few moments when we were stationary, we were likely to be entirely blocked, which did indeed happen about two o’clock in the afternoon, the fresh ice forming around its sides with astonishing rapidity."
+    },
+    {
+      "id": "s61",
+      "text": "I was obliged to admit that Captain Nemo was more than imprudent."
+    },
+    {
+      "id": "s62",
+      "text": "I was on the platform at that moment."
+    },
+    {
+      "id": "s63",
+      "text": "The Captain had been observing our situation for some time past, when he said to me:"
+    },
+    {
+      "id": "s64",
+      "text": "“Well, sir, what do you think of this?”"
+    },
+    {
+      "id": "s65",
+      "text": "“I think that we are caught, Captain.”"
+    },
+    {
+      "id": "s66",
+      "text": "[Illustration] The _Nautilus_ was blocked up"
+    },
+    {
+      "id": "s67",
+      "text": "“So, M."
+    },
+    {
+      "id": "s68",
+      "text": "Aronnax, you really think that the _Nautilus_ cannot disengage itself?”"
+    },
+    {
+      "id": "s69",
+      "text": "“With difficulty, Captain; for the season is already too far advanced for you to reckon on the breaking of the ice.”"
+    },
+    {
+      "id": "s70",
+      "text": "“Ah! sir,” said Captain Nemo, in an ironical tone, “you will always be the same."
+    },
+    {
+      "id": "s71",
+      "text": "You see nothing but difficulties and obstacles."
+    },
+    {
+      "id": "s72",
+      "text": "I affirm that not only can the _Nautilus_ disengage itself, but also that it can go further still.”"
+    },
+    {
+      "id": "s73",
+      "text": "“Further to the South?” I asked, looking at the Captain."
+    },
+    {
+      "id": "s74",
+      "text": "“Yes, sir; it shall go to the pole.”"
+    },
+    {
+      "id": "s75",
+      "text": "“To the pole!” I exclaimed, unable to repress a gesture of incredulity."
+    },
+    {
+      "id": "s76",
+      "text": "“Yes,” replied the Captain, coldly, “to the Antarctic pole—to that unknown point from whence springs every meridian of the globe."
+    },
+    {
+      "id": "s77",
+      "text": "You know whether I can do as I please with the _Nautilus!_”"
+    },
+    {
+      "id": "s78",
+      "text": "Yes, I knew that."
+    },
+    {
+      "id": "s79",
+      "text": "I knew that this man was bold, even to rashness."
+    },
+    {
+      "id": "s80",
+      "text": "But to conquer those obstacles which bristled round the South Pole, rendering it more inaccessible than the North, which had not yet been reached by the boldest navigators—was it not a mad enterprise, one which only a maniac would have conceived?"
+    },
+    {
+      "id": "s81",
+      "text": "It then came into my head to ask Captain Nemo if he had ever discovered that pole which had never yet been trodden by a human creature?"
+    },
+    {
+      "id": "s82",
+      "text": "“No, sir,” he replied; “but we will discover it together."
+    },
+    {
+      "id": "s83",
+      "text": "Where others have failed, I will not fail."
+    },
+    {
+      "id": "s84",
+      "text": "I have never yet led my _Nautilus_ so far into southern seas; but, I repeat, it shall go further yet.”"
+    },
+    {
+      "id": "s85",
+      "text": "“I can well believe you, Captain,” said I, in a slightly ironical tone."
+    },
+    {
+      "id": "s86",
+      "text": "“I believe you!"
+    },
+    {
+      "id": "s87",
+      "text": "Let us go ahead!"
+    },
+    {
+      "id": "s88",
+      "text": "There are no obstacles for us!"
+    },
+    {
+      "id": "s89",
+      "text": "Let us smash this iceberg!"
+    },
+    {
+      "id": "s90",
+      "text": "Let us blow it up; and, if it resists, let us give the _Nautilus_ wings to fly over it!”"
+    },
+    {
+      "id": "s91",
+      "text": "“Over it, sir!” said Captain Nemo, quietly; “no, not over it, but under it!”"
+    },
+    {
+      "id": "s92",
+      "text": "“Under it!” I exclaimed, a sudden idea of the Captain’s projects flashing upon my mind."
+    },
+    {
+      "id": "s93",
+      "text": "I understood; the wonderful qualities of the _Nautilus_ were going to serve us in this superhuman enterprise."
+    },
+    {
+      "id": "s94",
+      "text": "“I see we are beginning to understand one another, sir,” said the Captain, half smiling."
+    },
+    {
+      "id": "s95",
+      "text": "“You begin to see the possibility—I should say the success—of this attempt."
+    },
+    {
+      "id": "s96",
+      "text": "That which is impossible for an ordinary vessel is easy to the _Nautilus_."
+    },
+    {
+      "id": "s97",
+      "text": "If a continent lies before the pole, it must stop before the continent; but if, on the contrary, the pole is washed by open sea, it will go even to the pole.”"
+    },
+    {
+      "id": "s98",
+      "text": "“Certainly,” said I, carried away by the Captain’s reasoning; “if the surface of the sea is solidified by the ice, the lower depths are free by the Providential law which has placed the maximum of density of the waters of the ocean one degree higher than freezing-point; and, if I am not mistaken, the portion of this iceberg which is above the water is as one to four to that which is below.”"
+    },
+    {
+      "id": "s99",
+      "text": "“Very nearly, sir; for one foot of iceberg above the sea there are three below it."
+    },
+    {
+      "id": "s100",
+      "text": "If these ice mountains are not more than 300 feet above the surface, they are not more than 900 beneath."
+    },
+    {
+      "id": "s101",
+      "text": "And what are 900 feet to the _Nautilus?_”"
+    },
+    {
+      "id": "s102",
+      "text": "“Nothing, sir.”"
+    },
+    {
+      "id": "s103",
+      "text": "“It could even seek at greater depths that uniform temperature of sea-water, and there brave with impunity the thirty or forty degrees of surface cold.”"
+    },
+    {
+      "id": "s104",
+      "text": "“Just so, sir—just so,” I replied, getting animated."
+    },
+    {
+      "id": "s105",
+      "text": "“The only difficulty,” continued Captain Nemo, “is that of remaining several days without renewing our provision of air.”"
+    },
+    {
+      "id": "s106",
+      "text": "“Is that all?"
+    },
+    {
+      "id": "s107",
+      "text": "The _Nautilus_ has vast reservoirs; we can fill them, and they will supply us with all the oxygen we want.”"
+    },
+    {
+      "id": "s108",
+      "text": "“Well thought of, M."
+    },
+    {
+      "id": "s109",
+      "text": "Aronnax,” replied the Captain, smiling."
+    },
+    {
+      "id": "s110",
+      "text": "“But, not wishing you to accuse me of rashness, I will first give you all my objections.”"
+    },
+    {
+      "id": "s111",
+      "text": "“Have you any more to make?”"
+    },
+    {
+      "id": "s112",
+      "text": "“Only one."
+    },
+    {
+      "id": "s113",
+      "text": "It is possible, if the sea exists at the South Pole, that it may be covered; and, consequently, we shall be unable to come to the surface.”"
+    },
+    {
+      "id": "s114",
+      "text": "“Good, sir! but do you forget that the _Nautilus_ is armed with a powerful spur, and could we not send it diagonally against these fields of ice, which would open at the shocks.”"
+    },
+    {
+      "id": "s115",
+      "text": "“Ah! sir, you are full of ideas to-day.”"
+    },
+    {
+      "id": "s116",
+      "text": "“Besides, Captain,” I added, enthusiastically, “why should we not find the sea open at the South Pole as well as at the North?"
+    },
+    {
+      "id": "s117",
+      "text": "The frozen poles of the earth do not coincide, either in the southern or in the northern regions; and, until it is proved to the contrary, we may suppose either a continent or an ocean free from ice at these two points of the globe.”"
+    },
+    {
+      "id": "s118",
+      "text": "“I think so too, M."
+    },
+    {
+      "id": "s119",
+      "text": "Aronnax,” replied Captain Nemo."
+    },
+    {
+      "id": "s120",
+      "text": "“I only wish you to observe that, after having made so many objections to my project, you are now crushing me with arguments in its favour!”"
+    },
+    {
+      "id": "s121",
+      "text": "The preparations for this audacious attempt now began."
+    },
+    {
+      "id": "s122",
+      "text": "The powerful pumps of the _Nautilus_ were working air into the reservoirs and storing it at high pressure."
+    },
+    {
+      "id": "s123",
+      "text": "About four o’clock, Captain Nemo announced the closing of the panels on the platform."
+    },
+    {
+      "id": "s124",
+      "text": "I threw one last look at the massive iceberg which we were going to cross."
+    },
+    {
+      "id": "s125",
+      "text": "The weather was clear, the atmosphere pure enough, the cold very great, being 12° below zero; but, the wind having gone down, this temperature was not so unbearable."
+    },
+    {
+      "id": "s126",
+      "text": "About ten men mounted the sides of the _Nautilus_, armed with pickaxes to break the ice around the vessel, which was soon free."
+    },
+    {
+      "id": "s127",
+      "text": "The operation was quickly performed, for the fresh ice was still very thin."
+    },
+    {
+      "id": "s128",
+      "text": "We all went below."
+    },
+    {
+      "id": "s129",
+      "text": "The usual reservoirs were filled with the newly-liberated water, and the _Nautilus_ soon descended."
+    },
+    {
+      "id": "s130",
+      "text": "I had taken my place with Conseil in the saloon; through the open window we could see the lower beds of the Southern Ocean."
+    },
+    {
+      "id": "s131",
+      "text": "The thermometer went up, the needle of the compass deviated on the dial."
+    },
+    {
+      "id": "s132",
+      "text": "At about 900 feet, as Captain Nemo had foreseen, we were floating beneath the undulating bottom of the iceberg."
+    },
+    {
+      "id": "s133",
+      "text": "But the _Nautilus_ went lower still—it went to the depth of four hundred fathoms."
+    },
+    {
+      "id": "s134",
+      "text": "The temperature of the water at the surface showed twelve degrees, it was now only ten; we had gained two."
+    },
+    {
+      "id": "s135",
+      "text": "I need not say the temperature of the _Nautilus_ was raised by its heating apparatus to a much higher degree; every manœuvre was accomplished with wonderful precision."
+    },
+    {
+      "id": "s136",
+      "text": "“We shall pass it, if you please, sir,” said Conseil."
+    },
+    {
+      "id": "s137",
+      "text": "“I believe we shall,” I said, in a tone of firm conviction."
+    },
+    {
+      "id": "s138",
+      "text": "In this open sea, the _Nautilus_ had taken its course direct to the pole, without leaving the fifty-second meridian."
+    },
+    {
+      "id": "s139",
+      "text": "From 67° 30′ to 90 deg., twenty-two degrees and a half of latitude remained to travel; that is, about five hundred leagues."
+    },
+    {
+      "id": "s140",
+      "text": "The _Nautilus_ kept up a mean speed of twenty-six miles an hour—the speed of an express train."
+    },
+    {
+      "id": "s141",
+      "text": "If that was kept up, in forty hours we should reach the pole."
+    },
+    {
+      "id": "s142",
+      "text": "For a part of the night the novelty of the situation kept us at the window."
+    },
+    {
+      "id": "s143",
+      "text": "The sea was lit with the electric lantern; but it was deserted; fishes did not sojourn in these imprisoned waters; they only found there a passage to take them from the Antarctic Ocean to the open polar sea."
+    },
+    {
+      "id": "s144",
+      "text": "Our pace was rapid; we could feel it by the quivering of the long steel body."
+    },
+    {
+      "id": "s145",
+      "text": "About two in the morning I took some hours’ repose, and Conseil did the same."
+    },
+    {
+      "id": "s146",
+      "text": "In crossing the waist I did not meet Captain Nemo: I supposed him to be in the pilot’s cage."
+    },
+    {
+      "id": "s147",
+      "text": "The next morning, the 19th of March, I took my post once more in the saloon."
+    },
+    {
+      "id": "s148",
+      "text": "The electric log told me that the speed of the _Nautilus_ had been slackened."
+    },
+    {
+      "id": "s149",
+      "text": "It was then going towards the surface; but prudently emptying its reservoirs very slowly."
+    },
+    {
+      "id": "s150",
+      "text": "My heart beat fast."
+    },
+    {
+      "id": "s151",
+      "text": "Were we going to emerge and regain the open polar atmosphere?"
+    },
+    {
+      "id": "s152",
+      "text": "No!"
+    },
+    {
+      "id": "s153",
+      "text": "A shock told me that the _Nautilus_ had struck the bottom of the iceberg, still very thick, judging from the deadened sound."
+    },
+    {
+      "id": "s154",
+      "text": "We had in deed “struck,” to use a sea expression, but in an inverse sense, and at a thousand feet deep."
+    },
+    {
+      "id": "s155",
+      "text": "This would give three thousand feet of ice above us; one thousand being above the water-mark."
+    },
+    {
+      "id": "s156",
+      "text": "The iceberg was then higher than at its borders—not a very reassuring fact."
+    },
+    {
+      "id": "s157",
+      "text": "Several times that day the _Nautilus_ tried again, and every time it struck the wall which lay like a ceiling above it."
+    },
+    {
+      "id": "s158",
+      "text": "Sometimes it met with but 900 yards, only 200 of which rose above the surface."
+    },
+    {
+      "id": "s159",
+      "text": "It was twice the height it was when the _Nautilus_ had gone under the waves."
+    },
+    {
+      "id": "s160",
+      "text": "I carefully noted the different depths, and thus obtained a submarine profile of the chain as it was developed under the water."
+    },
+    {
+      "id": "s161",
+      "text": "That night no change had taken place in our situation."
+    },
+    {
+      "id": "s162",
+      "text": "Still ice between four and five hundred yards in depth!"
+    },
+    {
+      "id": "s163",
+      "text": "It was evidently diminishing, but, still, what a thickness between us and the surface of the ocean!"
+    },
+    {
+      "id": "s164",
+      "text": "It was then eight."
+    },
+    {
+      "id": "s165",
+      "text": "According to the daily custom on board the _Nautilus_, its air should have been renewed four hours ago; but I did not suffer much, although Captain Nemo had not yet made any demand upon his reserve of oxygen."
+    },
+    {
+      "id": "s166",
+      "text": "My sleep was painful that night; hope and fear besieged me by turns: I rose several times."
+    },
+    {
+      "id": "s167",
+      "text": "The groping of the _Nautilus_ continued."
+    },
+    {
+      "id": "s168",
+      "text": "About three in the morning, I noticed that the lower surface of the iceberg was only about fifty feet deep."
+    },
+    {
+      "id": "s169",
+      "text": "One hundred and fifty feet now separated us from the surface of the waters."
+    },
+    {
+      "id": "s170",
+      "text": "The iceberg was by degrees becoming an ice-field, the mountain a plain."
+    },
+    {
+      "id": "s171",
+      "text": "My eyes never left the manometer."
+    },
+    {
+      "id": "s172",
+      "text": "We were still rising diagonally to the surface, which sparkled under the electric rays."
+    },
+    {
+      "id": "s173",
+      "text": "The iceberg was stretching both above and beneath into lengthening slopes; mile after mile it was getting thinner."
+    },
+    {
+      "id": "s174",
+      "text": "At length, at six in the morning of that memorable day, the 19th of March, the door of the saloon opened, and Captain Nemo appeared."
+    },
+    {
+      "id": "s175",
+      "text": "“The sea is open!” was all he said."
+    }
+  ]
+}

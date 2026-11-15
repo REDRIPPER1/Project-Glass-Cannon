@@ -8,6 +8,7 @@ source URLs are never a runtime reader fallback.
 from __future__ import annotations
 
 from copy import deepcopy
+from functools import lru_cache
 import hashlib
 import json
 from pathlib import Path
@@ -19,7 +20,6 @@ REVIEWED_BOOKS_PATH = Path(__file__).resolve().parent / "data" / "books" / "revi
 QUEST_MAPPING_PATH = Path(__file__).resolve().parent / "data" / "books" / "quest-mappings.json"
 BOOK_QUIZZES_PATH = Path(__file__).resolve().parent / "data" / "books" / "book-quizzes.json"
 CACHED_CHAPTER_INDEX_PATH = Path(__file__).resolve().parent / "data" / "books" / "cached-chapter-index.json"
-CACHED_CHAPTER_DIRECTORY = Path(__file__).resolve().parent / "data" / "books" / "cached-chapters"
 DATA_DIRECTORY = Path(__file__).resolve().parent / "data"
 PROJECT_DIRECTORY = Path(__file__).resolve().parent.parent
 VALID_ACCESS_MODES = frozenset({"free", "subscription", "purchase-only"})
@@ -198,10 +198,50 @@ def load_book_catalog(
 def _cached_chapter_path(relative_path: object) -> Path:
     """Resolve an index entry only within the reviewed local content cache."""
     path_text = _text(relative_path, "Cached chapter path")
-    candidate = (PROJECT_DIRECTORY / path_text).resolve()
-    if CACHED_CHAPTER_DIRECTORY not in candidate.parents or candidate.suffix != ".json":
+    relative = Path(path_text)
+    expected_prefix = Path("backend") / "data" / "books" / "cached-chapters"
+    if (
+        relative.is_absolute()
+        or ".." in relative.parts
+        or relative.parent != expected_prefix
+        or relative.suffix != ".json"
+    ):
         raise BookCatalogError("Cached chapter index points outside reviewed local data")
-    return candidate
+    return PROJECT_DIRECTORY / relative
+
+
+@lru_cache(maxsize=4)
+def _cached_manifest_entries(path_text: str) -> tuple[dict[str, Any], ...]:
+    """Read the immutable index once for fast in-app chapter lookup."""
+    path = Path(path_text)
+    try:
+        with path.open(encoding="utf-8") as handle:
+            index = _object(json.load(handle), "Cached chapter index")
+    except (OSError, json.JSONDecodeError) as error:
+        raise BookCatalogError(f"Could not load cached chapter index from {path.name}") from error
+    if index.get("schemaVersion") != 1 or index.get("contentFormat") != "sentence-array-v1":
+        raise BookCatalogError("Cached chapter index must use sentence-array-v1 schema version 1")
+    entries = _rows(index.get("entries"), "Cached chapter index entries")
+    if not entries:
+        raise BookCatalogError("Cached chapter index must include at least one reviewed entry")
+    seen_pairs: set[tuple[str, str]] = set()
+    for entry in entries:
+        pair = (
+            _text(entry.get("bookId"), "Cached chapter bookId"),
+            _text(entry.get("chapterId"), "Cached chapter chapterId"),
+        )
+        if pair in seen_pairs:
+            raise BookCatalogError(f"Cached chapter index has duplicate entry for {pair[0]}/{pair[1]}")
+        seen_pairs.add(pair)
+        if not _text(entry.get("contentHash"), "Cached chapter contentHash").startswith("sha256:"):
+            raise BookCatalogError("Cached chapter contentHash must use sha256")
+        _cached_chapter_path(entry.get("path"))
+    return tuple(entries)
+
+
+def cached_chapter_entries(path: Path = CACHED_CHAPTER_INDEX_PATH) -> tuple[dict[str, Any], ...]:
+    """Return the checked manifest without opening every content file."""
+    return _cached_manifest_entries(str(path.resolve()))
 
 
 def _sentence_rows(value: object, context: str) -> list[dict[str, str]]:
@@ -220,8 +260,36 @@ def _sentence_rows(value: object, context: str) -> list[dict[str, str]]:
     return result
 
 
+def _validated_cached_sentences(entry: dict[str, Any], book: dict[str, Any]) -> list[dict[str, str]]:
+    """Load and hash-check one cache file after its manifest row is known."""
+    book_id = _text(entry.get("bookId"), "Cached chapter bookId")
+    chapter_id = _text(entry.get("chapterId"), "Cached chapter chapterId")
+    expected_hash = _text(entry.get("contentHash"), "Cached chapter contentHash")
+    if not expected_hash.startswith("sha256:"):
+        raise BookCatalogError("Cached chapter contentHash must use sha256")
+    path = _cached_chapter_path(entry.get("path"))
+    try:
+        with path.open(encoding="utf-8") as handle:
+            cached = _object(json.load(handle), f"Cached chapter {path.name}")
+    except (OSError, json.JSONDecodeError) as error:
+        raise BookCatalogError(f"Could not load cached chapter {path.name}") from error
+    if cached.get("schemaVersion") != 1:
+        raise BookCatalogError(f"Cached chapter {path.name} has an unsupported schema")
+    for field, expected in (("bookId", book_id), ("chapterId", chapter_id), ("contentHash", expected_hash)):
+        if cached.get(field) != expected:
+            raise BookCatalogError(f"Cached chapter {path.name} does not match its manifest")
+    if cached.get("ebookId") != book["source"]["ebookId"] or cached.get("edition") != book["edition"]:
+        raise BookCatalogError(f"Cached chapter {path.name} does not match its reviewed edition")
+    sentences = _sentence_rows(cached.get("sentences"), f"Cached chapter {path.name} sentences")
+    serialized = json.dumps(sentences, ensure_ascii=False, separators=(",", ":"))
+    digest = f"sha256:{hashlib.sha256(serialized.encode('utf-8')).hexdigest()}"
+    if digest != expected_hash:
+        raise BookCatalogError(f"Cached chapter {path.name} failed its content hash check")
+    return sentences
+
+
 def validate_cached_chapter_index(
-    value: object, catalog: dict[str, Any] | None = None
+    value: object, catalog: dict[str, Any] | None = None, validate_payloads: bool = True
 ) -> dict[str, Any]:
     """Check the manifest, exact book chapter, and immutable cached payload."""
     index = _object(value, "Cached chapter index")
@@ -249,33 +317,20 @@ def validate_cached_chapter_index(
         expected_hash = _text(entry.get("contentHash"), "Cached chapter contentHash")
         if not expected_hash.startswith("sha256:"):
             raise BookCatalogError("Cached chapter contentHash must use sha256")
-        path = _cached_chapter_path(entry.get("path"))
-        try:
-            with path.open(encoding="utf-8") as handle:
-                cached = _object(json.load(handle), f"Cached chapter {path.name}")
-        except (OSError, json.JSONDecodeError) as error:
-            raise BookCatalogError(f"Could not load cached chapter {path.name}") from error
-        if cached.get("schemaVersion") != 1:
-            raise BookCatalogError(f"Cached chapter {path.name} has an unsupported schema")
-        for field, expected in (("bookId", book_id), ("chapterId", chapter_id), ("contentHash", expected_hash)):
-            if cached.get(field) != expected:
-                raise BookCatalogError(f"Cached chapter {path.name} does not match its manifest")
-        if cached.get("ebookId") != book["source"]["ebookId"] or cached.get("edition") != book["edition"]:
-            raise BookCatalogError(f"Cached chapter {path.name} does not match its reviewed edition")
-        sentences = _sentence_rows(cached.get("sentences"), f"Cached chapter {path.name} sentences")
-        serialized = json.dumps(sentences, ensure_ascii=False, separators=(",", ":"))
-        digest = f"sha256:{hashlib.sha256(serialized.encode('utf-8')).hexdigest()}"
-        if digest != expected_hash:
-            raise BookCatalogError(f"Cached chapter {path.name} failed its content hash check")
+        _cached_chapter_path(entry.get("path"))
+        if validate_payloads:
+            _validated_cached_sentences(entry, book)
     return index
 
 
 def load_cached_chapter_index(
-    path: Path = CACHED_CHAPTER_INDEX_PATH, catalog: dict[str, Any] | None = None
+    path: Path = CACHED_CHAPTER_INDEX_PATH,
+    catalog: dict[str, Any] | None = None,
+    validate_payloads: bool = True,
 ) -> dict[str, Any]:
     try:
         with path.open(encoding="utf-8") as handle:
-            return deepcopy(validate_cached_chapter_index(json.load(handle), catalog))
+            return deepcopy(validate_cached_chapter_index(json.load(handle), catalog, validate_payloads))
     except (OSError, json.JSONDecodeError) as error:
         raise BookCatalogError(f"Could not load cached chapter index from {path.name}") from error
 
@@ -284,24 +339,21 @@ def cached_passage_for_chapter(
     book_id: str, chapter_id: str, catalog: dict[str, Any] | None = None
 ) -> list[dict[str, str]] | None:
     """Return one validated reviewed cache payload; never fetch a source URL."""
-    index = load_cached_chapter_index(catalog=catalog)
+    catalog = catalog or load_book_catalog()
     entry = next(
         (
             item
-            for item in index["entries"]
+            for item in cached_chapter_entries()
             if item["bookId"] == book_id and item["chapterId"] == chapter_id
         ),
         None,
     )
     if entry is None:
         return None
-    path = _cached_chapter_path(entry["path"])
-    try:
-        with path.open(encoding="utf-8") as handle:
-            cached = _object(json.load(handle), f"Cached chapter {path.name}")
-    except (OSError, json.JSONDecodeError) as error:
-        raise BookCatalogError(f"Could not load cached chapter {path.name}") from error
-    return _sentence_rows(cached.get("sentences"), f"Cached chapter {path.name} sentences")
+    book = next((item for item in catalog["books"] if item["id"] == book_id), None)
+    if book is None:
+        raise BookCatalogError(f"Cached chapter references unknown book {book_id}")
+    return _validated_cached_sentences(entry, book)
 
 
 def validate_quest_mappings(value: object, book_ids: set[str]) -> dict[str, Any]:
@@ -455,7 +507,7 @@ def book_index(catalog: dict[str, Any] | None = None) -> dict[str, dict[str, Any
         for book_id in {mapping["bookId"] for mapping in mappings}
     }
     cached_chapter_ids_by_book: dict[str, set[str]] = {}
-    for entry in load_cached_chapter_index(catalog=catalog)["entries"]:
+    for entry in cached_chapter_entries():
         cached_chapter_ids_by_book.setdefault(entry["bookId"], set()).add(entry["chapterId"])
     result: dict[str, dict[str, Any]] = {}
     for book in catalog["books"]:

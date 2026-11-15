@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-141-mansfield-park",
+  "ebookId": "141",
+  "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-20",
+  "chapterTitle": "CHAPTER XX",
+  "contentHash": "sha256:3eefc985323714171a2e075709175bfa65e8b32be25aa31490372467b471cd18",
+  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER XX. Source checked against Project Gutenberg eBook #141.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/141",
+    "textUrl": "https://www.gutenberg.org/cache/epub/141/pg141.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Edmund’s first object the next morning was to see his father alone, and give him a fair statement of the whole acting scheme, defending his own share in it as far only as he could then, in a soberer moment, feel his motives to deserve, and acknowledging, with perfect ingenuousness, that his concession had been attended with such partial good as to make his judgment in it very doubtful."
+    },
+    {
+      "id": "s2",
+      "text": "He was anxious, while vindicating himself, to say nothing unkind of the others: but there was only one amongst them whose conduct he could mention without some necessity of defence or palliation."
+    },
+    {
+      "id": "s3",
+      "text": "“We have all been more or less to blame,” said he, “every one of us, excepting Fanny."
+    },
+    {
+      "id": "s4",
+      "text": "Fanny is the only one who has judged rightly throughout; who has been consistent. _Her_ feelings have been steadily against it from first to last."
+    },
+    {
+      "id": "s5",
+      "text": "She never ceased to think of what was due to you."
+    },
+    {
+      "id": "s6",
+      "text": "You will find Fanny everything you could wish.”"
+    },
+    {
+      "id": "s7",
+      "text": "Sir Thomas saw all the impropriety of such a scheme among such a party, and at such a time, as strongly as his son had ever supposed he must; he felt it too much, indeed, for many words; and having shaken hands with Edmund, meant to try to lose the disagreeable impression, and forget how much he had been forgotten himself as soon as he could, after the house had been cleared of every object enforcing the remembrance, and restored to its proper state."
+    },
+    {
+      "id": "s8",
+      "text": "He did not enter into any remonstrance with his other children: he was more willing to believe they felt their error than to run the risk of investigation."
+    },
+    {
+      "id": "s9",
+      "text": "The reproof of an immediate conclusion of everything, the sweep of every preparation, would be sufficient."
+    },
+    {
+      "id": "s10",
+      "text": "There was one person, however, in the house, whom he could not leave to learn his sentiments merely through his conduct."
+    },
+    {
+      "id": "s11",
+      "text": "He could not help giving Mrs."
+    },
+    {
+      "id": "s12",
+      "text": "Norris a hint of his having hoped that her advice might have been interposed to prevent what her judgment must certainly have disapproved."
+    },
+    {
+      "id": "s13",
+      "text": "The young people had been very inconsiderate in forming the plan; they ought to have been capable of a better decision themselves; but they were young; and, excepting Edmund, he believed, of unsteady characters; and with greater surprise, therefore, he must regard her acquiescence in their wrong measures, her countenance of their unsafe amusements, than that such measures and such amusements should have been suggested."
+    },
+    {
+      "id": "s14",
+      "text": "Mrs."
+    },
+    {
+      "id": "s15",
+      "text": "Norris was a little confounded and as nearly being silenced as ever she had been in her life; for she was ashamed to confess having never seen any of the impropriety which was so glaring to Sir Thomas, and would not have admitted that her influence was insufficient—that she might have talked in vain."
+    },
+    {
+      "id": "s16",
+      "text": "Her only resource was to get out of the subject as fast as possible, and turn the current of Sir Thomas’s ideas into a happier channel."
+    },
+    {
+      "id": "s17",
+      "text": "She had a great deal to insinuate in her own praise as to _general_ attention to the interest and comfort of his family, much exertion and many sacrifices to glance at in the form of hurried walks and sudden removals from her own fireside, and many excellent hints of distrust and economy to Lady Bertram and Edmund to detail, whereby a most considerable saving had always arisen, and more than one bad servant been detected."
+    },
+    {
+      "id": "s18",
+      "text": "But her chief strength lay in Sotherton."
+    },
+    {
+      "id": "s19",
+      "text": "Her greatest support and glory was in having formed the connexion with the Rushworths. _There_ she was impregnable."
+    },
+    {
+      "id": "s20",
+      "text": "She took to herself all the credit of bringing Mr."
+    },
+    {
+      "id": "s21",
+      "text": "Rushworth’s admiration of Maria to any effect."
+    },
+    {
+      "id": "s22",
+      "text": "“If I had not been active,” said she, “and made a point of being introduced to his mother, and then prevailed on my sister to pay the first visit, I am as certain as I sit here that nothing would have come of it; for Mr."
+    },
+    {
+      "id": "s23",
+      "text": "Rushworth is the sort of amiable modest young man who wants a great deal of encouragement, and there were girls enough on the catch for him if we had been idle."
+    },
+    {
+      "id": "s24",
+      "text": "But I left no stone unturned."
+    },
+    {
+      "id": "s25",
+      "text": "I was ready to move heaven and earth to persuade my sister, and at last I did persuade her."
+    },
+    {
+      "id": "s26",
+      "text": "You know the distance to Sotherton; it was in the middle of winter, and the roads almost impassable, but I did persuade her.”"
+    },
+    {
+      "id": "s27",
+      "text": "“I know how great, how justly great, your influence is with Lady Bertram and her children, and am the more concerned that it should not have been—”"
+    },
+    {
+      "id": "s28",
+      "text": "“My dear Sir Thomas, if you had seen the state of the roads _that_ day!"
+    },
+    {
+      "id": "s29",
+      "text": "I thought we should never have got through them, though we had the four horses of course; and poor old coachman would attend us, out of his great love and kindness, though he was hardly able to sit the box on account of the rheumatism which I had been doctoring him for ever since Michaelmas."
+    },
+    {
+      "id": "s30",
+      "text": "I cured him at last; but he was very bad all the winter—and this was such a day, I could not help going to him up in his room before we set off to advise him not to venture: he was putting on his wig; so I said, ‘Coachman, you had much better not go; your Lady and I shall be very safe; you know how steady Stephen is, and Charles has been upon the leaders so often now, that I am sure there is no fear.’ But, however, I soon found it would not do; he was bent upon going, and as I hate to be worrying and officious, I said no more; but my heart quite ached for him at every jolt, and when we got into the rough lanes about Stoke, where, what with frost and snow upon beds of stones, it was worse than anything you can imagine, I was quite in an agony about him."
+    },
+    {
+      "id": "s31",
+      "text": "And then the poor horses too!"
+    },
+    {
+      "id": "s32",
+      "text": "To see them straining away!"
+    },
+    {
+      "id": "s33",
+      "text": "You know how I always feel for the horses."
+    },
+    {
+      "id": "s34",
+      "text": "And when we got to the bottom of Sandcroft Hill, what do you think I did?"
+    },
+    {
+      "id": "s35",
+      "text": "You will laugh at me; but I got out and walked up."
+    },
+    {
+      "id": "s36",
+      "text": "I did indeed."
+    },
+    {
+      "id": "s37",
+      "text": "It might not be saving them much, but it was something, and I could not bear to sit at my ease and be dragged up at the expense of those noble animals."
+    },
+    {
+      "id": "s38",
+      "text": "I caught a dreadful cold, but _that_ I did not regard."
+    },
+    {
+      "id": "s39",
+      "text": "My object was accomplished in the visit.”"
+    },
+    {
+      "id": "s40",
+      "text": "“I hope we shall always think the acquaintance worth any trouble that might be taken to establish it."
+    },
+    {
+      "id": "s41",
+      "text": "There is nothing very striking in Mr."
+    },
+    {
+      "id": "s42",
+      "text": "Rushworth’s manners, but I was pleased last night with what appeared to be his opinion on one subject: his decided preference of a quiet family party to the bustle and confusion of acting."
+    },
+    {
+      "id": "s43",
+      "text": "He seemed to feel exactly as one could wish.”"
+    },
+    {
+      "id": "s44",
+      "text": "“Yes, indeed, and the more you know of him the better you will like him."
+    },
+    {
+      "id": "s45",
+      "text": "He is not a shining character, but he has a thousand good qualities; and is so disposed to look up to you, that I am quite laughed at about it, for everybody considers it as my doing. ‘Upon my word, Mrs."
+    },
+    {
+      "id": "s46",
+      "text": "Norris,’ said Mrs."
+    },
+    {
+      "id": "s47",
+      "text": "Grant the other day, ‘if Mr."
+    },
+    {
+      "id": "s48",
+      "text": "Rushworth were a son of your own, he could not hold Sir Thomas in greater respect.’”"
+    },
+    {
+      "id": "s49",
+      "text": "Sir Thomas gave up the point, foiled by her evasions, disarmed by her flattery; and was obliged to rest satisfied with the conviction that where the present pleasure of those she loved was at stake, her kindness did sometimes overpower her judgment."
+    },
+    {
+      "id": "s50",
+      "text": "It was a busy morning with him."
+    },
+    {
+      "id": "s51",
+      "text": "Conversation with any of them occupied but a small part of it."
+    },
+    {
+      "id": "s52",
+      "text": "He had to reinstate himself in all the wonted concerns of his Mansfield life: to see his steward and his bailiff; to examine and compute, and, in the intervals of business, to walk into his stables and his gardens, and nearest plantations; but active and methodical, he had not only done all this before he resumed his seat as master of the house at dinner, he had also set the carpenter to work in pulling down what had been so lately put up in the billiard-room, and given the scene-painter his dismissal long enough to justify the pleasing belief of his being then at least as far off as Northampton."
+    },
+    {
+      "id": "s53",
+      "text": "The scene-painter was gone, having spoilt only the floor of one room, ruined all the coachman’s sponges, and made five of the under-servants idle and dissatisfied; and Sir Thomas was in hopes that another day or two would suffice to wipe away every outward memento of what had been, even to the destruction of every unbound copy of Lovers’ Vows in the house, for he was burning all that met his eye."
+    },
+    {
+      "id": "s54",
+      "text": "Mr."
+    },
+    {
+      "id": "s55",
+      "text": "Yates was beginning now to understand Sir Thomas’s intentions, though as far as ever from understanding their source."
+    },
+    {
+      "id": "s56",
+      "text": "He and his friend had been out with their guns the chief of the morning, and Tom had taken the opportunity of explaining, with proper apologies for his father’s particularity, what was to be expected."
+    },
+    {
+      "id": "s57",
+      "text": "Mr."
+    },
+    {
+      "id": "s58",
+      "text": "Yates felt it as acutely as might be supposed."
+    },
+    {
+      "id": "s59",
+      "text": "To be a second time disappointed in the same way was an instance of very severe ill-luck; and his indignation was such, that had it not been for delicacy towards his friend, and his friend’s youngest sister, he believed he should certainly attack the baronet on the absurdity of his proceedings, and argue him into a little more rationality."
+    },
+    {
+      "id": "s60",
+      "text": "He believed this very stoutly while he was in Mansfield Wood, and all the way home; but there was a something in Sir Thomas, when they sat round the same table, which made Mr."
+    },
+    {
+      "id": "s61",
+      "text": "Yates think it wiser to let him pursue his own way, and feel the folly of it without opposition."
+    },
+    {
+      "id": "s62",
+      "text": "He had known many disagreeable fathers before, and often been struck with the inconveniences they occasioned, but never, in the whole course of his life, had he seen one of that class so unintelligibly moral, so infamously tyrannical as Sir Thomas."
+    },
+    {
+      "id": "s63",
+      "text": "He was not a man to be endured but for his children’s sake, and he might be thankful to his fair daughter Julia that Mr."
+    },
+    {
+      "id": "s64",
+      "text": "Yates did yet mean to stay a few days longer under his roof."
+    },
+    {
+      "id": "s65",
+      "text": "The evening passed with external smoothness, though almost every mind was ruffled; and the music which Sir Thomas called for from his daughters helped to conceal the want of real harmony."
+    },
+    {
+      "id": "s66",
+      "text": "Maria was in a good deal of agitation."
+    },
+    {
+      "id": "s67",
+      "text": "It was of the utmost consequence to her that Crawford should now lose no time in declaring himself, and she was disturbed that even a day should be gone by without seeming to advance that point."
+    },
+    {
+      "id": "s68",
+      "text": "She had been expecting to see him the whole morning, and all the evening, too, was still expecting him."
+    },
+    {
+      "id": "s69",
+      "text": "Mr."
+    },
+    {
+      "id": "s70",
+      "text": "Rushworth had set off early with the great news for Sotherton; and she had fondly hoped for such an immediate _eclaircissement_ as might save him the trouble of ever coming back again."
+    },
+    {
+      "id": "s71",
+      "text": "But they had seen no one from the Parsonage, not a creature, and had heard no tidings beyond a friendly note of congratulation and inquiry from Mrs."
+    },
+    {
+      "id": "s72",
+      "text": "Grant to Lady Bertram."
+    },
+    {
+      "id": "s73",
+      "text": "It was the first day for many, many weeks, in which the families had been wholly divided."
+    },
+    {
+      "id": "s74",
+      "text": "Four-and-twenty hours had never passed before, since August began, without bringing them together in some way or other."
+    },
+    {
+      "id": "s75",
+      "text": "It was a sad, anxious day; and the morrow, though differing in the sort of evil, did by no means bring less."
+    },
+    {
+      "id": "s76",
+      "text": "A few moments of feverish enjoyment were followed by hours of acute suffering."
+    },
+    {
+      "id": "s77",
+      "text": "Henry Crawford was again in the house: he walked up with Dr."
+    },
+    {
+      "id": "s78",
+      "text": "Grant, who was anxious to pay his respects to Sir Thomas, and at rather an early hour they were ushered into the breakfast-room, where were most of the family."
+    },
+    {
+      "id": "s79",
+      "text": "Sir Thomas soon appeared, and Maria saw with delight and agitation the introduction of the man she loved to her father."
+    },
+    {
+      "id": "s80",
+      "text": "Her sensations were indefinable, and so were they a few minutes afterwards upon hearing Henry Crawford, who had a chair between herself and Tom, ask the latter in an undervoice whether there were any plans for resuming the play after the present happy interruption (with a courteous glance at Sir Thomas), because, in that case, he should make a point of returning to Mansfield at any time required by the party: he was going away immediately, being to meet his uncle at Bath without delay; but if there were any prospect of a renewal of Lovers’ Vows, he should hold himself positively engaged, he should break through every other claim, he should absolutely condition with his uncle for attending them whenever he might be wanted."
+    },
+    {
+      "id": "s81",
+      "text": "The play should not be lost by _his_ absence."
+    },
+    {
+      "id": "s82",
+      "text": "“From Bath, Norfolk, London, York, wherever I may be,” said he; “I will attend you from any place in England, at an hour’s notice.”"
+    },
+    {
+      "id": "s83",
+      "text": "It was well at that moment that Tom had to speak, and not his sister."
+    },
+    {
+      "id": "s84",
+      "text": "He could immediately say with easy fluency, “I am sorry you are going; but as to our play, _that_ is all over—entirely at an end” (looking significantly at his father)."
+    },
+    {
+      "id": "s85",
+      "text": "“The painter was sent off yesterday, and very little will remain of the theatre to-morrow."
+    },
+    {
+      "id": "s86",
+      "text": "I knew how _that_ would be from the first."
+    },
+    {
+      "id": "s87",
+      "text": "It is early for Bath."
+    },
+    {
+      "id": "s88",
+      "text": "You will find nobody there.”"
+    },
+    {
+      "id": "s89",
+      "text": "“It is about my uncle’s usual time.”"
+    },
+    {
+      "id": "s90",
+      "text": "“When do you think of going?”"
+    },
+    {
+      "id": "s91",
+      "text": "“I may, perhaps, get as far as Banbury to-day.”"
+    },
+    {
+      "id": "s92",
+      "text": "“Whose stables do you use at Bath?” was the next question; and while this branch of the subject was under discussion, Maria, who wanted neither pride nor resolution, was preparing to encounter her share of it with tolerable calmness."
+    },
+    {
+      "id": "s93",
+      "text": "To her he soon turned, repeating much of what he had already said, with only a softened air and stronger expressions of regret."
+    },
+    {
+      "id": "s94",
+      "text": "But what availed his expressions or his air?"
+    },
+    {
+      "id": "s95",
+      "text": "He was going, and, if not voluntarily going, voluntarily intending to stay away; for, excepting what might be due to his uncle, his engagements were all self-imposed."
+    },
+    {
+      "id": "s96",
+      "text": "He might talk of necessity, but she knew his independence."
+    },
+    {
+      "id": "s97",
+      "text": "The hand which had so pressed hers to his heart! the hand and the heart were alike motionless and passive now!"
+    },
+    {
+      "id": "s98",
+      "text": "Her spirit supported her, but the agony of her mind was severe."
+    },
+    {
+      "id": "s99",
+      "text": "She had not long to endure what arose from listening to language which his actions contradicted, or to bury the tumult of her feelings under the restraint of society; for general civilities soon called his notice from her, and the farewell visit, as it then became openly acknowledged, was a very short one."
+    },
+    {
+      "id": "s100",
+      "text": "He was gone—he had touched her hand for the last time, he had made his parting bow, and she might seek directly all that solitude could do for her."
+    },
+    {
+      "id": "s101",
+      "text": "Henry Crawford was gone, gone from the house, and within two hours afterwards from the parish; and so ended all the hopes his selfish vanity had raised in Maria and Julia Bertram."
+    },
+    {
+      "id": "s102",
+      "text": "Julia could rejoice that he was gone."
+    },
+    {
+      "id": "s103",
+      "text": "His presence was beginning to be odious to her; and if Maria gained him not, she was now cool enough to dispense with any other revenge."
+    },
+    {
+      "id": "s104",
+      "text": "She did not want exposure to be added to desertion."
+    },
+    {
+      "id": "s105",
+      "text": "Henry Crawford gone, she could even pity her sister."
+    },
+    {
+      "id": "s106",
+      "text": "With a purer spirit did Fanny rejoice in the intelligence."
+    },
+    {
+      "id": "s107",
+      "text": "She heard it at dinner, and felt it a blessing."
+    },
+    {
+      "id": "s108",
+      "text": "By all the others it was mentioned with regret; and his merits honoured with due gradation of feeling—from the sincerity of Edmund’s too partial regard, to the unconcern of his mother speaking entirely by rote."
+    },
+    {
+      "id": "s109",
+      "text": "Mrs."
+    },
+    {
+      "id": "s110",
+      "text": "Norris began to look about her, and wonder that his falling in love with Julia had come to nothing; and could almost fear that she had been remiss herself in forwarding it; but with so many to care for, how was it possible for even _her_ activity to keep pace with her wishes?"
+    },
+    {
+      "id": "s111",
+      "text": "Another day or two, and Mr."
+    },
+    {
+      "id": "s112",
+      "text": "Yates was gone likewise."
+    },
+    {
+      "id": "s113",
+      "text": "In _his_ departure Sir Thomas felt the chief interest: wanting to be alone with his family, the presence of a stranger superior to Mr."
+    },
+    {
+      "id": "s114",
+      "text": "Yates must have been irksome; but of him, trifling and confident, idle and expensive, it was every way vexatious."
+    },
+    {
+      "id": "s115",
+      "text": "In himself he was wearisome, but as the friend of Tom and the admirer of Julia he became offensive."
+    },
+    {
+      "id": "s116",
+      "text": "Sir Thomas had been quite indifferent to Mr."
+    },
+    {
+      "id": "s117",
+      "text": "Crawford’s going or staying: but his good wishes for Mr."
+    },
+    {
+      "id": "s118",
+      "text": "Yates’s having a pleasant journey, as he walked with him to the hall-door, were given with genuine satisfaction."
+    },
+    {
+      "id": "s119",
+      "text": "Mr."
+    },
+    {
+      "id": "s120",
+      "text": "Yates had staid to see the destruction of every theatrical preparation at Mansfield, the removal of everything appertaining to the play: he left the house in all the soberness of its general character; and Sir Thomas hoped, in seeing him out of it, to be rid of the worst object connected with the scheme, and the last that must be inevitably reminding him of its existence."
+    },
+    {
+      "id": "s121",
+      "text": "Mrs."
+    },
+    {
+      "id": "s122",
+      "text": "Norris contrived to remove one article from his sight that might have distressed him."
+    },
+    {
+      "id": "s123",
+      "text": "The curtain, over which she had presided with such talent and such success, went off with her to her cottage, where she happened to be particularly in want of green baize."
+    }
+  ]
+}

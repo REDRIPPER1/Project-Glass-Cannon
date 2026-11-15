@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-11-alice-s-adventures-in-wonderland",
+  "ebookId": "11",
+  "edition": "Project Gutenberg eBook #11; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-5",
+  "chapterTitle": "CHAPTER V.",
+  "contentHash": "sha256:a8b2540874c8a9c3df901303289d57134f7a246d68ea1bd0f9e8286d6c1722c8",
+  "attribution": "Carroll, Lewis, 1832-1898, Alice's Adventures in Wonderland, CHAPTER V.. Source checked against Project Gutenberg eBook #11.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/11",
+    "textUrl": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Advice from a Caterpillar"
+    },
+    {
+      "id": "s2",
+      "text": "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice."
+    },
+    {
+      "id": "s3",
+      "text": "“Who are _you?_” said the Caterpillar."
+    },
+    {
+      "id": "s4",
+      "text": "This was not an encouraging opening for a conversation."
+    },
+    {
+      "id": "s5",
+      "text": "Alice replied, rather shyly, “I—I hardly know, sir, just at present—at least I know who I _was_ when I got up this morning, but I think I must have been changed several times since then.”"
+    },
+    {
+      "id": "s6",
+      "text": "“What do you mean by that?” said the Caterpillar sternly."
+    },
+    {
+      "id": "s7",
+      "text": "“Explain yourself!”"
+    },
+    {
+      "id": "s8",
+      "text": "“I can’t explain _myself_, I’m afraid, sir,” said Alice, “because I’m not myself, you see.”"
+    },
+    {
+      "id": "s9",
+      "text": "“I don’t see,” said the Caterpillar."
+    },
+    {
+      "id": "s10",
+      "text": "“I’m afraid I can’t put it more clearly,” Alice replied very politely, “for I can’t understand it myself to begin with; and being so many different sizes in a day is very confusing.”"
+    },
+    {
+      "id": "s11",
+      "text": "“It isn’t,” said the Caterpillar."
+    },
+    {
+      "id": "s12",
+      "text": "“Well, perhaps you haven’t found it so yet,” said Alice; “but when you have to turn into a chrysalis—you will some day, you know—and then after that into a butterfly, I should think you’ll feel it a little queer, won’t you?”"
+    },
+    {
+      "id": "s13",
+      "text": "“Not a bit,” said the Caterpillar."
+    },
+    {
+      "id": "s14",
+      "text": "“Well, perhaps your feelings may be different,” said Alice; “all I know is, it would feel very queer to _me_.”"
+    },
+    {
+      "id": "s15",
+      "text": "“You!” said the Caterpillar contemptuously."
+    },
+    {
+      "id": "s16",
+      "text": "“Who are _you?_”"
+    },
+    {
+      "id": "s17",
+      "text": "Which brought them back again to the beginning of the conversation."
+    },
+    {
+      "id": "s18",
+      "text": "Alice felt a little irritated at the Caterpillar’s making such _very_ short remarks, and she drew herself up and said, very gravely, “I think, you ought to tell me who _you_ are, first.”"
+    },
+    {
+      "id": "s19",
+      "text": "“Why?” said the Caterpillar."
+    },
+    {
+      "id": "s20",
+      "text": "Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a _very_ unpleasant state of mind, she turned away."
+    },
+    {
+      "id": "s21",
+      "text": "“Come back!” the Caterpillar called after her."
+    },
+    {
+      "id": "s22",
+      "text": "“I’ve something important to say!”"
+    },
+    {
+      "id": "s23",
+      "text": "This sounded promising, certainly: Alice turned and came back again."
+    },
+    {
+      "id": "s24",
+      "text": "“Keep your temper,” said the Caterpillar."
+    },
+    {
+      "id": "s25",
+      "text": "“Is that all?” said Alice, swallowing down her anger as well as she could."
+    },
+    {
+      "id": "s26",
+      "text": "“No,” said the Caterpillar."
+    },
+    {
+      "id": "s27",
+      "text": "Alice thought she might as well wait, as she had nothing else to do, and perhaps after all it might tell her something worth hearing."
+    },
+    {
+      "id": "s28",
+      "text": "For some minutes it puffed away without speaking, but at last it unfolded its arms, took the hookah out of its mouth again, and said, “So you think you’re changed, do you?”"
+    },
+    {
+      "id": "s29",
+      "text": "“I’m afraid I am, sir,” said Alice; “I can’t remember things as I used—and I don’t keep the same size for ten minutes together!”"
+    },
+    {
+      "id": "s30",
+      "text": "“Can’t remember _what_ things?” said the Caterpillar."
+    },
+    {
+      "id": "s31",
+      "text": "“Well, I’ve tried to say “How doth the little busy bee,” but it all came different!” Alice replied in a very melancholy voice."
+    },
+    {
+      "id": "s32",
+      "text": "“Repeat, ‘_You are old, Father William_,’” said the Caterpillar."
+    },
+    {
+      "id": "s33",
+      "text": "Alice folded her hands, and began:—"
+    },
+    {
+      "id": "s34",
+      "text": "“You are old, Father William,” the young man said, “And your hair has become very white; And yet you incessantly stand on your head— Do you think, at your age, it is right?”"
+    },
+    {
+      "id": "s35",
+      "text": "“In my youth,” Father William replied to his son, “I feared it might injure the brain; But, now that I’m perfectly sure I have none, Why, I do it again and again.”"
+    },
+    {
+      "id": "s36",
+      "text": "“You are old,” said the youth, “as I mentioned before, And have grown most uncommonly fat; Yet you turned a back-somersault in at the door— Pray, what is the reason of that?”"
+    },
+    {
+      "id": "s37",
+      "text": "“In my youth,” said the sage, as he shook his grey locks, “I kept all my limbs very supple By the use of this ointment—one shilling the box— Allow me to sell you a couple?”"
+    },
+    {
+      "id": "s38",
+      "text": "“You are old,” said the youth, “and your jaws are too weak For anything tougher than suet; Yet you finished the goose, with the bones and the beak— Pray, how did you manage to do it?”"
+    },
+    {
+      "id": "s39",
+      "text": "“In my youth,” said his father, “I took to the law, And argued each case with my wife; And the muscular strength, which it gave to my jaw, Has lasted the rest of my life.”"
+    },
+    {
+      "id": "s40",
+      "text": "“You are old,” said the youth, “one would hardly suppose That your eye was as steady as ever; Yet you balanced an eel on the end of your nose— What made you so awfully clever?”"
+    },
+    {
+      "id": "s41",
+      "text": "“I have answered three questions, and that is enough,” Said his father; “don’t give yourself airs!"
+    },
+    {
+      "id": "s42",
+      "text": "Do you think I can listen all day to such stuff?"
+    },
+    {
+      "id": "s43",
+      "text": "Be off, or I’ll kick you down stairs!”"
+    },
+    {
+      "id": "s44",
+      "text": "“That is not said right,” said the Caterpillar."
+    },
+    {
+      "id": "s45",
+      "text": "“Not _quite_ right, I’m afraid,” said Alice, timidly; “some of the words have got altered.”"
+    },
+    {
+      "id": "s46",
+      "text": "“It is wrong from beginning to end,” said the Caterpillar decidedly, and there was silence for some minutes."
+    },
+    {
+      "id": "s47",
+      "text": "The Caterpillar was the first to speak."
+    },
+    {
+      "id": "s48",
+      "text": "“What size do you want to be?” it asked."
+    },
+    {
+      "id": "s49",
+      "text": "“Oh, I’m not particular as to size,” Alice hastily replied; “only one doesn’t like changing so often, you know.”"
+    },
+    {
+      "id": "s50",
+      "text": "“I _don’t_ know,” said the Caterpillar."
+    },
+    {
+      "id": "s51",
+      "text": "Alice said nothing: she had never been so much contradicted in her life before, and she felt that she was losing her temper."
+    },
+    {
+      "id": "s52",
+      "text": "“Are you content now?” said the Caterpillar."
+    },
+    {
+      "id": "s53",
+      "text": "“Well, I should like to be a _little_ larger, sir, if you wouldn’t mind,” said Alice: “three inches is such a wretched height to be.”"
+    },
+    {
+      "id": "s54",
+      "text": "“It is a very good height indeed!” said the Caterpillar angrily, rearing itself upright as it spoke (it was exactly three inches high)."
+    },
+    {
+      "id": "s55",
+      "text": "“But I’m not used to it!” pleaded poor Alice in a piteous tone."
+    },
+    {
+      "id": "s56",
+      "text": "And she thought of herself, “I wish the creatures wouldn’t be so easily offended!”"
+    },
+    {
+      "id": "s57",
+      "text": "“You’ll get used to it in time,” said the Caterpillar; and it put the hookah into its mouth and began smoking again."
+    },
+    {
+      "id": "s58",
+      "text": "This time Alice waited patiently until it chose to speak again."
+    },
+    {
+      "id": "s59",
+      "text": "In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself."
+    },
+    {
+      "id": "s60",
+      "text": "Then it got down off the mushroom, and crawled away in the grass, merely remarking as it went, “One side will make you grow taller, and the other side will make you grow shorter.”"
+    },
+    {
+      "id": "s61",
+      "text": "“One side of _what?_ The other side of _what?_” thought Alice to herself."
+    },
+    {
+      "id": "s62",
+      "text": "“Of the mushroom,” said the Caterpillar, just as if she had asked it aloud; and in another moment it was out of sight."
+    },
+    {
+      "id": "s63",
+      "text": "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question."
+    },
+    {
+      "id": "s64",
+      "text": "However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand."
+    },
+    {
+      "id": "s65",
+      "text": "“And now which is which?” she said to herself, and nibbled a little of the right-hand bit to try the effect: the next moment she felt a violent blow underneath her chin: it had struck her foot!"
+    },
+    {
+      "id": "s66",
+      "text": "She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit."
+    },
+    {
+      "id": "s67",
+      "text": "Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit."
+    },
+    {
+      "id": "s68",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s69",
+      "text": "* * * * * *"
+    },
+    {
+      "id": "s70",
+      "text": "* * * * * * *"
+    },
+    {
+      "id": "s71",
+      "text": "“Come, my head’s free at last!” said Alice in a tone of delight, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her."
+    },
+    {
+      "id": "s72",
+      "text": "“What _can_ all that green stuff be?” said Alice."
+    },
+    {
+      "id": "s73",
+      "text": "“And where _have_ my shoulders got to?"
+    },
+    {
+      "id": "s74",
+      "text": "And oh, my poor hands, how is it I can’t see you?” She was moving them about as she spoke, but no result seemed to follow, except a little shaking among the distant green leaves."
+    },
+    {
+      "id": "s75",
+      "text": "As there seemed to be no chance of getting her hands up to her head, she tried to get her head down to them, and was delighted to find that her neck would bend about easily in any direction, like a serpent."
+    },
+    {
+      "id": "s76",
+      "text": "She had just succeeded in curving it down into a graceful zigzag, and was going to dive in among the leaves, which she found to be nothing but the tops of the trees under which she had been wandering, when a sharp hiss made her draw back in a hurry: a large pigeon had flown into her face, and was beating her violently with its wings."
+    },
+    {
+      "id": "s77",
+      "text": "“Serpent!” screamed the Pigeon."
+    },
+    {
+      "id": "s78",
+      "text": "“I’m _not_ a serpent!” said Alice indignantly."
+    },
+    {
+      "id": "s79",
+      "text": "“Let me alone!”"
+    },
+    {
+      "id": "s80",
+      "text": "“Serpent, I say again!” repeated the Pigeon, but in a more subdued tone, and added with a kind of sob, “I’ve tried every way, and nothing seems to suit them!”"
+    },
+    {
+      "id": "s81",
+      "text": "“I haven’t the least idea what you’re talking about,” said Alice."
+    },
+    {
+      "id": "s82",
+      "text": "“I’ve tried the roots of trees, and I’ve tried banks, and I’ve tried hedges,” the Pigeon went on, without attending to her; “but those serpents!"
+    },
+    {
+      "id": "s83",
+      "text": "There’s no pleasing them!”"
+    },
+    {
+      "id": "s84",
+      "text": "Alice was more and more puzzled, but she thought there was no use in saying anything more till the Pigeon had finished."
+    },
+    {
+      "id": "s85",
+      "text": "“As if it wasn’t trouble enough hatching the eggs,” said the Pigeon; “but I must be on the look-out for serpents night and day!"
+    },
+    {
+      "id": "s86",
+      "text": "Why, I haven’t had a wink of sleep these three weeks!”"
+    },
+    {
+      "id": "s87",
+      "text": "“I’m very sorry you’ve been annoyed,” said Alice, who was beginning to see its meaning."
+    },
+    {
+      "id": "s88",
+      "text": "“And just as I’d taken the highest tree in the wood,” continued the Pigeon, raising its voice to a shriek, “and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky!"
+    },
+    {
+      "id": "s89",
+      "text": "Ugh, Serpent!”"
+    },
+    {
+      "id": "s90",
+      "text": "“But I’m _not_ a serpent, I tell you!” said Alice."
+    },
+    {
+      "id": "s91",
+      "text": "“I’m a—I’m a—”"
+    },
+    {
+      "id": "s92",
+      "text": "“Well! _What_ are you?” said the Pigeon."
+    },
+    {
+      "id": "s93",
+      "text": "“I can see you’re trying to invent something!”"
+    },
+    {
+      "id": "s94",
+      "text": "“I—I’m a little girl,” said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day."
+    },
+    {
+      "id": "s95",
+      "text": "“A likely story indeed!” said the Pigeon in a tone of the deepest contempt."
+    },
+    {
+      "id": "s96",
+      "text": "“I’ve seen a good many little girls in my time, but never _one_ with such a neck as that!"
+    },
+    {
+      "id": "s97",
+      "text": "No, no!"
+    },
+    {
+      "id": "s98",
+      "text": "You’re a serpent; and there’s no use denying it."
+    },
+    {
+      "id": "s99",
+      "text": "I suppose you’ll be telling me next that you never tasted an egg!”"
+    },
+    {
+      "id": "s100",
+      "text": "“I _have_ tasted eggs, certainly,” said Alice, who was a very truthful child; “but little girls eat eggs quite as much as serpents do, you know.”"
+    },
+    {
+      "id": "s101",
+      "text": "“I don’t believe it,” said the Pigeon; “but if they do, why then they’re a kind of serpent, that’s all I can say.”"
+    },
+    {
+      "id": "s102",
+      "text": "This was such a new idea to Alice, that she was quite silent for a minute or two, which gave the Pigeon the opportunity of adding, “You’re looking for eggs, I know _that_ well enough; and what does it matter to me whether you’re a little girl or a serpent?”"
+    },
+    {
+      "id": "s103",
+      "text": "“It matters a good deal to _me_,” said Alice hastily; “but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want _yours_: I don’t like them raw.”"
+    },
+    {
+      "id": "s104",
+      "text": "“Well, be off, then!” said the Pigeon in a sulky tone, as it settled down again into its nest."
+    },
+    {
+      "id": "s105",
+      "text": "Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it."
+    },
+    {
+      "id": "s106",
+      "text": "After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height."
+    },
+    {
+      "id": "s107",
+      "text": "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual."
+    },
+    {
+      "id": "s108",
+      "text": "“Come, there’s half my plan done now!"
+    },
+    {
+      "id": "s109",
+      "text": "How puzzling all these changes are!"
+    },
+    {
+      "id": "s110",
+      "text": "I’m never sure what I’m going to be, from one minute to another!"
+    },
+    {
+      "id": "s111",
+      "text": "However, I’ve got back to my right size: the next thing is, to get into that beautiful garden—how _is_ that to be done, I wonder?” As she said this, she came suddenly upon an open place, with a little house in it about four feet high."
+    },
+    {
+      "id": "s112",
+      "text": "“Whoever lives there,” thought Alice, “it’ll never do to come upon them _this_ size: why, I should frighten them out of their wits!” So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high."
+    }
+  ]
+}

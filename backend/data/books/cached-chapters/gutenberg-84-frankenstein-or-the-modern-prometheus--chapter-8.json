@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-84-frankenstein-or-the-modern-prometheus",
+  "ebookId": "84",
+  "edition": "Project Gutenberg eBook #84; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-8",
+  "chapterTitle": "Chapter 8",
+  "contentHash": "sha256:6f68b356ebbdd800101a2fb09eff9876e1ef9410a9b716d8c3df4fabc1bb3384",
+  "attribution": "Shelley, Mary Wollstonecraft, 1797-1851, Frankenstein; or, The modern Prometheus, Chapter 8. Source checked against Project Gutenberg eBook #84.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/84",
+    "textUrl": "https://www.gutenberg.org/cache/epub/84/pg84.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "We passed a few sad hours until eleven o’clock, when the trial was to commence."
+    },
+    {
+      "id": "s2",
+      "text": "My father and the rest of the family being obliged to attend as witnesses, I accompanied them to the court."
+    },
+    {
+      "id": "s3",
+      "text": "During the whole of this wretched mockery of justice I suffered living torture."
+    },
+    {
+      "id": "s4",
+      "text": "It was to be decided whether the result of my curiosity and lawless devices would cause the death of two of my fellow beings: one a smiling babe full of innocence and joy, the other far more dreadfully murdered, with every aggravation of infamy that could make the murder memorable in horror."
+    },
+    {
+      "id": "s5",
+      "text": "Justine also was a girl of merit and possessed qualities which promised to render her life happy; now all was to be obliterated in an ignominious grave, and I the cause!"
+    },
+    {
+      "id": "s6",
+      "text": "A thousand times rather would I have confessed myself guilty of the crime ascribed to Justine, but I was absent when it was committed, and such a declaration would have been considered as the ravings of a madman and would not have exculpated her who suffered through me."
+    },
+    {
+      "id": "s7",
+      "text": "The appearance of Justine was calm."
+    },
+    {
+      "id": "s8",
+      "text": "She was dressed in mourning, and her countenance, always engaging, was rendered, by the solemnity of her feelings, exquisitely beautiful."
+    },
+    {
+      "id": "s9",
+      "text": "Yet she appeared confident in innocence and did not tremble, although gazed on and execrated by thousands, for all the kindness which her beauty might otherwise have excited was obliterated in the minds of the spectators by the imagination of the enormity she was supposed to have committed."
+    },
+    {
+      "id": "s10",
+      "text": "She was tranquil, yet her tranquillity was evidently constrained; and as her confusion had before been adduced as a proof of her guilt, she worked up her mind to an appearance of courage."
+    },
+    {
+      "id": "s11",
+      "text": "When she entered the court she threw her eyes round it and quickly discovered where we were seated."
+    },
+    {
+      "id": "s12",
+      "text": "A tear seemed to dim her eye when she saw us, but she quickly recovered herself, and a look of sorrowful affection seemed to attest her utter guiltlessness."
+    },
+    {
+      "id": "s13",
+      "text": "The trial began, and after the advocate against her had stated the charge, several witnesses were called."
+    },
+    {
+      "id": "s14",
+      "text": "Several strange facts combined against her, which might have staggered anyone who had not such proof of her innocence as I had."
+    },
+    {
+      "id": "s15",
+      "text": "She had been out the whole of the night on which the murder had been committed and towards morning had been perceived by a market-woman not far from the spot where the body of the murdered child had been afterwards found."
+    },
+    {
+      "id": "s16",
+      "text": "The woman asked her what she did there, but she looked very strangely and only returned a confused and unintelligible answer."
+    },
+    {
+      "id": "s17",
+      "text": "She returned to the house about eight o’clock, and when one inquired where she had passed the night, she replied that she had been looking for the child and demanded earnestly if anything had been heard concerning him."
+    },
+    {
+      "id": "s18",
+      "text": "When shown the body, she fell into violent hysterics and kept her bed for several days."
+    },
+    {
+      "id": "s19",
+      "text": "The picture was then produced which the servant had found in her pocket; and when Elizabeth, in a faltering voice, proved that it was the same which, an hour before the child had been missed, she had placed round his neck, a murmur of horror and indignation filled the court."
+    },
+    {
+      "id": "s20",
+      "text": "Justine was called on for her defence."
+    },
+    {
+      "id": "s21",
+      "text": "As the trial had proceeded, her countenance had altered."
+    },
+    {
+      "id": "s22",
+      "text": "Surprise, horror, and misery were strongly expressed."
+    },
+    {
+      "id": "s23",
+      "text": "Sometimes she struggled with her tears, but when she was desired to plead, she collected her powers and spoke in an audible although variable voice."
+    },
+    {
+      "id": "s24",
+      "text": "“God knows,” she said, “how entirely I am innocent."
+    },
+    {
+      "id": "s25",
+      "text": "But I do not pretend that my protestations should acquit me; I rest my innocence on a plain and simple explanation of the facts which have been adduced against me, and I hope the character I have always borne will incline my judges to a favourable interpretation where any circumstance appears doubtful or suspicious.”"
+    },
+    {
+      "id": "s26",
+      "text": "She then related that, by the permission of Elizabeth, she had passed the evening of the night on which the murder had been committed at the house of an aunt at Chêne, a village situated at about a league from Geneva."
+    },
+    {
+      "id": "s27",
+      "text": "On her return, at about nine o’clock, she met a man who asked her if she had seen anything of the child who was lost."
+    },
+    {
+      "id": "s28",
+      "text": "She was alarmed by this account and passed several hours in looking for him, when the gates of Geneva were shut, and she was forced to remain several hours of the night in a barn belonging to a cottage, being unwilling to call up the inhabitants, to whom she was well known."
+    },
+    {
+      "id": "s29",
+      "text": "Most of the night she spent here watching; towards morning she believed that she slept for a few minutes; some steps disturbed her, and she awoke."
+    },
+    {
+      "id": "s30",
+      "text": "It was dawn, and she quitted her asylum, that she might again endeavour to find my brother."
+    },
+    {
+      "id": "s31",
+      "text": "If she had gone near the spot where his body lay, it was without her knowledge."
+    },
+    {
+      "id": "s32",
+      "text": "That she had been bewildered when questioned by the market-woman was not surprising, since she had passed a sleepless night and the fate of poor William was yet uncertain."
+    },
+    {
+      "id": "s33",
+      "text": "Concerning the picture she could give no account."
+    },
+    {
+      "id": "s34",
+      "text": "“I know,” continued the unhappy victim, “how heavily and fatally this one circumstance weighs against me, but I have no power of explaining it; and when I have expressed my utter ignorance, I am only left to conjecture concerning the probabilities by which it might have been placed in my pocket."
+    },
+    {
+      "id": "s35",
+      "text": "But here also I am checked."
+    },
+    {
+      "id": "s36",
+      "text": "I believe that I have no enemy on earth, and none surely would have been so wicked as to destroy me wantonly."
+    },
+    {
+      "id": "s37",
+      "text": "Did the murderer place it there?"
+    },
+    {
+      "id": "s38",
+      "text": "I know of no opportunity afforded him for so doing; or, if I had, why should he have stolen the jewel, to part with it again so soon?"
+    },
+    {
+      "id": "s39",
+      "text": "“I commit my cause to the justice of my judges, yet I see no room for hope."
+    },
+    {
+      "id": "s40",
+      "text": "I beg permission to have a few witnesses examined concerning my character, and if their testimony shall not overweigh my supposed guilt, I must be condemned, although I would pledge my salvation on my innocence.”"
+    },
+    {
+      "id": "s41",
+      "text": "Several witnesses were called who had known her for many years, and they spoke well of her; but fear and hatred of the crime of which they supposed her guilty rendered them timorous and unwilling to come forward."
+    },
+    {
+      "id": "s42",
+      "text": "Elizabeth saw even this last resource, her excellent dispositions and irreproachable conduct, about to fail the accused, when, although violently agitated, she desired permission to address the court."
+    },
+    {
+      "id": "s43",
+      "text": "“I am,” said she, “the cousin of the unhappy child who was murdered, or rather his sister, for I was educated by and have lived with his parents ever since and even long before his birth."
+    },
+    {
+      "id": "s44",
+      "text": "It may therefore be judged indecent in me to come forward on this occasion, but when I see a fellow creature about to perish through the cowardice of her pretended friends, I wish to be allowed to speak, that I may say what I know of her character."
+    },
+    {
+      "id": "s45",
+      "text": "I am well acquainted with the accused."
+    },
+    {
+      "id": "s46",
+      "text": "I have lived in the same house with her, at one time for five and at another for nearly two years."
+    },
+    {
+      "id": "s47",
+      "text": "During all that period she appeared to me the most amiable and benevolent of human creatures."
+    },
+    {
+      "id": "s48",
+      "text": "She nursed Madame Frankenstein, my aunt, in her last illness, with the greatest affection and care and afterwards attended her own mother during a tedious illness, in a manner that excited the admiration of all who knew her, after which she again lived in my uncle’s house, where she was beloved by all the family."
+    },
+    {
+      "id": "s49",
+      "text": "She was warmly attached to the child who is now dead and acted towards him like a most affectionate mother."
+    },
+    {
+      "id": "s50",
+      "text": "For my own part, I do not hesitate to say that, notwithstanding all the evidence produced against her, I believe and rely on her perfect innocence."
+    },
+    {
+      "id": "s51",
+      "text": "She had no temptation for such an action; as to the bauble on which the chief proof rests, if she had earnestly desired it, I should have willingly given it to her, so much do I esteem and value her.”"
+    },
+    {
+      "id": "s52",
+      "text": "A murmur of approbation followed Elizabeth’s simple and powerful appeal, but it was excited by her generous interference, and not in favour of poor Justine, on whom the public indignation was turned with renewed violence, charging her with the blackest ingratitude."
+    },
+    {
+      "id": "s53",
+      "text": "She herself wept as Elizabeth spoke, but she did not answer."
+    },
+    {
+      "id": "s54",
+      "text": "My own agitation and anguish was extreme during the whole trial."
+    },
+    {
+      "id": "s55",
+      "text": "I believed in her innocence; I knew it."
+    },
+    {
+      "id": "s56",
+      "text": "Could the dæmon who had (I did not for a minute doubt) murdered my brother also in his hellish sport have betrayed the innocent to death and ignominy?"
+    },
+    {
+      "id": "s57",
+      "text": "I could not sustain the horror of my situation, and when I perceived that the popular voice and the countenances of the judges had already condemned my unhappy victim, I rushed out of the court in agony."
+    },
+    {
+      "id": "s58",
+      "text": "The tortures of the accused did not equal mine; she was sustained by innocence, but the fangs of remorse tore my bosom and would not forgo their hold."
+    },
+    {
+      "id": "s59",
+      "text": "I passed a night of unmingled wretchedness."
+    },
+    {
+      "id": "s60",
+      "text": "In the morning I went to the court; my lips and throat were parched."
+    },
+    {
+      "id": "s61",
+      "text": "I dared not ask the fatal question, but I was known, and the officer guessed the cause of my visit."
+    },
+    {
+      "id": "s62",
+      "text": "The ballots had been thrown; they were all black, and Justine was condemned."
+    },
+    {
+      "id": "s63",
+      "text": "I cannot pretend to describe what I then felt."
+    },
+    {
+      "id": "s64",
+      "text": "I had before experienced sensations of horror, and I have endeavoured to bestow upon them adequate expressions, but words cannot convey an idea of the heart-sickening despair that I then endured."
+    },
+    {
+      "id": "s65",
+      "text": "The person to whom I addressed myself added that Justine had already confessed her guilt."
+    },
+    {
+      "id": "s66",
+      "text": "“That evidence,” he observed, “was hardly required in so glaring a case, but I am glad of it, and, indeed, none of our judges like to condemn a criminal upon circumstantial evidence, be it ever so decisive.”"
+    },
+    {
+      "id": "s67",
+      "text": "This was strange and unexpected intelligence; what could it mean?"
+    },
+    {
+      "id": "s68",
+      "text": "Had my eyes deceived me?"
+    },
+    {
+      "id": "s69",
+      "text": "And was I really as mad as the whole world would believe me to be if I disclosed the object of my suspicions?"
+    },
+    {
+      "id": "s70",
+      "text": "I hastened to return home, and Elizabeth eagerly demanded the result."
+    },
+    {
+      "id": "s71",
+      "text": "“My cousin,” replied I, “it is decided as you may have expected; all judges had rather that ten innocent should suffer than that one guilty should escape."
+    },
+    {
+      "id": "s72",
+      "text": "But she has confessed.”"
+    },
+    {
+      "id": "s73",
+      "text": "This was a dire blow to poor Elizabeth, who had relied with firmness upon Justine’s innocence."
+    },
+    {
+      "id": "s74",
+      "text": "“Alas!” said she."
+    },
+    {
+      "id": "s75",
+      "text": "“How shall I ever again believe in human goodness?"
+    },
+    {
+      "id": "s76",
+      "text": "Justine, whom I loved and esteemed as my sister, how could she put on those smiles of innocence only to betray?"
+    },
+    {
+      "id": "s77",
+      "text": "Her mild eyes seemed incapable of any severity or guile, and yet she has committed a murder.”"
+    },
+    {
+      "id": "s78",
+      "text": "Soon after we heard that the poor victim had expressed a desire to see my cousin."
+    },
+    {
+      "id": "s79",
+      "text": "My father wished her not to go but said that he left it to her own judgment and feelings to decide."
+    },
+    {
+      "id": "s80",
+      "text": "“Yes,” said Elizabeth, “I will go, although she is guilty; and you, Victor, shall accompany me; I cannot go alone.” The idea of this visit was torture to me, yet I could not refuse."
+    },
+    {
+      "id": "s81",
+      "text": "We entered the gloomy prison chamber and beheld Justine sitting on some straw at the farther end; her hands were manacled, and her head rested on her knees."
+    },
+    {
+      "id": "s82",
+      "text": "She rose on seeing us enter, and when we were left alone with her, she threw herself at the feet of Elizabeth, weeping bitterly."
+    },
+    {
+      "id": "s83",
+      "text": "My cousin wept also."
+    },
+    {
+      "id": "s84",
+      "text": "“Oh, Justine!” said she."
+    },
+    {
+      "id": "s85",
+      "text": "“Why did you rob me of my last consolation?"
+    },
+    {
+      "id": "s86",
+      "text": "I relied on your innocence, and although I was then very wretched, I was not so miserable as I am now.”"
+    },
+    {
+      "id": "s87",
+      "text": "“And do you also believe that I am so very, very wicked?"
+    },
+    {
+      "id": "s88",
+      "text": "Do you also join with my enemies to crush me, to condemn me as a murderer?” Her voice was suffocated with sobs."
+    },
+    {
+      "id": "s89",
+      "text": "“Rise, my poor girl,” said Elizabeth; “why do you kneel, if you are innocent?"
+    },
+    {
+      "id": "s90",
+      "text": "I am not one of your enemies, I believed you guiltless, notwithstanding every evidence, until I heard that you had yourself declared your guilt."
+    },
+    {
+      "id": "s91",
+      "text": "That report, you say, is false; and be assured, dear Justine, that nothing can shake my confidence in you for a moment, but your own confession.”"
+    },
+    {
+      "id": "s92",
+      "text": "“I did confess, but I confessed a lie."
+    },
+    {
+      "id": "s93",
+      "text": "I confessed, that I might obtain absolution; but now that falsehood lies heavier at my heart than all my other sins."
+    },
+    {
+      "id": "s94",
+      "text": "The God of heaven forgive me!"
+    },
+    {
+      "id": "s95",
+      "text": "Ever since I was condemned, my confessor has besieged me; he threatened and menaced, until I almost began to think that I was the monster that he said I was."
+    },
+    {
+      "id": "s96",
+      "text": "He threatened excommunication and hell fire in my last moments if I continued obdurate."
+    },
+    {
+      "id": "s97",
+      "text": "Dear lady, I had none to support me; all looked on me as a wretch doomed to ignominy and perdition."
+    },
+    {
+      "id": "s98",
+      "text": "What could I do?"
+    },
+    {
+      "id": "s99",
+      "text": "In an evil hour I subscribed to a lie; and now only am I truly miserable.”"
+    },
+    {
+      "id": "s100",
+      "text": "She paused, weeping, and then continued, “I thought with horror, my sweet lady, that you should believe your Justine, whom your blessed aunt had so highly honoured, and whom you loved, was a creature capable of a crime which none but the devil himself could have perpetrated."
+    },
+    {
+      "id": "s101",
+      "text": "Dear William! dearest blessed child!"
+    },
+    {
+      "id": "s102",
+      "text": "I soon shall see you again in heaven, where we shall all be happy; and that consoles me, going as I am to suffer ignominy and death.”"
+    },
+    {
+      "id": "s103",
+      "text": "“Oh, Justine!"
+    },
+    {
+      "id": "s104",
+      "text": "Forgive me for having for one moment distrusted you."
+    },
+    {
+      "id": "s105",
+      "text": "Why did you confess?"
+    },
+    {
+      "id": "s106",
+      "text": "But do not mourn, dear girl."
+    },
+    {
+      "id": "s107",
+      "text": "Do not fear."
+    },
+    {
+      "id": "s108",
+      "text": "I will proclaim, I will prove your innocence."
+    },
+    {
+      "id": "s109",
+      "text": "I will melt the stony hearts of your enemies by my tears and prayers."
+    },
+    {
+      "id": "s110",
+      "text": "You shall not die!"
+    },
+    {
+      "id": "s111",
+      "text": "You, my playfellow, my companion, my sister, perish on the scaffold!"
+    },
+    {
+      "id": "s112",
+      "text": "No!"
+    },
+    {
+      "id": "s113",
+      "text": "No!"
+    },
+    {
+      "id": "s114",
+      "text": "I never could survive so horrible a misfortune.”"
+    },
+    {
+      "id": "s115",
+      "text": "Justine shook her head mournfully."
+    },
+    {
+      "id": "s116",
+      "text": "“I do not fear to die,” she said; “that pang is past."
+    },
+    {
+      "id": "s117",
+      "text": "God raises my weakness and gives me courage to endure the worst."
+    },
+    {
+      "id": "s118",
+      "text": "I leave a sad and bitter world; and if you remember me and think of me as of one unjustly condemned, I am resigned to the fate awaiting me."
+    },
+    {
+      "id": "s119",
+      "text": "Learn from me, dear lady, to submit in patience to the will of heaven!”"
+    },
+    {
+      "id": "s120",
+      "text": "During this conversation I had retired to a corner of the prison room, where I could conceal the horrid anguish that possessed me."
+    },
+    {
+      "id": "s121",
+      "text": "Despair!"
+    },
+    {
+      "id": "s122",
+      "text": "Who dared talk of that?"
+    },
+    {
+      "id": "s123",
+      "text": "The poor victim, who on the morrow was to pass the awful boundary between life and death, felt not, as I did, such deep and bitter agony."
+    },
+    {
+      "id": "s124",
+      "text": "I gnashed my teeth and ground them together, uttering a groan that came from my inmost soul."
+    },
+    {
+      "id": "s125",
+      "text": "Justine started."
+    },
+    {
+      "id": "s126",
+      "text": "When she saw who it was, she approached me and said, “Dear sir, you are very kind to visit me; you, I hope, do not believe that I am guilty?”"
+    },
+    {
+      "id": "s127",
+      "text": "I could not answer."
+    },
+    {
+      "id": "s128",
+      "text": "“No, Justine,” said Elizabeth; “he is more convinced of your innocence than I was, for even when he heard that you had confessed, he did not credit it.”"
+    },
+    {
+      "id": "s129",
+      "text": "“I truly thank him."
+    },
+    {
+      "id": "s130",
+      "text": "In these last moments I feel the sincerest gratitude towards those who think of me with kindness."
+    },
+    {
+      "id": "s131",
+      "text": "How sweet is the affection of others to such a wretch as I am!"
+    },
+    {
+      "id": "s132",
+      "text": "It removes more than half my misfortune, and I feel as if I could die in peace now that my innocence is acknowledged by you, dear lady, and your cousin.”"
+    },
+    {
+      "id": "s133",
+      "text": "Thus the poor sufferer tried to comfort others and herself."
+    },
+    {
+      "id": "s134",
+      "text": "She indeed gained the resignation she desired."
+    },
+    {
+      "id": "s135",
+      "text": "But I, the true murderer, felt the never-dying worm alive in my bosom, which allowed of no hope or consolation."
+    },
+    {
+      "id": "s136",
+      "text": "Elizabeth also wept and was unhappy, but hers also was the misery of innocence, which, like a cloud that passes over the fair moon, for a while hides but cannot tarnish its brightness."
+    },
+    {
+      "id": "s137",
+      "text": "Anguish and despair had penetrated into the core of my heart; I bore a hell within me which nothing could extinguish."
+    },
+    {
+      "id": "s138",
+      "text": "We stayed several hours with Justine, and it was with great difficulty that Elizabeth could tear herself away."
+    },
+    {
+      "id": "s139",
+      "text": "“I wish,” cried she, “that I were to die with you; I cannot live in this world of misery.”"
+    },
+    {
+      "id": "s140",
+      "text": "Justine assumed an air of cheerfulness, while she with difficulty repressed her bitter tears."
+    },
+    {
+      "id": "s141",
+      "text": "She embraced Elizabeth and said in a voice of half-suppressed emotion, “Farewell, sweet lady, dearest Elizabeth, my beloved and only friend; may heaven, in its bounty, bless and preserve you; may this be the last misfortune that you will ever suffer!"
+    },
+    {
+      "id": "s142",
+      "text": "Live, and be happy, and make others so.”"
+    },
+    {
+      "id": "s143",
+      "text": "And on the morrow Justine died."
+    },
+    {
+      "id": "s144",
+      "text": "Elizabeth’s heart-rending eloquence failed to move the judges from their settled conviction in the criminality of the saintly sufferer."
+    },
+    {
+      "id": "s145",
+      "text": "My passionate and indignant appeals were lost upon them."
+    },
+    {
+      "id": "s146",
+      "text": "And when I received their cold answers and heard the harsh, unfeeling reasoning of these men, my purposed avowal died away on my lips."
+    },
+    {
+      "id": "s147",
+      "text": "Thus I might proclaim myself a madman, but not revoke the sentence passed upon my wretched victim."
+    },
+    {
+      "id": "s148",
+      "text": "She perished on the scaffold as a murderess!"
+    },
+    {
+      "id": "s149",
+      "text": "From the tortures of my own heart, I turned to contemplate the deep and voiceless grief of my Elizabeth."
+    },
+    {
+      "id": "s150",
+      "text": "This also was my doing!"
+    },
+    {
+      "id": "s151",
+      "text": "And my father’s woe, and the desolation of that late so smiling home all was the work of my thrice-accursed hands!"
+    },
+    {
+      "id": "s152",
+      "text": "Ye weep, unhappy ones, but these are not your last tears!"
+    },
+    {
+      "id": "s153",
+      "text": "Again shall you raise the funeral wail, and the sound of your lamentations shall again and again be heard!"
+    },
+    {
+      "id": "s154",
+      "text": "Frankenstein, your son, your kinsman, your early, much-loved friend; he who would spend each vital drop of blood for your sakes, who has no thought nor sense of joy except as it is mirrored also in your dear countenances, who would fill the air with blessings and spend his life in serving you—he bids you weep, to shed countless tears; happy beyond his hopes, if thus inexorable fate be satisfied, and if the destruction pause before the peace of the grave have succeeded to your sad torments!"
+    },
+    {
+      "id": "s155",
+      "text": "Thus spoke my prophetic soul, as, torn by remorse, horror, and despair, I beheld those I loved spend vain sorrow upon the graves of William and Justine, the first hapless victims to my unhallowed arts."
+    }
+  ]
+}

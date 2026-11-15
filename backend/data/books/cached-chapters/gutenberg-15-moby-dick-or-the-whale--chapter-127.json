@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-127",
+  "chapterTitle": "CHAPTER CXXVII.",
+  "contentHash": "sha256:3688b5f1f60839f23d168a469b54d02b3226d811ee8c67b4fa6309b26082ccbd",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER CXXVII.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE DECK."
+    },
+    {
+      "id": "s2",
+      "text": "_The coffin laid upon two line-tubs, between the vice-bench and the open hatchway; the Carpenter calking its seams; the string of twisted oakum slowly unwinding from a large roll of it placed in the bosom of his frock.—Ahab comes slowly from the cabin-gangway, and hears Pip following him._"
+    },
+    {
+      "id": "s3",
+      "text": "“Back, lad; I will be with ye again presently."
+    },
+    {
+      "id": "s4",
+      "text": "He goes!"
+    },
+    {
+      "id": "s5",
+      "text": "Not this hand complies with my humor more genially than that boy.—Middle aisle of a church!"
+    },
+    {
+      "id": "s6",
+      "text": "What’s here?”"
+    },
+    {
+      "id": "s7",
+      "text": "“Life-buoy, sir."
+    },
+    {
+      "id": "s8",
+      "text": "Mr."
+    },
+    {
+      "id": "s9",
+      "text": "Starbuck’s orders."
+    },
+    {
+      "id": "s10",
+      "text": "Oh, look, sir!"
+    },
+    {
+      "id": "s11",
+      "text": "Beware the hatchway!”"
+    },
+    {
+      "id": "s12",
+      "text": "“Thank ye, man."
+    },
+    {
+      "id": "s13",
+      "text": "Thy coffin lies handy to the vault.”"
+    },
+    {
+      "id": "s14",
+      "text": "“Sir?"
+    },
+    {
+      "id": "s15",
+      "text": "The hatchway? oh!"
+    },
+    {
+      "id": "s16",
+      "text": "So it does, sir, so it does.”"
+    },
+    {
+      "id": "s17",
+      "text": "“Art not thou the leg-maker?"
+    },
+    {
+      "id": "s18",
+      "text": "Look, did not this stump come from thy shop?”"
+    },
+    {
+      "id": "s19",
+      "text": "“I believe it did, sir; does the ferrule stand, sir?”"
+    },
+    {
+      "id": "s20",
+      "text": "“Well enough."
+    },
+    {
+      "id": "s21",
+      "text": "But art thou not also the undertaker?”"
+    },
+    {
+      "id": "s22",
+      "text": "“Aye, sir; I patched up this thing here as a coffin for Queequeg; but they’ve set me now to turning it into something else.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Then tell me; art thou not an arrant, all-grasping, inter-meddling, monopolizing, heathenish old scamp, to be one day making legs, and the next day coffins to clap them in, and yet again life-buoys out of those same coffins?"
+    },
+    {
+      "id": "s24",
+      "text": "Thou art as unprincipled as the gods, and as much of a jack-of-all-trades.”"
+    },
+    {
+      "id": "s25",
+      "text": "“But I do not mean anything, sir."
+    },
+    {
+      "id": "s26",
+      "text": "I do as I do.”"
+    },
+    {
+      "id": "s27",
+      "text": "“The gods again."
+    },
+    {
+      "id": "s28",
+      "text": "Hark ye, dost thou not ever sing working about a coffin?"
+    },
+    {
+      "id": "s29",
+      "text": "The Titans, they say, hummed snatches when chipping out the craters for volcanoes; and the grave-digger in the play sings, spade in hand."
+    },
+    {
+      "id": "s30",
+      "text": "Dost thou never?”"
+    },
+    {
+      "id": "s31",
+      "text": "“Sing, sir?"
+    },
+    {
+      "id": "s32",
+      "text": "Do I sing?"
+    },
+    {
+      "id": "s33",
+      "text": "Oh, I’m indifferent enough, sir, for that; but the reason why the grave-digger made music must have been because there was none in his spade, sir."
+    },
+    {
+      "id": "s34",
+      "text": "But the calking mallet is full of it."
+    },
+    {
+      "id": "s35",
+      "text": "Hark to it.”"
+    },
+    {
+      "id": "s36",
+      "text": "“Aye, and that’s because the lid there’s a sounding-board; and what in all things makes the sounding-board is this—there’s naught beneath."
+    },
+    {
+      "id": "s37",
+      "text": "And yet, a coffin with a body in it rings pretty much the same, Carpenter."
+    },
+    {
+      "id": "s38",
+      "text": "Hast thou ever helped carry a bier, and heard the coffin knock against the churchyard gate, going in?”"
+    },
+    {
+      "id": "s39",
+      "text": "“Faith, sir, I’ve——”"
+    },
+    {
+      "id": "s40",
+      "text": "“Faith?"
+    },
+    {
+      "id": "s41",
+      "text": "What’s that?”"
+    },
+    {
+      "id": "s42",
+      "text": "“Why, faith, sir, it’s only a sort of exclamation-like—that’s all, sir.”"
+    },
+    {
+      "id": "s43",
+      "text": "“Um, um; go on.”"
+    },
+    {
+      "id": "s44",
+      "text": "“I was about to say, sir, that——”"
+    },
+    {
+      "id": "s45",
+      "text": "“Art thou a silk-worm?"
+    },
+    {
+      "id": "s46",
+      "text": "Dost thou spin thy own shroud out of thyself?"
+    },
+    {
+      "id": "s47",
+      "text": "Look at thy bosom!"
+    },
+    {
+      "id": "s48",
+      "text": "Despatch! and get these traps out of sight.”"
+    },
+    {
+      "id": "s49",
+      "text": "“He goes aft."
+    },
+    {
+      "id": "s50",
+      "text": "That was sudden, now; but squalls come sudden in hot latitudes."
+    },
+    {
+      "id": "s51",
+      "text": "I’ve heard that the Isle of Albemarle, one of the Gallipagos, is cut by the Equator right in the middle."
+    },
+    {
+      "id": "s52",
+      "text": "Seems to me some sort of Equator cuts yon old man, too, right in his middle."
+    },
+    {
+      "id": "s53",
+      "text": "He’s always under the Line—fiery hot, I tell ye!"
+    },
+    {
+      "id": "s54",
+      "text": "He’s looking this way—come, oakum; quick."
+    },
+    {
+      "id": "s55",
+      "text": "Here we go again."
+    },
+    {
+      "id": "s56",
+      "text": "This wooden mallet is the cork, and I’m the professor of musical glasses—tap, tap!”"
+    },
+    {
+      "id": "s57",
+      "text": "(_Ahab to himself._)"
+    },
+    {
+      "id": "s58",
+      "text": "“There’s a sight!"
+    },
+    {
+      "id": "s59",
+      "text": "There’s a sound!"
+    },
+    {
+      "id": "s60",
+      "text": "The greyheaded woodpecker tapping the hollow tree!"
+    },
+    {
+      "id": "s61",
+      "text": "Blind and dumb might well be envied now."
+    },
+    {
+      "id": "s62",
+      "text": "See! that thing rests on two line-tubs, full of tow-lines."
+    },
+    {
+      "id": "s63",
+      "text": "A most malicious wag, that fellow."
+    },
+    {
+      "id": "s64",
+      "text": "Rat-tat!"
+    },
+    {
+      "id": "s65",
+      "text": "So man’s seconds tick!"
+    },
+    {
+      "id": "s66",
+      "text": "Oh! how immaterial are all materials!"
+    },
+    {
+      "id": "s67",
+      "text": "What things real are there, but imponderable thoughts?"
+    },
+    {
+      "id": "s68",
+      "text": "Here now’s the very dreaded symbol of grim death, by a mere hap, made the expressive sign of the help and hope of most endangered life."
+    },
+    {
+      "id": "s69",
+      "text": "A life-buoy of a coffin!"
+    },
+    {
+      "id": "s70",
+      "text": "Does it go further?"
+    },
+    {
+      "id": "s71",
+      "text": "Can it be that in some spiritual sense the coffin is, after all, but an immortality-preserver!"
+    },
+    {
+      "id": "s72",
+      "text": "I’ll think of that."
+    },
+    {
+      "id": "s73",
+      "text": "But no."
+    },
+    {
+      "id": "s74",
+      "text": "So far gone am I in the dark side of earth, that its other side, the theoretic bright one, seems but uncertain twilight to me."
+    },
+    {
+      "id": "s75",
+      "text": "Will ye never have done, Carpenter, with that accursed sound?"
+    },
+    {
+      "id": "s76",
+      "text": "I go below; let me not see that thing here when I return again."
+    },
+    {
+      "id": "s77",
+      "text": "Now, then, Pip, we’ll talk this over; I do suck most wondrous philosophies from thee!"
+    },
+    {
+      "id": "s78",
+      "text": "Some unknown conduits from the unknown worlds must empty into thee!”"
+    }
+  ]
+}

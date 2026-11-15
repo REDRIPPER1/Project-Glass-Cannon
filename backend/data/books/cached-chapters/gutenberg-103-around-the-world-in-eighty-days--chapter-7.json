@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-7",
+  "chapterTitle": "CHAPTER VII.",
+  "contentHash": "sha256:c91c6b7c88a4796265bd07b18d19d806a7bebd325d4f933290fc1e248be5fbd7",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER VII.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "WHICH ONCE MORE DEMONSTRATES THE USELESSNESS OF PASSPORTS AS AIDS TO DETECTIVES"
+    },
+    {
+      "id": "s2",
+      "text": "The detective passed down the quay, and rapidly made his way to the consul’s office, where he was at once admitted to the presence of that official."
+    },
+    {
+      "id": "s3",
+      "text": "“Consul,” said he, without preamble, “I have strong reasons for believing that my man is a passenger on the ‘Mongolia.’” And he narrated what had just passed concerning the passport."
+    },
+    {
+      "id": "s4",
+      "text": "“Well, Mr."
+    },
+    {
+      "id": "s5",
+      "text": "Fix,” replied the consul, “I shall not be sorry to see the rascal’s face; but perhaps he won’t come here—that is, if he is the person you suppose him to be."
+    },
+    {
+      "id": "s6",
+      "text": "A robber doesn’t quite like to leave traces of his flight behind him; and, besides, he is not obliged to have his passport countersigned.”"
+    },
+    {
+      "id": "s7",
+      "text": "“If he is as shrewd as I think he is, consul, he will come.”"
+    },
+    {
+      "id": "s8",
+      "text": "“To have his passport _visaed?_”"
+    },
+    {
+      "id": "s9",
+      "text": "“Yes."
+    },
+    {
+      "id": "s10",
+      "text": "Passports are only good for annoying honest folks, and aiding in the flight of rogues."
+    },
+    {
+      "id": "s11",
+      "text": "I assure you it will be quite the thing for him to do; but I hope you will not _visa_ the passport.”"
+    },
+    {
+      "id": "s12",
+      "text": "“Why not?"
+    },
+    {
+      "id": "s13",
+      "text": "If the passport is genuine I have no right to refuse.”"
+    },
+    {
+      "id": "s14",
+      "text": "“Still, I must keep this man here until I can get a warrant to arrest him from London.”"
+    },
+    {
+      "id": "s15",
+      "text": "“Ah, that’s your look-out."
+    },
+    {
+      "id": "s16",
+      "text": "But I cannot—”"
+    },
+    {
+      "id": "s17",
+      "text": "The consul did not finish his sentence, for as he spoke a knock was heard at the door, and two strangers entered, one of whom was the servant whom Fix had met on the quay."
+    },
+    {
+      "id": "s18",
+      "text": "The other, who was his master, held out his passport with the request that the consul would do him the favour to _visa_ it."
+    },
+    {
+      "id": "s19",
+      "text": "The consul took the document and carefully read it, whilst Fix observed, or rather devoured, the stranger with his eyes from a corner of the room."
+    },
+    {
+      "id": "s20",
+      "text": "“You are Mr."
+    },
+    {
+      "id": "s21",
+      "text": "Phileas Fogg?” said the consul, after reading the passport."
+    },
+    {
+      "id": "s22",
+      "text": "“I am.”"
+    },
+    {
+      "id": "s23",
+      "text": "“And this man is your servant?”"
+    },
+    {
+      "id": "s24",
+      "text": "“He is: a Frenchman, named Passepartout.”"
+    },
+    {
+      "id": "s25",
+      "text": "“You are from London?”"
+    },
+    {
+      "id": "s26",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s27",
+      "text": "“And you are going—”"
+    },
+    {
+      "id": "s28",
+      "text": "“To Bombay.”"
+    },
+    {
+      "id": "s29",
+      "text": "“Very good, sir."
+    },
+    {
+      "id": "s30",
+      "text": "You know that a _visa_ is useless, and that no passport is required?”"
+    },
+    {
+      "id": "s31",
+      "text": "“I know it, sir,” replied Phileas Fogg; “but I wish to prove, by your _visa_, that I came by Suez.”"
+    },
+    {
+      "id": "s32",
+      "text": "“Very well, sir.”"
+    },
+    {
+      "id": "s33",
+      "text": "The consul proceeded to sign and date the passport, after which he added his official seal."
+    },
+    {
+      "id": "s34",
+      "text": "Mr."
+    },
+    {
+      "id": "s35",
+      "text": "Fogg paid the customary fee, coldly bowed, and went out, followed by his servant."
+    },
+    {
+      "id": "s36",
+      "text": "“Well?” queried the detective."
+    },
+    {
+      "id": "s37",
+      "text": "“Well, he looks and acts like a perfectly honest man,” replied the consul."
+    },
+    {
+      "id": "s38",
+      "text": "“Possibly; but that is not the question."
+    },
+    {
+      "id": "s39",
+      "text": "Do you think, consul, that this phlegmatic gentleman resembles, feature by feature, the robber whose description I have received?”"
+    },
+    {
+      "id": "s40",
+      "text": "“I concede that; but then, you know, all descriptions—”"
+    },
+    {
+      "id": "s41",
+      "text": "“I’ll make certain of it,” interrupted Fix."
+    },
+    {
+      "id": "s42",
+      "text": "“The servant seems to me less mysterious than the master; besides, he’s a Frenchman, and can’t help talking."
+    },
+    {
+      "id": "s43",
+      "text": "Excuse me for a little while, consul.”"
+    },
+    {
+      "id": "s44",
+      "text": "Fix started off in search of Passepartout."
+    },
+    {
+      "id": "s45",
+      "text": "Meanwhile Mr."
+    },
+    {
+      "id": "s46",
+      "text": "Fogg, after leaving the consulate, repaired to the quay, gave some orders to Passepartout, went off to the “Mongolia” in a boat, and descended to his cabin."
+    },
+    {
+      "id": "s47",
+      "text": "He took up his note-book, which contained the following memoranda:"
+    },
+    {
+      "id": "s48",
+      "text": "“Left London, Wednesday, October 2nd, at 8.45 p.m."
+    },
+    {
+      "id": "s49",
+      "text": "“Reached Paris, Thursday, October 3rd, at 7.20 a.m."
+    },
+    {
+      "id": "s50",
+      "text": "“Left Paris, Thursday, at 8.40 a.m."
+    },
+    {
+      "id": "s51",
+      "text": "“Reached Turin by Mont Cenis, Friday, October 4th, at 6.35 a.m."
+    },
+    {
+      "id": "s52",
+      "text": "“Left Turin, Friday, at 7.20 a.m."
+    },
+    {
+      "id": "s53",
+      "text": "“Arrived at Brindisi, Saturday, October 5th, at 4 p.m."
+    },
+    {
+      "id": "s54",
+      "text": "“Sailed on the ‘Mongolia,’ Saturday, at 5 p.m."
+    },
+    {
+      "id": "s55",
+      "text": "“Reached Suez, Wednesday, October 9th, at 11 a.m."
+    },
+    {
+      "id": "s56",
+      "text": "“Total of hours spent, 158½; or, in days, six days and a half.”"
+    },
+    {
+      "id": "s57",
+      "text": "These dates were inscribed in an itinerary divided into columns, indicating the month, the day of the month, and the day for the stipulated and actual arrivals at each principal point Paris, Brindisi, Suez, Bombay, Calcutta, Singapore, Hong Kong, Yokohama, San Francisco, New York, and London—from the 2nd of October to the 21st of December; and giving a space for setting down the gain made or the loss suffered on arrival at each locality."
+    },
+    {
+      "id": "s58",
+      "text": "This methodical record thus contained an account of everything needed, and Mr."
+    },
+    {
+      "id": "s59",
+      "text": "Fogg always knew whether he was behind-hand or in advance of his time."
+    },
+    {
+      "id": "s60",
+      "text": "On this Friday, October 9th, he noted his arrival at Suez, and observed that he had as yet neither gained nor lost."
+    },
+    {
+      "id": "s61",
+      "text": "He sat down quietly to breakfast in his cabin, never once thinking of inspecting the town, being one of those Englishmen who are wont to see foreign countries through the eyes of their domestics."
+    }
+  ]
+}

@@ -1,0 +1,849 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-76-adventures-of-huckleberry-finn",
+  "ebookId": "76",
+  "edition": "Project Gutenberg eBook #76; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-26",
+  "chapterTitle": "CHAPTER XXVI.",
+  "contentHash": "sha256:bf761c50468a825f110af2844f5f6c5db0ea42919fb058f73e15642fd5982a38",
+  "attribution": "Twain, Mark, 1835-1910; Kemble, E. W. (Edward Windsor), 1861-1933 [Illustrator], Adventures of Huckleberry Finn, CHAPTER XXVI.. Source checked against Project Gutenberg eBook #76.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/76",
+    "textUrl": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Well, when they was all gone the king he asks Mary Jane how they was off for spare rooms, and she said she had one spare room, which would do for Uncle William, and she’d give her own room to Uncle Harvey, which was a little bigger, and she would turn into the room with her sisters and sleep on a cot; and up garret was a little cubby, with a pallet in it."
+    },
+    {
+      "id": "s2",
+      "text": "The king said the cubby would do for his valley—meaning me."
+    },
+    {
+      "id": "s3",
+      "text": "So Mary Jane took us up, and she showed them their rooms, which was plain but nice."
+    },
+    {
+      "id": "s4",
+      "text": "She said she’d have her frocks and a lot of other traps took out of her room if they was in Uncle Harvey’s way, but he said they warn’t."
+    },
+    {
+      "id": "s5",
+      "text": "The frocks was hung along the wall, and before them was a curtain made out of calico that hung down to the floor."
+    },
+    {
+      "id": "s6",
+      "text": "There was an old hair trunk in one corner, and a guitar-box in another, and all sorts of little knickknacks and jimcracks around, like girls brisken up a room with."
+    },
+    {
+      "id": "s7",
+      "text": "The king said it was all the more homely and more pleasanter for these fixings, and so don’t disturb them."
+    },
+    {
+      "id": "s8",
+      "text": "The duke’s room was pretty small, but plenty good enough, and so was my cubby."
+    },
+    {
+      "id": "s9",
+      "text": "That night they had a big supper, and all them men and women was there, and I stood behind the king and the duke’s chairs and waited on them, and the niggers waited on the rest."
+    },
+    {
+      "id": "s10",
+      "text": "Mary Jane she set at the head of the table, with Susan alongside of her, and said how bad the biscuits was, and how mean the preserves was, and how ornery and tough the fried chickens was—and all that kind of rot, the way women always do for to force out compliments; and the people all knowed everything was tiptop, and said so—said “How _do_ you get biscuits to brown so nice?” and “Where, for the land’s sake, _did_ you get these amaz’n pickles?” and all that kind of humbug talky-talk, just the way people always does at a supper, you know."
+    },
+    {
+      "id": "s11",
+      "text": "And when it was all done me and the hare-lip had supper in the kitchen off of the leavings, whilst the others was helping the niggers clean up the things."
+    },
+    {
+      "id": "s12",
+      "text": "The hare-lip she got to pumping me about England, and blest if I didn’t think the ice was getting mighty thin sometimes."
+    },
+    {
+      "id": "s13",
+      "text": "She says:"
+    },
+    {
+      "id": "s14",
+      "text": "“Did you ever see the king?”"
+    },
+    {
+      "id": "s15",
+      "text": "“Who?"
+    },
+    {
+      "id": "s16",
+      "text": "William Fourth?"
+    },
+    {
+      "id": "s17",
+      "text": "Well, I bet I have—he goes to our church.” I knowed he was dead years ago, but I never let on."
+    },
+    {
+      "id": "s18",
+      "text": "So when I says he goes to our church, she says:"
+    },
+    {
+      "id": "s19",
+      "text": "“What—regular?”"
+    },
+    {
+      "id": "s20",
+      "text": "“Yes—regular."
+    },
+    {
+      "id": "s21",
+      "text": "His pew’s right over opposite ourn—on t’other side the pulpit.”"
+    },
+    {
+      "id": "s22",
+      "text": "“I thought he lived in London?”"
+    },
+    {
+      "id": "s23",
+      "text": "“Well, he does."
+    },
+    {
+      "id": "s24",
+      "text": "Where _would_ he live?”"
+    },
+    {
+      "id": "s25",
+      "text": "“But I thought _you_ lived in Sheffield?”"
+    },
+    {
+      "id": "s26",
+      "text": "I see I was up a stump."
+    },
+    {
+      "id": "s27",
+      "text": "I had to let on to get choked with a chicken bone, so as to get time to think how to get down again."
+    },
+    {
+      "id": "s28",
+      "text": "Then I says:"
+    },
+    {
+      "id": "s29",
+      "text": "“I mean he goes to our church regular when he’s in Sheffield."
+    },
+    {
+      "id": "s30",
+      "text": "That’s only in the summer time, when he comes there to take the sea baths.”"
+    },
+    {
+      "id": "s31",
+      "text": "“Why, how you talk—Sheffield ain’t on the sea.”"
+    },
+    {
+      "id": "s32",
+      "text": "“Well, who said it was?”"
+    },
+    {
+      "id": "s33",
+      "text": "“Why, you did.”"
+    },
+    {
+      "id": "s34",
+      "text": "“I _didn’t_ nuther.”"
+    },
+    {
+      "id": "s35",
+      "text": "“You did!”"
+    },
+    {
+      "id": "s36",
+      "text": "“I didn’t.”"
+    },
+    {
+      "id": "s37",
+      "text": "“You did.”"
+    },
+    {
+      "id": "s38",
+      "text": "“I never said nothing of the kind.”"
+    },
+    {
+      "id": "s39",
+      "text": "“Well, what _did_ you say, then?”"
+    },
+    {
+      "id": "s40",
+      "text": "“Said he come to take the sea _baths_—that’s what I said.”"
+    },
+    {
+      "id": "s41",
+      "text": "“Well, then, how’s he going to take the sea baths if it ain’t on the sea?”"
+    },
+    {
+      "id": "s42",
+      "text": "“Looky here,” I says; “did you ever see any Congress-water?”"
+    },
+    {
+      "id": "s43",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s44",
+      "text": "“Well, did you have to go to Congress to get it?”"
+    },
+    {
+      "id": "s45",
+      "text": "“Why, no.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Well, neither does William Fourth have to go to the sea to get a sea bath.”"
+    },
+    {
+      "id": "s47",
+      "text": "“How does he get it, then?”"
+    },
+    {
+      "id": "s48",
+      "text": "“Gets it the way people down here gets Congress-water—in barrels."
+    },
+    {
+      "id": "s49",
+      "text": "There in the palace at Sheffield they’ve got furnaces, and he wants his water hot."
+    },
+    {
+      "id": "s50",
+      "text": "They can’t bile that amount of water away off there at the sea."
+    },
+    {
+      "id": "s51",
+      "text": "They haven’t got no conveniences for it.”"
+    },
+    {
+      "id": "s52",
+      "text": "“Oh, I see, now."
+    },
+    {
+      "id": "s53",
+      "text": "You might a said that in the first place and saved time.”"
+    },
+    {
+      "id": "s54",
+      "text": "When she said that I see I was out of the woods again, and so I was comfortable and glad."
+    },
+    {
+      "id": "s55",
+      "text": "Next, she says:"
+    },
+    {
+      "id": "s56",
+      "text": "“Do you go to church, too?”"
+    },
+    {
+      "id": "s57",
+      "text": "“Yes—regular.”"
+    },
+    {
+      "id": "s58",
+      "text": "“Where do you set?”"
+    },
+    {
+      "id": "s59",
+      "text": "“Why, in our pew.”"
+    },
+    {
+      "id": "s60",
+      "text": "“_Whose_ pew?”"
+    },
+    {
+      "id": "s61",
+      "text": "“Why, _ourn_—your Uncle Harvey’s.”"
+    },
+    {
+      "id": "s62",
+      "text": "“His’n?"
+    },
+    {
+      "id": "s63",
+      "text": "What does _he_ want with a pew?”"
+    },
+    {
+      "id": "s64",
+      "text": "“Wants it to set in."
+    },
+    {
+      "id": "s65",
+      "text": "What did you _reckon_ he wanted with it?”"
+    },
+    {
+      "id": "s66",
+      "text": "“Why, I thought he’d be in the pulpit.”"
+    },
+    {
+      "id": "s67",
+      "text": "Rot him, I forgot he was a preacher."
+    },
+    {
+      "id": "s68",
+      "text": "I see I was up a stump again, so I played another chicken bone and got another think."
+    },
+    {
+      "id": "s69",
+      "text": "Then I says:"
+    },
+    {
+      "id": "s70",
+      "text": "“Blame it, do you suppose there ain’t but one preacher to a church?”"
+    },
+    {
+      "id": "s71",
+      "text": "“Why, what do they want with more?”"
+    },
+    {
+      "id": "s72",
+      "text": "“What!—to preach before a king?"
+    },
+    {
+      "id": "s73",
+      "text": "I never did see such a girl as you."
+    },
+    {
+      "id": "s74",
+      "text": "They don’t have no less than seventeen.”"
+    },
+    {
+      "id": "s75",
+      "text": "“Seventeen!"
+    },
+    {
+      "id": "s76",
+      "text": "My land!"
+    },
+    {
+      "id": "s77",
+      "text": "Why, I wouldn’t set out such a string as that, not if I _never_ got to glory."
+    },
+    {
+      "id": "s78",
+      "text": "It must take ’em a week.”"
+    },
+    {
+      "id": "s79",
+      "text": "“Shucks, they don’t _all_ of ’em preach the same day—only _one_ of ’em.”"
+    },
+    {
+      "id": "s80",
+      "text": "“Well, then, what does the rest of ’em do?”"
+    },
+    {
+      "id": "s81",
+      "text": "“Oh, nothing much."
+    },
+    {
+      "id": "s82",
+      "text": "Loll around, pass the plate—and one thing or another."
+    },
+    {
+      "id": "s83",
+      "text": "But mainly they don’t do nothing.”"
+    },
+    {
+      "id": "s84",
+      "text": "“Well, then, what are they _for?_”"
+    },
+    {
+      "id": "s85",
+      "text": "“Why, they’re for _style_."
+    },
+    {
+      "id": "s86",
+      "text": "Don’t you know nothing?”"
+    },
+    {
+      "id": "s87",
+      "text": "“Well, I don’t _want_ to know no such foolishness as that."
+    },
+    {
+      "id": "s88",
+      "text": "How is servants treated in England?"
+    },
+    {
+      "id": "s89",
+      "text": "Do they treat ’em better ’n we treat our niggers?”"
+    },
+    {
+      "id": "s90",
+      "text": "“_No!_ A servant ain’t nobody there."
+    },
+    {
+      "id": "s91",
+      "text": "They treat them worse than dogs.”"
+    },
+    {
+      "id": "s92",
+      "text": "“Don’t they give ’em holidays, the way we do, Christmas and New Year’s week, and Fourth of July?”"
+    },
+    {
+      "id": "s93",
+      "text": "“Oh, just listen!"
+    },
+    {
+      "id": "s94",
+      "text": "A body could tell _you_ hain’t ever been to England by that."
+    },
+    {
+      "id": "s95",
+      "text": "Why, Hare-l—why, Joanna, they never see a holiday from year’s end to year’s end; never go to the circus, nor theater, nor nigger shows, nor nowheres.”"
+    },
+    {
+      "id": "s96",
+      "text": "“Nor church?”"
+    },
+    {
+      "id": "s97",
+      "text": "“Nor church.”"
+    },
+    {
+      "id": "s98",
+      "text": "“But _you_ always went to church.”"
+    },
+    {
+      "id": "s99",
+      "text": "Well, I was gone up again."
+    },
+    {
+      "id": "s100",
+      "text": "I forgot I was the old man’s servant."
+    },
+    {
+      "id": "s101",
+      "text": "But next minute I whirled in on a kind of an explanation how a valley was different from a common servant and _had_ to go to church whether he wanted to or not, and set with the family, on account of its being the law."
+    },
+    {
+      "id": "s102",
+      "text": "But I didn’t do it pretty good, and when I got done I see she warn’t satisfied."
+    },
+    {
+      "id": "s103",
+      "text": "She says:"
+    },
+    {
+      "id": "s104",
+      "text": "“Honest injun, now, hain’t you been telling me a lot of lies?”"
+    },
+    {
+      "id": "s105",
+      "text": "“Honest injun,” says I."
+    },
+    {
+      "id": "s106",
+      "text": "“None of it at all?”"
+    },
+    {
+      "id": "s107",
+      "text": "“None of it at all."
+    },
+    {
+      "id": "s108",
+      "text": "Not a lie in it,” says I."
+    },
+    {
+      "id": "s109",
+      "text": "“Lay your hand on this book and say it.”"
+    },
+    {
+      "id": "s110",
+      "text": "I see it warn’t nothing but a dictionary, so I laid my hand on it and said it."
+    },
+    {
+      "id": "s111",
+      "text": "So then she looked a little better satisfied, and says:"
+    },
+    {
+      "id": "s112",
+      "text": "“Well, then, I’ll believe some of it; but I hope to gracious if I’ll believe the rest.”"
+    },
+    {
+      "id": "s113",
+      "text": "“What is it you won’t believe, Joe?” says Mary Jane, stepping in with Susan behind her."
+    },
+    {
+      "id": "s114",
+      "text": "“It ain’t right nor kind for you to talk so to him, and him a stranger and so far from his people."
+    },
+    {
+      "id": "s115",
+      "text": "How would you like to be treated so?”"
+    },
+    {
+      "id": "s116",
+      "text": "“That’s always your way, Maim—always sailing in to help somebody before they’re hurt."
+    },
+    {
+      "id": "s117",
+      "text": "I hain’t done nothing to him."
+    },
+    {
+      "id": "s118",
+      "text": "He’s told some stretchers, I reckon, and I said I wouldn’t swallow it all; and that’s every bit and grain I _did_ say."
+    },
+    {
+      "id": "s119",
+      "text": "I reckon he can stand a little thing like that, can’t he?”"
+    },
+    {
+      "id": "s120",
+      "text": "“I don’t care whether ’twas little or whether ’twas big; he’s here in our house and a stranger, and it wasn’t good of you to say it."
+    },
+    {
+      "id": "s121",
+      "text": "If you was in his place it would make you feel ashamed; and so you oughtn’t to say a thing to another person that will make _them_ feel ashamed.”"
+    },
+    {
+      "id": "s122",
+      "text": "“Why, Mam, he said—”"
+    },
+    {
+      "id": "s123",
+      "text": "“It don’t make no difference what he _said_—that ain’t the thing."
+    },
+    {
+      "id": "s124",
+      "text": "The thing is for you to treat him _kind_, and not be saying things to make him remember he ain’t in his own country and amongst his own folks.”"
+    },
+    {
+      "id": "s125",
+      "text": "I says to myself, _this_ is a girl that I’m letting that old reptile rob her of her money!"
+    },
+    {
+      "id": "s126",
+      "text": "Then Susan _she_ waltzed in; and if you’ll believe me, she did give Hare-lip hark from the tomb!"
+    },
+    {
+      "id": "s127",
+      "text": "Says I to myself, and this is _another_ one that I’m letting him rob her of her money!"
+    },
+    {
+      "id": "s128",
+      "text": "Then Mary Jane she took another inning, and went in sweet and lovely again—which was her way; but when she got done there warn’t hardly anything left o’ poor Hare-lip."
+    },
+    {
+      "id": "s129",
+      "text": "So she hollered."
+    },
+    {
+      "id": "s130",
+      "text": "“All right, then,” says the other girls; “you just ask his pardon.”"
+    },
+    {
+      "id": "s131",
+      "text": "She done it, too; and she done it beautiful."
+    },
+    {
+      "id": "s132",
+      "text": "She done it so beautiful it was good to hear; and I wished I could tell her a thousand lies, so she could do it again."
+    },
+    {
+      "id": "s133",
+      "text": "I says to myself, this is _another_ one that I’m letting him rob her of her money."
+    },
+    {
+      "id": "s134",
+      "text": "And when she got through they all jest laid theirselves out to make me feel at home and know I was amongst friends."
+    },
+    {
+      "id": "s135",
+      "text": "I felt so ornery and low down and mean that I says to myself, my mind’s made up; I’ll hive that money for them or bust."
+    },
+    {
+      "id": "s136",
+      "text": "So then I lit out—for bed, I said, meaning some time or another."
+    },
+    {
+      "id": "s137",
+      "text": "When I got by myself I went to thinking the thing over."
+    },
+    {
+      "id": "s138",
+      "text": "I says to myself, shall I go to that doctor, private, and blow on these frauds?"
+    },
+    {
+      "id": "s139",
+      "text": "No—that won’t do."
+    },
+    {
+      "id": "s140",
+      "text": "He might tell who told him; then the king and the duke would make it warm for me."
+    },
+    {
+      "id": "s141",
+      "text": "Shall I go, private, and tell Mary Jane?"
+    },
+    {
+      "id": "s142",
+      "text": "No—I dasn’t do it."
+    },
+    {
+      "id": "s143",
+      "text": "Her face would give them a hint, sure; they’ve got the money, and they’d slide right out and get away with it."
+    },
+    {
+      "id": "s144",
+      "text": "If she was to fetch in help I’d get mixed up in the business before it was done with, I judge."
+    },
+    {
+      "id": "s145",
+      "text": "No; there ain’t no good way but one."
+    },
+    {
+      "id": "s146",
+      "text": "I got to steal that money, somehow; and I got to steal it some way that they won’t suspicion that I done it."
+    },
+    {
+      "id": "s147",
+      "text": "They’ve got a good thing here, and they ain’t a-going to leave till they’ve played this family and this town for all they’re worth, so I’ll find a chance time enough."
+    },
+    {
+      "id": "s148",
+      "text": "I’ll steal it and hide it; and by-and-by, when I’m away down the river, I’ll write a letter and tell Mary Jane where it’s hid."
+    },
+    {
+      "id": "s149",
+      "text": "But I better hive it tonight if I can, because the doctor maybe hasn’t let up as much as he lets on he has; he might scare them out of here yet."
+    },
+    {
+      "id": "s150",
+      "text": "So, thinks I, I’ll go and search them rooms."
+    },
+    {
+      "id": "s151",
+      "text": "Upstairs the hall was dark, but I found the duke’s room, and started to paw around it with my hands; but I recollected it wouldn’t be much like the king to let anybody else take care of that money but his own self; so then I went to his room and begun to paw around there."
+    },
+    {
+      "id": "s152",
+      "text": "But I see I couldn’t do nothing without a candle, and I dasn’t light one, of course."
+    },
+    {
+      "id": "s153",
+      "text": "So I judged I’d got to do the other thing—lay for them and eavesdrop."
+    },
+    {
+      "id": "s154",
+      "text": "About that time I hears their footsteps coming, and was going to skip under the bed; I reached for it, but it wasn’t where I thought it would be; but I touched the curtain that hid Mary Jane’s frocks, so I jumped in behind that and snuggled in amongst the gowns, and stood there perfectly still."
+    },
+    {
+      "id": "s155",
+      "text": "They come in and shut the door; and the first thing the duke done was to get down and look under the bed."
+    },
+    {
+      "id": "s156",
+      "text": "Then I was glad I hadn’t found the bed when I wanted it."
+    },
+    {
+      "id": "s157",
+      "text": "And yet, you know, it’s kind of natural to hide under the bed when you are up to anything private."
+    },
+    {
+      "id": "s158",
+      "text": "They sets down then, and the king says:"
+    },
+    {
+      "id": "s159",
+      "text": "“Well, what is it?"
+    },
+    {
+      "id": "s160",
+      "text": "And cut it middlin’ short, because it’s better for us to be down there a-whoopin’ up the mournin’ than up here givin’ ’em a chance to talk us over.”"
+    },
+    {
+      "id": "s161",
+      "text": "“Well, this is it, Capet."
+    },
+    {
+      "id": "s162",
+      "text": "I ain’t easy; I ain’t comfortable."
+    },
+    {
+      "id": "s163",
+      "text": "That doctor lays on my mind."
+    },
+    {
+      "id": "s164",
+      "text": "I wanted to know your plans."
+    },
+    {
+      "id": "s165",
+      "text": "I’ve got a notion, and I think it’s a sound one.”"
+    },
+    {
+      "id": "s166",
+      "text": "“What is it, duke?”"
+    },
+    {
+      "id": "s167",
+      "text": "“That we better glide out of this before three in the morning, and clip it down the river with what we’ve got."
+    },
+    {
+      "id": "s168",
+      "text": "Specially, seeing we got it so easy—_given_ back to us, flung at our heads, as you may say, when of course we allowed to have to steal it back."
+    },
+    {
+      "id": "s169",
+      "text": "I’m for knocking off and lighting out.”"
+    },
+    {
+      "id": "s170",
+      "text": "That made me feel pretty bad."
+    },
+    {
+      "id": "s171",
+      "text": "About an hour or two ago it would a been a little different, but now it made me feel bad and disappointed."
+    },
+    {
+      "id": "s172",
+      "text": "The king rips out and says:"
+    },
+    {
+      "id": "s173",
+      "text": "“What!"
+    },
+    {
+      "id": "s174",
+      "text": "And not sell out the rest o’ the property?"
+    },
+    {
+      "id": "s175",
+      "text": "March off like a passel of fools and leave eight or nine thous’n’ dollars’ worth o’ property layin’ around jest sufferin’ to be scooped in?—and all good, salable stuff, too.”"
+    },
+    {
+      "id": "s176",
+      "text": "The duke he grumbled; said the bag of gold was enough, and he didn’t want to go no deeper—didn’t want to rob a lot of orphans of _everything_ they had."
+    },
+    {
+      "id": "s177",
+      "text": "“Why, how you talk!” says the king."
+    },
+    {
+      "id": "s178",
+      "text": "“We sha’n’t rob ’em of nothing at all but jest this money."
+    },
+    {
+      "id": "s179",
+      "text": "The people that _buys_ the property is the suff’rers; because as soon ’s it’s found out ’at we didn’t own it—which won’t be long after we’ve slid—the sale won’t be valid, and it’ll all go back to the estate."
+    },
+    {
+      "id": "s180",
+      "text": "These yer orphans ’ll git their house back agin, and that’s enough for _them;_ they’re young and spry, and k’n easy earn a livin’. _They_ ain’t a-goin to suffer."
+    },
+    {
+      "id": "s181",
+      "text": "Why, jest think—there’s thous’n’s and thous’n’s that ain’t nigh so well off."
+    },
+    {
+      "id": "s182",
+      "text": "Bless you, _they_ ain’t got noth’n’ to complain of.”"
+    },
+    {
+      "id": "s183",
+      "text": "Well, the king he talked him blind; so at last he give in, and said all right, but said he believed it was blamed foolishness to stay, and that doctor hanging over them."
+    },
+    {
+      "id": "s184",
+      "text": "But the king says:"
+    },
+    {
+      "id": "s185",
+      "text": "“Cuss the doctor!"
+    },
+    {
+      "id": "s186",
+      "text": "What do we k’yer for _him?_ Hain’t we got all the fools in town on our side?"
+    },
+    {
+      "id": "s187",
+      "text": "And ain’t that a big enough majority in any town?”"
+    },
+    {
+      "id": "s188",
+      "text": "So they got ready to go down stairs again."
+    },
+    {
+      "id": "s189",
+      "text": "The duke says:"
+    },
+    {
+      "id": "s190",
+      "text": "“I don’t think we put that money in a good place.”"
+    },
+    {
+      "id": "s191",
+      "text": "That cheered me up."
+    },
+    {
+      "id": "s192",
+      "text": "I’d begun to think I warn’t going to get a hint of no kind to help me."
+    },
+    {
+      "id": "s193",
+      "text": "The king says:"
+    },
+    {
+      "id": "s194",
+      "text": "“Why?”"
+    },
+    {
+      "id": "s195",
+      "text": "“Because Mary Jane ’ll be in mourning from this out; and first you know the nigger that does up the rooms will get an order to box these duds up and put ’em away; and do you reckon a nigger can run across money and not borrow some of it?”"
+    },
+    {
+      "id": "s196",
+      "text": "“Your head’s level agin, duke,” says the king; and he comes a-fumbling under the curtain two or three foot from where I was."
+    },
+    {
+      "id": "s197",
+      "text": "I stuck tight to the wall and kept mighty still, though quivery; and I wondered what them fellows would say to me if they catched me; and I tried to think what I’d better do if they did catch me."
+    },
+    {
+      "id": "s198",
+      "text": "But the king he got the bag before I could think more than about a half a thought, and he never suspicioned I was around."
+    },
+    {
+      "id": "s199",
+      "text": "They took and shoved the bag through a rip in the straw tick that was under the feather-bed, and crammed it in a foot or two amongst the straw and said it was all right now, because a nigger only makes up the feather-bed, and don’t turn over the straw tick only about twice a year, and so it warn’t in no danger of getting stole now."
+    },
+    {
+      "id": "s200",
+      "text": "But I knowed better."
+    },
+    {
+      "id": "s201",
+      "text": "I had it out of there before they was half-way down stairs."
+    },
+    {
+      "id": "s202",
+      "text": "I groped along up to my cubby, and hid it there till I could get a chance to do better."
+    },
+    {
+      "id": "s203",
+      "text": "I judged I better hide it outside of the house somewheres, because if they missed it they would give the house a good ransacking: I knowed that very well."
+    },
+    {
+      "id": "s204",
+      "text": "Then I turned in, with my clothes all on; but I couldn’t a gone to sleep if I’d a wanted to, I was in such a sweat to get through with the business."
+    },
+    {
+      "id": "s205",
+      "text": "By-and-by I heard the king and the duke come up; so I rolled off my pallet and laid with my chin at the top of my ladder, and waited to see if anything was going to happen."
+    },
+    {
+      "id": "s206",
+      "text": "But nothing did."
+    },
+    {
+      "id": "s207",
+      "text": "So I held on till all the late sounds had quit and the early ones hadn’t begun yet; and then I slipped down the ladder."
+    }
+  ]
+}

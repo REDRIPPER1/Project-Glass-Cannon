@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-50",
+  "chapterTitle": "CHAPTER L.",
+  "contentHash": "sha256:ff2d27bb43b82f8021b5795e53a05d3c18e3a69bbae7db88aee347b9b84bf6f2",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER L.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "AHAB’S BOAT AND CREW."
+    },
+    {
+      "id": "s2",
+      "text": "FEDALLAH."
+    },
+    {
+      "id": "s3",
+      "text": "“Who would have thought it, Flask!” cried Stubb; “if I had but one leg you would not catch me in a boat, unless maybe to stop the plug-hole with my timber toe."
+    },
+    {
+      "id": "s4",
+      "text": "Oh! he’s a wonderful old man!”"
+    },
+    {
+      "id": "s5",
+      "text": "“I don’t think it so strange, after all, on that account,” said Flask."
+    },
+    {
+      "id": "s6",
+      "text": "“If his leg were off at the hip, now, it would be a different thing."
+    },
+    {
+      "id": "s7",
+      "text": "That would disable him; but he has one knee, and good part of the other left, you know.”"
+    },
+    {
+      "id": "s8",
+      "text": "“I don’t know that, my little man; I never yet saw him kneel.”"
+    },
+    {
+      "id": "s9",
+      "text": "* * * * *"
+    },
+    {
+      "id": "s10",
+      "text": "Among whale-wise people it has often been argued whether, considering the paramount importance of his life to the success of the voyage, it is right for a whaling captain to jeopardize that life in the active perils of the chase."
+    },
+    {
+      "id": "s11",
+      "text": "So Tamerlane’s soldiers often argued with tears in their eyes, whether that invaluable life of his ought to be carried into the thickest of the fight."
+    },
+    {
+      "id": "s12",
+      "text": "But with Ahab the question assumed a modified aspect."
+    },
+    {
+      "id": "s13",
+      "text": "Considering that with two legs man is but a hobbling wight in all times of danger; considering that the pursuit of whales is always under great and extraordinary difficulties; that every individual moment, indeed, then comprises a peril; under these circumstances is it wise for any maimed man to enter a whale-boat in the hunt?"
+    },
+    {
+      "id": "s14",
+      "text": "As a general thing, the joint-owners of the Pequod must have plainly thought not."
+    },
+    {
+      "id": "s15",
+      "text": "Ahab well knew that although his friends at home would think little of his entering a boat in certain comparatively harmless vicissitudes of the chase, for the sake of being near the scene of action and giving his orders in person, yet for Captain Ahab to have a boat actually apportioned to him as a regular headsman in the hunt—above all for Captain Ahab to be supplied with five extra men, as that same boat’s crew, he well knew that such generous conceits never entered the heads of the owners of the Pequod."
+    },
+    {
+      "id": "s16",
+      "text": "Therefore he had not solicited a boat’s crew from them, nor had he in any way hinted his desires on that head."
+    },
+    {
+      "id": "s17",
+      "text": "Nevertheless he had taken private measures of his own touching all that matter."
+    },
+    {
+      "id": "s18",
+      "text": "Until Cabaco’s published discovery, the sailors had little foreseen it, though to be sure when, after being a little while out of port, all hands had concluded the customary business of fitting the whaleboats for service; when some time after this Ahab was now and then found bestirring himself in the matter of making thole-pins with his own hands for what was thought to be one of the spare boats, and even solicitously cutting the small wooden skewers, which when the line is running out are pinned over the groove in the bow: when all this was observed in him, and particularly his solicitude in having an extra coat of sheathing in the bottom of the boat, as if to make it better withstand the pointed pressure of his ivory limb; and also the anxiety he evinced in exactly shaping the thigh board, or clumsy cleat, as it is sometimes called, the horizontal piece in the boat’s bow for bracing the knee against in darting or stabbing at the whale; when it was observed how often he stood up in that boat with his solitary knee fixed in the semi-circular depression in the cleat, and with the carpenter’s chisel gouged out a little here and straightened it a little there; all these things, I say, had awakened much interest and curiosity at the time."
+    },
+    {
+      "id": "s19",
+      "text": "But almost everybody supposed that this particular preparative heedfulness in Ahab must only be with a view to the ultimate chase of Moby Dick; for he had already revealed his intention to hunt that mortal monster in person."
+    },
+    {
+      "id": "s20",
+      "text": "But such a supposition did by no means involve the remotest suspicion as to any boat’s crew being assigned to that boat."
+    },
+    {
+      "id": "s21",
+      "text": "Now, with the subordinate phantoms, what wonder remained soon waned away; for in a whaler wonders soon wane."
+    },
+    {
+      "id": "s22",
+      "text": "Besides, now and then such unaccountable odds and ends of strange nations come up from the unknown nooks and ash-holes of the earth to man these floating outlaws of whalers; and the ships themselves often pick up such queer castaway creatures found tossing about the open sea on planks, bits of wreck, oars, whale-boats, canoes, blown-off Japanese junks, and what not; that Beelzebub himself might climb up the side and step down into the cabin to chat with the captain, and it would not create any unsubduable excitement in the forecastle."
+    },
+    {
+      "id": "s23",
+      "text": "But be all this as it may, certain it is that while the subordinate phantoms soon found their place among the crew, though still as it were somehow distinct from them, yet that hair-turbaned Fedallah remained a muffled mystery to the last."
+    },
+    {
+      "id": "s24",
+      "text": "Whence he came in a mannerly world like this, by what sort of unaccountable tie he soon evinced himself to be linked with Ahab’s peculiar fortunes; nay, so far as to have some sort of a half-hinted influence; Heaven knows, but it might have been even authority over him; all this none knew."
+    },
+    {
+      "id": "s25",
+      "text": "But one cannot sustain an indifferent air concerning Fedallah."
+    },
+    {
+      "id": "s26",
+      "text": "He was such a creature as civilized, domestic people in the temperate zone only see in their dreams, and that but dimly; but the like of whom now and then glide among the unchanging Asiatic communities, especially the Oriental isles to the east of the continent—those insulated, immemorial, unalterable countries, which even in these modern days still preserve much of the ghostly aboriginalness of earth’s primal generations, when the memory of the first man was a distinct recollection, and all men his descendants, unknowing whence he came, eyed each other as real phantoms, and asked of the sun and the moon why they were created and to what end; when though, according to Genesis, the angels indeed consorted with the daughters of men, the devils also, add the uncanonical Rabbins, indulged in mundane amours."
+    }
+  ]
+}

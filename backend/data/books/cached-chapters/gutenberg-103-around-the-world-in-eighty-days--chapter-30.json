@@ -1,0 +1,713 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-30",
+  "chapterTitle": "CHAPTER XXX.",
+  "contentHash": "sha256:29fa3db0ba9e57ec443af437d732c1fad7cd1e49426fae7ad3291a9d5b567f4f",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XXX.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH PHILEAS FOGG SIMPLY DOES HIS DUTY"
+    },
+    {
+      "id": "s2",
+      "text": "Three passengers including Passepartout had disappeared."
+    },
+    {
+      "id": "s3",
+      "text": "Had they been killed in the struggle?"
+    },
+    {
+      "id": "s4",
+      "text": "Were they taken prisoners by the Sioux?"
+    },
+    {
+      "id": "s5",
+      "text": "It was impossible to tell."
+    },
+    {
+      "id": "s6",
+      "text": "There were many wounded, but none mortally."
+    },
+    {
+      "id": "s7",
+      "text": "Colonel Proctor was one of the most seriously hurt; he had fought bravely, and a ball had entered his groin."
+    },
+    {
+      "id": "s8",
+      "text": "He was carried into the station with the other wounded passengers, to receive such attention as could be of avail."
+    },
+    {
+      "id": "s9",
+      "text": "Aouda was safe; and Phileas Fogg, who had been in the thickest of the fight, had not received a scratch."
+    },
+    {
+      "id": "s10",
+      "text": "Fix was slightly wounded in the arm."
+    },
+    {
+      "id": "s11",
+      "text": "But Passepartout was not to be found, and tears coursed down Aouda’s cheeks."
+    },
+    {
+      "id": "s12",
+      "text": "All the passengers had got out of the train, the wheels of which were stained with blood."
+    },
+    {
+      "id": "s13",
+      "text": "From the tyres and spokes hung ragged pieces of flesh."
+    },
+    {
+      "id": "s14",
+      "text": "As far as the eye could reach on the white plain behind, red trails were visible."
+    },
+    {
+      "id": "s15",
+      "text": "The last Sioux were disappearing in the south, along the banks of Republican River."
+    },
+    {
+      "id": "s16",
+      "text": "Mr."
+    },
+    {
+      "id": "s17",
+      "text": "Fogg, with folded arms, remained motionless."
+    },
+    {
+      "id": "s18",
+      "text": "He had a serious decision to make."
+    },
+    {
+      "id": "s19",
+      "text": "Aouda, standing near him, looked at him without speaking, and he understood her look."
+    },
+    {
+      "id": "s20",
+      "text": "If his servant was a prisoner, ought he not to risk everything to rescue him from the Indians?"
+    },
+    {
+      "id": "s21",
+      "text": "“I will find him, living or dead,” said he quietly to Aouda."
+    },
+    {
+      "id": "s22",
+      "text": "“Ah, Mr.—Mr."
+    },
+    {
+      "id": "s23",
+      "text": "Fogg!” cried she, clasping his hands and covering them with tears."
+    },
+    {
+      "id": "s24",
+      "text": "“Living,” added Mr."
+    },
+    {
+      "id": "s25",
+      "text": "Fogg, “if we do not lose a moment.”"
+    },
+    {
+      "id": "s26",
+      "text": "Phileas Fogg, by this resolution, inevitably sacrificed himself; he pronounced his own doom."
+    },
+    {
+      "id": "s27",
+      "text": "The delay of a single day would make him lose the steamer at New York, and his bet would be certainly lost."
+    },
+    {
+      "id": "s28",
+      "text": "But as he thought, “It is my duty,” he did not hesitate."
+    },
+    {
+      "id": "s29",
+      "text": "The commanding officer of Fort Kearney was there."
+    },
+    {
+      "id": "s30",
+      "text": "A hundred of his soldiers had placed themselves in a position to defend the station, should the Sioux attack it."
+    },
+    {
+      "id": "s31",
+      "text": "“Sir,” said Mr."
+    },
+    {
+      "id": "s32",
+      "text": "Fogg to the captain, “three passengers have disappeared.”"
+    },
+    {
+      "id": "s33",
+      "text": "“Dead?” asked the captain."
+    },
+    {
+      "id": "s34",
+      "text": "“Dead or prisoners; that is the uncertainty which must be solved."
+    },
+    {
+      "id": "s35",
+      "text": "Do you propose to pursue the Sioux?”"
+    },
+    {
+      "id": "s36",
+      "text": "“That’s a serious thing to do, sir,” returned the captain."
+    },
+    {
+      "id": "s37",
+      "text": "“These Indians may retreat beyond the Arkansas, and I cannot leave the fort unprotected.”"
+    },
+    {
+      "id": "s38",
+      "text": "“The lives of three men are in question, sir,” said Phileas Fogg."
+    },
+    {
+      "id": "s39",
+      "text": "“Doubtless; but can I risk the lives of fifty men to save three?”"
+    },
+    {
+      "id": "s40",
+      "text": "“I don’t know whether you can, sir; but you ought to do so.”"
+    },
+    {
+      "id": "s41",
+      "text": "“Nobody here,” returned the other, “has a right to teach me my duty.”"
+    },
+    {
+      "id": "s42",
+      "text": "“Very well,” said Mr."
+    },
+    {
+      "id": "s43",
+      "text": "Fogg, coldly."
+    },
+    {
+      "id": "s44",
+      "text": "“I will go alone.”"
+    },
+    {
+      "id": "s45",
+      "text": "“You, sir!” cried Fix, coming up; “you go alone in pursuit of the Indians?”"
+    },
+    {
+      "id": "s46",
+      "text": "“Would you have me leave this poor fellow to perish—him to whom every one present owes his life?"
+    },
+    {
+      "id": "s47",
+      "text": "I shall go.”"
+    },
+    {
+      "id": "s48",
+      "text": "“No, sir, you shall not go alone,” cried the captain, touched in spite of himself."
+    },
+    {
+      "id": "s49",
+      "text": "“No! you are a brave man."
+    },
+    {
+      "id": "s50",
+      "text": "Thirty volunteers!” he added, turning to the soldiers."
+    },
+    {
+      "id": "s51",
+      "text": "The whole company started forward at once."
+    },
+    {
+      "id": "s52",
+      "text": "The captain had only to pick his men."
+    },
+    {
+      "id": "s53",
+      "text": "Thirty were chosen, and an old sergeant placed at their head."
+    },
+    {
+      "id": "s54",
+      "text": "“Thanks, captain,” said Mr."
+    },
+    {
+      "id": "s55",
+      "text": "Fogg."
+    },
+    {
+      "id": "s56",
+      "text": "“Will you let me go with you?” asked Fix."
+    },
+    {
+      "id": "s57",
+      "text": "“Do as you please, sir."
+    },
+    {
+      "id": "s58",
+      "text": "But if you wish to do me a favour, you will remain with Aouda."
+    },
+    {
+      "id": "s59",
+      "text": "In case anything should happen to me—”"
+    },
+    {
+      "id": "s60",
+      "text": "A sudden pallor overspread the detective’s face."
+    },
+    {
+      "id": "s61",
+      "text": "Separate himself from the man whom he had so persistently followed step by step!"
+    },
+    {
+      "id": "s62",
+      "text": "Leave him to wander about in this desert!"
+    },
+    {
+      "id": "s63",
+      "text": "Fix gazed attentively at Mr."
+    },
+    {
+      "id": "s64",
+      "text": "Fogg, and, despite his suspicions and of the struggle which was going on within him, he lowered his eyes before that calm and frank look."
+    },
+    {
+      "id": "s65",
+      "text": "“I will stay,” said he."
+    },
+    {
+      "id": "s66",
+      "text": "A few moments after, Mr."
+    },
+    {
+      "id": "s67",
+      "text": "Fogg pressed the young woman’s hand, and, having confided to her his precious carpet-bag, went off with the sergeant and his little squad."
+    },
+    {
+      "id": "s68",
+      "text": "But, before going, he had said to the soldiers, “My friends, I will divide five thousand dollars among you, if we save the prisoners.”"
+    },
+    {
+      "id": "s69",
+      "text": "It was then a little past noon."
+    },
+    {
+      "id": "s70",
+      "text": "Aouda retired to a waiting-room, and there she waited alone, thinking of the simple and noble generosity, the tranquil courage of Phileas Fogg."
+    },
+    {
+      "id": "s71",
+      "text": "He had sacrificed his fortune, and was now risking his life, all without hesitation, from duty, in silence."
+    },
+    {
+      "id": "s72",
+      "text": "Fix did not have the same thoughts, and could scarcely conceal his agitation."
+    },
+    {
+      "id": "s73",
+      "text": "He walked feverishly up and down the platform, but soon resumed his outward composure."
+    },
+    {
+      "id": "s74",
+      "text": "He now saw the folly of which he had been guilty in letting Fogg go alone."
+    },
+    {
+      "id": "s75",
+      "text": "What!"
+    },
+    {
+      "id": "s76",
+      "text": "This man, whom he had just followed around the world, was permitted now to separate himself from him!"
+    },
+    {
+      "id": "s77",
+      "text": "He began to accuse and abuse himself, and, as if he were director of police, administered to himself a sound lecture for his greenness."
+    },
+    {
+      "id": "s78",
+      "text": "“I have been an idiot!” he thought, “and this man will see it."
+    },
+    {
+      "id": "s79",
+      "text": "He has gone, and won’t come back!"
+    },
+    {
+      "id": "s80",
+      "text": "But how is it that I, Fix, who have in my pocket a warrant for his arrest, have been so fascinated by him?"
+    },
+    {
+      "id": "s81",
+      "text": "Decidedly, I am nothing but an ass!”"
+    },
+    {
+      "id": "s82",
+      "text": "So reasoned the detective, while the hours crept by all too slowly."
+    },
+    {
+      "id": "s83",
+      "text": "He did not know what to do."
+    },
+    {
+      "id": "s84",
+      "text": "Sometimes he was tempted to tell Aouda all; but he could not doubt how the young woman would receive his confidences."
+    },
+    {
+      "id": "s85",
+      "text": "What course should he take?"
+    },
+    {
+      "id": "s86",
+      "text": "He thought of pursuing Fogg across the vast white plains; it did not seem impossible that he might overtake him."
+    },
+    {
+      "id": "s87",
+      "text": "Footsteps were easily printed on the snow!"
+    },
+    {
+      "id": "s88",
+      "text": "But soon, under a new sheet, every imprint would be effaced."
+    },
+    {
+      "id": "s89",
+      "text": "Fix became discouraged."
+    },
+    {
+      "id": "s90",
+      "text": "He felt a sort of insurmountable longing to abandon the game altogether."
+    },
+    {
+      "id": "s91",
+      "text": "He could now leave Fort Kearney station, and pursue his journey homeward in peace."
+    },
+    {
+      "id": "s92",
+      "text": "Towards two o’clock in the afternoon, while it was snowing hard, long whistles were heard approaching from the east."
+    },
+    {
+      "id": "s93",
+      "text": "A great shadow, preceded by a wild light, slowly advanced, appearing still larger through the mist, which gave it a fantastic aspect."
+    },
+    {
+      "id": "s94",
+      "text": "No train was expected from the east, neither had there been time for the succour asked for by telegraph to arrive; the train from Omaha to San Francisco was not due till the next day."
+    },
+    {
+      "id": "s95",
+      "text": "The mystery was soon explained."
+    },
+    {
+      "id": "s96",
+      "text": "The locomotive, which was slowly approaching with deafening whistles, was that which, having been detached from the train, had continued its route with such terrific rapidity, carrying off the unconscious engineer and stoker."
+    },
+    {
+      "id": "s97",
+      "text": "It had run several miles, when, the fire becoming low for want of fuel, the steam had slackened; and it had finally stopped an hour after, some twenty miles beyond Fort Kearney."
+    },
+    {
+      "id": "s98",
+      "text": "Neither the engineer nor the stoker was dead, and, after remaining for some time in their swoon, had come to themselves."
+    },
+    {
+      "id": "s99",
+      "text": "The train had then stopped."
+    },
+    {
+      "id": "s100",
+      "text": "The engineer, when he found himself in the desert, and the locomotive without cars, understood what had happened."
+    },
+    {
+      "id": "s101",
+      "text": "He could not imagine how the locomotive had become separated from the train; but he did not doubt that the train left behind was in distress."
+    },
+    {
+      "id": "s102",
+      "text": "He did not hesitate what to do."
+    },
+    {
+      "id": "s103",
+      "text": "It would be prudent to continue on to Omaha, for it would be dangerous to return to the train, which the Indians might still be engaged in pillaging."
+    },
+    {
+      "id": "s104",
+      "text": "Nevertheless, he began to rebuild the fire in the furnace; the pressure again mounted, and the locomotive returned, running backwards to Fort Kearney."
+    },
+    {
+      "id": "s105",
+      "text": "This it was which was whistling in the mist."
+    },
+    {
+      "id": "s106",
+      "text": "The travellers were glad to see the locomotive resume its place at the head of the train."
+    },
+    {
+      "id": "s107",
+      "text": "They could now continue the journey so terribly interrupted."
+    },
+    {
+      "id": "s108",
+      "text": "Aouda, on seeing the locomotive come up, hurried out of the station, and asked the conductor, “Are you going to start?”"
+    },
+    {
+      "id": "s109",
+      "text": "“At once, madam.”"
+    },
+    {
+      "id": "s110",
+      "text": "“But the prisoners, our unfortunate fellow-travellers—”"
+    },
+    {
+      "id": "s111",
+      "text": "“I cannot interrupt the trip,” replied the conductor."
+    },
+    {
+      "id": "s112",
+      "text": "“We are already three hours behind time.”"
+    },
+    {
+      "id": "s113",
+      "text": "“And when will another train pass here from San Francisco?”"
+    },
+    {
+      "id": "s114",
+      "text": "“To-morrow evening, madam.”"
+    },
+    {
+      "id": "s115",
+      "text": "“To-morrow evening!"
+    },
+    {
+      "id": "s116",
+      "text": "But then it will be too late!"
+    },
+    {
+      "id": "s117",
+      "text": "We must wait—”"
+    },
+    {
+      "id": "s118",
+      "text": "“It is impossible,” responded the conductor."
+    },
+    {
+      "id": "s119",
+      "text": "“If you wish to go, please get in.”"
+    },
+    {
+      "id": "s120",
+      "text": "“I will not go,” said Aouda."
+    },
+    {
+      "id": "s121",
+      "text": "Fix had heard this conversation."
+    },
+    {
+      "id": "s122",
+      "text": "A little while before, when there was no prospect of proceeding on the journey, he had made up his mind to leave Fort Kearney; but now that the train was there, ready to start, and he had only to take his seat in the car, an irresistible influence held him back."
+    },
+    {
+      "id": "s123",
+      "text": "The station platform burned his feet, and he could not stir."
+    },
+    {
+      "id": "s124",
+      "text": "The conflict in his mind again began; anger and failure stifled him."
+    },
+    {
+      "id": "s125",
+      "text": "He wished to struggle on to the end."
+    },
+    {
+      "id": "s126",
+      "text": "Meanwhile the passengers and some of the wounded, among them Colonel Proctor, whose injuries were serious, had taken their places in the train."
+    },
+    {
+      "id": "s127",
+      "text": "The buzzing of the over-heated boiler was heard, and the steam was escaping from the valves."
+    },
+    {
+      "id": "s128",
+      "text": "The engineer whistled, the train started, and soon disappeared, mingling its white smoke with the eddies of the densely falling snow."
+    },
+    {
+      "id": "s129",
+      "text": "The detective had remained behind."
+    },
+    {
+      "id": "s130",
+      "text": "Several hours passed."
+    },
+    {
+      "id": "s131",
+      "text": "The weather was dismal, and it was very cold."
+    },
+    {
+      "id": "s132",
+      "text": "Fix sat motionless on a bench in the station; he might have been thought asleep."
+    },
+    {
+      "id": "s133",
+      "text": "Aouda, despite the storm, kept coming out of the waiting-room, going to the end of the platform, and peering through the tempest of snow, as if to pierce the mist which narrowed the horizon around her, and to hear, if possible, some welcome sound."
+    },
+    {
+      "id": "s134",
+      "text": "She heard and saw nothing."
+    },
+    {
+      "id": "s135",
+      "text": "Then she would return, chilled through, to issue out again after the lapse of a few moments, but always in vain."
+    },
+    {
+      "id": "s136",
+      "text": "Evening came, and the little band had not returned."
+    },
+    {
+      "id": "s137",
+      "text": "Where could they be?"
+    },
+    {
+      "id": "s138",
+      "text": "Had they found the Indians, and were they having a conflict with them, or were they still wandering amid the mist?"
+    },
+    {
+      "id": "s139",
+      "text": "The commander of the fort was anxious, though he tried to conceal his apprehensions."
+    },
+    {
+      "id": "s140",
+      "text": "As night approached, the snow fell less plentifully, but it became intensely cold."
+    },
+    {
+      "id": "s141",
+      "text": "Absolute silence rested on the plains."
+    },
+    {
+      "id": "s142",
+      "text": "Neither flight of bird nor passing of beast troubled the perfect calm."
+    },
+    {
+      "id": "s143",
+      "text": "Throughout the night Aouda, full of sad forebodings, her heart stifled with anguish, wandered about on the verge of the plains."
+    },
+    {
+      "id": "s144",
+      "text": "Her imagination carried her far off, and showed her innumerable dangers."
+    },
+    {
+      "id": "s145",
+      "text": "What she suffered through the long hours it would be impossible to describe."
+    },
+    {
+      "id": "s146",
+      "text": "Fix remained stationary in the same place, but did not sleep."
+    },
+    {
+      "id": "s147",
+      "text": "Once a man approached and spoke to him, and the detective merely replied by shaking his head."
+    },
+    {
+      "id": "s148",
+      "text": "Thus the night passed."
+    },
+    {
+      "id": "s149",
+      "text": "At dawn, the half-extinguished disc of the sun rose above a misty horizon; but it was now possible to recognise objects two miles off."
+    },
+    {
+      "id": "s150",
+      "text": "Phileas Fogg and the squad had gone southward; in the south all was still vacancy."
+    },
+    {
+      "id": "s151",
+      "text": "It was then seven o’clock."
+    },
+    {
+      "id": "s152",
+      "text": "The captain, who was really alarmed, did not know what course to take."
+    },
+    {
+      "id": "s153",
+      "text": "Should he send another detachment to the rescue of the first?"
+    },
+    {
+      "id": "s154",
+      "text": "Should he sacrifice more men, with so few chances of saving those already sacrificed?"
+    },
+    {
+      "id": "s155",
+      "text": "His hesitation did not last long, however."
+    },
+    {
+      "id": "s156",
+      "text": "Calling one of his lieutenants, he was on the point of ordering a reconnaissance, when gunshots were heard."
+    },
+    {
+      "id": "s157",
+      "text": "Was it a signal?"
+    },
+    {
+      "id": "s158",
+      "text": "The soldiers rushed out of the fort, and half a mile off they perceived a little band returning in good order."
+    },
+    {
+      "id": "s159",
+      "text": "Mr."
+    },
+    {
+      "id": "s160",
+      "text": "Fogg was marching at their head, and just behind him were Passepartout and the other two travellers, rescued from the Sioux."
+    },
+    {
+      "id": "s161",
+      "text": "They had met and fought the Indians ten miles south of Fort Kearney."
+    },
+    {
+      "id": "s162",
+      "text": "Shortly before the detachment arrived, Passepartout and his companions had begun to struggle with their captors, three of whom the Frenchman had felled with his fists, when his master and the soldiers hastened up to their relief."
+    },
+    {
+      "id": "s163",
+      "text": "All were welcomed with joyful cries."
+    },
+    {
+      "id": "s164",
+      "text": "Phileas Fogg distributed the reward he had promised to the soldiers, while Passepartout, not without reason, muttered to himself, “It must certainly be confessed that I cost my master dear!”"
+    },
+    {
+      "id": "s165",
+      "text": "Fix, without saying a word, looked at Mr."
+    },
+    {
+      "id": "s166",
+      "text": "Fogg, and it would have been difficult to analyse the thoughts which struggled within him."
+    },
+    {
+      "id": "s167",
+      "text": "As for Aouda, she took her protector’s hand and pressed it in her own, too much moved to speak."
+    },
+    {
+      "id": "s168",
+      "text": "Meanwhile, Passepartout was looking about for the train; he thought he should find it there, ready to start for Omaha, and he hoped that the time lost might be regained."
+    },
+    {
+      "id": "s169",
+      "text": "“The train! the train!” cried he."
+    },
+    {
+      "id": "s170",
+      "text": "“Gone,” replied Fix."
+    },
+    {
+      "id": "s171",
+      "text": "“And when does the next train pass here?” said Phileas Fogg."
+    },
+    {
+      "id": "s172",
+      "text": "“Not till this evening.”"
+    },
+    {
+      "id": "s173",
+      "text": "“Ah!” returned the impassible gentleman quietly."
+    }
+  ]
+}

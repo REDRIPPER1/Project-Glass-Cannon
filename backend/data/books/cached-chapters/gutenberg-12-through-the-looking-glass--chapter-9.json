@@ -1,0 +1,989 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-12-through-the-looking-glass",
+  "ebookId": "12",
+  "edition": "Project Gutenberg eBook #12; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-9",
+  "chapterTitle": "CHAPTER IX.",
+  "contentHash": "sha256:dad9bd64a5956a558ebe7f169c7036a4cd382a9545f6d38a93a6c76ec7a0830a",
+  "attribution": "Carroll, Lewis, 1832-1898, Through the Looking-Glass, CHAPTER IX.. Source checked against Project Gutenberg eBook #12.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/12",
+    "textUrl": "https://www.gutenberg.org/cache/epub/12/pg12.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Queen Alice"
+    },
+    {
+      "id": "s2",
+      "text": "“Well, this _is_ grand!” said Alice."
+    },
+    {
+      "id": "s3",
+      "text": "“I never expected I should be a Queen so soon—and I’ll tell you what it is, your majesty,” she went on in a severe tone (she was always rather fond of scolding herself), “it’ll never do for you to be lolling about on the grass like that!"
+    },
+    {
+      "id": "s4",
+      "text": "Queens have to be dignified, you know!”"
+    },
+    {
+      "id": "s5",
+      "text": "So she got up and walked about—rather stiffly just at first, as she was afraid that the crown might come off: but she comforted herself with the thought that there was nobody to see her, “and if I really am a Queen,” she said as she sat down again, “I shall be able to manage it quite well in time.”"
+    },
+    {
+      "id": "s6",
+      "text": "Everything was happening so oddly that she didn’t feel a bit surprised at finding the Red Queen and the White Queen sitting close to her, one on each side: she would have liked very much to ask them how they came there, but she feared it would not be quite civil."
+    },
+    {
+      "id": "s7",
+      "text": "However, there would be no harm, she thought, in asking if the game was over."
+    },
+    {
+      "id": "s8",
+      "text": "“Please, would you tell me—” she began, looking timidly at the Red Queen."
+    },
+    {
+      "id": "s9",
+      "text": "“Speak when you’re spoken to!” The Queen sharply interrupted her."
+    },
+    {
+      "id": "s10",
+      "text": "“But if everybody obeyed that rule,” said Alice, who was always ready for a little argument, “and if you only spoke when you were spoken to, and the other person always waited for _you_ to begin, you see nobody would ever say anything, so that—”"
+    },
+    {
+      "id": "s11",
+      "text": "“Ridiculous!” cried the Queen."
+    },
+    {
+      "id": "s12",
+      "text": "“Why, don’t you see, child—” here she broke off with a frown, and, after thinking for a minute, suddenly changed the subject of the conversation."
+    },
+    {
+      "id": "s13",
+      "text": "“What do you mean by ‘If you really are a Queen’?"
+    },
+    {
+      "id": "s14",
+      "text": "What right have you to call yourself so?"
+    },
+    {
+      "id": "s15",
+      "text": "You can’t be a Queen, you know, till you’ve passed the proper examination."
+    },
+    {
+      "id": "s16",
+      "text": "And the sooner we begin it, the better.”"
+    },
+    {
+      "id": "s17",
+      "text": "“I only said ‘if’!” poor Alice pleaded in a piteous tone."
+    },
+    {
+      "id": "s18",
+      "text": "The two Queens looked at each other, and the Red Queen remarked, with a little shudder, “She _says_ she only said ‘if’—”"
+    },
+    {
+      "id": "s19",
+      "text": "“But she said a great deal more than that!” the White Queen moaned, wringing her hands."
+    },
+    {
+      "id": "s20",
+      "text": "“Oh, ever so much more than that!”"
+    },
+    {
+      "id": "s21",
+      "text": "“So you did, you know,” the Red Queen said to Alice."
+    },
+    {
+      "id": "s22",
+      "text": "“Always speak the truth—think before you speak—and write it down afterwards.”"
+    },
+    {
+      "id": "s23",
+      "text": "“I’m sure I didn’t mean—” Alice was beginning, but the Red Queen interrupted her impatiently."
+    },
+    {
+      "id": "s24",
+      "text": "“That’s just what I complain of!"
+    },
+    {
+      "id": "s25",
+      "text": "You _should_ have meant!"
+    },
+    {
+      "id": "s26",
+      "text": "What do you suppose is the use of child without any meaning?"
+    },
+    {
+      "id": "s27",
+      "text": "Even a joke should have some meaning—and a child’s more important than a joke, I hope."
+    },
+    {
+      "id": "s28",
+      "text": "You couldn’t deny that, even if you tried with both hands.”"
+    },
+    {
+      "id": "s29",
+      "text": "“I don’t deny things with my _hands_,” Alice objected."
+    },
+    {
+      "id": "s30",
+      "text": "“Nobody said you did,” said the Red Queen."
+    },
+    {
+      "id": "s31",
+      "text": "“I said you couldn’t if you tried.”"
+    },
+    {
+      "id": "s32",
+      "text": "“She’s in that state of mind,” said the White Queen, “that she wants to deny _something_—only she doesn’t know what to deny!”"
+    },
+    {
+      "id": "s33",
+      "text": "“A nasty, vicious temper,” the Red Queen remarked; and then there was an uncomfortable silence for a minute or two."
+    },
+    {
+      "id": "s34",
+      "text": "The Red Queen broke the silence by saying to the White Queen, “I invite you to Alice’s dinner-party this afternoon.”"
+    },
+    {
+      "id": "s35",
+      "text": "The White Queen smiled feebly, and said “And I invite _you_.”"
+    },
+    {
+      "id": "s36",
+      "text": "“I didn’t know I was to have a party at all,” said Alice; “but if there is to be one, I think _I_ ought to invite the guests.”"
+    },
+    {
+      "id": "s37",
+      "text": "“We gave you the opportunity of doing it,” the Red Queen remarked: “but I daresay you’ve not had many lessons in manners yet?”"
+    },
+    {
+      "id": "s38",
+      "text": "“Manners are not taught in lessons,” said Alice."
+    },
+    {
+      "id": "s39",
+      "text": "“Lessons teach you to do sums, and things of that sort.”"
+    },
+    {
+      "id": "s40",
+      "text": "“And you do Addition?” the White Queen asked."
+    },
+    {
+      "id": "s41",
+      "text": "“What’s one and one and one and one and one and one and one and one and one and one?”"
+    },
+    {
+      "id": "s42",
+      "text": "“I don’t know,” said Alice."
+    },
+    {
+      "id": "s43",
+      "text": "“I lost count.”"
+    },
+    {
+      "id": "s44",
+      "text": "“She can’t do Addition,” the Red Queen interrupted."
+    },
+    {
+      "id": "s45",
+      "text": "“Can you do Subtraction?"
+    },
+    {
+      "id": "s46",
+      "text": "Take nine from eight.”"
+    },
+    {
+      "id": "s47",
+      "text": "“Nine from eight I can’t, you know,” Alice replied very readily: “but—”"
+    },
+    {
+      "id": "s48",
+      "text": "“She can’t do Subtraction,” said the White Queen."
+    },
+    {
+      "id": "s49",
+      "text": "“Can you do Division?"
+    },
+    {
+      "id": "s50",
+      "text": "Divide a loaf by a knife—what’s the answer to that?”"
+    },
+    {
+      "id": "s51",
+      "text": "“I suppose—” Alice was beginning, but the Red Queen answered for her."
+    },
+    {
+      "id": "s52",
+      "text": "“Bread-and-butter, of course."
+    },
+    {
+      "id": "s53",
+      "text": "Try another Subtraction sum."
+    },
+    {
+      "id": "s54",
+      "text": "Take a bone from a dog: what remains?”"
+    },
+    {
+      "id": "s55",
+      "text": "Alice considered."
+    },
+    {
+      "id": "s56",
+      "text": "“The bone wouldn’t remain, of course, if I took it—and the dog wouldn’t remain; it would come to bite me—and I’m sure _I_ shouldn’t remain!”"
+    },
+    {
+      "id": "s57",
+      "text": "“Then you think nothing would remain?” said the Red Queen."
+    },
+    {
+      "id": "s58",
+      "text": "“I think that’s the answer.”"
+    },
+    {
+      "id": "s59",
+      "text": "“Wrong, as usual,” said the Red Queen: “the dog’s temper would remain.”"
+    },
+    {
+      "id": "s60",
+      "text": "“But I don’t see how—”"
+    },
+    {
+      "id": "s61",
+      "text": "“Why, look here!” the Red Queen cried."
+    },
+    {
+      "id": "s62",
+      "text": "“The dog would lose its temper, wouldn’t it?”"
+    },
+    {
+      "id": "s63",
+      "text": "“Perhaps it would,” Alice replied cautiously."
+    },
+    {
+      "id": "s64",
+      "text": "“Then if the dog went away, its temper would remain!” the Queen exclaimed triumphantly."
+    },
+    {
+      "id": "s65",
+      "text": "Alice said, as gravely as she could, “They might go different ways.” But she couldn’t help thinking to herself, “What dreadful nonsense we _are_ talking!”"
+    },
+    {
+      "id": "s66",
+      "text": "“She can’t do sums a _bit_!” the Queens said together, with great emphasis."
+    },
+    {
+      "id": "s67",
+      "text": "“Can _you_ do sums?” Alice said, turning suddenly on the White Queen, for she didn’t like being found fault with so much."
+    },
+    {
+      "id": "s68",
+      "text": "The Queen gasped and shut her eyes."
+    },
+    {
+      "id": "s69",
+      "text": "“I can do Addition, if you give me time—but I can’t do Subtraction, under _any_ circumstances!”"
+    },
+    {
+      "id": "s70",
+      "text": "“Of course you know your A B C?” said the Red Queen."
+    },
+    {
+      "id": "s71",
+      "text": "“To be sure I do.” said Alice."
+    },
+    {
+      "id": "s72",
+      "text": "“So do I,” the White Queen whispered: “we’ll often say it over together, dear."
+    },
+    {
+      "id": "s73",
+      "text": "And I’ll tell you a secret—I can read words of one letter!"
+    },
+    {
+      "id": "s74",
+      "text": "Isn’t _that_ grand!"
+    },
+    {
+      "id": "s75",
+      "text": "However, don’t be discouraged."
+    },
+    {
+      "id": "s76",
+      "text": "You’ll come to it in time.”"
+    },
+    {
+      "id": "s77",
+      "text": "Here the Red Queen began again."
+    },
+    {
+      "id": "s78",
+      "text": "“Can you answer useful questions?” she said."
+    },
+    {
+      "id": "s79",
+      "text": "“How is bread made?”"
+    },
+    {
+      "id": "s80",
+      "text": "“I know _that_!” Alice cried eagerly."
+    },
+    {
+      "id": "s81",
+      "text": "“You take some flour—”"
+    },
+    {
+      "id": "s82",
+      "text": "“Where do you pick the flower?” the White Queen asked."
+    },
+    {
+      "id": "s83",
+      "text": "“In a garden, or in the hedges?”"
+    },
+    {
+      "id": "s84",
+      "text": "“Well, it isn’t _picked_ at all,” Alice explained: “it’s _ground_—”"
+    },
+    {
+      "id": "s85",
+      "text": "“How many acres of ground?” said the White Queen."
+    },
+    {
+      "id": "s86",
+      "text": "“You mustn’t leave out so many things.”"
+    },
+    {
+      "id": "s87",
+      "text": "“Fan her head!” the Red Queen anxiously interrupted."
+    },
+    {
+      "id": "s88",
+      "text": "“She’ll be feverish after so much thinking.” So they set to work and fanned her with bunches of leaves, till she had to beg them to leave off, it blew her hair about so."
+    },
+    {
+      "id": "s89",
+      "text": "“She’s all right again now,” said the Red Queen."
+    },
+    {
+      "id": "s90",
+      "text": "“Do you know Languages?"
+    },
+    {
+      "id": "s91",
+      "text": "What’s the French for fiddle-de-dee?”"
+    },
+    {
+      "id": "s92",
+      "text": "“Fiddle-de-dee’s not English,” Alice replied gravely."
+    },
+    {
+      "id": "s93",
+      "text": "“Who ever said it was?” said the Red Queen."
+    },
+    {
+      "id": "s94",
+      "text": "Alice thought she saw a way out of the difficulty this time."
+    },
+    {
+      "id": "s95",
+      "text": "“If you’ll tell me what language ‘fiddle-de-dee’ is, I’ll tell you the French for it!” she exclaimed triumphantly."
+    },
+    {
+      "id": "s96",
+      "text": "But the Red Queen drew herself up rather stiffly, and said “Queens never make bargains.”"
+    },
+    {
+      "id": "s97",
+      "text": "“I wish Queens never asked questions,” Alice thought to herself."
+    },
+    {
+      "id": "s98",
+      "text": "“Don’t let us quarrel,” the White Queen said in an anxious tone."
+    },
+    {
+      "id": "s99",
+      "text": "“What is the cause of lightning?”"
+    },
+    {
+      "id": "s100",
+      "text": "“The cause of lightning,” Alice said very decidedly, for she felt quite certain about this, “is the thunder—no, no!” she hastily corrected herself."
+    },
+    {
+      "id": "s101",
+      "text": "“I meant the other way.”"
+    },
+    {
+      "id": "s102",
+      "text": "“It’s too late to correct it,” said the Red Queen: “when you’ve once said a thing, that fixes it, and you must take the consequences.”"
+    },
+    {
+      "id": "s103",
+      "text": "“Which reminds me—” the White Queen said, looking down and nervously clasping and unclasping her hands, “we had _such_ a thunderstorm last Tuesday—I mean one of the last set of Tuesdays, you know.”"
+    },
+    {
+      "id": "s104",
+      "text": "Alice was puzzled."
+    },
+    {
+      "id": "s105",
+      "text": "“In _our_ country,” she remarked, “there’s only one day at a time.”"
+    },
+    {
+      "id": "s106",
+      "text": "The Red Queen said, “That’s a poor thin way of doing things."
+    },
+    {
+      "id": "s107",
+      "text": "Now _here_, we mostly have days and nights two or three at a time, and sometimes in the winter we take as many as five nights together—for warmth, you know.”"
+    },
+    {
+      "id": "s108",
+      "text": "“Are five nights warmer than one night, then?” Alice ventured to ask."
+    },
+    {
+      "id": "s109",
+      "text": "“Five times as warm, of course.”"
+    },
+    {
+      "id": "s110",
+      "text": "“But they should be five times as _cold_, by the same rule—”"
+    },
+    {
+      "id": "s111",
+      "text": "“Just so!” cried the Red Queen."
+    },
+    {
+      "id": "s112",
+      "text": "“Five times as warm, _and_ five times as cold—just as I’m five times as rich as you are, _and_ five times as clever!”"
+    },
+    {
+      "id": "s113",
+      "text": "Alice sighed and gave it up."
+    },
+    {
+      "id": "s114",
+      "text": "“It’s exactly like a riddle with no answer!” she thought."
+    },
+    {
+      "id": "s115",
+      "text": "“Humpty Dumpty saw it too,” the White Queen went on in a low voice, more as if she were talking to herself."
+    },
+    {
+      "id": "s116",
+      "text": "“He came to the door with a corkscrew in his hand—”"
+    },
+    {
+      "id": "s117",
+      "text": "“What did he want?” said the Red Queen."
+    },
+    {
+      "id": "s118",
+      "text": "“He said he _would_ come in,” the White Queen went on, “because he was looking for a hippopotamus."
+    },
+    {
+      "id": "s119",
+      "text": "Now, as it happened, there wasn’t such a thing in the house, that morning.”"
+    },
+    {
+      "id": "s120",
+      "text": "“Is there generally?” Alice asked in an astonished tone."
+    },
+    {
+      "id": "s121",
+      "text": "“Well, only on Thursdays,” said the Queen."
+    },
+    {
+      "id": "s122",
+      "text": "“I know what he came for,” said Alice: “he wanted to punish the fish, because—”"
+    },
+    {
+      "id": "s123",
+      "text": "Here the White Queen began again."
+    },
+    {
+      "id": "s124",
+      "text": "“It was _such_ a thunderstorm, you can’t think!” (“She _never_ could, you know,” said the Red Queen.) “And part of the roof came off, and ever so much thunder got in—and it went rolling round the room in great lumps—and knocking over the tables and things—till I was so frightened, I couldn’t remember my own name!”"
+    },
+    {
+      "id": "s125",
+      "text": "Alice thought to herself, “I never should _try_ to remember my name in the middle of an accident!"
+    },
+    {
+      "id": "s126",
+      "text": "Where would be the use of it?” but she did not say this aloud, for fear of hurting the poor Queen’s feeling."
+    },
+    {
+      "id": "s127",
+      "text": "“Your Majesty must excuse her,” the Red Queen said to Alice, taking one of the White Queen’s hands in her own, and gently stroking it: “she means well, but she can’t help saying foolish things, as a general rule.”"
+    },
+    {
+      "id": "s128",
+      "text": "The White Queen looked timidly at Alice, who felt she _ought_ to say something kind, but really couldn’t think of anything at the moment."
+    },
+    {
+      "id": "s129",
+      "text": "“She never was really well brought up,” the Red Queen went on: “but it’s amazing how good-tempered she is!"
+    },
+    {
+      "id": "s130",
+      "text": "Pat her on the head, and see how pleased she’ll be!” But this was more than Alice had courage to do."
+    },
+    {
+      "id": "s131",
+      "text": "“A little kindness—and putting her hair in papers—would do wonders with her—”"
+    },
+    {
+      "id": "s132",
+      "text": "The White Queen gave a deep sigh, and laid her head on Alice’s shoulder."
+    },
+    {
+      "id": "s133",
+      "text": "“I _am_ so sleepy!” she moaned."
+    },
+    {
+      "id": "s134",
+      "text": "“She’s tired, poor thing!” said the Red Queen."
+    },
+    {
+      "id": "s135",
+      "text": "“Smooth her hair—lend her your nightcap—and sing her a soothing lullaby.”"
+    },
+    {
+      "id": "s136",
+      "text": "“I haven’t got a nightcap with me,” said Alice, as she tried to obey the first direction: “and I don’t know any soothing lullabies.”"
+    },
+    {
+      "id": "s137",
+      "text": "“I must do it myself, then,” said the Red Queen, and she began:"
+    },
+    {
+      "id": "s138",
+      "text": "“Hush-a-by lady, in Alice’s lap!"
+    },
+    {
+      "id": "s139",
+      "text": "Till the feast’s ready, we’ve time for a nap: When the feast’s over, we’ll go to the ball— Red Queen, and White Queen, and Alice, and all!"
+    },
+    {
+      "id": "s140",
+      "text": "“And now you know the words,” she added, as she put her head down on Alice’s other shoulder, “just sing it through to _me_."
+    },
+    {
+      "id": "s141",
+      "text": "I’m getting sleepy, too.” In another moment both Queens were fast asleep, and snoring loud."
+    },
+    {
+      "id": "s142",
+      "text": "“What _am_ I to do?” exclaimed Alice, looking about in great perplexity, as first one round head, and then the other, rolled down from her shoulder, and lay like a heavy lump in her lap."
+    },
+    {
+      "id": "s143",
+      "text": "“I don’t think it _ever_ happened before, that any one had to take care of two Queens asleep at once!"
+    },
+    {
+      "id": "s144",
+      "text": "No, not in all the History of England—it couldn’t, you know, because there never was more than one Queen at a time."
+    },
+    {
+      "id": "s145",
+      "text": "Do wake up, you heavy things!” she went on in an impatient tone; but there was no answer but a gentle snoring."
+    },
+    {
+      "id": "s146",
+      "text": "The snoring got more distinct every minute, and sounded more like a tune: at last she could even make out the words, and she listened so eagerly that, when the two great heads vanished from her lap, she hardly missed them."
+    },
+    {
+      "id": "s147",
+      "text": "She was standing before an arched doorway over which were the words QUEEN ALICE in large letters, and on each side of the arch there was a bell-handle; one was marked “Visitors’ Bell,” and the other “Servants’ Bell.”"
+    },
+    {
+      "id": "s148",
+      "text": "“I’ll wait till the song’s over,” thought Alice, “and then I’ll ring—the—_which_ bell must I ring?” she went on, very much puzzled by the names."
+    },
+    {
+      "id": "s149",
+      "text": "“I’m not a visitor, and I’m not a servant."
+    },
+    {
+      "id": "s150",
+      "text": "There _ought_ to be one marked ‘Queen,’ you know—”"
+    },
+    {
+      "id": "s151",
+      "text": "Just then the door opened a little way, and a creature with a long beak put its head out for a moment and said “No admittance till the week after next!” and shut the door again with a bang."
+    },
+    {
+      "id": "s152",
+      "text": "Alice knocked and rang in vain for a long time, but at last, a very old Frog, who was sitting under a tree, got up and hobbled slowly towards her: he was dressed in bright yellow, and had enormous boots on."
+    },
+    {
+      "id": "s153",
+      "text": "“What is it, now?” the Frog said in a deep hoarse whisper."
+    },
+    {
+      "id": "s154",
+      "text": "Alice turned round, ready to find fault with anybody."
+    },
+    {
+      "id": "s155",
+      "text": "“Where’s the servant whose business it is to answer the door?” she began angrily."
+    },
+    {
+      "id": "s156",
+      "text": "“Which door?” said the Frog."
+    },
+    {
+      "id": "s157",
+      "text": "Alice almost stamped with irritation at the slow drawl in which he spoke."
+    },
+    {
+      "id": "s158",
+      "text": "“_This_ door, of course!”"
+    },
+    {
+      "id": "s159",
+      "text": "The Frog looked at the door with his large dull eyes for a minute: then he went nearer and rubbed it with his thumb, as if he were trying whether the paint would come off; then he looked at Alice."
+    },
+    {
+      "id": "s160",
+      "text": "“To answer the door?” he said."
+    },
+    {
+      "id": "s161",
+      "text": "“What’s it been asking of?” He was so hoarse that Alice could scarcely hear him."
+    },
+    {
+      "id": "s162",
+      "text": "“I don’t know what you mean,” she said."
+    },
+    {
+      "id": "s163",
+      "text": "“I talks English, doesn’t I?” the Frog went on."
+    },
+    {
+      "id": "s164",
+      "text": "“Or are you deaf?"
+    },
+    {
+      "id": "s165",
+      "text": "What did it ask you?”"
+    },
+    {
+      "id": "s166",
+      "text": "“Nothing!” Alice said impatiently."
+    },
+    {
+      "id": "s167",
+      "text": "“I’ve been knocking at it!”"
+    },
+    {
+      "id": "s168",
+      "text": "“Shouldn’t do that—shouldn’t do that—” the Frog muttered."
+    },
+    {
+      "id": "s169",
+      "text": "“Vexes it, you know.” Then he went up and gave the door a kick with one of his great feet."
+    },
+    {
+      "id": "s170",
+      "text": "“You let _it_ alone,” he panted out, as he hobbled back to his tree, “and it’ll let _you_ alone, you know.”"
+    },
+    {
+      "id": "s171",
+      "text": "At this moment the door was flung open, and a shrill voice was heard singing:"
+    },
+    {
+      "id": "s172",
+      "text": "“To the Looking-Glass world it was Alice that said, ‘I’ve a sceptre in hand, I’ve a crown on my head; Let the Looking-Glass creatures, whatever they be, Come and dine with the Red Queen, the White Queen, and me.’”"
+    },
+    {
+      "id": "s173",
+      "text": "And hundreds of voices joined in the chorus:"
+    },
+    {
+      "id": "s174",
+      "text": "“Then fill up the glasses as quick as you can, And sprinkle the table with buttons and bran: Put cats in the coffee, and mice in the tea— And welcome Queen Alice with thirty-times-three!”"
+    },
+    {
+      "id": "s175",
+      "text": "Then followed a confused noise of cheering, and Alice thought to herself, “Thirty times three makes ninety."
+    },
+    {
+      "id": "s176",
+      "text": "I wonder if any one’s counting?” In a minute there was silence again, and the same shrill voice sang another verse;"
+    },
+    {
+      "id": "s177",
+      "text": "“‘O Looking-Glass creatures,’ quoth Alice, ‘draw near! ’Tis an honour to see me, a favour to hear: ’Tis a privilege high to have dinner and tea Along with the Red Queen, the White Queen, and me!’”"
+    },
+    {
+      "id": "s178",
+      "text": "Then came the chorus again:—"
+    },
+    {
+      "id": "s179",
+      "text": "“Then fill up the glasses with treacle and ink, Or anything else that is pleasant to drink: Mix sand with the cider, and wool with the wine— And welcome Queen Alice with ninety-times-nine!”"
+    },
+    {
+      "id": "s180",
+      "text": "“Ninety times nine!” Alice repeated in despair, “Oh, that’ll never be done!"
+    },
+    {
+      "id": "s181",
+      "text": "I’d better go in at once—” and there was a dead silence the moment she appeared."
+    },
+    {
+      "id": "s182",
+      "text": "Alice glanced nervously along the table, as she walked up the large hall, and noticed that there were about fifty guests, of all kinds: some were animals, some birds, and there were even a few flowers among them."
+    },
+    {
+      "id": "s183",
+      "text": "“I’m glad they’ve come without waiting to be asked,” she thought: “I should never have known who were the right people to invite!”"
+    },
+    {
+      "id": "s184",
+      "text": "There were three chairs at the head of the table; the Red and White Queens had already taken two of them, but the middle one was empty."
+    },
+    {
+      "id": "s185",
+      "text": "Alice sat down in it, rather uncomfortable in the silence, and longing for some one to speak."
+    },
+    {
+      "id": "s186",
+      "text": "At last the Red Queen began."
+    },
+    {
+      "id": "s187",
+      "text": "“You’ve missed the soup and fish,” she said."
+    },
+    {
+      "id": "s188",
+      "text": "“Put on the joint!” And the waiters set a leg of mutton before Alice, who looked at it rather anxiously, as she had never had to carve a joint before."
+    },
+    {
+      "id": "s189",
+      "text": "“You look a little shy; let me introduce you to that leg of mutton,” said the Red Queen."
+    },
+    {
+      "id": "s190",
+      "text": "“Alice—Mutton; Mutton—Alice.” The leg of mutton got up in the dish and made a little bow to Alice; and Alice returned the bow, not knowing whether to be frightened or amused."
+    },
+    {
+      "id": "s191",
+      "text": "“May I give you a slice?” she said, taking up the knife and fork, and looking from one Queen to the other."
+    },
+    {
+      "id": "s192",
+      "text": "“Certainly not,” the Red Queen said, very decidedly: “it isn’t etiquette to cut any one you’ve been introduced to."
+    },
+    {
+      "id": "s193",
+      "text": "Remove the joint!” And the waiters carried it off, and brought a large plum-pudding in its place."
+    },
+    {
+      "id": "s194",
+      "text": "“I won’t be introduced to the pudding, please,” Alice said rather hastily, “or we shall get no dinner at all."
+    },
+    {
+      "id": "s195",
+      "text": "May I give you some?”"
+    },
+    {
+      "id": "s196",
+      "text": "But the Red Queen looked sulky, and growled “Pudding—Alice; Alice—Pudding."
+    },
+    {
+      "id": "s197",
+      "text": "Remove the pudding!” and the waiters took it away so quickly that Alice couldn’t return its bow."
+    },
+    {
+      "id": "s198",
+      "text": "However, she didn’t see why the Red Queen should be the only one to give orders, so, as an experiment, she called out “Waiter!"
+    },
+    {
+      "id": "s199",
+      "text": "Bring back the pudding!” and there it was again in a moment like a conjuring-trick."
+    },
+    {
+      "id": "s200",
+      "text": "It was so large that she couldn’t help feeling a _little_ shy with it, as she had been with the mutton; however, she conquered her shyness by a great effort and cut a slice and handed it to the Red Queen."
+    },
+    {
+      "id": "s201",
+      "text": "“What impertinence!” said the Pudding."
+    },
+    {
+      "id": "s202",
+      "text": "“I wonder how you’d like it, if I were to cut a slice out of _you_, you creature!”"
+    },
+    {
+      "id": "s203",
+      "text": "It spoke in a thick, suety sort of voice, and Alice hadn’t a word to say in reply: she could only sit and look at it and gasp."
+    },
+    {
+      "id": "s204",
+      "text": "“Make a remark,” said the Red Queen: “it’s ridiculous to leave all the conversation to the pudding!”"
+    },
+    {
+      "id": "s205",
+      "text": "“Do you know, I’ve had such a quantity of poetry repeated to me to-day,” Alice began, a little frightened at finding that, the moment she opened her lips, there was dead silence, and all eyes were fixed upon her; “and it’s a very curious thing, I think—every poem was about fishes in some way."
+    },
+    {
+      "id": "s206",
+      "text": "Do you know why they’re so fond of fishes, all about here?”"
+    },
+    {
+      "id": "s207",
+      "text": "She spoke to the Red Queen, whose answer was a little wide of the mark."
+    },
+    {
+      "id": "s208",
+      "text": "“As to fishes,” she said, very slowly and solemnly, putting her mouth close to Alice’s ear, “her White Majesty knows a lovely riddle—all in poetry—all about fishes."
+    },
+    {
+      "id": "s209",
+      "text": "Shall she repeat it?”"
+    },
+    {
+      "id": "s210",
+      "text": "“Her Red Majesty’s very kind to mention it,” the White Queen murmured into Alice’s other ear, in a voice like the cooing of a pigeon."
+    },
+    {
+      "id": "s211",
+      "text": "“It would be _such_ a treat!"
+    },
+    {
+      "id": "s212",
+      "text": "May I?”"
+    },
+    {
+      "id": "s213",
+      "text": "“Please do,” Alice said very politely."
+    },
+    {
+      "id": "s214",
+      "text": "The White Queen laughed with delight, and stroked Alice’s cheek."
+    },
+    {
+      "id": "s215",
+      "text": "Then she began:"
+    },
+    {
+      "id": "s216",
+      "text": "“‘First, the fish must be caught.’ That is easy: a baby, I think, could have caught it. ‘Next, the fish must be bought.’ That is easy: a penny, I think, would have bought it."
+    },
+    {
+      "id": "s217",
+      "text": "‘Now cook me the fish!’ That is easy, and will not take more than a minute. ‘Let it lie in a dish!’ That is easy, because it already is in it."
+    },
+    {
+      "id": "s218",
+      "text": "‘Bring it here!"
+    },
+    {
+      "id": "s219",
+      "text": "Let me sup!’ It is easy to set such a dish on the table. ‘Take the dish-cover up!’ Ah, that is so hard that I fear I’m unable!"
+    },
+    {
+      "id": "s220",
+      "text": "For it holds it like glue— Holds the lid to the dish, while it lies in the middle: Which is easiest to do, Un-dish-cover the fish, or dishcover the riddle?”"
+    },
+    {
+      "id": "s221",
+      "text": "“Take a minute to think about it, and then guess,” said the Red Queen."
+    },
+    {
+      "id": "s222",
+      "text": "“Meanwhile, we’ll drink your health—Queen Alice’s health!” she screamed at the top of her voice, and all the guests began drinking it directly, and very queerly they managed it: some of them put their glasses upon their heads like extinguishers, and drank all that trickled down their faces—others upset the decanters, and drank the wine as it ran off the edges of the table—and three of them (who looked like kangaroos) scrambled into the dish of roast mutton, and began eagerly lapping up the gravy, “just like pigs in a trough!” thought Alice."
+    },
+    {
+      "id": "s223",
+      "text": "“You ought to return thanks in a neat speech,” the Red Queen said, frowning at Alice as she spoke."
+    },
+    {
+      "id": "s224",
+      "text": "“We must support you, you know,” the White Queen whispered, as Alice got up to do it, very obediently, but a little frightened."
+    },
+    {
+      "id": "s225",
+      "text": "“Thank you very much,” she whispered in reply, “but I can do quite well without.”"
+    },
+    {
+      "id": "s226",
+      "text": "“That wouldn’t be at all the thing,” the Red Queen said very decidedly: so Alice tried to submit to it with a good grace."
+    },
+    {
+      "id": "s227",
+      "text": "(“And they _did_ push so!” she said afterwards, when she was telling her sister the history of the feast."
+    },
+    {
+      "id": "s228",
+      "text": "“You would have thought they wanted to squeeze me flat!”)"
+    },
+    {
+      "id": "s229",
+      "text": "In fact it was rather difficult for her to keep in her place while she made her speech: the two Queens pushed her so, one on each side, that they nearly lifted her up into the air: “I rise to return thanks—” Alice began: and she really _did_ rise as she spoke, several inches; but she got hold of the edge of the table, and managed to pull herself down again."
+    },
+    {
+      "id": "s230",
+      "text": "“Take care of yourself!” screamed the White Queen, seizing Alice’s hair with both her hands."
+    },
+    {
+      "id": "s231",
+      "text": "“Something’s going to happen!”"
+    },
+    {
+      "id": "s232",
+      "text": "And then (as Alice afterwards described it) all sorts of things happened in a moment."
+    },
+    {
+      "id": "s233",
+      "text": "The candles all grew up to the ceiling, looking something like a bed of rushes with fireworks at the top."
+    },
+    {
+      "id": "s234",
+      "text": "As to the bottles, they each took a pair of plates, which they hastily fitted on as wings, and so, with forks for legs, went fluttering about in all directions: “and very like birds they look,” Alice thought to herself, as well as she could in the dreadful confusion that was beginning."
+    },
+    {
+      "id": "s235",
+      "text": "At this moment she heard a hoarse laugh at her side, and turned to see what was the matter with the White Queen; but, instead of the Queen, there was the leg of mutton sitting in the chair."
+    },
+    {
+      "id": "s236",
+      "text": "“Here I am!” cried a voice from the soup tureen, and Alice turned again, just in time to see the Queen’s broad good-natured face grinning at her for a moment over the edge of the tureen, before she disappeared into the soup."
+    },
+    {
+      "id": "s237",
+      "text": "There was not a moment to be lost."
+    },
+    {
+      "id": "s238",
+      "text": "Already several of the guests were lying down in the dishes, and the soup ladle was walking up the table towards Alice’s chair, and beckoning to her impatiently to get out of its way."
+    },
+    {
+      "id": "s239",
+      "text": "“I can’t stand this any longer!” she cried as she jumped up and seized the table-cloth with both hands: one good pull, and plates, dishes, guests, and candles came crashing down together in a heap on the floor."
+    },
+    {
+      "id": "s240",
+      "text": "“And as for _you_,” she went on, turning fiercely upon the Red Queen, whom she considered as the cause of all the mischief—but the Queen was no longer at her side—she had suddenly dwindled down to the size of a little doll, and was now on the table, merrily running round and round after her own shawl, which was trailing behind her."
+    },
+    {
+      "id": "s241",
+      "text": "At any other time, Alice would have felt surprised at this, but she was far too much excited to be surprised at anything _now_."
+    },
+    {
+      "id": "s242",
+      "text": "“As for _you_,” she repeated, catching hold of the little creature in the very act of jumping over a bottle which had just lighted upon the table, “I’ll shake you into a kitten, that I will!”"
+    }
+  ]
+}

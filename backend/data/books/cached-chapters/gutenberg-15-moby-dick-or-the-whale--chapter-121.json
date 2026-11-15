@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-121",
+  "chapterTitle": "CHAPTER CXXI.",
+  "contentHash": "sha256:6519da79d51b89835bde038de52999d93ef8535d44dcfff16c5e1a956d793e63",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER CXXI.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "MIDNIGHT—THE FORECASTLE BULWARKS."
+    },
+    {
+      "id": "s2",
+      "text": "_Stubb and Flask mounted on them, and passing additional lashings over the anchors there hanging._"
+    },
+    {
+      "id": "s3",
+      "text": "“No, Stubb; you may pound that knot there as much as you please, but you will never pound into me what you were just now saying."
+    },
+    {
+      "id": "s4",
+      "text": "And how long ago is it since you said the very contrary?"
+    },
+    {
+      "id": "s5",
+      "text": "Didn’t you once say that whatever ship Ahab sails in, that ship should pay something extra on its insurance policy, just as though it were loaded with powder barrels aft and boxes of lucifers forward?"
+    },
+    {
+      "id": "s6",
+      "text": "Stop, now; didn’t you say so?”"
+    },
+    {
+      "id": "s7",
+      "text": "“Well, suppose I did?"
+    },
+    {
+      "id": "s8",
+      "text": "What then?"
+    },
+    {
+      "id": "s9",
+      "text": "I’ve part changed my flesh since that time, why not my mind?"
+    },
+    {
+      "id": "s10",
+      "text": "Besides, supposing we _are_ loaded with powder barrels aft and lucifers forward; how the devil could the lucifers get afire in this drenching spray here?"
+    },
+    {
+      "id": "s11",
+      "text": "Why, my little man, you have pretty red hair, but you couldn’t get afire now."
+    },
+    {
+      "id": "s12",
+      "text": "Shake yourself; you’re Aquarius, or the water-bearer, Flask; might fill pitchers at your coat collar."
+    },
+    {
+      "id": "s13",
+      "text": "Don’t you see, then, that for these extra risks the Marine Insurance companies have extra guarantees?"
+    },
+    {
+      "id": "s14",
+      "text": "Here are hydrants, Flask."
+    },
+    {
+      "id": "s15",
+      "text": "But hark, again, and I’ll answer ye the other thing."
+    },
+    {
+      "id": "s16",
+      "text": "First take your leg off from the crown of the anchor here, though, so I can pass the rope; now listen."
+    },
+    {
+      "id": "s17",
+      "text": "What’s the mighty difference between holding a mast’s lightning-rod in the storm, and standing close by a mast that hasn’t got any lightning-rod at all in a storm?"
+    },
+    {
+      "id": "s18",
+      "text": "Don’t you see, you timber-head, that no harm can come to the holder of the rod, unless the mast is first struck?"
+    },
+    {
+      "id": "s19",
+      "text": "What are you talking about, then?"
+    },
+    {
+      "id": "s20",
+      "text": "Not one ship in a hundred carries rods, and Ahab,—aye, man, and all of us,—were in no more danger then, in my poor opinion, than all the crews in ten thousand ships now sailing the seas."
+    },
+    {
+      "id": "s21",
+      "text": "Why, you King-Post, you, I suppose you would have every man in the world go about with a small lightning-rod running up the corner of his hat, like a militia officer’s skewered feather, and trailing behind like his sash."
+    },
+    {
+      "id": "s22",
+      "text": "Why don’t ye be sensible, Flask? it’s easy to be sensible; why don’t ye, then? any man with half an eye can be sensible.”"
+    },
+    {
+      "id": "s23",
+      "text": "“I don’t know that, Stubb."
+    },
+    {
+      "id": "s24",
+      "text": "You sometimes find it rather hard.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Yes, when a fellow’s soaked through, it’s hard to be sensible, that’s a fact."
+    },
+    {
+      "id": "s26",
+      "text": "And I am about drenched with this spray."
+    },
+    {
+      "id": "s27",
+      "text": "Never mind; catch the turn there, and pass it."
+    },
+    {
+      "id": "s28",
+      "text": "Seems to me we are lashing down these anchors now as if they were never going to be used again."
+    },
+    {
+      "id": "s29",
+      "text": "Tying these two anchors here, Flask, seems like tying a man’s hands behind him."
+    },
+    {
+      "id": "s30",
+      "text": "And what big generous hands they are, to be sure."
+    },
+    {
+      "id": "s31",
+      "text": "These are your iron fists, hey?"
+    },
+    {
+      "id": "s32",
+      "text": "What a hold they have, too!"
+    },
+    {
+      "id": "s33",
+      "text": "I wonder, Flask, whether the world is anchored anywhere; if she is, she swings with an uncommon long cable, though."
+    },
+    {
+      "id": "s34",
+      "text": "There, hammer that knot down, and we’ve done."
+    },
+    {
+      "id": "s35",
+      "text": "So; next to touching land, lighting on deck is the most satisfactory."
+    },
+    {
+      "id": "s36",
+      "text": "I say, just wring out my jacket skirts, will ye?"
+    },
+    {
+      "id": "s37",
+      "text": "Thank ye."
+    },
+    {
+      "id": "s38",
+      "text": "They laugh at long-togs so, Flask; but seems to me, a long tailed coat ought always to be worn in all storms afloat."
+    },
+    {
+      "id": "s39",
+      "text": "The tails tapering down that way, serve to carry off the water, d’ye see."
+    },
+    {
+      "id": "s40",
+      "text": "Same with cocked hats; the cocks form gable-end eave-troughs, Flask."
+    },
+    {
+      "id": "s41",
+      "text": "No more monkey-jackets and tarpaulins for me; I must mount a swallow-tail, and drive down a beaver; so."
+    },
+    {
+      "id": "s42",
+      "text": "Halloa! whew! there goes my tarpaulin overboard; Lord, Lord, that the winds that come from heaven should be so unmannerly!"
+    },
+    {
+      "id": "s43",
+      "text": "This is a nasty night, lad.”"
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-11",
+  "chapterTitle": "CHAPTER XI. Anne’s Impressions of Sunday-school",
+  "contentHash": "sha256:e7018fda2c099c6011891db64072bc5beaddcac1cc28eff5a3ad39b20ed647ab",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XI. Anne’s Impressions of Sunday-school. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "WELL, how do you like them?” said Marilla."
+    },
+    {
+      "id": "s2",
+      "text": "Anne was standing in the gable room, looking solemnly at three new dresses spread out on the bed."
+    },
+    {
+      "id": "s3",
+      "text": "One was of snuffy colored gingham which Marilla had been tempted to buy from a peddler the preceding summer because it looked so serviceable; one was of black-and-white checkered sateen which she had picked up at a bargain counter in the winter; and one was a stiff print of an ugly blue shade which she had purchased that week at a Carmody store."
+    },
+    {
+      "id": "s4",
+      "text": "She had made them up herself, and they were all made alike--plain skirts fulled tightly to plain waists, with sleeves as plain as waist and skirt and tight as sleeves could be."
+    },
+    {
+      "id": "s5",
+      "text": "“I’ll imagine that I like them,” said Anne soberly."
+    },
+    {
+      "id": "s6",
+      "text": "“I don’t want you to imagine it,” said Marilla, offended."
+    },
+    {
+      "id": "s7",
+      "text": "“Oh, I can see you don’t like the dresses!"
+    },
+    {
+      "id": "s8",
+      "text": "What is the matter with them?"
+    },
+    {
+      "id": "s9",
+      "text": "Aren’t they neat and clean and new?”"
+    },
+    {
+      "id": "s10",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s11",
+      "text": "“Then why don’t you like them?”"
+    },
+    {
+      "id": "s12",
+      "text": "“They’re--they’re not--pretty,” said Anne reluctantly."
+    },
+    {
+      "id": "s13",
+      "text": "“Pretty!” Marilla sniffed."
+    },
+    {
+      "id": "s14",
+      "text": "“I didn’t trouble my head about getting pretty dresses for you."
+    },
+    {
+      "id": "s15",
+      "text": "I don’t believe in pampering vanity, Anne, I’ll tell you that right off."
+    },
+    {
+      "id": "s16",
+      "text": "Those dresses are good, sensible, serviceable dresses, without any frills or furbelows about them, and they’re all you’ll get this summer."
+    },
+    {
+      "id": "s17",
+      "text": "The brown gingham and the blue print will do you for school when you begin to go."
+    },
+    {
+      "id": "s18",
+      "text": "The sateen is for church and Sunday-school."
+    },
+    {
+      "id": "s19",
+      "text": "I’ll expect you to keep them neat and clean and not to tear them."
+    },
+    {
+      "id": "s20",
+      "text": "I should think you’d be grateful to get most anything after those skimpy wincey things you’ve been wearing.”"
+    },
+    {
+      "id": "s21",
+      "text": "“Oh, I _am_ grateful,” protested Anne."
+    },
+    {
+      "id": "s22",
+      "text": "“But I’d be ever so much gratefuller if--if you’d made just one of them with puffed sleeves."
+    },
+    {
+      "id": "s23",
+      "text": "Puffed sleeves are so fashionable now."
+    },
+    {
+      "id": "s24",
+      "text": "It would give me such a thrill, Marilla, just to wear a dress with puffed sleeves.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Well, you’ll have to do without your thrill."
+    },
+    {
+      "id": "s26",
+      "text": "I hadn’t any material to waste on puffed sleeves."
+    },
+    {
+      "id": "s27",
+      "text": "I think they are ridiculous-looking things anyhow."
+    },
+    {
+      "id": "s28",
+      "text": "I prefer the plain, sensible ones.”"
+    },
+    {
+      "id": "s29",
+      "text": "“But I’d rather look ridiculous when everybody else does than plain and sensible all by myself,” persisted Anne mournfully."
+    },
+    {
+      "id": "s30",
+      "text": "“Trust you for that!"
+    },
+    {
+      "id": "s31",
+      "text": "Well, hang those dresses carefully up in your closet, and then sit down and learn the Sunday-school lesson."
+    },
+    {
+      "id": "s32",
+      "text": "I got a quarterly from Mr."
+    },
+    {
+      "id": "s33",
+      "text": "Bell for you and you’ll go to Sunday-school tomorrow,” said Marilla, disappearing downstairs in high dudgeon."
+    },
+    {
+      "id": "s34",
+      "text": "Anne clasped her hands and looked at the dresses."
+    },
+    {
+      "id": "s35",
+      "text": "“I did hope there would be a white one with puffed sleeves,” she whispered disconsolately."
+    },
+    {
+      "id": "s36",
+      "text": "“I prayed for one, but I didn’t much expect it on that account."
+    },
+    {
+      "id": "s37",
+      "text": "I didn’t suppose God would have time to bother about a little orphan girl’s dress."
+    },
+    {
+      "id": "s38",
+      "text": "I knew I’d just have to depend on Marilla for it."
+    },
+    {
+      "id": "s39",
+      "text": "Well, fortunately I can imagine that one of them is of snow-white muslin with lovely lace frills and three-puffed sleeves.”"
+    },
+    {
+      "id": "s40",
+      "text": "The next morning warnings of a sick headache prevented Marilla from going to Sunday-school with Anne."
+    },
+    {
+      "id": "s41",
+      "text": "“You’ll have to go down and call for Mrs."
+    },
+    {
+      "id": "s42",
+      "text": "Lynde, Anne,” she said."
+    },
+    {
+      "id": "s43",
+      "text": "“She’ll see that you get into the right class."
+    },
+    {
+      "id": "s44",
+      "text": "Now, mind you behave yourself properly."
+    },
+    {
+      "id": "s45",
+      "text": "Stay to preaching afterwards and ask Mrs."
+    },
+    {
+      "id": "s46",
+      "text": "Lynde to show you our pew."
+    },
+    {
+      "id": "s47",
+      "text": "Here’s a cent for collection."
+    },
+    {
+      "id": "s48",
+      "text": "Don’t stare at people and don’t fidget."
+    },
+    {
+      "id": "s49",
+      "text": "I shall expect you to tell me the text when you come home.”"
+    },
+    {
+      "id": "s50",
+      "text": "Anne started off irreproachable, arrayed in the stiff black-and-white sateen, which, while decent as regards length and certainly not open to the charge of skimpiness, contrived to emphasize every corner and angle of her thin figure."
+    },
+    {
+      "id": "s51",
+      "text": "Her hat was a little, flat, glossy, new sailor, the extreme plainness of which had likewise much disappointed Anne, who had permitted herself secret visions of ribbon and flowers."
+    },
+    {
+      "id": "s52",
+      "text": "The latter, however, were supplied before Anne reached the main road, for being confronted halfway down the lane with a golden frenzy of wind-stirred buttercups and a glory of wild roses, Anne promptly and liberally garlanded her hat with a heavy wreath of them."
+    },
+    {
+      "id": "s53",
+      "text": "Whatever other people might have thought of the result it satisfied Anne, and she tripped gaily down the road, holding her ruddy head with its decoration of pink and yellow very proudly."
+    },
+    {
+      "id": "s54",
+      "text": "When she had reached Mrs."
+    },
+    {
+      "id": "s55",
+      "text": "Lynde’s house she found that lady gone."
+    },
+    {
+      "id": "s56",
+      "text": "Nothing daunted, Anne proceeded onward to the church alone."
+    },
+    {
+      "id": "s57",
+      "text": "In the porch she found a crowd of little girls, all more or less gaily attired in whites and blues and pinks, and all staring with curious eyes at this stranger in their midst, with her extraordinary head adornment."
+    },
+    {
+      "id": "s58",
+      "text": "Avonlea little girls had already heard queer stories about Anne."
+    },
+    {
+      "id": "s59",
+      "text": "Mrs."
+    },
+    {
+      "id": "s60",
+      "text": "Lynde said she had an awful temper; Jerry Buote, the hired boy at Green Gables, said she talked all the time to herself or to the trees and flowers like a crazy girl."
+    },
+    {
+      "id": "s61",
+      "text": "They looked at her and whispered to each other behind their quarterlies."
+    },
+    {
+      "id": "s62",
+      "text": "Nobody made any friendly advances, then or later on when the opening exercises were over and Anne found herself in Miss Rogerson’s class."
+    },
+    {
+      "id": "s63",
+      "text": "Miss Rogerson was a middle-aged lady who had taught a Sunday-school class for twenty years."
+    },
+    {
+      "id": "s64",
+      "text": "Her method of teaching was to ask the printed questions from the quarterly and look sternly over its edge at the particular little girl she thought ought to answer the question."
+    },
+    {
+      "id": "s65",
+      "text": "She looked very often at Anne, and Anne, thanks to Marilla’s drilling, answered promptly; but it may be questioned if she understood very much about either question or answer."
+    },
+    {
+      "id": "s66",
+      "text": "She did not think she liked Miss Rogerson, and she felt very miserable; every other little girl in the class had puffed sleeves."
+    },
+    {
+      "id": "s67",
+      "text": "Anne felt that life was really not worth living without puffed sleeves."
+    },
+    {
+      "id": "s68",
+      "text": "“Well, how did you like Sunday-school?” Marilla wanted to know when Anne came home."
+    },
+    {
+      "id": "s69",
+      "text": "Her wreath having faded, Anne had discarded it in the lane, so Marilla was spared the knowledge of that for a time."
+    },
+    {
+      "id": "s70",
+      "text": "“I didn’t like it a bit."
+    },
+    {
+      "id": "s71",
+      "text": "It was horrid.”"
+    },
+    {
+      "id": "s72",
+      "text": "“Anne Shirley!” said Marilla rebukingly."
+    },
+    {
+      "id": "s73",
+      "text": "Anne sat down on the rocker with a long sigh, kissed one of Bonny’s leaves, and waved her hand to a blossoming fuchsia."
+    },
+    {
+      "id": "s74",
+      "text": "“They might have been lonesome while I was away,” she explained."
+    },
+    {
+      "id": "s75",
+      "text": "“And now about the Sunday-school."
+    },
+    {
+      "id": "s76",
+      "text": "I behaved well, just as you told me."
+    },
+    {
+      "id": "s77",
+      "text": "Mrs."
+    },
+    {
+      "id": "s78",
+      "text": "Lynde was gone, but I went right on myself."
+    },
+    {
+      "id": "s79",
+      "text": "I went into the church, with a lot of other little girls, and I sat in the corner of a pew by the window while the opening exercises went on."
+    },
+    {
+      "id": "s80",
+      "text": "Mr."
+    },
+    {
+      "id": "s81",
+      "text": "Bell made an awfully long prayer."
+    },
+    {
+      "id": "s82",
+      "text": "I would have been dreadfully tired before he got through if I hadn’t been sitting by that window."
+    },
+    {
+      "id": "s83",
+      "text": "But it looked right out on the Lake of Shining Waters, so I just gazed at that and imagined all sorts of splendid things.”"
+    },
+    {
+      "id": "s84",
+      "text": "“You shouldn’t have done anything of the sort."
+    },
+    {
+      "id": "s85",
+      "text": "You should have listened to Mr."
+    },
+    {
+      "id": "s86",
+      "text": "Bell.”"
+    },
+    {
+      "id": "s87",
+      "text": "“But he wasn’t talking to me,” protested Anne."
+    },
+    {
+      "id": "s88",
+      "text": "“He was talking to God and he didn’t seem to be very much interested in it, either."
+    },
+    {
+      "id": "s89",
+      "text": "I think he thought God was too far off though."
+    },
+    {
+      "id": "s90",
+      "text": "There was a long row of white birches hanging over the lake and the sunshine fell down through them, ‘way, ‘way down, deep into the water."
+    },
+    {
+      "id": "s91",
+      "text": "Oh, Marilla, it was like a beautiful dream!"
+    },
+    {
+      "id": "s92",
+      "text": "It gave me a thrill and I just said, ‘Thank you for it, God,’ two or three times.”"
+    },
+    {
+      "id": "s93",
+      "text": "“Not out loud, I hope,” said Marilla anxiously."
+    },
+    {
+      "id": "s94",
+      "text": "“Oh, no, just under my breath."
+    },
+    {
+      "id": "s95",
+      "text": "Well, Mr."
+    },
+    {
+      "id": "s96",
+      "text": "Bell did get through at last and they told me to go into the classroom with Miss Rogerson’s class."
+    },
+    {
+      "id": "s97",
+      "text": "There were nine other girls in it."
+    },
+    {
+      "id": "s98",
+      "text": "They all had puffed sleeves."
+    },
+    {
+      "id": "s99",
+      "text": "I tried to imagine mine were puffed, too, but I couldn’t."
+    },
+    {
+      "id": "s100",
+      "text": "Why couldn’t I?"
+    },
+    {
+      "id": "s101",
+      "text": "It was as easy as could be to imagine they were puffed when I was alone in the east gable, but it was awfully hard there among the others who had really truly puffs.”"
+    },
+    {
+      "id": "s102",
+      "text": "“You shouldn’t have been thinking about your sleeves in Sunday-school."
+    },
+    {
+      "id": "s103",
+      "text": "You should have been attending to the lesson."
+    },
+    {
+      "id": "s104",
+      "text": "I hope you knew it.”"
+    },
+    {
+      "id": "s105",
+      "text": "“Oh, yes; and I answered a lot of questions."
+    },
+    {
+      "id": "s106",
+      "text": "Miss Rogerson asked ever so many."
+    },
+    {
+      "id": "s107",
+      "text": "I don’t think it was fair for her to do all the asking."
+    },
+    {
+      "id": "s108",
+      "text": "There were lots I wanted to ask her, but I didn’t like to because I didn’t think she was a kindred spirit."
+    },
+    {
+      "id": "s109",
+      "text": "Then all the other little girls recited a paraphrase."
+    },
+    {
+      "id": "s110",
+      "text": "She asked me if I knew any."
+    },
+    {
+      "id": "s111",
+      "text": "I told her I didn’t, but I could recite, ‘The Dog at His Master’s Grave’ if she liked."
+    },
+    {
+      "id": "s112",
+      "text": "That’s in the Third Royal Reader."
+    },
+    {
+      "id": "s113",
+      "text": "It isn’t a really truly religious piece of poetry, but it’s so sad and melancholy that it might as well be."
+    },
+    {
+      "id": "s114",
+      "text": "She said it wouldn’t do and she told me to learn the nineteenth paraphrase for next Sunday."
+    },
+    {
+      "id": "s115",
+      "text": "I read it over in church afterwards and it’s splendid."
+    },
+    {
+      "id": "s116",
+      "text": "There are two lines in particular that just thrill me."
+    },
+    {
+      "id": "s117",
+      "text": "“‘Quick as the slaughtered squadrons fell In Midian’s evil day.’"
+    },
+    {
+      "id": "s118",
+      "text": "“I don’t know what ‘squadrons’ means nor ‘Midian,’ either, but it sounds _so_ tragical."
+    },
+    {
+      "id": "s119",
+      "text": "I can hardly wait until next Sunday to recite it."
+    },
+    {
+      "id": "s120",
+      "text": "I’ll practice it all the week."
+    },
+    {
+      "id": "s121",
+      "text": "After Sunday-school I asked Miss Rogerson--because Mrs."
+    },
+    {
+      "id": "s122",
+      "text": "Lynde was too far away--to show me your pew."
+    },
+    {
+      "id": "s123",
+      "text": "I sat just as still as I could and the text was Revelations, third chapter, second and third verses."
+    },
+    {
+      "id": "s124",
+      "text": "It was a very long text."
+    },
+    {
+      "id": "s125",
+      "text": "If I was a minister I’d pick the short, snappy ones."
+    },
+    {
+      "id": "s126",
+      "text": "The sermon was awfully long, too."
+    },
+    {
+      "id": "s127",
+      "text": "I suppose the minister had to match it to the text."
+    },
+    {
+      "id": "s128",
+      "text": "I didn’t think he was a bit interesting."
+    },
+    {
+      "id": "s129",
+      "text": "The trouble with him seems to be that he hasn’t enough imagination."
+    },
+    {
+      "id": "s130",
+      "text": "I didn’t listen to him very much."
+    },
+    {
+      "id": "s131",
+      "text": "I just let my thoughts run and I thought of the most surprising things.”"
+    },
+    {
+      "id": "s132",
+      "text": "Marilla felt helplessly that all this should be sternly reproved, but she was hampered by the undeniable fact that some of the things Anne had said, especially about the minister’s sermons and Mr."
+    },
+    {
+      "id": "s133",
+      "text": "Bell’s prayers, were what she herself had really thought deep down in her heart for years, but had never given expression to."
+    },
+    {
+      "id": "s134",
+      "text": "It almost seemed to her that those secret, unuttered, critical thoughts had suddenly taken visible and accusing shape and form in the person of this outspoken morsel of neglected humanity."
+    }
+  ]
+}

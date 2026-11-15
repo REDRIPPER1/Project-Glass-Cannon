@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-141-mansfield-park",
+  "ebookId": "141",
+  "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-43",
+  "chapterTitle": "CHAPTER XLIII",
+  "contentHash": "sha256:f8e12a09f25074bbc558ac0933918d6e78b48104b9fb6621c5953f5784e339a4",
+  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER XLIII. Source checked against Project Gutenberg eBook #141.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/141",
+    "textUrl": "https://www.gutenberg.org/cache/epub/141/pg141.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "It was presumed that Mr."
+    },
+    {
+      "id": "s2",
+      "text": "Crawford was travelling back, to London, on the morrow, for nothing more was seen of him at Mr."
+    },
+    {
+      "id": "s3",
+      "text": "Price’s; and two days afterwards, it was a fact ascertained to Fanny by the following letter from his sister, opened and read by her, on another account, with the most anxious curiosity:—"
+    },
+    {
+      "id": "s4",
+      "text": "“I have to inform you, my dearest Fanny, that Henry has been down to Portsmouth to see you; that he had a delightful walk with you to the dockyard last Saturday, and one still more to be dwelt on the next day, on the ramparts; when the balmy air, the sparkling sea, and your sweet looks and conversation were altogether in the most delicious harmony, and afforded sensations which are to raise ecstasy even in retrospect."
+    },
+    {
+      "id": "s5",
+      "text": "This, as well as I understand, is to be the substance of my information."
+    },
+    {
+      "id": "s6",
+      "text": "He makes me write, but I do not know what else is to be communicated, except this said visit to Portsmouth, and these two said walks, and his introduction to your family, especially to a fair sister of yours, a fine girl of fifteen, who was of the party on the ramparts, taking her first lesson, I presume, in love."
+    },
+    {
+      "id": "s7",
+      "text": "I have not time for writing much, but it would be out of place if I had, for this is to be a mere letter of business, penned for the purpose of conveying necessary information, which could not be delayed without risk of evil."
+    },
+    {
+      "id": "s8",
+      "text": "My dear, dear Fanny, if I had you here, how I would talk to you!"
+    },
+    {
+      "id": "s9",
+      "text": "You should listen to me till you were tired, and advise me till you were still tired more; but it is impossible to put a hundredth part of my great mind on paper, so I will abstain altogether, and leave you to guess what you like."
+    },
+    {
+      "id": "s10",
+      "text": "I have no news for you."
+    },
+    {
+      "id": "s11",
+      "text": "You have politics, of course; and it would be too bad to plague you with the names of people and parties that fill up my time."
+    },
+    {
+      "id": "s12",
+      "text": "I ought to have sent you an account of your cousin’s first party, but I was lazy, and now it is too long ago; suffice it, that everything was just as it ought to be, in a style that any of her connexions must have been gratified to witness, and that her own dress and manners did her the greatest credit."
+    },
+    {
+      "id": "s13",
+      "text": "My friend, Mrs."
+    },
+    {
+      "id": "s14",
+      "text": "Fraser, is mad for such a house, and it would not make _me_ miserable."
+    },
+    {
+      "id": "s15",
+      "text": "I go to Lady Stornaway after Easter; she seems in high spirits, and very happy."
+    },
+    {
+      "id": "s16",
+      "text": "I fancy Lord S. is very good-humoured and pleasant in his own family, and I do not think him so very ill-looking as I did—at least, one sees many worse."
+    },
+    {
+      "id": "s17",
+      "text": "He will not do by the side of your cousin Edmund."
+    },
+    {
+      "id": "s18",
+      "text": "Of the last-mentioned hero, what shall I say?"
+    },
+    {
+      "id": "s19",
+      "text": "If I avoided his name entirely, it would look suspicious."
+    },
+    {
+      "id": "s20",
+      "text": "I will say, then, that we have seen him two or three times, and that my friends here are very much struck with his gentlemanlike appearance."
+    },
+    {
+      "id": "s21",
+      "text": "Mrs."
+    },
+    {
+      "id": "s22",
+      "text": "Fraser (no bad judge) declares she knows but three men in town who have so good a person, height, and air; and I must confess, when he dined here the other day, there were none to compare with him, and we were a party of sixteen."
+    },
+    {
+      "id": "s23",
+      "text": "Luckily there is no distinction of dress nowadays to tell tales, but—but—but Yours affectionately.”"
+    },
+    {
+      "id": "s24",
+      "text": "“I had almost forgot (it was Edmund’s fault: he gets into my head more than does me good) one very material thing I had to say from Henry and myself—I mean about our taking you back into Northamptonshire."
+    },
+    {
+      "id": "s25",
+      "text": "My dear little creature, do not stay at Portsmouth to lose your pretty looks."
+    },
+    {
+      "id": "s26",
+      "text": "Those vile sea-breezes are the ruin of beauty and health."
+    },
+    {
+      "id": "s27",
+      "text": "My poor aunt always felt affected if within ten miles of the sea, which the Admiral of course never believed, but I know it was so."
+    },
+    {
+      "id": "s28",
+      "text": "I am at your service and Henry’s, at an hour’s notice."
+    },
+    {
+      "id": "s29",
+      "text": "I should like the scheme, and we would make a little circuit, and shew you Everingham in our way, and perhaps you would not mind passing through London, and seeing the inside of St."
+    },
+    {
+      "id": "s30",
+      "text": "George’s, Hanover Square."
+    },
+    {
+      "id": "s31",
+      "text": "Only keep your cousin Edmund from me at such a time: I should not like to be tempted."
+    },
+    {
+      "id": "s32",
+      "text": "What a long letter! one word more."
+    },
+    {
+      "id": "s33",
+      "text": "Henry, I find, has some idea of going into Norfolk again upon some business that _you_ approve; but this cannot possibly be permitted before the middle of next week; that is, he cannot anyhow be spared till after the 14th, for _we_ have a party that evening."
+    },
+    {
+      "id": "s34",
+      "text": "The value of a man like Henry, on such an occasion, is what you can have no conception of; so you must take it upon my word to be inestimable."
+    },
+    {
+      "id": "s35",
+      "text": "He will see the Rushworths, which I own I am not sorry for—having a little curiosity, and so I think has he—though he will not acknowledge it.”"
+    },
+    {
+      "id": "s36",
+      "text": "This was a letter to be run through eagerly, to be read deliberately, to supply matter for much reflection, and to leave everything in greater suspense than ever."
+    },
+    {
+      "id": "s37",
+      "text": "The only certainty to be drawn from it was, that nothing decisive had yet taken place."
+    },
+    {
+      "id": "s38",
+      "text": "Edmund had not yet spoken."
+    },
+    {
+      "id": "s39",
+      "text": "How Miss Crawford really felt, how she meant to act, or might act without or against her meaning; whether his importance to her were quite what it had been before the last separation; whether, if lessened, it were likely to lessen more, or to recover itself, were subjects for endless conjecture, and to be thought of on that day and many days to come, without producing any conclusion."
+    },
+    {
+      "id": "s40",
+      "text": "The idea that returned the oftenest was that Miss Crawford, after proving herself cooled and staggered by a return to London habits, would yet prove herself in the end too much attached to him to give him up."
+    },
+    {
+      "id": "s41",
+      "text": "She would try to be more ambitious than her heart would allow."
+    },
+    {
+      "id": "s42",
+      "text": "She would hesitate, she would tease, she would condition, she would require a great deal, but she would finally accept."
+    },
+    {
+      "id": "s43",
+      "text": "This was Fanny’s most frequent expectation."
+    },
+    {
+      "id": "s44",
+      "text": "A house in town—that, she thought, must be impossible."
+    },
+    {
+      "id": "s45",
+      "text": "Yet there was no saying what Miss Crawford might not ask."
+    },
+    {
+      "id": "s46",
+      "text": "The prospect for her cousin grew worse and worse."
+    },
+    {
+      "id": "s47",
+      "text": "The woman who could speak of him, and speak only of his appearance!"
+    },
+    {
+      "id": "s48",
+      "text": "What an unworthy attachment!"
+    },
+    {
+      "id": "s49",
+      "text": "To be deriving support from the commendations of Mrs."
+    },
+    {
+      "id": "s50",
+      "text": "Fraser! _She_ who had known him intimately half a year!"
+    },
+    {
+      "id": "s51",
+      "text": "Fanny was ashamed of her."
+    },
+    {
+      "id": "s52",
+      "text": "Those parts of the letter which related only to Mr."
+    },
+    {
+      "id": "s53",
+      "text": "Crawford and herself, touched her, in comparison, slightly."
+    },
+    {
+      "id": "s54",
+      "text": "Whether Mr."
+    },
+    {
+      "id": "s55",
+      "text": "Crawford went into Norfolk before or after the 14th was certainly no concern of hers, though, everything considered, she thought he _would_ go without delay."
+    },
+    {
+      "id": "s56",
+      "text": "That Miss Crawford should endeavour to secure a meeting between him and Mrs."
+    },
+    {
+      "id": "s57",
+      "text": "Rushworth, was all in her worst line of conduct, and grossly unkind and ill-judged; but she hoped _he_ would not be actuated by any such degrading curiosity."
+    },
+    {
+      "id": "s58",
+      "text": "He acknowledged no such inducement, and his sister ought to have given him credit for better feelings than her own."
+    },
+    {
+      "id": "s59",
+      "text": "She was yet more impatient for another letter from town after receiving this than she had been before; and for a few days was so unsettled by it altogether, by what had come, and what might come, that her usual readings and conversation with Susan were much suspended."
+    },
+    {
+      "id": "s60",
+      "text": "She could not command her attention as she wished."
+    },
+    {
+      "id": "s61",
+      "text": "If Mr."
+    },
+    {
+      "id": "s62",
+      "text": "Crawford remembered her message to her cousin, she thought it very likely, most likely, that he would write to her at all events; it would be most consistent with his usual kindness; and till she got rid of this idea, till it gradually wore off, by no letters appearing in the course of three or four days more, she was in a most restless, anxious state."
+    },
+    {
+      "id": "s63",
+      "text": "At length, a something like composure succeeded."
+    },
+    {
+      "id": "s64",
+      "text": "Suspense must be submitted to, and must not be allowed to wear her out, and make her useless."
+    },
+    {
+      "id": "s65",
+      "text": "Time did something, her own exertions something more, and she resumed her attentions to Susan, and again awakened the same interest in them."
+    },
+    {
+      "id": "s66",
+      "text": "Susan was growing very fond of her, and though without any of the early delight in books which had been so strong in Fanny, with a disposition much less inclined to sedentary pursuits, or to information for information’s sake, she had so strong a desire of not _appearing_ ignorant, as, with a good clear understanding, made her a most attentive, profitable, thankful pupil."
+    },
+    {
+      "id": "s67",
+      "text": "Fanny was her oracle."
+    },
+    {
+      "id": "s68",
+      "text": "Fanny’s explanations and remarks were a most important addition to every essay, or every chapter of history."
+    },
+    {
+      "id": "s69",
+      "text": "What Fanny told her of former times dwelt more on her mind than the pages of Goldsmith; and she paid her sister the compliment of preferring her style to that of any printed author."
+    },
+    {
+      "id": "s70",
+      "text": "The early habit of reading was wanting."
+    },
+    {
+      "id": "s71",
+      "text": "Their conversations, however, were not always on subjects so high as history or morals."
+    },
+    {
+      "id": "s72",
+      "text": "Others had their hour; and of lesser matters, none returned so often, or remained so long between them, as Mansfield Park, a description of the people, the manners, the amusements, the ways of Mansfield Park."
+    },
+    {
+      "id": "s73",
+      "text": "Susan, who had an innate taste for the genteel and well-appointed, was eager to hear, and Fanny could not but indulge herself in dwelling on so beloved a theme."
+    },
+    {
+      "id": "s74",
+      "text": "She hoped it was not wrong; though, after a time, Susan’s very great admiration of everything said or done in her uncle’s house, and earnest longing to go into Northamptonshire, seemed almost to blame her for exciting feelings which could not be gratified."
+    },
+    {
+      "id": "s75",
+      "text": "Poor Susan was very little better fitted for home than her elder sister; and as Fanny grew thoroughly to understand this, she began to feel that when her own release from Portsmouth came, her happiness would have a material drawback in leaving Susan behind."
+    },
+    {
+      "id": "s76",
+      "text": "That a girl so capable of being made everything good should be left in such hands, distressed her more and more."
+    },
+    {
+      "id": "s77",
+      "text": "Were _she_ likely to have a home to invite her to, what a blessing it would be!"
+    },
+    {
+      "id": "s78",
+      "text": "And had it been possible for her to return Mr."
+    },
+    {
+      "id": "s79",
+      "text": "Crawford’s regard, the probability of his being very far from objecting to such a measure would have been the greatest increase of all her own comforts."
+    },
+    {
+      "id": "s80",
+      "text": "She thought he was really good-tempered, and could fancy his entering into a plan of that sort most pleasantly."
+    }
+  ]
+}

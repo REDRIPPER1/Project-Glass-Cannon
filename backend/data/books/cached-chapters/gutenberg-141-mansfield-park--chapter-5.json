@@ -1,0 +1,733 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-141-mansfield-park",
+  "ebookId": "141",
+  "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-5",
+  "chapterTitle": "CHAPTER V",
+  "contentHash": "sha256:4b3b40c081a883ad4046f07dd4cc0e8f004cce2c77442dfb593d85f0c79f88b1",
+  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER V. Source checked against Project Gutenberg eBook #141.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/141",
+    "textUrl": "https://www.gutenberg.org/cache/epub/141/pg141.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The young people were pleased with each other from the first."
+    },
+    {
+      "id": "s2",
+      "text": "On each side there was much to attract, and their acquaintance soon promised as early an intimacy as good manners would warrant."
+    },
+    {
+      "id": "s3",
+      "text": "Miss Crawford’s beauty did her no disservice with the Miss Bertrams."
+    },
+    {
+      "id": "s4",
+      "text": "They were too handsome themselves to dislike any woman for being so too, and were almost as much charmed as their brothers with her lively dark eye, clear brown complexion, and general prettiness."
+    },
+    {
+      "id": "s5",
+      "text": "Had she been tall, full formed, and fair, it might have been more of a trial: but as it was, there could be no comparison; and she was most allowably a sweet, pretty girl, while they were the finest young women in the country."
+    },
+    {
+      "id": "s6",
+      "text": "Her brother was not handsome: no, when they first saw him he was absolutely plain, black and plain; but still he was the gentleman, with a pleasing address."
+    },
+    {
+      "id": "s7",
+      "text": "The second meeting proved him not so very plain: he was plain, to be sure, but then he had so much countenance, and his teeth were so good, and he was so well made, that one soon forgot he was plain; and after a third interview, after dining in company with him at the Parsonage, he was no longer allowed to be called so by anybody."
+    },
+    {
+      "id": "s8",
+      "text": "He was, in fact, the most agreeable young man the sisters had ever known, and they were equally delighted with him."
+    },
+    {
+      "id": "s9",
+      "text": "Miss Bertram’s engagement made him in equity the property of Julia, of which Julia was fully aware; and before he had been at Mansfield a week, she was quite ready to be fallen in love with."
+    },
+    {
+      "id": "s10",
+      "text": "Maria’s notions on the subject were more confused and indistinct."
+    },
+    {
+      "id": "s11",
+      "text": "She did not want to see or understand."
+    },
+    {
+      "id": "s12",
+      "text": "“There could be no harm in her liking an agreeable man—everybody knew her situation—Mr."
+    },
+    {
+      "id": "s13",
+      "text": "Crawford must take care of himself.” Mr."
+    },
+    {
+      "id": "s14",
+      "text": "Crawford did not mean to be in any danger! the Miss Bertrams were worth pleasing, and were ready to be pleased; and he began with no object but of making them like him."
+    },
+    {
+      "id": "s15",
+      "text": "He did not want them to die of love; but with sense and temper which ought to have made him judge and feel better, he allowed himself great latitude on such points."
+    },
+    {
+      "id": "s16",
+      "text": "“I like your Miss Bertrams exceedingly, sister,” said he, as he returned from attending them to their carriage after the said dinner visit; “they are very elegant, agreeable girls.”"
+    },
+    {
+      "id": "s17",
+      "text": "“So they are indeed, and I am delighted to hear you say it."
+    },
+    {
+      "id": "s18",
+      "text": "But you like Julia best.”"
+    },
+    {
+      "id": "s19",
+      "text": "“Oh yes!"
+    },
+    {
+      "id": "s20",
+      "text": "I like Julia best.”"
+    },
+    {
+      "id": "s21",
+      "text": "“But do you really? for Miss Bertram is in general thought the handsomest.”"
+    },
+    {
+      "id": "s22",
+      "text": "“So I should suppose."
+    },
+    {
+      "id": "s23",
+      "text": "She has the advantage in every feature, and I prefer her countenance; but I like Julia best; Miss Bertram is certainly the handsomest, and I have found her the most agreeable, but I shall always like Julia best, because you order me.”"
+    },
+    {
+      "id": "s24",
+      "text": "“I shall not talk to you, Henry, but I know you _will_ like her best at last.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Do not I tell you that I like her best _at_ _first_?”"
+    },
+    {
+      "id": "s26",
+      "text": "“And besides, Miss Bertram is engaged."
+    },
+    {
+      "id": "s27",
+      "text": "Remember that, my dear brother."
+    },
+    {
+      "id": "s28",
+      "text": "Her choice is made.”"
+    },
+    {
+      "id": "s29",
+      "text": "“Yes, and I like her the better for it."
+    },
+    {
+      "id": "s30",
+      "text": "An engaged woman is always more agreeable than a disengaged."
+    },
+    {
+      "id": "s31",
+      "text": "She is satisfied with herself."
+    },
+    {
+      "id": "s32",
+      "text": "Her cares are over, and she feels that she may exert all her powers of pleasing without suspicion."
+    },
+    {
+      "id": "s33",
+      "text": "All is safe with a lady engaged: no harm can be done.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Why, as to that, Mr."
+    },
+    {
+      "id": "s35",
+      "text": "Rushworth is a very good sort of young man, and it is a great match for her.”"
+    },
+    {
+      "id": "s36",
+      "text": "“But Miss Bertram does not care three straws for him; _that_ is your opinion of your intimate friend. _I_ do not subscribe to it."
+    },
+    {
+      "id": "s37",
+      "text": "I am sure Miss Bertram is very much attached to Mr."
+    },
+    {
+      "id": "s38",
+      "text": "Rushworth."
+    },
+    {
+      "id": "s39",
+      "text": "I could see it in her eyes, when he was mentioned."
+    },
+    {
+      "id": "s40",
+      "text": "I think too well of Miss Bertram to suppose she would ever give her hand without her heart.”"
+    },
+    {
+      "id": "s41",
+      "text": "“Mary, how shall we manage him?”"
+    },
+    {
+      "id": "s42",
+      "text": "“We must leave him to himself, I believe."
+    },
+    {
+      "id": "s43",
+      "text": "Talking does no good."
+    },
+    {
+      "id": "s44",
+      "text": "He will be taken in at last.”"
+    },
+    {
+      "id": "s45",
+      "text": "“But I would not have him _taken_ _in_; I would not have him duped; I would have it all fair and honourable.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Oh dear! let him stand his chance and be taken in."
+    },
+    {
+      "id": "s47",
+      "text": "It will do just as well."
+    },
+    {
+      "id": "s48",
+      "text": "Everybody is taken in at some period or other.”"
+    },
+    {
+      "id": "s49",
+      "text": "“Not always in marriage, dear Mary.”"
+    },
+    {
+      "id": "s50",
+      "text": "“In marriage especially."
+    },
+    {
+      "id": "s51",
+      "text": "With all due respect to such of the present company as chance to be married, my dear Mrs."
+    },
+    {
+      "id": "s52",
+      "text": "Grant, there is not one in a hundred of either sex who is not taken in when they marry."
+    },
+    {
+      "id": "s53",
+      "text": "Look where I will, I see that it _is_ so; and I feel that it _must_ be so, when I consider that it is, of all transactions, the one in which people expect most from others, and are least honest themselves.”"
+    },
+    {
+      "id": "s54",
+      "text": "“Ah!"
+    },
+    {
+      "id": "s55",
+      "text": "You have been in a bad school for matrimony, in Hill Street.”"
+    },
+    {
+      "id": "s56",
+      "text": "“My poor aunt had certainly little cause to love the state; but, however, speaking from my own observation, it is a manoeuvring business."
+    },
+    {
+      "id": "s57",
+      "text": "I know so many who have married in the full expectation and confidence of some one particular advantage in the connexion, or accomplishment, or good quality in the person, who have found themselves entirely deceived, and been obliged to put up with exactly the reverse."
+    },
+    {
+      "id": "s58",
+      "text": "What is this but a take in?”"
+    },
+    {
+      "id": "s59",
+      "text": "“My dear child, there must be a little imagination here."
+    },
+    {
+      "id": "s60",
+      "text": "I beg your pardon, but I cannot quite believe you."
+    },
+    {
+      "id": "s61",
+      "text": "Depend upon it, you see but half."
+    },
+    {
+      "id": "s62",
+      "text": "You see the evil, but you do not see the consolation."
+    },
+    {
+      "id": "s63",
+      "text": "There will be little rubs and disappointments everywhere, and we are all apt to expect too much; but then, if one scheme of happiness fails, human nature turns to another; if the first calculation is wrong, we make a second better: we find comfort somewhere—and those evil-minded observers, dearest Mary, who make much of a little, are more taken in and deceived than the parties themselves.”"
+    },
+    {
+      "id": "s64",
+      "text": "“Well done, sister!"
+    },
+    {
+      "id": "s65",
+      "text": "I honour your _esprit_ _du_ _corps_."
+    },
+    {
+      "id": "s66",
+      "text": "When I am a wife, I mean to be just as staunch myself; and I wish my friends in general would be so too."
+    },
+    {
+      "id": "s67",
+      "text": "It would save me many a heartache.”"
+    },
+    {
+      "id": "s68",
+      "text": "“You are as bad as your brother, Mary; but we will cure you both."
+    },
+    {
+      "id": "s69",
+      "text": "Mansfield shall cure you both, and without any taking in."
+    },
+    {
+      "id": "s70",
+      "text": "Stay with us, and we will cure you.”"
+    },
+    {
+      "id": "s71",
+      "text": "The Crawfords, without wanting to be cured, were very willing to stay."
+    },
+    {
+      "id": "s72",
+      "text": "Mary was satisfied with the Parsonage as a present home, and Henry equally ready to lengthen his visit."
+    },
+    {
+      "id": "s73",
+      "text": "He had come, intending to spend only a few days with them; but Mansfield promised well, and there was nothing to call him elsewhere."
+    },
+    {
+      "id": "s74",
+      "text": "It delighted Mrs."
+    },
+    {
+      "id": "s75",
+      "text": "Grant to keep them both with her, and Dr."
+    },
+    {
+      "id": "s76",
+      "text": "Grant was exceedingly well contented to have it so: a talking pretty young woman like Miss Crawford is always pleasant society to an indolent, stay-at-home man; and Mr."
+    },
+    {
+      "id": "s77",
+      "text": "Crawford’s being his guest was an excuse for drinking claret every day."
+    },
+    {
+      "id": "s78",
+      "text": "The Miss Bertrams’ admiration of Mr."
+    },
+    {
+      "id": "s79",
+      "text": "Crawford was more rapturous than anything which Miss Crawford’s habits made her likely to feel."
+    },
+    {
+      "id": "s80",
+      "text": "She acknowledged, however, that the Mr."
+    },
+    {
+      "id": "s81",
+      "text": "Bertrams were very fine young men, that two such young men were not often seen together even in London, and that their manners, particularly those of the eldest, were very good. _He_ had been much in London, and had more liveliness and gallantry than Edmund, and must, therefore, be preferred; and, indeed, his being the eldest was another strong claim."
+    },
+    {
+      "id": "s82",
+      "text": "She had felt an early presentiment that she _should_ like the eldest best."
+    },
+    {
+      "id": "s83",
+      "text": "She knew it was her way."
+    },
+    {
+      "id": "s84",
+      "text": "Tom Bertram must have been thought pleasant, indeed, at any rate; he was the sort of young man to be generally liked, his agreeableness was of the kind to be oftener found agreeable than some endowments of a higher stamp, for he had easy manners, excellent spirits, a large acquaintance, and a great deal to say; and the reversion of Mansfield Park, and a baronetcy, did no harm to all this."
+    },
+    {
+      "id": "s85",
+      "text": "Miss Crawford soon felt that he and his situation might do."
+    },
+    {
+      "id": "s86",
+      "text": "She looked about her with due consideration, and found almost everything in his favour: a park, a real park, five miles round, a spacious modern-built house, so well placed and well screened as to deserve to be in any collection of engravings of gentlemen’s seats in the kingdom, and wanting only to be completely new furnished—pleasant sisters, a quiet mother, and an agreeable man himself—with the advantage of being tied up from much gaming at present by a promise to his father, and of being Sir Thomas hereafter."
+    },
+    {
+      "id": "s87",
+      "text": "It might do very well; she believed she should accept him; and she began accordingly to interest herself a little about the horse which he had to run at the B—— races."
+    },
+    {
+      "id": "s88",
+      "text": "These races were to call him away not long after their acquaintance began; and as it appeared that the family did not, from his usual goings on, expect him back again for many weeks, it would bring his passion to an early proof."
+    },
+    {
+      "id": "s89",
+      "text": "Much was said on his side to induce her to attend the races, and schemes were made for a large party to them, with all the eagerness of inclination, but it would only do to be talked of."
+    },
+    {
+      "id": "s90",
+      "text": "And Fanny, what was _she_ doing and thinking all this while? and what was _her_ opinion of the newcomers?"
+    },
+    {
+      "id": "s91",
+      "text": "Few young ladies of eighteen could be less called on to speak their opinion than Fanny."
+    },
+    {
+      "id": "s92",
+      "text": "In a quiet way, very little attended to, she paid her tribute of admiration to Miss Crawford’s beauty; but as she still continued to think Mr."
+    },
+    {
+      "id": "s93",
+      "text": "Crawford very plain, in spite of her two cousins having repeatedly proved the contrary, she never mentioned _him_."
+    },
+    {
+      "id": "s94",
+      "text": "The notice, which she excited herself, was to this effect."
+    },
+    {
+      "id": "s95",
+      "text": "“I begin now to understand you all, except Miss Price,” said Miss Crawford, as she was walking with the Mr."
+    },
+    {
+      "id": "s96",
+      "text": "Bertrams."
+    },
+    {
+      "id": "s97",
+      "text": "“Pray, is she out, or is she not?"
+    },
+    {
+      "id": "s98",
+      "text": "I am puzzled."
+    },
+    {
+      "id": "s99",
+      "text": "She dined at the Parsonage, with the rest of you, which seemed like being _out_; and yet she says so little, that I can hardly suppose she _is_.”"
+    },
+    {
+      "id": "s100",
+      "text": "Edmund, to whom this was chiefly addressed, replied, “I believe I know what you mean, but I will not undertake to answer the question."
+    },
+    {
+      "id": "s101",
+      "text": "My cousin is grown up."
+    },
+    {
+      "id": "s102",
+      "text": "She has the age and sense of a woman, but the outs and not outs are beyond me.”"
+    },
+    {
+      "id": "s103",
+      "text": "“And yet, in general, nothing can be more easily ascertained."
+    },
+    {
+      "id": "s104",
+      "text": "The distinction is so broad."
+    },
+    {
+      "id": "s105",
+      "text": "Manners as well as appearance are, generally speaking, so totally different."
+    },
+    {
+      "id": "s106",
+      "text": "Till now, I could not have supposed it possible to be mistaken as to a girl’s being out or not."
+    },
+    {
+      "id": "s107",
+      "text": "A girl not out has always the same sort of dress: a close bonnet, for instance; looks very demure, and never says a word."
+    },
+    {
+      "id": "s108",
+      "text": "You may smile, but it is so, I assure you; and except that it is sometimes carried a little too far, it is all very proper."
+    },
+    {
+      "id": "s109",
+      "text": "Girls should be quiet and modest."
+    },
+    {
+      "id": "s110",
+      "text": "The most objectionable part is, that the alteration of manners on being introduced into company is frequently too sudden."
+    },
+    {
+      "id": "s111",
+      "text": "They sometimes pass in such very little time from reserve to quite the opposite—to confidence! _That_ is the faulty part of the present system."
+    },
+    {
+      "id": "s112",
+      "text": "One does not like to see a girl of eighteen or nineteen so immediately up to every thing—and perhaps when one has seen her hardly able to speak the year before."
+    },
+    {
+      "id": "s113",
+      "text": "Mr."
+    },
+    {
+      "id": "s114",
+      "text": "Bertram, I dare say _you_ have sometimes met with such changes.”"
+    },
+    {
+      "id": "s115",
+      "text": "“I believe I have, but this is hardly fair; I see what you are at."
+    },
+    {
+      "id": "s116",
+      "text": "You are quizzing me and Miss Anderson.”"
+    },
+    {
+      "id": "s117",
+      "text": "“No, indeed."
+    },
+    {
+      "id": "s118",
+      "text": "Miss Anderson!"
+    },
+    {
+      "id": "s119",
+      "text": "I do not know who or what you mean."
+    },
+    {
+      "id": "s120",
+      "text": "I am quite in the dark."
+    },
+    {
+      "id": "s121",
+      "text": "But I _will_ quiz you with a great deal of pleasure, if you will tell me what about.”"
+    },
+    {
+      "id": "s122",
+      "text": "“Ah! you carry it off very well, but I cannot be quite so far imposed on."
+    },
+    {
+      "id": "s123",
+      "text": "You must have had Miss Anderson in your eye, in describing an altered young lady."
+    },
+    {
+      "id": "s124",
+      "text": "You paint too accurately for mistake."
+    },
+    {
+      "id": "s125",
+      "text": "It was exactly so."
+    },
+    {
+      "id": "s126",
+      "text": "The Andersons of Baker Street."
+    },
+    {
+      "id": "s127",
+      "text": "We were speaking of them the other day, you know."
+    },
+    {
+      "id": "s128",
+      "text": "Edmund, you have heard me mention Charles Anderson."
+    },
+    {
+      "id": "s129",
+      "text": "The circumstance was precisely as this lady has represented it."
+    },
+    {
+      "id": "s130",
+      "text": "When Anderson first introduced me to his family, about two years ago, his sister was not _out_, and I could not get her to speak to me."
+    },
+    {
+      "id": "s131",
+      "text": "I sat there an hour one morning waiting for Anderson, with only her and a little girl or two in the room, the governess being sick or run away, and the mother in and out every moment with letters of business, and I could hardly get a word or a look from the young lady—nothing like a civil answer—she screwed up her mouth, and turned from me with such an air!"
+    },
+    {
+      "id": "s132",
+      "text": "I did not see her again for a twelvemonth."
+    },
+    {
+      "id": "s133",
+      "text": "She was then _out_."
+    },
+    {
+      "id": "s134",
+      "text": "I met her at Mrs."
+    },
+    {
+      "id": "s135",
+      "text": "Holford’s, and did not recollect her."
+    },
+    {
+      "id": "s136",
+      "text": "She came up to me, claimed me as an acquaintance, stared me out of countenance; and talked and laughed till I did not know which way to look."
+    },
+    {
+      "id": "s137",
+      "text": "I felt that I must be the jest of the room at the time, and Miss Crawford, it is plain, has heard the story.”"
+    },
+    {
+      "id": "s138",
+      "text": "“And a very pretty story it is, and with more truth in it, I dare say, than does credit to Miss Anderson."
+    },
+    {
+      "id": "s139",
+      "text": "It is too common a fault."
+    },
+    {
+      "id": "s140",
+      "text": "Mothers certainly have not yet got quite the right way of managing their daughters."
+    },
+    {
+      "id": "s141",
+      "text": "I do not know where the error lies."
+    },
+    {
+      "id": "s142",
+      "text": "I do not pretend to set people right, but I do see that they are often wrong.”"
+    },
+    {
+      "id": "s143",
+      "text": "“Those who are showing the world what female manners _should_ be,” said Mr."
+    },
+    {
+      "id": "s144",
+      "text": "Bertram gallantly, “are doing a great deal to set them right.”"
+    },
+    {
+      "id": "s145",
+      "text": "“The error is plain enough,” said the less courteous Edmund; “such girls are ill brought up."
+    },
+    {
+      "id": "s146",
+      "text": "They are given wrong notions from the beginning."
+    },
+    {
+      "id": "s147",
+      "text": "They are always acting upon motives of vanity, and there is no more real modesty in their behaviour _before_ they appear in public than afterwards.”"
+    },
+    {
+      "id": "s148",
+      "text": "“I do not know,” replied Miss Crawford hesitatingly."
+    },
+    {
+      "id": "s149",
+      "text": "“Yes, I cannot agree with you there."
+    },
+    {
+      "id": "s150",
+      "text": "It is certainly the modestest part of the business."
+    },
+    {
+      "id": "s151",
+      "text": "It is much worse to have girls not out give themselves the same airs and take the same liberties as if they were, which I have seen done."
+    },
+    {
+      "id": "s152",
+      "text": "That is worse than anything—quite disgusting!”"
+    },
+    {
+      "id": "s153",
+      "text": "“Yes, _that_ is very inconvenient indeed,” said Mr."
+    },
+    {
+      "id": "s154",
+      "text": "Bertram."
+    },
+    {
+      "id": "s155",
+      "text": "“It leads one astray; one does not know what to do."
+    },
+    {
+      "id": "s156",
+      "text": "The close bonnet and demure air you describe so well (and nothing was ever juster), tell one what is expected; but I got into a dreadful scrape last year from the want of them."
+    },
+    {
+      "id": "s157",
+      "text": "I went down to Ramsgate for a week with a friend last September, just after my return from the West Indies."
+    },
+    {
+      "id": "s158",
+      "text": "My friend Sneyd—you have heard me speak of Sneyd, Edmund—his father, and mother, and sisters, were there, all new to me."
+    },
+    {
+      "id": "s159",
+      "text": "When we reached Albion Place they were out; we went after them, and found them on the pier: Mrs. and the two Miss Sneyds, with others of their acquaintance."
+    },
+    {
+      "id": "s160",
+      "text": "I made my bow in form; and as Mrs."
+    },
+    {
+      "id": "s161",
+      "text": "Sneyd was surrounded by men, attached myself to one of her daughters, walked by her side all the way home, and made myself as agreeable as I could; the young lady perfectly easy in her manners, and as ready to talk as to listen."
+    },
+    {
+      "id": "s162",
+      "text": "I had not a suspicion that I could be doing anything wrong."
+    },
+    {
+      "id": "s163",
+      "text": "They looked just the same: both well-dressed, with veils and parasols like other girls; but I afterwards found that I had been giving all my attention to the youngest, who was not _out_, and had most excessively offended the eldest."
+    },
+    {
+      "id": "s164",
+      "text": "Miss Augusta ought not to have been noticed for the next six months; and Miss Sneyd, I believe, has never forgiven me.”"
+    },
+    {
+      "id": "s165",
+      "text": "“That was bad indeed."
+    },
+    {
+      "id": "s166",
+      "text": "Poor Miss Sneyd."
+    },
+    {
+      "id": "s167",
+      "text": "Though I have no younger sister, I feel for her."
+    },
+    {
+      "id": "s168",
+      "text": "To be neglected before one’s time must be very vexatious; but it was entirely the mother’s fault."
+    },
+    {
+      "id": "s169",
+      "text": "Miss Augusta should have been with her governess."
+    },
+    {
+      "id": "s170",
+      "text": "Such half-and-half doings never prosper."
+    },
+    {
+      "id": "s171",
+      "text": "But now I must be satisfied about Miss Price."
+    },
+    {
+      "id": "s172",
+      "text": "Does she go to balls?"
+    },
+    {
+      "id": "s173",
+      "text": "Does she dine out every where, as well as at my sister’s?”"
+    },
+    {
+      "id": "s174",
+      "text": "“No,” replied Edmund; “I do not think she has ever been to a ball."
+    },
+    {
+      "id": "s175",
+      "text": "My mother seldom goes into company herself, and dines nowhere but with Mrs."
+    },
+    {
+      "id": "s176",
+      "text": "Grant, and Fanny stays at home with _her_.”"
+    },
+    {
+      "id": "s177",
+      "text": "“Oh! then the point is clear."
+    },
+    {
+      "id": "s178",
+      "text": "Miss Price is not out.”"
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+  "ebookId": "74",
+  "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-28",
+  "chapterTitle": "CHAPTER XXVIII",
+  "contentHash": "sha256:66de4609354e44faa714a8196870295dde4812e7f8ec44bf4e4f97b90604a952",
+  "attribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER XXVIII. Source checked against Project Gutenberg eBook #74.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/74",
+    "textUrl": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "That night Tom and Huck were ready for their adventure."
+    },
+    {
+      "id": "s2",
+      "text": "They hung about the neighborhood of the tavern until after nine, one watching the alley at a distance and the other the tavern door."
+    },
+    {
+      "id": "s3",
+      "text": "Nobody entered the alley or left it; nobody resembling the Spaniard entered or left the tavern door."
+    },
+    {
+      "id": "s4",
+      "text": "The night promised to be a fair one; so Tom went home with the understanding that if a considerable degree of darkness came on, Huck was to come and “maow,” whereupon he would slip out and try the keys."
+    },
+    {
+      "id": "s5",
+      "text": "But the night remained clear, and Huck closed his watch and retired to bed in an empty sugar hogshead about twelve."
+    },
+    {
+      "id": "s6",
+      "text": "Tuesday the boys had the same ill luck."
+    },
+    {
+      "id": "s7",
+      "text": "Also Wednesday."
+    },
+    {
+      "id": "s8",
+      "text": "But Thursday night promised better."
+    },
+    {
+      "id": "s9",
+      "text": "Tom slipped out in good season with his aunt’s old tin lantern, and a large towel to blindfold it with."
+    },
+    {
+      "id": "s10",
+      "text": "He hid the lantern in Huck’s sugar hogshead and the watch began."
+    },
+    {
+      "id": "s11",
+      "text": "An hour before midnight the tavern closed up and its lights (the only ones thereabouts) were put out."
+    },
+    {
+      "id": "s12",
+      "text": "No Spaniard had been seen."
+    },
+    {
+      "id": "s13",
+      "text": "Nobody had entered or left the alley."
+    },
+    {
+      "id": "s14",
+      "text": "Everything was auspicious."
+    },
+    {
+      "id": "s15",
+      "text": "The blackness of darkness reigned, the perfect stillness was interrupted only by occasional mutterings of distant thunder."
+    },
+    {
+      "id": "s16",
+      "text": "Tom got his lantern, lit it in the hogshead, wrapped it closely in the towel, and the two adventurers crept in the gloom toward the tavern."
+    },
+    {
+      "id": "s17",
+      "text": "Huck stood sentry and Tom felt his way into the alley."
+    },
+    {
+      "id": "s18",
+      "text": "Then there was a season of waiting anxiety that weighed upon Huck’s spirits like a mountain."
+    },
+    {
+      "id": "s19",
+      "text": "He began to wish he could see a flash from the lantern—it would frighten him, but it would at least tell him that Tom was alive yet."
+    },
+    {
+      "id": "s20",
+      "text": "It seemed hours since Tom had disappeared."
+    },
+    {
+      "id": "s21",
+      "text": "Surely he must have fainted; maybe he was dead; maybe his heart had burst under terror and excitement."
+    },
+    {
+      "id": "s22",
+      "text": "In his uneasiness Huck found himself drawing closer and closer to the alley; fearing all sorts of dreadful things, and momentarily expecting some catastrophe to happen that would take away his breath."
+    },
+    {
+      "id": "s23",
+      "text": "There was not much to take away, for he seemed only able to inhale it by thimblefuls, and his heart would soon wear itself out, the way it was beating."
+    },
+    {
+      "id": "s24",
+      "text": "Suddenly there was a flash of light and Tom came tearing by him: “Run!” said he; “run, for your life!”"
+    },
+    {
+      "id": "s25",
+      "text": "He needn’t have repeated it; once was enough; Huck was making thirty or forty miles an hour before the repetition was uttered."
+    },
+    {
+      "id": "s26",
+      "text": "The boys never stopped till they reached the shed of a deserted slaughter-house at the lower end of the village."
+    },
+    {
+      "id": "s27",
+      "text": "Just as they got within its shelter the storm burst and the rain poured down."
+    },
+    {
+      "id": "s28",
+      "text": "As soon as Tom got his breath he said:"
+    },
+    {
+      "id": "s29",
+      "text": "“Huck, it was awful!"
+    },
+    {
+      "id": "s30",
+      "text": "I tried two of the keys, just as soft as I could; but they seemed to make such a power of racket that I couldn’t hardly get my breath I was so scared."
+    },
+    {
+      "id": "s31",
+      "text": "They wouldn’t turn in the lock, either."
+    },
+    {
+      "id": "s32",
+      "text": "Well, without noticing what I was doing, I took hold of the knob, and open comes the door!"
+    },
+    {
+      "id": "s33",
+      "text": "It warn’t locked!"
+    },
+    {
+      "id": "s34",
+      "text": "I hopped in, and shook off the towel, and, _Great Caesar’s Ghost!_”"
+    },
+    {
+      "id": "s35",
+      "text": "“What!—what’d you see, Tom?”"
+    },
+    {
+      "id": "s36",
+      "text": "“Huck, I most stepped onto Injun Joe’s hand!”"
+    },
+    {
+      "id": "s37",
+      "text": "“No!”"
+    },
+    {
+      "id": "s38",
+      "text": "“Yes!"
+    },
+    {
+      "id": "s39",
+      "text": "He was lying there, sound asleep on the floor, with his old patch on his eye and his arms spread out.”"
+    },
+    {
+      "id": "s40",
+      "text": "“Lordy, what did you do?"
+    },
+    {
+      "id": "s41",
+      "text": "Did he wake up?”"
+    },
+    {
+      "id": "s42",
+      "text": "“No, never budged."
+    },
+    {
+      "id": "s43",
+      "text": "Drunk, I reckon."
+    },
+    {
+      "id": "s44",
+      "text": "I just grabbed that towel and started!”"
+    },
+    {
+      "id": "s45",
+      "text": "“I’d never ’a’ thought of the towel, I bet!”"
+    },
+    {
+      "id": "s46",
+      "text": "“Well, I would."
+    },
+    {
+      "id": "s47",
+      "text": "My aunt would make me mighty sick if I lost it.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Say, Tom, did you see that box?”"
+    },
+    {
+      "id": "s49",
+      "text": "“Huck, I didn’t wait to look around."
+    },
+    {
+      "id": "s50",
+      "text": "I didn’t see the box, I didn’t see the cross."
+    },
+    {
+      "id": "s51",
+      "text": "I didn’t see anything but a bottle and a tin cup on the floor by Injun Joe; yes, I saw two barrels and lots more bottles in the room."
+    },
+    {
+      "id": "s52",
+      "text": "Don’t you see, now, what’s the matter with that ha’nted room?”"
+    },
+    {
+      "id": "s53",
+      "text": "“How?”"
+    },
+    {
+      "id": "s54",
+      "text": "“Why, it’s ha’nted with whiskey!"
+    },
+    {
+      "id": "s55",
+      "text": "Maybe _all_ the Temperance Taverns have got a ha’nted room, hey, Huck?”"
+    },
+    {
+      "id": "s56",
+      "text": "“Well, I reckon maybe that’s so."
+    },
+    {
+      "id": "s57",
+      "text": "Who’d ’a’ thought such a thing?"
+    },
+    {
+      "id": "s58",
+      "text": "But say, Tom, now’s a mighty good time to get that box, if Injun Joe’s drunk.”"
+    },
+    {
+      "id": "s59",
+      "text": "“It is, that!"
+    },
+    {
+      "id": "s60",
+      "text": "You try it!”"
+    },
+    {
+      "id": "s61",
+      "text": "Huck shuddered."
+    },
+    {
+      "id": "s62",
+      "text": "“Well, no—I reckon not.”"
+    },
+    {
+      "id": "s63",
+      "text": "“And I reckon not, Huck."
+    },
+    {
+      "id": "s64",
+      "text": "Only one bottle alongside of Injun Joe ain’t enough."
+    },
+    {
+      "id": "s65",
+      "text": "If there’d been three, he’d be drunk enough and I’d do it.”"
+    },
+    {
+      "id": "s66",
+      "text": "There was a long pause for reflection, and then Tom said:"
+    },
+    {
+      "id": "s67",
+      "text": "“Lookyhere, Huck, less not try that thing any more till we know Injun Joe’s not in there."
+    },
+    {
+      "id": "s68",
+      "text": "It’s too scary."
+    },
+    {
+      "id": "s69",
+      "text": "Now, if we watch every night, we’ll be dead sure to see him go out, some time or other, and then we’ll snatch that box quicker’n lightning.”"
+    },
+    {
+      "id": "s70",
+      "text": "“Well, I’m agreed."
+    },
+    {
+      "id": "s71",
+      "text": "I’ll watch the whole night long, and I’ll do it every night, too, if you’ll do the other part of the job.”"
+    },
+    {
+      "id": "s72",
+      "text": "“All right, I will."
+    },
+    {
+      "id": "s73",
+      "text": "All you got to do is to trot up Hooper Street a block and maow—and if I’m asleep, you throw some gravel at the window and that’ll fetch me.”"
+    },
+    {
+      "id": "s74",
+      "text": "“Agreed, and good as wheat!”"
+    },
+    {
+      "id": "s75",
+      "text": "“Now, Huck, the storm’s over, and I’ll go home."
+    },
+    {
+      "id": "s76",
+      "text": "It’ll begin to be daylight in a couple of hours."
+    },
+    {
+      "id": "s77",
+      "text": "You go back and watch that long, will you?”"
+    },
+    {
+      "id": "s78",
+      "text": "“I said I would, Tom, and I will."
+    },
+    {
+      "id": "s79",
+      "text": "I’ll ha’nt that tavern every night for a year!"
+    },
+    {
+      "id": "s80",
+      "text": "I’ll sleep all day and I’ll stand watch all night.”"
+    },
+    {
+      "id": "s81",
+      "text": "“That’s all right."
+    },
+    {
+      "id": "s82",
+      "text": "Now, where you going to sleep?”"
+    },
+    {
+      "id": "s83",
+      "text": "“In Ben Rogers’ hayloft."
+    },
+    {
+      "id": "s84",
+      "text": "He lets me, and so does his pap’s nigger man, Uncle Jake."
+    },
+    {
+      "id": "s85",
+      "text": "I tote water for Uncle Jake whenever he wants me to, and any time I ask him he gives me a little something to eat if he can spare it."
+    },
+    {
+      "id": "s86",
+      "text": "That’s a mighty good nigger, Tom."
+    },
+    {
+      "id": "s87",
+      "text": "He likes me, becuz I don’t ever act as if I was above him."
+    },
+    {
+      "id": "s88",
+      "text": "Sometime I’ve set right down and eat _with_ him."
+    },
+    {
+      "id": "s89",
+      "text": "But you needn’t tell that."
+    },
+    {
+      "id": "s90",
+      "text": "A body’s got to do things when he’s awful hungry he wouldn’t want to do as a steady thing.”"
+    },
+    {
+      "id": "s91",
+      "text": "“Well, if I don’t want you in the daytime, I’ll let you sleep."
+    },
+    {
+      "id": "s92",
+      "text": "I won’t come bothering around."
+    },
+    {
+      "id": "s93",
+      "text": "Any time you see something’s up, in the night, just skip right around and maow.”"
+    }
+  ]
+}

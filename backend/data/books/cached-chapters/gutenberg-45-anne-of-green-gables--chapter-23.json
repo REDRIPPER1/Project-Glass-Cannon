@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-23",
+  "chapterTitle": "CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor",
+  "contentHash": "sha256:325697120df103ebe2738602cec6557194fc5d8bcea3b9b045aab02c30f21c7b",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "ANNE had to live through more than two weeks, as it happened."
+    },
+    {
+      "id": "s2",
+      "text": "Almost a month having elapsed since the liniment cake episode, it was high time for her to get into fresh trouble of some sort, little mistakes, such as absentmindedly emptying a pan of skim milk into a basket of yarn balls in the pantry instead of into the pigs’ bucket, and walking clean over the edge of the log bridge into the brook while wrapped in imaginative reverie, not really being worth counting."
+    },
+    {
+      "id": "s3",
+      "text": "A week after the tea at the manse Diana Barry gave a party."
+    },
+    {
+      "id": "s4",
+      "text": "“Small and select,” Anne assured Marilla."
+    },
+    {
+      "id": "s5",
+      "text": "“Just the girls in our class.”"
+    },
+    {
+      "id": "s6",
+      "text": "They had a very good time and nothing untoward happened until after tea, when they found themselves in the Barry garden, a little tired of all their games and ripe for any enticing form of mischief which might present itself."
+    },
+    {
+      "id": "s7",
+      "text": "This presently took the form of “daring.”"
+    },
+    {
+      "id": "s8",
+      "text": "Daring was the fashionable amusement among the Avonlea small fry just then."
+    },
+    {
+      "id": "s9",
+      "text": "It had begun among the boys, but soon spread to the girls, and all the silly things that were done in Avonlea that summer because the doers thereof were “dared” to do them would fill a book by themselves."
+    },
+    {
+      "id": "s10",
+      "text": "First of all Carrie Sloane dared Ruby Gillis to climb to a certain point in the huge old willow tree before the front door; which Ruby Gillis, albeit in mortal dread of the fat green caterpillars with which said tree was infested and with the fear of her mother before her eyes if she should tear her new muslin dress, nimbly did, to the discomfiture of the aforesaid Carrie Sloane."
+    },
+    {
+      "id": "s11",
+      "text": "Then Josie Pye dared Jane Andrews to hop on her left leg around the garden without stopping once or putting her right foot to the ground; which Jane Andrews gamely tried to do, but gave out at the third corner and had to confess herself defeated."
+    },
+    {
+      "id": "s12",
+      "text": "Josie’s triumph being rather more pronounced than good taste permitted, Anne Shirley dared her to walk along the top of the board fence which bounded the garden to the east."
+    },
+    {
+      "id": "s13",
+      "text": "Now, to “walk” board fences requires more skill and steadiness of head and heel than one might suppose who has never tried it."
+    },
+    {
+      "id": "s14",
+      "text": "But Josie Pye, if deficient in some qualities that make for popularity, had at least a natural and inborn gift, duly cultivated, for walking board fences."
+    },
+    {
+      "id": "s15",
+      "text": "Josie walked the Barry fence with an airy unconcern which seemed to imply that a little thing like that wasn’t worth a “dare.” Reluctant admiration greeted her exploit, for most of the other girls could appreciate it, having suffered many things themselves in their efforts to walk fences."
+    },
+    {
+      "id": "s16",
+      "text": "Josie descended from her perch, flushed with victory, and darted a defiant glance at Anne."
+    },
+    {
+      "id": "s17",
+      "text": "Anne tossed her red braids."
+    },
+    {
+      "id": "s18",
+      "text": "“I don’t think it’s such a very wonderful thing to walk a little, low, board fence,” she said."
+    },
+    {
+      "id": "s19",
+      "text": "“I knew a girl in Marysville who could walk the ridgepole of a roof.”"
+    },
+    {
+      "id": "s20",
+      "text": "“I don’t believe it,” said Josie flatly."
+    },
+    {
+      "id": "s21",
+      "text": "“I don’t believe anybody could walk a ridgepole. _You_ couldn’t, anyhow.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Couldn’t I?” cried Anne rashly."
+    },
+    {
+      "id": "s23",
+      "text": "“Then I dare you to do it,” said Josie defiantly."
+    },
+    {
+      "id": "s24",
+      "text": "“I dare you to climb up there and walk the ridgepole of Mr."
+    },
+    {
+      "id": "s25",
+      "text": "Barry’s kitchen roof.”"
+    },
+    {
+      "id": "s26",
+      "text": "Anne turned pale, but there was clearly only one thing to be done."
+    },
+    {
+      "id": "s27",
+      "text": "She walked toward the house, where a ladder was leaning against the kitchen roof."
+    },
+    {
+      "id": "s28",
+      "text": "All the fifth-class girls said, “Oh!” partly in excitement, partly in dismay."
+    },
+    {
+      "id": "s29",
+      "text": "“Don’t you do it, Anne,” entreated Diana."
+    },
+    {
+      "id": "s30",
+      "text": "“You’ll fall off and be killed."
+    },
+    {
+      "id": "s31",
+      "text": "Never mind Josie Pye."
+    },
+    {
+      "id": "s32",
+      "text": "It isn’t fair to dare anybody to do anything so dangerous.”"
+    },
+    {
+      "id": "s33",
+      "text": "“I must do it."
+    },
+    {
+      "id": "s34",
+      "text": "My honor is at stake,” said Anne solemnly."
+    },
+    {
+      "id": "s35",
+      "text": "“I shall walk that ridgepole, Diana, or perish in the attempt."
+    },
+    {
+      "id": "s36",
+      "text": "If I am killed you are to have my pearl bead ring.”"
+    },
+    {
+      "id": "s37",
+      "text": "Anne climbed the ladder amid breathless silence, gained the ridgepole, balanced herself uprightly on that precarious footing, and started to walk along it, dizzily conscious that she was uncomfortably high up in the world and that walking ridgepoles was not a thing in which your imagination helped you out much."
+    },
+    {
+      "id": "s38",
+      "text": "Nevertheless, she managed to take several steps before the catastrophe came."
+    },
+    {
+      "id": "s39",
+      "text": "Then she swayed, lost her balance, stumbled, staggered, and fell, sliding down over the sun-baked roof and crashing off it through the tangle of Virginia creeper beneath--all before the dismayed circle below could give a simultaneous, terrified shriek."
+    },
+    {
+      "id": "s40",
+      "text": "If Anne had tumbled off the roof on the side up which she had ascended Diana would probably have fallen heir to the pearl bead ring then and there."
+    },
+    {
+      "id": "s41",
+      "text": "Fortunately she fell on the other side, where the roof extended down over the porch so nearly to the ground that a fall therefrom was a much less serious thing."
+    },
+    {
+      "id": "s42",
+      "text": "Nevertheless, when Diana and the other girls had rushed frantically around the house--except Ruby Gillis, who remained as if rooted to the ground and went into hysterics--they found Anne lying all white and limp among the wreck and ruin of the Virginia creeper."
+    },
+    {
+      "id": "s43",
+      "text": "“Anne, are you killed?” shrieked Diana, throwing herself on her knees beside her friend."
+    },
+    {
+      "id": "s44",
+      "text": "“Oh, Anne, dear Anne, speak just one word to me and tell me if you’re killed.”"
+    },
+    {
+      "id": "s45",
+      "text": "To the immense relief of all the girls, and especially of Josie Pye, who, in spite of lack of imagination, had been seized with horrible visions of a future branded as the girl who was the cause of Anne Shirley’s early and tragic death, Anne sat dizzily up and answered uncertainly:"
+    },
+    {
+      "id": "s46",
+      "text": "“No, Diana, I am not killed, but I think I am rendered unconscious.”"
+    },
+    {
+      "id": "s47",
+      "text": "“Where?” sobbed Carrie Sloane."
+    },
+    {
+      "id": "s48",
+      "text": "“Oh, where, Anne?” Before Anne could answer Mrs."
+    },
+    {
+      "id": "s49",
+      "text": "Barry appeared on the scene."
+    },
+    {
+      "id": "s50",
+      "text": "At sight of her Anne tried to scramble to her feet, but sank back again with a sharp little cry of pain."
+    },
+    {
+      "id": "s51",
+      "text": "“What’s the matter?"
+    },
+    {
+      "id": "s52",
+      "text": "Where have you hurt yourself?” demanded Mrs."
+    },
+    {
+      "id": "s53",
+      "text": "Barry."
+    },
+    {
+      "id": "s54",
+      "text": "“My ankle,” gasped Anne."
+    },
+    {
+      "id": "s55",
+      "text": "“Oh, Diana, please find your father and ask him to take me home."
+    },
+    {
+      "id": "s56",
+      "text": "I know I can never walk there."
+    },
+    {
+      "id": "s57",
+      "text": "And I’m sure I couldn’t hop so far on one foot when Jane couldn’t even hop around the garden.”"
+    },
+    {
+      "id": "s58",
+      "text": "Marilla was out in the orchard picking a panful of summer apples when she saw Mr."
+    },
+    {
+      "id": "s59",
+      "text": "Barry coming over the log bridge and up the slope, with Mrs."
+    },
+    {
+      "id": "s60",
+      "text": "Barry beside him and a whole procession of little girls trailing after him."
+    },
+    {
+      "id": "s61",
+      "text": "In his arms he carried Anne, whose head lay limply against his shoulder."
+    },
+    {
+      "id": "s62",
+      "text": "At that moment Marilla had a revelation."
+    },
+    {
+      "id": "s63",
+      "text": "In the sudden stab of fear that pierced her very heart she realized what Anne had come to mean to her."
+    },
+    {
+      "id": "s64",
+      "text": "She would have admitted that she liked Anne--nay, that she was very fond of Anne."
+    },
+    {
+      "id": "s65",
+      "text": "But now she knew as she hurried wildly down the slope that Anne was dearer to her than anything else on earth."
+    },
+    {
+      "id": "s66",
+      "text": "“Mr."
+    },
+    {
+      "id": "s67",
+      "text": "Barry, what has happened to her?” she gasped, more white and shaken than the self-contained, sensible Marilla had been for many years."
+    },
+    {
+      "id": "s68",
+      "text": "Anne herself answered, lifting her head."
+    },
+    {
+      "id": "s69",
+      "text": "“Don’t be very frightened, Marilla."
+    },
+    {
+      "id": "s70",
+      "text": "I was walking the ridgepole and I fell off."
+    },
+    {
+      "id": "s71",
+      "text": "I expect I have sprained my ankle."
+    },
+    {
+      "id": "s72",
+      "text": "But, Marilla, I might have broken my neck."
+    },
+    {
+      "id": "s73",
+      "text": "Let us look on the bright side of things.”"
+    },
+    {
+      "id": "s74",
+      "text": "“I might have known you’d go and do something of the sort when I let you go to that party,” said Marilla, sharp and shrewish in her very relief."
+    },
+    {
+      "id": "s75",
+      "text": "“Bring her in here, Mr."
+    },
+    {
+      "id": "s76",
+      "text": "Barry, and lay her on the sofa."
+    },
+    {
+      "id": "s77",
+      "text": "Mercy me, the child has gone and fainted!”"
+    },
+    {
+      "id": "s78",
+      "text": "It was quite true."
+    },
+    {
+      "id": "s79",
+      "text": "Overcome by the pain of her injury, Anne had one more of her wishes granted to her."
+    },
+    {
+      "id": "s80",
+      "text": "She had fainted dead away."
+    },
+    {
+      "id": "s81",
+      "text": "Matthew, hastily summoned from the harvest field, was straightway dispatched for the doctor, who in due time came, to discover that the injury was more serious than they had supposed."
+    },
+    {
+      "id": "s82",
+      "text": "Anne’s ankle was broken."
+    },
+    {
+      "id": "s83",
+      "text": "That night, when Marilla went up to the east gable, where a white-faced girl was lying, a plaintive voice greeted her from the bed."
+    },
+    {
+      "id": "s84",
+      "text": "“Aren’t you very sorry for me, Marilla?”"
+    },
+    {
+      "id": "s85",
+      "text": "“It was your own fault,” said Marilla, twitching down the blind and lighting a lamp."
+    },
+    {
+      "id": "s86",
+      "text": "“And that is just why you should be sorry for me,” said Anne, “because the thought that it is all my own fault is what makes it so hard."
+    },
+    {
+      "id": "s87",
+      "text": "If I could blame it on anybody I would feel so much better."
+    },
+    {
+      "id": "s88",
+      "text": "But what would you have done, Marilla, if you had been dared to walk a ridgepole?”"
+    },
+    {
+      "id": "s89",
+      "text": "“I’d have stayed on good firm ground and let them dare away."
+    },
+    {
+      "id": "s90",
+      "text": "Such absurdity!” said Marilla."
+    },
+    {
+      "id": "s91",
+      "text": "Anne sighed."
+    },
+    {
+      "id": "s92",
+      "text": "“But you have such strength of mind, Marilla."
+    },
+    {
+      "id": "s93",
+      "text": "I haven’t."
+    },
+    {
+      "id": "s94",
+      "text": "I just felt that I couldn’t bear Josie Pye’s scorn."
+    },
+    {
+      "id": "s95",
+      "text": "She would have crowed over me all my life."
+    },
+    {
+      "id": "s96",
+      "text": "And I think I have been punished so much that you needn’t be very cross with me, Marilla."
+    },
+    {
+      "id": "s97",
+      "text": "It’s not a bit nice to faint, after all."
+    },
+    {
+      "id": "s98",
+      "text": "And the doctor hurt me dreadfully when he was setting my ankle."
+    },
+    {
+      "id": "s99",
+      "text": "I won’t be able to go around for six or seven weeks and I’ll miss the new lady teacher."
+    },
+    {
+      "id": "s100",
+      "text": "She won’t be new any more by the time I’m able to go to school."
+    },
+    {
+      "id": "s101",
+      "text": "And Gil--everybody will get ahead of me in class."
+    },
+    {
+      "id": "s102",
+      "text": "Oh, I am an afflicted mortal."
+    },
+    {
+      "id": "s103",
+      "text": "But I’ll try to bear it all bravely if only you won’t be cross with me, Marilla.”"
+    },
+    {
+      "id": "s104",
+      "text": "“There, there, I’m not cross,” said Marilla."
+    },
+    {
+      "id": "s105",
+      "text": "“You’re an unlucky child, there’s no doubt about that; but as you say, you’ll have the suffering of it."
+    },
+    {
+      "id": "s106",
+      "text": "Here now, try and eat some supper.”"
+    },
+    {
+      "id": "s107",
+      "text": "“Isn’t it fortunate I’ve got such an imagination?” said Anne."
+    },
+    {
+      "id": "s108",
+      "text": "“It will help me through splendidly, I expect."
+    },
+    {
+      "id": "s109",
+      "text": "What do people who haven’t any imagination do when they break their bones, do you suppose, Marilla?”"
+    },
+    {
+      "id": "s110",
+      "text": "Anne had good reason to bless her imagination many a time and oft during the tedious seven weeks that followed."
+    },
+    {
+      "id": "s111",
+      "text": "But she was not solely dependent on it."
+    },
+    {
+      "id": "s112",
+      "text": "She had many visitors and not a day passed without one or more of the schoolgirls dropping in to bring her flowers and books and tell her all the happenings in the juvenile world of Avonlea."
+    },
+    {
+      "id": "s113",
+      "text": "“Everybody has been so good and kind, Marilla,” sighed Anne happily, on the day when she could first limp across the floor."
+    },
+    {
+      "id": "s114",
+      "text": "“It isn’t very pleasant to be laid up; but there is a bright side to it, Marilla."
+    },
+    {
+      "id": "s115",
+      "text": "You find out how many friends you have."
+    },
+    {
+      "id": "s116",
+      "text": "Why, even Superintendent Bell came to see me, and he’s really a very fine man."
+    },
+    {
+      "id": "s117",
+      "text": "Not a kindred spirit, of course; but still I like him and I’m awfully sorry I ever criticized his prayers."
+    },
+    {
+      "id": "s118",
+      "text": "I believe now he really does mean them, only he has got into the habit of saying them as if he didn’t."
+    },
+    {
+      "id": "s119",
+      "text": "He could get over that if he’d take a little trouble."
+    },
+    {
+      "id": "s120",
+      "text": "I gave him a good broad hint."
+    },
+    {
+      "id": "s121",
+      "text": "I told him how hard I tried to make my own little private prayers interesting."
+    },
+    {
+      "id": "s122",
+      "text": "He told me all about the time he broke his ankle when he was a boy."
+    },
+    {
+      "id": "s123",
+      "text": "It does seem so strange to think of Superintendent Bell ever being a boy."
+    },
+    {
+      "id": "s124",
+      "text": "Even my imagination has its limits, for I can’t imagine _that_."
+    },
+    {
+      "id": "s125",
+      "text": "When I try to imagine him as a boy I see him with gray whiskers and spectacles, just as he looks in Sunday-school, only small."
+    },
+    {
+      "id": "s126",
+      "text": "Now, it’s so easy to imagine Mrs."
+    },
+    {
+      "id": "s127",
+      "text": "Allan as a little girl."
+    },
+    {
+      "id": "s128",
+      "text": "Mrs."
+    },
+    {
+      "id": "s129",
+      "text": "Allan has been to see me fourteen times."
+    },
+    {
+      "id": "s130",
+      "text": "Isn’t that something to be proud of, Marilla?"
+    },
+    {
+      "id": "s131",
+      "text": "When a minister’s wife has so many claims on her time!"
+    },
+    {
+      "id": "s132",
+      "text": "She is such a cheerful person to have visit you, too."
+    },
+    {
+      "id": "s133",
+      "text": "She never tells you it’s your own fault and she hopes you’ll be a better girl on account of it."
+    },
+    {
+      "id": "s134",
+      "text": "Mrs."
+    },
+    {
+      "id": "s135",
+      "text": "Lynde always told me that when she came to see me; and she said it in a kind of way that made me feel she might hope I’d be a better girl but didn’t really believe I would."
+    },
+    {
+      "id": "s136",
+      "text": "Even Josie Pye came to see me."
+    },
+    {
+      "id": "s137",
+      "text": "I received her as politely as I could, because I think she was sorry she dared me to walk a ridgepole."
+    },
+    {
+      "id": "s138",
+      "text": "If I had been killed she would had to carry a dark burden of remorse all her life."
+    },
+    {
+      "id": "s139",
+      "text": "Diana has been a faithful friend."
+    },
+    {
+      "id": "s140",
+      "text": "She’s been over every day to cheer my lonely pillow."
+    },
+    {
+      "id": "s141",
+      "text": "But oh, I shall be so glad when I can go to school for I’ve heard such exciting things about the new teacher."
+    },
+    {
+      "id": "s142",
+      "text": "The girls all think she is perfectly sweet."
+    },
+    {
+      "id": "s143",
+      "text": "Diana says she has the loveliest fair curly hair and such fascinating eyes."
+    },
+    {
+      "id": "s144",
+      "text": "She dresses beautifully, and her sleeve puffs are bigger than anybody else’s in Avonlea."
+    },
+    {
+      "id": "s145",
+      "text": "Every other Friday afternoon she has recitations and everybody has to say a piece or take part in a dialogue."
+    },
+    {
+      "id": "s146",
+      "text": "Oh, it’s just glorious to think of it."
+    },
+    {
+      "id": "s147",
+      "text": "Josie Pye says she hates it but that is just because Josie has so little imagination."
+    },
+    {
+      "id": "s148",
+      "text": "Diana and Ruby Gillis and Jane Andrews are preparing a dialogue, called ‘A Morning Visit,’ for next Friday."
+    },
+    {
+      "id": "s149",
+      "text": "And the Friday afternoons they don’t have recitations Miss Stacy takes them all to the woods for a ‘field’ day and they study ferns and flowers and birds."
+    },
+    {
+      "id": "s150",
+      "text": "And they have physical culture exercises every morning and evening."
+    },
+    {
+      "id": "s151",
+      "text": "Mrs."
+    },
+    {
+      "id": "s152",
+      "text": "Lynde says she never heard of such goings on and it all comes of having a lady teacher."
+    },
+    {
+      "id": "s153",
+      "text": "But I think it must be splendid and I believe I shall find that Miss Stacy is a kindred spirit.”"
+    },
+    {
+      "id": "s154",
+      "text": "“There’s one thing plain to be seen, Anne,” said Marilla, “and that is that your fall off the Barry roof hasn’t injured your tongue at all.”"
+    }
+  ]
+}

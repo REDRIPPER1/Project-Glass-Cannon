@@ -4,9 +4,9 @@
   "ebookId": "125",
   "edition": "Project Gutenberg eBook #125; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER I WHEREIN ELNORA GOES TO HIGH SCHOOL AND LEARNS MANY LESSONS NOT FOUND IN",
-  "contentHash": "sha256:485c522cc31eb9670036969cb741d25dc41e0980bf1af19084cd09f96aed2869",
-  "attribution": "Stratton-Porter, Gene, 1863-1924, A Girl of the Limberlost, CHAPTER I WHEREIN ELNORA GOES TO HIGH SCHOOL AND LEARNS MANY LESSONS NOT FOUND IN. Source checked against Project Gutenberg eBook #125.",
+  "chapterTitle": "CHAPTER I",
+  "contentHash": "sha256:728c00a12b3fec287db38a347d2287401eefc75591791efaf86c3ded607eb24c",
+  "attribution": "Stratton-Porter, Gene, 1863-1924, A Girl of the Limberlost, CHAPTER I. Source checked against Project Gutenberg eBook #125.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/125",
@@ -19,7 +19,7 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "HER BOOKS"
+      "text": "WHEREIN ELNORA GOES TO HIGH SCHOOL AND LEARNS MANY LESSONS NOT FOUND IN HER BOOKS"
     },
     {
       "id": "s2",

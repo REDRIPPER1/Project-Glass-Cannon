@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-87",
+  "chapterTitle": "CHAPTER LXXXVII.",
+  "contentHash": "sha256:371c360ffa2351b977af10704324266b75523e7434c4c68af2ca41e5935fb318",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER LXXXVII.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE GRAND ARMADA."
+    },
+    {
+      "id": "s2",
+      "text": "The long and narrow peninsula of Malacca, extending south-eastward from the territories of Birmah, forms the most southerly point of all Asia."
+    },
+    {
+      "id": "s3",
+      "text": "In a continuous line from that peninsula stretch the long islands of Sumatra, Java, Bally, and Timor; which, with many others, form a vast mole, or rampart, lengthwise connecting Asia with Australia, and dividing the long unbroken Indian ocean from the thickly studded oriental archipelagoes."
+    },
+    {
+      "id": "s4",
+      "text": "This rampart is pierced by several sally-ports for the convenience of ships and whales; conspicuous among which are the straits of Sunda and Malacca."
+    },
+    {
+      "id": "s5",
+      "text": "By the straits of Sunda, chiefly, vessels bound to China from the west, emerge into the China seas."
+    },
+    {
+      "id": "s6",
+      "text": "Those narrow straits of Sunda divide Sumatra from Java; and standing midway in that vast rampart of islands, buttressed by that bold green promontory, known to seamen as Java Head; they not a little correspond to the central gateway opening into some vast walled empire: and considering the inexhaustible wealth of spices, and silks, and jewels, and gold, and ivory, with which the thousand islands of that oriental sea are enriched, it seems a significant provision of nature, that such treasures, by the very formation of the land, should at least bear the appearance, however ineffectual, of being guarded from the all-grasping western world."
+    },
+    {
+      "id": "s7",
+      "text": "The shores of the Straits of Sunda are unsupplied with those domineering fortresses which guard the entrances to the Mediterranean, the Baltic, and the Propontis."
+    },
+    {
+      "id": "s8",
+      "text": "Unlike the Danes, these Orientals do not demand the obsequious homage of lowered top-sails from the endless procession of ships before the wind, which for centuries past, by night and by day, have passed between the islands of Sumatra and Java, freighted with the costliest cargoes of the east."
+    },
+    {
+      "id": "s9",
+      "text": "But while they freely waive a ceremonial like this, they do by no means renounce their claim to more solid tribute."
+    },
+    {
+      "id": "s10",
+      "text": "Time out of mind the piratical proas of the Malays, lurking among the low shaded coves and islets of Sumatra, have sallied out upon the vessels sailing through the straits, fiercely demanding tribute at the point of their spears."
+    },
+    {
+      "id": "s11",
+      "text": "Though by the repeated bloody chastisements they have received at the hands of European cruisers, the audacity of these corsairs has of late been somewhat repressed; yet, even at the present day, we occasionally hear of English and American vessels, which, in those waters, have been remorselessly boarded and pillaged."
+    },
+    {
+      "id": "s12",
+      "text": "With a fair, fresh wind, the Pequod was now drawing nigh to these straits; Ahab purposing to pass through them into the Javan sea, and thence, cruising northwards, over waters known to be frequented here and there by the Sperm Whale, sweep inshore by the Philippine Islands, and gain the far coast of Japan, in time for the great whaling season there."
+    },
+    {
+      "id": "s13",
+      "text": "By these means, the circumnavigating Pequod would sweep almost all the known Sperm Whale cruising grounds of the world, previous to descending upon the Line in the Pacific; where Ahab, though everywhere else foiled in his pursuit, firmly counted upon giving battle to Moby Dick, in the sea he was most known to frequent; and at a season when he might most reasonably be presumed to be haunting it."
+    },
+    {
+      "id": "s14",
+      "text": "But how now? in this zoned quest, does Ahab touch no land? does his crew drink air?"
+    },
+    {
+      "id": "s15",
+      "text": "Surely, he will stop for water."
+    },
+    {
+      "id": "s16",
+      "text": "Nay."
+    },
+    {
+      "id": "s17",
+      "text": "For a long time, now, the circus-running sun has raced within his fiery ring, and needs no sustenance but what’s in himself."
+    },
+    {
+      "id": "s18",
+      "text": "So Ahab."
+    },
+    {
+      "id": "s19",
+      "text": "Mark this, too, in the whaler."
+    },
+    {
+      "id": "s20",
+      "text": "While other hulls are loaded down with alien stuff, to be transferred to foreign wharves; the world-wandering whale-ship carries no cargo but herself and crew, their weapons and their wants."
+    },
+    {
+      "id": "s21",
+      "text": "She has a whole lake’s contents bottled in her ample hold."
+    },
+    {
+      "id": "s22",
+      "text": "She is ballasted with utilities; not altogether with unusable pig-lead and kentledge."
+    },
+    {
+      "id": "s23",
+      "text": "She carries years’ water in her."
+    },
+    {
+      "id": "s24",
+      "text": "Clear old prime Nantucket water; which, when three years afloat, the Nantucketer, in the Pacific, prefers to drink before the brackish fluid, but yesterday rafted off in casks, from the Peruvian or Indian streams."
+    },
+    {
+      "id": "s25",
+      "text": "Hence it is, that, while other ships may have gone to China from New York, and back again, touching at a score of ports, the whale-ship, in all that interval, may not have sighted one grain of soil; her crew having seen no man but floating seamen like themselves."
+    },
+    {
+      "id": "s26",
+      "text": "So that did you carry them the news that another flood had come; they would only answer—“Well, boys, here’s the ark!”"
+    },
+    {
+      "id": "s27",
+      "text": "Now, as many Sperm Whales had been captured off the western coast of Java, in the near vicinity of the Straits of Sunda; indeed, as most of the ground, roundabout, was generally recognised by the fishermen as an excellent spot for cruising; therefore, as the Pequod gained more and more upon Java Head, the look-outs were repeatedly hailed, and admonished to keep wide awake."
+    },
+    {
+      "id": "s28",
+      "text": "But though the green palmy cliffs of the land soon loomed on the starboard bow, and with delighted nostrils the fresh cinnamon was snuffed in the air, yet not a single jet was descried."
+    },
+    {
+      "id": "s29",
+      "text": "Almost renouncing all thought of falling in with any game hereabouts, the ship had well nigh entered the straits, when the customary cheering cry was heard from aloft, and ere long a spectacle of singular magnificence saluted us."
+    },
+    {
+      "id": "s30",
+      "text": "But here be it premised, that owing to the unwearied activity with which of late they have been hunted over all four oceans, the Sperm Whales, instead of almost invariably sailing in small detached companies, as in former times, are now frequently met with in extensive herds, sometimes embracing so great a multitude, that it would almost seem as if numerous nations of them had sworn solemn league and covenant for mutual assistance and protection."
+    },
+    {
+      "id": "s31",
+      "text": "To this aggregation of the Sperm Whale into such immense caravans, may be imputed the circumstance that even in the best cruising grounds, you may now sometimes sail for weeks and months together, without being greeted by a single spout; and then be suddenly saluted by what sometimes seems thousands on thousands."
+    },
+    {
+      "id": "s32",
+      "text": "Broad on both bows, at the distance of some two or three miles, and forming a great semicircle, embracing one half of the level horizon, a continuous chain of whale-jets were up-playing and sparkling in the noon-day air."
+    },
+    {
+      "id": "s33",
+      "text": "Unlike the straight perpendicular twin-jets of the Right Whale, which, dividing at top, fall over in two branches, like the cleft drooping boughs of a willow, the single forward-slanting spout of the Sperm Whale presents a thick curled bush of white mist, continually rising and falling away to leeward."
+    },
+    {
+      "id": "s34",
+      "text": "Seen from the Pequod’s deck, then, as she would rise on a high hill of the sea, this host of vapory spouts, individually curling up into the air, and beheld through a blending atmosphere of bluish haze, showed like the thousand cheerful chimneys of some dense metropolis, descried of a balmy autumnal morning, by some horseman on a height."
+    },
+    {
+      "id": "s35",
+      "text": "As marching armies approaching an unfriendly defile in the mountains, accelerate their march, all eagerness to place that perilous passage in their rear, and once more expand in comparative security upon the plain; even so did this vast fleet of whales now seem hurrying forward through the straits; gradually contracting the wings of their semicircle, and swimming on, in one solid, but still crescentic centre."
+    },
+    {
+      "id": "s36",
+      "text": "Crowding all sail the Pequod pressed after them; the harpooneers handling their weapons, and loudly cheering from the heads of their yet suspended boats."
+    },
+    {
+      "id": "s37",
+      "text": "If the wind only held, little doubt had they, that chased through these Straits of Sunda, the vast host would only deploy into the Oriental seas to witness the capture of not a few of their number."
+    },
+    {
+      "id": "s38",
+      "text": "And who could tell whether, in that congregated caravan, Moby Dick himself might not temporarily be swimming, like the worshipped white-elephant in the coronation procession of the Siamese!"
+    },
+    {
+      "id": "s39",
+      "text": "So with stun-sail piled on stun-sail, we sailed along, driving these leviathans before us; when, of a sudden, the voice of Tashtego was heard, loudly directing attention to something in our wake."
+    },
+    {
+      "id": "s40",
+      "text": "Corresponding to the crescent in our van, we beheld another in our rear."
+    },
+    {
+      "id": "s41",
+      "text": "It seemed formed of detached white vapors, rising and falling something like the spouts of the whales; only they did not so completely come and go; for they constantly hovered, without finally disappearing."
+    },
+    {
+      "id": "s42",
+      "text": "Levelling his glass at this sight, Ahab quickly revolved in his pivot-hole, crying, “Aloft there, and rig whips and buckets to wet the sails;—Malays, sir, and after us!”"
+    },
+    {
+      "id": "s43",
+      "text": "As if too long lurking behind the headlands, till the Pequod should fairly have entered the straits, these rascally Asiatics were now in hot pursuit, to make up for their over-cautious delay."
+    },
+    {
+      "id": "s44",
+      "text": "But when the swift Pequod, with a fresh leading wind, was herself in hot chase; how very kind of these tawny philanthropists to assist in speeding her on to her own chosen pursuit,—mere riding-whips and rowels to her, that they were."
+    },
+    {
+      "id": "s45",
+      "text": "As with glass under arm, Ahab to-and-fro paced the deck; in his forward turn beholding the monsters he chased, and in the after one the bloodthirsty pirates chasing _him;_ some such fancy as the above seemed his."
+    },
+    {
+      "id": "s46",
+      "text": "And when he glanced upon the green walls of the watery defile in which the ship was then sailing, and bethought him that through that gate lay the route to his vengeance, and beheld, how that through that same gate he was now both chasing and being chased to his deadly end; and not only that, but a herd of remorseless wild pirates and inhuman atheistical devils were infernally cheering him on with their curses;—when all these conceits had passed through his brain, Ahab’s brow was left gaunt and ribbed, like the black sand beach after some stormy tide has been gnawing it, without being able to drag the firm thing from its place."
+    },
+    {
+      "id": "s47",
+      "text": "But thoughts like these troubled very few of the reckless crew; and when, after steadily dropping and dropping the pirates astern, the Pequod at last shot by the vivid green Cockatoo Point on the Sumatra side, emerging at last upon the broad waters beyond; then, the harpooneers seemed more to grieve that the swift whales had been gaining upon the ship, than to rejoice that the ship had so victoriously gained upon the Malays."
+    },
+    {
+      "id": "s48",
+      "text": "But still driving on in the wake of the whales, at length they seemed abating their speed; gradually the ship neared them; and the wind now dying away, word was passed to spring to the boats."
+    },
+    {
+      "id": "s49",
+      "text": "But no sooner did the herd, by some presumed wonderful instinct of the Sperm Whale, become notified of the three keels that were after them,—though as yet a mile in their rear,—than they rallied again, and forming in close ranks and battalions, so that their spouts all looked like flashing lines of stacked bayonets, moved on with redoubled velocity."
+    },
+    {
+      "id": "s50",
+      "text": "Stripped to our shirts and drawers, we sprang to the white-ash, and after several hours’ pulling were almost disposed to renounce the chase, when a general pausing commotion among the whales gave animating token that they were now at last under the influence of that strange perplexity of inert irresolution, which, when the fishermen perceive it in the whale, they say he is gallied."
+    },
+    {
+      "id": "s51",
+      "text": "The compact martial columns in which they had been hitherto rapidly and steadily swimming, were now broken up in one measureless rout; and like King Porus’ elephants in the Indian battle with Alexander, they seemed going mad with consternation."
+    },
+    {
+      "id": "s52",
+      "text": "In all directions expanding in vast irregular circles, and aimlessly swimming hither and thither, by their short thick spoutings, they plainly betrayed their distraction of panic."
+    },
+    {
+      "id": "s53",
+      "text": "This was still more strangely evinced by those of their number, who, completely paralysed as it were, helplessly floated like water-logged dismantled ships on the sea."
+    },
+    {
+      "id": "s54",
+      "text": "Had these leviathans been but a flock of simple sheep, pursued over the pasture by three fierce wolves, they could not possibly have evinced such excessive dismay."
+    },
+    {
+      "id": "s55",
+      "text": "But this occasional timidity is characteristic of almost all herding creatures."
+    },
+    {
+      "id": "s56",
+      "text": "Though banding together in tens of thousands, the lion-maned buffaloes of the West have fled before a solitary horseman."
+    },
+    {
+      "id": "s57",
+      "text": "Witness, too, all human beings, how when herded together in the sheepfold of a theatre’s pit, they will, at the slightest alarm of fire, rush helter-skelter for the outlets, crowding, trampling, jamming, and remorselessly dashing each other to death."
+    },
+    {
+      "id": "s58",
+      "text": "Best, therefore, withhold any amazement at the strangely gallied whales before us, for there is no folly of the beasts of the earth which is not infinitely outdone by the madness of men."
+    },
+    {
+      "id": "s59",
+      "text": "Though many of the whales, as has been said, were in violent motion, yet it is to be observed that as a whole the herd neither advanced nor retreated, but collectively remained in one place."
+    },
+    {
+      "id": "s60",
+      "text": "As is customary in those cases, the boats at once separated, each making for some one lone whale on the outskirts of the shoal."
+    },
+    {
+      "id": "s61",
+      "text": "In about three minutes’ time, Queequeg’s harpoon was flung; the stricken fish darted blinding spray in our faces, and then running away with us like light, steered straight for the heart of the herd."
+    },
+    {
+      "id": "s62",
+      "text": "Though such a movement on the part of the whale struck under such circumstances, is in no wise unprecedented; and indeed is almost always more or less anticipated; yet does it present one of the more perilous vicissitudes of the fishery."
+    },
+    {
+      "id": "s63",
+      "text": "For as the swift monster drags you deeper and deeper into the frantic shoal, you bid adieu to circumspect life and only exist in a delirious throb."
+    },
+    {
+      "id": "s64",
+      "text": "As, blind and deaf, the whale plunged forward, as if by sheer power of speed to rid himself of the iron leech that had fastened to him; as we thus tore a white gash in the sea, on all sides menaced as we flew, by the crazed creatures to and fro rushing about us; our beset boat was like a ship mobbed by ice-isles in a tempest, and striving to steer through their complicated channels and straits, knowing not at what moment it may be locked in and crushed."
+    },
+    {
+      "id": "s65",
+      "text": "But not a bit daunted, Queequeg steered us manfully; now sheering off from this monster directly across our route in advance; now edging away from that, whose colossal flukes were suspended overhead, while all the time, Starbuck stood up in the bows, lance in hand, pricking out of our way whatever whales he could reach by short darts, for there was no time to make long ones."
+    },
+    {
+      "id": "s66",
+      "text": "Nor were the oarsmen quite idle, though their wonted duty was now altogether dispensed with."
+    },
+    {
+      "id": "s67",
+      "text": "They chiefly attended to the shouting part of the business."
+    },
+    {
+      "id": "s68",
+      "text": "“Out of the way, Commodore!” cried one, to a great dromedary that of a sudden rose bodily to the surface, and for an instant threatened to swamp us."
+    },
+    {
+      "id": "s69",
+      "text": "“Hard down with your tail, there!” cried a second to another, which, close to our gunwale, seemed calmly cooling himself with his own fan-like extremity."
+    },
+    {
+      "id": "s70",
+      "text": "All whaleboats carry certain curious contrivances, originally invented by the Nantucket Indians, called druggs."
+    },
+    {
+      "id": "s71",
+      "text": "Two thick squares of wood of equal size are stoutly clenched together, so that they cross each other’s grain at right angles; a line of considerable length is then attached to the middle of this block, and the other end of the line being looped, it can in a moment be fastened to a harpoon."
+    },
+    {
+      "id": "s72",
+      "text": "It is chiefly among gallied whales that this drugg is used."
+    },
+    {
+      "id": "s73",
+      "text": "For then, more whales are close round you than you can possibly chase at one time."
+    },
+    {
+      "id": "s74",
+      "text": "But sperm whales are not every day encountered; while you may, then, you must kill all you can."
+    },
+    {
+      "id": "s75",
+      "text": "And if you cannot kill them all at once, you must wing them, so that they can be afterwards killed at your leisure."
+    },
+    {
+      "id": "s76",
+      "text": "Hence it is, that at times like these the drugg comes into requisition."
+    },
+    {
+      "id": "s77",
+      "text": "Our boat was furnished with three of them."
+    },
+    {
+      "id": "s78",
+      "text": "The first and second were successfully darted, and we saw the whales staggeringly running off, fettered by the enormous sidelong resistance of the towing drugg."
+    },
+    {
+      "id": "s79",
+      "text": "They were cramped like malefactors with the chain and ball."
+    },
+    {
+      "id": "s80",
+      "text": "But upon flinging the third, in the act of tossing overboard the clumsy wooden block, it caught under one of the seats of the boat, and in an instant tore it out and carried it away, dropping the oarsman in the boat’s bottom as the seat slid from under him."
+    },
+    {
+      "id": "s81",
+      "text": "On both sides the sea came in at the wounded planks, but we stuffed two or three drawers and shirts in, and so stopped the leaks for the time."
+    },
+    {
+      "id": "s82",
+      "text": "It had been next to impossible to dart these drugged-harpoons, were it not that as we advanced into the herd, our whale’s way greatly diminished; moreover, that as we went still further and further from the circumference of commotion, the direful disorders seemed waning."
+    },
+    {
+      "id": "s83",
+      "text": "So that when at last the jerking harpoon drew out, and the towing whale sideways vanished; then, with the tapering force of his parting momentum, we glided between two whales into the innermost heart of the shoal, as if from some mountain torrent we had slid into a serene valley lake."
+    },
+    {
+      "id": "s84",
+      "text": "Here the storms in the roaring glens between the outermost whales, were heard but not felt."
+    },
+    {
+      "id": "s85",
+      "text": "In this central expanse the sea presented that smooth satin-like surface, called a sleek, produced by the subtle moisture thrown off by the whale in his more quiet moods."
+    },
+    {
+      "id": "s86",
+      "text": "Yes, we were now in that enchanted calm which they say lurks at the heart of every commotion."
+    },
+    {
+      "id": "s87",
+      "text": "And still in the distracted distance we beheld the tumults of the outer concentric circles, and saw successive pods of whales, eight or ten in each, swiftly going round and round, like multiplied spans of horses in a ring; and so closely shoulder to shoulder, that a Titanic circus-rider might easily have over-arched the middle ones, and so have gone round on their backs."
+    },
+    {
+      "id": "s88",
+      "text": "Owing to the density of the crowd of reposing whales, more immediately surrounding the embayed axis of the herd, no possible chance of escape was at present afforded us."
+    },
+    {
+      "id": "s89",
+      "text": "We must watch for a breach in the living wall that hemmed us in; the wall that had only admitted us in order to shut us up."
+    },
+    {
+      "id": "s90",
+      "text": "Keeping at the centre of the lake, we were occasionally visited by small tame cows and calves; the women and children of this routed host."
+    },
+    {
+      "id": "s91",
+      "text": "Now, inclusive of the occasional wide intervals between the revolving outer circles, and inclusive of the spaces between the various pods in any one of those circles, the entire area at this juncture, embraced by the whole multitude, must have contained at least two or three square miles."
+    },
+    {
+      "id": "s92",
+      "text": "At any rate—though indeed such a test at such a time might be deceptive—spoutings might be discovered from our low boat that seemed playing up almost from the rim of the horizon."
+    },
+    {
+      "id": "s93",
+      "text": "I mention this circumstance, because, as if the cows and calves had been purposely locked up in this innermost fold; and as if the wide extent of the herd had hitherto prevented them from learning the precise cause of its stopping; or, possibly, being so young, unsophisticated, and every way innocent and inexperienced; however it may have been, these smaller whales—now and then visiting our becalmed boat from the margin of the lake—evinced a wondrous fearlessness and confidence, or else a still becharmed panic which it was impossible not to marvel at."
+    },
+    {
+      "id": "s94",
+      "text": "Like household dogs they came snuffling round us, right up to our gunwales, and touching them; till it almost seemed that some spell had suddenly domesticated them."
+    },
+    {
+      "id": "s95",
+      "text": "Queequeg patted their foreheads; Starbuck scratched their backs with his lance; but fearful of the consequences, for the time refrained from darting it."
+    },
+    {
+      "id": "s96",
+      "text": "But far beneath this wondrous world upon the surface, another and still stranger world met our eyes as we gazed over the side."
+    },
+    {
+      "id": "s97",
+      "text": "For, suspended in those watery vaults, floated the forms of the nursing mothers of the whales, and those that by their enormous girth seemed shortly to become mothers."
+    },
+    {
+      "id": "s98",
+      "text": "The lake, as I have hinted, was to a considerable depth exceedingly transparent; and as human infants while suckling will calmly and fixedly gaze away from the breast, as if leading two different lives at the time; and while yet drawing mortal nourishment, be still spiritually feasting upon some unearthly reminiscence;—even so did the young of these whales seem looking up towards us, but not at us, as if we were but a bit of Gulf-weed in their new-born sight."
+    },
+    {
+      "id": "s99",
+      "text": "Floating on their sides, the mothers also seemed quietly eyeing us."
+    },
+    {
+      "id": "s100",
+      "text": "One of these little infants, that from certain queer tokens seemed hardly a day old, might have measured some fourteen feet in length, and some six feet in girth."
+    },
+    {
+      "id": "s101",
+      "text": "He was a little frisky; though as yet his body seemed scarce yet recovered from that irksome position it had so lately occupied in the maternal reticule; where, tail to head, and all ready for the final spring, the unborn whale lies bent like a Tartar’s bow."
+    },
+    {
+      "id": "s102",
+      "text": "The delicate side-fins, and the palms of his flukes, still freshly retained the plaited crumpled appearance of a baby’s ears newly arrived from foreign parts."
+    },
+    {
+      "id": "s103",
+      "text": "“Line! line!” cried Queequeg, looking over the gunwale; “him fast! him fast!—Who line him!"
+    },
+    {
+      "id": "s104",
+      "text": "Who struck?—Two whale; one big, one little!”"
+    },
+    {
+      "id": "s105",
+      "text": "“What ails ye, man?” cried Starbuck."
+    },
+    {
+      "id": "s106",
+      "text": "“Look-e here,” said Queequeg pointing down."
+    },
+    {
+      "id": "s107",
+      "text": "As when the stricken whale, that from the tub has reeled out hundreds of fathoms of rope; as, after deep sounding, he floats up again, and shows the slackened curling line buoyantly rising and spiralling towards the air; so now, Starbuck saw long coils of the umbilical cord of Madame Leviathan, by which the young cub seemed still tethered to its dam."
+    },
+    {
+      "id": "s108",
+      "text": "Not seldom in the rapid vicissitudes of the chase, this natural line, with the maternal end loose, becomes entangled with the hempen one, so that the cub is thereby trapped."
+    },
+    {
+      "id": "s109",
+      "text": "Some of the subtlest secrets of the seas seemed divulged to us in this enchanted pond."
+    },
+    {
+      "id": "s110",
+      "text": "We saw young Leviathan amours in the deep.[19]"
+    },
+    {
+      "id": "s111",
+      "text": "[19] The sperm whale, as with all other species of the Leviathan, but unlike most other fish, breeds indifferently at all seasons; after a gestation which may probably be set down at nine months, producing but one at a time; though in some few known instances giving birth to an Esau and Jacob:—a contingency provided for in suckling by two teats, curiously situated, one on each side of the anus; but the breasts themselves extend upwards from that."
+    },
+    {
+      "id": "s112",
+      "text": "When by chance these precious parts in a nursing whale are cut by the hunter’s lance, the mother’s pouring milk and blood rivallingly discolor the sea for rods."
+    },
+    {
+      "id": "s113",
+      "text": "The milk is very sweet and rich; it has been tasted by man; it might do well with strawberries."
+    },
+    {
+      "id": "s114",
+      "text": "When overflowing with mutual esteem, the whales salute _more hominum_."
+    },
+    {
+      "id": "s115",
+      "text": "And thus, though surrounded by circle upon circle of consternations and affrights, did these inscrutable creatures at the centre freely and fearlessly indulge in all peaceful concernments; yea, serenely revelled in dalliance and delight."
+    },
+    {
+      "id": "s116",
+      "text": "But even so, amid the tornadoed Atlantic of my being, do I myself still for ever centrally disport in mute calm; and while ponderous planets of unwaning woe revolve round me, deep down and deep inland there I still bathe me in eternal mildness of joy."
+    },
+    {
+      "id": "s117",
+      "text": "Meanwhile, as we thus lay entranced, the occasional sudden frantic spectacles in the distance evinced the activity of the other boats, still engaged in drugging the whales on the frontier of the host; or possibly carrying on the war within the first circle, where abundance of room and some convenient retreats were afforded them."
+    },
+    {
+      "id": "s118",
+      "text": "But the sight of the enraged drugged whales now and then blindly darting to and fro across the circles, was nothing to what at last met our eyes."
+    },
+    {
+      "id": "s119",
+      "text": "It is sometimes the custom when fast to a whale more than commonly powerful and alert, to seek to hamstring him, as it were, by sundering or maiming his gigantic tail-tendon."
+    },
+    {
+      "id": "s120",
+      "text": "It is done by darting a short-handled cutting-spade, to which is attached a rope for hauling it back again."
+    },
+    {
+      "id": "s121",
+      "text": "A whale wounded (as we afterwards learned) in this part, but not effectually, as it seemed, had broken away from the boat, carrying along with him half of the harpoon line; and in the extraordinary agony of the wound, he was now dashing among the revolving circles like the lone mounted desperado Arnold, at the battle of Saratoga, carrying dismay wherever he went."
+    },
+    {
+      "id": "s122",
+      "text": "But agonizing as was the wound of this whale, and an appalling spectacle enough, any way; yet the peculiar horror with which he seemed to inspire the rest of the herd, was owing to a cause which at first the intervening distance obscured from us."
+    },
+    {
+      "id": "s123",
+      "text": "But at length we perceived that by one of the unimaginable accidents of the fishery, this whale had become entangled in the harpoon-line that he towed; he had also run away with the cutting-spade in him; and while the free end of the rope attached to that weapon, had permanently caught in the coils of the harpoon-line round his tail, the cutting-spade itself had worked loose from his flesh."
+    },
+    {
+      "id": "s124",
+      "text": "So that tormented to madness, he was now churning through the water, violently flailing with his flexible tail, and tossing the keen spade about him, wounding and murdering his own comrades."
+    },
+    {
+      "id": "s125",
+      "text": "This terrific object seemed to recall the whole herd from their stationary fright."
+    },
+    {
+      "id": "s126",
+      "text": "First, the whales forming the margin of our lake began to crowd a little, and tumble against each other, as if lifted by half spent billows from afar; then the lake itself began faintly to heave and swell; the submarine bridal-chambers and nurseries vanished; in more and more contracting orbits the whales in the more central circles began to swim in thickening clusters."
+    },
+    {
+      "id": "s127",
+      "text": "Yes, the long calm was departing."
+    },
+    {
+      "id": "s128",
+      "text": "A low advancing hum was soon heard; and then like to the tumultuous masses of block-ice when the great river Hudson breaks up in Spring, the entire host of whales came tumbling upon their inner centre, as if to pile themselves up in one common mountain."
+    },
+    {
+      "id": "s129",
+      "text": "Instantly Starbuck and Queequeg changed places; Starbuck taking the stern."
+    },
+    {
+      "id": "s130",
+      "text": "“Oars!"
+    },
+    {
+      "id": "s131",
+      "text": "Oars!” he intensely whispered, seizing the helm—“gripe your oars, and clutch your souls, now!"
+    },
+    {
+      "id": "s132",
+      "text": "My God, men, stand by!"
+    },
+    {
+      "id": "s133",
+      "text": "Shove him off, you Queequeg—the whale there!—prick him!—hit him!"
+    },
+    {
+      "id": "s134",
+      "text": "Stand up—stand up, and stay so!"
+    },
+    {
+      "id": "s135",
+      "text": "Spring, men—pull, men; never mind their backs—scrape them!—scrape away!”"
+    },
+    {
+      "id": "s136",
+      "text": "The boat was now all but jammed between two vast black bulks, leaving a narrow Dardanelles between their long lengths."
+    },
+    {
+      "id": "s137",
+      "text": "But by desperate endeavor we at last shot into a temporary opening; then giving way rapidly, and at the same time earnestly watching for another outlet."
+    },
+    {
+      "id": "s138",
+      "text": "After many similar hair-breadth escapes, we at last swiftly glided into what had just been one of the outer circles, but now crossed by random whales, all violently making for one centre."
+    },
+    {
+      "id": "s139",
+      "text": "This lucky salvation was cheaply purchased by the loss of Queequeg’s hat, who, while standing in the bows to prick the fugitive whales, had his hat taken clean from his head by the air-eddy made by the sudden tossing of a pair of broad flukes close by."
+    },
+    {
+      "id": "s140",
+      "text": "Riotous and disordered as the universal commotion now was, it soon resolved itself into what seemed a systematic movement; for having clumped together at last in one dense body, they then renewed their onward flight with augmented fleetness."
+    },
+    {
+      "id": "s141",
+      "text": "Further pursuit was useless; but the boats still lingered in their wake to pick up what drugged whales might be dropped astern, and likewise to secure one which Flask had killed and waifed."
+    },
+    {
+      "id": "s142",
+      "text": "The waif is a pennoned pole, two or three of which are carried by every boat; and which, when additional game is at hand, are inserted upright into the floating body of a dead whale, both to mark its place on the sea, and also as token of prior possession, should the boats of any other ship draw near."
+    },
+    {
+      "id": "s143",
+      "text": "The result of this lowering was somewhat illustrative of that sagacious saying in the Fishery,—the more whales the less fish."
+    },
+    {
+      "id": "s144",
+      "text": "Of all the drugged whales only one was captured."
+    },
+    {
+      "id": "s145",
+      "text": "The rest contrived to escape for the time, but only to be taken, as will hereafter be seen, by some other craft than the Pequod."
+    }
+  ]
+}

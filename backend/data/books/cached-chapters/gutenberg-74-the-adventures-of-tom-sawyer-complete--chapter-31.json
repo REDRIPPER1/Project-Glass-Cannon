@@ -1,0 +1,853 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+  "ebookId": "74",
+  "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-31",
+  "chapterTitle": "CHAPTER XXXI",
+  "contentHash": "sha256:1b8980864140e2069fa7e3822b5869722eb365c78e6fdf8bb2d527a87ac99a5f",
+  "attribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER XXXI. Source checked against Project Gutenberg eBook #74.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/74",
+    "textUrl": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Now to return to Tom and Becky’s share in the picnic."
+    },
+    {
+      "id": "s2",
+      "text": "They tripped along the murky aisles with the rest of the company, visiting the familiar wonders of the cave—wonders dubbed with rather over-descriptive names, such as “The Drawing-Room,” “The Cathedral,” “Aladdin’s Palace,” and so on."
+    },
+    {
+      "id": "s3",
+      "text": "Presently the hide-and-seek frolicking began, and Tom and Becky engaged in it with zeal until the exertion began to grow a trifle wearisome; then they wandered down a sinuous avenue holding their candles aloft and reading the tangled webwork of names, dates, postoffice addresses, and mottoes with which the rocky walls had been frescoed (in candle-smoke)."
+    },
+    {
+      "id": "s4",
+      "text": "Still drifting along and talking, they scarcely noticed that they were now in a part of the cave whose walls were not frescoed."
+    },
+    {
+      "id": "s5",
+      "text": "They smoked their own names under an overhanging shelf and moved on."
+    },
+    {
+      "id": "s6",
+      "text": "Presently they came to a place where a little stream of water, trickling over a ledge and carrying a limestone sediment with it, had, in the slow-dragging ages, formed a laced and ruffled Niagara in gleaming and imperishable stone."
+    },
+    {
+      "id": "s7",
+      "text": "Tom squeezed his small body behind it in order to illuminate it for Becky’s gratification."
+    },
+    {
+      "id": "s8",
+      "text": "He found that it curtained a sort of steep natural stairway which was enclosed between narrow walls, and at once the ambition to be a discoverer seized him."
+    },
+    {
+      "id": "s9",
+      "text": "Becky responded to his call, and they made a smoke-mark for future guidance, and started upon their quest."
+    },
+    {
+      "id": "s10",
+      "text": "They wound this way and that, far down into the secret depths of the cave, made another mark, and branched off in search of novelties to tell the upper world about."
+    },
+    {
+      "id": "s11",
+      "text": "In one place they found a spacious cavern, from whose ceiling depended a multitude of shining stalactites of the length and circumference of a man’s leg; they walked all about it, wondering and admiring, and presently left it by one of the numerous passages that opened into it."
+    },
+    {
+      "id": "s12",
+      "text": "This shortly brought them to a bewitching spring, whose basin was incrusted with a frostwork of glittering crystals; it was in the midst of a cavern whose walls were supported by many fantastic pillars which had been formed by the joining of great stalactites and stalagmites together, the result of the ceaseless water-drip of centuries."
+    },
+    {
+      "id": "s13",
+      "text": "Under the roof vast knots of bats had packed themselves together, thousands in a bunch; the lights disturbed the creatures and they came flocking down by hundreds, squeaking and darting furiously at the candles."
+    },
+    {
+      "id": "s14",
+      "text": "Tom knew their ways and the danger of this sort of conduct."
+    },
+    {
+      "id": "s15",
+      "text": "He seized Becky’s hand and hurried her into the first corridor that offered; and none too soon, for a bat struck Becky’s light out with its wing while she was passing out of the cavern."
+    },
+    {
+      "id": "s16",
+      "text": "The bats chased the children a good distance; but the fugitives plunged into every new passage that offered, and at last got rid of the perilous things."
+    },
+    {
+      "id": "s17",
+      "text": "Tom found a subterranean lake, shortly, which stretched its dim length away until its shape was lost in the shadows."
+    },
+    {
+      "id": "s18",
+      "text": "He wanted to explore its borders, but concluded that it would be best to sit down and rest awhile, first."
+    },
+    {
+      "id": "s19",
+      "text": "Now, for the first time, the deep stillness of the place laid a clammy hand upon the spirits of the children."
+    },
+    {
+      "id": "s20",
+      "text": "Becky said:"
+    },
+    {
+      "id": "s21",
+      "text": "“Why, I didn’t notice, but it seems ever so long since I heard any of the others.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Come to think, Becky, we are away down below them—and I don’t know how far away north, or south, or east, or whichever it is."
+    },
+    {
+      "id": "s23",
+      "text": "We couldn’t hear them here.”"
+    },
+    {
+      "id": "s24",
+      "text": "Becky grew apprehensive."
+    },
+    {
+      "id": "s25",
+      "text": "“I wonder how long we’ve been down here, Tom?"
+    },
+    {
+      "id": "s26",
+      "text": "We better start back.”"
+    },
+    {
+      "id": "s27",
+      "text": "“Yes, I reckon we better."
+    },
+    {
+      "id": "s28",
+      "text": "P’raps we better.”"
+    },
+    {
+      "id": "s29",
+      "text": "“Can you find the way, Tom?"
+    },
+    {
+      "id": "s30",
+      "text": "It’s all a mixed-up crookedness to me.”"
+    },
+    {
+      "id": "s31",
+      "text": "“I reckon I could find it—but then the bats."
+    },
+    {
+      "id": "s32",
+      "text": "If they put our candles out it will be an awful fix."
+    },
+    {
+      "id": "s33",
+      "text": "Let’s try some other way, so as not to go through there.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Well."
+    },
+    {
+      "id": "s35",
+      "text": "But I hope we won’t get lost."
+    },
+    {
+      "id": "s36",
+      "text": "It would be so awful!” and the girl shuddered at the thought of the dreadful possibilities."
+    },
+    {
+      "id": "s37",
+      "text": "They started through a corridor, and traversed it in silence a long way, glancing at each new opening, to see if there was anything familiar about the look of it; but they were all strange."
+    },
+    {
+      "id": "s38",
+      "text": "Every time Tom made an examination, Becky would watch his face for an encouraging sign, and he would say cheerily:"
+    },
+    {
+      "id": "s39",
+      "text": "“Oh, it’s all right."
+    },
+    {
+      "id": "s40",
+      "text": "This ain’t the one, but we’ll come to it right away!”"
+    },
+    {
+      "id": "s41",
+      "text": "But he felt less and less hopeful with each failure, and presently began to turn off into diverging avenues at sheer random, in desperate hope of finding the one that was wanted."
+    },
+    {
+      "id": "s42",
+      "text": "He still said it was “all right,” but there was such a leaden dread at his heart that the words had lost their ring and sounded just as if he had said, “All is lost!” Becky clung to his side in an anguish of fear, and tried hard to keep back the tears, but they would come."
+    },
+    {
+      "id": "s43",
+      "text": "At last she said:"
+    },
+    {
+      "id": "s44",
+      "text": "“Oh, Tom, never mind the bats, let’s go back that way!"
+    },
+    {
+      "id": "s45",
+      "text": "We seem to get worse and worse off all the time.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Listen!” said he."
+    },
+    {
+      "id": "s47",
+      "text": "Profound silence; silence so deep that even their breathings were conspicuous in the hush."
+    },
+    {
+      "id": "s48",
+      "text": "Tom shouted."
+    },
+    {
+      "id": "s49",
+      "text": "The call went echoing down the empty aisles and died out in the distance in a faint sound that resembled a ripple of mocking laughter."
+    },
+    {
+      "id": "s50",
+      "text": "“Oh, don’t do it again, Tom, it is too horrid,” said Becky."
+    },
+    {
+      "id": "s51",
+      "text": "“It is horrid, but I better, Becky; they might hear us, you know,” and he shouted again."
+    },
+    {
+      "id": "s52",
+      "text": "The “might” was even a chillier horror than the ghostly laughter, it so confessed a perishing hope."
+    },
+    {
+      "id": "s53",
+      "text": "The children stood still and listened; but there was no result."
+    },
+    {
+      "id": "s54",
+      "text": "Tom turned upon the back track at once, and hurried his steps."
+    },
+    {
+      "id": "s55",
+      "text": "It was but a little while before a certain indecision in his manner revealed another fearful fact to Becky—he could not find his way back!"
+    },
+    {
+      "id": "s56",
+      "text": "“Oh, Tom, you didn’t make any marks!”"
+    },
+    {
+      "id": "s57",
+      "text": "“Becky, I was such a fool!"
+    },
+    {
+      "id": "s58",
+      "text": "Such a fool!"
+    },
+    {
+      "id": "s59",
+      "text": "I never thought we might want to come back!"
+    },
+    {
+      "id": "s60",
+      "text": "No—I can’t find the way."
+    },
+    {
+      "id": "s61",
+      "text": "It’s all mixed up.”"
+    },
+    {
+      "id": "s62",
+      "text": "“Tom, Tom, we’re lost! we’re lost!"
+    },
+    {
+      "id": "s63",
+      "text": "We never can get out of this awful place!"
+    },
+    {
+      "id": "s64",
+      "text": "Oh, why _did_ we ever leave the others!”"
+    },
+    {
+      "id": "s65",
+      "text": "She sank to the ground and burst into such a frenzy of crying that Tom was appalled with the idea that she might die, or lose her reason."
+    },
+    {
+      "id": "s66",
+      "text": "He sat down by her and put his arms around her; she buried her face in his bosom, she clung to him, she poured out her terrors, her unavailing regrets, and the far echoes turned them all to jeering laughter."
+    },
+    {
+      "id": "s67",
+      "text": "Tom begged her to pluck up hope again, and she said she could not."
+    },
+    {
+      "id": "s68",
+      "text": "He fell to blaming and abusing himself for getting her into this miserable situation; this had a better effect."
+    },
+    {
+      "id": "s69",
+      "text": "She said she would try to hope again, she would get up and follow wherever he might lead if only he would not talk like that any more."
+    },
+    {
+      "id": "s70",
+      "text": "For he was no more to blame than she, she said."
+    },
+    {
+      "id": "s71",
+      "text": "So they moved on again—aimlessly—simply at random—all they could do was to move, keep moving."
+    },
+    {
+      "id": "s72",
+      "text": "For a little while, hope made a show of reviving—not with any reason to back it, but only because it is its nature to revive when the spring has not been taken out of it by age and familiarity with failure."
+    },
+    {
+      "id": "s73",
+      "text": "By-and-by Tom took Becky’s candle and blew it out."
+    },
+    {
+      "id": "s74",
+      "text": "This economy meant so much!"
+    },
+    {
+      "id": "s75",
+      "text": "Words were not needed."
+    },
+    {
+      "id": "s76",
+      "text": "Becky understood, and her hope died again."
+    },
+    {
+      "id": "s77",
+      "text": "She knew that Tom had a whole candle and three or four pieces in his pockets—yet he must economize."
+    },
+    {
+      "id": "s78",
+      "text": "By-and-by, fatigue began to assert its claims; the children tried to pay attention, for it was dreadful to think of sitting down when time was grown to be so precious, moving, in some direction, in any direction, was at least progress and might bear fruit; but to sit down was to invite death and shorten its pursuit."
+    },
+    {
+      "id": "s79",
+      "text": "At last Becky’s frail limbs refused to carry her farther."
+    },
+    {
+      "id": "s80",
+      "text": "She sat down."
+    },
+    {
+      "id": "s81",
+      "text": "Tom rested with her, and they talked of home, and the friends there, and the comfortable beds and, above all, the light!"
+    },
+    {
+      "id": "s82",
+      "text": "Becky cried, and Tom tried to think of some way of comforting her, but all his encouragements were grown thread-bare with use, and sounded like sarcasms."
+    },
+    {
+      "id": "s83",
+      "text": "Fatigue bore so heavily upon Becky that she drowsed off to sleep."
+    },
+    {
+      "id": "s84",
+      "text": "Tom was grateful."
+    },
+    {
+      "id": "s85",
+      "text": "He sat looking into her drawn face and saw it grow smooth and natural under the influence of pleasant dreams; and by-and-by a smile dawned and rested there."
+    },
+    {
+      "id": "s86",
+      "text": "The peaceful face reflected somewhat of peace and healing into his own spirit, and his thoughts wandered away to bygone times and dreamy memories."
+    },
+    {
+      "id": "s87",
+      "text": "While he was deep in his musings, Becky woke up with a breezy little laugh—but it was stricken dead upon her lips, and a groan followed it."
+    },
+    {
+      "id": "s88",
+      "text": "“Oh, how _could_ I sleep!"
+    },
+    {
+      "id": "s89",
+      "text": "I wish I never, never had waked!"
+    },
+    {
+      "id": "s90",
+      "text": "No!"
+    },
+    {
+      "id": "s91",
+      "text": "No, I don’t, Tom!"
+    },
+    {
+      "id": "s92",
+      "text": "Don’t look so!"
+    },
+    {
+      "id": "s93",
+      "text": "I won’t say it again.”"
+    },
+    {
+      "id": "s94",
+      "text": "“I’m glad you’ve slept, Becky; you’ll feel rested, now, and we’ll find the way out.”"
+    },
+    {
+      "id": "s95",
+      "text": "“We can try, Tom; but I’ve seen such a beautiful country in my dream."
+    },
+    {
+      "id": "s96",
+      "text": "I reckon we are going there.”"
+    },
+    {
+      "id": "s97",
+      "text": "“Maybe not, maybe not."
+    },
+    {
+      "id": "s98",
+      "text": "Cheer up, Becky, and let’s go on trying.”"
+    },
+    {
+      "id": "s99",
+      "text": "They rose up and wandered along, hand in hand and hopeless."
+    },
+    {
+      "id": "s100",
+      "text": "They tried to estimate how long they had been in the cave, but all they knew was that it seemed days and weeks, and yet it was plain that this could not be, for their candles were not gone yet."
+    },
+    {
+      "id": "s101",
+      "text": "A long time after this—they could not tell how long—Tom said they must go softly and listen for dripping water—they must find a spring."
+    },
+    {
+      "id": "s102",
+      "text": "They found one presently, and Tom said it was time to rest again."
+    },
+    {
+      "id": "s103",
+      "text": "Both were cruelly tired, yet Becky said she thought she could go a little farther."
+    },
+    {
+      "id": "s104",
+      "text": "She was surprised to hear Tom dissent."
+    },
+    {
+      "id": "s105",
+      "text": "She could not understand it."
+    },
+    {
+      "id": "s106",
+      "text": "They sat down, and Tom fastened his candle to the wall in front of them with some clay."
+    },
+    {
+      "id": "s107",
+      "text": "Thought was soon busy; nothing was said for some time."
+    },
+    {
+      "id": "s108",
+      "text": "Then Becky broke the silence:"
+    },
+    {
+      "id": "s109",
+      "text": "“Tom, I am so hungry!”"
+    },
+    {
+      "id": "s110",
+      "text": "Tom took something out of his pocket."
+    },
+    {
+      "id": "s111",
+      "text": "“Do you remember this?” said he."
+    },
+    {
+      "id": "s112",
+      "text": "Becky almost smiled."
+    },
+    {
+      "id": "s113",
+      "text": "“It’s our wedding-cake, Tom.”"
+    },
+    {
+      "id": "s114",
+      "text": "“Yes—I wish it was as big as a barrel, for it’s all we’ve got.”"
+    },
+    {
+      "id": "s115",
+      "text": "“I saved it from the picnic for us to dream on, Tom, the way grownup people do with wedding-cake—but it’ll be our—”"
+    },
+    {
+      "id": "s116",
+      "text": "She dropped the sentence where it was."
+    },
+    {
+      "id": "s117",
+      "text": "Tom divided the cake and Becky ate with good appetite, while Tom nibbled at his moiety."
+    },
+    {
+      "id": "s118",
+      "text": "There was abundance of cold water to finish the feast with."
+    },
+    {
+      "id": "s119",
+      "text": "By-and-by Becky suggested that they move on again."
+    },
+    {
+      "id": "s120",
+      "text": "Tom was silent a moment."
+    },
+    {
+      "id": "s121",
+      "text": "Then he said:"
+    },
+    {
+      "id": "s122",
+      "text": "“Becky, can you bear it if I tell you something?”"
+    },
+    {
+      "id": "s123",
+      "text": "Becky’s face paled, but she thought she could."
+    },
+    {
+      "id": "s124",
+      "text": "“Well, then, Becky, we must stay here, where there’s water to drink."
+    },
+    {
+      "id": "s125",
+      "text": "That little piece is our last candle!”"
+    },
+    {
+      "id": "s126",
+      "text": "Becky gave loose to tears and wailings."
+    },
+    {
+      "id": "s127",
+      "text": "Tom did what he could to comfort her, but with little effect."
+    },
+    {
+      "id": "s128",
+      "text": "At length Becky said:"
+    },
+    {
+      "id": "s129",
+      "text": "“Tom!”"
+    },
+    {
+      "id": "s130",
+      "text": "“Well, Becky?”"
+    },
+    {
+      "id": "s131",
+      "text": "“They’ll miss us and hunt for us!”"
+    },
+    {
+      "id": "s132",
+      "text": "“Yes, they will!"
+    },
+    {
+      "id": "s133",
+      "text": "Certainly they will!”"
+    },
+    {
+      "id": "s134",
+      "text": "“Maybe they’re hunting for us now, Tom.”"
+    },
+    {
+      "id": "s135",
+      "text": "“Why, I reckon maybe they are."
+    },
+    {
+      "id": "s136",
+      "text": "I hope they are.”"
+    },
+    {
+      "id": "s137",
+      "text": "“When would they miss us, Tom?”"
+    },
+    {
+      "id": "s138",
+      "text": "“When they get back to the boat, I reckon.”"
+    },
+    {
+      "id": "s139",
+      "text": "“Tom, it might be dark then—would they notice we hadn’t come?”"
+    },
+    {
+      "id": "s140",
+      "text": "“I don’t know."
+    },
+    {
+      "id": "s141",
+      "text": "But anyway, your mother would miss you as soon as they got home.”"
+    },
+    {
+      "id": "s142",
+      "text": "A frightened look in Becky’s face brought Tom to his senses and he saw that he had made a blunder."
+    },
+    {
+      "id": "s143",
+      "text": "Becky was not to have gone home that night!"
+    },
+    {
+      "id": "s144",
+      "text": "The children became silent and thoughtful."
+    },
+    {
+      "id": "s145",
+      "text": "In a moment a new burst of grief from Becky showed Tom that the thing in his mind had struck hers also—that the Sabbath morning might be half spent before Mrs."
+    },
+    {
+      "id": "s146",
+      "text": "Thatcher discovered that Becky was not at Mrs."
+    },
+    {
+      "id": "s147",
+      "text": "Harper’s."
+    },
+    {
+      "id": "s148",
+      "text": "The children fastened their eyes upon their bit of candle and watched it melt slowly and pitilessly away; saw the half inch of wick stand alone at last; saw the feeble flame rise and fall, climb the thin column of smoke, linger at its top a moment, and then—the horror of utter darkness reigned!"
+    },
+    {
+      "id": "s149",
+      "text": "How long afterward it was that Becky came to a slow consciousness that she was crying in Tom’s arms, neither could tell."
+    },
+    {
+      "id": "s150",
+      "text": "All that they knew was, that after what seemed a mighty stretch of time, both awoke out of a dead stupor of sleep and resumed their miseries once more."
+    },
+    {
+      "id": "s151",
+      "text": "Tom said it might be Sunday, now—maybe Monday."
+    },
+    {
+      "id": "s152",
+      "text": "He tried to get Becky to talk, but her sorrows were too oppressive, all her hopes were gone."
+    },
+    {
+      "id": "s153",
+      "text": "Tom said that they must have been missed long ago, and no doubt the search was going on."
+    },
+    {
+      "id": "s154",
+      "text": "He would shout and maybe some one would come."
+    },
+    {
+      "id": "s155",
+      "text": "He tried it; but in the darkness the distant echoes sounded so hideously that he tried it no more."
+    },
+    {
+      "id": "s156",
+      "text": "The hours wasted away, and hunger came to torment the captives again."
+    },
+    {
+      "id": "s157",
+      "text": "A portion of Tom’s half of the cake was left; they divided and ate it."
+    },
+    {
+      "id": "s158",
+      "text": "But they seemed hungrier than before."
+    },
+    {
+      "id": "s159",
+      "text": "The poor morsel of food only whetted desire."
+    },
+    {
+      "id": "s160",
+      "text": "By-and-by Tom said:"
+    },
+    {
+      "id": "s161",
+      "text": "“SH!"
+    },
+    {
+      "id": "s162",
+      "text": "Did you hear that?”"
+    },
+    {
+      "id": "s163",
+      "text": "Both held their breath and listened."
+    },
+    {
+      "id": "s164",
+      "text": "There was a sound like the faintest, far-off shout."
+    },
+    {
+      "id": "s165",
+      "text": "Instantly Tom answered it, and leading Becky by the hand, started groping down the corridor in its direction."
+    },
+    {
+      "id": "s166",
+      "text": "Presently he listened again; again the sound was heard, and apparently a little nearer."
+    },
+    {
+      "id": "s167",
+      "text": "“It’s them!” said Tom; “they’re coming!"
+    },
+    {
+      "id": "s168",
+      "text": "Come along, Becky—we’re all right now!”"
+    },
+    {
+      "id": "s169",
+      "text": "The joy of the prisoners was almost overwhelming."
+    },
+    {
+      "id": "s170",
+      "text": "Their speed was slow, however, because pitfalls were somewhat common, and had to be guarded against."
+    },
+    {
+      "id": "s171",
+      "text": "They shortly came to one and had to stop."
+    },
+    {
+      "id": "s172",
+      "text": "It might be three feet deep, it might be a hundred—there was no passing it at any rate."
+    },
+    {
+      "id": "s173",
+      "text": "Tom got down on his breast and reached as far down as he could."
+    },
+    {
+      "id": "s174",
+      "text": "No bottom."
+    },
+    {
+      "id": "s175",
+      "text": "They must stay there and wait until the searchers came."
+    },
+    {
+      "id": "s176",
+      "text": "They listened; evidently the distant shoutings were growing more distant! a moment or two more and they had gone altogether."
+    },
+    {
+      "id": "s177",
+      "text": "The heart-sinking misery of it!"
+    },
+    {
+      "id": "s178",
+      "text": "Tom whooped until he was hoarse, but it was of no use."
+    },
+    {
+      "id": "s179",
+      "text": "He talked hopefully to Becky; but an age of anxious waiting passed and no sounds came again."
+    },
+    {
+      "id": "s180",
+      "text": "The children groped their way back to the spring."
+    },
+    {
+      "id": "s181",
+      "text": "The weary time dragged on; they slept again, and awoke famished and woe-stricken."
+    },
+    {
+      "id": "s182",
+      "text": "Tom believed it must be Tuesday by this time."
+    },
+    {
+      "id": "s183",
+      "text": "Now an idea struck him."
+    },
+    {
+      "id": "s184",
+      "text": "There were some side passages near at hand."
+    },
+    {
+      "id": "s185",
+      "text": "It would be better to explore some of these than bear the weight of the heavy time in idleness."
+    },
+    {
+      "id": "s186",
+      "text": "He took a kite-line from his pocket, tied it to a projection, and he and Becky started, Tom in the lead, unwinding the line as he groped along."
+    },
+    {
+      "id": "s187",
+      "text": "At the end of twenty steps the corridor ended in a “jumping-off place.” Tom got down on his knees and felt below, and then as far around the corner as he could reach with his hands conveniently; he made an effort to stretch yet a little farther to the right, and at that moment, not twenty yards away, a human hand, holding a candle, appeared from behind a rock!"
+    },
+    {
+      "id": "s188",
+      "text": "Tom lifted up a glorious shout, and instantly that hand was followed by the body it belonged to—Injun Joe’s!"
+    },
+    {
+      "id": "s189",
+      "text": "Tom was paralyzed; he could not move."
+    },
+    {
+      "id": "s190",
+      "text": "He was vastly gratified the next moment, to see the “Spaniard” take to his heels and get himself out of sight."
+    },
+    {
+      "id": "s191",
+      "text": "Tom wondered that Joe had not recognized his voice and come over and killed him for testifying in court."
+    },
+    {
+      "id": "s192",
+      "text": "But the echoes must have disguised the voice."
+    },
+    {
+      "id": "s193",
+      "text": "Without doubt, that was it, he reasoned."
+    },
+    {
+      "id": "s194",
+      "text": "Tom’s fright weakened every muscle in his body."
+    },
+    {
+      "id": "s195",
+      "text": "He said to himself that if he had strength enough to get back to the spring he would stay there, and nothing should tempt him to run the risk of meeting Injun Joe again."
+    },
+    {
+      "id": "s196",
+      "text": "He was careful to keep from Becky what it was he had seen."
+    },
+    {
+      "id": "s197",
+      "text": "He told her he had only shouted “for luck.”"
+    },
+    {
+      "id": "s198",
+      "text": "But hunger and wretchedness rise superior to fears in the long run."
+    },
+    {
+      "id": "s199",
+      "text": "Another tedious wait at the spring and another long sleep brought changes."
+    },
+    {
+      "id": "s200",
+      "text": "The children awoke tortured with a raging hunger."
+    },
+    {
+      "id": "s201",
+      "text": "Tom believed that it must be Wednesday or Thursday or even Friday or Saturday, now, and that the search had been given over."
+    },
+    {
+      "id": "s202",
+      "text": "He proposed to explore another passage."
+    },
+    {
+      "id": "s203",
+      "text": "He felt willing to risk Injun Joe and all other terrors."
+    },
+    {
+      "id": "s204",
+      "text": "But Becky was very weak."
+    },
+    {
+      "id": "s205",
+      "text": "She had sunk into a dreary apathy and would not be roused."
+    },
+    {
+      "id": "s206",
+      "text": "She said she would wait, now, where she was, and die—it would not be long."
+    },
+    {
+      "id": "s207",
+      "text": "She told Tom to go with the kite-line and explore if he chose; but she implored him to come back every little while and speak to her; and she made him promise that when the awful time came, he would stay by her and hold her hand until all was over."
+    },
+    {
+      "id": "s208",
+      "text": "Tom kissed her, with a choking sensation in his throat, and made a show of being confident of finding the searchers or an escape from the cave; then he took the kite-line in his hand and went groping down one of the passages on his hands and knees, distressed with hunger and sick with bodings of coming doom."
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-121-northanger-abbey",
+  "ebookId": "121",
+  "edition": "Project Gutenberg eBook #121; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-19",
+  "chapterTitle": "CHAPTER 19",
+  "contentHash": "sha256:836861ea36f862e69691e58873a712e0aa8faf893dca91ca946257ca7a16628e",
+  "attribution": "Austen, Jane, 1775-1817, Northanger Abbey, CHAPTER 19. Source checked against Project Gutenberg eBook #121.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/121",
+    "textUrl": "https://www.gutenberg.org/cache/epub/121/pg121.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A few days passed away, and Catherine, though not allowing herself to suspect her friend, could not help watching her closely."
+    },
+    {
+      "id": "s2",
+      "text": "The result of her observations was not agreeable."
+    },
+    {
+      "id": "s3",
+      "text": "Isabella seemed an altered creature."
+    },
+    {
+      "id": "s4",
+      "text": "When she saw her, indeed, surrounded only by their immediate friends in Edgar’s Buildings or Pulteney Street, her change of manners was so trifling that, had it gone no farther, it might have passed unnoticed."
+    },
+    {
+      "id": "s5",
+      "text": "A something of languid indifference, or of that boasted absence of mind which Catherine had never heard of before, would occasionally come across her; but had nothing worse appeared, _that_ might only have spread a new grace and inspired a warmer interest."
+    },
+    {
+      "id": "s6",
+      "text": "But when Catherine saw her in public, admitting Captain Tilney’s attentions as readily as they were offered, and allowing him almost an equal share with James in her notice and smiles, the alteration became too positive to be passed over."
+    },
+    {
+      "id": "s7",
+      "text": "What could be meant by such unsteady conduct, what her friend could be at, was beyond her comprehension."
+    },
+    {
+      "id": "s8",
+      "text": "Isabella could not be aware of the pain she was inflicting; but it was a degree of wilful thoughtlessness which Catherine could not but resent."
+    },
+    {
+      "id": "s9",
+      "text": "James was the sufferer."
+    },
+    {
+      "id": "s10",
+      "text": "She saw him grave and uneasy; and however careless of his present comfort the woman might be who had given him her heart, to _her_ it was always an object."
+    },
+    {
+      "id": "s11",
+      "text": "For poor Captain Tilney too she was greatly concerned."
+    },
+    {
+      "id": "s12",
+      "text": "Though his looks did not please her, his name was a passport to her goodwill, and she thought with sincere compassion of his approaching disappointment; for, in spite of what she had believed herself to overhear in the pump-room, his behaviour was so incompatible with a knowledge of Isabella’s engagement that she could not, upon reflection, imagine him aware of it."
+    },
+    {
+      "id": "s13",
+      "text": "He might be jealous of her brother as a rival, but if more had seemed implied, the fault must have been in her misapprehension."
+    },
+    {
+      "id": "s14",
+      "text": "She wished, by a gentle remonstrance, to remind Isabella of her situation, and make her aware of this double unkindness; but for remonstrance, either opportunity or comprehension was always against her."
+    },
+    {
+      "id": "s15",
+      "text": "If able to suggest a hint, Isabella could never understand it."
+    },
+    {
+      "id": "s16",
+      "text": "In this distress, the intended departure of the Tilney family became her chief consolation; their journey into Gloucestershire was to take place within a few days, and Captain Tilney’s removal would at least restore peace to every heart but his own."
+    },
+    {
+      "id": "s17",
+      "text": "But Captain Tilney had at present no intention of removing; he was not to be of the party to Northanger; he was to continue at Bath."
+    },
+    {
+      "id": "s18",
+      "text": "When Catherine knew this, her resolution was directly made."
+    },
+    {
+      "id": "s19",
+      "text": "She spoke to Henry Tilney on the subject, regretting his brother’s evident partiality for Miss Thorpe, and entreating him to make known her prior engagement."
+    },
+    {
+      "id": "s20",
+      "text": "“My brother does know it,” was Henry’s answer."
+    },
+    {
+      "id": "s21",
+      "text": "“Does he?"
+    },
+    {
+      "id": "s22",
+      "text": "Then why does he stay here?”"
+    },
+    {
+      "id": "s23",
+      "text": "He made no reply, and was beginning to talk of something else; but she eagerly continued, “Why do not you persuade him to go away?"
+    },
+    {
+      "id": "s24",
+      "text": "The longer he stays, the worse it will be for him at last."
+    },
+    {
+      "id": "s25",
+      "text": "Pray advise him for his own sake, and for everybody’s sake, to leave Bath directly."
+    },
+    {
+      "id": "s26",
+      "text": "Absence will in time make him comfortable again; but he can have no hope here, and it is only staying to be miserable.”"
+    },
+    {
+      "id": "s27",
+      "text": "Henry smiled and said, “I am sure my brother would not wish to do that.”"
+    },
+    {
+      "id": "s28",
+      "text": "“Then you will persuade him to go away?”"
+    },
+    {
+      "id": "s29",
+      "text": "“Persuasion is not at command; but pardon me, if I cannot even endeavour to persuade him."
+    },
+    {
+      "id": "s30",
+      "text": "I have myself told him that Miss Thorpe is engaged."
+    },
+    {
+      "id": "s31",
+      "text": "He knows what he is about, and must be his own master.”"
+    },
+    {
+      "id": "s32",
+      "text": "“No, he does not know what he is about,” cried Catherine; “he does not know the pain he is giving my brother."
+    },
+    {
+      "id": "s33",
+      "text": "Not that James has ever told me so, but I am sure he is very uncomfortable.”"
+    },
+    {
+      "id": "s34",
+      "text": "“And are you sure it is my brother’s doing?”"
+    },
+    {
+      "id": "s35",
+      "text": "“Yes, very sure.”"
+    },
+    {
+      "id": "s36",
+      "text": "“Is it my brother’s attentions to Miss Thorpe, or Miss Thorpe’s admission of them, that gives the pain?”"
+    },
+    {
+      "id": "s37",
+      "text": "“Is not it the same thing?”"
+    },
+    {
+      "id": "s38",
+      "text": "“I think Mr."
+    },
+    {
+      "id": "s39",
+      "text": "Morland would acknowledge a difference."
+    },
+    {
+      "id": "s40",
+      "text": "No man is offended by another man’s admiration of the woman he loves; it is the woman only who can make it a torment.”"
+    },
+    {
+      "id": "s41",
+      "text": "Catherine blushed for her friend, and said, “Isabella is wrong."
+    },
+    {
+      "id": "s42",
+      "text": "But I am sure she cannot mean to torment, for she is very much attached to my brother."
+    },
+    {
+      "id": "s43",
+      "text": "She has been in love with him ever since they first met, and while my father’s consent was uncertain, she fretted herself almost into a fever."
+    },
+    {
+      "id": "s44",
+      "text": "You know she must be attached to him.”"
+    },
+    {
+      "id": "s45",
+      "text": "“I understand: she is in love with James, and flirts with Frederick.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Oh no, not flirts."
+    },
+    {
+      "id": "s47",
+      "text": "A woman in love with one man cannot flirt with another.”"
+    },
+    {
+      "id": "s48",
+      "text": "“It is probable that she will neither love so well, nor flirt so well, as she might do either singly."
+    },
+    {
+      "id": "s49",
+      "text": "The gentlemen must each give up a little.”"
+    },
+    {
+      "id": "s50",
+      "text": "After a short pause, Catherine resumed with, “Then you do not believe Isabella so very much attached to my brother?”"
+    },
+    {
+      "id": "s51",
+      "text": "“I can have no opinion on that subject.”"
+    },
+    {
+      "id": "s52",
+      "text": "“But what can your brother mean?"
+    },
+    {
+      "id": "s53",
+      "text": "If he knows her engagement, what can he mean by his behaviour?”"
+    },
+    {
+      "id": "s54",
+      "text": "“You are a very close questioner.”"
+    },
+    {
+      "id": "s55",
+      "text": "“Am I?"
+    },
+    {
+      "id": "s56",
+      "text": "I only ask what I want to be told.”"
+    },
+    {
+      "id": "s57",
+      "text": "“But do you only ask what I can be expected to tell?”"
+    },
+    {
+      "id": "s58",
+      "text": "“Yes, I think so; for you must know your brother’s heart.”"
+    },
+    {
+      "id": "s59",
+      "text": "“My brother’s heart, as you term it, on the present occasion, I assure you I can only guess at.”"
+    },
+    {
+      "id": "s60",
+      "text": "“Well?”"
+    },
+    {
+      "id": "s61",
+      "text": "“Well! nay, if it is to be guesswork, let us all guess for ourselves."
+    },
+    {
+      "id": "s62",
+      "text": "To be guided by second-hand conjecture is pitiful."
+    },
+    {
+      "id": "s63",
+      "text": "The premises are before you."
+    },
+    {
+      "id": "s64",
+      "text": "My brother is a lively and perhaps sometimes a thoughtless young man; he has had about a week’s acquaintance with your friend, and he has known her engagement almost as long as he has known her.”"
+    },
+    {
+      "id": "s65",
+      "text": "“Well,” said Catherine, after some moments’ consideration, “_you_ may be able to guess at your brother’s intentions from all this; but I am sure I cannot."
+    },
+    {
+      "id": "s66",
+      "text": "But is not your father uncomfortable about it?"
+    },
+    {
+      "id": "s67",
+      "text": "Does not he want Captain Tilney to go away?"
+    },
+    {
+      "id": "s68",
+      "text": "Sure, if your father were to speak to him, he would go.”"
+    },
+    {
+      "id": "s69",
+      "text": "“My dear Miss Morland,” said Henry, “in this amiable solicitude for your brother’s comfort, may you not be a little mistaken?"
+    },
+    {
+      "id": "s70",
+      "text": "Are you not carried a little too far?"
+    },
+    {
+      "id": "s71",
+      "text": "Would he thank you, either on his own account or Miss Thorpe’s, for supposing that her affection, or at least her good behaviour, is only to be secured by her seeing nothing of Captain Tilney?"
+    },
+    {
+      "id": "s72",
+      "text": "Is he safe only in solitude?"
+    },
+    {
+      "id": "s73",
+      "text": "Or is her heart constant to him only when unsolicited by anyone else?"
+    },
+    {
+      "id": "s74",
+      "text": "He cannot think this—and you may be sure that he would not have you think it."
+    },
+    {
+      "id": "s75",
+      "text": "I will not say, ‘Do not be uneasy,’ because I know that you are so, at this moment; but be as little uneasy as you can."
+    },
+    {
+      "id": "s76",
+      "text": "You have no doubt of the mutual attachment of your brother and your friend; depend upon it, therefore, that real jealousy never can exist between them; depend upon it that no disagreement between them can be of any duration."
+    },
+    {
+      "id": "s77",
+      "text": "Their hearts are open to each other, as neither heart can be to you; they know exactly what is required and what can be borne; and you may be certain that one will never tease the other beyond what is known to be pleasant.”"
+    },
+    {
+      "id": "s78",
+      "text": "Perceiving her still to look doubtful and grave, he added, “Though Frederick does not leave Bath with us, he will probably remain but a very short time, perhaps only a few days behind us."
+    },
+    {
+      "id": "s79",
+      "text": "His leave of absence will soon expire, and he must return to his regiment."
+    },
+    {
+      "id": "s80",
+      "text": "And what will then be their acquaintance?"
+    },
+    {
+      "id": "s81",
+      "text": "The mess-room will drink Isabella Thorpe for a fortnight, and she will laugh with your brother over poor Tilney’s passion for a month.”"
+    },
+    {
+      "id": "s82",
+      "text": "Catherine would contend no longer against comfort."
+    },
+    {
+      "id": "s83",
+      "text": "She had resisted its approaches during the whole length of a speech, but it now carried her captive."
+    },
+    {
+      "id": "s84",
+      "text": "Henry Tilney must know best."
+    },
+    {
+      "id": "s85",
+      "text": "She blamed herself for the extent of her fears, and resolved never to think so seriously on the subject again."
+    },
+    {
+      "id": "s86",
+      "text": "Her resolution was supported by Isabella’s behaviour in their parting interview."
+    },
+    {
+      "id": "s87",
+      "text": "The Thorpes spent the last evening of Catherine’s stay in Pulteney Street, and nothing passed between the lovers to excite her uneasiness, or make her quit them in apprehension."
+    },
+    {
+      "id": "s88",
+      "text": "James was in excellent spirits, and Isabella most engagingly placid."
+    },
+    {
+      "id": "s89",
+      "text": "Her tenderness for her friend seemed rather the first feeling of her heart; but that at such a moment was allowable; and once she gave her lover a flat contradiction, and once she drew back her hand; but Catherine remembered Henry’s instructions, and placed it all to judicious affection."
+    },
+    {
+      "id": "s90",
+      "text": "The embraces, tears, and promises of the parting fair ones may be fancied."
+    }
+  ]
+}

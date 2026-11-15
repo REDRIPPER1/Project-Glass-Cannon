@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-7",
+  "chapterTitle": "CHAPTER VII.",
+  "contentHash": "sha256:bc6bf956b0267af0ddb50583017a78f75db92c448857eebdac2c74d68665c6a4",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, CHAPTER VII.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE HYMN OF THE CANNON-BALL"
+    },
+    {
+      "id": "s2",
+      "text": "The Observatory of Cambridge in its memorable letter had treated the question from a purely astronomical point of view."
+    },
+    {
+      "id": "s3",
+      "text": "The mechanical part still remained."
+    },
+    {
+      "id": "s4",
+      "text": "President Barbicane had, without loss of time, nominated a working committee of the Gun Club."
+    },
+    {
+      "id": "s5",
+      "text": "The duty of this committee was to resolve the three grand questions of the cannon, the projectile, and the powder."
+    },
+    {
+      "id": "s6",
+      "text": "It was composed of four members of great technical knowledge, Barbicane (with a casting vote in case of equality), General Morgan, Major Elphinstone, and J."
+    },
+    {
+      "id": "s7",
+      "text": "T."
+    },
+    {
+      "id": "s8",
+      "text": "Maston, to whom were confided the functions of secretary."
+    },
+    {
+      "id": "s9",
+      "text": "On the 8th of October the committee met at the house of President Barbicane, 3 Republican Street."
+    },
+    {
+      "id": "s10",
+      "text": "The meeting was opened by the president himself."
+    },
+    {
+      "id": "s11",
+      "text": "“Gentlemen,” said he, “we have to resolve one of the most important problems in the whole of the noble science of gunnery."
+    },
+    {
+      "id": "s12",
+      "text": "It might appear, perhaps, the most logical course to devote our first meeting to the discussion of the engine to be employed."
+    },
+    {
+      "id": "s13",
+      "text": "Nevertheless, after mature consideration, it has appeared to me that the question of the projectile must take precedence of that of the cannon, and that the dimensions of the latter must necessarily depend on those of the former.”"
+    },
+    {
+      "id": "s14",
+      "text": "“Suffer me to say a word,” here broke in J."
+    },
+    {
+      "id": "s15",
+      "text": "T."
+    },
+    {
+      "id": "s16",
+      "text": "Maston."
+    },
+    {
+      "id": "s17",
+      "text": "Permission having been granted, “Gentlemen,” said he with an inspired accent, “our president is right in placing the question of the projectile above all others."
+    },
+    {
+      "id": "s18",
+      "text": "The ball we are about to discharge at the moon is our ambassador to her, and I wish to consider it from a moral point of view."
+    },
+    {
+      "id": "s19",
+      "text": "The cannon-ball, gentlemen, to my mind, is the most magnificent manifestation of human power."
+    },
+    {
+      "id": "s20",
+      "text": "If Providence has created the stars and the planets, man has called the cannon-ball into existence."
+    },
+    {
+      "id": "s21",
+      "text": "Let Providence claim the swiftness of electricity and of light, of the stars, the comets, and the planets, of wind and sound—we claim to have invented the swiftness of the cannon-ball, a hundred times superior to that of the swiftest horses or railway train."
+    },
+    {
+      "id": "s22",
+      "text": "How glorious will be the moment when, infinitely exceeding all hitherto attained velocities, we shall launch our new projectile with the rapidity of seven miles a second!"
+    },
+    {
+      "id": "s23",
+      "text": "Shall it not, gentlemen—shall it not be received up there with the honors due to a terrestrial ambassador?”"
+    },
+    {
+      "id": "s24",
+      "text": "Overcome with emotion the orator sat down and applied himself to a huge plate of sandwiches before him."
+    },
+    {
+      "id": "s25",
+      "text": "“And now,” said Barbicane, “let us quit the domain of poetry and come direct to the question.”"
+    },
+    {
+      "id": "s26",
+      "text": "“By all means,” replied the members, each with his mouth full of sandwich."
+    },
+    {
+      "id": "s27",
+      "text": "“The problem before us,” continued the president, “is how to communicate to a projectile a velocity of 12,000 yards per second."
+    },
+    {
+      "id": "s28",
+      "text": "Let us at present examine the velocities hitherto attained."
+    },
+    {
+      "id": "s29",
+      "text": "General Morgan will be able to enlighten us on this point.”"
+    },
+    {
+      "id": "s30",
+      "text": "“And the more easily,” replied the general, “that during the war I was a member of the committee of experiments."
+    },
+    {
+      "id": "s31",
+      "text": "I may say, then, that the 100-pounder Dahlgrens, which carried a distance of 5,000 yards, impressed upon their projectile an initial velocity of 500 yards a second."
+    },
+    {
+      "id": "s32",
+      "text": "The Rodman Columbiad threw a shot weighing half a ton a distance of six miles, with a velocity of 800 yards per second—a result which Armstrong and Palisser have never obtained in England.”"
+    },
+    {
+      "id": "s33",
+      "text": "“This,” replied Barbicane, “is, I believe, the maximum velocity ever attained?”"
+    },
+    {
+      "id": "s34",
+      "text": "“It is so,” replied the general."
+    },
+    {
+      "id": "s35",
+      "text": "“Ah!” groaned J."
+    },
+    {
+      "id": "s36",
+      "text": "T."
+    },
+    {
+      "id": "s37",
+      "text": "Maston, “if my mortar had not burst—”"
+    },
+    {
+      "id": "s38",
+      "text": "“Yes,” quietly replied Barbicane, “but it did burst."
+    },
+    {
+      "id": "s39",
+      "text": "We must take, then, for our starting point, this velocity of 800 yards."
+    },
+    {
+      "id": "s40",
+      "text": "We must increase it twenty-fold."
+    },
+    {
+      "id": "s41",
+      "text": "Now, reserving for another discussion the means of producing this velocity, I will call your attention to the dimensions which it will be proper to assign to the shot."
+    },
+    {
+      "id": "s42",
+      "text": "You understand that we have nothing to do here with projectiles weighing at most but half a ton.”"
+    },
+    {
+      "id": "s43",
+      "text": "“Why not?” demanded the major."
+    },
+    {
+      "id": "s44",
+      "text": "“Because the shot,” quickly replied J."
+    },
+    {
+      "id": "s45",
+      "text": "T."
+    },
+    {
+      "id": "s46",
+      "text": "Maston, “must be big enough to attract the attention of the inhabitants of the moon, if there are any?”"
+    },
+    {
+      "id": "s47",
+      "text": "“Yes,” replied Barbicane, “and for another reason more important still.”"
+    },
+    {
+      "id": "s48",
+      "text": "“What mean you?” asked the major."
+    },
+    {
+      "id": "s49",
+      "text": "“I mean that it is not enough to discharge a projectile, and then take no further notice of it; we must follow it throughout its course, up to the moment when it shall reach its goal.”"
+    },
+    {
+      "id": "s50",
+      "text": "“What?” shouted the general and the major in great surprise."
+    },
+    {
+      "id": "s51",
+      "text": "“Undoubtedly,” replied Barbicane composedly, “or our experiment would produce no result.”"
+    },
+    {
+      "id": "s52",
+      "text": "“But then,” replied the major, “you will have to give this projectile enormous dimensions.”"
+    },
+    {
+      "id": "s53",
+      "text": "“No!"
+    },
+    {
+      "id": "s54",
+      "text": "Be so good as to listen."
+    },
+    {
+      "id": "s55",
+      "text": "You know that optical instruments have acquired great perfection; with certain instruments we have succeeded in obtaining enlargements of 6,000 times and reducing the moon to within forty miles’ distance."
+    },
+    {
+      "id": "s56",
+      "text": "Now, at this distance, any objects sixty feet square would be perfectly visible."
+    },
+    {
+      "id": "s57",
+      "text": "“If, then, the penetrative power of telescopes has not been further increased, it is because that power detracts from their light; and the moon, which is but a reflecting mirror, does not give back sufficient light to enable us to perceive objects of lesser magnitude.”"
+    },
+    {
+      "id": "s58",
+      "text": "“Well, then, what do you propose to do?” asked the general."
+    },
+    {
+      "id": "s59",
+      "text": "“Would you give your projectile a diameter of sixty feet?”"
+    },
+    {
+      "id": "s60",
+      "text": "“Not so.”"
+    },
+    {
+      "id": "s61",
+      "text": "“Do you intend, then, to increase the luminous power of the moon?”"
+    },
+    {
+      "id": "s62",
+      "text": "“Exactly so."
+    },
+    {
+      "id": "s63",
+      "text": "If I can succeed in diminishing the density of the atmosphere through which the moon’s light has to travel I shall have rendered her light more intense."
+    },
+    {
+      "id": "s64",
+      "text": "To effect that object it will be enough to establish a telescope on some elevated mountain."
+    },
+    {
+      "id": "s65",
+      "text": "That is what we will do.”"
+    },
+    {
+      "id": "s66",
+      "text": "“I give it up,” answered the major."
+    },
+    {
+      "id": "s67",
+      "text": "“You have such a way of simplifying things."
+    },
+    {
+      "id": "s68",
+      "text": "And what enlargement do you expect to obtain in this way?”"
+    },
+    {
+      "id": "s69",
+      "text": "“One of 48,000 times, which should bring the moon within an apparent distance of five miles; and, in order to be visible, objects need not have a diameter of more than nine feet.”"
+    },
+    {
+      "id": "s70",
+      "text": "“So, then,” cried J."
+    },
+    {
+      "id": "s71",
+      "text": "T."
+    },
+    {
+      "id": "s72",
+      "text": "Maston, “our projectile need not be more than nine feet in diameter.”"
+    },
+    {
+      "id": "s73",
+      "text": "“Let me observe, however,” interrupted Major Elphinstone, “this will involve a weight such as—”"
+    },
+    {
+      "id": "s74",
+      "text": "“My dear major,” replied Barbicane, “before discussing its weight permit me to enumerate some of the marvels which our ancestors have achieved in this respect."
+    },
+    {
+      "id": "s75",
+      "text": "I don’t mean to pretend that the science of gunnery has not advanced, but it is as well to bear in mind that during the middle ages they obtained results more surprising, I will venture to say, than ours."
+    },
+    {
+      "id": "s76",
+      "text": "For instance, during the siege of Constantinople by Mahomet II., in 1453, stone shot of 1,900 pounds weight were employed."
+    },
+    {
+      "id": "s77",
+      "text": "At Malta, in the time of the knights, there was a gun of the fortress of St."
+    },
+    {
+      "id": "s78",
+      "text": "Elmo which threw a projectile weighing 2,500 pounds."
+    },
+    {
+      "id": "s79",
+      "text": "And, now, what is the extent of what we have seen ourselves?"
+    },
+    {
+      "id": "s80",
+      "text": "Armstrong guns discharging shot of 500 pounds, and the Rodman guns projectiles of half a ton!"
+    },
+    {
+      "id": "s81",
+      "text": "It seems, then, that if projectiles have gained in range, they have lost far more in weight."
+    },
+    {
+      "id": "s82",
+      "text": "Now, if we turn our efforts in that direction, we ought to arrive, with the progress on science, at ten times the weight of the shot of Mahomet II. and the Knights of Malta.”"
+    },
+    {
+      "id": "s83",
+      "text": "“Clearly,” replied the major; “but what metal do you calculate upon employing?”"
+    },
+    {
+      "id": "s84",
+      "text": "“Simply cast iron,” said General Morgan."
+    },
+    {
+      "id": "s85",
+      "text": "“But,” interrupted the major, “since the weight of a shot is proportionate to its volume, an iron ball of nine feet in diameter would be of tremendous weight.”"
+    },
+    {
+      "id": "s86",
+      "text": "“Yes, if it were solid, not if it were hollow.”"
+    },
+    {
+      "id": "s87",
+      "text": "“Hollow? then it would be a shell?”"
+    },
+    {
+      "id": "s88",
+      "text": "“Yes, a shell,” replied Barbicane; “decidely it must be."
+    },
+    {
+      "id": "s89",
+      "text": "A solid shot of 108 inches would weigh more than 200,000 pounds, a weight evidently far too great."
+    },
+    {
+      "id": "s90",
+      "text": "Still, as we must reserve a certain stability for our projectile, I propose to give it a weight of 20,000 pounds.”"
+    },
+    {
+      "id": "s91",
+      "text": "“What, then, will be the thickness of the sides?” asked the major."
+    },
+    {
+      "id": "s92",
+      "text": "“If we follow the usual proportion,” replied Morgan, “a diameter of 108 inches would require sides of two feet thickness, or less.”"
+    },
+    {
+      "id": "s93",
+      "text": "“That would be too much,” replied Barbicane; “for you will observe that the question is not that of a shot intended to pierce an iron plate; it will suffice to give it sides strong enough to resist the pressure of the gas."
+    },
+    {
+      "id": "s94",
+      "text": "The problem, therefore, is this—What thickness ought a cast-iron shell to have in order not to weight more than 20,000 pounds?"
+    },
+    {
+      "id": "s95",
+      "text": "Our clever secretary will soon enlighten us upon this point.”"
+    },
+    {
+      "id": "s96",
+      "text": "“Nothing easier.” replied the worthy secretary of the committee; and, rapidly tracing a few algebraical formulae upon paper, among which _n_2 and _x_2 frequently appeared, he presently said:"
+    },
+    {
+      "id": "s97",
+      "text": "“The sides will require a thickness of less than two inches.”"
+    },
+    {
+      "id": "s98",
+      "text": "“Will that be enough?” asked the major doubtfully."
+    },
+    {
+      "id": "s99",
+      "text": "“Clearly not!” replied the president."
+    },
+    {
+      "id": "s100",
+      "text": "“What is to be done, then?” said Elphinstone, with a puzzled air."
+    },
+    {
+      "id": "s101",
+      "text": "“Employ another metal instead of iron.”"
+    },
+    {
+      "id": "s102",
+      "text": "“Copper?” said Morgan."
+    },
+    {
+      "id": "s103",
+      "text": "“No! that would be too heavy."
+    },
+    {
+      "id": "s104",
+      "text": "I have better than that to offer.”"
+    },
+    {
+      "id": "s105",
+      "text": "“What then?” asked the major."
+    },
+    {
+      "id": "s106",
+      "text": "“Aluminum!” replied Barbicane."
+    },
+    {
+      "id": "s107",
+      "text": "“Aluminum?” cried his three colleagues in chorus."
+    },
+    {
+      "id": "s108",
+      "text": "“Unquestionably, my friends."
+    },
+    {
+      "id": "s109",
+      "text": "This valuable metal possesses the whiteness of silver, the indestructibility of gold, the tenacity of iron, the fusibility of copper, the lightness of glass."
+    },
+    {
+      "id": "s110",
+      "text": "It is easily wrought, is very widely distributed, forming the base of most of the rocks, is three times lighter than iron, and seems to have been created for the express purpose of furnishing us with the material for our projectile.”"
+    },
+    {
+      "id": "s111",
+      "text": "“But, my dear president,” said the major, “is not the cost price of aluminum extremely high?”"
+    },
+    {
+      "id": "s112",
+      "text": "“It was so at its first discovery, but it has fallen now to nine dollars a pound.”"
+    },
+    {
+      "id": "s113",
+      "text": "“But still, nine dollars a pound!” replied the major, who was not willing readily to give in; “even that is an enormous price.”"
+    },
+    {
+      "id": "s114",
+      "text": "“Undoubtedly, my dear major; but not beyond our reach.”"
+    },
+    {
+      "id": "s115",
+      "text": "“What will the projectile weigh then?” asked Morgan."
+    },
+    {
+      "id": "s116",
+      "text": "“Here is the result of my calculations,” replied Barbicane."
+    },
+    {
+      "id": "s117",
+      "text": "“A shot of 108 inches in diameter, and twelve inches in thickness, would weigh, in cast-iron, 67,440 pounds; cast in aluminum, its weight will be reduced to 19,250 pounds.”"
+    },
+    {
+      "id": "s118",
+      "text": "“Capital!” cried the major; “but do you know that, at nine dollars a pound, this projectile will cost—”"
+    },
+    {
+      "id": "s119",
+      "text": "“One hundred and seventy-three thousand and fifty dollars ($173,050)."
+    },
+    {
+      "id": "s120",
+      "text": "I know it quite well."
+    },
+    {
+      "id": "s121",
+      "text": "But fear not, my friends; the money will not be wanting for our enterprise."
+    },
+    {
+      "id": "s122",
+      "text": "I will answer for it."
+    },
+    {
+      "id": "s123",
+      "text": "Now what say you to aluminum, gentlemen?”"
+    },
+    {
+      "id": "s124",
+      "text": "“Adopted!” replied the three members of the committee."
+    },
+    {
+      "id": "s125",
+      "text": "So ended the first meeting."
+    },
+    {
+      "id": "s126",
+      "text": "The question of the projectile was definitely settled."
+    }
+  ]
+}

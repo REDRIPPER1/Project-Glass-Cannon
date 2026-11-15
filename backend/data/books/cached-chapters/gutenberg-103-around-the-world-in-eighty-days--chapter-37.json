@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-37",
+  "chapterTitle": "CHAPTER XXXVII.",
+  "contentHash": "sha256:a83c04d562e0ccf7cafbfe6fa8f99533bcc6ca87f61cda377f419f9bfa8fbcb6",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XXXVII.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH IT IS SHOWN THAT PHILEAS FOGG GAINED NOTHING BY HIS TOUR AROUND THE WORLD, UNLESS IT WERE HAPPINESS"
+    },
+    {
+      "id": "s2",
+      "text": "Yes; Phileas Fogg in person."
+    },
+    {
+      "id": "s3",
+      "text": "The reader will remember that at five minutes past eight in the evening—about five and twenty hours after the arrival of the travellers in London—Passepartout had been sent by his master to engage the services of the Reverend Samuel Wilson in a certain marriage ceremony, which was to take place the next day."
+    },
+    {
+      "id": "s4",
+      "text": "Passepartout went on his errand enchanted."
+    },
+    {
+      "id": "s5",
+      "text": "He soon reached the clergyman’s house, but found him not at home."
+    },
+    {
+      "id": "s6",
+      "text": "Passepartout waited a good twenty minutes, and when he left the reverend gentleman, it was thirty-five minutes past eight."
+    },
+    {
+      "id": "s7",
+      "text": "But in what a state he was!"
+    },
+    {
+      "id": "s8",
+      "text": "With his hair in disorder, and without his hat, he ran along the street as never man was seen to run before, overturning passers-by, rushing over the sidewalk like a waterspout."
+    },
+    {
+      "id": "s9",
+      "text": "In three minutes he was in Saville Row again, and staggered back into Mr."
+    },
+    {
+      "id": "s10",
+      "text": "Fogg’s room."
+    },
+    {
+      "id": "s11",
+      "text": "He could not speak."
+    },
+    {
+      "id": "s12",
+      "text": "“What is the matter?” asked Mr."
+    },
+    {
+      "id": "s13",
+      "text": "Fogg."
+    },
+    {
+      "id": "s14",
+      "text": "“My master!” gasped Passepartout—“marriage—impossible—”"
+    },
+    {
+      "id": "s15",
+      "text": "“Impossible?”"
+    },
+    {
+      "id": "s16",
+      "text": "“Impossible—for to-morrow.”"
+    },
+    {
+      "id": "s17",
+      "text": "“Why so?”"
+    },
+    {
+      "id": "s18",
+      "text": "“Because to-morrow—is Sunday!”"
+    },
+    {
+      "id": "s19",
+      "text": "“Monday,” replied Mr."
+    },
+    {
+      "id": "s20",
+      "text": "Fogg."
+    },
+    {
+      "id": "s21",
+      "text": "“No—to-day is Saturday.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Saturday?"
+    },
+    {
+      "id": "s23",
+      "text": "Impossible!”"
+    },
+    {
+      "id": "s24",
+      "text": "“Yes, yes, yes, yes!” cried Passepartout."
+    },
+    {
+      "id": "s25",
+      "text": "“You have made a mistake of one day!"
+    },
+    {
+      "id": "s26",
+      "text": "We arrived twenty-four hours ahead of time; but there are only ten minutes left!”"
+    },
+    {
+      "id": "s27",
+      "text": "Passepartout had seized his master by the collar, and was dragging him along with irresistible force."
+    },
+    {
+      "id": "s28",
+      "text": "Phileas Fogg, thus kidnapped, without having time to think, left his house, jumped into a cab, promised a hundred pounds to the cabman, and, having run over two dogs and overturned five carriages, reached the Reform Club."
+    },
+    {
+      "id": "s29",
+      "text": "The clock indicated a quarter before nine when he appeared in the great saloon."
+    },
+    {
+      "id": "s30",
+      "text": "Phileas Fogg had accomplished the journey round the world in eighty days!"
+    },
+    {
+      "id": "s31",
+      "text": "Phileas Fogg had won his wager of twenty thousand pounds!"
+    },
+    {
+      "id": "s32",
+      "text": "How was it that a man so exact and fastidious could have made this error of a day?"
+    },
+    {
+      "id": "s33",
+      "text": "How came he to think that he had arrived in London on Saturday, the twenty-first day of December, when it was really Friday, the twentieth, the seventy-ninth day only from his departure?"
+    },
+    {
+      "id": "s34",
+      "text": "The cause of the error is very simple."
+    },
+    {
+      "id": "s35",
+      "text": "Phileas Fogg had, without suspecting it, gained one day on his journey, and this merely because he had travelled constantly _eastward;_ he would, on the contrary, have lost a day had he gone in the opposite direction, that is, _westward_."
+    },
+    {
+      "id": "s36",
+      "text": "In journeying eastward he had gone towards the sun, and the days therefore diminished for him as many times four minutes as he crossed degrees in this direction."
+    },
+    {
+      "id": "s37",
+      "text": "There are three hundred and sixty degrees on the circumference of the earth; and these three hundred and sixty degrees, multiplied by four minutes, gives precisely twenty-four hours—that is, the day unconsciously gained."
+    },
+    {
+      "id": "s38",
+      "text": "In other words, while Phileas Fogg, going eastward, saw the sun pass the meridian _eighty_ times, his friends in London only saw it pass the meridian _seventy-nine_ times."
+    },
+    {
+      "id": "s39",
+      "text": "This is why they awaited him at the Reform Club on Saturday, and not Sunday, as Mr."
+    },
+    {
+      "id": "s40",
+      "text": "Fogg thought."
+    },
+    {
+      "id": "s41",
+      "text": "And Passepartout’s famous family watch, which had always kept London time, would have betrayed this fact, if it had marked the days as well as the hours and the minutes!"
+    },
+    {
+      "id": "s42",
+      "text": "Phileas Fogg, then, had won the twenty thousand pounds; but, as he had spent nearly nineteen thousand on the way, the pecuniary gain was small."
+    },
+    {
+      "id": "s43",
+      "text": "His object was, however, to be victorious, and not to win money."
+    },
+    {
+      "id": "s44",
+      "text": "He divided the one thousand pounds that remained between Passepartout and the unfortunate Fix, against whom he cherished no grudge."
+    },
+    {
+      "id": "s45",
+      "text": "He deducted, however, from Passepartout’s share the cost of the gas which had burned in his room for nineteen hundred and twenty hours, for the sake of regularity."
+    },
+    {
+      "id": "s46",
+      "text": "That evening, Mr."
+    },
+    {
+      "id": "s47",
+      "text": "Fogg, as tranquil and phlegmatic as ever, said to Aouda: “Is our marriage still agreeable to you?”"
+    },
+    {
+      "id": "s48",
+      "text": "“Mr."
+    },
+    {
+      "id": "s49",
+      "text": "Fogg,” replied she, “it is for me to ask that question."
+    },
+    {
+      "id": "s50",
+      "text": "You were ruined, but now you are rich again.”"
+    },
+    {
+      "id": "s51",
+      "text": "“Pardon me, madam; my fortune belongs to you."
+    },
+    {
+      "id": "s52",
+      "text": "If you had not suggested our marriage, my servant would not have gone to the Reverend Samuel Wilson’s, I should not have been apprised of my error, and—”"
+    },
+    {
+      "id": "s53",
+      "text": "“Dear Mr."
+    },
+    {
+      "id": "s54",
+      "text": "Fogg!” said the young woman."
+    },
+    {
+      "id": "s55",
+      "text": "“Dear Aouda!” replied Phileas Fogg."
+    },
+    {
+      "id": "s56",
+      "text": "It need not be said that the marriage took place forty-eight hours after, and that Passepartout, glowing and dazzling, gave the bride away."
+    },
+    {
+      "id": "s57",
+      "text": "Had he not saved her, and was he not entitled to this honour?"
+    },
+    {
+      "id": "s58",
+      "text": "The next day, as soon as it was light, Passepartout rapped vigorously at his master’s door."
+    },
+    {
+      "id": "s59",
+      "text": "Mr."
+    },
+    {
+      "id": "s60",
+      "text": "Fogg opened it, and asked, “What’s the matter, Passepartout?”"
+    },
+    {
+      "id": "s61",
+      "text": "“What is it, sir?"
+    },
+    {
+      "id": "s62",
+      "text": "Why, I’ve just this instant found out—”"
+    },
+    {
+      "id": "s63",
+      "text": "“What?”"
+    },
+    {
+      "id": "s64",
+      "text": "“That we might have made the tour of the world in only seventy-eight days.”"
+    },
+    {
+      "id": "s65",
+      "text": "“No doubt,” returned Mr."
+    },
+    {
+      "id": "s66",
+      "text": "Fogg, “by not crossing India."
+    },
+    {
+      "id": "s67",
+      "text": "But if I had not crossed India, I should not have saved Aouda; she would not have been my wife, and—”"
+    },
+    {
+      "id": "s68",
+      "text": "Mr."
+    },
+    {
+      "id": "s69",
+      "text": "Fogg quietly shut the door."
+    },
+    {
+      "id": "s70",
+      "text": "Phileas Fogg had won his wager, and had made his journey around the world in eighty days."
+    },
+    {
+      "id": "s71",
+      "text": "To do this he had employed every means of conveyance—steamers, railways, carriages, yachts, trading-vessels, sledges, elephants."
+    },
+    {
+      "id": "s72",
+      "text": "The eccentric gentleman had throughout displayed all his marvellous qualities of coolness and exactitude."
+    },
+    {
+      "id": "s73",
+      "text": "But what then?"
+    },
+    {
+      "id": "s74",
+      "text": "What had he really gained by all this trouble?"
+    },
+    {
+      "id": "s75",
+      "text": "What had he brought back from this long and weary journey?"
+    },
+    {
+      "id": "s76",
+      "text": "Nothing, say you?"
+    },
+    {
+      "id": "s77",
+      "text": "Perhaps so; nothing but a charming woman, who, strange as it may appear, made him the happiest of men!"
+    },
+    {
+      "id": "s78",
+      "text": "Truly, would you not for less than that make the tour around the world?"
+    }
+  ]
+}

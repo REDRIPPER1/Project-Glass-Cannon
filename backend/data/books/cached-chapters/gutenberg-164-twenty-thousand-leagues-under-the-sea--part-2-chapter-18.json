@@ -1,0 +1,773 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-18",
+  "chapterTitle": "Part 2 — CHAPTER XVIII",
+  "contentHash": "sha256:35587cc90b0737f846876a665dc614e52daaccb7806cdb0dd2507f0eec61cc8a",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, Part 2 — CHAPTER XVIII. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE POULPS"
+    },
+    {
+      "id": "s2",
+      "text": "For several days the _Nautilus_ kept off from the American coast."
+    },
+    {
+      "id": "s3",
+      "text": "Evidently it did not wish to risk the tides of the Gulf of Mexico or of the sea of the Antilles."
+    },
+    {
+      "id": "s4",
+      "text": "April 16th, we sighted Martinique and Guadaloupe from a distance of about thirty miles."
+    },
+    {
+      "id": "s5",
+      "text": "I saw their tall peaks for an instant."
+    },
+    {
+      "id": "s6",
+      "text": "The Canadian, who counted on carrying out his projects in the Gulf, by either landing or hailing one of the numerous boats that coast from one island to another, was quite disheartened."
+    },
+    {
+      "id": "s7",
+      "text": "Flight would have been quite practicable, if Ned Land had been able to take possession of the boat without the Captain’s knowledge."
+    },
+    {
+      "id": "s8",
+      "text": "But in the open sea it could not be thought of."
+    },
+    {
+      "id": "s9",
+      "text": "The Canadian, Conseil, and I had a long conversation on this subject."
+    },
+    {
+      "id": "s10",
+      "text": "For six months we had been prisoners on board the _Nautilus_."
+    },
+    {
+      "id": "s11",
+      "text": "We had travelled 17,000 leagues; and, as Ned Land said, there was no reason why it should come to an end."
+    },
+    {
+      "id": "s12",
+      "text": "We could hope nothing from the Captain of the _Nautilus_, but only from ourselves."
+    },
+    {
+      "id": "s13",
+      "text": "Besides, for some time past he had become graver, more retired, less sociable."
+    },
+    {
+      "id": "s14",
+      "text": "He seemed to shun me."
+    },
+    {
+      "id": "s15",
+      "text": "I met him rarely."
+    },
+    {
+      "id": "s16",
+      "text": "Formerly he was pleased to explain the submarine marvels to me; now he left me to my studies, and came no more to the saloon."
+    },
+    {
+      "id": "s17",
+      "text": "What change had come over him?"
+    },
+    {
+      "id": "s18",
+      "text": "For what cause?"
+    },
+    {
+      "id": "s19",
+      "text": "For my part, I did not wish to bury with me my curious and novel studies."
+    },
+    {
+      "id": "s20",
+      "text": "I had now the power to write the true book of the sea; and this book, sooner or later, I wished to see daylight."
+    },
+    {
+      "id": "s21",
+      "text": "The land nearest us was the archipelago of the Bahamas."
+    },
+    {
+      "id": "s22",
+      "text": "There rose high submarine cliffs covered with large weeds."
+    },
+    {
+      "id": "s23",
+      "text": "It was about eleven o’clock when Ned Land drew my attention to a formidable pricking, like the sting of an ant, which was produced by means of large seaweeds."
+    },
+    {
+      "id": "s24",
+      "text": "“Well,” I said, “these are proper caverns for poulps, and I should not be astonished to see some of these monsters.”"
+    },
+    {
+      "id": "s25",
+      "text": "“What!” said Conseil; “cuttlefish, real cuttlefish of the cephalopod class?”"
+    },
+    {
+      "id": "s26",
+      "text": "“No,” I said, “poulps of huge dimensions.”"
+    },
+    {
+      "id": "s27",
+      "text": "“I will never believe that such animals exist,” said Ned."
+    },
+    {
+      "id": "s28",
+      "text": "“Well,” said Conseil, with the most serious air in the world, “I remember perfectly to have seen a large vessel drawn under the waves by an octopus’s arm.”"
+    },
+    {
+      "id": "s29",
+      "text": "“You saw that?” said the Canadian."
+    },
+    {
+      "id": "s30",
+      "text": "“Yes, Ned.”"
+    },
+    {
+      "id": "s31",
+      "text": "“With your own eyes?”"
+    },
+    {
+      "id": "s32",
+      "text": "“With my own eyes.”"
+    },
+    {
+      "id": "s33",
+      "text": "“Where, pray, might that be?”"
+    },
+    {
+      "id": "s34",
+      "text": "“At St."
+    },
+    {
+      "id": "s35",
+      "text": "Malo,” answered Conseil."
+    },
+    {
+      "id": "s36",
+      "text": "“In the port?” said Ned, ironically."
+    },
+    {
+      "id": "s37",
+      "text": "“No; in a church,” replied Conseil."
+    },
+    {
+      "id": "s38",
+      "text": "“In a church!” cried the Canadian."
+    },
+    {
+      "id": "s39",
+      "text": "“Yes; friend Ned."
+    },
+    {
+      "id": "s40",
+      "text": "In a picture representing the poulp in question.”"
+    },
+    {
+      "id": "s41",
+      "text": "“Good!” said Ned Land, bursting out laughing."
+    },
+    {
+      "id": "s42",
+      "text": "“He is quite right,” I said."
+    },
+    {
+      "id": "s43",
+      "text": "“I have heard of this picture; but the subject represented is taken from a legend, and you know what to think of legends in the matter of natural history."
+    },
+    {
+      "id": "s44",
+      "text": "Besides, when it is a question of monsters, the imagination is apt to run wild."
+    },
+    {
+      "id": "s45",
+      "text": "Not only is it supposed that these poulps can draw down vessels, but a certain Olaus Magnus speaks of an octopus a mile long that is more like an island than an animal."
+    },
+    {
+      "id": "s46",
+      "text": "It is also said that the Bishop of Nidros was building an altar on an immense rock."
+    },
+    {
+      "id": "s47",
+      "text": "Mass finished, the rock began to walk, and returned to the sea."
+    },
+    {
+      "id": "s48",
+      "text": "The rock was a poulp."
+    },
+    {
+      "id": "s49",
+      "text": "Another Bishop, Pontoppidan, speaks also of a poulp on which a regiment of cavalry could manœuvre."
+    },
+    {
+      "id": "s50",
+      "text": "Lastly, the ancient naturalists speak of monsters whose mouths were like gulfs, and which were too large to pass through the Straits of Gibraltar.”"
+    },
+    {
+      "id": "s51",
+      "text": "“But how much is true of these stories?” asked Conseil."
+    },
+    {
+      "id": "s52",
+      "text": "“Nothing, my friends; at least of that which passes the limit of truth to get to fable or legend."
+    },
+    {
+      "id": "s53",
+      "text": "Nevertheless, there must be some ground for the imagination of the story-tellers."
+    },
+    {
+      "id": "s54",
+      "text": "One cannot deny that poulps and cuttlefish exist of a large species, inferior, however, to the cetaceans."
+    },
+    {
+      "id": "s55",
+      "text": "Aristotle has stated the dimensions of a cuttlefish as five cubits, or nine feet two inches."
+    },
+    {
+      "id": "s56",
+      "text": "Our fishermen frequently see some that are more than four feet long."
+    },
+    {
+      "id": "s57",
+      "text": "Some skeletons of poulps are preserved in the museums of Trieste and Montpelier, that measure two yards in length."
+    },
+    {
+      "id": "s58",
+      "text": "Besides, according to the calculations of some naturalists, one of these animals only six feet long would have tentacles twenty-seven feet long."
+    },
+    {
+      "id": "s59",
+      "text": "That would suffice to make a formidable monster.”"
+    },
+    {
+      "id": "s60",
+      "text": "“Do they fish for them in these days?” asked Ned."
+    },
+    {
+      "id": "s61",
+      "text": "“If they do not fish for them, sailors see them at least."
+    },
+    {
+      "id": "s62",
+      "text": "One of my friends, Captain Paul Bos of Havre, has often affirmed that he met one of these monsters of colossal dimensions in the Indian seas."
+    },
+    {
+      "id": "s63",
+      "text": "But the most astonishing fact, and which does not permit of the denial of the existence of these gigantic animals, happened some years ago, in 1861.”"
+    },
+    {
+      "id": "s64",
+      "text": "“What is the fact?” asked Ned Land."
+    },
+    {
+      "id": "s65",
+      "text": "“This is it."
+    },
+    {
+      "id": "s66",
+      "text": "In 1861, to the north-east of Teneriffe, very nearly in the same latitude we are in now, the crew of the despatch-boat Alector perceived a monstrous cuttlefish swimming in the waters."
+    },
+    {
+      "id": "s67",
+      "text": "Captain Bouguer went near to the animal, and attacked it with harpoon and guns, without much success, for balls and harpoons glided over the soft flesh."
+    },
+    {
+      "id": "s68",
+      "text": "After several fruitless attempts the crew tried to pass a slip-knot round the body of the mollusc."
+    },
+    {
+      "id": "s69",
+      "text": "The noose slipped as far as the tail fins and there stopped."
+    },
+    {
+      "id": "s70",
+      "text": "They tried then to haul it on board, but its weight was so considerable that the tightness of the cord separated the tail from the body, and, deprived of this ornament, he disappeared under the water.”"
+    },
+    {
+      "id": "s71",
+      "text": "“Indeed! is that a fact?”"
+    },
+    {
+      "id": "s72",
+      "text": "“An indisputable fact, my good Ned."
+    },
+    {
+      "id": "s73",
+      "text": "They proposed to name this poulp ‘Bouguer’s cuttlefish.’”"
+    },
+    {
+      "id": "s74",
+      "text": "“What length was it?” asked the Canadian."
+    },
+    {
+      "id": "s75",
+      "text": "“Did it not measure about six yards?” said Conseil, who, posted at the window, was examining again the irregular windings of the cliff."
+    },
+    {
+      "id": "s76",
+      "text": "“Precisely,” I replied."
+    },
+    {
+      "id": "s77",
+      "text": "“Its head,” rejoined Conseil, “was it not crowned with eight tentacles, that beat the water like a nest of serpents?”"
+    },
+    {
+      "id": "s78",
+      "text": "“Precisely.”"
+    },
+    {
+      "id": "s79",
+      "text": "“Had not its eyes, placed at the back of its head, considerable development?”"
+    },
+    {
+      "id": "s80",
+      "text": "“Yes, Conseil.”"
+    },
+    {
+      "id": "s81",
+      "text": "“And was not its mouth like a parrot’s beak?”"
+    },
+    {
+      "id": "s82",
+      "text": "“Exactly, Conseil.”"
+    },
+    {
+      "id": "s83",
+      "text": "“Very well! no offence to master,” he replied, quietly; “if this is not Bouguer’s cuttlefish, it is, at least, one of its brothers.”"
+    },
+    {
+      "id": "s84",
+      "text": "I looked at Conseil."
+    },
+    {
+      "id": "s85",
+      "text": "Ned Land hurried to the window."
+    },
+    {
+      "id": "s86",
+      "text": "“What a horrible beast!” he cried."
+    },
+    {
+      "id": "s87",
+      "text": "I looked in my turn, and could not repress a gesture of disgust."
+    },
+    {
+      "id": "s88",
+      "text": "Before my eyes was a horrible monster worthy to figure in the legends of the marvellous."
+    },
+    {
+      "id": "s89",
+      "text": "It was an immense cuttlefish, being eight yards long."
+    },
+    {
+      "id": "s90",
+      "text": "It swam crossways in the direction of the _Nautilus_ with great speed, watching us with its enormous staring green eyes."
+    },
+    {
+      "id": "s91",
+      "text": "Its eight arms, or rather feet, fixed to its head, that have given the name of cephalopod to these animals, were twice as long as its body, and were twisted like the furies’ hair."
+    },
+    {
+      "id": "s92",
+      "text": "One could see the 250 air holes on the inner side of the tentacles."
+    },
+    {
+      "id": "s93",
+      "text": "The monster’s mouth, a horned beak like a parrot’s, opened and shut vertically."
+    },
+    {
+      "id": "s94",
+      "text": "Its tongue, a horned substance, furnished with several rows of pointed teeth, came out quivering from this veritable pair of shears."
+    },
+    {
+      "id": "s95",
+      "text": "What a freak of nature, a bird’s beak on a mollusc!"
+    },
+    {
+      "id": "s96",
+      "text": "Its spindle-like body formed a fleshy mass that might weigh 4,000 to 5,000 lbs.; the, varying colour changing with great rapidity, according to the irritation of the animal, passed successively from livid grey to reddish brown."
+    },
+    {
+      "id": "s97",
+      "text": "What irritated this mollusc?"
+    },
+    {
+      "id": "s98",
+      "text": "No doubt the presence of the _Nautilus_, more formidable than itself, and on which its suckers or its jaws had no hold."
+    },
+    {
+      "id": "s99",
+      "text": "Yet, what monsters these poulps are! what vitality the Creator has given them! what vigour in their movements! and they possess three hearts!"
+    },
+    {
+      "id": "s100",
+      "text": "Chance had brought us in presence of this cuttlefish, and I did not wish to lose the opportunity of carefully studying this specimen of cephalopods."
+    },
+    {
+      "id": "s101",
+      "text": "I overcame the horror that inspired me, and, taking a pencil, began to draw it."
+    },
+    {
+      "id": "s102",
+      "text": "“Perhaps this is the same which the Alector saw,” said Conseil."
+    },
+    {
+      "id": "s103",
+      "text": "“No,” replied the Canadian; “for this is whole, and the other had lost its tail.”"
+    },
+    {
+      "id": "s104",
+      "text": "“That is no reason,” I replied."
+    },
+    {
+      "id": "s105",
+      "text": "“The arms and tails of these animals are re-formed by renewal; and in seven years the tail of Bouguer’s cuttlefish has no doubt had time to grow.”"
+    },
+    {
+      "id": "s106",
+      "text": "By this time other poulps appeared at the port light."
+    },
+    {
+      "id": "s107",
+      "text": "I counted seven."
+    },
+    {
+      "id": "s108",
+      "text": "They formed a procession after the _Nautilus_, and I heard their beaks gnashing against the iron hull."
+    },
+    {
+      "id": "s109",
+      "text": "I continued my work."
+    },
+    {
+      "id": "s110",
+      "text": "These monsters kept in the water with such precision that they seemed immovable."
+    },
+    {
+      "id": "s111",
+      "text": "Suddenly the _Nautilus_ stopped."
+    },
+    {
+      "id": "s112",
+      "text": "A shock made it tremble in every plate."
+    },
+    {
+      "id": "s113",
+      "text": "“Have we struck anything?” I asked."
+    },
+    {
+      "id": "s114",
+      "text": "“In any case,” replied the Canadian, “we shall be free, for we are floating.”"
+    },
+    {
+      "id": "s115",
+      "text": "The _Nautilus_ was floating, no doubt, but it did not move."
+    },
+    {
+      "id": "s116",
+      "text": "A minute passed."
+    },
+    {
+      "id": "s117",
+      "text": "Captain Nemo, followed by his lieutenant, entered the drawing-room."
+    },
+    {
+      "id": "s118",
+      "text": "I had not seen him for some time."
+    },
+    {
+      "id": "s119",
+      "text": "He seemed dull."
+    },
+    {
+      "id": "s120",
+      "text": "Without noticing or speaking to us, he went to the panel, looked at the poulps, and said something to his lieutenant."
+    },
+    {
+      "id": "s121",
+      "text": "The latter went out."
+    },
+    {
+      "id": "s122",
+      "text": "Soon the panels were shut."
+    },
+    {
+      "id": "s123",
+      "text": "The ceiling was lighted."
+    },
+    {
+      "id": "s124",
+      "text": "I went towards the Captain."
+    },
+    {
+      "id": "s125",
+      "text": "“A curious collection of poulps?” I said."
+    },
+    {
+      "id": "s126",
+      "text": "“Yes, indeed, Mr."
+    },
+    {
+      "id": "s127",
+      "text": "Naturalist,” he replied; “and we are going to fight them, man to beast.”"
+    },
+    {
+      "id": "s128",
+      "text": "I looked at him."
+    },
+    {
+      "id": "s129",
+      "text": "I thought I had not heard aright."
+    },
+    {
+      "id": "s130",
+      "text": "“Man to beast?” I repeated."
+    },
+    {
+      "id": "s131",
+      "text": "“Yes, sir."
+    },
+    {
+      "id": "s132",
+      "text": "The screw is stopped."
+    },
+    {
+      "id": "s133",
+      "text": "I think that the horny jaws of one of the cuttlefish is entangled in the blades."
+    },
+    {
+      "id": "s134",
+      "text": "That is what prevents our moving.”"
+    },
+    {
+      "id": "s135",
+      "text": "“What are you going to do?”"
+    },
+    {
+      "id": "s136",
+      "text": "“Rise to the surface, and slaughter this vermin.”"
+    },
+    {
+      "id": "s137",
+      "text": "“A difficult enterprise.”"
+    },
+    {
+      "id": "s138",
+      "text": "“Yes, indeed."
+    },
+    {
+      "id": "s139",
+      "text": "The electric bullets are powerless against the soft flesh, where they do not find resistance enough to go off."
+    },
+    {
+      "id": "s140",
+      "text": "But we shall attack them with the hatchet.”"
+    },
+    {
+      "id": "s141",
+      "text": "“And the harpoon, sir,” said the Canadian, “if you do not refuse my help.”"
+    },
+    {
+      "id": "s142",
+      "text": "“I will accept it, Master Land.”"
+    },
+    {
+      "id": "s143",
+      "text": "“We will follow you,” I said, and, following Captain Nemo, we went towards the central staircase."
+    },
+    {
+      "id": "s144",
+      "text": "There, about ten men with boarding-hatchets were ready for the attack."
+    },
+    {
+      "id": "s145",
+      "text": "Conseil and I took two hatchets; Ned Land seized a harpoon."
+    },
+    {
+      "id": "s146",
+      "text": "The _Nautilus_ had then risen to the surface."
+    },
+    {
+      "id": "s147",
+      "text": "One of the sailors, posted on the top ladderstep, unscrewed the bolts of the panels."
+    },
+    {
+      "id": "s148",
+      "text": "But hardly were the screws loosed, when the panel rose with great violence, evidently drawn by the suckers of a poulp’s arm."
+    },
+    {
+      "id": "s149",
+      "text": "Immediately one of these arms slid like a serpent down the opening and twenty others were above."
+    },
+    {
+      "id": "s150",
+      "text": "With one blow of the axe, Captain Nemo cut this formidable tentacle, that slid wriggling down the ladder."
+    },
+    {
+      "id": "s151",
+      "text": "Just as we were pressing one on the other to reach the platform, two other arms, lashing the air, came down on the seaman placed before Captain Nemo, and lifted him up with irresistible power."
+    },
+    {
+      "id": "s152",
+      "text": "Captain Nemo uttered a cry, and rushed out."
+    },
+    {
+      "id": "s153",
+      "text": "We hurried after him."
+    },
+    {
+      "id": "s154",
+      "text": "[Illustration] One of these long arms glided through the opening"
+    },
+    {
+      "id": "s155",
+      "text": "What a scene!"
+    },
+    {
+      "id": "s156",
+      "text": "The unhappy man, seized by the tentacle and fixed to the suckers, was balanced in the air at the caprice of this enormous trunk."
+    },
+    {
+      "id": "s157",
+      "text": "He rattled in his throat, he was stifled, he cried, “Help! help!” These words, spoken in French, startled me!"
+    },
+    {
+      "id": "s158",
+      "text": "I had a fellow-countryman on board, perhaps several!"
+    },
+    {
+      "id": "s159",
+      "text": "That heart-rending cry!"
+    },
+    {
+      "id": "s160",
+      "text": "I shall hear it all my life."
+    },
+    {
+      "id": "s161",
+      "text": "The unfortunate man was lost."
+    },
+    {
+      "id": "s162",
+      "text": "Who could rescue him from that powerful pressure?"
+    },
+    {
+      "id": "s163",
+      "text": "However, Captain Nemo had rushed to the poulp, and with one blow of the axe had cut through one arm."
+    },
+    {
+      "id": "s164",
+      "text": "His lieutenant struggled furiously against other monsters that crept on the flanks of the _Nautilus_."
+    },
+    {
+      "id": "s165",
+      "text": "The crew fought with their axes."
+    },
+    {
+      "id": "s166",
+      "text": "The Canadian, Conseil, and I buried our weapons in the fleshy masses; a strong smell of musk penetrated the atmosphere."
+    },
+    {
+      "id": "s167",
+      "text": "It was horrible!"
+    },
+    {
+      "id": "s168",
+      "text": "For one instant, I thought the unhappy man, entangled with the poulp, would be torn from its powerful suction."
+    },
+    {
+      "id": "s169",
+      "text": "Seven of the eight arms had been cut off."
+    },
+    {
+      "id": "s170",
+      "text": "One only wriggled in the air, brandishing the victim like a feather."
+    },
+    {
+      "id": "s171",
+      "text": "But just as Captain Nemo and his lieutenant threw themselves on it, the animal ejected a stream of black liquid."
+    },
+    {
+      "id": "s172",
+      "text": "We were blinded with it."
+    },
+    {
+      "id": "s173",
+      "text": "When the cloud dispersed, the cuttlefish had disappeared, and my unfortunate countryman with it."
+    },
+    {
+      "id": "s174",
+      "text": "Ten or twelve poulps now invaded the platform and sides of the _Nautilus_."
+    },
+    {
+      "id": "s175",
+      "text": "We rolled pell-mell into the midst of this nest of serpents, that wriggled on the platform in the waves of blood and ink."
+    },
+    {
+      "id": "s176",
+      "text": "It seemed as though these slimy tentacles sprang up like the hydra’s heads."
+    },
+    {
+      "id": "s177",
+      "text": "Ned Land’s harpoon, at each stroke, was plunged into the staring eyes of the cuttle fish."
+    },
+    {
+      "id": "s178",
+      "text": "But my bold companion was suddenly overturned by the tentacles of a monster he had not been able to avoid."
+    },
+    {
+      "id": "s179",
+      "text": "Ah! how my heart beat with emotion and horror!"
+    },
+    {
+      "id": "s180",
+      "text": "The formidable beak of a cuttlefish was open over Ned Land."
+    },
+    {
+      "id": "s181",
+      "text": "The unhappy man would be cut in two."
+    },
+    {
+      "id": "s182",
+      "text": "I rushed to his succour."
+    },
+    {
+      "id": "s183",
+      "text": "But Captain Nemo was before me; his axe disappeared between the two enormous jaws, and, miraculously saved, the Canadian, rising, plunged his harpoon deep into the triple heart of the poulp."
+    },
+    {
+      "id": "s184",
+      "text": "“I owed myself this revenge!” said the Captain to the Canadian."
+    },
+    {
+      "id": "s185",
+      "text": "Ned bowed without replying."
+    },
+    {
+      "id": "s186",
+      "text": "The combat had lasted a quarter of an hour."
+    },
+    {
+      "id": "s187",
+      "text": "The monsters, vanquished and mutilated, left us at last, and disappeared under the waves."
+    },
+    {
+      "id": "s188",
+      "text": "Captain Nemo, covered with blood, nearly exhausted, gazed upon the sea that had swallowed up one of his companions, and great tears gathered in his eyes."
+    }
+  ]
+}

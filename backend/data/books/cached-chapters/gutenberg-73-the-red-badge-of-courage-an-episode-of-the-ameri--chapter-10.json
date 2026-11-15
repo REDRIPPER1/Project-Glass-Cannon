@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-73-the-red-badge-of-courage-an-episode-of-the-ameri",
+  "ebookId": "73",
+  "edition": "Project Gutenberg eBook #73; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-10",
+  "chapterTitle": "Chapter X.",
+  "contentHash": "sha256:2ee923cced5ae163dced896b2ac70a62014552db3318ea0acb899827f5dd2358",
+  "attribution": "Crane, Stephen, 1871-1900, The Red Badge of Courage: An Episode of the American Civil War, Chapter X.. Source checked against Project Gutenberg eBook #73.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/73",
+    "textUrl": "https://www.gutenberg.org/cache/epub/73/pg73.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The tattered man stood musing."
+    },
+    {
+      "id": "s2",
+      "text": "“Well, he was a reg’lar jim-dandy fer nerve, wa’n’t he,” said he finally in a little awestruck voice."
+    },
+    {
+      "id": "s3",
+      "text": "“A reg’lar jim-dandy.” He thoughtfully poked one of the docile hands with his foot."
+    },
+    {
+      "id": "s4",
+      "text": "“I wonner where he got ’is stren’th from?"
+    },
+    {
+      "id": "s5",
+      "text": "I never seen a man do like that before."
+    },
+    {
+      "id": "s6",
+      "text": "It was a funny thing."
+    },
+    {
+      "id": "s7",
+      "text": "Well, he was a reg’lar jim-dandy.”"
+    },
+    {
+      "id": "s8",
+      "text": "The youth desired to screech out his grief."
+    },
+    {
+      "id": "s9",
+      "text": "He was stabbed, but his tongue lay dead in the tomb of his mouth."
+    },
+    {
+      "id": "s10",
+      "text": "He threw himself again upon the ground and began to brood."
+    },
+    {
+      "id": "s11",
+      "text": "The tattered man stood musing."
+    },
+    {
+      "id": "s12",
+      "text": "“Look-a-here, pardner,” he said, after a time."
+    },
+    {
+      "id": "s13",
+      "text": "He regarded the corpse as he spoke."
+    },
+    {
+      "id": "s14",
+      "text": "“He’s up an’ gone, ain’t ’e, an’ we might as well begin t’ look out fer ol’ number one."
+    },
+    {
+      "id": "s15",
+      "text": "This here thing is all over."
+    },
+    {
+      "id": "s16",
+      "text": "He’s up an’ gone, ain’t ’e?"
+    },
+    {
+      "id": "s17",
+      "text": "An’ he’s all right here."
+    },
+    {
+      "id": "s18",
+      "text": "Nobody won’t bother ’im."
+    },
+    {
+      "id": "s19",
+      "text": "An’ I must say I ain’t enjoying any great health m’self these days.”"
+    },
+    {
+      "id": "s20",
+      "text": "The youth, awakened by the tattered soldier’s tone, looked quickly up."
+    },
+    {
+      "id": "s21",
+      "text": "He saw that he was swinging uncertainly on his legs and that his face had turned to a shade of blue."
+    },
+    {
+      "id": "s22",
+      "text": "“Good Lord!” he cried, “you ain’t goin’ t’—not you, too.”"
+    },
+    {
+      "id": "s23",
+      "text": "The tattered man waved his hand."
+    },
+    {
+      "id": "s24",
+      "text": "“Nary die,” he said."
+    },
+    {
+      "id": "s25",
+      "text": "“All I want is some pea soup an’ a good bed."
+    },
+    {
+      "id": "s26",
+      "text": "Some pea soup,” he repeated dreamfully."
+    },
+    {
+      "id": "s27",
+      "text": "The youth arose from the ground."
+    },
+    {
+      "id": "s28",
+      "text": "“I wonder where he came from."
+    },
+    {
+      "id": "s29",
+      "text": "I left him over there.” He pointed."
+    },
+    {
+      "id": "s30",
+      "text": "“And now I find ’im here."
+    },
+    {
+      "id": "s31",
+      "text": "And he was coming from over there, too.” He indicated a new direction."
+    },
+    {
+      "id": "s32",
+      "text": "They both turned toward the body as if to ask of it a question."
+    },
+    {
+      "id": "s33",
+      "text": "“Well,” at length spoke the tattered man, “there ain’t no use in our stayin’ here an’ tryin’ t’ ask him anything.”"
+    },
+    {
+      "id": "s34",
+      "text": "The youth nodded an assent wearily."
+    },
+    {
+      "id": "s35",
+      "text": "They both turned to gaze for a moment at the corpse."
+    },
+    {
+      "id": "s36",
+      "text": "The youth murmured something."
+    },
+    {
+      "id": "s37",
+      "text": "“Well, he was a jim-dandy, wa’n’t ’e?” said the tattered man as if in response."
+    },
+    {
+      "id": "s38",
+      "text": "They turned their backs upon it and started away."
+    },
+    {
+      "id": "s39",
+      "text": "For a time they stole softly, treading with their toes."
+    },
+    {
+      "id": "s40",
+      "text": "It remained laughing there in the grass."
+    },
+    {
+      "id": "s41",
+      "text": "“I’m commencin’ t’ feel pretty bad,” said the tattered man, suddenly breaking one of his little silences."
+    },
+    {
+      "id": "s42",
+      "text": "“I’m commencin’ t’ feel pretty damn’ bad.”"
+    },
+    {
+      "id": "s43",
+      "text": "The youth groaned."
+    },
+    {
+      "id": "s44",
+      "text": "“Oh Lord!” He wondered if he was to be the tortured witness of another grim encounter."
+    },
+    {
+      "id": "s45",
+      "text": "But his companion waved his hand reassuringly."
+    },
+    {
+      "id": "s46",
+      "text": "“Oh, I’m not goin’ t’ die yit!"
+    },
+    {
+      "id": "s47",
+      "text": "There too much dependin’ on me fer me t’ die yit."
+    },
+    {
+      "id": "s48",
+      "text": "No, sir!"
+    },
+    {
+      "id": "s49",
+      "text": "Nary die!"
+    },
+    {
+      "id": "s50",
+      "text": "I _can’t!_ Ye’d oughta see th’ swad a’ chil’ren I’ve got, an’ all like that.”"
+    },
+    {
+      "id": "s51",
+      "text": "The youth glancing at his companion could see by the shadow of a smile that he was making some kind of fun."
+    },
+    {
+      "id": "s52",
+      "text": "As they plodded on the tattered soldier continued to talk."
+    },
+    {
+      "id": "s53",
+      "text": "“Besides, if I died, I wouldn’t die th’ way that feller did."
+    },
+    {
+      "id": "s54",
+      "text": "That was th’ funniest thing."
+    },
+    {
+      "id": "s55",
+      "text": "I’d jest flop down, I would."
+    },
+    {
+      "id": "s56",
+      "text": "I never seen a feller die th’ way that feller did."
+    },
+    {
+      "id": "s57",
+      "text": "“Yeh know Tom Jamison, he lives next door t’ me up home."
+    },
+    {
+      "id": "s58",
+      "text": "He’s a nice feller, he is, an’ we was allus good friends."
+    },
+    {
+      "id": "s59",
+      "text": "Smart, too."
+    },
+    {
+      "id": "s60",
+      "text": "Smart as a steel trap."
+    },
+    {
+      "id": "s61",
+      "text": "Well, when we was a-fightin’ this atternoon, all-of-a-sudden he begin t’ rip up an’ cuss an’ beller at me. ‘Yer shot, yeh blamed infernal!’—he swear horrible—he ses t’ me."
+    },
+    {
+      "id": "s62",
+      "text": "I put up m’ hand t’ m’ head an’ when I looked at m’ fingers, I seen, sure ’nough, I was shot."
+    },
+    {
+      "id": "s63",
+      "text": "I give a holler an’ begin t’ run, but b’fore I could git away another one hit me in th’ arm an’ whirl’ me clean ’round."
+    },
+    {
+      "id": "s64",
+      "text": "I got skeared when they was all a-shootin’ b’hind me an’ I run t’ beat all, but I cotch it pretty bad."
+    },
+    {
+      "id": "s65",
+      "text": "I’ve an idee I’d a’ been fightin’ yit, if t’wasn’t fer Tom Jamison.”"
+    },
+    {
+      "id": "s66",
+      "text": "Then he made a calm announcement: “There’s two of ’em—little ones—but they’re beginnin’ t’ have fun with me now."
+    },
+    {
+      "id": "s67",
+      "text": "I don’t b’lieve I kin walk much furder.”"
+    },
+    {
+      "id": "s68",
+      "text": "They went slowly on in silence."
+    },
+    {
+      "id": "s69",
+      "text": "“Yeh look pretty peek’ed yerself,” said the tattered man at last."
+    },
+    {
+      "id": "s70",
+      "text": "“I bet yeh’ve got a worser one than yeh think."
+    },
+    {
+      "id": "s71",
+      "text": "Ye’d better take keer of yer hurt."
+    },
+    {
+      "id": "s72",
+      "text": "It don’t do t’ let sech things go."
+    },
+    {
+      "id": "s73",
+      "text": "It might be inside mostly, an’ them plays thunder."
+    },
+    {
+      "id": "s74",
+      "text": "Where is it located?” But he continued his harangue without waiting for a reply."
+    },
+    {
+      "id": "s75",
+      "text": "“I see a feller git hit plum in th’ head when my reg’ment was a-standin’ at ease onct."
+    },
+    {
+      "id": "s76",
+      "text": "An’ everybody yelled to ’im: ‘Hurt, John?"
+    },
+    {
+      "id": "s77",
+      "text": "Are yeh hurt much?’ ‘No,’ ses he."
+    },
+    {
+      "id": "s78",
+      "text": "He looked kinder surprised, an’ he went on tellin’ ’em how he felt."
+    },
+    {
+      "id": "s79",
+      "text": "He sed he didn’t feel nothin’."
+    },
+    {
+      "id": "s80",
+      "text": "But, by dad, th’ first thing that feller knowed he was dead."
+    },
+    {
+      "id": "s81",
+      "text": "Yes, he was dead—stone dead."
+    },
+    {
+      "id": "s82",
+      "text": "So, yeh wanta watch out."
+    },
+    {
+      "id": "s83",
+      "text": "Yeh might have some queer kind ’a hurt yerself."
+    },
+    {
+      "id": "s84",
+      "text": "Yeh can’t never tell."
+    },
+    {
+      "id": "s85",
+      "text": "Where is your’n located?”"
+    },
+    {
+      "id": "s86",
+      "text": "The youth had been wriggling since the introduction of this topic."
+    },
+    {
+      "id": "s87",
+      "text": "He now gave a cry of exasperation and made a furious motion with his hand."
+    },
+    {
+      "id": "s88",
+      "text": "“Oh, don’t bother me!” he said."
+    },
+    {
+      "id": "s89",
+      "text": "He was enraged against the tattered man, and could have strangled him."
+    },
+    {
+      "id": "s90",
+      "text": "His companions seemed ever to play intolerable parts."
+    },
+    {
+      "id": "s91",
+      "text": "They were ever upraising the ghost of shame on the stick of their curiosity."
+    },
+    {
+      "id": "s92",
+      "text": "He turned toward the tattered man as one at bay."
+    },
+    {
+      "id": "s93",
+      "text": "“Now, don’t bother me,” he repeated with desperate menace."
+    },
+    {
+      "id": "s94",
+      "text": "“Well, Lord knows I don’t wanta bother anybody,” said the other."
+    },
+    {
+      "id": "s95",
+      "text": "There was a little accent of despair in his voice as he replied, “Lord knows I’ve gota ’nough m’ own t’ tend to.”"
+    },
+    {
+      "id": "s96",
+      "text": "The youth, who had been holding a bitter debate with himself and casting glances of hatred and contempt at the tattered man, here spoke in a hard voice."
+    },
+    {
+      "id": "s97",
+      "text": "“Good-by,” he said."
+    },
+    {
+      "id": "s98",
+      "text": "The tattered man looked at him in gaping amazement."
+    },
+    {
+      "id": "s99",
+      "text": "“Why—why, pardner, where yeh goin’?” he asked unsteadily."
+    },
+    {
+      "id": "s100",
+      "text": "The youth looking at him, could see that he, too, like that other one, was beginning to act dumb and animal-like."
+    },
+    {
+      "id": "s101",
+      "text": "His thoughts seemed to be floundering about in his head."
+    },
+    {
+      "id": "s102",
+      "text": "“Now—now—look—a—here, you Tom Jamison—now—I won’t have this—this here won’t do."
+    },
+    {
+      "id": "s103",
+      "text": "Where—where yeh goin’?”"
+    },
+    {
+      "id": "s104",
+      "text": "The youth pointed vaguely."
+    },
+    {
+      "id": "s105",
+      "text": "“Over there,” he replied."
+    },
+    {
+      "id": "s106",
+      "text": "“Well, now look—a—here—now,” said the tattered man, rambling on in idiot fashion."
+    },
+    {
+      "id": "s107",
+      "text": "His head was hanging forward and his words were slurred."
+    },
+    {
+      "id": "s108",
+      "text": "“This thing won’t do, now, Tom Jamison."
+    },
+    {
+      "id": "s109",
+      "text": "It won’t do."
+    },
+    {
+      "id": "s110",
+      "text": "I know yeh, yeh pig-headed devil."
+    },
+    {
+      "id": "s111",
+      "text": "Yeh wanta go trompin’ off with a bad hurt."
+    },
+    {
+      "id": "s112",
+      "text": "It ain’t right—now—Tom Jamison—it ain’t."
+    },
+    {
+      "id": "s113",
+      "text": "Yeh wanta leave me take keer of yeh, Tom Jamison."
+    },
+    {
+      "id": "s114",
+      "text": "It ain’t—right—it ain’t—fer yeh t’ go—trompin’ off—with a bad hurt—it ain’t—ain’t—ain’t right—it ain’t.”"
+    },
+    {
+      "id": "s115",
+      "text": "In reply the youth climbed a fence and started away."
+    },
+    {
+      "id": "s116",
+      "text": "He could hear the tattered man bleating plaintively."
+    },
+    {
+      "id": "s117",
+      "text": "Once he faced about angrily."
+    },
+    {
+      "id": "s118",
+      "text": "“What?”"
+    },
+    {
+      "id": "s119",
+      "text": "“Look—a—here, now, Tom Jamison—now—it ain’t—”"
+    },
+    {
+      "id": "s120",
+      "text": "The youth went on."
+    },
+    {
+      "id": "s121",
+      "text": "Turning at a distance he saw the tattered man wandering about helplessly in the field."
+    },
+    {
+      "id": "s122",
+      "text": "He now thought that he wished he was dead."
+    },
+    {
+      "id": "s123",
+      "text": "He believed he envied those men whose bodies lay strewn over the grass of the fields and on the fallen leaves of the forest."
+    },
+    {
+      "id": "s124",
+      "text": "The simple questions of the tattered man had been knife thrusts to him."
+    },
+    {
+      "id": "s125",
+      "text": "They asserted a society that probes pitilessly at secrets until all is apparent."
+    },
+    {
+      "id": "s126",
+      "text": "His late companion’s chance persistency made him feel that he could not keep his crime concealed in his bosom."
+    },
+    {
+      "id": "s127",
+      "text": "It was sure to be brought plain by one of those arrows which cloud the air and are constantly pricking, discovering, proclaiming those things which are willed to be forever hidden."
+    },
+    {
+      "id": "s128",
+      "text": "He admitted that he could not defend himself against this agency."
+    },
+    {
+      "id": "s129",
+      "text": "It was not within the power of vigilance."
+    }
+  ]
+}

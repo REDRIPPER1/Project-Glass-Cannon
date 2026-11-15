@@ -1,0 +1,981 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-64-the-gods-of-mars",
+  "ebookId": "64",
+  "edition": "Project Gutenberg eBook #64; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-22",
+  "chapterTitle": "CHAPTER XXII",
+  "contentHash": "sha256:128e31f1f637d5e8cc04104d34e4900ff30502d9da49d43517e7760e74dc386f",
+  "attribution": "Burroughs, Edgar Rice, 1875-1950, The gods of Mars, CHAPTER XXII. Source checked against Project Gutenberg eBook #64.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/64",
+    "textUrl": "https://www.gutenberg.org/cache/epub/64/pg64.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "VICTORY AND DEFEAT"
+    },
+    {
+      "id": "s2",
+      "text": "“John Carter, John Carter,” she sobbed, with her dear head upon my shoulder; “even now I can scarce believe the witness of my own eyes."
+    },
+    {
+      "id": "s3",
+      "text": "When the girl, Thuvia, told me that you had returned to Barsoom, I listened, but I could not understand, for it seemed that such happiness would be impossible for one who had suffered so in silent loneliness for all these long years."
+    },
+    {
+      "id": "s4",
+      "text": "At last, when I realized that it was truth, and then came to know the awful place in which I was held prisoner, I learned to doubt that even you could reach me here."
+    },
+    {
+      "id": "s5",
+      "text": "“As the days passed, and moon after moon went by without bringing even the faintest rumour of you, I resigned myself to my fate."
+    },
+    {
+      "id": "s6",
+      "text": "And now that you have come, scarce can I believe it."
+    },
+    {
+      "id": "s7",
+      "text": "For an hour I have heard the sounds of conflict within the palace."
+    },
+    {
+      "id": "s8",
+      "text": "I knew not what they meant, but I have hoped against hope that it might be the men of Helium headed by my Prince."
+    },
+    {
+      "id": "s9",
+      "text": "“And tell me, what of Carthoris, our son?”"
+    },
+    {
+      "id": "s10",
+      "text": "“He was with me less than an hour since, Dejah Thoris,” I replied."
+    },
+    {
+      "id": "s11",
+      "text": "“It must have been he whose men you have heard battling within the precincts of the temple."
+    },
+    {
+      "id": "s12",
+      "text": "“Where is Issus?” I asked suddenly."
+    },
+    {
+      "id": "s13",
+      "text": "Dejah Thoris shrugged her shoulders."
+    },
+    {
+      "id": "s14",
+      "text": "“She sent me under guard to this room just before the fighting began within the temple halls."
+    },
+    {
+      "id": "s15",
+      "text": "She said that she would send for me later."
+    },
+    {
+      "id": "s16",
+      "text": "She seemed very angry and somewhat fearful."
+    },
+    {
+      "id": "s17",
+      "text": "Never have I seen her act in so uncertain and almost terrified a manner."
+    },
+    {
+      "id": "s18",
+      "text": "Now I know that it must have been because she had learned that John Carter, Prince of Helium, was approaching to demand an accounting of her for the imprisonment of his Princess.”"
+    },
+    {
+      "id": "s19",
+      "text": "The sounds of conflict, the clash of arms, the shouting and the hurrying of many feet came to us from various parts of the temple."
+    },
+    {
+      "id": "s20",
+      "text": "I knew that I was needed there, but I dared not leave Dejah Thoris, nor dared I take her with me into the turmoil and danger of battle."
+    },
+    {
+      "id": "s21",
+      "text": "At last I bethought me of the pits from which I had just emerged."
+    },
+    {
+      "id": "s22",
+      "text": "Why not secrete her there until I could return and fetch her away in safety and for ever from this awful place."
+    },
+    {
+      "id": "s23",
+      "text": "I explained my plan to her."
+    },
+    {
+      "id": "s24",
+      "text": "For a moment she clung more closely to me."
+    },
+    {
+      "id": "s25",
+      "text": "“I cannot bear to be parted from you now, even for a moment, John Carter,” she said."
+    },
+    {
+      "id": "s26",
+      "text": "“I shudder at the thought of being alone again where that terrible creature might discover me."
+    },
+    {
+      "id": "s27",
+      "text": "You do not know her."
+    },
+    {
+      "id": "s28",
+      "text": "None can imagine her ferocious cruelty who has not witnessed her daily acts for over half a year."
+    },
+    {
+      "id": "s29",
+      "text": "It has taken me nearly all this time to realize even the things that I have seen with my own eyes.”"
+    },
+    {
+      "id": "s30",
+      "text": "“I shall not leave you, then, my Princess,” I replied."
+    },
+    {
+      "id": "s31",
+      "text": "She was silent for a moment, then she drew my face to hers and kissed me."
+    },
+    {
+      "id": "s32",
+      "text": "“Go, John Carter,” she said."
+    },
+    {
+      "id": "s33",
+      "text": "“Our son is there, and the soldiers of Helium, fighting for the Princess of Helium."
+    },
+    {
+      "id": "s34",
+      "text": "Where they are you should be."
+    },
+    {
+      "id": "s35",
+      "text": "I must not think of myself now, but of them and of my husband’s duty."
+    },
+    {
+      "id": "s36",
+      "text": "I may not stand in the way of that."
+    },
+    {
+      "id": "s37",
+      "text": "Hide me in the pits, and go.”"
+    },
+    {
+      "id": "s38",
+      "text": "I led her to the door through which I had entered the chamber from below."
+    },
+    {
+      "id": "s39",
+      "text": "There I pressed her dear form to me, and then, though it tore my heart to do it, and filled me only with the blackest shadows of terrible foreboding, I guided her across the threshold, kissed her once again, and closed the door upon her."
+    },
+    {
+      "id": "s40",
+      "text": "Without hesitating longer, I hurried from the chamber in the direction of the greatest tumult."
+    },
+    {
+      "id": "s41",
+      "text": "Scarce half a dozen chambers had I traversed before I came upon the theatre of a fierce struggle."
+    },
+    {
+      "id": "s42",
+      "text": "The blacks were massed at the entrance to a great chamber where they were attempting to block the further progress of a body of red men toward the inner sacred precincts of the temple."
+    },
+    {
+      "id": "s43",
+      "text": "Coming from within as I did, I found myself behind the blacks, and, without waiting to even calculate their numbers or the foolhardiness of my venture, I charged swiftly across the chamber and fell upon them from the rear with my keen long-sword."
+    },
+    {
+      "id": "s44",
+      "text": "As I struck the first blow I cried aloud, “For Helium!” And then I rained cut after cut upon the surprised warriors, while the reds without took heart at the sound of my voice, and with shouts of “John Carter!"
+    },
+    {
+      "id": "s45",
+      "text": "John Carter!” redoubled their efforts so effectually that before the blacks could recover from their temporary demoralization their ranks were broken and the red men had burst into the chamber."
+    },
+    {
+      "id": "s46",
+      "text": "The fight within that room, had it had but a competent chronicler, would go down in the annals of Barsoom as a historic memorial to the grim ferocity of her warlike people."
+    },
+    {
+      "id": "s47",
+      "text": "Five hundred men fought there that day, the black men against the red."
+    },
+    {
+      "id": "s48",
+      "text": "No man asked quarter or gave it."
+    },
+    {
+      "id": "s49",
+      "text": "As though by common assent they fought, as though to determine once and for all their right to live, in accordance with the law of the survival of the fittest."
+    },
+    {
+      "id": "s50",
+      "text": "I think we all knew that upon the outcome of this battle would hinge for ever the relative positions of these two races upon Barsoom."
+    },
+    {
+      "id": "s51",
+      "text": "It was a battle between the old and the new, but not for once did I question the outcome of it."
+    },
+    {
+      "id": "s52",
+      "text": "With Carthoris at my side I fought for the red men of Barsoom and for their total emancipation from the throttling bondage of a hideous superstition."
+    },
+    {
+      "id": "s53",
+      "text": "Back and forth across the room we surged, until the floor was ankle deep in blood, and dead men lay so thickly there that half the time we stood upon their bodies as we fought."
+    },
+    {
+      "id": "s54",
+      "text": "As we swung toward the great windows which overlooked the gardens of Issus a sight met my gaze which sent a wave of exultation over me."
+    },
+    {
+      "id": "s55",
+      "text": "“Look!” I cried."
+    },
+    {
+      "id": "s56",
+      "text": "“Men of the First Born, look!”"
+    },
+    {
+      "id": "s57",
+      "text": "For an instant the fighting ceased, and with one accord every eye turned in the direction I had indicated, and the sight they saw was one no man of the First Born had ever imagined could be."
+    },
+    {
+      "id": "s58",
+      "text": "Across the gardens, from side to side, stood a wavering line of black warriors, while beyond them and forcing them ever back was a great horde of green warriors astride their mighty thoats."
+    },
+    {
+      "id": "s59",
+      "text": "And as we watched, one, fiercer and more grimly terrible than his fellows, rode forward from the rear, and as he came he shouted some fierce command to his terrible legion."
+    },
+    {
+      "id": "s60",
+      "text": "It was Tars Tarkas, Jeddak of Thark, and as he couched his great forty-foot metal-shod lance we saw his warriors do likewise."
+    },
+    {
+      "id": "s61",
+      "text": "Then it was that we interpreted his command."
+    },
+    {
+      "id": "s62",
+      "text": "Twenty yards now separated the green men from the black line."
+    },
+    {
+      "id": "s63",
+      "text": "Another word from the great Thark, and with a wild and terrifying battle-cry the green warriors charged."
+    },
+    {
+      "id": "s64",
+      "text": "For a moment the black line held, but only for a moment—then the fearsome beasts that bore equally terrible riders passed completely through it."
+    },
+    {
+      "id": "s65",
+      "text": "After them came utan upon utan of red men."
+    },
+    {
+      "id": "s66",
+      "text": "The green horde broke to surround the temple."
+    },
+    {
+      "id": "s67",
+      "text": "The red men charged for the interior, and then we turned to continue our interrupted battle; but our foes had vanished."
+    },
+    {
+      "id": "s68",
+      "text": "My first thought was of Dejah Thoris."
+    },
+    {
+      "id": "s69",
+      "text": "Calling to Carthoris that I had found his mother, I started on a run toward the chamber where I had left her, with my boy close beside me."
+    },
+    {
+      "id": "s70",
+      "text": "After us came those of our little force who had survived the bloody conflict."
+    },
+    {
+      "id": "s71",
+      "text": "The moment I entered the room I saw that some one had been there since I had left."
+    },
+    {
+      "id": "s72",
+      "text": "A silk lay upon the floor."
+    },
+    {
+      "id": "s73",
+      "text": "It had not been there before."
+    },
+    {
+      "id": "s74",
+      "text": "There were also a dagger and several metal ornaments strewn about as though torn from their wearer in a struggle."
+    },
+    {
+      "id": "s75",
+      "text": "But worst of all, the door leading to the pits where I had hidden my Princess was ajar."
+    },
+    {
+      "id": "s76",
+      "text": "With a bound I was before it, and, thrusting it open, rushed within."
+    },
+    {
+      "id": "s77",
+      "text": "Dejah Thoris had vanished."
+    },
+    {
+      "id": "s78",
+      "text": "I called her name aloud again and again, but there was no response."
+    },
+    {
+      "id": "s79",
+      "text": "I think in that instant I hovered upon the verge of insanity."
+    },
+    {
+      "id": "s80",
+      "text": "I do not recall what I said or did, but I know that for an instant I was seized with the rage of a maniac."
+    },
+    {
+      "id": "s81",
+      "text": "“Issus!” I cried."
+    },
+    {
+      "id": "s82",
+      "text": "“Issus!"
+    },
+    {
+      "id": "s83",
+      "text": "Where is Issus?"
+    },
+    {
+      "id": "s84",
+      "text": "Search the temple for her, but let no man harm her but John Carter."
+    },
+    {
+      "id": "s85",
+      "text": "Carthoris, where are the apartments of Issus?”"
+    },
+    {
+      "id": "s86",
+      "text": "“This way,” cried the boy, and, without waiting to know that I had heard him, he dashed off at breakneck speed, further into the bowels of the temple."
+    },
+    {
+      "id": "s87",
+      "text": "As fast as he went, however, I was still beside him, urging him on to greater speed."
+    },
+    {
+      "id": "s88",
+      "text": "At last we came to a great carved door, and through this Carthoris dashed, a foot ahead of me."
+    },
+    {
+      "id": "s89",
+      "text": "Within, we came upon such a scene as I had witnessed within the temple once before—the throne of Issus, with the reclining slaves, and about it the ranks of soldiery."
+    },
+    {
+      "id": "s90",
+      "text": "We did not even give the men a chance to draw, so quickly were we upon them."
+    },
+    {
+      "id": "s91",
+      "text": "With a single cut I struck down two in the front rank."
+    },
+    {
+      "id": "s92",
+      "text": "And then by the mere weight and momentum of my body, I rushed completely through the two remaining ranks and sprang upon the dais beside the carved sorapus throne."
+    },
+    {
+      "id": "s93",
+      "text": "The repulsive creature, squatting there in terror, attempted to escape me and leap into a trap behind her."
+    },
+    {
+      "id": "s94",
+      "text": "But this time I was not to be outwitted by any such petty subterfuge."
+    },
+    {
+      "id": "s95",
+      "text": "Before she had half arisen I had grasped her by the arm, and then, as I saw the guard starting to make a concerted rush upon me from all sides, I whipped out my dagger and, holding it close to that vile breast, ordered them to halt."
+    },
+    {
+      "id": "s96",
+      "text": "“Back!” I cried to them."
+    },
+    {
+      "id": "s97",
+      "text": "“Back!"
+    },
+    {
+      "id": "s98",
+      "text": "The first black foot that is planted upon this platform sends my dagger into Issus’ heart.”"
+    },
+    {
+      "id": "s99",
+      "text": "For an instant they hesitated."
+    },
+    {
+      "id": "s100",
+      "text": "Then an officer ordered them back, while from the outer corridor there swept into the throne room at the heels of my little party of survivors a full thousand red men under Kantos Kan, Hor Vastus, and Xodar."
+    },
+    {
+      "id": "s101",
+      "text": "“Where is Dejah Thoris?” I cried to the thing within my hands."
+    },
+    {
+      "id": "s102",
+      "text": "For a moment her eyes roved wildly about the scene beneath her."
+    },
+    {
+      "id": "s103",
+      "text": "I think that it took a moment for the true condition to make any impression upon her—she could not at first realize that the temple had fallen before the assault of men of the outer world."
+    },
+    {
+      "id": "s104",
+      "text": "When she did, there must have come, too, a terrible realization of what it meant to her—the loss of power—humiliation—the exposure of the fraud and imposture which she had for so long played upon her own people."
+    },
+    {
+      "id": "s105",
+      "text": "There was just one thing needed to complete the reality of the picture she was seeing, and that was added by the highest noble of her realm—the high priest of her religion—the prime minister of her government."
+    },
+    {
+      "id": "s106",
+      "text": "“Issus, Goddess of Death, and of Life Eternal,” he cried, “arise in the might of thy righteous wrath and with one single wave of thy omnipotent hand strike dead thy blasphemers!"
+    },
+    {
+      "id": "s107",
+      "text": "Let not one escape."
+    },
+    {
+      "id": "s108",
+      "text": "Issus, thy people depend upon thee."
+    },
+    {
+      "id": "s109",
+      "text": "Daughter of the Lesser Moon, thou only art all-powerful."
+    },
+    {
+      "id": "s110",
+      "text": "Thou only canst save thy people."
+    },
+    {
+      "id": "s111",
+      "text": "I am done."
+    },
+    {
+      "id": "s112",
+      "text": "We await thy will."
+    },
+    {
+      "id": "s113",
+      "text": "Strike!”"
+    },
+    {
+      "id": "s114",
+      "text": "And then it was that she went mad."
+    },
+    {
+      "id": "s115",
+      "text": "A screaming, gibbering maniac writhed in my grasp."
+    },
+    {
+      "id": "s116",
+      "text": "It bit and clawed and scratched in impotent fury."
+    },
+    {
+      "id": "s117",
+      "text": "And then it laughed a weird and terrible laughter that froze the blood."
+    },
+    {
+      "id": "s118",
+      "text": "The slave girls upon the dais shrieked and cowered away."
+    },
+    {
+      "id": "s119",
+      "text": "And the thing jumped at them and gnashed its teeth and then spat upon them from frothing lips."
+    },
+    {
+      "id": "s120",
+      "text": "God, but it was a horrid sight."
+    },
+    {
+      "id": "s121",
+      "text": "Finally, I shook the thing, hoping to recall it for a moment to rationality."
+    },
+    {
+      "id": "s122",
+      "text": "“Where is Dejah Thoris?” I cried again."
+    },
+    {
+      "id": "s123",
+      "text": "The awful creature in my grasp mumbled inarticulately for a moment, then a sudden gleam of cunning shot into those hideous, close-set eyes."
+    },
+    {
+      "id": "s124",
+      "text": "“Dejah Thoris?"
+    },
+    {
+      "id": "s125",
+      "text": "Dejah Thoris?” and then that shrill, unearthly laugh pierced our ears once more."
+    },
+    {
+      "id": "s126",
+      "text": "“Yes, Dejah Thoris—I know."
+    },
+    {
+      "id": "s127",
+      "text": "And Thuvia, and Phaidor, daughter of Matai Shang."
+    },
+    {
+      "id": "s128",
+      "text": "They each love John Carter."
+    },
+    {
+      "id": "s129",
+      "text": "Ha-ah! but it is droll."
+    },
+    {
+      "id": "s130",
+      "text": "Together for a year they will meditate within the Temple of the Sun, but ere the year is quite gone there will be no more food for them."
+    },
+    {
+      "id": "s131",
+      "text": "Ho-oh! what divine entertainment,” and she licked the froth from her cruel lips."
+    },
+    {
+      "id": "s132",
+      "text": "“There will be no more food—except each other."
+    },
+    {
+      "id": "s133",
+      "text": "Ha-ah!"
+    },
+    {
+      "id": "s134",
+      "text": "Ha-ah!”"
+    },
+    {
+      "id": "s135",
+      "text": "The horror of the suggestion nearly paralysed me."
+    },
+    {
+      "id": "s136",
+      "text": "To this awful fate the creature within my power had condemned my Princess."
+    },
+    {
+      "id": "s137",
+      "text": "I trembled in the ferocity of my rage."
+    },
+    {
+      "id": "s138",
+      "text": "As a terrier shakes a rat I shook Issus, Goddess of Life Eternal."
+    },
+    {
+      "id": "s139",
+      "text": "“Countermand your orders!” I cried."
+    },
+    {
+      "id": "s140",
+      "text": "“Recall the condemned."
+    },
+    {
+      "id": "s141",
+      "text": "Haste, or you die!”"
+    },
+    {
+      "id": "s142",
+      "text": "“It is too late."
+    },
+    {
+      "id": "s143",
+      "text": "Ha-ah!"
+    },
+    {
+      "id": "s144",
+      "text": "Ha-ah!” and then she commenced her gibbering and shrieking again."
+    },
+    {
+      "id": "s145",
+      "text": "Almost of its own volition, my dagger flew up above that putrid heart."
+    },
+    {
+      "id": "s146",
+      "text": "But something stayed my hand, and I am now glad that it did."
+    },
+    {
+      "id": "s147",
+      "text": "It were a terrible thing to have struck down a woman with one’s own hand."
+    },
+    {
+      "id": "s148",
+      "text": "But a fitter fate occurred to me for this false deity."
+    },
+    {
+      "id": "s149",
+      "text": "“First Born,” I cried, turning to those who stood within the chamber, “you have seen to-day the impotency of Issus—the gods are impotent."
+    },
+    {
+      "id": "s150",
+      "text": "Issus is no god."
+    },
+    {
+      "id": "s151",
+      "text": "She is a cruel and wicked old woman, who has deceived and played upon you for ages."
+    },
+    {
+      "id": "s152",
+      "text": "Take her."
+    },
+    {
+      "id": "s153",
+      "text": "John Carter, Prince of Helium, would not contaminate his hand with her blood,” and with that I pushed the raving beast, whom a short half-hour before a whole world had worshipped as divine, from the platform of her throne into the waiting clutches of her betrayed and vengeful people."
+    },
+    {
+      "id": "s154",
+      "text": "Spying Xodar among the officers of the red men, I called him to lead me quickly to the Temple of the Sun, and, without waiting to learn what fate the First Born would wreak upon their goddess, I rushed from the chamber with Xodar, Carthoris, Hor Vastus, Kantos Kan, and a score of other red nobles."
+    },
+    {
+      "id": "s155",
+      "text": "The black led us rapidly through the inner chambers of the temple, until we stood within the central court—a great circular space paved with a transparent marble of exquisite whiteness."
+    },
+    {
+      "id": "s156",
+      "text": "Before us rose a golden temple wrought in the most wondrous and fanciful designs, inlaid with diamond, ruby, sapphire, turquoise, emerald, and the thousand nameless gems of Mars, which far transcend in loveliness and purity of ray the most priceless stones of Earth."
+    },
+    {
+      "id": "s157",
+      "text": "“This way,” cried Xodar, leading us toward the entrance to a tunnel which opened in the courtyard beside the temple."
+    },
+    {
+      "id": "s158",
+      "text": "Just as we were on the point of descending we heard a deep-toned roar burst from the Temple of Issus, which we had but just quitted, and then a red man, Djor Kantos, padwar of the fifth utan, broke from a nearby gate, crying to us to return."
+    },
+    {
+      "id": "s159",
+      "text": "“The blacks have fired the temple,” he cried."
+    },
+    {
+      "id": "s160",
+      "text": "“In a thousand places it is burning now."
+    },
+    {
+      "id": "s161",
+      "text": "Haste to the outer gardens, or you are lost.”"
+    },
+    {
+      "id": "s162",
+      "text": "As he spoke we saw smoke pouring from a dozen windows looking out upon the courtyard of the Temple of the Sun, and far above the highest minaret of Issus hung an ever-growing pall of smoke."
+    },
+    {
+      "id": "s163",
+      "text": "“Go back!"
+    },
+    {
+      "id": "s164",
+      "text": "Go back!” I cried to those who had accompanied me."
+    },
+    {
+      "id": "s165",
+      "text": "“The way!"
+    },
+    {
+      "id": "s166",
+      "text": "Xodar; point the way and leave me."
+    },
+    {
+      "id": "s167",
+      "text": "I shall reach my Princess yet.”"
+    },
+    {
+      "id": "s168",
+      "text": "“Follow me, John Carter,” replied Xodar, and without waiting for my reply he dashed down into the tunnel at our feet."
+    },
+    {
+      "id": "s169",
+      "text": "At his heels I ran down through a half-dozen tiers of galleries, until at last he led me along a level floor at the end of which I discerned a lighted chamber."
+    },
+    {
+      "id": "s170",
+      "text": "Massive bars blocked our further progress, but beyond I saw her—my incomparable Princess, and with her were Thuvia and Phaidor."
+    },
+    {
+      "id": "s171",
+      "text": "When she saw me she rushed toward the bars that separated us."
+    },
+    {
+      "id": "s172",
+      "text": "Already the chamber had turned upon its slow way so far that but a portion of the opening in the temple wall was opposite the barred end of the corridor."
+    },
+    {
+      "id": "s173",
+      "text": "Slowly the interval was closing."
+    },
+    {
+      "id": "s174",
+      "text": "In a short time there would be but a tiny crack, and then even that would be closed, and for a long Barsoomian year the chamber would slowly revolve until once more for a brief day the aperture in its wall would pass the corridor’s end."
+    },
+    {
+      "id": "s175",
+      "text": "But in the meantime what horrible things would go on within that chamber!"
+    },
+    {
+      "id": "s176",
+      "text": "“Xodar!” I cried."
+    },
+    {
+      "id": "s177",
+      "text": "“Can no power stop this awful revolving thing?"
+    },
+    {
+      "id": "s178",
+      "text": "Is there none who holds the secret of these terrible bars?”"
+    },
+    {
+      "id": "s179",
+      "text": "“None, I fear, whom we could fetch in time, though I shall go and make the attempt."
+    },
+    {
+      "id": "s180",
+      "text": "Wait for me here.”"
+    },
+    {
+      "id": "s181",
+      "text": "After he had left I stood and talked with Dejah Thoris, and she stretched her dear hand through those cruel bars that I might hold it until the last moment."
+    },
+    {
+      "id": "s182",
+      "text": "Thuvia and Phaidor came close also, but when Thuvia saw that we would be alone she withdrew to the further side of the chamber."
+    },
+    {
+      "id": "s183",
+      "text": "Not so the daughter of Matai Shang."
+    },
+    {
+      "id": "s184",
+      "text": "“John Carter,” she said, “this be the last time that you shall see any of us."
+    },
+    {
+      "id": "s185",
+      "text": "Tell me that you love me, that I may die happy.”"
+    },
+    {
+      "id": "s186",
+      "text": "“I love only the Princess of Helium,” I replied quietly."
+    },
+    {
+      "id": "s187",
+      "text": "“I am sorry, Phaidor, but it is as I have told you from the beginning.”"
+    },
+    {
+      "id": "s188",
+      "text": "She bit her lip and turned away, but not before I saw the black and ugly scowl she turned upon Dejah Thoris."
+    },
+    {
+      "id": "s189",
+      "text": "Thereafter she stood a little way apart, but not so far as I should have desired, for I had many little confidences to impart to my long-lost love."
+    },
+    {
+      "id": "s190",
+      "text": "For a few minutes we stood thus talking in low tones."
+    },
+    {
+      "id": "s191",
+      "text": "Ever smaller and smaller grew the opening."
+    },
+    {
+      "id": "s192",
+      "text": "In a short time now it would be too small even to permit the slender form of my Princess to pass."
+    },
+    {
+      "id": "s193",
+      "text": "Oh, why did not Xodar haste."
+    },
+    {
+      "id": "s194",
+      "text": "Above we could hear the faint echoes of a great tumult."
+    },
+    {
+      "id": "s195",
+      "text": "It was the multitude of black and red and green men fighting their way through the fire from the burning Temple of Issus."
+    },
+    {
+      "id": "s196",
+      "text": "A draught from above brought the fumes of smoke to our nostrils."
+    },
+    {
+      "id": "s197",
+      "text": "As we stood waiting for Xodar the smoke became thicker and thicker."
+    },
+    {
+      "id": "s198",
+      "text": "Presently we heard shouting at the far end of the corridor, and hurrying feet."
+    },
+    {
+      "id": "s199",
+      "text": "“Come back, John Carter, come back!” cried a voice, “even the pits are burning.”"
+    },
+    {
+      "id": "s200",
+      "text": "In a moment a dozen men broke through the now blinding smoke to my side."
+    },
+    {
+      "id": "s201",
+      "text": "There was Carthoris, and Kantos Kan, and Hor Vastus, and Xodar, with a few more who had followed me to the temple court."
+    },
+    {
+      "id": "s202",
+      "text": "“There is no hope, John Carter,” cried Xodar."
+    },
+    {
+      "id": "s203",
+      "text": "“The keeper of the keys is dead and his keys are not upon his carcass."
+    },
+    {
+      "id": "s204",
+      "text": "Our only hope is to quench this conflagration and trust to fate that a year will find your Princess alive and well."
+    },
+    {
+      "id": "s205",
+      "text": "I have brought sufficient food to last them."
+    },
+    {
+      "id": "s206",
+      "text": "When this crack closes no smoke can reach them, and if we hasten to extinguish the flames I believe they will be safe.”"
+    },
+    {
+      "id": "s207",
+      "text": "“Go, then, yourself and take these others with you,” I replied."
+    },
+    {
+      "id": "s208",
+      "text": "“I shall remain here beside my Princess until a merciful death releases me from my anguish."
+    },
+    {
+      "id": "s209",
+      "text": "I care not to live.”"
+    },
+    {
+      "id": "s210",
+      "text": "As I spoke Xodar had been tossing a great number of tiny cans within the prison cell."
+    },
+    {
+      "id": "s211",
+      "text": "The remaining crack was not over an inch in width a moment later."
+    },
+    {
+      "id": "s212",
+      "text": "Dejah Thoris stood as close to it as she could, whispering words of hope and courage to me, and urging me to save myself."
+    },
+    {
+      "id": "s213",
+      "text": "Suddenly beyond her I saw the beautiful face of Phaidor contorted into an expression of malign hatred."
+    },
+    {
+      "id": "s214",
+      "text": "As my eyes met hers she spoke."
+    },
+    {
+      "id": "s215",
+      "text": "“Think not, John Carter, that you may so lightly cast aside the love of Phaidor, daughter of Matai Shang."
+    },
+    {
+      "id": "s216",
+      "text": "Nor ever hope to hold thy Dejah Thoris in thy arms again."
+    },
+    {
+      "id": "s217",
+      "text": "Wait you the long, long year; but know that when the waiting is over it shall be Phaidor’s arms which shall welcome you—not those of the Princess of Helium."
+    },
+    {
+      "id": "s218",
+      "text": "Behold, she dies!”"
+    },
+    {
+      "id": "s219",
+      "text": "And as she finished speaking I saw her raise a dagger on high, and then I saw another figure."
+    },
+    {
+      "id": "s220",
+      "text": "It was Thuvia’s."
+    },
+    {
+      "id": "s221",
+      "text": "As the dagger fell toward the unprotected breast of my love, Thuvia was almost between them."
+    },
+    {
+      "id": "s222",
+      "text": "A blinding gust of smoke blotted out the tragedy within that fearsome cell—a shriek rang out, a single shriek, as the dagger fell."
+    },
+    {
+      "id": "s223",
+      "text": "The smoke cleared away, but we stood gazing upon a blank wall."
+    },
+    {
+      "id": "s224",
+      "text": "The last crevice had closed, and for a long year that hideous chamber would retain its secret from the eyes of men."
+    },
+    {
+      "id": "s225",
+      "text": "They urged me to leave."
+    },
+    {
+      "id": "s226",
+      "text": "“In a moment it will be too late,” cried Xodar."
+    },
+    {
+      "id": "s227",
+      "text": "“There is, in fact, but a bare chance that we can come through to the outer garden alive even now."
+    },
+    {
+      "id": "s228",
+      "text": "I have ordered the pumps started, and in five minutes the pits will be flooded."
+    },
+    {
+      "id": "s229",
+      "text": "If we would not drown like rats in a trap we must hasten above and make a dash for safety through the burning temple.”"
+    },
+    {
+      "id": "s230",
+      "text": "“Go,” I urged them."
+    },
+    {
+      "id": "s231",
+      "text": "“Let me die here beside my Princess—there is no hope or happiness elsewhere for me."
+    },
+    {
+      "id": "s232",
+      "text": "When they carry her dear body from that terrible place a year hence let them find the body of her lord awaiting her.”"
+    },
+    {
+      "id": "s233",
+      "text": "Of what happened after that I have only a confused recollection."
+    },
+    {
+      "id": "s234",
+      "text": "It seems as though I struggled with many men, and then that I was picked bodily from the ground and borne away."
+    },
+    {
+      "id": "s235",
+      "text": "I do not know."
+    },
+    {
+      "id": "s236",
+      "text": "I have never asked, nor has any other who was there that day intruded on my sorrow or recalled to my mind the occurrences which they know could but at best reopen the terrible wound within my heart."
+    },
+    {
+      "id": "s237",
+      "text": "Ah!"
+    },
+    {
+      "id": "s238",
+      "text": "If I could but know one thing, what a burden of suspense would be lifted from my shoulders!"
+    },
+    {
+      "id": "s239",
+      "text": "But whether the assassin’s dagger reached one fair bosom or another, only time will divulge."
+    },
+    {
+      "id": "s240",
+      "text": "*** x-header ***"
+    }
+  ]
+}

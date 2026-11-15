@@ -1,0 +1,821 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-91-tom-sawyer-abroad",
+  "ebookId": "91",
+  "edition": "Project Gutenberg eBook #91; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-3",
+  "chapterTitle": "CHAPTER III.",
+  "contentHash": "sha256:7c3917772a95b2633c2aeba866820f41a499eabadcb72ac22f14ab602fb3f89f",
+  "attribution": "Twain, Mark, 1835-1910, Tom Sawyer Abroad, CHAPTER III.. Source checked against Project Gutenberg eBook #91.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/91",
+    "textUrl": "https://www.gutenberg.org/cache/epub/91/pg91.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "TOM EXPLAINS"
+    },
+    {
+      "id": "s2",
+      "text": "We went to sleep about four o’clock, and woke up about eight."
+    },
+    {
+      "id": "s3",
+      "text": "The professor was setting back there at his end, looking glum."
+    },
+    {
+      "id": "s4",
+      "text": "He pitched us some breakfast, but he told us not to come abaft the midship compass."
+    },
+    {
+      "id": "s5",
+      "text": "That was about the middle of the boat."
+    },
+    {
+      "id": "s6",
+      "text": "Well, when you are sharp-set, and you eat and satisfy yourself, everything looks pretty different from what it done before."
+    },
+    {
+      "id": "s7",
+      "text": "It makes a body feel pretty near comfortable, even when he is up in a balloon with a genius."
+    },
+    {
+      "id": "s8",
+      "text": "We got to talking together."
+    },
+    {
+      "id": "s9",
+      "text": "There was one thing that kept bothering me, and by and by I says:"
+    },
+    {
+      "id": "s10",
+      "text": "“Tom, didn’t we start east?”"
+    },
+    {
+      "id": "s11",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s12",
+      "text": "“How fast have we been going?”"
+    },
+    {
+      "id": "s13",
+      "text": "“Well, you heard what the professor said when he was raging round."
+    },
+    {
+      "id": "s14",
+      "text": "Sometimes, he said, we was making fifty miles an hour, sometimes ninety, sometimes a hundred; said that with a gale to help he could make three hundred any time, and said if he wanted the gale, and wanted it blowing the right direction, he only had to go up higher or down lower to find it.”"
+    },
+    {
+      "id": "s15",
+      "text": "“Well, then, it’s just as I reckoned."
+    },
+    {
+      "id": "s16",
+      "text": "The professor lied.”"
+    },
+    {
+      "id": "s17",
+      "text": "“Why?”"
+    },
+    {
+      "id": "s18",
+      "text": "“Because if we was going so fast we ought to be past Illinois, oughtn’t we?”"
+    },
+    {
+      "id": "s19",
+      "text": "“Certainly.”"
+    },
+    {
+      "id": "s20",
+      "text": "“Well, we ain’t.”"
+    },
+    {
+      "id": "s21",
+      "text": "“What’s the reason we ain’t?”"
+    },
+    {
+      "id": "s22",
+      "text": "“I know by the color."
+    },
+    {
+      "id": "s23",
+      "text": "We’re right over Illinois yet."
+    },
+    {
+      "id": "s24",
+      "text": "And you can see for yourself that Indiana ain’t in sight.”"
+    },
+    {
+      "id": "s25",
+      "text": "“I wonder what’s the matter with you, Huck."
+    },
+    {
+      "id": "s26",
+      "text": "You know by the _color?_”"
+    },
+    {
+      "id": "s27",
+      "text": "“Yes, of course I do.”"
+    },
+    {
+      "id": "s28",
+      "text": "“What’s the color got to do with it?”"
+    },
+    {
+      "id": "s29",
+      "text": "“It’s got everything to do with it."
+    },
+    {
+      "id": "s30",
+      "text": "Illinois is green, Indiana is pink."
+    },
+    {
+      "id": "s31",
+      "text": "You show me any pink down here, if you can."
+    },
+    {
+      "id": "s32",
+      "text": "No, sir; it’s green.”"
+    },
+    {
+      "id": "s33",
+      "text": "“Indiana _pink?_ Why, what a lie!”"
+    },
+    {
+      "id": "s34",
+      "text": "“It ain’t no lie; I’ve seen it on the map, and it’s pink.”"
+    },
+    {
+      "id": "s35",
+      "text": "You never see a person so aggravated and disgusted."
+    },
+    {
+      "id": "s36",
+      "text": "He says:"
+    },
+    {
+      "id": "s37",
+      "text": "“Well, if I was such a numbskull as you, Huck Finn, I would jump over."
+    },
+    {
+      "id": "s38",
+      "text": "Seen it on the map!"
+    },
+    {
+      "id": "s39",
+      "text": "Huck Finn, did you reckon the States was the same color out-of-doors as they are on the map?”"
+    },
+    {
+      "id": "s40",
+      "text": "“Tom Sawyer, what’s a map for?"
+    },
+    {
+      "id": "s41",
+      "text": "Ain’t it to learn you facts?”"
+    },
+    {
+      "id": "s42",
+      "text": "“Of course.”"
+    },
+    {
+      "id": "s43",
+      "text": "“Well, then, how’s it going to do that if it tells lies?"
+    },
+    {
+      "id": "s44",
+      "text": "That’s what I want to know.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Shucks, you muggins!"
+    },
+    {
+      "id": "s46",
+      "text": "It don’t tell lies.”"
+    },
+    {
+      "id": "s47",
+      "text": "“It don’t, don’t it?”"
+    },
+    {
+      "id": "s48",
+      "text": "“No, it don’t.”"
+    },
+    {
+      "id": "s49",
+      "text": "“All right, then; if it don’t, there ain’t no two States the same color."
+    },
+    {
+      "id": "s50",
+      "text": "You git around _that_ if you can, Tom Sawyer.”"
+    },
+    {
+      "id": "s51",
+      "text": "He see I had him, and Jim see it too; and I tell you, I felt pretty good, for Tom Sawyer was always a hard person to git ahead of."
+    },
+    {
+      "id": "s52",
+      "text": "Jim slapped his leg and says:"
+    },
+    {
+      "id": "s53",
+      "text": "“I tell _you!_ dat’s smart, dat’s right down smart."
+    },
+    {
+      "id": "s54",
+      "text": "Ain’t no use, Mars Tom; he got you _dis_ time, sho’!” He slapped his leg again, and says, “My _lan_’, but it was smart one!”"
+    },
+    {
+      "id": "s55",
+      "text": "I never felt so good in my life; and yet I didn’t know I was saying anything much till it was out."
+    },
+    {
+      "id": "s56",
+      "text": "I was just mooning along, perfectly careless, and not expecting anything was going to happen, and never _thinking_ of such a thing at all, when, all of a sudden, out it came."
+    },
+    {
+      "id": "s57",
+      "text": "Why, it was just as much a surprise to me as it was to any of them."
+    },
+    {
+      "id": "s58",
+      "text": "It was just the same way it is when a person is munching along on a hunk of corn-pone, and not thinking about anything, and all of a sudden bites into a di’mond."
+    },
+    {
+      "id": "s59",
+      "text": "Now all that _he_ knows first off is that it’s some kind of gravel he’s bit into; but he don’t find out it’s a di’mond till he gits it out and brushes off the sand and crumbs and one thing or another, and has a look at it, and then he’s surprised and glad—yes, and proud too; though when you come to look the thing straight in the eye, he ain’t entitled to as much credit as he would ’a’ been if he’d been _hunting_ di’monds."
+    },
+    {
+      "id": "s60",
+      "text": "You can see the difference easy if you think it over."
+    },
+    {
+      "id": "s61",
+      "text": "You see, an accident, that way, ain’t fairly as big a thing as a thing that’s done a-purpose."
+    },
+    {
+      "id": "s62",
+      "text": "Anybody could find that di’mond in that corn-pone; but mind you, it’s got to be somebody that’s got _that kind of a corn-pone_."
+    },
+    {
+      "id": "s63",
+      "text": "That’s where that feller’s credit comes in, you see; and that’s where mine comes in."
+    },
+    {
+      "id": "s64",
+      "text": "I don’t claim no great things—I don’t reckon I could ’a’ done it again—but I done it that time; that’s all I claim."
+    },
+    {
+      "id": "s65",
+      "text": "And I hadn’t no more idea I could do such a thing, and warn’t any more thinking about it or trying to, than you be this minute."
+    },
+    {
+      "id": "s66",
+      "text": "Why, I was just as ca’m, a body couldn’t be any ca’mer, and yet, all of a sudden, out it come."
+    },
+    {
+      "id": "s67",
+      "text": "I’ve often thought of that time, and I can remember just the way everything looked, same as if it was only last week."
+    },
+    {
+      "id": "s68",
+      "text": "I can see it all: beautiful rolling country with woods and fields and lakes for hundreds and hundreds of miles all around, and towns and villages scattered everywheres under us, here and there and yonder; and the professor mooning over a chart on his little table, and Tom’s cap flopping in the rigging where it was hung up to dry."
+    },
+    {
+      "id": "s69",
+      "text": "And one thing in particular was a bird right alongside, not ten foot off, going our way and trying to keep up, but losing ground all the time; and a railroad train doing the same thing down there, sliding among the trees and farms, and pouring out a long cloud of black smoke and now and then a little puff of white; and when the white was gone so long you had almost forgot it, you would hear a little faint toot, and that was the whistle."
+    },
+    {
+      "id": "s70",
+      "text": "And we left the bird and the train both behind, ’_way_ behind, and done it easy, too."
+    },
+    {
+      "id": "s71",
+      "text": "But Tom he was huffy, and said me and Jim was a couple of ignorant blatherskites, and then he says:"
+    },
+    {
+      "id": "s72",
+      "text": "“Suppose there’s a brown calf and a big brown dog, and an artist is making a picture of them."
+    },
+    {
+      "id": "s73",
+      "text": "What is the _main_ thing that that artist has got to do?"
+    },
+    {
+      "id": "s74",
+      "text": "He has got to paint them so you can tell them apart the minute you look at them, hain’t he?"
+    },
+    {
+      "id": "s75",
+      "text": "Of course."
+    },
+    {
+      "id": "s76",
+      "text": "Well, then, do you want him to go and paint _both_ of them brown?"
+    },
+    {
+      "id": "s77",
+      "text": "Certainly you don’t."
+    },
+    {
+      "id": "s78",
+      "text": "He paints one of them blue, and then you can’t make no mistake."
+    },
+    {
+      "id": "s79",
+      "text": "It’s just the same with the maps."
+    },
+    {
+      "id": "s80",
+      "text": "That’s why they make every State a different color; it ain’t to deceive you, it’s to keep you from deceiving yourself.”"
+    },
+    {
+      "id": "s81",
+      "text": "But I couldn’t see no argument about that, and neither could Jim."
+    },
+    {
+      "id": "s82",
+      "text": "Jim shook his head, and says:"
+    },
+    {
+      "id": "s83",
+      "text": "“Why, Mars Tom, if you knowed what chuckle-heads dem painters is, you’d wait a long time before you’d fetch one er _dem_ in to back up a fac’."
+    },
+    {
+      "id": "s84",
+      "text": "I’s gwine to tell you, den you kin see for you’self."
+    },
+    {
+      "id": "s85",
+      "text": "I see one of ’em a-paintin’ away, one day, down in ole Hank Wilson’s back lot, en I went down to see, en he was paintin’ dat old brindle cow wid de near horn gone—you knows de one I means."
+    },
+    {
+      "id": "s86",
+      "text": "En I ast him what he’s paintin’ her for, en he say when he git her painted, de picture’s wuth a hundred dollars."
+    },
+    {
+      "id": "s87",
+      "text": "Mars Tom, he could a got de cow fer fifteen, en I tole him so."
+    },
+    {
+      "id": "s88",
+      "text": "Well, sah, if you’ll b’lieve me, he jes’ shuck his head, dat painter did, en went on a-dobbin’."
+    },
+    {
+      "id": "s89",
+      "text": "Bless you, Mars Tom, _dey_ don’t know nothin’.”"
+    },
+    {
+      "id": "s90",
+      "text": "Tom lost his temper."
+    },
+    {
+      "id": "s91",
+      "text": "I notice a person ’most always does that’s got laid out in an argument."
+    },
+    {
+      "id": "s92",
+      "text": "He told us to shut up, and maybe we’d feel better."
+    },
+    {
+      "id": "s93",
+      "text": "Then he see a town clock away off down yonder, and he took up the glass and looked at it, and then looked at his silver turnip, and then at the clock, and then at the turnip again, and says:"
+    },
+    {
+      "id": "s94",
+      "text": "“That’s funny!"
+    },
+    {
+      "id": "s95",
+      "text": "That clock’s near about an hour fast.”"
+    },
+    {
+      "id": "s96",
+      "text": "So he put up his turnip."
+    },
+    {
+      "id": "s97",
+      "text": "Then he see another clock, and took a look, and it was an hour fast too."
+    },
+    {
+      "id": "s98",
+      "text": "That puzzled him."
+    },
+    {
+      "id": "s99",
+      "text": "“That’s a mighty curious thing,” he says."
+    },
+    {
+      "id": "s100",
+      "text": "“I don’t understand it.”"
+    },
+    {
+      "id": "s101",
+      "text": "Then he took the glass and hunted up another clock, and sure enough it was an hour fast too."
+    },
+    {
+      "id": "s102",
+      "text": "Then his eyes began to spread and his breath to come out kinder gaspy like, and he says:"
+    },
+    {
+      "id": "s103",
+      "text": "“Ger-reat Scott, it’s the _longitude!_”"
+    },
+    {
+      "id": "s104",
+      "text": "I says, considerably scared:"
+    },
+    {
+      "id": "s105",
+      "text": "“Well, what’s been and gone and happened now?”"
+    },
+    {
+      "id": "s106",
+      "text": "“Why, the thing that’s happened is that this old bladder has slid over Illinois and Indiana and Ohio like nothing, and this is the east end of Pennsylvania or New York, or somewheres around there.”"
+    },
+    {
+      "id": "s107",
+      "text": "“Tom Sawyer, you don’t mean it!”"
+    },
+    {
+      "id": "s108",
+      "text": "“Yes, I do, and it’s dead sure."
+    },
+    {
+      "id": "s109",
+      "text": "We’ve covered about fifteen degrees of longitude since we left St."
+    },
+    {
+      "id": "s110",
+      "text": "Louis yesterday afternoon, and them clocks are right."
+    },
+    {
+      "id": "s111",
+      "text": "We’ve come close on to eight hundred miles.”"
+    },
+    {
+      "id": "s112",
+      "text": "I didn’t believe it, but it made the cold streaks trickle down my back just the same."
+    },
+    {
+      "id": "s113",
+      "text": "In my experience I knowed it wouldn’t take much short of two weeks to do it down the Mississippi on a raft."
+    },
+    {
+      "id": "s114",
+      "text": "Jim was working his mind and studying."
+    },
+    {
+      "id": "s115",
+      "text": "Pretty soon he says:"
+    },
+    {
+      "id": "s116",
+      "text": "“Mars Tom, did you say dem clocks uz right?”"
+    },
+    {
+      "id": "s117",
+      "text": "“Yes, they’re right.”"
+    },
+    {
+      "id": "s118",
+      "text": "“Ain’t yo’ watch right, too?”"
+    },
+    {
+      "id": "s119",
+      "text": "“She’s right for St."
+    },
+    {
+      "id": "s120",
+      "text": "Louis, but she’s an hour wrong for here.”"
+    },
+    {
+      "id": "s121",
+      "text": "“Mars Tom, is you tryin’ to let on dat de time ain’t de _same_ everywheres?”"
+    },
+    {
+      "id": "s122",
+      "text": "“No, it ain’t the same everywheres, by a long shot.”"
+    },
+    {
+      "id": "s123",
+      "text": "Jim looked distressed, and says:"
+    },
+    {
+      "id": "s124",
+      "text": "“It grieves me to hear you talk like dat, Mars Tom; I’s right down ashamed to hear you talk like dat, arter de way you’s been raised."
+    },
+    {
+      "id": "s125",
+      "text": "Yassir, it’d break yo’ Aunt Polly’s heart to hear you.”"
+    },
+    {
+      "id": "s126",
+      "text": "Tom was astonished."
+    },
+    {
+      "id": "s127",
+      "text": "He looked Jim over wondering, and didn’t say nothing, and Jim went on:"
+    },
+    {
+      "id": "s128",
+      "text": "“Mars Tom, who put de people out yonder in St."
+    },
+    {
+      "id": "s129",
+      "text": "Louis?"
+    },
+    {
+      "id": "s130",
+      "text": "De Lord done it."
+    },
+    {
+      "id": "s131",
+      "text": "Who put de people here whar we is?"
+    },
+    {
+      "id": "s132",
+      "text": "De Lord done it."
+    },
+    {
+      "id": "s133",
+      "text": "Ain’ dey bofe his children? ’Cose dey is. _Well_, den! is he gwine to _scriminate_ ’twixt ’em?”"
+    },
+    {
+      "id": "s134",
+      "text": "“Scriminate!"
+    },
+    {
+      "id": "s135",
+      "text": "I never heard such ignorance."
+    },
+    {
+      "id": "s136",
+      "text": "There ain’t no discriminating about it."
+    },
+    {
+      "id": "s137",
+      "text": "When he makes you and some more of his children black, and makes the rest of us white, what do you call that?”"
+    },
+    {
+      "id": "s138",
+      "text": "Jim see the p’int."
+    },
+    {
+      "id": "s139",
+      "text": "He was stuck."
+    },
+    {
+      "id": "s140",
+      "text": "He couldn’t answer."
+    },
+    {
+      "id": "s141",
+      "text": "Tom says:"
+    },
+    {
+      "id": "s142",
+      "text": "“He does discriminate, you see, when he wants to; but this case _here_ ain’t no discrimination of his, it’s man’s."
+    },
+    {
+      "id": "s143",
+      "text": "The Lord made the day, and he made the night; but he didn’t invent the hours, and he didn’t distribute them around."
+    },
+    {
+      "id": "s144",
+      "text": "Man did that.”"
+    },
+    {
+      "id": "s145",
+      "text": "“Mars Tom, is dat so?"
+    },
+    {
+      "id": "s146",
+      "text": "Man done it?”"
+    },
+    {
+      "id": "s147",
+      "text": "“Certainly.”"
+    },
+    {
+      "id": "s148",
+      "text": "“Who tole him he could?”"
+    },
+    {
+      "id": "s149",
+      "text": "“Nobody."
+    },
+    {
+      "id": "s150",
+      "text": "He never asked.”"
+    },
+    {
+      "id": "s151",
+      "text": "Jim studied a minute, and says:"
+    },
+    {
+      "id": "s152",
+      "text": "“Well, dat do beat me."
+    },
+    {
+      "id": "s153",
+      "text": "I wouldn’t ’a’ tuck no sich resk."
+    },
+    {
+      "id": "s154",
+      "text": "But some people ain’t scared o’ nothin’."
+    },
+    {
+      "id": "s155",
+      "text": "Dey bangs right ahead; _dey_ don’t care what happens."
+    },
+    {
+      "id": "s156",
+      "text": "So den dey’s allays an hour’s diff’unce everywhah, Mars Tom?”"
+    },
+    {
+      "id": "s157",
+      "text": "“An hour?"
+    },
+    {
+      "id": "s158",
+      "text": "No!"
+    },
+    {
+      "id": "s159",
+      "text": "It’s four minutes difference for every degree of longitude, you know."
+    },
+    {
+      "id": "s160",
+      "text": "Fifteen of ’em’s an hour, thirty of ’em’s two hours, and so on."
+    },
+    {
+      "id": "s161",
+      "text": "When it’s one clock Tuesday morning in England, it’s eight o’clock the night before in New York.”"
+    },
+    {
+      "id": "s162",
+      "text": "Jim moved a little way along the locker, and you could see he was insulted."
+    },
+    {
+      "id": "s163",
+      "text": "He kept shaking his head and muttering, and so I slid along to him and patted him on the leg, and petted him up, and got him over the worst of his feelings, and then he says:"
+    },
+    {
+      "id": "s164",
+      "text": "“Mars Tom talkin’ sich talk as dat!"
+    },
+    {
+      "id": "s165",
+      "text": "Choosday in one place en Monday in t’other, bofe in the same day!"
+    },
+    {
+      "id": "s166",
+      "text": "Huck, dis ain’t no place to joke—up here whah we is."
+    },
+    {
+      "id": "s167",
+      "text": "Two days in one day!"
+    },
+    {
+      "id": "s168",
+      "text": "How you gwine to get two days inter one day?"
+    },
+    {
+      "id": "s169",
+      "text": "Can’t git two hours inter one hour, kin you?"
+    },
+    {
+      "id": "s170",
+      "text": "Can’t git two niggers inter one nigger skin, kin you?"
+    },
+    {
+      "id": "s171",
+      "text": "Can’t git two gallons of whisky inter a one-gallon jug, kin you?"
+    },
+    {
+      "id": "s172",
+      "text": "No, sir, ’twould strain de jug."
+    },
+    {
+      "id": "s173",
+      "text": "Yes, en even den you couldn’t, I don’t believe."
+    },
+    {
+      "id": "s174",
+      "text": "Why, looky here, Huck, s’posen de Choosday was New Year’s—now den! is you gwine to tell me it’s dis year in one place en las’ year in t’other, bofe in de identical same minute?"
+    },
+    {
+      "id": "s175",
+      "text": "It’s de beatenest rubbage!"
+    },
+    {
+      "id": "s176",
+      "text": "I can’t stan’ it—I can’t stan’ to hear tell ’bout it.” Then he begun to shiver and turn gray, and Tom says:"
+    },
+    {
+      "id": "s177",
+      "text": "“_Now_ what’s the matter?"
+    },
+    {
+      "id": "s178",
+      "text": "What’s the trouble?”"
+    },
+    {
+      "id": "s179",
+      "text": "Jim could hardly speak, but he says:"
+    },
+    {
+      "id": "s180",
+      "text": "“Mars Tom, you ain’t jokin’, en it’s _so?_”"
+    },
+    {
+      "id": "s181",
+      "text": "“No, I’m not, and it is so.”"
+    },
+    {
+      "id": "s182",
+      "text": "Jim shivered again, and says:"
+    },
+    {
+      "id": "s183",
+      "text": "“Den dat Monday could be de las’ day, en dey wouldn’t be no las’ day in England, en de dead wouldn’t be called."
+    },
+    {
+      "id": "s184",
+      "text": "We mustn’t go over dah, Mars Tom."
+    },
+    {
+      "id": "s185",
+      "text": "Please git him to turn back; I wants to be whah—”"
+    },
+    {
+      "id": "s186",
+      "text": "All of a sudden we see something, and all jumped up, and forgot everything and begun to gaze."
+    },
+    {
+      "id": "s187",
+      "text": "Tom says:"
+    },
+    {
+      "id": "s188",
+      "text": "“Ain’t that the—” He catched his breath, then says: “It _is_, sure as you live!"
+    },
+    {
+      "id": "s189",
+      "text": "It’s the ocean!”"
+    },
+    {
+      "id": "s190",
+      "text": "That made me and Jim catch our breath, too."
+    },
+    {
+      "id": "s191",
+      "text": "Then we all stood petrified but happy, for none of us had ever seen an ocean, or ever expected to."
+    },
+    {
+      "id": "s192",
+      "text": "Tom kept muttering:"
+    },
+    {
+      "id": "s193",
+      "text": "“Atlantic Ocean—Atlantic."
+    },
+    {
+      "id": "s194",
+      "text": "Land, don’t it sound great!"
+    },
+    {
+      "id": "s195",
+      "text": "And that’s _it_—and _we_ are looking at it—we!"
+    },
+    {
+      "id": "s196",
+      "text": "Why, it’s just too splendid to believe!”"
+    },
+    {
+      "id": "s197",
+      "text": "Then we see a big bank of black smoke; and when we got nearer, it was a city—and a monster she was, too, with a thick fringe of ships around one edge; and we wondered if it was New York, and begun to jaw and dispute about it, and, first we knowed, it slid from under us and went flying behind, and here we was, out over the very ocean itself, and going like a cyclone."
+    },
+    {
+      "id": "s198",
+      "text": "Then we woke up, I tell you!"
+    },
+    {
+      "id": "s199",
+      "text": "We made a break aft and raised a wail, and begun to beg the professor to turn back and land us, but he jerked out his pistol and motioned us back, and we went, but nobody will ever know how bad we felt."
+    },
+    {
+      "id": "s200",
+      "text": "The land was gone, all but a little streak, like a snake, away off on the edge of the water, and down under us was just ocean, ocean, ocean—millions of miles of it, heaving and pitching and squirming, and white sprays blowing from the wave-tops, and only a few ships in sight, wallowing around and laying over, first on one side and then on t’other, and sticking their bows under and then their sterns; and before long there warn’t no ships at all, and we had the sky and the whole ocean all to ourselves, and the roomiest place I ever see and the lonesomest."
+    }
+  ]
+}

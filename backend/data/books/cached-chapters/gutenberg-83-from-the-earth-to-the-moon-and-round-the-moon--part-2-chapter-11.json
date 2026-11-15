@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-11",
+  "chapterTitle": "Part 2 — CHAPTER XI.",
+  "contentHash": "sha256:8ce7d313ace7ce9d14bff5151f0e5b00ba718aac6749552d65d724cfda667b63",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, Part 2 — CHAPTER XI.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "FANCY AND REALITY"
+    },
+    {
+      "id": "s2",
+      "text": "“Have you ever seen the moon?” asked a professor, ironically, of one of his pupils."
+    },
+    {
+      "id": "s3",
+      "text": "“No, sir!” replied the pupil, still more ironically, “but I must say I have heard it spoken of.”"
+    },
+    {
+      "id": "s4",
+      "text": "In one sense, the pupil’s witty answer might be given by a large majority of sublunary beings."
+    },
+    {
+      "id": "s5",
+      "text": "How many people have heard speak of the moon who have never seen it—at least through a glass or a telescope!"
+    },
+    {
+      "id": "s6",
+      "text": "How many have never examined the map of their satellite!"
+    },
+    {
+      "id": "s7",
+      "text": "In looking at a selenographic map, one peculiarity strikes us."
+    },
+    {
+      "id": "s8",
+      "text": "Contrary to the arrangement followed for that of the Earth and Mars, the continents occupy more particularly the southern hemisphere of the lunar globe."
+    },
+    {
+      "id": "s9",
+      "text": "These continents do not show such decided, clear, and regular boundary lines as South America, Africa, and the Indian peninsula."
+    },
+    {
+      "id": "s10",
+      "text": "Their angular, capricious, and deeply indented coasts are rich in gulfs and peninsulas."
+    },
+    {
+      "id": "s11",
+      "text": "They remind one of the confusion in the islands of the Sound, where the land is excessively indented."
+    },
+    {
+      "id": "s12",
+      "text": "If navigation ever existed on the surface of the moon, it must have been wonderfully difficult and dangerous; and we may well pity the Selenite sailors and hydrographers; the former, when they came upon these perilous coasts, the latter when they took the soundings of its stormy banks."
+    },
+    {
+      "id": "s13",
+      "text": "We may also notice that, on the lunar sphere, the south pole is much more continental than the north pole."
+    },
+    {
+      "id": "s14",
+      "text": "On the latter, there is but one slight strip of land separated from other continents by vast seas."
+    },
+    {
+      "id": "s15",
+      "text": "Toward the south, continents clothe almost the whole of the hemisphere."
+    },
+    {
+      "id": "s16",
+      "text": "It is even possible that the Selenites have already planted the flag on one of their poles, while Franklin, Ross, Kane, Dumont, d’Urville, and Lambert have never yet been able to attain that unknown point of the terrestrial globe."
+    },
+    {
+      "id": "s17",
+      "text": "As to islands, they are numerous on the surface of the moon."
+    },
+    {
+      "id": "s18",
+      "text": "Nearly all oblong or circular, and as if traced with the compass, they seem to form one vast archipelago, equal to that charming group lying between Greece and Asia Minor, and which mythology in ancient times adorned with most graceful legends."
+    },
+    {
+      "id": "s19",
+      "text": "Involuntarily the names of Naxos, Tenedos, and Carpathos, rise before the mind, and we seek vainly for Ulysses’ vessel or the “clipper” of the Argonauts."
+    },
+    {
+      "id": "s20",
+      "text": "So at least it was in Michel Ardan’s eyes."
+    },
+    {
+      "id": "s21",
+      "text": "To him it was a Grecian archipelago that he saw on the map."
+    },
+    {
+      "id": "s22",
+      "text": "To the eyes of his matter-of-fact companions, the aspect of these coasts recalled rather the parceled-out land of New Brunswick and Nova Scotia, and where the Frenchman discovered traces of the heroes of fable, these Americans were marking the most favorable points for the establishment of stores in the interests of lunar commerce and industry."
+    },
+    {
+      "id": "s23",
+      "text": "After wandering over these vast continents, the eye is attracted by the still greater seas."
+    },
+    {
+      "id": "s24",
+      "text": "Not only their formation, but their situation and aspect remind one of the terrestrial oceans; but again, as on earth, these seas occupy the greater portion of the globe."
+    },
+    {
+      "id": "s25",
+      "text": "But in point of fact, these are not liquid spaces, but plains, the nature of which the travelers hoped soon to determine."
+    },
+    {
+      "id": "s26",
+      "text": "Astronomers, we must allow, have graced these pretended seas with at least odd names, which science has respected up to the present time."
+    },
+    {
+      "id": "s27",
+      "text": "Michel Ardan was right when he compared this map to a “Tendre card,” got up by a Scudary or a Cyrano de Bergerac."
+    },
+    {
+      "id": "s28",
+      "text": "“Only,” said he, “it is no longer the sentimental card of the seventeenth century, it is the card of life, very neatly divided into two parts, one feminine, the other masculine; the right hemisphere for woman, the left for man.”"
+    },
+    {
+      "id": "s29",
+      "text": "In speaking thus, Michel made his prosaic companions shrug their shoulders."
+    },
+    {
+      "id": "s30",
+      "text": "Barbicane and Nicholl looked upon the lunar map from a very different point of view to that of their fantastic friend."
+    },
+    {
+      "id": "s31",
+      "text": "Nevertheless, their fantastic friend was a little in the right."
+    },
+    {
+      "id": "s32",
+      "text": "Judge for yourselves."
+    },
+    {
+      "id": "s33",
+      "text": "In the left hemisphere stretches the “Sea of Clouds,” where human reason is so often shipwrecked."
+    },
+    {
+      "id": "s34",
+      "text": "Not far off lies the “Sea of Rains,” fed by all the fever of existence."
+    },
+    {
+      "id": "s35",
+      "text": "Near this is the “Sea of Storms,” where man is ever fighting against his passions, which too often gain the victory."
+    },
+    {
+      "id": "s36",
+      "text": "Then, worn out by deceit, treasons, infidelity, and the whole body of terrestrial misery, what does he find at the end of his career? that vast “Sea of Humors,” barely softened by some drops of the waters from the “Gulf of Dew!” Clouds, rain, storms, and humors—does the life of man contain aught but these? and is it not summed up in these four words?"
+    },
+    {
+      "id": "s37",
+      "text": "The right hemisphere, “dedicated to the ladies,” encloses smaller seas, whose significant names contain every incident of a feminine existence."
+    },
+    {
+      "id": "s38",
+      "text": "There is the “Sea of Serenity,” over which the young girl bends; “The Lake of Dreams,” reflecting a joyous future; “The Sea of Nectar,” with its waves of tenderness and breezes of love; “The Sea of Fruitfulness;” “The Sea of Crises;” then the “Sea of Vapors,” whose dimensions are perhaps a little too confined; and lastly, that vast “Sea of Tranquillity,” in which every false passion, every useless dream, every unsatisfied desire is at length absorbed, and whose waves emerge peacefully into the “Lake of Death!”"
+    },
+    {
+      "id": "s39",
+      "text": "What a strange succession of names!"
+    },
+    {
+      "id": "s40",
+      "text": "What a singular division of the moon’s two hemispheres, joined to one another like man and woman, and forming that sphere of life carried into space!"
+    },
+    {
+      "id": "s41",
+      "text": "And was not the fantastic Michel right in thus interpreting the fancies of the ancient astronomers?"
+    },
+    {
+      "id": "s42",
+      "text": "But while his imagination thus roved over “the seas,” his grave companions were considering things more geographically."
+    },
+    {
+      "id": "s43",
+      "text": "They were learning this new world by heart."
+    },
+    {
+      "id": "s44",
+      "text": "They were measuring angles and diameters."
+    }
+  ]
+}

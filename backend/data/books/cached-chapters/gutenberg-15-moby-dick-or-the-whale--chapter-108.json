@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-108",
+  "chapterTitle": "CHAPTER CVIII.",
+  "contentHash": "sha256:ba19d5f45d7ce2812a2043d33fd2ed6c70109547c2555d231bbe06705815742a",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER CVIII.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "AHAB AND THE CARPENTER."
+    },
+    {
+      "id": "s2",
+      "text": "THE DECK—FIRST NIGHT WATCH"
+    },
+    {
+      "id": "s3",
+      "text": "(_Carpenter standing before his vice-bench, and by the light of two lanterns busily filing the ivory joist for the leg, which joist is firmly fixed in the vice."
+    },
+    {
+      "id": "s4",
+      "text": "Slabs of ivory, leather straps, pads, screws, and various tools of all sorts lying about the bench."
+    },
+    {
+      "id": "s5",
+      "text": "Forward, the red flame of the forge is seen, where the blacksmith is at work._)"
+    },
+    {
+      "id": "s6",
+      "text": "Drat the file, and drat the bone!"
+    },
+    {
+      "id": "s7",
+      "text": "That is hard which should be soft, and that is soft which should be hard."
+    },
+    {
+      "id": "s8",
+      "text": "So we go, who file old jaws and shinbones."
+    },
+    {
+      "id": "s9",
+      "text": "Let’s try another."
+    },
+    {
+      "id": "s10",
+      "text": "Aye, now, this works better (_sneezes_)."
+    },
+    {
+      "id": "s11",
+      "text": "Halloa, this bone dust is (_sneezes_)—why it’s (_sneezes_)—yes it’s (_sneezes_)—bless my soul, it won’t let me speak!"
+    },
+    {
+      "id": "s12",
+      "text": "This is what an old fellow gets now for working in dead lumber."
+    },
+    {
+      "id": "s13",
+      "text": "Saw a live tree, and you don’t get this dust; amputate a live bone, and you don’t get it (_sneezes_)."
+    },
+    {
+      "id": "s14",
+      "text": "Come, come, you old Smut, there, bear a hand, and let’s have that ferule and buckle-screw; I’ll be ready for them presently."
+    },
+    {
+      "id": "s15",
+      "text": "Lucky now (_sneezes_) there’s no knee-joint to make; that might puzzle a little; but a mere shinbone—why it’s easy as making hop-poles; only I should like to put a good finish on."
+    },
+    {
+      "id": "s16",
+      "text": "Time, time; if I but only had the time, I could turn him out as neat a leg now as ever (_sneezes_) scraped to a lady in a parlor."
+    },
+    {
+      "id": "s17",
+      "text": "Those buckskin legs and calves of legs I’ve seen in shop windows wouldn’t compare at all."
+    },
+    {
+      "id": "s18",
+      "text": "They soak water, they do; and of course get rheumatic, and have to be doctored (_sneezes_) with washes and lotions, just like live legs."
+    },
+    {
+      "id": "s19",
+      "text": "There; before I saw it off, now, I must call his old Mogulship, and see whether the length will be all right; too short, if anything, I guess."
+    },
+    {
+      "id": "s20",
+      "text": "Ha! that’s the heel; we are in luck; here he comes, or it’s somebody else, that’s certain."
+    },
+    {
+      "id": "s21",
+      "text": "AHAB (_advancing_). (_During the ensuing scene, the carpenter continues sneezing at times._)"
+    },
+    {
+      "id": "s22",
+      "text": "Well, manmaker!"
+    },
+    {
+      "id": "s23",
+      "text": "Just in time, sir."
+    },
+    {
+      "id": "s24",
+      "text": "If the captain pleases, I will now mark the length."
+    },
+    {
+      "id": "s25",
+      "text": "Let me measure, sir."
+    },
+    {
+      "id": "s26",
+      "text": "Measured for a leg! good."
+    },
+    {
+      "id": "s27",
+      "text": "Well, it’s not the first time."
+    },
+    {
+      "id": "s28",
+      "text": "About it!"
+    },
+    {
+      "id": "s29",
+      "text": "There; keep thy finger on it."
+    },
+    {
+      "id": "s30",
+      "text": "This is a cogent vice thou hast here, carpenter; let me feel its grip once."
+    },
+    {
+      "id": "s31",
+      "text": "So, so; it does pinch some."
+    },
+    {
+      "id": "s32",
+      "text": "Oh, sir, it will break bones—beware, beware!"
+    },
+    {
+      "id": "s33",
+      "text": "No fear; I like a good grip; I like to feel something in this slippery world that can hold, man."
+    },
+    {
+      "id": "s34",
+      "text": "What’s Prometheus about there?—the blacksmith, I mean—what’s he about?"
+    },
+    {
+      "id": "s35",
+      "text": "He must be forging the buckle-screw, sir, now."
+    },
+    {
+      "id": "s36",
+      "text": "Right."
+    },
+    {
+      "id": "s37",
+      "text": "It’s a partnership; he supplies the muscle part."
+    },
+    {
+      "id": "s38",
+      "text": "He makes a fierce red flame there!"
+    },
+    {
+      "id": "s39",
+      "text": "Aye, sir; he must have the white heat for this kind of fine work."
+    },
+    {
+      "id": "s40",
+      "text": "Um-m."
+    },
+    {
+      "id": "s41",
+      "text": "So he must."
+    },
+    {
+      "id": "s42",
+      "text": "I do deem it now a most meaning thing, that that old Greek, Prometheus, who made men, they say, should have been a blacksmith, and animated them with fire; for what’s made in fire must properly belong to fire; and so hell’s probable."
+    },
+    {
+      "id": "s43",
+      "text": "How the soot flies!"
+    },
+    {
+      "id": "s44",
+      "text": "This must be the remainder the Greek made the Africans of."
+    },
+    {
+      "id": "s45",
+      "text": "Carpenter, when he’s through with that buckle, tell him to forge a pair of steel shoulder-blades; there’s a pedlar aboard with a crushing pack."
+    },
+    {
+      "id": "s46",
+      "text": "Sir?"
+    },
+    {
+      "id": "s47",
+      "text": "Hold; while Prometheus is about it, I’ll order a complete man after a desirable pattern."
+    },
+    {
+      "id": "s48",
+      "text": "Imprimis, fifty feet high in his socks; then, chest modelled after the Thames Tunnel; then, legs with roots to ’em, to stay in one place; then, arms three feet through the wrist; no heart at all, brass forehead, and about a quarter of an acre of fine brains; and let me see—shall I order eyes to see outwards?"
+    },
+    {
+      "id": "s49",
+      "text": "No, but put a sky-light on top of his head to illuminate inwards."
+    },
+    {
+      "id": "s50",
+      "text": "There, take the order, and away."
+    },
+    {
+      "id": "s51",
+      "text": "Now, what’s he speaking about, and who’s he speaking to, I should like to know?"
+    },
+    {
+      "id": "s52",
+      "text": "Shall I keep standing here? (_aside_)."
+    },
+    {
+      "id": "s53",
+      "text": "’Tis but indifferent architecture to make a blind dome; here’s one."
+    },
+    {
+      "id": "s54",
+      "text": "No, no, no; I must have a lantern."
+    },
+    {
+      "id": "s55",
+      "text": "Ho, ho!"
+    },
+    {
+      "id": "s56",
+      "text": "That’s it, hey?"
+    },
+    {
+      "id": "s57",
+      "text": "Here are two, sir; one will serve my turn."
+    },
+    {
+      "id": "s58",
+      "text": "What art thou thrusting that thief-catcher into my face for, man?"
+    },
+    {
+      "id": "s59",
+      "text": "Thrusted light is worse than presented pistols."
+    },
+    {
+      "id": "s60",
+      "text": "I thought, sir, that you spoke to carpenter."
+    },
+    {
+      "id": "s61",
+      "text": "Carpenter? why that’s—but no;—a very tidy, and, I may say, an extremely gentlemanlike sort of business thou art in here, carpenter;—or would’st thou rather work in clay?"
+    },
+    {
+      "id": "s62",
+      "text": "Sir?—Clay? clay, sir?"
+    },
+    {
+      "id": "s63",
+      "text": "That’s mud; we leave clay to ditchers, sir."
+    },
+    {
+      "id": "s64",
+      "text": "The fellow’s impious!"
+    },
+    {
+      "id": "s65",
+      "text": "What art thou sneezing about?"
+    },
+    {
+      "id": "s66",
+      "text": "Bone is rather dusty, sir."
+    },
+    {
+      "id": "s67",
+      "text": "Take the hint, then; and when thou art dead, never bury thyself under living people’s noses."
+    },
+    {
+      "id": "s68",
+      "text": "Sir?—oh! ah!—I guess so;—yes—oh dear!"
+    },
+    {
+      "id": "s69",
+      "text": "Look ye, carpenter, I dare say thou callest thyself a right good workmanlike workman, eh?"
+    },
+    {
+      "id": "s70",
+      "text": "Well, then, will it speak thoroughly well for thy work, if, when I come to mount this leg thou makest, I shall nevertheless feel another leg in the same identical place with it; that is, carpenter, my old lost leg; the flesh and blood one, I mean."
+    },
+    {
+      "id": "s71",
+      "text": "Canst thou not drive that old Adam away?"
+    },
+    {
+      "id": "s72",
+      "text": "Truly, sir, I begin to understand somewhat now."
+    },
+    {
+      "id": "s73",
+      "text": "Yes, I have heard something curious on that score, sir; how that a dismasted man never entirely loses the feeling of his old spar, but it will be still pricking him at times."
+    },
+    {
+      "id": "s74",
+      "text": "May I humbly ask if it be really so, sir?"
+    },
+    {
+      "id": "s75",
+      "text": "It is, man."
+    },
+    {
+      "id": "s76",
+      "text": "Look, put thy live leg here in the place where mine once was; so, now, here is only one distinct leg to the eye, yet two to the soul."
+    },
+    {
+      "id": "s77",
+      "text": "Where thou feelest tingling life; there, exactly there, there to a hair, do I."
+    },
+    {
+      "id": "s78",
+      "text": "Is’t a riddle?"
+    },
+    {
+      "id": "s79",
+      "text": "I should humbly call it a poser, sir."
+    },
+    {
+      "id": "s80",
+      "text": "Hist, then."
+    },
+    {
+      "id": "s81",
+      "text": "How dost thou know that some entire, living, thinking thing may not be invisibly and uninterpenetratingly standing precisely where thou now standest; aye, and standing there in thy spite?"
+    },
+    {
+      "id": "s82",
+      "text": "In thy most solitary hours, then, dost thou not fear eavesdroppers?"
+    },
+    {
+      "id": "s83",
+      "text": "Hold, don’t speak!"
+    },
+    {
+      "id": "s84",
+      "text": "And if I still feel the smart of my crushed leg, though it be now so long dissolved; then, why mayst not thou, carpenter, feel the fiery pains of hell for ever, and without a body?"
+    },
+    {
+      "id": "s85",
+      "text": "Hah!"
+    },
+    {
+      "id": "s86",
+      "text": "Good Lord!"
+    },
+    {
+      "id": "s87",
+      "text": "Truly, sir, if it comes to that, I must calculate over again; I think I didn’t carry a small figure, sir."
+    },
+    {
+      "id": "s88",
+      "text": "Look ye, pudding-heads should never grant premises.—How long before the leg is done?"
+    },
+    {
+      "id": "s89",
+      "text": "Perhaps an hour, sir."
+    },
+    {
+      "id": "s90",
+      "text": "Bungle away at it then, and bring it to me (_turns to go_)."
+    },
+    {
+      "id": "s91",
+      "text": "Oh, Life!"
+    },
+    {
+      "id": "s92",
+      "text": "Here I am, proud as Greek god, and yet standing debtor to this blockhead for a bone to stand on!"
+    },
+    {
+      "id": "s93",
+      "text": "Cursed be that mortal inter-indebtedness which will not do away with ledgers."
+    },
+    {
+      "id": "s94",
+      "text": "I would be free as air; and I’m down in the whole world’s books."
+    },
+    {
+      "id": "s95",
+      "text": "I am so rich, I could have given bid for bid with the wealthiest Prætorians at the auction of the Roman empire (which was the world’s); and yet I owe for the flesh in the tongue I brag with."
+    },
+    {
+      "id": "s96",
+      "text": "By heavens!"
+    },
+    {
+      "id": "s97",
+      "text": "I’ll get a crucible, and into it, and dissolve myself down to one small, compendious vertebra."
+    },
+    {
+      "id": "s98",
+      "text": "So."
+    },
+    {
+      "id": "s99",
+      "text": "CARPENTER (_resuming his work_)."
+    },
+    {
+      "id": "s100",
+      "text": "Well, well, well!"
+    },
+    {
+      "id": "s101",
+      "text": "Stubb knows him best of all, and Stubb always says he’s queer; says nothing but that one sufficient little word queer; he’s queer, says Stubb; he’s queer—queer, queer; and keeps dinning it into Mr."
+    },
+    {
+      "id": "s102",
+      "text": "Starbuck all the time—queer, sir—queer, queer, very queer."
+    },
+    {
+      "id": "s103",
+      "text": "And here’s his leg!"
+    },
+    {
+      "id": "s104",
+      "text": "Yes, now that I think of it, here’s his bedfellow! has a stick of whale’s jaw-bone for a wife!"
+    },
+    {
+      "id": "s105",
+      "text": "And this is his leg; he’ll stand on this."
+    },
+    {
+      "id": "s106",
+      "text": "What was that now about one leg standing in three places, and all three places standing in one hell—how was that?"
+    },
+    {
+      "id": "s107",
+      "text": "Oh!"
+    },
+    {
+      "id": "s108",
+      "text": "I don’t wonder he looked so scornful at me!"
+    },
+    {
+      "id": "s109",
+      "text": "I’m a sort of strange-thoughted sometimes, they say; but that’s only haphazard-like."
+    },
+    {
+      "id": "s110",
+      "text": "Then, a short, little old body like me, should never undertake to wade out into deep waters with tall, heron-built captains; the water chucks you under the chin pretty quick, and there’s a great cry for life-boats."
+    },
+    {
+      "id": "s111",
+      "text": "And here’s the heron’s leg! long and slim, sure enough!"
+    },
+    {
+      "id": "s112",
+      "text": "Now, for most folks one pair of legs lasts a lifetime, and that must be because they use them mercifully, as a tender-hearted old lady uses her roly-poly old coach-horses."
+    },
+    {
+      "id": "s113",
+      "text": "But Ahab; oh he’s a hard driver."
+    },
+    {
+      "id": "s114",
+      "text": "Look, driven one leg to death, and spavined the other for life, and now wears out bone legs by the cord."
+    },
+    {
+      "id": "s115",
+      "text": "Halloa, there, you Smut! bear a hand there with those screws, and let’s finish it before the resurrection fellow comes a-calling with his horn for all legs, true or false, as brewery-men go round collecting old beer barrels, to fill ’em up again."
+    },
+    {
+      "id": "s116",
+      "text": "What a leg this is!"
+    },
+    {
+      "id": "s117",
+      "text": "It looks like a real live leg, filed down to nothing but the core; he’ll be standing on this to-morrow; he’ll be taking altitudes on it."
+    },
+    {
+      "id": "s118",
+      "text": "Halloa!"
+    },
+    {
+      "id": "s119",
+      "text": "I almost forgot the little oval slate, smoothed ivory, where he figures up the latitude."
+    },
+    {
+      "id": "s120",
+      "text": "So, so; chisel, file, and sand-paper, now!"
+    }
+  ]
+}

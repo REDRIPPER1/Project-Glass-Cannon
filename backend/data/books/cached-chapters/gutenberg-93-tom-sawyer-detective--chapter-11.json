@@ -1,0 +1,1221 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-93-tom-sawyer-detective",
+  "ebookId": "93",
+  "edition": "Project Gutenberg eBook #93; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-11",
+  "chapterTitle": "CHAPTER XI.",
+  "contentHash": "sha256:876526320a22c41b011be31ccb5e11de6200cbb650d80f223308f864c4edfcce",
+  "attribution": "Twain, Mark, 1835-1910, Tom Sawyer, Detective, CHAPTER XI.. Source checked against Project Gutenberg eBook #93.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/93",
+    "textUrl": "https://www.gutenberg.org/cache/epub/93/pg93.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "TOM SAWYER DISCOVERS THE MURDERERS"
+    },
+    {
+      "id": "s2",
+      "text": "Well, that was a hard month on us all."
+    },
+    {
+      "id": "s3",
+      "text": "Poor Benny, she kept up the best she could, and me and Tom tried to keep things cheerful there at the house, but it kind of went for nothing, as you may say."
+    },
+    {
+      "id": "s4",
+      "text": "It was the same up at the jail."
+    },
+    {
+      "id": "s5",
+      "text": "We went up every day to see the old people, but it was awful dreary, because the old man warn’t sleeping much, and was walking in his sleep considerable and so he got to looking fagged and miserable, and his mind got shaky, and we all got afraid his troubles would break him down and kill him."
+    },
+    {
+      "id": "s6",
+      "text": "And whenever we tried to persuade him to feel cheerfuler, he only shook his head and said if we only knowed what it was to carry around a murderer’s load in your heart we wouldn’t talk that way."
+    },
+    {
+      "id": "s7",
+      "text": "Tom and all of us kept telling him it _wasn’t_ murder, but just accidental killing! but it never made any difference—it was murder, and he wouldn’t have it any other way."
+    },
+    {
+      "id": "s8",
+      "text": "He actu’ly begun to come out plain and square towards trial time and acknowledge that he _tried_ to kill the man."
+    },
+    {
+      "id": "s9",
+      "text": "Why, that was awful, you know."
+    },
+    {
+      "id": "s10",
+      "text": "It made things seem fifty times as dreadful, and there warn’t no more comfort for Aunt Sally and Benny."
+    },
+    {
+      "id": "s11",
+      "text": "But he promised he wouldn’t say a word about his murder when others was around, and we was glad of that."
+    },
+    {
+      "id": "s12",
+      "text": "[Illustration: Kept me up ’most all night.]"
+    },
+    {
+      "id": "s13",
+      "text": "Tom Sawyer racked the head off of himself all that month trying to plan some way out for Uncle Silas, and many’s the night he kept me up ’most all night with this kind of tiresome work, but he couldn’t seem to get on the right track no way."
+    },
+    {
+      "id": "s14",
+      "text": "As for me, I reckoned a body might as well give it up, it all looked so blue and I was so downhearted; but he wouldn’t."
+    },
+    {
+      "id": "s15",
+      "text": "He stuck to the business right along, and went on planning and thinking and ransacking his head."
+    },
+    {
+      "id": "s16",
+      "text": "So at last the trial come on, towards the middle of October, and we was all in the court."
+    },
+    {
+      "id": "s17",
+      "text": "The place was jammed, of course."
+    },
+    {
+      "id": "s18",
+      "text": "Poor old Uncle Silas, he looked more like a dead person than a live one, his eyes was so hollow and he looked so thin and so mournful."
+    },
+    {
+      "id": "s19",
+      "text": "Benny she set on one side of him and Aunt Sally on the other, and they had veils on, and was full of trouble."
+    },
+    {
+      "id": "s20",
+      "text": "But Tom he set by our lawyer, and had his finger in everywheres, of course."
+    },
+    {
+      "id": "s21",
+      "text": "The lawyer let him, and the judge let him."
+    },
+    {
+      "id": "s22",
+      "text": "He ’most took the business out of the lawyer’s hands sometimes; which was well enough, because that was only a mud-turtle of a back-settlement lawyer and didn’t know enough to come in when it rains, as the saying is."
+    },
+    {
+      "id": "s23",
+      "text": "They swore in the jury, and then the lawyer for the prostitution got up and begun."
+    },
+    {
+      "id": "s24",
+      "text": "He made a terrible speech against the old man, that made him moan and groan, and made Benny and Aunt Sally cry."
+    },
+    {
+      "id": "s25",
+      "text": "The way _he_ told about the murder kind of knocked us all stupid it was so different from the old man’s tale."
+    },
+    {
+      "id": "s26",
+      "text": "He said he was going to prove that Uncle Silas was _seen_ to kill Jubiter Dunlap by two good witnesses, and done it deliberate, and _said_ he was going to kill him the very minute he hit him with the club; and they seen him hide Jubiter in the bushes, and they seen that Jubiter was stone-dead."
+    },
+    {
+      "id": "s27",
+      "text": "And said Uncle Silas come later and lugged Jubiter down into the tobacker field, and two men seen him do it."
+    },
+    {
+      "id": "s28",
+      "text": "And said Uncle Silas turned out, away in the night, and buried Jubiter, and a man seen him at it."
+    },
+    {
+      "id": "s29",
+      "text": "I says to myself, poor old Uncle Silas has been lying about it because he reckoned nobody seen him and he couldn’t bear to break Aunt Sally’s heart and Benny’s; and right he was: as for me, I would ’a’ lied the same way, and so would anybody that had any feeling, to save them such misery and sorrow which _they_ warn’t no ways responsible for."
+    },
+    {
+      "id": "s30",
+      "text": "Well, it made our lawyer look pretty sick; and it knocked Tom silly, too, for a little spell, but then he braced up and let on that he warn’t worried—but I knowed he _was_, all the same."
+    },
+    {
+      "id": "s31",
+      "text": "And the people—my, but it made a stir amongst them!"
+    },
+    {
+      "id": "s32",
+      "text": "[Illustration: Our lawyer.]"
+    },
+    {
+      "id": "s33",
+      "text": "And when that lawyer was done telling the jury what he was going to prove, he set down and begun to work his witnesses."
+    },
+    {
+      "id": "s34",
+      "text": "First, he called a lot of them to show that there was bad blood betwixt Uncle Silas and the diseased; and they told how they had heard Uncle Silas threaten the diseased, at one time and another, and how it got worse and worse and everybody was talking about it, and how diseased got afraid of his life, and told two or three of them he was certain Uncle Silas would up and kill him some time or another."
+    },
+    {
+      "id": "s35",
+      "text": "Tom and our lawyer asked them some questions; but it warn’t no use, they stuck to what they said."
+    },
+    {
+      "id": "s36",
+      "text": "Next, they called up Lem Beebe, and he took the stand."
+    },
+    {
+      "id": "s37",
+      "text": "It come into my mind, then, how Lem and Jim Lane had come along talking, that time, about borrowing a dog or something from Jubiter Dunlap; and that brought up the blackberries and the lantern; and that brought up Bill and Jack Withers, and how they passed by, talking about a nigger stealing Uncle Silas’s corn; and that fetched up our old ghost that come along about the same time and scared us so—and here _he_ was too, and a privileged character, on accounts of his being deef and dumb and a stranger, and they had fixed him a chair inside the railing, where he could cross his legs and be comfortable, whilst the other people was all in a jam so they couldn’t hardly breathe."
+    },
+    {
+      "id": "s38",
+      "text": "So it all come back to me just the way it was that day; and it made me mournful to think how pleasant it was up to then, and how miserable ever since."
+    },
+    {
+      "id": "s39",
+      "text": "_Lem Beebe_, sworn, said—“I was a-coming along, that day, second of September, and Jim Lane was with me, and it was towards sundown, and we heard loud talk, like quarrelling, and we was very close, only the hazel bushes between (that’s along the fence); and we heard a voice say, ‘I’ve told you more’n once I’d kill you,’ and knowed it was this prisoner’s voice; and then we see a club come up above the bushes and down out of sight again, and heard a smashing thump and then a groan or two: and then we crope soft to where we could see, and there laid Jupiter Dunlap dead, and this prisoner standing over him with the club; and the next he hauled the dead man into a clump of bushes and hid him, and then we stooped low, to be out of sight, and got away.”"
+    },
+    {
+      "id": "s40",
+      "text": "Well, it was awful."
+    },
+    {
+      "id": "s41",
+      "text": "It kind of froze everybody’s blood to hear it, and the house was ’most as still whilst he was telling it as if there warn’t nobody in it."
+    },
+    {
+      "id": "s42",
+      "text": "And when he was done, you could hear them gasp and sigh, all over the house, and look at one another the same as to say, “Ain’t it perfectly terrible—ain’t it awful!”"
+    },
+    {
+      "id": "s43",
+      "text": "Now happened a thing that astonished me."
+    },
+    {
+      "id": "s44",
+      "text": "All the time the first witnesses was proving the bad blood and the threats and all that, Tom Sawyer was alive and laying for them; and the minute they was through, he went for them, and done his level best to catch them in lies and spile their testimony."
+    },
+    {
+      "id": "s45",
+      "text": "But now, how different."
+    },
+    {
+      "id": "s46",
+      "text": "When Lem first begun to talk, and never said anything about speaking to Jubiter or trying to borrow a dog off of him, he was all alive and laying for Lem, and you could see he was getting ready to cross-question him to death pretty soon, and then I judged him and me would go on the stand by and by and tell what we heard him and Jim Lane say."
+    },
+    {
+      "id": "s47",
+      "text": "But the next time I looked at Tom I got the cold shivers."
+    },
+    {
+      "id": "s48",
+      "text": "Why, he was in the brownest study you ever see—miles and miles away."
+    },
+    {
+      "id": "s49",
+      "text": "He warn’t hearing a word Lem Beebe was saying; and when he got through he was still in that brown-study, just the same."
+    },
+    {
+      "id": "s50",
+      "text": "Our lawyer joggled him, and then he looked up startled, and says, “Take the witness if you want him."
+    },
+    {
+      "id": "s51",
+      "text": "Lemme alone—I want to think.”"
+    },
+    {
+      "id": "s52",
+      "text": "Well, that beat me."
+    },
+    {
+      "id": "s53",
+      "text": "I couldn’t understand it."
+    },
+    {
+      "id": "s54",
+      "text": "And Benny and her mother—oh, they looked sick, they was so troubled."
+    },
+    {
+      "id": "s55",
+      "text": "They shoved their veils to one side and tried to get his eye, but it warn’t any use, and I couldn’t get his eye either."
+    },
+    {
+      "id": "s56",
+      "text": "So the mud-turtle he tackled the witness, but it didn’t amount to nothing; and he made a mess of it."
+    },
+    {
+      "id": "s57",
+      "text": "Then they called up Jim Lane, and he told the very same story over again, exact."
+    },
+    {
+      "id": "s58",
+      "text": "Tom never listened to this one at all, but set there thinking and thinking, miles and miles away."
+    },
+    {
+      "id": "s59",
+      "text": "So the mud-turtle went in alone again and come out just as flat as he done before."
+    },
+    {
+      "id": "s60",
+      "text": "The lawyer for the prostitution looked very comfortable, but the judge looked disgusted."
+    },
+    {
+      "id": "s61",
+      "text": "You see, Tom was just the same as a regular lawyer, nearly, because it was Arkansaw law for a prisoner to choose anybody he wanted to help his lawyer, and Tom had had Uncle Silas shove him into the case, and now he was botching it and you could see the judge didn’t like it much."
+    },
+    {
+      "id": "s62",
+      "text": "All that the mud-turtle got out of Lem and Jim was this: he asked them:"
+    },
+    {
+      "id": "s63",
+      "text": "“Why didn’t you go and tell what you saw?”"
+    },
+    {
+      "id": "s64",
+      "text": "“We was afraid we would get mixed up in it ourselves."
+    },
+    {
+      "id": "s65",
+      "text": "And we was just starting down the river a-hunting for all the week besides; but as soon as we come back we found out they’d been searching for the body, so then we went and told Brace Dunlap all about it.”"
+    },
+    {
+      "id": "s66",
+      "text": "“When was that?”"
+    },
+    {
+      "id": "s67",
+      "text": "“Saturday night, September 9th.”"
+    },
+    {
+      "id": "s68",
+      "text": "The judge he spoke up and says:"
+    },
+    {
+      "id": "s69",
+      "text": "“Mr."
+    },
+    {
+      "id": "s70",
+      "text": "Sheriff, arrest these two witnesses on suspicions of being accessionary after the fact to the murder.”"
+    },
+    {
+      "id": "s71",
+      "text": "The lawyer for the prostitution jumps up all excited, and says:"
+    },
+    {
+      "id": "s72",
+      "text": "“Your honor!"
+    },
+    {
+      "id": "s73",
+      "text": "I protest against this extraordi—”"
+    },
+    {
+      "id": "s74",
+      "text": "[Illustration: “Set down!” says the judge.]"
+    },
+    {
+      "id": "s75",
+      "text": "“Set down!” says the judge, pulling his bowie and laying it on his pulpit."
+    },
+    {
+      "id": "s76",
+      "text": "“I beg you to respect the Court.”"
+    },
+    {
+      "id": "s77",
+      "text": "So he done it."
+    },
+    {
+      "id": "s78",
+      "text": "Then he called Bill Withers."
+    },
+    {
+      "id": "s79",
+      "text": "_Bill Withers_, sworn, said: “I was coming along about sundown, Saturday, September 2d, by the prisoner’s field, and my brother Jack was with me and we seen a man toting off something heavy on his back and allowed it was a nigger stealing corn; we couldn’t see distinct; next we made out that it was one man carrying another; and the way it hung, so kind of limp, we judged it was somebody that was drunk; and by the man’s walk we said it was Parson Silas, and we judged he had found Sam Cooper drunk in the road, which he was always trying to reform him, and was toting him out of danger.”"
+    },
+    {
+      "id": "s80",
+      "text": "It made the people shiver to think of poor old Uncle Silas toting off the diseased down to the place in his tobacker field where the dog dug up the body, but there warn’t much sympathy around amongst the faces, and I heard one cuss say “’Tis the coldest blooded work I ever struck, lugging a murdered man around like that, and going to bury him like a animal, and him a preacher at that.”"
+    },
+    {
+      "id": "s81",
+      "text": "Tom he went on thinking, and never took no notice; so our lawyer took the witness and done the best he could, and it was plenty poor enough."
+    },
+    {
+      "id": "s82",
+      "text": "Then Jack Withers he come on the stand and told the same tale, just like Bill done."
+    },
+    {
+      "id": "s83",
+      "text": "And after him comes Brace Dunlap, and he was looking very mournful, and most crying; and there was a rustle and a stir all around, and everybody got ready to listen, and lots of the women folks said, “Poor cretur, poor cretur,” and you could see a many of them wiping their eyes."
+    },
+    {
+      "id": "s84",
+      "text": "_Brace Dunlap_, sworn, said: “I was in considerable trouble a long time about my poor brother, but I reckoned things warn’t near so bad as he made out, and I couldn’t make myself believe anybody would have the heart to hurt a poor harmless cretur like that”—[by jings, I was sure I seen Tom give a kind of a faint little start, and then look disappointed again]—“and you know I _could’t_ think a preacher would hurt him—it warn’t natural to think such an onlikely thing—so I never paid much attention, and now I sha’n’t ever, ever forgive myself; for if I had a done different, my poor brother would be with me this day, and not laying yonder murdered, and him so harmless.” He kind of broke down there and choked up, and waited to get his voice; and people all around said the most pitiful things, and women cried; and it was very still in there, and solemn, and old Uncle Silas, poor thing, he give a groan right out so everybody heard him."
+    },
+    {
+      "id": "s85",
+      "text": "Then Brace he went on, “Saturday, September 2d, he didn’t come home to supper."
+    },
+    {
+      "id": "s86",
+      "text": "By-and-by I got a little uneasy, and one of my niggers went over to this prisoner’s place, but come back and said he warn’t there."
+    },
+    {
+      "id": "s87",
+      "text": "So I got uneasier and uneasier, and couldn’t rest."
+    },
+    {
+      "id": "s88",
+      "text": "I went to bed, but I couldn’t sleep; and turned out, away late in the night, and went wandering over to this prisoner’s place and all around about there a good while, hoping I would run across my poor brother, and never knowing he was out of his troubles and gone to a better shore—” So he broke down and choked up again, and most all the women was crying now."
+    },
+    {
+      "id": "s89",
+      "text": "Pretty soon he got another start and says: “But it warn’t no use; so at last I went home and tried to get some sleep, but couldn’t."
+    },
+    {
+      "id": "s90",
+      "text": "Well, in a day or two everybody was uneasy, and they got to talking about this prisoner’s threats, and took to the idea, which I didn’t take no stock in, that my brother was murdered so they hunted around and tried to find his body, but couldn’t and give it up."
+    },
+    {
+      "id": "s91",
+      "text": "And so I reckoned he was gone off somers to have a little peace, and would come back to us when his troubles was kind of healed."
+    },
+    {
+      "id": "s92",
+      "text": "But late Saturday night, the 9th, Lem Beebe and Jim Lane come to my house and told me all—told me the whole awful ’sassination, and my heart was broke."
+    },
+    {
+      "id": "s93",
+      "text": "And _then_ I remembered something that hadn’t took no hold of me at the time, because reports said this prisoner had took to walking in his sleep and doing all kind of things of no consequence, not knowing what he was about."
+    },
+    {
+      "id": "s94",
+      "text": "I will tell you what that thing was that come back into my memory."
+    },
+    {
+      "id": "s95",
+      "text": "Away late that awful Saturday night when I was wandering around about this prisoner’s place, grieving and troubled, I was down by the corner of the tobacker-field and I heard a sound like digging in a gritty soil; and I crope nearer and peeped through the vines that hung on the rail fence and seen this prisoner _shoveling_—shoveling with a long-handled shovel—heaving earth into a big hole that was most filled up; his back was to me, but it was bright moonlight and I knowed him by his old green baize work-gown with a splattery white patch in the middle of the back like somebody had hit him with a snowball. _He was burying the man he’d murdered!_”"
+    },
+    {
+      "id": "s96",
+      "text": "And he slumped down in his chair crying and sobbing, and ’most everybody in the house busted out wailing, and crying, and saying, “Oh, it’s awful—awful—horrible!” and there was a most tremendous excitement, and you couldn’t hear yourself think; and right in the midst of it up jumps old Uncle Silas, white as a sheet, and sings out:"
+    },
+    {
+      "id": "s97",
+      "text": "“_It’s true, every word—I murdered him in cold blood!_”"
+    },
+    {
+      "id": "s98",
+      "text": "By Jackson, it petrified them!"
+    },
+    {
+      "id": "s99",
+      "text": "People rose up wild all over the house, straining and staring for a better look at him, and the judge was hammering with his mallet and the sheriff yelling “Order—order in the court—order!”"
+    },
+    {
+      "id": "s100",
+      "text": "And all the while the old man stood there a-quaking and his eyes a-burning, and not looking at his wife and daughter, which was clinging to him and begging him to keep still, but pawing them off with his hands and saying he _would_ clear his black soul from crime, he _would_ heave off this load that was more than he could bear, and he _wouldn’t_ bear it another hour!"
+    },
+    {
+      "id": "s101",
+      "text": "And then he raged right along with his awful tale, everybody a-staring and gasping, judge, jury, lawyers, and everybody, and Benny and Aunt Sally crying their hearts out."
+    },
+    {
+      "id": "s102",
+      "text": "And by George, Tom Sawyer never looked at him once!"
+    },
+    {
+      "id": "s103",
+      "text": "Never once—just set there gazing with all his eyes at something else, I couldn’t tell what."
+    },
+    {
+      "id": "s104",
+      "text": "And so the old man raged right along, pouring his words out like a stream of fire:"
+    },
+    {
+      "id": "s105",
+      "text": "[Illustration: I struck to kill.]"
+    },
+    {
+      "id": "s106",
+      "text": "“I killed him!"
+    },
+    {
+      "id": "s107",
+      "text": "I am guilty!"
+    },
+    {
+      "id": "s108",
+      "text": "But I never had the notion in my life to hurt him or harm him, spite of all them lies about my threatening him, till the very minute I raised the club—then my heart went cold!—then the pity all went out of it, and I struck to kill!"
+    },
+    {
+      "id": "s109",
+      "text": "In that one moment all my wrongs come into my mind; all the insults that that man and the scoundrel his brother, there, had put upon me, and how they laid in together to ruin me with the people, and take away my good name, and _drive_ me to some deed that would destroy me and my family that hadn’t ever done _them_ no harm, so help me God!"
+    },
+    {
+      "id": "s110",
+      "text": "And they done it in a mean revenge—for why?"
+    },
+    {
+      "id": "s111",
+      "text": "Because my innocent pure girl here at my side wouldn’t marry that rich, insolent, ignorant coward, Brace Dunlap, who’s been sniveling here over a brother he never cared a brass farthing for—” [I see Tom give a jump and look glad _this_ time, to a dead certainty] “—and in that moment I’ve told you about, I forgot my God and remembered only my heart’s bitterness, God forgive me, and I struck to kill."
+    },
+    {
+      "id": "s112",
+      "text": "In one second I was miserably sorry—oh, filled with remorse; but I thought of my poor family, and I _must_ hide what I’d done for their sakes; and I did hide that corpse in the bushes; and presently I carried it to the tobacker field; and in the deep night I went with my shovel and buried it where—”"
+    },
+    {
+      "id": "s113",
+      "text": "Up jumps Tom and shouts:"
+    },
+    {
+      "id": "s114",
+      "text": "“_Now_, I’ve got it!” and waves his hand, oh, ever so fine and starchy, towards the old man, and says:"
+    },
+    {
+      "id": "s115",
+      "text": "“Set down!"
+    },
+    {
+      "id": "s116",
+      "text": "A murder _was_ done, but you never had no hand in it!”"
+    },
+    {
+      "id": "s117",
+      "text": "[Illustration: A murder was done.]"
+    },
+    {
+      "id": "s118",
+      "text": "Well, sir, you could a heard a pin drop."
+    },
+    {
+      "id": "s119",
+      "text": "And the old man he sunk down kind of bewildered in his seat and Aunt Sally and Benny didn’t know it, because they was so astonished and staring at Tom with their mouths open and not knowing what they was about."
+    },
+    {
+      "id": "s120",
+      "text": "And the whole house the same."
+    },
+    {
+      "id": "s121",
+      "text": "I never seen people look so helpless and tangled up, and I hain’t ever seen eyes bug out and gaze without a blink the way theirn did."
+    },
+    {
+      "id": "s122",
+      "text": "Tom says, perfectly ca’m:"
+    },
+    {
+      "id": "s123",
+      "text": "“Your honor, may I speak?”"
+    },
+    {
+      "id": "s124",
+      "text": "“For God’s sake, yes—go on!” says the judge, so astonished and mixed up he didn’t know what he was about hardly."
+    },
+    {
+      "id": "s125",
+      "text": "Then Tom he stood there and waited a second or two—that was for to work up an “effect,” as he calls it—then he started in just as ca’m as ever, and says:"
+    },
+    {
+      "id": "s126",
+      "text": "“For about two weeks now there’s been a little bill sticking on the front of this courthouse offering two thousand dollars reward for a couple of big di’monds—stole at St."
+    },
+    {
+      "id": "s127",
+      "text": "Louis."
+    },
+    {
+      "id": "s128",
+      "text": "Them di’monds is worth twelve thousand dollars."
+    },
+    {
+      "id": "s129",
+      "text": "But never mind about that till I get to it."
+    },
+    {
+      "id": "s130",
+      "text": "Now about this murder."
+    },
+    {
+      "id": "s131",
+      "text": "I will tell you all about it—how it happened—who done it—every _de_tail.”"
+    },
+    {
+      "id": "s132",
+      "text": "You could see everybody nestle now, and begin to listen for all they was worth."
+    },
+    {
+      "id": "s133",
+      "text": "“This man here, Brace Dunlap, that’s been sniveling so about his dead brother that _you_ know he never cared a straw for, wanted to marry that young girl there, and she wouldn’t have him."
+    },
+    {
+      "id": "s134",
+      "text": "So he told Uncle Silas he would make him sorry."
+    },
+    {
+      "id": "s135",
+      "text": "Uncle Silas knowed how powerful he was, and how little chance he had against such a man, and he was scared and worried, and done everything he could think of to smooth him over and get him to be good to him: he even took his no-account brother Jubiter on the farm and give him wages and stinted his own family to pay them; and Jubiter done everything his brother could contrive to insult Uncle Silas, and fret and worry him, and try to drive Uncle Silas into doing him a hurt, so as to injure Uncle Silas with the people."
+    },
+    {
+      "id": "s136",
+      "text": "And it done it."
+    },
+    {
+      "id": "s137",
+      "text": "Everybody turned against him and said the meanest kind of things about him, and it graduly broke his heart—yes, and he was so worried and distressed that often he warn’t hardly in his right mind."
+    },
+    {
+      "id": "s138",
+      "text": "“Well, on that Saturday that we’ve had so much trouble about, two of these witnesses here, Lem Beebe and Jim Lane, come along by where Uncle Silas and Jubiter Dunlap was at work—and that much of what they’ve said is true, the rest is lies."
+    },
+    {
+      "id": "s139",
+      "text": "They didn’t hear Uncle Silas say he would kill Jubiter; they didn’t hear no blow struck; they didn’t see no dead man, and they didn’t see Uncle Silas hide anything in the bushes."
+    },
+    {
+      "id": "s140",
+      "text": "Look at them now—how they set there, wishing they hadn’t been so handy with their tongues; anyway, they’ll wish it before I get done."
+    },
+    {
+      "id": "s141",
+      "text": "“That same Saturday evening Bill and Jack Withers _did_ see one man lugging off another one."
+    },
+    {
+      "id": "s142",
+      "text": "That much of what they said is true, and the rest is lies."
+    },
+    {
+      "id": "s143",
+      "text": "First off they thought it was a nigger stealing Uncle Silas’s corn—you notice it makes them look silly, now, to find out somebody overheard them say that."
+    },
+    {
+      "id": "s144",
+      "text": "That’s because they found out by and by who it was that was doing the lugging, and _they_ know best why they swore here that they took it for Uncle Silas by the gait—which it _wasn’t_, and they knowed it when they swore to that lie."
+    },
+    {
+      "id": "s145",
+      "text": "“A man out in the moonlight _did_ see a murdered person put under ground in the tobacker field—but it wasn’t Uncle Silas that done the burying."
+    },
+    {
+      "id": "s146",
+      "text": "He was in his bed at that very time."
+    },
+    {
+      "id": "s147",
+      "text": "“Now, then, before I go on, I want to ask you if you’ve ever noticed this: that people, when they’re thinking deep, or when they’re worried, are most always doing something with their hands, and they don’t know it, and don’t notice what it is their hands are doing, some stroke their chins; some stroke their noses; some stroke up _under_ their chin with their hand; some twirl a chain, some fumble a button, then there’s some that draws a figure or a letter with their finger on their cheek, or under their chin or on their under lip."
+    },
+    {
+      "id": "s148",
+      "text": "That’s _my_ way."
+    },
+    {
+      "id": "s149",
+      "text": "When I’m restless, or worried, or thinking hard, I draw capital V’s on my cheek or on my under lip or under my chin, and never anything _but_ capital V’s—and half the time I don’t notice it and don’t know I’m doing it.”"
+    },
+    {
+      "id": "s150",
+      "text": "That was odd."
+    },
+    {
+      "id": "s151",
+      "text": "That is just what I do; only I make an O."
+    },
+    {
+      "id": "s152",
+      "text": "And I could see people nodding to one another, same as they do when they mean “_that’_ so.”"
+    },
+    {
+      "id": "s153",
+      "text": "“Now, then, I’ll go on."
+    },
+    {
+      "id": "s154",
+      "text": "That same Saturday—no, it was the night before—there was a steamboat laying at Flagler’s Landing, forty miles above here, and it was raining and storming like the nation."
+    },
+    {
+      "id": "s155",
+      "text": "And there was a thief aboard, and he had them two big di’monds that’s advertised out here on this courthouse door; and he slipped ashore with his hand-bag and struck out into the dark and the storm, and he was a-hoping he could get to this town all right and be safe."
+    },
+    {
+      "id": "s156",
+      "text": "But he had two pals aboard the boat, hiding, and he knowed they was going to kill him the first chance they got and take the di’monds; because all three stole them, and then this fellow he got hold of them and skipped."
+    },
+    {
+      "id": "s157",
+      "text": "“Well, he hadn’t been gone more’n ten minutes before his pals found it out, and they jumped ashore and lit out after him."
+    },
+    {
+      "id": "s158",
+      "text": "Prob’ly they burnt matches and found his tracks."
+    },
+    {
+      "id": "s159",
+      "text": "Anyway, they dogged along after him all day Saturday and kept out of his sight; and towards sundown he come to the bunch of sycamores down by Uncle Silas’s field, and he went in there to get a disguise out of his hand-bag and put it on before he showed himself here in the town—and mind you he done that just a little after the time that Uncle Silas was hitting Jubiter Dunlap over the head with a club—for he _did_ hit him."
+    },
+    {
+      "id": "s160",
+      "text": "“But the minute the pals see that thief slide into the bunch of sycamores, they jumped out of the bushes and slid in after him."
+    },
+    {
+      "id": "s161",
+      "text": "“They fell on him and clubbed him to death."
+    },
+    {
+      "id": "s162",
+      "text": "“Yes, for all he screamed and howled so, they never had no mercy on him, but clubbed him to death."
+    },
+    {
+      "id": "s163",
+      "text": "And two men that was running along the road heard him yelling that way, and they made a rush into the sycamore bunch—which was where they was bound for, anyway—and when the pals saw them they lit out and the two new men after them a-chasing them as tight as they could go."
+    },
+    {
+      "id": "s164",
+      "text": "But only a minute or two—then these two new men slipped back very quiet into the sycamores."
+    },
+    {
+      "id": "s165",
+      "text": "“_Then_ what did they do?"
+    },
+    {
+      "id": "s166",
+      "text": "I will tell you what they done."
+    },
+    {
+      "id": "s167",
+      "text": "They found where the thief had got his disguise out of his carpet-sack to put on; so one of them strips and puts on that disguise.”"
+    },
+    {
+      "id": "s168",
+      "text": "Tom waited a little here, for some more “effect”—then he says, very deliberate:"
+    },
+    {
+      "id": "s169",
+      "text": "“The man that put on that dead man’s disguise was—_Jubiter Dunlap!_”"
+    },
+    {
+      "id": "s170",
+      "text": "“Great Scott!” everybody shouted, all over the house, and old Uncle Silas he looked perfectly astonished."
+    },
+    {
+      "id": "s171",
+      "text": "“Yes, it was Jubiter Dunlap."
+    },
+    {
+      "id": "s172",
+      "text": "Not dead, you see."
+    },
+    {
+      "id": "s173",
+      "text": "Then they pulled off the dead man’s boots and put Jubiter Dunlap’s old ragged shoes on the corpse and put the corpse’s boots on Jubiter Dunlap."
+    },
+    {
+      "id": "s174",
+      "text": "Then Jubiter Dunlap stayed where he was, and the other man lugged the dead body off in the twilight; and after midnight he went to Uncle Silas’s house, and took his old green work-robe off of the peg where it always hangs in the passage betwixt the house and the kitchen and put it on, and stole the long-handled shovel and went off down into the tobacker field and buried the murdered man.”"
+    },
+    {
+      "id": "s175",
+      "text": "He stopped, and stood half a minute."
+    },
+    {
+      "id": "s176",
+      "text": "Then—“And who do you reckon the murdered man _was?_ It was—_Jake_ Dunlap, the long-lost burglar!”"
+    },
+    {
+      "id": "s177",
+      "text": "“Great Scott!”"
+    },
+    {
+      "id": "s178",
+      "text": "“And the man that buried him was—_Brace_ Dunlap, his brother!”"
+    },
+    {
+      "id": "s179",
+      "text": "“Great Scott!”"
+    },
+    {
+      "id": "s180",
+      "text": "“And who do you reckon is this mowing idiot here that’s letting on all these weeks to be a deef and dumb stranger?"
+    },
+    {
+      "id": "s181",
+      "text": "It’s—_Jubiter_ Dunlap!”"
+    },
+    {
+      "id": "s182",
+      "text": "[Illustration: And there was the murdered man.]"
+    },
+    {
+      "id": "s183",
+      "text": "My land, they all busted out in a howl, and you never see the like of that excitement since the day you was born."
+    },
+    {
+      "id": "s184",
+      "text": "And Tom he made a jump for Jubiter and snaked off his goggles and his false whiskers, and there was the murdered man, sure enough, just as alive as anybody!"
+    },
+    {
+      "id": "s185",
+      "text": "And Aunt Sally and Benny they went to hugging and crying and kissing and smothering old Uncle Silas to that degree he was more muddled and confused and mushed up in his mind than he ever was before, and that is saying considerable."
+    },
+    {
+      "id": "s186",
+      "text": "And next, people begun to yell:"
+    },
+    {
+      "id": "s187",
+      "text": "“Tom Sawyer!"
+    },
+    {
+      "id": "s188",
+      "text": "Tom Sawyer!"
+    },
+    {
+      "id": "s189",
+      "text": "Shut up everybody, and let him go on!"
+    },
+    {
+      "id": "s190",
+      "text": "Go on, Tom Sawyer!”"
+    },
+    {
+      "id": "s191",
+      "text": "[Illustration: Which made him feel uncommon bully.]"
+    },
+    {
+      "id": "s192",
+      "text": "Which made him feel uncommon bully, for it was nuts for Tom Sawyer to be a public character that-away, and a hero, as he calls it."
+    },
+    {
+      "id": "s193",
+      "text": "So when it was all quiet, he says:"
+    },
+    {
+      "id": "s194",
+      "text": "“There ain’t much left, only this."
+    },
+    {
+      "id": "s195",
+      "text": "When that man there, Bruce Dunlap, had most worried the life and sense out of Uncle Silas till at last he plumb lost his mind and hit this other blatherskite, his brother, with a club, I reckon he seen his chance."
+    },
+    {
+      "id": "s196",
+      "text": "Jubiter broke for the woods to hide, and I reckon the game was for him to slide out, in the night, and leave the country."
+    },
+    {
+      "id": "s197",
+      "text": "Then Brace would make everybody believe Uncle Silas killed him and hid his body somers; and that would ruin Uncle Silas and drive _him_ out of the country—hang him, maybe; I dunno."
+    },
+    {
+      "id": "s198",
+      "text": "But when they found their dead brother in the sycamores without knowing him, because he was so battered up, they see they had a better thing; disguise _both_ and bury Jake and dig him up presently all dressed up in Jubiter’s clothes, and hire Jim Lane and Bill Withers and the others to swear to some handy lies—which they done."
+    },
+    {
+      "id": "s199",
+      "text": "And there they set, now, and I told them they would be looking sick before I got done, and that is the way they’re looking now."
+    },
+    {
+      "id": "s200",
+      "text": "“Well, me and Huck Finn here, we come down on the boat with the thieves, and the dead one told us all about the di’monds, and said the others would murder him if they got the chance; and we was going to help him all we could."
+    },
+    {
+      "id": "s201",
+      "text": "We was bound for the sycamores when we heard them killing him in there; but we was in there in the early morning after the storm and allowed nobody hadn’t been killed, after all."
+    },
+    {
+      "id": "s202",
+      "text": "And when we see Jubiter Dunlap here spreading around in the very same disguise Jake told us _he_ was going to wear, we thought it was Jake his own self—and he was goo-gooing deef and dumb, and _that_ was according to agreement."
+    },
+    {
+      "id": "s203",
+      "text": "“Well, me and Huck went on hunting for the corpse after the others quit, and we found it."
+    },
+    {
+      "id": "s204",
+      "text": "And was proud, too; but Uncle Silas he knocked us crazy by telling us _he_ killed the man."
+    },
+    {
+      "id": "s205",
+      "text": "So we was mighty sorry we found the body, and was bound to save Uncle Silas’s neck if we could; and it was going to be tough work, too, because he wouldn’t let us break him out of prison the way we done with our old nigger Jim."
+    },
+    {
+      "id": "s206",
+      "text": "“I done everything I could the whole month to think up some way to save Uncle Silas, but I couldn’t strike a thing."
+    },
+    {
+      "id": "s207",
+      "text": "So when we come into court to-day I come empty, and couldn’t see no chance anywheres."
+    },
+    {
+      "id": "s208",
+      "text": "But by and by I had a glimpse of something that set me thinking—just a little wee glimpse—only that, and not enough to make sure; but it set me thinking hard—and _watching_, when I was only letting on to think; and by and by, sure enough, when Uncle Silas was piling out that stuff about _him_ killing Jubiter Dunlap, I catched that glimpse again, and this time I jumped up and shut down the proceedings, because I _knowed_ Jubiter Dunlap was a-setting here before me."
+    },
+    {
+      "id": "s209",
+      "text": "I knowed him by a thing which I seen him do—and I remembered it."
+    },
+    {
+      "id": "s210",
+      "text": "I’d seen him do it when I was here a year ago.”"
+    },
+    {
+      "id": "s211",
+      "text": "He stopped then, and studied a minute—laying for an “effect”—I knowed it perfectly well."
+    },
+    {
+      "id": "s212",
+      "text": "Then he turned off like he was going to leave the platform, and says, kind of lazy and indifferent:"
+    },
+    {
+      "id": "s213",
+      "text": "“Well, I believe that is all.”"
+    },
+    {
+      "id": "s214",
+      "text": "Why, you never heard such a howl!—and it come from the whole house:"
+    },
+    {
+      "id": "s215",
+      "text": "“What _was_ it you seen him do?"
+    },
+    {
+      "id": "s216",
+      "text": "Stay where you are, you little devil!"
+    },
+    {
+      "id": "s217",
+      "text": "You think you are going to work a body up till his mouth’s a-watering and stop there?"
+    },
+    {
+      "id": "s218",
+      "text": "What _was_ it he done?”"
+    },
+    {
+      "id": "s219",
+      "text": "That was it, you see—he just done it to get an “effect”; you couldn’t ’a’ pulled him off of that platform with a yoke of oxen."
+    },
+    {
+      "id": "s220",
+      "text": "“Oh, it wasn’t anything much,” he says."
+    },
+    {
+      "id": "s221",
+      "text": "“I seen him looking a little excited when he found Uncle Silas was actually fixing to hang himself for a murder that warn’t ever done; and he got more and more nervous and worried, I a-watching him sharp but not seeming to look at him—and all of a sudden his hands begun to work and fidget, and pretty soon his left crept up and _his finger drawed a cross on his cheek_, and then I _had_ him!”"
+    },
+    {
+      "id": "s222",
+      "text": "Well, then they ripped and howled and stomped and clapped their hands till Tom Sawyer was that proud and happy he didn’t know what to do with himself."
+    },
+    {
+      "id": "s223",
+      "text": "And then the judge he looked down over his pulpit and says:"
+    },
+    {
+      "id": "s224",
+      "text": "“My boy, did you _see_ all the various details of this strange conspiracy and tragedy that you’ve been describing?”"
+    },
+    {
+      "id": "s225",
+      "text": "“No, your honor, I didn’t see any of them.”"
+    },
+    {
+      "id": "s226",
+      "text": "“Didn’t see any of them!"
+    },
+    {
+      "id": "s227",
+      "text": "Why, you’ve told the whole history straight through, just the same as if you’d seen it with your eyes."
+    },
+    {
+      "id": "s228",
+      "text": "How did you manage that?”"
+    },
+    {
+      "id": "s229",
+      "text": "Tom says, kind of easy and comfortable:"
+    },
+    {
+      "id": "s230",
+      "text": "“Oh, just noticing the evidence and piecing this and that together, your honor; just an ordinary little bit of detective work; anybody could ’a’ done it.”"
+    },
+    {
+      "id": "s231",
+      "text": "“Nothing of the kind!"
+    },
+    {
+      "id": "s232",
+      "text": "Not two in a million could ’a’ done it."
+    },
+    {
+      "id": "s233",
+      "text": "You are a very remarkable boy.”"
+    },
+    {
+      "id": "s234",
+      "text": "Then they let go and give Tom another smashing round, and he—well, he wouldn’t ’a’ sold out for a silver mine."
+    },
+    {
+      "id": "s235",
+      "text": "Then the judge says:"
+    },
+    {
+      "id": "s236",
+      "text": "“But are you certain you’ve got this curious history straight?”"
+    },
+    {
+      "id": "s237",
+      "text": "“Perfectly, your honor."
+    },
+    {
+      "id": "s238",
+      "text": "Here is Brace Dunlap—let him deny his share of it if he wants to take the chance; I’ll engage to make him wish he hadn’t said anything......"
+    },
+    {
+      "id": "s239",
+      "text": "Well, you see _he’s_ pretty quiet."
+    },
+    {
+      "id": "s240",
+      "text": "And his brother’s pretty quiet, and them four witnesses that lied so and got paid for it, they’re pretty quiet."
+    },
+    {
+      "id": "s241",
+      "text": "And as for Uncle Silas, it ain’t any use for him to put in his oar, I wouldn’t believe him under oath!”"
+    },
+    {
+      "id": "s242",
+      "text": "Well, sir, that fairly made them shout; and even the judge he let go and laughed."
+    },
+    {
+      "id": "s243",
+      "text": "Tom he was just feeling like a rainbow."
+    },
+    {
+      "id": "s244",
+      "text": "When they was done laughing he looks up at the judge and says:"
+    },
+    {
+      "id": "s245",
+      "text": "“Your honor, there’s a thief in this house.”"
+    },
+    {
+      "id": "s246",
+      "text": "“A thief?”"
+    },
+    {
+      "id": "s247",
+      "text": "“Yes, sir."
+    },
+    {
+      "id": "s248",
+      "text": "And he’s got them twelve-thousand-dollar di’monds on him.”"
+    },
+    {
+      "id": "s249",
+      "text": "By gracious, but it made a stir!"
+    },
+    {
+      "id": "s250",
+      "text": "Everybody went shouting:"
+    },
+    {
+      "id": "s251",
+      "text": "“Which is him? which is him? p’int him out!”"
+    },
+    {
+      "id": "s252",
+      "text": "And the judge says:"
+    },
+    {
+      "id": "s253",
+      "text": "“Point him out, my lad."
+    },
+    {
+      "id": "s254",
+      "text": "Sheriff, you will arrest him."
+    },
+    {
+      "id": "s255",
+      "text": "Which one is it?”"
+    },
+    {
+      "id": "s256",
+      "text": "Tom says:"
+    },
+    {
+      "id": "s257",
+      "text": "“This late dead man here—Jubiter Dunlap.”"
+    },
+    {
+      "id": "s258",
+      "text": "Then there was another thundering let-go of astonishment and excitement; but Jubiter, which was astonished enough before, was just fairly putrified with astonishment this time."
+    },
+    {
+      "id": "s259",
+      "text": "And he spoke up, about half crying, and says:"
+    },
+    {
+      "id": "s260",
+      "text": "“Now _that’s_ a lie."
+    },
+    {
+      "id": "s261",
+      "text": "Your honor, it ain’t fair; I’m plenty bad enough without that."
+    },
+    {
+      "id": "s262",
+      "text": "I done the other things—Brace he put me up to it, and persuaded me, and promised he’d make me rich, some day, and I done it, and I’m sorry I done it, and I wisht I hadn’t; but I hain’t stole no di’monds, and I hain’t _got_ no di’monds; I wisht I may never stir if it ain’t so."
+    },
+    {
+      "id": "s263",
+      "text": "The sheriff can search me and see.”"
+    },
+    {
+      "id": "s264",
+      "text": "Tom says:"
+    },
+    {
+      "id": "s265",
+      "text": "“Your honor, it wasn’t right to call him a thief, and I’ll let up on that a little."
+    },
+    {
+      "id": "s266",
+      "text": "He did steal the di’monds, but he didn’t know it."
+    },
+    {
+      "id": "s267",
+      "text": "He stole them from his brother Jake when he was laying dead, after Jake had stole them from the other thieves; but Jubiter didn’t know he was stealing them; and he’s been swelling around here with them a month; yes, sir, twelve thousand dollars’ worth of di’monds on him—all that riches, and going around here every day just like a poor man."
+    },
+    {
+      "id": "s268",
+      "text": "Yes, your honor, he’s got them on him now.”"
+    },
+    {
+      "id": "s269",
+      "text": "The judge spoke up and says:"
+    },
+    {
+      "id": "s270",
+      "text": "“Search him, sheriff.”"
+    },
+    {
+      "id": "s271",
+      "text": "[Illustration: Searched his seams and his pockets and his socks.]"
+    },
+    {
+      "id": "s272",
+      "text": "Well, sir, the sheriff he ransacked him high and low, and everywhere: searched his hat, socks, seams, boots, everything—and Tom he stood there quiet, laying for another of them effects of hisn."
+    },
+    {
+      "id": "s273",
+      "text": "Finally the sheriff he give it up, and everybody looked disappointed, and Jubiter says:"
+    },
+    {
+      "id": "s274",
+      "text": "“There, now! what’d I tell you?”"
+    },
+    {
+      "id": "s275",
+      "text": "And the judge says:"
+    },
+    {
+      "id": "s276",
+      "text": "“It appears you were mistaken this time, my boy.”"
+    },
+    {
+      "id": "s277",
+      "text": "Then Tom took an attitude and let on to be studying with all his might, and scratching his head."
+    },
+    {
+      "id": "s278",
+      "text": "Then all of a sudden he glanced up chipper, and says:"
+    },
+    {
+      "id": "s279",
+      "text": "“Oh, now I’ve got it!"
+    },
+    {
+      "id": "s280",
+      "text": "I’d forgot.”"
+    },
+    {
+      "id": "s281",
+      "text": "Which was a lie, and I knowed it."
+    },
+    {
+      "id": "s282",
+      "text": "Then he says:"
+    },
+    {
+      "id": "s283",
+      "text": "“Will somebody be good enough to lend me a little small screwdriver?"
+    },
+    {
+      "id": "s284",
+      "text": "There was one in your brother’s hand-bag that you smouched, Jubiter, but I reckon you didn’t fetch it with you.”"
+    },
+    {
+      "id": "s285",
+      "text": "“No, I didn’t."
+    },
+    {
+      "id": "s286",
+      "text": "I didn’t want it, and I give it away.”"
+    },
+    {
+      "id": "s287",
+      "text": "“That’s because you didn’t know what it was for.”"
+    },
+    {
+      "id": "s288",
+      "text": "Jubiter had his boots on again, by now, and when the thing Tom wanted was passed over the people’s heads till it got to him, he says to Jubiter:"
+    },
+    {
+      "id": "s289",
+      "text": "“Put up your foot on this chair.” And he kneeled down and begun to unscrew the heel-plate, everybody watching; and when he got that big di’mond out of that boot-heel and held it up and let it flash and blaze and squirt sunlight everwhichaway, it just took everybody’s breath; and Jubiter he looked so sick and sorry you never see the like of it."
+    },
+    {
+      "id": "s290",
+      "text": "And when Tom held up the other di’mond he looked sorrier than ever."
+    },
+    {
+      "id": "s291",
+      "text": "Land! he was thinking how he would ’a’ skipped out and been rich and independent in a foreign land if he’d only had the luck to guess what the screwdriver was in the carpet-bag for."
+    },
+    {
+      "id": "s292",
+      "text": "Well, it was a most exciting time, take it all around, and Tom got cords of glory."
+    },
+    {
+      "id": "s293",
+      "text": "The judge took the di’monds, and stood up in his pulpit, and cleared his throat, and shoved his spectacles back on his head, and says:"
+    },
+    {
+      "id": "s294",
+      "text": "“I’ll keep them and notify the owners; and when they send for them it will be a real pleasure to me to hand you the two thousand dollars, for you’ve earned the money—yes, and you’ve earned the deepest and most sincerest thanks of this community besides, for lifting a wronged and innocent family out of ruin and shame, and saving a good and honorable man from a felon’s death, and for exposing to infamy and the punishment of the law a cruel and odious scoundrel and his miserable creatures!”"
+    },
+    {
+      "id": "s295",
+      "text": "Well, sir, if there’d been a brass band to bust out some music, then, it would ’a’ been just the perfectest thing I ever see, and Tom Sawyer he said the same."
+    },
+    {
+      "id": "s296",
+      "text": "Then the sheriff he nabbed Brace Dunlap and his crowd, and by and by next month the judge had them up for trial and jailed the whole lot."
+    },
+    {
+      "id": "s297",
+      "text": "And everybody crowded back to Uncle Silas’s little old church, and was ever so loving and kind to him and the family and couldn’t do enough for them; and Uncle Silas he preached them the blamedest jumbledest idiotic sermons you ever struck, and would tangle you up so you couldn’t find your way home in daylight; but the people never let on but what they thought it was the clearest and brightest and elegantest sermons that ever was; and they would set there and cry, for love and pity; but, by George, they give me the jim-jams and the fan-tods and caked up what brains I had, and turned them solid; but by and by they loved the old man’s intellects back into him again, and he was as sound in his skull as ever he was, which ain’t no flattery, I reckon."
+    },
+    {
+      "id": "s298",
+      "text": "And so the whole family was as happy as birds, and nobody could be gratefuler and lovinger than what they was to Tom Sawyer; and the same to me, though I hadn’t done nothing."
+    },
+    {
+      "id": "s299",
+      "text": "And when the two thousand dollars come, Tom give half of it to me, and never told anybody so, which didn’t surprise me, because I knowed him."
+    },
+    {
+      "id": "s300",
+      "text": "[Illustration: Tom, give half of it to me.]"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-37",
+  "chapterTitle": "CHAPTER XXXVII.",
+  "contentHash": "sha256:626028970de7cd79b4359282ac636ec00acb721b203708f7e124a5203e80c621",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER XXXVII.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "SUNSET."
+    },
+    {
+      "id": "s2",
+      "text": "_The cabin; by the stern windows; Ahab sitting alone, and gazing out._"
+    },
+    {
+      "id": "s3",
+      "text": "I leave a white and turbid wake; pale waters, paler cheeks, where’er I sail."
+    },
+    {
+      "id": "s4",
+      "text": "The envious billows sidelong swell to whelm my track; let them; but first I pass."
+    },
+    {
+      "id": "s5",
+      "text": "Yonder, by the ever-brimming goblet’s rim, the warm waves blush like wine."
+    },
+    {
+      "id": "s6",
+      "text": "The gold brow plumbs the blue."
+    },
+    {
+      "id": "s7",
+      "text": "The diver sun—slow dived from noon,—goes down; my soul mounts up! she wearies with her endless hill."
+    },
+    {
+      "id": "s8",
+      "text": "Is, then, the crown too heavy that I wear?"
+    },
+    {
+      "id": "s9",
+      "text": "This Iron Crown of Lombardy."
+    },
+    {
+      "id": "s10",
+      "text": "Yet is it bright with many a gem; I, the wearer, see not its far flashings; but darkly feel that I wear that, that dazzlingly confounds. ’Tis iron—that I know—not gold. ’Tis split, too—that I feel; the jagged edge galls me so, my brain seems to beat against the solid metal; aye, steel skull, mine; the sort that needs no helmet in the most brain-battering fight!"
+    },
+    {
+      "id": "s11",
+      "text": "Dry heat upon my brow?"
+    },
+    {
+      "id": "s12",
+      "text": "Oh! time was, when as the sunrise nobly spurred me, so the sunset soothed."
+    },
+    {
+      "id": "s13",
+      "text": "No more."
+    },
+    {
+      "id": "s14",
+      "text": "This lovely light, it lights not me; all loveliness is anguish to me, since I can ne’er enjoy."
+    },
+    {
+      "id": "s15",
+      "text": "Gifted with the high perception, I lack the low, enjoying power; damned, most subtly and most malignantly! damned in the midst of Paradise!"
+    },
+    {
+      "id": "s16",
+      "text": "Good night—good night! (_waving his hand, he moves from the window._)"
+    },
+    {
+      "id": "s17",
+      "text": "’Twas not so hard a task."
+    },
+    {
+      "id": "s18",
+      "text": "I thought to find one stubborn, at the least; but my one cogged circle fits into all their various wheels, and they revolve."
+    },
+    {
+      "id": "s19",
+      "text": "Or, if you will, like so many ant-hills of powder, they all stand before me; and I their match."
+    },
+    {
+      "id": "s20",
+      "text": "Oh, hard! that to fire others, the match itself must needs be wasting!"
+    },
+    {
+      "id": "s21",
+      "text": "What I’ve dared, I’ve willed; and what I’ve willed, I’ll do!"
+    },
+    {
+      "id": "s22",
+      "text": "They think me mad—Starbuck does; but I’m demoniac, I am madness maddened!"
+    },
+    {
+      "id": "s23",
+      "text": "That wild madness that’s only calm to comprehend itself!"
+    },
+    {
+      "id": "s24",
+      "text": "The prophecy was that I should be dismembered; and—Aye!"
+    },
+    {
+      "id": "s25",
+      "text": "I lost this leg."
+    },
+    {
+      "id": "s26",
+      "text": "I now prophesy that I will dismember my dismemberer."
+    },
+    {
+      "id": "s27",
+      "text": "Now, then, be the prophet and the fulfiller one."
+    },
+    {
+      "id": "s28",
+      "text": "That’s more than ye, ye great gods, ever were."
+    },
+    {
+      "id": "s29",
+      "text": "I laugh and hoot at ye, ye cricket-players, ye pugilists, ye deaf Burkes and blinded Bendigoes!"
+    },
+    {
+      "id": "s30",
+      "text": "I will not say as schoolboys do to bullies,—Take some one of your own size; don’t pommel _me!_ No, ye’ve knocked me down, and I am up again; but _ye_ have run and hidden."
+    },
+    {
+      "id": "s31",
+      "text": "Come forth from behind your cotton bags!"
+    },
+    {
+      "id": "s32",
+      "text": "I have no long gun to reach ye."
+    },
+    {
+      "id": "s33",
+      "text": "Come, Ahab’s compliments to ye; come and see if ye can swerve me."
+    },
+    {
+      "id": "s34",
+      "text": "Swerve me? ye cannot swerve me, else ye swerve yourselves! man has ye there."
+    },
+    {
+      "id": "s35",
+      "text": "Swerve me?"
+    },
+    {
+      "id": "s36",
+      "text": "The path to my fixed purpose is laid with iron rails, whereon my soul is grooved to run."
+    },
+    {
+      "id": "s37",
+      "text": "Over unsounded gorges, through the rifled hearts of mountains, under torrents’ beds, unerringly I rush!"
+    },
+    {
+      "id": "s38",
+      "text": "Naught’s an obstacle, naught’s an angle to the iron way!"
+    }
+  ]
+}

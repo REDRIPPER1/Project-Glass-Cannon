@@ -1,0 +1,577 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-91-tom-sawyer-abroad",
+  "ebookId": "91",
+  "edition": "Project Gutenberg eBook #91; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-5",
+  "chapterTitle": "CHAPTER V.",
+  "contentHash": "sha256:b8d7d9d048923bd81f19c39899f872682b758ea2f2b90e12dd274f4731e60ac0",
+  "attribution": "Twain, Mark, 1835-1910, Tom Sawyer Abroad, CHAPTER V.. Source checked against Project Gutenberg eBook #91.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/91",
+    "textUrl": "https://www.gutenberg.org/cache/epub/91/pg91.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "LAND"
+    },
+    {
+      "id": "s2",
+      "text": "We tried to make some plans, but we couldn’t come to no agreement."
+    },
+    {
+      "id": "s3",
+      "text": "Me and Jim was for turning around and going back home, but Tom allowed that by the time daylight come, so we could see our way, we would be so far toward England that we might as well go there, and come back in a ship, and have the glory of saying we done it."
+    },
+    {
+      "id": "s4",
+      "text": "About midnight the storm quit and the moon come out and lit up the ocean, and we begun to feel comfortable and drowsy; so we stretched out on the lockers and went to sleep, and never woke up again till sun-up."
+    },
+    {
+      "id": "s5",
+      "text": "The sea was sparkling like di’monds, and it was nice weather, and pretty soon our things was all dry again."
+    },
+    {
+      "id": "s6",
+      "text": "We went aft to find some breakfast, and the first thing we noticed was that there was a dim light burning in a compass back there under a hood."
+    },
+    {
+      "id": "s7",
+      "text": "Then Tom was disturbed."
+    },
+    {
+      "id": "s8",
+      "text": "He says:"
+    },
+    {
+      "id": "s9",
+      "text": "“You know what that means, easy enough."
+    },
+    {
+      "id": "s10",
+      "text": "It means that somebody has got to stay on watch and steer this thing the same as he would a ship, or she’ll wander around and go wherever the wind wants her to.”"
+    },
+    {
+      "id": "s11",
+      "text": "“Well,” I says, “what’s she been doing since—er—since we had the accident?”"
+    },
+    {
+      "id": "s12",
+      "text": "“Wandering,” he says, kinder troubled—“wandering, without any doubt."
+    },
+    {
+      "id": "s13",
+      "text": "She’s in a wind now that’s blowing her south of east."
+    },
+    {
+      "id": "s14",
+      "text": "We don’t know how long that’s been going on, either.”"
+    },
+    {
+      "id": "s15",
+      "text": "So then he p’inted her east, and said he would hold her there till we rousted out the breakfast."
+    },
+    {
+      "id": "s16",
+      "text": "The professor had laid in everything a body could want; he couldn’t ’a’ been better fixed."
+    },
+    {
+      "id": "s17",
+      "text": "There wasn’t no milk for the coffee, but there was water, and everything else you could want, and a charcoal stove and the fixings for it, and pipes and cigars and matches; and wine and liquor, which warn’t in our line; and books, and maps, and charts, and an accordion; and furs, and blankets, and no end of rubbish, like brass beads and brass jewelry, which Tom said was a sure sign that he had an idea of visiting among savages."
+    },
+    {
+      "id": "s18",
+      "text": "There was money, too."
+    },
+    {
+      "id": "s19",
+      "text": "Yes, the professor was well enough fixed."
+    },
+    {
+      "id": "s20",
+      "text": "After breakfast Tom learned me and Jim how to steer, and divided us all up into four-hour watches, turn and turn about; and when his watch was out I took his place, and he got out the professor’s papers and pens and wrote a letter home to his aunt Polly, telling her everything that had happened to us, and dated it “_In the Welkin, approaching England_,” and folded it together and stuck it fast with a red wafer, and directed it, and wrote above the direction, in big writing, “_From Tom Sawyer, the Erronort_,” and said it would stump old Nat Parsons, the postmaster, when it come along in the mail."
+    },
+    {
+      "id": "s21",
+      "text": "I says:"
+    },
+    {
+      "id": "s22",
+      "text": "“Tom Sawyer, this ain’t no welkin, it’s a balloon.”"
+    },
+    {
+      "id": "s23",
+      "text": "“Well, now, who _said_ it was a welkin, smarty?”"
+    },
+    {
+      "id": "s24",
+      "text": "“You’ve wrote it on the letter, anyway.”"
+    },
+    {
+      "id": "s25",
+      "text": "“What of it?"
+    },
+    {
+      "id": "s26",
+      "text": "That don’t mean that the balloon’s the welkin.”"
+    },
+    {
+      "id": "s27",
+      "text": "“Oh, I thought it did."
+    },
+    {
+      "id": "s28",
+      "text": "Well, then, what is a welkin?”"
+    },
+    {
+      "id": "s29",
+      "text": "I see in a minute he was stuck."
+    },
+    {
+      "id": "s30",
+      "text": "He raked and scraped around in his mind, but he couldn’t find nothing, so he had to say:"
+    },
+    {
+      "id": "s31",
+      "text": "“I don’t know, and nobody don’t know."
+    },
+    {
+      "id": "s32",
+      "text": "It’s just a word, and it’s a mighty good word, too."
+    },
+    {
+      "id": "s33",
+      "text": "There ain’t many that lays over it."
+    },
+    {
+      "id": "s34",
+      "text": "I don’t believe there’s _any_ that does.”"
+    },
+    {
+      "id": "s35",
+      "text": "“Shucks!” I says."
+    },
+    {
+      "id": "s36",
+      "text": "“But what does it _mean?_—that’s the p’int.”"
+    },
+    {
+      "id": "s37",
+      "text": "“I don’t know what it means, I tell you."
+    },
+    {
+      "id": "s38",
+      "text": "It’s a word that people uses for—for—well, it’s ornamental."
+    },
+    {
+      "id": "s39",
+      "text": "They don’t put ruffles on a shirt to keep a person warm, do they?”"
+    },
+    {
+      "id": "s40",
+      "text": "“Course they don’t.”"
+    },
+    {
+      "id": "s41",
+      "text": "“But they put them _on_, don’t they?”"
+    },
+    {
+      "id": "s42",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s43",
+      "text": "“All right, then; that letter I wrote is a shirt, and the welkin’s the ruffle on it.”"
+    },
+    {
+      "id": "s44",
+      "text": "I judged that that would gravel Jim, and it did."
+    },
+    {
+      "id": "s45",
+      "text": "“Now, Mars Tom, it ain’t no use to talk like dat; en, moreover, it’s sinful."
+    },
+    {
+      "id": "s46",
+      "text": "You knows a letter ain’t no shirt, en dey ain’t no ruffles on it, nuther."
+    },
+    {
+      "id": "s47",
+      "text": "Dey ain’t no place to put ’em on; you can’t put em on, and dey wouldn’t stay ef you did.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Oh _do_ shut up, and wait till something’s started that you know something about.”"
+    },
+    {
+      "id": "s49",
+      "text": "“Why, Mars Tom, sholy you can’t mean to say I don’t know about shirts, when, goodness knows, I’s toted home de washin’ ever sence—”"
+    },
+    {
+      "id": "s50",
+      "text": "“I tell you, this hasn’t got anything to do with shirts."
+    },
+    {
+      "id": "s51",
+      "text": "I only—”"
+    },
+    {
+      "id": "s52",
+      "text": "“Why, Mars Tom, you said yo’self dat a letter—”"
+    },
+    {
+      "id": "s53",
+      "text": "“Do you want to drive me crazy?"
+    },
+    {
+      "id": "s54",
+      "text": "Keep still."
+    },
+    {
+      "id": "s55",
+      "text": "I only used it as a metaphor.”"
+    },
+    {
+      "id": "s56",
+      "text": "That word kinder bricked us up for a minute."
+    },
+    {
+      "id": "s57",
+      "text": "Then Jim says—rather timid, because he see Tom was getting pretty tetchy:"
+    },
+    {
+      "id": "s58",
+      "text": "“Mars Tom, what is a metaphor?”"
+    },
+    {
+      "id": "s59",
+      "text": "“A metaphor’s a—well, it’s a—a—a metaphor’s an illustration.” He see _that_ didn’t git home, so he tried again."
+    },
+    {
+      "id": "s60",
+      "text": "“When I say birds of a feather flocks together, it’s a metaphorical way of saying—”"
+    },
+    {
+      "id": "s61",
+      "text": "“But dey _don’t!_, Mars Tom."
+    },
+    {
+      "id": "s62",
+      "text": "No, sir, ’deed dey don’t."
+    },
+    {
+      "id": "s63",
+      "text": "Dey ain’t no feathers dat’s more alike den a bluebird en a jaybird, but ef you waits till you catches dem birds together, you’ll—”"
+    },
+    {
+      "id": "s64",
+      "text": "“Oh, give us a rest!"
+    },
+    {
+      "id": "s65",
+      "text": "You can’t get the simplest little thing through your thick skull."
+    },
+    {
+      "id": "s66",
+      "text": "Now don’t bother me any more.”"
+    },
+    {
+      "id": "s67",
+      "text": "Jim was satisfied to stop."
+    },
+    {
+      "id": "s68",
+      "text": "He was dreadful pleased with himself for catching Tom out."
+    },
+    {
+      "id": "s69",
+      "text": "The minute Tom begun to talk about birds I judged he was a goner, because Jim knowed more about birds than both of us put together."
+    },
+    {
+      "id": "s70",
+      "text": "You see, he had killed hundreds and hundreds of them, and that’s the way to find out about birds."
+    },
+    {
+      "id": "s71",
+      "text": "That’s the way people does that writes books about birds, and loves them so that they’ll go hungry and tired and take any amount of trouble to find a new bird and kill it."
+    },
+    {
+      "id": "s72",
+      "text": "Their name is ornithologers, and I could have been an ornithologer myself, because I always loved birds and creatures; and I started out to learn how to be one, and I see a bird setting on a limb of a high tree, singing with its head tilted back and its mouth open, and before I thought I fired, and his song stopped and he fell straight down from the limb, all limp like a rag, and I run and picked him up and he was dead, and his body was warm in my hand, and his head rolled about this way and that, like his neck was broke, and there was a little white skin over his eyes, and one little drop of blood on the side of his head; and, laws!"
+    },
+    {
+      "id": "s73",
+      "text": "I couldn’t see nothing more for the tears; and I hain’t never murdered no creature since that warn’t doing me no harm, and I ain’t going to."
+    },
+    {
+      "id": "s74",
+      "text": "But I was aggravated about that welkin."
+    },
+    {
+      "id": "s75",
+      "text": "I wanted to know."
+    },
+    {
+      "id": "s76",
+      "text": "I got the subject up again, and then Tom explained, the best he could."
+    },
+    {
+      "id": "s77",
+      "text": "He said when a person made a big speech the newspapers said the shouts of the people made the welkin ring."
+    },
+    {
+      "id": "s78",
+      "text": "He said they always said that, but none of them ever told what it was, so he allowed it just meant outdoors and up high."
+    },
+    {
+      "id": "s79",
+      "text": "Well, that seemed sensible enough, so I was satisfied, and said so."
+    },
+    {
+      "id": "s80",
+      "text": "That pleased Tom and put him in a good humor again, and he says:"
+    },
+    {
+      "id": "s81",
+      "text": "“Well, it’s all right, then; and we’ll let bygones be bygones."
+    },
+    {
+      "id": "s82",
+      "text": "I don’t know for certain what a welkin is, but when we land in London we’ll make it ring, anyway, and don’t you forget it.”"
+    },
+    {
+      "id": "s83",
+      "text": "He said an erronort was a person who sailed around in balloons; and said it was a mighty sight finer to be Tom Sawyer the Erronort than to be Tom Sawyer the Traveler, and we would be heard of all round the world, if we pulled through all right, and so he wouldn’t give shucks to be a traveler now."
+    },
+    {
+      "id": "s84",
+      "text": "Toward the middle of the afternoon we got everything ready to land, and we felt pretty good, too, and proud; and we kept watching with the glasses, like Columbus discovering America."
+    },
+    {
+      "id": "s85",
+      "text": "But we couldn’t see nothing but ocean."
+    },
+    {
+      "id": "s86",
+      "text": "The afternoon wasted out and the sun shut down, and still there warn’t no land anywheres."
+    },
+    {
+      "id": "s87",
+      "text": "We wondered what was the matter, but reckoned it would come out all right, so we went on steering east, but went up on a higher level so we wouldn’t hit any steeples or mountains in the dark."
+    },
+    {
+      "id": "s88",
+      "text": "It was my watch till midnight, and then it was Jim’s; but Tom stayed up, because he said ship captains done that when they was making the land, and didn’t stand no regular watch."
+    },
+    {
+      "id": "s89",
+      "text": "Well, when daylight come, Jim give a shout, and we jumped up and looked over, and there was the land sure enough—land all around, as far as you could see, and perfectly level and yaller."
+    },
+    {
+      "id": "s90",
+      "text": "We didn’t know how long we’d been over it."
+    },
+    {
+      "id": "s91",
+      "text": "There warn’t no trees, nor hills, nor rocks, nor towns, and Tom and Jim had took it for the sea."
+    },
+    {
+      "id": "s92",
+      "text": "They took it for the sea in a dead ca’m; but we was so high up, anyway, that if it had been the sea and rough, it would ’a’ looked smooth, all the same, in the night, that way."
+    },
+    {
+      "id": "s93",
+      "text": "We was all in a powerful excitement now, and grabbed the glasses and hunted everywheres for London, but couldn’t find hair nor hide of it, nor any other settlement—nor any sign of a lake or a river, either."
+    },
+    {
+      "id": "s94",
+      "text": "Tom was clean beat."
+    },
+    {
+      "id": "s95",
+      "text": "He said it warn’t his notion of England; he thought England looked like America, and always had that idea."
+    },
+    {
+      "id": "s96",
+      "text": "So he said we better have breakfast, and then drop down and inquire the quickest way to London."
+    },
+    {
+      "id": "s97",
+      "text": "We cut the breakfast pretty short, we was so impatient."
+    },
+    {
+      "id": "s98",
+      "text": "As we slanted along down, the weather began to moderate, and pretty soon we shed our furs."
+    },
+    {
+      "id": "s99",
+      "text": "But it kept _on_ moderating, and in a precious little while it was ’most too moderate."
+    },
+    {
+      "id": "s100",
+      "text": "We was close down now, and just blistering!"
+    },
+    {
+      "id": "s101",
+      "text": "We settled down to within thirty foot of the land—that is, it was land if sand is land; for this wasn’t anything but pure sand."
+    },
+    {
+      "id": "s102",
+      "text": "Tom and me clumb down the ladder and took a run to stretch our legs, and it felt amazing good—that is, the stretching did, but the sand scorched our feet like hot embers."
+    },
+    {
+      "id": "s103",
+      "text": "Next, we see somebody coming, and started to meet him; but we heard Jim shout, and looked around and he was fairly dancing, and making signs, and yelling."
+    },
+    {
+      "id": "s104",
+      "text": "We couldn’t make out what he said, but we was scared anyway, and begun to heel it back to the balloon."
+    },
+    {
+      "id": "s105",
+      "text": "When we got close enough, we understood the words, and they made me sick:"
+    },
+    {
+      "id": "s106",
+      "text": "“Run!"
+    },
+    {
+      "id": "s107",
+      "text": "Run fo’ yo’ life!"
+    },
+    {
+      "id": "s108",
+      "text": "Hit’s a lion; I kin see him thoo de glass!"
+    },
+    {
+      "id": "s109",
+      "text": "Run, boys; do please heel it de bes’ you kin."
+    },
+    {
+      "id": "s110",
+      "text": "He’s bu’sted outen de menagerie, en dey ain’t nobody to stop him!”"
+    },
+    {
+      "id": "s111",
+      "text": "[Illustration: “Run!"
+    },
+    {
+      "id": "s112",
+      "text": "Run fo’ yo’ life!”]"
+    },
+    {
+      "id": "s113",
+      "text": "It made Tom fly, but it took the stiffening all out of my legs."
+    },
+    {
+      "id": "s114",
+      "text": "I could only just gasp along the way you do in a dream when there’s a ghost gaining on you."
+    },
+    {
+      "id": "s115",
+      "text": "Tom got to the ladder and shinned up it a piece and waited for me; and as soon as I got a foothold on it he shouted to Jim to soar away."
+    },
+    {
+      "id": "s116",
+      "text": "But Jim had clean lost his head, and said he had forgot how."
+    },
+    {
+      "id": "s117",
+      "text": "So Tom shinned along up and told me to follow; but the lion was arriving, fetching a most ghastly roar with every lope, and my legs shook so I dasn’t try to take one of them out of the rounds for fear the other one would give way under me."
+    },
+    {
+      "id": "s118",
+      "text": "[Illustration: “And there was the lion, a-ripping around under me”]"
+    },
+    {
+      "id": "s119",
+      "text": "But Tom was aboard by this time, and he started the balloon up a little, and stopped it again as soon as the end of the ladder was ten or twelve feet above ground."
+    },
+    {
+      "id": "s120",
+      "text": "And there was the lion, a-ripping around under me, and roaring and springing up in the air at the ladder, and only missing it about a quarter of an inch, it seemed to me."
+    },
+    {
+      "id": "s121",
+      "text": "It was delicious to be out of his reach, perfectly delicious, and made me feel good and thankful all up one side; but I was hanging there helpless and couldn’t climb, and that made me feel perfectly wretched and miserable all down the other."
+    },
+    {
+      "id": "s122",
+      "text": "It is most seldom that a person feels so mixed like that; and it is not to be recommended, either."
+    },
+    {
+      "id": "s123",
+      "text": "Tom asked me what he’d better do, but I didn’t know."
+    },
+    {
+      "id": "s124",
+      "text": "He asked me if I could hold on whilst he sailed away to a safe place and left the lion behind."
+    },
+    {
+      "id": "s125",
+      "text": "I said I could if he didn’t go no higher than he was now; but if he went higher I would lose my head and fall, sure."
+    },
+    {
+      "id": "s126",
+      "text": "So he said, “Take a good grip,” and he started."
+    },
+    {
+      "id": "s127",
+      "text": "“Don’t go so fast,” I shouted."
+    },
+    {
+      "id": "s128",
+      "text": "“It makes my head swim.”"
+    },
+    {
+      "id": "s129",
+      "text": "He had started like a lightning express."
+    },
+    {
+      "id": "s130",
+      "text": "He slowed down, and we glided over the sand slower, but still in a kind of sickening way; for it _is_ uncomfortable to see things sliding and gliding under you like that, and not a sound."
+    },
+    {
+      "id": "s131",
+      "text": "But pretty soon there was plenty of sound, for the lion was catching up."
+    },
+    {
+      "id": "s132",
+      "text": "His noise fetched others."
+    },
+    {
+      "id": "s133",
+      "text": "You could see them coming on the lope from every direction, and pretty soon there was a couple of dozen of them under me, jumping up at the ladder and snarling and snapping at each other; and so we went skimming along over the sand, and these fellers doing what they could to help us to not forgit the occasion; and then some other beasts come, without an invite, and they started a regular riot down there."
+    },
+    {
+      "id": "s134",
+      "text": "We see this plan was a mistake."
+    },
+    {
+      "id": "s135",
+      "text": "We couldn’t ever git away from them at this gait, and I couldn’t hold on forever."
+    },
+    {
+      "id": "s136",
+      "text": "So Tom took a think, and struck another idea."
+    },
+    {
+      "id": "s137",
+      "text": "That was, to kill a lion with the pepper-box revolver, and then sail away while the others stopped to fight over the carcass."
+    },
+    {
+      "id": "s138",
+      "text": "So he stopped the balloon still, and done it, and then we sailed off while the fuss was going on, and come down a quarter of a mile off, and they helped me aboard; but by the time we was out of reach again, that gang was on hand once more."
+    },
+    {
+      "id": "s139",
+      "text": "And when they see we was really gone and they couldn’t get us, they sat down on their hams and looked up at us so kind of disappointed that it was as much as a person could do not to see _their_ side of the matter."
+    }
+  ]
+}

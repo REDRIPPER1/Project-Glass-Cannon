@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-141-mansfield-park",
+  "ebookId": "141",
+  "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-18",
+  "chapterTitle": "CHAPTER XVIII",
+  "contentHash": "sha256:1ae82e4acebaf2ecb397ad99c58b2843b260170b972e068e11fde619c6a31bb0",
+  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER XVIII. Source checked against Project Gutenberg eBook #141.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/141",
+    "textUrl": "https://www.gutenberg.org/cache/epub/141/pg141.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Everything was now in a regular train: theatre, actors, actresses, and dresses, were all getting forward; but though no other great impediments arose, Fanny found, before many days were past, that it was not all uninterrupted enjoyment to the party themselves, and that she had not to witness the continuance of such unanimity and delight as had been almost too much for her at first."
+    },
+    {
+      "id": "s2",
+      "text": "Everybody began to have their vexation."
+    },
+    {
+      "id": "s3",
+      "text": "Edmund had many."
+    },
+    {
+      "id": "s4",
+      "text": "Entirely against _his_ judgment, a scene-painter arrived from town, and was at work, much to the increase of the expenses, and, what was worse, of the eclat of their proceedings; and his brother, instead of being really guided by him as to the privacy of the representation, was giving an invitation to every family who came in his way."
+    },
+    {
+      "id": "s5",
+      "text": "Tom himself began to fret over the scene-painter’s slow progress, and to feel the miseries of waiting."
+    },
+    {
+      "id": "s6",
+      "text": "He had learned his part—all his parts, for he took every trifling one that could be united with the Butler, and began to be impatient to be acting; and every day thus unemployed was tending to increase his sense of the insignificance of all his parts together, and make him more ready to regret that some other play had not been chosen."
+    },
+    {
+      "id": "s7",
+      "text": "Fanny, being always a very courteous listener, and often the only listener at hand, came in for the complaints and the distresses of most of them. _She_ knew that Mr."
+    },
+    {
+      "id": "s8",
+      "text": "Yates was in general thought to rant dreadfully; that Mr."
+    },
+    {
+      "id": "s9",
+      "text": "Yates was disappointed in Henry Crawford; that Tom Bertram spoke so quick he would be unintelligible; that Mrs."
+    },
+    {
+      "id": "s10",
+      "text": "Grant spoiled everything by laughing; that Edmund was behindhand with his part, and that it was misery to have anything to do with Mr."
+    },
+    {
+      "id": "s11",
+      "text": "Rushworth, who was wanting a prompter through every speech."
+    },
+    {
+      "id": "s12",
+      "text": "She knew, also, that poor Mr."
+    },
+    {
+      "id": "s13",
+      "text": "Rushworth could seldom get anybody to rehearse with him: _his_ complaint came before her as well as the rest; and so decided to her eye was her cousin Maria’s avoidance of him, and so needlessly often the rehearsal of the first scene between her and Mr."
+    },
+    {
+      "id": "s14",
+      "text": "Crawford, that she had soon all the terror of other complaints from _him_."
+    },
+    {
+      "id": "s15",
+      "text": "So far from being all satisfied and all enjoying, she found everybody requiring something they had not, and giving occasion of discontent to the others."
+    },
+    {
+      "id": "s16",
+      "text": "Everybody had a part either too long or too short; nobody would attend as they ought; nobody would remember on which side they were to come in; nobody but the complainer would observe any directions."
+    },
+    {
+      "id": "s17",
+      "text": "Fanny believed herself to derive as much innocent enjoyment from the play as any of them; Henry Crawford acted well, and it was a pleasure to _her_ to creep into the theatre, and attend the rehearsal of the first act, in spite of the feelings it excited in some speeches for Maria."
+    },
+    {
+      "id": "s18",
+      "text": "Maria, she also thought, acted well, too well; and after the first rehearsal or two, Fanny began to be their only audience; and sometimes as prompter, sometimes as spectator, was often very useful."
+    },
+    {
+      "id": "s19",
+      "text": "As far as she could judge, Mr."
+    },
+    {
+      "id": "s20",
+      "text": "Crawford was considerably the best actor of all: he had more confidence than Edmund, more judgment than Tom, more talent and taste than Mr."
+    },
+    {
+      "id": "s21",
+      "text": "Yates."
+    },
+    {
+      "id": "s22",
+      "text": "She did not like him as a man, but she must admit him to be the best actor, and on this point there were not many who differed from her."
+    },
+    {
+      "id": "s23",
+      "text": "Mr."
+    },
+    {
+      "id": "s24",
+      "text": "Yates, indeed, exclaimed against his tameness and insipidity; and the day came at last, when Mr."
+    },
+    {
+      "id": "s25",
+      "text": "Rushworth turned to her with a black look, and said, “Do you think there is anything so very fine in all this?"
+    },
+    {
+      "id": "s26",
+      "text": "For the life and soul of me, I cannot admire him; and, between ourselves, to see such an undersized, little, mean-looking man, set up for a fine actor, is very ridiculous in my opinion.”"
+    },
+    {
+      "id": "s27",
+      "text": "From this moment there was a return of his former jealousy, which Maria, from increasing hopes of Crawford, was at little pains to remove; and the chances of Mr."
+    },
+    {
+      "id": "s28",
+      "text": "Rushworth’s ever attaining to the knowledge of his two-and-forty speeches became much less."
+    },
+    {
+      "id": "s29",
+      "text": "As to his ever making anything _tolerable_ of them, nobody had the smallest idea of that except his mother; _she_, indeed, regretted that his part was not more considerable, and deferred coming over to Mansfield till they were forward enough in their rehearsal to comprehend all his scenes; but the others aspired at nothing beyond his remembering the catchword, and the first line of his speech, and being able to follow the prompter through the rest."
+    },
+    {
+      "id": "s30",
+      "text": "Fanny, in her pity and kindheartedness, was at great pains to teach him how to learn, giving him all the helps and directions in her power, trying to make an artificial memory for him, and learning every word of his part herself, but without his being much the forwarder."
+    },
+    {
+      "id": "s31",
+      "text": "Many uncomfortable, anxious, apprehensive feelings she certainly had; but with all these, and other claims on her time and attention, she was as far from finding herself without employment or utility amongst them, as without a companion in uneasiness; quite as far from having no demand on her leisure as on her compassion."
+    },
+    {
+      "id": "s32",
+      "text": "The gloom of her first anticipations was proved to have been unfounded."
+    },
+    {
+      "id": "s33",
+      "text": "She was occasionally useful to all; she was perhaps as much at peace as any."
+    },
+    {
+      "id": "s34",
+      "text": "There was a great deal of needlework to be done, moreover, in which her help was wanted; and that Mrs."
+    },
+    {
+      "id": "s35",
+      "text": "Norris thought her quite as well off as the rest, was evident by the manner in which she claimed it—“Come, Fanny,” she cried, “these are fine times for you, but you must not be always walking from one room to the other, and doing the lookings-on at your ease, in this way; I want you here."
+    },
+    {
+      "id": "s36",
+      "text": "I have been slaving myself till I can hardly stand, to contrive Mr."
+    },
+    {
+      "id": "s37",
+      "text": "Rushworth’s cloak without sending for any more satin; and now I think you may give me your help in putting it together."
+    },
+    {
+      "id": "s38",
+      "text": "There are but three seams; you may do them in a trice."
+    },
+    {
+      "id": "s39",
+      "text": "It would be lucky for me if I had nothing but the executive part to do. _You_ are best off, I can tell you: but if nobody did more than _you_, we should not get on very fast.”"
+    },
+    {
+      "id": "s40",
+      "text": "Fanny took the work very quietly, without attempting any defence; but her kinder aunt Bertram observed on her behalf—"
+    },
+    {
+      "id": "s41",
+      "text": "“One cannot wonder, sister, that Fanny _should_ be delighted: it is all new to her, you know; you and I used to be very fond of a play ourselves, and so am I still; and as soon as I am a little more at leisure, _I_ mean to look in at their rehearsals too."
+    },
+    {
+      "id": "s42",
+      "text": "What is the play about, Fanny? you have never told me.”"
+    },
+    {
+      "id": "s43",
+      "text": "“Oh! sister, pray do not ask her now; for Fanny is not one of those who can talk and work at the same time."
+    },
+    {
+      "id": "s44",
+      "text": "It is about Lovers’ Vows.”"
+    },
+    {
+      "id": "s45",
+      "text": "“I believe,” said Fanny to her aunt Bertram, “there will be three acts rehearsed to-morrow evening, and that will give you an opportunity of seeing all the actors at once.”"
+    },
+    {
+      "id": "s46",
+      "text": "“You had better stay till the curtain is hung,” interposed Mrs."
+    },
+    {
+      "id": "s47",
+      "text": "Norris; “the curtain will be hung in a day or two—there is very little sense in a play without a curtain—and I am much mistaken if you do not find it draw up into very handsome festoons.”"
+    },
+    {
+      "id": "s48",
+      "text": "Lady Bertram seemed quite resigned to waiting."
+    },
+    {
+      "id": "s49",
+      "text": "Fanny did not share her aunt’s composure: she thought of the morrow a great deal, for if the three acts were rehearsed, Edmund and Miss Crawford would then be acting together for the first time; the third act would bring a scene between them which interested her most particularly, and which she was longing and dreading to see how they would perform."
+    },
+    {
+      "id": "s50",
+      "text": "The whole subject of it was love—a marriage of love was to be described by the gentleman, and very little short of a declaration of love be made by the lady."
+    },
+    {
+      "id": "s51",
+      "text": "She had read and read the scene again with many painful, many wondering emotions, and looked forward to their representation of it as a circumstance almost too interesting."
+    },
+    {
+      "id": "s52",
+      "text": "She did not _believe_ they had yet rehearsed it, even in private."
+    },
+    {
+      "id": "s53",
+      "text": "The morrow came, the plan for the evening continued, and Fanny’s consideration of it did not become less agitated."
+    },
+    {
+      "id": "s54",
+      "text": "She worked very diligently under her aunt’s directions, but her diligence and her silence concealed a very absent, anxious mind; and about noon she made her escape with her work to the East room, that she might have no concern in another, and, as she deemed it, most unnecessary rehearsal of the first act, which Henry Crawford was just proposing, desirous at once of having her time to herself, and of avoiding the sight of Mr."
+    },
+    {
+      "id": "s55",
+      "text": "Rushworth."
+    },
+    {
+      "id": "s56",
+      "text": "A glimpse, as she passed through the hall, of the two ladies walking up from the Parsonage made no change in her wish of retreat, and she worked and meditated in the East room, undisturbed, for a quarter of an hour, when a gentle tap at the door was followed by the entrance of Miss Crawford."
+    },
+    {
+      "id": "s57",
+      "text": "“Am I right?"
+    },
+    {
+      "id": "s58",
+      "text": "Yes; this is the East room."
+    },
+    {
+      "id": "s59",
+      "text": "My dear Miss Price, I beg your pardon, but I have made my way to you on purpose to entreat your help.”"
+    },
+    {
+      "id": "s60",
+      "text": "Fanny, quite surprised, endeavoured to shew herself mistress of the room by her civilities, and looked at the bright bars of her empty grate with concern."
+    },
+    {
+      "id": "s61",
+      "text": "“Thank you; I am quite warm, very warm."
+    },
+    {
+      "id": "s62",
+      "text": "Allow me to stay here a little while, and do have the goodness to hear me my third act."
+    },
+    {
+      "id": "s63",
+      "text": "I have brought my book, and if you would but rehearse it with me, I should be _so_ obliged!"
+    },
+    {
+      "id": "s64",
+      "text": "I came here to-day intending to rehearse it with Edmund—by ourselves—against the evening, but he is not in the way; and if he _were_, I do not think I could go through it with _him_, till I have hardened myself a little; for really there is a speech or two."
+    },
+    {
+      "id": "s65",
+      "text": "You will be so good, won’t you?”"
+    },
+    {
+      "id": "s66",
+      "text": "Fanny was most civil in her assurances, though she could not give them in a very steady voice."
+    },
+    {
+      "id": "s67",
+      "text": "“Have you ever happened to look at the part I mean?” continued Miss Crawford, opening her book."
+    },
+    {
+      "id": "s68",
+      "text": "“Here it is."
+    },
+    {
+      "id": "s69",
+      "text": "I did not think much of it at first—but, upon my word."
+    },
+    {
+      "id": "s70",
+      "text": "There, look at _that_ speech, and _that_, and _that_."
+    },
+    {
+      "id": "s71",
+      "text": "How am I ever to look him in the face and say such things?"
+    },
+    {
+      "id": "s72",
+      "text": "Could you do it?"
+    },
+    {
+      "id": "s73",
+      "text": "But then he is your cousin, which makes all the difference."
+    },
+    {
+      "id": "s74",
+      "text": "You must rehearse it with me, that I may fancy _you_ him, and get on by degrees."
+    },
+    {
+      "id": "s75",
+      "text": "You _have_ a look of _his_ sometimes.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Have I?"
+    },
+    {
+      "id": "s77",
+      "text": "I will do my best with the greatest readiness; but I must _read_ the part, for I can say very little of it.”"
+    },
+    {
+      "id": "s78",
+      "text": "“_None_ of it, I suppose."
+    },
+    {
+      "id": "s79",
+      "text": "You are to have the book, of course."
+    },
+    {
+      "id": "s80",
+      "text": "Now for it."
+    },
+    {
+      "id": "s81",
+      "text": "We must have two chairs at hand for you to bring forward to the front of the stage."
+    },
+    {
+      "id": "s82",
+      "text": "There—very good school-room chairs, not made for a theatre, I dare say; much more fitted for little girls to sit and kick their feet against when they are learning a lesson."
+    },
+    {
+      "id": "s83",
+      "text": "What would your governess and your uncle say to see them used for such a purpose?"
+    },
+    {
+      "id": "s84",
+      "text": "Could Sir Thomas look in upon us just now, he would bless himself, for we are rehearsing all over the house."
+    },
+    {
+      "id": "s85",
+      "text": "Yates is storming away in the dining-room."
+    },
+    {
+      "id": "s86",
+      "text": "I heard him as I came upstairs, and the theatre is engaged of course by those indefatigable rehearsers, Agatha and Frederick."
+    },
+    {
+      "id": "s87",
+      "text": "If _they_ are not perfect, I _shall_ be surprised."
+    },
+    {
+      "id": "s88",
+      "text": "By the bye, I looked in upon them five minutes ago, and it happened to be exactly at one of the times when they were trying _not_ to embrace, and Mr."
+    },
+    {
+      "id": "s89",
+      "text": "Rushworth was with me."
+    },
+    {
+      "id": "s90",
+      "text": "I thought he began to look a little queer, so I turned it off as well as I could, by whispering to him, ‘We shall have an excellent Agatha; there is something so _maternal_ in her manner, so completely _maternal_ in her voice and countenance.’ Was not that well done of me?"
+    },
+    {
+      "id": "s91",
+      "text": "He brightened up directly."
+    },
+    {
+      "id": "s92",
+      "text": "Now for my soliloquy.”"
+    },
+    {
+      "id": "s93",
+      "text": "She began, and Fanny joined in with all the modest feeling which the idea of representing Edmund was so strongly calculated to inspire; but with looks and voice so truly feminine as to be no very good picture of a man."
+    },
+    {
+      "id": "s94",
+      "text": "With such an Anhalt, however, Miss Crawford had courage enough; and they had got through half the scene, when a tap at the door brought a pause, and the entrance of Edmund, the next moment, suspended it all."
+    },
+    {
+      "id": "s95",
+      "text": "Surprise, consciousness, and pleasure appeared in each of the three on this unexpected meeting; and as Edmund was come on the very same business that had brought Miss Crawford, consciousness and pleasure were likely to be more than momentary in _them_."
+    },
+    {
+      "id": "s96",
+      "text": "He too had his book, and was seeking Fanny, to ask her to rehearse with him, and help him to prepare for the evening, without knowing Miss Crawford to be in the house; and great was the joy and animation of being thus thrown together, of comparing schemes, and sympathising in praise of Fanny’s kind offices."
+    },
+    {
+      "id": "s97",
+      "text": "_She_ could not equal them in their warmth. _Her_ spirits sank under the glow of theirs, and she felt herself becoming too nearly nothing to both to have any comfort in having been sought by either."
+    },
+    {
+      "id": "s98",
+      "text": "They must now rehearse together."
+    },
+    {
+      "id": "s99",
+      "text": "Edmund proposed, urged, entreated it, till the lady, not very unwilling at first, could refuse no longer, and Fanny was wanted only to prompt and observe them."
+    },
+    {
+      "id": "s100",
+      "text": "She was invested, indeed, with the office of judge and critic, and earnestly desired to exercise it and tell them all their faults; but from doing so every feeling within her shrank—she could not, would not, dared not attempt it: had she been otherwise qualified for criticism, her conscience must have restrained her from venturing at disapprobation."
+    },
+    {
+      "id": "s101",
+      "text": "She believed herself to feel too much of it in the aggregate for honesty or safety in particulars."
+    },
+    {
+      "id": "s102",
+      "text": "To prompt them must be enough for her; and it was sometimes _more_ than enough; for she could not always pay attention to the book."
+    },
+    {
+      "id": "s103",
+      "text": "In watching them she forgot herself; and, agitated by the increasing spirit of Edmund’s manner, had once closed the page and turned away exactly as he wanted help."
+    },
+    {
+      "id": "s104",
+      "text": "It was imputed to very reasonable weariness, and she was thanked and pitied; but she deserved their pity more than she hoped they would ever surmise."
+    },
+    {
+      "id": "s105",
+      "text": "At last the scene was over, and Fanny forced herself to add her praise to the compliments each was giving the other; and when again alone and able to recall the whole, she was inclined to believe their performance would, indeed, have such nature and feeling in it as must ensure their credit, and make it a very suffering exhibition to herself."
+    },
+    {
+      "id": "s106",
+      "text": "Whatever might be its effect, however, she must stand the brunt of it again that very day."
+    },
+    {
+      "id": "s107",
+      "text": "The first regular rehearsal of the three first acts was certainly to take place in the evening: Mrs."
+    },
+    {
+      "id": "s108",
+      "text": "Grant and the Crawfords were engaged to return for that purpose as soon as they could after dinner; and every one concerned was looking forward with eagerness."
+    },
+    {
+      "id": "s109",
+      "text": "There seemed a general diffusion of cheerfulness on the occasion."
+    },
+    {
+      "id": "s110",
+      "text": "Tom was enjoying such an advance towards the end; Edmund was in spirits from the morning’s rehearsal, and little vexations seemed everywhere smoothed away."
+    },
+    {
+      "id": "s111",
+      "text": "All were alert and impatient; the ladies moved soon, the gentlemen soon followed them, and with the exception of Lady Bertram, Mrs."
+    },
+    {
+      "id": "s112",
+      "text": "Norris, and Julia, everybody was in the theatre at an early hour; and having lighted it up as well as its unfinished state admitted, were waiting only the arrival of Mrs."
+    },
+    {
+      "id": "s113",
+      "text": "Grant and the Crawfords to begin."
+    },
+    {
+      "id": "s114",
+      "text": "They did not wait long for the Crawfords, but there was no Mrs."
+    },
+    {
+      "id": "s115",
+      "text": "Grant."
+    },
+    {
+      "id": "s116",
+      "text": "She could not come."
+    },
+    {
+      "id": "s117",
+      "text": "Dr."
+    },
+    {
+      "id": "s118",
+      "text": "Grant, professing an indisposition, for which he had little credit with his fair sister-in-law, could not spare his wife."
+    },
+    {
+      "id": "s119",
+      "text": "“Dr."
+    },
+    {
+      "id": "s120",
+      "text": "Grant is ill,” said she, with mock solemnity."
+    },
+    {
+      "id": "s121",
+      "text": "“He has been ill ever since he did not eat any of the pheasant today."
+    },
+    {
+      "id": "s122",
+      "text": "He fancied it tough, sent away his plate, and has been suffering ever since”."
+    },
+    {
+      "id": "s123",
+      "text": "Here was disappointment!"
+    },
+    {
+      "id": "s124",
+      "text": "Mrs."
+    },
+    {
+      "id": "s125",
+      "text": "Grant’s non-attendance was sad indeed."
+    },
+    {
+      "id": "s126",
+      "text": "Her pleasant manners and cheerful conformity made her always valuable amongst them; but _now_ she was absolutely necessary."
+    },
+    {
+      "id": "s127",
+      "text": "They could not act, they could not rehearse with any satisfaction without her."
+    },
+    {
+      "id": "s128",
+      "text": "The comfort of the whole evening was destroyed."
+    },
+    {
+      "id": "s129",
+      "text": "What was to be done?"
+    },
+    {
+      "id": "s130",
+      "text": "Tom, as Cottager, was in despair."
+    },
+    {
+      "id": "s131",
+      "text": "After a pause of perplexity, some eyes began to be turned towards Fanny, and a voice or two to say, “If Miss Price would be so good as to _read_ the part.” She was immediately surrounded by supplications; everybody asked it; even Edmund said, “Do, Fanny, if it is not _very_ disagreeable to you.”"
+    },
+    {
+      "id": "s132",
+      "text": "But Fanny still hung back."
+    },
+    {
+      "id": "s133",
+      "text": "She could not endure the idea of it."
+    },
+    {
+      "id": "s134",
+      "text": "Why was not Miss Crawford to be applied to as well?"
+    },
+    {
+      "id": "s135",
+      "text": "Or why had not she rather gone to her own room, as she had felt to be safest, instead of attending the rehearsal at all?"
+    },
+    {
+      "id": "s136",
+      "text": "She had known it would irritate and distress her; she had known it her duty to keep away."
+    },
+    {
+      "id": "s137",
+      "text": "She was properly punished."
+    },
+    {
+      "id": "s138",
+      "text": "“You have only to _read_ the part,” said Henry Crawford, with renewed entreaty."
+    },
+    {
+      "id": "s139",
+      "text": "“And I do believe she can say every word of it,” added Maria, “for she could put Mrs."
+    },
+    {
+      "id": "s140",
+      "text": "Grant right the other day in twenty places."
+    },
+    {
+      "id": "s141",
+      "text": "Fanny, I am sure you know the part.”"
+    },
+    {
+      "id": "s142",
+      "text": "Fanny could not say she did _not_; and as they all persevered, as Edmund repeated his wish, and with a look of even fond dependence on her good-nature, she must yield."
+    },
+    {
+      "id": "s143",
+      "text": "She would do her best."
+    },
+    {
+      "id": "s144",
+      "text": "Everybody was satisfied; and she was left to the tremors of a most palpitating heart, while the others prepared to begin."
+    },
+    {
+      "id": "s145",
+      "text": "They _did_ begin; and being too much engaged in their own noise to be struck by an unusual noise in the other part of the house, had proceeded some way when the door of the room was thrown open, and Julia, appearing at it, with a face all aghast, exclaimed, “My father is come!"
+    },
+    {
+      "id": "s146",
+      "text": "He is in the hall at this moment.”"
+    }
+  ]
+}

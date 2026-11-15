@@ -1,0 +1,841 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-16-peter-pan",
+  "ebookId": "16",
+  "edition": "Project Gutenberg eBook #16; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-4",
+  "chapterTitle": "Chapter IV.",
+  "contentHash": "sha256:bbd5824b1d1f79e4b6bfa5980e89c2b8b4eb52fea94daf5da139bcaac8872ee5",
+  "attribution": "Barrie, J. M. (James Matthew), 1860-1937, Peter Pan, Chapter IV.. Source checked against Project Gutenberg eBook #16.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/16",
+    "textUrl": "https://www.gutenberg.org/cache/epub/16/pg16.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE FLIGHT"
+    },
+    {
+      "id": "s2",
+      "text": "“Second to the right, and straight on till morning.”"
+    },
+    {
+      "id": "s3",
+      "text": "That, Peter had told Wendy, was the way to the Neverland; but even birds, carrying maps and consulting them at windy corners, could not have sighted it with these instructions."
+    },
+    {
+      "id": "s4",
+      "text": "Peter, you see, just said anything that came into his head."
+    },
+    {
+      "id": "s5",
+      "text": "At first his companions trusted him implicitly, and so great were the delights of flying that they wasted time circling round church spires or any other tall objects on the way that took their fancy."
+    },
+    {
+      "id": "s6",
+      "text": "John and Michael raced, Michael getting a start."
+    },
+    {
+      "id": "s7",
+      "text": "They recalled with contempt that not so long ago they had thought themselves fine fellows for being able to fly round a room."
+    },
+    {
+      "id": "s8",
+      "text": "Not long ago."
+    },
+    {
+      "id": "s9",
+      "text": "But how long ago?"
+    },
+    {
+      "id": "s10",
+      "text": "They were flying over the sea before this thought began to disturb Wendy seriously."
+    },
+    {
+      "id": "s11",
+      "text": "John thought it was their second sea and their third night."
+    },
+    {
+      "id": "s12",
+      "text": "Sometimes it was dark and sometimes light, and now they were very cold and again too warm."
+    },
+    {
+      "id": "s13",
+      "text": "Did they really feel hungry at times, or were they merely pretending, because Peter had such a jolly new way of feeding them?"
+    },
+    {
+      "id": "s14",
+      "text": "His way was to pursue birds who had food in their mouths suitable for humans and snatch it from them; then the birds would follow and snatch it back; and they would all go chasing each other gaily for miles, parting at last with mutual expressions of good-will."
+    },
+    {
+      "id": "s15",
+      "text": "But Wendy noticed with gentle concern that Peter did not seem to know that this was rather an odd way of getting your bread and butter, nor even that there are other ways."
+    },
+    {
+      "id": "s16",
+      "text": "Certainly they did not pretend to be sleepy, they were sleepy; and that was a danger, for the moment they popped off, down they fell."
+    },
+    {
+      "id": "s17",
+      "text": "The awful thing was that Peter thought this funny."
+    },
+    {
+      "id": "s18",
+      "text": "“There he goes again!” he would cry gleefully, as Michael suddenly dropped like a stone."
+    },
+    {
+      "id": "s19",
+      "text": "“Save him, save him!” cried Wendy, looking with horror at the cruel sea far below."
+    },
+    {
+      "id": "s20",
+      "text": "Eventually Peter would dive through the air, and catch Michael just before he could strike the sea, and it was lovely the way he did it; but he always waited till the last moment, and you felt it was his cleverness that interested him and not the saving of human life."
+    },
+    {
+      "id": "s21",
+      "text": "Also he was fond of variety, and the sport that engrossed him one moment would suddenly cease to engage him, so there was always the possibility that the next time you fell he would let you go."
+    },
+    {
+      "id": "s22",
+      "text": "He could sleep in the air without falling, by merely lying on his back and floating, but this was, partly at least, because he was so light that if you got behind him and blew he went faster."
+    },
+    {
+      "id": "s23",
+      "text": "“Do be more polite to him,” Wendy whispered to John, when they were playing “Follow my Leader.”"
+    },
+    {
+      "id": "s24",
+      "text": "“Then tell him to stop showing off,” said John."
+    },
+    {
+      "id": "s25",
+      "text": "When playing Follow my Leader, Peter would fly close to the water and touch each shark’s tail in passing, just as in the street you may run your finger along an iron railing."
+    },
+    {
+      "id": "s26",
+      "text": "They could not follow him in this with much success, so perhaps it was rather like showing off, especially as he kept looking behind to see how many tails they missed."
+    },
+    {
+      "id": "s27",
+      "text": "“You must be nice to him,” Wendy impressed on her brothers."
+    },
+    {
+      "id": "s28",
+      "text": "“What could we do if he were to leave us!”"
+    },
+    {
+      "id": "s29",
+      "text": "“We could go back,” Michael said."
+    },
+    {
+      "id": "s30",
+      "text": "“How could we ever find our way back without him?”"
+    },
+    {
+      "id": "s31",
+      "text": "“Well, then, we could go on,” said John."
+    },
+    {
+      "id": "s32",
+      "text": "“That is the awful thing, John."
+    },
+    {
+      "id": "s33",
+      "text": "We should have to go on, for we don’t know how to stop.”"
+    },
+    {
+      "id": "s34",
+      "text": "This was true, Peter had forgotten to show them how to stop."
+    },
+    {
+      "id": "s35",
+      "text": "John said that if the worst came to the worst, all they had to do was to go straight on, for the world was round, and so in time they must come back to their own window."
+    },
+    {
+      "id": "s36",
+      "text": "“And who is to get food for us, John?”"
+    },
+    {
+      "id": "s37",
+      "text": "“I nipped a bit out of that eagle’s mouth pretty neatly, Wendy.”"
+    },
+    {
+      "id": "s38",
+      "text": "“After the twentieth try,” Wendy reminded him."
+    },
+    {
+      "id": "s39",
+      "text": "“And even though we became good at picking up food, see how we bump against clouds and things if he is not near to give us a hand.”"
+    },
+    {
+      "id": "s40",
+      "text": "Indeed they were constantly bumping."
+    },
+    {
+      "id": "s41",
+      "text": "They could now fly strongly, though they still kicked far too much; but if they saw a cloud in front of them, the more they tried to avoid it, the more certainly did they bump into it."
+    },
+    {
+      "id": "s42",
+      "text": "If Nana had been with them, she would have had a bandage round Michael’s forehead by this time."
+    },
+    {
+      "id": "s43",
+      "text": "Peter was not with them for the moment, and they felt rather lonely up there by themselves."
+    },
+    {
+      "id": "s44",
+      "text": "He could go so much faster than they that he would suddenly shoot out of sight, to have some adventure in which they had no share."
+    },
+    {
+      "id": "s45",
+      "text": "He would come down laughing over something fearfully funny he had been saying to a star, but he had already forgotten what it was, or he would come up with mermaid scales still sticking to him, and yet not be able to say for certain what had been happening."
+    },
+    {
+      "id": "s46",
+      "text": "It was really rather irritating to children who had never seen a mermaid."
+    },
+    {
+      "id": "s47",
+      "text": "“And if he forgets them so quickly,” Wendy argued, “how can we expect that he will go on remembering us?”"
+    },
+    {
+      "id": "s48",
+      "text": "Indeed, sometimes when he returned he did not remember them, at least not well."
+    },
+    {
+      "id": "s49",
+      "text": "Wendy was sure of it."
+    },
+    {
+      "id": "s50",
+      "text": "She saw recognition come into his eyes as he was about to pass them the time of day and go on; once even she had to call him by name."
+    },
+    {
+      "id": "s51",
+      "text": "“I’m Wendy,” she said agitatedly."
+    },
+    {
+      "id": "s52",
+      "text": "He was very sorry."
+    },
+    {
+      "id": "s53",
+      "text": "“I say, Wendy,” he whispered to her, “always if you see me forgetting you, just keep on saying ‘I’m Wendy,’ and then I’ll remember.”"
+    },
+    {
+      "id": "s54",
+      "text": "Of course this was rather unsatisfactory."
+    },
+    {
+      "id": "s55",
+      "text": "However, to make amends he showed them how to lie out flat on a strong wind that was going their way, and this was such a pleasant change that they tried it several times and found that they could sleep thus with security."
+    },
+    {
+      "id": "s56",
+      "text": "Indeed they would have slept longer, but Peter tired quickly of sleeping, and soon he would cry in his captain voice, “We get off here.” So with occasional tiffs, but on the whole rollicking, they drew near the Neverland; for after many moons they did reach it, and, what is more, they had been going pretty straight all the time, not perhaps so much owing to the guidance of Peter or Tink as because the island was looking for them."
+    },
+    {
+      "id": "s57",
+      "text": "It is only thus that any one may sight those magic shores."
+    },
+    {
+      "id": "s58",
+      "text": "“There it is,” said Peter calmly."
+    },
+    {
+      "id": "s59",
+      "text": "“Where, where?”"
+    },
+    {
+      "id": "s60",
+      "text": "“Where all the arrows are pointing.”"
+    },
+    {
+      "id": "s61",
+      "text": "Indeed a million golden arrows were pointing it out to the children, all directed by their friend the sun, who wanted them to be sure of their way before leaving them for the night."
+    },
+    {
+      "id": "s62",
+      "text": "Wendy and John and Michael stood on tip-toe in the air to get their first sight of the island."
+    },
+    {
+      "id": "s63",
+      "text": "Strange to say, they all recognized it at once, and until fear fell upon them they hailed it, not as something long dreamt of and seen at last, but as a familiar friend to whom they were returning home for the holidays."
+    },
+    {
+      "id": "s64",
+      "text": "“John, there’s the lagoon.”"
+    },
+    {
+      "id": "s65",
+      "text": "“Wendy, look at the turtles burying their eggs in the sand.”"
+    },
+    {
+      "id": "s66",
+      "text": "“I say, John, I see your flamingo with the broken leg!”"
+    },
+    {
+      "id": "s67",
+      "text": "“Look, Michael, there’s your cave!”"
+    },
+    {
+      "id": "s68",
+      "text": "“John, what’s that in the brushwood?”"
+    },
+    {
+      "id": "s69",
+      "text": "“It’s a wolf with her whelps."
+    },
+    {
+      "id": "s70",
+      "text": "Wendy, I do believe that’s your little whelp!”"
+    },
+    {
+      "id": "s71",
+      "text": "“There’s my boat, John, with her sides stove in!”"
+    },
+    {
+      "id": "s72",
+      "text": "“No, it isn’t."
+    },
+    {
+      "id": "s73",
+      "text": "Why, we burned your boat.”"
+    },
+    {
+      "id": "s74",
+      "text": "“That’s her, at any rate."
+    },
+    {
+      "id": "s75",
+      "text": "I say, John, I see the smoke of the redskin camp!”"
+    },
+    {
+      "id": "s76",
+      "text": "“Where?"
+    },
+    {
+      "id": "s77",
+      "text": "Show me, and I’ll tell you by the way smoke curls whether they are on the war-path.”"
+    },
+    {
+      "id": "s78",
+      "text": "“There, just across the Mysterious River.”"
+    },
+    {
+      "id": "s79",
+      "text": "“I see now."
+    },
+    {
+      "id": "s80",
+      "text": "Yes, they are on the war-path right enough.”"
+    },
+    {
+      "id": "s81",
+      "text": "Peter was a little annoyed with them for knowing so much, but if he wanted to lord it over them his triumph was at hand, for have I not told you that anon fear fell upon them?"
+    },
+    {
+      "id": "s82",
+      "text": "It came as the arrows went, leaving the island in gloom."
+    },
+    {
+      "id": "s83",
+      "text": "In the old days at home the Neverland had always begun to look a little dark and threatening by bedtime."
+    },
+    {
+      "id": "s84",
+      "text": "Then unexplored patches arose in it and spread, black shadows moved about in them, the roar of the beasts of prey was quite different now, and above all, you lost the certainty that you would win."
+    },
+    {
+      "id": "s85",
+      "text": "You were quite glad that the night-lights were on."
+    },
+    {
+      "id": "s86",
+      "text": "You even liked Nana to say that this was just the mantelpiece over here, and that the Neverland was all make-believe."
+    },
+    {
+      "id": "s87",
+      "text": "Of course the Neverland had been make-believe in those days, but it was real now, and there were no night-lights, and it was getting darker every moment, and where was Nana?"
+    },
+    {
+      "id": "s88",
+      "text": "They had been flying apart, but they huddled close to Peter now."
+    },
+    {
+      "id": "s89",
+      "text": "His careless manner had gone at last, his eyes were sparkling, and a tingle went through them every time they touched his body."
+    },
+    {
+      "id": "s90",
+      "text": "They were now over the fearsome island, flying so low that sometimes a tree grazed their feet."
+    },
+    {
+      "id": "s91",
+      "text": "Nothing horrid was visible in the air, yet their progress had become slow and laboured, exactly as if they were pushing their way through hostile forces."
+    },
+    {
+      "id": "s92",
+      "text": "Sometimes they hung in the air until Peter had beaten on it with his fists."
+    },
+    {
+      "id": "s93",
+      "text": "“They don’t want us to land,” he explained."
+    },
+    {
+      "id": "s94",
+      "text": "“Who are they?” Wendy whispered, shuddering."
+    },
+    {
+      "id": "s95",
+      "text": "But he could not or would not say."
+    },
+    {
+      "id": "s96",
+      "text": "Tinker Bell had been asleep on his shoulder, but now he wakened her and sent her on in front."
+    },
+    {
+      "id": "s97",
+      "text": "Sometimes he poised himself in the air, listening intently, with his hand to his ear, and again he would stare down with eyes so bright that they seemed to bore two holes to earth."
+    },
+    {
+      "id": "s98",
+      "text": "Having done these things, he went on again."
+    },
+    {
+      "id": "s99",
+      "text": "His courage was almost appalling."
+    },
+    {
+      "id": "s100",
+      "text": "“Would you like an adventure now,” he said casually to John, “or would you like to have your tea first?”"
+    },
+    {
+      "id": "s101",
+      "text": "Wendy said “tea first” quickly, and Michael pressed her hand in gratitude, but the braver John hesitated."
+    },
+    {
+      "id": "s102",
+      "text": "“What kind of adventure?” he asked cautiously."
+    },
+    {
+      "id": "s103",
+      "text": "“There’s a pirate asleep in the pampas just beneath us,” Peter told him."
+    },
+    {
+      "id": "s104",
+      "text": "“If you like, we’ll go down and kill him.”"
+    },
+    {
+      "id": "s105",
+      "text": "“I don’t see him,” John said after a long pause."
+    },
+    {
+      "id": "s106",
+      "text": "“I do.”"
+    },
+    {
+      "id": "s107",
+      "text": "“Suppose,” John said, a little huskily, “he were to wake up.”"
+    },
+    {
+      "id": "s108",
+      "text": "Peter spoke indignantly."
+    },
+    {
+      "id": "s109",
+      "text": "“You don’t think I would kill him while he was sleeping!"
+    },
+    {
+      "id": "s110",
+      "text": "I would wake him first, and then kill him."
+    },
+    {
+      "id": "s111",
+      "text": "That’s the way I always do.”"
+    },
+    {
+      "id": "s112",
+      "text": "“I say!"
+    },
+    {
+      "id": "s113",
+      "text": "Do you kill many?”"
+    },
+    {
+      "id": "s114",
+      "text": "“Tons.”"
+    },
+    {
+      "id": "s115",
+      "text": "John said “How ripping,” but decided to have tea first."
+    },
+    {
+      "id": "s116",
+      "text": "He asked if there were many pirates on the island just now, and Peter said he had never known so many."
+    },
+    {
+      "id": "s117",
+      "text": "“Who is captain now?”"
+    },
+    {
+      "id": "s118",
+      "text": "“Hook,” answered Peter, and his face became very stern as he said that hated word."
+    },
+    {
+      "id": "s119",
+      "text": "“Jas."
+    },
+    {
+      "id": "s120",
+      "text": "Hook?”"
+    },
+    {
+      "id": "s121",
+      "text": "“Ay.”"
+    },
+    {
+      "id": "s122",
+      "text": "Then indeed Michael began to cry, and even John could speak in gulps only, for they knew Hook’s reputation."
+    },
+    {
+      "id": "s123",
+      "text": "“He was Blackbeard’s bo’sun,” John whispered huskily."
+    },
+    {
+      "id": "s124",
+      "text": "“He is the worst of them all."
+    },
+    {
+      "id": "s125",
+      "text": "He is the only man of whom Barbecue was afraid.”"
+    },
+    {
+      "id": "s126",
+      "text": "“That’s him,” said Peter."
+    },
+    {
+      "id": "s127",
+      "text": "“What is he like?"
+    },
+    {
+      "id": "s128",
+      "text": "Is he big?”"
+    },
+    {
+      "id": "s129",
+      "text": "“He is not so big as he was.”"
+    },
+    {
+      "id": "s130",
+      "text": "“How do you mean?”"
+    },
+    {
+      "id": "s131",
+      "text": "“I cut off a bit of him.”"
+    },
+    {
+      "id": "s132",
+      "text": "“You!”"
+    },
+    {
+      "id": "s133",
+      "text": "“Yes, me,” said Peter sharply."
+    },
+    {
+      "id": "s134",
+      "text": "“I wasn’t meaning to be disrespectful.”"
+    },
+    {
+      "id": "s135",
+      "text": "“Oh, all right.”"
+    },
+    {
+      "id": "s136",
+      "text": "“But, I say, what bit?”"
+    },
+    {
+      "id": "s137",
+      "text": "“His right hand.”"
+    },
+    {
+      "id": "s138",
+      "text": "“Then he can’t fight now?”"
+    },
+    {
+      "id": "s139",
+      "text": "“Oh, can’t he just!”"
+    },
+    {
+      "id": "s140",
+      "text": "“Left-hander?”"
+    },
+    {
+      "id": "s141",
+      "text": "“He has an iron hook instead of a right hand, and he claws with it.”"
+    },
+    {
+      "id": "s142",
+      "text": "“Claws!”"
+    },
+    {
+      "id": "s143",
+      "text": "“I say, John,” said Peter."
+    },
+    {
+      "id": "s144",
+      "text": "“Yes.”"
+    },
+    {
+      "id": "s145",
+      "text": "“Say, ‘Ay, ay, sir.’”"
+    },
+    {
+      "id": "s146",
+      "text": "“Ay, ay, sir.”"
+    },
+    {
+      "id": "s147",
+      "text": "“There is one thing,” Peter continued, “that every boy who serves under me has to promise, and so must you.”"
+    },
+    {
+      "id": "s148",
+      "text": "John paled."
+    },
+    {
+      "id": "s149",
+      "text": "“It is this, if we meet Hook in open fight, you must leave him to me.”"
+    },
+    {
+      "id": "s150",
+      "text": "“I promise,” John said loyally."
+    },
+    {
+      "id": "s151",
+      "text": "For the moment they were feeling less eerie, because Tink was flying with them, and in her light they could distinguish each other."
+    },
+    {
+      "id": "s152",
+      "text": "Unfortunately she could not fly so slowly as they, and so she had to go round and round them in a circle in which they moved as in a halo."
+    },
+    {
+      "id": "s153",
+      "text": "Wendy quite liked it, until Peter pointed out the drawbacks."
+    },
+    {
+      "id": "s154",
+      "text": "“She tells me,” he said, “that the pirates sighted us before the darkness came, and got Long Tom out.”"
+    },
+    {
+      "id": "s155",
+      "text": "“The big gun?”"
+    },
+    {
+      "id": "s156",
+      "text": "“Yes."
+    },
+    {
+      "id": "s157",
+      "text": "And of course they must see her light, and if they guess we are near it they are sure to let fly.”"
+    },
+    {
+      "id": "s158",
+      "text": "“Wendy!”"
+    },
+    {
+      "id": "s159",
+      "text": "“John!”"
+    },
+    {
+      "id": "s160",
+      "text": "“Michael!”"
+    },
+    {
+      "id": "s161",
+      "text": "“Tell her to go away at once, Peter,” the three cried simultaneously, but he refused."
+    },
+    {
+      "id": "s162",
+      "text": "“She thinks we have lost the way,” he replied stiffly, “and she is rather frightened."
+    },
+    {
+      "id": "s163",
+      "text": "You don’t think I would send her away all by herself when she is frightened!”"
+    },
+    {
+      "id": "s164",
+      "text": "For a moment the circle of light was broken, and something gave Peter a loving little pinch."
+    },
+    {
+      "id": "s165",
+      "text": "“Then tell her,” Wendy begged, “to put out her light.”"
+    },
+    {
+      "id": "s166",
+      "text": "“She can’t put it out."
+    },
+    {
+      "id": "s167",
+      "text": "That is about the only thing fairies can’t do."
+    },
+    {
+      "id": "s168",
+      "text": "It just goes out of itself when she falls asleep, same as the stars.”"
+    },
+    {
+      "id": "s169",
+      "text": "“Then tell her to sleep at once,” John almost ordered."
+    },
+    {
+      "id": "s170",
+      "text": "“She can’t sleep except when she’s sleepy."
+    },
+    {
+      "id": "s171",
+      "text": "It is the only other thing fairies can’t do.”"
+    },
+    {
+      "id": "s172",
+      "text": "“Seems to me,” growled John, “these are the only two things worth doing.”"
+    },
+    {
+      "id": "s173",
+      "text": "Here he got a pinch, but not a loving one."
+    },
+    {
+      "id": "s174",
+      "text": "“If only one of us had a pocket,” Peter said, “we could carry her in it.” However, they had set off in such a hurry that there was not a pocket between the four of them."
+    },
+    {
+      "id": "s175",
+      "text": "He had a happy idea."
+    },
+    {
+      "id": "s176",
+      "text": "John’s hat!"
+    },
+    {
+      "id": "s177",
+      "text": "Tink agreed to travel by hat if it was carried in the hand."
+    },
+    {
+      "id": "s178",
+      "text": "John carried it, though she had hoped to be carried by Peter."
+    },
+    {
+      "id": "s179",
+      "text": "Presently Wendy took the hat, because John said it struck against his knee as he flew; and this, as we shall see, led to mischief, for Tinker Bell hated to be under an obligation to Wendy."
+    },
+    {
+      "id": "s180",
+      "text": "In the black topper the light was completely hidden, and they flew on in silence."
+    },
+    {
+      "id": "s181",
+      "text": "It was the stillest silence they had ever known, broken once by a distant lapping, which Peter explained was the wild beasts drinking at the ford, and again by a rasping sound that might have been the branches of trees rubbing together, but he said it was the redskins sharpening their knives."
+    },
+    {
+      "id": "s182",
+      "text": "Even these noises ceased."
+    },
+    {
+      "id": "s183",
+      "text": "To Michael the loneliness was dreadful."
+    },
+    {
+      "id": "s184",
+      "text": "“If only something would make a sound!” he cried."
+    },
+    {
+      "id": "s185",
+      "text": "As if in answer to his request, the air was rent by the most tremendous crash he had ever heard."
+    },
+    {
+      "id": "s186",
+      "text": "The pirates had fired Long Tom at them."
+    },
+    {
+      "id": "s187",
+      "text": "The roar of it echoed through the mountains, and the echoes seemed to cry savagely, “Where are they, where are they, where are they?”"
+    },
+    {
+      "id": "s188",
+      "text": "Thus sharply did the terrified three learn the difference between an island of make-believe and the same island come true."
+    },
+    {
+      "id": "s189",
+      "text": "When at last the heavens were steady again, John and Michael found themselves alone in the darkness."
+    },
+    {
+      "id": "s190",
+      "text": "John was treading the air mechanically, and Michael without knowing how to float was floating."
+    },
+    {
+      "id": "s191",
+      "text": "“Are you shot?” John whispered tremulously."
+    },
+    {
+      "id": "s192",
+      "text": "“I haven’t tried yet,” Michael whispered back."
+    },
+    {
+      "id": "s193",
+      "text": "We know now that no one had been hit."
+    },
+    {
+      "id": "s194",
+      "text": "Peter, however, had been carried by the wind of the shot far out to sea, while Wendy was blown upwards with no companion but Tinker Bell."
+    },
+    {
+      "id": "s195",
+      "text": "It would have been well for Wendy if at that moment she had dropped the hat."
+    },
+    {
+      "id": "s196",
+      "text": "I don’t know whether the idea came suddenly to Tink, or whether she had planned it on the way, but she at once popped out of the hat and began to lure Wendy to her destruction."
+    },
+    {
+      "id": "s197",
+      "text": "Tink was not all bad; or, rather, she was all bad just now, but, on the other hand, sometimes she was all good."
+    },
+    {
+      "id": "s198",
+      "text": "Fairies have to be one thing or the other, because being so small they unfortunately have room for one feeling only at a time."
+    },
+    {
+      "id": "s199",
+      "text": "They are, however, allowed to change, only it must be a complete change."
+    },
+    {
+      "id": "s200",
+      "text": "At present she was full of jealousy of Wendy."
+    },
+    {
+      "id": "s201",
+      "text": "What she said in her lovely tinkle Wendy could not of course understand, and I believe some of it was bad words, but it sounded kind, and she flew back and forward, plainly meaning “Follow me, and all will be well.”"
+    },
+    {
+      "id": "s202",
+      "text": "What else could poor Wendy do?"
+    },
+    {
+      "id": "s203",
+      "text": "She called to Peter and John and Michael, and got only mocking echoes in reply."
+    },
+    {
+      "id": "s204",
+      "text": "She did not yet know that Tink hated her with the fierce hatred of a very woman."
+    },
+    {
+      "id": "s205",
+      "text": "And so, bewildered, and now staggering in her flight, she followed Tink to her doom."
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+  "ebookId": "74",
+  "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-35",
+  "chapterTitle": "CHAPTER XXXV",
+  "contentHash": "sha256:ace6daa086b34d2b3c8462a088042720f14ca1ae8a5f5fb8a0f5bdfa002eb000",
+  "attribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER XXXV. Source checked against Project Gutenberg eBook #74.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/74",
+    "textUrl": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The reader may rest satisfied that Tom’s and Huck’s windfall made a mighty stir in the poor little village of St."
+    },
+    {
+      "id": "s2",
+      "text": "Petersburg."
+    },
+    {
+      "id": "s3",
+      "text": "So vast a sum, all in actual cash, seemed next to incredible."
+    },
+    {
+      "id": "s4",
+      "text": "It was talked about, gloated over, glorified, until the reason of many of the citizens tottered under the strain of the unhealthy excitement."
+    },
+    {
+      "id": "s5",
+      "text": "Every “haunted” house in St."
+    },
+    {
+      "id": "s6",
+      "text": "Petersburg and the neighboring villages was dissected, plank by plank, and its foundations dug up and ransacked for hidden treasure—and not by boys, but men—pretty grave, unromantic men, too, some of them."
+    },
+    {
+      "id": "s7",
+      "text": "Wherever Tom and Huck appeared they were courted, admired, stared at."
+    },
+    {
+      "id": "s8",
+      "text": "The boys were not able to remember that their remarks had possessed weight before; but now their sayings were treasured and repeated; everything they did seemed somehow to be regarded as remarkable; they had evidently lost the power of doing and saying commonplace things; moreover, their past history was raked up and discovered to bear marks of conspicuous originality."
+    },
+    {
+      "id": "s9",
+      "text": "The village paper published biographical sketches of the boys."
+    },
+    {
+      "id": "s10",
+      "text": "The Widow Douglas put Huck’s money out at six per cent., and Judge Thatcher did the same with Tom’s at Aunt Polly’s request."
+    },
+    {
+      "id": "s11",
+      "text": "Each lad had an income, now, that was simply prodigious—a dollar for every weekday in the year and half of the Sundays."
+    },
+    {
+      "id": "s12",
+      "text": "It was just what the minister got—no, it was what he was promised—he generally couldn’t collect it."
+    },
+    {
+      "id": "s13",
+      "text": "A dollar and a quarter a week would board, lodge, and school a boy in those old simple days—and clothe him and wash him, too, for that matter."
+    },
+    {
+      "id": "s14",
+      "text": "Judge Thatcher had conceived a great opinion of Tom."
+    },
+    {
+      "id": "s15",
+      "text": "He said that no commonplace boy would ever have got his daughter out of the cave."
+    },
+    {
+      "id": "s16",
+      "text": "When Becky told her father, in strict confidence, how Tom had taken her whipping at school, the Judge was visibly moved; and when she pleaded grace for the mighty lie which Tom had told in order to shift that whipping from her shoulders to his own, the Judge said with a fine outburst that it was a noble, a generous, a magnanimous lie—a lie that was worthy to hold up its head and march down through history breast to breast with George Washington’s lauded Truth about the hatchet!"
+    },
+    {
+      "id": "s17",
+      "text": "Becky thought her father had never looked so tall and so superb as when he walked the floor and stamped his foot and said that."
+    },
+    {
+      "id": "s18",
+      "text": "She went straight off and told Tom about it."
+    },
+    {
+      "id": "s19",
+      "text": "Judge Thatcher hoped to see Tom a great lawyer or a great soldier some day."
+    },
+    {
+      "id": "s20",
+      "text": "He said he meant to look to it that Tom should be admitted to the National Military Academy and afterward trained in the best law school in the country, in order that he might be ready for either career or both."
+    },
+    {
+      "id": "s21",
+      "text": "Huck Finn’s wealth and the fact that he was now under the Widow Douglas’ protection introduced him into society—no, dragged him into it, hurled him into it—and his sufferings were almost more than he could bear."
+    },
+    {
+      "id": "s22",
+      "text": "The widow’s servants kept him clean and neat, combed and brushed, and they bedded him nightly in unsympathetic sheets that had not one little spot or stain which he could press to his heart and know for a friend."
+    },
+    {
+      "id": "s23",
+      "text": "He had to eat with a knife and fork; he had to use napkin, cup, and plate; he had to learn his book, he had to go to church; he had to talk so properly that speech was become insipid in his mouth; whithersoever he turned, the bars and shackles of civilization shut him in and bound him hand and foot."
+    },
+    {
+      "id": "s24",
+      "text": "He bravely bore his miseries three weeks, and then one day turned up missing."
+    },
+    {
+      "id": "s25",
+      "text": "For forty-eight hours the widow hunted for him everywhere in great distress."
+    },
+    {
+      "id": "s26",
+      "text": "The public were profoundly concerned; they searched high and low, they dragged the river for his body."
+    },
+    {
+      "id": "s27",
+      "text": "Early the third morning Tom Sawyer wisely went poking among some old empty hogsheads down behind the abandoned slaughter-house, and in one of them he found the refugee."
+    },
+    {
+      "id": "s28",
+      "text": "Huck had slept there; he had just breakfasted upon some stolen odds and ends of food, and was lying off, now, in comfort, with his pipe."
+    },
+    {
+      "id": "s29",
+      "text": "He was unkempt, uncombed, and clad in the same old ruin of rags that had made him picturesque in the days when he was free and happy."
+    },
+    {
+      "id": "s30",
+      "text": "Tom routed him out, told him the trouble he had been causing, and urged him to go home."
+    },
+    {
+      "id": "s31",
+      "text": "Huck’s face lost its tranquil content, and took a melancholy cast."
+    },
+    {
+      "id": "s32",
+      "text": "He said:"
+    },
+    {
+      "id": "s33",
+      "text": "“Don’t talk about it, Tom."
+    },
+    {
+      "id": "s34",
+      "text": "I’ve tried it, and it don’t work; it don’t work, Tom."
+    },
+    {
+      "id": "s35",
+      "text": "It ain’t for me; I ain’t used to it."
+    },
+    {
+      "id": "s36",
+      "text": "The widder’s good to me, and friendly; but I can’t stand them ways."
+    },
+    {
+      "id": "s37",
+      "text": "She makes me get up just at the same time every morning; she makes me wash, they comb me all to thunder; she won’t let me sleep in the woodshed; I got to wear them blamed clothes that just smothers me, Tom; they don’t seem to any air git through ’em, somehow; and they’re so rotten nice that I can’t set down, nor lay down, nor roll around anywher’s; I hain’t slid on a cellar-door for—well, it ’pears to be years; I got to go to church and sweat and sweat—I hate them ornery sermons!"
+    },
+    {
+      "id": "s38",
+      "text": "I can’t ketch a fly in there, I can’t chaw."
+    },
+    {
+      "id": "s39",
+      "text": "I got to wear shoes all Sunday."
+    },
+    {
+      "id": "s40",
+      "text": "The widder eats by a bell; she goes to bed by a bell; she gits up by a bell—everything’s so awful reg’lar a body can’t stand it.”"
+    },
+    {
+      "id": "s41",
+      "text": "“Well, everybody does that way, Huck.”"
+    },
+    {
+      "id": "s42",
+      "text": "“Tom, it don’t make no difference."
+    },
+    {
+      "id": "s43",
+      "text": "I ain’t everybody, and I can’t _stand_ it."
+    },
+    {
+      "id": "s44",
+      "text": "It’s awful to be tied up so."
+    },
+    {
+      "id": "s45",
+      "text": "And grub comes too easy—I don’t take no interest in vittles, that way."
+    },
+    {
+      "id": "s46",
+      "text": "I got to ask to go a-fishing; I got to ask to go in a-swimming—dern’d if I hain’t got to ask to do everything."
+    },
+    {
+      "id": "s47",
+      "text": "Well, I’d got to talk so nice it wasn’t no comfort—I’d got to go up in the attic and rip out awhile, every day, to git a taste in my mouth, or I’d a died, Tom."
+    },
+    {
+      "id": "s48",
+      "text": "The widder wouldn’t let me smoke; she wouldn’t let me yell, she wouldn’t let me gape, nor stretch, nor scratch, before folks—” [Then with a spasm of special irritation and injury]—“And dad fetch it, she prayed all the time!"
+    },
+    {
+      "id": "s49",
+      "text": "I never see such a woman!"
+    },
+    {
+      "id": "s50",
+      "text": "I _had_ to shove, Tom—I just had to."
+    },
+    {
+      "id": "s51",
+      "text": "And besides, that school’s going to open, and I’d a had to go to it—well, I wouldn’t stand _that_, Tom."
+    },
+    {
+      "id": "s52",
+      "text": "Looky-here, Tom, being rich ain’t what it’s cracked up to be."
+    },
+    {
+      "id": "s53",
+      "text": "It’s just worry and worry, and sweat and sweat, and a-wishing you was dead all the time."
+    },
+    {
+      "id": "s54",
+      "text": "Now these clothes suits me, and this bar’l suits me, and I ain’t ever going to shake ’em any more."
+    },
+    {
+      "id": "s55",
+      "text": "Tom, I wouldn’t ever got into all this trouble if it hadn’t ’a’ been for that money; now you just take my sheer of it along with your’n, and gimme a ten-center sometimes—not many times, becuz I don’t give a dern for a thing ’thout it’s tollable hard to git—and you go and beg off for me with the widder.”"
+    },
+    {
+      "id": "s56",
+      "text": "“Oh, Huck, you know I can’t do that. ’Tain’t fair; and besides if you’ll try this thing just a while longer you’ll come to like it.”"
+    },
+    {
+      "id": "s57",
+      "text": "“Like it!"
+    },
+    {
+      "id": "s58",
+      "text": "Yes—the way I’d like a hot stove if I was to set on it long enough."
+    },
+    {
+      "id": "s59",
+      "text": "No, Tom, I won’t be rich, and I won’t live in them cussed smothery houses."
+    },
+    {
+      "id": "s60",
+      "text": "I like the woods, and the river, and hogsheads, and I’ll stick to ’em, too."
+    },
+    {
+      "id": "s61",
+      "text": "Blame it all! just as we’d got guns, and a cave, and all just fixed to rob, here this dern foolishness has got to come up and spile it all!”"
+    },
+    {
+      "id": "s62",
+      "text": "Tom saw his opportunity—"
+    },
+    {
+      "id": "s63",
+      "text": "“Lookyhere, Huck, being rich ain’t going to keep me back from turning robber.”"
+    },
+    {
+      "id": "s64",
+      "text": "“No!"
+    },
+    {
+      "id": "s65",
+      "text": "Oh, good-licks; are you in real dead-wood earnest, Tom?”"
+    },
+    {
+      "id": "s66",
+      "text": "“Just as dead earnest as I’m sitting here."
+    },
+    {
+      "id": "s67",
+      "text": "But Huck, we can’t let you into the gang if you ain’t respectable, you know.”"
+    },
+    {
+      "id": "s68",
+      "text": "Huck’s joy was quenched."
+    },
+    {
+      "id": "s69",
+      "text": "“Can’t let me in, Tom?"
+    },
+    {
+      "id": "s70",
+      "text": "Didn’t you let me go for a pirate?”"
+    },
+    {
+      "id": "s71",
+      "text": "“Yes, but that’s different."
+    },
+    {
+      "id": "s72",
+      "text": "A robber is more high-toned than what a pirate is—as a general thing."
+    },
+    {
+      "id": "s73",
+      "text": "In most countries they’re awful high up in the nobility—dukes and such.”"
+    },
+    {
+      "id": "s74",
+      "text": "“Now, Tom, hain’t you always ben friendly to me?"
+    },
+    {
+      "id": "s75",
+      "text": "You wouldn’t shet me out, would you, Tom?"
+    },
+    {
+      "id": "s76",
+      "text": "You wouldn’t do that, now, _would_ you, Tom?”"
+    },
+    {
+      "id": "s77",
+      "text": "“Huck, I wouldn’t want to, and I _don’t_ want to—but what would people say?"
+    },
+    {
+      "id": "s78",
+      "text": "Why, they’d say, ‘Mph!"
+    },
+    {
+      "id": "s79",
+      "text": "Tom Sawyer’s Gang! pretty low characters in it!’ They’d mean you, Huck."
+    },
+    {
+      "id": "s80",
+      "text": "You wouldn’t like that, and I wouldn’t.”"
+    },
+    {
+      "id": "s81",
+      "text": "Huck was silent for some time, engaged in a mental struggle."
+    },
+    {
+      "id": "s82",
+      "text": "Finally he said:"
+    },
+    {
+      "id": "s83",
+      "text": "“Well, I’ll go back to the widder for a month and tackle it and see if I can come to stand it, if you’ll let me b’long to the gang, Tom.”"
+    },
+    {
+      "id": "s84",
+      "text": "“All right, Huck, it’s a whiz!"
+    },
+    {
+      "id": "s85",
+      "text": "Come along, old chap, and I’ll ask the widow to let up on you a little, Huck.”"
+    },
+    {
+      "id": "s86",
+      "text": "“Will you, Tom—now will you?"
+    },
+    {
+      "id": "s87",
+      "text": "That’s good."
+    },
+    {
+      "id": "s88",
+      "text": "If she’ll let up on some of the roughest things, I’ll smoke private and cuss private, and crowd through or bust."
+    },
+    {
+      "id": "s89",
+      "text": "When you going to start the gang and turn robbers?”"
+    },
+    {
+      "id": "s90",
+      "text": "“Oh, right off."
+    },
+    {
+      "id": "s91",
+      "text": "We’ll get the boys together and have the initiation tonight, maybe.”"
+    },
+    {
+      "id": "s92",
+      "text": "“Have the which?”"
+    },
+    {
+      "id": "s93",
+      "text": "“Have the initiation.”"
+    },
+    {
+      "id": "s94",
+      "text": "“What’s that?”"
+    },
+    {
+      "id": "s95",
+      "text": "“It’s to swear to stand by one another, and never tell the gang’s secrets, even if you’re chopped all to flinders, and kill anybody and all his family that hurts one of the gang.”"
+    },
+    {
+      "id": "s96",
+      "text": "“That’s gay—that’s mighty gay, Tom, I tell you.”"
+    },
+    {
+      "id": "s97",
+      "text": "“Well, I bet it is."
+    },
+    {
+      "id": "s98",
+      "text": "And all that swearing’s got to be done at midnight, in the lonesomest, awfulest place you can find—a ha’nted house is the best, but they’re all ripped up now.”"
+    },
+    {
+      "id": "s99",
+      "text": "“Well, midnight’s good, anyway, Tom.”"
+    },
+    {
+      "id": "s100",
+      "text": "“Yes, so it is."
+    },
+    {
+      "id": "s101",
+      "text": "And you’ve got to swear on a coffin, and sign it with blood.”"
+    },
+    {
+      "id": "s102",
+      "text": "“Now, that’s something _like_!"
+    },
+    {
+      "id": "s103",
+      "text": "Why, it’s a million times bullier than pirating."
+    },
+    {
+      "id": "s104",
+      "text": "I’ll stick to the widder till I rot, Tom; and if I git to be a reg’lar ripper of a robber, and everybody talking ’bout it, I reckon she’ll be proud she snaked me in out of the wet.”"
+    },
+    {
+      "id": "s105",
+      "text": "CONCLUSION"
+    },
+    {
+      "id": "s106",
+      "text": "So endeth this chronicle."
+    },
+    {
+      "id": "s107",
+      "text": "It being strictly a history of a _boy_, it must stop here; the story could not go much further without becoming the history of a _man_."
+    },
+    {
+      "id": "s108",
+      "text": "When one writes a novel about grown people, he knows exactly where to stop—that is, with a marriage; but when he writes of juveniles, he must stop where he best can."
+    },
+    {
+      "id": "s109",
+      "text": "Most of the characters that perform in this book still live, and are prosperous and happy."
+    },
+    {
+      "id": "s110",
+      "text": "Some day it may seem worth while to take up the story of the younger ones again and see what sort of men and women they turned out to be; therefore it will be wisest not to reveal any of that part of their lives at present."
+    }
+  ]
+}

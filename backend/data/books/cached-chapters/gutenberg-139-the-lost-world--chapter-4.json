@@ -1,0 +1,1557 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-139-the-lost-world",
+  "ebookId": "139",
+  "edition": "Project Gutenberg eBook #139; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-4",
+  "chapterTitle": "CHAPTER IV",
+  "contentHash": "sha256:ebeb822198088301108f2d4a6dbf2da851271b9ad3237bbb956795011a9dab09",
+  "attribution": "Doyle, Arthur Conan, 1859-1930, The Lost World, CHAPTER IV. Source checked against Project Gutenberg eBook #139.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/139",
+    "textUrl": "https://www.gutenberg.org/cache/epub/139/pg139.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "\"It's Just the very Biggest Thing in the World\""
+    },
+    {
+      "id": "s2",
+      "text": "Hardly was it shut when Mrs."
+    },
+    {
+      "id": "s3",
+      "text": "Challenger darted out from the dining-room."
+    },
+    {
+      "id": "s4",
+      "text": "The small woman was in a furious temper."
+    },
+    {
+      "id": "s5",
+      "text": "She barred her husband's way like an enraged chicken in front of a bulldog."
+    },
+    {
+      "id": "s6",
+      "text": "It was evident that she had seen my exit, but had not observed my return."
+    },
+    {
+      "id": "s7",
+      "text": "\"You brute, George!\" she screamed. \"You've hurt that nice young man.\""
+    },
+    {
+      "id": "s8",
+      "text": "He jerked backwards with his thumb."
+    },
+    {
+      "id": "s9",
+      "text": "\"Here he is, safe and sound behind me.\""
+    },
+    {
+      "id": "s10",
+      "text": "She was confused, but not unduly so."
+    },
+    {
+      "id": "s11",
+      "text": "\"I am so sorry, I didn't see you.\""
+    },
+    {
+      "id": "s12",
+      "text": "\"I assure you, madam, that it is all right.\""
+    },
+    {
+      "id": "s13",
+      "text": "\"He has marked your poor face!"
+    },
+    {
+      "id": "s14",
+      "text": "Oh, George, what a brute you are!"
+    },
+    {
+      "id": "s15",
+      "text": "Nothing but scandals from one end of the week to the other."
+    },
+    {
+      "id": "s16",
+      "text": "Everyone hating and making fun of you."
+    },
+    {
+      "id": "s17",
+      "text": "You've finished my patience."
+    },
+    {
+      "id": "s18",
+      "text": "This ends it.\""
+    },
+    {
+      "id": "s19",
+      "text": "\"Dirty linen,\" he rumbled."
+    },
+    {
+      "id": "s20",
+      "text": "\"It's not a secret,\" she cried. \"Do you suppose that the whole street--the whole of London, for that matter---- Get away, Austin, we don't want you here."
+    },
+    {
+      "id": "s21",
+      "text": "Do you suppose they don't all talk about you?"
+    },
+    {
+      "id": "s22",
+      "text": "Where is your dignity?"
+    },
+    {
+      "id": "s23",
+      "text": "You, a man who should have been Regius Professor at a great University with a thousand students all revering you."
+    },
+    {
+      "id": "s24",
+      "text": "Where is your dignity, George?\""
+    },
+    {
+      "id": "s25",
+      "text": "\"How about yours, my dear?\""
+    },
+    {
+      "id": "s26",
+      "text": "\"You try me too much."
+    },
+    {
+      "id": "s27",
+      "text": "A ruffian--a common brawling ruffian--that's what you have become.\""
+    },
+    {
+      "id": "s28",
+      "text": "\"Be good, Jessie.\""
+    },
+    {
+      "id": "s29",
+      "text": "\"A roaring, raging bully!\""
+    },
+    {
+      "id": "s30",
+      "text": "\"That's done it!"
+    },
+    {
+      "id": "s31",
+      "text": "Stool of penance!\" said he."
+    },
+    {
+      "id": "s32",
+      "text": "To my amazement he stooped, picked her up, and placed her sitting upon a high pedestal of black marble in the angle of the hall."
+    },
+    {
+      "id": "s33",
+      "text": "It was at least seven feet high, and so thin that she could hardly balance upon it."
+    },
+    {
+      "id": "s34",
+      "text": "A more absurd object than she presented cocked up there with her face convulsed with anger, her feet dangling, and her body rigid for fear of an upset, I could not imagine."
+    },
+    {
+      "id": "s35",
+      "text": "\"Let me down!\" she wailed."
+    },
+    {
+      "id": "s36",
+      "text": "\"Say 'please.'\""
+    },
+    {
+      "id": "s37",
+      "text": "\"You brute, George!"
+    },
+    {
+      "id": "s38",
+      "text": "Let me down this instant!\""
+    },
+    {
+      "id": "s39",
+      "text": "\"Come into the study, Mr."
+    },
+    {
+      "id": "s40",
+      "text": "Malone.\""
+    },
+    {
+      "id": "s41",
+      "text": "\"Really, sir----!\" said I, looking at the lady."
+    },
+    {
+      "id": "s42",
+      "text": "\"Here's Mr."
+    },
+    {
+      "id": "s43",
+      "text": "Malone pleading for you, Jessie."
+    },
+    {
+      "id": "s44",
+      "text": "Say 'please,' and down you come.\""
+    },
+    {
+      "id": "s45",
+      "text": "\"Oh, you brute!"
+    },
+    {
+      "id": "s46",
+      "text": "Please! please!\""
+    },
+    {
+      "id": "s47",
+      "text": "He took her down as if she had been a canary."
+    },
+    {
+      "id": "s48",
+      "text": "\"You must behave yourself, dear."
+    },
+    {
+      "id": "s49",
+      "text": "Mr."
+    },
+    {
+      "id": "s50",
+      "text": "Malone is a Pressman."
+    },
+    {
+      "id": "s51",
+      "text": "He will have it all in his rag to-morrow, and sell an extra dozen among our neighbors. 'Strange story of high life'--you felt fairly high on that pedestal, did you not?"
+    },
+    {
+      "id": "s52",
+      "text": "Then a sub-title, 'Glimpse of a singular menage.' He's a foul feeder, is Mr."
+    },
+    {
+      "id": "s53",
+      "text": "Malone, a carrion eater, like all of his kind--porcus ex grege diaboli--a swine from the devil's herd."
+    },
+    {
+      "id": "s54",
+      "text": "That's it, Malone--what?\""
+    },
+    {
+      "id": "s55",
+      "text": "\"You are really intolerable!\" said I, hotly."
+    },
+    {
+      "id": "s56",
+      "text": "He bellowed with laughter."
+    },
+    {
+      "id": "s57",
+      "text": "\"We shall have a coalition presently,\" he boomed, looking from his wife to me and puffing out his enormous chest."
+    },
+    {
+      "id": "s58",
+      "text": "Then, suddenly altering his tone, \"Excuse this frivolous family badinage, Mr."
+    },
+    {
+      "id": "s59",
+      "text": "Malone."
+    },
+    {
+      "id": "s60",
+      "text": "I called you back for some more serious purpose than to mix you up with our little domestic pleasantries."
+    },
+    {
+      "id": "s61",
+      "text": "Run away, little woman, and don't fret.\" He placed a huge hand upon each of her shoulders. \"All that you say is perfectly true."
+    },
+    {
+      "id": "s62",
+      "text": "I should be a better man if I did what you advise, but I shouldn't be quite George Edward Challenger."
+    },
+    {
+      "id": "s63",
+      "text": "There are plenty of better men, my dear, but only one G."
+    },
+    {
+      "id": "s64",
+      "text": "E."
+    },
+    {
+      "id": "s65",
+      "text": "C."
+    },
+    {
+      "id": "s66",
+      "text": "So make the best of him.\" He suddenly gave her a resounding kiss, which embarrassed me even more than his violence had done. \"Now, Mr."
+    },
+    {
+      "id": "s67",
+      "text": "Malone,\" he continued, with a great accession of dignity, \"this way, if YOU please.\""
+    },
+    {
+      "id": "s68",
+      "text": "We re-entered the room which we had left so tumultuously ten minutes before."
+    },
+    {
+      "id": "s69",
+      "text": "The Professor closed the door carefully behind us, motioned me into an arm-chair, and pushed a cigar-box under my nose."
+    },
+    {
+      "id": "s70",
+      "text": "\"Real San Juan Colorado,\" he said. \"Excitable people like you are the better for narcotics."
+    },
+    {
+      "id": "s71",
+      "text": "Heavens! don't bite it!"
+    },
+    {
+      "id": "s72",
+      "text": "Cut--and cut with reverence!"
+    },
+    {
+      "id": "s73",
+      "text": "Now lean back, and listen attentively to whatever I may care to say to you."
+    },
+    {
+      "id": "s74",
+      "text": "If any remark should occur to you, you can reserve it for some more opportune time."
+    },
+    {
+      "id": "s75",
+      "text": "\"First of all, as to your return to my house after your most justifiable expulsion\"--he protruded his beard, and stared at me as one who challenges and invites contradiction--\"after, as I say, your well-merited expulsion."
+    },
+    {
+      "id": "s76",
+      "text": "The reason lay in your answer to that most officious policeman, in which I seemed to discern some glimmering of good feeling upon your part--more, at any rate, than I am accustomed to associate with your profession."
+    },
+    {
+      "id": "s77",
+      "text": "In admitting that the fault of the incident lay with you, you gave some evidence of a certain mental detachment and breadth of view which attracted my favorable notice."
+    },
+    {
+      "id": "s78",
+      "text": "The sub-species of the human race to which you unfortunately belong has always been below my mental horizon."
+    },
+    {
+      "id": "s79",
+      "text": "Your words brought you suddenly above it."
+    },
+    {
+      "id": "s80",
+      "text": "You swam up into my serious notice."
+    },
+    {
+      "id": "s81",
+      "text": "For this reason I asked you to return with me, as I was minded to make your further acquaintance."
+    },
+    {
+      "id": "s82",
+      "text": "You will kindly deposit your ash in the small Japanese tray on the bamboo table which stands at your left elbow.\""
+    },
+    {
+      "id": "s83",
+      "text": "All this he boomed forth like a professor addressing his class."
+    },
+    {
+      "id": "s84",
+      "text": "He had swung round his revolving chair so as to face me, and he sat all puffed out like an enormous bull-frog, his head laid back and his eyes half-covered by supercilious lids."
+    },
+    {
+      "id": "s85",
+      "text": "Now he suddenly turned himself sideways, and all I could see of him was tangled hair with a red, protruding ear."
+    },
+    {
+      "id": "s86",
+      "text": "He was scratching about among the litter of papers upon his desk."
+    },
+    {
+      "id": "s87",
+      "text": "He faced me presently with what looked like a very tattered sketch-book in his hand."
+    },
+    {
+      "id": "s88",
+      "text": "\"I am going to talk to you about South America,\" said he. \"No comments if you please."
+    },
+    {
+      "id": "s89",
+      "text": "First of all, I wish you to understand that nothing I tell you now is to be repeated in any public way unless you have my express permission."
+    },
+    {
+      "id": "s90",
+      "text": "That permission will, in all human probability, never be given."
+    },
+    {
+      "id": "s91",
+      "text": "Is that clear?\""
+    },
+    {
+      "id": "s92",
+      "text": "\"It is very hard,\" said I. \"Surely a judicious account----\""
+    },
+    {
+      "id": "s93",
+      "text": "He replaced the notebook upon the table."
+    },
+    {
+      "id": "s94",
+      "text": "\"That ends it,\" said he. \"I wish you a very good morning.\""
+    },
+    {
+      "id": "s95",
+      "text": "\"No, no!\" I cried. \"I submit to any conditions."
+    },
+    {
+      "id": "s96",
+      "text": "So far as I can see, I have no choice.\""
+    },
+    {
+      "id": "s97",
+      "text": "\"None in the world,\" said he."
+    },
+    {
+      "id": "s98",
+      "text": "\"Well, then, I promise.\""
+    },
+    {
+      "id": "s99",
+      "text": "\"Word of honor?\""
+    },
+    {
+      "id": "s100",
+      "text": "\"Word of honor.\""
+    },
+    {
+      "id": "s101",
+      "text": "He looked at me with doubt in his insolent eyes."
+    },
+    {
+      "id": "s102",
+      "text": "\"After all, what do I know about your honor?\" said he."
+    },
+    {
+      "id": "s103",
+      "text": "\"Upon my word, sir,\" I cried, angrily, \"you take very great liberties!"
+    },
+    {
+      "id": "s104",
+      "text": "I have never been so insulted in my life.\""
+    },
+    {
+      "id": "s105",
+      "text": "He seemed more interested than annoyed at my outbreak."
+    },
+    {
+      "id": "s106",
+      "text": "\"Round-headed,\" he muttered. \"Brachycephalic, gray-eyed, black-haired, with suggestion of the negroid."
+    },
+    {
+      "id": "s107",
+      "text": "Celtic, I presume?\""
+    },
+    {
+      "id": "s108",
+      "text": "\"I am an Irishman, sir.\""
+    },
+    {
+      "id": "s109",
+      "text": "\"Irish Irish?\""
+    },
+    {
+      "id": "s110",
+      "text": "\"Yes, sir.\""
+    },
+    {
+      "id": "s111",
+      "text": "\"That, of course, explains it."
+    },
+    {
+      "id": "s112",
+      "text": "Let me see; you have given me your promise that my confidence will be respected?"
+    },
+    {
+      "id": "s113",
+      "text": "That confidence, I may say, will be far from complete."
+    },
+    {
+      "id": "s114",
+      "text": "But I am prepared to give you a few indications which will be of interest."
+    },
+    {
+      "id": "s115",
+      "text": "In the first place, you are probably aware that two years ago I made a journey to South America--one which will be classical in the scientific history of the world?"
+    },
+    {
+      "id": "s116",
+      "text": "The object of my journey was to verify some conclusions of Wallace and of Bates, which could only be done by observing their reported facts under the same conditions in which they had themselves noted them."
+    },
+    {
+      "id": "s117",
+      "text": "If my expedition had no other results it would still have been noteworthy, but a curious incident occurred to me while there which opened up an entirely fresh line of inquiry."
+    },
+    {
+      "id": "s118",
+      "text": "\"You are aware--or probably, in this half-educated age, you are not aware--that the country round some parts of the Amazon is still only partially explored, and that a great number of tributaries, some of them entirely uncharted, run into the main river."
+    },
+    {
+      "id": "s119",
+      "text": "It was my business to visit this little-known back-country and to examine its fauna, which furnished me with the materials for several chapters for that great and monumental work upon zoology which will be my life's justification."
+    },
+    {
+      "id": "s120",
+      "text": "I was returning, my work accomplished, when I had occasion to spend a night at a small Indian village at a point where a certain tributary--the name and position of which I withhold--opens into the main river."
+    },
+    {
+      "id": "s121",
+      "text": "The natives were Cucama Indians, an amiable but degraded race, with mental powers hardly superior to the average Londoner."
+    },
+    {
+      "id": "s122",
+      "text": "I had effected some cures among them upon my way up the river, and had impressed them considerably with my personality, so that I was not surprised to find myself eagerly awaited upon my return."
+    },
+    {
+      "id": "s123",
+      "text": "I gathered from their signs that someone had urgent need of my medical services, and I followed the chief to one of his huts."
+    },
+    {
+      "id": "s124",
+      "text": "When I entered I found that the sufferer to whose aid I had been summoned had that instant expired."
+    },
+    {
+      "id": "s125",
+      "text": "He was, to my surprise, no Indian, but a white man; indeed, I may say a very white man, for he was flaxen-haired and had some characteristics of an albino."
+    },
+    {
+      "id": "s126",
+      "text": "He was clad in rags, was very emaciated, and bore every trace of prolonged hardship."
+    },
+    {
+      "id": "s127",
+      "text": "So far as I could understand the account of the natives, he was a complete stranger to them, and had come upon their village through the woods alone and in the last stage of exhaustion."
+    },
+    {
+      "id": "s128",
+      "text": "\"The man's knapsack lay beside the couch, and I examined the contents."
+    },
+    {
+      "id": "s129",
+      "text": "His name was written upon a tab within it--Maple White, Lake Avenue, Detroit, Michigan."
+    },
+    {
+      "id": "s130",
+      "text": "It is a name to which I am prepared always to lift my hat."
+    },
+    {
+      "id": "s131",
+      "text": "It is not too much to say that it will rank level with my own when the final credit of this business comes to be apportioned."
+    },
+    {
+      "id": "s132",
+      "text": "\"From the contents of the knapsack it was evident that this man had been an artist and poet in search of effects."
+    },
+    {
+      "id": "s133",
+      "text": "There were scraps of verse."
+    },
+    {
+      "id": "s134",
+      "text": "I do not profess to be a judge of such things, but they appeared to me to be singularly wanting in merit."
+    },
+    {
+      "id": "s135",
+      "text": "There were also some rather commonplace pictures of river scenery, a paint-box, a box of colored chalks, some brushes, that curved bone which lies upon my inkstand, a volume of Baxter's 'Moths and Butterflies,' a cheap revolver, and a few cartridges."
+    },
+    {
+      "id": "s136",
+      "text": "Of personal equipment he either had none or he had lost it in his journey."
+    },
+    {
+      "id": "s137",
+      "text": "Such were the total effects of this strange American Bohemian."
+    },
+    {
+      "id": "s138",
+      "text": "\"I was turning away from him when I observed that something projected from the front of his ragged jacket."
+    },
+    {
+      "id": "s139",
+      "text": "It was this sketch-book, which was as dilapidated then as you see it now."
+    },
+    {
+      "id": "s140",
+      "text": "Indeed, I can assure you that a first folio of Shakespeare could not be treated with greater reverence than this relic has been since it came into my possession."
+    },
+    {
+      "id": "s141",
+      "text": "I hand it to you now, and I ask you to take it page by page and to examine the contents.\""
+    },
+    {
+      "id": "s142",
+      "text": "He helped himself to a cigar and leaned back with a fiercely critical pair of eyes, taking note of the effect which this document would produce."
+    },
+    {
+      "id": "s143",
+      "text": "I had opened the volume with some expectation of a revelation, though of what nature I could not imagine."
+    },
+    {
+      "id": "s144",
+      "text": "The first page was disappointing, however, as it contained nothing but the picture of a very fat man in a pea-jacket, with the legend, \"Jimmy Colver on the Mail-boat,\" written beneath it."
+    },
+    {
+      "id": "s145",
+      "text": "There followed several pages which were filled with small sketches of Indians and their ways."
+    },
+    {
+      "id": "s146",
+      "text": "Then came a picture of a cheerful and corpulent ecclesiastic in a shovel hat, sitting opposite a very thin European, and the inscription: \"Lunch with Fra Cristofero at Rosario.\" Studies of women and babies accounted for several more pages, and then there was an unbroken series of animal drawings with such explanations as \"Manatee upon Sandbank,\" \"Turtles and Their Eggs,\" \"Black Ajouti under a Miriti Palm\"--the matter disclosing some sort of pig-like animal; and finally came a double page of studies of long-snouted and very unpleasant saurians."
+    },
+    {
+      "id": "s147",
+      "text": "I could make nothing of it, and said so to the Professor."
+    },
+    {
+      "id": "s148",
+      "text": "\"Surely these are only crocodiles?\""
+    },
+    {
+      "id": "s149",
+      "text": "\"Alligators!"
+    },
+    {
+      "id": "s150",
+      "text": "Alligators!"
+    },
+    {
+      "id": "s151",
+      "text": "There is hardly such a thing as a true crocodile in South America."
+    },
+    {
+      "id": "s152",
+      "text": "The distinction between them----\""
+    },
+    {
+      "id": "s153",
+      "text": "\"I meant that I could see nothing unusual--nothing to justify what you have said.\""
+    },
+    {
+      "id": "s154",
+      "text": "He smiled serenely."
+    },
+    {
+      "id": "s155",
+      "text": "\"Try the next page,\" said he."
+    },
+    {
+      "id": "s156",
+      "text": "I was still unable to sympathize."
+    },
+    {
+      "id": "s157",
+      "text": "It was a full-page sketch of a landscape roughly tinted in color--the kind of painting which an open-air artist takes as a guide to a future more elaborate effort."
+    },
+    {
+      "id": "s158",
+      "text": "There was a pale-green foreground of feathery vegetation, which sloped upwards and ended in a line of cliffs dark red in color, and curiously ribbed like some basaltic formations which I have seen."
+    },
+    {
+      "id": "s159",
+      "text": "They extended in an unbroken wall right across the background."
+    },
+    {
+      "id": "s160",
+      "text": "At one point was an isolated pyramidal rock, crowned by a great tree, which appeared to be separated by a cleft from the main crag."
+    },
+    {
+      "id": "s161",
+      "text": "Behind it all, a blue tropical sky."
+    },
+    {
+      "id": "s162",
+      "text": "A thin green line of vegetation fringed the summit of the ruddy cliff."
+    },
+    {
+      "id": "s163",
+      "text": "\"Well?\" he asked."
+    },
+    {
+      "id": "s164",
+      "text": "\"It is no doubt a curious formation,\" said I \"but I am not geologist enough to say that it is wonderful.\""
+    },
+    {
+      "id": "s165",
+      "text": "\"Wonderful!\" he repeated. \"It is unique."
+    },
+    {
+      "id": "s166",
+      "text": "It is incredible."
+    },
+    {
+      "id": "s167",
+      "text": "No one on earth has ever dreamed of such a possibility."
+    },
+    {
+      "id": "s168",
+      "text": "Now the next.\""
+    },
+    {
+      "id": "s169",
+      "text": "I turned it over, and gave an exclamation of surprise."
+    },
+    {
+      "id": "s170",
+      "text": "There was a full-page picture of the most extraordinary creature that I had ever seen."
+    },
+    {
+      "id": "s171",
+      "text": "It was the wild dream of an opium smoker, a vision of delirium."
+    },
+    {
+      "id": "s172",
+      "text": "The head was like that of a fowl, the body that of a bloated lizard, the trailing tail was furnished with upward-turned spikes, and the curved back was edged with a high serrated fringe, which looked like a dozen cocks' wattles placed behind each other."
+    },
+    {
+      "id": "s173",
+      "text": "In front of this creature was an absurd mannikin, or dwarf, in human form, who stood staring at it."
+    },
+    {
+      "id": "s174",
+      "text": "\"Well, what do you think of that?\" cried the Professor, rubbing his hands with an air of triumph."
+    },
+    {
+      "id": "s175",
+      "text": "\"It is monstrous--grotesque.\""
+    },
+    {
+      "id": "s176",
+      "text": "\"But what made him draw such an animal?\""
+    },
+    {
+      "id": "s177",
+      "text": "\"Trade gin, I should think.\""
+    },
+    {
+      "id": "s178",
+      "text": "\"Oh, that's the best explanation you can give, is it?\""
+    },
+    {
+      "id": "s179",
+      "text": "\"Well, sir, what is yours?\""
+    },
+    {
+      "id": "s180",
+      "text": "\"The obvious one that the creature exists."
+    },
+    {
+      "id": "s181",
+      "text": "That is actually sketched from the life.\""
+    },
+    {
+      "id": "s182",
+      "text": "I should have laughed only that I had a vision of our doing another Catharine-wheel down the passage."
+    },
+    {
+      "id": "s183",
+      "text": "\"No doubt,\" said I, \"no doubt,\" as one humors an imbecile. \"I confess, however,\" I added, \"that this tiny human figure puzzles me."
+    },
+    {
+      "id": "s184",
+      "text": "If it were an Indian we could set it down as evidence of some pigmy race in America, but it appears to be a European in a sun-hat.\""
+    },
+    {
+      "id": "s185",
+      "text": "The Professor snorted like an angry buffalo. \"You really touch the limit,\" said he. \"You enlarge my view of the possible."
+    },
+    {
+      "id": "s186",
+      "text": "Cerebral paresis!"
+    },
+    {
+      "id": "s187",
+      "text": "Mental inertia!"
+    },
+    {
+      "id": "s188",
+      "text": "Wonderful!\""
+    },
+    {
+      "id": "s189",
+      "text": "He was too absurd to make me angry."
+    },
+    {
+      "id": "s190",
+      "text": "Indeed, it was a waste of energy, for if you were going to be angry with this man you would be angry all the time."
+    },
+    {
+      "id": "s191",
+      "text": "I contented myself with smiling wearily. \"It struck me that the man was small,\" said I."
+    },
+    {
+      "id": "s192",
+      "text": "\"Look here!\" he cried, leaning forward and dabbing a great hairy sausage of a finger on to the picture. \"You see that plant behind the animal; I suppose you thought it was a dandelion or a Brussels sprout--what?"
+    },
+    {
+      "id": "s193",
+      "text": "Well, it is a vegetable ivory palm, and they run to about fifty or sixty feet."
+    },
+    {
+      "id": "s194",
+      "text": "Don't you see that the man is put in for a purpose?"
+    },
+    {
+      "id": "s195",
+      "text": "He couldn't really have stood in front of that brute and lived to draw it."
+    },
+    {
+      "id": "s196",
+      "text": "He sketched himself in to give a scale of heights."
+    },
+    {
+      "id": "s197",
+      "text": "He was, we will say, over five feet high."
+    },
+    {
+      "id": "s198",
+      "text": "The tree is ten times bigger, which is what one would expect.\""
+    },
+    {
+      "id": "s199",
+      "text": "\"Good heavens!\" I cried. \"Then you think the beast was---- Why, Charing Cross station would hardly make a kennel for such a brute!\""
+    },
+    {
+      "id": "s200",
+      "text": "\"Apart from exaggeration, he is certainly a well-grown specimen,\" said the Professor, complacently."
+    },
+    {
+      "id": "s201",
+      "text": "\"But,\" I cried, \"surely the whole experience of the human race is not to be set aside on account of a single sketch\"--I had turned over the leaves and ascertained that there was nothing more in the book--\"a single sketch by a wandering American artist who may have done it under hashish, or in the delirium of fever, or simply in order to gratify a freakish imagination."
+    },
+    {
+      "id": "s202",
+      "text": "You can't, as a man of science, defend such a position as that.\""
+    },
+    {
+      "id": "s203",
+      "text": "For answer the Professor took a book down from a shelf."
+    },
+    {
+      "id": "s204",
+      "text": "\"This is an excellent monograph by my gifted friend, Ray Lankester!\" said he. \"There is an illustration here which would interest you."
+    },
+    {
+      "id": "s205",
+      "text": "Ah, yes, here it is!"
+    },
+    {
+      "id": "s206",
+      "text": "The inscription beneath it runs: 'Probable appearance in life of the Jurassic Dinosaur Stegosaurus."
+    },
+    {
+      "id": "s207",
+      "text": "The hind leg alone is twice as tall as a full-grown man.' Well, what do you make of that?\""
+    },
+    {
+      "id": "s208",
+      "text": "He handed me the open book."
+    },
+    {
+      "id": "s209",
+      "text": "I started as I looked at the picture."
+    },
+    {
+      "id": "s210",
+      "text": "In this reconstructed animal of a dead world there was certainly a very great resemblance to the sketch of the unknown artist."
+    },
+    {
+      "id": "s211",
+      "text": "\"That is certainly remarkable,\" said I."
+    },
+    {
+      "id": "s212",
+      "text": "\"But you won't admit that it is final?\""
+    },
+    {
+      "id": "s213",
+      "text": "\"Surely it might be a coincidence, or this American may have seen a picture of the kind and carried it in his memory."
+    },
+    {
+      "id": "s214",
+      "text": "It would be likely to recur to a man in a delirium.\""
+    },
+    {
+      "id": "s215",
+      "text": "\"Very good,\" said the Professor, indulgently; \"we leave it at that."
+    },
+    {
+      "id": "s216",
+      "text": "I will now ask you to look at this bone.\" He handed over the one which he had already described as part of the dead man's possessions."
+    },
+    {
+      "id": "s217",
+      "text": "It was about six inches long, and thicker than my thumb, with some indications of dried cartilage at one end of it."
+    },
+    {
+      "id": "s218",
+      "text": "\"To what known creature does that bone belong?\" asked the Professor."
+    },
+    {
+      "id": "s219",
+      "text": "I examined it with care and tried to recall some half-forgotten knowledge."
+    },
+    {
+      "id": "s220",
+      "text": "\"It might be a very thick human collar-bone,\" I said."
+    },
+    {
+      "id": "s221",
+      "text": "My companion waved his hand in contemptuous deprecation."
+    },
+    {
+      "id": "s222",
+      "text": "\"The human collar-bone is curved."
+    },
+    {
+      "id": "s223",
+      "text": "This is straight."
+    },
+    {
+      "id": "s224",
+      "text": "There is a groove upon its surface showing that a great tendon played across it, which could not be the case with a clavicle.\""
+    },
+    {
+      "id": "s225",
+      "text": "\"Then I must confess that I don't know what it is.\""
+    },
+    {
+      "id": "s226",
+      "text": "\"You need not be ashamed to expose your ignorance, for I don't suppose the whole South Kensington staff could give a name to it.\" He took a little bone the size of a bean out of a pill-box. \"So far as I am a judge this human bone is the analogue of the one which you hold in your hand."
+    },
+    {
+      "id": "s227",
+      "text": "That will give you some idea of the size of the creature."
+    },
+    {
+      "id": "s228",
+      "text": "You will observe from the cartilage that this is no fossil specimen, but recent."
+    },
+    {
+      "id": "s229",
+      "text": "What do you say to that?\""
+    },
+    {
+      "id": "s230",
+      "text": "\"Surely in an elephant----\""
+    },
+    {
+      "id": "s231",
+      "text": "He winced as if in pain."
+    },
+    {
+      "id": "s232",
+      "text": "\"Don't!"
+    },
+    {
+      "id": "s233",
+      "text": "Don't talk of elephants in South America."
+    },
+    {
+      "id": "s234",
+      "text": "Even in these days of Board schools----\""
+    },
+    {
+      "id": "s235",
+      "text": "\"Well,\" I interrupted, \"any large South American animal--a tapir, for example.\""
+    },
+    {
+      "id": "s236",
+      "text": "\"You may take it, young man, that I am versed in the elements of my business."
+    },
+    {
+      "id": "s237",
+      "text": "This is not a conceivable bone either of a tapir or of any other creature known to zoology."
+    },
+    {
+      "id": "s238",
+      "text": "It belongs to a very large, a very strong, and, by all analogy, a very fierce animal which exists upon the face of the earth, but has not yet come under the notice of science."
+    },
+    {
+      "id": "s239",
+      "text": "You are still unconvinced?\""
+    },
+    {
+      "id": "s240",
+      "text": "\"I am at least deeply interested.\""
+    },
+    {
+      "id": "s241",
+      "text": "\"Then your case is not hopeless."
+    },
+    {
+      "id": "s242",
+      "text": "I feel that there is reason lurking in you somewhere, so we will patiently grope round for it."
+    },
+    {
+      "id": "s243",
+      "text": "We will now leave the dead American and proceed with my narrative."
+    },
+    {
+      "id": "s244",
+      "text": "You can imagine that I could hardly come away from the Amazon without probing deeper into the matter."
+    },
+    {
+      "id": "s245",
+      "text": "There were indications as to the direction from which the dead traveler had come."
+    },
+    {
+      "id": "s246",
+      "text": "Indian legends would alone have been my guide, for I found that rumors of a strange land were common among all the riverine tribes."
+    },
+    {
+      "id": "s247",
+      "text": "You have heard, no doubt, of Curupuri?\""
+    },
+    {
+      "id": "s248",
+      "text": "\"Never.\""
+    },
+    {
+      "id": "s249",
+      "text": "\"Curupuri is the spirit of the woods, something terrible, something malevolent, something to be avoided."
+    },
+    {
+      "id": "s250",
+      "text": "None can describe its shape or nature, but it is a word of terror along the Amazon."
+    },
+    {
+      "id": "s251",
+      "text": "Now all tribes agree as to the direction in which Curupuri lives."
+    },
+    {
+      "id": "s252",
+      "text": "It was the same direction from which the American had come."
+    },
+    {
+      "id": "s253",
+      "text": "Something terrible lay that way."
+    },
+    {
+      "id": "s254",
+      "text": "It was my business to find out what it was.\""
+    },
+    {
+      "id": "s255",
+      "text": "\"What did you do?\" My flippancy was all gone."
+    },
+    {
+      "id": "s256",
+      "text": "This massive man compelled one's attention and respect."
+    },
+    {
+      "id": "s257",
+      "text": "\"I overcame the extreme reluctance of the natives--a reluctance which extends even to talk upon the subject--and by judicious persuasion and gifts, aided, I will admit, by some threats of coercion, I got two of them to act as guides."
+    },
+    {
+      "id": "s258",
+      "text": "After many adventures which I need not describe, and after traveling a distance which I will not mention, in a direction which I withhold, we came at last to a tract of country which has never been described, nor, indeed, visited save by my unfortunate predecessor."
+    },
+    {
+      "id": "s259",
+      "text": "Would you kindly look at this?\""
+    },
+    {
+      "id": "s260",
+      "text": "He handed me a photograph--half-plate size."
+    },
+    {
+      "id": "s261",
+      "text": "\"The unsatisfactory appearance of it is due to the fact,\" said he, \"that on descending the river the boat was upset and the case which contained the undeveloped films was broken, with disastrous results."
+    },
+    {
+      "id": "s262",
+      "text": "Nearly all of them were totally ruined--an irreparable loss."
+    },
+    {
+      "id": "s263",
+      "text": "This is one of the few which partially escaped."
+    },
+    {
+      "id": "s264",
+      "text": "This explanation of deficiencies or abnormalities you will kindly accept."
+    },
+    {
+      "id": "s265",
+      "text": "There was talk of faking."
+    },
+    {
+      "id": "s266",
+      "text": "I am not in a mood to argue such a point.\""
+    },
+    {
+      "id": "s267",
+      "text": "The photograph was certainly very off-colored."
+    },
+    {
+      "id": "s268",
+      "text": "An unkind critic might easily have misinterpreted that dim surface."
+    },
+    {
+      "id": "s269",
+      "text": "It was a dull gray landscape, and as I gradually deciphered the details of it I realized that it represented a long and enormously high line of cliffs exactly like an immense cataract seen in the distance, with a sloping, tree-clad plain in the foreground."
+    },
+    {
+      "id": "s270",
+      "text": "\"I believe it is the same place as the painted picture,\" said I."
+    },
+    {
+      "id": "s271",
+      "text": "\"It is the same place,\" the Professor answered. \"I found traces of the fellow's camp."
+    },
+    {
+      "id": "s272",
+      "text": "Now look at this.\""
+    },
+    {
+      "id": "s273",
+      "text": "It was a nearer view of the same scene, though the photograph was extremely defective."
+    },
+    {
+      "id": "s274",
+      "text": "I could distinctly see the isolated, tree-crowned pinnacle of rock which was detached from the crag."
+    },
+    {
+      "id": "s275",
+      "text": "\"I have no doubt of it at all,\" said I."
+    },
+    {
+      "id": "s276",
+      "text": "\"Well, that is something gained,\" said he. \"We progress, do we not?"
+    },
+    {
+      "id": "s277",
+      "text": "Now, will you please look at the top of that rocky pinnacle?"
+    },
+    {
+      "id": "s278",
+      "text": "Do you observe something there?\""
+    },
+    {
+      "id": "s279",
+      "text": "\"An enormous tree.\""
+    },
+    {
+      "id": "s280",
+      "text": "\"But on the tree?\""
+    },
+    {
+      "id": "s281",
+      "text": "\"A large bird,\" said I."
+    },
+    {
+      "id": "s282",
+      "text": "He handed me a lens."
+    },
+    {
+      "id": "s283",
+      "text": "\"Yes,\" I said, peering through it, \"a large bird stands on the tree."
+    },
+    {
+      "id": "s284",
+      "text": "It appears to have a considerable beak."
+    },
+    {
+      "id": "s285",
+      "text": "I should say it was a pelican.\""
+    },
+    {
+      "id": "s286",
+      "text": "\"I cannot congratulate you upon your eyesight,\" said the Professor. \"It is not a pelican, nor, indeed, is it a bird."
+    },
+    {
+      "id": "s287",
+      "text": "It may interest you to know that I succeeded in shooting that particular specimen."
+    },
+    {
+      "id": "s288",
+      "text": "It was the only absolute proof of my experiences which I was able to bring away with me.\""
+    },
+    {
+      "id": "s289",
+      "text": "\"You have it, then?\" Here at last was tangible corroboration."
+    },
+    {
+      "id": "s290",
+      "text": "\"I had it."
+    },
+    {
+      "id": "s291",
+      "text": "It was unfortunately lost with so much else in the same boat accident which ruined my photographs."
+    },
+    {
+      "id": "s292",
+      "text": "I clutched at it as it disappeared in the swirl of the rapids, and part of its wing was left in my hand."
+    },
+    {
+      "id": "s293",
+      "text": "I was insensible when washed ashore, but the miserable remnant of my superb specimen was still intact; I now lay it before you.\""
+    },
+    {
+      "id": "s294",
+      "text": "From a drawer he produced what seemed to me to be the upper portion of the wing of a large bat."
+    },
+    {
+      "id": "s295",
+      "text": "It was at least two feet in length, a curved bone, with a membranous veil beneath it."
+    },
+    {
+      "id": "s296",
+      "text": "\"A monstrous bat!\" I suggested."
+    },
+    {
+      "id": "s297",
+      "text": "\"Nothing of the sort,\" said the Professor, severely. \"Living, as I do, in an educated and scientific atmosphere, I could not have conceived that the first principles of zoology were so little known."
+    },
+    {
+      "id": "s298",
+      "text": "Is it possible that you do not know the elementary fact in comparative anatomy, that the wing of a bird is really the forearm, while the wing of a bat consists of three elongated fingers with membranes between?"
+    },
+    {
+      "id": "s299",
+      "text": "Now, in this case, the bone is certainly not the forearm, and you can see for yourself that this is a single membrane hanging upon a single bone, and therefore that it cannot belong to a bat."
+    },
+    {
+      "id": "s300",
+      "text": "But if it is neither bird nor bat, what is it?\""
+    },
+    {
+      "id": "s301",
+      "text": "My small stock of knowledge was exhausted."
+    },
+    {
+      "id": "s302",
+      "text": "\"I really do not know,\" said I."
+    },
+    {
+      "id": "s303",
+      "text": "He opened the standard work to which he had already referred me."
+    },
+    {
+      "id": "s304",
+      "text": "\"Here,\" said he, pointing to the picture of an extraordinary flying monster, \"is an excellent reproduction of the dimorphodon, or pterodactyl, a flying reptile of the Jurassic period."
+    },
+    {
+      "id": "s305",
+      "text": "On the next page is a diagram of the mechanism of its wing."
+    },
+    {
+      "id": "s306",
+      "text": "Kindly compare it with the specimen in your hand.\""
+    },
+    {
+      "id": "s307",
+      "text": "A wave of amazement passed over me as I looked."
+    },
+    {
+      "id": "s308",
+      "text": "I was convinced."
+    },
+    {
+      "id": "s309",
+      "text": "There could be no getting away from it."
+    },
+    {
+      "id": "s310",
+      "text": "The cumulative proof was overwhelming."
+    },
+    {
+      "id": "s311",
+      "text": "The sketch, the photographs, the narrative, and now the actual specimen--the evidence was complete."
+    },
+    {
+      "id": "s312",
+      "text": "I said so--I said so warmly, for I felt that the Professor was an ill-used man."
+    },
+    {
+      "id": "s313",
+      "text": "He leaned back in his chair with drooping eyelids and a tolerant smile, basking in this sudden gleam of sunshine."
+    },
+    {
+      "id": "s314",
+      "text": "\"It's just the very biggest thing that I ever heard of!\" said I, though it was my journalistic rather than my scientific enthusiasm that was roused. \"It is colossal."
+    },
+    {
+      "id": "s315",
+      "text": "You are a Columbus of science who has discovered a lost world."
+    },
+    {
+      "id": "s316",
+      "text": "I'm awfully sorry if I seemed to doubt you."
+    },
+    {
+      "id": "s317",
+      "text": "It was all so unthinkable."
+    },
+    {
+      "id": "s318",
+      "text": "But I understand evidence when I see it, and this should be good enough for anyone.\""
+    },
+    {
+      "id": "s319",
+      "text": "The Professor purred with satisfaction."
+    },
+    {
+      "id": "s320",
+      "text": "\"And then, sir, what did you do next?\""
+    },
+    {
+      "id": "s321",
+      "text": "\"It was the wet season, Mr."
+    },
+    {
+      "id": "s322",
+      "text": "Malone, and my stores were exhausted."
+    },
+    {
+      "id": "s323",
+      "text": "I explored some portion of this huge cliff, but I was unable to find any way to scale it."
+    },
+    {
+      "id": "s324",
+      "text": "The pyramidal rock upon which I saw and shot the pterodactyl was more accessible."
+    },
+    {
+      "id": "s325",
+      "text": "Being something of a cragsman, I did manage to get half way to the top of that."
+    },
+    {
+      "id": "s326",
+      "text": "From that height I had a better idea of the plateau upon the top of the crags."
+    },
+    {
+      "id": "s327",
+      "text": "It appeared to be very large; neither to east nor to west could I see any end to the vista of green-capped cliffs."
+    },
+    {
+      "id": "s328",
+      "text": "Below, it is a swampy, jungly region, full of snakes, insects, and fever."
+    },
+    {
+      "id": "s329",
+      "text": "It is a natural protection to this singular country.\""
+    },
+    {
+      "id": "s330",
+      "text": "\"Did you see any other trace of life?\""
+    },
+    {
+      "id": "s331",
+      "text": "\"No, sir, I did not; but during the week that we lay encamped at the base of the cliff we heard some very strange noises from above.\""
+    },
+    {
+      "id": "s332",
+      "text": "\"But the creature that the American drew?"
+    },
+    {
+      "id": "s333",
+      "text": "How do you account for that?\""
+    },
+    {
+      "id": "s334",
+      "text": "\"We can only suppose that he must have made his way to the summit and seen it there."
+    },
+    {
+      "id": "s335",
+      "text": "We know, therefore, that there is a way up."
+    },
+    {
+      "id": "s336",
+      "text": "We know equally that it must be a very difficult one, otherwise the creatures would have come down and overrun the surrounding country."
+    },
+    {
+      "id": "s337",
+      "text": "Surely that is clear?\""
+    },
+    {
+      "id": "s338",
+      "text": "\"But how did they come to be there?\""
+    },
+    {
+      "id": "s339",
+      "text": "\"I do not think that the problem is a very obscure one,\" said the Professor; \"there can only be one explanation."
+    },
+    {
+      "id": "s340",
+      "text": "South America is, as you may have heard, a granite continent."
+    },
+    {
+      "id": "s341",
+      "text": "At this single point in the interior there has been, in some far distant age, a great, sudden volcanic upheaval."
+    },
+    {
+      "id": "s342",
+      "text": "These cliffs, I may remark, are basaltic, and therefore plutonic."
+    },
+    {
+      "id": "s343",
+      "text": "An area, as large perhaps as Sussex, has been lifted up en bloc with all its living contents, and cut off by perpendicular precipices of a hardness which defies erosion from all the rest of the continent."
+    },
+    {
+      "id": "s344",
+      "text": "What is the result?"
+    },
+    {
+      "id": "s345",
+      "text": "Why, the ordinary laws of Nature are suspended."
+    },
+    {
+      "id": "s346",
+      "text": "The various checks which influence the struggle for existence in the world at large are all neutralized or altered."
+    },
+    {
+      "id": "s347",
+      "text": "Creatures survive which would otherwise disappear."
+    },
+    {
+      "id": "s348",
+      "text": "You will observe that both the pterodactyl and the stegosaurus are Jurassic, and therefore of a great age in the order of life."
+    },
+    {
+      "id": "s349",
+      "text": "They have been artificially conserved by those strange accidental conditions.\""
+    },
+    {
+      "id": "s350",
+      "text": "\"But surely your evidence is conclusive."
+    },
+    {
+      "id": "s351",
+      "text": "You have only to lay it before the proper authorities.\""
+    },
+    {
+      "id": "s352",
+      "text": "\"So in my simplicity, I had imagined,\" said the Professor, bitterly. \"I can only tell you that it was not so, that I was met at every turn by incredulity, born partly of stupidity and partly of jealousy."
+    },
+    {
+      "id": "s353",
+      "text": "It is not my nature, sir, to cringe to any man, or to seek to prove a fact if my word has been doubted."
+    },
+    {
+      "id": "s354",
+      "text": "After the first I have not condescended to show such corroborative proofs as I possess."
+    },
+    {
+      "id": "s355",
+      "text": "The subject became hateful to me--I would not speak of it."
+    },
+    {
+      "id": "s356",
+      "text": "When men like yourself, who represent the foolish curiosity of the public, came to disturb my privacy I was unable to meet them with dignified reserve."
+    },
+    {
+      "id": "s357",
+      "text": "By nature I am, I admit, somewhat fiery, and under provocation I am inclined to be violent."
+    },
+    {
+      "id": "s358",
+      "text": "I fear you may have remarked it.\""
+    },
+    {
+      "id": "s359",
+      "text": "I nursed my eye and was silent."
+    },
+    {
+      "id": "s360",
+      "text": "\"My wife has frequently remonstrated with me upon the subject, and yet I fancy that any man of honor would feel the same."
+    },
+    {
+      "id": "s361",
+      "text": "To-night, however, I propose to give an extreme example of the control of the will over the emotions."
+    },
+    {
+      "id": "s362",
+      "text": "I invite you to be present at the exhibition.\" He handed me a card from his desk. \"You will perceive that Mr."
+    },
+    {
+      "id": "s363",
+      "text": "Percival Waldron, a naturalist of some popular repute, is announced to lecture at eight-thirty at the Zoological Institute's Hall upon 'The Record of the Ages.' I have been specially invited to be present upon the platform, and to move a vote of thanks to the lecturer."
+    },
+    {
+      "id": "s364",
+      "text": "While doing so, I shall make it my business, with infinite tact and delicacy, to throw out a few remarks which may arouse the interest of the audience and cause some of them to desire to go more deeply into the matter."
+    },
+    {
+      "id": "s365",
+      "text": "Nothing contentious, you understand, but only an indication that there are greater deeps beyond."
+    },
+    {
+      "id": "s366",
+      "text": "I shall hold myself strongly in leash, and see whether by this self-restraint I attain a more favorable result.\""
+    },
+    {
+      "id": "s367",
+      "text": "\"And I may come?\" I asked eagerly."
+    },
+    {
+      "id": "s368",
+      "text": "\"Why, surely,\" he answered, cordially."
+    },
+    {
+      "id": "s369",
+      "text": "He had an enormously massive genial manner, which was almost as overpowering as his violence."
+    },
+    {
+      "id": "s370",
+      "text": "His smile of benevolence was a wonderful thing, when his cheeks would suddenly bunch into two red apples, between his half-closed eyes and his great black beard. \"By all means, come."
+    },
+    {
+      "id": "s371",
+      "text": "It will be a comfort to me to know that I have one ally in the hall, however inefficient and ignorant of the subject he may be."
+    },
+    {
+      "id": "s372",
+      "text": "I fancy there will be a large audience, for Waldron, though an absolute charlatan, has a considerable popular following."
+    },
+    {
+      "id": "s373",
+      "text": "Now, Mr."
+    },
+    {
+      "id": "s374",
+      "text": "Malone, I have given you rather more of my time than I had intended."
+    },
+    {
+      "id": "s375",
+      "text": "The individual must not monopolize what is meant for the world."
+    },
+    {
+      "id": "s376",
+      "text": "I shall be pleased to see you at the lecture to-night."
+    },
+    {
+      "id": "s377",
+      "text": "In the meantime, you will understand that no public use is to be made of any of the material that I have given you.\""
+    },
+    {
+      "id": "s378",
+      "text": "\"But Mr."
+    },
+    {
+      "id": "s379",
+      "text": "McArdle--my news editor, you know--will want to know what I have done.\""
+    },
+    {
+      "id": "s380",
+      "text": "\"Tell him what you like."
+    },
+    {
+      "id": "s381",
+      "text": "You can say, among other things, that if he sends anyone else to intrude upon me I shall call upon him with a riding-whip."
+    },
+    {
+      "id": "s382",
+      "text": "But I leave it to you that nothing of all this appears in print."
+    },
+    {
+      "id": "s383",
+      "text": "Very good."
+    },
+    {
+      "id": "s384",
+      "text": "Then the Zoological Institute's Hall at eight-thirty to-night.\" I had a last impression of red cheeks, blue rippling beard, and intolerant eyes, as he waved me out of the room."
+    }
+  ]
+}

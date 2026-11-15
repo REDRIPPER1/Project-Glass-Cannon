@@ -4,9 +4,9 @@
   "ebookId": "15",
   "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER I. LOOMINGS",
-  "contentHash": "sha256:0ff15336da2dd61eaae3821d088f14fd46ed3f0e0c20712bad69f1781742bacb",
-  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER I. LOOMINGS. Source checked against Project Gutenberg eBook #15.",
+  "chapterTitle": "CHAPTER I.",
+  "contentHash": "sha256:a9dd4bc20413d90048ea2976bbe58085ee1e73bce4fc4495ebeb5f52f8071d44",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER I.. Source checked against Project Gutenberg eBook #15.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/15",
@@ -19,398 +19,402 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "Call me Ishmael."
+      "text": "LOOMINGS"
     },
     {
       "id": "s2",
-      "text": "Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world."
+      "text": "Call me Ishmael."
     },
     {
       "id": "s3",
-      "text": "It is a way I have of driving off the spleen, and regulating the circulation."
+      "text": "Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world."
     },
     {
       "id": "s4",
-      "text": "Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off—then, I account it high time to get to sea as soon as I can."
+      "text": "It is a way I have of driving off the spleen, and regulating the circulation."
     },
     {
       "id": "s5",
-      "text": "This is my substitute for pistol and ball."
+      "text": "Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off—then, I account it high time to get to sea as soon as I can."
     },
     {
       "id": "s6",
-      "text": "With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship."
+      "text": "This is my substitute for pistol and ball."
     },
     {
       "id": "s7",
-      "text": "There is nothing surprising in this."
+      "text": "With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship."
     },
     {
       "id": "s8",
-      "text": "If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me."
+      "text": "There is nothing surprising in this."
     },
     {
       "id": "s9",
-      "text": "There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf."
+      "text": "If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me."
     },
     {
       "id": "s10",
-      "text": "Right and left, the streets take you waterward."
+      "text": "There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf."
     },
     {
       "id": "s11",
-      "text": "Its extreme down-town is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land."
+      "text": "Right and left, the streets take you waterward."
     },
     {
       "id": "s12",
-      "text": "Look at the crowds of water-gazers there."
+      "text": "Its extreme down-town is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land."
     },
     {
       "id": "s13",
-      "text": "Circumambulate the city of a dreamy Sabbath afternoon."
+      "text": "Look at the crowds of water-gazers there."
     },
     {
       "id": "s14",
-      "text": "Go from Corlears Hook to Coenties Slip, and from thence, by Whitehall, northward."
+      "text": "Circumambulate the city of a dreamy Sabbath afternoon."
     },
     {
       "id": "s15",
-      "text": "What do you see?—Posted like silent sentinels all around the town, stand thousands upon thousands of mortal men fixed in ocean reveries."
+      "text": "Go from Corlears Hook to Coenties Slip, and from thence, by Whitehall, northward."
     },
     {
       "id": "s16",
-      "text": "Some leaning against the spiles; some seated upon the pier-heads; some looking over the bulwarks of ships from China; some high aloft in the rigging, as if striving to get a still better seaward peep."
+      "text": "What do you see?—Posted like silent sentinels all around the town, stand thousands upon thousands of mortal men fixed in ocean reveries."
     },
     {
       "id": "s17",
-      "text": "But these are all landsmen; of week days pent up in lath and plaster—tied to counters, nailed to benches, clinched to desks."
+      "text": "Some leaning against the spiles; some seated upon the pier-heads; some looking over the bulwarks of ships from China; some high aloft in the rigging, as if striving to get a still better seaward peep."
     },
     {
       "id": "s18",
-      "text": "How then is this?"
+      "text": "But these are all landsmen; of week days pent up in lath and plaster—tied to counters, nailed to benches, clinched to desks."
     },
     {
       "id": "s19",
-      "text": "Are the green fields gone?"
+      "text": "How then is this?"
     },
     {
       "id": "s20",
-      "text": "What do they here?"
+      "text": "Are the green fields gone?"
     },
     {
       "id": "s21",
-      "text": "But look! here come more crowds, pacing straight for the water, and seemingly bound for a dive."
+      "text": "What do they here?"
     },
     {
       "id": "s22",
-      "text": "Strange!"
+      "text": "But look! here come more crowds, pacing straight for the water, and seemingly bound for a dive."
     },
     {
       "id": "s23",
-      "text": "Nothing will content them but the extremest limit of the land; loitering under the shady lee of yonder warehouses will not suffice."
+      "text": "Strange!"
     },
     {
       "id": "s24",
-      "text": "No."
+      "text": "Nothing will content them but the extremest limit of the land; loitering under the shady lee of yonder warehouses will not suffice."
     },
     {
       "id": "s25",
-      "text": "They must get just as nigh the water as they possibly can without falling in."
+      "text": "No."
     },
     {
       "id": "s26",
-      "text": "And there they stand—miles of them—leagues."
+      "text": "They must get just as nigh the water as they possibly can without falling in."
     },
     {
       "id": "s27",
-      "text": "Inlanders all, they come from lanes and alleys, streets and avenues—north, east, south, and west."
+      "text": "And there they stand—miles of them—leagues."
     },
     {
       "id": "s28",
-      "text": "Yet here they all unite."
+      "text": "Inlanders all, they come from lanes and alleys, streets and avenues—north, east, south, and west."
     },
     {
       "id": "s29",
-      "text": "Tell me, does the magnetic virtue of the needles of the compasses of all those ships attract them thither?"
+      "text": "Yet here they all unite."
     },
     {
       "id": "s30",
-      "text": "Once more."
+      "text": "Tell me, does the magnetic virtue of the needles of the compasses of all those ships attract them thither?"
     },
     {
       "id": "s31",
-      "text": "Say, you are in the country; in some high land of lakes."
+      "text": "Once more."
     },
     {
       "id": "s32",
-      "text": "Take almost any path you please, and ten to one it carries you down in a dale, and leaves you there by a pool in the stream."
+      "text": "Say, you are in the country; in some high land of lakes."
     },
     {
       "id": "s33",
-      "text": "There is magic in it."
+      "text": "Take almost any path you please, and ten to one it carries you down in a dale, and leaves you there by a pool in the stream."
     },
     {
       "id": "s34",
-      "text": "Let the most absent-minded of men be plunged in his deepest reveries—stand that man on his legs, set his feet a-going, and he will infallibly lead you to water, if water there be in all that region."
+      "text": "There is magic in it."
     },
     {
       "id": "s35",
-      "text": "Should you ever be athirst in the great American desert, try this experiment, if your caravan happen to be supplied with a metaphysical professor."
+      "text": "Let the most absent-minded of men be plunged in his deepest reveries—stand that man on his legs, set his feet a-going, and he will infallibly lead you to water, if water there be in all that region."
     },
     {
       "id": "s36",
-      "text": "Yes, as every one knows, meditation and water are wedded for ever."
+      "text": "Should you ever be athirst in the great American desert, try this experiment, if your caravan happen to be supplied with a metaphysical professor."
     },
     {
       "id": "s37",
-      "text": "But here is an artist."
+      "text": "Yes, as every one knows, meditation and water are wedded for ever."
     },
     {
       "id": "s38",
-      "text": "He desires to paint you the dreamiest, shadiest, quietest, most enchanting bit of romantic landscape in all the valley of the Saco."
+      "text": "But here is an artist."
     },
     {
       "id": "s39",
-      "text": "What is the chief element he employs?"
+      "text": "He desires to paint you the dreamiest, shadiest, quietest, most enchanting bit of romantic landscape in all the valley of the Saco."
     },
     {
       "id": "s40",
-      "text": "There stand his trees, each with a hollow trunk, as if a hermit and a crucifix were within; and here sleeps his meadow, and there sleep his cattle; and up from yonder cottage goes a sleepy smoke."
+      "text": "What is the chief element he employs?"
     },
     {
       "id": "s41",
-      "text": "Deep into distant woodlands winds a mazy way, reaching to overlapping spurs of mountains bathed in their hill-side blue."
+      "text": "There stand his trees, each with a hollow trunk, as if a hermit and a crucifix were within; and here sleeps his meadow, and there sleep his cattle; and up from yonder cottage goes a sleepy smoke."
     },
     {
       "id": "s42",
-      "text": "But though the picture lies thus tranced, and though this pine-tree shakes down its sighs like leaves upon this shepherd’s head, yet all were vain, unless the shepherd’s eye were fixed upon the magic stream before him."
+      "text": "Deep into distant woodlands winds a mazy way, reaching to overlapping spurs of mountains bathed in their hill-side blue."
     },
     {
       "id": "s43",
-      "text": "Go visit the Prairies in June, when for scores on scores of miles you wade knee-deep among Tiger-lilies—what is the one charm wanting?—Water—there is not a drop of water there!"
+      "text": "But though the picture lies thus tranced, and though this pine-tree shakes down its sighs like leaves upon this shepherd’s head, yet all were vain, unless the shepherd’s eye were fixed upon the magic stream before him."
     },
     {
       "id": "s44",
-      "text": "Were Niagara but a cataract of sand, would you travel your thousand miles to see it?"
+      "text": "Go visit the Prairies in June, when for scores on scores of miles you wade knee-deep among Tiger-lilies—what is the one charm wanting?—Water—there is not a drop of water there!"
     },
     {
       "id": "s45",
-      "text": "Why did the poor poet of Tennessee, upon suddenly receiving two handfuls of silver, deliberate whether to buy him a coat, which he sadly needed, or invest his money in a pedestrian trip to Rockaway Beach?"
+      "text": "Were Niagara but a cataract of sand, would you travel your thousand miles to see it?"
     },
     {
       "id": "s46",
-      "text": "Why is almost every robust healthy boy with a robust healthy soul in him, at some time or other crazy to go to sea?"
+      "text": "Why did the poor poet of Tennessee, upon suddenly receiving two handfuls of silver, deliberate whether to buy him a coat, which he sadly needed, or invest his money in a pedestrian trip to Rockaway Beach?"
     },
     {
       "id": "s47",
-      "text": "Why upon your first voyage as a passenger, did you yourself feel such a mystical vibration, when first told that you and your ship were now out of sight of land?"
+      "text": "Why is almost every robust healthy boy with a robust healthy soul in him, at some time or other crazy to go to sea?"
     },
     {
       "id": "s48",
-      "text": "Why did the old Persians hold the sea holy?"
+      "text": "Why upon your first voyage as a passenger, did you yourself feel such a mystical vibration, when first told that you and your ship were now out of sight of land?"
     },
     {
       "id": "s49",
-      "text": "Why did the Greeks give it a separate deity, and own brother of Jove?"
+      "text": "Why did the old Persians hold the sea holy?"
     },
     {
       "id": "s50",
-      "text": "Surely all this is not without meaning."
+      "text": "Why did the Greeks give it a separate deity, and own brother of Jove?"
     },
     {
       "id": "s51",
-      "text": "And still deeper the meaning of that story of Narcissus, who because he could not grasp the tormenting, mild image he saw in the fountain, plunged into it and was drowned."
+      "text": "Surely all this is not without meaning."
     },
     {
       "id": "s52",
-      "text": "But that same image, we ourselves see in all rivers and oceans."
+      "text": "And still deeper the meaning of that story of Narcissus, who because he could not grasp the tormenting, mild image he saw in the fountain, plunged into it and was drowned."
     },
     {
       "id": "s53",
-      "text": "It is the image of the ungraspable phantom of life; and this is the key to it all."
+      "text": "But that same image, we ourselves see in all rivers and oceans."
     },
     {
       "id": "s54",
-      "text": "Now, when I say that I am in the habit of going to sea whenever I begin to grow hazy about the eyes, and begin to be over conscious of my lungs, I do not mean to have it inferred that I ever go to sea as a passenger."
+      "text": "It is the image of the ungraspable phantom of life; and this is the key to it all."
     },
     {
       "id": "s55",
-      "text": "For to go as a passenger you must needs have a purse, and a purse is but a rag unless you have something in it."
+      "text": "Now, when I say that I am in the habit of going to sea whenever I begin to grow hazy about the eyes, and begin to be over conscious of my lungs, I do not mean to have it inferred that I ever go to sea as a passenger."
     },
     {
       "id": "s56",
-      "text": "Besides, passengers get sea-sick—grow quarrelsome—don’t sleep of nights—do not enjoy themselves much, as a general thing;—no, I never go as a passenger; nor, though I am something of a salt, do I ever go to sea as a Commodore, or a Captain, or a Cook."
+      "text": "For to go as a passenger you must needs have a purse, and a purse is but a rag unless you have something in it."
     },
     {
       "id": "s57",
-      "text": "I abandon the glory and distinction of such offices to those who like them."
+      "text": "Besides, passengers get sea-sick—grow quarrelsome—don’t sleep of nights—do not enjoy themselves much, as a general thing;—no, I never go as a passenger; nor, though I am something of a salt, do I ever go to sea as a Commodore, or a Captain, or a Cook."
     },
     {
       "id": "s58",
-      "text": "For my part, I abominate all honorable respectable toils, trials, and tribulations of every kind whatsoever."
+      "text": "I abandon the glory and distinction of such offices to those who like them."
     },
     {
       "id": "s59",
-      "text": "It is quite as much as I can do to take care of myself, without taking care of ships, barques, brigs, schooners, and what not."
+      "text": "For my part, I abominate all honorable respectable toils, trials, and tribulations of every kind whatsoever."
     },
     {
       "id": "s60",
-      "text": "And as for going as cook,—though I confess there is considerable glory in that, a cook being a sort of officer on ship-board—yet, somehow, I never fancied broiling fowls;—though once broiled, judiciously buttered, and judgmatically salted and peppered, there is no one who will speak more respectfully, not to say reverentially, of a broiled fowl than I will."
+      "text": "It is quite as much as I can do to take care of myself, without taking care of ships, barques, brigs, schooners, and what not."
     },
     {
       "id": "s61",
-      "text": "It is out of the idolatrous dotings of the old Egyptians upon broiled ibis and roasted river horse, that you see the mummies of those creatures in their huge bake-houses the pyramids."
+      "text": "And as for going as cook,—though I confess there is considerable glory in that, a cook being a sort of officer on ship-board—yet, somehow, I never fancied broiling fowls;—though once broiled, judiciously buttered, and judgmatically salted and peppered, there is no one who will speak more respectfully, not to say reverentially, of a broiled fowl than I will."
     },
     {
       "id": "s62",
-      "text": "No, when I go to sea, I go as a simple sailor, right before the mast, plumb down into the forecastle, aloft there to the royal mast-head."
+      "text": "It is out of the idolatrous dotings of the old Egyptians upon broiled ibis and roasted river horse, that you see the mummies of those creatures in their huge bake-houses the pyramids."
     },
     {
       "id": "s63",
-      "text": "True, they rather order me about some, and make me jump from spar to spar, like a grasshopper in a May meadow."
+      "text": "No, when I go to sea, I go as a simple sailor, right before the mast, plumb down into the forecastle, aloft there to the royal mast-head."
     },
     {
       "id": "s64",
-      "text": "And at first, this sort of thing is unpleasant enough."
+      "text": "True, they rather order me about some, and make me jump from spar to spar, like a grasshopper in a May meadow."
     },
     {
       "id": "s65",
-      "text": "It touches one’s sense of honor, particularly if you come of an old established family in the land, the Van Rensselaers, or Randolphs, or Hardicanutes."
+      "text": "And at first, this sort of thing is unpleasant enough."
     },
     {
       "id": "s66",
-      "text": "And more than all, if just previous to putting your hand into the tar-pot, you have been lording it as a country schoolmaster, making the tallest boys stand in awe of you."
+      "text": "It touches one’s sense of honor, particularly if you come of an old established family in the land, the Van Rensselaers, or Randolphs, or Hardicanutes."
     },
     {
       "id": "s67",
-      "text": "The transition is a keen one, I assure you, from a schoolmaster to a sailor, and requires a strong decoction of Seneca and the Stoics to enable you to grin and bear it."
+      "text": "And more than all, if just previous to putting your hand into the tar-pot, you have been lording it as a country schoolmaster, making the tallest boys stand in awe of you."
     },
     {
       "id": "s68",
-      "text": "But even this wears off in time."
+      "text": "The transition is a keen one, I assure you, from a schoolmaster to a sailor, and requires a strong decoction of Seneca and the Stoics to enable you to grin and bear it."
     },
     {
       "id": "s69",
-      "text": "What of it, if some old hunks of a sea-captain orders me to get a broom and sweep down the decks?"
+      "text": "But even this wears off in time."
     },
     {
       "id": "s70",
-      "text": "What does that indignity amount to, weighed, I mean, in the scales of the New Testament?"
+      "text": "What of it, if some old hunks of a sea-captain orders me to get a broom and sweep down the decks?"
     },
     {
       "id": "s71",
-      "text": "Do you think the archangel Gabriel thinks anything the less of me, because I promptly and respectfully obey that old hunks in that particular instance?"
+      "text": "What does that indignity amount to, weighed, I mean, in the scales of the New Testament?"
     },
     {
       "id": "s72",
-      "text": "Who aint a slave?"
+      "text": "Do you think the archangel Gabriel thinks anything the less of me, because I promptly and respectfully obey that old hunks in that particular instance?"
     },
     {
       "id": "s73",
-      "text": "Tell me that."
+      "text": "Who aint a slave?"
     },
     {
       "id": "s74",
-      "text": "Well, then, however the old sea-captains may order me about—however they may thump and punch me about, I have the satisfaction of knowing that it is all right; that everybody else is one way or other served in much the same way—either in a physical or metaphysical point of view, that is; and so the universal thump is passed round, and all hands should rub each other’s shoulder-blades, and be content."
+      "text": "Tell me that."
     },
     {
       "id": "s75",
-      "text": "Again, I always go to sea as a sailor, because they make a point of paying me for my trouble, whereas they never pay passengers a single penny that I ever heard of."
+      "text": "Well, then, however the old sea-captains may order me about—however they may thump and punch me about, I have the satisfaction of knowing that it is all right; that everybody else is one way or other served in much the same way—either in a physical or metaphysical point of view, that is; and so the universal thump is passed round, and all hands should rub each other’s shoulder-blades, and be content."
     },
     {
       "id": "s76",
-      "text": "On the contrary, passengers themselves must pay."
+      "text": "Again, I always go to sea as a sailor, because they make a point of paying me for my trouble, whereas they never pay passengers a single penny that I ever heard of."
     },
     {
       "id": "s77",
-      "text": "And there is all the difference in the world between paying and being paid."
+      "text": "On the contrary, passengers themselves must pay."
     },
     {
       "id": "s78",
-      "text": "The act of paying is perhaps the most uncomfortable infliction that the two orchard thieves entailed upon us."
+      "text": "And there is all the difference in the world between paying and being paid."
     },
     {
       "id": "s79",
-      "text": "But _being paid_,—what will compare with it?"
+      "text": "The act of paying is perhaps the most uncomfortable infliction that the two orchard thieves entailed upon us."
     },
     {
       "id": "s80",
-      "text": "The urbane activity with which a man receives money is really marvellous, considering that we so earnestly believe money to be the root of all earthly ills, and that on no account can a monied man enter heaven."
+      "text": "But _being paid_,—what will compare with it?"
     },
     {
       "id": "s81",
-      "text": "Ah! how cheerfully we consign ourselves to perdition!"
+      "text": "The urbane activity with which a man receives money is really marvellous, considering that we so earnestly believe money to be the root of all earthly ills, and that on no account can a monied man enter heaven."
     },
     {
       "id": "s82",
-      "text": "Finally, I always go to sea as a sailor, because of the wholesome exercise and pure air of the forecastle deck."
+      "text": "Ah! how cheerfully we consign ourselves to perdition!"
     },
     {
       "id": "s83",
-      "text": "For as in this world, head winds are far more prevalent than winds from astern (that is, if you never violate the Pythagorean maxim), so for the most part the Commodore on the quarter-deck gets his atmosphere at second hand from the sailors on the forecastle."
+      "text": "Finally, I always go to sea as a sailor, because of the wholesome exercise and pure air of the forecastle deck."
     },
     {
       "id": "s84",
-      "text": "He thinks he breathes it first; but not so."
+      "text": "For as in this world, head winds are far more prevalent than winds from astern (that is, if you never violate the Pythagorean maxim), so for the most part the Commodore on the quarter-deck gets his atmosphere at second hand from the sailors on the forecastle."
     },
     {
       "id": "s85",
-      "text": "In much the same way do the commonalty lead their leaders in many other things, at the same time that the leaders little suspect it."
+      "text": "He thinks he breathes it first; but not so."
     },
     {
       "id": "s86",
-      "text": "But wherefore it was that after having repeatedly smelt the sea as a merchant sailor, I should now take it into my head to go on a whaling voyage; this the invisible police officer of the Fates, who has the constant surveillance of me, and secretly dogs me, and influences me in some unaccountable way—he can better answer than any one else."
+      "text": "In much the same way do the commonalty lead their leaders in many other things, at the same time that the leaders little suspect it."
     },
     {
       "id": "s87",
-      "text": "And, doubtless, my going on this whaling voyage, formed part of the grand programme of Providence that was drawn up a long time ago."
+      "text": "But wherefore it was that after having repeatedly smelt the sea as a merchant sailor, I should now take it into my head to go on a whaling voyage; this the invisible police officer of the Fates, who has the constant surveillance of me, and secretly dogs me, and influences me in some unaccountable way—he can better answer than any one else."
     },
     {
       "id": "s88",
-      "text": "It came in as a sort of brief interlude and solo between more extensive performances."
+      "text": "And, doubtless, my going on this whaling voyage, formed part of the grand programme of Providence that was drawn up a long time ago."
     },
     {
       "id": "s89",
-      "text": "I take it that this part of the bill must have run something like this:"
+      "text": "It came in as a sort of brief interlude and solo between more extensive performances."
     },
     {
       "id": "s90",
-      "text": "“_Grand Contested Election for the Presidency of the United States._ “WHALING VOYAGE BY ONE ISHMAEL."
+      "text": "I take it that this part of the bill must have run something like this:"
     },
     {
       "id": "s91",
-      "text": "“BLOODY BATTLE IN AFFGHANISTAN.”"
+      "text": "“_Grand Contested Election for the Presidency of the United States._ “WHALING VOYAGE BY ONE ISHMAEL."
     },
     {
       "id": "s92",
-      "text": "Though I cannot tell why it was exactly that those stage managers, the Fates, put me down for this shabby part of a whaling voyage, when others were set down for magnificent parts in high tragedies, and short and easy parts in genteel comedies, and jolly parts in farces—though I cannot tell why this was exactly; yet, now that I recall all the circumstances, I think I can see a little into the springs and motives which being cunningly presented to me under various disguises, induced me to set about performing the part I did, besides cajoling me into the delusion that it was a choice resulting from my own unbiased freewill and discriminating judgment."
+      "text": "“BLOODY BATTLE IN AFFGHANISTAN.”"
     },
     {
       "id": "s93",
-      "text": "Chief among these motives was the overwhelming idea of the great whale himself."
+      "text": "Though I cannot tell why it was exactly that those stage managers, the Fates, put me down for this shabby part of a whaling voyage, when others were set down for magnificent parts in high tragedies, and short and easy parts in genteel comedies, and jolly parts in farces—though I cannot tell why this was exactly; yet, now that I recall all the circumstances, I think I can see a little into the springs and motives which being cunningly presented to me under various disguises, induced me to set about performing the part I did, besides cajoling me into the delusion that it was a choice resulting from my own unbiased freewill and discriminating judgment."
     },
     {
       "id": "s94",
-      "text": "Such a portentous and mysterious monster roused all my curiosity."
+      "text": "Chief among these motives was the overwhelming idea of the great whale himself."
     },
     {
       "id": "s95",
-      "text": "Then the wild and distant seas where he rolled his island bulk; the undeliverable, nameless perils of the whale; these, with all the attending marvels of a thousand Patagonian sights and sounds, helped to sway me to my wish."
+      "text": "Such a portentous and mysterious monster roused all my curiosity."
     },
     {
       "id": "s96",
-      "text": "With other men, perhaps, such things would not have been inducements; but as for me, I am tormented with an everlasting itch for things remote."
+      "text": "Then the wild and distant seas where he rolled his island bulk; the undeliverable, nameless perils of the whale; these, with all the attending marvels of a thousand Patagonian sights and sounds, helped to sway me to my wish."
     },
     {
       "id": "s97",
-      "text": "I love to sail forbidden seas, and land on barbarous coasts."
+      "text": "With other men, perhaps, such things would not have been inducements; but as for me, I am tormented with an everlasting itch for things remote."
     },
     {
       "id": "s98",
-      "text": "Not ignoring what is good, I am quick to perceive a horror, and could still be social with it—would they let me—since it is but well to be on friendly terms with all the inmates of the place one lodges in."
+      "text": "I love to sail forbidden seas, and land on barbarous coasts."
     },
     {
       "id": "s99",
+      "text": "Not ignoring what is good, I am quick to perceive a horror, and could still be social with it—would they let me—since it is but well to be on friendly terms with all the inmates of the place one lodges in."
+    },
+    {
+      "id": "s100",
       "text": "By reason of these things, then, the whaling voyage was welcome; the great flood-gates of the wonder-world swung open, and in the wild conceits that swayed me to my purpose, two and two there floated into my inmost soul, endless processions of the whale, and, mid most of them all, one grand hooded phantom, like a snow hill in the air."
     }
   ]

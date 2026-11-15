@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-73-the-red-badge-of-courage-an-episode-of-the-ameri",
+  "ebookId": "73",
+  "edition": "Project Gutenberg eBook #73; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-4",
+  "chapterTitle": "Chapter IV.",
+  "contentHash": "sha256:ad5337deaa11bb29db9293b66a0b7374ea2f4606a38ffe0c7c6e30534773fec0",
+  "attribution": "Crane, Stephen, 1871-1900, The Red Badge of Courage: An Episode of the American Civil War, Chapter IV.. Source checked against Project Gutenberg eBook #73.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/73",
+    "textUrl": "https://www.gutenberg.org/cache/epub/73/pg73.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The brigade was halted in the fringe of a grove."
+    },
+    {
+      "id": "s2",
+      "text": "The men crouched among the trees and pointed their restless guns out at the fields."
+    },
+    {
+      "id": "s3",
+      "text": "They tried to look beyond the smoke."
+    },
+    {
+      "id": "s4",
+      "text": "Out of this haze they could see running men."
+    },
+    {
+      "id": "s5",
+      "text": "Some shouted information and gestured as they hurried."
+    },
+    {
+      "id": "s6",
+      "text": "The men of the new regiment watched and listened eagerly, while their tongues ran on in gossip of the battle."
+    },
+    {
+      "id": "s7",
+      "text": "They mouthed rumors that had flown like birds out of the unknown."
+    },
+    {
+      "id": "s8",
+      "text": "“They say Perry has been driven in with big loss.”"
+    },
+    {
+      "id": "s9",
+      "text": "“Yes, Carrott went t’ th’ hospital."
+    },
+    {
+      "id": "s10",
+      "text": "He said he was sick."
+    },
+    {
+      "id": "s11",
+      "text": "That smart lieutenant is commanding ‘G’ Company."
+    },
+    {
+      "id": "s12",
+      "text": "Th’ boys say they won’t be under Carrott no more if they all have t’ desert."
+    },
+    {
+      "id": "s13",
+      "text": "They allus knew he was a—”"
+    },
+    {
+      "id": "s14",
+      "text": "“Hannises’ batt’ry is took.”"
+    },
+    {
+      "id": "s15",
+      "text": "“It ain’t either."
+    },
+    {
+      "id": "s16",
+      "text": "I saw Hannises’ batt’ry off on th’ left not more’n fifteen minutes ago.”"
+    },
+    {
+      "id": "s17",
+      "text": "“Well—”"
+    },
+    {
+      "id": "s18",
+      "text": "“Th’ general, he ses he is goin’ t’ take th’ hull command of th’ 304th when we go inteh action, an’ then he ses we’ll do sech fightin’ as never another one reg’ment done.”"
+    },
+    {
+      "id": "s19",
+      "text": "“They say we’re catchin’ it over on th’ left."
+    },
+    {
+      "id": "s20",
+      "text": "They say th’ enemy driv’ our line inteh a devil of a swamp an’ took Hannises’ batt’ry.”"
+    },
+    {
+      "id": "s21",
+      "text": "“No sech thing."
+    },
+    {
+      "id": "s22",
+      "text": "Hannises’ batt’ry was ’long here ’bout a minute ago.”"
+    },
+    {
+      "id": "s23",
+      "text": "“That young Hasbrouck, he makes a good off’cer."
+    },
+    {
+      "id": "s24",
+      "text": "He ain’t afraid ’a nothin’.”"
+    },
+    {
+      "id": "s25",
+      "text": "“I met one of th’ 148th Maine boys an’ he ses his brigade fit th’ hull rebel army fer four hours over on th’ turnpike road an’ killed about five thousand of ’em."
+    },
+    {
+      "id": "s26",
+      "text": "He ses one more sech fight as that an’ th’ war ’ll be over.”"
+    },
+    {
+      "id": "s27",
+      "text": "“Bill wasn’t scared either."
+    },
+    {
+      "id": "s28",
+      "text": "No, sir!"
+    },
+    {
+      "id": "s29",
+      "text": "It wasn’t that."
+    },
+    {
+      "id": "s30",
+      "text": "Bill ain’t a-gittin’ scared easy."
+    },
+    {
+      "id": "s31",
+      "text": "He was jest mad, that’s what he was."
+    },
+    {
+      "id": "s32",
+      "text": "When that feller trod on his hand, he up an’ sed that he was willin’ t’ give his hand t’ his country, but he be dumbed if he was goin’ t’ have every dumb bushwhacker in th’ kentry walkin’ ’round on it."
+    },
+    {
+      "id": "s33",
+      "text": "So he went t’ th’ hospital disregardless of th’ fight."
+    },
+    {
+      "id": "s34",
+      "text": "Three fingers was crunched."
+    },
+    {
+      "id": "s35",
+      "text": "Th’ dern doctor wanted t’ amputate ’m, an’ Bill, he raised a heluva row, I hear."
+    },
+    {
+      "id": "s36",
+      "text": "He’s a funny feller.”"
+    },
+    {
+      "id": "s37",
+      "text": "The din in front swelled to a tremendous chorus."
+    },
+    {
+      "id": "s38",
+      "text": "The youth and his fellows were frozen to silence."
+    },
+    {
+      "id": "s39",
+      "text": "They could see a flag that tossed in the smoke angrily."
+    },
+    {
+      "id": "s40",
+      "text": "Near it were the blurred and agitated forms of troops."
+    },
+    {
+      "id": "s41",
+      "text": "There came a turbulent stream of men across the fields."
+    },
+    {
+      "id": "s42",
+      "text": "A battery changing position at a frantic gallop scattered the stragglers right and left."
+    },
+    {
+      "id": "s43",
+      "text": "A shell screaming like a storm banshee went over the huddled heads of the reserves."
+    },
+    {
+      "id": "s44",
+      "text": "It landed in the grove, and exploding redly flung the brown earth."
+    },
+    {
+      "id": "s45",
+      "text": "There was a little shower of pine needles."
+    },
+    {
+      "id": "s46",
+      "text": "Bullets began to whistle among the branches and nip at the trees."
+    },
+    {
+      "id": "s47",
+      "text": "Twigs and leaves came sailing down."
+    },
+    {
+      "id": "s48",
+      "text": "It was as if a thousand axes, wee and invisible, were being wielded."
+    },
+    {
+      "id": "s49",
+      "text": "Many of the men were constantly dodging and ducking their heads."
+    },
+    {
+      "id": "s50",
+      "text": "The lieutenant of the youth’s company was shot in the hand."
+    },
+    {
+      "id": "s51",
+      "text": "He began to swear so wondrously that a nervous laugh went along the regimental line."
+    },
+    {
+      "id": "s52",
+      "text": "The officer’s profanity sounded conventional."
+    },
+    {
+      "id": "s53",
+      "text": "It relieved the tightened senses of the new men."
+    },
+    {
+      "id": "s54",
+      "text": "It was as if he had hit his fingers with a tack hammer at home."
+    },
+    {
+      "id": "s55",
+      "text": "He held the wounded member carefully away from his side so that the blood would not drip upon his trousers."
+    },
+    {
+      "id": "s56",
+      "text": "The captain of the company, tucking his sword under his arm, produced a handkerchief and began to bind with it the lieutenant’s wound."
+    },
+    {
+      "id": "s57",
+      "text": "And they disputed as to how the binding should be done."
+    },
+    {
+      "id": "s58",
+      "text": "The battle flag in the distance jerked about madly."
+    },
+    {
+      "id": "s59",
+      "text": "It seemed to be struggling to free itself from an agony."
+    },
+    {
+      "id": "s60",
+      "text": "The billowing smoke was filled with horizontal flashes."
+    },
+    {
+      "id": "s61",
+      "text": "Men rushing swiftly emerged from it."
+    },
+    {
+      "id": "s62",
+      "text": "They grew in numbers until it was seen that the whole command was fleeing."
+    },
+    {
+      "id": "s63",
+      "text": "The flag suddenly sank down as if dying."
+    },
+    {
+      "id": "s64",
+      "text": "Its motion as it fell was a gesture of despair."
+    },
+    {
+      "id": "s65",
+      "text": "Wild yells came from behind the walls of smoke."
+    },
+    {
+      "id": "s66",
+      "text": "A sketch in gray and red dissolved into a moblike body of men who galloped like wild horses."
+    },
+    {
+      "id": "s67",
+      "text": "The veteran regiments on the right and left of the 304th immediately began to jeer."
+    },
+    {
+      "id": "s68",
+      "text": "With the passionate song of the bullets and the banshee shrieks of shells were mingled loud catcalls and bits of facetious advice concerning places of safety."
+    },
+    {
+      "id": "s69",
+      "text": "But the new regiment was breathless with horror."
+    },
+    {
+      "id": "s70",
+      "text": "“Gawd!"
+    },
+    {
+      "id": "s71",
+      "text": "Saunders’s got crushed!” whispered the man at the youth’s elbow."
+    },
+    {
+      "id": "s72",
+      "text": "They shrank back and crouched as if compelled to await a flood."
+    },
+    {
+      "id": "s73",
+      "text": "The youth shot a swift glance along the blue ranks of the regiment."
+    },
+    {
+      "id": "s74",
+      "text": "The profiles were motionless, carven; and afterward he remembered that the color sergeant was standing with his legs apart, as if he expected to be pushed to the ground."
+    },
+    {
+      "id": "s75",
+      "text": "The following throng went whirling around the flank."
+    },
+    {
+      "id": "s76",
+      "text": "Here and there were officers carried along on the stream like exasperated chips."
+    },
+    {
+      "id": "s77",
+      "text": "They were striking about them with their swords and with their left fists, punching every head they could reach."
+    },
+    {
+      "id": "s78",
+      "text": "They cursed like highwaymen."
+    },
+    {
+      "id": "s79",
+      "text": "A mounted officer displayed the furious anger of a spoiled child."
+    },
+    {
+      "id": "s80",
+      "text": "He raged with his head, his arms, and his legs."
+    },
+    {
+      "id": "s81",
+      "text": "Another, the commander of the brigade, was galloping about bawling."
+    },
+    {
+      "id": "s82",
+      "text": "His hat was gone and his clothes were awry."
+    },
+    {
+      "id": "s83",
+      "text": "He resembled a man who has come from bed to go to a fire."
+    },
+    {
+      "id": "s84",
+      "text": "The hoofs of his horse often threatened the heads of the running men, but they scampered with singular fortune."
+    },
+    {
+      "id": "s85",
+      "text": "In this rush they were apparently all deaf and blind."
+    },
+    {
+      "id": "s86",
+      "text": "They heeded not the largest and longest of the oaths that were thrown at them from all directions."
+    },
+    {
+      "id": "s87",
+      "text": "Frequently over this tumult could be heard the grim jokes of the critical veterans; but the retreating men apparently were not even conscious of the presence of an audience."
+    },
+    {
+      "id": "s88",
+      "text": "The battle reflection that shone for an instant in the faces on the mad current made the youth feel that forceful hands from heaven would not have been able to have held him in place if he could have got intelligent control of his legs."
+    },
+    {
+      "id": "s89",
+      "text": "There was an appalling imprint upon these faces."
+    },
+    {
+      "id": "s90",
+      "text": "The struggle in the smoke had pictured an exaggeration of itself on the bleached cheeks and in the eyes wild with one desire."
+    },
+    {
+      "id": "s91",
+      "text": "The sight of this stampede exerted a floodlike force that seemed able to drag sticks and stones and men from the ground."
+    },
+    {
+      "id": "s92",
+      "text": "They of the reserves had to hold on."
+    },
+    {
+      "id": "s93",
+      "text": "They grew pale and firm, and red and quaking."
+    },
+    {
+      "id": "s94",
+      "text": "The youth achieved one little thought in the midst of this chaos."
+    },
+    {
+      "id": "s95",
+      "text": "The composite monster which had caused the other troops to flee had not then appeared."
+    },
+    {
+      "id": "s96",
+      "text": "He resolved to get a view of it, and then, he thought he might very likely run better than the best of them."
+    }
+  ]
+}

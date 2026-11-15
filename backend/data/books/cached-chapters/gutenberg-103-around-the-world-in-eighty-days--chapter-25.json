@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-25",
+  "chapterTitle": "CHAPTER XXV.",
+  "contentHash": "sha256:d915cc358db19013f6a4ea5ed1c99a9101227ffb66100c4bbbca847a8ac987f3",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER XXV.. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "IN WHICH A SLIGHT GLIMPSE IS HAD OF SAN FRANCISCO"
+    },
+    {
+      "id": "s2",
+      "text": "It was seven in the morning when Mr."
+    },
+    {
+      "id": "s3",
+      "text": "Fogg, Aouda, and Passepartout set foot upon the American continent, if this name can be given to the floating quay upon which they disembarked."
+    },
+    {
+      "id": "s4",
+      "text": "These quays, rising and falling with the tide, thus facilitate the loading and unloading of vessels."
+    },
+    {
+      "id": "s5",
+      "text": "Alongside them were clippers of all sizes, steamers of all nationalities, and the steamboats, with several decks rising one above the other, which ply on the Sacramento and its tributaries."
+    },
+    {
+      "id": "s6",
+      "text": "There were also heaped up the products of a commerce which extends to Mexico, Chili, Peru, Brazil, Europe, Asia, and all the Pacific islands."
+    },
+    {
+      "id": "s7",
+      "text": "Passepartout, in his joy on reaching at last the American continent, thought he would manifest it by executing a perilous vault in fine style; but, tumbling upon some worm-eaten planks, he fell through them."
+    },
+    {
+      "id": "s8",
+      "text": "Put out of countenance by the manner in which he thus “set foot” upon the New World, he uttered a loud cry, which so frightened the innumerable cormorants and pelicans that are always perched upon these movable quays, that they flew noisily away."
+    },
+    {
+      "id": "s9",
+      "text": "Mr."
+    },
+    {
+      "id": "s10",
+      "text": "Fogg, on reaching shore, proceeded to find out at what hour the first train left for New York, and learned that this was at six o’clock p.m.; he had, therefore, an entire day to spend in the Californian capital."
+    },
+    {
+      "id": "s11",
+      "text": "Taking a carriage at a charge of three dollars, he and Aouda entered it, while Passepartout mounted the box beside the driver, and they set out for the International Hotel."
+    },
+    {
+      "id": "s12",
+      "text": "From his exalted position Passepartout observed with much curiosity the wide streets, the low, evenly ranged houses, the Anglo-Saxon Gothic churches, the great docks, the palatial wooden and brick warehouses, the numerous conveyances, omnibuses, horse-cars, and upon the side-walks, not only Americans and Europeans, but Chinese and Indians."
+    },
+    {
+      "id": "s13",
+      "text": "Passepartout was surprised at all he saw."
+    },
+    {
+      "id": "s14",
+      "text": "San Francisco was no longer the legendary city of 1849—a city of banditti, assassins, and incendiaries, who had flocked hither in crowds in pursuit of plunder; a paradise of outlaws, where they gambled with gold-dust, a revolver in one hand and a bowie-knife in the other: it was now a great commercial emporium."
+    },
+    {
+      "id": "s15",
+      "text": "The lofty tower of its City Hall overlooked the whole panorama of the streets and avenues, which cut each other at right-angles, and in the midst of which appeared pleasant, verdant squares, while beyond appeared the Chinese quarter, seemingly imported from the Celestial Empire in a toy-box."
+    },
+    {
+      "id": "s16",
+      "text": "Sombreros and red shirts and plumed Indians were rarely to be seen; but there were silk hats and black coats everywhere worn by a multitude of nervously active, gentlemanly-looking men."
+    },
+    {
+      "id": "s17",
+      "text": "Some of the streets—especially Montgomery Street, which is to San Francisco what Regent Street is to London, the Boulevard des Italiens to Paris, and Broadway to New York—were lined with splendid and spacious stores, which exposed in their windows the products of the entire world."
+    },
+    {
+      "id": "s18",
+      "text": "When Passepartout reached the International Hotel, it did not seem to him as if he had left England at all."
+    },
+    {
+      "id": "s19",
+      "text": "The ground floor of the hotel was occupied by a large bar, a sort of restaurant freely open to all passers-by, who might partake of dried beef, oyster soup, biscuits, and cheese, without taking out their purses."
+    },
+    {
+      "id": "s20",
+      "text": "Payment was made only for the ale, porter, or sherry which was drunk."
+    },
+    {
+      "id": "s21",
+      "text": "This seemed “very American” to Passepartout."
+    },
+    {
+      "id": "s22",
+      "text": "The hotel refreshment-rooms were comfortable, and Mr."
+    },
+    {
+      "id": "s23",
+      "text": "Fogg and Aouda, installing themselves at a table, were abundantly served on diminutive plates by negroes of darkest hue."
+    },
+    {
+      "id": "s24",
+      "text": "After breakfast, Mr."
+    },
+    {
+      "id": "s25",
+      "text": "Fogg, accompanied by Aouda, started for the English consulate to have his passport _visaed_."
+    },
+    {
+      "id": "s26",
+      "text": "As he was going out, he met Passepartout, who asked him if it would not be well, before taking the train, to purchase some dozens of Enfield rifles and Colt’s revolvers."
+    },
+    {
+      "id": "s27",
+      "text": "He had been listening to stories of attacks upon the trains by the Sioux and Pawnees."
+    },
+    {
+      "id": "s28",
+      "text": "Mr."
+    },
+    {
+      "id": "s29",
+      "text": "Fogg thought it a useless precaution, but told him to do as he thought best, and went on to the consulate."
+    },
+    {
+      "id": "s30",
+      "text": "He had not proceeded two hundred steps, however, when, “by the greatest chance in the world,” he met Fix."
+    },
+    {
+      "id": "s31",
+      "text": "The detective seemed wholly taken by surprise."
+    },
+    {
+      "id": "s32",
+      "text": "What!"
+    },
+    {
+      "id": "s33",
+      "text": "Had Mr."
+    },
+    {
+      "id": "s34",
+      "text": "Fogg and himself crossed the Pacific together, and not met on the steamer!"
+    },
+    {
+      "id": "s35",
+      "text": "At least Fix felt honoured to behold once more the gentleman to whom he owed so much, and, as his business recalled him to Europe, he should be delighted to continue the journey in such pleasant company."
+    },
+    {
+      "id": "s36",
+      "text": "Mr."
+    },
+    {
+      "id": "s37",
+      "text": "Fogg replied that the honour would be his; and the detective—who was determined not to lose sight of him—begged permission to accompany them in their walk about San Francisco—a request which Mr."
+    },
+    {
+      "id": "s38",
+      "text": "Fogg readily granted."
+    },
+    {
+      "id": "s39",
+      "text": "They soon found themselves in Montgomery Street, where a great crowd was collected; the side-walks, street, horsecar rails, the shop-doors, the windows of the houses, and even the roofs, were full of people."
+    },
+    {
+      "id": "s40",
+      "text": "Men were going about carrying large posters, and flags and streamers were floating in the wind; while loud cries were heard on every hand."
+    },
+    {
+      "id": "s41",
+      "text": "“Hurrah for Camerfield!”"
+    },
+    {
+      "id": "s42",
+      "text": "“Hurrah for Mandiboy!”"
+    },
+    {
+      "id": "s43",
+      "text": "It was a political meeting; at least so Fix conjectured, who said to Mr."
+    },
+    {
+      "id": "s44",
+      "text": "Fogg, “Perhaps we had better not mingle with the crowd."
+    },
+    {
+      "id": "s45",
+      "text": "There may be danger in it.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Yes,” returned Mr."
+    },
+    {
+      "id": "s47",
+      "text": "Fogg; “and blows, even if they are political, are still blows.”"
+    },
+    {
+      "id": "s48",
+      "text": "Fix smiled at this remark; and, in order to be able to see without being jostled about, the party took up a position on the top of a flight of steps situated at the upper end of Montgomery Street."
+    },
+    {
+      "id": "s49",
+      "text": "Opposite them, on the other side of the street, between a coal wharf and a petroleum warehouse, a large platform had been erected in the open air, towards which the current of the crowd seemed to be directed."
+    },
+    {
+      "id": "s50",
+      "text": "For what purpose was this meeting?"
+    },
+    {
+      "id": "s51",
+      "text": "What was the occasion of this excited assemblage?"
+    },
+    {
+      "id": "s52",
+      "text": "Phileas Fogg could not imagine."
+    },
+    {
+      "id": "s53",
+      "text": "Was it to nominate some high official—a governor or member of Congress?"
+    },
+    {
+      "id": "s54",
+      "text": "It was not improbable, so agitated was the multitude before them."
+    },
+    {
+      "id": "s55",
+      "text": "Just at this moment there was an unusual stir in the human mass."
+    },
+    {
+      "id": "s56",
+      "text": "All the hands were raised in the air."
+    },
+    {
+      "id": "s57",
+      "text": "Some, tightly closed, seemed to disappear suddenly in the midst of the cries—an energetic way, no doubt, of casting a vote."
+    },
+    {
+      "id": "s58",
+      "text": "The crowd swayed back, the banners and flags wavered, disappeared an instant, then reappeared in tatters."
+    },
+    {
+      "id": "s59",
+      "text": "The undulations of the human surge reached the steps, while all the heads floundered on the surface like a sea agitated by a squall."
+    },
+    {
+      "id": "s60",
+      "text": "Many of the black hats disappeared, and the greater part of the crowd seemed to have diminished in height."
+    },
+    {
+      "id": "s61",
+      "text": "“It is evidently a meeting,” said Fix, “and its object must be an exciting one."
+    },
+    {
+      "id": "s62",
+      "text": "I should not wonder if it were about the ‘Alabama,’ despite the fact that that question is settled.”"
+    },
+    {
+      "id": "s63",
+      "text": "“Perhaps,” replied Mr."
+    },
+    {
+      "id": "s64",
+      "text": "Fogg, simply."
+    },
+    {
+      "id": "s65",
+      "text": "“At least, there are two champions in presence of each other, the Honourable Mr."
+    },
+    {
+      "id": "s66",
+      "text": "Camerfield and the Honourable Mr."
+    },
+    {
+      "id": "s67",
+      "text": "Mandiboy.”"
+    },
+    {
+      "id": "s68",
+      "text": "Aouda, leaning upon Mr."
+    },
+    {
+      "id": "s69",
+      "text": "Fogg’s arm, observed the tumultuous scene with surprise, while Fix asked a man near him what the cause of it all was."
+    },
+    {
+      "id": "s70",
+      "text": "Before the man could reply, a fresh agitation arose; hurrahs and excited shouts were heard; the staffs of the banners began to be used as offensive weapons; and fists flew about in every direction."
+    },
+    {
+      "id": "s71",
+      "text": "Thumps were exchanged from the tops of the carriages and omnibuses which had been blocked up in the crowd."
+    },
+    {
+      "id": "s72",
+      "text": "Boots and shoes went whirling through the air, and Mr."
+    },
+    {
+      "id": "s73",
+      "text": "Fogg thought he even heard the crack of revolvers mingling in the din, the rout approached the stairway, and flowed over the lower step."
+    },
+    {
+      "id": "s74",
+      "text": "One of the parties had evidently been repulsed; but the mere lookers-on could not tell whether Mandiboy or Camerfield had gained the upper hand."
+    },
+    {
+      "id": "s75",
+      "text": "“It would be prudent for us to retire,” said Fix, who was anxious that Mr."
+    },
+    {
+      "id": "s76",
+      "text": "Fogg should not receive any injury, at least until they got back to London."
+    },
+    {
+      "id": "s77",
+      "text": "“If there is any question about England in all this, and we were recognised, I fear it would go hard with us.”"
+    },
+    {
+      "id": "s78",
+      "text": "“An English subject—” began Mr."
+    },
+    {
+      "id": "s79",
+      "text": "Fogg."
+    },
+    {
+      "id": "s80",
+      "text": "He did not finish his sentence; for a terrific hubbub now arose on the terrace behind the flight of steps where they stood, and there were frantic shouts of, “Hurrah for Mandiboy!"
+    },
+    {
+      "id": "s81",
+      "text": "Hip, hip, hurrah!”"
+    },
+    {
+      "id": "s82",
+      "text": "It was a band of voters coming to the rescue of their allies, and taking the Camerfield forces in flank."
+    },
+    {
+      "id": "s83",
+      "text": "Mr."
+    },
+    {
+      "id": "s84",
+      "text": "Fogg, Aouda, and Fix found themselves between two fires; it was too late to escape."
+    },
+    {
+      "id": "s85",
+      "text": "The torrent of men, armed with loaded canes and sticks, was irresistible."
+    },
+    {
+      "id": "s86",
+      "text": "Phileas Fogg and Fix were roughly hustled in their attempts to protect their fair companion; the former, as cool as ever, tried to defend himself with the weapons which nature has placed at the end of every Englishman’s arm, but in vain."
+    },
+    {
+      "id": "s87",
+      "text": "A big brawny fellow with a red beard, flushed face, and broad shoulders, who seemed to be the chief of the band, raised his clenched fist to strike Mr."
+    },
+    {
+      "id": "s88",
+      "text": "Fogg, whom he would have given a crushing blow, had not Fix rushed in and received it in his stead."
+    },
+    {
+      "id": "s89",
+      "text": "An enormous bruise immediately made its appearance under the detective’s silk hat, which was completely smashed in."
+    },
+    {
+      "id": "s90",
+      "text": "“Yankee!” exclaimed Mr."
+    },
+    {
+      "id": "s91",
+      "text": "Fogg, darting a contemptuous look at the ruffian."
+    },
+    {
+      "id": "s92",
+      "text": "“Englishman!” returned the other."
+    },
+    {
+      "id": "s93",
+      "text": "“We will meet again!”"
+    },
+    {
+      "id": "s94",
+      "text": "“When you please.”"
+    },
+    {
+      "id": "s95",
+      "text": "“What is your name?”"
+    },
+    {
+      "id": "s96",
+      "text": "“Phileas Fogg."
+    },
+    {
+      "id": "s97",
+      "text": "And yours?”"
+    },
+    {
+      "id": "s98",
+      "text": "“Colonel Stamp Proctor.”"
+    },
+    {
+      "id": "s99",
+      "text": "The human tide now swept by, after overturning Fix, who speedily got upon his feet again, though with tattered clothes."
+    },
+    {
+      "id": "s100",
+      "text": "Happily, he was not seriously hurt."
+    },
+    {
+      "id": "s101",
+      "text": "His travelling overcoat was divided into two unequal parts, and his trousers resembled those of certain Indians, which fit less compactly than they are easy to put on."
+    },
+    {
+      "id": "s102",
+      "text": "Aouda had escaped unharmed, and Fix alone bore marks of the fray in his black and blue bruise."
+    },
+    {
+      "id": "s103",
+      "text": "“Thanks,” said Mr."
+    },
+    {
+      "id": "s104",
+      "text": "Fogg to the detective, as soon as they were out of the crowd."
+    },
+    {
+      "id": "s105",
+      "text": "“No thanks are necessary,” replied Fix; “but let us go.”"
+    },
+    {
+      "id": "s106",
+      "text": "“Where?”"
+    },
+    {
+      "id": "s107",
+      "text": "“To a tailor’s.”"
+    },
+    {
+      "id": "s108",
+      "text": "Such a visit was, indeed, opportune."
+    },
+    {
+      "id": "s109",
+      "text": "The clothing of both Mr."
+    },
+    {
+      "id": "s110",
+      "text": "Fogg and Fix was in rags, as if they had themselves been actively engaged in the contest between Camerfield and Mandiboy."
+    },
+    {
+      "id": "s111",
+      "text": "An hour after, they were once more suitably attired, and with Aouda returned to the International Hotel."
+    },
+    {
+      "id": "s112",
+      "text": "Passepartout was waiting for his master, armed with half a dozen six-barrelled revolvers."
+    },
+    {
+      "id": "s113",
+      "text": "When he perceived Fix, he knit his brows; but Aouda having, in a few words, told him of their adventure, his countenance resumed its placid expression."
+    },
+    {
+      "id": "s114",
+      "text": "Fix evidently was no longer an enemy, but an ally; he was faithfully keeping his word."
+    },
+    {
+      "id": "s115",
+      "text": "Dinner over, the coach which was to convey the passengers and their luggage to the station drew up to the door."
+    },
+    {
+      "id": "s116",
+      "text": "As he was getting in, Mr."
+    },
+    {
+      "id": "s117",
+      "text": "Fogg said to Fix, “You have not seen this Colonel Proctor again?”"
+    },
+    {
+      "id": "s118",
+      "text": "“No.”"
+    },
+    {
+      "id": "s119",
+      "text": "“I will come back to America to find him,” said Phileas Fogg calmly."
+    },
+    {
+      "id": "s120",
+      "text": "“It would not be right for an Englishman to permit himself to be treated in that way, without retaliating.”"
+    },
+    {
+      "id": "s121",
+      "text": "The detective smiled, but did not reply."
+    },
+    {
+      "id": "s122",
+      "text": "It was clear that Mr."
+    },
+    {
+      "id": "s123",
+      "text": "Fogg was one of those Englishmen who, while they do not tolerate duelling at home, fight abroad when their honour is attacked."
+    },
+    {
+      "id": "s124",
+      "text": "At a quarter before six the travellers reached the station, and found the train ready to depart."
+    },
+    {
+      "id": "s125",
+      "text": "As he was about to enter it, Mr."
+    },
+    {
+      "id": "s126",
+      "text": "Fogg called a porter, and said to him: “My friend, was there not some trouble to-day in San Francisco?”"
+    },
+    {
+      "id": "s127",
+      "text": "“It was a political meeting, sir,” replied the porter."
+    },
+    {
+      "id": "s128",
+      "text": "“But I thought there was a great deal of disturbance in the streets.”"
+    },
+    {
+      "id": "s129",
+      "text": "“It was only a meeting assembled for an election.”"
+    },
+    {
+      "id": "s130",
+      "text": "“The election of a general-in-chief, no doubt?” asked Mr."
+    },
+    {
+      "id": "s131",
+      "text": "Fogg."
+    },
+    {
+      "id": "s132",
+      "text": "“No, sir; of a justice of the peace.”"
+    },
+    {
+      "id": "s133",
+      "text": "Phileas Fogg got into the train, which started off at full speed."
+    }
+  ]
+}

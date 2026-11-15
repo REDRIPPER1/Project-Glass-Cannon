@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-23",
+  "chapterTitle": "CHAPTER XXIII.",
+  "contentHash": "sha256:eeb10113d38664d402e1414fabc028ee9cd804c70fb65ebf8c0c73b7f4cad5d6",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER XXIII.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE LEE SHORE."
+    },
+    {
+      "id": "s2",
+      "text": "Some chapters back, one Bulkington was spoken of, a tall, new-landed mariner, encountered in New Bedford at the inn."
+    },
+    {
+      "id": "s3",
+      "text": "When on that shivering winter’s night, the Pequod thrust her vindictive bows into the cold malicious waves, who should I see standing at her helm but Bulkington!"
+    },
+    {
+      "id": "s4",
+      "text": "I looked with sympathetic awe and fearfulness upon the man, who in midwinter just landed from a four years’ dangerous voyage, could so unrestingly push off again for still another tempestuous term."
+    },
+    {
+      "id": "s5",
+      "text": "The land seemed scorching to his feet."
+    },
+    {
+      "id": "s6",
+      "text": "Wonderfullest things are ever the unmentionable; deep memories yield no epitaphs; this six-inch chapter is the stoneless grave of Bulkington."
+    },
+    {
+      "id": "s7",
+      "text": "Let me only say that it fared with him as with the storm-tossed ship, that miserably drives along the leeward land."
+    },
+    {
+      "id": "s8",
+      "text": "The port would fain give succor; the port is pitiful; in the port is safety, comfort, hearthstone, supper, warm blankets, friends, all that’s kind to our mortalities."
+    },
+    {
+      "id": "s9",
+      "text": "But in that gale, the port, the land, is that ship’s direst jeopardy; she must fly all hospitality; one touch of land, though it but graze the keel, would make her shudder through and through."
+    },
+    {
+      "id": "s10",
+      "text": "With all her might she crowds all sail off shore; in so doing, fights ’gainst the very winds that fain would blow her homeward; seeks all the lashed sea’s landlessness again; for refuge’s sake forlornly rushing into peril; her only friend her bitterest foe!"
+    },
+    {
+      "id": "s11",
+      "text": "Know ye, now, Bulkington?"
+    },
+    {
+      "id": "s12",
+      "text": "Glimpses do ye seem to see of that mortally intolerable truth; that all deep, earnest thinking is but the intrepid effort of the soul to keep the open independence of her sea; while the wildest winds of heaven and earth conspire to cast her on the treacherous, slavish shore?"
+    },
+    {
+      "id": "s13",
+      "text": "But as in landlessness alone resides the highest truth, shoreless, indefinite as God—so, better is it to perish in that howling infinite, than be ingloriously dashed upon the lee, even if that were safety!"
+    },
+    {
+      "id": "s14",
+      "text": "For worm-like, then, oh! who would craven crawl to land!"
+    },
+    {
+      "id": "s15",
+      "text": "Terrors of the terrible! is all this agony so vain?"
+    },
+    {
+      "id": "s16",
+      "text": "Take heart, take heart, O Bulkington!"
+    },
+    {
+      "id": "s17",
+      "text": "Bear thee grimly, demigod!"
+    },
+    {
+      "id": "s18",
+      "text": "Up from the spray of thy ocean-perishing—straight up, leaps thy apotheosis!"
+    }
+  ]
+}

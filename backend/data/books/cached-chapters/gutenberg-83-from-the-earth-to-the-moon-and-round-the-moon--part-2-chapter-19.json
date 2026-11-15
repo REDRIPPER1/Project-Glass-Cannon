@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-19",
+  "chapterTitle": "Part 2 — CHAPTER XIX.",
+  "contentHash": "sha256:d95626c1d8a8119920134379bf9bec360218ada586266e9edd93f98a4a131ae3",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, Part 2 — CHAPTER XIX.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A STRUGGLE AGAINST THE IMPOSSIBLE"
+    },
+    {
+      "id": "s2",
+      "text": "For a long time Barbicane and his companions looked silently and sadly upon that world which they had only seen from a distance, as Moses saw the land of Canaan, and which they were leaving without a possibility of ever returning to it."
+    },
+    {
+      "id": "s3",
+      "text": "The projectile’s position with regard to the moon had altered, and the base was now turned to the earth."
+    },
+    {
+      "id": "s4",
+      "text": "This change, which Barbicane verified, did not fail to surprise them."
+    },
+    {
+      "id": "s5",
+      "text": "If the projectile was to gravitate round the satellite in an elliptical orbit, why was not its heaviest part turned toward it, as the moon turns hers to the earth?"
+    },
+    {
+      "id": "s6",
+      "text": "That was a difficult point."
+    },
+    {
+      "id": "s7",
+      "text": "In watching the course of the projectile they could see that on leaving the moon it followed a course analogous to that traced in approaching her."
+    },
+    {
+      "id": "s8",
+      "text": "It was describing a very long ellipse, which would most likely extend to the point of equal attraction, where the influences of the earth and its satellite are neutralized."
+    },
+    {
+      "id": "s9",
+      "text": "Such was the conclusion which Barbicane very justly drew from facts already observed, a conviction which his two friends shared with him."
+    },
+    {
+      "id": "s10",
+      "text": "“And when arrived at this dead point, what will become of us?” asked Michel Ardan."
+    },
+    {
+      "id": "s11",
+      "text": "“We don’t know,” replied Barbicane."
+    },
+    {
+      "id": "s12",
+      "text": "“But one can draw some hypotheses, I suppose?”"
+    },
+    {
+      "id": "s13",
+      "text": "“Two,” answered Barbicane; “either the projectile’s speed will be insufficient, and it will remain forever immovable on this line of double attraction—”"
+    },
+    {
+      "id": "s14",
+      "text": "“I prefer the other hypothesis, whatever it may be,” interrupted Michel."
+    },
+    {
+      "id": "s15",
+      "text": "“Or,” continued Barbicane, “its speed will be sufficient, and it will continue its elliptical course, to gravitate forever around the orb of night.”"
+    },
+    {
+      "id": "s16",
+      "text": "“A revolution not at all consoling,” said Michel, “to pass to the state of humble servants to a moon whom we are accustomed to look upon as our own handmaid."
+    },
+    {
+      "id": "s17",
+      "text": "So that is the fate in store for us?”"
+    },
+    {
+      "id": "s18",
+      "text": "Neither Barbicane nor Nicholl answered."
+    },
+    {
+      "id": "s19",
+      "text": "“You do not answer,” continued Michel impatiently."
+    },
+    {
+      "id": "s20",
+      "text": "“There is nothing to answer,” said Nicholl."
+    },
+    {
+      "id": "s21",
+      "text": "“Is there nothing to try?”"
+    },
+    {
+      "id": "s22",
+      "text": "“No,” answered Barbicane."
+    },
+    {
+      "id": "s23",
+      "text": "“Do you pretend to fight against the impossible?”"
+    },
+    {
+      "id": "s24",
+      "text": "“Why not?"
+    },
+    {
+      "id": "s25",
+      "text": "Do one Frenchman and two Americans shrink from such a word?”"
+    },
+    {
+      "id": "s26",
+      "text": "“But what would you do?”"
+    },
+    {
+      "id": "s27",
+      "text": "“Subdue this motion which is bearing us away.”"
+    },
+    {
+      "id": "s28",
+      "text": "“Subdue it?”"
+    },
+    {
+      "id": "s29",
+      "text": "“Yes,” continued Michel, getting animated, “or else alter it, and employ it to the accomplishment of our own ends.”"
+    },
+    {
+      "id": "s30",
+      "text": "“And how?”"
+    },
+    {
+      "id": "s31",
+      "text": "“That is your affair."
+    },
+    {
+      "id": "s32",
+      "text": "If artillerymen are not masters of their projectile they are not artillerymen."
+    },
+    {
+      "id": "s33",
+      "text": "If the projectile is to command the gunner, we had better ram the gunner into the gun."
+    },
+    {
+      "id": "s34",
+      "text": "My faith! fine savants! who do not know what is to become of us after inducing me—”"
+    },
+    {
+      "id": "s35",
+      "text": "“Inducing you!” cried Barbicane and Nicholl."
+    },
+    {
+      "id": "s36",
+      "text": "“Inducing you!"
+    },
+    {
+      "id": "s37",
+      "text": "What do you mean by that?”"
+    },
+    {
+      "id": "s38",
+      "text": "“No recrimination,” said Michel."
+    },
+    {
+      "id": "s39",
+      "text": "“I do not complain, the trip has pleased me, and the projectile agrees with me; but let us do all that is humanly possible to do the fall somewhere, even if only on the moon.”"
+    },
+    {
+      "id": "s40",
+      "text": "“We ask no better, my worthy Michel,” replied Barbicane, “but means fail us.”"
+    },
+    {
+      "id": "s41",
+      "text": "“We cannot alter the motion of the projectile?”"
+    },
+    {
+      "id": "s42",
+      "text": "“No.”"
+    },
+    {
+      "id": "s43",
+      "text": "“Nor diminish its speed?”"
+    },
+    {
+      "id": "s44",
+      "text": "“No.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Not even by lightening it, as they lighten an overloaded vessel?”"
+    },
+    {
+      "id": "s46",
+      "text": "“What would you throw out?” said Nicholl."
+    },
+    {
+      "id": "s47",
+      "text": "“We have no ballast on board; and indeed it seems to me that if lightened it would go much quicker.”"
+    },
+    {
+      "id": "s48",
+      "text": "“Slower.”"
+    },
+    {
+      "id": "s49",
+      "text": "“Quicker.”"
+    },
+    {
+      "id": "s50",
+      "text": "“Neither slower nor quicker,” said Barbicane, wishing to make his two friends agree; “for we float is space, and must no longer consider specific weight.”"
+    },
+    {
+      "id": "s51",
+      "text": "“Very well,” cried Michel Ardan in a decided voice; “then their remains but one thing to do.”"
+    },
+    {
+      "id": "s52",
+      "text": "“What is it?” asked Nicholl."
+    },
+    {
+      "id": "s53",
+      "text": "“Breakfast,” answered the cool, audacious Frenchman, who always brought up this solution at the most difficult juncture."
+    },
+    {
+      "id": "s54",
+      "text": "In any case, if this operation had no influence on the projectile’s course, it could at least be tried without inconvenience, and even with success from a stomachic point of view."
+    },
+    {
+      "id": "s55",
+      "text": "Certainly Michel had none but good ideas."
+    },
+    {
+      "id": "s56",
+      "text": "They breakfasted then at two in the morning; the hour mattered little."
+    },
+    {
+      "id": "s57",
+      "text": "Michel served his usual repast, crowned by a glorious bottle drawn from his private cellar."
+    },
+    {
+      "id": "s58",
+      "text": "If ideas did not crowd on their brains, we must despair of the Chambertin of 1853."
+    },
+    {
+      "id": "s59",
+      "text": "The repast finished, observation began again."
+    },
+    {
+      "id": "s60",
+      "text": "Around the projectile, at an invariable distance, were the objects which had been thrown out."
+    },
+    {
+      "id": "s61",
+      "text": "Evidently, in its translatory motion round the moon, it had not passed through any atmosphere, for the specific weight of these different objects would have checked their relative speed."
+    },
+    {
+      "id": "s62",
+      "text": "On the side of the terrestrial sphere nothing was to be seen."
+    },
+    {
+      "id": "s63",
+      "text": "The earth was but a day old, having been new the night before at twelve; and two days must elapse before its crescent, freed from the solar rays, would serve as a clock to the Selenites, as in its rotary movement each of its points after twenty-four hours repasses the same lunar meridian."
+    },
+    {
+      "id": "s64",
+      "text": "On the moon’s side the sight was different; the orb shone in all her splendor amid innumerable constellations, whose purity could not be troubled by her rays."
+    },
+    {
+      "id": "s65",
+      "text": "On the disc, the plains were already returning to the dark tint which is seen from the earth."
+    },
+    {
+      "id": "s66",
+      "text": "The other part of the nimbus remained brilliant, and in the midst of this general brilliancy Tycho shone prominently like a sun."
+    },
+    {
+      "id": "s67",
+      "text": "Barbicane had no means of estimating the projectile’s speed, but reasoning showed that it must uniformly decrease, according to the laws of mechanical reasoning."
+    },
+    {
+      "id": "s68",
+      "text": "Having admitted that the projectile was describing an orbit around the moon, this orbit must necessarily be elliptical; science proves that it must be so."
+    },
+    {
+      "id": "s69",
+      "text": "No motive body circulating round an attracting body fails in this law."
+    },
+    {
+      "id": "s70",
+      "text": "Every orbit described in space is elliptical."
+    },
+    {
+      "id": "s71",
+      "text": "And why should the projectile of the Gun Club escape this natural arrangement?"
+    },
+    {
+      "id": "s72",
+      "text": "In elliptical orbits, the attracting body always occupies one of the foci; so that at one moment the satellite is nearer, and at another farther from the orb around which it gravitates."
+    },
+    {
+      "id": "s73",
+      "text": "When the earth is nearest the sun she is in her perihelion; and in her aphelion at the farthest point."
+    },
+    {
+      "id": "s74",
+      "text": "Speaking of the moon, she is nearest to the earth in her perigee, and farthest from it in her apogee."
+    },
+    {
+      "id": "s75",
+      "text": "To use analogous expressions, with which the astronomers’ language is enriched, if the projectile remains as a satellite of the moon, we must say that it is in its “aposelene” at its farthest point, and in its “periselene” at its nearest."
+    },
+    {
+      "id": "s76",
+      "text": "In the latter case, the projectile would attain its maximum of speed; and in the former its minimum."
+    },
+    {
+      "id": "s77",
+      "text": "It was evidently moving toward its aposelenitical point; and Barbicane had reason to think that its speed would decrease up to this point, and then increase by degrees as it neared the moon."
+    },
+    {
+      "id": "s78",
+      "text": "This speed would even become _nil_, if this point joined that of equal attraction."
+    },
+    {
+      "id": "s79",
+      "text": "Barbicane studied the consequences of these different situations, and thinking what inference he could draw from them, when he was roughly disturbed by a cry from Michel Ardan."
+    },
+    {
+      "id": "s80",
+      "text": "“By Jove!” he exclaimed, “I must admit we are down-right simpletons!”"
+    },
+    {
+      "id": "s81",
+      "text": "“I do not say we are not,” replied Barbicane; “but why?”"
+    },
+    {
+      "id": "s82",
+      "text": "“Because we have a very simple means of checking this speed which is bearing us from the moon, and we do not use it!”"
+    },
+    {
+      "id": "s83",
+      "text": "“And what is the means?”"
+    },
+    {
+      "id": "s84",
+      "text": "“To use the recoil contained in our rockets.”"
+    },
+    {
+      "id": "s85",
+      "text": "“Done!” said Nicholl."
+    },
+    {
+      "id": "s86",
+      "text": "“We have not used this force yet,” said Barbicane, “it is true, but we will do so.”"
+    },
+    {
+      "id": "s87",
+      "text": "“When?” asked Michel."
+    },
+    {
+      "id": "s88",
+      "text": "“When the time comes."
+    },
+    {
+      "id": "s89",
+      "text": "Observe, my friends, that in the position occupied by the projectile, an oblique position with regard to the lunar disc, our rockets, in slightly altering its direction, might turn it from the moon instead of drawing it nearer?”"
+    },
+    {
+      "id": "s90",
+      "text": "“Just so,” replied Michel."
+    },
+    {
+      "id": "s91",
+      "text": "“Let us wait, then."
+    },
+    {
+      "id": "s92",
+      "text": "By some inexplicable influence, the projectile is turning its base toward the earth."
+    },
+    {
+      "id": "s93",
+      "text": "It is probable that at the point of equal attraction, its conical cap will be directed rigidly toward the moon; at that moment we may hope that its speed will be _nil_; then will be the moment to act, and with the influence of our rockets we may perhaps provoke a fall directly on the surface of the lunar disc.”"
+    },
+    {
+      "id": "s94",
+      "text": "“Bravo!” said Michel."
+    },
+    {
+      "id": "s95",
+      "text": "“What we did not do, what we could not do on our first passage at the dead point, because the projectile was then endowed with too great a speed.”"
+    },
+    {
+      "id": "s96",
+      "text": "“Very well reasoned,” said Nicholl."
+    },
+    {
+      "id": "s97",
+      "text": "“Let us wait patiently,” continued Barbicane."
+    },
+    {
+      "id": "s98",
+      "text": "“Putting every chance on our side, and after having so much despaired, I may say I think we shall gain our end.”"
+    },
+    {
+      "id": "s99",
+      "text": "This conclusion was a signal for Michel Ardan’s hips and hurrahs."
+    },
+    {
+      "id": "s100",
+      "text": "And none of the audacious boobies remembered the question that they themselves had solved in the negative."
+    },
+    {
+      "id": "s101",
+      "text": "No! the moon is not inhabited; no! the moon is probably not habitable."
+    },
+    {
+      "id": "s102",
+      "text": "And yet they were going to try everything to reach her."
+    },
+    {
+      "id": "s103",
+      "text": "One single question remained to be solved."
+    },
+    {
+      "id": "s104",
+      "text": "At what precise moment the projectile would reach the point of equal attraction, on which the travelers must play their last card."
+    },
+    {
+      "id": "s105",
+      "text": "In order to calculate this to within a few seconds, Barbicane had only to refer to his notes, and to reckon the different heights taken on the lunar parallels."
+    },
+    {
+      "id": "s106",
+      "text": "Thus the time necessary to travel over the distance between the dead point and the south pole would be equal to the distance separating the north pole from the dead point."
+    },
+    {
+      "id": "s107",
+      "text": "The hours representing the time traveled over were carefully noted, and the calculation was easy."
+    },
+    {
+      "id": "s108",
+      "text": "Barbicane found that this point would be reached at one in the morning on the night of the 7th-8th of December."
+    },
+    {
+      "id": "s109",
+      "text": "So that, if nothing interfered with its course, it would reach the given point in twenty-two hours."
+    },
+    {
+      "id": "s110",
+      "text": "The rockets had primarily been placed to check the fall of the projectile upon the moon, and now they were going to employ them for a directly contrary purpose."
+    },
+    {
+      "id": "s111",
+      "text": "In any case they were ready, and they had only to wait for the moment to set fire to them."
+    },
+    {
+      "id": "s112",
+      "text": "“Since there is nothing else to be done,” said Nicholl, “I make a proposition.”"
+    },
+    {
+      "id": "s113",
+      "text": "“What is it?” asked Barbicane."
+    },
+    {
+      "id": "s114",
+      "text": "“I propose to go to sleep.”"
+    },
+    {
+      "id": "s115",
+      "text": "“What a motion!” exclaimed Michel Ardan."
+    },
+    {
+      "id": "s116",
+      "text": "“It is forty hours since we closed our eyes,” said Nicholl."
+    },
+    {
+      "id": "s117",
+      "text": "“Some hours of sleep will restore our strength.”"
+    },
+    {
+      "id": "s118",
+      "text": "“Never,” interrupted Michel."
+    },
+    {
+      "id": "s119",
+      "text": "“Well,” continued Nicholl, “every one to his taste; I shall go to sleep.” And stretching himself on the divan, he soon snored like a forty-eight pounder."
+    },
+    {
+      "id": "s120",
+      "text": "“That Nicholl has a good deal of sense,” said Barbicane; “presently I shall follow his example.” Some moments after his continued bass supported the captain’s baritone."
+    },
+    {
+      "id": "s121",
+      "text": "“Certainly,” said Michel Ardan, finding himself alone, “these practical people have sometimes most opportune ideas.”"
+    },
+    {
+      "id": "s122",
+      "text": "And with his long legs stretched out, and his great arms folded under his head, Michel slept in his turn."
+    },
+    {
+      "id": "s123",
+      "text": "But this sleep could be neither peaceful nor lasting, the minds of these three men were too much occupied, and some hours after, about seven in the morning, all three were on foot at the same instant."
+    },
+    {
+      "id": "s124",
+      "text": "The projectile was still leaving the moon, and turning its conical part more and more toward her."
+    },
+    {
+      "id": "s125",
+      "text": "An explicable phenomenon, but one which happily served Barbicane’s ends."
+    },
+    {
+      "id": "s126",
+      "text": "Seventeen hours more, and the moment for action would have arrived."
+    },
+    {
+      "id": "s127",
+      "text": "The day seemed long."
+    },
+    {
+      "id": "s128",
+      "text": "However bold the travelers might be, they were greatly impressed by the approach of that moment which would decide all—either precipitate their fall on to the moon, or forever chain them in an immutable orbit."
+    },
+    {
+      "id": "s129",
+      "text": "They counted the hours as they passed too slow for their wish; Barbicane and Nicholl were obstinately plunged in their calculations, Michel going and coming between the narrow walls, and watching that impassive moon with a longing eye."
+    },
+    {
+      "id": "s130",
+      "text": "At times recollections of the earth crossed their minds."
+    },
+    {
+      "id": "s131",
+      "text": "They saw once more their friends of the Gun Club, and the dearest of all, J."
+    },
+    {
+      "id": "s132",
+      "text": "T."
+    },
+    {
+      "id": "s133",
+      "text": "Maston."
+    },
+    {
+      "id": "s134",
+      "text": "At that moment, the honorable secretary must be filling his post on the Rocky Mountains."
+    },
+    {
+      "id": "s135",
+      "text": "If he could see the projectile through the glass of his gigantic telescope, what would he think?"
+    },
+    {
+      "id": "s136",
+      "text": "After seeing it disappear behind the moon’s south pole, he would see them reappear by the north pole!"
+    },
+    {
+      "id": "s137",
+      "text": "They must therefore be a satellite of a satellite!"
+    },
+    {
+      "id": "s138",
+      "text": "Had J."
+    },
+    {
+      "id": "s139",
+      "text": "T."
+    },
+    {
+      "id": "s140",
+      "text": "Maston given this unexpected news to the world?"
+    },
+    {
+      "id": "s141",
+      "text": "Was this the _denouement_ of this great enterprise?"
+    },
+    {
+      "id": "s142",
+      "text": "But the day passed without incident."
+    },
+    {
+      "id": "s143",
+      "text": "The terrestrial midnight arrived."
+    },
+    {
+      "id": "s144",
+      "text": "The 8th of December was beginning."
+    },
+    {
+      "id": "s145",
+      "text": "One hour more, and the point of equal attraction would be reached."
+    },
+    {
+      "id": "s146",
+      "text": "What speed would then animate the projectile?"
+    },
+    {
+      "id": "s147",
+      "text": "They could not estimate it."
+    },
+    {
+      "id": "s148",
+      "text": "But no error could vitiate Barbicane’s calculations."
+    },
+    {
+      "id": "s149",
+      "text": "At one in the morning this speed ought to be and would be _nil_."
+    },
+    {
+      "id": "s150",
+      "text": "Besides, another phenomenon would mark the projectile’s stopping-point on the neutral line."
+    },
+    {
+      "id": "s151",
+      "text": "At that spot the two attractions, lunar and terrestrial, would be annulled."
+    },
+    {
+      "id": "s152",
+      "text": "Objects would “weigh” no more."
+    },
+    {
+      "id": "s153",
+      "text": "This singular fact, which had surprised Barbicane and his companions so much in going, would be repeated on their return under the very same conditions."
+    },
+    {
+      "id": "s154",
+      "text": "At this precise moment they must act."
+    },
+    {
+      "id": "s155",
+      "text": "Already the projectile’s conical top was sensibly turned toward the lunar disc, presented in such a way as to utilize the whole of the recoil produced by the pressure of the rocket apparatus."
+    },
+    {
+      "id": "s156",
+      "text": "The chances were in favor of the travelers."
+    },
+    {
+      "id": "s157",
+      "text": "If its speed was utterly annulled on this dead point, a decided movement toward the moon would suffice, however slight, to determine its fall."
+    },
+    {
+      "id": "s158",
+      "text": "“Five minutes to one,” said Nicholl."
+    },
+    {
+      "id": "s159",
+      "text": "“All is ready,” replied Michel Ardan, directing a lighted match to the flame of the gas."
+    },
+    {
+      "id": "s160",
+      "text": "“Wait!” said Barbicane, holding his chronometer in his hand."
+    },
+    {
+      "id": "s161",
+      "text": "At that moment weight had no effect."
+    },
+    {
+      "id": "s162",
+      "text": "The travelers felt in themselves the entire disappearance of it."
+    },
+    {
+      "id": "s163",
+      "text": "They were very near the neutral point, if they did not touch it."
+    },
+    {
+      "id": "s164",
+      "text": "“One o’clock,” said Barbicane."
+    },
+    {
+      "id": "s165",
+      "text": "Michel Ardan applied the lighted match to a train in communication with the rockets."
+    },
+    {
+      "id": "s166",
+      "text": "No detonation was heard in the inside, for there was no air."
+    },
+    {
+      "id": "s167",
+      "text": "But, through the scuttles, Barbicane saw a prolonged smoke, the flames of which were immediately extinguished."
+    },
+    {
+      "id": "s168",
+      "text": "The projectile sustained a certain shock, which was sensibly felt in the interior."
+    },
+    {
+      "id": "s169",
+      "text": "The three friends looked and listened without speaking, and scarcely breathing."
+    },
+    {
+      "id": "s170",
+      "text": "One might have heard the beating of their hearts amid this perfect silence."
+    },
+    {
+      "id": "s171",
+      "text": "“Are we falling?” asked Michel Ardan, at length."
+    },
+    {
+      "id": "s172",
+      "text": "“No,” said Nicholl, “since the bottom of the projectile is not turning to the lunar disc!”"
+    },
+    {
+      "id": "s173",
+      "text": "At this moment, Barbicane, quitting his scuttle, turned to his two companions."
+    },
+    {
+      "id": "s174",
+      "text": "He was frightfully pale, his forehead wrinkled, and his lips contracted."
+    },
+    {
+      "id": "s175",
+      "text": "“We are falling!” said he."
+    },
+    {
+      "id": "s176",
+      "text": "“Ah!” cried Michel Ardan, “on to the moon?”"
+    },
+    {
+      "id": "s177",
+      "text": "“On to the earth!”"
+    },
+    {
+      "id": "s178",
+      "text": "“The devil!” exclaimed Michel Ardan, adding philosophically, “well, when we came into this projectile we were very doubtful as to the ease with which we should get out of it!”"
+    },
+    {
+      "id": "s179",
+      "text": "And now this fearful fall had begun."
+    },
+    {
+      "id": "s180",
+      "text": "The speed retained had borne the projectile beyond the dead point."
+    },
+    {
+      "id": "s181",
+      "text": "The explosion of the rockets could not divert its course."
+    },
+    {
+      "id": "s182",
+      "text": "This speed in going had carried it over the neutral line, and in returning had done the same thing."
+    },
+    {
+      "id": "s183",
+      "text": "The laws of physics condemned it _to pass through every point which it had already gone through_."
+    },
+    {
+      "id": "s184",
+      "text": "It was a terrible fall, from a height of 160,000 miles, and no springs to break it."
+    },
+    {
+      "id": "s185",
+      "text": "According to the laws of gunnery, the projectile must strike the earth with a speed equal to that with which it left the mouth of the Columbiad, a speed of 16,000 yards in the last second."
+    },
+    {
+      "id": "s186",
+      "text": "But to give some figures of comparison, it has been reckoned that an object thrown from the top of the towers of Notre Dame, the height of which is only 200 feet, will arrive on the pavement at a speed of 240 miles per hour."
+    },
+    {
+      "id": "s187",
+      "text": "Here the projectile must strike the earth with a speed of 115,200 miles per hour."
+    },
+    {
+      "id": "s188",
+      "text": "“We are lost!” said Michel coolly."
+    },
+    {
+      "id": "s189",
+      "text": "“Very well! if we die,” answered Barbicane, with a sort of religious enthusiasm, “the results of our travels will be magnificently spread."
+    },
+    {
+      "id": "s190",
+      "text": "It is His own secret that God will tell us!"
+    },
+    {
+      "id": "s191",
+      "text": "In the other life the soul will want to know nothing, either of machines or engines!"
+    },
+    {
+      "id": "s192",
+      "text": "It will be identified with eternal wisdom!”"
+    },
+    {
+      "id": "s193",
+      "text": "“In fact,” interrupted Michel Ardan, “the whole of the other world may well console us for the loss of that inferior orb called the moon!”"
+    },
+    {
+      "id": "s194",
+      "text": "Barbicane crossed his arms on his breast, with a motion of sublime resignation, saying at the same time:"
+    },
+    {
+      "id": "s195",
+      "text": "“The will of heaven be done!”"
+    }
+  ]
+}

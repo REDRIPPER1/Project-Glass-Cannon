@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-225-at-the-back-of-the-north-wind",
+  "ebookId": "225",
+  "edition": "Project Gutenberg eBook #225; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-26",
+  "chapterTitle": "CHAPTER XXVI. DIAMOND TAKES A FARE THE WRONG WAY RIGHT",
+  "contentHash": "sha256:60c81454a2e273240bbe26f93f2d23fe831ab12db96555e99b83b9c866318d6b",
+  "attribution": "MacDonald, George, 1824-1905, At the Back of the North Wind, CHAPTER XXVI. DIAMOND TAKES A FARE THE WRONG WAY RIGHT. Source checked against Project Gutenberg eBook #225.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/225",
+    "textUrl": "https://www.gutenberg.org/cache/epub/225/pg225.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE next morning Diamond was up almost as early as before."
+    },
+    {
+      "id": "s2",
+      "text": "He had nothing to fear from his mother now, and made no secret of what he was about."
+    },
+    {
+      "id": "s3",
+      "text": "By the time he reached the stable, several of the men were there."
+    },
+    {
+      "id": "s4",
+      "text": "They asked him a good many questions as to his luck the day before, and he told them all they wanted to know."
+    },
+    {
+      "id": "s5",
+      "text": "But when he proceeded to harness the old horse, they pushed him aside with rough kindness, called him a baby, and began to do it all for him."
+    },
+    {
+      "id": "s6",
+      "text": "So Diamond ran in and had another mouthful of tea and bread and butter; and although he had never been so tired as he was the night before, he started quite fresh this morning."
+    },
+    {
+      "id": "s7",
+      "text": "It was a cloudy day, and the wind blew hard from the north--so hard sometimes that, perched on the box with just his toes touching the ground, Diamond wished that he had some kind of strap to fasten himself down with lest he should be blown away."
+    },
+    {
+      "id": "s8",
+      "text": "But he did not really mind it."
+    },
+    {
+      "id": "s9",
+      "text": "His head was full of the dream he had dreamed; but it did not make him neglect his work, for his work was not to dig stars but to drive old Diamond and pick up fares."
+    },
+    {
+      "id": "s10",
+      "text": "There are not many people who can think about beautiful things and do common work at the same time."
+    },
+    {
+      "id": "s11",
+      "text": "But then there are not many people who have been to the back of the north wind."
+    },
+    {
+      "id": "s12",
+      "text": "There was not much business doing."
+    },
+    {
+      "id": "s13",
+      "text": "And Diamond felt rather cold, notwithstanding his mother had herself put on his comforter and helped him with his greatcoat."
+    },
+    {
+      "id": "s14",
+      "text": "But he was too well aware of his dignity to get inside his cab as some do."
+    },
+    {
+      "id": "s15",
+      "text": "A cabman ought to be above minding the weather--at least so Diamond thought."
+    },
+    {
+      "id": "s16",
+      "text": "At length he was called to a neighbouring house, where a young woman with a heavy box had to be taken to Wapping for a coast-steamer."
+    },
+    {
+      "id": "s17",
+      "text": "He did not find it at all pleasant, so far east and so near the river; for the roughs were in great force."
+    },
+    {
+      "id": "s18",
+      "text": "However, there being no block, not even in Nightingale Lane, he reached the entrance of the wharf, and set down his passenger without annoyance."
+    },
+    {
+      "id": "s19",
+      "text": "But as he turned to go back, some idlers, not content with chaffing him, showed a mind to the fare the young woman had given him."
+    },
+    {
+      "id": "s20",
+      "text": "They were just pulling him off the box, and Diamond was shouting for the police, when a pale-faced man, in very shabby clothes, but with the look of a gentleman somewhere about him, came up, and making good use of his stick, drove them off."
+    },
+    {
+      "id": "s21",
+      "text": "“Now, my little man,” he said, “get on while you can."
+    },
+    {
+      "id": "s22",
+      "text": "Don't lose any time."
+    },
+    {
+      "id": "s23",
+      "text": "This is not a place for you.”"
+    },
+    {
+      "id": "s24",
+      "text": "But Diamond was not in the habit of thinking only of himself."
+    },
+    {
+      "id": "s25",
+      "text": "He saw that his new friend looked weary, if not ill, and very poor."
+    },
+    {
+      "id": "s26",
+      "text": "“Won't you jump in, sir?” he said."
+    },
+    {
+      "id": "s27",
+      "text": "“I will take you wherever you like.”"
+    },
+    {
+      "id": "s28",
+      "text": "“Thank you, my man; but I have no money; so I can't.”"
+    },
+    {
+      "id": "s29",
+      "text": "“Oh!"
+    },
+    {
+      "id": "s30",
+      "text": "I don't want any money."
+    },
+    {
+      "id": "s31",
+      "text": "I shall be much happier if you will get in."
+    },
+    {
+      "id": "s32",
+      "text": "You have saved me all I had."
+    },
+    {
+      "id": "s33",
+      "text": "I owe you a lift, sir.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Which way are you going?”"
+    },
+    {
+      "id": "s35",
+      "text": "“To Charing Cross; but I don't mind where I go.”"
+    },
+    {
+      "id": "s36",
+      "text": "“Well, I am very tired."
+    },
+    {
+      "id": "s37",
+      "text": "If you will take me to Charing Cross, I shall be greatly obliged to you."
+    },
+    {
+      "id": "s38",
+      "text": "I have walked from Gravesend, and had hardly a penny left to get through the tunnel.”"
+    },
+    {
+      "id": "s39",
+      "text": "So saying, he opened the door and got in, and Diamond drove away."
+    },
+    {
+      "id": "s40",
+      "text": "But as he drove, he could not help fancying he had seen the gentleman--for Diamond knew he was a gentleman--before."
+    },
+    {
+      "id": "s41",
+      "text": "Do all he could, however, he could not recall where or when."
+    },
+    {
+      "id": "s42",
+      "text": "Meantime his fare, if we may call him such, seeing he was to pay nothing, whom the relief of being carried had made less and less inclined to carry himself, had been turning over things in his mind, and, as they passed the Mint, called to Diamond, who stopped the horse, got down and went to the window."
+    },
+    {
+      "id": "s43",
+      "text": "“If you didn't mind taking me to Chiswick, I should be able to pay you when we got there."
+    },
+    {
+      "id": "s44",
+      "text": "It's a long way, but you shall have the whole fare from the Docks--and something over.”"
+    },
+    {
+      "id": "s45",
+      "text": "“Very well, sir” said Diamond."
+    },
+    {
+      "id": "s46",
+      "text": "“I shall be most happy.”"
+    },
+    {
+      "id": "s47",
+      "text": "He was just clambering up again, when the gentleman put his head out of the window and said--"
+    },
+    {
+      "id": "s48",
+      "text": "“It's The Wilderness--Mr."
+    },
+    {
+      "id": "s49",
+      "text": "Coleman's place; but I'll direct you when we come into the neighbourhood.”"
+    },
+    {
+      "id": "s50",
+      "text": "It flashed upon Diamond who he was."
+    },
+    {
+      "id": "s51",
+      "text": "But he got upon his box to arrange his thoughts before making any reply."
+    },
+    {
+      "id": "s52",
+      "text": "The gentleman was Mr."
+    },
+    {
+      "id": "s53",
+      "text": "Evans, to whom Miss Coleman was to have been married, and Diamond had seen him several times with her in the garden."
+    },
+    {
+      "id": "s54",
+      "text": "I have said that he had not behaved very well to Miss Coleman."
+    },
+    {
+      "id": "s55",
+      "text": "He had put off their marriage more than once in a cowardly fashion, merely because he was ashamed to marry upon a small income, and live in a humble way."
+    },
+    {
+      "id": "s56",
+      "text": "When a man thinks of what people will say in such a case, he may love, but his love is but a poor affair."
+    },
+    {
+      "id": "s57",
+      "text": "Mr."
+    },
+    {
+      "id": "s58",
+      "text": "Coleman took him into the firm as a junior partner, and it was in a measure through his influence that he entered upon those speculations which ruined him."
+    },
+    {
+      "id": "s59",
+      "text": "So his love had not been a blessing."
+    },
+    {
+      "id": "s60",
+      "text": "The ship which North Wind had sunk was their last venture, and Mr."
+    },
+    {
+      "id": "s61",
+      "text": "Evans had gone out with it in the hope of turning its cargo to the best advantage."
+    },
+    {
+      "id": "s62",
+      "text": "He was one of the single boat-load which managed to reach a desert island, and he had gone through a great many hardships and sufferings since then."
+    },
+    {
+      "id": "s63",
+      "text": "But he was not past being taught, and his troubles had done him no end of good, for they had made him doubt himself, and begin to think, so that he had come to see that he had been foolish as well as wicked."
+    },
+    {
+      "id": "s64",
+      "text": "For, if he had had Miss Coleman with him in the desert island, to build her a hut, and hunt for her food, and make clothes for her, he would have thought himself the most fortunate of men; and when he was at home, he would not marry till he could afford a man-servant."
+    },
+    {
+      "id": "s65",
+      "text": "Before he got home again, he had even begun to understand that no man can make haste to be rich without going against the will of God, in which case it is the one frightful thing to be successful."
+    },
+    {
+      "id": "s66",
+      "text": "So he had come back a more humble man, and longing to ask Miss Coleman to forgive him."
+    },
+    {
+      "id": "s67",
+      "text": "But he had no idea what ruin had fallen upon them, for he had never made himself thoroughly acquainted with the firm's affairs."
+    },
+    {
+      "id": "s68",
+      "text": "Few speculative people do know their own affairs."
+    },
+    {
+      "id": "s69",
+      "text": "Hence he never doubted he should find matters much as he left them, and expected to see them all at The Wilderness as before."
+    },
+    {
+      "id": "s70",
+      "text": "But if he had not fallen in with Diamond, he would not have thought of going there first."
+    },
+    {
+      "id": "s71",
+      "text": "What was Diamond to do?"
+    },
+    {
+      "id": "s72",
+      "text": "He had heard his father and mother drop some remarks concerning Mr."
+    },
+    {
+      "id": "s73",
+      "text": "Evans which made him doubtful of him."
+    },
+    {
+      "id": "s74",
+      "text": "He understood that he had not been so considerate as he might have been."
+    },
+    {
+      "id": "s75",
+      "text": "So he went rather slowly till he should make up his mind."
+    },
+    {
+      "id": "s76",
+      "text": "It was, of course, of no use to drive Mr."
+    },
+    {
+      "id": "s77",
+      "text": "Evans to Chiswick."
+    },
+    {
+      "id": "s78",
+      "text": "But if he should tell him what had befallen them, and where they lived now, he might put off going to see them, and he was certain that Miss Coleman, at least, must want very much to see Mr."
+    },
+    {
+      "id": "s79",
+      "text": "Evans."
+    },
+    {
+      "id": "s80",
+      "text": "He was pretty sure also that the best thing in any case was to bring them together, and let them set matters right for themselves."
+    },
+    {
+      "id": "s81",
+      "text": "The moment he came to this conclusion, he changed his course from westward to northward, and went straight for Mr."
+    },
+    {
+      "id": "s82",
+      "text": "Coleman's poor little house in Hoxton."
+    },
+    {
+      "id": "s83",
+      "text": "Mr."
+    },
+    {
+      "id": "s84",
+      "text": "Evans was too tired and too much occupied with his thoughts to take the least notice of the streets they passed through, and had no suspicion, therefore, of the change of direction."
+    },
+    {
+      "id": "s85",
+      "text": "By this time the wind had increased almost to a hurricane, and as they had often to head it, it was no joke for either of the Diamonds."
+    },
+    {
+      "id": "s86",
+      "text": "The distance, however, was not great."
+    },
+    {
+      "id": "s87",
+      "text": "Before they reached the street where Mr."
+    },
+    {
+      "id": "s88",
+      "text": "Coleman lived it blew so tremendously, that when Miss Coleman, who was going out a little way, opened the door, it dashed against the wall with such a bang, that she was afraid to venture, and went in again."
+    },
+    {
+      "id": "s89",
+      "text": "In five minutes after, Diamond drew up at the door."
+    },
+    {
+      "id": "s90",
+      "text": "As soon as he had entered the street, however, the wind blew right behind them, and when he pulled up, old Diamond had so much ado to stop the cab against it, that the breeching broke."
+    },
+    {
+      "id": "s91",
+      "text": "Young Diamond jumped off his box, knocked loudly at the door, then turned to the cab and said--before Mr."
+    },
+    {
+      "id": "s92",
+      "text": "Evans had quite begun to think something must be amiss:"
+    },
+    {
+      "id": "s93",
+      "text": "“Please, sir, my harness has given away."
+    },
+    {
+      "id": "s94",
+      "text": "Would you mind stepping in here for a few minutes?"
+    },
+    {
+      "id": "s95",
+      "text": "They're friends of mine."
+    },
+    {
+      "id": "s96",
+      "text": "I'll take you where you like after I've got it mended."
+    },
+    {
+      "id": "s97",
+      "text": "I shan't be many minutes, but you can't stand in this wind.”"
+    },
+    {
+      "id": "s98",
+      "text": "Half stupid with fatigue and want of food, Mr."
+    },
+    {
+      "id": "s99",
+      "text": "Evans yielded to the boy's suggestion, and walked in at the door which the maid held with difficulty against the wind."
+    },
+    {
+      "id": "s100",
+      "text": "She took Mr."
+    },
+    {
+      "id": "s101",
+      "text": "Evans for a visitor, as indeed he was, and showed him into the room on the ground-floor."
+    },
+    {
+      "id": "s102",
+      "text": "Diamond, who had followed into the hall, whispered to her as she closed the door--"
+    },
+    {
+      "id": "s103",
+      "text": "“Tell Miss Coleman."
+    },
+    {
+      "id": "s104",
+      "text": "It's Miss Coleman he wants to see.”"
+    },
+    {
+      "id": "s105",
+      "text": "“I don't know,” said the maid."
+    },
+    {
+      "id": "s106",
+      "text": "“He don't look much like a gentleman.”"
+    },
+    {
+      "id": "s107",
+      "text": "“He is, though; and I know him, and so does Miss Coleman.”"
+    },
+    {
+      "id": "s108",
+      "text": "The maid could not but remember Diamond, having seen him when he and his father brought the ladies home."
+    },
+    {
+      "id": "s109",
+      "text": "So she believed him, and went to do what he told her."
+    },
+    {
+      "id": "s110",
+      "text": "What passed in the little parlour when Miss Coleman came down does not belong to my story, which is all about Diamond."
+    },
+    {
+      "id": "s111",
+      "text": "If he had known that Miss Coleman thought Mr."
+    },
+    {
+      "id": "s112",
+      "text": "Evans was dead, perhaps he would have managed differently."
+    },
+    {
+      "id": "s113",
+      "text": "There was a cry and a running to and fro in the house, and then all was quiet again."
+    },
+    {
+      "id": "s114",
+      "text": "Almost as soon as Mr."
+    },
+    {
+      "id": "s115",
+      "text": "Evans went in, the wind began to cease, and was now still."
+    },
+    {
+      "id": "s116",
+      "text": "Diamond found that by making the breeching just a little tighter than was quite comfortable for the old horse he could do very well for the present; and, thinking it better to let him have his bag in this quiet place, he sat on the box till the old horse should have eaten his dinner."
+    },
+    {
+      "id": "s117",
+      "text": "In a little while Mr."
+    },
+    {
+      "id": "s118",
+      "text": "Evans came out, and asked him to come in."
+    },
+    {
+      "id": "s119",
+      "text": "Diamond obeyed, and to his delight Miss Coleman put her arms round him and kissed him, and there was payment for him!"
+    },
+    {
+      "id": "s120",
+      "text": "Not to mention the five precious shillings she gave him, which he could not refuse because his mother wanted them so much at home for his father."
+    },
+    {
+      "id": "s121",
+      "text": "He left them nearly as happy as they were themselves."
+    },
+    {
+      "id": "s122",
+      "text": "The rest of the day he did better, and, although he had not so much to take home as the day before, yet on the whole the result was satisfactory."
+    },
+    {
+      "id": "s123",
+      "text": "And what a story he had to tell his father and mother about his adventures, and how he had done, and what was the result!"
+    },
+    {
+      "id": "s124",
+      "text": "They asked him such a multitude of questions! some of which he could answer, and some of which he could not answer; and his father seemed ever so much better from finding that his boy was already not only useful to his family but useful to other people, and quite taking his place as a man who judged what was wise, and did work worth doing."
+    },
+    {
+      "id": "s125",
+      "text": "For a fortnight Diamond went on driving his cab, and keeping his family."
+    },
+    {
+      "id": "s126",
+      "text": "He had begun to be known about some parts of London, and people would prefer taking his cab because they liked what they heard of him."
+    },
+    {
+      "id": "s127",
+      "text": "One gentleman who lived near the mews engaged him to carry him to the City every morning at a certain hour; and Diamond was punctual as clockwork--though to effect that required a good deal of care, for his father's watch was not much to be depended on, and had to be watched itself by the clock of St."
+    },
+    {
+      "id": "s128",
+      "text": "George's church."
+    },
+    {
+      "id": "s129",
+      "text": "Between the two, however, he did make a success of it."
+    },
+    {
+      "id": "s130",
+      "text": "After that fortnight, his father was able to go out again."
+    },
+    {
+      "id": "s131",
+      "text": "Then Diamond went to make inquiries about Nanny, and this led to something else."
+    }
+  ]
+}

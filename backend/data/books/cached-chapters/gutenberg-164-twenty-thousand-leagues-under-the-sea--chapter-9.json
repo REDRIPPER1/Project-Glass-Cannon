@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-164-twenty-thousand-leagues-under-the-sea",
+  "ebookId": "164",
+  "edition": "Project Gutenberg eBook #164; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-9",
+  "chapterTitle": "CHAPTER IX",
+  "contentHash": "sha256:a1c57e5bf5f479145ab932ceba5b4493673adde64e283618b2c40274abe7bab2",
+  "attribution": "Verne, Jules, 1828-1905, Twenty Thousand Leagues under the Sea, CHAPTER IX. Source checked against Project Gutenberg eBook #164.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/164",
+    "textUrl": "https://www.gutenberg.org/cache/epub/164/pg164.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "NED LAND’S TEMPERS"
+    },
+    {
+      "id": "s2",
+      "text": "How long we slept I do not know; but our sleep must have lasted long, for it rested us completely from our fatigues."
+    },
+    {
+      "id": "s3",
+      "text": "I woke first."
+    },
+    {
+      "id": "s4",
+      "text": "My companions had not moved, and were still stretched in their corner."
+    },
+    {
+      "id": "s5",
+      "text": "Hardly roused from my somewhat hard couch, I felt my brain freed, my mind clear."
+    },
+    {
+      "id": "s6",
+      "text": "I then began an attentive examination of our cell."
+    },
+    {
+      "id": "s7",
+      "text": "Nothing was changed inside."
+    },
+    {
+      "id": "s8",
+      "text": "The prison was still a prison,—the prisoners, prisoners."
+    },
+    {
+      "id": "s9",
+      "text": "However, the steward, during our sleep, had cleared the table."
+    },
+    {
+      "id": "s10",
+      "text": "I breathed with difficulty."
+    },
+    {
+      "id": "s11",
+      "text": "The heavy air seemed to oppress my lungs."
+    },
+    {
+      "id": "s12",
+      "text": "Although the cell was large, we had evidently consumed a great part of the oxygen that it contained."
+    },
+    {
+      "id": "s13",
+      "text": "Indeed, each man consumes, in one hour, the oxygen contained in more than 176 pints of air, and this air, charged (as then) with a nearly equal quantity of carbonic acid, becomes unbreathable."
+    },
+    {
+      "id": "s14",
+      "text": "It became necessary to renew the atmosphere of our prison, and no doubt the whole in the submarine boat."
+    },
+    {
+      "id": "s15",
+      "text": "That gave rise to a question in my mind."
+    },
+    {
+      "id": "s16",
+      "text": "How would the commander of this floating dwelling-place proceed?"
+    },
+    {
+      "id": "s17",
+      "text": "Would he obtain air by chemical means, in getting by heat the oxygen contained in chlorate of potash, and in absorbing carbonic acid by caustic potash?"
+    },
+    {
+      "id": "s18",
+      "text": "Or, a more convenient, economical, and consequently more probable alternative, would he be satisfied to rise and take breath at the surface of the water, like a cetacean, and so renew for twenty-four hours the atmospheric provision?"
+    },
+    {
+      "id": "s19",
+      "text": "In fact, I was already obliged to increase my respirations to eke out of this cell the little oxygen it contained, when suddenly I was refreshed by a current of pure air, and perfumed with saline emanations."
+    },
+    {
+      "id": "s20",
+      "text": "It was an invigorating sea breeze, charged with iodine."
+    },
+    {
+      "id": "s21",
+      "text": "I opened my mouth wide, and my lungs saturated themselves with fresh particles."
+    },
+    {
+      "id": "s22",
+      "text": "At the same time I felt the boat rolling."
+    },
+    {
+      "id": "s23",
+      "text": "The iron-plated monster had evidently just risen to the surface of the ocean to breathe, after the fashion of whales."
+    },
+    {
+      "id": "s24",
+      "text": "I found out from that the mode of ventilating the boat."
+    },
+    {
+      "id": "s25",
+      "text": "When I had inhaled this air freely, I sought the conduit-pipe, which conveyed to us the beneficial whiff, and I was not long in finding it."
+    },
+    {
+      "id": "s26",
+      "text": "Above the door was a ventilator, through which volumes of fresh air renewed the impoverished atmosphere of the cell."
+    },
+    {
+      "id": "s27",
+      "text": "I was making my observations, when Ned and Conseil awoke almost at the same time, under the influence of this reviving air."
+    },
+    {
+      "id": "s28",
+      "text": "They rubbed their eyes, stretched themselves, and were on their feet in an instant."
+    },
+    {
+      "id": "s29",
+      "text": "“Did master sleep well?” asked Conseil, with his usual politeness."
+    },
+    {
+      "id": "s30",
+      "text": "“Very well, my brave boy."
+    },
+    {
+      "id": "s31",
+      "text": "And you, Mr."
+    },
+    {
+      "id": "s32",
+      "text": "Land?”"
+    },
+    {
+      "id": "s33",
+      "text": "“Soundly, Professor."
+    },
+    {
+      "id": "s34",
+      "text": "But I don’t know if I am right or not; there seems to be a sea breeze!”"
+    },
+    {
+      "id": "s35",
+      "text": "A seaman could not be mistaken, and I told the Canadian all that had passed during his sleep."
+    },
+    {
+      "id": "s36",
+      "text": "“Good!” said he; “that accounts for those roarings we heard, when the supposed narwhal sighted the _Abraham Lincoln_.”"
+    },
+    {
+      "id": "s37",
+      "text": "“Quite so, Master Land; it was taking breath.”"
+    },
+    {
+      "id": "s38",
+      "text": "“Only, M."
+    },
+    {
+      "id": "s39",
+      "text": "Aronnax, I have no idea what o’clock it is, unless it is dinner-time.”"
+    },
+    {
+      "id": "s40",
+      "text": "“Dinner-time! my good fellow?"
+    },
+    {
+      "id": "s41",
+      "text": "Say rather breakfast-time, for we certainly have begun another day.”"
+    },
+    {
+      "id": "s42",
+      "text": "“So,” said Conseil, “we have slept twenty-four hours?”"
+    },
+    {
+      "id": "s43",
+      "text": "“That is my opinion.”"
+    },
+    {
+      "id": "s44",
+      "text": "“I will not contradict you,” replied Ned Land."
+    },
+    {
+      "id": "s45",
+      "text": "“But dinner or breakfast, the steward will be welcome, whichever he brings.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Master Land, we must conform to the rules on board, and I suppose our appetites are in advance of the dinner hour.”"
+    },
+    {
+      "id": "s47",
+      "text": "“That is just like you, friend Conseil,” said Ned, impatiently."
+    },
+    {
+      "id": "s48",
+      "text": "“You are never out of temper, always calm; you would return thanks before grace, and die of hunger rather than complain!”"
+    },
+    {
+      "id": "s49",
+      "text": "Time was getting on, and we were fearfully hungry; and this time the steward did not appear."
+    },
+    {
+      "id": "s50",
+      "text": "It was rather too long to leave us, if they really had good intentions towards us."
+    },
+    {
+      "id": "s51",
+      "text": "Ned Land, tormented by the cravings of hunger, got still more angry; and, notwithstanding his promise, I dreaded an explosion when he found himself with one of the crew."
+    },
+    {
+      "id": "s52",
+      "text": "For two hours more Ned Land’s temper increased; he cried, he shouted, but in vain."
+    },
+    {
+      "id": "s53",
+      "text": "The walls were deaf."
+    },
+    {
+      "id": "s54",
+      "text": "There was no sound to be heard in the boat: all was still as death."
+    },
+    {
+      "id": "s55",
+      "text": "It did not move, for I should have felt the trembling motion of the hull under the influence of the screw."
+    },
+    {
+      "id": "s56",
+      "text": "Plunged in the depths of the waters, it belonged no longer to earth:—this silence was dreadful."
+    },
+    {
+      "id": "s57",
+      "text": "I felt terrified, Conseil was calm, Ned Land roared."
+    },
+    {
+      "id": "s58",
+      "text": "Just then a noise was heard outside."
+    },
+    {
+      "id": "s59",
+      "text": "Steps sounded on the metal flags."
+    },
+    {
+      "id": "s60",
+      "text": "The locks were turned, the door opened, and the steward appeared."
+    },
+    {
+      "id": "s61",
+      "text": "Before I could rush forward to stop him, the Canadian had thrown him down, and held him by the throat."
+    },
+    {
+      "id": "s62",
+      "text": "The steward was choking under the grip of his powerful hand."
+    },
+    {
+      "id": "s63",
+      "text": "Conseil was already trying to unclasp the harpooner’s hand from his half-suffocated victim, and I was going to fly to the rescue, when suddenly I was nailed to the spot by hearing these words in French—"
+    },
+    {
+      "id": "s64",
+      "text": "“Be quiet, Master Land; and you, Professor, will you be so good as to listen to me?”"
+    }
+  ]
+}

@@ -1,0 +1,1221 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-16",
+  "chapterTitle": "CHAPTER XVI. Diana Is Invited to Tea with Tragic Results",
+  "contentHash": "sha256:ef4e751b69afca263ba5a3ad062cafae09a525c90dbd44ae95da31a2f5748e41",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER XVI. Diana Is Invited to Tea with Tragic Results. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "OCTOBER was a beautiful month at Green Gables, when the birches in the hollow turned as golden as sunshine and the maples behind the orchard were royal crimson and the wild cherry-trees along the lane put on the loveliest shades of dark red and bronzy green, while the fields sunned themselves in aftermaths."
+    },
+    {
+      "id": "s2",
+      "text": "Anne reveled in the world of color about her."
+    },
+    {
+      "id": "s3",
+      "text": "“Oh, Marilla,” she exclaimed one Saturday morning, coming dancing in with her arms full of gorgeous boughs, “I’m so glad I live in a world where there are Octobers."
+    },
+    {
+      "id": "s4",
+      "text": "It would be terrible if we just skipped from September to November, wouldn’t it?"
+    },
+    {
+      "id": "s5",
+      "text": "Look at these maple branches."
+    },
+    {
+      "id": "s6",
+      "text": "Don’t they give you a thrill--several thrills?"
+    },
+    {
+      "id": "s7",
+      "text": "I’m going to decorate my room with them.”"
+    },
+    {
+      "id": "s8",
+      "text": "“Messy things,” said Marilla, whose aesthetic sense was not noticeably developed."
+    },
+    {
+      "id": "s9",
+      "text": "“You clutter up your room entirely too much with out-of-doors stuff, Anne."
+    },
+    {
+      "id": "s10",
+      "text": "Bedrooms were made to sleep in.”"
+    },
+    {
+      "id": "s11",
+      "text": "“Oh, and dream in too, Marilla."
+    },
+    {
+      "id": "s12",
+      "text": "And you know one can dream so much better in a room where there are pretty things."
+    },
+    {
+      "id": "s13",
+      "text": "I’m going to put these boughs in the old blue jug and set them on my table.”"
+    },
+    {
+      "id": "s14",
+      "text": "“Mind you don’t drop leaves all over the stairs then."
+    },
+    {
+      "id": "s15",
+      "text": "I’m going on a meeting of the Aid Society at Carmody this afternoon, Anne, and I won’t likely be home before dark."
+    },
+    {
+      "id": "s16",
+      "text": "You’ll have to get Matthew and Jerry their supper, so mind you don’t forget to put the tea to draw until you sit down at the table as you did last time.”"
+    },
+    {
+      "id": "s17",
+      "text": "“It was dreadful of me to forget,” said Anne apologetically, “but that was the afternoon I was trying to think of a name for Violet Vale and it crowded other things out."
+    },
+    {
+      "id": "s18",
+      "text": "Matthew was so good."
+    },
+    {
+      "id": "s19",
+      "text": "He never scolded a bit."
+    },
+    {
+      "id": "s20",
+      "text": "He put the tea down himself and said we could wait awhile as well as not."
+    },
+    {
+      "id": "s21",
+      "text": "And I told him a lovely fairy story while we were waiting, so he didn’t find the time long at all."
+    },
+    {
+      "id": "s22",
+      "text": "It was a beautiful fairy story, Marilla."
+    },
+    {
+      "id": "s23",
+      "text": "I forgot the end of it, so I made up an end for it myself and Matthew said he couldn’t tell where the join came in.”"
+    },
+    {
+      "id": "s24",
+      "text": "“Matthew would think it all right, Anne, if you took a notion to get up and have dinner in the middle of the night."
+    },
+    {
+      "id": "s25",
+      "text": "But you keep your wits about you this time."
+    },
+    {
+      "id": "s26",
+      "text": "And--I don’t really know if I’m doing right--it may make you more addlepated than ever--but you can ask Diana to come over and spend the afternoon with you and have tea here.”"
+    },
+    {
+      "id": "s27",
+      "text": "“Oh, Marilla!” Anne clasped her hands."
+    },
+    {
+      "id": "s28",
+      "text": "“How perfectly lovely!"
+    },
+    {
+      "id": "s29",
+      "text": "You _are_ able to imagine things after all or else you’d never have understood how I’ve longed for that very thing."
+    },
+    {
+      "id": "s30",
+      "text": "It will seem so nice and grown-uppish."
+    },
+    {
+      "id": "s31",
+      "text": "No fear of my forgetting to put the tea to draw when I have company."
+    },
+    {
+      "id": "s32",
+      "text": "Oh, Marilla, can I use the rosebud spray tea set?”"
+    },
+    {
+      "id": "s33",
+      "text": "“No, indeed!"
+    },
+    {
+      "id": "s34",
+      "text": "The rosebud tea set!"
+    },
+    {
+      "id": "s35",
+      "text": "Well, what next?"
+    },
+    {
+      "id": "s36",
+      "text": "You know I never use that except for the minister or the Aids."
+    },
+    {
+      "id": "s37",
+      "text": "You’ll put down the old brown tea set."
+    },
+    {
+      "id": "s38",
+      "text": "But you can open the little yellow crock of cherry preserves."
+    },
+    {
+      "id": "s39",
+      "text": "It’s time it was being used anyhow--I believe it’s beginning to work."
+    },
+    {
+      "id": "s40",
+      "text": "And you can cut some fruit cake and have some of the cookies and snaps.”"
+    },
+    {
+      "id": "s41",
+      "text": "“I can just imagine myself sitting down at the head of the table and pouring out the tea,” said Anne, shutting her eyes ecstatically."
+    },
+    {
+      "id": "s42",
+      "text": "“And asking Diana if she takes sugar!"
+    },
+    {
+      "id": "s43",
+      "text": "I know she doesn’t but of course I’ll ask her just as if I didn’t know."
+    },
+    {
+      "id": "s44",
+      "text": "And then pressing her to take another piece of fruit cake and another helping of preserves."
+    },
+    {
+      "id": "s45",
+      "text": "Oh, Marilla, it’s a wonderful sensation just to think of it."
+    },
+    {
+      "id": "s46",
+      "text": "Can I take her into the spare room to lay off her hat when she comes?"
+    },
+    {
+      "id": "s47",
+      "text": "And then into the parlor to sit?”"
+    },
+    {
+      "id": "s48",
+      "text": "“No."
+    },
+    {
+      "id": "s49",
+      "text": "The sitting room will do for you and your company."
+    },
+    {
+      "id": "s50",
+      "text": "But there’s a bottle half full of raspberry cordial that was left over from the church social the other night."
+    },
+    {
+      "id": "s51",
+      "text": "It’s on the second shelf of the sitting-room closet and you and Diana can have it if you like, and a cooky to eat with it along in the afternoon, for I daresay Matthew ‘ll be late coming in to tea since he’s hauling potatoes to the vessel.”"
+    },
+    {
+      "id": "s52",
+      "text": "Anne flew down to the hollow, past the Dryad’s Bubble and up the spruce path to Orchard Slope, to ask Diana to tea."
+    },
+    {
+      "id": "s53",
+      "text": "As a result just after Marilla had driven off to Carmody, Diana came over, dressed in _her_ second-best dress and looking exactly as it is proper to look when asked out to tea."
+    },
+    {
+      "id": "s54",
+      "text": "At other times she was wont to run into the kitchen without knocking; but now she knocked primly at the front door."
+    },
+    {
+      "id": "s55",
+      "text": "And when Anne, dressed in her second best, as primly opened it, both little girls shook hands as gravely as if they had never met before."
+    },
+    {
+      "id": "s56",
+      "text": "This unnatural solemnity lasted until after Diana had been taken to the east gable to lay off her hat and then had sat for ten minutes in the sitting room, toes in position."
+    },
+    {
+      "id": "s57",
+      "text": "“How is your mother?” inquired Anne politely, just as if she had not seen Mrs."
+    },
+    {
+      "id": "s58",
+      "text": "Barry picking apples that morning in excellent health and spirits."
+    },
+    {
+      "id": "s59",
+      "text": "“She is very well, thank you."
+    },
+    {
+      "id": "s60",
+      "text": "I suppose Mr."
+    },
+    {
+      "id": "s61",
+      "text": "Cuthbert is hauling potatoes to the _lily sands_ this afternoon, is he?” said Diana, who had ridden down to Mr."
+    },
+    {
+      "id": "s62",
+      "text": "Harmon Andrews’s that morning in Matthew’s cart."
+    },
+    {
+      "id": "s63",
+      "text": "“Yes."
+    },
+    {
+      "id": "s64",
+      "text": "Our potato crop is very good this year."
+    },
+    {
+      "id": "s65",
+      "text": "I hope your father’s crop is good too.”"
+    },
+    {
+      "id": "s66",
+      "text": "“It is fairly good, thank you."
+    },
+    {
+      "id": "s67",
+      "text": "Have you picked many of your apples yet?”"
+    },
+    {
+      "id": "s68",
+      "text": "“Oh, ever so many,” said Anne forgetting to be dignified and jumping up quickly."
+    },
+    {
+      "id": "s69",
+      "text": "“Let’s go out to the orchard and get some of the Red Sweetings, Diana."
+    },
+    {
+      "id": "s70",
+      "text": "Marilla says we can have all that are left on the tree."
+    },
+    {
+      "id": "s71",
+      "text": "Marilla is a very generous woman."
+    },
+    {
+      "id": "s72",
+      "text": "She said we could have fruit cake and cherry preserves for tea."
+    },
+    {
+      "id": "s73",
+      "text": "But it isn’t good manners to tell your company what you are going to give them to eat, so I won’t tell you what she said we could have to drink."
+    },
+    {
+      "id": "s74",
+      "text": "Only it begins with an R and a C and it’s bright red color."
+    },
+    {
+      "id": "s75",
+      "text": "I love bright red drinks, don’t you?"
+    },
+    {
+      "id": "s76",
+      "text": "They taste twice as good as any other color.”"
+    },
+    {
+      "id": "s77",
+      "text": "The orchard, with its great sweeping boughs that bent to the ground with fruit, proved so delightful that the little girls spent most of the afternoon in it, sitting in a grassy corner where the frost had spared the green and the mellow autumn sunshine lingered warmly, eating apples and talking as hard as they could."
+    },
+    {
+      "id": "s78",
+      "text": "Diana had much to tell Anne of what went on in school."
+    },
+    {
+      "id": "s79",
+      "text": "She had to sit with Gertie Pye and she hated it; Gertie squeaked her pencil all the time and it just made her--Diana’s--blood run cold; Ruby Gillis had charmed all her warts away, true’s you live, with a magic pebble that old Mary Joe from the Creek gave her."
+    },
+    {
+      "id": "s80",
+      "text": "You had to rub the warts with the pebble and then throw it away over your left shoulder at the time of the new moon and the warts would all go."
+    },
+    {
+      "id": "s81",
+      "text": "Charlie Sloane’s name was written up with Em White’s on the porch wall and Em White was _awful mad_ about it; Sam Boulter had “sassed” Mr."
+    },
+    {
+      "id": "s82",
+      "text": "Phillips in class and Mr."
+    },
+    {
+      "id": "s83",
+      "text": "Phillips whipped him and Sam’s father came down to the school and dared Mr."
+    },
+    {
+      "id": "s84",
+      "text": "Phillips to lay a hand on one of his children again; and Mattie Andrews had a new red hood and a blue crossover with tassels on it and the airs she put on about it were perfectly sickening; and Lizzie Wright didn’t speak to Mamie Wilson because Mamie Wilson’s grown-up sister had cut out Lizzie Wright’s grown-up sister with her beau; and everybody missed Anne so and wished she’s come to school again; and Gilbert Blythe--"
+    },
+    {
+      "id": "s85",
+      "text": "But Anne didn’t want to hear about Gilbert Blythe."
+    },
+    {
+      "id": "s86",
+      "text": "She jumped up hurriedly and said suppose they go in and have some raspberry cordial."
+    },
+    {
+      "id": "s87",
+      "text": "Anne looked on the second shelf of the room pantry but there was no bottle of raspberry cordial there."
+    },
+    {
+      "id": "s88",
+      "text": "Search revealed it away back on the top shelf."
+    },
+    {
+      "id": "s89",
+      "text": "Anne put it on a tray and set it on the table with a tumbler."
+    },
+    {
+      "id": "s90",
+      "text": "“Now, please help yourself, Diana,” she said politely."
+    },
+    {
+      "id": "s91",
+      "text": "“I don’t believe I’ll have any just now."
+    },
+    {
+      "id": "s92",
+      "text": "I don’t feel as if I wanted any after all those apples.”"
+    },
+    {
+      "id": "s93",
+      "text": "Diana poured herself out a tumblerful, looked at its bright-red hue admiringly, and then sipped it daintily."
+    },
+    {
+      "id": "s94",
+      "text": "“That’s awfully nice raspberry cordial, Anne,” she said."
+    },
+    {
+      "id": "s95",
+      "text": "“I didn’t know raspberry cordial was so nice.”"
+    },
+    {
+      "id": "s96",
+      "text": "“I’m real glad you like it."
+    },
+    {
+      "id": "s97",
+      "text": "Take as much as you want."
+    },
+    {
+      "id": "s98",
+      "text": "I’m going to run out and stir the fire up."
+    },
+    {
+      "id": "s99",
+      "text": "There are so many responsibilities on a person’s mind when they’re keeping house, isn’t there?”"
+    },
+    {
+      "id": "s100",
+      "text": "When Anne came back from the kitchen Diana was drinking her second glassful of cordial; and, being entreated thereto by Anne, she offered no particular objection to the drinking of a third."
+    },
+    {
+      "id": "s101",
+      "text": "The tumblerfuls were generous ones and the raspberry cordial was certainly very nice."
+    },
+    {
+      "id": "s102",
+      "text": "“The nicest I ever drank,” said Diana."
+    },
+    {
+      "id": "s103",
+      "text": "“It’s ever so much nicer than Mrs."
+    },
+    {
+      "id": "s104",
+      "text": "Lynde’s, although she brags of hers so much."
+    },
+    {
+      "id": "s105",
+      "text": "It doesn’t taste a bit like hers.”"
+    },
+    {
+      "id": "s106",
+      "text": "“I should think Marilla’s raspberry cordial would prob’ly be much nicer than Mrs."
+    },
+    {
+      "id": "s107",
+      "text": "Lynde’s,” said Anne loyally."
+    },
+    {
+      "id": "s108",
+      "text": "“Marilla is a famous cook."
+    },
+    {
+      "id": "s109",
+      "text": "She is trying to teach me to cook but I assure you, Diana, it is uphill work."
+    },
+    {
+      "id": "s110",
+      "text": "There’s so little scope for imagination in cookery."
+    },
+    {
+      "id": "s111",
+      "text": "You just have to go by rules."
+    },
+    {
+      "id": "s112",
+      "text": "The last time I made a cake I forgot to put the flour in."
+    },
+    {
+      "id": "s113",
+      "text": "I was thinking the loveliest story about you and me, Diana."
+    },
+    {
+      "id": "s114",
+      "text": "I thought you were desperately ill with smallpox and everybody deserted you, but I went boldly to your bedside and nursed you back to life; and then I took the smallpox and died and I was buried under those poplar trees in the graveyard and you planted a rosebush by my grave and watered it with your tears; and you never, never forgot the friend of your youth who sacrificed her life for you."
+    },
+    {
+      "id": "s115",
+      "text": "Oh, it was such a pathetic tale, Diana."
+    },
+    {
+      "id": "s116",
+      "text": "The tears just rained down over my cheeks while I mixed the cake."
+    },
+    {
+      "id": "s117",
+      "text": "But I forgot the flour and the cake was a dismal failure."
+    },
+    {
+      "id": "s118",
+      "text": "Flour is so essential to cakes, you know."
+    },
+    {
+      "id": "s119",
+      "text": "Marilla was very cross and I don’t wonder."
+    },
+    {
+      "id": "s120",
+      "text": "I’m a great trial to her."
+    },
+    {
+      "id": "s121",
+      "text": "She was terribly mortified about the pudding sauce last week."
+    },
+    {
+      "id": "s122",
+      "text": "We had a plum pudding for dinner on Tuesday and there was half the pudding and a pitcherful of sauce left over."
+    },
+    {
+      "id": "s123",
+      "text": "Marilla said there was enough for another dinner and told me to set it on the pantry shelf and cover it."
+    },
+    {
+      "id": "s124",
+      "text": "I meant to cover it just as much as could be, Diana, but when I carried it in I was imagining I was a nun--of course I’m a Protestant but I imagined I was a Catholic--taking the veil to bury a broken heart in cloistered seclusion; and I forgot all about covering the pudding sauce."
+    },
+    {
+      "id": "s125",
+      "text": "I thought of it next morning and ran to the pantry."
+    },
+    {
+      "id": "s126",
+      "text": "Diana, fancy if you can my extreme horror at finding a mouse drowned in that pudding sauce!"
+    },
+    {
+      "id": "s127",
+      "text": "I lifted the mouse out with a spoon and threw it out in the yard and then I washed the spoon in three waters."
+    },
+    {
+      "id": "s128",
+      "text": "Marilla was out milking and I fully intended to ask her when she came in if I’d give the sauce to the pigs; but when she did come in I was imagining that I was a frost fairy going through the woods turning the trees red and yellow, whichever they wanted to be, so I never thought about the pudding sauce again and Marilla sent me out to pick apples."
+    },
+    {
+      "id": "s129",
+      "text": "Well, Mr. and Mrs."
+    },
+    {
+      "id": "s130",
+      "text": "Chester Ross from Spencervale came here that morning."
+    },
+    {
+      "id": "s131",
+      "text": "You know they are very stylish people, especially Mrs."
+    },
+    {
+      "id": "s132",
+      "text": "Chester Ross."
+    },
+    {
+      "id": "s133",
+      "text": "When Marilla called me in dinner was all ready and everybody was at the table."
+    },
+    {
+      "id": "s134",
+      "text": "I tried to be as polite and dignified as I could be, for I wanted Mrs."
+    },
+    {
+      "id": "s135",
+      "text": "Chester Ross to think I was a ladylike little girl even if I wasn’t pretty."
+    },
+    {
+      "id": "s136",
+      "text": "Everything went right until I saw Marilla coming with the plum pudding in one hand and the pitcher of pudding sauce _warmed up_, in the other."
+    },
+    {
+      "id": "s137",
+      "text": "Diana, that was a terrible moment."
+    },
+    {
+      "id": "s138",
+      "text": "I remembered everything and I just stood up in my place and shrieked out ‘Marilla, you mustn’t use that pudding sauce."
+    },
+    {
+      "id": "s139",
+      "text": "There was a mouse drowned in it."
+    },
+    {
+      "id": "s140",
+      "text": "I forgot to tell you before.’ Oh, Diana, I shall never forget that awful moment if I live to be a hundred."
+    },
+    {
+      "id": "s141",
+      "text": "Mrs."
+    },
+    {
+      "id": "s142",
+      "text": "Chester Ross just _looked_ at me and I thought I would sink through the floor with mortification."
+    },
+    {
+      "id": "s143",
+      "text": "She is such a perfect housekeeper and fancy what she must have thought of us."
+    },
+    {
+      "id": "s144",
+      "text": "Marilla turned red as fire but she never said a word--then."
+    },
+    {
+      "id": "s145",
+      "text": "She just carried that sauce and pudding out and brought in some strawberry preserves."
+    },
+    {
+      "id": "s146",
+      "text": "She even offered me some, but I couldn’t swallow a mouthful."
+    },
+    {
+      "id": "s147",
+      "text": "It was like heaping coals of fire on my head."
+    },
+    {
+      "id": "s148",
+      "text": "After Mrs."
+    },
+    {
+      "id": "s149",
+      "text": "Chester Ross went away, Marilla gave me a dreadful scolding."
+    },
+    {
+      "id": "s150",
+      "text": "Why, Diana, what is the matter?”"
+    },
+    {
+      "id": "s151",
+      "text": "Diana had stood up very unsteadily; then she sat down again, putting her hands to her head."
+    },
+    {
+      "id": "s152",
+      "text": "“I’m--I’m awful sick,” she said, a little thickly."
+    },
+    {
+      "id": "s153",
+      "text": "“I--I--must go right home.”"
+    },
+    {
+      "id": "s154",
+      "text": "“Oh, you mustn’t dream of going home without your tea,” cried Anne in distress."
+    },
+    {
+      "id": "s155",
+      "text": "“I’ll get it right off--I’ll go and put the tea down this very minute.”"
+    },
+    {
+      "id": "s156",
+      "text": "“I must go home,” repeated Diana, stupidly but determinedly."
+    },
+    {
+      "id": "s157",
+      "text": "“Let me get you a lunch anyhow,” implored Anne."
+    },
+    {
+      "id": "s158",
+      "text": "“Let me give you a bit of fruit cake and some of the cherry preserves."
+    },
+    {
+      "id": "s159",
+      "text": "Lie down on the sofa for a little while and you’ll be better."
+    },
+    {
+      "id": "s160",
+      "text": "Where do you feel bad?”"
+    },
+    {
+      "id": "s161",
+      "text": "“I must go home,” said Diana, and that was all she would say."
+    },
+    {
+      "id": "s162",
+      "text": "In vain Anne pleaded."
+    },
+    {
+      "id": "s163",
+      "text": "“I never heard of company going home without tea,” she mourned."
+    },
+    {
+      "id": "s164",
+      "text": "“Oh, Diana, do you suppose that it’s possible you’re really taking the smallpox?"
+    },
+    {
+      "id": "s165",
+      "text": "If you are I’ll go and nurse you, you can depend on that."
+    },
+    {
+      "id": "s166",
+      "text": "I’ll never forsake you."
+    },
+    {
+      "id": "s167",
+      "text": "But I do wish you’d stay till after tea."
+    },
+    {
+      "id": "s168",
+      "text": "Where do you feel bad?”"
+    },
+    {
+      "id": "s169",
+      "text": "“I’m awful dizzy,” said Diana."
+    },
+    {
+      "id": "s170",
+      "text": "And indeed, she walked very dizzily."
+    },
+    {
+      "id": "s171",
+      "text": "Anne, with tears of disappointment in her eyes, got Diana’s hat and went with her as far as the Barry yard fence."
+    },
+    {
+      "id": "s172",
+      "text": "Then she wept all the way back to Green Gables, where she sorrowfully put the remainder of the raspberry cordial back into the pantry and got tea ready for Matthew and Jerry, with all the zest gone out of the performance."
+    },
+    {
+      "id": "s173",
+      "text": "The next day was Sunday and as the rain poured down in torrents from dawn till dusk Anne did not stir abroad from Green Gables."
+    },
+    {
+      "id": "s174",
+      "text": "Monday afternoon Marilla sent her down to Mrs."
+    },
+    {
+      "id": "s175",
+      "text": "Lynde’s on an errand."
+    },
+    {
+      "id": "s176",
+      "text": "In a very short space of time Anne came flying back up the lane with tears rolling down her cheeks."
+    },
+    {
+      "id": "s177",
+      "text": "Into the kitchen she dashed and flung herself face downward on the sofa in an agony."
+    },
+    {
+      "id": "s178",
+      "text": "“Whatever has gone wrong now, Anne?” queried Marilla in doubt and dismay."
+    },
+    {
+      "id": "s179",
+      "text": "“I do hope you haven’t gone and been saucy to Mrs."
+    },
+    {
+      "id": "s180",
+      "text": "Lynde again.”"
+    },
+    {
+      "id": "s181",
+      "text": "No answer from Anne save more tears and stormier sobs!"
+    },
+    {
+      "id": "s182",
+      "text": "“Anne Shirley, when I ask you a question I want to be answered."
+    },
+    {
+      "id": "s183",
+      "text": "Sit right up this very minute and tell me what you are crying about.”"
+    },
+    {
+      "id": "s184",
+      "text": "Anne sat up, tragedy personified."
+    },
+    {
+      "id": "s185",
+      "text": "“Mrs."
+    },
+    {
+      "id": "s186",
+      "text": "Lynde was up to see Mrs."
+    },
+    {
+      "id": "s187",
+      "text": "Barry today and Mrs."
+    },
+    {
+      "id": "s188",
+      "text": "Barry was in an awful state,” she wailed."
+    },
+    {
+      "id": "s189",
+      "text": "“She says that I set Diana _drunk_ Saturday and sent her home in a disgraceful condition."
+    },
+    {
+      "id": "s190",
+      "text": "And she says I must be a thoroughly bad, wicked little girl and she’s never, never going to let Diana play with me again."
+    },
+    {
+      "id": "s191",
+      "text": "Oh, Marilla, I’m just overcome with woe.”"
+    },
+    {
+      "id": "s192",
+      "text": "Marilla stared in blank amazement."
+    },
+    {
+      "id": "s193",
+      "text": "“Set Diana drunk!” she said when she found her voice."
+    },
+    {
+      "id": "s194",
+      "text": "“Anne are you or Mrs."
+    },
+    {
+      "id": "s195",
+      "text": "Barry crazy?"
+    },
+    {
+      "id": "s196",
+      "text": "What on earth did you give her?”"
+    },
+    {
+      "id": "s197",
+      "text": "“Not a thing but raspberry cordial,” sobbed Anne."
+    },
+    {
+      "id": "s198",
+      "text": "“I never thought raspberry cordial would set people drunk, Marilla--not even if they drank three big tumblerfuls as Diana did."
+    },
+    {
+      "id": "s199",
+      "text": "Oh, it sounds so--so--like Mrs."
+    },
+    {
+      "id": "s200",
+      "text": "Thomas’s husband!"
+    },
+    {
+      "id": "s201",
+      "text": "But I didn’t mean to set her drunk.”"
+    },
+    {
+      "id": "s202",
+      "text": "“Drunk fiddlesticks!” said Marilla, marching to the sitting-room pantry."
+    },
+    {
+      "id": "s203",
+      "text": "There on the shelf was a bottle which she at once recognized as one containing some of her three-year-old homemade currant wine for which she was celebrated in Avonlea, although certain of the stricter sort, Mrs."
+    },
+    {
+      "id": "s204",
+      "text": "Barry among them, disapproved strongly of it."
+    },
+    {
+      "id": "s205",
+      "text": "And at the same time Marilla recollected that she had put the bottle of raspberry cordial down in the cellar instead of in the pantry as she had told Anne."
+    },
+    {
+      "id": "s206",
+      "text": "She went back to the kitchen with the wine bottle in her hand."
+    },
+    {
+      "id": "s207",
+      "text": "Her face was twitching in spite of herself."
+    },
+    {
+      "id": "s208",
+      "text": "“Anne, you certainly have a genius for getting into trouble."
+    },
+    {
+      "id": "s209",
+      "text": "You went and gave Diana currant wine instead of raspberry cordial."
+    },
+    {
+      "id": "s210",
+      "text": "Didn’t you know the difference yourself?”"
+    },
+    {
+      "id": "s211",
+      "text": "“I never tasted it,” said Anne."
+    },
+    {
+      "id": "s212",
+      "text": "“I thought it was the cordial."
+    },
+    {
+      "id": "s213",
+      "text": "I meant to be so--so--hospitable."
+    },
+    {
+      "id": "s214",
+      "text": "Diana got awfully sick and had to go home."
+    },
+    {
+      "id": "s215",
+      "text": "Mrs."
+    },
+    {
+      "id": "s216",
+      "text": "Barry told Mrs."
+    },
+    {
+      "id": "s217",
+      "text": "Lynde she was simply dead drunk."
+    },
+    {
+      "id": "s218",
+      "text": "She just laughed silly-like when her mother asked her what was the matter and went to sleep and slept for hours."
+    },
+    {
+      "id": "s219",
+      "text": "Her mother smelled her breath and knew she was drunk."
+    },
+    {
+      "id": "s220",
+      "text": "She had a fearful headache all day yesterday."
+    },
+    {
+      "id": "s221",
+      "text": "Mrs."
+    },
+    {
+      "id": "s222",
+      "text": "Barry is so indignant."
+    },
+    {
+      "id": "s223",
+      "text": "She will never believe but what I did it on purpose.”"
+    },
+    {
+      "id": "s224",
+      "text": "“I should think she would better punish Diana for being so greedy as to drink three glassfuls of anything,” said Marilla shortly."
+    },
+    {
+      "id": "s225",
+      "text": "“Why, three of those big glasses would have made her sick even if it had only been cordial."
+    },
+    {
+      "id": "s226",
+      "text": "Well, this story will be a nice handle for those folks who are so down on me for making currant wine, although I haven’t made any for three years ever since I found out that the minister didn’t approve."
+    },
+    {
+      "id": "s227",
+      "text": "I just kept that bottle for sickness."
+    },
+    {
+      "id": "s228",
+      "text": "There, there, child, don’t cry."
+    },
+    {
+      "id": "s229",
+      "text": "I can’t see as you were to blame although I’m sorry it happened so.”"
+    },
+    {
+      "id": "s230",
+      "text": "“I must cry,” said Anne."
+    },
+    {
+      "id": "s231",
+      "text": "“My heart is broken."
+    },
+    {
+      "id": "s232",
+      "text": "The stars in their courses fight against me, Marilla."
+    },
+    {
+      "id": "s233",
+      "text": "Diana and I are parted forever."
+    },
+    {
+      "id": "s234",
+      "text": "Oh, Marilla, I little dreamed of this when first we swore our vows of friendship.”"
+    },
+    {
+      "id": "s235",
+      "text": "“Don’t be foolish, Anne."
+    },
+    {
+      "id": "s236",
+      "text": "Mrs."
+    },
+    {
+      "id": "s237",
+      "text": "Barry will think better of it when she finds you’re not to blame."
+    },
+    {
+      "id": "s238",
+      "text": "I suppose she thinks you’ve done it for a silly joke or something of that sort."
+    },
+    {
+      "id": "s239",
+      "text": "You’d best go up this evening and tell her how it was.”"
+    },
+    {
+      "id": "s240",
+      "text": "“My courage fails me at the thought of facing Diana’s injured mother,” sighed Anne."
+    },
+    {
+      "id": "s241",
+      "text": "“I wish you’d go, Marilla."
+    },
+    {
+      "id": "s242",
+      "text": "You’re so much more dignified than I am."
+    },
+    {
+      "id": "s243",
+      "text": "Likely she’d listen to you quicker than to me.”"
+    },
+    {
+      "id": "s244",
+      "text": "“Well, I will,” said Marilla, reflecting that it would probably be the wiser course."
+    },
+    {
+      "id": "s245",
+      "text": "“Don’t cry any more, Anne."
+    },
+    {
+      "id": "s246",
+      "text": "It will be all right.”"
+    },
+    {
+      "id": "s247",
+      "text": "Marilla had changed her mind about it being all right by the time she got back from Orchard Slope."
+    },
+    {
+      "id": "s248",
+      "text": "Anne was watching for her coming and flew to the porch door to meet her."
+    },
+    {
+      "id": "s249",
+      "text": "“Oh, Marilla, I know by your face that it’s been no use,” she said sorrowfully."
+    },
+    {
+      "id": "s250",
+      "text": "“Mrs."
+    },
+    {
+      "id": "s251",
+      "text": "Barry won’t forgive me?”"
+    },
+    {
+      "id": "s252",
+      "text": "“Mrs."
+    },
+    {
+      "id": "s253",
+      "text": "Barry indeed!” snapped Marilla."
+    },
+    {
+      "id": "s254",
+      "text": "“Of all the unreasonable women I ever saw she’s the worst."
+    },
+    {
+      "id": "s255",
+      "text": "I told her it was all a mistake and you weren’t to blame, but she just simply didn’t believe me."
+    },
+    {
+      "id": "s256",
+      "text": "And she rubbed it well in about my currant wine and how I’d always said it couldn’t have the least effect on anybody."
+    },
+    {
+      "id": "s257",
+      "text": "I just told her plainly that currant wine wasn’t meant to be drunk three tumblerfuls at a time and that if a child I had to do with was so greedy I’d sober her up with a right good spanking.”"
+    },
+    {
+      "id": "s258",
+      "text": "Marilla whisked into the kitchen, grievously disturbed, leaving a very much distracted little soul in the porch behind her."
+    },
+    {
+      "id": "s259",
+      "text": "Presently Anne stepped out bareheaded into the chill autumn dusk; very determinedly and steadily she took her way down through the sere clover field over the log bridge and up through the spruce grove, lighted by a pale little moon hanging low over the western woods."
+    },
+    {
+      "id": "s260",
+      "text": "Mrs."
+    },
+    {
+      "id": "s261",
+      "text": "Barry, coming to the door in answer to a timid knock, found a white-lipped eager-eyed suppliant on the doorstep."
+    },
+    {
+      "id": "s262",
+      "text": "Her face hardened."
+    },
+    {
+      "id": "s263",
+      "text": "Mrs."
+    },
+    {
+      "id": "s264",
+      "text": "Barry was a woman of strong prejudices and dislikes, and her anger was of the cold, sullen sort which is always hardest to overcome."
+    },
+    {
+      "id": "s265",
+      "text": "To do her justice, she really believed Anne had made Diana drunk out of sheer malice prepense, and she was honestly anxious to preserve her little daughter from the contamination of further intimacy with such a child."
+    },
+    {
+      "id": "s266",
+      "text": "“What do you want?” she said stiffly."
+    },
+    {
+      "id": "s267",
+      "text": "Anne clasped her hands."
+    },
+    {
+      "id": "s268",
+      "text": "“Oh, Mrs."
+    },
+    {
+      "id": "s269",
+      "text": "Barry, please forgive me."
+    },
+    {
+      "id": "s270",
+      "text": "I did not mean to--to--intoxicate Diana."
+    },
+    {
+      "id": "s271",
+      "text": "How could I?"
+    },
+    {
+      "id": "s272",
+      "text": "Just imagine if you were a poor little orphan girl that kind people had adopted and you had just one bosom friend in all the world."
+    },
+    {
+      "id": "s273",
+      "text": "Do you think you would intoxicate her on purpose?"
+    },
+    {
+      "id": "s274",
+      "text": "I thought it was only raspberry cordial."
+    },
+    {
+      "id": "s275",
+      "text": "I was firmly convinced it was raspberry cordial."
+    },
+    {
+      "id": "s276",
+      "text": "Oh, please don’t say that you won’t let Diana play with me any more."
+    },
+    {
+      "id": "s277",
+      "text": "If you do you will cover my life with a dark cloud of woe.”"
+    },
+    {
+      "id": "s278",
+      "text": "This speech which would have softened good Mrs."
+    },
+    {
+      "id": "s279",
+      "text": "Lynde’s heart in a twinkling, had no effect on Mrs."
+    },
+    {
+      "id": "s280",
+      "text": "Barry except to irritate her still more."
+    },
+    {
+      "id": "s281",
+      "text": "She was suspicious of Anne’s big words and dramatic gestures and imagined that the child was making fun of her."
+    },
+    {
+      "id": "s282",
+      "text": "So she said, coldly and cruelly:"
+    },
+    {
+      "id": "s283",
+      "text": "“I don’t think you are a fit little girl for Diana to associate with."
+    },
+    {
+      "id": "s284",
+      "text": "You’d better go home and behave yourself.”"
+    },
+    {
+      "id": "s285",
+      "text": "Anne’s lips quivered."
+    },
+    {
+      "id": "s286",
+      "text": "“Won’t you let me see Diana just once to say farewell?” she implored."
+    },
+    {
+      "id": "s287",
+      "text": "“Diana has gone over to Carmody with her father,” said Mrs."
+    },
+    {
+      "id": "s288",
+      "text": "Barry, going in and shutting the door."
+    },
+    {
+      "id": "s289",
+      "text": "Anne went back to Green Gables calm with despair."
+    },
+    {
+      "id": "s290",
+      "text": "“My last hope is gone,” she told Marilla."
+    },
+    {
+      "id": "s291",
+      "text": "“I went up and saw Mrs."
+    },
+    {
+      "id": "s292",
+      "text": "Barry myself and she treated me very insultingly."
+    },
+    {
+      "id": "s293",
+      "text": "Marilla, I do _not_ think she is a well-bred woman."
+    },
+    {
+      "id": "s294",
+      "text": "There is nothing more to do except to pray and I haven’t much hope that that’ll do much good because, Marilla, I do not believe that God Himself can do very much with such an obstinate person as Mrs."
+    },
+    {
+      "id": "s295",
+      "text": "Barry.”"
+    },
+    {
+      "id": "s296",
+      "text": "“Anne, you shouldn’t say such things” rebuked Marilla, striving to overcome that unholy tendency to laughter which she was dismayed to find growing upon her."
+    },
+    {
+      "id": "s297",
+      "text": "And indeed, when she told the whole story to Matthew that night, she did laugh heartily over Anne’s tribulations."
+    },
+    {
+      "id": "s298",
+      "text": "But when she slipped into the east gable before going to bed and found that Anne had cried herself to sleep an unaccustomed softness crept into her face."
+    },
+    {
+      "id": "s299",
+      "text": "“Poor little soul,” she murmured, lifting a loose curl of hair from the child’s tear-stained face."
+    },
+    {
+      "id": "s300",
+      "text": "Then she bent down and kissed the flushed cheek on the pillow."
+    }
+  ]
+}

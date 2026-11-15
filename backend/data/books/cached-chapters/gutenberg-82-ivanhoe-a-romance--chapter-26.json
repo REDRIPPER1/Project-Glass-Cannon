@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-82-ivanhoe-a-romance",
+  "ebookId": "82",
+  "edition": "Project Gutenberg eBook #82; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-26",
+  "chapterTitle": "CHAPTER XXVI",
+  "contentHash": "sha256:91afde05f2da767516604092b5433f439a16dcb47b6702900bb31bd1e8a7eca8",
+  "attribution": "Scott, Walter, 1771-1832, Ivanhoe: A Romance, CHAPTER XXVI. Source checked against Project Gutenberg eBook #82.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/82",
+    "textUrl": "https://www.gutenberg.org/cache/epub/82/pg82.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The hottest horse will oft be cool, The dullest will show fire; The friar will often play the fool, The fool will play the friar."
+    },
+    {
+      "id": "s2",
+      "text": "OLD SONG"
+    },
+    {
+      "id": "s3",
+      "text": "When the Jester, arrayed in the cowl and frock of the hermit, and having his knotted cord twisted round his middle, stood before the portal of the castle of Front-de-Bœuf, the warder demanded of him his name and errand."
+    },
+    {
+      "id": "s4",
+      "text": "“Pax vobiscum,” answered the Jester, “I am a poor brother of the Order of St Francis, who come hither to do my office to certain unhappy prisoners now secured within this castle.”"
+    },
+    {
+      "id": "s5",
+      "text": "“Thou art a bold friar,” said the warder, “to come hither, where, saving our own drunken confessor, a cock of thy feather hath not crowed these twenty years.”"
+    },
+    {
+      "id": "s6",
+      "text": "“Yet I pray thee, do mine errand to the lord of the castle,” answered the pretended friar; “trust me it will find good acceptance with him, and the cock shall crow, that the whole castle shall hear him.”"
+    },
+    {
+      "id": "s7",
+      "text": "“Gramercy,” said the warder; “but if I come to shame for leaving my post upon thine errand, I will try whether a friar’s grey gown be proof against a grey-goose shaft.”"
+    },
+    {
+      "id": "s8",
+      "text": "With this threat he left his turret, and carried to the hall of the castle his unwonted intelligence, that a holy friar stood before the gate and demanded instant admission."
+    },
+    {
+      "id": "s9",
+      "text": "With no small wonder he received his master’s commands to admit the holy man immediately; and, having previously manned the entrance to guard against surprise, he obeyed, without further scruple, the commands which he had received."
+    },
+    {
+      "id": "s10",
+      "text": "The harebrained self-conceit which had emboldened Wamba to undertake this dangerous office, was scarce sufficient to support him when he found himself in the presence of a man so dreadful, and so much dreaded, as Reginald Front-de-Bœuf, and he brought out his “pax vobiscum”, to which he, in a good measure, trusted for supporting his character, with more anxiety and hesitation than had hitherto accompanied it."
+    },
+    {
+      "id": "s11",
+      "text": "But Front-de-Bœuf was accustomed to see men of all ranks tremble in his presence, so that the timidity of the supposed father did not give him any cause of suspicion."
+    },
+    {
+      "id": "s12",
+      "text": "“Who and whence art thou, priest?” said he."
+    },
+    {
+      "id": "s13",
+      "text": "“‘Pax vobiscum’,” reiterated the Jester, “I am a poor servant of St Francis, who, travelling through this wilderness, have fallen among thieves, (as Scripture hath it,) ‘quidam viator incidit in latrones’, which thieves have sent me unto this castle in order to do my ghostly office on two persons condemned by your honourable justice.”"
+    },
+    {
+      "id": "s14",
+      "text": "“Ay, right,” answered Front-de-Bœuf; “and canst thou tell me, holy father, the number of those banditti?”"
+    },
+    {
+      "id": "s15",
+      "text": "“Gallant sir,” answered the Jester, “‘nomen illis legio’, their name is legion.”"
+    },
+    {
+      "id": "s16",
+      "text": "“Tell me in plain terms what numbers there are, or, priest, thy cloak and cord will ill protect thee.”"
+    },
+    {
+      "id": "s17",
+      "text": "“Alas!” said the supposed friar, “‘cor meum eructavit’, that is to say, I was like to burst with fear! but I conceive they may be—what of yeomen—what of commons, at least five hundred men.”"
+    },
+    {
+      "id": "s18",
+      "text": "“What!” said the Templar, who came into the hall that moment, “muster the wasps so thick here? it is time to stifle such a mischievous brood.” Then taking Front-de-Bœuf aside “Knowest thou the priest?”"
+    },
+    {
+      "id": "s19",
+      "text": "“He is a stranger from a distant convent,” said Front-de-Bœuf; “I know him not.”"
+    },
+    {
+      "id": "s20",
+      "text": "“Then trust him not with thy purpose in words,” answered the Templar."
+    },
+    {
+      "id": "s21",
+      "text": "“Let him carry a written order to De Bracy’s company of Free Companions, to repair instantly to their master’s aid."
+    },
+    {
+      "id": "s22",
+      "text": "In the meantime, and that the shaveling may suspect nothing, permit him to go freely about his task of preparing these Saxon hogs for the slaughter-house.”"
+    },
+    {
+      "id": "s23",
+      "text": "“It shall be so,” said Front-de-Bœuf."
+    },
+    {
+      "id": "s24",
+      "text": "And he forthwith appointed a domestic to conduct Wamba to the apartment where Cedric and Athelstane were confined."
+    },
+    {
+      "id": "s25",
+      "text": "The impatience of Cedric had been rather enhanced than diminished by his confinement."
+    },
+    {
+      "id": "s26",
+      "text": "He walked from one end of the hall to the other, with the attitude of one who advances to charge an enemy, or to storm the breach of a beleaguered place, sometimes ejaculating to himself, sometimes addressing Athelstane, who stoutly and stoically awaited the issue of the adventure, digesting, in the meantime, with great composure, the liberal meal which he had made at noon, and not greatly interesting himself about the duration of his captivity, which he concluded, would, like all earthly evils, find an end in Heaven’s good time."
+    },
+    {
+      "id": "s27",
+      "text": "“‘Pax vobiscum’,” said the Jester, entering the apartment; “the blessing of St Dunstan, St Dennis, St Duthoc, and all other saints whatsoever, be upon ye and about ye.”"
+    },
+    {
+      "id": "s28",
+      "text": "“Enter freely,” answered Cedric to the supposed friar; “with what intent art thou come hither?”"
+    },
+    {
+      "id": "s29",
+      "text": "“To bid you prepare yourselves for death,” answered the Jester."
+    },
+    {
+      "id": "s30",
+      "text": "“It is impossible!” replied Cedric, starting."
+    },
+    {
+      "id": "s31",
+      "text": "“Fearless and wicked as they are, they dare not attempt such open and gratuitous cruelty!”"
+    },
+    {
+      "id": "s32",
+      "text": "“Alas!” said the Jester, “to restrain them by their sense of humanity, is the same as to stop a runaway horse with a bridle of silk thread."
+    },
+    {
+      "id": "s33",
+      "text": "Bethink thee, therefore, noble Cedric, and you also, gallant Athelstane, what crimes you have committed in the flesh; for this very day will ye be called to answer at a higher tribunal.”"
+    },
+    {
+      "id": "s34",
+      "text": "“Hearest thou this, Athelstane?” said Cedric; “we must rouse up our hearts to this last action, since better it is we should die like men, than live like slaves.”"
+    },
+    {
+      "id": "s35",
+      "text": "“I am ready,” answered Athelstane, “to stand the worst of their malice, and shall walk to my death with as much composure as ever I did to my dinner.”"
+    },
+    {
+      "id": "s36",
+      "text": "“Let us then unto our holy gear, father,” said Cedric."
+    },
+    {
+      "id": "s37",
+      "text": "“Wait yet a moment, good uncle,” said the Jester, in his natural tone; “better look long before you leap in the dark.”"
+    },
+    {
+      "id": "s38",
+      "text": "“By my faith,” said Cedric, “I should know that voice!”"
+    },
+    {
+      "id": "s39",
+      "text": "“It is that of your trusty slave and jester,” answered Wamba, throwing back his cowl."
+    },
+    {
+      "id": "s40",
+      "text": "“Had you taken a fool’s advice formerly, you would not have been here at all."
+    },
+    {
+      "id": "s41",
+      "text": "Take a fool’s advice now, and you will not be here long.”"
+    },
+    {
+      "id": "s42",
+      "text": "“How mean’st thou, knave?” answered the Saxon."
+    },
+    {
+      "id": "s43",
+      "text": "“Even thus,” replied Wamba; “take thou this frock and cord, which are all the orders I ever had, and march quietly out of the castle, leaving me your cloak and girdle to take the long leap in thy stead.”"
+    },
+    {
+      "id": "s44",
+      "text": "“Leave thee in my stead!” said Cedric, astonished at the proposal; “why, they would hang thee, my poor knave.”"
+    },
+    {
+      "id": "s45",
+      "text": "“E’en let them do as they are permitted,” said Wamba; “I trust—no disparagement to your birth—that the son of Witless may hang in a chain with as much gravity as the chain hung upon his ancestor the alderman.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Well, Wamba,” answered Cedric, “for one thing will I grant thy request."
+    },
+    {
+      "id": "s47",
+      "text": "And that is, if thou wilt make the exchange of garments with Lord Athelstane instead of me.”"
+    },
+    {
+      "id": "s48",
+      "text": "“No, by St Dunstan,” answered Wamba; “there were little reason in that."
+    },
+    {
+      "id": "s49",
+      "text": "Good right there is, that the son of Witless should suffer to save the son of Hereward; but little wisdom there were in his dying for the benefit of one whose fathers were strangers to his.”"
+    },
+    {
+      "id": "s50",
+      "text": "“Villain,” said Cedric, “the fathers of Athelstane were monarchs of England!”"
+    },
+    {
+      "id": "s51",
+      "text": "“They might be whomsoever they pleased,” replied Wamba; “but my neck stands too straight upon my shoulders to have it twisted for their sake."
+    },
+    {
+      "id": "s52",
+      "text": "Wherefore, good my master, either take my proffer yourself, or suffer me to leave this dungeon as free as I entered.”"
+    },
+    {
+      "id": "s53",
+      "text": "“Let the old tree wither,” continued Cedric, “so the stately hope of the forest be preserved."
+    },
+    {
+      "id": "s54",
+      "text": "Save the noble Athelstane, my trusty Wamba! it is the duty of each who has Saxon blood in his veins."
+    },
+    {
+      "id": "s55",
+      "text": "Thou and I will abide together the utmost rage of our injurious oppressors, while he, free and safe, shall arouse the awakened spirits of our countrymen to avenge us.”"
+    },
+    {
+      "id": "s56",
+      "text": "“Not so, father Cedric,” said Athelstane, grasping his hand,—for, when roused to think or act, his deeds and sentiments were not unbecoming his high race—“Not so,” he continued; “I would rather remain in this hall a week without food save the prisoner’s stinted loaf, or drink save the prisoner’s measure of water, than embrace the opportunity to escape which the slave’s untaught kindness has purveyed for his master.”"
+    },
+    {
+      "id": "s57",
+      "text": "“You are called wise men, sirs,” said the Jester, “and I a crazed fool; but, uncle Cedric, and cousin Athelstane, the fool shall decide this controversy for ye, and save ye the trouble of straining courtesies any farther."
+    },
+    {
+      "id": "s58",
+      "text": "I am like John-a-Duck’s mare, that will let no man mount her but John-a-Duck."
+    },
+    {
+      "id": "s59",
+      "text": "I came to save my master, and if he will not consent—basta—I can but go away home again."
+    },
+    {
+      "id": "s60",
+      "text": "Kind service cannot be chucked from hand to hand like a shuttlecock or stool-ball."
+    },
+    {
+      "id": "s61",
+      "text": "I’ll hang for no man but my own born master.”"
+    },
+    {
+      "id": "s62",
+      "text": "“Go, then, noble Cedric,” said Athelstane, “neglect not this opportunity."
+    },
+    {
+      "id": "s63",
+      "text": "Your presence without may encourage friends to our rescue—your remaining here would ruin us all.”"
+    },
+    {
+      "id": "s64",
+      "text": "“And is there any prospect, then, of rescue from without?” said Cedric, looking to the Jester."
+    },
+    {
+      "id": "s65",
+      "text": "“Prospect, indeed!” echoed Wamba; “let me tell you, when you fill my cloak, you are wrapped in a general’s cassock."
+    },
+    {
+      "id": "s66",
+      "text": "Five hundred men are there without, and I was this morning one of the chief leaders."
+    },
+    {
+      "id": "s67",
+      "text": "My fool’s cap was a casque, and my bauble a truncheon."
+    },
+    {
+      "id": "s68",
+      "text": "Well, we shall see what good they will make by exchanging a fool for a wise man."
+    },
+    {
+      "id": "s69",
+      "text": "Truly, I fear they will lose in valour what they may gain in discretion."
+    },
+    {
+      "id": "s70",
+      "text": "And so farewell, master, and be kind to poor Gurth and his dog Fangs; and let my cockscomb hang in the hall at Rotherwood, in memory that I flung away my life for my master, like a faithful—-fool.”"
+    },
+    {
+      "id": "s71",
+      "text": "The last word came out with a sort of double expression, betwixt jest and earnest."
+    },
+    {
+      "id": "s72",
+      "text": "The tears stood in Cedric’s eyes."
+    },
+    {
+      "id": "s73",
+      "text": "“Thy memory shall be preserved,” he said, “while fidelity and affection have honour upon earth!"
+    },
+    {
+      "id": "s74",
+      "text": "But that I trust I shall find the means of saving Rowena, and thee, Athelstane, and thee, also, my poor Wamba, thou shouldst not overbear me in this matter.”"
+    },
+    {
+      "id": "s75",
+      "text": "The exchange of dress was now accomplished, when a sudden doubt struck Cedric."
+    },
+    {
+      "id": "s76",
+      "text": "“I know no language,” he said, “but my own, and a few words of their mincing Norman."
+    },
+    {
+      "id": "s77",
+      "text": "How shall I bear myself like a reverend brother?”"
+    },
+    {
+      "id": "s78",
+      "text": "“The spell lies in two words,” replied Wamba—“‘Pax vobiscum’ will answer all queries."
+    },
+    {
+      "id": "s79",
+      "text": "If you go or come, eat or drink, bless or ban, ‘Pax vobiscum’ carries you through it all."
+    },
+    {
+      "id": "s80",
+      "text": "It is as useful to a friar as a broomstick to a witch, or a wand to a conjurer."
+    },
+    {
+      "id": "s81",
+      "text": "Speak it but thus, in a deep grave tone,—‘Pax vobiscum!’—it is irresistible—Watch and ward, knight and squire, foot and horse, it acts as a charm upon them all."
+    },
+    {
+      "id": "s82",
+      "text": "I think, if they bring me out to be hanged to-morrow, as is much to be doubted they may, I will try its weight upon the finisher of the sentence.”"
+    },
+    {
+      "id": "s83",
+      "text": "“If such prove the case,” said the master, “my religious orders are soon taken—‘Pax vobiscum’."
+    },
+    {
+      "id": "s84",
+      "text": "I trust I shall remember the pass-word.—Noble Athelstane, farewell; and farewell, my poor boy, whose heart might make amends for a weaker head—I will save you, or return and die with you."
+    },
+    {
+      "id": "s85",
+      "text": "The royal blood of our Saxon kings shall not be spilt while mine beats in my veins; nor shall one hair fall from the head of the kind knave who risked himself for his master, if Cedric’s peril can prevent it.—Farewell.”"
+    },
+    {
+      "id": "s86",
+      "text": "“Farewell, noble Cedric,” said Athelstane; “remember it is the true part of a friar to accept refreshment, if you are offered any.”"
+    },
+    {
+      "id": "s87",
+      "text": "“Farewell, uncle,” added Wamba; “and remember ‘Pax vobiscum’.”"
+    },
+    {
+      "id": "s88",
+      "text": "Thus exhorted, Cedric sallied forth upon his expedition; and it was not long ere he had occasion to try the force of that spell which his Jester had recommended as omnipotent."
+    },
+    {
+      "id": "s89",
+      "text": "In a low-arched and dusky passage, by which he endeavoured to work his way to the hall of the castle, he was interrupted by a female form."
+    },
+    {
+      "id": "s90",
+      "text": "“‘Pax vobiscum!’” said the pseudo friar, and was endeavouring to hurry past, when a soft voice replied, “‘Et vobis—quaso, domine reverendissime, pro misericordia vestra’.”"
+    },
+    {
+      "id": "s91",
+      "text": "“I am somewhat deaf,” replied Cedric, in good Saxon, and at the same time muttered to himself, “A curse on the fool and his ‘Pax vobiscum!’ I have lost my javelin at the first cast.”"
+    },
+    {
+      "id": "s92",
+      "text": "It was, however, no unusual thing for a priest of those days to be deaf of his Latin ear, and this the person who now addressed Cedric knew full well."
+    },
+    {
+      "id": "s93",
+      "text": "“I pray you of dear love, reverend father,” she replied in his own language, “that you will deign to visit with your ghostly comfort a wounded prisoner of this castle, and have such compassion upon him and us as thy holy office teaches—Never shall good deed so highly advantage thy convent.”"
+    },
+    {
+      "id": "s94",
+      "text": "“Daughter,” answered Cedric, much embarrassed, “my time in this castle will not permit me to exercise the duties of mine office—I must presently forth—there is life and death upon my speed.”"
+    },
+    {
+      "id": "s95",
+      "text": "“Yet, father, let me entreat you by the vow you have taken on you,” replied the suppliant, “not to leave the oppressed and endangered without counsel or succour.”"
+    },
+    {
+      "id": "s96",
+      "text": "“May the fiend fly away with me, and leave me in Ifrin with the souls of Odin and of Thor!” answered Cedric impatiently, and would probably have proceeded in the same tone of total departure from his spiritual character, when the colloquy was interrupted by the harsh voice of Urfried, the old crone of the turret."
+    },
+    {
+      "id": "s97",
+      "text": "“How, minion,” said she to the female speaker, “is this the manner in which you requite the kindness which permitted thee to leave thy prison-cell yonder?—Puttest thou the reverend man to use ungracious language to free himself from the importunities of a Jewess?”"
+    },
+    {
+      "id": "s98",
+      "text": "“A Jewess!” said Cedric, availing himself of the information to get clear of their interruption,—“Let me pass, woman! stop me not at your peril."
+    },
+    {
+      "id": "s99",
+      "text": "I am fresh from my holy office, and would avoid pollution.”"
+    },
+    {
+      "id": "s100",
+      "text": "“Come this way, father,” said the old hag, “thou art a stranger in this castle, and canst not leave it without a guide."
+    },
+    {
+      "id": "s101",
+      "text": "Come hither, for I would speak with thee.—And you, daughter of an accursed race, go to the sick man’s chamber, and tend him until my return; and woe betide you if you again quit it without my permission!”"
+    },
+    {
+      "id": "s102",
+      "text": "Rebecca retreated."
+    },
+    {
+      "id": "s103",
+      "text": "Her importunities had prevailed upon Urfried to suffer her to quit the turret, and Urfried had employed her services where she herself would most gladly have paid them, by the bedside of the wounded Ivanhoe."
+    },
+    {
+      "id": "s104",
+      "text": "With an understanding awake to their dangerous situation, and prompt to avail herself of each means of safety which occurred, Rebecca had hoped something from the presence of a man of religion, who, she learned from Urfried, had penetrated into this godless castle."
+    },
+    {
+      "id": "s105",
+      "text": "She watched the return of the supposed ecclesiastic, with the purpose of addressing him, and interesting him in favour of the prisoners; with what imperfect success the reader has been just acquainted."
+    }
+  ]
+}

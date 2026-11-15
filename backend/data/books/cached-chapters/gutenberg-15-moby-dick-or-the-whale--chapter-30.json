@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-30",
+  "chapterTitle": "CHAPTER XXX.",
+  "contentHash": "sha256:c15cceeced599232a460f1215c7603b6b52ea05fd191cb61b887d566fc532344",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER XXX.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE PIPE."
+    },
+    {
+      "id": "s2",
+      "text": "When Stubb had departed, Ahab stood for a while leaning over the bulwarks; and then, as had been usual with him of late, calling a sailor of the watch, he sent him below for his ivory stool, and also his pipe."
+    },
+    {
+      "id": "s3",
+      "text": "Lighting the pipe at the binnacle lamp and planting the stool on the weather side of the deck, he sat and smoked."
+    },
+    {
+      "id": "s4",
+      "text": "In old Norse times, the thrones of the sea-loving Danish kings were fabricated, saith tradition, of the tusks of the narwhale."
+    },
+    {
+      "id": "s5",
+      "text": "How could one look at Ahab then, seated on that tripod of bones, without bethinking him of the royalty it symbolized?"
+    },
+    {
+      "id": "s6",
+      "text": "For a Khan of the plank, and a king of the sea, and a great lord of Leviathans was Ahab."
+    },
+    {
+      "id": "s7",
+      "text": "Some moments passed, during which the thick vapor came from his mouth in quick and constant puffs, which blew back again into his face."
+    },
+    {
+      "id": "s8",
+      "text": "“How now,” he soliloquized at last, withdrawing the tube, “this smoking no longer soothes."
+    },
+    {
+      "id": "s9",
+      "text": "Oh, my pipe! hard must it go with me if thy charm be gone!"
+    },
+    {
+      "id": "s10",
+      "text": "Here have I been unconsciously toiling, not pleasuring,—aye, and ignorantly smoking to windward all the while; to windward, and with such nervous whiffs, as if, like the dying whale, my final jets were the strongest and fullest of trouble."
+    },
+    {
+      "id": "s11",
+      "text": "What business have I with this pipe?"
+    },
+    {
+      "id": "s12",
+      "text": "This thing that is meant for sereneness, to send up mild white vapors among mild white hairs, not among torn iron-grey locks like mine."
+    },
+    {
+      "id": "s13",
+      "text": "I’ll smoke no more—”"
+    },
+    {
+      "id": "s14",
+      "text": "He tossed the still lighted pipe into the sea."
+    },
+    {
+      "id": "s15",
+      "text": "The fire hissed in the waves; the same instant the ship shot by the bubble the sinking pipe made."
+    },
+    {
+      "id": "s16",
+      "text": "With slouched hat, Ahab lurchingly paced the planks."
+    }
+  ]
+}

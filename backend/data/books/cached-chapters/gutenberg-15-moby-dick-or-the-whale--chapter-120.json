@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-15-moby-dick-or-the-whale",
+  "ebookId": "15",
+  "edition": "Project Gutenberg eBook #15; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-120",
+  "chapterTitle": "CHAPTER CXX.",
+  "contentHash": "sha256:f3086f3417254f5b86496a24c2aa82f707a7ccff2fe7dbca6eb4d57583719e7d",
+  "attribution": "Melville, Herman, 1819-1891, Moby-Dick; or, The Whale, CHAPTER CXX.. Source checked against Project Gutenberg eBook #15.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/15",
+    "textUrl": "https://www.gutenberg.org/cache/epub/15/pg15.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE DECK TOWARDS THE END OF THE FIRST NIGHT WATCH."
+    },
+    {
+      "id": "s2",
+      "text": "_Ahab standing by the helm."
+    },
+    {
+      "id": "s3",
+      "text": "Starbuck approaching him._"
+    },
+    {
+      "id": "s4",
+      "text": "“We must send down the main-top-sail yard, sir."
+    },
+    {
+      "id": "s5",
+      "text": "The band is working loose, and the lee lift is half-stranded."
+    },
+    {
+      "id": "s6",
+      "text": "Shall I strike it, sir?”"
+    },
+    {
+      "id": "s7",
+      "text": "“Strike nothing; lash it."
+    },
+    {
+      "id": "s8",
+      "text": "If I had sky-sail poles, I’d sway them up now.”"
+    },
+    {
+      "id": "s9",
+      "text": "“Sir?—in God’s name!—sir?”"
+    },
+    {
+      "id": "s10",
+      "text": "“Well.”"
+    },
+    {
+      "id": "s11",
+      "text": "“The anchors are working, sir."
+    },
+    {
+      "id": "s12",
+      "text": "Shall I get them inboard?”"
+    },
+    {
+      "id": "s13",
+      "text": "“Strike nothing, and stir nothing, but lash everything."
+    },
+    {
+      "id": "s14",
+      "text": "The wind rises, but it has not got up to my table-lands yet."
+    },
+    {
+      "id": "s15",
+      "text": "Quick, and see to it.—By masts and keels! he takes me for the hunch-backed skipper of some coasting smack."
+    },
+    {
+      "id": "s16",
+      "text": "Send down my main-top-sail yard!"
+    },
+    {
+      "id": "s17",
+      "text": "Ho, gluepots!"
+    },
+    {
+      "id": "s18",
+      "text": "Loftiest trucks were made for wildest winds, and this brain-truck of mine now sails amid the cloud-scud."
+    },
+    {
+      "id": "s19",
+      "text": "Shall I strike that?"
+    },
+    {
+      "id": "s20",
+      "text": "Oh, none but cowards send down their brain-trucks in tempest time."
+    },
+    {
+      "id": "s21",
+      "text": "What a hooroosh aloft there!"
+    },
+    {
+      "id": "s22",
+      "text": "I would e’en take it for sublime, did I not know that the colic is a noisy malady."
+    },
+    {
+      "id": "s23",
+      "text": "Oh, take medicine, take medicine!”"
+    }
+  ]
+}

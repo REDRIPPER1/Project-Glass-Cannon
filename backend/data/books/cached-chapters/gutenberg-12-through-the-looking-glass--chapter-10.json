@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-12-through-the-looking-glass",
+  "ebookId": "12",
+  "edition": "Project Gutenberg eBook #12; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-10",
+  "chapterTitle": "CHAPTER X.",
+  "contentHash": "sha256:2a96d5d78ad0215fb5191940303289897007e74c404a7fdebc32f135ad67809c",
+  "attribution": "Carroll, Lewis, 1832-1898, Through the Looking-Glass, CHAPTER X.. Source checked against Project Gutenberg eBook #12.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/12",
+    "textUrl": "https://www.gutenberg.org/cache/epub/12/pg12.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Shaking"
+    },
+    {
+      "id": "s2",
+      "text": "She took her off the table as she spoke, and shook her backwards and forwards with all her might."
+    },
+    {
+      "id": "s3",
+      "text": "The Red Queen made no resistance whatever; only her face grew very small, and her eyes got large and green: and still, as Alice went on shaking her, she kept on growing shorter—and fatter—and softer—and rounder—and—"
+    }
+  ]
+}

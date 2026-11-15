@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-93-tom-sawyer-detective",
+  "ebookId": "93",
+  "edition": "Project Gutenberg eBook #93; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-3",
+  "chapterTitle": "CHAPTER III.",
+  "contentHash": "sha256:2d3395a5f08f44ef36cce002f3ba3c40fa02c39cd1147d80d675336a47fea907",
+  "attribution": "Twain, Mark, 1835-1910, Tom Sawyer, Detective, CHAPTER III.. Source checked against Project Gutenberg eBook #93.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/93",
+    "textUrl": "https://www.gutenberg.org/cache/epub/93/pg93.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A DIAMOND ROBBERY"
+    },
+    {
+      "id": "s2",
+      "text": "From that time out, we was with him ’most all the time, and one or t’other of us slept in his upper berth."
+    },
+    {
+      "id": "s3",
+      "text": "He said he had been so lonesome, and it was such a comfort to him to have company, and somebody to talk to in his troubles."
+    },
+    {
+      "id": "s4",
+      "text": "We was in a sweat to find out what his secret was, but Tom said the best way was not to seem anxious, then likely he would drop into it himself in one of his talks, but if we got to asking questions he would get suspicious and shet up his shell."
+    },
+    {
+      "id": "s5",
+      "text": "It turned out just so."
+    },
+    {
+      "id": "s6",
+      "text": "It warn’t no trouble to see that he _wanted_ to talk about it, but always along at first he would scare away from it when he got on the very edge of it, and go to talking about something else."
+    },
+    {
+      "id": "s7",
+      "text": "The way it come about was this: He got to asking us, kind of indifferent like, about the passengers down on deck."
+    },
+    {
+      "id": "s8",
+      "text": "We told him about them."
+    },
+    {
+      "id": "s9",
+      "text": "But he warn’t satisfied; we warn’t particular enough."
+    },
+    {
+      "id": "s10",
+      "text": "He told us to describe them better."
+    },
+    {
+      "id": "s11",
+      "text": "Tom done it."
+    },
+    {
+      "id": "s12",
+      "text": "At last, when Tom was describing one of the roughest and raggedest ones, he gave a shiver and a gasp and says:"
+    },
+    {
+      "id": "s13",
+      "text": "“Oh, lordy, that’s one of them!"
+    },
+    {
+      "id": "s14",
+      "text": "They’re aboard sure—I just knowed it."
+    },
+    {
+      "id": "s15",
+      "text": "I sort of hoped I had got away, but I never believed it."
+    },
+    {
+      "id": "s16",
+      "text": "Go on.”"
+    },
+    {
+      "id": "s17",
+      "text": "Presently when Tom was describing another mangy, rough deck passenger, he give that shiver again and says:"
+    },
+    {
+      "id": "s18",
+      "text": "“That’s him!—that’s the other one."
+    },
+    {
+      "id": "s19",
+      "text": "If it would only come a good black stormy night and I could get ashore."
+    },
+    {
+      "id": "s20",
+      "text": "You see, they’ve got spies on me."
+    },
+    {
+      "id": "s21",
+      "text": "They’ve got a right to come up and buy drinks at the bar yonder forrard, and they take that chance to bribe somebody to keep watch on me—porter or boots or somebody."
+    },
+    {
+      "id": "s22",
+      "text": "If I was to slip ashore without anybody seeing me, they would know it inside of an hour.”"
+    },
+    {
+      "id": "s23",
+      "text": "So then he got to wandering along, and pretty soon, sure enough, he was telling!"
+    },
+    {
+      "id": "s24",
+      "text": "He was poking along through his ups and downs, and when he come to that place he went right along."
+    },
+    {
+      "id": "s25",
+      "text": "He says:"
+    },
+    {
+      "id": "s26",
+      "text": "“It was a confidence game."
+    },
+    {
+      "id": "s27",
+      "text": "We played it on a julery-shop in St."
+    },
+    {
+      "id": "s28",
+      "text": "Louis."
+    },
+    {
+      "id": "s29",
+      "text": "What we was after was a couple of noble big di’monds as big as hazel-nuts, which everybody was running to see."
+    },
+    {
+      "id": "s30",
+      "text": "We was dressed up fine, and we played it on them in broad daylight."
+    },
+    {
+      "id": "s31",
+      "text": "We ordered the di’monds sent to the hotel for us to see if we wanted to buy, and when we was examining them we had paste counterfeits all ready, and _them_ was the things that went back to the shop when we said the water wasn’t quite fine enough for twelve thousand dollars.”"
+    },
+    {
+      "id": "s32",
+      "text": "“Twelve-thousand-dollars!” Tom says."
+    },
+    {
+      "id": "s33",
+      "text": "“Was they really worth all that money, do you reckon?”"
+    },
+    {
+      "id": "s34",
+      "text": "“Every cent of it.”"
+    },
+    {
+      "id": "s35",
+      "text": "“And you fellows got away with them?”"
+    },
+    {
+      "id": "s36",
+      "text": "“As easy as nothing."
+    },
+    {
+      "id": "s37",
+      "text": "I don’t reckon the julery people know they’ve been robbed yet."
+    },
+    {
+      "id": "s38",
+      "text": "But it wouldn’t be good sense to stay around St."
+    },
+    {
+      "id": "s39",
+      "text": "Louis, of course, so we considered where we’d go."
+    },
+    {
+      "id": "s40",
+      "text": "One was for going one way, one another, so we throwed up, heads or tails, and the Upper Mississippi won."
+    },
+    {
+      "id": "s41",
+      "text": "We done up the di’monds in a paper and put our names on it and put it in the keep of the hotel clerk, and told him not to ever let either of us have it again without the others was on hand to see it done; then we went down town, each by his own self—because I reckon maybe we all had the same notion."
+    },
+    {
+      "id": "s42",
+      "text": "I don’t know for certain, but I reckon maybe we had.”"
+    },
+    {
+      "id": "s43",
+      "text": "“What notion?” Tom says."
+    },
+    {
+      "id": "s44",
+      "text": "“To rob the others.”"
+    },
+    {
+      "id": "s45",
+      "text": "“What—one take everything, after all of you had helped to get it?”"
+    },
+    {
+      "id": "s46",
+      "text": "“Cert’nly.”"
+    },
+    {
+      "id": "s47",
+      "text": "It disgusted Tom Sawyer, and he said it was the orneriest, low-downest thing he ever heard of."
+    },
+    {
+      "id": "s48",
+      "text": "But Jake Dunlap said it warn’t unusual in the profession."
+    },
+    {
+      "id": "s49",
+      "text": "Said when a person was in that line of business he’d got to look out for his own intrust, there warn’t nobody else going to do it for him."
+    },
+    {
+      "id": "s50",
+      "text": "And then he went on."
+    },
+    {
+      "id": "s51",
+      "text": "He says:"
+    },
+    {
+      "id": "s52",
+      "text": "“You see, the trouble was, you couldn’t divide up two di’monds amongst three."
+    },
+    {
+      "id": "s53",
+      "text": "If there’d been three—But never mind about that, there warn’t three."
+    },
+    {
+      "id": "s54",
+      "text": "I loafed along the back streets studying and studying."
+    },
+    {
+      "id": "s55",
+      "text": "And I says to myself, I’ll hog them di’monds the first chance I get, and I’ll have a disguise all ready, and I’ll give the boys the slip, and when I’m safe away I’ll put it on, and then let them find me if they can."
+    },
+    {
+      "id": "s56",
+      "text": "So I got the false whiskers and the goggles and this countrified suit of clothes, and fetched them along back in a hand-bag; and when I was passing a shop where they sell all sorts of things, I got a glimpse of one of my pals through the window."
+    },
+    {
+      "id": "s57",
+      "text": "It was Bud Dixon."
+    },
+    {
+      "id": "s58",
+      "text": "I was glad, you bet."
+    },
+    {
+      "id": "s59",
+      "text": "I says to myself, I’ll see what he buys."
+    },
+    {
+      "id": "s60",
+      "text": "So I kept shady, and watched."
+    },
+    {
+      "id": "s61",
+      "text": "Now what do you reckon it was he bought?”"
+    },
+    {
+      "id": "s62",
+      "text": "“Whiskers?” said I."
+    },
+    {
+      "id": "s63",
+      "text": "“No.”"
+    },
+    {
+      "id": "s64",
+      "text": "“Goggles?”"
+    },
+    {
+      "id": "s65",
+      "text": "“No.”"
+    },
+    {
+      "id": "s66",
+      "text": "“Oh, keep still, Huck Finn, can’t you, you’re only just hendering all you can."
+    },
+    {
+      "id": "s67",
+      "text": "What _was_ it he bought, Jake?”"
+    },
+    {
+      "id": "s68",
+      "text": "“You’d never guess in the world."
+    },
+    {
+      "id": "s69",
+      "text": "It was only just a screwdriver—just a wee little bit of a screwdriver.”"
+    },
+    {
+      "id": "s70",
+      "text": "“Well, I declare!"
+    },
+    {
+      "id": "s71",
+      "text": "What did he want with that?”"
+    },
+    {
+      "id": "s72",
+      "text": "“That’s what I thought."
+    },
+    {
+      "id": "s73",
+      "text": "It was curious."
+    },
+    {
+      "id": "s74",
+      "text": "It clean stumped me."
+    },
+    {
+      "id": "s75",
+      "text": "I says to myself, what can he want with that thing?"
+    },
+    {
+      "id": "s76",
+      "text": "Well, when he come out I stood back out of sight, and then tracked him to a second-hand slop-shop and see him buy a red flannel shirt and some old ragged clothes—just the ones he’s got on now, as you’ve described."
+    },
+    {
+      "id": "s77",
+      "text": "Then I went down to the wharf and hid my things aboard the up-river boat that we had picked out, and then started back and had another streak of luck."
+    },
+    {
+      "id": "s78",
+      "text": "I seen our other pal lay in _his_ stock of old rusty second-handers."
+    },
+    {
+      "id": "s79",
+      "text": "We got the di’monds and went aboard the boat."
+    },
+    {
+      "id": "s80",
+      "text": "“But now we was up a stump, for we couldn’t go to bed."
+    },
+    {
+      "id": "s81",
+      "text": "We had to set up and watch one another."
+    },
+    {
+      "id": "s82",
+      "text": "Pity, that was; pity to put that kind of a strain on us, because there was bad blood between us from a couple of weeks back, and we was only friends in the way of business."
+    },
+    {
+      "id": "s83",
+      "text": "Bad anyway, seeing there was only two di’monds betwixt three men."
+    },
+    {
+      "id": "s84",
+      "text": "First we had supper, and then tramped up and down the deck together smoking till most midnight; then we went and set down in my stateroom and locked the doors and looked in the piece of paper to see if the di’monds was all right, then laid it on the lower berth right in full sight; and there we set, and set, and by-and-by it got to be dreadful hard to keep awake."
+    },
+    {
+      "id": "s85",
+      "text": "At last Bud Dixon he dropped off."
+    },
+    {
+      "id": "s86",
+      "text": "As soon as he was snoring a good regular gait that was likely to last, and had his chin on his breast and looked permanent, Hal Clayton nodded towards the di’monds and then towards the outside door, and I understood."
+    },
+    {
+      "id": "s87",
+      "text": "I reached and got the paper, and then we stood up and waited perfectly still; Bud never stirred; I turned the key of the outside door very soft and slow, then turned the knob the same way, and we went tiptoeing out onto the guard, and shut the door very soft and gentle."
+    },
+    {
+      "id": "s88",
+      "text": "[Illustration: We stood up and waited perfectly still.]"
+    },
+    {
+      "id": "s89",
+      "text": "“There warn’t nobody stirring anywhere, and the boat was slipping along, swift and steady, through the big water in the smoky moonlight."
+    },
+    {
+      "id": "s90",
+      "text": "We never said a word, but went straight up onto the hurricane-deck and plumb back aft, and set down on the end of the sky-light."
+    },
+    {
+      "id": "s91",
+      "text": "Both of us knowed what that meant, without having to explain to one another."
+    },
+    {
+      "id": "s92",
+      "text": "Bud Dixon would wake up and miss the swag, and would come straight for us, for he ain’t afeard of anything or anybody, that man ain’t."
+    },
+    {
+      "id": "s93",
+      "text": "He would come, and we would heave him overboard, or get killed trying."
+    },
+    {
+      "id": "s94",
+      "text": "It made me shiver, because I ain’t as brave as some people, but if I showed the white feather—well, I knowed better than do that."
+    },
+    {
+      "id": "s95",
+      "text": "I kind of hoped the boat would land somers, and we could skip ashore and not have to run the risk of this row, I was so scared of Bud Dixon, but she was an upper-river tub and there warn’t no real chance of that."
+    },
+    {
+      "id": "s96",
+      "text": "“Well, the time strung along and along, and that fellow never come!"
+    },
+    {
+      "id": "s97",
+      "text": "Why, it strung along till dawn begun to break, and still he never come. ‘Thunder,’ I says, ‘what do you make out of this?—ain’t it suspicious?’ ‘Land!’ Hal says, ‘do you reckon he’s playing us?—open the paper!’ I done it, and by gracious there warn’t anything in it but a couple of little pieces of loaf-sugar! _that’s_ the reason he could set there and snooze all night so comfortable."
+    },
+    {
+      "id": "s98",
+      "text": "Smart?"
+    },
+    {
+      "id": "s99",
+      "text": "Well, I reckon!"
+    },
+    {
+      "id": "s100",
+      "text": "He had had them two papers all fixed and ready, and he had put one of them in place of t’other right under our noses."
+    },
+    {
+      "id": "s101",
+      "text": "“We felt pretty cheap."
+    },
+    {
+      "id": "s102",
+      "text": "But the thing to do, straight off, was to make a plan; and we done it."
+    },
+    {
+      "id": "s103",
+      "text": "We would do up the paper again, just as it was, and slip in, very elaborate and soft, and lay it on the bunk again, and let on _we_ didn’t know about any trick, and hadn’t any idea he was a-laughing at us behind them bogus snores of his’n; and we would stick by him, and the first night we was ashore we would get him drunk and search him, and get the di’monds; and _do_ for him, too, if it warn’t too risky."
+    },
+    {
+      "id": "s104",
+      "text": "If we got the swag, we’d _got_ to do for him, or he would hunt us down and do for us, sure."
+    },
+    {
+      "id": "s105",
+      "text": "But I didn’t have no real hope."
+    },
+    {
+      "id": "s106",
+      "text": "I knowed we could get him drunk—he was always ready for that—but what’s the good of it?"
+    },
+    {
+      "id": "s107",
+      "text": "You might search him a year and never find—Well, right there I catched my breath and broke off my thought!"
+    },
+    {
+      "id": "s108",
+      "text": "For an idea went ripping through my head that tore my brains to rags—and land, but I felt gay and good!"
+    },
+    {
+      "id": "s109",
+      "text": "You see, I had had my boots off, to unswell my feet, and just then I took up one of them to put it on, and I catched a glimpse of the heel-bottom, and it just took my breath away."
+    },
+    {
+      "id": "s110",
+      "text": "You remember about that puzzlesome little screwdriver?”"
+    },
+    {
+      "id": "s111",
+      "text": "“You bet I do,” says Tom, all excited."
+    },
+    {
+      "id": "s112",
+      "text": "“Well, when I catched that glimpse of that boot heel, the idea that went smashing through my head was, I know where he’s hid the di’monds!"
+    },
+    {
+      "id": "s113",
+      "text": "You look at this boot heel, now."
+    },
+    {
+      "id": "s114",
+      "text": "See, it’s bottomed with a steel plate, and the plate is fastened on with little screws."
+    },
+    {
+      "id": "s115",
+      "text": "Now there wasn’t a screw about that feller anywhere but in his boot heels; so, if he needed a screwdriver, I reckoned I knowed why.”"
+    },
+    {
+      "id": "s116",
+      "text": "“Huck, ain’t it bully!” says Tom."
+    },
+    {
+      "id": "s117",
+      "text": "“Well, I got my boots on, and we went down and slipped in and laid the paper of sugar on the berth, and sat down soft and sheepish and went to listening to Bud Dixon snore."
+    },
+    {
+      "id": "s118",
+      "text": "Hal Clayton dropped off pretty soon, but I didn’t; I wasn’t ever so wide awake in my life."
+    },
+    {
+      "id": "s119",
+      "text": "I was spying out from under the shade of my hat brim, searching the floor for leather."
+    },
+    {
+      "id": "s120",
+      "text": "It took me a long time, and I begun to think maybe my guess was wrong, but at last I struck it."
+    },
+    {
+      "id": "s121",
+      "text": "It laid over by the bulkhead, and was nearly the color of the carpet."
+    },
+    {
+      "id": "s122",
+      "text": "It was a little round plug about as thick as the end of your little finger, and I says to myself there’s a di’mond in the nest you’ve come from."
+    },
+    {
+      "id": "s123",
+      "text": "Before long I spied out the plug’s mate."
+    },
+    {
+      "id": "s124",
+      "text": "“Think of the smartness and coolness of that blatherskite!"
+    },
+    {
+      "id": "s125",
+      "text": "He put up that scheme on us and reasoned out what we would do, and we went ahead and done it perfectly exact, like a couple of pudd’nheads."
+    },
+    {
+      "id": "s126",
+      "text": "He set there and took his own time to unscrew his heelplates and cut out his plugs and stick in the di’monds and screw on his plates again."
+    },
+    {
+      "id": "s127",
+      "text": "He allowed we would steal the bogus swag and wait all night for him to come up and get drownded, and by George it’s just what we done!"
+    },
+    {
+      "id": "s128",
+      "text": "I think it was powerful smart.”"
+    },
+    {
+      "id": "s129",
+      "text": "“You bet your life it was!” says Tom, just full of admiration."
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-74-the-adventures-of-tom-sawyer-complete",
+  "ebookId": "74",
+  "edition": "Project Gutenberg eBook #74; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-2",
+  "chapterTitle": "CHAPTER II",
+  "contentHash": "sha256:166c713f14ed3cecf92eec3102936409e23d735eea9ba9be498c320285d6c05a",
+  "attribution": "Twain, Mark, 1835-1910, The Adventures of Tom Sawyer, Complete, CHAPTER II. Source checked against Project Gutenberg eBook #74.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/74",
+    "textUrl": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Saturday morning was come, and all the summer world was bright and fresh, and brimming with life."
+    },
+    {
+      "id": "s2",
+      "text": "There was a song in every heart; and if the heart was young the music issued at the lips."
+    },
+    {
+      "id": "s3",
+      "text": "There was cheer in every face and a spring in every step."
+    },
+    {
+      "id": "s4",
+      "text": "The locust-trees were in bloom and the fragrance of the blossoms filled the air."
+    },
+    {
+      "id": "s5",
+      "text": "Cardiff Hill, beyond the village and above it, was green with vegetation and it lay just far enough away to seem a Delectable Land, dreamy, reposeful, and inviting."
+    },
+    {
+      "id": "s6",
+      "text": "Tom appeared on the sidewalk with a bucket of whitewash and a long-handled brush."
+    },
+    {
+      "id": "s7",
+      "text": "He surveyed the fence, and all gladness left him and a deep melancholy settled down upon his spirit."
+    },
+    {
+      "id": "s8",
+      "text": "Thirty yards of board fence nine feet high."
+    },
+    {
+      "id": "s9",
+      "text": "Life to him seemed hollow, and existence but a burden."
+    },
+    {
+      "id": "s10",
+      "text": "Sighing, he dipped his brush and passed it along the topmost plank; repeated the operation; did it again; compared the insignificant whitewashed streak with the far-reaching continent of unwhitewashed fence, and sat down on a tree-box discouraged."
+    },
+    {
+      "id": "s11",
+      "text": "Jim came skipping out at the gate with a tin pail, and singing Buffalo Gals."
+    },
+    {
+      "id": "s12",
+      "text": "Bringing water from the town pump had always been hateful work in Tom’s eyes, before, but now it did not strike him so."
+    },
+    {
+      "id": "s13",
+      "text": "He remembered that there was company at the pump."
+    },
+    {
+      "id": "s14",
+      "text": "White, mulatto, and negro boys and girls were always there waiting their turns, resting, trading playthings, quarrelling, fighting, skylarking."
+    },
+    {
+      "id": "s15",
+      "text": "And he remembered that although the pump was only a hundred and fifty yards off, Jim never got back with a bucket of water under an hour—and even then somebody generally had to go after him."
+    },
+    {
+      "id": "s16",
+      "text": "Tom said:"
+    },
+    {
+      "id": "s17",
+      "text": "“Say, Jim, I’ll fetch the water if you’ll whitewash some.”"
+    },
+    {
+      "id": "s18",
+      "text": "Jim shook his head and said:"
+    },
+    {
+      "id": "s19",
+      "text": "“Can’t, Mars Tom."
+    },
+    {
+      "id": "s20",
+      "text": "Ole missis, she tole me I got to go an’ git dis water an’ not stop foolin’ roun’ wid anybody."
+    },
+    {
+      "id": "s21",
+      "text": "She say she spec’ Mars Tom gwine to ax me to whitewash, an’ so she tole me go ’long an’ ’tend to my own business—she ’lowed _she’d_ ’tend to de whitewashin’.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Oh, never you mind what she said, Jim."
+    },
+    {
+      "id": "s23",
+      "text": "That’s the way she always talks."
+    },
+    {
+      "id": "s24",
+      "text": "Gimme the bucket—I won’t be gone only a a minute. _She_ won’t ever know.”"
+    },
+    {
+      "id": "s25",
+      "text": "“Oh, I dasn’t, Mars Tom."
+    },
+    {
+      "id": "s26",
+      "text": "Ole missis she’d take an’ tar de head off’n me. ’Deed she would.”"
+    },
+    {
+      "id": "s27",
+      "text": "“_She_!"
+    },
+    {
+      "id": "s28",
+      "text": "She never licks anybody—whacks ’em over the head with her thimble—and who cares for that, I’d like to know."
+    },
+    {
+      "id": "s29",
+      "text": "She talks awful, but talk don’t hurt—anyways it don’t if she don’t cry."
+    },
+    {
+      "id": "s30",
+      "text": "Jim, I’ll give you a marvel."
+    },
+    {
+      "id": "s31",
+      "text": "I’ll give you a white alley!”"
+    },
+    {
+      "id": "s32",
+      "text": "Jim began to waver."
+    },
+    {
+      "id": "s33",
+      "text": "“White alley, Jim!"
+    },
+    {
+      "id": "s34",
+      "text": "And it’s a bully taw.”"
+    },
+    {
+      "id": "s35",
+      "text": "“My!"
+    },
+    {
+      "id": "s36",
+      "text": "Dat’s a mighty gay marvel, I tell you!"
+    },
+    {
+      "id": "s37",
+      "text": "But Mars Tom I’s powerful ’fraid ole missis—”"
+    },
+    {
+      "id": "s38",
+      "text": "“And besides, if you will I’ll show you my sore toe.”"
+    },
+    {
+      "id": "s39",
+      "text": "Jim was only human—this attraction was too much for him."
+    },
+    {
+      "id": "s40",
+      "text": "He put down his pail, took the white alley, and bent over the toe with absorbing interest while the bandage was being unwound."
+    },
+    {
+      "id": "s41",
+      "text": "In another moment he was flying down the street with his pail and a tingling rear, Tom was whitewashing with vigor, and Aunt Polly was retiring from the field with a slipper in her hand and triumph in her eye."
+    },
+    {
+      "id": "s42",
+      "text": "But Tom’s energy did not last."
+    },
+    {
+      "id": "s43",
+      "text": "He began to think of the fun he had planned for this day, and his sorrows multiplied."
+    },
+    {
+      "id": "s44",
+      "text": "Soon the free boys would come tripping along on all sorts of delicious expeditions, and they would make a world of fun of him for having to work—the very thought of it burnt him like fire."
+    },
+    {
+      "id": "s45",
+      "text": "He got out his worldly wealth and examined it—bits of toys, marbles, and trash; enough to buy an exchange of _work_, maybe, but not half enough to buy so much as half an hour of pure freedom."
+    },
+    {
+      "id": "s46",
+      "text": "So he returned his straitened means to his pocket, and gave up the idea of trying to buy the boys."
+    },
+    {
+      "id": "s47",
+      "text": "At this dark and hopeless moment an inspiration burst upon him!"
+    },
+    {
+      "id": "s48",
+      "text": "Nothing less than a great, magnificent inspiration."
+    },
+    {
+      "id": "s49",
+      "text": "He took up his brush and went tranquilly to work."
+    },
+    {
+      "id": "s50",
+      "text": "Ben Rogers hove in sight presently—the very boy, of all boys, whose ridicule he had been dreading."
+    },
+    {
+      "id": "s51",
+      "text": "Ben’s gait was the hop-skip-and-jump—proof enough that his heart was light and his anticipations high."
+    },
+    {
+      "id": "s52",
+      "text": "He was eating an apple, and giving a long, melodious whoop, at intervals, followed by a deep-toned ding-dong-dong, ding-dong-dong, for he was personating a steamboat."
+    },
+    {
+      "id": "s53",
+      "text": "As he drew near, he slackened speed, took the middle of the street, leaned far over to starboard and rounded to ponderously and with laborious pomp and circumstance—for he was personating the Big Missouri, and considered himself to be drawing nine feet of water."
+    },
+    {
+      "id": "s54",
+      "text": "He was boat and captain and engine-bells combined, so he had to imagine himself standing on his own hurricane-deck giving the orders and executing them:"
+    },
+    {
+      "id": "s55",
+      "text": "“Stop her, sir!"
+    },
+    {
+      "id": "s56",
+      "text": "Ting-a-ling-ling!” The headway ran almost out, and he drew up slowly toward the sidewalk."
+    },
+    {
+      "id": "s57",
+      "text": "“Ship up to back!"
+    },
+    {
+      "id": "s58",
+      "text": "Ting-a-ling-ling!” His arms straightened and stiffened down his sides."
+    },
+    {
+      "id": "s59",
+      "text": "“Set her back on the stabboard!"
+    },
+    {
+      "id": "s60",
+      "text": "Ting-a-ling-ling!"
+    },
+    {
+      "id": "s61",
+      "text": "Chow! ch-chow-wow!"
+    },
+    {
+      "id": "s62",
+      "text": "Chow!” His right hand, mean-time, describing stately circles—for it was representing a forty-foot wheel."
+    },
+    {
+      "id": "s63",
+      "text": "“Let her go back on the labboard!"
+    },
+    {
+      "id": "s64",
+      "text": "Ting-a-ling-ling!"
+    },
+    {
+      "id": "s65",
+      "text": "Chow-ch-chow-chow!” The left hand began to describe circles."
+    },
+    {
+      "id": "s66",
+      "text": "“Stop the stabboard!"
+    },
+    {
+      "id": "s67",
+      "text": "Ting-a-ling-ling!"
+    },
+    {
+      "id": "s68",
+      "text": "Stop the labboard!"
+    },
+    {
+      "id": "s69",
+      "text": "Come ahead on the stabboard!"
+    },
+    {
+      "id": "s70",
+      "text": "Stop her!"
+    },
+    {
+      "id": "s71",
+      "text": "Let your outside turn over slow!"
+    },
+    {
+      "id": "s72",
+      "text": "Ting-a-ling-ling!"
+    },
+    {
+      "id": "s73",
+      "text": "Chow-ow-ow!"
+    },
+    {
+      "id": "s74",
+      "text": "Get out that head-line! _lively_ now!"
+    },
+    {
+      "id": "s75",
+      "text": "Come—out with your spring-line—what’re you about there!"
+    },
+    {
+      "id": "s76",
+      "text": "Take a turn round that stump with the bight of it!"
+    },
+    {
+      "id": "s77",
+      "text": "Stand by that stage, now—let her go!"
+    },
+    {
+      "id": "s78",
+      "text": "Done with the engines, sir!"
+    },
+    {
+      "id": "s79",
+      "text": "Ting-a-ling-ling!"
+    },
+    {
+      "id": "s80",
+      "text": "SH’T!"
+    },
+    {
+      "id": "s81",
+      "text": "S’H’T!"
+    },
+    {
+      "id": "s82",
+      "text": "SH’T!” (trying the gauge-cocks)."
+    },
+    {
+      "id": "s83",
+      "text": "Tom went on whitewashing—paid no attention to the steamboat."
+    },
+    {
+      "id": "s84",
+      "text": "Ben stared a moment and then said: “_Hi-Yi!"
+    },
+    {
+      "id": "s85",
+      "text": "You’re_ up a stump, ain’t you!”"
+    },
+    {
+      "id": "s86",
+      "text": "No answer."
+    },
+    {
+      "id": "s87",
+      "text": "Tom surveyed his last touch with the eye of an artist, then he gave his brush another gentle sweep and surveyed the result, as before."
+    },
+    {
+      "id": "s88",
+      "text": "Ben ranged up alongside of him."
+    },
+    {
+      "id": "s89",
+      "text": "Tom’s mouth watered for the apple, but he stuck to his work."
+    },
+    {
+      "id": "s90",
+      "text": "Ben said:"
+    },
+    {
+      "id": "s91",
+      "text": "“Hello, old chap, you got to work, hey?”"
+    },
+    {
+      "id": "s92",
+      "text": "Tom wheeled suddenly and said:"
+    },
+    {
+      "id": "s93",
+      "text": "“Why, it’s you, Ben!"
+    },
+    {
+      "id": "s94",
+      "text": "I warn’t noticing.”"
+    },
+    {
+      "id": "s95",
+      "text": "“Say—I’m going in a-swimming, I am."
+    },
+    {
+      "id": "s96",
+      "text": "Don’t you wish you could?"
+    },
+    {
+      "id": "s97",
+      "text": "But of course you’d druther _work_—wouldn’t you?"
+    },
+    {
+      "id": "s98",
+      "text": "Course you would!”"
+    },
+    {
+      "id": "s99",
+      "text": "Tom contemplated the boy a bit, and said:"
+    },
+    {
+      "id": "s100",
+      "text": "“What do you call work?”"
+    },
+    {
+      "id": "s101",
+      "text": "“Why, ain’t _that_ work?”"
+    },
+    {
+      "id": "s102",
+      "text": "Tom resumed his whitewashing, and answered carelessly:"
+    },
+    {
+      "id": "s103",
+      "text": "“Well, maybe it is, and maybe it ain’t."
+    },
+    {
+      "id": "s104",
+      "text": "All I know, is, it suits Tom Sawyer.”"
+    },
+    {
+      "id": "s105",
+      "text": "“Oh come, now, you don’t mean to let on that you _like_ it?”"
+    },
+    {
+      "id": "s106",
+      "text": "The brush continued to move."
+    },
+    {
+      "id": "s107",
+      "text": "“Like it?"
+    },
+    {
+      "id": "s108",
+      "text": "Well, I don’t see why I oughtn’t to like it."
+    },
+    {
+      "id": "s109",
+      "text": "Does a boy get a chance to whitewash a fence every day?”"
+    },
+    {
+      "id": "s110",
+      "text": "That put the thing in a new light."
+    },
+    {
+      "id": "s111",
+      "text": "Ben stopped nibbling his apple."
+    },
+    {
+      "id": "s112",
+      "text": "Tom swept his brush daintily back and forth—stepped back to note the effect—added a touch here and there—criticised the effect again—Ben watching every move and getting more and more interested, more and more absorbed."
+    },
+    {
+      "id": "s113",
+      "text": "Presently he said:"
+    },
+    {
+      "id": "s114",
+      "text": "“Say, Tom, let _me_ whitewash a little.”"
+    },
+    {
+      "id": "s115",
+      "text": "Tom considered, was about to consent; but he altered his mind:"
+    },
+    {
+      "id": "s116",
+      "text": "“No—no—I reckon it wouldn’t hardly do, Ben."
+    },
+    {
+      "id": "s117",
+      "text": "You see, Aunt Polly’s awful particular about this fence—right here on the street, you know—but if it was the back fence I wouldn’t mind and _she_ wouldn’t."
+    },
+    {
+      "id": "s118",
+      "text": "Yes, she’s awful particular about this fence; it’s got to be done very careful; I reckon there ain’t one boy in a thousand, maybe two thousand, that can do it the way it’s got to be done.”"
+    },
+    {
+      "id": "s119",
+      "text": "“No—is that so?"
+    },
+    {
+      "id": "s120",
+      "text": "Oh come, now—lemme just try."
+    },
+    {
+      "id": "s121",
+      "text": "Only just a little—I’d let _you_, if you was me, Tom.”"
+    },
+    {
+      "id": "s122",
+      "text": "“Ben, I’d like to, honest injun; but Aunt Polly—well, Jim wanted to do it, but she wouldn’t let him; Sid wanted to do it, and she wouldn’t let Sid."
+    },
+    {
+      "id": "s123",
+      "text": "Now don’t you see how I’m fixed?"
+    },
+    {
+      "id": "s124",
+      "text": "If you was to tackle this fence and anything was to happen to it—”"
+    },
+    {
+      "id": "s125",
+      "text": "“Oh, shucks, I’ll be just as careful."
+    },
+    {
+      "id": "s126",
+      "text": "Now lemme try."
+    },
+    {
+      "id": "s127",
+      "text": "Say—I’ll give you the core of my apple.”"
+    },
+    {
+      "id": "s128",
+      "text": "“Well, here—No, Ben, now don’t."
+    },
+    {
+      "id": "s129",
+      "text": "I’m afeard—”"
+    },
+    {
+      "id": "s130",
+      "text": "“I’ll give you _all_ of it!”"
+    },
+    {
+      "id": "s131",
+      "text": "Tom gave up the brush with reluctance in his face, but alacrity in his heart."
+    },
+    {
+      "id": "s132",
+      "text": "And while the late steamer Big Missouri worked and sweated in the sun, the retired artist sat on a barrel in the shade close by, dangled his legs, munched his apple, and planned the slaughter of more innocents."
+    },
+    {
+      "id": "s133",
+      "text": "There was no lack of material; boys happened along every little while; they came to jeer, but remained to whitewash."
+    },
+    {
+      "id": "s134",
+      "text": "By the time Ben was fagged out, Tom had traded the next chance to Billy Fisher for a kite, in good repair; and when he played out, Johnny Miller bought in for a dead rat and a string to swing it with—and so on, and so on, hour after hour."
+    },
+    {
+      "id": "s135",
+      "text": "And when the middle of the afternoon came, from being a poor poverty-stricken boy in the morning, Tom was literally rolling in wealth."
+    },
+    {
+      "id": "s136",
+      "text": "He had besides the things before mentioned, twelve marbles, part of a jews-harp, a piece of blue bottle-glass to look through, a spool cannon, a key that wouldn’t unlock anything, a fragment of chalk, a glass stopper of a decanter, a tin soldier, a couple of tadpoles, six fire-crackers, a kitten with only one eye, a brass door-knob, a dog-collar—but no dog—the handle of a knife, four pieces of orange-peel, and a dilapidated old window sash."
+    },
+    {
+      "id": "s137",
+      "text": "He had had a nice, good, idle time all the while—plenty of company—and the fence had three coats of whitewash on it!"
+    },
+    {
+      "id": "s138",
+      "text": "If he hadn’t run out of whitewash he would have bankrupted every boy in the village."
+    },
+    {
+      "id": "s139",
+      "text": "Tom said to himself that it was not such a hollow world, after all."
+    },
+    {
+      "id": "s140",
+      "text": "He had discovered a great law of human action, without knowing it—namely, that in order to make a man or a boy covet a thing, it is only necessary to make the thing difficult to attain."
+    },
+    {
+      "id": "s141",
+      "text": "If he had been a great and wise philosopher, like the writer of this book, he would now have comprehended that Work consists of whatever a body is _obliged_ to do, and that Play consists of whatever a body is not obliged to do."
+    },
+    {
+      "id": "s142",
+      "text": "And this would help him to understand why constructing artificial flowers or performing on a tread-mill is work, while rolling ten-pins or climbing Mont Blanc is only amusement."
+    },
+    {
+      "id": "s143",
+      "text": "There are wealthy gentlemen in England who drive four-horse passenger-coaches twenty or thirty miles on a daily line, in the summer, because the privilege costs them considerable money; but if they were offered wages for the service, that would turn it into work and then they would resign."
+    },
+    {
+      "id": "s144",
+      "text": "The boy mused awhile over the substantial change which had taken place in his worldly circumstances, and then wended toward headquarters to report."
+    }
+  ]
+}

@@ -4,9 +4,9 @@
   "ebookId": "141",
   "edition": "Project Gutenberg eBook #141; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER I About thirty years ago Miss Maria Ward, of Huntingdon, with only seven",
-  "contentHash": "sha256:69011be53daf4ec9054ad538a128716cf87a54aa94b33234b718243fb97c5f6b",
-  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER I About thirty years ago Miss Maria Ward, of Huntingdon, with only seven. Source checked against Project Gutenberg eBook #141.",
+  "chapterTitle": "CHAPTER I",
+  "contentHash": "sha256:12142c8fb3b205cd23f57bb8df16fc03b3a6299283309f3c0eb7a70dfde1d9bf",
+  "attribution": "Austen, Jane, 1775-1817, Mansfield Park, CHAPTER I. Source checked against Project Gutenberg eBook #141.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/141",
@@ -19,7 +19,7 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "thousand pounds, had the good luck to captivate Sir Thomas Bertram, of Mansfield Park, in the county of Northampton, and to be thereby raised to the rank of a baronet’s lady, with all the comforts and consequences of an handsome house and large income."
+      "text": "About thirty years ago Miss Maria Ward, of Huntingdon, with only seven thousand pounds, had the good luck to captivate Sir Thomas Bertram, of Mansfield Park, in the county of Northampton, and to be thereby raised to the rank of a baronet’s lady, with all the comforts and consequences of an handsome house and large income."
     },
     {
       "id": "s2",

@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-45-anne-of-green-gables",
+  "ebookId": "45",
+  "edition": "Project Gutenberg eBook #45; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-3",
+  "chapterTitle": "CHAPTER III. Marilla Cuthbert Is Surprised",
+  "contentHash": "sha256:c1a8d0bfb81e61db4086ac2b7996886bda5caf1685a0404ce03cd4e5991c9b63",
+  "attribution": "Montgomery, L. M. (Lucy Maud), 1874-1942, Anne of Green Gables, CHAPTER III. Marilla Cuthbert Is Surprised. Source checked against Project Gutenberg eBook #45.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/45",
+    "textUrl": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "MARILLA came briskly forward as Matthew opened the door."
+    },
+    {
+      "id": "s2",
+      "text": "But when her eyes fell on the odd little figure in the stiff, ugly dress, with the long braids of red hair and the eager, luminous eyes, she stopped short in amazement."
+    },
+    {
+      "id": "s3",
+      "text": "“Matthew Cuthbert, who’s that?” she ejaculated."
+    },
+    {
+      "id": "s4",
+      "text": "“Where is the boy?”"
+    },
+    {
+      "id": "s5",
+      "text": "“There wasn’t any boy,” said Matthew wretchedly."
+    },
+    {
+      "id": "s6",
+      "text": "“There was only _her_.”"
+    },
+    {
+      "id": "s7",
+      "text": "He nodded at the child, remembering that he had never even asked her name."
+    },
+    {
+      "id": "s8",
+      "text": "“No boy!"
+    },
+    {
+      "id": "s9",
+      "text": "But there _must_ have been a boy,” insisted Marilla."
+    },
+    {
+      "id": "s10",
+      "text": "“We sent word to Mrs."
+    },
+    {
+      "id": "s11",
+      "text": "Spencer to bring a boy.”"
+    },
+    {
+      "id": "s12",
+      "text": "“Well, she didn’t."
+    },
+    {
+      "id": "s13",
+      "text": "She brought _her_."
+    },
+    {
+      "id": "s14",
+      "text": "I asked the stationmaster."
+    },
+    {
+      "id": "s15",
+      "text": "And I had to bring her home."
+    },
+    {
+      "id": "s16",
+      "text": "She couldn’t be left there, no matter where the mistake had come in.”"
+    },
+    {
+      "id": "s17",
+      "text": "“Well, this is a pretty piece of business!” ejaculated Marilla."
+    },
+    {
+      "id": "s18",
+      "text": "During this dialogue the child had remained silent, her eyes roving from one to the other, all the animation fading out of her face."
+    },
+    {
+      "id": "s19",
+      "text": "Suddenly she seemed to grasp the full meaning of what had been said."
+    },
+    {
+      "id": "s20",
+      "text": "Dropping her precious carpet-bag she sprang forward a step and clasped her hands."
+    },
+    {
+      "id": "s21",
+      "text": "“You don’t want me!” she cried."
+    },
+    {
+      "id": "s22",
+      "text": "“You don’t want me because I’m not a boy!"
+    },
+    {
+      "id": "s23",
+      "text": "I might have expected it."
+    },
+    {
+      "id": "s24",
+      "text": "Nobody ever did want me."
+    },
+    {
+      "id": "s25",
+      "text": "I might have known it was all too beautiful to last."
+    },
+    {
+      "id": "s26",
+      "text": "I might have known nobody really did want me."
+    },
+    {
+      "id": "s27",
+      "text": "Oh, what shall I do?"
+    },
+    {
+      "id": "s28",
+      "text": "I’m going to burst into tears!”"
+    },
+    {
+      "id": "s29",
+      "text": "Burst into tears she did."
+    },
+    {
+      "id": "s30",
+      "text": "Sitting down on a chair by the table, flinging her arms out upon it, and burying her face in them, she proceeded to cry stormily."
+    },
+    {
+      "id": "s31",
+      "text": "Marilla and Matthew looked at each other deprecatingly across the stove."
+    },
+    {
+      "id": "s32",
+      "text": "Neither of them knew what to say or do."
+    },
+    {
+      "id": "s33",
+      "text": "Finally Marilla stepped lamely into the breach."
+    },
+    {
+      "id": "s34",
+      "text": "“Well, well, there’s no need to cry so about it.”"
+    },
+    {
+      "id": "s35",
+      "text": "“Yes, there _is_ need!” The child raised her head quickly, revealing a tear-stained face and trembling lips."
+    },
+    {
+      "id": "s36",
+      "text": "“_You_ would cry, too, if you were an orphan and had come to a place you thought was going to be home and found that they didn’t want you because you weren’t a boy."
+    },
+    {
+      "id": "s37",
+      "text": "Oh, this is the most _tragical_ thing that ever happened to me!”"
+    },
+    {
+      "id": "s38",
+      "text": "Something like a reluctant smile, rather rusty from long disuse, mellowed Marilla’s grim expression."
+    },
+    {
+      "id": "s39",
+      "text": "“Well, don’t cry any more."
+    },
+    {
+      "id": "s40",
+      "text": "We’re not going to turn you out-of-doors tonight."
+    },
+    {
+      "id": "s41",
+      "text": "You’ll have to stay here until we investigate this affair."
+    },
+    {
+      "id": "s42",
+      "text": "What’s your name?”"
+    },
+    {
+      "id": "s43",
+      "text": "The child hesitated for a moment."
+    },
+    {
+      "id": "s44",
+      "text": "“Will you please call me Cordelia?” she said eagerly."
+    },
+    {
+      "id": "s45",
+      "text": "“_Call_ you Cordelia?"
+    },
+    {
+      "id": "s46",
+      "text": "Is that your name?”"
+    },
+    {
+      "id": "s47",
+      "text": "“No-o-o, it’s not exactly my name, but I would love to be called Cordelia."
+    },
+    {
+      "id": "s48",
+      "text": "It’s such a perfectly elegant name.”"
+    },
+    {
+      "id": "s49",
+      "text": "“I don’t know what on earth you mean."
+    },
+    {
+      "id": "s50",
+      "text": "If Cordelia isn’t your name, what is?”"
+    },
+    {
+      "id": "s51",
+      "text": "“Anne Shirley,” reluctantly faltered forth the owner of that name, “but, oh, please do call me Cordelia."
+    },
+    {
+      "id": "s52",
+      "text": "It can’t matter much to you what you call me if I’m only going to be here a little while, can it?"
+    },
+    {
+      "id": "s53",
+      "text": "And Anne is such an unromantic name.”"
+    },
+    {
+      "id": "s54",
+      "text": "“Unromantic fiddlesticks!” said the unsympathetic Marilla."
+    },
+    {
+      "id": "s55",
+      "text": "“Anne is a real good plain sensible name."
+    },
+    {
+      "id": "s56",
+      "text": "You’ve no need to be ashamed of it.”"
+    },
+    {
+      "id": "s57",
+      "text": "“Oh, I’m not ashamed of it,” explained Anne, “only I like Cordelia better."
+    },
+    {
+      "id": "s58",
+      "text": "I’ve always imagined that my name was Cordelia--at least, I always have of late years."
+    },
+    {
+      "id": "s59",
+      "text": "When I was young I used to imagine it was Geraldine, but I like Cordelia better now."
+    },
+    {
+      "id": "s60",
+      "text": "But if you call me Anne please call me Anne spelled with an E.”"
+    },
+    {
+      "id": "s61",
+      "text": "“What difference does it make how it’s spelled?” asked Marilla with another rusty smile as she picked up the teapot."
+    },
+    {
+      "id": "s62",
+      "text": "“Oh, it makes _such_ a difference."
+    },
+    {
+      "id": "s63",
+      "text": "It _looks_ so much nicer."
+    },
+    {
+      "id": "s64",
+      "text": "When you hear a name pronounced can’t you always see it in your mind, just as if it was printed out?"
+    },
+    {
+      "id": "s65",
+      "text": "I can; and A-n-n looks dreadful, but A-n-n-e looks so much more distinguished."
+    },
+    {
+      "id": "s66",
+      "text": "If you’ll only call me Anne spelled with an E I shall try to reconcile myself to not being called Cordelia.”"
+    },
+    {
+      "id": "s67",
+      "text": "“Very well, then, Anne spelled with an E, can you tell us how this mistake came to be made?"
+    },
+    {
+      "id": "s68",
+      "text": "We sent word to Mrs."
+    },
+    {
+      "id": "s69",
+      "text": "Spencer to bring us a boy."
+    },
+    {
+      "id": "s70",
+      "text": "Were there no boys at the asylum?”"
+    },
+    {
+      "id": "s71",
+      "text": "“Oh, yes, there was an abundance of them."
+    },
+    {
+      "id": "s72",
+      "text": "But Mrs."
+    },
+    {
+      "id": "s73",
+      "text": "Spencer said _distinctly_ that you wanted a girl about eleven years old."
+    },
+    {
+      "id": "s74",
+      "text": "And the matron said she thought I would do."
+    },
+    {
+      "id": "s75",
+      "text": "You don’t know how delighted I was."
+    },
+    {
+      "id": "s76",
+      "text": "I couldn’t sleep all last night for joy."
+    },
+    {
+      "id": "s77",
+      "text": "Oh,” she added reproachfully, turning to Matthew, “why didn’t you tell me at the station that you didn’t want me and leave me there?"
+    },
+    {
+      "id": "s78",
+      "text": "If I hadn’t seen the White Way of Delight and the Lake of Shining Waters it wouldn’t be so hard.”"
+    },
+    {
+      "id": "s79",
+      "text": "“What on earth does she mean?” demanded Marilla, staring at Matthew."
+    },
+    {
+      "id": "s80",
+      "text": "“She--she’s just referring to some conversation we had on the road,” said Matthew hastily."
+    },
+    {
+      "id": "s81",
+      "text": "“I’m going out to put the mare in, Marilla."
+    },
+    {
+      "id": "s82",
+      "text": "Have tea ready when I come back.”"
+    },
+    {
+      "id": "s83",
+      "text": "“Did Mrs."
+    },
+    {
+      "id": "s84",
+      "text": "Spencer bring anybody over besides you?” continued Marilla when Matthew had gone out."
+    },
+    {
+      "id": "s85",
+      "text": "“She brought Lily Jones for herself."
+    },
+    {
+      "id": "s86",
+      "text": "Lily is only five years old and she is very beautiful and had nut-brown hair."
+    },
+    {
+      "id": "s87",
+      "text": "If I was very beautiful and had nut-brown hair would you keep me?”"
+    },
+    {
+      "id": "s88",
+      "text": "“No."
+    },
+    {
+      "id": "s89",
+      "text": "We want a boy to help Matthew on the farm."
+    },
+    {
+      "id": "s90",
+      "text": "A girl would be of no use to us."
+    },
+    {
+      "id": "s91",
+      "text": "Take off your hat."
+    },
+    {
+      "id": "s92",
+      "text": "I’ll lay it and your bag on the hall table.”"
+    },
+    {
+      "id": "s93",
+      "text": "Anne took off her hat meekly."
+    },
+    {
+      "id": "s94",
+      "text": "Matthew came back presently and they sat down to supper."
+    },
+    {
+      "id": "s95",
+      "text": "But Anne could not eat."
+    },
+    {
+      "id": "s96",
+      "text": "In vain she nibbled at the bread and butter and pecked at the crab-apple preserve out of the little scalloped glass dish by her plate."
+    },
+    {
+      "id": "s97",
+      "text": "She did not really make any headway at all."
+    },
+    {
+      "id": "s98",
+      "text": "“You’re not eating anything,” said Marilla sharply, eying her as if it were a serious shortcoming."
+    },
+    {
+      "id": "s99",
+      "text": "Anne sighed."
+    },
+    {
+      "id": "s100",
+      "text": "“I can’t."
+    },
+    {
+      "id": "s101",
+      "text": "I’m in the depths of despair."
+    },
+    {
+      "id": "s102",
+      "text": "Can you eat when you are in the depths of despair?”"
+    },
+    {
+      "id": "s103",
+      "text": "“I’ve never been in the depths of despair, so I can’t say,” responded Marilla."
+    },
+    {
+      "id": "s104",
+      "text": "“Weren’t you?"
+    },
+    {
+      "id": "s105",
+      "text": "Well, did you ever try to _imagine_ you were in the depths of despair?”"
+    },
+    {
+      "id": "s106",
+      "text": "“No, I didn’t.”"
+    },
+    {
+      "id": "s107",
+      "text": "“Then I don’t think you can understand what it’s like."
+    },
+    {
+      "id": "s108",
+      "text": "It’s a very uncomfortable feeling indeed."
+    },
+    {
+      "id": "s109",
+      "text": "When you try to eat a lump comes right up in your throat and you can’t swallow anything, not even if it was a chocolate caramel."
+    },
+    {
+      "id": "s110",
+      "text": "I had one chocolate caramel once two years ago and it was simply delicious."
+    },
+    {
+      "id": "s111",
+      "text": "I’ve often dreamed since then that I had a lot of chocolate caramels, but I always wake up just when I’m going to eat them."
+    },
+    {
+      "id": "s112",
+      "text": "I do hope you won’t be offended because I can’t eat."
+    },
+    {
+      "id": "s113",
+      "text": "Everything is extremely nice, but still I cannot eat.”"
+    },
+    {
+      "id": "s114",
+      "text": "“I guess she’s tired,” said Matthew, who hadn’t spoken since his return from the barn."
+    },
+    {
+      "id": "s115",
+      "text": "“Best put her to bed, Marilla.”"
+    },
+    {
+      "id": "s116",
+      "text": "Marilla had been wondering where Anne should be put to bed."
+    },
+    {
+      "id": "s117",
+      "text": "She had prepared a couch in the kitchen chamber for the desired and expected boy."
+    },
+    {
+      "id": "s118",
+      "text": "But, although it was neat and clean, it did not seem quite the thing to put a girl there somehow."
+    },
+    {
+      "id": "s119",
+      "text": "But the spare room was out of the question for such a stray waif, so there remained only the east gable room."
+    },
+    {
+      "id": "s120",
+      "text": "Marilla lighted a candle and told Anne to follow her, which Anne spiritlessly did, taking her hat and carpet-bag from the hall table as she passed."
+    },
+    {
+      "id": "s121",
+      "text": "The hall was fearsomely clean; the little gable chamber in which she presently found herself seemed still cleaner."
+    },
+    {
+      "id": "s122",
+      "text": "Marilla set the candle on a three-legged, three-cornered table and turned down the bedclothes."
+    },
+    {
+      "id": "s123",
+      "text": "“I suppose you have a nightgown?” she questioned."
+    },
+    {
+      "id": "s124",
+      "text": "Anne nodded."
+    },
+    {
+      "id": "s125",
+      "text": "“Yes, I have two."
+    },
+    {
+      "id": "s126",
+      "text": "The matron of the asylum made them for me."
+    },
+    {
+      "id": "s127",
+      "text": "They’re fearfully skimpy."
+    },
+    {
+      "id": "s128",
+      "text": "There is never enough to go around in an asylum, so things are always skimpy--at least in a poor asylum like ours."
+    },
+    {
+      "id": "s129",
+      "text": "I hate skimpy night-dresses."
+    },
+    {
+      "id": "s130",
+      "text": "But one can dream just as well in them as in lovely trailing ones, with frills around the neck, that’s one consolation.”"
+    },
+    {
+      "id": "s131",
+      "text": "“Well, undress as quick as you can and go to bed."
+    },
+    {
+      "id": "s132",
+      "text": "I’ll come back in a few minutes for the candle."
+    },
+    {
+      "id": "s133",
+      "text": "I daren’t trust you to put it out yourself."
+    },
+    {
+      "id": "s134",
+      "text": "You’d likely set the place on fire.”"
+    },
+    {
+      "id": "s135",
+      "text": "When Marilla had gone Anne looked around her wistfully."
+    },
+    {
+      "id": "s136",
+      "text": "The whitewashed walls were so painfully bare and staring that she thought they must ache over their own bareness."
+    },
+    {
+      "id": "s137",
+      "text": "The floor was bare, too, except for a round braided mat in the middle such as Anne had never seen before."
+    },
+    {
+      "id": "s138",
+      "text": "In one corner was the bed, a high, old-fashioned one, with four dark, low-turned posts."
+    },
+    {
+      "id": "s139",
+      "text": "In the other corner was the aforesaid three-cornered table adorned with a fat, red velvet pincushion hard enough to turn the point of the most adventurous pin."
+    },
+    {
+      "id": "s140",
+      "text": "Above it hung a little six-by-eight mirror."
+    },
+    {
+      "id": "s141",
+      "text": "Midway between table and bed was the window, with an icy white muslin frill over it, and opposite it was the wash-stand."
+    },
+    {
+      "id": "s142",
+      "text": "The whole apartment was of a rigidity not to be described in words, but which sent a shiver to the very marrow of Anne’s bones."
+    },
+    {
+      "id": "s143",
+      "text": "With a sob she hastily discarded her garments, put on the skimpy nightgown and sprang into bed where she burrowed face downward into the pillow and pulled the clothes over her head."
+    },
+    {
+      "id": "s144",
+      "text": "When Marilla came up for the light various skimpy articles of raiment scattered most untidily over the floor and a certain tempestuous appearance of the bed were the only indications of any presence save her own."
+    },
+    {
+      "id": "s145",
+      "text": "She deliberately picked up Anne’s clothes, placed them neatly on a prim yellow chair, and then, taking up the candle, went over to the bed."
+    },
+    {
+      "id": "s146",
+      "text": "“Good night,” she said, a little awkwardly, but not unkindly."
+    },
+    {
+      "id": "s147",
+      "text": "Anne’s white face and big eyes appeared over the bedclothes with a startling suddenness."
+    },
+    {
+      "id": "s148",
+      "text": "“How can you call it a _good_ night when you know it must be the very worst night I’ve ever had?” she said reproachfully."
+    },
+    {
+      "id": "s149",
+      "text": "Then she dived down into invisibility again."
+    },
+    {
+      "id": "s150",
+      "text": "Marilla went slowly down to the kitchen and proceeded to wash the supper dishes."
+    },
+    {
+      "id": "s151",
+      "text": "Matthew was smoking--a sure sign of perturbation of mind."
+    },
+    {
+      "id": "s152",
+      "text": "He seldom smoked, for Marilla set her face against it as a filthy habit; but at certain times and seasons he felt driven to it and then Marilla winked at the practice, realizing that a mere man must have some vent for his emotions."
+    },
+    {
+      "id": "s153",
+      "text": "“Well, this is a pretty kettle of fish,” she said wrathfully."
+    },
+    {
+      "id": "s154",
+      "text": "“This is what comes of sending word instead of going ourselves."
+    },
+    {
+      "id": "s155",
+      "text": "Richard Spencer’s folks have twisted that message somehow."
+    },
+    {
+      "id": "s156",
+      "text": "One of us will have to drive over and see Mrs."
+    },
+    {
+      "id": "s157",
+      "text": "Spencer tomorrow, that’s certain."
+    },
+    {
+      "id": "s158",
+      "text": "This girl will have to be sent back to the asylum.”"
+    },
+    {
+      "id": "s159",
+      "text": "“Yes, I suppose so,” said Matthew reluctantly."
+    },
+    {
+      "id": "s160",
+      "text": "“You _suppose_ so!"
+    },
+    {
+      "id": "s161",
+      "text": "Don’t you know it?”"
+    },
+    {
+      "id": "s162",
+      "text": "“Well now, she’s a real nice little thing, Marilla."
+    },
+    {
+      "id": "s163",
+      "text": "It’s kind of a pity to send her back when she’s so set on staying here.”"
+    },
+    {
+      "id": "s164",
+      "text": "“Matthew Cuthbert, you don’t mean to say you think we ought to keep her!”"
+    },
+    {
+      "id": "s165",
+      "text": "Marilla’s astonishment could not have been greater if Matthew had expressed a predilection for standing on his head."
+    },
+    {
+      "id": "s166",
+      "text": "“Well, now, no, I suppose not--not exactly,” stammered Matthew, uncomfortably driven into a corner for his precise meaning."
+    },
+    {
+      "id": "s167",
+      "text": "“I suppose--we could hardly be expected to keep her.”"
+    },
+    {
+      "id": "s168",
+      "text": "“I should say not."
+    },
+    {
+      "id": "s169",
+      "text": "What good would she be to us?”"
+    },
+    {
+      "id": "s170",
+      "text": "“We might be some good to her,” said Matthew suddenly and unexpectedly."
+    },
+    {
+      "id": "s171",
+      "text": "“Matthew Cuthbert, I believe that child has bewitched you!"
+    },
+    {
+      "id": "s172",
+      "text": "I can see as plain as plain that you want to keep her.”"
+    },
+    {
+      "id": "s173",
+      "text": "“Well now, she’s a real interesting little thing,” persisted Matthew."
+    },
+    {
+      "id": "s174",
+      "text": "“You should have heard her talk coming from the station.”"
+    },
+    {
+      "id": "s175",
+      "text": "“Oh, she can talk fast enough."
+    },
+    {
+      "id": "s176",
+      "text": "I saw that at once."
+    },
+    {
+      "id": "s177",
+      "text": "It’s nothing in her favor, either."
+    },
+    {
+      "id": "s178",
+      "text": "I don’t like children who have so much to say."
+    },
+    {
+      "id": "s179",
+      "text": "I don’t want an orphan girl and if I did she isn’t the style I’d pick out."
+    },
+    {
+      "id": "s180",
+      "text": "There’s something I don’t understand about her."
+    },
+    {
+      "id": "s181",
+      "text": "No, she’s got to be despatched straightway back to where she came from.”"
+    },
+    {
+      "id": "s182",
+      "text": "“I could hire a French boy to help me,” said Matthew, “and she’d be company for you.”"
+    },
+    {
+      "id": "s183",
+      "text": "“I’m not suffering for company,” said Marilla shortly."
+    },
+    {
+      "id": "s184",
+      "text": "“And I’m not going to keep her.”"
+    },
+    {
+      "id": "s185",
+      "text": "“Well now, it’s just as you say, of course, Marilla,” said Matthew rising and putting his pipe away."
+    },
+    {
+      "id": "s186",
+      "text": "“I’m going to bed.”"
+    },
+    {
+      "id": "s187",
+      "text": "To bed went Matthew."
+    },
+    {
+      "id": "s188",
+      "text": "And to bed, when she had put her dishes away, went Marilla, frowning most resolutely."
+    },
+    {
+      "id": "s189",
+      "text": "And up-stairs, in the east gable, a lonely, heart-hungry, friendless child cried herself to sleep."
+    }
+  ]
+}

@@ -4,9 +4,9 @@
   "ebookId": "103",
   "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
   "chapterId": "chapter-1",
-  "chapterTitle": "CHAPTER I. IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS",
-  "contentHash": "sha256:f140c19866884c964c86bfabd5d645c601d2f4db05ff5cffac623847e40505a1",
-  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER I. IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS. Source checked against Project Gutenberg eBook #103.",
+  "chapterTitle": "CHAPTER I.",
+  "contentHash": "sha256:be993e882156209464735ee4b4259aef01532f48bf10d9cbde61c2c57f41d3ae",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER I.. Source checked against Project Gutenberg eBook #103.",
   "source": {
     "provider": "Project Gutenberg",
     "landingUrl": "https://www.gutenberg.org/ebooks/103",
@@ -19,7 +19,7 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "MASTER, THE OTHER AS MAN"
+      "text": "IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS MASTER, THE OTHER AS MAN"
     },
     {
       "id": "s2",

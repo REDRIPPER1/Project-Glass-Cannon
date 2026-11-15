@@ -1,0 +1,633 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-83-from-the-earth-to-the-moon-and-round-the-moon",
+  "ebookId": "83",
+  "edition": "Project Gutenberg eBook #83; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "part-2-chapter-14",
+  "chapterTitle": "Part 2 — CHAPTER XIV.",
+  "contentHash": "sha256:5623a5f0b1063f5dcb8dee3b32a251004fc72b5f4cb69e3affcae1e3bffd7075",
+  "attribution": "Verne, Jules, 1828-1905, From the Earth to the moon; and, round the moon, Part 2 — CHAPTER XIV.. Source checked against Project Gutenberg eBook #83.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/83",
+    "textUrl": "https://www.gutenberg.org/cache/epub/83/pg83.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "THE NIGHT OF THREE HUNDRED AND FIFTY-FOUR HOURS AND A HALF"
+    },
+    {
+      "id": "s2",
+      "text": "At the moment when this phenomenon took place so rapidly, the projectile was skirting the moon’s north pole at less than twenty-five miles distance."
+    },
+    {
+      "id": "s3",
+      "text": "Some seconds had sufficed to plunge it into the absolute darkness of space."
+    },
+    {
+      "id": "s4",
+      "text": "The transition was so sudden, without shade, without gradation of light, without attenuation of the luminous waves, that the orb seemed to have been extinguished by a powerful blow."
+    },
+    {
+      "id": "s5",
+      "text": "“Melted, disappeared!” Michel Ardan exclaimed, aghast."
+    },
+    {
+      "id": "s6",
+      "text": "Indeed, there was neither reflection nor shadow."
+    },
+    {
+      "id": "s7",
+      "text": "Nothing more was to be seen of that disc, formerly so dazzling."
+    },
+    {
+      "id": "s8",
+      "text": "The darkness was complete. and rendered even more so by the rays from the stars."
+    },
+    {
+      "id": "s9",
+      "text": "It was “that blackness” in which the lunar nights are insteeped, which last three hundred and fifty-four hours and a half at each point of the disc, a long night resulting from the equality of the translatory and rotary movements of the moon."
+    },
+    {
+      "id": "s10",
+      "text": "The projectile, immerged in the conical shadow of the satellite, experienced the action of the solar rays no more than any of its invisible points."
+    },
+    {
+      "id": "s11",
+      "text": "In the interior, the obscurity was complete."
+    },
+    {
+      "id": "s12",
+      "text": "They could not see each other."
+    },
+    {
+      "id": "s13",
+      "text": "Hence the necessity of dispelling the darkness."
+    },
+    {
+      "id": "s14",
+      "text": "However desirous Barbicane might be to husband the gas, the reserve of which was small, he was obliged to ask from it a fictitious light, an expensive brilliancy which the sun then refused."
+    },
+    {
+      "id": "s15",
+      "text": "“Devil take the radiant orb!” exclaimed Michel Ardan, “which forces us to expend gas, instead of giving us his rays gratuitously.”"
+    },
+    {
+      "id": "s16",
+      "text": "“Do not let us accuse the sun,” said Nicholl, “it is not his fault, but that of the moon, which has come and placed herself like a screen between us and it.”"
+    },
+    {
+      "id": "s17",
+      "text": "“It is the sun!” continued Michel."
+    },
+    {
+      "id": "s18",
+      "text": "“It is the moon!” retorted Nicholl."
+    },
+    {
+      "id": "s19",
+      "text": "An idle dispute, which Barbicane put an end to by saying:"
+    },
+    {
+      "id": "s20",
+      "text": "“My friends, it is neither the fault of the sun nor of the moon; it is the fault of the _projectile_, which, instead of rigidly following its course, has awkwardly missed it."
+    },
+    {
+      "id": "s21",
+      "text": "To be more just, it is the fault of that unfortunate meteor which has so deplorably altered our first direction.”"
+    },
+    {
+      "id": "s22",
+      "text": "“Well,” replied Michel Ardan, “as the matter is settled, let us have breakfast."
+    },
+    {
+      "id": "s23",
+      "text": "After a whole night of watching it is fair to build ourselves up a little.”"
+    },
+    {
+      "id": "s24",
+      "text": "This proposal meeting with no contradiction, Michel prepared the repast in a few minutes."
+    },
+    {
+      "id": "s25",
+      "text": "But they ate for eating’s sake, they drank without toasts, without hurrahs."
+    },
+    {
+      "id": "s26",
+      "text": "The bold travelers being borne away into gloomy space, without their accustomed _cortege_ of rays, felt a vague uneasiness in their hearts."
+    },
+    {
+      "id": "s27",
+      "text": "The “strange” shadow so dear to Victor Hugo’s pen bound them on all sides."
+    },
+    {
+      "id": "s28",
+      "text": "But they talked over the interminable night of three hundred and fifty-four hours and a half, nearly fifteen days, which the law of physics has imposed on the inhabitants of the moon."
+    },
+    {
+      "id": "s29",
+      "text": "Barbicane gave his friends some explanation of the causes and the consequences of this curious phenomenon."
+    },
+    {
+      "id": "s30",
+      "text": "“Curious indeed,” said they; “for, if each hemisphere of the moon is deprived of solar light for fifteen days, that above which we now float does not even enjoy during its long night any view of the earth so beautifully lit up."
+    },
+    {
+      "id": "s31",
+      "text": "In a word she has no moon (applying this designation to our globe) but on one side of her disc."
+    },
+    {
+      "id": "s32",
+      "text": "Now if this were the case with the earth—if, for example, Europe never saw the moon, and she was only visible at the antipodes, imagine to yourself the astonishment of a European on arriving in Australia.”"
+    },
+    {
+      "id": "s33",
+      "text": "“They would make the voyage for nothing but to see the moon!” replied Michel."
+    },
+    {
+      "id": "s34",
+      "text": "“Very well!” continued Barbicane, “that astonishment is reserved for the Selenites who inhabit the face of the moon opposite to the earth, a face which is ever invisible to our countrymen of the terrestrial globe.”"
+    },
+    {
+      "id": "s35",
+      "text": "“And which we should have seen,” added Nicholl, “if we had arrived here when the moon was new, that is to say fifteen days later.”"
+    },
+    {
+      "id": "s36",
+      "text": "“I will add, to make amends,” continued Barbicane, “that the inhabitants of the visible face are singularly favored by nature, to the detriment of their brethren on the invisible face."
+    },
+    {
+      "id": "s37",
+      "text": "The latter, as you see, have dark nights of 354 hours, without one single ray to break the darkness."
+    },
+    {
+      "id": "s38",
+      "text": "The other, on the contrary, when the sun which has given its light for fifteen days sinks below the horizon, see a splendid orb rise on the opposite horizon."
+    },
+    {
+      "id": "s39",
+      "text": "It is the earth, which is thirteen times greater than the diminutive moon that we know—the earth which developes itself at a diameter of two degrees, and which sheds a light thirteen times greater than that qualified by atmospheric strata—the earth which only disappears at the moment when the sun reappears in its turn!”"
+    },
+    {
+      "id": "s40",
+      "text": "“Nicely worded!” said Michel, “slightly academical perhaps.”"
+    },
+    {
+      "id": "s41",
+      "text": "“It follows, then,” continued Barbicane, without knitting his brows, “that the visible face of the disc must be very agreeable to inhabit, since it always looks on either the sun when the moon is full, or on the earth when the moon is new.”"
+    },
+    {
+      "id": "s42",
+      "text": "“But,” said Nicholl, “that advantage must be well compensated by the insupportable heat which the light brings with it.”"
+    },
+    {
+      "id": "s43",
+      "text": "“The inconvenience, in that respect, is the same for the two faces, for the earth’s light is evidently deprived of heat."
+    },
+    {
+      "id": "s44",
+      "text": "But the invisible face is still more searched by the heat than the visible face."
+    },
+    {
+      "id": "s45",
+      "text": "I say that for _you_, Nicholl, because Michel will probably not understand.”"
+    },
+    {
+      "id": "s46",
+      "text": "“Thank you,” said Michel."
+    },
+    {
+      "id": "s47",
+      "text": "“Indeed,” continued Barbicane, “when the invisible face receives at the same time light and heat from the sun, it is because the moon is new; that is to say, she is situated between the sun and the earth."
+    },
+    {
+      "id": "s48",
+      "text": "It follows, then, considering the position which she occupies in opposition when full, that she is nearer to the sun by twice her distance from the earth; and that distance may be estimated at the two-hundredth part of that which separates the sun from the earth, or in round numbers 400,000 miles."
+    },
+    {
+      "id": "s49",
+      "text": "So that invisible face is so much nearer to the sun when she receives its rays.”"
+    },
+    {
+      "id": "s50",
+      "text": "“Quite right,” replied Nicholl."
+    },
+    {
+      "id": "s51",
+      "text": "“On the contrary,” continued Barbicane."
+    },
+    {
+      "id": "s52",
+      "text": "“One moment,” said Michel, interrupting his grave companion."
+    },
+    {
+      "id": "s53",
+      "text": "“What do you want?”"
+    },
+    {
+      "id": "s54",
+      "text": "“I ask to be allowed to continue the explanation.”"
+    },
+    {
+      "id": "s55",
+      "text": "“And why?”"
+    },
+    {
+      "id": "s56",
+      "text": "“To prove that I understand.”"
+    },
+    {
+      "id": "s57",
+      "text": "“Get along with you,” said Barbicane, smiling."
+    },
+    {
+      "id": "s58",
+      "text": "“On the contrary,” said Michel, imitating the tone and gestures of the president, “on the contrary, when the visible face of the moon is lit by the sun, it is because the moon is full, that is to say, opposite the sun with regard to the earth."
+    },
+    {
+      "id": "s59",
+      "text": "The distance separating it from the radiant orb is then increased in round numbers to 400,000 miles, and the heat which she receives must be a little less.”"
+    },
+    {
+      "id": "s60",
+      "text": "“Very well said!” exclaimed Barbicane."
+    },
+    {
+      "id": "s61",
+      "text": "“Do you know, Michel, that, for an amateur, you are intelligent.”"
+    },
+    {
+      "id": "s62",
+      "text": "“Yes,” replied Michel coolly, “we are all so on the Boulevard des Italiens.”"
+    },
+    {
+      "id": "s63",
+      "text": "Barbicane gravely grasped the hand of his amiable companion, and continued to enumerate the advantages reserved for the inhabitants of the visible face."
+    },
+    {
+      "id": "s64",
+      "text": "Among others, he mentioned eclipses of the sun, which only take place on this side of the lunar disc; since, in order that they may take place, it is necessary for the moon to be _in opposition_."
+    },
+    {
+      "id": "s65",
+      "text": "These eclipses, caused by the interposition of the earth between the moon and the sun, can last _two hours_; during which time, by reason of the rays refracted by its atmosphere, the terrestrial globe can appear as nothing but a black point upon the sun."
+    },
+    {
+      "id": "s66",
+      "text": "“So,” said Nicholl, “there is a hemisphere, that invisible hemisphere which is very ill supplied, very ill treated, by nature.”"
+    },
+    {
+      "id": "s67",
+      "text": "“Never mind,” replied Michel; “if we ever become Selenites, we will inhabit the visible face."
+    },
+    {
+      "id": "s68",
+      "text": "I like the light.”"
+    },
+    {
+      "id": "s69",
+      "text": "“Unless, by any chance,” answered Nicholl, “the atmosphere should be condensed on the other side, as certain astronomers pretend.”"
+    },
+    {
+      "id": "s70",
+      "text": "“That would be a consideration,” said Michel."
+    },
+    {
+      "id": "s71",
+      "text": "Breakfast over, the observers returned to their post."
+    },
+    {
+      "id": "s72",
+      "text": "They tried to see through the darkened scuttles by extinguishing all light in the projectile; but not a luminous spark made its way through the darkness."
+    },
+    {
+      "id": "s73",
+      "text": "One inexplicable fact preoccupied Barbicane."
+    },
+    {
+      "id": "s74",
+      "text": "Why, having passed within such a short distance of the moon—about twenty-five miles only—why the projectile had not fallen?"
+    },
+    {
+      "id": "s75",
+      "text": "If its speed had been enormous, he could have understood that the fall would not have taken place; but, with a relatively moderate speed, that resistance to the moon’s attraction could not be explained."
+    },
+    {
+      "id": "s76",
+      "text": "Was the projectile under some foreign influence?"
+    },
+    {
+      "id": "s77",
+      "text": "Did some kind of body retain it in the ether?"
+    },
+    {
+      "id": "s78",
+      "text": "It was quite evident that it could never reach any point of the moon."
+    },
+    {
+      "id": "s79",
+      "text": "Whither was it going?"
+    },
+    {
+      "id": "s80",
+      "text": "Was it going farther from, or nearing, the disc?"
+    },
+    {
+      "id": "s81",
+      "text": "Was it being borne in that profound darkness through the infinity of space?"
+    },
+    {
+      "id": "s82",
+      "text": "How could they learn, how calculate, in the midst of this night?"
+    },
+    {
+      "id": "s83",
+      "text": "All these questions made Barbicane uneasy, but he could not solve them."
+    },
+    {
+      "id": "s84",
+      "text": "Certainly, the invisible orb was _there_, perhaps only some few miles off; but neither he nor his companions could see it."
+    },
+    {
+      "id": "s85",
+      "text": "If there was any noise on its surface, they could not hear it."
+    },
+    {
+      "id": "s86",
+      "text": "Air, that medium of sound, was wanting to transmit the groanings of that moon which the Arabic legends call “a man already half granite, and still breathing.”"
+    },
+    {
+      "id": "s87",
+      "text": "One must allow that that was enough to aggravate the most patient observers."
+    },
+    {
+      "id": "s88",
+      "text": "It was just that unknown hemisphere which was stealing from their sight."
+    },
+    {
+      "id": "s89",
+      "text": "That face which fifteen days sooner, or fifteen days later, had been, or would be, splendidly illuminated by the solar rays, was then being lost in utter darkness."
+    },
+    {
+      "id": "s90",
+      "text": "In fifteen days where would the projectile be?"
+    },
+    {
+      "id": "s91",
+      "text": "Who could say?"
+    },
+    {
+      "id": "s92",
+      "text": "Where would the chances of conflicting attractions have drawn it to?"
+    },
+    {
+      "id": "s93",
+      "text": "The disappointment of the travelers in the midst of this utter darkness may be imagined."
+    },
+    {
+      "id": "s94",
+      "text": "All observation of the lunar disc was impossible."
+    },
+    {
+      "id": "s95",
+      "text": "The constellations alone claimed all their attention; and we must allow that the astronomers Faye, Charconac, and Secchi, never found themselves in circumstances so favorable for their observation."
+    },
+    {
+      "id": "s96",
+      "text": "Indeed, nothing could equal the splendor of this starry world, bathed in limpid ether."
+    },
+    {
+      "id": "s97",
+      "text": "Its diamonds set in the heavenly vault sparkled magnificently."
+    },
+    {
+      "id": "s98",
+      "text": "The eye took in the firmament from the Southern Cross to the North Star, those two constellations which in 12,000 years, by reason of the succession of equinoxes, will resign their part of the polar stars, the one to Canopus in the southern hemisphere, the other to Wega in the northern."
+    },
+    {
+      "id": "s99",
+      "text": "Imagination loses itself in this sublime Infinity, amid which the projectile was gravitating, like a new star created by the hand of man."
+    },
+    {
+      "id": "s100",
+      "text": "From a natural cause, these constellations shone with a soft luster; they did not twinkle, for there was no atmosphere which, by the intervention of its layers unequally dense and of different degrees of humidity, produces this scintillation."
+    },
+    {
+      "id": "s101",
+      "text": "These stars were soft eyes, looking out into the dark night, amid the silence of absolute space."
+    },
+    {
+      "id": "s102",
+      "text": "Long did the travelers stand mute, watching the constellated firmament, upon which the moon, like a vast screen, made an enormous black hole."
+    },
+    {
+      "id": "s103",
+      "text": "But at length a painful sensation drew them from their watchings."
+    },
+    {
+      "id": "s104",
+      "text": "This was an intense cold, which soon covered the inside of the glass of the scuttles with a thick coating of ice."
+    },
+    {
+      "id": "s105",
+      "text": "The sun was no longer warming the projectile with its direct rays, and thus it was losing the heat stored up in its walls by degrees."
+    },
+    {
+      "id": "s106",
+      "text": "This heat was rapidly evaporating into space by radiation, and a considerably lower temperature was the result."
+    },
+    {
+      "id": "s107",
+      "text": "The humidity of the interior was changed into ice upon contact with the glass, preventing all observation."
+    },
+    {
+      "id": "s108",
+      "text": "Nicholl consulted the thermometer, and saw that it had fallen to seventeen degrees (Centigrade) below zero.[3] So that, in spite of the many reasons for economizing, Barbicane, after having begged light from the gas, was also obliged to beg for heat."
+    },
+    {
+      "id": "s109",
+      "text": "The projectile’s low temperature was no longer endurable."
+    },
+    {
+      "id": "s110",
+      "text": "Its tenants would have been frozen to death."
+    },
+    {
+      "id": "s111",
+      "text": "[3] 1° Fahrenheit."
+    },
+    {
+      "id": "s112",
+      "text": "“Well!” observed Michel, “we cannot reasonably complain of the monotony of our journey!"
+    },
+    {
+      "id": "s113",
+      "text": "What variety we have had, at least in temperature."
+    },
+    {
+      "id": "s114",
+      "text": "Now we are blinded with light and saturated with heat, like the Indians of the Pampas! now plunged into profound darkness, amid the cold, like the Esquimaux of the north pole."
+    },
+    {
+      "id": "s115",
+      "text": "No, indeed! we have no right to complain; nature does wonders in our honor.”"
+    },
+    {
+      "id": "s116",
+      "text": "“But,” asked Nicholl, “what is the temperature outside?”"
+    },
+    {
+      "id": "s117",
+      "text": "“Exactly that of the planetary space,” replied Barbicane."
+    },
+    {
+      "id": "s118",
+      "text": "“Then,” continued Michel Ardan, “would not this be the time to make the experiment which we dared not attempt when we were drowned in the sun’s rays?"
+    },
+    {
+      "id": "s119",
+      "text": "“It is now or never,” replied Barbicane, “for we are in a good position to verify the temperature of space, and see if Fourier or Pouillet’s calculations are exact.”"
+    },
+    {
+      "id": "s120",
+      "text": "“In any case it is cold,” said Michel."
+    },
+    {
+      "id": "s121",
+      "text": "“See! the steam of the interior is condensing on the glasses of the scuttles."
+    },
+    {
+      "id": "s122",
+      "text": "If the fall continues, the vapor of our breath will fall in snow around us.”"
+    },
+    {
+      "id": "s123",
+      "text": "“Let us prepare a thermometer,” said Barbicane."
+    },
+    {
+      "id": "s124",
+      "text": "We may imagine that an ordinary thermometer would afford no result under the circumstances in which this instrument was to be exposed."
+    },
+    {
+      "id": "s125",
+      "text": "The mercury would have been frozen in its ball, as below 42° Fahrenheit below zero it is no longer liquid."
+    },
+    {
+      "id": "s126",
+      "text": "But Barbicane had furnished himself with a spirit thermometer on Wafferdin’s system, which gives the minima of excessively low temperatures."
+    },
+    {
+      "id": "s127",
+      "text": "Before beginning the experiment, this instrument was compared with an ordinary one, and then Barbicane prepared to use it."
+    },
+    {
+      "id": "s128",
+      "text": "“How shall we set about it?” asked Nicholl."
+    },
+    {
+      "id": "s129",
+      "text": "“Nothing is easier,” replied Michel Ardan, who was never at a loss."
+    },
+    {
+      "id": "s130",
+      "text": "“We open the scuttle rapidly; throw out the instrument; it follows the projectile with exemplary docility; and a quarter of an hour after, draw it in.”"
+    },
+    {
+      "id": "s131",
+      "text": "“With the hand?” asked Barbicane."
+    },
+    {
+      "id": "s132",
+      "text": "“With the hand,” replied Michel."
+    },
+    {
+      "id": "s133",
+      "text": "“Well, then, my friend, do not expose yourself,” answered Barbicane, “for the hand that you draw in again will be nothing but a stump frozen and deformed by the frightful cold.”"
+    },
+    {
+      "id": "s134",
+      "text": "“Really!”"
+    },
+    {
+      "id": "s135",
+      "text": "“You will feel as if you had had a terrible burn, like that of iron at a white heat; for whether the heat leaves our bodies briskly or enters briskly, it is exactly the same thing."
+    },
+    {
+      "id": "s136",
+      "text": "Besides, I am not at all certain that the objects we have thrown out are still following us.”"
+    },
+    {
+      "id": "s137",
+      "text": "“Why not?” asked Nicholl."
+    },
+    {
+      "id": "s138",
+      "text": "“Because, if we are passing through an atmosphere of the slightest density, these objects will be retarded."
+    },
+    {
+      "id": "s139",
+      "text": "Again, the darkness prevents our seeing if they still float around us."
+    },
+    {
+      "id": "s140",
+      "text": "But in order not to expose ourselves to the loss of our thermometer, we will fasten it, and we can then more easily pull it back again.”"
+    },
+    {
+      "id": "s141",
+      "text": "Barbicane’s advice was followed."
+    },
+    {
+      "id": "s142",
+      "text": "Through the scuttle rapidly opened, Nicholl threw out the instrument, which was held by a short cord, so that it might be more easily drawn up."
+    },
+    {
+      "id": "s143",
+      "text": "The scuttle had not been opened more than a second, but that second had sufficed to let in a most intense cold."
+    },
+    {
+      "id": "s144",
+      "text": "“The devil!” exclaimed Michel Ardan, “it is cold enough to freeze a white bear.”"
+    },
+    {
+      "id": "s145",
+      "text": "Barbicane waited until half an hour had elapsed, which was more than time enough to allow the instrument to fall to the level of the surrounding temperature."
+    },
+    {
+      "id": "s146",
+      "text": "Then it was rapidly pulled in."
+    },
+    {
+      "id": "s147",
+      "text": "Barbicane calculated the quantity of spirits of wine overflowed into the little vial soldered to the lower part of the instrument, and said:"
+    },
+    {
+      "id": "s148",
+      "text": "“A hundred and forty degrees Centigrade[4] below zero!”"
+    },
+    {
+      "id": "s149",
+      "text": "[4] 218 degrees Fahrenheit below zero."
+    },
+    {
+      "id": "s150",
+      "text": "M."
+    },
+    {
+      "id": "s151",
+      "text": "Pouillet was right and Fourier wrong."
+    },
+    {
+      "id": "s152",
+      "text": "That was the undoubted temperature of the starry space."
+    },
+    {
+      "id": "s153",
+      "text": "Such is, perhaps, that of the lunar continents, when the orb of night has lost by radiation all the heat which fifteen days of sun have poured into her."
+    }
+  ]
+}

@@ -1,0 +1,729 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-225-at-the-back-of-the-north-wind",
+  "ebookId": "225",
+  "edition": "Project Gutenberg eBook #225; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-21",
+  "chapterTitle": "CHAPTER XXI. SAL'S NANNY",
+  "contentHash": "sha256:ec8ec9cdbef8463cf98c4c6a1cc246335e2f9efa06d637986fc91afae7bc8912",
+  "attribution": "MacDonald, George, 1824-1905, At the Back of the North Wind, CHAPTER XXI. SAL'S NANNY. Source checked against Project Gutenberg eBook #225.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/225",
+    "textUrl": "https://www.gutenberg.org/cache/epub/225/pg225.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "DIAMOND managed with many blunders to read this rhyme to his mother."
+    },
+    {
+      "id": "s2",
+      "text": "“Isn't it nice, mother?” he said."
+    },
+    {
+      "id": "s3",
+      "text": "“Yes, it's pretty,” she answered."
+    },
+    {
+      "id": "s4",
+      "text": "“I think it means something,” returned Diamond."
+    },
+    {
+      "id": "s5",
+      "text": "“I'm sure I don't know what,” she said."
+    },
+    {
+      "id": "s6",
+      "text": "“I wonder if it's the same boy--yes, it must be the same--Little Boy Blue, you know."
+    },
+    {
+      "id": "s7",
+      "text": "Let me see--how does that rhyme go?"
+    },
+    {
+      "id": "s8",
+      "text": "Little Boy Blue, come blow me your horn--"
+    },
+    {
+      "id": "s9",
+      "text": "Yes, of course it is--for this one went `blowing his horn and beating his drum.' He had a drum too."
+    },
+    {
+      "id": "s10",
+      "text": "Little Boy Blue, come blow me your horn; The sheep's in the meadow, the cow's in the corn,"
+    },
+    {
+      "id": "s11",
+      "text": "He had to keep them out, you know."
+    },
+    {
+      "id": "s12",
+      "text": "But he wasn't minding his work."
+    },
+    {
+      "id": "s13",
+      "text": "It goes--"
+    },
+    {
+      "id": "s14",
+      "text": "Where's the little boy that looks after the sheep?"
+    },
+    {
+      "id": "s15",
+      "text": "He's under the haystack, fast asleep."
+    },
+    {
+      "id": "s16",
+      "text": "There, you see, mother!"
+    },
+    {
+      "id": "s17",
+      "text": "And then, let me see--"
+    },
+    {
+      "id": "s18",
+      "text": "Who'll go and wake him?"
+    },
+    {
+      "id": "s19",
+      "text": "No, not I; For if I do, he'll be sure to cry."
+    },
+    {
+      "id": "s20",
+      "text": "So I suppose nobody did wake him."
+    },
+    {
+      "id": "s21",
+      "text": "He was a rather cross little boy, I daresay, when woke up."
+    },
+    {
+      "id": "s22",
+      "text": "And when he did wake of himself, and saw the mischief the cow had done to the corn, instead of running home to his mother, he ran away into the wood and lost himself."
+    },
+    {
+      "id": "s23",
+      "text": "Don't you think that's very likely, mother?”"
+    },
+    {
+      "id": "s24",
+      "text": "“I shouldn't wonder,” she answered."
+    },
+    {
+      "id": "s25",
+      "text": "“So you see he was naughty; for even when he lost himself he did not want to go home."
+    },
+    {
+      "id": "s26",
+      "text": "Any of the creatures would have shown him the way if he had asked it--all but the snake."
+    },
+    {
+      "id": "s27",
+      "text": "He followed the snake, you know, and he took him farther away."
+    },
+    {
+      "id": "s28",
+      "text": "I suppose it was a young one of the same serpent that tempted Adam and Eve."
+    },
+    {
+      "id": "s29",
+      "text": "Father was telling us about it last Sunday, you remember.”"
+    },
+    {
+      "id": "s30",
+      "text": "“Bless the child!” said his mother to herself; and then added aloud, finding that Diamond did not go on, “Well, what next?”"
+    },
+    {
+      "id": "s31",
+      "text": "“I don't know, mother."
+    },
+    {
+      "id": "s32",
+      "text": "I'm sure there's a great deal more, but what it is I can't say."
+    },
+    {
+      "id": "s33",
+      "text": "I only know that he killed the snake."
+    },
+    {
+      "id": "s34",
+      "text": "I suppose that's what he had a drumstick for."
+    },
+    {
+      "id": "s35",
+      "text": "He couldn't do it with his horn.”"
+    },
+    {
+      "id": "s36",
+      "text": "“But surely you're not such a silly as to take it all for true, Diamond?”"
+    },
+    {
+      "id": "s37",
+      "text": "“I think it must be."
+    },
+    {
+      "id": "s38",
+      "text": "It looks true."
+    },
+    {
+      "id": "s39",
+      "text": "That killing of the snake looks true."
+    },
+    {
+      "id": "s40",
+      "text": "It's what I've got to do so often.”"
+    },
+    {
+      "id": "s41",
+      "text": "His mother looked uneasy."
+    },
+    {
+      "id": "s42",
+      "text": "Diamond smiled full in her face, and added--"
+    },
+    {
+      "id": "s43",
+      "text": "“When baby cries and won't be happy, and when father and you talk about your troubles, I mean.”"
+    },
+    {
+      "id": "s44",
+      "text": "This did little to reassure his mother; and lest my reader should have his qualms about it too, I venture to remind him once more that Diamond had been to the back of the north wind."
+    },
+    {
+      "id": "s45",
+      "text": "Finding she made no reply, Diamond went on--"
+    },
+    {
+      "id": "s46",
+      "text": "“In a week or so, I shall be able to go to the tall gentleman and tell him I can read."
+    },
+    {
+      "id": "s47",
+      "text": "And I'll ask him if he can help me to understand the rhyme.”"
+    },
+    {
+      "id": "s48",
+      "text": "But before the week was out, he had another reason for going to Mr."
+    },
+    {
+      "id": "s49",
+      "text": "Raymond."
+    },
+    {
+      "id": "s50",
+      "text": "For three days, on each of which, at one time or other, Diamond's father was on the same stand near the National Gallery, the girl was not at her crossing, and Diamond got quite anxious about her, fearing she must be ill."
+    },
+    {
+      "id": "s51",
+      "text": "On the fourth day, not seeing her yet, he said to his father, who had that moment shut the door of his cab upon a fare--"
+    },
+    {
+      "id": "s52",
+      "text": "“Father, I want to go and look after the girl, She can't be well.”"
+    },
+    {
+      "id": "s53",
+      "text": "“All right,” said his father."
+    },
+    {
+      "id": "s54",
+      "text": "“Only take care of yourself, Diamond.”"
+    },
+    {
+      "id": "s55",
+      "text": "So saying he climbed on his box and drove off."
+    },
+    {
+      "id": "s56",
+      "text": "He had great confidence in his boy, you see, and would trust him anywhere."
+    },
+    {
+      "id": "s57",
+      "text": "But if he had known the kind of place in which the girl lived, he would perhaps have thought twice before he allowed him to go alone."
+    },
+    {
+      "id": "s58",
+      "text": "Diamond, who did know something of it, had not, however, any fear."
+    },
+    {
+      "id": "s59",
+      "text": "From talking to the girl he had a good notion of where about it was, and he remembered the address well enough; so by asking his way some twenty times, mostly of policemen, he came at length pretty near the place."
+    },
+    {
+      "id": "s60",
+      "text": "The last policeman he questioned looked down upon him from the summit of six feet two inches, and replied with another question, but kindly:"
+    },
+    {
+      "id": "s61",
+      "text": "“What do you want there, my small kid?"
+    },
+    {
+      "id": "s62",
+      "text": "It ain't where you was bred, I guess.”"
+    },
+    {
+      "id": "s63",
+      "text": "“No sir” answered Diamond."
+    },
+    {
+      "id": "s64",
+      "text": "“I live in Bloomsbury.”"
+    },
+    {
+      "id": "s65",
+      "text": "“That's a long way off,” said the policeman."
+    },
+    {
+      "id": "s66",
+      "text": "“Yes, it's a good distance,” answered Diamond; “but I find my way about pretty well."
+    },
+    {
+      "id": "s67",
+      "text": "Policemen are always kind to me.”"
+    },
+    {
+      "id": "s68",
+      "text": "“But what on earth do you want here?”"
+    },
+    {
+      "id": "s69",
+      "text": "Diamond told him plainly what he was about, and of course the man believed him, for nobody ever disbelieved Diamond."
+    },
+    {
+      "id": "s70",
+      "text": "People might think he was mistaken, but they never thought he was telling a story."
+    },
+    {
+      "id": "s71",
+      "text": "“It's an ugly place,” said the policeman."
+    },
+    {
+      "id": "s72",
+      "text": "“Is it far off?” asked Diamond."
+    },
+    {
+      "id": "s73",
+      "text": "“No."
+    },
+    {
+      "id": "s74",
+      "text": "It's next door almost."
+    },
+    {
+      "id": "s75",
+      "text": "But it's not safe.”"
+    },
+    {
+      "id": "s76",
+      "text": "“Nobody hurts me,” said Diamond."
+    },
+    {
+      "id": "s77",
+      "text": "“I must go with you, I suppose.”"
+    },
+    {
+      "id": "s78",
+      "text": "“Oh, no! please not,” said Diamond."
+    },
+    {
+      "id": "s79",
+      "text": "“They might think I was going to meddle with them, and I ain't, you know.”"
+    },
+    {
+      "id": "s80",
+      "text": "“Well, do as you please,” said the man, and gave him full directions."
+    },
+    {
+      "id": "s81",
+      "text": "Diamond set off, never suspecting that the policeman, who was a kind-hearted man, with children of his own, was following him close, and watching him round every corner."
+    },
+    {
+      "id": "s82",
+      "text": "As he went on, all at once he thought he remembered the place, and whether it really was so, or only that he had laid up the policeman's instructions well in his mind, he went straight for the cellar of old Sal."
+    },
+    {
+      "id": "s83",
+      "text": "“He's a sharp little kid, anyhow, for as simple as he looks,” said the man to himself."
+    },
+    {
+      "id": "s84",
+      "text": "“Not a wrong turn does he take!"
+    },
+    {
+      "id": "s85",
+      "text": "But old Sal's a rum un for such a child to pay a morning visit to."
+    },
+    {
+      "id": "s86",
+      "text": "She's worse when she's sober than when she's half drunk."
+    },
+    {
+      "id": "s87",
+      "text": "I've seen her when she'd have torn him in pieces.”"
+    },
+    {
+      "id": "s88",
+      "text": "Happily then for Diamond, old Sal had gone out to get some gin."
+    },
+    {
+      "id": "s89",
+      "text": "When he came to her door at the bottom of the area-stair and knocked, he received no answer."
+    },
+    {
+      "id": "s90",
+      "text": "He laid his ear to the door, and thought he heard a moaning within."
+    },
+    {
+      "id": "s91",
+      "text": "So he tried the door, and found it was not locked!"
+    },
+    {
+      "id": "s92",
+      "text": "It was a dreary place indeed,--and very dark, for the window was below the level of the street, and covered with mud, while over the grating which kept people from falling into the area, stood a chest of drawers, placed there by a dealer in second-hand furniture, which shut out almost all the light."
+    },
+    {
+      "id": "s93",
+      "text": "And the smell in the place was dreadful."
+    },
+    {
+      "id": "s94",
+      "text": "Diamond stood still for a while, for he could see next to nothing, but he heard the moaning plainly enough now, When he got used to the darkness, he discovered his friend lying with closed eyes and a white suffering face on a heap of little better than rags in a corner of the den."
+    },
+    {
+      "id": "s95",
+      "text": "He went up to her and spoke; but she made him no answer."
+    },
+    {
+      "id": "s96",
+      "text": "Indeed, she was not in the least aware of his presence, and Diamond saw that he could do nothing for her without help."
+    },
+    {
+      "id": "s97",
+      "text": "So taking a lump of barley-sugar from his pocket, which he had bought for her as he came along, and laying it beside her, he left the place, having already made up his mind to go and see the tall gentleman, Mr."
+    },
+    {
+      "id": "s98",
+      "text": "Raymond, and ask him to do something for Sal's Nanny, as the girl was called."
+    },
+    {
+      "id": "s99",
+      "text": "By the time he got up the area-steps, three or four women who had seen him go down were standing together at the top waiting for him."
+    },
+    {
+      "id": "s100",
+      "text": "They wanted his clothes for their children; but they did not follow him down lest Sal should find them there."
+    },
+    {
+      "id": "s101",
+      "text": "The moment he appeared, they laid their hands on him, and all began talking at once, for each wanted to get some advantage over her neighbours."
+    },
+    {
+      "id": "s102",
+      "text": "He told them quite quietly, for he was not frightened, that he had come to see what was the matter with Nanny."
+    },
+    {
+      "id": "s103",
+      "text": "“What do you know about Nanny?” said one of them fiercely."
+    },
+    {
+      "id": "s104",
+      "text": "“Wait till old Sal comes home, and you'll catch it, for going prying into her house when she's out."
+    },
+    {
+      "id": "s105",
+      "text": "If you don't give me your jacket directly, I'll go and fetch her.”"
+    },
+    {
+      "id": "s106",
+      "text": "“I can't give you my jacket,” said Diamond."
+    },
+    {
+      "id": "s107",
+      "text": "“It belongs to my father and mother, you know."
+    },
+    {
+      "id": "s108",
+      "text": "It's not mine to give."
+    },
+    {
+      "id": "s109",
+      "text": "Is it now?"
+    },
+    {
+      "id": "s110",
+      "text": "You would not think it right to give away what wasn't yours--would you now?”"
+    },
+    {
+      "id": "s111",
+      "text": "“Give it away!"
+    },
+    {
+      "id": "s112",
+      "text": "No, that I wouldn't; I'd keep it,” she said, with a rough laugh."
+    },
+    {
+      "id": "s113",
+      "text": "“But if the jacket ain't yours, what right have you to keep it?"
+    },
+    {
+      "id": "s114",
+      "text": "Here, Cherry, make haste."
+    },
+    {
+      "id": "s115",
+      "text": "It'll be one go apiece.”"
+    },
+    {
+      "id": "s116",
+      "text": "They all began to tug at the jacket, while Diamond stooped and kept his arms bent to resist them."
+    },
+    {
+      "id": "s117",
+      "text": "Before they had done him or the jacket any harm, however, suddenly they all scampered away; and Diamond, looking in the opposite direction, saw the tall policeman coming towards him."
+    },
+    {
+      "id": "s118",
+      "text": "“You had better have let me come with you, little man,” he said, looking down in Diamond's face, which was flushed with his resistance."
+    },
+    {
+      "id": "s119",
+      "text": "“You came just in the right time, thank you,” returned Diamond."
+    },
+    {
+      "id": "s120",
+      "text": "“They've done me no harm.”"
+    },
+    {
+      "id": "s121",
+      "text": "“They would have if I hadn't been at hand, though.”"
+    },
+    {
+      "id": "s122",
+      "text": "“Yes; but you were at hand, you know, so they couldn't.”"
+    },
+    {
+      "id": "s123",
+      "text": "Perhaps the answer was deeper in purport than either Diamond or the policeman knew."
+    },
+    {
+      "id": "s124",
+      "text": "They walked away together, Diamond telling his new friend how ill poor Nanny was, and that he was going to let the tall gentleman know."
+    },
+    {
+      "id": "s125",
+      "text": "The policeman put him in the nearest way for Bloomsbury, and stepping out in good earnest, Diamond reached Mr."
+    },
+    {
+      "id": "s126",
+      "text": "Raymond's door in less than an hour."
+    },
+    {
+      "id": "s127",
+      "text": "When he asked if he was at home, the servant, in return, asked what he wanted."
+    },
+    {
+      "id": "s128",
+      "text": "“I want to tell him something.”"
+    },
+    {
+      "id": "s129",
+      "text": "“But I can't go and trouble him with such a message as that.”"
+    },
+    {
+      "id": "s130",
+      "text": "“He told me to come to him--that is, when I could read--and I can.”"
+    },
+    {
+      "id": "s131",
+      "text": "“How am I to know that?”"
+    },
+    {
+      "id": "s132",
+      "text": "Diamond stared with astonishment for one moment, then answered:"
+    },
+    {
+      "id": "s133",
+      "text": "“Why, I've just told you."
+    },
+    {
+      "id": "s134",
+      "text": "That's how you know it.”"
+    },
+    {
+      "id": "s135",
+      "text": "But this man was made of coarser grain than the policeman, and, instead of seeing that Diamond could not tell a lie, he put his answer down as impudence, and saying, “Do you think I'm going to take your word for it?” shut the door in his face."
+    },
+    {
+      "id": "s136",
+      "text": "Diamond turned and sat down on the doorstep, thinking with himself that the tall gentleman must either come in or come out, and he was therefore in the best possible position for finding him."
+    },
+    {
+      "id": "s137",
+      "text": "He had not waited long before the door opened again; but when he looked round, it was only the servant once more."
+    },
+    {
+      "id": "s138",
+      "text": "“Get, away” he said."
+    },
+    {
+      "id": "s139",
+      "text": "“What are you doing on the doorstep?”"
+    },
+    {
+      "id": "s140",
+      "text": "“Waiting for Mr."
+    },
+    {
+      "id": "s141",
+      "text": "Raymond,” answered Diamond, getting up."
+    },
+    {
+      "id": "s142",
+      "text": "“He's not at home.”"
+    },
+    {
+      "id": "s143",
+      "text": "“Then I'll wait till he comes,” returned Diamond, sitting down again with a smile."
+    },
+    {
+      "id": "s144",
+      "text": "What the man would have done next I do not know, but a step sounded from the hall, and when Diamond looked round yet again, there was the tall gentleman."
+    },
+    {
+      "id": "s145",
+      "text": "“Who's this, John?” he asked."
+    },
+    {
+      "id": "s146",
+      "text": "“I don't know, sir."
+    },
+    {
+      "id": "s147",
+      "text": "An imperent little boy as will sit on the doorstep.”"
+    },
+    {
+      "id": "s148",
+      "text": "“Please sir” said Diamond, “he told me you weren't at home, and I sat down to wait for you.”"
+    },
+    {
+      "id": "s149",
+      "text": "“Eh, what!” said Mr."
+    },
+    {
+      "id": "s150",
+      "text": "Raymond."
+    },
+    {
+      "id": "s151",
+      "text": "“John!"
+    },
+    {
+      "id": "s152",
+      "text": "John!"
+    },
+    {
+      "id": "s153",
+      "text": "This won't do."
+    },
+    {
+      "id": "s154",
+      "text": "Is it a habit of yours to turn away my visitors?"
+    },
+    {
+      "id": "s155",
+      "text": "There'll be some one else to turn away, I'm afraid, if I find any more of this kind of thing."
+    },
+    {
+      "id": "s156",
+      "text": "Come in, my little man."
+    },
+    {
+      "id": "s157",
+      "text": "I suppose you've come to claim your sixpence?”"
+    },
+    {
+      "id": "s158",
+      "text": "“No, sir, not that.”"
+    },
+    {
+      "id": "s159",
+      "text": "“What! can't you read yet?”"
+    },
+    {
+      "id": "s160",
+      "text": "“Yes, I can now, a little."
+    },
+    {
+      "id": "s161",
+      "text": "But I'll come for that next time."
+    },
+    {
+      "id": "s162",
+      "text": "I came to tell you about Sal's Nanny.”"
+    },
+    {
+      "id": "s163",
+      "text": "“Who's Sal's Nanny?”"
+    },
+    {
+      "id": "s164",
+      "text": "“The girl at the crossing you talked to the same day.”"
+    },
+    {
+      "id": "s165",
+      "text": "“Oh, yes; I remember."
+    },
+    {
+      "id": "s166",
+      "text": "What's the matter?"
+    },
+    {
+      "id": "s167",
+      "text": "Has she got run over?”"
+    },
+    {
+      "id": "s168",
+      "text": "Then Diamond told him all."
+    },
+    {
+      "id": "s169",
+      "text": "Now Mr."
+    },
+    {
+      "id": "s170",
+      "text": "Raymond was one of the kindest men in London."
+    },
+    {
+      "id": "s171",
+      "text": "He sent at once to have the horse put to the brougham, took Diamond with him, and drove to the Children's Hospital."
+    },
+    {
+      "id": "s172",
+      "text": "There he was well known to everybody, for he was not only a large subscriber, but he used to go and tell the children stories of an afternoon."
+    },
+    {
+      "id": "s173",
+      "text": "One of the doctors promised to go and find Nanny, and do what could be done--have her brought to the hospital, if possible."
+    },
+    {
+      "id": "s174",
+      "text": "That same night they sent a litter for her, and as she could be of no use to old Sal until she was better, she did not object to having her removed."
+    },
+    {
+      "id": "s175",
+      "text": "So she was soon lying in the fever ward--for the first time in her life in a nice clean bed."
+    },
+    {
+      "id": "s176",
+      "text": "But she knew nothing of the whole affair."
+    },
+    {
+      "id": "s177",
+      "text": "She was too ill to know anything."
+    }
+  ]
+}
