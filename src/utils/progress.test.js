@@ -20,6 +20,7 @@ import {
   saveProgress,
   setActiveSession,
   setProgressSettings,
+  toggleBookWishlist,
   toggleBookmark,
   toggleFavoritePet,
   xpRequiredForLevel,
@@ -126,13 +127,20 @@ test('keeps local book ownership and demo currency rewards in the progress schem
 });
 
 test('tracks in-app chapter reading and redeems exactly five Wishlist Pages for permanent ownership', () => {
-  let progress = { ...createEmptyProgress(), inventory: { wishlistPages: 5 }, wishlistIds: ['book-1', 'book-2'] };
+  let progress = { ...createEmptyProgress(), inventory: { wishlistPages: 5 }, bookWishlistIds: ['book-1', 'book-2'] };
   progress = markBookChapterRead(progress, 'book-1', 'chapter-1');
   assert.deepEqual(progress.bookReading['book-1'].chapterIds, ['chapter-1']);
-  const redeemed = redeemWishlistPages(progress, progress.wishlistIds);
+  const redeemed = redeemWishlistPages(progress, progress.bookWishlistIds);
   assert.equal(redeemed.progress.inventory.wishlistPages, 0);
   assert.equal(redeemed.progress.ownedBookIds.includes(redeemed.selectedBookId), true);
-  assert.equal(redeemed.progress.wishlistIds.includes(redeemed.selectedBookId), true);
+  assert.equal(redeemed.progress.bookWishlistIds.includes(redeemed.selectedBookId), true);
+});
+
+test('keeps the book wishlist separate from generic saved pet and accessory items', () => {
+  let progress = { ...createEmptyProgress(), wishlistIds: ['pet-accessory'] };
+  progress = toggleBookWishlist(progress, 'book-1');
+  assert.deepEqual(progress.bookWishlistIds, ['book-1']);
+  assert.deepEqual(progress.wishlistIds, ['pet-accessory']);
 });
 
 test('only Diamonds purchase Wishlist Pages and a failed purchase keeps the wallet intact', () => {

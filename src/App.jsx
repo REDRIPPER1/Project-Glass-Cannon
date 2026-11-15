@@ -46,11 +46,12 @@ import {
   purchaseCatalogItem,
   openCatalogEgg,
   setSubscriptionPlan,
+  toggleBookWishlist as updateBookWishlist,
   toggleWishlist,
 } from './utils/progress';
 import { PLATFORM_CATALOG, RARITY_COLORS, displayCurrency, petById, rewardById } from './utils/platformCatalog';
 import { bookAccessState, bookLevelNodes, chapterAccessState, exactChapterQuest, libraryBooks, sourceReaderState } from './utils/bookLibrary';
-import { loadChapterReference, loadLibraryEnhancement, purchaseShopItem, redeemWishlistPagesRemote, setRemoteWishlist } from './utils/libraryApi';
+import { loadChapterReference, loadLibraryEnhancement, purchaseShopItem, redeemWishlistPagesRemote, setRemoteBookWishlist } from './utils/libraryApi';
 import {
   coachFallback,
   dailyGoalStatus,
@@ -447,7 +448,7 @@ function LegacyLitLearnShopScreen({ progress, profileId, shopItems, onUpdate, on
   return <section className="feature-card platform-collection" aria-labelledby="shop-title"><div className="collection-hero"><div><p className="eyebrow">Local demo shop</p><h1 id="shop-title">Story Shop</h1><p>Gold and Diamonds are the only player currencies. Purchases stay in this browser until the synced wallet contract is enabled.</p></div><div className="currency-bar"><span>🪙 {progress.currencies.gold} Gold</span><span>💎 {progress.currencies.diamonds} Diamonds</span></div></div><section className="shop-section" id="shop-diamonds"><h2>Wishlist Pages</h2><div className="shop-grid"><article className="shop-product"><span className="eyebrow">Diamond item</span><h3>Wishlist Page</h3><p>Use five pages for a random eligible wishlist-book claim. Quest completions and Level Road milestones also earn pages.</p><button className="secondary-button" type="button" onClick={buyPages}>Buy 1 for 10 Diamonds</button></article></div></section><section className="shop-section"><h2>Books</h2><p>Permanent book purchases remain in Shop. Only titles with a provided LitLearn purchase offer can be purchased; unavailable titles clearly remain locked.</p><button className="secondary-button" type="button" onClick={() => onNavigate('books')}>Browse book offers</button></section><section className="shop-section"><h2>Companion items</h2><p>Pet clothing and eggs unlock through their intended level and collection paths. No other visible currencies are used.</p></section></section>;
 }
 
-function LitLearnShopScreen({ progress, profileId, shopItems = [], onUpdate, onNavigate, onStatus }) {
+function LegacyLitLearnShopScreenV2({ progress, profileId, shopItems = [], onUpdate, onNavigate, onStatus }) {
   const offers = shopItems.filter((item) => item.id === 'shop-wishlist-page' || item.id.startsWith('shop-book-'));
   const buy = async (offer) => {
     if (profileId) {
@@ -461,6 +462,37 @@ function LitLearnShopScreen({ progress, profileId, shopItems = [], onUpdate, onN
     if (offer.id === 'shop-wishlist-page') { if (progress.currencies.diamonds < 10) { onStatus('You need 10 Diamonds for a Wishlist Page.'); return; } onUpdate((current) => buyWishlistPages(current)); onStatus('Wishlist Page added to your offline inventory.'); }
   };
   return <section className="feature-card platform-collection" aria-labelledby="shop-title"><div className="collection-hero"><div><p className="eyebrow">Local demo shop</p><h1 id="shop-title">Story Shop</h1><p>Gold and Diamonds are the only player currencies. Purchases are mock transactions; no real payment is processed.</p></div><div className="currency-bar"><span>🪙 {progress.currencies.gold} Gold</span><span>💎 {progress.currencies.diamonds} Diamonds</span></div></div><section className="shop-section"><h2>Wishlist Pages</h2>{offers.filter((item) => item.id === 'shop-wishlist-page').map((offer) => <article className="shop-product" key={offer.id}><h3>Wishlist Page</h3><p>Spend five for one random eligible wishlisted book, permanently. {offer.price} Diamonds each.</p><button className="secondary-button" type="button" onClick={() => buy(offer)}>Buy Wishlist Page</button></article>)}</section><section className="shop-section"><h2>Books</h2>{offers.filter((item) => item.id.startsWith('shop-book-')).length ? <div className="shop-grid">{offers.filter((item) => item.id.startsWith('shop-book-')).map((offer) => <article className="shop-product" key={offer.id}><h3>{offer.catalogId.replaceAll('-', ' ')}</h3><p>{progress.ownedBookIds.includes(offer.catalogId) ? 'Owned forever' : `${offer.price} ${offer.currency === 'diamonds' ? 'Diamonds' : 'Gold'} · permanent local ownership`}</p><button className="secondary-button" type="button" disabled={progress.ownedBookIds.includes(offer.catalogId)} onClick={() => buy(offer)}>{progress.ownedBookIds.includes(offer.catalogId) ? 'Owned' : 'Buy book'}</button></article>)}</div> : <p>No catalog book offers are available right now. Browse their access in Books.</p>}<button className="text-button" type="button" onClick={() => onNavigate('books')}>Browse Books</button></section></section>;
+}
+
+function LitLearnShopScreen({ progress, profileId, shopItems = [], onUpdate, onNavigate, onStatus }) {
+  const fallbackAccessories = PLATFORM_CATALOG.shopItems.filter((item) => item.itemType === 'accessory').map((item) => ({ ...item, currency: item.currency === 'leafTokens' ? 'gold' : item.currency === 'storyShards' ? 'diamonds' : item.currency }));
+  const accessoryOffers = shopItems.filter((item) => item.itemType === 'accessory');
+  const accessories = accessoryOffers.length ? accessoryOffers : fallbackAccessories;
+  const books = shopItems.filter((item) => item.itemType === 'book' || item.id?.startsWith('shop-book-'));
+  const buy = async (offer) => {
+    const currency = offer.currency === 'leafTokens' ? 'gold' : offer.currency === 'storyShards' ? 'diamonds' : offer.currency;
+    const isBook = offer.itemType === 'book' || offer.id?.startsWith('shop-book-');
+    const alreadyOwned = isBook ? progress.ownedBookIds.includes(offer.catalogId) : progress.ownedAccessoryIds.includes(offer.catalogId);
+    if (alreadyOwned) return;
+    if (profileId && shopItems.some((item) => item.id === offer.id)) {
+      try {
+        const result = await purchaseShopItem(profileId, offer.id);
+        onUpdate((state) => ({ ...applyRemoteBalances(state, result), ownedBookIds: isBook ? [...new Set([...state.ownedBookIds, result.bookId || result.selectedBookId || offer.catalogId])] : state.ownedBookIds, ownedAccessoryIds: !isBook ? [...new Set([...state.ownedAccessoryIds, offer.catalogId])] : state.ownedAccessoryIds }));
+        onStatus(`${isBook ? 'Book' : 'Pet accessory'} purchased and permanently added.`);
+      } catch { onStatus(`Purchase did not complete. You need ${offer.price} ${currency === 'diamonds' ? 'Diamonds' : 'Gold'}.`); }
+      return;
+    }
+    if ((progress.currencies[currency] || 0) < offer.price) { onStatus(`You need ${offer.price} ${currency === 'diamonds' ? 'Diamonds' : 'Gold'}.`); return; }
+    onUpdate((state) => purchaseCatalogItem(state, { ...offer, currency, itemType: isBook ? 'book' : 'accessory' }));
+    onStatus(`${isBook ? 'Book' : 'Pet accessory'} purchased and permanently added in this demo.`);
+  };
+  const Product = ({ offer, kind }) => {
+    const isBook = kind === 'book';
+    const owned = isBook ? progress.ownedBookIds.includes(offer.catalogId) : progress.ownedAccessoryIds.includes(offer.catalogId);
+    const currency = offer.currency === 'leafTokens' ? 'gold' : offer.currency === 'storyShards' ? 'diamonds' : offer.currency;
+    return <article className="shop-product"><span className="eyebrow">{isBook ? 'Permanent book' : 'Pet accessory'}</span><h3>{offer.label || offer.title || offer.catalogId.replaceAll('-', ' ')}</h3><p>{owned ? 'Permanently owned' : `${offer.price} ${currency === 'diamonds' ? 'Diamonds' : 'Gold'}`}</p><button className="secondary-button" type="button" disabled={owned} onClick={() => buy(offer)}>{owned ? 'Owned' : `Buy with ${currency === 'diamonds' ? 'Diamonds' : 'Gold'}`}</button></article>;
+  };
+  return <section className="feature-card platform-collection" aria-labelledby="shop-title"><div className="collection-hero"><div><p className="eyebrow">Local demo shop</p><h1 id="shop-title">Story Shop</h1><p>Books use Diamonds. Pet accessories use Gold. Successful demo purchases remain permanently owned.</p></div><div className="currency-bar"><span>{progress.currencies.gold} Gold</span><span>{progress.currencies.diamonds} Diamonds</span></div></div><section className="shop-section"><h2>Demo wallet</h2><p>Use this local demo reward to try a book purchase. No real payment is processed.</p><button className="secondary-button" type="button" onClick={() => { onUpdate((state) => grantDemoCurrency(state, 'diamonds', 50)); onStatus('50 Diamonds added for this demo.'); }}>Add 50 demo Diamonds</button></section><section className="shop-section"><h2>Books</h2>{books.length ? <div className="shop-grid">{books.map((offer) => <Product key={offer.id} offer={offer} kind="book" />)}</div> : <p>Choose a purchase-only book in the catalog to see its Diamond price.</p>}<button className="text-button" type="button" onClick={() => onNavigate('books')}>Browse catalog</button></section><section className="shop-section"><h2>Pet clothing & accessories</h2><div className="shop-grid">{accessories.map((offer) => <Product key={offer.id} offer={offer} kind="accessory" />)}</div></section></section>;
 }
 
 function LegacyInAppBookLibraryScreen({ progress, quests, apiState, catalogBooks, onUpdate, onNavigate, onLaunchQuest }) {
@@ -490,7 +522,7 @@ function LegacyInAppBookLibraryScreen({ progress, quests, apiState, catalogBooks
   return <section className="feature-card platform-collection book-library" aria-labelledby="books-title"><div className="collection-hero"><div><p className="eyebrow">LitLearn library</p><h1 id="books-title">Books</h1><p>Read reviewed LitLearn passages without leaving the app. Unreviewed titles stay unavailable until their content is provided.</p></div><span className={`book-state is-${apiState.kind === 'ready' ? 'ready' : 'error'}`}>{apiState.kind === 'ready' ? 'Catalog synced' : 'Offline catalog'}</span></div><label className="book-category-filter" htmlFor="book-category">Category<select id="book-category" value={category} onChange={(event) => { setCategory(event.target.value); setSelectedBookId(''); }}><option>All categories</option>{categories.slice(1).map((item) => <option key={item}>{item}</option>)}</select></label>{visible.length ? <div className="book-library-layout"><section className="book-shelf" aria-label="Books by category">{visible.map((book) => { const state = bookAccessState(book, progress); return <article key={book.id} className={`book-card ${book.id === selectedBook?.id ? 'is-selected' : ''}`}><span className={`book-state is-${state}`}>{state === 'owned' ? 'Owned forever' : state === 'subscription' ? 'Readable with Premium' : state === 'free' ? 'Free chapters' : state === 'purchase-only' ? 'Purchase required' : 'Locked'}</span><h2>{book.title}</h2><p>{book.author} · {book.category || book.topic}</p><button className="secondary-button" type="button" onClick={() => choose(book)}>View reading path</button><button className="text-button" type="button" onClick={() => onUpdate((current) => toggleWishlist(current, book.id))}>{progress.wishlistIds.includes(book.id) ? '★ Wishlisted' : '☆ Add to wishlist'}</button></article>; })}</section>{selectedBook && <section className="book-reader-workspace" aria-labelledby="selected-book-title"><div className="book-detail-header"><div><h2 id="selected-book-title">{selectedBook.title}</h2><p>{selectedBook.author} · {selectedBook.edition}</p></div><button className="text-button" type="button" onClick={() => onNavigate('shop')}>Book options in Shop</button></div><p className="source-attribution"><strong>Attribution:</strong> {selectedBook.requiredAttribution || 'Catalog attribution pending review.'}</p><div className="chapter-list" aria-label={`${selectedBook.title} chapters`}>{(selectedBook.chapterMetadata || []).map((item) => <button key={item.id} type="button" className={chapter?.id === item.id ? 'is-selected' : ''} onClick={() => { setSelectedChapterId(item.id); setReaderOpen(false); }}>{item.title}<small>{progress.bookReading[selectedBook.id]?.chapterIds?.includes(item.id) ? 'Read' : 'Not read'}</small></button>)}</div>{chapter && quest && access !== 'locked' && access !== 'purchase-only' ? <div className="source-reader-state is-ready"><h3>{chapter.title}</h3><p>This provided LitLearn passage opens inside the app.</p><button className="primary-button" type="button" onClick={() => setReaderOpen(true)}>Read chapter in LitLearn</button></div> : <div className="source-reader-state is-unavailable"><h3>{chapter?.title || 'No chapter provided'}</h3><p>{access === 'purchase-only' ? 'Purchase access is available in Shop. The in-app chapter unlocks only after a successful purchase.' : 'This title has no provided readable passage yet. It remains in the catalog, but LitLearn will not redirect you elsewhere.'}</p></div>}</section>}</div> : <section className="book-empty-state"><h2>No books in this category</h2><p>Choose another category to continue browsing the provided LitLearn catalog.</p></section>}</section>;
 }
 
-function InAppBookLibraryScreen({ progress, quests, apiState, catalogBooks, profileId, onUpdate, onNavigate, onLaunchQuest, onStatus }) {
+function LegacyInAppBookLibraryScreenV2({ progress, quests, apiState, catalogBooks, profileId, onUpdate, onNavigate, onLaunchQuest, onStatus }) {
   const catalog = catalogBooks?.length ? catalogBooks : PLATFORM_CATALOG.books;
   const [category, setCategory] = useState('All categories');
   const [selectedBookId, setSelectedBookId] = useState(() => catalog[0]?.id || '');
@@ -524,12 +556,82 @@ function InAppBookLibraryScreen({ progress, quests, apiState, catalogBooks, prof
   const toggleBookWishlist = async (bookId) => {
     const wishlisted = !progress.wishlistIds.includes(bookId);
     if (profileId) {
-      try { await setRemoteWishlist(profileId, bookId, wishlisted); } catch { onStatus('Wishlist could not sync; it remains saved in this browser.'); }
+      try { await setRemoteBookWishlist(profileId, bookId, wishlisted); } catch { onStatus('Wishlist could not sync; it remains saved in this browser.'); }
     }
     onUpdate((current) => toggleWishlist(current, bookId));
   };
   if (reader.kind === 'ready' && selectedBook && chapter) return <section className="in-app-reader" aria-labelledby="reader-title"><div className="reader-toolbar"><button className="secondary-button" type="button" onClick={() => setReader({ kind: 'idle', sentences: [], attribution: null })}>Back to {selectedBook.title}</button><span>In-app reading</span></div><p className="eyebrow">{selectedBook.title} · {chapter.title}</p><h1 id="reader-title">Read in LitLearn</h1><p className="reader-attribution">{reader.attribution?.requiredAttribution || reader.attribution || 'Reviewed LitLearn passage.'}</p><article className="passage-card" aria-label={`${chapter.title} passage`}>{reader.sentences.map((sentence, index) => <p key={sentence.id || index}>{sentence.text}</p>)}</article><div className="button-row"><button className="primary-button" type="button" disabled={!quest} onClick={() => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); onLaunchQuest(quest); }}>{quest ? 'Start comprehension quest' : 'Quest mapping unavailable'}</button><button className="secondary-button" type="button" onClick={() => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); setReader({ kind: 'idle', sentences: [], attribution: null }); }}>Mark chapter read</button></div></section>;
   return <section className="feature-card platform-collection book-library" aria-labelledby="books-title"><div className="collection-hero"><div><p className="eyebrow">LitLearn library</p><h1 id="books-title">Books</h1><p>Read provided bundled passages inside LitLearn. Titles without reviewed text remain visible and clearly unavailable.</p></div><span className={`book-state is-${apiState.kind === 'ready' ? 'ready' : 'error'}`}>{apiState.kind === 'ready' ? 'Catalog synced' : 'Offline catalog'}</span></div><label className="book-category-filter" htmlFor="book-category">Category<select id="book-category" value={category} onChange={(event) => { setCategory(event.target.value); setSelectedBookId(''); }}><option>All categories</option>{categories.slice(1).map((item) => <option key={item}>{item}</option>)}</select></label>{visible.length ? <div className="book-library-layout"><section className="book-shelf" aria-label="Books by category">{visible.map((book) => { const state = bookAccessState(book, progress); return <article key={book.id} className={`book-card ${book.id === selectedBook?.id ? 'is-selected' : ''}`}><span className={`book-state is-${state}`}>{state === 'owned' ? 'Owned forever' : state === 'subscription' ? 'Readable with Premium' : state === 'free' ? 'Free chapters' : state === 'purchase-only' ? 'Purchase required' : 'Locked'}</span><h2>{book.title}</h2><p>{book.author} · {book.category || book.topic}</p><button className="secondary-button" type="button" onClick={() => selectBook(book)}>View reading path</button><button className="text-button" type="button" onClick={() => toggleBookWishlist(book.id)}>{progress.wishlistIds.includes(book.id) ? '★ Wishlisted' : '☆ Add to wishlist'}</button></article>; })}</section>{selectedBook && <section className="book-reader-workspace" aria-labelledby="selected-book-title"><div className="book-detail-header"><div><h2 id="selected-book-title" tabIndex="-1">{selectedBook.title}</h2><p>{selectedBook.author} · {selectedBook.edition}</p></div><button className="text-button" type="button" onClick={() => onNavigate('shop')}>Book options in Shop</button></div><p className="source-attribution"><strong>Attribution:</strong> {selectedBook.requiredAttribution || 'Catalog attribution pending review.'}</p><div className="chapter-list" aria-label={`${selectedBook.title} chapters`}>{(selectedBook.chapterMetadata || []).map((item) => <button key={item.id} type="button" className={chapter?.id === item.id ? 'is-selected' : ''} onClick={() => { setSelectedChapterId(item.id); setReader({ kind: 'idle', sentences: [], attribution: null }); }}>{item.title}<small>{progress.bookReading[selectedBook.id]?.chapterIds?.includes(item.id) ? 'Read' : item.contentAvailability === 'bundled-passage' ? 'Ready in app' : 'Unavailable'}</small></button>)}</div>{reader.kind === 'loading' ? <div className="source-reader-state is-loading" role="status">Loading the reviewed in-app passage…</div> : reader.kind === 'error' || reader.kind === 'unavailable' ? <div className="source-reader-state is-unavailable" role="status"><h3>{chapter?.title}</h3><p>{reader.message}</p><button className="secondary-button" type="button" onClick={() => setReader({ kind: 'idle', sentences: [], attribution: null })}>Back to chapter list</button></div> : chapter?.contentAvailability === 'bundled-passage' ? <div className="source-reader-state is-ready"><h3>{chapter.title}</h3><p>This provided passage opens inside LitLearn.</p><button className="primary-button" type="button" onClick={openReader}>Read chapter in LitLearn</button></div> : <div className="source-reader-state is-unavailable"><h3>{chapter?.title || 'No chapter provided'}</h3><p>This title has no provided readable passage yet. LitLearn will not redirect you elsewhere.</p></div>}</section>}</div> : <section className="book-empty-state"><h2>No books in this category</h2><p>Choose another category to continue browsing the provided catalog.</p></section>}</section>;
+}
+
+function InAppBookLibraryScreen({ progress, quests, apiState, catalogBooks, profileId, shopItems = [], onUpdate, onNavigate, onLaunchQuest, onStatus }) {
+  const catalog = catalogBooks?.length ? catalogBooks : PLATFORM_CATALOG.books;
+  const [category, setCategory] = useState('All categories');
+  const [accessFilter, setAccessFilter] = useState('all');
+  const [selectedBookId, setSelectedBookId] = useState(() => catalog[0]?.id || '');
+  const [selectedChapterId, setSelectedChapterId] = useState('');
+  const [reader, setReader] = useState({ kind: 'idle', sentences: [], attribution: null });
+  const categories = ['All categories', ...new Set(catalog.map((book) => book.category || book.topic || 'Classics'))];
+  const visible = catalog.filter((book) => {
+    const categoryMatches = category === 'All categories' || (book.category || book.topic || 'Classics') === category;
+    const availability = bookAccessState(book, progress);
+    const accessMatches = accessFilter === 'all'
+      || (accessFilter === 'readable' && ['free', 'subscription', 'owned'].includes(availability))
+      || availability === accessFilter;
+    return categoryMatches && accessMatches;
+  });
+  const selectedBook = visible.find((book) => book.id === selectedBookId) || visible[0] || null;
+  const chapter = selectedBook?.chapterMetadata?.find((item) => item.id === selectedChapterId) || selectedBook?.chapterMetadata?.[0] || null;
+  const chapterAccess = selectedBook && chapter ? chapterAccessState(selectedBook, chapter, progress) : 'locked';
+  const quest = selectedBook && chapter ? exactChapterQuest(selectedBook, chapter, quests) : null;
+  const accessLabel = (access) => ({ owned: 'Owned permanently', free: 'Free access', subscription: 'Premium access', 'purchase-only': 'Purchase with Diamonds', locked: 'Premium required' }[access] || access);
+  const selectBook = (book) => {
+    setSelectedBookId(book.id);
+    setSelectedChapterId(book.chapterMetadata?.[0]?.id || '');
+    setReader({ kind: 'idle', sentences: [], attribution: null });
+    window.setTimeout(() => document.getElementById('selected-book-title')?.focus(), 0);
+  };
+  const toggleBookWishlist = async (bookId) => {
+    const wishlisted = !progress.bookWishlistIds.includes(bookId);
+    if (profileId) {
+      try { await setRemoteBookWishlist(profileId, bookId, wishlisted); }
+      catch { onStatus('Your book wishlist could not sync, so LitLearn kept the local change.'); }
+    }
+    onUpdate((current) => updateBookWishlist(current, bookId));
+  };
+  const buyBook = async () => {
+    if (!selectedBook) return;
+    const offer = shopItems.find((item) => item.id === `shop-book-${selectedBook.id}` || item.catalogId === selectedBook.id);
+    const price = Number(offer?.price ?? selectedBook.priceDiamonds ?? 0);
+    if (profileId && offer) {
+      try {
+        const purchase = await purchaseShopItem(profileId, offer.id);
+        onUpdate((current) => ({ ...applyRemoteBalances(current, purchase), ownedBookIds: [...new Set([...current.ownedBookIds, purchase.bookId || purchase.selectedBookId || selectedBook.id])]}));
+        onStatus(`${selectedBook.title} is now permanently owned.`);
+      } catch { onStatus(`The purchase did not complete. You need ${price} Diamonds.`); }
+      return;
+    }
+    if (progress.currencies.diamonds < price || !price) { onStatus(`You need ${price || 'the listed number of'} Diamonds to purchase this book.`); return; }
+    onUpdate((current) => purchaseCatalogItem(current, { itemType: 'book', catalogId: selectedBook.id, price, currency: 'diamonds' }));
+    onStatus(`${selectedBook.title} is now permanently owned in this demo.`);
+  };
+  const openReader = async () => {
+    if (!selectedBook || !chapter) return;
+    if (!['free', 'subscription', 'owned'].includes(chapterAccess)) { setReader({ kind: 'unavailable', message: `${accessLabel(chapterAccess)}. Unlock this chapter before reading it in LitLearn.` }); return; }
+    if (!profileId) {
+      if (!quest) { setReader({ kind: 'unavailable', message: 'This chapter has no reviewed bundled passage in the offline demo.' }); return; }
+      setReader({ kind: 'ready', sentences: sentencesFor(quest), attribution: selectedBook.requiredAttribution || 'Reviewed LitLearn passage.' });
+      return;
+    }
+    setReader({ kind: 'loading', sentences: [], attribution: null });
+    try {
+      const result = await loadChapterReference(profileId, selectedBook.id, chapter.id);
+      if (result.content?.mode !== 'bundled-passage') { setReader({ kind: 'unavailable', message: result.content?.reason || 'This chapter is not available for in-app reading yet.', attribution: result.attribution }); return; }
+      setReader({ kind: 'ready', sentences: result.content.sentences || [], attribution: result.attribution });
+    } catch { setReader({ kind: 'error', message: 'The chapter could not be loaded. Your local quest progress is still available offline.' }); }
+  };
+  if (reader.kind === 'ready' && selectedBook && chapter) return <section className="in-app-reader" aria-labelledby="reader-title"><div className="reader-toolbar"><button className="secondary-button" type="button" onClick={() => setReader({ kind: 'idle', sentences: [], attribution: null })}>Back to {selectedBook.title}</button><span>In-app reading</span></div><p className="eyebrow">{selectedBook.title} · {chapter.title}</p><h1 id="reader-title">Read in LitLearn</h1><p className="reader-attribution">{reader.attribution?.requiredAttribution || reader.attribution || 'Reviewed LitLearn passage.'}</p><article className="passage-card" aria-label={`${chapter.title} passage`}>{reader.sentences.map((sentence, index) => <p key={sentence.id || index}>{sentence.text}</p>)}</article><div className="button-row"><div className="quiz-source-label"><strong>Comprehension quiz source:</strong> {selectedBook.title}, {selectedBook.edition || 'reviewed edition'}, {chapter.title}</div><button className="primary-button" type="button" disabled={!quest} onClick={() => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); onLaunchQuest(quest); }}>{quest ? 'Start comprehension quiz' : 'Quiz coming soon'}</button><button className="secondary-button" type="button" onClick={() => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); setReader({ kind: 'idle', sentences: [], attribution: null }); }}>Mark chapter read</button></div></section>;
+  return <section className="feature-card platform-collection book-library" aria-labelledby="books-title"><div className="collection-hero"><div><p className="eyebrow">LitLearn library</p><h1 id="books-title">Books</h1><p>Browse every catalog record, then read only reviewed bundled passages inside LitLearn.</p></div><span className={`book-state is-${apiState.kind === 'ready' ? 'ready' : 'error'}`}>{apiState.kind === 'ready' ? 'Catalog synced' : 'Offline catalog'}</span></div><div className="book-filters"><label htmlFor="book-category">Category<select id="book-category" value={category} onChange={(event) => { setCategory(event.target.value); setSelectedBookId(''); }}><option>All categories</option>{categories.slice(1).map((item) => <option key={item}>{item}</option>)}</select></label><label htmlFor="book-access">Access<select id="book-access" value={accessFilter} onChange={(event) => { setAccessFilter(event.target.value); setSelectedBookId(''); }}><option value="all">All access</option><option value="readable">Readable now</option><option value="subscription">Premium</option><option value="purchase-only">Purchase with Diamonds</option></select></label></div>{visible.length ? <div className="book-library-layout"><section className="book-shelf" aria-label="Filtered book catalog">{visible.map((book) => { const state = bookAccessState(book, progress); return <article key={book.id} className={`book-card ${book.id === selectedBook?.id ? 'is-selected' : ''}`}><span className={`book-state is-${state}`}>{accessLabel(state)}</span><h2>{book.title}</h2><p>{book.author} · {book.category || book.topic}</p><button className="secondary-button" type="button" onClick={() => selectBook(book)}>Open book details</button><button className="text-button" type="button" onClick={() => toggleBookWishlist(book.id)}>{progress.bookWishlistIds.includes(book.id) ? '★ Remove from book wishlist' : '☆ Add to book wishlist'}</button></article>; })}</section>{selectedBook && <section className="book-reader-workspace" aria-labelledby="selected-book-title"><div className="book-detail-header"><div><span className={`book-state is-${bookAccessState(selectedBook, progress)}`}>{accessLabel(bookAccessState(selectedBook, progress))}</span><h2 id="selected-book-title" tabIndex="-1">{selectedBook.title}</h2><p>{selectedBook.author} · {selectedBook.edition || 'Reviewed edition'}</p></div><button className="text-button" type="button" onClick={() => onNavigate('shop')}>Open in Shop</button></div><p className="source-attribution"><strong>Project Gutenberg attribution:</strong> {selectedBook.requiredAttribution || 'Catalog attribution pending review.'}</p><div className="chapter-list" aria-label={`${selectedBook.title} available chapters and reading levels`}>{(selectedBook.chapterMetadata || []).map((item) => { const selected = chapter?.id === item.id; const levelLabels = (item.readingLevels || []).map((level) => `${level.label || level.id}${level.accessTier === 'premium' ? ' · Premium' : ''}`).join(', '); return <button key={item.id} type="button" className={selected ? 'is-selected' : ''} onClick={() => { setSelectedChapterId(item.id); setReader({ kind: 'idle', sentences: [], attribution: null }); }}><strong>{item.title}</strong><small>{levelLabels || 'Standard level'} · {progress.bookReading[selectedBook.id]?.chapterIds?.includes(item.id) ? 'Read' : item.contentAvailability === 'bundled-passage' ? accessLabel(chapterAccessState(selectedBook, item, progress)) : 'Unavailable in app'}</small></button>; })}</div>{reader.kind === 'loading' ? <div className="source-reader-state is-loading" role="status">Loading the reviewed in-app passage…</div> : reader.kind === 'error' || reader.kind === 'unavailable' ? <div className="source-reader-state is-unavailable" role="status"><h3>{chapter?.title}</h3><p>{reader.message}</p><button className="secondary-button" type="button" onClick={() => setReader({ kind: 'idle', sentences: [], attribution: null })}>Back to chapter list</button></div> : chapter?.contentAvailability === 'bundled-passage' ? <div className="source-reader-state is-ready"><h3>{chapter.title}</h3><p>{accessLabel(chapterAccess)} · this reviewed passage opens inside LitLearn.</p><button className="primary-button" type="button" onClick={openReader}>{chapterAccess === 'locked' ? 'Premium required' : 'Read chapter in LitLearn'}</button></div> : <div className="source-reader-state is-unavailable"><h3>{chapter?.title || 'No chapter provided'}</h3><p>This title has no provided readable passage yet. LitLearn will not redirect you elsewhere.</p></div>}{chapterAccess === 'purchase-only' && <button className="secondary-button" type="button" onClick={buyBook}>Buy permanently for {selectedBook.priceDiamonds || shopItems.find((item) => item.catalogId === selectedBook.id)?.price || 0} Diamonds</button>}</section>}</div> : <section className="book-empty-state"><h2>No books match those filters</h2><p>Clear a filter to browse another part of the catalog.</p></section>}</section>;
 }
 
 function BookLibraryScreen({ progress, quests, apiState, catalogBooks, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
@@ -576,7 +678,7 @@ function RecommendedBookCard({ onNavigate, catalogBooks, recommendations }) {
   return <section className="recommended-book-card" aria-labelledby="recommended-book-title"><div><p className="eyebrow">Recommended book</p><h2 id="recommended-book-title">{book.title}</h2><p>{book.author} · {book.category || book.topic} · {'★'.repeat(book.difficulty || 1)}{'☆'.repeat(5 - (book.difficulty || 1))}</p></div><button className="primary-button" type="button" onClick={() => { try { window.sessionStorage.setItem('litlab.bookFocus', book.id); } catch { /* optional convenience only */ } onNavigate('books'); }}>Open book <span aria-hidden="true">→</span></button></section>;
 }
 
-function ProfileScreen({ progress, profileId, onNavigate, onUpdate, onStatus }) {
+function LegacyProfileScreen({ progress, profileId, onNavigate, onUpdate, onStatus }) {
   const [selected, setSelected] = useState(null);
   const level = levelForXp(progress.xp);
   const current = xpIntoLevel(progress.xp);
@@ -609,6 +711,40 @@ function ProfileScreen({ progress, profileId, onNavigate, onUpdate, onStatus }) 
     onStatus(`${result.selectedBookId.replaceAll('-', ' ')} is now owned forever.`);
   };
   return <section className="feature-card platform-collection profile-v2" aria-labelledby="profile-title"><div className="profile-v2-hero"><div className="xp-avatar" style={{ '--xp-fill': `${percent * 3.6}deg` }} aria-label={`Level ${level}, ${current} of ${required || current} XP toward the next level`}><span>{progress.profileName.slice(0, 1).toUpperCase()}</span></div><div><p className="eyebrow">Reader profile</p><h1 id="profile-title">{progress.profileName}</h1><p>Level {level} · {current}/{required || current} XP toward the next level</p></div></div><div className="wallet-row" aria-label="Wallet"><button type="button" onClick={() => onNavigate('shop', { shopSection: 'gold' })}>🪙 <strong>{progress.currencies.gold}</strong> Gold <span aria-hidden="true">+</span></button><button type="button" onClick={() => onNavigate('shop', { shopSection: 'diamonds' })}>💎 <strong>{progress.currencies.diamonds}</strong> Diamonds <span aria-hidden="true">+</span></button><span className="wishlist-page-chip">📜 {progress.inventory.wishlistPages} Wishlist Pages</span></div><section className="xp-breakdown" aria-labelledby="xp-breakdown-title"><h2 id="xp-breakdown-title">Latest XP breakdown</h2><p>Correct answers +{progress.lastXpBreakdown?.answers || 0} · evidence reasoning +{progress.lastXpBreakdown?.evidence || 0} · quality +{progress.lastXpBreakdown?.reasoning || 0}. Incorrect or unanswered questions earn 0 XP.</p></section><section className="wishlist-redemption"><h2>Wishlist Page draw</h2><p>Spend five Wishlist Pages to receive one random eligible book from your wishlist permanently. The selected title is shown only after the claim succeeds.</p><button className="secondary-button" type="button" disabled={progress.inventory.wishlistPages < 5 || !progress.wishlistIds.length} onClick={redeem}>Use 5 Wishlist Pages</button></section><section className="interactive-collection"><h2>Collection journal</h2>{collection.length ? <div className="collection-list">{collection.map((item) => <button type="button" key={`${item.type}-${item.id}`} className={selected === item.id ? 'is-selected' : ''} onClick={() => setSelected(item.id)}>✦ {item.title} <small>{item.earned ? 'Earned' : item.type === 'Wishlist' ? 'Saved' : 'Locked'}</small></button>)}</div> : <p className="empty-summary">No keepsakes yet—your first quest will add one.</p>}{selectedItem && <article className="collection-detail" role="status"><p className="eyebrow">{selectedItem.type} · {selectedItem.earned ? 'Earned' : 'Not yet earned'}</p><h3>{selectedItem.title}</h3><p>{selectedItem.description}</p><p><strong>How to get it:</strong> {selectedItem.how}</p></article>}</section></section>;
+}
+
+function ProfileScreen({ progress, profileId, catalogBooks = [], onNavigate, onUpdate, onStatus }) {
+  const [selected, setSelected] = useState(null);
+  const level = levelForXp(progress.xp);
+  const current = xpIntoLevel(progress.xp);
+  const required = xpForNextLevel(progress.xp);
+  const percent = required ? Math.round((current / required) * 100) : 100;
+  const books = catalogBooks.length ? catalogBooks : PLATFORM_CATALOG.books;
+  const bookWishlist = progress.bookWishlistIds.map((id) => books.find((book) => book.id === id) || { id, title: id.replaceAll('-', ' '), author: 'Catalog title' });
+  const removeBook = async (bookId) => {
+    if (profileId) {
+      try { await setRemoteBookWishlist(profileId, bookId, false); }
+      catch { onStatus('The wishlist could not sync, but it was removed from this browser.'); }
+    }
+    onUpdate((state) => updateBookWishlist(state, bookId));
+  };
+  const redeem = async () => {
+    if (progress.inventory.wishlistPages < 5 || !progress.bookWishlistIds.length) { onStatus('You need five Wishlist Pages and one unowned book in your book wishlist.'); return; }
+    if (!window.confirm('Spend 5 Wishlist Pages for one random eligible book from your book wishlist? The selected book will be permanently owned after a successful claim.')) return;
+    if (profileId) {
+      try {
+        const result = await redeemWishlistPagesRemote(profileId);
+        onUpdate((state) => ({ ...applyRemoteBalances(state, result), ownedBookIds: [...new Set([...state.ownedBookIds, result.selectedBookId])] }));
+        onStatus(`${result.selectedBookId.replaceAll('-', ' ')} is now owned forever.`);
+      } catch { onStatus('The synced claim could not be completed, so no Wishlist Pages were spent.'); }
+      return;
+    }
+    const result = redeemWishlistPages(progress, progress.bookWishlistIds);
+    if (!result.selectedBookId) { onStatus('The claim could not be completed, so no Wishlist Pages were spent.'); return; }
+    onUpdate(() => result.progress);
+    onStatus(`${result.selectedBookId.replaceAll('-', ' ')} is now owned forever.`);
+  };
+  return <section className="feature-card platform-collection profile-v2" aria-labelledby="profile-title"><div className="profile-v2-hero"><div className="xp-avatar" style={{ '--xp-fill': `${percent * 3.6}deg` }} aria-label={`Level ${level}, ${current} of ${required || current} XP toward the next level`}><span>{progress.profileName.slice(0, 1).toUpperCase()}</span></div><div><p className="eyebrow">Reader profile</p><h1 id="profile-title">{progress.profileName}</h1><p>Level {level} · {current}/{required || current} XP toward the next level</p></div></div><div className="wallet-row" aria-label="Wallet"><button type="button" onClick={() => onNavigate('shop')}><strong>{progress.currencies.gold}</strong> Gold</button><button type="button" onClick={() => onNavigate('shop')}><strong>{progress.currencies.diamonds}</strong> Diamonds</button><span className="wishlist-page-chip">{progress.inventory.wishlistPages} Wishlist Pages</span></div><section className="wishlist-redemption"><h2>Book wishlist</h2><p>Saved books are separate from pet and accessory wishes. Spend five Wishlist Pages to receive one eligible saved book permanently.</p>{bookWishlist.length ? <div className="collection-list">{bookWishlist.map((book) => <article key={book.id}><strong>{book.title}</strong><small>{book.author}</small><button className="text-button" type="button" onClick={() => removeBook(book.id)}>Remove from wishlist</button></article>)}</div> : <p className="empty-summary">No books saved yet. Browse the catalog to add one.</p>}<div className="button-row"><button className="secondary-button" type="button" onClick={() => onNavigate('books')}>Browse catalog</button><button className="primary-button" type="button" disabled={progress.inventory.wishlistPages < 5 || !progress.bookWishlistIds.length} onClick={redeem}>Use 5 Wishlist Pages</button></div></section><section className="interactive-collection"><h2>Progress collection</h2><div className="profile-progress"><article><span>Quests complete</span><strong>{progress.completedQuestIds.length}</strong><small>{progress.storyFragmentIds.length} story fragments</small></article><article><span>General wishlist</span><strong>{progress.wishlistIds.length}</strong><small>Pets and accessories remain separate from saved books.</small></article></div>{selected && <p role="status">{selected}</p>}<button className="text-button" type="button" onClick={() => setSelected(`Level ${level} reader profile`)}>View profile status</button></section></section>;
 }
 
 function LegacyPetCollectionScreen({ progress, onUpdate, onStatus }) {
@@ -647,8 +783,8 @@ function PetCollectionScreen({ progress, petCatalog, onUpdate, onStatus }) {
   );
 }
 
-function PlatformCollection({ section, progress, quests, apiState, catalogBooks, profileId, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
-  if (section === 'books') return <InAppBookLibraryScreen progress={progress} quests={quests} apiState={apiState} catalogBooks={catalogBooks} profileId={profileId} onUpdate={onUpdate} onStatus={onStatus} onNavigate={onNavigate} onLaunchQuest={onLaunchQuest} />;
+function PlatformCollection({ section, progress, quests, apiState, catalogBooks, shopItems, profileId, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
+  if (section === 'books') return <InAppBookLibraryScreen progress={progress} quests={quests} apiState={apiState} catalogBooks={catalogBooks} shopItems={shopItems} profileId={profileId} onUpdate={onUpdate} onStatus={onStatus} onNavigate={onNavigate} onLaunchQuest={onLaunchQuest} />;
   const [nameDrafts, setNameDrafts] = useState({});
   const [selectedPassStop, setSelectedPassStop] = useState(PASS_STOPS[0].id);
   const activePet = petById(progress.activePetId) || PLATFORM_CATALOG.pets[0];
@@ -764,6 +900,7 @@ export default function App() {
             activePetId: library.profile?.activePetId || current.activePetId,
             petNicknames: library.profile?.petNicknames || current.petNicknames,
             ownedBookIds: library.profile?.ownedBookIds || current.ownedBookIds,
+            bookWishlistIds: library.profile?.bookWishlistIds || current.bookWishlistIds,
           }));
         }).catch(() => setLibraryEnhancement({ kind: 'error', books: [], recommendations: [] }));
       })
@@ -884,10 +1021,10 @@ export default function App() {
         {screen === 'leaderboard' && <LeaderboardScreen progress={progress} onNavigate={navigate} />}
         {screen === 'trophy-road' && <TrophyRoadScreen progress={progress} onNavigate={navigate} />}
         {screen === 'level-road' && <LevelRoad100 progress={progress} petCatalog={libraryEnhancement.pets} onNavigate={navigate} />}
-        {screen === 'profile' && <ProfileScreen progress={progress} profileId={libraryEnhancement.profileId} onNavigate={navigate} onUpdate={setProgress} onStatus={addStatus} />}
+        {screen === 'profile' && <ProfileScreen progress={progress} profileId={libraryEnhancement.profileId} catalogBooks={libraryEnhancement.books} onNavigate={navigate} onUpdate={setProgress} onStatus={addStatus} />}
         {screen === 'pets' && <PetCollectionScreen progress={progress} petCatalog={libraryEnhancement.pets} onUpdate={setProgress} onStatus={addStatus} />}
         {screen === 'shop' && <LitLearnShopScreen progress={progress} profileId={libraryEnhancement.profileId} shopItems={libraryEnhancement.shopItems} onUpdate={setProgress} onNavigate={navigate} onStatus={addStatus} />}
-        {['pass', 'books'].includes(screen) && <PlatformCollection section={screen} progress={progress} quests={quests} apiState={apiState} catalogBooks={libraryEnhancement.books} profileId={libraryEnhancement.profileId} onUpdate={setProgress} onStatus={addStatus} onNavigate={navigate} onLaunchQuest={launchQuest} />}
+        {['pass', 'books'].includes(screen) && <PlatformCollection section={screen} progress={progress} quests={quests} apiState={apiState} catalogBooks={libraryEnhancement.books} shopItems={libraryEnhancement.shopItems} profileId={libraryEnhancement.profileId} onUpdate={setProgress} onStatus={addStatus} onNavigate={navigate} onLaunchQuest={launchQuest} />}
         {screen === 'settings' && <ControlsPanel progress={progress} onUpdate={updateSettings} onJudge={loadJudgeDemo} onReset={resetDemo} />}
         {screen === 'explore' && <FeatureLab progress={progress} quests={quests} onStatus={addStatus} onSetting={updateSettings} onUpdate={setProgress} />}
       </main>

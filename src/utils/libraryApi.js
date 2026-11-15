@@ -9,18 +9,24 @@ export function displayDifficulty(label, rating) {
 
 export function normalizeApiBook(book) {
   const rating = Math.max(1, Math.min(5, Math.round(Number(book.starRating) || Number(book.difficulty) || 1)));
-  const mode = book.accessRules?.mode || book.accessTier;
+  const mode = book.access?.state || book.accessRules?.mode || book.accessTier;
   const freeChapterIds = new Set(book.accessRules?.freeChapterIds || []);
   return {
     ...book,
     category: book.category || book.topic || 'Classics',
     difficulty: rating,
     difficultyLabel: displayDifficulty(book.difficultyLabel, rating),
-    accessTier: mode === 'purchase-only' ? 'purchase-only' : mode === 'subscription' || mode === 'premium' ? 'premium' : 'free-demo',
+    accessTier: mode === 'owned' ? 'owned' : mode === 'purchase-only' ? 'purchase-only' : mode === 'subscription' || mode === 'premium' ? 'premium' : 'free-demo',
+    priceDiamonds: Number(book.access?.priceDiamonds ?? book.priceDiamonds ?? 0) || 0,
     requiredAttribution: book.rights?.requiredAttribution || book.requiredAttribution,
     license: book.rights?.license || book.license,
     contentAvailability: book.contentAvailability || 'unavailable',
-    chapterMetadata: (book.chapterMetadata || []).map((chapter) => ({ ...chapter, accessTier: chapter.accessTier || (freeChapterIds.has(chapter.id) ? 'free-demo' : 'premium'), contentAvailability: chapter.contentAvailability || 'unavailable' })),
+    chapterMetadata: (book.chapterMetadata || []).map((chapter, index) => ({
+      ...chapter,
+      accessTier: chapter.access?.state || chapter.accessTier || (freeChapterIds.has(chapter.id) ? 'free-demo' : 'premium'),
+      contentAvailability: chapter.contentAvailability || 'unavailable',
+      readingLevels: (chapter.readingLevels || [{ id: `${chapter.id || index + 1}-level`, label: `Level ${index + 1}`, access: chapter.access?.state || chapter.accessTier || (freeChapterIds.has(chapter.id) ? 'free' : 'premium') }]).map((level) => ({ ...level, accessTier: level.accessTier || level.access || 'free' })),
+    })),
   };
 }
 
@@ -73,6 +79,6 @@ export async function purchaseShopItem(profileId, shopItemId) {
   return api(`/api/profiles/${profileId}/purchases`, { method: 'POST', body: JSON.stringify({ shopItemId }) });
 }
 
-export async function setRemoteWishlist(profileId, bookId, wishlisted) {
-  return api(`/api/profiles/${profileId}/wishlist/book/${bookId}`, { method: wishlisted ? 'PUT' : 'DELETE' });
+export async function setRemoteBookWishlist(profileId, bookId, wishlisted) {
+  return api(`/api/profiles/${profileId}/book-wishlist/${bookId}`, { method: wishlisted ? 'PUT' : 'DELETE' });
 }

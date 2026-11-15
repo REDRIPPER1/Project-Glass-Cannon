@@ -40,6 +40,13 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(appSource, /redeemWishlistPagesRemote/);
   assert.match(appSource, /loadChapterReference/);
   assert.match(appSource, /contentAvailability === 'bundled-passage'/);
+  assert.match(appSource, /Project Gutenberg attribution/);
+  assert.match(appSource, /Comprehension quiz source/);
+  assert.match(appSource, /Premium required/);
+  assert.match(appSource, /Buy permanently for/);
+  assert.match(appSource, /bookWishlistIds/);
+  assert.match(appSource, /Book wishlist/);
+  assert.match(appSource, /Pet clothing & accessories/);
   assert.match(appSource, /Continue active quest/);
   assert.match(appSource, /scrollIntoView/);
   assert.match(appSource, /aria-label=\{`\$\{PASS_PRODUCT_NAME\} reward path`\}/);

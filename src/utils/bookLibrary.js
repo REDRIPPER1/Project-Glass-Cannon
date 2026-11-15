@@ -2,6 +2,7 @@ const normalize = (value) => String(value || '').trim().toLowerCase();
 
 export function bookAccessState(book, progress) {
   if (progress.ownedBookIds?.includes(book.id)) return 'owned';
+  if (book.accessTier === 'owned') return 'owned';
   if (book.accessTier === 'free-demo') return 'free';
   if (book.accessTier === 'purchase-only' || book.purchaseOnly) return 'purchase-only';
   if (progress.subscriptionPlan === 'premium') return 'subscription';
@@ -10,6 +11,7 @@ export function bookAccessState(book, progress) {
 
 export function chapterAccessState(book, chapter, progress) {
   if (progress.ownedBookIds?.includes(book.id)) return 'owned';
+  if (chapter.accessTier === 'owned') return 'owned';
   if (book.accessTier === 'purchase-only' || book.purchaseOnly) return 'purchase-only';
   if (chapter.accessTier === 'free-demo') return 'free';
   if (progress.subscriptionPlan === 'premium') return 'subscription';

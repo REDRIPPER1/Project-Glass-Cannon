@@ -68,6 +68,7 @@ export function createEmptyProgress() {
     ownedAccessoryIds: [],
     equippedAccessories: {},
     wishlistIds: [],
+    bookWishlistIds: [],
     ownedBookIds: [],
     bookReading: {},
     inventory: { wishlistPages: 0 },
@@ -142,7 +143,11 @@ function mergeProgress(value) {
     favoritePetIds: [...new Set(asArray(candidate.favoritePetIds))],
     ownedAccessoryIds: [...new Set(asArray(candidate.ownedAccessoryIds))],
     equippedAccessories: candidate.equippedAccessories && typeof candidate.equippedAccessories === 'object' ? candidate.equippedAccessories : {},
+    // Earlier LitLearn builds kept every kind of saved item together. Keep
+    // that collection intact, while migrating the existing book shelf into
+    // its own collection so book actions never affect pet/accessory wishes.
     wishlistIds: [...new Set(asArray(candidate.wishlistIds))],
+    bookWishlistIds: [...new Set(asArray(candidate.bookWishlistIds ?? candidate.wishlistIds))],
     ownedBookIds: [...new Set(asArray(candidate.ownedBookIds))],
     bookReading: candidate.bookReading && typeof candidate.bookReading === 'object' ? candidate.bookReading : {},
     inventory: { ...empty.inventory, ...(candidate.inventory ?? {}), wishlistPages: Math.max(Number(candidate.inventory?.wishlistPages) || 0, Math.floor(currentLevel / 10)) },
@@ -225,6 +230,13 @@ export function toggleWishlist(progress, itemId) {
   return updateCollection(current, { wishlistIds: [...wishlist] });
 }
 
+export function toggleBookWishlist(progress, bookId) {
+  const current = mergeProgress(progress);
+  const wishlist = new Set(current.bookWishlistIds);
+  wishlist.has(bookId) ? wishlist.delete(bookId) : wishlist.add(bookId);
+  return updateCollection(current, { bookWishlistIds: [...wishlist] });
+}
+
 export function markBookChapterRead(progress, bookId, chapterId) {
   const current = mergeProgress(progress);
   const chapters = new Set(current.bookReading[bookId]?.chapterIds || []);
@@ -234,7 +246,7 @@ export function markBookChapterRead(progress, bookId, chapterId) {
 
 export function redeemWishlistPages(progress, eligibleBookIds = []) {
   const current = mergeProgress(progress);
-  const choices = eligibleBookIds.filter((id) => current.wishlistIds.includes(id) && !current.ownedBookIds.includes(id));
+  const choices = eligibleBookIds.filter((id) => current.bookWishlistIds.includes(id) && !current.ownedBookIds.includes(id));
   if (current.inventory.wishlistPages < 5 || !choices.length) return { progress: current, selectedBookId: null };
   const selectedBookId = choices[Math.floor(Math.random() * choices.length)];
   return { progress: updateCollection(current, { inventory: { ...current.inventory, wishlistPages: current.inventory.wishlistPages - 5 }, ownedBookIds: [...new Set([...current.ownedBookIds, selectedBookId])] }), selectedBookId };
