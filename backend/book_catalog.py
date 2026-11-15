@@ -372,18 +372,22 @@ def book_index(catalog: dict[str, Any] | None = None) -> dict[str, dict[str, Any
                 start, end = item["accessRules"]["freeLevelRange"]
                 chapter["readingLevels"] = [
                     {
-                        "id": f"levels-{start}-{end}",
+                        "id": f"{chapter['id']}-levels-{start}-{end}",
                         "label": f"Levels {start}–{end}",
                         "access": "free",
                     }
                 ]
             elif chapter_state == "purchase-only":
                 chapter["readingLevels"] = [
-                    {"id": "permanent-purchase", "label": "Permanent purchase", "access": "purchase-only"}
+                    {
+                        "id": f"{chapter['id']}-permanent-purchase",
+                        "label": "Permanent purchase",
+                        "access": "purchase-only",
+                    }
                 ]
             else:
                 chapter["readingLevels"] = [
-                    {"id": "premium", "label": "Premium", "access": "premium"}
+                    {"id": f"{chapter['id']}-premium", "label": "Premium", "access": "premium"}
                 ]
             chapter["contentAvailability"] = (
                 "bundled-passage" if chapter["id"] in bundled_chapter_ids else "unavailable"
