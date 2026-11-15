@@ -204,7 +204,7 @@ function ProfileHud({ progress, onNavigate }) {
   const current = xpIntoLevel(progress.xp);
   const required = xpForNextLevel(progress.xp);
   const fill = required ? Math.round((current / required) * 100) : 100;
-  return <button className="rail-profile-hud" type="button" onClick={() => onNavigate('profile')} aria-label={`Open profile. Level ${levelForXp(progress.xp)} with ${current} of ${required || current} experience`}><span className="hud-avatar" style={{ '--xp-fill': `${fill * 3.6}deg` }}>{progress.profileName.slice(0, 1).toUpperCase()}</span><strong>Level {levelForXp(progress.xp)}</strong><small>{current}/{required || current} XP</small></button>;
+  return <div className="rail-profile-hud" role="group" aria-label={`Player progress: Level ${levelForXp(progress.xp)}, ${current} of ${required || current} XP`}><span className="hud-avatar" style={{ '--xp-fill': `${fill * 3.6}deg` }}>{progress.profileName.slice(0, 1).toUpperCase()}</span><strong>Level {levelForXp(progress.xp)}</strong><small>{current}/{required || current} XP</small></div>;
 }
 
 function AppHeader({ progress, screen, onNavigate }) {
@@ -236,13 +236,10 @@ function AppHeader({ progress, screen, onNavigate }) {
             return <button key={label} type="button" className={active ? 'is-active' : ''} aria-current={active ? 'page' : undefined} onClick={() => onNavigate(target)}><NavIcon name={icon} /><span>{label}</span>{label === 'Progress' && !progress.settings.hideGameSignals && <b>{levelForXp(progress.xp)}</b>}</button>;
           })}
         </nav>
-        {!progress.settings.hideGameSignals && <ProfileHud progress={progress} onNavigate={onNavigate} />}
+        {!progress.settings.hideGameSignals && <ProfileHud progress={progress} />}
       </aside>
       <header className="app-header">
-      <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLab home"><BrandMark /><span>LitLab</span></button>
-        <nav className="header-actions" aria-label="App navigation">
-          {!progress.settings.hideGameSignals && <button className="header-profile-link" type="button" onClick={() => onNavigate('profile')}>Profile</button>}
-        </nav>
+        <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="LitLab home"><BrandMark /><span>LitLab</span></button>
       </header>
       <nav className="mobile-road-nav" aria-label="App destinations">
         {navItems.map(([icon, label, target]) => { const active = target === 'home' ? isQuestScreen : screen === target; return <button key={label} type="button" className={active ? 'is-active' : ''} aria-current={active ? 'page' : undefined} onClick={() => onNavigate(target)}><NavIcon name={icon} /><span>{label}</span></button>; })}
