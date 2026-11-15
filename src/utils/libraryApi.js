@@ -44,6 +44,11 @@ export async function loadBookCatalog() {
   return Array.isArray(books) ? books.map(normalizeApiBook) : [];
 }
 
+export async function loadBookQuizzes() {
+  const quizzes = await api('/api/catalog/book-quizzes');
+  return Array.isArray(quizzes) ? quizzes : [];
+}
+
 export async function ensureAnonymousProfile() {
   const savedId = storage()?.getItem(PROFILE_STORAGE_KEY);
   if (savedId) {
@@ -55,20 +60,25 @@ export async function ensureAnonymousProfile() {
 }
 
 export async function loadLibraryEnhancement() {
-  const [books, profileId] = await Promise.all([loadBookCatalog(), ensureAnonymousProfile()]);
-  const [library, recommendations, balances, pets, shopItems, profile] = await Promise.all([
+  const [books, profileId, bookQuizzes] = await Promise.all([loadBookCatalog(), ensureAnonymousProfile(), loadBookQuizzes()]);
+  const [library, recommendations, balances, pets, shopItems, profile, bookWishlist] = await Promise.all([
     api(`/api/profiles/${profileId}/library`),
     api(`/api/profiles/${profileId}/recommendations`),
     api(`/api/profiles/${profileId}/currencies`),
     api('/api/catalog/pets'),
     api('/api/catalog/shop'),
     api(`/api/profiles/${profileId}`),
+    api(`/api/profiles/${profileId}/book-wishlist`),
   ]);
-  return { books, profileId, library: Array.isArray(library) ? library : [], recommendations: Array.isArray(recommendations) ? recommendations : [], wallet: balances?.wallet, inventory: balances?.inventory, pets: Array.isArray(pets) ? pets : [], shopItems: Array.isArray(shopItems) ? shopItems : [], profile };
+  return { books, profileId, bookQuizzes, bookWishlistIds: Array.isArray(bookWishlist?.bookWishlistIds) ? bookWishlist.bookWishlistIds : [], library: Array.isArray(library) ? library : [], recommendations: Array.isArray(recommendations) ? recommendations : [], wallet: balances?.wallet, inventory: balances?.inventory, pets: Array.isArray(pets) ? pets : [], shopItems: Array.isArray(shopItems) ? shopItems : [], profile };
 }
 
 export async function loadChapterReference(profileId, bookId, chapterId) {
   return api(`/api/profiles/${profileId}/books/${bookId}/chapters/${chapterId}`);
+}
+
+export async function loadBookQuiz(profileId, bookId, quizId) {
+  return api(`/api/profiles/${profileId}/books/${bookId}/quizzes/${quizId}`);
 }
 
 export async function redeemWishlistPagesRemote(profileId) {
