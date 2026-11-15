@@ -13,7 +13,7 @@ from backend.store import DemoStore, PlatformError
 
 
 QUEST_FIXTURE = {
-    "id": "reviewed-fixture",
+    "id": "wizard-cyclone-inference",
     "questions": [
         {"id": "q1", "correctChoiceId": "a", "correctEvidenceSentenceId": "s1"},
         {"id": "q2", "correctChoiceId": "b", "correctEvidenceSentenceId": "s2"},
@@ -66,8 +66,8 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertEqual([item["awardedXp"] for item in award["breakdown"]], [30, 20, 0])
         with self.assertRaisesRegex(PlatformError, "already received"):
             self.store.award_quest_attempt(self.profile_id, QUEST_FIXTURE, "attempt-1", responses)
-        none = self.store.award_quest_attempt(self.profile_id, QUEST_FIXTURE, "attempt-2", [])
-        self.assertEqual(none["awardedXp"], 0)
+        with self.assertRaisesRegex(PlatformError, "already has a recorded"):
+            self.store.award_quest_attempt(self.profile_id, QUEST_FIXTURE, "attempt-2", [])
         with self.assertRaisesRegex(PlatformError, "XP awards"):
             self.store.add_xp(self.profile_id, 10, "quest-complete")
 
@@ -75,33 +75,55 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.store.add_xp(self.profile_id, 100, "demo-seed")
         gold_instance = next(item for item in self.store.rewards_for_profile(self.profile_id) if item["rewardId"] == "level-gold-cache")
         self.store.claim_reward(self.profile_id, gold_instance["id"])
-        self.assertEqual(self.store.balances(self.profile_id)["currencies"]["gold"], 50)
+        self.assertEqual(self.store.balances(self.profile_id)["wallet"]["gold"], 200)
         with self.assertRaisesRegex(PlatformError, "already been claimed"):
             self.store.claim_reward(self.profile_id, gold_instance["id"])
         self.store.purchase(self.profile_id, "shop-demo-gold-cache")
         self.store.purchase(self.profile_id, "shop-demo-diamond-cache")
-        balances = self.store.balances(self.profile_id)["currencies"]
-        self.assertEqual(balances["gold"], 51)
+        balances = self.store.balances(self.profile_id)["wallet"]
+        self.assertEqual(balances["gold"], 201)
         self.assertEqual(balances["diamonds"], 1)
 
     def test_book_access_source_attribution_purchase_only_and_library_persistence(self):
         self.assertFalse(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         free_chapter = self.store.chapter(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")
-        self.assertEqual(free_chapter["content"]["mode"], "quest-passage-reference")
-        self.assertIn("L. Frank Baum", free_chapter["source"]["requiredAttribution"])
+        self.assertEqual(free_chapter["content"]["mode"], "bundled-passage")
+        self.assertIn("L. Frank Baum", free_chapter["attribution"]["requiredAttribution"])
+        self.assertNotIn("url", str(free_chapter["content"]).lower())
         source_only = self.store.reader_reference(self.profile_id, "gutenberg-11-alice-s-adventures-in-wonderland")
-        self.assertEqual(source_only["content"]["mode"], "external-reference")
+        self.assertEqual(source_only["content"]["mode"], "unavailable")
         self.store.set_demo_entitlement(self.profile_id, "premium", True)
         self.assertTrue(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         self.assertNotIn("lantern-and-lost-index", {item["bookId"] for item in self.store.library(self.profile_id)})
-        self.store.profiles[self.profile_id]["currencies"]["gold"] = 120
+        self.store.profiles[self.profile_id]["wallet"]["gold"] = 120
         purchase = self.store.purchase_book(self.profile_id, "lantern-and-lost-index")
         self.assertTrue(purchase["mocked"])
-        self.assertEqual(self.store.reader_reference(self.profile_id, "lantern-and-lost-index")["content"]["reason"], "chapter_content_unavailable")
+        self.assertEqual(self.store.reader_reference(self.profile_id, "lantern-and-lost-index")["content"]["reason"], "book_content_unavailable")
         self.store.profiles[self.profile_id]["entitlement"]["endsAt"] = "2020-01-01T00:00:00Z"
         library = {item["bookId"]: item for item in self.store.library(self.profile_id)}
         self.assertEqual(library["lantern-and-lost-index"]["access"], "permanent")
         self.assertNotIn("wizard-of-oz", library)
+
+    def test_wishlist_pages_are_awarded_by_quest_road_and_diamond_shop(self):
+        responses = [
+            {"questionId": "q1", "choiceId": "a", "evidenceSentenceId": "s1"},
+            {"questionId": "q2", "choiceId": "b", "evidenceSentenceId": "s2"},
+            {"questionId": "q3", "choiceId": "c", "evidenceSentenceId": "s3"},
+        ]
+        award = self.store.award_quest_attempt(self.profile_id, QUEST_FIXTURE, "page-quest", responses)
+        self.assertEqual(award["issuedReward"]["rewardId"], "quest-wishlist-page")
+        self.store.claim_reward(self.profile_id, award["issuedReward"]["id"])
+        self.assertEqual(self.store.balances(self.profile_id)["inventory"]["wishlistPages"], 1)
+
+        self.store.add_xp(self.profile_id, 250, "demo-seed")
+        road_page = next(item for item in self.store.rewards_for_profile(self.profile_id) if item["rewardId"] == "level-wishlist-page")
+        self.store.claim_reward(self.profile_id, road_page["id"])
+        self.assertEqual(self.store.balances(self.profile_id)["inventory"]["wishlistPages"], 2)
+
+        self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 3
+        shop_page = self.store.purchase(self.profile_id, "shop-wishlist-page")
+        self.assertEqual(shop_page["currency"], "diamonds")
+        self.assertEqual(self.store.balances(self.profile_id)["inventory"]["wishlistPages"], 3)
 
     def test_recommendations_and_collection_contracts_expose_stable_ids(self):
         recommendations = self.store.recommendations(self.profile_id)
