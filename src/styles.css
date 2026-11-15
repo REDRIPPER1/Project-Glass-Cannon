@@ -387,6 +387,7 @@ body { background: radial-gradient(circle at 8% 0%, color-mix(in srgb, var(--rq-
 .main-stage .feature-card h2 { font-size: clamp(1.3rem, 1.8vw, 1.58rem); }
 .main-stage .collection-panel { padding: clamp(16px, 2.1vw, 26px); }
 .main-stage .chapter-activities { padding: clamp(14px, 1.7vw, 20px); }
+.evidence-fieldset { border: 0; border-radius: 0; padding: 0; background: transparent; }
 .settings-grid { align-items: stretch; gap: clamp(12px, 1.6vw, 16px); margin-block: clamp(18px, 2.5vw, 28px); }
 .settings-grid > section { min-width: 0; align-content: start; }
 .rail-profile-hud { cursor: default; }
