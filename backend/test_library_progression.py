@@ -6,14 +6,20 @@ from collections import Counter
 from copy import deepcopy
 import unittest
 
-from backend.book_catalog import load_book_catalog, load_quest_mappings
+from backend.book_catalog import (
+    cached_passage_for_chapter,
+    load_book_catalog,
+    load_book_quizzes,
+    load_cached_chapter_index,
+    load_quest_mappings,
+)
 from backend.catalog import load_catalogs
 from backend.progression import level_nodes
 from backend.store import DemoStore, PlatformError
 
 
 QUEST_FIXTURE = {
-    "id": "reviewed-fixture",
+    "id": "wizard-cyclone-inference",
     "questions": [
         {"id": "q1", "correctChoiceId": "a", "correctEvidenceSentenceId": "s1"},
         {"id": "q2", "correctChoiceId": "b", "correctEvidenceSentenceId": "s2"},
@@ -29,17 +35,35 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.store = DemoStore(self.catalogs, self.books)
         self.profile_id = self.store.create_profile("Library Reader")["id"]
 
-    def test_catalog_has_metadata_only_100_plus_books_and_exact_mappings(self):
+    def test_catalog_has_100_plus_books_and_25_verified_cached_chapters(self):
         self.assertGreaterEqual(len(self.books["books"]), 100)
-        self.assertGreaterEqual(len({book["category"] for book in self.books["books"]}), 5)
+        self.assertGreaterEqual(len({book["category"] for book in self.books["books"]}), 6)
         reference_books = [book for book in self.books["books"] if book["rights"]["status"] == "reference-only-unreviewed"]
-        self.assertGreaterEqual(len(reference_books), 100)
+        self.assertGreaterEqual(len(reference_books), 75)
         self.assertTrue(all(not book["rights"]["textReuseCleared"] for book in reference_books))
         self.assertTrue(all(book["chapterMetadata"] == [] for book in reference_books))
+        self.assertTrue(all(book["source"]["provider"] == "Project Gutenberg" for book in self.books["books"]))
+        self.assertTrue(all(book["source"]["landingUrl"].startswith("https://www.gutenberg.org/ebooks/") for book in self.books["books"]))
+        self.assertTrue(all(book["source"]["accessedAt"] is None for book in reference_books))
+        self.assertTrue(all(book["source"]["ebookLicenseReviewStatus"] == "review-needed" for book in reference_books))
+        self.assertTrue(all(book["rights"]["usCopyrightStatus"] == "not-individually-verified" for book in reference_books))
+        self.assertTrue(all(book["rights"]["worldwideCopyrightStatus"] == "review-required" for book in self.books["books"]))
+        required_categories = {"Adventure", "Mystery", "Fantasy and folklore", "Nature and animals", "History and biography", "Classics"}
+        self.assertTrue(required_categories.issubset({book["category"] for book in self.books["books"]}))
+        cached_index = load_cached_chapter_index(catalog=self.books)
+        self.assertGreaterEqual(len(cached_index["entries"]), 25)
+        for entry in cached_index["entries"]:
+            passage = cached_passage_for_chapter(entry["bookId"], entry["chapterId"], self.books)
+            self.assertGreaterEqual(len(passage or []), 10)
         mappings = {item["id"]: item for item in load_quest_mappings(catalog=self.books)["mappings"]}
         self.assertEqual(mappings["wizard-cyclone-inference"]["bookId"], "wizard-of-oz")
         self.assertEqual(mappings["wizard-cyclone-inference"]["chapterIds"], ["chapter-1-cyclone"])
-        self.assertIn("exact 1900", mappings["wizard-cyclone-inference"]["mappingBasis"])
+        self.assertIn("Project Gutenberg eBook #55", mappings["wizard-cyclone-inference"]["edition"])
+        quizzes = load_book_quizzes(catalog=self.books)["quizzes"]
+        self.assertEqual(quizzes[0]["questId"], mappings["wizard-cyclone-inference"]["id"])
+        self.assertEqual(quizzes[0]["chapterIds"], mappings["wizard-cyclone-inference"]["chapterIds"])
+        self.assertEqual(quizzes[0]["activityType"], "story-quest")
+        self.assertIn("Chapter I", quizzes[0]["sourceLabel"])
 
     def test_level_thresholds_progress_through_100_and_all_pets_are_locked(self):
         nodes = level_nodes({int(node["id"].removeprefix("level-")): node["rewardIds"] for node in self.catalogs["levelNodes"]})
@@ -66,8 +90,8 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertEqual([item["awardedXp"] for item in award["breakdown"]], [30, 20, 0])
         with self.assertRaisesRegex(PlatformError, "already received"):
             self.store.award_quest_attempt(self.profile_id, QUEST_FIXTURE, "attempt-1", responses)
-        none = self.store.award_quest_attempt(self.profile_id, QUEST_FIXTURE, "attempt-2", [])
-        self.assertEqual(none["awardedXp"], 0)
+        with self.assertRaisesRegex(PlatformError, "already has a recorded"):
+            self.store.award_quest_attempt(self.profile_id, QUEST_FIXTURE, "attempt-2", [])
         with self.assertRaisesRegex(PlatformError, "XP awards"):
             self.store.add_xp(self.profile_id, 10, "quest-complete")
 
@@ -75,33 +99,78 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.store.add_xp(self.profile_id, 100, "demo-seed")
         gold_instance = next(item for item in self.store.rewards_for_profile(self.profile_id) if item["rewardId"] == "level-gold-cache")
         self.store.claim_reward(self.profile_id, gold_instance["id"])
-        self.assertEqual(self.store.balances(self.profile_id)["currencies"]["gold"], 50)
+        self.assertEqual(self.store.balances(self.profile_id)["wallet"]["gold"], 200)
         with self.assertRaisesRegex(PlatformError, "already been claimed"):
             self.store.claim_reward(self.profile_id, gold_instance["id"])
         self.store.purchase(self.profile_id, "shop-demo-gold-cache")
         self.store.purchase(self.profile_id, "shop-demo-diamond-cache")
-        balances = self.store.balances(self.profile_id)["currencies"]
-        self.assertEqual(balances["gold"], 51)
+        balances = self.store.balances(self.profile_id)["wallet"]
+        self.assertEqual(balances["gold"], 201)
         self.assertEqual(balances["diamonds"], 1)
 
     def test_book_access_source_attribution_purchase_only_and_library_persistence(self):
+        wizard = self.store.public_book("wizard-of-oz")
+        self.assertEqual(wizard["access"], {"state": "premium", "priceDiamonds": 12})
+        self.assertEqual(wizard["chapterMetadata"][0]["readingLevels"][0]["access"], "free")
+        self.assertEqual(wizard["chapterMetadata"][1]["readingLevels"][0]["access"], "premium")
+        self.assertEqual(self.store.public_book("secret-garden")["access"]["state"], "purchase-only")
+        self.assertEqual(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")["state"], "free")
         self.assertFalse(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
         free_chapter = self.store.chapter(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")
-        self.assertEqual(free_chapter["content"]["mode"], "quest-passage-reference")
-        self.assertIn("L. Frank Baum", free_chapter["source"]["requiredAttribution"])
-        source_only = self.store.reader_reference(self.profile_id, "gutenberg-11-alice-s-adventures-in-wonderland")
-        self.assertEqual(source_only["content"]["mode"], "external-reference")
+        self.assertEqual(free_chapter["content"]["mode"], "bundled-passage")
+        self.assertIn("L. Frank Baum", free_chapter["attribution"]["requiredAttribution"])
+        self.assertNotIn("url", str(free_chapter["content"]).lower())
+        alice_chapter = self.store.chapter(self.profile_id, "gutenberg-11-alice-s-adventures-in-wonderland", "chapter-1")
+        self.assertEqual(alice_chapter["content"]["mode"], "cached-chapter")
+        self.assertGreaterEqual(len(alice_chapter["content"]["sentences"]), 10)
+        self.assertNotIn("url", str(alice_chapter["content"]).lower())
+        source_only = self.store.reader_reference(self.profile_id, "gutenberg-13-the-hunting-of-the-snark-an-agony-in-eight-fits")
+        self.assertEqual(source_only["content"]["mode"], "unavailable")
         self.store.set_demo_entitlement(self.profile_id, "premium", True)
         self.assertTrue(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
-        self.assertNotIn("lantern-and-lost-index", {item["bookId"] for item in self.store.library(self.profile_id)})
-        self.store.profiles[self.profile_id]["currencies"]["gold"] = 120
-        purchase = self.store.purchase_book(self.profile_id, "lantern-and-lost-index")
+        self.assertEqual(self.store.book_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["state"], "premium")
+        self.assertFalse(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["allowed"])
+        self.assertEqual(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["state"], "purchase-only")
+        premium_chapter = self.store.chapter(self.profile_id, "gutenberg-12-through-the-looking-glass", "chapter-1")
+        self.assertEqual(premium_chapter["access"]["state"], "premium")
+        self.assertEqual(premium_chapter["content"]["mode"], "cached-chapter")
+        self.assertFalse(self.store.book_access(self.profile_id, "gutenberg-121-northanger-abbey", "chapter-1")["allowed"])
+        self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 100
+        purchased_chapter = self.store.purchase_book(self.profile_id, "gutenberg-121-northanger-abbey")
+        self.assertEqual(purchased_chapter["ownership"], "permanent")
+        self.assertEqual(self.store.chapter(self.profile_id, "gutenberg-121-northanger-abbey", "chapter-1")["content"]["mode"], "cached-chapter")
+        self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 24
+        purchase = self.store.purchase_book(self.profile_id, "secret-garden")
         self.assertTrue(purchase["mocked"])
-        self.assertEqual(self.store.reader_reference(self.profile_id, "lantern-and-lost-index")["content"]["reason"], "chapter_content_unavailable")
+        self.assertEqual(purchase["ownership"], "permanent")
+        self.assertIn("secret-garden", purchase["ownedBookIds"])
+        self.assertEqual(self.store.book_access(self.profile_id, "secret-garden", "chapter-1-left")["state"], "owned")
+        self.assertEqual(self.store.reader_reference(self.profile_id, "secret-garden")["content"]["reason"], "book_content_unavailable")
         self.store.profiles[self.profile_id]["entitlement"]["endsAt"] = "2020-01-01T00:00:00Z"
         library = {item["bookId"]: item for item in self.store.library(self.profile_id)}
-        self.assertEqual(library["lantern-and-lost-index"]["access"], "permanent")
+        self.assertEqual(library["secret-garden"]["access"], "permanent")
         self.assertNotIn("wizard-of-oz", library)
+
+    def test_wishlist_pages_are_awarded_by_quest_road_and_diamond_shop(self):
+        responses = [
+            {"questionId": "q1", "choiceId": "a", "evidenceSentenceId": "s1"},
+            {"questionId": "q2", "choiceId": "b", "evidenceSentenceId": "s2"},
+            {"questionId": "q3", "choiceId": "c", "evidenceSentenceId": "s3"},
+        ]
+        award = self.store.award_quest_attempt(self.profile_id, QUEST_FIXTURE, "page-quest", responses)
+        self.assertEqual(award["issuedReward"]["rewardId"], "quest-wishlist-page")
+        self.store.claim_reward(self.profile_id, award["issuedReward"]["id"])
+        self.assertEqual(self.store.balances(self.profile_id)["inventory"]["wishlistPages"], 1)
+
+        self.store.add_xp(self.profile_id, 250, "demo-seed")
+        road_page = next(item for item in self.store.rewards_for_profile(self.profile_id) if item["rewardId"] == "level-wishlist-page")
+        self.store.claim_reward(self.profile_id, road_page["id"])
+        self.assertEqual(self.store.balances(self.profile_id)["inventory"]["wishlistPages"], 2)
+
+        self.store.profiles[self.profile_id]["wallet"]["diamonds"] = 3
+        shop_page = self.store.purchase(self.profile_id, "shop-wishlist-page")
+        self.assertEqual(shop_page["currency"], "diamonds")
+        self.assertEqual(self.store.balances(self.profile_id)["inventory"]["wishlistPages"], 3)
 
     def test_recommendations_and_collection_contracts_expose_stable_ids(self):
         recommendations = self.store.recommendations(self.profile_id)
@@ -109,7 +178,8 @@ class LibraryAndProgressionTests(unittest.TestCase):
         self.assertTrue(all(item["bookId"] in self.store.books for item in recommendations))
         self.store.change_wishlist(self.profile_id, "book", "wizard-of-oz", True)
         collections = self.store.collections(self.profile_id)
-        self.assertEqual(collections["wishlist"], [{"itemType": "book", "catalogId": "wizard-of-oz"}])
+        self.assertEqual(collections["wishlist"], [])
+        self.assertEqual(collections["bookWishlistIds"], ["wizard-of-oz"])
         self.assertEqual(Counter(item["id"] for item in collections["badges"])["first-quest"], 1)
 
 

@@ -78,6 +78,10 @@ def catalog_record(row: dict[str, str]) -> dict[str, object]:
             "ebookId": number,
             "landingUrl": landing_url,
             "metadataUrl": METADATA_URL,
+            "termsUrl": TERMS_URL,
+            "licenseUrl": LICENSE_URL,
+            "accessedAt": None,
+            "ebookLicenseReviewStatus": "review-needed",
             "downloadGuidance": (
                 "Use Project Gutenberg's offline catalog or documented robot guidance for authoring downloads; "
                 "do not scrape this record at reader runtime."
@@ -93,6 +97,8 @@ def catalog_record(row: dict[str, str]) -> dict[str, object]:
                 "Catalog metadata was obtained via Project Gutenberg's published offline catalog. "
                 "No book text is bundled and this entry does not assert reuse clearance for a specific print edition."
             ),
+            "usCopyrightStatus": "not-individually-verified",
+            "worldwideCopyrightStatus": "review-required",
             "termsUrl": TERMS_URL,
             "licenseUrl": LICENSE_URL,
             "robotGuidanceUrl": ROBOT_GUIDANCE_URL,

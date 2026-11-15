@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "bookId": "gutenberg-103-around-the-world-in-eighty-days",
+  "ebookId": "103",
+  "edition": "Project Gutenberg eBook #103; metadata and eBook text reviewed 2026-11-15",
+  "chapterId": "chapter-1",
+  "chapterTitle": "CHAPTER I. IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS",
+  "contentHash": "sha256:f140c19866884c964c86bfabd5d645c601d2f4db05ff5cffac623847e40505a1",
+  "attribution": "Verne, Jules, 1828-1905; Towle, George M. (George Makepeace), 1841-1893 [Translator], Around the World in Eighty Days, CHAPTER I. IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS. Source checked against Project Gutenberg eBook #103.",
+  "source": {
+    "provider": "Project Gutenberg",
+    "landingUrl": "https://www.gutenberg.org/ebooks/103",
+    "textUrl": "https://www.gutenberg.org/cache/epub/103/pg103.txt",
+    "metadataUrl": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
+    "accessedAt": "2026-11-15",
+    "ebookLicenseReviewStatus": "reviewed",
+    "territory": "United States. Rights outside the United States require a separate local-law review."
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "MASTER, THE OTHER AS MAN"
+    },
+    {
+      "id": "s2",
+      "text": "Mr."
+    },
+    {
+      "id": "s3",
+      "text": "Phileas Fogg lived, in 1872, at No. 7, Saville Row, Burlington Gardens, the house in which Sheridan died in 1814."
+    },
+    {
+      "id": "s4",
+      "text": "He was one of the most noticeable members of the Reform Club, though he seemed always to avoid attracting attention; an enigmatical personage, about whom little was known, except that he was a polished man of the world."
+    },
+    {
+      "id": "s5",
+      "text": "People said that he resembled Byron—at least that his head was Byronic; but he was a bearded, tranquil Byron, who might live on a thousand years without growing old."
+    },
+    {
+      "id": "s6",
+      "text": "Certainly an Englishman, it was more doubtful whether Phileas Fogg was a Londoner."
+    },
+    {
+      "id": "s7",
+      "text": "He was never seen on ’Change, nor at the Bank, nor in the counting-rooms of the “City”; no ships ever came into London docks of which he was the owner; he had no public employment; he had never been entered at any of the Inns of Court, either at the Temple, or Lincoln’s Inn, or Gray’s Inn; nor had his voice ever resounded in the Court of Chancery, or in the Exchequer, or the Queen’s Bench, or the Ecclesiastical Courts."
+    },
+    {
+      "id": "s8",
+      "text": "He certainly was not a manufacturer; nor was he a merchant or a gentleman farmer."
+    },
+    {
+      "id": "s9",
+      "text": "His name was strange to the scientific and learned societies, and he never was known to take part in the sage deliberations of the Royal Institution or the London Institution, the Artisan’s Association, or the Institution of Arts and Sciences."
+    },
+    {
+      "id": "s10",
+      "text": "He belonged, in fact, to none of the numerous societies which swarm in the English capital, from the Harmonic to that of the Entomologists, founded mainly for the purpose of abolishing pernicious insects."
+    },
+    {
+      "id": "s11",
+      "text": "Phileas Fogg was a member of the Reform, and that was all."
+    },
+    {
+      "id": "s12",
+      "text": "The way in which he got admission to this exclusive club was simple enough."
+    },
+    {
+      "id": "s13",
+      "text": "He was recommended by the Barings, with whom he had an open credit."
+    },
+    {
+      "id": "s14",
+      "text": "His cheques were regularly paid at sight from his account current, which was always flush."
+    },
+    {
+      "id": "s15",
+      "text": "Was Phileas Fogg rich?"
+    },
+    {
+      "id": "s16",
+      "text": "Undoubtedly."
+    },
+    {
+      "id": "s17",
+      "text": "But those who knew him best could not imagine how he had made his fortune, and Mr."
+    },
+    {
+      "id": "s18",
+      "text": "Fogg was the last person to whom to apply for the information."
+    },
+    {
+      "id": "s19",
+      "text": "He was not lavish, nor, on the contrary, avaricious; for, whenever he knew that money was needed for a noble, useful, or benevolent purpose, he supplied it quietly and sometimes anonymously."
+    },
+    {
+      "id": "s20",
+      "text": "He was, in short, the least communicative of men."
+    },
+    {
+      "id": "s21",
+      "text": "He talked very little, and seemed all the more mysterious for his taciturn manner."
+    },
+    {
+      "id": "s22",
+      "text": "His daily habits were quite open to observation; but whatever he did was so exactly the same thing that he had always done before, that the wits of the curious were fairly puzzled."
+    },
+    {
+      "id": "s23",
+      "text": "Had he travelled?"
+    },
+    {
+      "id": "s24",
+      "text": "It was likely, for no one seemed to know the world more familiarly; there was no spot so secluded that he did not appear to have an intimate acquaintance with it."
+    },
+    {
+      "id": "s25",
+      "text": "He often corrected, with a few clear words, the thousand conjectures advanced by members of the club as to lost and unheard-of travellers, pointing out the true probabilities, and seeming as if gifted with a sort of second sight, so often did events justify his predictions."
+    },
+    {
+      "id": "s26",
+      "text": "He must have travelled everywhere, at least in the spirit."
+    },
+    {
+      "id": "s27",
+      "text": "It was at least certain that Phileas Fogg had not absented himself from London for many years."
+    },
+    {
+      "id": "s28",
+      "text": "Those who were honoured by a better acquaintance with him than the rest, declared that nobody could pretend to have ever seen him anywhere else."
+    },
+    {
+      "id": "s29",
+      "text": "His sole pastimes were reading the papers and playing whist."
+    },
+    {
+      "id": "s30",
+      "text": "He often won at this game, which, as a silent one, harmonised with his nature; but his winnings never went into his purse, being reserved as a fund for his charities."
+    },
+    {
+      "id": "s31",
+      "text": "Mr."
+    },
+    {
+      "id": "s32",
+      "text": "Fogg played, not to win, but for the sake of playing."
+    },
+    {
+      "id": "s33",
+      "text": "The game was in his eyes a contest, a struggle with a difficulty, yet a motionless, unwearying struggle, congenial to his tastes."
+    },
+    {
+      "id": "s34",
+      "text": "Phileas Fogg was not known to have either wife or children, which may happen to the most honest people; either relatives or near friends, which is certainly more unusual."
+    },
+    {
+      "id": "s35",
+      "text": "He lived alone in his house in Saville Row, whither none penetrated."
+    },
+    {
+      "id": "s36",
+      "text": "A single domestic sufficed to serve him."
+    },
+    {
+      "id": "s37",
+      "text": "He breakfasted and dined at the club, at hours mathematically fixed, in the same room, at the same table, never taking his meals with other members, much less bringing a guest with him; and went home at exactly midnight, only to retire at once to bed."
+    },
+    {
+      "id": "s38",
+      "text": "He never used the cosy chambers which the Reform provides for its favoured members."
+    },
+    {
+      "id": "s39",
+      "text": "He passed ten hours out of the twenty-four in Saville Row, either in sleeping or making his toilet."
+    },
+    {
+      "id": "s40",
+      "text": "When he chose to take a walk it was with a regular step in the entrance hall with its mosaic flooring, or in the circular gallery with its dome supported by twenty red porphyry Ionic columns, and illumined by blue painted windows."
+    },
+    {
+      "id": "s41",
+      "text": "When he breakfasted or dined all the resources of the club—its kitchens and pantries, its buttery and dairy—aided to crowd his table with their most succulent stores; he was served by the gravest waiters, in dress coats, and shoes with swan-skin soles, who proffered the viands in special porcelain, and on the finest linen; club decanters, of a lost mould, contained his sherry, his port, and his cinnamon-spiced claret; while his beverages were refreshingly cooled with ice, brought at great cost from the American lakes."
+    },
+    {
+      "id": "s42",
+      "text": "If to live in this style is to be eccentric, it must be confessed that there is something good in eccentricity."
+    },
+    {
+      "id": "s43",
+      "text": "The mansion in Saville Row, though not sumptuous, was exceedingly comfortable."
+    },
+    {
+      "id": "s44",
+      "text": "The habits of its occupant were such as to demand but little from the sole domestic, but Phileas Fogg required him to be almost superhumanly prompt and regular."
+    },
+    {
+      "id": "s45",
+      "text": "On this very 2nd of October he had dismissed James Forster, because that luckless youth had brought him shaving-water at eighty-four degrees Fahrenheit instead of eighty-six; and he was awaiting his successor, who was due at the house between eleven and half-past."
+    },
+    {
+      "id": "s46",
+      "text": "Phileas Fogg was seated squarely in his armchair, his feet close together like those of a grenadier on parade, his hands resting on his knees, his body straight, his head erect; he was steadily watching a complicated clock which indicated the hours, the minutes, the seconds, the days, the months, and the years."
+    },
+    {
+      "id": "s47",
+      "text": "At exactly half-past eleven Mr."
+    },
+    {
+      "id": "s48",
+      "text": "Fogg would, according to his daily habit, quit Saville Row, and repair to the Reform."
+    },
+    {
+      "id": "s49",
+      "text": "A rap at this moment sounded on the door of the cosy apartment where Phileas Fogg was seated, and James Forster, the dismissed servant, appeared."
+    },
+    {
+      "id": "s50",
+      "text": "“The new servant,” said he."
+    },
+    {
+      "id": "s51",
+      "text": "A young man of thirty advanced and bowed."
+    },
+    {
+      "id": "s52",
+      "text": "“You are a Frenchman, I believe,” asked Phileas Fogg, “and your name is John?”"
+    },
+    {
+      "id": "s53",
+      "text": "“Jean, if monsieur pleases,” replied the newcomer, “Jean Passepartout, a surname which has clung to me because I have a natural aptness for going out of one business into another."
+    },
+    {
+      "id": "s54",
+      "text": "I believe I’m honest, monsieur, but, to be outspoken, I’ve had several trades."
+    },
+    {
+      "id": "s55",
+      "text": "I’ve been an itinerant singer, a circus-rider, when I used to vault like Leotard, and dance on a rope like Blondin."
+    },
+    {
+      "id": "s56",
+      "text": "Then I got to be a professor of gymnastics, so as to make better use of my talents; and then I was a sergeant fireman at Paris, and assisted at many a big fire."
+    },
+    {
+      "id": "s57",
+      "text": "But I quitted France five years ago, and, wishing to taste the sweets of domestic life, took service as a valet here in England."
+    },
+    {
+      "id": "s58",
+      "text": "Finding myself out of place, and hearing that Monsieur Phileas Fogg was the most exact and settled gentleman in the United Kingdom, I have come to monsieur in the hope of living with him a tranquil life, and forgetting even the name of Passepartout.”"
+    },
+    {
+      "id": "s59",
+      "text": "“Passepartout suits me,” responded Mr."
+    },
+    {
+      "id": "s60",
+      "text": "Fogg."
+    },
+    {
+      "id": "s61",
+      "text": "“You are well recommended to me; I hear a good report of you."
+    },
+    {
+      "id": "s62",
+      "text": "You know my conditions?”"
+    },
+    {
+      "id": "s63",
+      "text": "“Yes, monsieur.”"
+    },
+    {
+      "id": "s64",
+      "text": "“Good!"
+    },
+    {
+      "id": "s65",
+      "text": "What time is it?”"
+    },
+    {
+      "id": "s66",
+      "text": "“Twenty-two minutes after eleven,” returned Passepartout, drawing an enormous silver watch from the depths of his pocket."
+    },
+    {
+      "id": "s67",
+      "text": "“You are too slow,” said Mr."
+    },
+    {
+      "id": "s68",
+      "text": "Fogg."
+    },
+    {
+      "id": "s69",
+      "text": "“Pardon me, monsieur, it is impossible—”"
+    },
+    {
+      "id": "s70",
+      "text": "“You are four minutes too slow."
+    },
+    {
+      "id": "s71",
+      "text": "No matter; it’s enough to mention the error."
+    },
+    {
+      "id": "s72",
+      "text": "Now from this moment, twenty-nine minutes after eleven, a.m., this Wednesday, 2nd October, you are in my service.”"
+    },
+    {
+      "id": "s73",
+      "text": "Phileas Fogg got up, took his hat in his left hand, put it on his head with an automatic motion, and went off without a word."
+    },
+    {
+      "id": "s74",
+      "text": "Passepartout heard the street door shut once; it was his new master going out."
+    },
+    {
+      "id": "s75",
+      "text": "He heard it shut again; it was his predecessor, James Forster, departing in his turn."
+    },
+    {
+      "id": "s76",
+      "text": "Passepartout remained alone in the house in Saville Row."
+    }
+  ]
+}
