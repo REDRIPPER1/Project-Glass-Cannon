@@ -104,6 +104,8 @@ test('keeps local book ownership and demo currency rewards in the progress schem
   assert.deepEqual(progress.ownedBookIds, ['book-1']);
   progress = grantDemoCurrency(progress, 'storyShards', 15);
   assert.equal(progress.currencies.storyShards, 15);
+  progress = grantDemoCurrency(progress, 'gold', 10);
+  assert.equal(progress.currencies.gold, 10);
 });
 
 test('defaults appearance to the device setting and persists a dark preference', () => {

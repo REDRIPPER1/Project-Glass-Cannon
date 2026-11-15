@@ -6,5 +6,10 @@ export const petById = (id) => catalog.pets.find((pet) => pet.id === id);
 export const accessoryById = (id) => catalog.accessories.find((item) => item.id === id);
 export const rewardById = (id) => catalog.rewards.find((item) => item.id === id);
 export const shopItemById = (id) => catalog.shopItems.find((item) => item.id === id);
-export const displayCurrency = (currency) => currency === 'leafTokens' ? 'Gold' : currency === 'storyShards' ? 'Diamonds' : currency;
+export const displayCurrency = (currency) => ({
+  gold: 'Gold',
+  diamonds: 'Diamonds',
+  leafTokens: 'Leaf Tokens',
+  storyShards: 'Story Shards',
+}[currency] || currency);
 

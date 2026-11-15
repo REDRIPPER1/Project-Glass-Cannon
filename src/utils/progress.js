@@ -51,7 +51,7 @@ export function createEmptyProgress() {
     equippedAccessories: {},
     wishlistIds: [],
     ownedBookIds: [],
-    currencies: { leafTokens: 100, storyShards: 0 },
+    currencies: { leafTokens: 100, storyShards: 0, gold: 0, diamonds: 0 },
     ownedEggIds: [],
     claimedRewardIds: [],
     subscriptionPlan: 'free',
@@ -240,7 +240,7 @@ export function purchaseCatalogItem(progress, item) {
 export function grantDemoCurrency(progress, currency, amount) {
   const current = mergeProgress(progress);
   const quantity = Math.max(0, Number(amount) || 0);
-  if (!['leafTokens', 'storyShards'].includes(currency) || !quantity) return current;
+  if (!['leafTokens', 'storyShards', 'gold', 'diamonds'].includes(currency) || !quantity) return current;
   return updateCollection(current, { currencies: { ...current.currencies, [currency]: (current.currencies[currency] || 0) + quantity } });
 }
 
