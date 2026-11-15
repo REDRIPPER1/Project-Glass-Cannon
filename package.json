@@ -8,7 +8,7 @@
     "dev:client": "vite",
     "dev:server": "python -m uvicorn backend.main:app --reload --port 3001",
     "build": "vite build",
-    "test": "node --test src/utils/progress.test.js src/utils/experience.test.js src/utils/bookLibrary.test.js src/utils/libraryApi.test.js src/utils/chapterActivities.test.js src/utils/readingBasics.test.js src/appAccessibility.test.js",
+    "test": "node --test src/utils/progress.test.js src/utils/questFlow.test.js src/utils/experience.test.js src/utils/bookLibrary.test.js src/utils/libraryApi.test.js src/utils/chapterActivities.test.js src/utils/readingBasics.test.js src/appAccessibility.test.js",
     "preview": "vite preview"
   },
   "dependencies": {

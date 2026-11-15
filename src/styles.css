@@ -408,3 +408,21 @@ body { background: radial-gradient(circle at 8% 0%, color-mix(in srgb, var(--rq-
   .main-stage .chapter-activities { padding: 14px; }
   .basics-game { margin-inline: clamp(12px, 3.5vw, 18px); }
 }
+
+/* Judge snapshot is a clear, offline-first entry point instead of a hidden setting. */
+.judge-demo-card { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 22px; margin: 0; border: 1px solid color-mix(in srgb, var(--rq-accent) 38%, var(--rq-border)); border-radius: 20px; padding: clamp(16px, 2.4vw, 24px); background: linear-gradient(115deg, color-mix(in srgb, var(--rq-accent) 10%, var(--rq-surface)), color-mix(in srgb, var(--rq-warm) 14%, var(--rq-surface))); }
+.judge-demo-card h2 { margin: 3px 0 7px; font-size: clamp(1.05rem, 1.6vw, 1.32rem); }
+.judge-demo-card p:not(.eyebrow) { max-width: 680px; margin: 0; color: var(--rq-muted); font-size: .88rem; line-height: 1.55; }
+.judge-demo-card .eyebrow { margin: 0; color: var(--rq-accent-deep); }
+.judge-demo-card .button-row { flex: 0 0 auto; margin: 0; }
+.judge-demo-card.is-loaded { border-color: color-mix(in srgb, var(--rq-accent) 66%, var(--rq-border)); box-shadow: inset 4px 0 var(--rq-accent); }
+@media (max-width: 700px) { .judge-demo-card { align-items: stretch; flex-direction: column; gap: 14px; }.judge-demo-card .button-row { width: 100%; }.judge-demo-card .button-row > button { flex: 1; } }
+
+/* Keep text and focus indicators legible in every color mode. */
+:root { --rq-focus: #153f4a; }
+:root[data-resolved-mode='dark'] { --rq-focus: #ffe19a; }
+.primary-button { background: var(--rq-accent-deep); color: var(--rq-accent-ink); }
+.primary-button:not(:disabled):hover { background: color-mix(in srgb, var(--rq-accent-deep) 90%, var(--rq-ink)); }
+.quest-preview .card-label, .brand:hover, .text-button:hover { color: var(--rq-accent-deep); }
+.how-it-works span::before { background: var(--rq-accent-deep); color: var(--rq-accent-ink); }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--rq-focus); outline-offset: 3px; }
