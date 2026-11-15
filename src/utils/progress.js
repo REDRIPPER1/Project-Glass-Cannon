@@ -1,7 +1,7 @@
-export const PROGRESS_STORAGE_KEY = 'litlab.progress.v3';
+export const PROGRESS_STORAGE_KEY = 'litlab.progress.v4';
 // Preserve anonymous progress from earlier product names during the LitLab migration.
-export const LEGACY_PROGRESS_STORAGE_KEYS = ['litlearn.progress.v3', 'litlab.progress.v2', 'readquest.progress.v2', 'readquest.progress.v1'];
-export const PROGRESS_VERSION = 3;
+export const LEGACY_PROGRESS_STORAGE_KEYS = ['litlab.progress.v3', 'litlearn.progress.v3', 'litlab.progress.v2', 'readquest.progress.v2', 'readquest.progress.v1'];
+export const PROGRESS_VERSION = 4;
 
 export const BADGES = {
   FIRST_QUEST: 'first-evidence-quest',
@@ -71,6 +71,9 @@ export function createEmptyProgress() {
     bookWishlistIds: [],
     ownedBookIds: [],
     bookReading: {},
+    // IDs and attempt metadata only: chapter source text and creative writing
+    // stay with the reviewed activity service or current browser session.
+    bookActivityTrail: { completedActivityIds: [], completedChapterIds: [], attempts: {}, earnedRewardEventIds: [], activityVersions: {} },
     readingBasics: { completedActivityIds: [], completedLessonIds: [], attempts: {}, earnedActivityXp: [], earnedBadgeIds: [], activityVersions: {} },
     inventory: { wishlistPages: 0 },
     currencies: { gold: 100, diamonds: 0 },
@@ -151,6 +154,15 @@ function mergeProgress(value) {
     bookWishlistIds: [...new Set(asArray(candidate.bookWishlistIds ?? candidate.wishlistIds))],
     ownedBookIds: [...new Set(asArray(candidate.ownedBookIds))],
     bookReading: candidate.bookReading && typeof candidate.bookReading === 'object' ? candidate.bookReading : {},
+    bookActivityTrail: {
+      ...empty.bookActivityTrail,
+      ...(candidate.bookActivityTrail && typeof candidate.bookActivityTrail === 'object' ? candidate.bookActivityTrail : {}),
+      completedActivityIds: asArray(candidate.bookActivityTrail?.completedActivityIds),
+      completedChapterIds: asArray(candidate.bookActivityTrail?.completedChapterIds),
+      attempts: candidate.bookActivityTrail?.attempts && typeof candidate.bookActivityTrail.attempts === 'object' ? candidate.bookActivityTrail.attempts : {},
+      earnedRewardEventIds: asArray(candidate.bookActivityTrail?.earnedRewardEventIds),
+      activityVersions: candidate.bookActivityTrail?.activityVersions && typeof candidate.bookActivityTrail.activityVersions === 'object' ? candidate.bookActivityTrail.activityVersions : {},
+    },
     readingBasics: {
       ...empty.readingBasics,
       ...(candidate.readingBasics && typeof candidate.readingBasics === 'object' ? candidate.readingBasics : {}),

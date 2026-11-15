@@ -52,8 +52,10 @@ import {
 import { PLATFORM_CATALOG, RARITY_COLORS, displayCurrency, petById, rewardById } from './utils/platformCatalog';
 import { bookAccessState, bookLevelNodes, chapterAccessState, exactChapterQuest, hasInAppChapterContent, libraryBooks, readableChapterSentences, sourceReaderState } from './utils/bookLibrary';
 import ReadingBasicsScreen from './ReadingBasicsScreen.jsx';
-import { loadChapterReference, loadLibraryEnhancement, purchaseShopItem, redeemWishlistPagesRemote, setRemoteBookWishlist } from './utils/libraryApi';
+import BookActivityTrail from './BookActivityTrail.jsx';
+import { loadChapterActivities, loadChapterReference, loadLibraryEnhancement, purchaseShopItem, redeemWishlistPagesRemote, setRemoteBookWishlist } from './utils/libraryApi';
 import { chapterActivitySource, supportedChapterActivities } from './utils/chapterActivities';
+import { chapterTrailProgress, reviewedChapterTrailActivities } from './utils/bookActivityTrail';
 import {
   coachFallback,
   dailyGoalStatus,
@@ -530,6 +532,7 @@ function LegacyInAppBookLibraryScreenV2({ progress, quests, apiState, catalogBoo
   const [selectedBookId, setSelectedBookId] = useState(() => catalog[0]?.id || '');
   const [selectedChapterId, setSelectedChapterId] = useState('');
   const [reader, setReader] = useState({ kind: 'idle', sentences: [], attribution: null });
+  const [chapterActivityState, setChapterActivityState] = useState({ kind: 'idle', activities: [] });
   const categories = ['All categories', ...new Set(catalog.map((book) => book.category || book.topic || 'Classics'))];
   const visible = catalog.filter((book) => category === 'All categories' || (book.category || book.topic || 'Classics') === category);
   const selectedBook = visible.find((book) => book.id === selectedBookId) || visible[0] || null;
@@ -647,7 +650,7 @@ function LegacyChapterActivityDeck({ book, chapter, quest, quiz, activityPayload
   return <section className="chapter-activities" aria-labelledby="chapter-activities-title"><div><p className="eyebrow">Chapter activity deck</p><h2 id="chapter-activities-title">Learn from this exact section</h2><p className="activity-source"><strong>Source:</strong> {source}</p></div><div className="activity-tabs" role="tablist" aria-label={`Activities for ${source}`}>{[['story', 'Story quest'], ['evidence', 'Evidence'], ['characters', 'Character map'], ['vocabulary', 'Vocabulary'], ['scene', 'Scene build'], ['creative', 'Create']].map(([id, label]) => <button key={id} type="button" role="tab" aria-selected={activity === id} onClick={() => setActivity(id)}>{label}</button>)}</div>{activity === 'story' && <section className="activity-panel" role="tabpanel"><h3>Story quest</h3><p><strong>Source:</strong> {source}</p><p>{activityPayload?.activityType ? `Reviewed ${activityPayload.activityType} activity. ` : ''}{quiz ? 'This reviewed chapter quiz uses only this chapter’s mapped source.' : 'This chapter does not yet have a separate catalog quiz. Its mapped reading quest remains available when reviewed.'}</p><button className="primary-button" type="button" disabled={!quest} onClick={() => onLaunchQuest(quest)}>{quest ? 'Start exact-chapter quest' : 'Quest mapping unavailable'}</button></section>}{activity === 'evidence' && <section className="activity-panel" role="tabpanel"><h3>Evidence collection</h3><p><strong>Source:</strong> {source}. Choose a sentence you would collect as evidence; feedback stays private to this reading session.</p><div className="evidence-pick-list">{sentences.map((sentence, index) => <button type="button" key={sentence.id || index} aria-pressed={evidenceId === sentence.id} onClick={() => setEvidenceId(sentence.id)}>{sentence.text}</button>)}</div>{activeSentence && <p className="activity-feedback" role="status">Evidence collected from this chapter: “{activeSentence.text}”</p>}</section>}{activity === 'characters' && <section className="activity-panel" role="tabpanel"><h3>Character map</h3><p><strong>Source:</strong> {source}. Use an evidence sentence to map who acts, what they want, and what changes.</p><label>Character or person<input placeholder="Name from the chapter" /></label><label>Action or goal<input placeholder="What they do or want" /></label><button className="secondary-button" type="button" onClick={() => setActivity('evidence')}>Choose supporting evidence</button></section>}{activity === 'vocabulary' && <section className="activity-panel" role="tabpanel"><h3>Vocabulary in context</h3><p><strong>Source:</strong> {source}. Pick a word from the passage, then explain its meaning using a nearby clue.</p><label>Word from this chapter<input placeholder="Type a word you noticed" /></label><label>Context clue<textarea placeholder="Which sentence or detail helps explain it?" /></label></section>}{activity === 'scene' && <section className="activity-panel" role="tabpanel"><h3>Scene reconstruction</h3><p><strong>Source:</strong> {source}. Build the order of events from the exact passage.</p><div className="scene-steps">{['beginning', 'change', 'result'].map((step) => <button key={step} type="button" aria-pressed={sceneStep === step} onClick={() => setSceneStep(step)}>{step === 'beginning' ? 'First' : step === 'change' ? 'Then' : 'Result'}</button>)}</div><label>{sceneStep === 'beginning' ? 'What begins the scene?' : sceneStep === 'change' ? 'What changes?' : 'What is the result?'}<textarea placeholder="Use your own words and a detail from this chapter" /></label></section>}{activity === 'creative' && <section className="activity-panel" role="tabpanel"><h3>Creative response</h3><p><strong>Source:</strong> {source}. Write a short new line, journal entry, or sketch prompt that keeps faith with this chapter’s evidence.</p><label>Your response<textarea value={creativeResponse} onChange={(event) => setCreativeResponse(event.target.value.slice(0, 500))} maxLength="500" placeholder="Write up to 500 characters" /></label><p className="quiet">{creativeResponse.length}/500 · kept only in this browser session.</p></section>}</section>;
 }
 
-function ChapterActivityDeck({ book, chapter, quest, quiz, activityPayload, sentences, onLaunchQuest }) {
+function ChapterActivityDeck({ book, chapter, quest, quiz, activityPayload, chapterActivities = [], sentences, progress, profileId, onUpdate, onStatus, onChapterRead, onLaunchQuest }) {
   const [activity, setActivity] = useState('story');
   const [evidenceId, setEvidenceId] = useState('');
   const [chapterPause, setChapterPause] = useState('');
@@ -662,6 +665,8 @@ function ChapterActivityDeck({ book, chapter, quest, quiz, activityPayload, sent
   const selectedActivity = supportedIds.has(activity) ? activity : activities[0]?.id;
   const source = chapterActivitySource(book, chapter, activityPayload, quiz);
   const activeSentence = sentences.find((sentence) => sentence.id === evidenceId);
+
+  if (chapterActivities.length) return <BookActivityTrail book={book} chapter={chapter} activities={chapterActivities} sentences={sentences} progress={progress} profileId={profileId} onUpdate={onUpdate} onStatus={onStatus} onChapterRead={onChapterRead} />;
 
   if (!activities.length) {
     return <section className="chapter-activities" aria-labelledby="chapter-activities-title">
@@ -750,8 +755,34 @@ function LegacyInAppBookLibraryScreenV3({ progress, quests, apiState, catalogBoo
   const chapterAccess = selectedBook && chapter ? chapterAccessState(selectedBook, chapter, progress) : 'locked';
   const quest = selectedBook && chapter ? exactChapterQuest(selectedBook, chapter, quests) : null;
   const quiz = selectedBook && chapter ? bookQuizzes.find((item) => item.bookId === selectedBook.id && item.chapterIds?.includes(chapter.id)) : null;
-  const activityPayload = selectedBook && chapter ? bookActivities.find((item) => item.bookId === selectedBook.id && item.chapterIds?.includes(chapter.id)) : null;
+  const activityContext = selectedBook && chapter ? { edition: selectedBook.edition, sourceLabel: `${selectedBook.title} · ${selectedBook.edition || 'approved edition'} · ${chapter.title}`, source: { bookId: selectedBook.id, edition: selectedBook.edition, chapterId: chapter.id } } : {};
+  const bundledChapterActivities = selectedBook && chapter ? reviewedChapterTrailActivities(bookActivities, selectedBook.id, chapter.id, activityContext) : [];
+  const chapterActivities = chapterActivityState.activities.length ? chapterActivityState.activities : bundledChapterActivities;
+  const legacyActivityPayload = selectedBook && chapter ? bookActivities.find((item) => item.bookId === selectedBook.id && item.chapterIds?.includes(chapter.id)) : null;
+  const activityPayload = chapterActivities[0] || legacyActivityPayload;
   const accessLabel = (access) => ({ owned: 'Owned forever', free: 'Free access', subscription: 'Readable with Premium', 'purchase-only': 'Purchase required', locked: 'Locked' }[access] || access);
+
+  useEffect(() => {
+    if (!selectedBook || !chapter) {
+      setChapterActivityState({ kind: 'idle', activities: [] });
+      return undefined;
+    }
+    if (bundledChapterActivities.length) {
+      setChapterActivityState({ kind: 'ready', activities: bundledChapterActivities });
+      return undefined;
+    }
+    let cancelled = false;
+    setChapterActivityState({ kind: 'loading', activities: [] });
+    loadChapterActivities(selectedBook.id, chapter.id)
+      .then((items) => {
+        if (cancelled) return;
+        setChapterActivityState({ kind: 'ready', activities: reviewedChapterTrailActivities(items, selectedBook.id, chapter.id, activityContext) });
+      })
+      .catch(() => {
+        if (!cancelled) setChapterActivityState({ kind: legacyActivityPayload ? 'idle' : 'error', activities: [] });
+      });
+    return () => { cancelled = true; };
+  }, [selectedBook?.id, selectedBook?.edition, chapter?.id, chapter?.title, bundledChapterActivities.length, legacyActivityPayload?.id]);
   const choose = (book) => { setSelectedBookId(book.id); setSelectedChapterId(book.chapterMetadata?.[0]?.id || ''); setReader({ kind: 'idle', sentences: [], attribution: null }); window.setTimeout(() => document.getElementById('selected-book-title')?.focus(), 0); };
   const toggleWishlist = async (bookId) => { const next = !progress.bookWishlistIds.includes(bookId); if (profileId) try { await setRemoteBookWishlist(profileId, bookId, next); } catch { onStatus('Wishlist sync is unavailable; the book remains saved in this browser.'); } onUpdate((current) => updateBookWishlist(current, bookId)); };
   const buyBook = async () => { const offer = shopItems.find((item) => item.id === `shop-book-${selectedBook?.id}`); if (!selectedBook || !offer) return; try { const purchase = profileId ? await purchaseShopItem(profileId, offer.id) : null; onUpdate((current) => purchase ? { ...applyRemoteBalances(current, purchase), ownedBookIds: purchase.ownedBookIds || [...new Set([...current.ownedBookIds, selectedBook.id])] } : purchaseCatalogItem(current, { itemType: 'book', catalogId: selectedBook.id, price: offer.price, currency: offer.currency })); onStatus(`${selectedBook.title} is now permanently owned.`); } catch { onStatus(`Purchase unavailable. You need ${offer.price} ${offer.currency === 'diamonds' ? 'Diamonds' : 'Gold'}.`); } };
@@ -851,7 +882,9 @@ function InAppBookLibraryScreen({ progress, quests, apiState, catalogBooks, book
       <h1 id="reader-title">Read in LitLearn</h1>
       <p className="reader-attribution">{reader.attribution?.requiredAttribution || reader.attribution || selectedBook.requiredAttribution}</p>
       <article className="passage-card" aria-label={`${chapter.title} passage`}>{reader.sentences.map((sentence, index) => <p key={sentence.id || index}>{sentence.text}</p>)}</article>
-      <ChapterActivityDeck book={selectedBook} chapter={chapter} quest={quest} quiz={quiz} activityPayload={activityPayload} sentences={reader.sentences} onLaunchQuest={(nextQuest) => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); onLaunchQuest(nextQuest); }} />
+      {chapterActivityState.kind === 'loading' && <p className="chapter-trail-status" role="status">Loading reviewed chapter activities…</p>}
+      {chapterActivityState.kind === 'error' && <p className="chapter-trail-status is-error" role="status">Chapter activities are unavailable right now. Reading and existing quests still work.</p>}
+      <ChapterActivityDeck book={selectedBook} chapter={chapter} quest={quest} quiz={quiz} activityPayload={activityPayload} chapterActivities={chapterActivities} sentences={reader.sentences} progress={progress} profileId={profileId} onUpdate={onUpdate} onStatus={onStatus} onChapterRead={() => onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id))} onLaunchQuest={(nextQuest) => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); onLaunchQuest(nextQuest); }} />
       <div className="button-row"><button className="primary-button" type="button" disabled={!quest} onClick={() => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); onLaunchQuest(quest); }}>{quest ? 'Start comprehension quest' : 'Quest mapping unavailable'}</button><button className="secondary-button" type="button" onClick={() => { onUpdate((current) => markBookChapterRead(current, selectedBook.id, chapter.id)); setReader({ kind: 'idle', sentences: [], attribution: null }); }}>Mark chapter read</button></div>
     </section>;
   }
@@ -864,7 +897,7 @@ function InAppBookLibraryScreen({ progress, quests, apiState, catalogBooks, book
       {selectedBook && <section className="book-reader-workspace" aria-labelledby="selected-book-title">
         <div className="book-detail-header"><div><span className={`book-state is-${bookAccessState(selectedBook, progress)}`}>{accessLabel(bookAccessState(selectedBook, progress))}</span><h2 id="selected-book-title" tabIndex="-1">{selectedBook.title}</h2><p>{selectedBook.author} · {selectedBook.edition || 'Reviewed edition'}</p></div><button className="text-button" type="button" onClick={() => onNavigate('shop')}>Open in Shop</button></div>
         <p className="source-attribution"><strong>Source attribution:</strong> {selectedBook.requiredAttribution || 'Catalog attribution pending review.'}</p>
-        <div className="chapter-list" aria-label={`${selectedBook.title} chapter navigation`}>{(selectedBook.chapterMetadata || []).map((item) => <button key={item.id} type="button" className={chapter?.id === item.id ? 'is-selected' : ''} onClick={() => { setSelectedChapterId(item.id); setReader({ kind: 'idle', sentences: [], attribution: null }); }}><strong>{item.title}</strong><small>{progress.bookReading[selectedBook.id]?.chapterIds?.includes(item.id) ? 'Read' : hasInAppChapterContent(item) ? accessLabel(chapterAccessState(selectedBook, item, progress)) : 'Unavailable in app'}</small></button>)}</div>
+        <div className="chapter-list" aria-label={`${selectedBook.title} chapter navigation`}>{(selectedBook.chapterMetadata || []).map((item) => { const isCurrentChapter = chapter?.id === item.id; const itemContext = { edition: selectedBook.edition, sourceLabel: `${selectedBook.title} · ${selectedBook.edition || 'approved edition'} · ${item.title}` }; const trail = isCurrentChapter ? chapterTrailProgress(progress, chapterActivities) : { complete: progress.bookActivityTrail?.completedChapterIds?.includes(`${selectedBook.id}:${item.id}`) ? 3 : 0, total: reviewedChapterTrailActivities(bookActivities, selectedBook.id, item.id, itemContext).length || 3 }; const readingState = progress.bookReading[selectedBook.id]?.chapterIds?.includes(item.id) ? 'Read' : hasInAppChapterContent(item) ? accessLabel(chapterAccessState(selectedBook, item, progress)) : 'Unavailable in app'; return <button key={item.id} type="button" className={isCurrentChapter ? 'is-selected' : ''} onClick={() => { setSelectedChapterId(item.id); setReader({ kind: 'idle', sentences: [], attribution: null }); }}><strong>{item.title}</strong><small>{readingState}{trail.total ? ` · trail ${trail.complete}/${trail.total}` : ''}</small></button>; })}</div>
         {reader.kind === 'loading' ? <div className="source-reader-state is-loading" role="status">Loading the approved in-app chapter…</div> : reader.kind === 'error' || reader.kind === 'unavailable' ? <div className="source-reader-state is-unavailable" role="status"><h3>{chapter?.title}</h3><p>{reader.message}</p><button className="secondary-button" type="button" onClick={() => setReader({ kind: 'idle', sentences: [], attribution: null })}>Back to chapter list</button></div> : chapterReady ? <div className="source-reader-state is-ready"><h3>{chapter.title}</h3><p>{accessLabel(chapterAccess)} · approved text stays in LitLearn.</p><button className="primary-button" type="button" onClick={openReader}>{chapterAccess === 'locked' ? 'Premium required' : 'Read chapter in LitLearn'}</button></div> : <div className="source-reader-state is-unavailable"><h3>{chapter?.title || 'No chapter selected'}</h3><p>This chapter has no approved in-app text yet, so LitLearn keeps it unavailable instead of sending you elsewhere.</p></div>}
         {chapterAccess === 'purchase-only' && <button className="secondary-button" type="button" onClick={buyBook}>Buy permanently for {shopItems.find((item) => item.id === `shop-book-${selectedBook.id}`)?.price || selectedBook.priceDiamonds || 0} Diamonds</button>}
       </section>}

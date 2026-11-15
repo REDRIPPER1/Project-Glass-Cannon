@@ -5,6 +5,7 @@ import test from 'node:test';
 const appSource = readFileSync(new URL('./App.jsx', import.meta.url), 'utf8');
 const styles = readFileSync(new URL('./styles.css', import.meta.url), 'utf8');
 const basicsSource = readFileSync(new URL('./ReadingBasicsScreen.jsx', import.meta.url), 'utf8');
+const trailSource = readFileSync(new URL('./BookActivityTrail.jsx', import.meta.url), 'utf8');
 
 function cssVariables(declarations) {
   return Object.fromEntries([...declarations.matchAll(/(--[\w-]+):\s*([^;]+);/g)].map(([, name, value]) => [name, value.trim()]));
@@ -107,6 +108,14 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(basicsSource, /aria-label={`\$\{lesson\.title\} activities`}/);
   assert.match(basicsSource, /Move event \$\{index \+ 1\} up/);
   assert.match(basicsSource, /Choose the sentence that best supports your answer/);
+  assert.match(trailSource, /role="tablist" aria-label=\{`\$\{chapter\.title\} reviewed learning activities`\}/);
+  assert.match(trailSource, /Move event \$\{index \+ 1\} up/);
+  assert.match(trailSource, /Find the exact text evidence/);
+  assert.match(trailSource, /aria-pressed=\{selected\}/);
+  assert.match(trailSource, /The reviewed activity could not be loaded/);
+  assert.match(trailSource, /Rewards are granted only once/);
+  assert.match(styles, /\.book-activity-trail/);
+  assert.match(styles, /@media \(prefers-reduced-motion: reduce\) \{ \.trail-activity-nav/);
 });
 
 test('keeps core text and controls above WCAG contrast thresholds across palettes', () => {

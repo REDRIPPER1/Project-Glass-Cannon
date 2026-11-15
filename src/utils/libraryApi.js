@@ -82,6 +82,19 @@ export async function loadChapterReference(profileId, bookId, chapterId) {
   return api(`/api/profiles/${profileId}/books/${bookId}/chapters/${chapterId}`);
 }
 
+export async function loadChapterActivities(bookId, chapterId) {
+  const activities = await api(`/api/catalog/books/${bookId}/chapters/${chapterId}/activities`);
+  return Array.isArray(activities) ? activities : activities?.activities || [];
+}
+
+export async function loadChapterActivity(profileId, bookId, chapterId, activityId) {
+  return api(`/api/profiles/${profileId}/books/${bookId}/chapters/${chapterId}/activities/${activityId}`);
+}
+
+export async function completeChapterActivity(profileId, activityId, payload) {
+  return api(`/api/profiles/${profileId}/activities/${activityId}/completions`, { method: 'POST', body: JSON.stringify(payload) });
+}
+
 export async function loadBookQuiz(profileId, bookId, quizId) {
   return api(`/api/profiles/${profileId}/books/${bookId}/quizzes/${quizId}`);
 }
