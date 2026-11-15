@@ -4,10 +4,12 @@ import test from 'node:test';
 
 const appSource = readFileSync(new URL('./App.jsx', import.meta.url), 'utf8');
 const styles = readFileSync(new URL('./styles.css', import.meta.url), 'utf8');
+const basicsSource = readFileSync(new URL('./ReadingBasicsScreen.jsx', import.meta.url), 'utf8');
 
 test('keeps keyboard and screen-reader critical controls in the frontend shell', () => {
   assert.match(appSource, /<main className="main-stage"/);
   assert.match(appSource, /aria-label="App navigation"/);
+  assert.match(appSource, /\['basics', 'Reading Basics', 'basics'\]/);
   assert.match(appSource, /aria-label="LitLab home"/);
   assert.match(appSource, /className="brand-mark"/);
   assert.match(appSource, /role="tablist"/);
@@ -71,4 +73,8 @@ test('keeps keyboard and screen-reader critical controls in the frontend shell',
   assert.match(styles, /reduce-motion/);
   assert.match(styles, /\.pet-sprite/);
   assert.match(styles, /scroll-snap-type: x mandatory/);
+  assert.match(basicsSource, /aria-label="Reading Basics lessons"/);
+  assert.match(basicsSource, /aria-label={`\$\{lesson\.title\} activities`}/);
+  assert.match(basicsSource, /Move event \$\{index \+ 1\} up/);
+  assert.match(basicsSource, /Choose the sentence that best supports your answer/);
 });

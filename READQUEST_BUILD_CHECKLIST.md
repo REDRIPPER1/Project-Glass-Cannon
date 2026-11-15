@@ -149,6 +149,9 @@ This is optional for the hackathon. The evidence reveal is the first explanation
 
 ## Backlog — add new ideas here
 
+- [x] Add a revisitable Reading Basics skill trail with main idea, inference, context clues, evidence, motive, sequencing, and author purpose lessons.
+- [x] Add interactive clue hunt, prediction, motive map, timeline repair, and evidence-supported writing practice with gentle retry hints and first-clear XP.
+
 - [x] Add library search and topic filters.
 - [x] Add a staged public-domain catalog preview with source and rights labels.
 - [x] Let learners bookmark quests and resume unfinished quests.
