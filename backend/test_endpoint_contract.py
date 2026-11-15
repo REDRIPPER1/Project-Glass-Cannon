@@ -80,8 +80,10 @@ class EndpointContractTests(unittest.TestCase):
         self.assertEqual(self.main.get_currency_balances(self.profile_id)["currencies"]["leafTokens"], 150)
         self.assertEqual(self.main.get_currency_balances(self.profile_id)["currencies"]["gold"], 0)
         self.assertEqual(self.main.update_profile(self.profile_id, {"preferences": {"theme": "sky"}})["preferences"]["theme"], "sky")
+        starter = self.main.list_rewards(self.profile_id)[0]
+        self.main.claim_reward(self.profile_id, starter["id"])
         self.assertEqual(self.main.rename_pet(self.profile_id, "moss-mouse", {"name": "Mossy"})["name"], "Mossy")
-        self.assertEqual(self.main.select_active_pet(self.profile_id, "page-finch")["activePetId"], "page-finch")
+        self.assertEqual(self.main.select_active_pet(self.profile_id, "moss-mouse")["activePetId"], "moss-mouse")
         self.assertEqual(self.main.add_wishlist_item(self.profile_id, "book", "wizard-of-oz")["wishlist"][0]["catalogId"], "wizard-of-oz")
         self.assertEqual(self.main.remove_wishlist_item(self.profile_id, "book", "wizard-of-oz")["wishlist"], [])
         self.assertEqual(len(self.main.list_pets()), 9)
@@ -92,13 +94,14 @@ class EndpointContractTests(unittest.TestCase):
         self.assertEqual(self._error_code(lambda: self.main.get_pet("missing")), "invalid_catalog_id")
 
     def test_progress_rewards_shop_and_egg_contracts(self):
-        self.assertEqual(self.main.award_xp(self.profile_id, {"amount": 100, "source": "quest-complete"})["level"], 2)
+        self.assertEqual(self.main.award_xp(self.profile_id, {"amount": 100, "source": "demo-seed"})["level"], 2)
         self.assertEqual(self.main.get_progress(self.profile_id)["xp"], 100)
         self.assertTrue(self.main.list_badges())
         self.assertTrue(self.main.list_achievements())
         self.assertTrue(self.main.list_trophies())
         reward = self.main.list_rewards(self.profile_id)[0]
         self.assertEqual(self.main.claim_reward(self.profile_id, reward["id"])["claimStatus"], "claimed")
+        self.main.select_active_pet(self.profile_id, "moss-mouse")
         self.assertEqual(self._error_code(lambda: self.main.claim_reward(self.profile_id, reward["id"])), "duplicate_claim")
         self.assertTrue(self.main.list_shop_items())
         scarf = self.main.purchase_item(self.profile_id, {"shopItemId": "shop-oak-leaf-scarf"})
@@ -107,6 +110,8 @@ class EndpointContractTests(unittest.TestCase):
         self.main.unequip_accessory(self.profile_id, "neck")
         self.assertTrue(self.main.reverse_purchase(self.profile_id, scarf["id"])["reversed"])
         self.main.purchase_item(self.profile_id, {"shopItemId": "shop-storybook-egg"})
+        self.main.award_xp(self.profile_id, {"amount": 500, "source": "demo-seed"})
+        self.main.award_xp(self.profile_id, {"amount": 500, "source": "demo-seed"})
         self.assertTrue(self.main.open_egg(self.profile_id, "storybook-egg", {"deterministicDemo": True})["deterministicDemo"])
         self.assertEqual(self._error_code(lambda: self.main.purchase_item(self.profile_id, {"shopItemId": "missing"})), "invalid_catalog_id")
 
@@ -133,6 +138,38 @@ class EndpointContractTests(unittest.TestCase):
         event = self.main.record_analytics(self.profile_id, {"eventType": "return_used", "properties": {"screen": "home"}})
         self.assertEqual(event["eventType"], "return_used")
         self.assertEqual(self._error_code(lambda: self.main.record_analytics(self.profile_id, {"eventType": "return_used", "properties": {"name": "not allowed"}})), "unsafe_analytics_properties")
+
+    def test_web_library_quest_xp_and_collection_contracts(self):
+        books = self.main.list_web_books()
+        self.assertGreaterEqual(len(books), 100)
+        self.assertTrue(all("accessRules" in book and "rights" in book for book in books))
+        mapping = self.main.get_quest_book_reference("wizard-cyclone-inference")
+        self.assertEqual(mapping["bookId"], "wizard-of-oz")
+        chapter = self.main.get_chapter(self.profile_id, "wizard-of-oz", "chapter-1-cyclone")
+        self.assertEqual(chapter["content"]["mode"], "quest-passage-reference")
+        self.assertIn("L. Frank Baum", chapter["source"]["requiredAttribution"])
+        self.assertEqual(self.main.get_book_reader_reference(self.profile_id, "gutenberg-11-alice-s-adventures-in-wonderland")["content"]["mode"], "external-reference")
+        self.assertFalse(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
+        self.main.set_demo_entitlement(self.profile_id, {"plan": "premium", "demoEntitlement": True})
+        self.assertTrue(self.main.check_chapter_access(self.profile_id, "wizard-of-oz", "chapter-2-council")["allowed"])
+        self.assertNotIn("lantern-and-lost-index", {item["bookId"] for item in self.main.get_library(self.profile_id)})
+        self.store.profiles[self.profile_id]["currencies"]["gold"] = 120
+        purchase = self.main.purchase_book(self.profile_id, "lantern-and-lost-index")
+        self.assertTrue(purchase["mocked"])
+        self.store.profiles[self.profile_id]["entitlement"]["endsAt"] = "2020-01-01T00:00:00Z"
+        library = {item["bookId"]: item for item in self.main.get_library(self.profile_id)}
+        self.assertEqual(library["lantern-and-lost-index"]["access"], "permanent")
+        self.assertTrue(self.main.get_recommendations(self.profile_id)[0]["bookId"])
+        quest = self.main.get_quest("wizard-cyclone-inference")
+        responses = [
+            {"questionId": question["id"], "choiceId": question["correctChoiceId"], "evidenceSentenceId": question["correctEvidenceSentenceId"]}
+            for question in quest["questions"]
+        ]
+        award = self.main.award_quest_attempt(self.profile_id, quest["id"], {"attemptId": "contract-attempt", "responses": responses})
+        self.assertEqual(award["awardedXp"], 90)
+        self.assertEqual(self._error_code(lambda: self.main.award_quest_attempt(self.profile_id, quest["id"], {"attemptId": "contract-attempt", "responses": responses})), "duplicate_xp_attempt")
+        self.assertEqual(len(self.main.get_progression_catalog()["levels"]), 100)
+        self.assertIn("badges", self.main.get_collections(self.profile_id))
 
 
 if __name__ == "__main__":

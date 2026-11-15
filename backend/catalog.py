@@ -54,6 +54,7 @@ class ProfileSchema(TypedDict):
     badges: list[str]
     achievements: list[str]
     bookmarks: list[str]
+    ownedBookIds: list[str]
     preferences: dict[str, Any]
 
 
@@ -116,15 +117,15 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
         _text(definition["label"], f"currency {definition['id']} label")
 
     pets = _unique_ids(catalogs.get("pets"), "pets")
-    if len([pet for pet in pets if pet.get("availability") == "starter"]) != 6:
-        raise CatalogError("Exactly six free starter pets are required")
+    if len([pet for pet in pets if pet.get("starterClaim") is True]) != 6:
+        raise CatalogError("Exactly six no-cost Level Road starter claims are required")
     pet_ids = {pet["id"] for pet in pets}
     for pet in pets:
         _fields(
             pet,
             {
                 "id", "name", "petType", "rarity", "literatureSource", "description",
-                "baseArtworkKey", "allowedAccessories", "eventOnly", "availability",
+                "baseArtworkKey", "allowedAccessories", "eventOnly", "availability", "unlockLevel", "starterClaim",
             },
             f"pet {pet['id']}",
         )
@@ -133,8 +134,14 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
             raise CatalogError(f"pet {pet['id']} has invalid rarity")
         if pet["rarity"] == "Mythical" and not pet["eventOnly"]:
             raise CatalogError("Mythical pets must be event-only")
-        if pet["eventOnly"] and pet["availability"] != "event":
-            raise CatalogError("Event-only pets must have event availability")
+        if pet["eventOnly"] and pet["availability"] != "level-road-event":
+            raise CatalogError("Event-only pets must be Level Road and event gated")
+        if not pet["eventOnly"] and pet["availability"] != "level-road":
+            raise CatalogError("Every non-event pet must be Level Road locked")
+        if not isinstance(pet["unlockLevel"], int) or not 1 <= pet["unlockLevel"] <= 100:
+            raise CatalogError(f"pet {pet['id']} has invalid Level Road unlock")
+        if not isinstance(pet["starterClaim"], bool):
+            raise CatalogError(f"pet {pet['id']} starterClaim must be boolean")
 
     accessories = _unique_ids(catalogs.get("accessories"), "accessories")
     accessory_ids = {row["id"] for row in accessories}
@@ -215,6 +222,8 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
             raise CatalogError(f"reward {reward['id']} references unknown currency")
         if reward["type"] == "egg" and reward["catalogId"] not in egg_ids:
             raise CatalogError(f"reward {reward['id']} references unknown egg")
+        if reward["type"] == "pet" and reward["catalogId"] not in pet_ids:
+            raise CatalogError(f"reward {reward['id']} references unknown pet")
         if reward["type"] not in {"currency", "accessory", "egg", "pet"}:
             raise CatalogError(f"reward {reward['id']} has an unsupported type")
 
@@ -243,6 +252,8 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
         _fields(item, {"id", "itemType", "catalogId", "price", "currency", "purchaseLimit", "availability"}, f"shop item {item['id']}")
         if item["currency"] not in VALID_CURRENCIES or not isinstance(item["price"], int) or item["price"] < 0:
             raise CatalogError(f"shop item {item['id']} has invalid price or currency")
+        if item["itemType"] == "currency" and item["catalogId"] not in VALID_CURRENCIES:
+            raise CatalogError(f"shop item {item['id']} references an unknown currency")
     return catalogs
 
 

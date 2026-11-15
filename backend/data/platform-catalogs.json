@@ -1,80 +1,1010 @@
 {
   "schemaVersion": 1,
-  "currencies": ["leafTokens", "storyShards", "gold", "diamonds"],
+  "currencies": [
+    "leafTokens",
+    "storyShards",
+    "gold",
+    "diamonds"
+  ],
   "currencyDefinitions": [
-    {"id":"leafTokens","label":"Leaf Tokens","availability":"legacy-local-demo"},
-    {"id":"storyShards","label":"Story Shards","availability":"duplicate-pet-compensation"},
-    {"id":"gold","label":"Gold","availability":"level-map-reward"},
-    {"id":"diamonds","label":"Diamonds","availability":"level-map-reward"}
+    {
+      "id": "leafTokens",
+      "label": "Leaf Tokens",
+      "availability": "legacy-local-demo"
+    },
+    {
+      "id": "storyShards",
+      "label": "Story Shards",
+      "availability": "duplicate-pet-compensation"
+    },
+    {
+      "id": "gold",
+      "label": "Gold",
+      "availability": "level-map-reward"
+    },
+    {
+      "id": "diamonds",
+      "label": "Diamonds",
+      "availability": "level-map-reward"
+    }
   ],
   "pets": [
-    {"id":"moss-mouse","name":"Moss Mouse","petType":"mouse","rarity":"Common","literatureSource":"Original LitLearn companion design; not based on a literary character.","edition":"Original work (2026)","chapter":"Not applicable","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork; no third-party text or character design used.","territory":"Worldwide","requiredAttribution":"No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.","description":"A careful little map-reader who carries fallen leaves to new stories.","baseArtworkKey":"pet-moss-mouse","allowedAccessories":["head","neck","trail"],"eventOnly":false,"availability":"starter"},
-    {"id":"page-finch","name":"Page Finch","petType":"bird","rarity":"Common","literatureSource":"Original LitLearn companion design; not based on a literary character.","edition":"Original work (2026)","chapter":"Not applicable","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork; no third-party text or character design used.","territory":"Worldwide","requiredAttribution":"No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.","description":"A bright finch that tucks friendly notes between imaginary pages.","baseArtworkKey":"pet-page-finch","allowedAccessories":["head","neck","trail"],"eventOnly":false,"availability":"starter"},
-    {"id":"quill-tortoise","name":"Quill Tortoise","petType":"tortoise","rarity":"Common","literatureSource":"Original LitLearn companion design; not based on a literary character.","edition":"Original work (2026)","chapter":"Not applicable","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork; no third-party text or character design used.","territory":"Worldwide","requiredAttribution":"No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.","description":"A patient guide who reminds readers to slow down for the clues.","baseArtworkKey":"pet-quill-tortoise","allowedAccessories":["head","neck","trail"],"eventOnly":false,"availability":"starter"},
-    {"id":"shelf-fox","name":"Shelf Fox","petType":"fox","rarity":"Rare","literatureSource":"Original LitLearn companion design; not based on a literary character.","edition":"Original work (2026)","chapter":"Not applicable","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork; no third-party text or character design used.","territory":"Worldwide","requiredAttribution":"No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.","description":"A curious fox who finds the safest path through a tall shelf forest.","baseArtworkKey":"pet-shelf-fox","allowedAccessories":["head","neck","trail"],"eventOnly":false,"availability":"starter"},
-    {"id":"lantern-otter","name":"Lantern Otter","petType":"otter","rarity":"Rare","literatureSource":"Original LitLearn companion design; not based on a literary character.","edition":"Original work (2026)","chapter":"Not applicable","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork; no third-party text or character design used.","territory":"Worldwide","requiredAttribution":"No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.","description":"An otter who keeps a warm lantern by every reading trail.","baseArtworkKey":"pet-lantern-otter","allowedAccessories":["head","neck","trail"],"eventOnly":false,"availability":"starter"},
-    {"id":"story-moth","name":"Story Moth","petType":"moth","rarity":"Rare","literatureSource":"Original LitLearn companion design; not based on a literary character.","edition":"Original work (2026)","chapter":"Not applicable","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork; no third-party text or character design used.","territory":"Worldwide","requiredAttribution":"No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.","description":"A soft-winged companion who follows the glow of a well-supported idea.","baseArtworkKey":"pet-story-moth","allowedAccessories":["head","neck","trail"],"eventOnly":false,"availability":"starter"},
-    {"id":"comet-bat","name":"Comet Bat","petType":"bat","rarity":"Epic","literatureSource":"Original LitLearn companion design; not based on a literary character.","edition":"Original work (2026)","chapter":"Not applicable","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork; no third-party text or character design used.","territory":"Worldwide","requiredAttribution":"No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.","description":"A night-sky scout found only in story eggs.","baseArtworkKey":"pet-comet-bat","allowedAccessories":["head","neck","trail"],"eventOnly":false,"availability":"egg"},
-    {"id":"maple-dragon","name":"Maple Dragon","petType":"dragon","rarity":"Legendary","literatureSource":"Original LitLearn companion design; not based on a literary character.","edition":"Original work (2026)","chapter":"Not applicable","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork; no third-party text or character design used.","territory":"Worldwide","requiredAttribution":"No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.","description":"A gentle dragon with leaf-shaped wings, found only in story eggs.","baseArtworkKey":"pet-maple-dragon","allowedAccessories":["head","neck","trail"],"eventOnly":false,"availability":"egg"},
-    {"id":"seasonal-phoenix","name":"Seasonal Phoenix","petType":"phoenix","rarity":"Mythical","literatureSource":"Original LitLearn companion design; not based on a literary character.","edition":"Original work (2026)","chapter":"Not applicable","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork; no third-party text or character design used.","territory":"Worldwide","requiredAttribution":"No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.","description":"An event-only companion for seasonal reading celebrations.","baseArtworkKey":"pet-seasonal-phoenix","allowedAccessories":["head","neck","trail"],"eventOnly":true,"availability":"event"}
+    {
+      "id": "moss-mouse",
+      "name": "Moss Mouse",
+      "petType": "mouse",
+      "rarity": "Common",
+      "literatureSource": "Original LitLearn companion design; not based on a literary character.",
+      "edition": "Original work (2026)",
+      "chapter": "Not applicable",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork; no third-party text or character design used.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.",
+      "description": "A careful little map-reader who carries fallen leaves to new stories.",
+      "baseArtworkKey": "pet-moss-mouse",
+      "allowedAccessories": [
+        "head",
+        "neck",
+        "trail"
+      ],
+      "eventOnly": false,
+      "availability": "level-road",
+      "unlockLevel": 1,
+      "starterClaim": true
+    },
+    {
+      "id": "page-finch",
+      "name": "Page Finch",
+      "petType": "bird",
+      "rarity": "Common",
+      "literatureSource": "Original LitLearn companion design; not based on a literary character.",
+      "edition": "Original work (2026)",
+      "chapter": "Not applicable",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork; no third-party text or character design used.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.",
+      "description": "A bright finch that tucks friendly notes between imaginary pages.",
+      "baseArtworkKey": "pet-page-finch",
+      "allowedAccessories": [
+        "head",
+        "neck",
+        "trail"
+      ],
+      "eventOnly": false,
+      "availability": "level-road",
+      "unlockLevel": 2,
+      "starterClaim": true
+    },
+    {
+      "id": "quill-tortoise",
+      "name": "Quill Tortoise",
+      "petType": "tortoise",
+      "rarity": "Common",
+      "literatureSource": "Original LitLearn companion design; not based on a literary character.",
+      "edition": "Original work (2026)",
+      "chapter": "Not applicable",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork; no third-party text or character design used.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.",
+      "description": "A patient guide who reminds readers to slow down for the clues.",
+      "baseArtworkKey": "pet-quill-tortoise",
+      "allowedAccessories": [
+        "head",
+        "neck",
+        "trail"
+      ],
+      "eventOnly": false,
+      "availability": "level-road",
+      "unlockLevel": 3,
+      "starterClaim": true
+    },
+    {
+      "id": "shelf-fox",
+      "name": "Shelf Fox",
+      "petType": "fox",
+      "rarity": "Rare",
+      "literatureSource": "Original LitLearn companion design; not based on a literary character.",
+      "edition": "Original work (2026)",
+      "chapter": "Not applicable",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork; no third-party text or character design used.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.",
+      "description": "A curious fox who finds the safest path through a tall shelf forest.",
+      "baseArtworkKey": "pet-shelf-fox",
+      "allowedAccessories": [
+        "head",
+        "neck",
+        "trail"
+      ],
+      "eventOnly": false,
+      "availability": "level-road",
+      "unlockLevel": 4,
+      "starterClaim": true
+    },
+    {
+      "id": "lantern-otter",
+      "name": "Lantern Otter",
+      "petType": "otter",
+      "rarity": "Rare",
+      "literatureSource": "Original LitLearn companion design; not based on a literary character.",
+      "edition": "Original work (2026)",
+      "chapter": "Not applicable",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork; no third-party text or character design used.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.",
+      "description": "An otter who keeps a warm lantern by every reading trail.",
+      "baseArtworkKey": "pet-lantern-otter",
+      "allowedAccessories": [
+        "head",
+        "neck",
+        "trail"
+      ],
+      "eventOnly": false,
+      "availability": "level-road",
+      "unlockLevel": 5,
+      "starterClaim": true
+    },
+    {
+      "id": "story-moth",
+      "name": "Story Moth",
+      "petType": "moth",
+      "rarity": "Rare",
+      "literatureSource": "Original LitLearn companion design; not based on a literary character.",
+      "edition": "Original work (2026)",
+      "chapter": "Not applicable",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork; no third-party text or character design used.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.",
+      "description": "A soft-winged companion who follows the glow of a well-supported idea.",
+      "baseArtworkKey": "pet-story-moth",
+      "allowedAccessories": [
+        "head",
+        "neck",
+        "trail"
+      ],
+      "eventOnly": false,
+      "availability": "level-road",
+      "unlockLevel": 6,
+      "starterClaim": true
+    },
+    {
+      "id": "comet-bat",
+      "name": "Comet Bat",
+      "petType": "bat",
+      "rarity": "Epic",
+      "literatureSource": "Original LitLearn companion design; not based on a literary character.",
+      "edition": "Original work (2026)",
+      "chapter": "Not applicable",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork; no third-party text or character design used.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.",
+      "description": "A night-sky scout found only in story eggs after its Level Road unlock.",
+      "baseArtworkKey": "pet-comet-bat",
+      "allowedAccessories": [
+        "head",
+        "neck",
+        "trail"
+      ],
+      "eventOnly": false,
+      "availability": "level-road",
+      "unlockLevel": 20,
+      "starterClaim": false
+    },
+    {
+      "id": "maple-dragon",
+      "name": "Maple Dragon",
+      "petType": "dragon",
+      "rarity": "Legendary",
+      "literatureSource": "Original LitLearn companion design; not based on a literary character.",
+      "edition": "Original work (2026)",
+      "chapter": "Not applicable",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork; no third-party text or character design used.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.",
+      "description": "A gentle dragon with leaf-shaped wings, found only in story eggs after its Level Road unlock.",
+      "baseArtworkKey": "pet-maple-dragon",
+      "allowedAccessories": [
+        "head",
+        "neck",
+        "trail"
+      ],
+      "eventOnly": false,
+      "availability": "level-road",
+      "unlockLevel": 40,
+      "starterClaim": false
+    },
+    {
+      "id": "seasonal-phoenix",
+      "name": "Seasonal Phoenix",
+      "petType": "phoenix",
+      "rarity": "Mythical",
+      "literatureSource": "Original LitLearn companion design; not based on a literary character.",
+      "edition": "Original work (2026)",
+      "chapter": "Not applicable",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork; no third-party text or character design used.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No legal attribution required; use ‘Original LitLearn companion art’ when credits are shown.",
+      "description": "An event-only companion that also requires its Level Road unlock.",
+      "baseArtworkKey": "pet-seasonal-phoenix",
+      "allowedAccessories": [
+        "head",
+        "neck",
+        "trail"
+      ],
+      "eventOnly": true,
+      "availability": "level-road-event",
+      "unlockLevel": 100,
+      "starterClaim": false
+    }
   ],
   "accessories": [
-    {"id":"oak-leaf-scarf","category":"neck","wearableType":"clothing","rarity":"Common","price":20,"currency":"leafTokens","compatiblePetTypes":["mouse","bird","tortoise","fox","otter","moth","bat"],"sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork.","territory":"Worldwide","requiredAttribution":"No attribution required.","availability":"available"},
-    {"id":"reading-lamp-cap","category":"head","wearableType":"accessory","rarity":"Rare","price":45,"currency":"leafTokens","compatiblePetTypes":["mouse","bird","fox","otter"],"sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork.","territory":"Worldwide","requiredAttribution":"No attribution required.","availability":"available"},
-    {"id":"moon-pin","category":"neck","wearableType":"accessory","rarity":"Rare","price":0,"currency":"leafTokens","compatiblePetTypes":["mouse","bird","tortoise","fox","otter","moth","bat","dragon"],"sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork.","territory":"Worldwide","requiredAttribution":"No attribution required.","availability":"reward-only"},
-    {"id":"starglass-cloak","category":"trail","wearableType":"clothing","rarity":"Epic","price":0,"currency":"leafTokens","compatiblePetTypes":["bat","dragon","phoenix"],"sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project artwork.","territory":"Worldwide","requiredAttribution":"No attribution required.","availability":"reward-only"}
+    {
+      "id": "oak-leaf-scarf",
+      "category": "neck",
+      "wearableType": "clothing",
+      "rarity": "Common",
+      "price": 20,
+      "currency": "leafTokens",
+      "compatiblePetTypes": [
+        "mouse",
+        "bird",
+        "tortoise",
+        "fox",
+        "otter",
+        "moth",
+        "bat"
+      ],
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No attribution required.",
+      "availability": "available"
+    },
+    {
+      "id": "reading-lamp-cap",
+      "category": "head",
+      "wearableType": "accessory",
+      "rarity": "Rare",
+      "price": 45,
+      "currency": "leafTokens",
+      "compatiblePetTypes": [
+        "mouse",
+        "bird",
+        "fox",
+        "otter"
+      ],
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No attribution required.",
+      "availability": "available"
+    },
+    {
+      "id": "moon-pin",
+      "category": "neck",
+      "wearableType": "accessory",
+      "rarity": "Rare",
+      "price": 0,
+      "currency": "leafTokens",
+      "compatiblePetTypes": [
+        "mouse",
+        "bird",
+        "tortoise",
+        "fox",
+        "otter",
+        "moth",
+        "bat",
+        "dragon"
+      ],
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No attribution required.",
+      "availability": "reward-only"
+    },
+    {
+      "id": "starglass-cloak",
+      "category": "trail",
+      "wearableType": "clothing",
+      "rarity": "Epic",
+      "price": 0,
+      "currency": "leafTokens",
+      "compatiblePetTypes": [
+        "bat",
+        "dragon",
+        "phoenix"
+      ],
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project artwork.",
+      "territory": "Worldwide",
+      "requiredAttribution": "No attribution required.",
+      "availability": "reward-only"
+    }
   ],
   "eggs": [
-    {"id":"storybook-egg","rarityRange":["Common","Rare","Epic","Legendary"],"odds":{"Common":0.70,"Rare":0.24,"Epic":0.05,"Legendary":0.01},"price":50,"currency":"leafTokens","possibleRewards":{"Common":["moss-mouse","page-finch","quill-tortoise"],"Rare":["shelf-fox","lantern-otter","story-moth"],"Epic":["comet-bat"],"Legendary":["maple-dragon"]},"duplicateBehavior":{"currency":"storyShards","quantity":30,"description":"A duplicate pet becomes 30 Story Shards; the duplicate pet is not added twice."},"availability":"available"},
-    {"id":"starlight-egg","rarityRange":["Epic","Legendary"],"odds":{"Epic":0.75,"Legendary":0.25},"price":90,"currency":"leafTokens","possibleRewards":{"Epic":["comet-bat"],"Legendary":["maple-dragon"]},"duplicateBehavior":{"currency":"storyShards","quantity":60,"description":"A duplicate pet becomes 60 Story Shards; the duplicate pet is not added twice."},"availability":"available"},
-    {"id":"common-reward-egg","rarityRange":["Common"],"odds":{"Common":1.0},"price":0,"currency":"gold","possibleRewards":{"Common":["moss-mouse","page-finch","quill-tortoise"]},"duplicateBehavior":{"currency":"storyShards","quantity":20,"description":"A duplicate pet becomes 20 Story Shards; the duplicate pet is not added twice."},"availability":"reward-only"},
-    {"id":"rare-reward-egg","rarityRange":["Rare"],"odds":{"Rare":1.0},"price":0,"currency":"gold","possibleRewards":{"Rare":["shelf-fox","lantern-otter","story-moth"]},"duplicateBehavior":{"currency":"storyShards","quantity":35,"description":"A duplicate pet becomes 35 Story Shards; the duplicate pet is not added twice."},"availability":"reward-only"},
-    {"id":"epic-reward-egg","rarityRange":["Epic"],"odds":{"Epic":1.0},"price":0,"currency":"diamonds","possibleRewards":{"Epic":["comet-bat"]},"duplicateBehavior":{"currency":"storyShards","quantity":50,"description":"A duplicate pet becomes 50 Story Shards; the duplicate pet is not added twice."},"availability":"reward-only"},
-    {"id":"legendary-reward-egg","rarityRange":["Legendary"],"odds":{"Legendary":1.0},"price":0,"currency":"diamonds","possibleRewards":{"Legendary":["maple-dragon"]},"duplicateBehavior":{"currency":"storyShards","quantity":75,"description":"A duplicate pet becomes 75 Story Shards; the duplicate pet is not added twice."},"availability":"reward-only"}
+    {
+      "id": "storybook-egg",
+      "rarityRange": [
+        "Common",
+        "Rare",
+        "Epic",
+        "Legendary"
+      ],
+      "odds": {
+        "Common": 0.7,
+        "Rare": 0.24,
+        "Epic": 0.05,
+        "Legendary": 0.01
+      },
+      "price": 50,
+      "currency": "leafTokens",
+      "possibleRewards": {
+        "Common": [
+          "moss-mouse",
+          "page-finch",
+          "quill-tortoise"
+        ],
+        "Rare": [
+          "shelf-fox",
+          "lantern-otter",
+          "story-moth"
+        ],
+        "Epic": [
+          "comet-bat"
+        ],
+        "Legendary": [
+          "maple-dragon"
+        ]
+      },
+      "duplicateBehavior": {
+        "currency": "storyShards",
+        "quantity": 30,
+        "description": "A duplicate pet becomes 30 Story Shards; the duplicate pet is not added twice."
+      },
+      "availability": "available"
+    },
+    {
+      "id": "starlight-egg",
+      "rarityRange": [
+        "Epic",
+        "Legendary"
+      ],
+      "odds": {
+        "Epic": 0.75,
+        "Legendary": 0.25
+      },
+      "price": 90,
+      "currency": "leafTokens",
+      "possibleRewards": {
+        "Epic": [
+          "comet-bat"
+        ],
+        "Legendary": [
+          "maple-dragon"
+        ]
+      },
+      "duplicateBehavior": {
+        "currency": "storyShards",
+        "quantity": 60,
+        "description": "A duplicate pet becomes 60 Story Shards; the duplicate pet is not added twice."
+      },
+      "availability": "available"
+    },
+    {
+      "id": "common-reward-egg",
+      "rarityRange": [
+        "Common"
+      ],
+      "odds": {
+        "Common": 1.0
+      },
+      "price": 0,
+      "currency": "gold",
+      "possibleRewards": {
+        "Common": [
+          "moss-mouse",
+          "page-finch",
+          "quill-tortoise"
+        ]
+      },
+      "duplicateBehavior": {
+        "currency": "storyShards",
+        "quantity": 20,
+        "description": "A duplicate pet becomes 20 Story Shards; the duplicate pet is not added twice."
+      },
+      "availability": "reward-only"
+    },
+    {
+      "id": "rare-reward-egg",
+      "rarityRange": [
+        "Rare"
+      ],
+      "odds": {
+        "Rare": 1.0
+      },
+      "price": 0,
+      "currency": "gold",
+      "possibleRewards": {
+        "Rare": [
+          "shelf-fox",
+          "lantern-otter",
+          "story-moth"
+        ]
+      },
+      "duplicateBehavior": {
+        "currency": "storyShards",
+        "quantity": 35,
+        "description": "A duplicate pet becomes 35 Story Shards; the duplicate pet is not added twice."
+      },
+      "availability": "reward-only"
+    },
+    {
+      "id": "epic-reward-egg",
+      "rarityRange": [
+        "Epic"
+      ],
+      "odds": {
+        "Epic": 1.0
+      },
+      "price": 0,
+      "currency": "diamonds",
+      "possibleRewards": {
+        "Epic": [
+          "comet-bat"
+        ]
+      },
+      "duplicateBehavior": {
+        "currency": "storyShards",
+        "quantity": 50,
+        "description": "A duplicate pet becomes 50 Story Shards; the duplicate pet is not added twice."
+      },
+      "availability": "reward-only"
+    },
+    {
+      "id": "legendary-reward-egg",
+      "rarityRange": [
+        "Legendary"
+      ],
+      "odds": {
+        "Legendary": 1.0
+      },
+      "price": 0,
+      "currency": "diamonds",
+      "possibleRewards": {
+        "Legendary": [
+          "maple-dragon"
+        ]
+      },
+      "duplicateBehavior": {
+        "currency": "storyShards",
+        "quantity": 75,
+        "description": "A duplicate pet becomes 75 Story Shards; the duplicate pet is not added twice."
+      },
+      "availability": "reward-only"
+    }
   ],
   "books": [
-    {"id":"wizard-of-oz","title":"The Wonderful Wizard of Oz","author":"L. Frank Baum","edition":"Geo. M. Hill Co., first edition (1900)","chapterMetadata":[{"id":"chapter-1-cyclone","title":"Chapter I: The Cyclone","accessTier":"free-demo"},{"id":"chapter-2-council","title":"Chapter II: The Council with the Munchkins","accessTier":"premium"}],"readingLevel":"Grades 4-8","topic":"Classic fantasy","vocabularyLevel":"basic","sourceUrl":"https://www.loc.gov/item/03032405/","rightsStatus":"verified","license":"Public-domain text; no copyright license is required for the underlying 1900 book in the United States.","territory":"US","requiredAttribution":"L. Frank Baum, The Wonderful Wizard of Oz (1900). Source: Library of Congress.","accessTier":"premium"},
-    {"id":"secret-garden","title":"The Secret Garden","author":"Frances Hodgson Burnett","edition":"Frederick A. Stokes, 1911","chapterMetadata":[{"id":"chapter-1-left","title":"Chapter I: There Is No One Left","accessTier":"free-demo"},{"id":"chapter-2-misselthwaite","title":"Chapter II: Mistress Mary Quite Contrary","accessTier":"premium"}],"readingLevel":"Grades 4-8","topic":"Classic mystery","vocabularyLevel":"advanced","sourceUrl":"https://www.gutenberg.org/ebooks/17396","rightsStatus":"verified","license":"The underlying 1911 United States publication is public domain in the United States. The Project Gutenberg eBook is offered under the Project Gutenberg License; this catalog includes metadata only, not eBook text.","territory":"US (verify local law outside the United States)","requiredAttribution":"Frances Hodgson Burnett, The Secret Garden (1911). Source: Project Gutenberg eBook #17396.","accessTier":"premium"},
-    {"id":"night-garden-demo","title":"A Lantern in the Night Garden","author":"LitLearn Editorial Team","edition":"Original project edition (2026)","chapterMetadata":[{"id":"chapter-1-lantern","title":"Chapter I: The Lantern Path","accessTier":"free-demo"}],"readingLevel":"Grades 4-8","topic":"Garden mystery","vocabularyLevel":"basic","sourceUrl":"https://github.com/REDRIPPER1/Project-Glass-Cannon","rightsStatus":"original","license":"Original project content; no third-party text is included.","territory":"Worldwide","requiredAttribution":"LitLearn Editorial Team, A Lantern in the Night Garden (2026).","accessTier":"free-demo"}
+    {
+      "id": "wizard-of-oz",
+      "title": "The Wonderful Wizard of Oz",
+      "author": "L. Frank Baum",
+      "edition": "Geo. M. Hill Co., first edition (1900)",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1-cyclone",
+          "title": "Chapter I: The Cyclone",
+          "accessTier": "free-demo"
+        },
+        {
+          "id": "chapter-2-council",
+          "title": "Chapter II: The Council with the Munchkins",
+          "accessTier": "premium"
+        }
+      ],
+      "readingLevel": "Grades 4-8",
+      "topic": "Classic fantasy",
+      "vocabularyLevel": "basic",
+      "sourceUrl": "https://www.loc.gov/item/03032405/",
+      "rightsStatus": "verified",
+      "license": "Public-domain text; no copyright license is required for the underlying 1900 book in the United States.",
+      "territory": "US",
+      "requiredAttribution": "L. Frank Baum, The Wonderful Wizard of Oz (1900). Source: Library of Congress.",
+      "accessTier": "premium"
+    },
+    {
+      "id": "secret-garden",
+      "title": "The Secret Garden",
+      "author": "Frances Hodgson Burnett",
+      "edition": "Frederick A. Stokes, 1911",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1-left",
+          "title": "Chapter I: There Is No One Left",
+          "accessTier": "free-demo"
+        },
+        {
+          "id": "chapter-2-misselthwaite",
+          "title": "Chapter II: Mistress Mary Quite Contrary",
+          "accessTier": "premium"
+        }
+      ],
+      "readingLevel": "Grades 4-8",
+      "topic": "Classic mystery",
+      "vocabularyLevel": "advanced",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/17396",
+      "rightsStatus": "verified",
+      "license": "The underlying 1911 United States publication is public domain in the United States. The Project Gutenberg eBook is offered under the Project Gutenberg License; this catalog includes metadata only, not eBook text.",
+      "territory": "US (verify local law outside the United States)",
+      "requiredAttribution": "Frances Hodgson Burnett, The Secret Garden (1911). Source: Project Gutenberg eBook #17396.",
+      "accessTier": "premium"
+    },
+    {
+      "id": "night-garden-demo",
+      "title": "A Lantern in the Night Garden",
+      "author": "LitLearn Editorial Team",
+      "edition": "Original project edition (2026)",
+      "chapterMetadata": [
+        {
+          "id": "chapter-1-lantern",
+          "title": "Chapter I: The Lantern Path",
+          "accessTier": "free-demo"
+        }
+      ],
+      "readingLevel": "Grades 4-8",
+      "topic": "Garden mystery",
+      "vocabularyLevel": "basic",
+      "sourceUrl": "https://github.com/REDRIPPER1/Project-Glass-Cannon",
+      "rightsStatus": "original",
+      "license": "Original project content; no third-party text is included.",
+      "territory": "Worldwide",
+      "requiredAttribution": "LitLearn Editorial Team, A Lantern in the Night Garden (2026).",
+      "accessTier": "free-demo"
+    }
   ],
   "rewards": [
-    {"id":"basic-rare-moon-pin","type":"accessory","catalogId":"moon-pin","quantity":1,"rarity":"Rare","source":"basic-battle-pass","claimStatus":"unclaimed"},
-    {"id":"premium-epic-starglass-cloak","type":"accessory","catalogId":"starglass-cloak","quantity":1,"rarity":"Epic","source":"premium-battle-pass","claimStatus":"unclaimed"},
-    {"id":"level-leaf-tokens","type":"currency","catalogId":"leafTokens","quantity":25,"rarity":"Common","source":"level-map","claimStatus":"unclaimed"},
-    {"id":"level-gold-cache","type":"currency","catalogId":"gold","quantity":50,"rarity":"Common","source":"level-map","claimStatus":"unclaimed"},
-    {"id":"level-diamond-cache","type":"currency","catalogId":"diamonds","quantity":10,"rarity":"Rare","source":"level-map","claimStatus":"unclaimed"},
-    {"id":"level-oak-leaf-scarf","type":"accessory","catalogId":"oak-leaf-scarf","quantity":1,"rarity":"Common","source":"level-map","claimStatus":"unclaimed"},
-    {"id":"level-common-egg","type":"egg","catalogId":"common-reward-egg","quantity":1,"rarity":"Common","source":"level-map","claimStatus":"unclaimed"},
-    {"id":"level-rare-egg","type":"egg","catalogId":"rare-reward-egg","quantity":1,"rarity":"Rare","source":"level-map","claimStatus":"unclaimed"},
-    {"id":"level-epic-egg","type":"egg","catalogId":"epic-reward-egg","quantity":1,"rarity":"Epic","source":"level-map","claimStatus":"unclaimed"},
-    {"id":"level-legendary-egg","type":"egg","catalogId":"legendary-reward-egg","quantity":1,"rarity":"Legendary","source":"level-map","claimStatus":"unclaimed"}
+    {
+      "id": "basic-rare-moon-pin",
+      "type": "accessory",
+      "catalogId": "moon-pin",
+      "quantity": 1,
+      "rarity": "Rare",
+      "source": "basic-battle-pass",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "premium-epic-starglass-cloak",
+      "type": "accessory",
+      "catalogId": "starglass-cloak",
+      "quantity": 1,
+      "rarity": "Epic",
+      "source": "premium-battle-pass",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-leaf-tokens",
+      "type": "currency",
+      "catalogId": "leafTokens",
+      "quantity": 25,
+      "rarity": "Common",
+      "source": "level-map",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-gold-cache",
+      "type": "currency",
+      "catalogId": "gold",
+      "quantity": 50,
+      "rarity": "Common",
+      "source": "level-map",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-diamond-cache",
+      "type": "currency",
+      "catalogId": "diamonds",
+      "quantity": 10,
+      "rarity": "Rare",
+      "source": "level-map",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-oak-leaf-scarf",
+      "type": "accessory",
+      "catalogId": "oak-leaf-scarf",
+      "quantity": 1,
+      "rarity": "Common",
+      "source": "level-map",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-common-egg",
+      "type": "egg",
+      "catalogId": "common-reward-egg",
+      "quantity": 1,
+      "rarity": "Common",
+      "source": "level-map",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-rare-egg",
+      "type": "egg",
+      "catalogId": "rare-reward-egg",
+      "quantity": 1,
+      "rarity": "Rare",
+      "source": "level-map",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-epic-egg",
+      "type": "egg",
+      "catalogId": "epic-reward-egg",
+      "quantity": 1,
+      "rarity": "Epic",
+      "source": "level-map",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-legendary-egg",
+      "type": "egg",
+      "catalogId": "legendary-reward-egg",
+      "quantity": 1,
+      "rarity": "Legendary",
+      "source": "level-map",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-pet-moss-mouse",
+      "type": "pet",
+      "catalogId": "moss-mouse",
+      "quantity": 1,
+      "rarity": "Common",
+      "source": "level-road-free-starter-claim",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-pet-page-finch",
+      "type": "pet",
+      "catalogId": "page-finch",
+      "quantity": 1,
+      "rarity": "Common",
+      "source": "level-road-free-starter-claim",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-pet-quill-tortoise",
+      "type": "pet",
+      "catalogId": "quill-tortoise",
+      "quantity": 1,
+      "rarity": "Common",
+      "source": "level-road-free-starter-claim",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-pet-shelf-fox",
+      "type": "pet",
+      "catalogId": "shelf-fox",
+      "quantity": 1,
+      "rarity": "Rare",
+      "source": "level-road-free-starter-claim",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-pet-lantern-otter",
+      "type": "pet",
+      "catalogId": "lantern-otter",
+      "quantity": 1,
+      "rarity": "Rare",
+      "source": "level-road-free-starter-claim",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-pet-story-moth",
+      "type": "pet",
+      "catalogId": "story-moth",
+      "quantity": 1,
+      "rarity": "Rare",
+      "source": "level-road-free-starter-claim",
+      "claimStatus": "unclaimed"
+    }
   ],
   "levelNodes": [
-    {"id":"level-1","requiredXp":0,"prerequisites":[],"rewardIds":[],"mapPosition":{"x":0,"y":0}},
-    {"id":"level-2","requiredXp":100,"prerequisites":["level-1"],"rewardIds":["level-leaf-tokens","level-gold-cache"],"mapPosition":{"x":1,"y":0}},
-    {"id":"level-3","requiredXp":250,"prerequisites":["level-2"],"rewardIds":["level-diamond-cache"],"mapPosition":{"x":2,"y":1}},
-    {"id":"level-4","requiredXp":450,"prerequisites":["level-3"],"rewardIds":["level-oak-leaf-scarf"],"mapPosition":{"x":3,"y":1}},
-    {"id":"level-5","requiredXp":650,"prerequisites":["level-4"],"rewardIds":["level-common-egg"],"mapPosition":{"x":4,"y":2}},
-    {"id":"level-6","requiredXp":850,"prerequisites":["level-5"],"rewardIds":["level-rare-egg"],"mapPosition":{"x":5,"y":2}},
-    {"id":"level-7","requiredXp":1100,"prerequisites":["level-6"],"rewardIds":["level-epic-egg"],"mapPosition":{"x":6,"y":3}},
-    {"id":"level-8","requiredXp":1400,"prerequisites":["level-7"],"rewardIds":["level-legendary-egg"],"mapPosition":{"x":7,"y":3}}
+    {
+      "id": "level-1",
+      "requiredXp": 0,
+      "prerequisites": [],
+      "rewardIds": [
+        "level-pet-moss-mouse"
+      ],
+      "mapPosition": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "level-2",
+      "requiredXp": 100,
+      "prerequisites": [
+        "level-1"
+      ],
+      "rewardIds": [
+        "level-pet-page-finch",
+        "level-leaf-tokens",
+        "level-gold-cache"
+      ],
+      "mapPosition": {
+        "x": 1,
+        "y": 0
+      }
+    },
+    {
+      "id": "level-3",
+      "requiredXp": 250,
+      "prerequisites": [
+        "level-2"
+      ],
+      "rewardIds": [
+        "level-pet-quill-tortoise",
+        "level-diamond-cache"
+      ],
+      "mapPosition": {
+        "x": 2,
+        "y": 1
+      }
+    },
+    {
+      "id": "level-4",
+      "requiredXp": 450,
+      "prerequisites": [
+        "level-3"
+      ],
+      "rewardIds": [
+        "level-pet-shelf-fox",
+        "level-oak-leaf-scarf"
+      ],
+      "mapPosition": {
+        "x": 3,
+        "y": 1
+      }
+    },
+    {
+      "id": "level-5",
+      "requiredXp": 650,
+      "prerequisites": [
+        "level-4"
+      ],
+      "rewardIds": [
+        "level-pet-lantern-otter",
+        "level-common-egg"
+      ],
+      "mapPosition": {
+        "x": 4,
+        "y": 2
+      }
+    },
+    {
+      "id": "level-6",
+      "requiredXp": 850,
+      "prerequisites": [
+        "level-5"
+      ],
+      "rewardIds": [
+        "level-pet-story-moth",
+        "level-rare-egg"
+      ],
+      "mapPosition": {
+        "x": 5,
+        "y": 2
+      }
+    },
+    {
+      "id": "level-7",
+      "requiredXp": 1100,
+      "prerequisites": [
+        "level-6"
+      ],
+      "rewardIds": [
+        "level-epic-egg"
+      ],
+      "mapPosition": {
+        "x": 6,
+        "y": 3
+      }
+    },
+    {
+      "id": "level-8",
+      "requiredXp": 1400,
+      "prerequisites": [
+        "level-7"
+      ],
+      "rewardIds": [
+        "level-legendary-egg"
+      ],
+      "mapPosition": {
+        "x": 7,
+        "y": 3
+      }
+    }
   ],
-  "badges": [{"id":"first-quest","title":"First Trail","description":"Completed a first reading quest."}],
-  "achievements": [{"id":"evidence-finder","title":"Evidence Finder","description":"Selected supporting evidence in a reading quest."}],
-  "trophies": [{"id":"trail-starter","title":"Trail Starter","description":"Reached level 2."}],
+  "badges": [
+    {
+      "id": "first-quest",
+      "title": "First Trail",
+      "description": "Completed a first reading quest."
+    }
+  ],
+  "achievements": [
+    {
+      "id": "evidence-finder",
+      "title": "Evidence Finder",
+      "description": "Selected supporting evidence in a reading quest."
+    }
+  ],
+  "trophies": [
+    {
+      "id": "trail-starter",
+      "title": "Trail Starter",
+      "description": "Reached level 2."
+    }
+  ],
   "battlePasses": [
-    {"id":"2026-11-basic","season":"2026-11","month":"2026-11","plan":"basic","rewardPool":"common-pool","progressRule":{"metric":"xp","required":100},"rewards":["basic-rare-moon-pin"],"expiresAt":"2026-11-30T23:59:59Z"},
-    {"id":"2026-11-premium","season":"2026-11","month":"2026-11","plan":"premium","rewardPool":"premium-pool","progressRule":{"metric":"xp","required":100},"rewards":["premium-epic-starglass-cloak"],"expiresAt":"2026-11-30T23:59:59Z"},
-    {"id":"2026-10-basic","season":"2026-10","month":"2026-10","plan":"basic","rewardPool":"common-pool","progressRule":{"metric":"xp","required":100},"rewards":["basic-rare-moon-pin"],"expiresAt":"2026-10-31T23:59:59Z"}
+    {
+      "id": "2026-11-basic",
+      "season": "2026-11",
+      "month": "2026-11",
+      "plan": "basic",
+      "rewardPool": "common-pool",
+      "progressRule": {
+        "metric": "xp",
+        "required": 100
+      },
+      "rewards": [
+        "basic-rare-moon-pin"
+      ],
+      "expiresAt": "2026-11-30T23:59:59Z"
+    },
+    {
+      "id": "2026-11-premium",
+      "season": "2026-11",
+      "month": "2026-11",
+      "plan": "premium",
+      "rewardPool": "premium-pool",
+      "progressRule": {
+        "metric": "xp",
+        "required": 100
+      },
+      "rewards": [
+        "premium-epic-starglass-cloak"
+      ],
+      "expiresAt": "2026-11-30T23:59:59Z"
+    },
+    {
+      "id": "2026-10-basic",
+      "season": "2026-10",
+      "month": "2026-10",
+      "plan": "basic",
+      "rewardPool": "common-pool",
+      "progressRule": {
+        "metric": "xp",
+        "required": 100
+      },
+      "rewards": [
+        "basic-rare-moon-pin"
+      ],
+      "expiresAt": "2026-10-31T23:59:59Z"
+    }
   ],
   "shopItems": [
-    {"id":"shop-storybook-egg","itemType":"egg","catalogId":"storybook-egg","price":50,"currency":"leafTokens","purchaseLimit":10,"availability":"available"},
-    {"id":"shop-oak-leaf-scarf","itemType":"accessory","catalogId":"oak-leaf-scarf","price":20,"currency":"leafTokens","purchaseLimit":1,"availability":"available"},
-    {"id":"shop-reading-lamp-cap","itemType":"accessory","catalogId":"reading-lamp-cap","price":45,"currency":"leafTokens","purchaseLimit":1,"availability":"available"}
+    {
+      "id": "shop-storybook-egg",
+      "itemType": "egg",
+      "catalogId": "storybook-egg",
+      "price": 50,
+      "currency": "leafTokens",
+      "purchaseLimit": 10,
+      "availability": "available"
+    },
+    {
+      "id": "shop-oak-leaf-scarf",
+      "itemType": "accessory",
+      "catalogId": "oak-leaf-scarf",
+      "price": 20,
+      "currency": "leafTokens",
+      "purchaseLimit": 1,
+      "availability": "available"
+    },
+    {
+      "id": "shop-reading-lamp-cap",
+      "itemType": "accessory",
+      "catalogId": "reading-lamp-cap",
+      "price": 45,
+      "currency": "leafTokens",
+      "purchaseLimit": 1,
+      "availability": "available"
+    },
+    {
+      "id": "shop-demo-gold-cache",
+      "itemType": "currency",
+      "catalogId": "gold",
+      "price": 0,
+      "currency": "leafTokens",
+      "purchaseLimit": 1,
+      "availability": "demo-only",
+      "transactionMode": "local-demo"
+    },
+    {
+      "id": "shop-demo-diamond-cache",
+      "itemType": "currency",
+      "catalogId": "diamonds",
+      "price": 0,
+      "currency": "leafTokens",
+      "purchaseLimit": 1,
+      "availability": "demo-only",
+      "transactionMode": "local-demo"
+    },
+    {
+      "id": "shop-starlight-egg",
+      "itemType": "egg",
+      "catalogId": "starlight-egg",
+      "price": 90,
+      "currency": "leafTokens",
+      "purchaseLimit": 1,
+      "availability": "available"
+    }
   ],
-  "events": [{"id":"literary-lights","title":"Literary Lights","petId":"seasonal-phoenix","availability":"event-only","startsAt":"2026-11-01T00:00:00Z","endsAt":"2026-11-30T23:59:59Z"}],
+  "events": [
+    {
+      "id": "literary-lights",
+      "title": "Literary Lights",
+      "petId": "seasonal-phoenix",
+      "availability": "event-only",
+      "startsAt": "2026-11-01T00:00:00Z",
+      "endsAt": "2026-11-30T23:59:59Z"
+    }
+  ],
   "adPlacements": [
-    {"placementId":"after-quest","allowedPlan":"free","safePromotionalCopy":"Explore another short reading quest when you are ready.","disabledConditions":["premium-entitlement","ads-disabled-preference","child-targeting","sensitive-data-targeting"]},
-    {"placementId":"catalog-footer","allowedPlan":"free","safePromotionalCopy":"More reading paths are available in the catalog.","disabledConditions":["premium-entitlement","ads-disabled-preference","child-targeting","sensitive-data-targeting"]}
+    {
+      "placementId": "after-quest",
+      "allowedPlan": "free",
+      "safePromotionalCopy": "Explore another short reading quest when you are ready.",
+      "disabledConditions": [
+        "premium-entitlement",
+        "ads-disabled-preference",
+        "child-targeting",
+        "sensitive-data-targeting"
+      ]
+    },
+    {
+      "placementId": "catalog-footer",
+      "allowedPlan": "free",
+      "safePromotionalCopy": "More reading paths are available in the catalog.",
+      "disabledConditions": [
+        "premium-entitlement",
+        "ads-disabled-preference",
+        "child-targeting",
+        "sensitive-data-targeting"
+      ]
+    }
   ]
 }

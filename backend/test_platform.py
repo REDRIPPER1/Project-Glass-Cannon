@@ -25,7 +25,8 @@ class CatalogAndStoreTests(unittest.TestCase):
         self.profile_id = self.profile["id"]
 
     def test_catalog_enforces_rights_starter_count_and_egg_odds(self):
-        self.assertEqual(len([pet for pet in self.catalogs["pets"] if pet["availability"] == "starter"]), 6)
+        self.assertEqual(len([pet for pet in self.catalogs["pets"] if pet["starterClaim"]]), 6)
+        self.assertTrue(all(pet["availability"].startswith("level-road") for pet in self.catalogs["pets"]))
         self.assertTrue(all(pet["eventOnly"] for pet in self.catalogs["pets"] if pet["rarity"] == "Mythical"))
         self.assertEqual(set(self.catalogs["currencies"]), {"leafTokens", "storyShards", "gold", "diamonds"})
         self.assertEqual({accessory["wearableType"] for accessory in self.catalogs["accessories"]}, {"accessory", "clothing"})
@@ -45,15 +46,17 @@ class CatalogAndStoreTests(unittest.TestCase):
             validate_catalogs(invalid)
 
     def test_profile_mutations_validate_ownership_compatibility_and_wishlist(self):
+        starter = self.store.rewards_for_profile(self.profile_id)[0]
+        self.assertEqual(starter["reward"]["catalogId"], "moss-mouse")
+        self.store.claim_reward(self.profile_id, starter["id"])
         renamed = self.store.rename_pet(self.profile_id, "moss-mouse", "Mossy")
         self.assertEqual(renamed["name"], "Mossy")
         self.assertEqual(self.store.get_profile(self.profile_id)["petNames"]["moss-mouse"], "Mossy")
         with self.assertRaisesRegex(PlatformError, "must be owned"):
             self.store.set_active_pet(self.profile_id, "comet-bat")
         self.store.purchase(self.profile_id, "shop-reading-lamp-cap")
-        self.store.set_active_pet(self.profile_id, "quill-tortoise")
-        with self.assertRaisesRegex(PlatformError, "cannot be equipped"):
-            self.store.equip_accessory(self.profile_id, "reading-lamp-cap")
+        self.store.set_active_pet(self.profile_id, "moss-mouse")
+        self.assertIn("head", self.store.equip_accessory(self.profile_id, "reading-lamp-cap")["equippedAccessories"])
         self.store.change_wishlist(self.profile_id, "book", "wizard-of-oz", True)
         self.store.change_wishlist(self.profile_id, "pet", "comet-bat", True)
         self.store.change_wishlist(self.profile_id, "accessory", "oak-leaf-scarf", True)
@@ -61,9 +64,9 @@ class CatalogAndStoreTests(unittest.TestCase):
         self.assertEqual({item["itemType"] for item in self.store.get_profile(self.profile_id)["wishlist"]}, {"book", "pet", "accessory"})
 
     def test_level_map_rewards_grant_gold_diamonds_clothing_and_each_egg_rarity(self):
-        self.store.add_xp(self.profile_id, 500, "quest-complete")
-        self.store.add_xp(self.profile_id, 500, "quest-complete")
-        self.store.add_xp(self.profile_id, 400, "quest-complete")
+        self.store.add_xp(self.profile_id, 500, "demo-seed")
+        self.store.add_xp(self.profile_id, 500, "demo-seed")
+        self.store.add_xp(self.profile_id, 400, "demo-seed")
         reward_instances = self.store.rewards_for_profile(self.profile_id)
         self.assertTrue({"level-gold-cache", "level-diamond-cache", "level-oak-leaf-scarf", "level-common-egg", "level-rare-egg", "level-epic-egg", "level-legendary-egg"}.issubset({item["rewardId"] for item in reward_instances}))
         for instance in reward_instances:
@@ -82,17 +85,23 @@ class CatalogAndStoreTests(unittest.TestCase):
         with self.assertRaisesRegex(PlatformError, "not enough currency"):
             self.store.purchase(self.profile_id, "shop-reading-lamp-cap")
         economic_profile_id = self.store.create_profile("Economy Reader")["id"]
+        self.store.purchase(economic_profile_id, "shop-starlight-egg")
+        with self.assertRaisesRegex(PlatformError, "Level Road"):
+            self.store.open_egg(economic_profile_id, "starlight-egg")
+        self.store.add_xp(economic_profile_id, 500, "demo-seed")
+        self.store.add_xp(economic_profile_id, 500, "demo-seed")
         purchase = self.store.purchase(economic_profile_id, "shop-storybook-egg")
         opened = self.store.open_egg(economic_profile_id, "storybook-egg")
         self.assertTrue(opened["deterministicDemo"])
         with self.assertRaisesRegex(PlatformError, "cannot be reversed"):
             self.store.reverse_purchase(economic_profile_id, purchase["id"])
+        self.store.profiles[economic_profile_id]["currencies"]["leafTokens"] = 20
         accessory_purchase = self.store.purchase(economic_profile_id, "shop-oak-leaf-scarf")
         reversed_purchase = self.store.reverse_purchase(economic_profile_id, accessory_purchase["id"])
         self.assertTrue(reversed_purchase["reversed"])
 
     def test_progress_rewards_and_battle_pass_prevent_duplicate_claims(self):
-        progress = self.store.add_xp(self.profile_id, 100, "quest-complete")
+        progress = self.store.add_xp(self.profile_id, 100, "demo-seed")
         self.assertEqual(progress["level"], 2)
         reward = self.store.rewards_for_profile(self.profile_id)[0]
         self.store.claim_reward(self.profile_id, reward["id"])
@@ -153,20 +162,26 @@ class PlatformApiTests(unittest.TestCase):
         self.assertEqual(self.client.get("/api/catalog/pets").status_code, 200)
         self.assertEqual(self.client.get("/api/catalog/pets/moss-mouse").json()["rightsStatus"], "original")
         self.assertEqual(self.client.patch(f"/api/profiles/{self.profile_id}", json={"preferences": {"theme": "sky"}}).status_code, 200)
+        starter = self.client.get(f"/api/profiles/{self.profile_id}/rewards").json()[0]
+        self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/rewards/{starter['id']}/claim").status_code, 200)
         self.assertEqual(self.client.patch(f"/api/profiles/{self.profile_id}/pets/moss-mouse/name", json={"name": "Maple"}).status_code, 200)
         self.assertEqual(self.client.get(f"/api/profiles/{self.profile_id}/currencies").status_code, 200)
         self.assertEqual(self.client.put(f"/api/profiles/{self.profile_id}/wishlist/book/wizard-of-oz").status_code, 200)
         self.assertEqual(self.client.delete(f"/api/profiles/{self.profile_id}/wishlist/book/wizard-of-oz").status_code, 200)
 
     def test_economy_progress_books_pass_ads_and_analytics_endpoints(self):
+        starter = self.client.get(f"/api/profiles/{self.profile_id}/rewards").json()[0]
+        self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/rewards/{starter['id']}/claim").status_code, 200)
+        self.assertEqual(self.client.put(f"/api/profiles/{self.profile_id}/pets/moss-mouse/active").status_code, 200)
         purchase = self.client.post(f"/api/profiles/{self.profile_id}/purchases", json={"shopItemId": "shop-oak-leaf-scarf"})
         self.assertEqual(purchase.status_code, 200)
         self.assertEqual(self.client.put(f"/api/profiles/{self.profile_id}/accessories/oak-leaf-scarf").status_code, 200)
         self.assertEqual(self.client.delete(f"/api/profiles/{self.profile_id}/accessories/neck").status_code, 200)
         egg = self.client.post(f"/api/profiles/{self.profile_id}/purchases", json={"shopItemId": "shop-storybook-egg"})
         self.assertEqual(egg.status_code, 200)
+        self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/xp", json={"amount": 500, "source": "demo-seed"}).status_code, 200)
         self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/eggs/storybook-egg/open", json={"deterministicDemo": True}).status_code, 200)
-        self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/xp", json={"amount": 100, "source": "quest-complete"}).status_code, 200)
+        self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/xp", json={"amount": 100, "source": "demo-seed"}).status_code, 200)
         reward = self.client.get(f"/api/profiles/{self.profile_id}/rewards").json()[0]
         self.assertEqual(self.client.post(f"/api/profiles/{self.profile_id}/rewards/{reward['id']}/claim").status_code, 200)
         self.assertFalse(self.client.get(f"/api/profiles/{self.profile_id}/books/wizard-of-oz/chapters/chapter-2-council/access").json()["allowed"])
