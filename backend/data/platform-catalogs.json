@@ -1,19 +1,31 @@
 {
   "schemaVersion": 1,
   "currencies": [
+    "leafTokens",
+    "storyShards",
     "gold",
     "diamonds"
   ],
   "currencyDefinitions": [
     {
+      "id": "leafTokens",
+      "label": "Leaf Tokens",
+      "availability": "legacy-local-demo"
+    },
+    {
+      "id": "storyShards",
+      "label": "Story Shards",
+      "availability": "duplicate-pet-compensation"
+    },
+    {
       "id": "gold",
       "label": "Gold",
-      "availability": "level-road-and-local-demo"
+      "availability": "level-map-reward"
     },
     {
       "id": "diamonds",
       "label": "Diamonds",
-      "availability": "level-road-and-local-demo"
+      "availability": "level-map-reward"
     }
   ],
   "pets": [
@@ -250,7 +262,7 @@
       "wearableType": "clothing",
       "rarity": "Common",
       "price": 20,
-      "currency": "gold",
+      "currency": "leafTokens",
       "compatiblePetTypes": [
         "mouse",
         "bird",
@@ -273,7 +285,7 @@
       "wearableType": "accessory",
       "rarity": "Rare",
       "price": 45,
-      "currency": "gold",
+      "currency": "leafTokens",
       "compatiblePetTypes": [
         "mouse",
         "bird",
@@ -293,7 +305,7 @@
       "wearableType": "accessory",
       "rarity": "Rare",
       "price": 0,
-      "currency": "gold",
+      "currency": "leafTokens",
       "compatiblePetTypes": [
         "mouse",
         "bird",
@@ -317,7 +329,7 @@
       "wearableType": "clothing",
       "rarity": "Epic",
       "price": 0,
-      "currency": "gold",
+      "currency": "leafTokens",
       "compatiblePetTypes": [
         "bat",
         "dragon",
@@ -347,7 +359,7 @@
         "Legendary": 0.01
       },
       "price": 50,
-      "currency": "gold",
+      "currency": "leafTokens",
       "possibleRewards": {
         "Common": [
           "moss-mouse",
@@ -367,7 +379,7 @@
         ]
       },
       "duplicateBehavior": {
-        "currency": "diamonds",
+        "currency": "storyShards",
         "quantity": 30,
         "description": "A duplicate pet becomes 30 Story Shards; the duplicate pet is not added twice."
       },
@@ -384,7 +396,7 @@
         "Legendary": 0.25
       },
       "price": 90,
-      "currency": "gold",
+      "currency": "leafTokens",
       "possibleRewards": {
         "Epic": [
           "comet-bat"
@@ -394,7 +406,7 @@
         ]
       },
       "duplicateBehavior": {
-        "currency": "diamonds",
+        "currency": "storyShards",
         "quantity": 60,
         "description": "A duplicate pet becomes 60 Story Shards; the duplicate pet is not added twice."
       },
@@ -418,7 +430,7 @@
         ]
       },
       "duplicateBehavior": {
-        "currency": "diamonds",
+        "currency": "storyShards",
         "quantity": 20,
         "description": "A duplicate pet becomes 20 Story Shards; the duplicate pet is not added twice."
       },
@@ -442,7 +454,7 @@
         ]
       },
       "duplicateBehavior": {
-        "currency": "diamonds",
+        "currency": "storyShards",
         "quantity": 35,
         "description": "A duplicate pet becomes 35 Story Shards; the duplicate pet is not added twice."
       },
@@ -464,7 +476,7 @@
         ]
       },
       "duplicateBehavior": {
-        "currency": "diamonds",
+        "currency": "storyShards",
         "quantity": 50,
         "description": "A duplicate pet becomes 50 Story Shards; the duplicate pet is not added twice."
       },
@@ -486,7 +498,7 @@
         ]
       },
       "duplicateBehavior": {
-        "currency": "diamonds",
+        "currency": "storyShards",
         "quantity": 75,
         "description": "A duplicate pet becomes 75 Story Shards; the duplicate pet is not added twice."
       },
@@ -588,6 +600,15 @@
       "quantity": 1,
       "rarity": "Epic",
       "source": "premium-battle-pass",
+      "claimStatus": "unclaimed"
+    },
+    {
+      "id": "level-leaf-tokens",
+      "type": "currency",
+      "catalogId": "leafTokens",
+      "quantity": 25,
+      "rarity": "Common",
+      "source": "level-map",
       "claimStatus": "unclaimed"
     },
     {
@@ -706,24 +727,6 @@
       "rarity": "Rare",
       "source": "level-road-free-starter-claim",
       "claimStatus": "unclaimed"
-    },
-    {
-      "id": "quest-wishlist-page",
-      "type": "inventory",
-      "catalogId": "wishlist-page",
-      "quantity": 1,
-      "rarity": "Common",
-      "source": "eligible-quest",
-      "claimStatus": "unclaimed"
-    },
-    {
-      "id": "level-wishlist-page",
-      "type": "inventory",
-      "catalogId": "wishlist-page",
-      "quantity": 1,
-      "rarity": "Common",
-      "source": "level-road",
-      "claimStatus": "unclaimed"
     }
   ],
   "levelNodes": [
@@ -747,6 +750,7 @@
       ],
       "rewardIds": [
         "level-pet-page-finch",
+        "level-leaf-tokens",
         "level-gold-cache"
       ],
       "mapPosition": {
@@ -762,8 +766,7 @@
       ],
       "rewardIds": [
         "level-pet-quill-tortoise",
-        "level-diamond-cache",
-        "level-wishlist-page"
+        "level-diamond-cache"
       ],
       "mapPosition": {
         "x": 2,
@@ -918,7 +921,7 @@
       "itemType": "egg",
       "catalogId": "storybook-egg",
       "price": 50,
-      "currency": "gold",
+      "currency": "leafTokens",
       "purchaseLimit": 10,
       "availability": "available"
     },
@@ -927,7 +930,7 @@
       "itemType": "accessory",
       "catalogId": "oak-leaf-scarf",
       "price": 20,
-      "currency": "gold",
+      "currency": "leafTokens",
       "purchaseLimit": 1,
       "availability": "available"
     },
@@ -936,7 +939,7 @@
       "itemType": "accessory",
       "catalogId": "reading-lamp-cap",
       "price": 45,
-      "currency": "gold",
+      "currency": "leafTokens",
       "purchaseLimit": 1,
       "availability": "available"
     },
@@ -945,7 +948,7 @@
       "itemType": "currency",
       "catalogId": "gold",
       "price": 0,
-      "currency": "gold",
+      "currency": "leafTokens",
       "purchaseLimit": 1,
       "availability": "demo-only",
       "transactionMode": "local-demo"
@@ -955,7 +958,7 @@
       "itemType": "currency",
       "catalogId": "diamonds",
       "price": 0,
-      "currency": "gold",
+      "currency": "leafTokens",
       "purchaseLimit": 1,
       "availability": "demo-only",
       "transactionMode": "local-demo"
@@ -965,19 +968,9 @@
       "itemType": "egg",
       "catalogId": "starlight-egg",
       "price": 90,
-      "currency": "gold",
+      "currency": "leafTokens",
       "purchaseLimit": 1,
       "availability": "available"
-    },
-    {
-      "id": "shop-wishlist-page",
-      "itemType": "inventory",
-      "catalogId": "wishlist-page",
-      "price": 3,
-      "currency": "diamonds",
-      "purchaseLimit": 99,
-      "availability": "available",
-      "quantity": 1
     }
   ],
   "events": [
@@ -1012,42 +1005,6 @@
         "child-targeting",
         "sensitive-data-targeting"
       ]
-    }
-  ],
-  "walletMigration": {
-    "version": 1,
-    "legacyConversions": [
-      {
-        "from": "leafTokens",
-        "to": "gold",
-        "rate": "1:1"
-      },
-      {
-        "from": "storyShards",
-        "to": "diamonds",
-        "rate": "1:1"
-      }
-    ],
-    "note": "Applied once per local profile; no positive legacy balance is discarded."
-  },
-  "inventoryItems": [
-    {
-      "id": "wishlist-page",
-      "label": "Wishlist Page",
-      "description": "Collect five to redeem one eligible wishlisted book as permanent local ownership.",
-      "consumable": true
-    }
-  ],
-  "questRewardRules": [
-    {
-      "id": "eligible-quest-wishlist-page",
-      "questIds": [
-        "wizard-cyclone-inference",
-        "night-garden-main-idea",
-        "fix-it-fair-vocabulary"
-      ],
-      "rewardId": "quest-wishlist-page",
-      "requiresAwardedXp": true
     }
   ]
 }
