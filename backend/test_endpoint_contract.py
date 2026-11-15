@@ -157,6 +157,17 @@ class EndpointContractTests(unittest.TestCase):
         self.assertEqual(event["eventType"], "return_used")
         self.assertEqual(self._error_code(lambda: self.main.record_analytics(self.profile_id, {"eventType": "return_used", "properties": {"name": "not allowed"}})), "unsafe_analytics_properties")
 
+    def test_reading_basics_contract_is_optional_and_has_stable_offline_ids(self):
+        cards = self.main.list_reading_basics_lessons()
+        self.assertEqual(len(cards), 7)
+        self.assertTrue(all({"id", "version", "skill", "title", "explanation"}.issubset(card) for card in cards))
+        lesson = self.main.get_reading_basics_lesson("reading-basics-inference")
+        activity = lesson["activities"][0]
+        self.assertEqual(activity["type"], "prediction-path")
+        self.assertEqual(activity["source"]["rightsStatus"], "project-original")
+        self.assertTrue(activity["task"]["correctEvidenceSentenceIds"])
+        self.assertEqual(self._error_code(lambda: self.main.get_reading_basics_lesson("missing")), "reading_basics_lesson_not_found")
+
     def test_web_library_quest_xp_and_collection_contracts(self):
         books = self.main.list_web_books()
         self.assertGreaterEqual(len(books), 100)

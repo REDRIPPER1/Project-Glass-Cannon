@@ -13,6 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .book_catalog import BookCatalogError, load_quest_mappings
 from .catalog import CatalogError, load_catalogs
 from .progression import progression_definition
+from .reading_basics import lesson_summaries, load_reading_basics
 from .store import DemoStore, PlatformError, create_store
 
 app = FastAPI(
@@ -427,6 +428,40 @@ def get_quest_book_reference(quest_id: str):
     if mapping is None:
         raise HTTPException(status_code=404, detail={"code": "quest_book_mapping_not_found", "message": "This reviewed quest does not yet have a book mapping."})
     return mapping
+
+
+def _reading_basics_catalog() -> dict[str, object]:
+    try:
+        return load_reading_basics()
+    except (OSError, ValueError, json.JSONDecodeError) as error:
+        raise HTTPException(
+            status_code=503,
+            detail={
+                "code": "reading_basics_content_unavailable",
+                "message": "Reviewed Reading Basics content is temporarily unavailable.",
+            },
+        ) from error
+
+
+@app.get("/api/reading-basics/lessons", summary="List reviewed, offline-bundleable Reading Basics lessons")
+def list_reading_basics_lessons():
+    """Return compact cards; the browser may instead import the same reviewed JSON offline."""
+    _reading_basics_catalog()
+    return lesson_summaries()
+
+
+@app.get("/api/reading-basics/lessons/{lesson_id}", summary="Get one reviewed Reading Basics lesson")
+def get_reading_basics_lesson(lesson_id: str):
+    for lesson in _reading_basics_catalog()["lessons"]:
+        if lesson["id"] == lesson_id:
+            return lesson
+    raise HTTPException(
+        status_code=404,
+        detail={
+            "code": "reading_basics_lesson_not_found",
+            "message": f"No reviewed Reading Basics lesson exists with ID '{lesson_id}'.",
+        },
+    )
 
 
 # The APIs below are optional local-demo services. The browser remains able to
