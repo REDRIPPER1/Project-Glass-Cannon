@@ -78,6 +78,10 @@ class DemoStore:
         profile = self.profiles.get(profile_id)
         if profile is None:
             raise PlatformError("profile_not_found", "Anonymous profile was not found.", 404)
+        for currency in self.catalogs["currencies"]:
+            profile["currencies"].setdefault(currency, 0)
+        feature_flags = profile["entitlement"].setdefault("featureFlags", {})
+        feature_flags.setdefault("advancedVocabulary", feature_flags.get("expandedVocabulary", False))
         return profile
 
     def _catalog_item(self, catalog: dict[str, Any], item_id: str, item_type: str) -> dict[str, Any]:
@@ -100,7 +104,7 @@ class DemoStore:
             "displayName": name,
             "xp": 0,
             "level": 1,
-            "currencies": {"leafTokens": 150, "storyShards": 0},
+            "currencies": {"leafTokens": 150, "storyShards": 0, "gold": 0, "diamonds": 0},
             "activePetId": starters[0],
             "ownedPetIds": starters,
             "petNames": {},
@@ -135,6 +139,7 @@ class DemoStore:
             "featureFlags": {
                 "fullBooks": premium,
                 "expandedVocabulary": premium,
+                "advancedVocabulary": premium,
                 "advancedQuizzes": premium,
                 "premiumBattlePass": premium,
             },
@@ -287,13 +292,15 @@ class DemoStore:
 
     def _grant(self, profile: dict[str, Any], item_type: str, catalog_id: str, quantity: int) -> None:
         if item_type == "currency":
-            profile["currencies"][catalog_id] += quantity
+            profile["currencies"][catalog_id] = profile["currencies"].get(catalog_id, 0) + quantity
         elif item_type == "accessory":
             if catalog_id not in profile["ownedAccessoryIds"]:
                 profile["ownedAccessoryIds"].append(catalog_id)
         elif item_type == "pet":
             if catalog_id not in profile["ownedPetIds"]:
                 profile["ownedPetIds"].append(catalog_id)
+        elif item_type == "egg":
+            profile["eggInventory"][catalog_id] = profile["eggInventory"].get(catalog_id, 0) + quantity
         else:
             raise PlatformError("invalid_reward", "Reward has an unsupported item type.")
 
@@ -391,8 +398,13 @@ class DemoStore:
                 raise PlatformError("chapter_not_found", "Chapter metadata was not found.", 404)
             allowed = chapter["accessTier"] == "free-demo" or premium
         elif feature == "vocabulary":
-            allowed = book["vocabularyLevel"] == "basic" or profile["entitlement"]["featureFlags"]["expandedVocabulary"]
+            vocabulary_tier = chapter_id or "basic"
+            if vocabulary_tier not in {"basic", "advanced"}:
+                raise PlatformError("invalid_vocabulary_tier", "Vocabulary tier must be basic or advanced.")
+            allowed = vocabulary_tier == "basic" or profile["entitlement"]["featureFlags"]["advancedVocabulary"]
         elif feature == "quiz":
+            if chapter_id not in {"basic", "advanced"}:
+                raise PlatformError("invalid_quiz_difficulty", "Quiz difficulty must be basic or advanced.")
             allowed = chapter_id == "basic" or profile["entitlement"]["featureFlags"]["advancedQuizzes"]
         else:
             raise PlatformError("invalid_access_feature", "Access feature must be chapter, vocabulary, or quiz.")

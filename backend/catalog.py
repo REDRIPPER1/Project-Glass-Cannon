@@ -14,7 +14,7 @@ from typing import Any, TypedDict
 
 CATALOG_PATH = Path(__file__).resolve().parent / "data" / "platform-catalogs.json"
 VALID_RARITIES = frozenset({"Common", "Rare", "Epic", "Legendary", "Mythical"})
-VALID_CURRENCIES = frozenset({"leafTokens", "storyShards"})
+VALID_CURRENCIES = frozenset({"leafTokens", "storyShards", "gold", "diamonds"})
 
 
 class CatalogError(ValueError):
@@ -106,6 +106,14 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
     catalogs = _mapping(catalogs_value, "Catalogs")
     if catalogs.get("schemaVersion") != 1:
         raise CatalogError("Catalogs.schemaVersion must be 1")
+    if set(catalogs.get("currencies", [])) != VALID_CURRENCIES:
+        raise CatalogError("Catalogs must define the complete World currency set")
+    currency_definitions = _unique_ids(catalogs.get("currencyDefinitions"), "currency definitions")
+    if {definition["id"] for definition in currency_definitions} != VALID_CURRENCIES:
+        raise CatalogError("Currency definitions must match the complete World currency set")
+    for definition in currency_definitions:
+        _fields(definition, {"id", "label", "availability"}, f"currency {definition['id']}")
+        _text(definition["label"], f"currency {definition['id']} label")
 
     pets = _unique_ids(catalogs.get("pets"), "pets")
     if len([pet for pet in pets if pet.get("availability") == "starter"]) != 6:
@@ -133,7 +141,7 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
     for accessory in accessories:
         _fields(
             accessory,
-            {"id", "category", "rarity", "price", "currency", "compatiblePetTypes", "availability"},
+            {"id", "category", "wearableType", "rarity", "price", "currency", "compatiblePetTypes", "availability"},
             f"accessory {accessory['id']}",
         )
         _validate_rights(accessory, f"accessory {accessory['id']}", literary=False)
@@ -141,8 +149,11 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
             raise CatalogError(f"accessory {accessory['id']} has invalid rarity or currency")
         if not isinstance(accessory["price"], int) or accessory["price"] < 0:
             raise CatalogError(f"accessory {accessory['id']} has invalid price")
+        if accessory["wearableType"] not in {"accessory", "clothing"}:
+            raise CatalogError(f"accessory {accessory['id']} has invalid wearable type")
 
     eggs = _unique_ids(catalogs.get("eggs"), "eggs")
+    egg_ids = {row["id"] for row in eggs}
     for egg in eggs:
         _fields(
             egg,
@@ -182,6 +193,8 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
         _text(book.get("edition"), f"book {book['id']}.edition")
         if book["accessTier"] not in {"free-demo", "premium"}:
             raise CatalogError(f"book {book['id']} has invalid access tier")
+        if book["vocabularyLevel"] not in {"basic", "advanced"}:
+            raise CatalogError(f"book {book['id']} has invalid vocabulary level")
         if not isinstance(book["chapterMetadata"], list) or not book["chapterMetadata"]:
             raise CatalogError(f"book {book['id']} must list chapters")
         for chapter in book["chapterMetadata"]:
@@ -200,6 +213,10 @@ def validate_catalogs(catalogs_value: object) -> dict[str, Any]:
             raise CatalogError(f"reward {reward['id']} references unknown accessory")
         if reward["type"] == "currency" and reward["catalogId"] not in VALID_CURRENCIES:
             raise CatalogError(f"reward {reward['id']} references unknown currency")
+        if reward["type"] == "egg" and reward["catalogId"] not in egg_ids:
+            raise CatalogError(f"reward {reward['id']} references unknown egg")
+        if reward["type"] not in {"currency", "accessory", "egg", "pet"}:
+            raise CatalogError(f"reward {reward['id']} has an unsupported type")
 
     nodes = _unique_ids(catalogs.get("levelNodes"), "levelNodes")
     known_rewards = {reward["id"] for reward in rewards}
