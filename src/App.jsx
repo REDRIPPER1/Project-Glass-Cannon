@@ -48,6 +48,7 @@ import {
 import { PLATFORM_CATALOG, RARITY_COLORS, displayCurrency, petById, rewardById } from './utils/platformCatalog';
 import { bookAccessState, bookLevelNodes, chapterAccessState, libraryBooks, sourceReaderState } from './utils/bookLibrary';
 import { fullBookCatalog } from './utils/expandedBookCatalog';
+import { loadLibraryEnhancement } from './utils/libraryApi';
 import {
   coachFallback,
   dailyGoalStatus,
@@ -415,9 +416,9 @@ function PetAvatar({ pet, nickname, accessoryId }) {
   </figure>;
 }
 
-function BookLibraryScreen({ progress, quests, apiState, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
+function BookLibraryScreen({ progress, quests, apiState, catalogBooks, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
   const [view, setView] = useState('library');
-  const allBooks = useMemo(() => fullBookCatalog(PLATFORM_CATALOG.books), []);
+  const allBooks = useMemo(() => catalogBooks?.length ? catalogBooks : fullBookCatalog(PLATFORM_CATALOG.books), [catalogBooks]);
   const [selectedBookId, setSelectedBookId] = useState(() => { try { return window.sessionStorage.getItem('litlab.bookFocus') || allBooks[0]?.id || ''; } catch { return allBooks[0]?.id || ''; } });
   const [selectedLevel, setSelectedLevel] = useState(1);
   const visibleBooks = view === 'library' ? libraryBooks(allBooks, progress) : allBooks;
@@ -453,8 +454,9 @@ function BookLibraryScreen({ progress, quests, apiState, onUpdate, onStatus, onN
   </section>;
 }
 
-function RecommendedBookCard({ onNavigate }) {
-  const book = fullBookCatalog(PLATFORM_CATALOG.books)[0];
+function RecommendedBookCard({ onNavigate, catalogBooks, recommendations }) {
+  const catalog = catalogBooks?.length ? catalogBooks : fullBookCatalog(PLATFORM_CATALOG.books);
+  const book = catalog.find((item) => item.id === recommendations?.[0]?.bookId) || catalog[0];
   return <section className="recommended-book-card" aria-labelledby="recommended-book-title"><div><p className="eyebrow">Recommended book</p><h2 id="recommended-book-title">{book.title}</h2><p>{book.author} · {book.category || book.topic} · {'★'.repeat(book.difficulty || 1)}{'☆'.repeat(5 - (book.difficulty || 1))}</p></div><button className="primary-button" type="button" onClick={() => { try { window.sessionStorage.setItem('litlab.bookFocus', book.id); } catch { /* optional convenience only */ } onNavigate('books'); }}>Open book <span aria-hidden="true">→</span></button></section>;
 }
 
@@ -480,8 +482,8 @@ function PetCollectionScreen({ progress, onUpdate, onStatus }) {
   return <section className="feature-card platform-collection" aria-labelledby="pets-title"><div className="collection-hero"><div><p className="eyebrow">Companion milestones</p><h1 id="pets-title">Pets</h1><p>Companions unlock on the Level Road. Unlock one to name, equip, and customize it.</p></div></div><div className="pet-grid">{starterPets.map((pet) => { const milestone = PET_LEVEL_MILESTONES.find((item) => item.petId === pet.id); const owned = progress.ownedPetIds.includes(pet.id); const active = progress.activePetId === pet.id; return <article className={`pet-card ${active ? 'is-active' : ''}`} key={pet.id}><PetAvatar pet={pet} nickname={progress.petNicknames[pet.id]} /><span className="rarity-chip" style={{ color: RARITY_COLORS[pet.rarity] }}>{owned ? pet.rarity : `Unlocks at level ${milestone?.level || '—'}`}</span><h2>{progress.petNicknames[pet.id] || pet.name}</h2><p>{owned ? pet.description : `Locked until Level ${milestone?.level || '—'}. You are currently Level ${level}.`}</p><button className="secondary-button" type="button" disabled={!owned || active} onClick={() => { onUpdate((current) => equipPet(current, pet.id)); onStatus(`${pet.name} is now your active companion.`); }}>{active ? 'Active companion' : owned ? 'Choose pet' : 'Locked'}</button></article>; })}</div></section>;
 }
 
-function PlatformCollection({ section, progress, quests, apiState, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
-  if (section === 'books') return <BookLibraryScreen progress={progress} quests={quests} apiState={apiState} onUpdate={onUpdate} onStatus={onStatus} onNavigate={onNavigate} onLaunchQuest={onLaunchQuest} />;
+function PlatformCollection({ section, progress, quests, apiState, catalogBooks, onUpdate, onStatus, onNavigate, onLaunchQuest }) {
+  if (section === 'books') return <BookLibraryScreen progress={progress} quests={quests} apiState={apiState} catalogBooks={catalogBooks} onUpdate={onUpdate} onStatus={onStatus} onNavigate={onNavigate} onLaunchQuest={onLaunchQuest} />;
   const [nameDrafts, setNameDrafts] = useState({});
   const [selectedPassStop, setSelectedPassStop] = useState(PASS_STOPS[0].id);
   const activePet = petById(progress.activePetId) || PLATFORM_CATALOG.pets[0];
@@ -562,6 +564,7 @@ export default function App() {
   const [revealed, setRevealed] = useState(false);
   const [filters, setFilters] = useState({ search: '', topic: '', skill: '', difficulty: '', bookmarkOnly: false });
   const [apiState, setApiState] = useState({ kind: 'checking', label: 'Checking optional service…' });
+  const [libraryEnhancement, setLibraryEnhancement] = useState({ kind: 'loading', books: [], recommendations: [] });
   const [notice, setNotice] = useState('');
   const [showCelebration, setShowCelebration] = useState(true);
   const mainRef = useRef(null);
@@ -586,8 +589,11 @@ export default function App() {
     const controller = new AbortController();
     fetch('/api/health', { signal: controller.signal })
       .then((response) => response.ok ? response.json() : Promise.reject(new Error('Unavailable')))
-      .then((data) => setApiState({ kind: 'ready', label: data.status || 'Optional API available' }))
-      .catch((error) => { if (error.name !== 'AbortError') setApiState({ kind: 'offline', label: 'Offline demo mode — reviewed local quests are ready.' }); });
+      .then((data) => {
+        setApiState({ kind: 'ready', label: data.status || 'Optional API available' });
+        loadLibraryEnhancement().then((library) => setLibraryEnhancement({ kind: 'ready', ...library })).catch(() => setLibraryEnhancement({ kind: 'error', books: [], recommendations: [] }));
+      })
+      .catch((error) => { if (error.name !== 'AbortError') { setApiState({ kind: 'offline', label: 'Offline demo mode — reviewed local quests are ready.' }); setLibraryEnhancement({ kind: 'offline', books: [], recommendations: [] }); } })
     return () => controller.abort();
   }, []);
   useEffect(() => { saveProgress(progress); }, [progress]);
@@ -691,7 +697,7 @@ export default function App() {
           {filteredQuests.length ? <div className="library-grid">{filteredQuests.map((item) => <QuestCard key={item.id} quest={item} complete={isQuestComplete(progress, item.id)} bookmarked={progress.bookmarkedQuestIds.includes(item.id)} recommended={recommendation.quest?.id === item.id} progress={progress} onStart={launchQuest} onBookmark={(id) => setProgress((current) => toggleBookmark(current, id))} />)}</div> : <section className="empty-summary"><h2>No quests match those filters</h2><p>Clear a filter or bookmark a quest to bring it back into your library.</p><button className="secondary-button" type="button" onClick={() => setFilters({ search: '', topic: '', skill: '', difficulty: '', bookmarkOnly: false })}>Clear filters</button></section>}
           {unavailableCount > 0 && <section className="content-gate"><h2>{unavailableCount} quest{unavailableCount === 1 ? '' : 's'} unavailable</h2><p>They are hidden until source, rights, and sentence-evidence metadata are reviewed.</p></section>}
           <Guide accessory={progress.activeAccessoryId} message="Choose a quest, then look for the line that proves your idea." />
-          <RecommendedBookCard onNavigate={navigate} />
+          <RecommendedBookCard onNavigate={navigate} catalogBooks={libraryEnhancement.books} recommendations={libraryEnhancement.recommendations} />
         </section>}
         {screen === 'example' && content.ready && <section className="lesson-view narrow-view" aria-labelledby="example-title"><p className="eyebrow">{quest.title} · worked example</p><h1 id="example-title">{quest.workedExample.title || 'Try the evidence routine'}</h1><div className="routine-grid"><article><span>1</span><h2>Notice</h2><p>{quest.workedExample.notice}</p></article><article><span>2</span><h2>Think</h2><p>{quest.workedExample.think}</p></article><article><span>3</span><h2>Prove</h2><p>{quest.workedExample.prove}</p></article></div><div className="example-callout"><strong>Example answer:</strong> {quest.workedExample.answer}<br /><strong>Evidence:</strong> {quest.workedExample.evidence}</div><div className="button-row"><button className="primary-button" type="button" onClick={() => navigate('reading')}>Read the passage <span aria-hidden="true">→</span></button><button className="text-button" type="button" onClick={() => navigate('reading')}>Skip example</button></div><Guide accessory={progress.activeAccessoryId} message="First, watch the routine. Then you will try it yourself." /></section>}
         {screen === 'reading' && content.ready && <section className="reading-view" aria-labelledby="reading-title"><div className="reading-heading"><div><p className="eyebrow">{quest.skillTags.map(humanSkill).join(' + ')}</p><h1 id="reading-title">{quest.title}</h1><p>{quest.topic} · about {quest.readingTimeMinutes} minutes</p></div><div className="reading-meter" aria-label="Reading step complete"><span>Reading</span><strong>1 / 2</strong><i><b /></i></div></div><article className="passage-card" aria-label={`${quest.title} passage`}>{sentencesFor(quest).map((sentence) => <p key={sentence.id} id={`passage-${sentence.id}`}>{sentence.text}</p>)}</article><div className="reading-footer"><p>When you are ready, answer one question at a time and choose the sentence that supports your idea.</p><button className="primary-button" type="button" onClick={() => beginQuestion(0)}>Start questions <span aria-hidden="true">→</span></button></div><Guide accessory={progress.activeAccessoryId} mood="thoughtful" message="There is no speed bonus. Take the time you need to find the strongest clue." /></section>}
@@ -706,7 +712,7 @@ export default function App() {
         {screen === 'level-road' && <LevelRoad100 progress={progress} onNavigate={navigate} />}
         {screen === 'profile' && <ProfileScreen progress={progress} onNavigate={navigate} />}
         {screen === 'pets' && <PetCollectionScreen progress={progress} onUpdate={setProgress} onStatus={addStatus} />}
-        {['shop', 'pass', 'books'].includes(screen) && <PlatformCollection section={screen} progress={progress} quests={quests} apiState={apiState} onUpdate={setProgress} onStatus={addStatus} onNavigate={navigate} onLaunchQuest={launchQuest} />}
+        {['shop', 'pass', 'books'].includes(screen) && <PlatformCollection section={screen} progress={progress} quests={quests} apiState={apiState} catalogBooks={libraryEnhancement.books} onUpdate={setProgress} onStatus={addStatus} onNavigate={navigate} onLaunchQuest={launchQuest} />}
         {screen === 'settings' && <ControlsPanel progress={progress} onUpdate={updateSettings} onJudge={loadJudgeDemo} onReset={resetDemo} />}
         {screen === 'explore' && <FeatureLab progress={progress} quests={quests} onStatus={addStatus} onSetting={updateSettings} onUpdate={setProgress} />}
       </main>
